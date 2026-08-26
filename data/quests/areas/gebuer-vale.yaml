@@ -1,0 +1,52 @@
+schema_version: 1
+dataset: quests
+area: {id: gebuer-vale, name: Gebuer Vale, region: Iron Castle}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:gebuer-vale
+  retrieval_mirror: https://www.aowiki.uk/pages/area_gebuer-vale.html
+  rotten_birds_feather: https://angels.wikidot.com/quest:rotten-bird-s-feather
+  ring_of_caravan: https://angels.wikidot.com/quest:ring-of-caravan
+asmodeum_quest_refs: [asmodeum-steel-evil-student-union-leader]
+series_quest_refs: [steel-rotten-bird-research-strange-black-feather]
+quests:
+  - id: gebuer-vale-rotten-birds-feather
+    name: Rotten Bird‘s Feather
+    repeatable: true
+    category: repeatable
+    giver: {npc: null, area: Gebuer Vale, trigger: old totem, coordinates: [115, 45]}
+    requirements: {factions: [Steel], level: {min: 22, max: 35}, prerequisite_quests: [burning-desert-black-widow]}
+    rewards: {experience: 750, credit: 35}
+    objectives:
+      - {type: interact, target: old totem, area: Gebuer Vale, coordinates: [115, 45]}
+      - {type: collect_drop, target: Rotten Bird, item: Rotten Bird‘s Feather, count: 10, area: Gebuer Vale, drop_rate: null}
+      - {type: interact, target: old totem, area: Gebuer Vale, coordinates: [115, 45]}
+    walkthrough: ["After Black Widow, click the old totem at (115,45).", "Defeat Rotten Birds until you collect 10 Rotten Bird Feathers.", "Click the old totem at (115,45) again to complete the quest."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror, rotten_birds_feather]
+  - id: gebuer-vale-ring-of-caravan
+    name: Ring of Caravan
+    repeatable: false
+    category: single
+    giver: {npc: Desert Merchant, area: Burning Desert, coordinates: [26, 147]}
+    requirements: {factions: [Steel], prerequisite_quests: [gebuer-vale-rotten-birds-feather]}
+    rewards: {experience: 480, credit: 45}
+    objectives:
+      - {type: collect_drop, target: Gebuer, item: Unclaimed Ring, count: 1, area: Gebuer Vale, drop_rate: null}
+      - {type: talk, target: Desert Merchant, area: Burning Desert, coordinates: [26, 147], item_delivery: Unclaimed Ring}
+    walkthrough: ["After Rotten Bird's Feather, defeat Gebuers until you obtain an Unclaimed Ring.", "Take the ring to the Desert Merchant at (26,147) in Burning Desert."]
+    notes: ["The dedicated page lists Detecting Fountain as the next quest, linking this record into the later Gebuer proposal sequence."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror, ring_of_caravan]
+  - id: gebuer-vale-eternal-glory
+    name: Eternal Glory
+    repeatable: true
+    category: card
+    giver: {npc: Spy Lude, area: Gebuer Vale, coordinates: [82, 262]}
+    requirements: {factions: [Any]}
+    rewards: {items: [{name: Spy Lude Card}]}
+    objectives: [{type: obtain, item: Copper Monster Badge, count: 1}, {type: talk, target: Spy Lude, area: Gebuer Vale, coordinates: [82, 262], item_delivery: Copper Monster Badge}]
+    walkthrough: ["Bring one Copper Monster Badge to Spy Lude at (82,262) in Gebuer Vale."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
