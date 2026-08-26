@@ -11,6 +11,17 @@ source_scope:
   retrieval_mirror_rule: >-
     Use only when the mirrored page identifies its content as original angels.wikidot.com
     material. Record the mirror separately from source origin.
+  archive_recovery: "Internet Archive Wayback Machine"
+  archive_recovery_rule: >-
+    Use archived original angels.wikidot.com area:* or monster:* pages to fill historical
+    pages unavailable from the static mirror. Preserve the original URL, archive timestamp,
+    exact retrieval URL, and retrieval hash separately.
+  current_aowiki_client_database: excluded_from_historical_layer
+source_kinds:
+  angels_wiki_bestiary_mirror: historical_summary_retrieval
+  angels_wiki_area_mirror: historical_area_retrieval
+  angels_wiki_area_wayback: historical_area_archive_retrieval
+  angels_wiki_monster_wayback: historical_monster_archive_retrieval
 source_caveats:
   - >-
     Angels Wiki states that most monster images and statistics were based on files used by
@@ -23,8 +34,11 @@ source_caveats:
     The Alphabetic, By Area, By Level, and More Map views are independent historical
     observations. Conflicts between them are preserved rather than silently reconciled.
   - >-
-    Do not merge the newer AOWiki database into this historical snapshot without an
-    explicit separate provenance layer.
+    Current aowiki.uk monster pages identify themselves as client-derived 2026 data. They
+    are not substitutes for the historical monster:* pages and are excluded from this layer.
+  - >-
+    Missing mirror or archive retrieval is recorded as unavailable evidence, never converted
+    into a claim that a monster, area, or drop did not exist.
 query_requirements:
   - by_area
   - by_level
@@ -38,5 +52,10 @@ rate_semantics:
   derived_effective_rate: "Forbidden unless directly justified by target-version evidence."
 raw_value_policy: preserve_exactly
 normalized_value_policy: additive_only
+completeness_evidence:
+  derived_audit: data/bestiary/audit.yaml
+  mirror_crawl_report: data/bestiary/crawl-report.yaml
+  archived_area_report: data/bestiary/wayback-area-report.yaml
+  archived_monster_report: data/bestiary/wayback-monster-report.yaml
 verification:
   client_confirmation: pending
