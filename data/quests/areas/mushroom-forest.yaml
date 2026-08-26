@@ -1,0 +1,110 @@
+schema_version: 1
+dataset: quests
+area: {id: mushroom-forest, name: Mushroom Forest, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:mushroom-forest
+  sacral_praise: https://angels.wikidot.com/quest:sacral-praise
+  ancient_books: https://angels.wikidot.com/quest:ancient-books
+quests:
+  - id: mushroom-forest-good-spore-collection
+    name: Good Spore Collection
+    repeatable: true
+    category: repeatable
+    giver: {npc: Botany Assistant, area: Mushroom Forest, coordinates: [185, 54]}
+    requirements: {factions: [Beast], level: {min: 10, max: 25}}
+    rewards: {experience: 390, credit: 20}
+    objectives: [{type: collect_drop, target: Red Mushroom, item: Good Spore, count: 10, area: Mushroom Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Botany Assistant at (185,54).", "Defeat Red Mushrooms until you collect 10 Good Spores.", "Return to the Botany Assistant."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-venom-collection
+    name: Venom Collection
+    repeatable: true
+    category: repeatable
+    giver: {npc: Newbie wizard, area: Mushroom Forest, coordinates: [177, 51]}
+    requirements: {factions: [Beast], level: {min: 10, max: 25}}
+    rewards: {experience: 450, credit: 20}
+    objectives: [{type: collect_drop, target: Purple Mushroom, item: Purple Mushroom Venom, count: 10, area: Mushroom Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Newbie wizard at (177,51).", "Defeat Purple Mushrooms until you collect 10 Purple Mushroom Venom.", "Return to the Newbie wizard."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-golden-matsuake
+    name: Golden Matsuake
+    repeatable: false
+    category: series
+    series: {name: Tailman Pan series, position: 1, total: 4, next: mushroom-forest-disappeared-golden-matsuake}
+    giver: {npc: Tailman Pan, area: Mushroom Forest, coordinates: [211, 24]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 300, experience: 200, credit: 45}
+    objectives:
+      - {type: talk, target: Tailman Hei, area: Mushroom Forest, coordinates: [207, 238]}
+      - {type: talk, target: Tailman Fei, area: Mushroom Forest, coordinates: [37, 207]}
+    walkthrough: ["Speak with Tailman Pan at (211,24).", "Speak with Tailman Hei at (207,238) and Tailman Fei at (37,207) as directed.", "Return as directed by the quest chain."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-disappeared-golden-matsuake
+    name: Disappeared Golden Matsuake
+    repeatable: false
+    category: series
+    series: {name: Tailman Pan series, position: 2, total: 4, previous: mushroom-forest-golden-matsuake, next: mushroom-forest-boar-lord}
+    giver: {npc: Tailman Pan, area: Mushroom Forest, coordinates: [211, 24]}
+    requirements: {factions: [Beast], level: {min: 10, max: null}, prerequisite_quests: [mushroom-forest-golden-matsuake]}
+    rewards: {gold: 600, experience: 1040, credit: 50}
+    objectives: [{type: collect_drop, target: Mane Boar, item: Golden Matsuake, count: null, area: Mushroom Forest, drop_rate: null}]
+    walkthrough: ["Complete Golden Matsuake and speak with Tailman Pan.", "Defeat Mane Boars and recover the missing Golden Matsuake material.", "Return to Tailman Pan."]
+    notes: ["The currently retrieved area text does not expose the exact required item count."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-boar-lord
+    name: Boar Lord
+    repeatable: false
+    category: series
+    series: {name: Tailman Pan series, position: 3, total: 4, previous: mushroom-forest-disappeared-golden-matsuake, next: mushroom-forest-sacral-praise}
+    giver: {npc: Tailman Pan, area: Mushroom Forest, coordinates: [211, 24]}
+    requirements: {factions: [Beast], prerequisite_quests: [mushroom-forest-disappeared-golden-matsuake]}
+    rewards: {experience: 1520, credit: 360, items: [{name: null}]}
+    objectives: [{type: kill, target: Iron Mane Blaic, count: 1, area: Mushroom Forest, boss: true}]
+    walkthrough: ["Complete Disappeared Golden Matsuake.", "Defeat Iron Mane Blaic.", "Return to Tailman Pan."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-sacral-praise
+    name: Sacral Praise
+    repeatable: false
+    category: series
+    series: {name: Tailman Pan series, position: 4, total: 4, previous: mushroom-forest-boar-lord}
+    giver: {npc: Tailman Pan, area: Mushroom Forest, coordinates: [211, 24]}
+    requirements: {factions: [Beast], prerequisite_quests: [mushroom-forest-boar-lord]}
+    rewards: {experience: 400, credit: 25}
+    objectives: [{type: talk, target: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141], item_delivery: invitation}]
+    walkthrough: ["Speak with Tailman Pan after Boar Lord and receive the invitation.", "Travel to Cryptic Moon Swamp.", "Give the invitation to Shiwand at (202,141)."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, sacral_praise]
+  - id: mushroom-forest-hungry-robber
+    name: Hungry Robber
+    repeatable: false
+    category: series
+    series: {name: Robber Hork series, position: 1, total: 2, next: mushroom-forest-ancient-books}
+    giver: {npc: Robber Hork, area: Mushroom Forest, coordinates: [36, 48]}
+    requirements: {factions: [Beast], level: {min: 10, max: null}}
+    rewards: {experience: 1040, credit: 50}
+    objectives:
+      - {type: collect_drop, target: Red Mushroom, item: Mushroom Piece, count: null, area: Mushroom Forest, drop_rate: null}
+      - {type: collect_drop, target: Mane Boar, item: Pork Piece, count: null, area: Mushroom Forest, drop_rate: null}
+    walkthrough: ["Speak with Robber Hork at (36,48).", "Collect the required Mushroom Pieces from Red Mushrooms and Pork Pieces from Mane Boars.", "Return to Robber Hork."]
+    notes: ["The currently retrieved area text does not expose the two item counts."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: mushroom-forest-ancient-books
+    name: Ancient Books
+    repeatable: false
+    category: series
+    series: {name: Robber Hork series, position: 2, total: 2, previous: mushroom-forest-hungry-robber}
+    giver: {npc: Robber Hork, area: Mushroom Forest, coordinates: [36, 48]}
+    requirements: {factions: [Beast], prerequisite_quests: [mushroom-forest-hungry-robber]}
+    rewards: {experience: 400, credit: 20}
+    objectives: [{type: interact, target: library shelf, area: Breeze Woods, coordinates: [18, 122], item: Abyssal Saddness}]
+    walkthrough: ["Complete Hungry Robber and speak with Robber Hork.", "Travel to the Breeze Woods library.", "Interact with the shelf at (18,122) and obtain the ancient book 'Abyssal Saddness'.", "Return as directed by the quest."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, ancient_books]
