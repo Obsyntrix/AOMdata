@@ -1,0 +1,63 @@
+schema_version: 1
+dataset: quests
+area: {id: south-of-mirror-lake, name: South Of Mirror Lake, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:south-of-mirror-lake
+quests:
+  - id: south-of-mirror-lake-circus-tyrant
+    name: Circus Tyrant
+    repeatable: true
+    category: repeatable
+    giver: {npc: South Villager, area: South Of Mirror Lake, coordinates: [172, 64]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 950, credit: 40}
+    objectives: [{type: kill, target: Circus Tyrant, count: 40, area: South Of Mirror Lake}]
+    walkthrough: ["Speak with the South Villager at (172,64).", "Defeat 40 Circus Tyrants.", "Return to the South Villager."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: south-of-mirror-lake-reseize-captured-fish
+    name: Reseize Captured Fish
+    repeatable: true
+    category: repeatable
+    giver: {npc: South Villager, area: South Of Mirror Lake, coordinates: [172, 64]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 950, credit: 40}
+    objectives: [{type: collect_drop, target: Circus Tyrant, item: Fresh Fish stock, count: 5, area: South Of Mirror Lake, drop_rate: null}]
+    walkthrough: ["Speak with the South Villager.", "Defeat Circus Tyrants until you recover 5 Fresh Fish stocks.", "Return to the South Villager."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: south-of-mirror-lake-cursed-wood
+    name: Cursed Wood
+    repeatable: true
+    category: repeatable
+    giver: {npc: Timberjacker, area: South Of Mirror Lake, coordinates: [102, 53]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 900, credit: 39}
+    objectives: [{type: kill, target: Lake DeathWood, count: 40, area: South Of Mirror Lake}]
+    walkthrough: ["Speak with the Timberjacker at (102,53).", "Defeat 40 Lake DeathWoods.", "Return to the Timberjacker."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: south-of-mirror-lake-rebuilding-material
+    name: Rebuilding Material
+    repeatable: true
+    category: repeatable
+    giver: {npc: Timberjacker, area: South Of Mirror Lake, coordinates: [102, 53]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 900, credit: 39}
+    objectives: [{type: collect_drop, target: Lake DeathWood, item: Top-Quality Lumber, count: 5, area: South Of Mirror Lake, drop_rate: null}]
+    walkthrough: ["Speak with the Timberjacker.", "Defeat Lake DeathWoods until you collect 5 Top-Quality Lumber.", "Return to the Timberjacker."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: south-of-mirror-lake-finding-an-axe
+    name: Finding an Axe
+    repeatable: true
+    category: card
+    giver: {npc: Timberjacker, area: South Of Mirror Lake, coordinates: [102, 53]}
+    requirements: {}
+    rewards: {items: [{name: Timberjacker Card}]}
+    objectives: [{type: obtain, item: Timberjackeraxe, area: Angel Lyceum, count: 1}]
+    walkthrough: ["Speak with the Timberjacker.", "Go to Angel Lyceum and find the Timberjackeraxe.", "Return as directed to complete the card quest."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
