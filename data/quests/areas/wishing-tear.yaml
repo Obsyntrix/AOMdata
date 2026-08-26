@@ -1,0 +1,64 @@
+schema_version: 1
+dataset: quests
+area: {id: wishing-tear, name: Wishing Tear, region: Iron Castle}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:wishing-tear
+  retrieval_mirror: https://www.aowiki.uk/pages/area_wishing-tear.html
+  strange_robot: https://angels.wikidot.com/quest:strange-robot
+quests:
+  - {id: wishing-tear-rare-lizards-skin, name: Rare Lizard's Skin, repeatable: true, category: repeatable, giver: {npc: Desert Trip, area: Wishing Tear, coordinates: [83, 105]}, requirements: {factions: [Steel], level: {min: 6, max: 20}}, rewards: {experience: 320, credit: 10}, objectives: [{type: collect_drop, target: Desert Lizard, item: Lizard Skin, count: 10, area: Wishing Tear, drop_rate: null}], walkthrough: ["Speak with Desert Trip at (83,105).", "Defeat Desert Lizards until you collect 10 Lizard Skins.", "Return to Desert Trip."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: wishing-tear-rare-toads-skin, name: Rare Toad's Skin, repeatable: true, category: repeatable, giver: {npc: Desert Trip, area: Wishing Tear, coordinates: [83, 105]}, requirements: {factions: [Steel], level: {min: 6, max: 20}}, rewards: {experience: 320, credit: 10}, objectives: [{type: collect_drop, target: Ocher Toad, item: Toad Skin, count: 10, area: Wishing Tear, drop_rate: null}], walkthrough: ["Speak with Desert Trip.", "Defeat Ocher Toads until you collect 10 Toad Skins.", "Return to Desert Trip."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: wishing-tear-parts-and-desert-mouse, name: Parts and Desert Mouse, repeatable: true, category: repeatable, giver: {npc: Scrap Collector, area: Wishing Tear, coordinates: [23, 43]}, requirements: {factions: [Steel], level: {min: 6, max: null}}, rewards: {experience: 270, credit: 10}, objectives: [{type: collect_drop, target: Desert Mouse, item: Deserted part, count: 10, area: Wishing Tear, drop_rate: null}], walkthrough: ["Speak with the Scrap Collector at (23,43).", "Defeat Desert Mice until you collect 10 Deserted parts.", "Return to the Scrap Collector."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: wishing-tear-hunting, name: Hunting, repeatable: true, category: card, giver: {npc: Glutton, area: Wishing Tear, coordinates: [178, 103]}, requirements: {}, rewards: {items: [{name: Desert Game Card}]}, objectives: [{type: obtain, item: Newbie Bow, count: 1, source: Bow Seller or Shopkeeper}], walkthrough: ["Speak with Glutton at (178,103).", "Buy a Newbie Bow from a Bow Seller or Shopkeeper.", "Return as directed to complete the card quest."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: wishing-tear-travelers-worry, name: Traveler's Worry, repeatable: false, category: single, giver: {npc: Desert Merchant, area: Wishing Tear, coordinates: [134, 71]}, requirements: {factions: [Steel], level: {min: 6, max: null}}, rewards: {gold: 150, experience: 650, credit: 30}, objectives: [{type: kill, target: Desert Mouse, count: 20, area: Wishing Tear}], walkthrough: ["Speak with the Desert Merchant at (134,71).", "Defeat 20 Desert Mice.", "Return to the Desert Merchant."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: wishing-tear-wild-flavor, name: Wild Flavor, repeatable: false, category: single, giver: {npc: Glutton, area: Wishing Tear, coordinates: [178, 103]}, requirements: {factions: [Steel], level: {min: 6, max: null}}, rewards: {experience: 800, credit: 35}, objectives: [{type: kill, target: Desert Lizard, count: 20, area: Wishing Tear}], walkthrough: ["Speak with Glutton.", "Defeat 20 Desert Lizards for their meat.", "Return to Glutton."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: wishing-tear-testing-apparatus-of-water-resource
+    name: Testing Apparatus of Water Resource
+    repeatable: false
+    category: series
+    series: {name: Researcher Kente series, position: 1, total: 4, next: wishing-tear-experiment-of-desert-animals}
+    giver: {npc: Researcher Kente, area: Wishing Tear, coordinates: [148, 69]}
+    requirements: {factions: [Steel]}
+    rewards: {gold: 250, experience: 200, credit: 20}
+    objectives: [{type: talk, target: Researcher Along, area: Iron Castle, coordinates: null, item: testing gear}]
+    walkthrough: ["Speak with Researcher Kente at (148,69).", "Return to Iron Castle and obtain the testing gear from Researcher Along.", "Continue back to Kente as directed."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: wishing-tear-experiment-of-desert-animals
+    name: Experiment of Desert Animals
+    repeatable: false
+    category: series
+    series: {name: Researcher Kente series, position: 2, total: 4, previous: wishing-tear-testing-apparatus-of-water-resource, next: wishing-tear-strange-robot}
+    giver: {npc: Researcher Kente, area: Wishing Tear, coordinates: [148, 69]}
+    requirements: {factions: [Steel], level: {min: 6, max: null}, prerequisite_quests: [wishing-tear-testing-apparatus-of-water-resource]}
+    rewards: {experience: 850, credit: 40, items: [{name: Red Potion, count: 5}]}
+    objectives: [{type: kill, target: Ocher Toad, count: 10, area: Wishing Tear, collect_body: true}, {type: kill, target: Desert Lizard, count: 10, area: Wishing Tear, collect_body: true}]
+    walkthrough: ["Complete Testing Apparatus of Water Resource.", "Defeat 10 Ocher Toads and 10 Desert Lizards and collect their bodies.", "Return to Researcher Kente."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: wishing-tear-strange-robot
+    name: Strange Robot
+    repeatable: false
+    category: series
+    series: {name: Researcher Kente series, position: 3, total: 4, previous: wishing-tear-experiment-of-desert-animals, next: wishing-tear-genius-scientist}
+    giver: {npc: Researcher Kente, area: Wishing Tear, coordinates: [148, 69]}
+    requirements: {factions: [Steel], prerequisite_quests: [wishing-tear-experiment-of-desert-animals]}
+    rewards: {experience: 1150, credit: 160, items: [{name: null}]}
+    objectives: [{type: interact, target: metal, area: Wishing Tear, coordinates: [27, 10], action: summon Stained Robot}, {type: kill, target: Stained Robot, count: 1, area: Wishing Tear, boss: true}]
+    walkthrough: ["After Experiment of Desert Animals, go to the metal at (27,10).", "Interact with it to summon Stained Robot.", "Defeat Stained Robot and return to Researcher Kente."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror, strange_robot]
+  - id: wishing-tear-genius-scientist
+    name: Genius scientist
+    repeatable: false
+    category: series
+    series: {name: Researcher Kente series, position: 4, total: 4, previous: wishing-tear-strange-robot}
+    giver: {npc: Researcher Kente, area: Wishing Tear, coordinates: [148, 69]}
+    requirements: {factions: [Steel], prerequisite_quests: [wishing-tear-strange-robot]}
+    rewards: {experience: 400, credit: 20}
+    objectives: [{type: talk, target: Edison, area: Scrap Iron Village, coordinates: [198, 86], item_delivery: pollution results}]
+    walkthrough: ["Complete Strange Robot.", "Take the pollution results to Edison at (198,86) in Scrap Iron Village."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
