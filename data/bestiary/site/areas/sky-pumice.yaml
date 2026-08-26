@@ -1,0 +1,1543 @@
+area:
+  id: sky-pumice
+  name_raw: Sky Pumice
+  source:
+    origin_url: https://angels.wikidot.com/area:sky-pumice
+    retrieval_url: https://www.aowiki.uk/pages/area_sky-pumice.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: fecff31aa1ea75d888d1fc7cf404d114ff70ba5bc46a547037f1f8a468f8ed11
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: sky-pumice__herbivore__t003r0001
+  name_raw: Herbivore
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_herbivore.html
+  row_raw:
+    Monster Name: Herbivore
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__carnivore__t003r0002
+  name_raw: Carnivore
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_carnivore.html
+  row_raw:
+    Monster Name: Carnivore
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__violet-crab__t003r0003
+  name_raw: Violet Crab
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_violet-crab.html
+  row_raw:
+    Monster Name: Violet Crab
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__stinging-crab__t003r0004
+  name_raw: Stinging Crab
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stinging-crab.html
+  row_raw:
+    Monster Name: Stinging Crab
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__sword-worm__t003r0005
+  name_raw: Sword Worm
+  level_raw: '97'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sword-worm.html
+  row_raw:
+    Monster Name: Sword Worm
+    Level: '97'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 97
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__erosion-worm__t003r0006
+  name_raw: Erosion Worm
+  level_raw: '97'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_erosion-worm.html
+  row_raw:
+    Monster Name: Erosion Worm
+    Level: '97'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 97
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__colorful-bird__t003r0007
+  name_raw: Colorful Bird
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_colorful-bird.html
+  row_raw:
+    Monster Name: Colorful Bird
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__golden-sparrow__t003r0008
+  name_raw: Golden Sparrow
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_golden-sparrow.html
+  row_raw:
+    Monster Name: Golden Sparrow
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__stone-demon__t003r0009
+  name_raw: Stone Demon
+  level_raw: '105'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stone-demon.html
+  row_raw:
+    Monster Name: Stone Demon
+    Level: '105'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 105
+    boss: false
+    aggressive: true
+- area_occurrence_id: sky-pumice__bloody-stone-demon__t003r0010
+  name_raw: Bloody Stone Demon
+  level_raw: '105'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bloody-stone-demon.html
+  row_raw:
+    Monster Name: Bloody Stone Demon
+    Level: '105'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 105
+    boss: false
+    aggressive: true
+drops:
+- drop_id: sky-pumice__t006r0001
+  monster_name_raw: Bloody Stone Demon
+  item_name_raw: Dark Eagle Cap
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Stone Demon
+    Item: Dark Eagle Cap
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: sky-pumice__t006r0002
+  monster_name_raw: Bloody Stone Demon
+  item_name_raw: Desert Eagle Crista
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Stone Demon
+    Item: Desert Eagle Crista
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: sky-pumice__t006r0003
+  monster_name_raw: Bloody Stone Demon
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Stone Demon
+    Item: Orange Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: sky-pumice__t006r0004
+  monster_name_raw: Butcher Scott
+  item_name_raw: Butterfly Halbert
+  drop_share_raw: 3.0050%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Butterfly Halbert
+    Drop Share: 3.0050%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.005
+    quantity: 1
+- drop_id: sky-pumice__t006r0005
+  monster_name_raw: Butcher Scott
+  item_name_raw: Woods Armor
+  drop_share_raw: 3.0050%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Woods Armor
+    Drop Share: 3.0050%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.005
+    quantity: 1
+- drop_id: sky-pumice__t006r0006
+  monster_name_raw: Butcher Scott
+  item_name_raw: Coloris's Kiss
+  drop_share_raw: 0.0037%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Coloris's Kiss
+    Drop Share: 0.0037%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0037
+    quantity: 1
+- drop_id: sky-pumice__t006r0007
+  monster_name_raw: Butcher Scott
+  item_name_raw: Conqueror Armor
+  drop_share_raw: 0.0037%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Conqueror Armor
+    Drop Share: 0.0037%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0037
+    quantity: 1
+- drop_id: sky-pumice__t006r0008
+  monster_name_raw: Butcher Scott
+  item_name_raw: Tropical Fruit Dish
+  drop_share_raw: 0.0075%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Tropical Fruit Dish
+    Drop Share: 0.0075%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0075
+    quantity: 1
+- drop_id: sky-pumice__t006r0009
+  monster_name_raw: Butcher Scott
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0375%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Red Light Rune Piece
+    Drop Share: 0.0375%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0375
+    quantity: 1
+- drop_id: sky-pumice__t006r0010
+  monster_name_raw: Butcher Scott
+  item_name_raw: Quadruple Shot V
+  drop_share_raw: 0.0075%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Quadruple Shot V
+    Drop Share: 0.0075%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0075
+    quantity: 1
+- drop_id: sky-pumice__t006r0011
+  monster_name_raw: Butcher Scott
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: sky-pumice__t006r0012
+  monster_name_raw: Butcher Scott
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 45.4331%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Effective Agility Potion
+    Drop Share: 45.4331%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.4331
+    quantity: 1
+- drop_id: sky-pumice__t006r0013
+  monster_name_raw: Butcher Scott
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.0511%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Effective Magic Potion
+    Drop Share: 46.0511%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.0511
+    quantity: 1
+- drop_id: sky-pumice__t006r0014
+  monster_name_raw: Butcher Scott
+  item_name_raw: Butcher Scott Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Butcher Scott
+    Item: Butcher Scott Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: sky-pumice__t006r0015
+  monster_name_raw: Carnivore
+  item_name_raw: Woods Cuffs
+  drop_share_raw: 0.0186%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carnivore
+    Item: Woods Cuffs
+    Drop Share: 0.0186%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0186
+    quantity: 1
+- drop_id: sky-pumice__t006r0016
+  monster_name_raw: Carnivore
+  item_name_raw: Husk Shield
+  drop_share_raw: 0.0186%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carnivore
+    Item: Husk Shield
+    Drop Share: 0.0186%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0186
+    quantity: 1
+- drop_id: sky-pumice__t006r0017
+  monster_name_raw: Carnivore
+  item_name_raw: Conqueror Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carnivore
+    Item: Conqueror Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0018
+  monster_name_raw: Carnivore
+  item_name_raw: Diamond Beetle
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carnivore
+    Item: Diamond Beetle
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0019
+  monster_name_raw: Carnivore
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carnivore
+    Item: Flawless Emerald
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: sky-pumice__t006r0020
+  monster_name_raw: Colorful Bird
+  item_name_raw: Woods Armor
+  drop_share_raw: 0.0247%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Woods Armor
+    Drop Share: 0.0247%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0247
+    quantity: 1
+- drop_id: sky-pumice__t006r0021
+  monster_name_raw: Colorful Bird
+  item_name_raw: Wildness Helmet
+  drop_share_raw: 0.0247%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Wildness Helmet
+    Drop Share: 0.0247%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0247
+    quantity: 1
+- drop_id: sky-pumice__t006r0022
+  monster_name_raw: Colorful Bird
+  item_name_raw: Conqueror Armor
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Conqueror Armor
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0023
+  monster_name_raw: Colorful Bird
+  item_name_raw: Fighter Helmet
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Fighter Helmet
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0024
+  monster_name_raw: Colorful Bird
+  item_name_raw: Tropical Fruit Dish
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Tropical Fruit Dish
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: sky-pumice__t006r0025
+  monster_name_raw: Colorful Bird
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Flawless Purple Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: sky-pumice__t006r0026
+  monster_name_raw: Colorful Bird
+  item_name_raw: Card of Colorful Birds
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Colorful Bird
+    Item: Card of Colorful Birds
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: sky-pumice__t006r0027
+  monster_name_raw: Crown Claudia
+  item_name_raw: Wildness Helmet
+  drop_share_raw: 2.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Wildness Helmet
+    Drop Share: 2.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.4699
+    quantity: 1
+- drop_id: sky-pumice__t006r0028
+  monster_name_raw: Crown Claudia
+  item_name_raw: Magician Cap
+  drop_share_raw: 2.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Magician Cap
+    Drop Share: 2.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.4699
+    quantity: 1
+- drop_id: sky-pumice__t006r0029
+  monster_name_raw: Crown Claudia
+  item_name_raw: Fighter Helmet
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Fighter Helmet
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: sky-pumice__t006r0030
+  monster_name_raw: Crown Claudia
+  item_name_raw: Dream Saint Hat
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Dream Saint Hat
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: sky-pumice__t006r0031
+  monster_name_raw: Crown Claudia
+  item_name_raw: Blue Bird
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Blue Bird
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: sky-pumice__t006r0032
+  monster_name_raw: Crown Claudia
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0783%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Flawless Orange Gem
+    Drop Share: 0.0783%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0783
+    quantity: 1
+- drop_id: sky-pumice__t006r0033
+  monster_name_raw: Crown Claudia
+  item_name_raw: Defence Wall V
+  drop_share_raw: 0.0078%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Defence Wall V
+    Drop Share: 0.0078%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0078
+    quantity: 1
+- drop_id: sky-pumice__t006r0034
+  monster_name_raw: Crown Claudia
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: sky-pumice__t006r0035
+  monster_name_raw: Crown Claudia
+  item_name_raw: Great Mighty Fruit
+  drop_share_raw: 46.1724%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Great Mighty Fruit
+    Drop Share: 46.1724%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.1724
+    quantity: 1
+- drop_id: sky-pumice__t006r0036
+  monster_name_raw: Crown Claudia
+  item_name_raw: Great Magic Potion
+  drop_share_raw: 46.5990%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Great Magic Potion
+    Drop Share: 46.5990%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.599
+    quantity: 1
+- drop_id: sky-pumice__t006r0037
+  monster_name_raw: Crown Claudia
+  item_name_raw: Card of Crown Claudia
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crown Claudia
+    Item: Card of Crown Claudia
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: sky-pumice__t006r0038
+  monster_name_raw: Erosion Worm
+  item_name_raw: Wildness Cuffs
+  drop_share_raw: 0.0219%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Erosion Worm
+    Item: Wildness Cuffs
+    Drop Share: 0.0219%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0219
+    quantity: 1
+- drop_id: sky-pumice__t006r0039
+  monster_name_raw: Erosion Worm
+  item_name_raw: Magician Boots
+  drop_share_raw: 0.0219%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Erosion Worm
+    Item: Magician Boots
+    Drop Share: 0.0219%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0219
+    quantity: 1
+- drop_id: sky-pumice__t006r0040
+  monster_name_raw: Erosion Worm
+  item_name_raw: Fighter Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Erosion Worm
+    Item: Fighter Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0041
+  monster_name_raw: Erosion Worm
+  item_name_raw: Dream Saint Shoes
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Erosion Worm
+    Item: Dream Saint Shoes
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0042
+  monster_name_raw: Erosion Worm
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Erosion Worm
+    Item: Flawless Purple Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: sky-pumice__t006r0043
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Wildness Armor
+  drop_share_raw: 0.0247%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Wildness Armor
+    Drop Share: 0.0247%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0247
+    quantity: 1
+- drop_id: sky-pumice__t006r0044
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Magician Gown
+  drop_share_raw: 0.0247%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Magician Gown
+    Drop Share: 0.0247%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0247
+    quantity: 1
+- drop_id: sky-pumice__t006r0045
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Fighter Armor
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Fighter Armor
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0046
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Dream Saint Gown
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Dream Saint Gown
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0047
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Ice Leopard
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Ice Leopard
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: sky-pumice__t006r0048
+  monster_name_raw: Golden Sparrow
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Sparrow
+    Item: Flawless Orange Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: sky-pumice__t006r0049
+  monster_name_raw: Herbivore
+  item_name_raw: Woods Cuffs
+  drop_share_raw: 0.0186%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Herbivore
+    Item: Woods Cuffs
+    Drop Share: 0.0186%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0186
+    quantity: 1
+- drop_id: sky-pumice__t006r0050
+  monster_name_raw: Herbivore
+  item_name_raw: Husk Shield
+  drop_share_raw: 0.0186%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Herbivore
+    Item: Husk Shield
+    Drop Share: 0.0186%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0186
+    quantity: 1
+- drop_id: sky-pumice__t006r0051
+  monster_name_raw: Herbivore
+  item_name_raw: Conqueror Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Herbivore
+    Item: Conqueror Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0052
+  monster_name_raw: Herbivore
+  item_name_raw: Diamond Beetle
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Herbivore
+    Item: Diamond Beetle
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0053
+  monster_name_raw: Herbivore
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Herbivore
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: sky-pumice__t006r0054
+  monster_name_raw: Soul Spencer
+  item_name_raw: Evil Epee
+  drop_share_raw: 3.1900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Evil Epee
+    Drop Share: 3.1900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.19
+    quantity: 1
+- drop_id: sky-pumice__t006r0055
+  monster_name_raw: Soul Spencer
+  item_name_raw: Wildness Armor
+  drop_share_raw: 3.1900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Wildness Armor
+    Drop Share: 3.1900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.19
+    quantity: 1
+- drop_id: sky-pumice__t006r0056
+  monster_name_raw: Soul Spencer
+  item_name_raw: Satan's Eye
+  drop_share_raw: 0.0040%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Satan's Eye
+    Drop Share: 0.0040%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.004
+    quantity: 1
+- drop_id: sky-pumice__t006r0057
+  monster_name_raw: Soul Spencer
+  item_name_raw: Fighter Armor
+  drop_share_raw: 0.0040%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Fighter Armor
+    Drop Share: 0.0040%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.004
+    quantity: 1
+- drop_id: sky-pumice__t006r0058
+  monster_name_raw: Soul Spencer
+  item_name_raw: Ice Leopard
+  drop_share_raw: 0.0080%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Ice Leopard
+    Drop Share: 0.0080%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.008
+    quantity: 1
+- drop_id: sky-pumice__t006r0059
+  monster_name_raw: Soul Spencer
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 0.0399%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Orange Light Rune Piece
+    Drop Share: 0.0399%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0399
+    quantity: 1
+- drop_id: sky-pumice__t006r0060
+  monster_name_raw: Soul Spencer
+  item_name_raw: Death Chop V
+  drop_share_raw: 0.0080%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Death Chop V
+    Drop Share: 0.0080%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.008
+    quantity: 1
+- drop_id: sky-pumice__t006r0061
+  monster_name_raw: Soul Spencer
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: sky-pumice__t006r0062
+  monster_name_raw: Soul Spencer
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 45.1669%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Effective Evil Fruit
+    Drop Share: 45.1669%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.1669
+    quantity: 1
+- drop_id: sky-pumice__t006r0063
+  monster_name_raw: Soul Spencer
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.3159%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Spencer
+    Item: Effective Magic Potion
+    Drop Share: 46.3159%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.3159
+    quantity: 1
+- drop_id: sky-pumice__t006r0064
+  monster_name_raw: Stinging Crab
+  item_name_raw: Woods Cuffs
+  drop_share_raw: 0.0201%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Woods Cuffs
+    Drop Share: 0.0201%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0201
+    quantity: 1
+- drop_id: sky-pumice__t006r0065
+  monster_name_raw: Stinging Crab
+  item_name_raw: Wildness Cuffs
+  drop_share_raw: 0.0201%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Wildness Cuffs
+    Drop Share: 0.0201%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0201
+    quantity: 1
+- drop_id: sky-pumice__t006r0066
+  monster_name_raw: Stinging Crab
+  item_name_raw: Conqueror Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Conqueror Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0067
+  monster_name_raw: Stinging Crab
+  item_name_raw: Fighter Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Fighter Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0068
+  monster_name_raw: Stinging Crab
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: sky-pumice__t006r0069
+  monster_name_raw: Stinging Crab
+  item_name_raw: Card of Stinging Crab
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stinging Crab
+    Item: Card of Stinging Crab
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: sky-pumice__t006r0070
+  monster_name_raw: Stone Demon
+  item_name_raw: Battle Horn Cuffs
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stone Demon
+    Item: Battle Horn Cuffs
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: sky-pumice__t006r0071
+  monster_name_raw: Stone Demon
+  item_name_raw: Steel Horn Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stone Demon
+    Item: Steel Horn Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: sky-pumice__t006r0072
+  monster_name_raw: Stone Demon
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stone Demon
+    Item: Red Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: sky-pumice__t006r0073
+  monster_name_raw: Sword Worm
+  item_name_raw: Woods Boots
+  drop_share_raw: 0.0219%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Worm
+    Item: Woods Boots
+    Drop Share: 0.0219%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0219
+    quantity: 1
+- drop_id: sky-pumice__t006r0074
+  monster_name_raw: Sword Worm
+  item_name_raw: Wildness Boots
+  drop_share_raw: 0.0219%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Worm
+    Item: Wildness Boots
+    Drop Share: 0.0219%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0219
+    quantity: 1
+- drop_id: sky-pumice__t006r0075
+  monster_name_raw: Sword Worm
+  item_name_raw: Conqueror Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Worm
+    Item: Conqueror Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0076
+  monster_name_raw: Sword Worm
+  item_name_raw: Fighter Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Worm
+    Item: Fighter Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0077
+  monster_name_raw: Sword Worm
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Worm
+    Item: Flawless Ruby
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: sky-pumice__t006r0078
+  monster_name_raw: Violet Crab
+  item_name_raw: Magician Gloves
+  drop_share_raw: 0.0201%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Crab
+    Item: Magician Gloves
+    Drop Share: 0.0201%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0201
+    quantity: 1
+- drop_id: sky-pumice__t006r0079
+  monster_name_raw: Violet Crab
+  item_name_raw: Dragon's Scale Mantle
+  drop_share_raw: 0.0201%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Crab
+    Item: Dragon's Scale Mantle
+    Drop Share: 0.0201%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0201
+    quantity: 1
+- drop_id: sky-pumice__t006r0080
+  monster_name_raw: Violet Crab
+  item_name_raw: Dream Saint Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Crab
+    Item: Dream Saint Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0081
+  monster_name_raw: Violet Crab
+  item_name_raw: Magic Dragon's Wings
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Crab
+    Item: Magic Dragon's Wings
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: sky-pumice__t006r0082
+  monster_name_raw: Violet Crab
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Crab
+    Item: Flawless Sapphire
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Crown Claudia
+  - '95'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 82

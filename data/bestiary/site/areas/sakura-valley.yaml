@@ -1,0 +1,1648 @@
+area:
+  id: sakura-valley
+  name_raw: Sakura Valley
+  source:
+    origin_url: https://angels.wikidot.com/area:sakura-valley
+    retrieval_url: https://www.aowiki.uk/pages/area_sakura-valley.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 71aba655020bf286270c5fcbb4c821b6aef86667b3359d2ae261dfc5e8b72d4d
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: sakura-valley__toxic-earth-sprite__t002r0001
+  name_raw: Toxic Earth Sprite
+  level_raw: '170'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_toxic-earth-sprite.html
+  row_raw:
+    Monster Name: Toxic Earth Sprite
+    Level: '170'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 170
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__moss-sprite__t002r0002
+  name_raw: Moss Sprite
+  level_raw: '170'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_moss-sprite.html
+  row_raw:
+    Monster Name: Moss Sprite
+    Level: '170'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 170
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__fragrant-bugtrap__t002r0003
+  name_raw: Fragrant Bugtrap
+  level_raw: '172'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fragrant-bugtrap.html
+  row_raw:
+    Monster Name: Fragrant Bugtrap
+    Level: '172'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 172
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__green-pitcher__t002r0004
+  name_raw: Green Pitcher
+  level_raw: '172'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_green-pitcher.html
+  row_raw:
+    Monster Name: Green Pitcher
+    Level: '172'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 172
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__crandeer__t002r0005
+  name_raw: Crandeer
+  level_raw: '174'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crandeer.html
+  row_raw:
+    Monster Name: Crandeer
+    Level: '174'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 174
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__bearded-deer__t002r0006
+  name_raw: Bearded Deer
+  level_raw: '174'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bearded-deer.html
+  row_raw:
+    Monster Name: Bearded Deer
+    Level: '174'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 174
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__twin-candle-ghost__t002r0007
+  name_raw: Twin Candle Ghost
+  level_raw: '176'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_twin-candle-ghost.html
+  row_raw:
+    Monster Name: Twin Candle Ghost
+    Level: '176'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 176
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__orange-kitty__t002r0008
+  name_raw: Orange Kitty
+  level_raw: '176'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_orange-kitty.html
+  row_raw:
+    Monster Name: Orange Kitty
+    Level: '176'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 176
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__pink-kitty__t002r0009
+  name_raw: Pink Kitty
+  level_raw: '178'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pink-kitty.html
+  row_raw:
+    Monster Name: Pink Kitty
+    Level: '178'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 178
+    boss: false
+    aggressive: false
+- area_occurrence_id: sakura-valley__kappa-bandit__t002r0010
+  name_raw: Kappa Bandit
+  level_raw: '178'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_kappa-bandit.html
+  row_raw:
+    Monster Name: Kappa Bandit
+    Level: '178'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 178
+    boss: false
+    aggressive: false
+drops:
+- drop_id: sakura-valley__t006r0001
+  monster_name_raw: Bearded Deer
+  item_name_raw: Mechanical Shield
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Mechanical Shield
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0002
+  monster_name_raw: Bearded Deer
+  item_name_raw: Good Mechanical Shield
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Good Mechanical Shield
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0003
+  monster_name_raw: Bearded Deer
+  item_name_raw: Hot Wheel
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Hot Wheel
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0004
+  monster_name_raw: Bearded Deer
+  item_name_raw: Butterfly Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Butterfly Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0005
+  monster_name_raw: Bearded Deer
+  item_name_raw: Good Butterfly Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Good Butterfly Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0006
+  monster_name_raw: Bearded Deer
+  item_name_raw: Hunting Tribe Cap
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Hunting Tribe Cap
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0007
+  monster_name_raw: Bearded Deer
+  item_name_raw: Amethyst Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bearded Deer
+    Item: Amethyst Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0008
+  monster_name_raw: Crandeer
+  item_name_raw: Demon's Blade
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crandeer
+    Item: Demon's Blade
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0009
+  monster_name_raw: Crandeer
+  item_name_raw: Good Demon's Blade
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crandeer
+    Item: Good Demon's Blade
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0010
+  monster_name_raw: Crandeer
+  item_name_raw: Demon's Blood Sacrifice
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crandeer
+    Item: Demon's Blood Sacrifice
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0011
+  monster_name_raw: Crandeer
+  item_name_raw: Sapphire Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crandeer
+    Item: Sapphire Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0012
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Ice Crystal Bow
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Ice Crystal Bow
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0013
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Good Ice Crystal Bow
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Good Ice Crystal Bow
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0014
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Wind Soaring
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Wind Soaring
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0015
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Springtide Wristlet 180
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Springtide Wristlet 180
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0016
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Good Springtide Wristlet 180
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Good Springtide Wristlet 180
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0017
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Flaming Cuffs
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Flaming Cuffs
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0018
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Heavy Armor Triceratops
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Heavy Armor Triceratops
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0019
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Earth Creation Robert
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Earth Creation Robert
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0020
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Pure Sapphire Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Pure Sapphire Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0021
+  monster_name_raw: Dancer Mizzy
+  item_name_raw: Pestle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancer Mizzy
+    Item: Pestle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0022
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Fork Staff
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Fork Staff
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0023
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Good Fork Staff
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Good Fork Staff
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0024
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Ancient Demon Sound
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Ancient Demon Sound
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0025
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Phoenix Wristlet
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Phoenix Wristlet
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0026
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Good Phoenix Wristlet
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Good Phoenix Wristlet
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0027
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Maple Red Wristlet
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Maple Red Wristlet
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0028
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Vegetarian Swift Dragon
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Vegetarian Swift Dragon
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0029
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Clear Robert
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Clear Robert
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0030
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Malachite Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Malachite Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0031
+  monster_name_raw: Flower Princess Ruri
+  item_name_raw: Pestle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Princess Ruri
+    Item: Pestle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0032
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Butterfly Coat
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Butterfly Coat
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0033
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Good Butterfly Coat
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Good Butterfly Coat
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0034
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Hunting Tribe Coat
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Hunting Tribe Coat
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0035
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Phoenix Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Phoenix Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0036
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Good Phoenix Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Good Phoenix Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0037
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Maple Red Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Maple Red Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0038
+  monster_name_raw: Fragrant Bugtrap
+  item_name_raw: Gold Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fragrant Bugtrap
+    Item: Gold Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0039
+  monster_name_raw: Green Pitcher
+  item_name_raw: Overlord Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Overlord Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0040
+  monster_name_raw: Green Pitcher
+  item_name_raw: Good Overlord Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Good Overlord Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0041
+  monster_name_raw: Green Pitcher
+  item_name_raw: Soaring Wing
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Soaring Wing
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0042
+  monster_name_raw: Green Pitcher
+  item_name_raw: Phoenix Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Phoenix Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0043
+  monster_name_raw: Green Pitcher
+  item_name_raw: Good Phoenix Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Good Phoenix Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0044
+  monster_name_raw: Green Pitcher
+  item_name_raw: Maple Red Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Maple Red Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0045
+  monster_name_raw: Green Pitcher
+  item_name_raw: Malachite Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Pitcher
+    Item: Malachite Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0046
+  monster_name_raw: Kappa Bandit
+  item_name_raw: Magic Wing Sword
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Kappa Bandit
+    Item: Magic Wing Sword
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0047
+  monster_name_raw: Kappa Bandit
+  item_name_raw: Good Magic Wing Sword
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Kappa Bandit
+    Item: Good Magic Wing Sword
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0048
+  monster_name_raw: Kappa Bandit
+  item_name_raw: Dead Soul's Wing
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Kappa Bandit
+    Item: Dead Soul's Wing
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0049
+  monster_name_raw: Kappa Bandit
+  item_name_raw: Malachite Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Kappa Bandit
+    Item: Malachite Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0050
+  monster_name_raw: Moss Sprite
+  item_name_raw: Hidden Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Hidden Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0051
+  monster_name_raw: Moss Sprite
+  item_name_raw: Good Hidden Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Good Hidden Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0052
+  monster_name_raw: Moss Sprite
+  item_name_raw: Night Goblin's Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Night Goblin's Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0053
+  monster_name_raw: Moss Sprite
+  item_name_raw: Radiation Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Radiation Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0054
+  monster_name_raw: Moss Sprite
+  item_name_raw: Good Radiation Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Good Radiation Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0055
+  monster_name_raw: Moss Sprite
+  item_name_raw: Stirring Crystal Leggings
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Stirring Crystal Leggings
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0056
+  monster_name_raw: Moss Sprite
+  item_name_raw: Broken Orange Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moss Sprite
+    Item: Broken Orange Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0057
+  monster_name_raw: Orange Kitty
+  item_name_raw: Fang Pendant
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Fang Pendant
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0058
+  monster_name_raw: Orange Kitty
+  item_name_raw: Good Fang Pendant
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Good Fang Pendant
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0059
+  monster_name_raw: Orange Kitty
+  item_name_raw: Ancient Dragon Teeth
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Ancient Dragon Teeth
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0060
+  monster_name_raw: Orange Kitty
+  item_name_raw: Phoenix Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Phoenix Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0061
+  monster_name_raw: Orange Kitty
+  item_name_raw: Good Phoenix Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Good Phoenix Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0062
+  monster_name_raw: Orange Kitty
+  item_name_raw: Maple Red Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Maple Red Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0063
+  monster_name_raw: Orange Kitty
+  item_name_raw: Amber Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orange Kitty
+    Item: Amber Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0064
+  monster_name_raw: Pink Kitty
+  item_name_raw: Dragon hammer
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Dragon hammer
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0065
+  monster_name_raw: Pink Kitty
+  item_name_raw: Good Dragon hammer
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Good Dragon hammer
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0066
+  monster_name_raw: Pink Kitty
+  item_name_raw: Dragon Claw-Hammer
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Dragon Claw-Hammer
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0067
+  monster_name_raw: Pink Kitty
+  item_name_raw: Crystal Steel Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Crystal Steel Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0068
+  monster_name_raw: Pink Kitty
+  item_name_raw: Good Crystal Steel Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Good Crystal Steel Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0069
+  monster_name_raw: Pink Kitty
+  item_name_raw: Ice Sealed Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Ice Sealed Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0070
+  monster_name_raw: Pink Kitty
+  item_name_raw: Gold Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Kitty
+    Item: Gold Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0071
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Fin Spear
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Fin Spear
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0072
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Good Fin Spear
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Good Fin Spear
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0073
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Disorder Dragon Scale
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Disorder Dragon Scale
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0074
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Lotus Heavy Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Lotus Heavy Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0075
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Good Lotus Heavy Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Good Lotus Heavy Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0076
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Magic Blade Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Magic Blade Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0077
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Robot Of Beauty Crab
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Robot Of Beauty Crab
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0078
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Pure Amethyst Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Pure Amethyst Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0079
+  monster_name_raw: Sumo Wrestler Kichisuke
+  item_name_raw: Pestle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sumo Wrestler Kichisuke
+    Item: Pestle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0080
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Radiation Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Radiation Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0081
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Good Radiation Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Good Radiation Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0082
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Stirring Crystal Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Stirring Crystal Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0083
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Prayer Gown
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Prayer Gown
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0084
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Good Prayer Gown
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Good Prayer Gown
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0085
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Crazy Bee's Gown
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Crazy Bee's Gown
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0086
+  monster_name_raw: Toxic Earth Sprite
+  item_name_raw: Broken Ruby Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Toxic Earth Sprite
+    Item: Broken Ruby Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0087
+  monster_name_raw: Twin Candle Ghost
+  item_name_raw: Blade Slay
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Twin Candle Ghost
+    Item: Blade Slay
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0088
+  monster_name_raw: Twin Candle Ghost
+  item_name_raw: Good Blade Slay
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Twin Candle Ghost
+    Item: Good Blade Slay
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0089
+  monster_name_raw: Twin Candle Ghost
+  item_name_raw: Martial Slay
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Twin Candle Ghost
+    Item: Martial Slay
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sakura-valley__t006r0090
+  monster_name_raw: Twin Candle Ghost
+  item_name_raw: Ruby Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Twin Candle Ghost
+    Item: Ruby Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Elite - Moss Sprite
+  - '179'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Flower Princess Ruri
+  - '180'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 90

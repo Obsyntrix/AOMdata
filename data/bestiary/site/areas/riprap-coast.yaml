@@ -1,0 +1,970 @@
+area:
+  id: riprap-coast
+  name_raw: Riprap Coast
+  source:
+    origin_url: https://angels.wikidot.com/area:riprap-coast
+    retrieval_url: https://www.aowiki.uk/pages/area_riprap-coast.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 40449aa6372ff94911941bf56e0a98c157dccec689995aaecdd9730fafd38834
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: riprap-coast__harp-sheep__t003r0001
+  name_raw: Harp Sheep
+  level_raw: '24'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_harp-sheep.html
+  row_raw:
+    Monster Name: Harp Sheep
+    Level: '24'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 24
+    boss: false
+    aggressive: false
+- area_occurrence_id: riprap-coast__riprap-pirate__t003r0002
+  name_raw: Riprap Pirate
+  level_raw: '24'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_riprap-pirate.html
+  row_raw:
+    Monster Name: Riprap Pirate
+    Level: '24'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 24
+    boss: false
+    aggressive: true
+- area_occurrence_id: riprap-coast__piratekin__t003r0003
+  name_raw: Piratekin
+  level_raw: '27'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_piratekin.html
+  row_raw:
+    Monster Name: Piratekin
+    Level: '27'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 27
+    boss: false
+    aggressive: true
+- area_occurrence_id: riprap-coast__vice-head-pirate__t003r0005
+  name_raw: Vice Head Pirate
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_vice-head-pirate.html
+  row_raw:
+    Monster Name: Vice Head Pirate
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+- area_occurrence_id: riprap-coast__sheep-music__t003r0006
+  name_raw: Sheep Music
+  level_raw: '29'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sheep-music.html
+  row_raw:
+    Monster Name: Sheep Music
+    Level: '29'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 29
+    boss: true
+    aggressive: true
+drops:
+- drop_id: riprap-coast__t005r0001
+  monster_name_raw: Harp Sheep
+  item_name_raw: Rabbi's Cap
+  drop_share_raw: 0.5211%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Rabbi's Cap
+    Drop Share: 0.5211%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5211
+    quantity: 1
+- drop_id: riprap-coast__t005r0002
+  monster_name_raw: Harp Sheep
+  item_name_raw: Protector's Cap
+  drop_share_raw: 0.0086%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Protector's Cap
+    Drop Share: 0.0086%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0086
+    quantity: 1
+- drop_id: riprap-coast__t005r0003
+  monster_name_raw: Harp Sheep
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Flawed Ruby
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0004
+  monster_name_raw: Harp Sheep
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Defective Orange Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0005
+  monster_name_raw: Harp Sheep
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0006
+  monster_name_raw: Harp Sheep
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: riprap-coast__t005r0007
+  monster_name_raw: Piratekin
+  item_name_raw: Thick Armor
+  drop_share_raw: 0.3141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Thick Armor
+    Drop Share: 0.3141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3141
+    quantity: 1
+- drop_id: riprap-coast__t005r0008
+  monster_name_raw: Piratekin
+  item_name_raw: Leather Vest
+  drop_share_raw: 0.3141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Leather Vest
+    Drop Share: 0.3141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3141
+    quantity: 1
+- drop_id: riprap-coast__t005r0009
+  monster_name_raw: Piratekin
+  item_name_raw: Heavy Leather Armor
+  drop_share_raw: 0.0052%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Heavy Leather Armor
+    Drop Share: 0.0052%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0052
+    quantity: 1
+- drop_id: riprap-coast__t005r0010
+  monster_name_raw: Piratekin
+  item_name_raw: Light Leather Armor
+  drop_share_raw: 0.0052%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Light Leather Armor
+    Drop Share: 0.0052%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0052
+    quantity: 1
+- drop_id: riprap-coast__t005r0011
+  monster_name_raw: Piratekin
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Flawed Emerald
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: riprap-coast__t005r0012
+  monster_name_raw: Piratekin
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Flawed Sapphire
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: riprap-coast__t005r0013
+  monster_name_raw: Piratekin
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Flawed Purple Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: riprap-coast__t005r0014
+  monster_name_raw: Piratekin
+  item_name_raw: Map Piece
+  drop_share_raw: 1.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Piratekin
+    Item: Map Piece
+    Drop Share: 1.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.047
+    quantity: 1
+- drop_id: riprap-coast__t005r0015
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Hard-leather Cap
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: riprap-coast__t005r0016
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Shade
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Shade
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: riprap-coast__t005r0017
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Hard Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Hard Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: riprap-coast__t005r0018
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Heavy Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Heavy Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: riprap-coast__t005r0019
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Emerald
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0020
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Sapphire
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0021
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Purple Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: riprap-coast__t005r0022
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: riprap-coast__t005r0023
+  monster_name_raw: Sheep Music
+  item_name_raw: Rabbi's Cap
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Rabbi's Cap
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: riprap-coast__t005r0024
+  monster_name_raw: Sheep Music
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Hard-leather Cap
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: riprap-coast__t005r0025
+  monster_name_raw: Sheep Music
+  item_name_raw: Shade
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Shade
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: riprap-coast__t005r0026
+  monster_name_raw: Sheep Music
+  item_name_raw: Protector's Cap
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Protector's Cap
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: riprap-coast__t005r0027
+  monster_name_raw: Sheep Music
+  item_name_raw: Hard Leather Helmet
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Hard Leather Helmet
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: riprap-coast__t005r0028
+  monster_name_raw: Sheep Music
+  item_name_raw: Heavy Leather Helmet
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Heavy Leather Helmet
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: riprap-coast__t005r0029
+  monster_name_raw: Sheep Music
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Turtle Shell Bag
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: riprap-coast__t005r0030
+  monster_name_raw: Sheep Music
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Ring of Envoy
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: riprap-coast__t005r0031
+  monster_name_raw: Sheep Music
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Flawed Emerald
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: riprap-coast__t005r0032
+  monster_name_raw: Sheep Music
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Flawed Sapphire
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: riprap-coast__t005r0033
+  monster_name_raw: Sheep Music
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Flawed Purple Gem
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: riprap-coast__t005r0034
+  monster_name_raw: Sheep Music
+  item_name_raw: Shock Wave 5
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Shock Wave 5
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: riprap-coast__t005r0035
+  monster_name_raw: Sheep Music
+  item_name_raw: Poison Hit V
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Poison Hit V
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: riprap-coast__t005r0036
+  monster_name_raw: Sheep Music
+  item_name_raw: Flying Dart V
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Flying Dart V
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: riprap-coast__t005r0037
+  monster_name_raw: Sheep Music
+  item_name_raw: Magic Fruit
+  drop_share_raw: 18.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Magic Fruit
+    Drop Share: 18.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0
+    quantity: 1
+- drop_id: riprap-coast__t005r0038
+  monster_name_raw: Sheep Music
+  item_name_raw: Fruit of the Devil
+  drop_share_raw: 18.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Fruit of the Devil
+    Drop Share: 18.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0
+    quantity: 1
+- drop_id: riprap-coast__t005r0039
+  monster_name_raw: Sheep Music
+  item_name_raw: Map Piece
+  drop_share_raw: 8.6900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sheep Music
+    Item: Map Piece
+    Drop Share: 8.6900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 8.69
+    quantity: 1
+- drop_id: riprap-coast__t005r0040
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Iron Wristlet
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0041
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Long Gloves
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Long Gloves
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0042
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: riprap-coast__t005r0043
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Bone Wristlet
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: riprap-coast__t005r0044
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Turtle Shell Bag
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0045
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Ring of Envoy
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0046
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Defective Orange Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: riprap-coast__t005r0047
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Flawed Purple Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: riprap-coast__t005r0048
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Cure Spell 5
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Cure Spell 5
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0049
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Summon Skeleton V
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Summon Skeleton V
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: riprap-coast__t005r0050
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Fruit of Hercules
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: riprap-coast__t005r0051
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Target Potion
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Target Potion
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: riprap-coast__t005r0052
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 52

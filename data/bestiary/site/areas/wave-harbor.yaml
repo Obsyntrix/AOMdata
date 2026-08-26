@@ -1,0 +1,1037 @@
+area:
+  id: wave-harbor
+  name_raw: Wave Harbor
+  source:
+    origin_url: https://angels.wikidot.com/area:wave-harbor
+    retrieval_url: https://www.aowiki.uk/pages/area_wave-harbor.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 16ca3f47e77fd71bc82c4c09d126b529e6cfab191dddd0d2d00120e1cb13629c
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: wave-harbor__ball-jellyfish__t003r0001
+  name_raw: Ball Jellyfish
+  level_raw: '73'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ball-jellyfish.html
+  row_raw:
+    Monster Name: Ball Jellyfish
+    Level: '73'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 73
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__whelk-swordsman__t003r0002
+  name_raw: Whelk Swordsman
+  level_raw: '74'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_whelk-swordsman.html
+  row_raw:
+    Monster Name: Whelk Swordsman
+    Level: '74'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 74
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__whelk-mage__t003r0003
+  name_raw: Whelk Mage
+  level_raw: '75'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_whelk-mage.html
+  row_raw:
+    Monster Name: Whelk Mage
+    Level: '75'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 75
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__stab-jellyfish__t003r0004
+  name_raw: Stab Jellyfish
+  level_raw: '77'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stab-jellyfish.html
+  row_raw:
+    Monster Name: Stab Jellyfish
+    Level: '77'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 77
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__scale-fish__t003r0005
+  name_raw: Scale Fish
+  level_raw: '77'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_scale-fish.html
+  row_raw:
+    Monster Name: Scale Fish
+    Level: '77'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 77
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__angel-fish__t003r0006
+  name_raw: Angel Fish
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_angel-fish.html
+  row_raw:
+    Monster Name: Angel Fish
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__blue-merman__t003r0007
+  name_raw: Blue Merman
+  level_raw: '84'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blue-merman.html
+  row_raw:
+    Monster Name: Blue Merman
+    Level: '84'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 84
+    boss: false
+    aggressive: true
+- area_occurrence_id: wave-harbor__sword-jellyfish__t003r0008
+  name_raw: Sword Jellyfish
+  level_raw: '90'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sword-jellyfish.html
+  row_raw:
+    Monster Name: Sword Jellyfish
+    Level: '90'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 90
+    boss: true
+    aggressive: true
+drops:
+- drop_id: wave-harbor__t005r0001
+  monster_name_raw: Angel Fish
+  item_name_raw: Coral Ring
+  drop_share_raw: 0.0769%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Coral Ring
+    Drop Share: 0.0769%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0769
+    quantity: 1
+- drop_id: wave-harbor__t005r0002
+  monster_name_raw: Angel Fish
+  item_name_raw: Seagod's Handloop
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Seagod's Handloop
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0003
+  monster_name_raw: Angel Fish
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Flawless Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: wave-harbor__t005r0004
+  monster_name_raw: Angel Fish
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Chief Cuffs
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: wave-harbor__t005r0005
+  monster_name_raw: Angel Fish
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Fane Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0006
+  monster_name_raw: Angel Fish
+  item_name_raw: Fish Haversack
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Fish Haversack
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0007
+  monster_name_raw: Angel Fish
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Flawless Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: wave-harbor__t005r0008
+  monster_name_raw: Angel Fish
+  item_name_raw: Feather Angel Fish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Feather Angel Fish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: wave-harbor__t005r0009
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Mage Cuffs
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Mage Cuffs
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: wave-harbor__t005r0010
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Light Necklace
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: wave-harbor__t005r0011
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Spring Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Spring Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0012
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Heaven Light
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Heaven Light
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0013
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Clean Emerald
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: wave-harbor__t005r0014
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Beachball Jellyfish Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Beachball Jellyfish Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: wave-harbor__t005r0015
+  monster_name_raw: Blue Merman
+  item_name_raw: Luck Bracers
+  drop_share_raw: 0.0824%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Luck Bracers
+    Drop Share: 0.0824%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0824
+    quantity: 1
+- drop_id: wave-harbor__t005r0016
+  monster_name_raw: Blue Merman
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0017
+  monster_name_raw: Blue Merman
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: wave-harbor__t005r0018
+  monster_name_raw: Blue Merman
+  item_name_raw: Blue Merman Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Blue Merman Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: wave-harbor__t005r0019
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Cuffs
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: wave-harbor__t005r0020
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Boots
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: wave-harbor__t005r0021
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0022
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0023
+  monster_name_raw: Scale Fish
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Clean Purple Gem
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: wave-harbor__t005r0024
+  monster_name_raw: Scale Fish
+  item_name_raw: Scale Fish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Scale Fish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: wave-harbor__t005r0025
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Mage Hood
+  drop_share_raw: 0.0569%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Mage Hood
+    Drop Share: 0.0569%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0569
+    quantity: 1
+- drop_id: wave-harbor__t005r0026
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Mage Boots
+  drop_share_raw: 0.0569%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Mage Boots
+    Drop Share: 0.0569%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0569
+    quantity: 1
+- drop_id: wave-harbor__t005r0027
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Spring Hood
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Spring Hood
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0028
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Spring Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Spring Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0029
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Clean Orange Gem
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: wave-harbor__t005r0030
+  monster_name_raw: Stab Jellyfish
+  item_name_raw: Stab Jellyfish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stab Jellyfish
+    Item: Stab Jellyfish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: wave-harbor__t005r0031
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Swiftness Armguards
+  drop_share_raw: 5.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Swiftness Armguards
+    Drop Share: 5.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.055
+    quantity: 1
+- drop_id: wave-harbor__t005r0032
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 5.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Chief Cuffs
+    Drop Share: 5.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.055
+    quantity: 1
+- drop_id: wave-harbor__t005r0033
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Walker Armguards
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Walker Armguards
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: wave-harbor__t005r0034
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Fane Cuffs
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: wave-harbor__t005r0035
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Fish Haversack
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Fish Haversack
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: wave-harbor__t005r0036
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Swift Armguards
+  drop_share_raw: 0.0758%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Swift Armguards
+    Drop Share: 0.0758%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0758
+    quantity: 1
+- drop_id: wave-harbor__t005r0037
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0496%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0496%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0496
+    quantity: 1
+- drop_id: wave-harbor__t005r0038
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: wave-harbor__t005r0039
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Effective Healing Potion
+  drop_share_raw: 85.9369%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Effective Healing Potion
+    Drop Share: 85.9369%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 85.9369
+    quantity: 1
+- drop_id: wave-harbor__t005r0040
+  monster_name_raw: Sword Jellyfish
+  item_name_raw: Sword Jellyfish Card
+  drop_share_raw: 0.9259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sword Jellyfish
+    Item: Sword Jellyfish Card
+    Drop Share: 0.9259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9259
+    quantity: 1
+- drop_id: wave-harbor__t005r0041
+  monster_name_raw: Whelk Mage
+  item_name_raw: Hunter Helmet
+  drop_share_raw: 0.0477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Hunter Helmet
+    Drop Share: 0.0477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0477
+    quantity: 1
+- drop_id: wave-harbor__t005r0042
+  monster_name_raw: Whelk Mage
+  item_name_raw: Rotten Shield
+  drop_share_raw: 0.0477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Rotten Shield
+    Drop Share: 0.0477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0477
+    quantity: 1
+- drop_id: wave-harbor__t005r0043
+  monster_name_raw: Whelk Mage
+  item_name_raw: Forest Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Forest Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0044
+  monster_name_raw: Whelk Mage
+  item_name_raw: Holy Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Holy Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0045
+  monster_name_raw: Whelk Mage
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Clean Yellow Gem
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: wave-harbor__t005r0046
+  monster_name_raw: Whelk Mage
+  item_name_raw: Whelk Shell
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Whelk Shell
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: wave-harbor__t005r0047
+  monster_name_raw: Whelk Mage
+  item_name_raw: Whelk Wand Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Whelk Wand Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: wave-harbor__t005r0048
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Fire Scale Cuffs
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Fire Scale Cuffs
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: wave-harbor__t005r0049
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Wind Wings
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Wind Wings
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: wave-harbor__t005r0050
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Embrace Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Embrace Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: wave-harbor__t005r0051
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Clean Sapphire
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: wave-harbor__t005r0052
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Whelk Shell
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Whelk Shell
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: wave-harbor__t005r0053
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Whelk Sword Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Whelk Sword Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 2
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 53

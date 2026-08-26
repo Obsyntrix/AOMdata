@@ -23,6 +23,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__lily
+    name_raw: Lily
+    level_raw: '1'
+    level: 1
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: angel-lyceum__slarm
     name_raw: Slarm
     level_raw: '1'
@@ -45,6 +56,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__slarm
+    name_raw: Slarm
+    level_raw: '1'
+    level: 1
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
 - level: 4
   monsters:
   - spawn_id: east-playground__water-elf
@@ -58,6 +80,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__water-elf
+    name_raw: Water Elf
+    level_raw: '4'
+    level: 4
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: east-playground__wind-elf
     name_raw: Wind Elf
     level_raw: '4'
@@ -69,6 +102,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__wind-elf
+    name_raw: Wind Elf
+    level_raw: '4'
+    level: 4
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
 - level: 6
   monsters:
   - spawn_id: spike-farm__eggshell-chick
@@ -95,6 +139,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__earth-elf
+    name_raw: Earth Elf
+    level_raw: '7'
+    level: 7
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: east-playground__fire-elf
     name_raw: Fire Elf
     level_raw: '7'
@@ -106,6 +161,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__fire-elf
+    name_raw: Fire Elf
+    level_raw: '7'
+    level: 7
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
 - level: 8
   monsters:
   - spawn_id: training-palace__headless-armor
@@ -154,6 +220,17 @@ levels:
     source_url: https://angels.wikidot.com/area:training-palace
 - level: 9
   monsters:
+  - spawn_id: wishing-tear__desert-mouse
+    name_raw: Desert Mouse
+    level_raw: '9'
+    level: 9
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    source_file: data/bestiary/site/areas/wishing-tear.yaml
+    source_url: https://angels.wikidot.com/area:wishing-tear
   - spawn_id: spike-farm__field-mouse
     name_raw: Field Mouse
     level_raw: '9'
@@ -176,6 +253,17 @@ levels:
     area_name_raw: Dense Forest
     source_file: data/bestiary/site/areas/dense-forest.yaml
     source_url: https://angels.wikidot.com/area:dense-forest
+  - spawn_id: shadowy-path__skeletal-rogue
+    name_raw: Skeletal Rogue
+    level_raw: '9'
+    level: 9
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
 - level: 10
   monsters:
   - spawn_id: training-palace__brute-priest
@@ -200,6 +288,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__earth-lord
+    name_raw: Earth Lord
+    level_raw: '10'
+    level: 10
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: east-playground__fire-lord
     name_raw: Fire Lord
     level_raw: '10'
@@ -211,6 +310,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__fire-lord
+    name_raw: Fire Lord
+    level_raw: '10'
+    level: 10
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: training-palace__goat-demon
     name_raw: Goat Demon
     level_raw: '10'
@@ -233,6 +343,17 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__water-lord
+    name_raw: Water Lord
+    level_raw: '10'
+    level: 10
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
   - spawn_id: east-playground__wind-lord
     name_raw: Wind Lord
     level_raw: '10'
@@ -244,8 +365,30 @@ levels:
     area_name_raw: East Playground
     source_file: data/bestiary/site/areas/east-playground.yaml
     source_url: https://angels.wikidot.com/area:east-playground
+  - spawn_id: west-playground__wind-lord
+    name_raw: Wind Lord
+    level_raw: '10'
+    level: 10
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: west-playground
+    area_name_raw: West Playground
+    source_file: data/bestiary/site/areas/west-playground.yaml
+    source_url: https://angels.wikidot.com/area:west-playground
 - level: 12
   monsters:
+  - spawn_id: wishing-tear__desert-lizard
+    name_raw: Desert Lizard
+    level_raw: '12'
+    level: 12
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    source_file: data/bestiary/site/areas/wishing-tear.yaml
+    source_url: https://angels.wikidot.com/area:wishing-tear
   - spawn_id: sunflower-plain__egg-chick
     name_raw: Egg Chick
     level_raw: '12'
@@ -257,6 +400,17 @@ levels:
     area_name_raw: Sunflower Plain
     source_file: data/bestiary/site/areas/sunflower-plain.yaml
     source_url: https://angels.wikidot.com/area:sunflower-plain
+  - spawn_id: shadowy-path__evil-cat
+    name_raw: Evil Cat
+    level_raw: '12'
+    level: 12
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
   - spawn_id: spike-farm__jackstraw
     name_raw: Jackstraw
     level_raw: '12'
@@ -279,6 +433,17 @@ levels:
     area_name_raw: Dense Forest
     source_file: data/bestiary/site/areas/dense-forest.yaml
     source_url: https://angels.wikidot.com/area:dense-forest
+  - spawn_id: wishing-tear__ocher-toad
+    name_raw: Ocher Toad
+    level_raw: '12'
+    level: 12
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    source_file: data/bestiary/site/areas/wishing-tear.yaml
+    source_url: https://angels.wikidot.com/area:wishing-tear
   - spawn_id: spike-farm__pumpkin
     name_raw: Pumpkin
     level_raw: '12'
@@ -301,6 +466,28 @@ levels:
     area_name_raw: Training Palace
     source_file: data/bestiary/site/areas/training-palace.yaml
     source_url: https://angels.wikidot.com/area:training-palace
+  - spawn_id: shadowy-path__red-cloth-skull
+    name_raw: Red-cloth Skull
+    level_raw: '12'
+    level: 12
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
+  - spawn_id: shadowy-path__skeletal-sniper
+    name_raw: Skeletal Sniper
+    level_raw: '12'
+    level: 12
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
   - spawn_id: dense-forest__wild-lily
     name_raw: Wild Lily
     level_raw: '12'
@@ -314,6 +501,17 @@ levels:
     source_url: https://angels.wikidot.com/area:dense-forest
 - level: 15
   monsters:
+  - spawn_id: scrap-iron-village__buccinal-robot
+    name_raw: Buccinal Robot
+    level_raw: '15'
+    level: 15
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    source_file: data/bestiary/site/areas/scrap-iron-village.yaml
+    source_url: https://angels.wikidot.com/area:scrap-iron-village
   - spawn_id: sunflower-plain__evil-slarm
     name_raw: Evil Slarm
     level_raw: '15'
@@ -369,6 +567,17 @@ levels:
     area_name_raw: Fungus Forest South
     source_file: data/bestiary/site/areas/fungus-forest-south.yaml
     source_url: https://angels.wikidot.com/area:fungus-forest-south
+  - spawn_id: scrap-iron-village__radiant-slarm
+    name_raw: Radiant Slarm
+    level_raw: '15'
+    level: 15
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    source_file: data/bestiary/site/areas/scrap-iron-village.yaml
+    source_url: https://angels.wikidot.com/area:scrap-iron-village
   - spawn_id: mushroom-forest__red-mushroom
     name_raw: Red Mushroom
     level_raw: '15'
@@ -382,6 +591,17 @@ levels:
     source_url: https://angels.wikidot.com/area:mushroom-forest
 - level: 17
   monsters:
+  - spawn_id: wishing-tear__crystal-lizard
+    name_raw: Crystal Lizard
+    level_raw: '17'
+    level: 17
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    source_file: data/bestiary/site/areas/wishing-tear.yaml
+    source_url: https://angels.wikidot.com/area:wishing-tear
   - spawn_id: dense-forest__flame-lily
     name_raw: Flame Lily
     level_raw: '17'
@@ -393,6 +613,17 @@ levels:
     area_name_raw: Dense Forest
     source_file: data/bestiary/site/areas/dense-forest.yaml
     source_url: https://angels.wikidot.com/area:dense-forest
+  - spawn_id: shadowy-path__giant-cat-cinlo
+    name_raw: Giant Cat Cinlo
+    level_raw: '17'
+    level: 17
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
   - spawn_id: spike-farm__jackstraw-mige
     name_raw: Jackstraw Mige
     level_raw: '17'
@@ -437,6 +668,28 @@ levels:
     area_name_raw: Mushroom Forest
     source_file: data/bestiary/site/areas/mushroom-forest.yaml
     source_url: https://angels.wikidot.com/area:mushroom-forest
+  - spawn_id: shadowy-path__skull-leader
+    name_raw: Skull Leader
+    level_raw: '17'
+    level: 17
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    source_file: data/bestiary/site/areas/shadowy-path.yaml
+    source_url: https://angels.wikidot.com/area:shadowy-path
+  - spawn_id: wishing-tear__stained-robot
+    name_raw: Stained Robot
+    level_raw: '17'
+    level: 17
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    source_file: data/bestiary/site/areas/wishing-tear.yaml
+    source_url: https://angels.wikidot.com/area:wishing-tear
 - level: 18
   monsters:
   - spawn_id: bottomless-pit__crow-wizard
@@ -472,6 +725,17 @@ levels:
     area_name_raw: Cryptic Moon Swamp
     source_file: data/bestiary/site/areas/cryptic-moon-swamp.yaml
     source_url: https://angels.wikidot.com/area:cryptic-moon-swamp
+  - spawn_id: scrap-iron-village__fat-robot
+    name_raw: Fat Robot
+    level_raw: '18'
+    level: 18
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    source_file: data/bestiary/site/areas/scrap-iron-village.yaml
+    source_url: https://angels.wikidot.com/area:scrap-iron-village
   - spawn_id: cactus-plain__spear-lizardman
     name_raw: Spear Lizardman
     level_raw: '18'
@@ -518,6 +782,17 @@ levels:
     area_name_raw: Fungus Forest South
     source_file: data/bestiary/site/areas/fungus-forest-south.yaml
     source_url: https://angels.wikidot.com/area:fungus-forest-south
+  - spawn_id: scrap-iron-village__metal-robot
+    name_raw: Metal Robot
+    level_raw: '20'
+    level: 20
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    source_file: data/bestiary/site/areas/scrap-iron-village.yaml
+    source_url: https://angels.wikidot.com/area:scrap-iron-village
   - spawn_id: sunflower-plain__pumpkin-pluto
     name_raw: Pumpkin Pluto
     level_raw: '20'
@@ -665,6 +940,17 @@ levels:
     area_name_raw: Sunflower Plain
     source_file: data/bestiary/site/areas/sunflower-plain.yaml
     source_url: https://angels.wikidot.com/area:sunflower-plain
+  - spawn_id: scrap-iron-village__turbo-robot
+    name_raw: Turbo Robot
+    level_raw: '23'
+    level: 23
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    source_file: data/bestiary/site/areas/scrap-iron-village.yaml
+    source_url: https://angels.wikidot.com/area:scrap-iron-village
 - level: 24
   monsters:
   - spawn_id: cherry-village__cherry-crab
@@ -689,6 +975,17 @@ levels:
     area_name_raw: Jade Vale
     source_file: data/bestiary/site/areas/jade-vale.yaml
     source_url: https://angels.wikidot.com/area:jade-vale
+  - spawn_id: riprap-coast__harp-sheep
+    name_raw: Harp Sheep
+    level_raw: '24'
+    level: 24
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    source_file: data/bestiary/site/areas/riprap-coast.yaml
+    source_url: https://angels.wikidot.com/area:riprap-coast
   - spawn_id: degula-maze__little-eye
     name_raw: Little Eye
     level_raw: '24'
@@ -722,6 +1019,17 @@ levels:
     area_name_raw: Degula Maze
     source_file: data/bestiary/site/areas/degula-maze.yaml
     source_url: https://angels.wikidot.com/area:degula-maze
+  - spawn_id: riprap-coast__riprap-pirate
+    name_raw: Riprap Pirate
+    level_raw: '24'
+    level: 24
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    source_file: data/bestiary/site/areas/riprap-coast.yaml
+    source_url: https://angels.wikidot.com/area:riprap-coast
   - spawn_id: burning-desert__toxic-spider
     name_raw: Toxic Spider
     level_raw: '24'
@@ -834,6 +1142,17 @@ levels:
     area_name_raw: Bottomless Pit
     source_file: data/bestiary/site/areas/bottomless-pit.yaml
     source_url: https://angels.wikidot.com/area:bottomless-pit
+  - spawn_id: riprap-coast__vice-head-pirate
+    name_raw: Vice Head Pirate
+    level_raw: '26'
+    level: 26
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    source_file: data/bestiary/site/areas/riprap-coast.yaml
+    source_url: https://angels.wikidot.com/area:riprap-coast
   - spawn_id: bottomless-pit__wizard-mord
     name_raw: Wizard Mord
     level_raw: '26'
@@ -913,6 +1232,17 @@ levels:
     area_name_raw: Burning Desert
     source_file: data/bestiary/site/areas/burning-desert.yaml
     source_url: https://angels.wikidot.com/area:burning-desert
+  - spawn_id: riprap-coast__piratekin
+    name_raw: Piratekin
+    level_raw: '27'
+    level: 27
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    source_file: data/bestiary/site/areas/riprap-coast.yaml
+    source_url: https://angels.wikidot.com/area:riprap-coast
 - level: 29
   monsters:
   - spawn_id: burning-desert__black-widow
@@ -959,6 +1289,17 @@ levels:
     area_name_raw: Jade Vale
     source_file: data/bestiary/site/areas/jade-vale.yaml
     source_url: https://angels.wikidot.com/area:jade-vale
+  - spawn_id: riprap-coast__sheep-music
+    name_raw: Sheep Music
+    level_raw: '29'
+    level: 29
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    source_file: data/bestiary/site/areas/riprap-coast.yaml
+    source_url: https://angels.wikidot.com/area:riprap-coast
   - spawn_id: burning-desert__undying-lord
     name_raw: Undying Lord
     level_raw: '29'
@@ -1209,6 +1550,17 @@ levels:
     area_name_raw: Memory Cave
     source_file: data/bestiary/site/areas/memory-cave.yaml
     source_url: https://angels.wikidot.com/area:memory-cave
+  - spawn_id: quiet-vale__evil-nazarite
+    name_raw: Evil Nazarite
+    level_raw: '35'
+    level: 35
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
   - spawn_id: foggy-forest__fog-lizard
     name_raw: Fog Lizard
     level_raw: '35'
@@ -1253,6 +1605,17 @@ levels:
     area_name_raw: Fungus Forest North
     source_file: data/bestiary/site/areas/fungus-forest-north.yaml
     source_url: https://angels.wikidot.com/area:fungus-forest-north
+  - spawn_id: south-of-mirror-lake__lake-slarm
+    name_raw: Lake Slarm
+    level_raw: '35'
+    level: 35
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
   - spawn_id: north-of-mirror-lake__north-lake-slarm
     name_raw: North Lake Slarm
     level_raw: '35'
@@ -1343,6 +1706,17 @@ levels:
     area_name_raw: Crashing Hillock
     source_file: data/bestiary/site/areas/crashing-hillock.yaml
     source_url: https://angels.wikidot.com/area:crashing-hillock
+  - spawn_id: south-of-mirror-lake__lake-deathwood
+    name_raw: Lake DeathWood
+    level_raw: '38'
+    level: 38
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
   - spawn_id: megalith-plain__mount-saby
     name_raw: Mount Saby
     level_raw: '38'
@@ -1365,6 +1739,17 @@ levels:
     area_name_raw: Fungus Forest North
     source_file: data/bestiary/site/areas/fungus-forest-north.yaml
     source_url: https://angels.wikidot.com/area:fungus-forest-north
+  - spawn_id: quiet-vale__wild-lizardman
+    name_raw: Wild Lizardman
+    level_raw: '38'
+    level: 38
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
 - level: 40
   monsters:
   - spawn_id: dragon-graveyard__ancient-soldier
@@ -1378,6 +1763,28 @@ levels:
     area_name_raw: Dragon Graveyard
     source_file: data/bestiary/site/areas/dragon-graveyard.yaml
     source_url: https://angels.wikidot.com/area:dragon-graveyard
+  - spawn_id: south-of-mirror-lake__circus-tyrant
+    name_raw: Circus Tyrant
+    level_raw: '40'
+    level: 40
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
+  - spawn_id: quiet-vale__crazy-rosit
+    name_raw: Crazy Rosit
+    level_raw: '40'
+    level: 40
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
   - spawn_id: fungus-forest-north__elder-fungus
     name_raw: Elder Fungus
     level_raw: '40'
@@ -1389,6 +1796,17 @@ levels:
     area_name_raw: Fungus Forest North
     source_file: data/bestiary/site/areas/fungus-forest-north.yaml
     source_url: https://angels.wikidot.com/area:fungus-forest-north
+  - spawn_id: quiet-vale__evil-bishop
+    name_raw: Evil Bishop
+    level_raw: '40'
+    level: 40
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
   - spawn_id: crashing-hillock__evil-wolf
     name_raw: Evil Wolf
     level_raw: '40'
@@ -1422,6 +1840,17 @@ levels:
     area_name_raw: Megalith Plain
     source_file: data/bestiary/site/areas/megalith-plain.yaml
     source_url: https://angels.wikidot.com/area:megalith-plain
+  - spawn_id: south-of-mirror-lake__gold-slarm
+    name_raw: Gold Slarm
+    level_raw: '40'
+    level: 40
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
   - spawn_id: foggy-forest__lizard-chief
     name_raw: Lizard Chief
     level_raw: '40'
@@ -1490,6 +1919,28 @@ levels:
     area_name_raw: North of Mirror Lake
     source_file: data/bestiary/site/areas/north-of-mirror-lake.yaml
     source_url: https://angels.wikidot.com/area:north-of-mirror-lake
+  - spawn_id: quiet-vale__iron-scale-allen
+    name_raw: Iron Scale Allen
+    level_raw: '43'
+    level: 43
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
+  - spawn_id: south-of-mirror-lake__tree-elder
+    name_raw: Tree Elder
+    level_raw: '43'
+    level: 43
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
   - spawn_id: mysterious-wetland__tree-elf
     name_raw: Tree Elf
     level_raw: '43'
@@ -1503,6 +1954,39 @@ levels:
     source_url: https://angels.wikidot.com/area:mysterious-wetland
 - level: 45
   monsters:
+  - spawn_id: south-of-mirror-lake__circus-leader
+    name_raw: Circus Leader
+    level_raw: '45'
+    level: 45
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: south-of-mirror-lake
+    area_name_raw: South Of Mirror Lake
+    source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
+    source_url: https://angels.wikidot.com/area:south-of-mirror-lake
+  - spawn_id: thunder-ruins__fallen-angel
+    name_raw: Fallen Angel
+    level_raw: '45'
+    level: 45
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
+  - spawn_id: sad-abyss__heat-elf
+    name_raw: Heat Elf
+    level_raw: '45'
+    level: 45
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: dragon-graveyard__hook-barft
     name_raw: Hook Barft
     level_raw: '45'
@@ -1536,6 +2020,17 @@ levels:
     area_name_raw: North of Mirror Lake
     source_file: data/bestiary/site/areas/north-of-mirror-lake.yaml
     source_url: https://angels.wikidot.com/area:north-of-mirror-lake
+  - spawn_id: thorn-wasteland__savage-dogface
+    name_raw: Savage Dogface
+    level_raw: '45'
+    level: 45
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
   - spawn_id: mysterious-wetland__sexy-quli
     name_raw: Sexy Quli
     level_raw: '45'
@@ -1558,6 +2053,17 @@ levels:
     area_name_raw: Dragon Graveyard
     source_file: data/bestiary/site/areas/dragon-graveyard.yaml
     source_url: https://angels.wikidot.com/area:dragon-graveyard
+  - spawn_id: quiet-vale__skeletal-bishop
+    name_raw: Skeletal Bishop
+    level_raw: '45'
+    level: 45
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    source_file: data/bestiary/site/areas/quiet-vale.yaml
+    source_url: https://angels.wikidot.com/area:quiet-vale
   - spawn_id: north-of-mirror-lake__water-goblin
     name_raw: Water Goblin
     level_raw: '45'
@@ -1582,6 +2088,17 @@ levels:
     area_name_raw: Mysterious Wetland
     source_file: data/bestiary/site/areas/mysterious-wetland.yaml
     source_url: https://angels.wikidot.com/area:mysterious-wetland
+  - spawn_id: thunder-ruins__burning-monster
+    name_raw: Burning Monster
+    level_raw: '48'
+    level: 48
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
   - spawn_id: north-of-mirror-lake__elf-narice
     name_raw: Elf Narice
     level_raw: '48'
@@ -1604,6 +2121,17 @@ levels:
     area_name_raw: Fiery Path
     source_file: data/bestiary/site/areas/fiery-path.yaml
     source_url: https://angels.wikidot.com/area:fiery-path
+  - spawn_id: sad-abyss__fly
+    name_raw: Fly
+    level_raw: '48'
+    level: 48
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: golden-beach__puqi-crab
     name_raw: Puqi Crab
     level_raw: '48'
@@ -1615,6 +2143,17 @@ levels:
     area_name_raw: Golden Beach
     source_file: data/bestiary/site/areas/golden-beach.yaml
     source_url: https://angels.wikidot.com/area:golden-beach
+  - spawn_id: thorn-wasteland__savage-priest
+    name_raw: Savage Priest
+    level_raw: '48'
+    level: 48
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
 - level: 50
   monsters:
   - spawn_id: dragon-graveyard__death-cyclone
@@ -1639,6 +2178,61 @@ levels:
     area_name_raw: Deity Palace Ruins
     source_file: data/bestiary/site/areas/deity-palace-ruins.yaml
     source_url: https://angels.wikidot.com/area:deity-palace-ruins
+  - spawn_id: sad-abyss__evil-grass
+    name_raw: Evil Grass
+    level_raw: '50'
+    level: 50
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
+  - spawn_id: sad-abyss__evil-tree
+    name_raw: Evil Tree
+    level_raw: '50'
+    level: 50
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
+  - spawn_id: thunder-ruins__fallen-archangel
+    name_raw: Fallen Archangel
+    level_raw: '50'
+    level: 50
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
+  - spawn_id: thorn-wasteland__fire-barft
+    name_raw: Fire Barft
+    level_raw: '50'
+    level: 50
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
+  - spawn_id: thunder-ruins__guilt-azrael
+    name_raw: Guilt Azrael
+    level_raw: '50'
+    level: 50
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
   - spawn_id: magic-kitchen-path__mud-lord-summon
     name_raw: Mud Lord (Summon)
     level_raw: '50'
@@ -1661,6 +2255,17 @@ levels:
     area_name_raw: Golden Beach
     source_file: data/bestiary/site/areas/golden-beach.yaml
     source_url: https://angels.wikidot.com/area:golden-beach
+  - spawn_id: thorn-wasteland__savage-head
+    name_raw: Savage Head
+    level_raw: '50'
+    level: 50
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
   - spawn_id: north-of-mirror-lake__steel-clamp
     name_raw: Steel Clamp
     level_raw: '50'
@@ -1698,6 +2303,17 @@ levels:
     source_url: https://angels.wikidot.com/area:golden-beach
 - level: 53
   monsters:
+  - spawn_id: thunder-ruins__black-fire-harr
+    name_raw: Black Fire Harr
+    level_raw: '53'
+    level: 53
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
   - spawn_id: magic-kitchen-path__evil-fly
     name_raw: Evil Fly
     level_raw: '53'
@@ -1720,6 +2336,17 @@ levels:
     area_name_raw: Deity Palace Ruins
     source_file: data/bestiary/site/areas/deity-palace-ruins.yaml
     source_url: https://angels.wikidot.com/area:deity-palace-ruins
+  - spawn_id: sad-abyss__hell-slave
+    name_raw: Hell Slave
+    level_raw: '53'
+    level: 53
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: magic-kitchen-path__hell-slave2
     name_raw: Hell Slave2
     level_raw: '53'
@@ -1753,8 +2380,54 @@ levels:
     area_name_raw: Golden Beach
     source_file: data/bestiary/site/areas/golden-beach.yaml
     source_url: https://angels.wikidot.com/area:golden-beach
+  - spawn_id: thorn-wasteland__savage-chief-apu
+    name_raw: Savage Chief Apu
+    level_raw: '53'
+    level: 53
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
+- level: 54
+  monsters:
+  - spawn_id: shining-coast__color-crab
+    name_raw: Color Crab
+    level_raw: '54'
+    level: 54
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
 - level: 55
   monsters:
+  - spawn_id: thunder-ruins__azraels-aide
+    name_raw: Azrael's Aide
+    level_raw: '55'
+    level: 55
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    source_file: data/bestiary/site/areas/thunder-ruins.yaml
+    source_url: https://angels.wikidot.com/area:thunder-ruins
+  - spawn_id: thorn-wasteland__barft-laird
+    name_raw: Barft Laird
+    level_raw: '55'
+    level: 55
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    source_file: data/bestiary/site/areas/thorn-wasteland.yaml
+    source_url: https://angels.wikidot.com/area:thorn-wasteland
   - spawn_id: golden-beach__color-crab
     name_raw: Color Crab
     level_raw: '55'
@@ -1766,6 +2439,17 @@ levels:
     area_name_raw: Golden Beach
     source_file: data/bestiary/site/areas/golden-beach.yaml
     source_url: https://angels.wikidot.com/area:golden-beach
+  - spawn_id: shining-coast__color-whelk
+    name_raw: Color Whelk
+    level_raw: '55'
+    level: 55
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
   - spawn_id: deity-palace-ruins__evil-earth-elf
     name_raw: Evil Earth Elf
     level_raw: '55'
@@ -1902,8 +2586,43 @@ levels:
     area_name_raw: Fiery Path
     source_file: data/bestiary/site/areas/fiery-path.yaml
     source_url: https://angels.wikidot.com/area:fiery-path
+  - spawn_id: sad-abyss__imp-elf
+    name_raw: Imp Elf
+    level_raw: '58'
+    level: 58
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
+- level: 59
+  monsters:
+  - spawn_id: shining-coast__puqi-isle-crab
+    name_raw: Puqi Isle Crab
+    level_raw: '59'
+    level: 59
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
 - level: 60
   monsters:
+  - spawn_id: sad-abyss__fetor-fly
+    name_raw: Fetor Fly
+    level_raw: '60'
+    level: 60
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: magic-kitchen-path__flame-fly
     name_raw: Flame Fly
     level_raw: '60'
@@ -1937,6 +2656,17 @@ levels:
     area_name_raw: Lava Cave
     source_file: data/bestiary/site/areas/lava-cave.yaml
     source_url: https://angels.wikidot.com/area:lava-cave
+  - spawn_id: sad-abyss__gold-fly
+    name_raw: Gold Fly
+    level_raw: '60'
+    level: 60
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: magic-kitchen-path__guard-fasit-summon
     name_raw: Guard Fasit (Summon)
     level_raw: '60'
@@ -2005,6 +2735,17 @@ levels:
     source_url: https://angels.wikidot.com/area:magic-kitchen-path
 - level: 61
   monsters:
+  - spawn_id: shining-coast__evil-puqi-turtle
+    name_raw: Evil Puqi Turtle
+    level_raw: '61'
+    level: 61
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
   - spawn_id: deity-palace-ruins__fane-priest
     name_raw: Fane Priest
     level_raw: '61'
@@ -2051,6 +2792,17 @@ levels:
     area_name_raw: Magic Kitchen Path
     source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
     source_url: https://angels.wikidot.com/area:magic-kitchen-path
+  - spawn_id: shining-coast__puqi-pirate
+    name_raw: Puqi Pirate
+    level_raw: '62'
+    level: 62
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
 - level: 63
   monsters:
   - spawn_id: magic-kitchen-path__azrael-hook
@@ -2097,6 +2849,17 @@ levels:
     area_name_raw: Flaming Door
     source_file: data/bestiary/site/areas/flaming-door.yaml
     source_url: https://angels.wikidot.com/area:flaming-door
+  - spawn_id: sad-abyss__evil-knight
+    name_raw: Evil Knight
+    level_raw: '63'
+    level: 63
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: deity-palace-ruins__fane-protector
     name_raw: Fane Protector
     level_raw: '63'
@@ -2108,6 +2871,17 @@ levels:
     area_name_raw: Deity Palace Ruins
     source_file: data/bestiary/site/areas/deity-palace-ruins.yaml
     source_url: https://angels.wikidot.com/area:deity-palace-ruins
+  - spawn_id: shining-coast__puqi-pirate-leader
+    name_raw: Puqi Pirate Leader
+    level_raw: '63'
+    level: 63
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
   - spawn_id: flaming-door__rock-slarm
     name_raw: Rock Slarm
     level_raw: '63'
@@ -2187,6 +2961,17 @@ levels:
     area_name_raw: Magic Kitchen Path
     source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
     source_url: https://angels.wikidot.com/area:magic-kitchen-path
+  - spawn_id: river-valley__moon-berry-elf
+    name_raw: Moon Berry Elf
+    level_raw: '65'
+    level: 65
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
   - spawn_id: magic-kitchen-path__soul-eater-slalin-boss
     name_raw: Soul-eater Slalin (Boss)
     level_raw: '65'
@@ -2266,6 +3051,17 @@ levels:
     area_name_raw: Colorful Coral Reefs
     source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
     source_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  - spawn_id: shining-coast__crab-general
+    name_raw: Crab General
+    level_raw: '66'
+    level: 66
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
 - level: 68
   monsters:
   - spawn_id: magic-kitchen-path__blaze-fly
@@ -2347,6 +3143,17 @@ levels:
     area_name_raw: Fiery Path
     source_file: data/bestiary/site/areas/fiery-path.yaml
     source_url: https://angels.wikidot.com/area:fiery-path
+  - spawn_id: shining-coast__coast-protector
+    name_raw: Coast Protector
+    level_raw: '70'
+    level: 70
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    source_file: data/bestiary/site/areas/shining-coast.yaml
+    source_url: https://angels.wikidot.com/area:shining-coast
   - spawn_id: flaming-door__flame-mummy
     name_raw: Flame Mummy
     level_raw: '70'
@@ -2369,6 +3176,17 @@ levels:
     area_name_raw: Lava Cave
     source_file: data/bestiary/site/areas/lava-cave.yaml
     source_url: https://angels.wikidot.com/area:lava-cave
+  - spawn_id: river-valley__forest-boar
+    name_raw: Forest Boar
+    level_raw: '70'
+    level: 70
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
   - spawn_id: lava-cave__giant-rotten-fly
     name_raw: Giant Rotten Fly
     level_raw: '70'
@@ -2402,6 +3220,17 @@ levels:
     area_name_raw: Magic Kitchen Path
     source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
     source_url: https://angels.wikidot.com/area:magic-kitchen-path
+  - spawn_id: sad-abyss__slave-driver
+    name_raw: Slave Driver
+    level_raw: '70'
+    level: 70
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    source_file: data/bestiary/site/areas/sad-abyss.yaml
+    source_url: https://angels.wikidot.com/area:sad-abyss
   - spawn_id: colorful-coral-reefs__wood-octopus
     name_raw: Wood Octopus
     level_raw: '70'
@@ -2424,6 +3253,19 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+- level: 72
+  monsters:
+  - spawn_id: river-valley__cyan-dragon
+    name_raw: Cyan Dragon
+    level_raw: '72'
+    level: 72
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
 - level: 73
   monsters:
   - spawn_id: blue-sea__ball-jellyfish
@@ -2448,6 +3290,17 @@ levels:
     area_name_raw: Colorful Coral Reefs
     source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
     source_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  - spawn_id: wave-harbor__ball-jellyfish
+    name_raw: Ball Jellyfish
+    level_raw: '73'
+    level: 73
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
   - spawn_id: flaming-door__fire-fly
     name_raw: Fire Fly
     level_raw: '73'
@@ -2470,6 +3323,17 @@ levels:
     area_name_raw: Lava Cave
     source_file: data/bestiary/site/areas/lava-cave.yaml
     source_url: https://angels.wikidot.com/area:lava-cave
+  - spawn_id: river-valley__red-dragon
+    name_raw: Red Dragon
+    level_raw: '73'
+    level: 73
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
 - level: 74
   monsters:
   - spawn_id: colorful-coral-reefs__whelk-swordsman
@@ -2483,6 +3347,17 @@ levels:
     area_name_raw: Colorful Coral Reefs
     source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
     source_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  - spawn_id: wave-harbor__whelk-swordsman
+    name_raw: Whelk Swordsman
+    level_raw: '74'
+    level: 74
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
 - level: 75
   monsters:
   - spawn_id: lava-cave__cuss-fire-lord
@@ -2529,6 +3404,17 @@ levels:
     area_name_raw: Flaming Door
     source_file: data/bestiary/site/areas/flaming-door.yaml
     source_url: https://angels.wikidot.com/area:flaming-door
+  - spawn_id: river-valley__valley-orangutan
+    name_raw: Valley Orangutan
+    level_raw: '75'
+    level: 75
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
   - spawn_id: colorful-coral-reefs__whelk-mage
     name_raw: Whelk Mage
     level_raw: '75'
@@ -2540,6 +3426,41 @@ levels:
     area_name_raw: Colorful Coral Reefs
     source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
     source_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  - spawn_id: wave-harbor__whelk-mage
+    name_raw: Whelk Mage
+    level_raw: '75'
+    level: 75
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
+- level: 76
+  monsters:
+  - spawn_id: secret-den__bloody-widow
+    name_raw: Bloody Widow
+    level_raw: '76'
+    level: 76
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
+  - spawn_id: river-valley__stone-crocodile
+    name_raw: Stone Crocodile
+    level_raw: '76'
+    level: 76
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
 - level: 77
   monsters:
   - spawn_id: lost-region__linberd-sender
@@ -2575,6 +3496,28 @@ levels:
     area_name_raw: Colorful Coral Reefs
     source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
     source_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  - spawn_id: wave-harbor__scale-fish
+    name_raw: Scale Fish
+    level_raw: '77'
+    level: 77
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
+  - spawn_id: river-valley__sharp-crocodile
+    name_raw: Sharp Crocodile
+    level_raw: '77'
+    level: 77
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
   - spawn_id: dream-ocean__stab-jellyfish
     name_raw: Stab Jellyfish
     level_raw: '77'
@@ -2586,6 +3529,17 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+  - spawn_id: wave-harbor__stab-jellyfish
+    name_raw: Stab Jellyfish
+    level_raw: '77'
+    level: 77
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
 - level: 78
   monsters:
   - spawn_id: flaming-door__terra-miner
@@ -2601,6 +3555,17 @@ levels:
     source_url: https://angels.wikidot.com/area:flaming-door
 - level: 80
   monsters:
+  - spawn_id: river-valley__crocodile-mr-ku
+    name_raw: Crocodile Mr Ku
+    level_raw: '80'
+    level: 80
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
   - spawn_id: lost-cove__evil-big-eye-boy
     name_raw: Evil Big-eye Boy
     level_raw: '80'
@@ -2612,6 +3577,17 @@ levels:
     area_name_raw: Lost Cove
     source_file: data/bestiary/site/areas/lost-cove.yaml
     source_url: https://angels.wikidot.com/area:lost-cove
+  - spawn_id: secret-den__evil-pawn
+    name_raw: Evil Pawn
+    level_raw: '80'
+    level: 80
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: lost-cove__flying-demon-eye
     name_raw: Flying Demon Eye
     level_raw: '80'
@@ -2656,6 +3632,17 @@ levels:
     area_name_raw: Flaming Door
     source_file: data/bestiary/site/areas/flaming-door.yaml
     source_url: https://angels.wikidot.com/area:flaming-door
+  - spawn_id: raging-reefs__stab-jellyfish
+    name_raw: Stab Jellyfish
+    level_raw: '80'
+    level: 80
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
   - spawn_id: dragon-field__vampire-mummy
     name_raw: Vampire Mummy
     level_raw: '80'
@@ -2726,6 +3713,28 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+  - spawn_id: quiet-ocean__angel-fish
+    name_raw: Angel Fish
+    level_raw: '82'
+    level: 82
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
+  - spawn_id: wave-harbor__angel-fish
+    name_raw: Angel Fish
+    level_raw: '82'
+    level: 82
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
   - spawn_id: lost-region__angel-fishguard
     name_raw: Angel Fishguard
     level_raw: '82'
@@ -2759,6 +3768,17 @@ levels:
     area_name_raw: Lost Cove
     source_file: data/bestiary/site/areas/lost-cove.yaml
     source_url: https://angels.wikidot.com/area:lost-cove
+  - spawn_id: waterfall-camp__dasheen-elf
+    name_raw: Dasheen Elf
+    level_raw: '82'
+    level: 82
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
   - spawn_id: magic-kitchen-path__evil-cook-boss
     name_raw: Evil Cook (Boss)
     level_raw: '82'
@@ -2781,6 +3801,17 @@ levels:
     area_name_raw: Magic Kitchen Path
     source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
     source_url: https://angels.wikidot.com/area:magic-kitchen-path
+  - spawn_id: secret-den__evil-monitor
+    name_raw: Evil Monitor
+    level_raw: '82'
+    level: 82
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: lost-cove__faint-chan
     name_raw: Faint Chan
     level_raw: '82'
@@ -2827,6 +3858,17 @@ levels:
     area_name_raw: Dragon Field
     source_file: data/bestiary/site/areas/dragon-field.yaml
     source_url: https://angels.wikidot.com/area:dragon-field
+  - spawn_id: secret-den__maneating-crocodile
+    name_raw: Maneating Crocodile
+    level_raw: '83'
+    level: 83
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: blue-ocean__octopus-scholar
     name_raw: Octopus Scholar
     level_raw: '83'
@@ -2849,6 +3891,17 @@ levels:
     area_name_raw: Blue Sea
     source_file: data/bestiary/site/areas/blue-sea.yaml
     source_url: https://angels.wikidot.com/area:blue-sea
+  - spawn_id: raging-reefs__octopus-scholar
+    name_raw: Octopus Scholar
+    level_raw: '83'
+    level: 83
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
   - spawn_id: crescent-valley__venom-beetle
     name_raw: Venom Beetle
     level_raw: '83'
@@ -2906,6 +3959,28 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+  - spawn_id: wave-harbor__blue-merman
+    name_raw: Blue Merman
+    level_raw: '84'
+    level: 84
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
+  - spawn_id: secret-den__den-crocodile
+    name_raw: Den Crocodile
+    level_raw: '84'
+    level: 84
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: crescent-valley__gloomy-smoker
     name_raw: Gloomy Smoker
     level_raw: '84'
@@ -3007,6 +4082,28 @@ levels:
     area_name_raw: Blue Sea
     source_file: data/bestiary/site/areas/blue-sea.yaml
     source_url: https://angels.wikidot.com/area:blue-sea
+  - spawn_id: raging-reefs__giant-octopus
+    name_raw: Giant Octopus
+    level_raw: '85'
+    level: 85
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
+  - spawn_id: vine-front__momo-monkey
+    name_raw: Momo Monkey
+    level_raw: '85'
+    level: 85
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
   - spawn_id: mushroom-village__purple-evil-cat
     name_raw: Purple Evil Cat
     level_raw: '85'
@@ -3029,6 +4126,39 @@ levels:
     area_name_raw: Desert Racetrack
     source_file: data/bestiary/site/areas/desert-racetrack.yaml
     source_url: https://angels.wikidot.com/area:desert-racetrack
+  - spawn_id: river-valley__rage-orangutan-j
+    name_raw: Rage Orangutan J
+    level_raw: '85'
+    level: 85
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: river-valley
+    area_name_raw: River Valley
+    source_file: data/bestiary/site/areas/river-valley.yaml
+    source_url: https://angels.wikidot.com/area:river-valley
+  - spawn_id: waterfall-camp__rotten-fly
+    name_raw: Rotten Fly
+    level_raw: '85'
+    level: 85
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
+  - spawn_id: vine-front__sky-monkey
+    name_raw: Sky Monkey
+    level_raw: '85'
+    level: 85
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
 - level: 86
   monsters:
   - spawn_id: desert-racetrack__blazing-scorpion
@@ -3075,6 +4205,17 @@ levels:
     area_name_raw: Lost Cove
     source_file: data/bestiary/site/areas/lost-cove.yaml
     source_url: https://angels.wikidot.com/area:lost-cove
+  - spawn_id: secret-den__iron-shell-worm
+    name_raw: Iron-Shell Worm
+    level_raw: '86'
+    level: 86
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: crescent-valley__onion-bud
     name_raw: Onion Bud
     level_raw: '86'
@@ -3086,8 +4227,30 @@ levels:
     area_name_raw: Crescent Valley
     source_file: data/bestiary/site/areas/crescent-valley.yaml
     source_url: https://angels.wikidot.com/area:crescent-valley
+  - spawn_id: raging-reefs__sword-whelk
+    name_raw: Sword Whelk
+    level_raw: '86'
+    level: 86
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
 - level: 87
   monsters:
+  - spawn_id: sunken-ruins__angel-fish
+    name_raw: Angel Fish
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: blue-sea__bottle-mermaid
     name_raw: Bottle Mermaid
     level_raw: '87'
@@ -3110,6 +4273,17 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+  - spawn_id: sunken-ruins__bottle-mermaid
+    name_raw: Bottle Mermaid
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: dragon-field__dragon-mystic
     name_raw: Dragon Mystic
     level_raw: '87'
@@ -3143,6 +4317,17 @@ levels:
     area_name_raw: Mushroom Village
     source_file: data/bestiary/site/areas/mushroom-village.yaml
     source_url: https://angels.wikidot.com/area:mushroom-village
+  - spawn_id: secret-den__fire-shell-worm
+    name_raw: Fire-Shell Worm
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: lost-region__fishguard-leader
     name_raw: Fishguard Leader
     level_raw: '87'
@@ -3154,6 +4339,17 @@ levels:
     area_name_raw: Lost Region
     source_file: data/bestiary/site/areas/lost-region.yaml
     source_url: https://angels.wikidot.com/area:lost-region
+  - spawn_id: waterfall-camp__giant-rage-ape
+    name_raw: Giant Rage Ape
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
   - spawn_id: crescent-valley__giant-scorpion
     name_raw: Giant Scorpion
     level_raw: '87'
@@ -3165,6 +4361,17 @@ levels:
     area_name_raw: Crescent Valley
     source_file: data/bestiary/site/areas/crescent-valley.yaml
     source_url: https://angels.wikidot.com/area:crescent-valley
+  - spawn_id: vine-front__jumping-mushroom
+    name_raw: Jumping Mushroom
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
   - spawn_id: noisy-rain-forest__mandala-mushroom
     name_raw: Mandala Mushroom
     level_raw: '87'
@@ -3187,6 +4394,17 @@ levels:
     area_name_raw: Lost Region
     source_file: data/bestiary/site/areas/lost-region.yaml
     source_url: https://angels.wikidot.com/area:lost-region
+  - spawn_id: vine-front__shaking-mushroom
+    name_raw: Shaking Mushroom
+    level_raw: '87'
+    level: 87
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
 - level: 88
   monsters:
   - spawn_id: lost-cove__ancient-crustace
@@ -3222,6 +4440,28 @@ levels:
     area_name_raw: Lost Cove
     source_file: data/bestiary/site/areas/lost-cove.yaml
     source_url: https://angels.wikidot.com/area:lost-cove
+  - spawn_id: waterfall-camp__earth-fairy
+    name_raw: Earth Fairy
+    level_raw: '88'
+    level: 88
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
+  - spawn_id: raging-reefs__whelk-elder
+    name_raw: Whelk Elder
+    level_raw: '88'
+    level: 88
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
 - level: 89
   monsters:
   - spawn_id: mushroom-village__beach-sheep
@@ -3246,6 +4486,17 @@ levels:
     area_name_raw: Desert Racetrack
     source_file: data/bestiary/site/areas/desert-racetrack.yaml
     source_url: https://angels.wikidot.com/area:desert-racetrack
+  - spawn_id: vine-front__blue-rotten-bird
+    name_raw: Blue Rotten Bird
+    level_raw: '89'
+    level: 89
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
   - spawn_id: noisy-rain-forest__dark-corpse-flower
     name_raw: Dark Corpse Flower
     level_raw: '89'
@@ -3279,6 +4530,17 @@ levels:
     area_name_raw: Mushroom Village
     source_file: data/bestiary/site/areas/mushroom-village.yaml
     source_url: https://angels.wikidot.com/area:mushroom-village
+  - spawn_id: vine-front__red-rotten-bird
+    name_raw: Red Rotten Bird
+    level_raw: '89'
+    level: 89
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
 - level: 90
   monsters:
   - spawn_id: hermit-wetland__bitter-survivor
@@ -3314,6 +4576,17 @@ levels:
     area_name_raw: Noisy Rain Forest
     source_file: data/bestiary/site/areas/noisy-rain-forest.yaml
     source_url: https://angels.wikidot.com/area:noisy-rain-forest
+  - spawn_id: secret-den__leech-mrs-dorsa
+    name_raw: Leech Mrs Dorsa
+    level_raw: '90'
+    level: 90
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
   - spawn_id: ghost-village__mad-bomber
     name_raw: Mad Bomber
     level_raw: '90'
@@ -3325,6 +4598,17 @@ levels:
     area_name_raw: Ghost Village
     source_file: data/bestiary/site/areas/ghost-village.yaml
     source_url: https://angels.wikidot.com/area:ghost-village
+  - spawn_id: waterfall-camp__orangutan-mother
+    name_raw: Orangutan Mother
+    level_raw: '90'
+    level: 90
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
   - spawn_id: blue-ocean__sea-shark
     name_raw: Sea Shark
     level_raw: '90'
@@ -3347,6 +4631,28 @@ levels:
     area_name_raw: Dream Ocean
     source_file: data/bestiary/site/areas/dream-ocean.yaml
     source_url: https://angels.wikidot.com/area:dream-ocean
+  - spawn_id: raging-reefs__sea-shark
+    name_raw: Sea Shark
+    level_raw: '90'
+    level: 90
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
+  - spawn_id: wave-harbor__sword-jellyfish
+    name_raw: Sword Jellyfish
+    level_raw: '90'
+    level: 90
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    source_file: data/bestiary/site/areas/wave-harbor.yaml
+    source_url: https://angels.wikidot.com/area:wave-harbor
 - level: 91
   monsters:
   - spawn_id: hermit-wetland__bitter-defender
@@ -3360,6 +4666,17 @@ levels:
     area_name_raw: Hermit Wetland
     source_file: data/bestiary/site/areas/hermit-wetland.yaml
     source_url: https://angels.wikidot.com/area:hermit-wetland
+  - spawn_id: roam-battlefield__dew-butterfly
+    name_raw: Dew Butterfly
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
   - spawn_id: coral-vale__evil-fish
     name_raw: Evil Fish
     level_raw: '91'
@@ -3371,6 +4688,28 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__evil-fish
+    name_raw: Evil Fish
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
+  - spawn_id: sunken-ruins__evil-fish
+    name_raw: Evil Fish
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: ancient-glide-river__glede-bud
     name_raw: Glede Bud
     level_raw: '91'
@@ -3382,8 +4721,63 @@ levels:
     area_name_raw: Ancient Glide River
     source_file: data/bestiary/site/areas/ancient-glide-river.yaml
     source_url: https://angels.wikidot.com/area:ancient-glide-river
+  - spawn_id: roam-battlefield__grey-butterfly
+    name_raw: Grey Butterfly
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: vine-front__ocean-hermit
+    name_raw: Ocean Hermit
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
+  - spawn_id: vine-front__purple-hermit
+    name_raw: Purple Hermit
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
+  - spawn_id: waterfall-camp__red-clapper-dragon
+    name_raw: Red Clapper Dragon
+    level_raw: '91'
+    level: 91
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
 - level: 92
   monsters:
+  - spawn_id: waterfall-camp__blue-clapper-dragon
+    name_raw: Blue Clapper Dragon
+    level_raw: '92'
+    level: 92
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: waterfall-camp
+    area_name_raw: Waterfall Camp
+    source_file: data/bestiary/site/areas/waterfall-camp.yaml
+    source_url: https://angels.wikidot.com/area:waterfall-camp
   - spawn_id: mushroom-village__crystal-envoy
     name_raw: Crystal Envoy
     level_raw: '92'
@@ -3452,6 +4846,39 @@ levels:
     source_url: https://angels.wikidot.com/area:mushroom-village
 - level: 93
   monsters:
+  - spawn_id: vine-front__baby-flower
+    name_raw: Baby Flower
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
+  - spawn_id: roam-battlefield__biting-baby
+    name_raw: Biting Baby
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: sky-pumice__carnivore
+    name_raw: Carnivore
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
   - spawn_id: blue-ocean__death-sailor
     name_raw: Death Sailor
     level_raw: '93'
@@ -3474,6 +4901,17 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__death-sailor
+    name_raw: Death Sailor
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
   - spawn_id: hermit-wetland__disaster-diffuser
     name_raw: Disaster Diffuser
     level_raw: '93'
@@ -3496,6 +4934,28 @@ levels:
     area_name_raw: Noisy Rain Forest
     source_file: data/bestiary/site/areas/noisy-rain-forest.yaml
     source_url: https://angels.wikidot.com/area:noisy-rain-forest
+  - spawn_id: sky-pumice__herbivore
+    name_raw: Herbivore
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
+  - spawn_id: roam-battlefield__jade-bud
+    name_raw: Jade Bud
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
   - spawn_id: ancient-glide-river__meat-eating-orchid
     name_raw: Meat-eating Orchid
     level_raw: '93'
@@ -3518,6 +4978,17 @@ levels:
     area_name_raw: Lost Region
     source_file: data/bestiary/site/areas/lost-region.yaml
     source_url: https://angels.wikidot.com/area:lost-region
+  - spawn_id: sunken-ruins__music-merman
+    name_raw: Music Merman
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: coral-vale__poison-evil-fish
     name_raw: Poison Evil Fish
     level_raw: '93'
@@ -3529,6 +5000,28 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__poison-evil-fish
+    name_raw: Poison Evil Fish
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
+  - spawn_id: sunken-ruins__poison-evil-fish
+    name_raw: Poison Evil Fish
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: ghost-village__rip-man
     name_raw: Rip Man
     level_raw: '93'
@@ -3551,6 +5044,17 @@ levels:
     area_name_raw: Lost Region
     source_file: data/bestiary/site/areas/lost-region.yaml
     source_url: https://angels.wikidot.com/area:lost-region
+  - spawn_id: vine-front__thorny-baby
+    name_raw: Thorny Baby
+    level_raw: '93'
+    level: 93
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
 - level: 94
   monsters:
   - spawn_id: blue-ocean__rage-shark
@@ -3564,6 +5068,28 @@ levels:
     area_name_raw: Blue Ocean
     source_file: data/bestiary/site/areas/blue-ocean.yaml
     source_url: https://angels.wikidot.com/area:blue-ocean
+  - spawn_id: raging-reefs__rage-shark
+    name_raw: Rage Shark
+    level_raw: '94'
+    level: 94
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
+  - spawn_id: sunken-ruins__rage-shark
+    name_raw: Rage Shark
+    level_raw: '94'
+    level: 94
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: evil-ship__scale-soldier
     name_raw: Scale Soldier
     level_raw: '94'
@@ -3608,6 +5134,28 @@ levels:
     area_name_raw: Hermit Wetland
     source_file: data/bestiary/site/areas/hermit-wetland.yaml
     source_url: https://angels.wikidot.com/area:hermit-wetland
+  - spawn_id: quiet-ocean__winged-fish
+    name_raw: Winged Fish
+    level_raw: '94'
+    level: 94
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
+  - spawn_id: sunken-ruins__winged-fish
+    name_raw: Winged Fish
+    level_raw: '94'
+    level: 94
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
 - level: 95
   monsters:
   - spawn_id: hermit-wetland__bitter-witch-doctor
@@ -3665,6 +5213,17 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__death-sail
+    name_raw: Death Sail
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
   - spawn_id: mushroom-village__elvis
     name_raw: Elvis
     level_raw: '95'
@@ -3698,6 +5257,39 @@ levels:
     area_name_raw: Ancient Glide River
     source_file: data/bestiary/site/areas/ancient-glide-river.yaml
     source_url: https://angels.wikidot.com/area:ancient-glide-river
+  - spawn_id: roam-battlefield__green-orangutan
+    name_raw: Green Orangutan
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: secret-den__grimace-doyle
+    name_raw: Grimace Doyle
+    level_raw: '95'
+    level: 95
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: secret-den
+    area_name_raw: Secret Den
+    source_file: data/bestiary/site/areas/secret-den.yaml
+    source_url: https://angels.wikidot.com/area:secret-den
+  - spawn_id: roam-battlefield__hairy-orangutan
+    name_raw: Hairy Orangutan
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
   - spawn_id: lost-region__hicalu-machine
     name_raw: Hicalu Machine
     level_raw: '95'
@@ -3764,6 +5356,17 @@ levels:
     area_name_raw: Blue Ocean
     source_file: data/bestiary/site/areas/blue-ocean.yaml
     source_url: https://angels.wikidot.com/area:blue-ocean
+  - spawn_id: raging-reefs__octopus-oliss
+    name_raw: Octopus Oliss
+    level_raw: '95'
+    level: 95
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
   - spawn_id: hermit-wetland__red-hair-jack
     name_raw: Red-hair Jack
     level_raw: '95'
@@ -3775,6 +5378,61 @@ levels:
     area_name_raw: Hermit Wetland
     source_file: data/bestiary/site/areas/hermit-wetland.yaml
     source_url: https://angels.wikidot.com/area:hermit-wetland
+  - spawn_id: troop-outpost__sentry-def-tower
+    name_raw: Sentry Def Tower
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
+  - spawn_id: vine-front__sharp-snake
+    name_raw: Sharp Snake
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
+  - spawn_id: sky-pumice__stinging-crab
+    name_raw: Stinging Crab
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
+  - spawn_id: vine-front__venom-snake
+    name_raw: Venom Snake
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: vine-front
+    area_name_raw: Vine Front
+    source_file: data/bestiary/site/areas/vine-front.yaml
+    source_url: https://angels.wikidot.com/area:vine-front
+  - spawn_id: sky-pumice__violet-crab
+    name_raw: Violet Crab
+    level_raw: '95'
+    level: 95
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
   - spawn_id: noisy-rain-forest__wistaria-elf
     name_raw: Wistaria Elf
     level_raw: '95'
@@ -3843,6 +5501,17 @@ levels:
     area_name_raw: Hermit Wetland
     source_file: data/bestiary/site/areas/hermit-wetland.yaml
     source_url: https://angels.wikidot.com/area:hermit-wetland
+  - spawn_id: troop-outpost__outpost-warrior
+    name_raw: Outpost Warrior
+    level_raw: '96'
+    level: 96
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
   - spawn_id: coral-vale__sea-lantern-fish
     name_raw: Sea Lantern Fish
     level_raw: '96'
@@ -3854,6 +5523,17 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__sea-lantern-fish
+    name_raw: Sea Lantern Fish
+    level_raw: '96'
+    level: 96
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
   - spawn_id: building-blocks-county__sky-winged-bird
     name_raw: Sky Winged Bird
     level_raw: '96'
@@ -3878,6 +5558,17 @@ levels:
     area_name_raw: Ancient Glide River
     source_file: data/bestiary/site/areas/ancient-glide-river.yaml
     source_url: https://angels.wikidot.com/area:ancient-glide-river
+  - spawn_id: sky-pumice__erosion-worm
+    name_raw: Erosion Worm
+    level_raw: '97'
+    level: 97
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
   - spawn_id: ghost-village__fat-thief-jim
     name_raw: Fat Thief Jim
     level_raw: '97'
@@ -3889,6 +5580,28 @@ levels:
     area_name_raw: Ghost Village
     source_file: data/bestiary/site/areas/ghost-village.yaml
     source_url: https://angels.wikidot.com/area:ghost-village
+  - spawn_id: roam-battlefield__flame-bird
+    name_raw: Flame Bird
+    level_raw: '97'
+    level: 97
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: troop-outpost__flame-worm
+    name_raw: Flame Worm
+    level_raw: '97'
+    level: 97
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
   - spawn_id: noisy-rain-forest__noisy-worm
     name_raw: Noisy Worm
     level_raw: '97'
@@ -3900,6 +5613,28 @@ levels:
     area_name_raw: Noisy Rain Forest
     source_file: data/bestiary/site/areas/noisy-rain-forest.yaml
     source_url: https://angels.wikidot.com/area:noisy-rain-forest
+  - spawn_id: roam-battlefield__rainbow-bird
+    name_raw: Rainbow Bird
+    level_raw: '97'
+    level: 97
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: sky-pumice__sword-worm
+    name_raw: Sword Worm
+    level_raw: '97'
+    level: 97
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
 - level: 98
   monsters:
   - spawn_id: ghost-village__baba-bandit
@@ -3968,6 +5703,39 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: quiet-ocean__red-lantern-fish
+    name_raw: Red Lantern Fish
+    level_raw: '98'
+    level: 98
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
+  - spawn_id: troop-outpost__sentry-attk-tower
+    name_raw: Sentry Attk Tower
+    level_raw: '98'
+    level: 98
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
+  - spawn_id: winding-flower-corridor__silver-armor-baby
+    name_raw: Silver Armor Baby
+    level_raw: '98'
+    level: 98
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
 - level: 99
   monsters:
   - spawn_id: ancient-glide-river__rain-butterfly
@@ -4016,6 +5784,28 @@ levels:
     area_name_raw: Hoca Village
     source_file: data/bestiary/site/areas/hoca-village.yaml
     source_url: https://angels.wikidot.com/area:hoca-village
+  - spawn_id: winding-flower-corridor__bud-crab
+    name_raw: Bud Crab
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
+  - spawn_id: quiet-ocean__captain-hack
+    name_raw: Captain Hack
+    level_raw: '100'
+    level: 100
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    source_file: data/bestiary/site/areas/quiet-ocean.yaml
+    source_url: https://angels.wikidot.com/area:quiet-ocean
   - spawn_id: coral-vale__captain-mark
     name_raw: Captain Mark
     level_raw: '100'
@@ -4027,6 +5817,28 @@ levels:
     area_name_raw: Coral Vale
     source_file: data/bestiary/site/areas/coral-vale.yaml
     source_url: https://angels.wikidot.com/area:coral-vale
+  - spawn_id: sky-pumice__colorful-bird
+    name_raw: Colorful Bird
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
+  - spawn_id: sky-pumice__golden-sparrow
+    name_raw: Golden Sparrow
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
   - spawn_id: lost-region__hicalu-1
     name_raw: Hicalu 1
     level_raw: '100'
@@ -4038,6 +5850,17 @@ levels:
     area_name_raw: Lost Region
     source_file: data/bestiary/site/areas/lost-region.yaml
     source_url: https://angels.wikidot.com/area:lost-region
+  - spawn_id: sunken-ruins__knight-clarc
+    name_raw: Knight Clarc
+    level_raw: '100'
+    level: 100
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    source_file: data/bestiary/site/areas/sunken-ruins.yaml
+    source_url: https://angels.wikidot.com/area:sunken-ruins
   - spawn_id: evil-ship__mamen
     name_raw: Mamen
     level_raw: '100'
@@ -4060,6 +5883,28 @@ levels:
     area_name_raw: Flower Corridor
     source_file: data/bestiary/site/areas/flower-corridor.yaml
     source_url: https://angels.wikidot.com/area:flower-corridor
+  - spawn_id: roam-battlefield__noxious-snake
+    name_raw: Noxious Snake
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
+  - spawn_id: troop-outpost__outpost-archer
+    name_raw: Outpost Archer
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
   - spawn_id: ancient-front__pink-lizard
     name_raw: Pink Lizard
     level_raw: '100'
@@ -4082,6 +5927,17 @@ levels:
     area_name_raw: Blue Ocean
     source_file: data/bestiary/site/areas/blue-ocean.yaml
     source_url: https://angels.wikidot.com/area:blue-ocean
+  - spawn_id: raging-reefs__rage-denio
+    name_raw: Rage Denio
+    level_raw: '100'
+    level: 100
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'Yes'
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    source_file: data/bestiary/site/areas/raging-reefs.yaml
+    source_url: https://angels.wikidot.com/area:raging-reefs
   - spawn_id: evil-ship__sallen
     name_raw: Sallen
     level_raw: '100'
@@ -4126,6 +5982,17 @@ levels:
     area_name_raw: Hermit Wetland
     source_file: data/bestiary/site/areas/hermit-wetland.yaml
     source_url: https://angels.wikidot.com/area:hermit-wetland
+  - spawn_id: roam-battlefield__vampire-snake
+    name_raw: Vampire Snake
+    level_raw: '100'
+    level: 100
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: roam-battlefield
+    area_name_raw: Roam Battlefield
+    source_file: data/bestiary/site/areas/roam-battlefield.yaml
+    source_url: https://angels.wikidot.com/area:roam-battlefield
   - spawn_id: hoca-village__wetland-orang
     name_raw: Wetland Orang
     level_raw: '100'
@@ -4229,6 +6096,17 @@ levels:
     area_name_raw: Hoca Village
     source_file: data/bestiary/site/areas/hoca-village.yaml
     source_url: https://angels.wikidot.com/area:hoca-village
+  - spawn_id: troop-outpost__shadow-worm
+    name_raw: Shadow Worm
+    level_raw: '102'
+    level: 102
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
   - spawn_id: hoca-village__soul-moth
     name_raw: Soul Moth
     level_raw: '102'
@@ -4240,6 +6118,17 @@ levels:
     area_name_raw: Hoca Village
     source_file: data/bestiary/site/areas/hoca-village.yaml
     source_url: https://angels.wikidot.com/area:hoca-village
+  - spawn_id: winding-flower-corridor__steel-crab
+    name_raw: Steel Crab
+    level_raw: '102'
+    level: 102
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
   - spawn_id: flower-corridor__thunder-rabbit-new
     name_raw: Thunder Rabbit(New)
     level_raw: '102'
@@ -4253,6 +6142,17 @@ levels:
     source_url: https://angels.wikidot.com/area:flower-corridor
 - level: 103
   monsters:
+  - spawn_id: troop-outpost__bottle-warrior
+    name_raw: Bottle Warrior
+    level_raw: '103'
+    level: 103
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: troop-outpost
+    area_name_raw: Troop Outpost
+    source_file: data/bestiary/site/areas/troop-outpost.yaml
+    source_url: https://angels.wikidot.com/area:troop-outpost
   - spawn_id: ancient-front__giant-smoker
     name_raw: Giant Smoker
     level_raw: '103'
@@ -4334,6 +6234,28 @@ levels:
     area_name_raw: Fantastic Sand City
     source_file: data/bestiary/site/areas/fantastic-sand-city.yaml
     source_url: https://angels.wikidot.com/area:fantastic-sand-city
+  - spawn_id: sky-pumice__bloody-stone-demon
+    name_raw: Bloody Stone Demon
+    level_raw: '105'
+    level: 105
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
+  - spawn_id: winding-flower-corridor__blue-bird
+    name_raw: Blue Bird
+    level_raw: '105'
+    level: 105
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
   - spawn_id: building-blocks-city__dessert-fruit-fly
     name_raw: Dessert Fruit Fly
     level_raw: '105'
@@ -4378,6 +6300,17 @@ levels:
     area_name_raw: Building Blocks City
     source_file: data/bestiary/site/areas/building-blocks-city.yaml
     source_url: https://angels.wikidot.com/area:building-blocks-city
+  - spawn_id: sky-pumice__stone-demon
+    name_raw: Stone Demon
+    level_raw: '105'
+    level: 105
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sky-pumice
+    area_name_raw: Sky Pumice
+    source_file: data/bestiary/site/areas/sky-pumice.yaml
+    source_url: https://angels.wikidot.com/area:sky-pumice
   - spawn_id: airship-station__thunder-robot
     name_raw: Thunder Robot
     level_raw: '105'
@@ -4437,6 +6370,28 @@ levels:
     source_url: https://angels.wikidot.com/area:hoca-village
 - level: 107
   monsters:
+  - spawn_id: winding-flower-corridor__botti-elf
+    name_raw: Botti Elf
+    level_raw: '107'
+    level: 107
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
+  - spawn_id: winding-flower-corridor__botti-elf-envoy
+    name_raw: Botti Elf Envoy
+    level_raw: '107'
+    level: 107
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
   - spawn_id: airship-station__floating-airship
     name_raw: Floating Airship
     level_raw: '107'
@@ -4595,6 +6550,17 @@ levels:
     source_url: https://angels.wikidot.com/area:hoca-village
 - level: 109
   monsters:
+  - spawn_id: winding-flower-corridor__capt-of-the-guard
+    name_raw: Capt of the Guard
+    level_raw: '109'
+    level: 109
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
   - spawn_id: building-blocks-city__earth-witch
     name_raw: Earth Witch
     level_raw: '109'
@@ -4628,6 +6594,17 @@ levels:
     area_name_raw: Flower Corridor
     source_file: data/bestiary/site/areas/flower-corridor.yaml
     source_url: https://angels.wikidot.com/area:flower-corridor
+  - spawn_id: winding-flower-corridor__stone-scout
+    name_raw: Stone Scout
+    level_raw: '109'
+    level: 109
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
 - level: 110
   monsters:
   - spawn_id: fantastic-sand-city__evil-dancing-girl
@@ -4652,6 +6629,17 @@ levels:
     area_name_raw: Airship Station
     source_file: data/bestiary/site/areas/airship-station.yaml
     source_url: https://angels.wikidot.com/area:airship-station
+  - spawn_id: sunshine-palace__palace-gunner
+    name_raw: Palace Gunner
+    level_raw: '110'
+    level: 110
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
   - spawn_id: nightmare-palace__palace-soldier
     name_raw: Palace Soldier
     level_raw: '110'
@@ -4674,6 +6662,17 @@ levels:
     area_name_raw: Hoca Village
     source_file: data/bestiary/site/areas/hoca-village.yaml
     source_url: https://angels.wikidot.com/area:hoca-village
+  - spawn_id: rex-point__red-crab
+    name_raw: Red Crab
+    level_raw: '110'
+    level: 110
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
   - spawn_id: airship-station__rolin-robot-y
     name_raw: Rolin Robot Y
     level_raw: '110'
@@ -4685,6 +6684,17 @@ levels:
     area_name_raw: Airship Station
     source_file: data/bestiary/site/areas/airship-station.yaml
     source_url: https://angels.wikidot.com/area:airship-station
+  - spawn_id: rex-point__seed-crab
+    name_raw: Seed Crab
+    level_raw: '110'
+    level: 110
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
 - level: 111
   monsters:
   - spawn_id: building-blocks-city__carpenter-piggy
@@ -4698,6 +6708,39 @@ levels:
     area_name_raw: Building Blocks City
     source_file: data/bestiary/site/areas/building-blocks-city.yaml
     source_url: https://angels.wikidot.com/area:building-blocks-city
+  - spawn_id: winding-flower-corridor__flower-breather
+    name_raw: Flower Breather
+    level_raw: '111'
+    level: 111
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
+  - spawn_id: winding-flower-corridor__flower-walker
+    name_raw: Flower Walker
+    level_raw: '111'
+    level: 111
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: winding-flower-corridor
+    area_name_raw: Winding Flower Corridor
+    source_file: data/bestiary/site/areas/winding-flower-corridor.yaml
+    source_url: https://angels.wikidot.com/area:winding-flower-corridor
+  - spawn_id: sunshine-palace__palace-archer
+    name_raw: Palace Archer
+    level_raw: '111'
+    level: 111
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
   - spawn_id: building-blocks-city__reed-piggy
     name_raw: Reed Piggy
     level_raw: '111'
@@ -4722,6 +6765,28 @@ levels:
     area_name_raw: Airship Station
     source_file: data/bestiary/site/areas/airship-station.yaml
     source_url: https://angels.wikidot.com/area:airship-station
+  - spawn_id: rex-point__barren-barbarian
+    name_raw: Barren Barbarian
+    level_raw: '112'
+    level: 112
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
+  - spawn_id: rex-point__barren-spearman
+    name_raw: Barren Spearman
+    level_raw: '112'
+    level: 112
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
   - spawn_id: nightmare-palace__dark-warrior
     name_raw: Dark Warrior
     level_raw: '112'
@@ -4779,6 +6844,17 @@ levels:
     area_name_raw: Bouleuterion
     source_file: data/bestiary/site/areas/bouleuterion.yaml
     source_url: https://angels.wikidot.com/area:bouleuterion
+  - spawn_id: sunshine-palace__palace-swordsman
+    name_raw: Palace Swordsman
+    level_raw: '113'
+    level: 113
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
   - spawn_id: bouleuterion__rolin-robot-x
     name_raw: Rolin Robot X
     level_raw: '113'
@@ -4792,6 +6868,17 @@ levels:
     source_url: https://angels.wikidot.com/area:bouleuterion
 - level: 114
   monsters:
+  - spawn_id: rex-point__ancient-thorny-turtle
+    name_raw: Ancient Thorny Turtle
+    level_raw: '114'
+    level: 114
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
   - spawn_id: nightmare-palace__bottle-leaguer
     name_raw: Bottle Leaguer
     level_raw: '114'
@@ -4836,6 +6923,28 @@ levels:
     area_name_raw: Building Blocks City
     source_file: data/bestiary/site/areas/building-blocks-city.yaml
     source_url: https://angels.wikidot.com/area:building-blocks-city
+  - spawn_id: sunshine-palace__palace-axeman
+    name_raw: Palace Axeman
+    level_raw: '114'
+    level: 114
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
+  - spawn_id: rex-point__wildness-dragon-turtle
+    name_raw: Wildness Dragon Turtle
+    level_raw: '114'
+    level: 114
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
 - level: 115
   monsters:
   - spawn_id: airship-station__botti-cavalier
@@ -4871,6 +6980,28 @@ levels:
     area_name_raw: Nightmare Palace
     source_file: data/bestiary/site/areas/nightmare-palace.yaml
     source_url: https://angels.wikidot.com/area:nightmare-palace
+  - spawn_id: season-garden__forest-elf
+    name_raw: Forest Elf
+    level_raw: '115'
+    level: 115
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
+  - spawn_id: sunshine-palace__palace-sniper
+    name_raw: Palace Sniper
+    level_raw: '115'
+    level: 115
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
   - spawn_id: fruit-town__pink-violet
     name_raw: Pink Violet
     level_raw: '115'
@@ -4917,6 +7048,28 @@ levels:
     area_name_raw: Bouleuterion
     source_file: data/bestiary/site/areas/bouleuterion.yaml
     source_url: https://angels.wikidot.com/area:bouleuterion
+  - spawn_id: rex-point__ancient-crustacean
+    name_raw: Ancient Crustacean
+    level_raw: '116'
+    level: 116
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
+  - spawn_id: rex-point__floating-shrimp
+    name_raw: Floating Shrimp
+    level_raw: '116'
+    level: 116
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
   - spawn_id: bouleuterion__rolin-machine-z
     name_raw: Rolin Machine Z
     level_raw: '116'
@@ -4930,6 +7083,17 @@ levels:
     source_url: https://angels.wikidot.com/area:bouleuterion
 - level: 117
   monsters:
+  - spawn_id: season-garden__armored-baby
+    name_raw: Armored Baby
+    level_raw: '117'
+    level: 117
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
   - spawn_id: bouleuterion__botti-assassin
     name_raw: Botti Assassin
     level_raw: '117'
@@ -4996,8 +7160,52 @@ levels:
     area_name_raw: Nightmare Palace
     source_file: data/bestiary/site/areas/nightmare-palace.yaml
     source_url: https://angels.wikidot.com/area:nightmare-palace
+  - spawn_id: sunshine-palace__palace-rifleman
+    name_raw: Palace Rifleman
+    level_raw: '117'
+    level: 117
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
+  - spawn_id: season-garden__purple-armor-baby
+    name_raw: Purple Armor Baby
+    level_raw: '117'
+    level: 117
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
 - level: 118
   monsters:
+  - spawn_id: rex-point__dreamland-cradle-rex
+    name_raw: Dreamland Cradle Rex
+    level_raw: '118'
+    level: 118
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
+  - spawn_id: rex-point__exploration-chair-rex
+    name_raw: Exploration Chair Rex
+    level_raw: '118'
+    level: 118
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rex-point
+    area_name_raw: Rex Point
+    source_file: data/bestiary/site/areas/rex-point.yaml
+    source_url: https://angels.wikidot.com/area:rex-point
   - spawn_id: nightmare-palace__fervent-bride
     name_raw: Fervent Bride
     level_raw: '118'
@@ -5009,6 +7217,17 @@ levels:
     area_name_raw: Nightmare Palace
     source_file: data/bestiary/site/areas/nightmare-palace.yaml
     source_url: https://angels.wikidot.com/area:nightmare-palace
+  - spawn_id: sunshine-palace__skeleton-warrior
+    name_raw: Skeleton Warrior
+    level_raw: '118'
+    level: 118
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
 - level: 119
   monsters:
   - spawn_id: bouleuterion__botti-arrow
@@ -5022,6 +7241,17 @@ levels:
     area_name_raw: Bouleuterion
     source_file: data/bestiary/site/areas/bouleuterion.yaml
     source_url: https://angels.wikidot.com/area:bouleuterion
+  - spawn_id: season-garden__dasheen-demon
+    name_raw: Dasheen Demon
+    level_raw: '119'
+    level: 119
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
   - spawn_id: fruit-town__earth-dog-fighter
     name_raw: Earth Dog Fighter
     level_raw: '119'
@@ -5055,6 +7285,39 @@ levels:
     area_name_raw: Fruit Town
     source_file: data/bestiary/site/areas/fruit-town.yaml
     source_url: https://angels.wikidot.com/area:fruit-town
+  - spawn_id: sunshine-palace__red-flower-pixie
+    name_raw: Red Flower Pixie
+    level_raw: '119'
+    level: 119
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
+  - spawn_id: season-garden__sun-crab
+    name_raw: Sun Crab
+    level_raw: '119'
+    level: 119
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
+  - spawn_id: sunshine-palace__white-flower-pixie
+    name_raw: White Flower Pixie
+    level_raw: '119'
+    level: 119
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
 - level: 120
   monsters:
   - spawn_id: chocolate-village__blue-rabbit
@@ -5101,6 +7364,28 @@ levels:
     area_name_raw: Chocolate Village
     source_file: data/bestiary/site/areas/chocolate-village.yaml
     source_url: https://angels.wikidot.com/area:chocolate-village
+  - spawn_id: sunshine-palace__pixie-emily
+    name_raw: Pixie Emily
+    level_raw: '120'
+    level: 120
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sunshine-palace
+    area_name_raw: Sunshine Palace
+    source_file: data/bestiary/site/areas/sunshine-palace.yaml
+    source_url: https://angels.wikidot.com/area:sunshine-palace
+  - spawn_id: samara-woods__swaying-maneater
+    name_raw: Swaying Maneater
+    level_raw: '120'
+    level: 120
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
   - spawn_id: nightmare-palace__white-witch
     name_raw: White Witch
     level_raw: '120'
@@ -5112,8 +7397,41 @@ levels:
     area_name_raw: Nightmare Palace
     source_file: data/bestiary/site/areas/nightmare-palace.yaml
     source_url: https://angels.wikidot.com/area:nightmare-palace
+  - spawn_id: samara-woods__withered-maneater
+    name_raw: Withered Maneater
+    level_raw: '120'
+    level: 120
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
 - level: 121
   monsters:
+  - spawn_id: season-garden__botti-archer
+    name_raw: Botti Archer
+    level_raw: '121'
+    level: 121
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
+  - spawn_id: season-garden__botti-blood-arrow
+    name_raw: Botti Blood Arrow
+    level_raw: '121'
+    level: 121
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
   - spawn_id: botti-palace__green-statue-ghost
     name_raw: Green Statue Ghost
     level_raw: '121'
@@ -5160,6 +7478,17 @@ levels:
     area_name_raw: Fruit Town
     source_file: data/bestiary/site/areas/fruit-town.yaml
     source_url: https://angels.wikidot.com/area:fruit-town
+  - spawn_id: samara-woods__greencap-mushroom
+    name_raw: Greencap Mushroom
+    level_raw: '122'
+    level: 122
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
   - spawn_id: chocolate-village__kaz-spearman
     name_raw: Kaz Spearman
     level_raw: '122'
@@ -5182,8 +7511,30 @@ levels:
     area_name_raw: Chocolate Village
     source_file: data/bestiary/site/areas/chocolate-village.yaml
     source_url: https://angels.wikidot.com/area:chocolate-village
+  - spawn_id: samara-woods__pink-tentashroom
+    name_raw: Pink Tentashroom
+    level_raw: '122'
+    level: 122
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
 - level: 123
   monsters:
+  - spawn_id: season-garden__eyebasher
+    name_raw: Eyebasher
+    level_raw: '123'
+    level: 123
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
   - spawn_id: botti-palace__grey-statue-ghost
     name_raw: Grey Statue Ghost
     level_raw: '123'
@@ -5197,6 +7548,17 @@ levels:
     source_url: https://angels.wikidot.com/area:botti-palace
 - level: 124
   monsters:
+  - spawn_id: samara-woods__grassy-hedgehog
+    name_raw: Grassy Hedgehog
+    level_raw: '124'
+    level: 124
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
   - spawn_id: fruit-town__little-strawberry
     name_raw: Little Strawberry
     level_raw: '124'
@@ -5219,6 +7581,17 @@ levels:
     area_name_raw: Chocolate Village
     source_file: data/bestiary/site/areas/chocolate-village.yaml
     source_url: https://angels.wikidot.com/area:chocolate-village
+  - spawn_id: samara-woods__poison-hedgehog
+    name_raw: Poison Hedgehog
+    level_raw: '124'
+    level: 124
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
   - spawn_id: fruit-town__sweet-strawberry
     name_raw: Sweet Strawberry
     level_raw: '124'
@@ -5287,6 +7660,63 @@ levels:
     area_name_raw: Botti Palace
     source_file: data/bestiary/site/areas/botti-palace.yaml
     source_url: https://angels.wikidot.com/area:botti-palace
+  - spawn_id: season-garden__swift-eyebasher
+    name_raw: Swift Eyebasher
+    level_raw: '125'
+    level: 125
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: season-garden
+    area_name_raw: Season Garden
+    source_file: data/bestiary/site/areas/season-garden.yaml
+    source_url: https://angels.wikidot.com/area:season-garden
+- level: 126
+  monsters:
+  - spawn_id: strawberry-garden__blueberry-collector
+    name_raw: Blueberry Collector
+    level_raw: '126'
+    level: 126
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: strawberry-garden__lollipop-soldier
+    name_raw: Lollipop Soldier
+    level_raw: '126'
+    level: 126
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: samara-woods__prune-onigiri
+    name_raw: Prune Onigiri
+    level_raw: '126'
+    level: 126
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
+  - spawn_id: samara-woods__purple-onigiri
+    name_raw: Purple Onigiri
+    level_raw: '126'
+    level: 126
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
 - level: 127
   monsters:
   - spawn_id: botti-palace__botti-guardian
@@ -5333,6 +7763,52 @@ levels:
     area_name_raw: Chocolate Village
     source_file: data/bestiary/site/areas/chocolate-village.yaml
     source_url: https://angels.wikidot.com/area:chocolate-village
+- level: 128
+  monsters:
+  - spawn_id: strawberry-garden__berry-soldier
+    name_raw: Berry Soldier
+    level_raw: '128'
+    level: 128
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: samara-woods__glowlake-kappa
+    name_raw: Glowlake Kappa
+    level_raw: '128'
+    level: 128
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
+  - spawn_id: strawberry-garden__strawberry-imp
+    name_raw: Strawberry Imp
+    level_raw: '128'
+    level: 128
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: samara-woods__threeway-kappa
+    name_raw: Threeway Kappa
+    level_raw: '128'
+    level: 128
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: samara-woods
+    area_name_raw: Samara Woods
+    source_file: data/bestiary/site/areas/samara-woods.yaml
+    source_url: https://angels.wikidot.com/area:samara-woods
 - level: 129
   monsters:
   - spawn_id: chocolate-village__caramel-pudding-fighter
@@ -5392,6 +7868,17 @@ levels:
     area_name_raw: Chocolate Forest
     source_file: data/bestiary/site/areas/chocolate-forest.yaml
     source_url: https://angels.wikidot.com/area:chocolate-forest
+  - spawn_id: strawberry-garden__forest-fairy
+    name_raw: Forest Fairy
+    level_raw: '130'
+    level: 130
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
   - spawn_id: chocolate-forest__mint-sandwich-goblin
     name_raw: Mint Sandwich Goblin
     level_raw: '130'
@@ -5403,6 +7890,17 @@ levels:
     area_name_raw: Chocolate Forest
     source_file: data/bestiary/site/areas/chocolate-forest.yaml
     source_url: https://angels.wikidot.com/area:chocolate-forest
+  - spawn_id: strawberry-garden__white-fairy
+    name_raw: White Fairy
+    level_raw: '130'
+    level: 130
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
 - level: 131
   monsters:
   - spawn_id: botti-palace__palace-envoy
@@ -5451,6 +7949,28 @@ levels:
     area_name_raw: Chocolate Forest
     source_file: data/bestiary/site/areas/chocolate-forest.yaml
     source_url: https://angels.wikidot.com/area:chocolate-forest
+  - spawn_id: strawberry-garden__earth-warlock
+    name_raw: Earth Warlock
+    level_raw: '132'
+    level: 132
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: strawberry-garden__white-warlock
+    name_raw: White Warlock
+    level_raw: '132'
+    level: 132
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
 - level: 134
   monsters:
   - spawn_id: chocolate-forest__bluebarry-warrior
@@ -5464,6 +7984,28 @@ levels:
     area_name_raw: Chocolate Forest
     source_file: data/bestiary/site/areas/chocolate-forest.yaml
     source_url: https://angels.wikidot.com/area:chocolate-forest
+  - spawn_id: strawberry-garden__cheese-spearman
+    name_raw: Cheese Spearman
+    level_raw: '134'
+    level: 134
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
+  - spawn_id: strawberry-garden__cheese-warrior
+    name_raw: Cheese Warrior
+    level_raw: '134'
+    level: 134
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: strawberry-garden
+    area_name_raw: Strawberry Garden
+    source_file: data/bestiary/site/areas/strawberry-garden.yaml
+    source_url: https://angels.wikidot.com/area:strawberry-garden
   - spawn_id: chocolate-forest__strawberry-warrior
     name_raw: Strawberry Warrior
     level_raw: '134'
@@ -5569,8 +8111,43 @@ levels:
     area_name_raw: Edo City
     source_file: data/bestiary/site/areas/edo-city.yaml
     source_url: https://angels.wikidot.com/area:edo-city
+- level: 140
+  monsters:
+  - spawn_id: sweet-orchard__grassland-sheep
+    name_raw: Grassland Sheep
+    level_raw: '140'
+    level: 140
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
+  - spawn_id: sweet-orchard__lavender-sheep
+    name_raw: Lavender Sheep
+    level_raw: '140'
+    level: 140
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
 - level: 142
   monsters:
+  - spawn_id: sweet-orchard__glow-frog
+    name_raw: Glow Frog
+    level_raw: '142'
+    level: 142
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
   - spawn_id: edo-city__green-paper-umbrella
     name_raw: Green Paper Umbrella
     level_raw: '142'
@@ -5593,6 +8170,41 @@ levels:
     area_name_raw: Edo City
     source_file: data/bestiary/site/areas/edo-city.yaml
     source_url: https://angels.wikidot.com/area:edo-city
+  - spawn_id: sweet-orchard__pastel-frog
+    name_raw: Pastel Frog
+    level_raw: '142'
+    level: 142
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
+- level: 144
+  monsters:
+  - spawn_id: sweet-orchard__violet-grassball
+    name_raw: Violet Grassball
+    level_raw: '144'
+    level: 144
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
+  - spawn_id: sweet-orchard__warm-grassball
+    name_raw: Warm Grassball
+    level_raw: '144'
+    level: 144
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
 - level: 145
   monsters:
   - spawn_id: edo-city__mustard-salmon-sushi
@@ -5617,6 +8229,30 @@ levels:
     area_name_raw: Edo City
     source_file: data/bestiary/site/areas/edo-city.yaml
     source_url: https://angels.wikidot.com/area:edo-city
+- level: 146
+  monsters:
+  - spawn_id: sweet-orchard__cavendish-dancer
+    name_raw: Cavendish Dancer
+    level_raw: '146'
+    level: 146
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
+  - spawn_id: sweet-orchard__dacca-dancer
+    name_raw: Dacca Dancer
+    level_raw: '146'
+    level: 146
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
 - level: 148
   monsters:
   - spawn_id: edo-city__awkward-lass
@@ -5641,6 +8277,28 @@ levels:
     area_name_raw: Edo City
     source_file: data/bestiary/site/areas/edo-city.yaml
     source_url: https://angels.wikidot.com/area:edo-city
+  - spawn_id: sweet-orchard__carrot-boy
+    name_raw: Carrot Boy
+    level_raw: '148'
+    level: 148
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
+  - spawn_id: sweet-orchard__radish-boy
+    name_raw: Radish Boy
+    level_raw: '148'
+    level: 148
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sweet-orchard
+    area_name_raw: Sweet Orchard
+    source_file: data/bestiary/site/areas/sweet-orchard.yaml
+    source_url: https://angels.wikidot.com/area:sweet-orchard
 - level: 155
   monsters:
   - spawn_id: joy-festival__green-smiley
@@ -5761,6 +8419,126 @@ levels:
     area_name_raw: Joy Festival
     source_file: data/bestiary/site/areas/joy-festival.yaml
     source_url: https://angels.wikidot.com/area:joy-festival
+- level: 170
+  monsters:
+  - spawn_id: sakura-valley__moss-sprite
+    name_raw: Moss Sprite
+    level_raw: '170'
+    level: 170
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+  - spawn_id: sakura-valley__toxic-earth-sprite
+    name_raw: Toxic Earth Sprite
+    level_raw: '170'
+    level: 170
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+- level: 172
+  monsters:
+  - spawn_id: sakura-valley__fragrant-bugtrap
+    name_raw: Fragrant Bugtrap
+    level_raw: '172'
+    level: 172
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+  - spawn_id: sakura-valley__green-pitcher
+    name_raw: Green Pitcher
+    level_raw: '172'
+    level: 172
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+- level: 174
+  monsters:
+  - spawn_id: sakura-valley__bearded-deer
+    name_raw: Bearded Deer
+    level_raw: '174'
+    level: 174
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+  - spawn_id: sakura-valley__crandeer
+    name_raw: Crandeer
+    level_raw: '174'
+    level: 174
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+- level: 176
+  monsters:
+  - spawn_id: sakura-valley__orange-kitty
+    name_raw: Orange Kitty
+    level_raw: '176'
+    level: 176
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+  - spawn_id: sakura-valley__twin-candle-ghost
+    name_raw: Twin Candle Ghost
+    level_raw: '176'
+    level: 176
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+- level: 178
+  monsters:
+  - spawn_id: sakura-valley__kappa-bandit
+    name_raw: Kappa Bandit
+    level_raw: '178'
+    level: 178
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
+  - spawn_id: sakura-valley__pink-kitty
+    name_raw: Pink Kitty
+    level_raw: '178'
+    level: 178
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: sakura-valley
+    area_name_raw: Sakura Valley
+    source_file: data/bestiary/site/areas/sakura-valley.yaml
+    source_url: https://angels.wikidot.com/area:sakura-valley
 - level: 180
   monsters:
   - spawn_id: hot-spring-resort__aquatic-hunter
@@ -6068,6 +8846,234 @@ levels:
     area_name_raw: Metal Scrapyard
     source_file: data/bestiary/site/areas/metal-scrapyard.yaml
     source_url: https://angels.wikidot.com/area:metal-scrapyard
+  - spawn_id: rusty-pipe-lane__lost-pixie
+    name_raw: Lost Pixie
+    level_raw: '210'
+    level: 210
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 211
+  monsters:
+  - spawn_id: rusty-pipe-lane__perfume-fairy
+    name_raw: Perfume Fairy
+    level_raw: '211'
+    level: 211
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 212
+  monsters:
+  - spawn_id: rusty-pipe-lane__yellow-fly
+    name_raw: Yellow Fly
+    level_raw: '212'
+    level: 212
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 213
+  monsters:
+  - spawn_id: rusty-pipe-lane__buzzfly
+    name_raw: Buzzfly
+    level_raw: '213'
+    level: 213
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 214
+  monsters:
+  - spawn_id: rusty-pipe-lane__tentabloom
+    name_raw: Tentabloom
+    level_raw: '214'
+    level: 214
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 215
+  monsters:
+  - spawn_id: rusty-pipe-lane__devils-snar
+    name_raw: Devil's Snar
+    level_raw: '215'
+    level: 215
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 216
+  monsters:
+  - spawn_id: rusty-pipe-lane__rust-flies
+    name_raw: Rust Flies
+    level_raw: '216'
+    level: 216
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 217
+  monsters:
+  - spawn_id: rusty-pipe-lane__shadow-fly
+    name_raw: Shadow Fly
+    level_raw: '217'
+    level: 217
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 218
+  monsters:
+  - spawn_id: rusty-pipe-lane__elite-lost-pixie
+    name_raw: Elite - Lost Pixie
+    level_raw: '218'
+    level: 218
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+  - spawn_id: rusty-pipe-lane__rust-chameleon
+    name_raw: Rust Chameleon
+    level_raw: '218'
+    level: 218
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 219
+  monsters:
+  - spawn_id: rusty-pipe-lane__stealth-chameleon
+    name_raw: Stealth Chameleon
+    level_raw: '219'
+    level: 219
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 220
+  monsters:
+  - spawn_id: rusty-pipe-lane__elite-yellow-fly
+    name_raw: Elite - Yellow Fly
+    level_raw: '220'
+    level: 220
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 221
+  monsters:
+  - spawn_id: rusty-pipe-lane__withered-nyth
+    name_raw: Withered Nyth
+    level_raw: '221'
+    level: 221
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 222
+  monsters:
+  - spawn_id: rusty-pipe-lane__elite-tentabloom
+    name_raw: Elite - Tentabloom
+    level_raw: '222'
+    level: 222
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 223
+  monsters:
+  - spawn_id: rusty-pipe-lane__ancient-mosquito
+    name_raw: Ancient Mosquito
+    level_raw: '223'
+    level: 223
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+  - spawn_id: rusty-pipe-lane__elite-rust-flies
+    name_raw: Elite - Rust Flies
+    level_raw: '223'
+    level: 223
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 224
+  monsters:
+  - spawn_id: rusty-pipe-lane__elite-rust-chameleon
+    name_raw: Elite - Rust Chameleon
+    level_raw: '224'
+    level: 224
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+- level: 225
+  monsters:
+  - spawn_id: rusty-pipe-lane__deadly-brach
+    name_raw: Deadly Brach
+    level_raw: '225'
+    level: 225
+    boss_raw: 'Yes'
+    boss: true
+    aggressive_raw: 'No'
+    area_id: rusty-pipe-lane
+    area_name_raw: Rusty Pipe Lane
+    source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
+    source_url: https://angels.wikidot.com/area:rusty-pipe-lane
 - level: 230
   monsters:
   - spawn_id: brilliant-boneyard__pirty
@@ -6188,6 +9194,30 @@ levels:
     area_name_raw: Brilliant Boneyard
     source_file: data/bestiary/site/areas/brilliant-boneyard.yaml
     source_url: https://angels.wikidot.com/area:brilliant-boneyard
+- level: 240
+  monsters:
+  - spawn_id: starglow-path__greenshrom
+    name_raw: Greenshrom
+    level_raw: '240'
+    level: 240
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
+  - spawn_id: starglow-path__loneshrom
+    name_raw: Loneshrom
+    level_raw: '240'
+    level: 240
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
 - level: 241
   monsters:
   - spawn_id: ivory-forest__pinky-tackie
@@ -6212,6 +9242,30 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+- level: 242
+  monsters:
+  - spawn_id: starglow-path__chickpet
+    name_raw: Chickpet
+    level_raw: '242'
+    level: 242
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
+  - spawn_id: starglow-path__chickren
+    name_raw: Chickren
+    level_raw: '242'
+    level: 242
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
 - level: 243
   monsters:
   - spawn_id: ivory-forest__matcha-woof
@@ -6249,6 +9303,17 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+  - spawn_id: starglow-path__rypple-chyme
+    name_raw: Rypple Chyme
+    level_raw: '245'
+    level: 245
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
   - spawn_id: ivory-forest__terror-cacto
     name_raw: Terror Cacto
     level_raw: '245'
@@ -6260,6 +9325,17 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+  - spawn_id: starglow-path__wyn-chyme
+    name_raw: Wyn Chyme
+    level_raw: '245'
+    level: 245
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
 - level: 247
   monsters:
   - spawn_id: ivory-forest__bronze-beetlebot
@@ -6273,6 +9349,17 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+  - spawn_id: starglow-path__fiend-guardian
+    name_raw: Fiend Guardian
+    level_raw: '247'
+    level: 247
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
   - spawn_id: ivory-forest__icy-beetlebot
     name_raw: Icy Beetlebot
     level_raw: '247'
@@ -6284,6 +9371,17 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+  - spawn_id: starglow-path__soul-guardian
+    name_raw: Soul Guardian
+    level_raw: '247'
+    level: 247
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
 - level: 249
   monsters:
   - spawn_id: ivory-forest__fab-crab
@@ -6308,6 +9406,28 @@ levels:
     area_name_raw: Ivory Forest
     source_file: data/bestiary/site/areas/ivory-forest.yaml
     source_url: https://angels.wikidot.com/area:ivory-forest
+  - spawn_id: starglow-path__insomnicoo
+    name_raw: Insomnicoo
+    level_raw: '249'
+    level: 249
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
+  - spawn_id: starglow-path__niteycoo
+    name_raw: Niteycoo
+    level_raw: '249'
+    level: 249
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: starglow-path
+    area_name_raw: Starglow Path
+    source_file: data/bestiary/site/areas/starglow-path.yaml
+    source_url: https://angels.wikidot.com/area:starglow-path
 - level: 251
   monsters:
   - spawn_id: academia-woods__peamo
@@ -6916,6 +10036,28 @@ levels:
     area_name_raw: Ethereal Garden
     source_file: data/bestiary/site/areas/ethereal-garden.yaml
     source_url: https://angels.wikidot.com/area:ethereal-garden
+  - spawn_id: rainbow-town__pansy-snip
+    name_raw: Pansy Snip
+    level_raw: '281'
+    level: 281
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
+  - spawn_id: rainbow-town__rosy-snip
+    name_raw: Rosy Snip
+    level_raw: '281'
+    level: 281
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
 - level: 283
   monsters:
   - spawn_id: ethereal-garden__aquaria-brute
@@ -6940,8 +10082,52 @@ levels:
     area_name_raw: Ethereal Garden
     source_file: data/bestiary/site/areas/ethereal-garden.yaml
     source_url: https://angels.wikidot.com/area:ethereal-garden
+  - spawn_id: rainbow-town__peachy-bun
+    name_raw: Peachy Bun
+    level_raw: '283'
+    level: 283
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
+  - spawn_id: rainbow-town__sad-clock
+    name_raw: Sad Clock
+    level_raw: '283'
+    level: 283
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
 - level: 285
   monsters:
+  - spawn_id: rainbow-town__carrot-cook
+    name_raw: Carrot Cook
+    level_raw: '285'
+    level: 285
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
+  - spawn_id: rainbow-town__carrot-farmer
+    name_raw: Carrot Farmer
+    level_raw: '285'
+    level: 285
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
   - spawn_id: ethereal-garden__pealad
     name_raw: Pealad
     level_raw: '285'
@@ -6988,6 +10174,28 @@ levels:
     area_name_raw: Ethereal Garden
     source_file: data/bestiary/site/areas/ethereal-garden.yaml
     source_url: https://angels.wikidot.com/area:ethereal-garden
+  - spawn_id: rainbow-town__highland-husky
+    name_raw: Highland Husky
+    level_raw: '287'
+    level: 287
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
+  - spawn_id: rainbow-town__tundra-husky
+    name_raw: Tundra Husky
+    level_raw: '287'
+    level: 287
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
 - level: 289
   monsters:
   - spawn_id: ethereal-garden__admonicorn
@@ -7001,6 +10209,28 @@ levels:
     area_name_raw: Ethereal Garden
     source_file: data/bestiary/site/areas/ethereal-garden.yaml
     source_url: https://angels.wikidot.com/area:ethereal-garden
+  - spawn_id: rainbow-town__amber-jester
+    name_raw: Amber Jester
+    level_raw: '289'
+    level: 289
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
+  - spawn_id: rainbow-town__green-jester
+    name_raw: Green Jester
+    level_raw: '289'
+    level: 289
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: rainbow-town
+    area_name_raw: Rainbow Town
+    source_file: data/bestiary/site/areas/rainbow-town.yaml
+    source_url: https://angels.wikidot.com/area:rainbow-town
   - spawn_id: ethereal-garden__yunicorn
     name_raw: Yunicorn
     level_raw: '289'
@@ -7250,6 +10480,28 @@ levels:
     source_url: https://angels.wikidot.com/area:antler-mesa
 - level: 301
   monsters:
+  - spawn_id: reminiscence-cloister__chikaclass
+    name_raw: Chikaclass
+    level_raw: '301'
+    level: 301
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
+  - spawn_id: reminiscence-cloister__chikahop
+    name_raw: Chikahop
+    level_raw: '301'
+    level: 301
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
   - spawn_id: carrotiso__pinky-bun
     name_raw: Pinky Bun
     level_raw: '301'
@@ -7296,6 +10548,30 @@ levels:
     area_name_raw: Carrotiso
     source_file: data/bestiary/site/areas/carrotiso.yaml
     source_url: https://angels.wikidot.com/area:carrotiso
+- level: 304
+  monsters:
+  - spawn_id: reminiscence-cloister__kunzite-brute
+    name_raw: Kunzite Brute
+    level_raw: '304'
+    level: 304
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
+  - spawn_id: reminiscence-cloister__peridot-brute
+    name_raw: Peridot Brute
+    level_raw: '304'
+    level: 304
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
 - level: 305
   monsters:
   - spawn_id: carrotiso__cuckoo-clock
@@ -7333,6 +10609,28 @@ levels:
     area_name_raw: Carrotiso
     source_file: data/bestiary/site/areas/carrotiso.yaml
     source_url: https://angels.wikidot.com/area:carrotiso
+  - spawn_id: reminiscence-cloister__matrix-soldier
+    name_raw: Matrix Soldier
+    level_raw: '307'
+    level: 307
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
+  - spawn_id: reminiscence-cloister__matrix-stalker
+    name_raw: Matrix Stalker
+    level_raw: '307'
+    level: 307
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
   - spawn_id: carrotiso__rugged-rabbit
     name_raw: Rugged Rabbit
     level_raw: '307'
@@ -7368,6 +10666,30 @@ levels:
     area_name_raw: Carrotiso
     source_file: data/bestiary/site/areas/carrotiso.yaml
     source_url: https://angels.wikidot.com/area:carrotiso
+- level: 310
+  monsters:
+  - spawn_id: reminiscence-cloister__mahogany-golem
+    name_raw: Mahogany Golem
+    level_raw: '310'
+    level: 310
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
+  - spawn_id: reminiscence-cloister__teal-golem
+    name_raw: Teal Golem
+    level_raw: '310'
+    level: 310
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'Yes'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
 - level: 311
   monsters:
   - spawn_id: cogsville__husky-cowboy
@@ -7405,6 +10727,28 @@ levels:
     area_name_raw: Cogsville
     source_file: data/bestiary/site/areas/cogsville.yaml
     source_url: https://angels.wikidot.com/area:cogsville
+  - spawn_id: reminiscence-cloister__syren-bass
+    name_raw: Syren Bass
+    level_raw: '313'
+    level: 313
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
+  - spawn_id: reminiscence-cloister__syren-treble
+    name_raw: Syren Treble
+    level_raw: '313'
+    level: 313
+    boss_raw: 'No'
+    boss: false
+    aggressive_raw: 'No'
+    area_id: reminiscence-cloister
+    area_name_raw: Reminiscence Cloister
+    source_file: data/bestiary/site/areas/reminiscence-cloister.yaml
+    source_url: https://angels.wikidot.com/area:reminiscence-cloister
   - spawn_id: cogsville__tea-hopper
     name_raw: Tea Hopper
     level_raw: '313'

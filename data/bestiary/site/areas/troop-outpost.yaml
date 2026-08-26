@@ -1,0 +1,1034 @@
+area:
+  id: troop-outpost
+  name_raw: Troop Outpost
+  source:
+    origin_url: https://angels.wikidot.com/area:troop-outpost
+    retrieval_url: https://www.aowiki.uk/pages/area_troop-outpost.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 443bff062432ee17bc5bd4dc9c4b9f8fe86159370ac5a629b5d95f885d38a613
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: troop-outpost__sentry-def-tower__t004r0001
+  name_raw: Sentry Def Tower
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sentry-def-tower.html
+  row_raw:
+    Monster Name: Sentry Def Tower
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__outpost-warrior__t004r0002
+  name_raw: Outpost Warrior
+  level_raw: '96'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_outpost-warrior.html
+  row_raw:
+    Monster Name: Outpost Warrior
+    Level: '96'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 96
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__flame-worm__t004r0003
+  name_raw: Flame Worm
+  level_raw: '97'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flame-worm.html
+  row_raw:
+    Monster Name: Flame Worm
+    Level: '97'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 97
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__sentry-attk-tower__t004r0004
+  name_raw: Sentry Attk Tower
+  level_raw: '98'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sentry-attk-tower.html
+  row_raw:
+    Monster Name: Sentry Attk Tower
+    Level: '98'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 98
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__outpost-archer__t004r0005
+  name_raw: Outpost Archer
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_outpost-archer.html
+  row_raw:
+    Monster Name: Outpost Archer
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__shadow-worm__t004r0006
+  name_raw: Shadow Worm
+  level_raw: '102'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_shadow-worm.html
+  row_raw:
+    Monster Name: Shadow Worm
+    Level: '102'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 102
+    boss: false
+    aggressive: true
+- area_occurrence_id: troop-outpost__bottle-warrior__t004r0007
+  name_raw: Bottle Warrior
+  level_raw: '103'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bottle-warrior.html
+  row_raw:
+    Monster Name: Bottle Warrior
+    Level: '103'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 103
+    boss: false
+    aggressive: true
+drops:
+- drop_id: troop-outpost__t007r0001
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Gnosis Judge
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Gnosis Judge
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: troop-outpost__t007r0002
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Dark Eagle Cap
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Dark Eagle Cap
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: troop-outpost__t007r0003
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Battle Horn Cuffs
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Battle Horn Cuffs
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: troop-outpost__t007r0004
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Camael's Judgment
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Camael's Judgment
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: troop-outpost__t007r0005
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Desert Eagle Crista
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Desert Eagle Crista
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: troop-outpost__t007r0006
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Steel Horn Cuffs
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Steel Horn Cuffs
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: troop-outpost__t007r0007
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Death Chop V
+  drop_share_raw: 0.0088%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Death Chop V
+    Drop Share: 0.0088%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0088
+    quantity: 1
+- drop_id: troop-outpost__t007r0008
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Forest Ox
+  drop_share_raw: 0.0088%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Forest Ox
+    Drop Share: 0.0088%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0088
+    quantity: 1
+- drop_id: troop-outpost__t007r0009
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0866%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Flawless Ruby
+    Drop Share: 0.0866%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0866
+    quantity: 1
+- drop_id: troop-outpost__t007r0010
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: troop-outpost__t007r0011
+  monster_name_raw: Blind Worm Rory
+  item_name_raw: Effective Mars' Fruit
+  drop_share_raw: 94.1965%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blind Worm Rory
+    Item: Effective Mars' Fruit
+    Drop Share: 94.1965%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 94.1965
+    quantity: 1
+- drop_id: troop-outpost__t007r0012
+  monster_name_raw: Bottle Warrior
+  item_name_raw: Battle Horn Helmet
+  drop_share_raw: 0.0368%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Warrior
+    Item: Battle Horn Helmet
+    Drop Share: 0.0368%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0368
+    quantity: 1
+- drop_id: troop-outpost__t007r0013
+  monster_name_raw: Bottle Warrior
+  item_name_raw: Steel Horn Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Warrior
+    Item: Steel Horn Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0014
+  monster_name_raw: Bottle Warrior
+  item_name_raw: Blue Bird
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Warrior
+    Item: Blue Bird
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0015
+  monster_name_raw: Bottle Warrior
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Warrior
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: troop-outpost__t007r0016
+  monster_name_raw: Flame Worm
+  item_name_raw: Espial Gown
+  drop_share_raw: 0.0503%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Worm
+    Item: Espial Gown
+    Drop Share: 0.0503%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0503
+    quantity: 1
+- drop_id: troop-outpost__t007r0017
+  monster_name_raw: Flame Worm
+  item_name_raw: Magnetic Gown
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Worm
+    Item: Magnetic Gown
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0018
+  monster_name_raw: Flame Worm
+  item_name_raw: Fast Seahorse
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Worm
+    Item: Fast Seahorse
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0019
+  monster_name_raw: Flame Worm
+  item_name_raw: Life Wand
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Worm
+    Item: Life Wand
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: troop-outpost__t007r0020
+  monster_name_raw: Flame Worm
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Worm
+    Item: Clean Emerald
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: troop-outpost__t007r0021
+  monster_name_raw: Outpost Archer
+  item_name_raw: Evil Hammer
+  drop_share_raw: 0.0274%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Archer
+    Item: Evil Hammer
+    Drop Share: 0.0274%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0274
+    quantity: 1
+- drop_id: troop-outpost__t007r0022
+  monster_name_raw: Outpost Archer
+  item_name_raw: Saint Boots
+  drop_share_raw: 0.0274%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Archer
+    Item: Saint Boots
+    Drop Share: 0.0274%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0274
+    quantity: 1
+- drop_id: troop-outpost__t007r0023
+  monster_name_raw: Outpost Archer
+  item_name_raw: Aries Judge
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Archer
+    Item: Aries Judge
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0024
+  monster_name_raw: Outpost Archer
+  item_name_raw: Holy Guard Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Archer
+    Item: Holy Guard Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0025
+  monster_name_raw: Outpost Archer
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Archer
+    Item: Clean Orange Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: troop-outpost__t007r0026
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Battle Horn Helmet
+  drop_share_raw: 1.2029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Battle Horn Helmet
+    Drop Share: 1.2029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2029
+    quantity: 1
+- drop_id: troop-outpost__t007r0027
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Dark Eagle Cuffs
+  drop_share_raw: 1.2029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Dark Eagle Cuffs
+    Drop Share: 1.2029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2029
+    quantity: 1
+- drop_id: troop-outpost__t007r0028
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Feather Bracelet
+  drop_share_raw: 1.2029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Feather Bracelet
+    Drop Share: 1.2029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2029
+    quantity: 1
+- drop_id: troop-outpost__t007r0029
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Steel Horn Helmet
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Steel Horn Helmet
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: troop-outpost__t007r0030
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Desert Eagle Cuffs
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Desert Eagle Cuffs
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: troop-outpost__t007r0031
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Water Elf's Dance
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Water Elf's Dance
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: troop-outpost__t007r0032
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Blue Bird
+  drop_share_raw: 0.0084%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Blue Bird
+    Drop Share: 0.0084%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0084
+    quantity: 1
+- drop_id: troop-outpost__t007r0033
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0832%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0832%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0832
+    quantity: 1
+- drop_id: troop-outpost__t007r0034
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: troop-outpost__t007r0035
+  monster_name_raw: Outpost Fighter
+  item_name_raw: Effective Mighty Fruit
+  drop_share_raw: 94.8354%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Fighter
+    Item: Effective Mighty Fruit
+    Drop Share: 94.8354%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 94.8354
+    quantity: 1
+- drop_id: troop-outpost__t007r0036
+  monster_name_raw: Outpost Warrior
+  item_name_raw: Rage Lance
+  drop_share_raw: 0.0244%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: Rage Lance
+    Drop Share: 0.0244%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0244
+    quantity: 1
+- drop_id: troop-outpost__t007r0037
+  monster_name_raw: Outpost Warrior
+  item_name_raw: Crusader's Brooch
+  drop_share_raw: 0.0244%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: Crusader's Brooch
+    Drop Share: 0.0244%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0244
+    quantity: 1
+- drop_id: troop-outpost__t007r0038
+  monster_name_raw: Outpost Warrior
+  item_name_raw: Poseidon Attacker
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: Poseidon Attacker
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0039
+  monster_name_raw: Outpost Warrior
+  item_name_raw: The Call of the Sea
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: The Call of the Sea
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0040
+  monster_name_raw: Outpost Warrior
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: Clean Orange Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: troop-outpost__t007r0041
+  monster_name_raw: Outpost Warrior
+  item_name_raw: Outpost Warrior Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Warrior
+    Item: Outpost Warrior Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: troop-outpost__t007r0042
+  monster_name_raw: Sentry Attk Tower
+  item_name_raw: Espial Hood
+  drop_share_raw: 0.0260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Attk Tower
+    Item: Espial Hood
+    Drop Share: 0.0260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.026
+    quantity: 1
+- drop_id: troop-outpost__t007r0043
+  monster_name_raw: Sentry Attk Tower
+  item_name_raw: Symbol Shield
+  drop_share_raw: 0.0260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Attk Tower
+    Item: Symbol Shield
+    Drop Share: 0.0260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.026
+    quantity: 1
+- drop_id: troop-outpost__t007r0044
+  monster_name_raw: Sentry Attk Tower
+  item_name_raw: Magnetic Hat
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Attk Tower
+    Item: Magnetic Hat
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0045
+  monster_name_raw: Sentry Attk Tower
+  item_name_raw: Seagod's Eye
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Attk Tower
+    Item: Seagod's Eye
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0046
+  monster_name_raw: Sentry Attk Tower
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Attk Tower
+    Item: Clean Ruby
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: troop-outpost__t007r0047
+  monster_name_raw: Sentry Def Tower
+  item_name_raw: Espial Bracers
+  drop_share_raw: 0.0472%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Def Tower
+    Item: Espial Bracers
+    Drop Share: 0.0472%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0472
+    quantity: 1
+- drop_id: troop-outpost__t007r0048
+  monster_name_raw: Sentry Def Tower
+  item_name_raw: Magnetic Bracers
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Def Tower
+    Item: Magnetic Bracers
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0049
+  monster_name_raw: Sentry Def Tower
+  item_name_raw: Jellyfish Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Def Tower
+    Item: Jellyfish Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: troop-outpost__t007r0050
+  monster_name_raw: Sentry Def Tower
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sentry Def Tower
+    Item: Clean Purple Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: troop-outpost__t007r0051
+  monster_name_raw: Shadow Worm
+  item_name_raw: Battle Horn Cuffs
+  drop_share_raw: 0.0343%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Worm
+    Item: Battle Horn Cuffs
+    Drop Share: 0.0343%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0343
+    quantity: 1
+- drop_id: troop-outpost__t007r0052
+  monster_name_raw: Shadow Worm
+  item_name_raw: Steel Horn Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Worm
+    Item: Steel Horn Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: troop-outpost__t007r0053
+  monster_name_raw: Shadow Worm
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Worm
+    Item: Flawless Ruby
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Outpost Fighter
+  - '103'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 1
+- table_index: 6
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 7
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 53

@@ -1,0 +1,195 @@
+area:
+  id: starglow-path
+  name_raw: Starglow Path
+  source:
+    origin_url: https://angels.wikidot.com/area:starglow-path
+    retrieval_url: https://www.aowiki.uk/pages/area_starglow-path.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: a0ddf4163c52c6f6efb1823141651b21165420d3180cb9ffe0917c62bd7f094b
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: starglow-path__loneshrom__t001r0001
+  name_raw: Loneshrom
+  level_raw: '240'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_loneshrom.html
+  row_raw:
+    Monster Name: Loneshrom
+    Level: '240'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 240
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__greenshrom__t001r0002
+  name_raw: Greenshrom
+  level_raw: '240'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_greenshrom.html
+  row_raw:
+    Monster Name: Greenshrom
+    Level: '240'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 240
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__chickren__t001r0003
+  name_raw: Chickren
+  level_raw: '242'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chickren.html
+  row_raw:
+    Monster Name: Chickren
+    Level: '242'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 242
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__chickpet__t001r0004
+  name_raw: Chickpet
+  level_raw: '242'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chickpet.html
+  row_raw:
+    Monster Name: Chickpet
+    Level: '242'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 242
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__wyn-chyme__t001r0005
+  name_raw: Wyn Chyme
+  level_raw: '245'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wyn-chyme.html
+  row_raw:
+    Monster Name: Wyn Chyme
+    Level: '245'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 245
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__rypple-chyme__t001r0006
+  name_raw: Rypple Chyme
+  level_raw: '245'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rypple-chyme.html
+  row_raw:
+    Monster Name: Rypple Chyme
+    Level: '245'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 245
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__soul-guardian__t001r0007
+  name_raw: Soul Guardian
+  level_raw: '247'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_soul-guardian.html
+  row_raw:
+    Monster Name: Soul Guardian
+    Level: '247'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 247
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__fiend-guardian__t001r0008
+  name_raw: Fiend Guardian
+  level_raw: '247'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fiend-guardian.html
+  row_raw:
+    Monster Name: Fiend Guardian
+    Level: '247'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 247
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__niteycoo__t001r0009
+  name_raw: Niteycoo
+  level_raw: '249'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_niteycoo.html
+  row_raw:
+    Monster Name: Niteycoo
+    Level: '249'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 249
+    boss: false
+    aggressive: false
+- area_occurrence_id: starglow-path__insomnicoo__t001r0010
+  name_raw: Insomnicoo
+  level_raw: '249'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_insomnicoo.html
+  row_raw:
+    Monster Name: Insomnicoo
+    Level: '249'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 249
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Loneshrom
+  - '250'
+  - 'No'
+  - 'Yes'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Wise Floofson
+  - '251'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

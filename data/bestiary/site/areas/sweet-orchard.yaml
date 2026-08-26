@@ -1,0 +1,311 @@
+area:
+  id: sweet-orchard
+  name_raw: Sweet Orchard
+  source:
+    origin_url: https://angels.wikidot.com/area:sweet-orchard
+    retrieval_url: https://www.aowiki.uk/pages/area_sweet-orchard.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: e5f83884eaae91499739a5338a7d38928032d5580494841c728d2a40ab5e29a0
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: sweet-orchard__grassland-sheep__t003r0001
+  name_raw: Grassland Sheep
+  level_raw: '140'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_grassland-sheep.html
+  row_raw:
+    Monster Name: Grassland Sheep
+    Level: '140'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 140
+    boss: false
+    aggressive: true
+- area_occurrence_id: sweet-orchard__lavender-sheep__t003r0002
+  name_raw: Lavender Sheep
+  level_raw: '140'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_lavender-sheep.html
+  row_raw:
+    Monster Name: Lavender Sheep
+    Level: '140'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 140
+    boss: false
+    aggressive: true
+- area_occurrence_id: sweet-orchard__glow-frog__t003r0003
+  name_raw: Glow Frog
+  level_raw: '142'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_glow-frog.html
+  row_raw:
+    Monster Name: Glow Frog
+    Level: '142'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 142
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__pastel-frog__t003r0004
+  name_raw: Pastel Frog
+  level_raw: '142'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pastel-frog.html
+  row_raw:
+    Monster Name: Pastel Frog
+    Level: '142'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 142
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__violet-grassball__t003r0005
+  name_raw: Violet Grassball
+  level_raw: '144'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_violet-grassball.html
+  row_raw:
+    Monster Name: Violet Grassball
+    Level: '144'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 144
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__warm-grassball__t003r0006
+  name_raw: Warm Grassball
+  level_raw: '144'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_warm-grassball.html
+  row_raw:
+    Monster Name: Warm Grassball
+    Level: '144'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 144
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__cavendish-dancer__t003r0007
+  name_raw: Cavendish Dancer
+  level_raw: '146'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cavendish-dancer.html
+  row_raw:
+    Monster Name: Cavendish Dancer
+    Level: '146'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 146
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__dacca-dancer__t003r0008
+  name_raw: Dacca Dancer
+  level_raw: '146'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dacca-dancer.html
+  row_raw:
+    Monster Name: Dacca Dancer
+    Level: '146'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 146
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__carrot-boy__t003r0009
+  name_raw: Carrot Boy
+  level_raw: '148'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_carrot-boy.html
+  row_raw:
+    Monster Name: Carrot Boy
+    Level: '148'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 148
+    boss: false
+    aggressive: false
+- area_occurrence_id: sweet-orchard__radish-boy__t003r0010
+  name_raw: Radish Boy
+  level_raw: '148'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_radish-boy.html
+  row_raw:
+    Monster Name: Radish Boy
+    Level: '148'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 148
+    boss: false
+    aggressive: false
+drops:
+- drop_id: sweet-orchard__t006r0001
+  monster_name_raw: Carrot Boy
+  item_name_raw: Bloody Blade
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carrot Boy
+    Item: Bloody Blade
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sweet-orchard__t006r0002
+  monster_name_raw: Carrot Boy
+  item_name_raw: Summoner Wristlet
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Carrot Boy
+    Item: Summoner Wristlet
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sweet-orchard__t006r0003
+  monster_name_raw: General Gerald
+  item_name_raw: Sparrow Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: General Gerald
+    Item: Sparrow Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sweet-orchard__t006r0004
+  monster_name_raw: General Gerald
+  item_name_raw: Tempest Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: General Gerald
+    Item: Tempest Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: sweet-orchard__t006r0005
+  monster_name_raw: General Gerald
+  item_name_raw: Spinning Spear
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: General Gerald
+    Item: Spinning Spear
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Magical Harp
+  - '150'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 5

@@ -1,0 +1,1478 @@
+area:
+  id: season-garden
+  name_raw: Season Garden
+  source:
+    origin_url: https://angels.wikidot.com/area:season-garden
+    retrieval_url: https://www.aowiki.uk/pages/area_season-garden.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 047b8df516a11c00a6e8801cdc76cb24325f44cedf0b8706019980c8a01bb12d
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: season-garden__forest-elf__t003r0001
+  name_raw: Forest Elf
+  level_raw: '115'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_forest-elf.html
+  row_raw:
+    Monster Name: Forest Elf
+    Level: '115'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 115
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__purple-armor-baby__t003r0002
+  name_raw: Purple Armor Baby
+  level_raw: '117'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_purple-armor-baby.html
+  row_raw:
+    Monster Name: Purple Armor Baby
+    Level: '117'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 117
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__armored-baby__t003r0003
+  name_raw: Armored Baby
+  level_raw: '117'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_armored-baby.html
+  row_raw:
+    Monster Name: Armored Baby
+    Level: '117'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 117
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__sun-crab__t003r0004
+  name_raw: Sun Crab
+  level_raw: '119'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sun-crab.html
+  row_raw:
+    Monster Name: Sun Crab
+    Level: '119'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 119
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__dasheen-demon__t003r0005
+  name_raw: Dasheen Demon
+  level_raw: '119'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dasheen-demon.html
+  row_raw:
+    Monster Name: Dasheen Demon
+    Level: '119'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 119
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__botti-archer__t003r0006
+  name_raw: Botti Archer
+  level_raw: '121'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_botti-archer.html
+  row_raw:
+    Monster Name: Botti Archer
+    Level: '121'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 121
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__botti-blood-arrow__t003r0007
+  name_raw: Botti Blood Arrow
+  level_raw: '121'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_botti-blood-arrow.html
+  row_raw:
+    Monster Name: Botti Blood Arrow
+    Level: '121'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 121
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__eyebasher__t003r0008
+  name_raw: Eyebasher
+  level_raw: '123'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_eyebasher.html
+  row_raw:
+    Monster Name: Eyebasher
+    Level: '123'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 123
+    boss: false
+    aggressive: true
+- area_occurrence_id: season-garden__swift-eyebasher__t003r0009
+  name_raw: Swift Eyebasher
+  level_raw: '125'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_swift-eyebasher.html
+  row_raw:
+    Monster Name: Swift Eyebasher
+    Level: '125'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 125
+    boss: false
+    aggressive: true
+drops:
+- drop_id: season-garden__t006r0001
+  monster_name_raw: Armored Baby
+  item_name_raw: Desert Fur Boots
+  drop_share_raw: 0.0221%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Armored Baby
+    Item: Desert Fur Boots
+    Drop Share: 0.0221%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0221
+    quantity: 1
+- drop_id: season-garden__t006r0002
+  monster_name_raw: Armored Baby
+  item_name_raw: Burning Sun Mantle
+  drop_share_raw: 0.0221%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Armored Baby
+    Item: Burning Sun Mantle
+    Drop Share: 0.0221%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0221
+    quantity: 1
+- drop_id: season-garden__t006r0003
+  monster_name_raw: Armored Baby
+  item_name_raw: Evil Killer's Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Armored Baby
+    Item: Evil Killer's Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0004
+  monster_name_raw: Armored Baby
+  item_name_raw: Fiery Doomsday
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Armored Baby
+    Item: Fiery Doomsday
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0005
+  monster_name_raw: Armored Baby
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Armored Baby
+    Item: Blue Light Rune Piece
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: season-garden__t006r0006
+  monster_name_raw: Botti Archer
+  item_name_raw: Cardinal Hat
+  drop_share_raw: 0.0333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Cardinal Hat
+    Drop Share: 0.0333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0333
+    quantity: 1
+- drop_id: season-garden__t006r0007
+  monster_name_raw: Botti Archer
+  item_name_raw: Cardinal Shoes
+  drop_share_raw: 0.0333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Cardinal Shoes
+    Drop Share: 0.0333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0333
+    quantity: 1
+- drop_id: season-garden__t006r0008
+  monster_name_raw: Botti Archer
+  item_name_raw: Isis Cap
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Isis Cap
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0009
+  monster_name_raw: Botti Archer
+  item_name_raw: Isis Shoes
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Isis Shoes
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0010
+  monster_name_raw: Botti Archer
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Blue Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: season-garden__t006r0011
+  monster_name_raw: Botti Archer
+  item_name_raw: Card of Botti Archer
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Archer
+    Item: Card of Botti Archer
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: season-garden__t006r0012
+  monster_name_raw: Botti Blood Arrow
+  item_name_raw: Desert Wind Cap
+  drop_share_raw: 0.0333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Blood Arrow
+    Item: Desert Wind Cap
+    Drop Share: 0.0333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0333
+    quantity: 1
+- drop_id: season-garden__t006r0013
+  monster_name_raw: Botti Blood Arrow
+  item_name_raw: Cardinal Shoes
+  drop_share_raw: 0.0333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Blood Arrow
+    Item: Cardinal Shoes
+    Drop Share: 0.0333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0333
+    quantity: 1
+- drop_id: season-garden__t006r0014
+  monster_name_raw: Botti Blood Arrow
+  item_name_raw: Evil Killer's Cap
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Blood Arrow
+    Item: Evil Killer's Cap
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0015
+  monster_name_raw: Botti Blood Arrow
+  item_name_raw: Isis Shoes
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Blood Arrow
+    Item: Isis Shoes
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0016
+  monster_name_raw: Botti Blood Arrow
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Botti Blood Arrow
+    Item: Red Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: season-garden__t006r0017
+  monster_name_raw: Dasheen Demon
+  item_name_raw: Wild Beast Cuffs
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Demon
+    Item: Wild Beast Cuffs
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: season-garden__t006r0018
+  monster_name_raw: Dasheen Demon
+  item_name_raw: Burning Sun Mantle
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Demon
+    Item: Burning Sun Mantle
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: season-garden__t006r0019
+  monster_name_raw: Dasheen Demon
+  item_name_raw: Rage Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Demon
+    Item: Rage Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0020
+  monster_name_raw: Dasheen Demon
+  item_name_raw: Fiery Doomsday
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Demon
+    Item: Fiery Doomsday
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0021
+  monster_name_raw: Dasheen Demon
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Demon
+    Item: Green Light Rune Piece
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: season-garden__t006r0022
+  monster_name_raw: Envoy Alice
+  item_name_raw: Sky Ripper
+  drop_share_raw: 2.3567%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Sky Ripper
+    Drop Share: 2.3567%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3567
+    quantity: 1
+- drop_id: season-garden__t006r0023
+  monster_name_raw: Envoy Alice
+  item_name_raw: Wild Beast Armor
+  drop_share_raw: 2.3567%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Wild Beast Armor
+    Drop Share: 2.3567%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3567
+    quantity: 1
+- drop_id: season-garden__t006r0024
+  monster_name_raw: Envoy Alice
+  item_name_raw: Cardinal Gown
+  drop_share_raw: 2.3567%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Cardinal Gown
+    Drop Share: 2.3567%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3567
+    quantity: 1
+- drop_id: season-garden__t006r0025
+  monster_name_raw: Envoy Alice
+  item_name_raw: Nisrok's Wings
+  drop_share_raw: 0.0032%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Nisrok's Wings
+    Drop Share: 0.0032%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0032
+    quantity: 1
+- drop_id: season-garden__t006r0026
+  monster_name_raw: Envoy Alice
+  item_name_raw: Rage Armor
+  drop_share_raw: 0.0032%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Rage Armor
+    Drop Share: 0.0032%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0032
+    quantity: 1
+- drop_id: season-garden__t006r0027
+  monster_name_raw: Envoy Alice
+  item_name_raw: Isis Gown
+  drop_share_raw: 0.0032%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Isis Gown
+    Drop Share: 0.0032%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0032
+    quantity: 1
+- drop_id: season-garden__t006r0028
+  monster_name_raw: Envoy Alice
+  item_name_raw: Purple Light Rune Piece
+  drop_share_raw: 0.0442%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Purple Light Rune Piece
+    Drop Share: 0.0442%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0442
+    quantity: 1
+- drop_id: season-garden__t006r0029
+  monster_name_raw: Envoy Alice
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: season-garden__t006r0030
+  monster_name_raw: Envoy Alice
+  item_name_raw: Effective Magic Fruit
+  drop_share_raw: 44.7409%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Effective Magic Fruit
+    Drop Share: 44.7409%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 44.7409
+    quantity: 1
+- drop_id: season-garden__t006r0031
+  monster_name_raw: Envoy Alice
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 45.8492%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Effective Agility Potion
+    Drop Share: 45.8492%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.8492
+    quantity: 1
+- drop_id: season-garden__t006r0032
+  monster_name_raw: Envoy Alice
+  item_name_raw: Envoy Alice Card
+  drop_share_raw: 0.1543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Envoy Alice
+    Item: Envoy Alice Card
+    Drop Share: 0.1543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1543
+    quantity: 1
+- drop_id: season-garden__t006r0033
+  monster_name_raw: Eyebasher
+  item_name_raw: Wild Beast Helmet
+  drop_share_raw: 0.0353%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher
+    Item: Wild Beast Helmet
+    Drop Share: 0.0353%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0353
+    quantity: 1
+- drop_id: season-garden__t006r0034
+  monster_name_raw: Eyebasher
+  item_name_raw: Wild Beast Boots
+  drop_share_raw: 0.0353%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher
+    Item: Wild Beast Boots
+    Drop Share: 0.0353%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0353
+    quantity: 1
+- drop_id: season-garden__t006r0035
+  monster_name_raw: Eyebasher
+  item_name_raw: Rage Helmet
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher
+    Item: Rage Helmet
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0036
+  monster_name_raw: Eyebasher
+  item_name_raw: Rage Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher
+    Item: Rage Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0037
+  monster_name_raw: Eyebasher
+  item_name_raw: Purple Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher
+    Item: Purple Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: season-garden__t006r0038
+  monster_name_raw: Forest Elf
+  item_name_raw: Desert Fur Gloves
+  drop_share_raw: 0.0204%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Forest Elf
+    Item: Desert Fur Gloves
+    Drop Share: 0.0204%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0204
+    quantity: 1
+- drop_id: season-garden__t006r0039
+  monster_name_raw: Forest Elf
+  item_name_raw: Ruby Shield
+  drop_share_raw: 0.0204%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Forest Elf
+    Item: Ruby Shield
+    Drop Share: 0.0204%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0204
+    quantity: 1
+- drop_id: season-garden__t006r0040
+  monster_name_raw: Forest Elf
+  item_name_raw: Evil Killer's Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Forest Elf
+    Item: Evil Killer's Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0041
+  monster_name_raw: Forest Elf
+  item_name_raw: Seraph's Staring
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Forest Elf
+    Item: Seraph's Staring
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0042
+  monster_name_raw: Forest Elf
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Forest Elf
+    Item: Yellow Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: season-garden__t006r0043
+  monster_name_raw: Mort The Claw
+  item_name_raw: Storm Thorn
+  drop_share_raw: 2.5033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Storm Thorn
+    Drop Share: 2.5033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.5033
+    quantity: 1
+- drop_id: season-garden__t006r0044
+  monster_name_raw: Mort The Claw
+  item_name_raw: Evil Eye Wand
+  drop_share_raw: 2.5033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Evil Eye Wand
+    Drop Share: 2.5033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.5033
+    quantity: 1
+- drop_id: season-garden__t006r0045
+  monster_name_raw: Mort The Claw
+  item_name_raw: Desert Wind Armor
+  drop_share_raw: 2.5033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Desert Wind Armor
+    Drop Share: 2.5033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.5033
+    quantity: 1
+- drop_id: season-garden__t006r0046
+  monster_name_raw: Mort The Claw
+  item_name_raw: Tsubasa's Attack
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Tsubasa's Attack
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: season-garden__t006r0047
+  monster_name_raw: Mort The Claw
+  item_name_raw: Burning Dragon
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Burning Dragon
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: season-garden__t006r0048
+  monster_name_raw: Mort The Claw
+  item_name_raw: Evil Killer's Armor
+  drop_share_raw: 0.0034%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Evil Killer's Armor
+    Drop Share: 0.0034%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0034
+    quantity: 1
+- drop_id: season-garden__t006r0049
+  monster_name_raw: Mort The Claw
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 0.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Orange Light Rune Piece
+    Drop Share: 0.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.047
+    quantity: 1
+- drop_id: season-garden__t006r0050
+  monster_name_raw: Mort The Claw
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: season-garden__t006r0051
+  monster_name_raw: Mort The Claw
+  item_name_raw: Effective Mars' Fruit
+  drop_share_raw: 44.4296%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Effective Mars' Fruit
+    Drop Share: 44.4296%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 44.4296
+    quantity: 1
+- drop_id: season-garden__t006r0052
+  monster_name_raw: Mort The Claw
+  item_name_raw: Effective Healing Potion
+  drop_share_raw: 45.7715%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mort The Claw
+    Item: Effective Healing Potion
+    Drop Share: 45.7715%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.7715
+    quantity: 1
+- drop_id: season-garden__t006r0053
+  monster_name_raw: Purple Armor Baby
+  item_name_raw: Desert Fur Boots
+  drop_share_raw: 0.0221%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Armor Baby
+    Item: Desert Fur Boots
+    Drop Share: 0.0221%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0221
+    quantity: 1
+- drop_id: season-garden__t006r0054
+  monster_name_raw: Purple Armor Baby
+  item_name_raw: Nature Symbol
+  drop_share_raw: 0.0221%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Armor Baby
+    Item: Nature Symbol
+    Drop Share: 0.0221%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0221
+    quantity: 1
+- drop_id: season-garden__t006r0055
+  monster_name_raw: Purple Armor Baby
+  item_name_raw: Evil Killer's Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Armor Baby
+    Item: Evil Killer's Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0056
+  monster_name_raw: Purple Armor Baby
+  item_name_raw: Nature's Calling
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Armor Baby
+    Item: Nature's Calling
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0057
+  monster_name_raw: Purple Armor Baby
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Armor Baby
+    Item: Green Light Rune Piece
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: season-garden__t006r0058
+  monster_name_raw: Season Coat
+  item_name_raw: Hell Attack
+  drop_share_raw: 2.2167%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Hell Attack
+    Drop Share: 2.2167%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.2167
+    quantity: 1
+- drop_id: season-garden__t006r0059
+  monster_name_raw: Season Coat
+  item_name_raw: Desert Wind Cap
+  drop_share_raw: 2.2167%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Desert Wind Cap
+    Drop Share: 2.2167%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.2167
+    quantity: 1
+- drop_id: season-garden__t006r0060
+  monster_name_raw: Season Coat
+  item_name_raw: Cardinal Hat
+  drop_share_raw: 2.2167%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Cardinal Hat
+    Drop Share: 2.2167%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.2167
+    quantity: 1
+- drop_id: season-garden__t006r0061
+  monster_name_raw: Season Coat
+  item_name_raw: Hell Doom Rider
+  drop_share_raw: 0.0030%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Hell Doom Rider
+    Drop Share: 0.0030%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.003
+    quantity: 1
+- drop_id: season-garden__t006r0062
+  monster_name_raw: Season Coat
+  item_name_raw: Evil Killer's Cap
+  drop_share_raw: 0.0030%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Evil Killer's Cap
+    Drop Share: 0.0030%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.003
+    quantity: 1
+- drop_id: season-garden__t006r0063
+  monster_name_raw: Season Coat
+  item_name_raw: Isis Cap
+  drop_share_raw: 0.0030%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Isis Cap
+    Drop Share: 0.0030%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.003
+    quantity: 1
+- drop_id: season-garden__t006r0064
+  monster_name_raw: Season Coat
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0416%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Red Light Rune Piece
+    Drop Share: 0.0416%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0416
+    quantity: 1
+- drop_id: season-garden__t006r0065
+  monster_name_raw: Season Coat
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: season-garden__t006r0066
+  monster_name_raw: Season Coat
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 45.0368%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Effective Evil Fruit
+    Drop Share: 45.0368%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.0368
+    quantity: 1
+- drop_id: season-garden__t006r0067
+  monster_name_raw: Season Coat
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.0704%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Effective Magic Potion
+    Drop Share: 46.0704%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.0704
+    quantity: 1
+- drop_id: season-garden__t006r0068
+  monster_name_raw: Season Coat
+  item_name_raw: Season Coat Card
+  drop_share_raw: 0.1543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Season Coat
+    Item: Season Coat Card
+    Drop Share: 0.1543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1543
+    quantity: 1
+- drop_id: season-garden__t006r0069
+  monster_name_raw: Sun Crab
+  item_name_raw: Cardinal Gloves
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Cardinal Gloves
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: season-garden__t006r0070
+  monster_name_raw: Sun Crab
+  item_name_raw: Nature Symbol
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Nature Symbol
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: season-garden__t006r0071
+  monster_name_raw: Sun Crab
+  item_name_raw: Isis Gloves
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Isis Gloves
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0072
+  monster_name_raw: Sun Crab
+  item_name_raw: Nature's Calling
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Nature's Calling
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0073
+  monster_name_raw: Sun Crab
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Yellow Light Rune Piece
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: season-garden__t006r0074
+  monster_name_raw: Sun Crab
+  item_name_raw: Card of Sun Crab
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sun Crab
+    Item: Card of Sun Crab
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: season-garden__t006r0075
+  monster_name_raw: Swift Eyebasher
+  item_name_raw: Love Bow
+  drop_share_raw: 0.0376%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Swift Eyebasher
+    Item: Love Bow
+    Drop Share: 0.0376%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0376
+    quantity: 1
+- drop_id: season-garden__t006r0076
+  monster_name_raw: Swift Eyebasher
+  item_name_raw: Wild Beast Boots
+  drop_share_raw: 0.0376%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Swift Eyebasher
+    Item: Wild Beast Boots
+    Drop Share: 0.0376%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0376
+    quantity: 1
+- drop_id: season-garden__t006r0077
+  monster_name_raw: Swift Eyebasher
+  item_name_raw: Lovely Venus
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Swift Eyebasher
+    Item: Lovely Venus
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0078
+  monster_name_raw: Swift Eyebasher
+  item_name_raw: Rage Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Swift Eyebasher
+    Item: Rage Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: season-garden__t006r0079
+  monster_name_raw: Swift Eyebasher
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Swift Eyebasher
+    Item: Orange Light Rune Piece
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 7
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 3
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 9
+- table_index: 4
+  headers_raw:
+  - Season Coat
+  - '121'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 79

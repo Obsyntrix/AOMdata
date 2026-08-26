@@ -1,0 +1,1867 @@
+area:
+  id: thunder-ruins
+  name_raw: Thunder Ruins
+  source:
+    origin_url: https://angels.wikidot.com/area:thunder-ruins
+    retrieval_url: https://www.aowiki.uk/pages/area_thunder-ruins.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: acd4aca9992c728245ef09e8b7f0d60a5d05cd86ca67cd2fc96194c936185c71
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: thunder-ruins__fallen-angel__t003r0001
+  name_raw: Fallen Angel
+  level_raw: '45'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fallen-angel.html
+  row_raw:
+    Monster Name: Fallen Angel
+    Level: '45'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: false
+    aggressive: true
+- area_occurrence_id: thunder-ruins__burning-monster__t003r0002
+  name_raw: Burning Monster
+  level_raw: '48'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_burning-monster.html
+  row_raw:
+    Monster Name: Burning Monster
+    Level: '48'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 48
+    boss: false
+    aggressive: true
+- area_occurrence_id: thunder-ruins__guilt-azrael__t003r0003
+  name_raw: Guilt Azrael
+  level_raw: '50'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_guilt-azrael.html
+  row_raw:
+    Monster Name: Guilt Azrael
+    Level: '50'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: false
+    aggressive: true
+- area_occurrence_id: thunder-ruins__fallen-archangel__t003r0005
+  name_raw: Fallen Archangel
+  level_raw: '50'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fallen-archangel.html
+  row_raw:
+    Monster Name: Fallen Archangel
+    Level: '50'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: true
+    aggressive: true
+- area_occurrence_id: thunder-ruins__black-fire-harr__t003r0006
+  name_raw: Black Fire Harr
+  level_raw: '53'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_black-fire-harr.html
+  row_raw:
+    Monster Name: Black Fire Harr
+    Level: '53'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 53
+    boss: true
+    aggressive: true
+- area_occurrence_id: thunder-ruins__azraels-aide__t003r0007
+  name_raw: Azrael's Aide
+  level_raw: '55'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_azrael-s-aide.html
+  row_raw:
+    Monster Name: Azrael's Aide
+    Level: '55'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: true
+    aggressive: true
+drops:
+- drop_id: thunder-ruins__t005r0001
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Trident
+  drop_share_raw: 0.4983%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Trident
+    Drop Share: 0.4983%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4983
+    quantity: 1
+- drop_id: thunder-ruins__t005r0002
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Spinning Slingshot
+  drop_share_raw: 0.4983%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Spinning Slingshot
+    Drop Share: 0.4983%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4983
+    quantity: 1
+- drop_id: thunder-ruins__t005r0003
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Magic Stick
+  drop_share_raw: 0.4983%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Magic Stick
+    Drop Share: 0.4983%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4983
+    quantity: 1
+- drop_id: thunder-ruins__t005r0004
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Spear of Yugo
+  drop_share_raw: 0.0458%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Spear of Yugo
+    Drop Share: 0.0458%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0458
+    quantity: 1
+- drop_id: thunder-ruins__t005r0005
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Splash Slingshot
+  drop_share_raw: 0.0458%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Splash Slingshot
+    Drop Share: 0.0458%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0458
+    quantity: 1
+- drop_id: thunder-ruins__t005r0006
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Fiery Staff
+  drop_share_raw: 0.0458%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Fiery Staff
+    Drop Share: 0.0458%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0458
+    quantity: 1
+- drop_id: thunder-ruins__t005r0007
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Curse Refining
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Curse Refining
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0008
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Devil Wings
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Devil Wings
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0009
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Orange Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thunder-ruins__t005r0010
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Aurora Wings 5
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Aurora Wings 5
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0011
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Angel's Tears 5
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Angel's Tears 5
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0012
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Notice Cap
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Notice Cap
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0013
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Paladin Boots
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Paladin Boots
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0014
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Angel Boots
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Angel Boots
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0015
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Notice Boots
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Notice Boots
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thunder-ruins__t005r0016
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Rare Agility Potion
+  drop_share_raw: 55.2156%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Rare Agility Potion
+    Drop Share: 55.2156%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 55.2156
+    quantity: 1
+- drop_id: thunder-ruins__t005r0017
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Pestle
+  drop_share_raw: 0.1584%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Pestle
+    Drop Share: 0.1584%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1584
+    quantity: 1
+- drop_id: thunder-ruins__t005r0018
+  monster_name_raw: Azrael's Aide
+  item_name_raw: Swiftness Spell V
+  drop_share_raw: 0.0488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Azrael's Aide
+    Item: Swiftness Spell V
+    Drop Share: 0.0488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0488
+    quantity: 1
+- drop_id: thunder-ruins__t005r0019
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Light Breastplate
+  drop_share_raw: 0.6009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Light Breastplate
+    Drop Share: 0.6009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6009
+    quantity: 1
+- drop_id: thunder-ruins__t005r0020
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Chain Armor
+  drop_share_raw: 0.6009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Chain Armor
+    Drop Share: 0.6009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6009
+    quantity: 1
+- drop_id: thunder-ruins__t005r0021
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Eagle Breastplate
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Eagle Breastplate
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: thunder-ruins__t005r0022
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Golden Chain Armor
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Golden Chain Armor
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: thunder-ruins__t005r0023
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Curse Refining
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Curse Refining
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0024
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Green Beetle Bag
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Green Beetle Bag
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0025
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Sapphire
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0026
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Purple Gem
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0027
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Cupid's Bow
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Cupid's Bow
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0028
+  monster_name_raw: Black Fire Harr
+  item_name_raw: War Halberd
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: War Halberd
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0029
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Faquir Armor
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Faquir Armor
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0030
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Code Gown
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Code Gown
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0031
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Eye Staff
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Eye Staff
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thunder-ruins__t005r0032
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Rare Magic Fruit
+  drop_share_raw: 51.3543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Rare Magic Fruit
+    Drop Share: 51.3543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 51.3543
+    quantity: 1
+- drop_id: thunder-ruins__t005r0033
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Map Piece
+  drop_share_raw: 1.6800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Map Piece
+    Drop Share: 1.6800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.68
+    quantity: 1
+- drop_id: thunder-ruins__t005r0034
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Pestle
+  drop_share_raw: 0.1460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Pestle
+    Drop Share: 0.1460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.146
+    quantity: 1
+- drop_id: thunder-ruins__t005r0035
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Brute's Egg
+  drop_share_raw: 3.6100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Brute's Egg
+    Drop Share: 3.6100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.61
+    quantity: 1
+- drop_id: thunder-ruins__t005r0036
+  monster_name_raw: Black Fire Harr
+  item_name_raw: Electronic Hit V
+  drop_share_raw: 0.0449%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Fire Harr
+    Item: Electronic Hit V
+    Drop Share: 0.0449%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0449
+    quantity: 1
+- drop_id: thunder-ruins__t005r0037
+  monster_name_raw: Burning Monster
+  item_name_raw: Light Breastplate
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Light Breastplate
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thunder-ruins__t005r0038
+  monster_name_raw: Burning Monster
+  item_name_raw: Chain Armor
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Chain Armor
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thunder-ruins__t005r0039
+  monster_name_raw: Burning Monster
+  item_name_raw: Eagle Breastplate
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Eagle Breastplate
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thunder-ruins__t005r0040
+  monster_name_raw: Burning Monster
+  item_name_raw: Golden Chain Armor
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Golden Chain Armor
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thunder-ruins__t005r0041
+  monster_name_raw: Burning Monster
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Map Piece
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thunder-ruins__t005r0042
+  monster_name_raw: Burning Monster
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Sapphire
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thunder-ruins__t005r0043
+  monster_name_raw: Burning Monster
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Purple Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thunder-ruins__t005r0044
+  monster_name_raw: Burning Monster
+  item_name_raw: Ruby
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Ruby
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thunder-ruins__t005r0045
+  monster_name_raw: Burning Monster
+  item_name_raw: Pestle
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Pestle
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: thunder-ruins__t005r0046
+  monster_name_raw: Burning Monster
+  item_name_raw: Burning Monster Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Burning Monster Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: thunder-ruins__t005r0047
+  monster_name_raw: Fallen Angel
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 0.0661%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Alchemic Cap
+    Drop Share: 0.0661%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0661
+    quantity: 1
+- drop_id: thunder-ruins__t005r0048
+  monster_name_raw: Fallen Angel
+  item_name_raw: Holy Alchemic Cap
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Holy Alchemic Cap
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: thunder-ruins__t005r0049
+  monster_name_raw: Fallen Angel
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0050
+  monster_name_raw: Fallen Angel
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0051
+  monster_name_raw: Fallen Angel
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0052
+  monster_name_raw: Fallen Angel
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thunder-ruins__t005r0053
+  monster_name_raw: Fallen Angel
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: thunder-ruins__t005r0054
+  monster_name_raw: Fallen Angel
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Orange Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0055
+  monster_name_raw: Fallen Angel
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Yellow Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0056
+  monster_name_raw: Fallen Angel
+  item_name_raw: Emerald
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Emerald
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0057
+  monster_name_raw: Fallen Angel
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Sapphire
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0058
+  monster_name_raw: Fallen Angel
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Purple Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0059
+  monster_name_raw: Fallen Angel
+  item_name_raw: Ruby
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Ruby
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thunder-ruins__t005r0060
+  monster_name_raw: Fallen Angel
+  item_name_raw: Pestle
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Pestle
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: thunder-ruins__t005r0061
+  monster_name_raw: Fallen Angel
+  item_name_raw: Degenerate Angel Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Degenerate Angel Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: thunder-ruins__t005r0062
+  monster_name_raw: Fallen Angel
+  item_name_raw: Hunter Armor
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Hunter Armor
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thunder-ruins__t005r0063
+  monster_name_raw: Fallen Angel
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Light Necklace
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thunder-ruins__t005r0064
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 1.0510%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Alchemic Cap
+    Drop Share: 1.0510%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.051
+    quantity: 1
+- drop_id: thunder-ruins__t005r0065
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Holy Alchemic Cap
+  drop_share_raw: 0.1101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Holy Alchemic Cap
+    Drop Share: 0.1101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1101
+    quantity: 1
+- drop_id: thunder-ruins__t005r0066
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Pearl Refining
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thunder-ruins__t005r0067
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Fighting Wings
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thunder-ruins__t005r0068
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 13.1573%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Hard-leather Cap
+    Drop Share: 13.1573%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 13.1573
+    quantity: 1
+- drop_id: thunder-ruins__t005r0069
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Round Iron Helmet
+  drop_share_raw: 13.1573%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Round Iron Helmet
+    Drop Share: 13.1573%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 13.1573
+    quantity: 1
+- drop_id: thunder-ruins__t005r0070
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Orange Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thunder-ruins__t005r0071
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Purple Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thunder-ruins__t005r0072
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Ruby
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Ruby
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thunder-ruins__t005r0073
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Heavy Attack V
+  drop_share_raw: 0.1685%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Heavy Attack V
+    Drop Share: 0.1685%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1685
+    quantity: 1
+- drop_id: thunder-ruins__t005r0074
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Slow Snipe V
+  drop_share_raw: 0.1685%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Slow Snipe V
+    Drop Share: 0.1685%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1685
+    quantity: 1
+- drop_id: thunder-ruins__t005r0075
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Weary Curse V
+  drop_share_raw: 0.1685%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Weary Curse V
+    Drop Share: 0.1685%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1685
+    quantity: 1
+- drop_id: thunder-ruins__t005r0076
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Code Cap
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Code Cap
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thunder-ruins__t005r0077
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Bright Grass Mantle
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Bright Grass Mantle
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thunder-ruins__t005r0078
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Rare Fruit of Hercules
+  drop_share_raw: 52.7728%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Rare Fruit of Hercules
+    Drop Share: 52.7728%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 52.7728
+    quantity: 1
+- drop_id: thunder-ruins__t005r0079
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Map Piece
+  drop_share_raw: 1.4700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Map Piece
+    Drop Share: 1.4700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.47
+    quantity: 1
+- drop_id: thunder-ruins__t005r0080
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Pestle
+  drop_share_raw: 0.1101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Pestle
+    Drop Share: 0.1101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1101
+    quantity: 1
+- drop_id: thunder-ruins__t005r0081
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Brute's Egg
+  drop_share_raw: 3.1500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Brute's Egg
+    Drop Share: 3.1500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.15
+    quantity: 1
+- drop_id: thunder-ruins__t005r0082
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Heart Beat 5
+  drop_share_raw: 0.1376%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Heart Beat 5
+    Drop Share: 0.1376%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1376
+    quantity: 1
+- drop_id: thunder-ruins__t005r0083
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Slicing Hit V
+  drop_share_raw: 0.1376%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Slicing Hit V
+    Drop Share: 0.1376%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1376
+    quantity: 1
+- drop_id: thunder-ruins__t005r0084
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Adas's Blade
+  drop_share_raw: 0.0344%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Adas's Blade
+    Drop Share: 0.0344%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0344
+    quantity: 1
+- drop_id: thunder-ruins__t005r0085
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Eagle Breastplate
+  drop_share_raw: 0.0344%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Eagle Breastplate
+    Drop Share: 0.0344%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0344
+    quantity: 1
+- drop_id: thunder-ruins__t005r0086
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0344%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Golden Chain Cuff
+    Drop Share: 0.0344%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0344
+    quantity: 1
+- drop_id: thunder-ruins__t005r0087
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Fiery Boots
+  drop_share_raw: 0.0344%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Fiery Boots
+    Drop Share: 0.0344%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0344
+    quantity: 1
+- drop_id: thunder-ruins__t005r0088
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Crystal Sword
+  drop_share_raw: 0.7337%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Crystal Sword
+    Drop Share: 0.7337%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7337
+    quantity: 1
+- drop_id: thunder-ruins__t005r0089
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Defective Orange Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thunder-ruins__t005r0090
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Army Knife
+  drop_share_raw: 0.5500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Army Knife
+    Drop Share: 0.5500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.55
+    quantity: 1
+- drop_id: thunder-ruins__t005r0091
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Light Breastplate
+  drop_share_raw: 0.5503%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Light Breastplate
+    Drop Share: 0.5503%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5503
+    quantity: 1
+- drop_id: thunder-ruins__t005r0092
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.5504%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Light Cuff
+    Drop Share: 0.5504%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5504
+    quantity: 1
+- drop_id: thunder-ruins__t005r0093
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Rabbi's Boots
+  drop_share_raw: 0.5504%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Rabbi's Boots
+    Drop Share: 0.5504%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5504
+    quantity: 1
+- drop_id: thunder-ruins__t005r0094
+  monster_name_raw: Fallen Archangel
+  item_name_raw: Rare Fruit of the Devil
+  drop_share_raw: 44.1288%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Archangel
+    Item: Rare Fruit of the Devil
+    Drop Share: 44.1288%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 44.1288
+    quantity: 1
+- drop_id: thunder-ruins__t005r0095
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Trident
+  drop_share_raw: 0.0275%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Trident
+    Drop Share: 0.0275%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0275
+    quantity: 1
+- drop_id: thunder-ruins__t005r0096
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Spinning Slingshot
+  drop_share_raw: 0.0275%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Spinning Slingshot
+    Drop Share: 0.0275%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0275
+    quantity: 1
+- drop_id: thunder-ruins__t005r0097
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Staff
+  drop_share_raw: 0.0275%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Staff
+    Drop Share: 0.0275%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0275
+    quantity: 1
+- drop_id: thunder-ruins__t005r0098
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Magic Stick
+  drop_share_raw: 0.0045%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Magic Stick
+    Drop Share: 0.0045%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0045
+    quantity: 1
+- drop_id: thunder-ruins__t005r0099
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Spear of Yugo
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Spear of Yugo
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: thunder-ruins__t005r0100
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Splash Slingshot
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Splash Slingshot
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: thunder-ruins__t005r0101
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Fiery Staff
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Fiery Staff
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: thunder-ruins__t005r0102
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Map Piece
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: thunder-ruins__t005r0103
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Orange Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thunder-ruins__t005r0104
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thunder-ruins__t005r0105
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thunder-ruins__t005r0106
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Pestle
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Pestle
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: thunder-ruins__t005r0107
+  monster_name_raw: Guilt Azrael
+  item_name_raw: Purgatorial Azrael Card
+  drop_share_raw: 0.0039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Guilt Azrael
+    Item: Purgatorial Azrael Card
+    Drop Share: 0.0039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0039
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 107

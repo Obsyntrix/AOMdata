@@ -1,0 +1,1696 @@
+area:
+  id: waterfall-camp
+  name_raw: Waterfall Camp
+  source:
+    origin_url: https://angels.wikidot.com/area:waterfall-camp
+    retrieval_url: https://www.aowiki.uk/pages/area_waterfall-camp.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: b318d6f1ce40daecb4608818c7c59183d2e1de8a1a20372e54904146f355dfe9
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: waterfall-camp__dasheen-elf__t005r0001
+  name_raw: Dasheen Elf
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dasheen-elf.html
+  row_raw:
+    Monster Name: Dasheen Elf
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__rotten-fly__t005r0002
+  name_raw: Rotten Fly
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rotten-fly.html
+  row_raw:
+    Monster Name: Rotten Fly
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__giant-rage-ape__t005r0003
+  name_raw: Giant Rage Ape
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-rage-ape.html
+  row_raw:
+    Monster Name: Giant Rage Ape
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__earth-fairy__t005r0004
+  name_raw: Earth Fairy
+  level_raw: '88'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-fairy.html
+  row_raw:
+    Monster Name: Earth Fairy
+    Level: '88'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 88
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__orangutan-mother__t005r0005
+  name_raw: Orangutan Mother
+  level_raw: '90'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_orangutan-mother.html
+  row_raw:
+    Monster Name: Orangutan Mother
+    Level: '90'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 90
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__red-clapper-dragon__t005r0006
+  name_raw: Red Clapper Dragon
+  level_raw: '91'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_red-clapper-dragon.html
+  row_raw:
+    Monster Name: Red Clapper Dragon
+    Level: '91'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 91
+    boss: false
+    aggressive: true
+- area_occurrence_id: waterfall-camp__blue-clapper-dragon__t005r0007
+  name_raw: Blue Clapper Dragon
+  level_raw: '92'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blue-clapper-dragon.html
+  row_raw:
+    Monster Name: Blue Clapper Dragon
+    Level: '92'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 92
+    boss: false
+    aggressive: true
+drops:
+- drop_id: waterfall-camp__t008r0001
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: Wind Helmet
+  drop_share_raw: 72.8793%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: Wind Helmet
+    Drop Share: 72.8793%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 72.8793
+    quantity: 1
+- drop_id: waterfall-camp__t008r0002
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: Good Wind Helmet
+  drop_share_raw: 1.8263%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: Good Wind Helmet
+    Drop Share: 1.8263%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.8263
+    quantity: 1
+- drop_id: waterfall-camp__t008r0003
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: Storm Helmet
+  drop_share_raw: 0.0853%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: Storm Helmet
+    Drop Share: 0.0853%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0853
+    quantity: 1
+- drop_id: waterfall-camp__t008r0004
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: 'A.Plan2: Wind Helmet'
+  drop_share_raw: 0.5974%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: 'A.Plan2: Wind Helmet'
+    Drop Share: 0.5974%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5974
+    quantity: 1
+- drop_id: waterfall-camp__t008r0005
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.9046%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: Flawless Sapphire
+    Drop Share: 0.9046%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9046
+    quantity: 1
+- drop_id: waterfall-camp__t008r0006
+  monster_name_raw: Blue Clapper Dragon
+  item_name_raw: Blue Clapper Dragon Card
+  drop_share_raw: 23.7071%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Clapper Dragon
+    Item: Blue Clapper Dragon Card
+    Drop Share: 23.7071%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 23.7071
+    quantity: 1
+- drop_id: waterfall-camp__t008r0007
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Espial Boots
+  drop_share_raw: 47.8961%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Espial Boots
+    Drop Share: 47.8961%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.8961
+    quantity: 1
+- drop_id: waterfall-camp__t008r0008
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Wind Armguards
+  drop_share_raw: 47.8961%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Wind Armguards
+    Drop Share: 47.8961%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.8961
+    quantity: 1
+- drop_id: waterfall-camp__t008r0009
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Good Espial Boots
+  drop_share_raw: 1.1948%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Good Espial Boots
+    Drop Share: 1.1948%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1948
+    quantity: 1
+- drop_id: waterfall-camp__t008r0010
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Good Wind Armguards
+  drop_share_raw: 1.1948%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Good Wind Armguards
+    Drop Share: 1.1948%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1948
+    quantity: 1
+- drop_id: waterfall-camp__t008r0011
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Magnetic Boots
+  drop_share_raw: 0.0519%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Magnetic Boots
+    Drop Share: 0.0519%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0519
+    quantity: 1
+- drop_id: waterfall-camp__t008r0012
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Storm Armguards
+  drop_share_raw: 0.0519%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Storm Armguards
+    Drop Share: 0.0519%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0519
+    quantity: 1
+- drop_id: waterfall-camp__t008r0013
+  monster_name_raw: Dasheen Elf
+  item_name_raw: 'D.Plan2: Espial Boots'
+  drop_share_raw: 0.3896%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: 'D.Plan2: Espial Boots'
+    Drop Share: 0.3896%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3896
+    quantity: 1
+- drop_id: waterfall-camp__t008r0014
+  monster_name_raw: Dasheen Elf
+  item_name_raw: 'D.Plan2: Espial Bracers'
+  drop_share_raw: 0.3896%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: 'D.Plan2: Espial Bracers'
+    Drop Share: 0.3896%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3896
+    quantity: 1
+- drop_id: waterfall-camp__t008r0015
+  monster_name_raw: Dasheen Elf
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.9351%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dasheen Elf
+    Item: Flawless Emerald
+    Drop Share: 0.9351%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9351
+    quantity: 1
+- drop_id: waterfall-camp__t008r0016
+  monster_name_raw: Earth Fairy
+  item_name_raw: Coral Manteau
+  drop_share_raw: 38.8799%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Coral Manteau
+    Drop Share: 38.8799%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 38.8799
+    quantity: 1
+- drop_id: waterfall-camp__t008r0017
+  monster_name_raw: Earth Fairy
+  item_name_raw: Crusader's Brooch
+  drop_share_raw: 38.8799%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Crusader's Brooch
+    Drop Share: 38.8799%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 38.8799
+    quantity: 1
+- drop_id: waterfall-camp__t008r0018
+  monster_name_raw: Earth Fairy
+  item_name_raw: Good Coral Manteau
+  drop_share_raw: 0.9670%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Good Coral Manteau
+    Drop Share: 0.9670%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.967
+    quantity: 1
+- drop_id: waterfall-camp__t008r0019
+  monster_name_raw: Earth Fairy
+  item_name_raw: Good Crusader's Brooch
+  drop_share_raw: 0.9670%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Good Crusader's Brooch
+    Drop Share: 0.9670%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.967
+    quantity: 1
+- drop_id: waterfall-camp__t008r0020
+  monster_name_raw: Earth Fairy
+  item_name_raw: Blue Wings
+  drop_share_raw: 0.0403%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Blue Wings
+    Drop Share: 0.0403%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0403
+    quantity: 1
+- drop_id: waterfall-camp__t008r0021
+  monster_name_raw: Earth Fairy
+  item_name_raw: The Call of the Sea
+  drop_share_raw: 0.0403%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: The Call of the Sea
+    Drop Share: 0.0403%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0403
+    quantity: 1
+- drop_id: waterfall-camp__t008r0022
+  monster_name_raw: Earth Fairy
+  item_name_raw: Crystal Jelly Fish
+  drop_share_raw: 0.3089%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Crystal Jelly Fish
+    Drop Share: 0.3089%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3089
+    quantity: 1
+- drop_id: waterfall-camp__t008r0023
+  monster_name_raw: Earth Fairy
+  item_name_raw: 'D.Plan2: Coral Manteau'
+  drop_share_raw: 0.3223%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: 'D.Plan2: Coral Manteau'
+    Drop Share: 0.3223%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3223
+    quantity: 1
+- drop_id: waterfall-camp__t008r0024
+  monster_name_raw: Earth Fairy
+  item_name_raw: 'Craft Recipe 2: Crusader''s Brooch'
+  drop_share_raw: 0.3223%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: 'Craft Recipe 2: Crusader''s Brooch'
+    Drop Share: 0.3223%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3223
+    quantity: 1
+- drop_id: waterfall-camp__t008r0025
+  monster_name_raw: Earth Fairy
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.6178%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Flawless Ruby
+    Drop Share: 0.6178%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6178
+    quantity: 1
+- drop_id: waterfall-camp__t008r0026
+  monster_name_raw: Earth Fairy
+  item_name_raw: Earth Fairy Card
+  drop_share_raw: 18.6543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Fairy
+    Item: Earth Fairy Card
+    Drop Share: 18.6543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.6543
+    quantity: 1
+- drop_id: waterfall-camp__t008r0027
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Saint Boots
+  drop_share_raw: 47.9643%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Saint Boots
+    Drop Share: 47.9643%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.9643
+    quantity: 1
+- drop_id: waterfall-camp__t008r0028
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Espial Bracers
+  drop_share_raw: 47.9643%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Espial Bracers
+    Drop Share: 47.9643%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.9643
+    quantity: 1
+- drop_id: waterfall-camp__t008r0029
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Good Saint Boots
+  drop_share_raw: 1.1964%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Good Saint Boots
+    Drop Share: 1.1964%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1964
+    quantity: 1
+- drop_id: waterfall-camp__t008r0030
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Good Espial Bracers
+  drop_share_raw: 1.1964%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Good Espial Bracers
+    Drop Share: 1.1964%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1964
+    quantity: 1
+- drop_id: waterfall-camp__t008r0031
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Holy Guard Boots
+  drop_share_raw: 0.0536%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Holy Guard Boots
+    Drop Share: 0.0536%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0536
+    quantity: 1
+- drop_id: waterfall-camp__t008r0032
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Magnetic Bracers
+  drop_share_raw: 0.0536%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Magnetic Bracers
+    Drop Share: 0.0536%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0536
+    quantity: 1
+- drop_id: waterfall-camp__t008r0033
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: 'A.Plan2: Saint Boots'
+  drop_share_raw: 0.3929%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: 'A.Plan2: Saint Boots'
+    Drop Share: 0.3929%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3929
+    quantity: 1
+- drop_id: waterfall-camp__t008r0034
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: 'A.Plan2: Saint Brassart'
+  drop_share_raw: 0.3929%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: 'A.Plan2: Saint Brassart'
+    Drop Share: 0.3929%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3929
+    quantity: 1
+- drop_id: waterfall-camp__t008r0035
+  monster_name_raw: Giant Rage Ape
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.7857%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rage Ape
+    Item: Flawless Yellow Gem
+    Drop Share: 0.7857%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7857
+    quantity: 1
+- drop_id: waterfall-camp__t008r0036
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Wind Armor
+  drop_share_raw: 1.5733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Wind Armor
+    Drop Share: 1.5733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5733
+    quantity: 1
+- drop_id: waterfall-camp__t008r0037
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Saint Armor
+  drop_share_raw: 1.5733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Saint Armor
+    Drop Share: 1.5733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5733
+    quantity: 1
+- drop_id: waterfall-camp__t008r0038
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Espial Gown
+  drop_share_raw: 1.5733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Espial Gown
+    Drop Share: 1.5733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5733
+    quantity: 1
+- drop_id: waterfall-camp__t008r0039
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Good Wind Armor
+  drop_share_raw: 0.0707%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Good Wind Armor
+    Drop Share: 0.0707%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0707
+    quantity: 1
+- drop_id: waterfall-camp__t008r0040
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Good Saint Armor
+  drop_share_raw: 0.0707%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Good Saint Armor
+    Drop Share: 0.0707%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0707
+    quantity: 1
+- drop_id: waterfall-camp__t008r0041
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Good Espial Gown
+  drop_share_raw: 0.0707%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Good Espial Gown
+    Drop Share: 0.0707%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0707
+    quantity: 1
+- drop_id: waterfall-camp__t008r0042
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Storm Armor
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: waterfall-camp__t008r0043
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Holy Guard Armor
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Holy Guard Armor
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: waterfall-camp__t008r0044
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Magnetic Gown
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Magnetic Gown
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: waterfall-camp__t008r0045
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Betel Jelly Jellyfish Armor
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Betel Jelly Jellyfish Armor
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: waterfall-camp__t008r0046
+  monster_name_raw: Hermit Hezon
+  item_name_raw: 'A.Plan2: Saint Armor'
+  drop_share_raw: 0.0236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: 'A.Plan2: Saint Armor'
+    Drop Share: 0.0236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0236
+    quantity: 1
+- drop_id: waterfall-camp__t008r0047
+  monster_name_raw: Hermit Hezon
+  item_name_raw: 'A.Plan2: Wind Armor'
+  drop_share_raw: 0.0236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: 'A.Plan2: Wind Armor'
+    Drop Share: 0.0236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0236
+    quantity: 1
+- drop_id: waterfall-camp__t008r0048
+  monster_name_raw: Hermit Hezon
+  item_name_raw: 'D.Plan2: Magnetic Gown'
+  drop_share_raw: 0.0236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: 'D.Plan2: Magnetic Gown'
+    Drop Share: 0.0236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0236
+    quantity: 1
+- drop_id: waterfall-camp__t008r0049
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Flawless Purple Gem
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: waterfall-camp__t008r0050
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: waterfall-camp__t008r0051
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Effective Target Potion
+  drop_share_raw: 47.1895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Effective Target Potion
+    Drop Share: 47.1895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.1895
+    quantity: 1
+- drop_id: waterfall-camp__t008r0052
+  monster_name_raw: Hermit Hezon
+  item_name_raw: Effective Mighty Fruit
+  drop_share_raw: 47.1895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hermit Hezon
+    Item: Effective Mighty Fruit
+    Drop Share: 47.1895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.1895
+    quantity: 1
+- drop_id: waterfall-camp__t008r0053
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Saint Boots
+  drop_share_raw: 39.9477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Saint Boots
+    Drop Share: 39.9477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 39.9477
+    quantity: 1
+- drop_id: waterfall-camp__t008r0054
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Saint Brassart
+  drop_share_raw: 39.9477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Saint Brassart
+    Drop Share: 39.9477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 39.9477
+    quantity: 1
+- drop_id: waterfall-camp__t008r0055
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Good Saint Boots
+  drop_share_raw: 0.9987%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Good Saint Boots
+    Drop Share: 0.9987%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9987
+    quantity: 1
+- drop_id: waterfall-camp__t008r0056
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Good Saint Brassart
+  drop_share_raw: 0.9987%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Good Saint Brassart
+    Drop Share: 0.9987%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9987
+    quantity: 1
+- drop_id: waterfall-camp__t008r0057
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Holy Guard Boots
+  drop_share_raw: 0.0357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Holy Guard Boots
+    Drop Share: 0.0357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0357
+    quantity: 1
+- drop_id: waterfall-camp__t008r0058
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Holy Guard Cuffs
+  drop_share_raw: 0.0357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Holy Guard Cuffs
+    Drop Share: 0.0357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0357
+    quantity: 1
+- drop_id: waterfall-camp__t008r0059
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Green Seabed Steed
+  drop_share_raw: 0.2378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Green Seabed Steed
+    Drop Share: 0.2378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2378
+    quantity: 1
+- drop_id: waterfall-camp__t008r0060
+  monster_name_raw: Orangutan Mother
+  item_name_raw: 'A.Plan2: Saint Boots'
+  drop_share_raw: 0.3448%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: 'A.Plan2: Saint Boots'
+    Drop Share: 0.3448%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3448
+    quantity: 1
+- drop_id: waterfall-camp__t008r0061
+  monster_name_raw: Orangutan Mother
+  item_name_raw: 'A.Plan2: Saint Brassart'
+  drop_share_raw: 0.3448%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: 'A.Plan2: Saint Brassart'
+    Drop Share: 0.3448%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3448
+    quantity: 1
+- drop_id: waterfall-camp__t008r0062
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.5945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Flawless Yellow Gem
+    Drop Share: 0.5945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5945
+    quantity: 1
+- drop_id: waterfall-camp__t008r0063
+  monster_name_raw: Orangutan Mother
+  item_name_raw: Orangutan Mother Card
+  drop_share_raw: 16.5141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Orangutan Mother
+    Item: Orangutan Mother Card
+    Drop Share: 16.5141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 16.5141
+    quantity: 1
+- drop_id: waterfall-camp__t008r0064
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Star Moon Bracelet
+  drop_share_raw: 1.8216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Star Moon Bracelet
+    Drop Share: 1.8216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.8216
+    quantity: 1
+- drop_id: waterfall-camp__t008r0065
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Dragon's Scale Mantle
+  drop_share_raw: 1.8216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Dragon's Scale Mantle
+    Drop Share: 1.8216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.8216
+    quantity: 1
+- drop_id: waterfall-camp__t008r0066
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Good Star Moon Bracelet
+  drop_share_raw: 0.0937%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Good Star Moon Bracelet
+    Drop Share: 0.0937%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0937
+    quantity: 1
+- drop_id: waterfall-camp__t008r0067
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Good Dragon's Scale Mantle
+  drop_share_raw: 0.0937%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Good Dragon's Scale Mantle
+    Drop Share: 0.0937%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0937
+    quantity: 1
+- drop_id: waterfall-camp__t008r0068
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Elf's Whisper
+  drop_share_raw: 0.0026%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Elf's Whisper
+    Drop Share: 0.0026%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0026
+    quantity: 1
+- drop_id: waterfall-camp__t008r0069
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Magic Dragon's Wings
+  drop_share_raw: 0.0026%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Magic Dragon's Wings
+    Drop Share: 0.0026%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0026
+    quantity: 1
+- drop_id: waterfall-camp__t008r0070
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Rade Fast Seahorse
+  drop_share_raw: 0.0157%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Rade Fast Seahorse
+    Drop Share: 0.0157%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0157
+    quantity: 1
+- drop_id: waterfall-camp__t008r0071
+  monster_name_raw: Rainforest Bee
+  item_name_raw: 'Craft Recipe 2: Star Moon Bracelet'
+  drop_share_raw: 0.0312%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: 'Craft Recipe 2: Star Moon Bracelet'
+    Drop Share: 0.0312%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0312
+    quantity: 1
+- drop_id: waterfall-camp__t008r0072
+  monster_name_raw: Rainforest Bee
+  item_name_raw: 'D.Plan2: Dragon''s Scale Mantle'
+  drop_share_raw: 0.0312%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: 'D.Plan2: Dragon''s Scale Mantle'
+    Drop Share: 0.0312%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0312
+    quantity: 1
+- drop_id: waterfall-camp__t008r0073
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0783%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0783%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0783
+    quantity: 1
+- drop_id: waterfall-camp__t008r0074
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: waterfall-camp__t008r0075
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 47.7331%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Effective Evil Fruit
+    Drop Share: 47.7331%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7331
+    quantity: 1
+- drop_id: waterfall-camp__t008r0076
+  monster_name_raw: Rainforest Bee
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 47.7331%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rainforest Bee
+    Item: Effective Magic Potion
+    Drop Share: 47.7331%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7331
+    quantity: 1
+- drop_id: waterfall-camp__t008r0077
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Wind Boots
+  drop_share_raw: 47.7788%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Wind Boots
+    Drop Share: 47.7788%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7788
+    quantity: 1
+- drop_id: waterfall-camp__t008r0078
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Wind Armguards
+  drop_share_raw: 47.7788%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Wind Armguards
+    Drop Share: 47.7788%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7788
+    quantity: 1
+- drop_id: waterfall-camp__t008r0079
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Good Wind Boots
+  drop_share_raw: 1.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Good Wind Boots
+    Drop Share: 1.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.18
+    quantity: 1
+- drop_id: waterfall-camp__t008r0080
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Good Wind Armguards
+  drop_share_raw: 1.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Good Wind Armguards
+    Drop Share: 1.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.18
+    quantity: 1
+- drop_id: waterfall-camp__t008r0081
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Storm Boots
+  drop_share_raw: 0.0463%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Storm Boots
+    Drop Share: 0.0463%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0463
+    quantity: 1
+- drop_id: waterfall-camp__t008r0082
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Storm Armguards
+  drop_share_raw: 0.0463%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Storm Armguards
+    Drop Share: 0.0463%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0463
+    quantity: 1
+- drop_id: waterfall-camp__t008r0083
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: 'A.Plan2: Wind Boots'
+  drop_share_raw: 0.3933%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: 'A.Plan2: Wind Boots'
+    Drop Share: 0.3933%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3933
+    quantity: 1
+- drop_id: waterfall-camp__t008r0084
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: 'A.Plan2: Wind Armguards'
+  drop_share_raw: 0.3933%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: 'A.Plan2: Wind Armguards'
+    Drop Share: 0.3933%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3933
+    quantity: 1
+- drop_id: waterfall-camp__t008r0085
+  monster_name_raw: Red Clapper Dragon
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 1.2031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red Clapper Dragon
+    Item: Flawless Emerald
+    Drop Share: 1.2031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2031
+    quantity: 1
+- drop_id: waterfall-camp__t008r0086
+  monster_name_raw: Rotten Fly
+  item_name_raw: Wind Boots
+  drop_share_raw: 47.9668%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Wind Boots
+    Drop Share: 47.9668%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.9668
+    quantity: 1
+- drop_id: waterfall-camp__t008r0087
+  monster_name_raw: Rotten Fly
+  item_name_raw: Saint Brassart
+  drop_share_raw: 47.9668%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Saint Brassart
+    Drop Share: 47.9668%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.9668
+    quantity: 1
+- drop_id: waterfall-camp__t008r0088
+  monster_name_raw: Rotten Fly
+  item_name_raw: Good Wind Boots
+  drop_share_raw: 1.1826%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Good Wind Boots
+    Drop Share: 1.1826%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1826
+    quantity: 1
+- drop_id: waterfall-camp__t008r0089
+  monster_name_raw: Rotten Fly
+  item_name_raw: Good Saint Brassart
+  drop_share_raw: 1.1826%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Good Saint Brassart
+    Drop Share: 1.1826%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1826
+    quantity: 1
+- drop_id: waterfall-camp__t008r0090
+  monster_name_raw: Rotten Fly
+  item_name_raw: Storm Boots
+  drop_share_raw: 0.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Storm Boots
+    Drop Share: 0.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0415
+    quantity: 1
+- drop_id: waterfall-camp__t008r0091
+  monster_name_raw: Rotten Fly
+  item_name_raw: Holy Guard Cuffs
+  drop_share_raw: 0.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Holy Guard Cuffs
+    Drop Share: 0.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0415
+    quantity: 1
+- drop_id: waterfall-camp__t008r0092
+  monster_name_raw: Rotten Fly
+  item_name_raw: 'A.Plan2: Wind Boots'
+  drop_share_raw: 0.3942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: 'A.Plan2: Wind Boots'
+    Drop Share: 0.3942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3942
+    quantity: 1
+- drop_id: waterfall-camp__t008r0093
+  monster_name_raw: Rotten Fly
+  item_name_raw: 'A.Plan2: Wind Armguards'
+  drop_share_raw: 0.3942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: 'A.Plan2: Wind Armguards'
+    Drop Share: 0.3942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3942
+    quantity: 1
+- drop_id: waterfall-camp__t008r0094
+  monster_name_raw: Rotten Fly
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.8299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rotten Fly
+    Item: Flawless Sapphire
+    Drop Share: 0.8299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8299
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Waterfall Banker
+  - (291,90)
+  - Use your own warehouse or corporation's warehouse.
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 5
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 6
+  headers_raw:
+  - Hermit Hezon
+  - '95'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 1
+- table_index: 7
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 8
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 94

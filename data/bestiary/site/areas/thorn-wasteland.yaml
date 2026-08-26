@@ -1,0 +1,2091 @@
+area:
+  id: thorn-wasteland
+  name_raw: Thorn Wasteland
+  source:
+    origin_url: https://angels.wikidot.com/area:thorn-wasteland
+    retrieval_url: https://www.aowiki.uk/pages/area_thorn-wasteland.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: d1cfe490e353eda55568dbb6b735e43df772c0eed2ed805f3cf72343aa7bcf06
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: thorn-wasteland__savage-dogface__t003r0001
+  name_raw: Savage Dogface
+  level_raw: '45'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_savage-dogface.html
+  row_raw:
+    Monster Name: Savage Dogface
+    Level: '45'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: false
+    aggressive: true
+- area_occurrence_id: thorn-wasteland__savage-priest__t003r0002
+  name_raw: Savage Priest
+  level_raw: '48'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_savage-priest.html
+  row_raw:
+    Monster Name: Savage Priest
+    Level: '48'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 48
+    boss: false
+    aggressive: true
+- area_occurrence_id: thorn-wasteland__fire-barft__t003r0003
+  name_raw: Fire Barft
+  level_raw: '50'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-barft.html
+  row_raw:
+    Monster Name: Fire Barft
+    Level: '50'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: false
+    aggressive: true
+- area_occurrence_id: thorn-wasteland__savage-head__t003r0004
+  name_raw: Savage Head
+  level_raw: '50'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_savage-head.html
+  row_raw:
+    Monster Name: Savage Head
+    Level: '50'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: true
+    aggressive: true
+- area_occurrence_id: thorn-wasteland__savage-chief-apu__t003r0005
+  name_raw: Savage Chief Apu
+  level_raw: '53'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_savage-chief-apu.html
+  row_raw:
+    Monster Name: Savage Chief Apu
+    Level: '53'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 53
+    boss: true
+    aggressive: true
+- area_occurrence_id: thorn-wasteland__barft-laird__t003r0006
+  name_raw: Barft Laird
+  level_raw: '55'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_barft-laird.html
+  row_raw:
+    Monster Name: Barft Laird
+    Level: '55'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: true
+    aggressive: true
+drops:
+- drop_id: thorn-wasteland__t005r0001
+  monster_name_raw: Barft Laird
+  item_name_raw: Army Knife
+  drop_share_raw: 0.7474%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Army Knife
+    Drop Share: 0.7474%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7474
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0002
+  monster_name_raw: Barft Laird
+  item_name_raw: War Axe
+  drop_share_raw: 0.7474%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: War Axe
+    Drop Share: 0.7474%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7474
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0003
+  monster_name_raw: Barft Laird
+  item_name_raw: Adas's Blade
+  drop_share_raw: 0.0687%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Adas's Blade
+    Drop Share: 0.0687%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0687
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0004
+  monster_name_raw: Barft Laird
+  item_name_raw: Rainbow Axe
+  drop_share_raw: 0.0687%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Rainbow Axe
+    Drop Share: 0.0687%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0687
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0005
+  monster_name_raw: Barft Laird
+  item_name_raw: Curse Refining
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Curse Refining
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0006
+  monster_name_raw: Barft Laird
+  item_name_raw: Devil Wings
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Devil Wings
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0007
+  monster_name_raw: Barft Laird
+  item_name_raw: Huge Axe
+  drop_share_raw: 20.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Huge Axe
+    Drop Share: 20.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 20.0
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0008
+  monster_name_raw: Barft Laird
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Purple Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0009
+  monster_name_raw: Barft Laird
+  item_name_raw: Weary Curse V
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Weary Curse V
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0010
+  monster_name_raw: Barft Laird
+  item_name_raw: Summon Mummy V
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Summon Mummy V
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0011
+  monster_name_raw: Barft Laird
+  item_name_raw: Angel Helmet
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Angel Helmet
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0012
+  monster_name_raw: Barft Laird
+  item_name_raw: Paladin Helmet
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Paladin Helmet
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0013
+  monster_name_raw: Barft Laird
+  item_name_raw: Paladin Cuff
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Paladin Cuff
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0014
+  monster_name_raw: Barft Laird
+  item_name_raw: Angel Cuff
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Angel Cuff
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0015
+  monster_name_raw: Barft Laird
+  item_name_raw: Notice Gloves
+  drop_share_raw: 0.3531%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Notice Gloves
+    Drop Share: 0.3531%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3531
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0016
+  monster_name_raw: Barft Laird
+  item_name_raw: Rare Healing Potion
+  drop_share_raw: 53.0326%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Rare Healing Potion
+    Drop Share: 53.0326%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 53.0326
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0017
+  monster_name_raw: Barft Laird
+  item_name_raw: Map Piece
+  drop_share_raw: 1.8300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Map Piece
+    Drop Share: 1.8300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.83
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0018
+  monster_name_raw: Barft Laird
+  item_name_raw: Pestle
+  drop_share_raw: 0.1584%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Pestle
+    Drop Share: 0.1584%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1584
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0019
+  monster_name_raw: Barft Laird
+  item_name_raw: Blind Curse V
+  drop_share_raw: 0.0488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Barft Laird
+    Item: Blind Curse V
+    Drop Share: 0.0488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0488
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0020
+  monster_name_raw: Burning Monster
+  item_name_raw: Light Breastplate
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Light Breastplate
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0021
+  monster_name_raw: Burning Monster
+  item_name_raw: Chain Armor
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Chain Armor
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0022
+  monster_name_raw: Burning Monster
+  item_name_raw: Eagle Breastplate
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Eagle Breastplate
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0023
+  monster_name_raw: Burning Monster
+  item_name_raw: Golden Chain Armor
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Golden Chain Armor
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0024
+  monster_name_raw: Burning Monster
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Map Piece
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0025
+  monster_name_raw: Burning Monster
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Sapphire
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0026
+  monster_name_raw: Burning Monster
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Purple Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0027
+  monster_name_raw: Burning Monster
+  item_name_raw: Ruby
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Ruby
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0028
+  monster_name_raw: Burning Monster
+  item_name_raw: Pestle
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Pestle
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0029
+  monster_name_raw: Burning Monster
+  item_name_raw: Burning Monster Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Monster
+    Item: Burning Monster Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0030
+  monster_name_raw: Fallen Angel
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 0.0661%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Alchemic Cap
+    Drop Share: 0.0661%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0661
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0031
+  monster_name_raw: Fallen Angel
+  item_name_raw: Holy Alchemic Cap
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Holy Alchemic Cap
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0032
+  monster_name_raw: Fallen Angel
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0033
+  monster_name_raw: Fallen Angel
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0034
+  monster_name_raw: Fallen Angel
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0035
+  monster_name_raw: Fallen Angel
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0036
+  monster_name_raw: Fallen Angel
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0037
+  monster_name_raw: Fallen Angel
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Orange Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0038
+  monster_name_raw: Fallen Angel
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Yellow Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0039
+  monster_name_raw: Fallen Angel
+  item_name_raw: Emerald
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Emerald
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0040
+  monster_name_raw: Fallen Angel
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Sapphire
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0041
+  monster_name_raw: Fallen Angel
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Purple Gem
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0042
+  monster_name_raw: Fallen Angel
+  item_name_raw: Ruby
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Ruby
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0043
+  monster_name_raw: Fallen Angel
+  item_name_raw: Pestle
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Pestle
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0044
+  monster_name_raw: Fallen Angel
+  item_name_raw: Degenerate Angel Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Degenerate Angel Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0045
+  monster_name_raw: Fallen Angel
+  item_name_raw: Hunter Armor
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Hunter Armor
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0046
+  monster_name_raw: Fallen Angel
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fallen Angel
+    Item: Light Necklace
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0047
+  monster_name_raw: Fire Barft
+  item_name_raw: Army Knife
+  drop_share_raw: 0.0412%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Army Knife
+    Drop Share: 0.0412%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0412
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0048
+  monster_name_raw: Fire Barft
+  item_name_raw: Huge Axe
+  drop_share_raw: 0.0412%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Huge Axe
+    Drop Share: 0.0412%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0412
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0049
+  monster_name_raw: Fire Barft
+  item_name_raw: War Axe
+  drop_share_raw: 0.0068%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: War Axe
+    Drop Share: 0.0068%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0068
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0050
+  monster_name_raw: Fire Barft
+  item_name_raw: Adas's Blade
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Adas's Blade
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0051
+  monster_name_raw: Fire Barft
+  item_name_raw: Rainbow Axe
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Rainbow Axe
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0052
+  monster_name_raw: Fire Barft
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Map Piece
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0053
+  monster_name_raw: Fire Barft
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0054
+  monster_name_raw: Fire Barft
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Purple Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0055
+  monster_name_raw: Fire Barft
+  item_name_raw: Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0056
+  monster_name_raw: Fire Barft
+  item_name_raw: Pestle
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Barft
+    Item: Pestle
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0057
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Magic Gown
+  drop_share_raw: 0.6009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Magic Gown
+    Drop Share: 0.6009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6009
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0058
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Knights Shield
+  drop_share_raw: 0.6009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Knights Shield
+    Drop Share: 0.6009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6009
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0059
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Magic Gown of Flame God
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Magic Gown of Flame God
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0060
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Angel Knights Shield
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Angel Knights Shield
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0061
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Curse Refining
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Curse Refining
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0062
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Green Beetle Bag
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Green Beetle Bag
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0063
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Orange Gem
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0064
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Emerald
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Emerald
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0065
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Crystal Sword
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Crystal Sword
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0066
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Crystal Axe
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Crystal Axe
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0067
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Black Knights Armor
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Black Knights Armor
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0068
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Crusader's Shield
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Crusader's Shield
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0069
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Oracle
+  drop_share_raw: 0.3235%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Oracle
+    Drop Share: 0.3235%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3235
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0070
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Rare Fruit of Mars
+  drop_share_raw: 48.9543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Rare Fruit of Mars
+    Drop Share: 48.9543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.9543
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0071
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Map Piece
+  drop_share_raw: 1.6800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Map Piece
+    Drop Share: 1.6800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.68
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0072
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Pestle
+  drop_share_raw: 0.1460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Pestle
+    Drop Share: 0.1460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.146
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0073
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Beast's Egg
+  drop_share_raw: 6.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Beast's Egg
+    Drop Share: 6.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.01
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0074
+  monster_name_raw: Savage Chief Apu
+  item_name_raw: Holy Heal 5
+  drop_share_raw: 0.0449%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Chief Apu
+    Item: Holy Heal 5
+    Drop Share: 0.0449%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0449
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0075
+  monster_name_raw: Savage Dogface
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Hard-leather Cap
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0076
+  monster_name_raw: Savage Dogface
+  item_name_raw: Round Iron Helmet
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Round Iron Helmet
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0077
+  monster_name_raw: Savage Dogface
+  item_name_raw: Defensive Cap
+  drop_share_raw: 0.0055%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Defensive Cap
+    Drop Share: 0.0055%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0055
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0078
+  monster_name_raw: Savage Dogface
+  item_name_raw: Full-face Helmet
+  drop_share_raw: 0.0055%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Full-face Helmet
+    Drop Share: 0.0055%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0055
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0079
+  monster_name_raw: Savage Dogface
+  item_name_raw: Eagle Hood
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Eagle Hood
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0080
+  monster_name_raw: Savage Dogface
+  item_name_raw: Golden Full-face Helmet
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Golden Full-face Helmet
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0081
+  monster_name_raw: Savage Dogface
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0082
+  monster_name_raw: Savage Dogface
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0083
+  monster_name_raw: Savage Dogface
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0084
+  monster_name_raw: Savage Dogface
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0085
+  monster_name_raw: Savage Dogface
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0086
+  monster_name_raw: Savage Dogface
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Orange Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0087
+  monster_name_raw: Savage Dogface
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Yellow Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0088
+  monster_name_raw: Savage Dogface
+  item_name_raw: Emerald
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Emerald
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0089
+  monster_name_raw: Savage Dogface
+  item_name_raw: Pestle
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Pestle
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0090
+  monster_name_raw: Savage Dogface
+  item_name_raw: Savage Dogface Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Dogface
+    Item: Savage Dogface Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0091
+  monster_name_raw: Savage Head
+  item_name_raw: Defensive Cap
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Defensive Cap
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0092
+  monster_name_raw: Savage Head
+  item_name_raw: Full-face Helmet
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Full-face Helmet
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0093
+  monster_name_raw: Savage Head
+  item_name_raw: Eagle Hood
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Eagle Hood
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0094
+  monster_name_raw: Savage Head
+  item_name_raw: Golden Full-face Helmet
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Golden Full-face Helmet
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0095
+  monster_name_raw: Savage Head
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Pearl Refining
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0096
+  monster_name_raw: Savage Head
+  item_name_raw: Red Beetle Bag
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Red Beetle Bag
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0097
+  monster_name_raw: Savage Head
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 19.7362%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Hard-leather Cap
+    Drop Share: 19.7362%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 19.7362
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0098
+  monster_name_raw: Savage Head
+  item_name_raw: Round Iron Helmet
+  drop_share_raw: 19.7362%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Round Iron Helmet
+    Drop Share: 19.7362%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 19.7362
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0099
+  monster_name_raw: Savage Head
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Orange Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0100
+  monster_name_raw: Savage Head
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Yellow Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0101
+  monster_name_raw: Savage Head
+  item_name_raw: Emerald
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Emerald
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0102
+  monster_name_raw: Savage Head
+  item_name_raw: Tendon Chop V
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Tendon Chop V
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0103
+  monster_name_raw: Savage Head
+  item_name_raw: Pierced Beat V
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Pierced Beat V
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0104
+  monster_name_raw: Savage Head
+  item_name_raw: Black Knights Helmet
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Black Knights Helmet
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0105
+  monster_name_raw: Savage Head
+  item_name_raw: Faquir Mirror
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Faquir Mirror
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0106
+  monster_name_raw: Savage Head
+  item_name_raw: Rare Target Potion
+  drop_share_raw: 22.7400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Rare Target Potion
+    Drop Share: 22.7400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 22.74
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0107
+  monster_name_raw: Savage Head
+  item_name_raw: Rare Agility Potion
+  drop_share_raw: 28.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Rare Agility Potion
+    Drop Share: 28.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 28.0
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0108
+  monster_name_raw: Savage Head
+  item_name_raw: Map Piece
+  drop_share_raw: 1.4700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Map Piece
+    Drop Share: 1.4700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.47
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0109
+  monster_name_raw: Savage Head
+  item_name_raw: Pestle
+  drop_share_raw: 0.1101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Pestle
+    Drop Share: 0.1101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1101
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0110
+  monster_name_raw: Savage Head
+  item_name_raw: Beast's Egg
+  drop_share_raw: 5.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Head
+    Item: Beast's Egg
+    Drop Share: 5.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.26
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0111
+  monster_name_raw: Savage Priest
+  item_name_raw: Magic Gown
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Magic Gown
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0112
+  monster_name_raw: Savage Priest
+  item_name_raw: Knights Shield
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Knights Shield
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0113
+  monster_name_raw: Savage Priest
+  item_name_raw: Magic Gown of Flame God
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Magic Gown of Flame God
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0114
+  monster_name_raw: Savage Priest
+  item_name_raw: Angel Knights Shield
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Angel Knights Shield
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0115
+  monster_name_raw: Savage Priest
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Map Piece
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0116
+  monster_name_raw: Savage Priest
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Orange Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0117
+  monster_name_raw: Savage Priest
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Yellow Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0118
+  monster_name_raw: Savage Priest
+  item_name_raw: Emerald
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Emerald
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0119
+  monster_name_raw: Savage Priest
+  item_name_raw: Pestle
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Pestle
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: thorn-wasteland__t005r0120
+  monster_name_raw: Savage Priest
+  item_name_raw: Red Potion 2
+  drop_share_raw: 49.6822%
+  quantity_raw: '4'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Red Potion 2
+    Drop Share: 49.6822%
+    Qty: '4'
+  normalized:
+    drop_share_percent: 49.6822
+    quantity: 4
+- drop_id: thorn-wasteland__t005r0121
+  monster_name_raw: Savage Priest
+  item_name_raw: Blue Potion 2
+  drop_share_raw: 49.6822%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Priest
+    Item: Blue Potion 2
+    Drop Share: 49.6822%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 49.6822
+    quantity: 3
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 121

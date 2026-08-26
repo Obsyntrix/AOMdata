@@ -1,0 +1,794 @@
+area:
+  id: wishing-tear
+  name_raw: Wishing Tear
+  source:
+    origin_url: https://angels.wikidot.com/area:wishing-tear
+    retrieval_url: https://www.aowiki.uk/pages/area_wishing-tear.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 34ca006ebba7960c21b3e03772394e8b7ad52303343efec6ed2c178e0a7b6d0e
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: wishing-tear__desert-mouse__t003r0001
+  name_raw: Desert Mouse
+  level_raw: '9'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_desert-mouse.html
+  row_raw:
+    Monster Name: Desert Mouse
+    Level: '9'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 9
+    boss: false
+    aggressive: false
+- area_occurrence_id: wishing-tear__desert-lizard__t003r0002
+  name_raw: Desert Lizard
+  level_raw: '12'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_desert-lizard.html
+  row_raw:
+    Monster Name: Desert Lizard
+    Level: '12'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 12
+    boss: false
+    aggressive: false
+- area_occurrence_id: wishing-tear__ocher-toad__t003r0003
+  name_raw: Ocher Toad
+  level_raw: '12'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ocher-toad.html
+  row_raw:
+    Monster Name: Ocher Toad
+    Level: '12'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 12
+    boss: false
+    aggressive: false
+- area_occurrence_id: wishing-tear__crystal-lizard__t003r0005
+  name_raw: Crystal Lizard
+  level_raw: '17'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crystal-lizard.html
+  row_raw:
+    Monster Name: Crystal Lizard
+    Level: '17'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 17
+    boss: true
+    aggressive: true
+- area_occurrence_id: wishing-tear__stained-robot__t003r0006
+  name_raw: Stained Robot
+  level_raw: '17'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stained-robot.html
+  row_raw:
+    Monster Name: Stained Robot
+    Level: '17'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : Summoned
+  normalized:
+    level: 17
+    boss: true
+    aggressive: true
+drops:
+- drop_id: wishing-tear__t005r0001
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Heavy Boots
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Heavy Boots
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0002
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Legwrap Sandals
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Legwrap Sandals
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0003
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Sandals
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Sandals
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0004
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Heavy Wristlet
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Heavy Wristlet
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0005
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Light Gloves
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Light Gloves
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0006
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Jute Gloves
+  drop_share_raw: 2.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Jute Gloves
+    Drop Share: 2.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1725
+    quantity: 1
+- drop_id: wishing-tear__t005r0007
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Savage Hood
+  drop_share_raw: 0.6321%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Savage Hood
+    Drop Share: 0.6321%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6321
+    quantity: 1
+- drop_id: wishing-tear__t005r0008
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Savage Iron Helmet
+  drop_share_raw: 0.6321%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Savage Iron Helmet
+    Drop Share: 0.6321%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6321
+    quantity: 1
+- drop_id: wishing-tear__t005r0009
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Angelos Hood
+  drop_share_raw: 0.6321%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Angelos Hood
+    Drop Share: 0.6321%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6321
+    quantity: 1
+- drop_id: wishing-tear__t005r0010
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Crystal Foreman Hat
+  drop_share_raw: 2.1727%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Crystal Foreman Hat
+    Drop Share: 2.1727%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1727
+    quantity: 1
+- drop_id: wishing-tear__t005r0011
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Pirate Flag
+  drop_share_raw: 2.1727%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Pirate Flag
+    Drop Share: 2.1727%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1727
+    quantity: 1
+- drop_id: wishing-tear__t005r0012
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Ruby Piece
+  drop_share_raw: 1.9000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Ruby Piece
+    Drop Share: 1.9000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9
+    quantity: 1
+- drop_id: wishing-tear__t005r0013
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Orange Gem Piece
+  drop_share_raw: 1.9000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Orange Gem Piece
+    Drop Share: 1.9000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9
+    quantity: 1
+- drop_id: wishing-tear__t005r0014
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Yellow Gem Piece
+  drop_share_raw: 1.9000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Yellow Gem Piece
+    Drop Share: 1.9000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9
+    quantity: 1
+- drop_id: wishing-tear__t005r0015
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 17.9997%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Fruit of Hercules
+    Drop Share: 17.9997%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 17.9997
+    quantity: 1
+- drop_id: wishing-tear__t005r0016
+  monster_name_raw: Crystal Lizard
+  item_name_raw: Map Piece
+  drop_share_raw: 15.8000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Lizard
+    Item: Map Piece
+    Drop Share: 15.8000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 15.8
+    quantity: 1
+- drop_id: wishing-tear__t005r0017
+  monster_name_raw: Desert Lizard
+  item_name_raw: Sandals
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Sandals
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0018
+  monster_name_raw: Desert Lizard
+  item_name_raw: Heavy Boots
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Heavy Boots
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0019
+  monster_name_raw: Desert Lizard
+  item_name_raw: Legwrap Sandals
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Legwrap Sandals
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0020
+  monster_name_raw: Desert Lizard
+  item_name_raw: Savage Sandle
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Savage Sandle
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0021
+  monster_name_raw: Desert Lizard
+  item_name_raw: Savage Boots
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Savage Boots
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0022
+  monster_name_raw: Desert Lizard
+  item_name_raw: Angelos Sandals
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Angelos Sandals
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0023
+  monster_name_raw: Desert Lizard
+  item_name_raw: Ruby Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Ruby Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0024
+  monster_name_raw: Desert Lizard
+  item_name_raw: Orange Gem Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Orange Gem Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0025
+  monster_name_raw: Desert Lizard
+  item_name_raw: Yellow Gem Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Yellow Gem Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0026
+  monster_name_raw: Desert Lizard
+  item_name_raw: Map Piece
+  drop_share_raw: 1.8960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Map Piece
+    Drop Share: 1.8960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.896
+    quantity: 1
+- drop_id: wishing-tear__t005r0027
+  monster_name_raw: Desert Lizard
+  item_name_raw: Desert Lizard card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Lizard
+    Item: Desert Lizard card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: wishing-tear__t005r0028
+  monster_name_raw: Desert Mouse
+  item_name_raw: Biscuits
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Mouse
+    Item: Biscuits
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: wishing-tear__t005r0029
+  monster_name_raw: Desert Mouse
+  item_name_raw: Magic Grass
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Mouse
+    Item: Magic Grass
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: wishing-tear__t005r0030
+  monster_name_raw: Desert Mouse
+  item_name_raw: Desert Mouse card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Mouse
+    Item: Desert Mouse card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: wishing-tear__t005r0031
+  monster_name_raw: Ocher Toad
+  item_name_raw: Jute Gloves
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Jute Gloves
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0032
+  monster_name_raw: Ocher Toad
+  item_name_raw: Heavy Wristlet
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Heavy Wristlet
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0033
+  monster_name_raw: Ocher Toad
+  item_name_raw: Light Gloves
+  drop_share_raw: 0.3792%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Light Gloves
+    Drop Share: 0.3792%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3792
+    quantity: 1
+- drop_id: wishing-tear__t005r0034
+  monster_name_raw: Ocher Toad
+  item_name_raw: Savage Gloves
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Savage Gloves
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0035
+  monster_name_raw: Ocher Toad
+  item_name_raw: Savage Cuff
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Savage Cuff
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0036
+  monster_name_raw: Ocher Toad
+  item_name_raw: Angelos Gloves
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Angelos Gloves
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: wishing-tear__t005r0037
+  monster_name_raw: Ocher Toad
+  item_name_raw: Emerald Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Emerald Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0038
+  monster_name_raw: Ocher Toad
+  item_name_raw: Sapphire Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Sapphire Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0039
+  monster_name_raw: Ocher Toad
+  item_name_raw: Purple Gem Piece
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Purple Gem Piece
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: wishing-tear__t005r0040
+  monster_name_raw: Ocher Toad
+  item_name_raw: Map Piece
+  drop_share_raw: 1.8960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Map Piece
+    Drop Share: 1.8960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.896
+    quantity: 1
+- drop_id: wishing-tear__t005r0041
+  monster_name_raw: Ocher Toad
+  item_name_raw: Ocher Toad card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocher Toad
+    Item: Ocher Toad card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 41

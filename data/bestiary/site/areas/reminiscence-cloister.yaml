@@ -1,0 +1,195 @@
+area:
+  id: reminiscence-cloister
+  name_raw: Reminiscence Cloister
+  source:
+    origin_url: https://angels.wikidot.com/area:reminiscence-cloister
+    retrieval_url: https://www.aowiki.uk/pages/area_reminiscence-cloister.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 11e0e94c7f211f936c906b62e32bdda5f20813beacc14f179ea24c6d1f0de58a
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: reminiscence-cloister__chikaclass__t001r0001
+  name_raw: Chikaclass
+  level_raw: '301'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chikaclass.html
+  row_raw:
+    Monster Name: Chikaclass
+    Level: '301'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 301
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__chikahop__t001r0002
+  name_raw: Chikahop
+  level_raw: '301'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chikahop.html
+  row_raw:
+    Monster Name: Chikahop
+    Level: '301'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 301
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__peridot-brute__t001r0003
+  name_raw: Peridot Brute
+  level_raw: '304'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_peridot-brute.html
+  row_raw:
+    Monster Name: Peridot Brute
+    Level: '304'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 304
+    boss: false
+    aggressive: true
+- area_occurrence_id: reminiscence-cloister__kunzite-brute__t001r0004
+  name_raw: Kunzite Brute
+  level_raw: '304'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_kunzite-brute.html
+  row_raw:
+    Monster Name: Kunzite Brute
+    Level: '304'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 304
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__matrix-soldier__t001r0005
+  name_raw: Matrix Soldier
+  level_raw: '307'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_matrix-soldier.html
+  row_raw:
+    Monster Name: Matrix Soldier
+    Level: '307'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 307
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__matrix-stalker__t001r0006
+  name_raw: Matrix Stalker
+  level_raw: '307'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_matrix-stalker.html
+  row_raw:
+    Monster Name: Matrix Stalker
+    Level: '307'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 307
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__teal-golem__t001r0007
+  name_raw: Teal Golem
+  level_raw: '310'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_teal-golem.html
+  row_raw:
+    Monster Name: Teal Golem
+    Level: '310'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 310
+    boss: false
+    aggressive: true
+- area_occurrence_id: reminiscence-cloister__mahogany-golem__t001r0008
+  name_raw: Mahogany Golem
+  level_raw: '310'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mahogany-golem.html
+  row_raw:
+    Monster Name: Mahogany Golem
+    Level: '310'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 310
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__syren-treble__t001r0009
+  name_raw: Syren Treble
+  level_raw: '313'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_syren-treble.html
+  row_raw:
+    Monster Name: Syren Treble
+    Level: '313'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 313
+    boss: false
+    aggressive: false
+- area_occurrence_id: reminiscence-cloister__syren-bass__t001r0010
+  name_raw: Syren Bass
+  level_raw: '313'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_syren-bass.html
+  row_raw:
+    Monster Name: Syren Bass
+    Level: '313'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 313
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Chikaclass
+  - '315'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Trumpetoo
+  - '316'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1
