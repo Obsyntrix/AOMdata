@@ -1,0 +1,38 @@
+dataset: aomega_bestiary
+purpose: canonical_historical_reference
+status: in_progress
+source_scope:
+  primary_site: "https://angels.wikidot.com/"
+  bestiary_by_area: "https://angels.wikidot.com/bestiary:by-area"
+  bestiary_by_level: "https://angels.wikidot.com/bestiary:by-level"
+  bestiary_more_map: "https://angels.wikidot.com/bestiary:more-map"
+  retrieval_mirror_pattern: "https://www.aowiki.uk/pages/area_<slug>.html"
+  retrieval_mirror_rule: >-
+    Use only when the mirrored page identifies its content as original angels.wikidot.com
+    material. Record the mirror separately from source origin.
+source_caveats:
+  - >-
+    Angels Wiki states that most monster images and statistics were based on files used by
+    the game and expected to be correct, but its monster/lucky-bag drop information came
+    from a different file that was not kept updated and therefore may contain errors.
+  - >-
+    Preserve historical drop values exactly, but keep client_confirmation pending until
+    target-version PAK/DAT or runtime evidence verifies them.
+  - >-
+    Do not merge the newer AOWiki database into this historical snapshot without an
+    explicit separate provenance layer.
+query_requirements:
+  - by_area
+  - by_level
+  - by_item_drop_source
+  - by_monster_name
+  - bosses
+rate_semantics:
+  zone_drop_share: "Exact percentage shown in an area page Zone Drops table."
+  monster_item_drop_chance: "Overall Item Drop Chance shown by an individual monster page."
+  monster_drop_table_share: "Per-item Chance to drop shown by an individual monster page."
+  derived_effective_rate: "Forbidden unless directly justified by target-version evidence."
+raw_value_policy: preserve_exactly
+normalized_value_policy: additive_only
+verification:
+  client_confirmation: pending
