@@ -1,0 +1,100 @@
+schema_version: 1
+dataset: quests
+area: {id: spike-farm, name: Spike Farm, region: Aurora City}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:spike-farm
+quests:
+  - id: spike-farm-delicious-pumpkin-pie
+    name: Delicious Pumpkin Pie
+    repeatable: true
+    category: repeatable
+    giver: {npc: Farm Cook, area: Spike Farm, coordinates: [108, 119]}
+    requirements: {factions: [Aurora], level: {min: 6, max: 20}}
+    rewards: {experience: 260, credit: 10}
+    objectives: [{type: collect_drop, target: Pumpkin, item: pumpkin, count: 10, area: Spike Farm, drop_rate: null}]
+    walkthrough: ["Speak with the Farm Cook at (108,119).", "Defeat Pumpkins until you have 10 pumpkins.", "Return to the Farm Cook."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-maintain-cleanness-of-surroundings
+    name: Maintain Cleanness of Surroundings
+    repeatable: true
+    category: repeatable
+    giver: {npc: Farm Cook, area: Spike Farm, coordinates: [108, 119]}
+    requirements: {factions: [Aurora], level: {min: 6, max: 20}}
+    rewards: {experience: 320, credit: 10}
+    objectives: [{type: kill, target: Field Mouse, count: 20, area: Spike Farm}]
+    walkthrough: ["Speak with the Farm Cook.", "Defeat 20 Field Mice at Spike Farm.", "Return to the Farm Cook."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-roasted-sashimi
+    name: Roasted Sashimi
+    repeatable: true
+    category: repeatable
+    giver: {npc: Farm Cook, area: Spike Farm, coordinates: [108, 119]}
+    requirements: {factions: [Aurora], level: {min: 6, max: 20}}
+    rewards: {experience: 320, credit: 15}
+    objectives: [{type: collect_drop, target: Jackstraw, item: straw, count: 10, area: Spike Farm, drop_rate: null}]
+    walkthrough: ["Speak with the Farm Cook.", "Defeat Jackstraws until you have 10 straws.", "Return to the Farm Cook."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-wanting-a-pet
+    name: Wanting a Pet
+    repeatable: true
+    category: card
+    giver: {npc: Farm Mistress, area: Spike Farm, coordinates: [52, 53]}
+    requirements: {}
+    rewards: {items: [{name: Card, exact_item: null}]}
+    objectives: [{type: obtain, item: Pet Cookie, count: 10, source: Pet Expert}]
+    walkthrough: ["Speak with the Farm Mistress at (52,53).", "Buy 10 Pet Cookies from the Pet Expert.", "Return to the Farm Mistress."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-annihilating-mice
+    name: Annihilating Mice
+    repeatable: false
+    category: series
+    series: {name: Spike Farmer series, position: 1, total: 4, next: spike-farm-magic-trick}
+    giver: {npc: Spike Farmer, area: Spike Farm, coordinates: [87, 119]}
+    requirements: {factions: [Aurora], level: {min: 6, max: null}}
+    rewards: {experience: 800, credit: 30, gold: 150, achievement: true}
+    objectives: [{type: collect_drop, target: Field Mouse, item: tail, count: 10, area: Spike Farm, drop_rate: null}]
+    walkthrough: ["Speak with the Spike Farmer at (87,119).", "Defeat Field Mice until you collect 10 tails.", "Return to the Spike Farmer."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-magic-trick
+    name: Magic Trick
+    repeatable: false
+    category: series
+    series: {name: Spike Farmer series, position: 2, total: 4, previous: spike-farm-annihilating-mice, next: spike-farm-the-jackstraws-protest}
+    giver: {npc: Spike Farmer, area: Spike Farm, coordinates: [87, 119]}
+    requirements: {factions: [Aurora], prerequisite_quests: [spike-farm-annihilating-mice]}
+    rewards: {experience: 850, credit: 30, items: [{name: null}], achievement: true}
+    objectives: [{type: kill, target: Pumpkin, count: 20, area: Spike Farm}]
+    walkthrough: ["Complete Annihilating Mice.", "Speak with the Spike Farmer.", "Defeat 20 Pumpkins.", "Return to the Spike Farmer."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-the-jackstraws-protest
+    name: The Jackstraw's Protest
+    repeatable: false
+    category: series
+    series: {name: Spike Farmer series, position: 3, total: 4, previous: spike-farm-magic-trick, next: spike-farm-sending-parcels}
+    giver: {npc: Spike Farmer, area: Spike Farm, coordinates: [87, 119]}
+    requirements: {factions: [Aurora], prerequisite_quests: [spike-farm-magic-trick]}
+    rewards: {experience: 860, credit: 160, items: [{name: null}], achievement: true}
+    objectives: [{type: kill, target: Jackstraw, count: 20, area: Spike Farm}]
+    walkthrough: ["Complete Magic Trick.", "Speak with the Spike Farmer.", "Defeat 20 Jackstraws.", "Return to the Spike Farmer."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: spike-farm-sending-parcels
+    name: Sending Parcels
+    repeatable: false
+    category: series
+    series: {name: Spike Farmer series, position: 4, total: 4, previous: spike-farm-the-jackstraws-protest}
+    giver: {npc: Spike Farmer, area: Spike Farm, coordinates: [87, 119]}
+    requirements: {factions: [Aurora], prerequisite_quests: [spike-farm-the-jackstraws-protest]}
+    rewards: {experience: 200, credit: 30, achievement: true}
+    objectives: [{type: talk, target: Manor Keeper, area: Sunflower Plain, coordinates: [99, 150], item_delivery: parcels}]
+    walkthrough: ["Complete The Jackstraw's Protest and speak with the Spike Farmer.", "Take the parcels to the Manor Keeper at (99,150) in Sunflower Plain."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
