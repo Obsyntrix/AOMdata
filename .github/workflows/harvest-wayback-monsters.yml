@@ -1,0 +1,74 @@
+name: Recover archived legacy monster pages
+
+on:
+  push:
+    paths:
+      - '.github/workflows/harvest-wayback-monsters.yml'
+      - 'tools/harvest_wayback_monsters.py'
+      - 'tools/build_bestiary_indexes.py'
+      - 'tools/audit_bestiary.py'
+      - 'tools/capture_bestiary_alphabetic.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legacy-monster-wayback-harvest
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install preservation dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 PyYAML
+
+      - name: Capture alphabetical historical bestiary view
+        run: python tools/capture_bestiary_alphabetic.py
+
+      - name: Recover original monster pages from Wayback
+        env:
+          AOMDATA_WAYBACK_DELAY: '0.35'
+          AOMDATA_WAYBACK_RETRIES: '4'
+          AOMDATA_WAYBACK_BATCH: '0'
+        run: python tools/harvest_wayback_monsters.py
+
+      - name: Rebuild complete query indexes
+        run: python tools/build_bestiary_indexes.py
+
+      - name: Audit bestiary graph
+        run: python tools/audit_bestiary.py
+
+      - name: Show recovery and audit summaries
+        if: always()
+        run: |
+          if [ -f data/bestiary/wayback-monster-report.yaml ]; then
+            sed -n '1,80p' data/bestiary/wayback-monster-report.yaml
+          fi
+          if [ -f data/bestiary/audit.yaml ]; then
+            sed -n '1,120p' data/bestiary/audit.yaml
+          fi
+
+      - name: Commit recovered preservation data
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/bestiary
+          if git diff --cached --quiet; then
+            echo 'No preservation changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Recover archived Angels Wiki monster pages'
+          git push
