@@ -26,10 +26,12 @@ import yaml
 from bs4 import BeautifulSoup
 
 import crawl_legacy_bestiary as legacy
+import parse_historical_monster_page as historical_parser
 
 ROOT = Path(__file__).resolve().parents[1]
 BESTIARY = ROOT / "data" / "bestiary"
 SUMMARY_DIR = BESTIARY / "site" / "summary"
+AREA_DIR = BESTIARY / "site" / "areas"
 MONSTER_DIR = BESTIARY / "site" / "monster-pages"
 REPORT = BESTIARY / "wayback-monster-report.yaml"
 
@@ -51,14 +53,35 @@ def load_yaml(path: Path) -> dict:
     return value if isinstance(value, dict) else {}
 
 
+def add_monster_slug(slugs: set[str], url: object) -> None:
+    if not url:
+        return
+    name = Path(urlparse(str(url)).path).name
+    if name.startswith("monster_") and name.endswith(".html"):
+        slugs.add(name.removeprefix("monster_").removesuffix(".html").casefold())
+
+
 def expected_slugs() -> set[str]:
+    """Collect every monster detail page discovered by summary or preserved area pages."""
     slugs: set[str] = set()
     for path in sorted(SUMMARY_DIR.glob("*.yaml")):
         doc = load_yaml(path)
         for url in doc.get("discovered_monster_urls", []) or []:
-            name = Path(urlparse(str(url)).path).name
-            if name.startswith("monster_") and name.endswith(".html"):
-                slugs.add(name.removeprefix("monster_").removesuffix(".html").casefold())
+            add_monster_slug(slugs, url)
+
+    # Some monster links occur only on area pages, including Zone Drops rows. Those are
+    # preservation targets too and must not disappear merely because a summary omitted them.
+    for path in sorted(AREA_DIR.glob("*.yaml")):
+        doc = load_yaml(path)
+        for monster in doc.get("monsters", []) or []:
+            if isinstance(monster, dict):
+                add_monster_slug(slugs, monster.get("monster_detail_retrieval_url"))
+        for drop in doc.get("drops", []) or []:
+            if not isinstance(drop, dict):
+                continue
+            for link in drop.get("monster_links", []) or []:
+                if isinstance(link, dict):
+                    add_monster_slug(slugs, link.get("retrieval_url"))
     return slugs
 
 
@@ -202,7 +225,7 @@ def main() -> int:
         if fetched is None or retrieval_url is None:
             continue
 
-        doc = legacy.parse_monster_page(fetched)
+        doc = historical_parser.parse_monster_page(fetched, slug)
         page = doc.get("monster_page", {})
         page["source"] = {
             "origin_url": f"https://angels.wikidot.com/monster:{slug}",
@@ -244,7 +267,8 @@ def main() -> int:
         "notes": [
             "Internet Archive availability lookups are performed against exact original Wikidot monster URLs.",
             "Raw id_ snapshots are preferred; normal archived snapshots are a fallback if the raw representation is unavailable.",
-            "Raw historical fields and displayed drop percentages are preserved verbatim by the shared legacy parser.",
+            "Every rendered historical table row is preserved; recognizable grouped stat fields are additionally exposed in fields_raw.",
+            "Raw historical fields and displayed drop percentages remain authoritative preservation values.",
             "No 2026 aowiki.uk monster database values are merged into these historical observations.",
         ],
     }
