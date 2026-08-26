@@ -1,0 +1,68 @@
+schema_version: 1
+dataset: quests
+area: {id: thorn-wasteland, name: Thorn Wasteland, region: Aurora City}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:thorn-wasteland
+quests:
+  - id: thorn-wasteland-fire-barft-killing
+    name: Fire Barft Killing
+    repeatable: true
+    category: repeatable
+    giver: {npc: Pioneer Captain, area: Thorn Wasteland, coordinates: [19, 51]}
+    requirements: {level: {min: 40, max: 55}}
+    rewards: {experience: 1300, credit: 50}
+    objectives: [{type: kill, target: Fire Barft, count: 40, area: Thorn Wasteland}]
+    walkthrough: ["Speak with the Pioneer Captain at (19,51).", "Defeat 40 Fire Barfts in Thorn Wasteland.", "Return to the Pioneer Captain."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: thorn-wasteland-magic-feather-clothes
+    name: Magic Feather Clothes
+    repeatable: true
+    category: repeatable
+    giver: {npc: Pioneer Captain, area: Thorn Wasteland, coordinates: [19, 51]}
+    requirements: {level: {min: 40, max: 55}}
+    rewards: {experience: 1300, credit: 50}
+    objectives: [{type: collect_drop, target: Fire Barft, item: Barft's Coat, count: 10, area: Thorn Wasteland, drop_rate: null}]
+    walkthrough: ["Speak with the Pioneer Captain.", "Defeat Fire Barfts until you obtain 10 Barft's Coats.", "Return to the Pioneer Captain."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: thorn-wasteland-fight-against-savage-dogface
+    name: Fight Against Savage Dogface
+    repeatable: true
+    category: repeatable
+    giver: {npc: Mammonist Joan, area: Thorn Wasteland, coordinates: [161, 82]}
+    requirements: {level: {min: 40, max: 55}}
+    rewards: {experience: 1150, credit: 47}
+    objectives: [{type: kill, target: Savage Dogface, count: 40, area: Thorn Wasteland}]
+    walkthrough: ["Speak with Mammonist Joan at (161,82).", "Defeat 40 Savage Dogfaces.", "Return to Mammonist Joan."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: thorn-wasteland-reseize-joans-brand-handbag
+    name: Reseize Joan's Brand Handbag
+    repeatable: true
+    category: repeatable
+    giver: {npc: Mammonist Joan, area: Thorn Wasteland, coordinates: [161, 82]}
+    requirements: {level: {min: 40, max: 55}}
+    rewards: {experience: 1210, credit: 48}
+    objectives: [{type: collect_drop, target: Savage Priest, item: bag, count: 5, area: Thorn Wasteland, drop_rate: null}]
+    walkthrough: ["Speak with Mammonist Joan.", "Defeat Savage Priests until you collect 5 bags.", "Return to Mammonist Joan."]
+    notes: ["The area page does not give the exact in-game item name for the bags."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: thorn-wasteland-hunting-activity
+    name: Hunting Activity
+    repeatable: true
+    category: repeatable
+    giver: {npc: Crazy Steve, area: Thorn Wasteland, coordinates: [142, 121]}
+    requirements: {level: {min: 40, max: 55}}
+    rewards: {experience: 1450, credit: 55}
+    objectives:
+      - {type: collect_drop, target: Fire Barft, item: Barft Eyeball, count: 10, area: Thorn Wasteland, drop_rate: null}
+      - {type: collect_drop, target: Savage Priest, item: Cursed Mask, count: 10, area: Thorn Wasteland, drop_rate: null}
+      - {type: collect_drop, target: Fallen Angel, item: Fallen Angel's Feather, count: 10, area: Thunder Ruins, drop_rate: null}
+      - {type: collect_drop, target: Burning Monster, item: Fire Demon's Spear, count: 10, area: Thunder Ruins, drop_rate: null}
+    walkthrough: ["Speak with Crazy Steve at (142,121).", "Collect 10 Barft Eyeballs from Fire Barfts and 10 Cursed Masks from Savage Priests.", "Collect 10 Fallen Angel's Feathers from Fallen Angels and 10 Fire Demon's Spears from Burning Monsters; those monsters are documented in Thunder Ruins.", "Return to Crazy Steve."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
