@@ -5,6 +5,7 @@ research_status: researched
 retrieved_on: 2026-08-25
 sources:
   area_page: https://angels.wikidot.com/area:jade-vale
+  cards_directory: https://angels.wikidot.com/directory:cards
   verify_ability: https://angels.wikidot.com/quest:verify-ability
   mystic_words: https://angels.wikidot.com/quest:mystic-words
 asmodeum_quest_refs:
@@ -17,12 +18,12 @@ quests:
     name: Damnable Green Lizard
     repeatable: true
     category: repeatable
-    giver: {npc: Militia Soldier, area: Jade Vale, coordinates: [282, 56]}
+    giver: {npc: Fisher Chark, area: Jade Vale, coordinates: [174, 34]}
     requirements: {factions: [Beast], level: {min: 20, max: 35}}
     rewards: {experience: 600, credit: 30}
     objectives: [{type: kill, target: Green Lizard, count: 20, area: Jade Vale}]
-    walkthrough: ["Take the quest in Jade Vale.", "Defeat 20 Green Lizards.", "Return to the quest giver."]
-    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    walkthrough: ["Speak with Fisher Chark at (174,34).", "Defeat 20 Green Lizards.", "Return to Fisher Chark."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
     source_refs: [area_page]
   - id: jade-vale-fight-for-ruins
     name: Fight for Ruins
@@ -51,14 +52,14 @@ quests:
     name: Greedy Green Lizard
     repeatable: true
     category: card
-    giver: null
+    giver: {npc: Fisher Chark, area: Jade Vale, coordinates: [174, 34]}
     requirements: {}
-    rewards: {items: [{name: Card, exact_item: null}]}
+    rewards: {items: [{name: Fisher Chark Card}]}
     objectives: [{type: collect_drop, target: Green Lizard, item: Scale, count: null, area: Jade Vale, drop_rate: null}]
-    walkthrough: ["Defeat Green Lizards and collect the required Scale for the card quest."]
-    notes: ["The retrieved area text does not expose the quest giver, scale count, or exact card item."]
-    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
-    source_refs: [area_page]
+    walkthrough: ["Speak with Fisher Chark for the card quest.", "Defeat Green Lizards and collect the required Scale.", "Return to Fisher Chark."]
+    notes: ["The area table does not expose the Scale count. The card directory identifies Greedy Green Lizard as the quest for the Fisher Chark card."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, cards_directory]
   - id: jade-vale-ancient-book-rubbing
     name: Ancient Book Rubbing
     repeatable: false
