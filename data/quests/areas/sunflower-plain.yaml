@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quests
+area: {id: sunflower-plain, name: Sunflower Plain, region: Aurora City}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:sunflower-plain
+  ardent_recommendation: https://angels.wikidot.com/quest:ardent-recommendation
+quests:
+  - id: sunflower-plain-the-pumpkins-bad-deed
+    name: The Pumpkin's Bad Deed
+    repeatable: true
+    category: repeatable
+    giver: {npc: Clerk, area: Sunflower Plain, coordinates: [134, 171]}
+    requirements: {factions: [Aurora], level: {min: 10, max: 25}}
+    rewards: {experience: 390, credit: 20}
+    objectives: [{type: kill, target: Magic Pumpkinman, count: 20, area: Sunflower Plain}]
+    notes: ["The area table calls the target Pumpkinman; the local monster table calls it Magic Pumpkinman. Preserved as an entity-name discrepancy pending client confirmation."]
+    walkthrough: ["Speak with the Clerk at (134,171).", "Defeat 20 Pumpkinmen/Magic Pumpkinmen in Sunflower Plain.", "Return to the Clerk."]
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts: [{field: objectives.target, values: [Pumpkinman, Magic Pumpkinman], reason: Quest table and area monster table use different names.}]
+    source_refs: [area_page]
+  - id: sunflower-plain-preparation-for-winter
+    name: Preparation for Winter
+    repeatable: true
+    category: repeatable
+    giver: {npc: Manor Keeper, area: Sunflower Plain, coordinates: [99, 150]}
+    requirements: {factions: [Aurora], level: {min: 10, max: 25}}
+    rewards: {experience: 450, credit: 20}
+    objectives: [{type: collect_drop, target: Tone Sheep, item: Sheep's Wolly Curl, count: 5, area: Sunflower Plain, drop_rate: null}]
+    walkthrough: ["Speak with the Manor Keeper at (99,150).", "Defeat Tone Sheep until you collect 5 Sheep's Wolly Curls.", "Return to the Manor Keeper."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: sunflower-plain-looking-for-fatmans-ring
+    name: Looking for Fatman's Ring
+    repeatable: false
+    category: single
+    giver: {npc: Rich Fatman, area: Sunflower Plain, coordinates: [227, 132]}
+    requirements: {factions: [Aurora], level: {min: 10, max: null}}
+    rewards: {experience: 1040, credit: 55, gold: 550}
+    objectives: [{type: collect_drop, target: Evil Slarm, item: Ring of the Fatman, count: 1, area: Sunflower Plain, drop_rate: null}]
+    walkthrough: ["Speak with the Rich Fatman at (227,132).", "Defeat Evil Slarms until the Ring of the Fatman is obtained.", "Return to the Rich Fatman."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: sunflower-plain-noise-pollution
+    name: Noise Pollution
+    repeatable: false
+    category: series
+    series: {name: Gardener music series, position: 1, total: 4, next: sunflower-plain-awakening-a-love-of-music}
+    giver: {npc: Gardener, area: Sunflower Plain, coordinates: [53, 107]}
+    requirements: {factions: [Aurora], level: {min: 10, max: null}}
+    rewards: {experience: 1200, credit: 50, gold: 250}
+    objectives: [{type: kill, target: Tone Sheep, count: 20, area: Sunflower Plain}]
+    walkthrough: ["Speak with the Gardener at (53,107).", "Defeat 20 Tone Sheep.", "Return to the Gardener."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: sunflower-plain-awakening-a-love-of-music
+    name: Awakening a Love of Music
+    repeatable: false
+    category: series
+    series: {name: Gardener music series, position: 2, total: 4, previous: sunflower-plain-noise-pollution, next: sunflower-plain-rare-sheep-score}
+    giver: {npc: Gardener, area: Sunflower Plain, coordinates: [53, 107]}
+    requirements: {factions: [Aurora], prerequisite_quests: [sunflower-plain-noise-pollution]}
+    rewards: {experience: 1300, credit: 55, gold: 350}
+    objectives: [{type: collect_drop, target: Tone Sheep, item: Magic Flute, count: 1, area: Sunflower Plain, drop_rate: null}]
+    walkthrough: ["Complete Noise Pollution and speak with the Gardener.", "Defeat Tone Sheep until you obtain the Magic Flute.", "Return to the Gardener."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: sunflower-plain-rare-sheep-score
+    name: Rare Sheep Score
+    repeatable: false
+    category: series
+    series: {name: Gardener music series, position: 3, total: 4, previous: sunflower-plain-awakening-a-love-of-music, next: sunflower-plain-ardent-recommendation}
+    giver: {npc: Gardener, area: Sunflower Plain, coordinates: [53, 107]}
+    requirements: {factions: [Aurora], prerequisite_quests: [sunflower-plain-awakening-a-love-of-music]}
+    rewards: {experience: 1520, credit: 360, items: [{name: null}]}
+    objectives: [{type: kill, target: Sheep Beethoven, count: 1, area: Sunflower Plain, boss: true}]
+    walkthrough: ["Complete Awakening a Love of Music.", "Defeat Sheep Beethoven in Sunflower Plain.", "Return to the Gardener."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: sunflower-plain-ardent-recommendation
+    name: Ardent Recommendation
+    repeatable: false
+    category: series
+    series: {name: Gardener music series, position: 4, total: 4, previous: sunflower-plain-rare-sheep-score}
+    giver: {npc: Gardener, area: Sunflower Plain, coordinates: [53, 107]}
+    requirements: {factions: [Aurora], level: {min: 10, max: null}, prerequisite_quests: [sunflower-plain-rare-sheep-score]}
+    rewards: {experience: 1400, credit: 55}
+    objectives: [{type: talk, target: Fishing Leader, area: Dawn Harbor, coordinates: [252, 156], item_delivery: Letter of recommendation}]
+    walkthrough: ["Speak with the Gardener at (53,107) after Rare Sheep Score and receive the recommendation letter.", "Travel to Dawn Harbor.", "Give the letter to the Fishing Leader at (252,156)."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, ardent_recommendation]
