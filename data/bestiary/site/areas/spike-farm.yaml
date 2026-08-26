@@ -1,0 +1,121 @@
+area:
+  id: spike-farm
+  name_raw: "Spike Farm"
+  level_range_raw: "6-17"
+  source:
+    origin_url: "https://angels.wikidot.com/area:spike-farm"
+    bestiary_url: "https://angels.wikidot.com/bestiary:by-area"
+    retrieval_url: "https://www.aowiki.uk/pages/area_spike-farm.html"
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+
+monsters:
+  - spawn_id: spike-farm__eggshell-chick
+    name_raw: "Eggshell Chick"
+    level_raw: "6"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "eggshell-chick.gif", hp: "202", attack_type: "Short", attack: "50", defense: "53", spell_attack: "51", spell_defense: "28", aggression: "No", experience: "50", area: "Spike Farm"}
+    normalized: {level: 6, boss: false, aggressive: false}
+  - spawn_id: spike-farm__field-mouse
+    name_raw: "Field Mouse"
+    level_raw: "9"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "field-mouse.gif", hp: "350", attack_type: "Short", attack: "58", defense: "71", spell_attack: "70", spell_defense: "40", aggression: "No", experience: "87", area: "Spike Farm"}
+    normalized: {level: 9, boss: false, aggressive: false}
+  - spawn_id: spike-farm__pumpkin
+    name_raw: "Pumpkin"
+    level_raw: "12"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "pumpkin.gif", hp: "431", attack_type: "Short", attack: "79", defense: "107", spell_attack: "90", spell_defense: "51", aggression: "No", experience: "107", area: "Spike Farm"}
+    normalized: {level: 12, boss: false, aggressive: false}
+  - spawn_id: spike-farm__jackstraw
+    name_raw: "Jackstraw"
+    level_raw: "12"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "jackstraw.gif", hp: "431", attack_type: "Short", attack: "96", defense: "91", spell_attack: "90", spell_defense: "51", aggression: "No", experience: "107", area: "Spike Farm"}
+    normalized: {level: 12, boss: false, aggressive: false}
+  - spawn_id: spike-farm__pumpkin-banni
+    name_raw: "Pumpkin Banni"
+    level_raw: "17"
+    boss_raw: "Yes"
+    aggressive_raw: "Yes"
+    summary_raw: {image: "pumpkin-banni.gif", hp: "6524", attack_type: "Short Stance (Long S.AOE)", attack: "268", defense: "193", spell_attack: "126", spell_defense: "127", aggression: "Boss", experience: "430", area: "Spike Farm"}
+    normalized: {level: 17, boss: true, aggressive: true}
+    detail_source_url: "https://angels.wikidot.com/monster:pumpkin-banni"
+  - spawn_id: spike-farm__jackstraw-mige
+    name_raw: "Jackstraw Mige"
+    level_raw: "17"
+    boss_raw: "Yes"
+    aggressive_raw: "Yes"
+    summary_raw: {image: "jackstraw-mige.gif", hp: "6524", attack_type: "Short Stance (Short S.AOE)", attack: "314", defense: "162", spell_attack: "126", spell_defense: "127", aggression: "Boss", experience: "642", area: "Spike Farm"}
+    normalized: {level: 17, boss: true, aggressive: true}
+
+drops:
+  - {monster_name_raw: "Eggshell Chick", spawn_id: spike-farm__eggshell-chick, item_name_raw: "Biscuits", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Eggshell Chick", spawn_id: spike-farm__eggshell-chick, item_name_raw: "Magic Grass", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Eggshell Chick", spawn_id: spike-farm__eggshell-chick, item_name_raw: "Eggshell chick card", drop_share_raw: "0.0800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Field Mouse", spawn_id: spike-farm__field-mouse, item_name_raw: "Biscuits", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Field Mouse", spawn_id: spike-farm__field-mouse, item_name_raw: "Magic Grass", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Jute Gloves", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Heavy Wristlet", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Light Gloves", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Savage Gloves", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Savage Cuff", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Angelos Gloves", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Emerald Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Sapphire Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Purple Gem Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Map Piece", drop_share_raw: "1.8960%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw", spawn_id: spike-farm__jackstraw, item_name_raw: "Jackstraw card", drop_share_raw: "0.0800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Heavy Boots", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Legwrap Sandals", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Sandals", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Heavy Wristlet", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Light Gloves", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Jute Gloves", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Savage Hood", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Savage Iron Helmet", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Angelos Hood", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Mege's Straw Hat", drop_share_raw: "2.1727%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Pirate Flag", drop_share_raw: "2.1727%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Ruby Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Orange Gem Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Yellow Gem Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Fruit of Hercules", drop_share_raw: "17.9997%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Jackstraw Mige", spawn_id: spike-farm__jackstraw-mige, item_name_raw: "Map Piece", drop_share_raw: "15.8000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Sandals", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Heavy Boots", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Legwrap Sandals", drop_share_raw: "0.3792%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Savage Sandle", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Savage Boots", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Angelos Sandals", drop_share_raw: "0.0063%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Ruby Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Orange Gem Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Yellow Gem Piece", drop_share_raw: "0.0190%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Map Piece", drop_share_raw: "1.8960%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin", spawn_id: spike-farm__pumpkin, item_name_raw: "Pumpkin card", drop_share_raw: "0.0800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Heavy Boots", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Legwrap Sandals", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Sandals", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Heavy Wristlet", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Light Gloves", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Jute Gloves", drop_share_raw: "2.1725%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Savage Hood", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Savage Iron Helmet", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Angelos Hood", drop_share_raw: "0.6321%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Mege's Straw Hat", drop_share_raw: "2.1727%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Pirate Flag", drop_share_raw: "2.1727%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Emerald Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Sapphire Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Purple Gem Piece", drop_share_raw: "1.9000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Magic Fruit", drop_share_raw: "17.9997%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Banni", spawn_id: spike-farm__pumpkin-banni, item_name_raw: "Map Piece", drop_share_raw: "15.8000%", quantity_raw: "1", rate_semantic: zone_drop_share}
