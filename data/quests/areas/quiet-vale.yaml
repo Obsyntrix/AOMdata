@@ -1,0 +1,52 @@
+schema_version: 1
+dataset: quests
+area: {id: quiet-vale, name: Quiet Vale, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:quiet-vale
+quests:
+  - id: quiet-vale-investigate-evil-force
+    name: Investigate Evil Force
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Pioneer, area: Quiet Vale, coordinates: [258, 25]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 950, credit: 40}
+    objectives: [{type: collect_drop, target: Evil Bishop, item: Evil Diamond, count: 5, area: Quiet Vale, drop_rate: null}]
+    walkthrough: ["Speak with the Militia Pioneer at (258,25).", "Defeat Evil Bishops until you collect 5 Evil Diamonds.", "Return to the Militia Pioneer."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: quiet-vale-evil-force-invasion
+    name: Evil Force Invasion
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Pioneer, area: Quiet Vale, coordinates: [258, 25]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 950, credit: 40}
+    objectives: [{type: kill, target: Evil Bishop, count: 40, area: Quiet Vale}]
+    walkthrough: ["Speak with the Militia Pioneer.", "Defeat 40 Evil Bishops in Quiet Vale.", "Return to the Militia Pioneer."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: quiet-vale-evil-nazarite-from-dark-city
+    name: Evil Nazarite From Dark City
+    repeatable: true
+    category: repeatable
+    giver: {npc: Trainee Oree, area: Quiet Vale, coordinates: [42, 118]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 810, credit: 38}
+    objectives: [{type: kill, target: Evil Nazarite, count: 40, area: Quiet Vale}]
+    walkthrough: ["Speak with Trainee Oree at (42,118).", "Defeat 40 Evil Nazarites in Quiet Vale.", "Return to Trainee Oree."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: quiet-vale-drive-away-wild-lizardmen
+    name: Drive Away Wild Lizardmen
+    repeatable: true
+    category: repeatable
+    giver: {npc: Trainee Oree, area: Quiet Vale, coordinates: [42, 118]}
+    requirements: {level: {min: 30, max: 45}}
+    rewards: {experience: 900, credit: 39}
+    objectives: [{type: kill, target: Wild Lizardman, count: 40, area: Quiet Vale}]
+    walkthrough: ["Speak with Trainee Oree.", "Defeat 40 Wild Lizardmen in Quiet Vale.", "Return to Trainee Oree."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
