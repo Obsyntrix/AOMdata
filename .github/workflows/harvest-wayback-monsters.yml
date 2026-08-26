@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/harvest-wayback-monsters.yml'
       - 'tools/harvest_wayback_monsters.py'
+      - 'tools/parse_historical_monster_page.py'
       - 'tools/build_bestiary_indexes.py'
       - 'tools/audit_bestiary.py'
       - 'tools/capture_bestiary_alphabetic.py'
@@ -71,4 +72,6 @@ jobs:
             exit 0
           fi
           git commit -m 'Recover archived Angels Wiki monster pages'
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
