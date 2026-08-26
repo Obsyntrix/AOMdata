@@ -1,0 +1,145 @@
+schema_version: 1
+dataset: quests
+area: {id: cryptic-moon-swamp, name: Cryptic Moon Swamp, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  primary_area_page: https://angels.wikidot.com/area:cryptic-moon-swamp
+  retrieval_mirror: https://www.aowiki.uk/pages/area_cryptic-moon-swamp.html
+  totem_destroyer: https://angels.wikidot.com/quest:totem-destroyer
+  break_seal_part_2: https://angels.wikidot.com/quest:break-seal-part-2
+asmodeum_quest_refs:
+  - asmodeum-beast-killing-marsh-frogs
+  - asmodeum-beast-disguise
+  - asmodeum-beast-obtaining-asmodes-trust
+quests:
+  - id: cryptic-moon-swamp-confirm-safety-around-alter
+    name: Confirm Safety around Alter
+    repeatable: false
+    category: single
+    giver: {npc: Assistant Breeze, area: Cryptic Moon Swamp, coordinates: [64, 144]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 600, experience: 400, credit: 45}
+    objectives:
+      - {type: talk, target: North Elder, area: Cryptic Moon Swamp, coordinates: [216, 146]}
+      - {type: talk, target: East Altar Elder, area: Cryptic Moon Swamp, coordinates: [229, 29]}
+    walkthrough: ["Speak with Assistant Breeze at (64,144).", "Confirm the materials/schedule with the North Elder at (216,146).", "Confirm with the East Altar Elder at (229,29).", "Return as directed by the quest."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-naughty-elf
+    name: Naughty Elf
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Soldier, area: Cryptic Moon Swamp, coordinates: [41, 149]}
+    requirements: {factions: [Beast], level: {min: 15, max: 30}}
+    rewards: {experience: 450, credit: 25}
+    objectives: [{type: kill, target: Elf, count: 20, area: Cryptic Moon Swamp}]
+    walkthrough: ["Speak with the Militia Soldier at (41,149).", "Defeat 20 Elves.", "Return to the Militia Soldier."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-inundant-toad-eggs
+    name: Inundant Toad Eggs
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Soldier, area: Cryptic Moon Swamp, coordinates: [41, 149]}
+    requirements: {factions: [Beast], level: {min: 15, max: 30}}
+    rewards: {experience: 530, credit: 25}
+    objectives: [{type: kill, target: Marsh Frog, count: 20, area: Cryptic Moon Swamp}]
+    walkthrough: ["Speak with the Militia Soldier.", "Defeat 20 Marsh Frogs.", "Return to the Militia Soldier."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-inundant-mud-crab
+    name: Inundant Mud Crab
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Soldier, area: Cryptic Moon Swamp, coordinates: [41, 149]}
+    requirements: {factions: [Beast], level: {min: 15, max: 30}}
+    rewards: {experience: 530, credit: 25}
+    objectives: [{type: kill, target: Mud Crab, count: 20, area: Cryptic Moon Swamp}]
+    walkthrough: ["Speak with the Militia Soldier.", "Defeat 20 Mud Crabs.", "Return to the Militia Soldier."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-totem-destroyer
+    name: Totem Destroyer
+    repeatable: false
+    category: single
+    giver: {npc: null, area: Cryptic Moon Swamp, trigger: old totem, coordinates: [179, 6]}
+    requirements: {factions: [Beast], level: {min: 15, max: null}}
+    rewards: {experience: 1400, credit: 50}
+    objectives:
+      - {type: interact, target: old totem, area: Cryptic Moon Swamp, coordinates: [179, 6]}
+      - {type: kill, target: Mud Crab, count: 10, area: Cryptic Moon Swamp}
+      - {type: kill, target: Marsh Frog, count: 10, area: Cryptic Moon Swamp}
+      - {type: interact, target: old totem, area: Cryptic Moon Swamp, coordinates: [179, 6]}
+    walkthrough: ["Click the old totem at (179,6).", "Defeat 10 Mud Crabs and 10 Marsh Frogs.", "Return to the old totem at (179,6) and click it again."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, totem_destroyer]
+  - id: cryptic-moon-swamp-fisher-stones-distress
+    name: Fisher Stone's Distress
+    repeatable: false
+    category: single
+    giver: {npc: Fisher Stone, area: Cryptic Moon Swamp, coordinates: [185, 48]}
+    requirements: {factions: [Beast], level: {min: 15, max: null}}
+    rewards: {experience: 1400, credit: 55}
+    objectives: [{type: kill, target: Mud Crab, count: 20, area: Cryptic Moon Swamp}]
+    walkthrough: ["Speak with Fisher Stone at (185,48).", "Defeat 20 Mud Crabs to help with the fishing contest.", "Return to Fisher Stone."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-ritual-pollen
+    name: Ritual Pollen
+    repeatable: false
+    category: series
+    series: {name: Shiwand seal series, position: 1, total: 4, next: cryptic-moon-swamp-sages-staff}
+    giver: {npc: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141]}
+    requirements: {factions: [Beast], level: {min: 15, max: null}}
+    rewards: {experience: 800, credit: 40}
+    objectives: [{type: collect_drop, target: Wild Lily, item: Ritual Pollen, count: 10, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with Shiwand at (202,141).", "Travel to Dense Forest and defeat Wild Lilies until you collect 10 Ritual Pollen.", "Return to Shiwand."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-sages-staff
+    name: Sage's Staff
+    repeatable: false
+    category: series
+    series: {name: Shiwand seal series, position: 2, total: 4, previous: cryptic-moon-swamp-ritual-pollen, next: cryptic-moon-swamp-break-seal}
+    giver: {npc: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141]}
+    requirements: {factions: [Beast], prerequisite_quests: [cryptic-moon-swamp-ritual-pollen]}
+    rewards: {gold: 800, experience: 400, credit: 35}
+    objectives:
+      - {type: talk, target: Sharker, area: Breeze Woods, coordinates: [93, 99], item: Sage's Staff}
+      - {type: talk, target: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141], item_delivery: Sage's Staff}
+    walkthrough: ["After Ritual Pollen, speak with Shiwand.", "Go to Breeze Woods and ask Sharker at (93,99) for the Sage's Staff.", "Bring the staff back to Shiwand."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-break-seal
+    name: Break Seal
+    repeatable: false
+    category: series
+    series: {name: Shiwand seal series, position: 3, total: 4, previous: cryptic-moon-swamp-sages-staff, next: cryptic-moon-swamp-break-seal-part-2}
+    giver: {npc: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141]}
+    requirements: {factions: [Beast], prerequisite_quests: [cryptic-moon-swamp-sages-staff]}
+    rewards: {next_quest_unlock: cryptic-moon-swamp-break-seal-part-2}
+    objectives: [{type: talk, target: Sharker, area: Breeze Woods, coordinates: [93, 99], item_delivery: letter from Shiwand}]
+    walkthrough: ["After Sage's Staff, receive Shiwand's warning letter.", "Take it to Sharker at (93,99) in Breeze Woods.", "Continue the dialogue/ritual setup that unlocks Break Seal Part 2."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror]
+  - id: cryptic-moon-swamp-break-seal-part-2
+    name: Break Seal Part 2
+    repeatable: false
+    category: series
+    series: {name: Shiwand seal series, position: 4, total: 4, previous: cryptic-moon-swamp-break-seal}
+    giver: {npc: Shiwand, area: Cryptic Moon Swamp, coordinates: [202, 141]}
+    requirements: {factions: [Beast], prerequisite_quests: [cryptic-moon-swamp-break-seal]}
+    rewards: {experience: 1500, credit: 350, choose_one_item: [Pink Piggy, Brown Piggy, Yellow Piggy]}
+    objectives:
+      - {type: collect_drop, target: Elf, item: Essence of Wind, count: null, area: Cryptic Moon Swamp, drop_rate: null}
+      - {type: collect_drop, target: Mud Crab, item: Essence of Water, count: null, area: Cryptic Moon Swamp, drop_rate: null}
+      - {type: collect_drop, target: Marsh Frog, item: Essence of Sand, count: null, area: Cryptic Moon Swamp, drop_rate: null}
+      - {type: talk, target: Sharker, area: Breeze Woods, coordinates: [93, 99]}
+    walkthrough: ["Speak with Sharker in Breeze Woods as the second part begins.", "Go to Cryptic Moon Swamp.", "Defeat Elves, Mud Crabs, and Marsh Frogs until the Wind, Water, and Sand essences are collected.", "Return the essences to Sharker and choose one Piggy reward."]
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts:
+        - {field: requirements.prerequisite_quests, values: [cryptic-moon-swamp-break-seal, cryptic-moon-swamp-sages-staff], reason: Dedicated page lists Previous Quest as Break Seal but its Requirements row and the area table say Completed Sage's Staff. Canonical chain position uses Break Seal; conflict retained.}
+    source_refs: [primary_area_page, retrieval_mirror, break_seal_part_2]
