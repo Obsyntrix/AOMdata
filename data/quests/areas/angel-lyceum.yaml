@@ -1,0 +1,418 @@
+schema_version: 1
+dataset: quests
+area:
+  id: angel-lyceum
+  name: Angel Lyceum
+  region: Heaven
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:angel-lyceum
+  top_student_training: https://angels.wikidot.com/quest:top-student-training
+shared_facts:
+  repeatable_training_availability:
+    after: angel-lyceum-freshmans-signing-for-taking-courses
+    before_completion: angel-lyceum-accumulation-schedule-of-students-grades
+  npcs:
+    director_wolay: {name: Director Wolay, coordinates: [130, 64]}
+    angels_tutor: {name: "Angels' Tutor", coordinates: [179, 91]}
+    michael: {name: Michael, coordinates: [215, 110]}
+    battle_professor: {name: Battle Professor, coordinates: [227, 86]}
+    magic_professor: {name: Magic Professor, coordinates: [170, 116]}
+    mine_professor: {name: Mine Professor, coordinates: [190, 41]}
+quests:
+  - id: angel-lyceum-registration-at-angels-tutor
+    name: "Registration at Angels' Tutor"
+    repeatable: false
+    category: series
+    series: {name: Angel Lyceum graduation, position: 1, total: 5, next: angel-lyceum-freshmans-signing-for-taking-courses}
+    giver: {npc: Director Wolay, area: Angel Lyceum, coordinates: [130, 64]}
+    requirements: {}
+    rewards: {experience: 150}
+    objectives:
+      - {type: talk, target: "Angels' Tutor", area: Angel Lyceum, coordinates: [179, 91]}
+    walkthrough:
+      - Speak with Director Wolay in Angel Lyceum.
+      - "Speak with Angels' Tutor at (179,91)."
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-freshmans-signing-for-taking-courses
+    name: "Freshman's Signing for taking courses"
+    repeatable: false
+    category: series
+    series: {name: Angel Lyceum graduation, position: 2, total: 5, previous: angel-lyceum-registration-at-angels-tutor, next: angel-lyceum-accumulation-schedule-of-students-grades}
+    giver: {npc: "Angels' Tutor", area: Angel Lyceum, coordinates: [179, 91]}
+    requirements:
+      prerequisite_quests: [angel-lyceum-registration-at-angels-tutor]
+    rewards: {experience: 100, gold: 50}
+    objectives:
+      - {type: talk, target: Battle Professor, area: Angel Lyceum, coordinates: [227, 86]}
+      - {type: talk, target: Magic Professor, area: Angel Lyceum, coordinates: [170, 116]}
+      - {type: talk, target: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    walkthrough:
+      - Complete Registration at Angels' Tutor.
+      - Speak with the Battle Professor at (227,86).
+      - Speak with the Magic Professor. See coordinate conflict below.
+      - Speak with the Mine Professor at (190,41).
+    notes:
+      - The quest table prints the Magic Professor as (170,16), while the Important NPC table on the same page gives (170,116).
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts:
+        - field: objectives.magic_professor.coordinates
+          values: [[170, 16], [170, 116]]
+          provisional_navigation_value: [170, 116]
+          reason: The NPC table and quest short-description disagree.
+    source_refs: [area_page]
+
+  - id: angel-lyceum-accumulation-schedule-of-students-grades
+    name: "Accumulation schedule of students' grades"
+    repeatable: false
+    category: series
+    series: {name: Angel Lyceum graduation, position: 3, total: 5, previous: angel-lyceum-freshmans-signing-for-taking-courses, next: angel-lyceum-choosing-country}
+    giver: {npc: "Angels' Tutor", area: Angel Lyceum, coordinates: [179, 91]}
+    requirements:
+      prerequisite_quests: [angel-lyceum-freshmans-signing-for-taking-courses]
+    rewards:
+      items: [{name: null, note: Area page only says Item; identity not documented.}]
+    objectives:
+      - {type: earn_credit_hours, minimum: 5, method: Complete repeatable Angel Lyceum training quests}
+    walkthrough:
+      - Complete Freshman's Signing for taking courses.
+      - Take repeatable training quests from the Battle, Magic, or Mine Professor.
+      - Earn at least 5 credit hours.
+      - Complete the grade-accumulation requirement with the beginner quest flow.
+    notes:
+      - Completing this quest closes the documented availability window for the Lyceum repeatable training quests.
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-choosing-country
+    name: Choosing country
+    repeatable: false
+    category: series
+    series: {name: Angel Lyceum graduation, position: 4, total: 5, previous: angel-lyceum-accumulation-schedule-of-students-grades, next: angel-lyceum-register-at-city-angel}
+    giver: {npc: "Angels' Tutor", area: Angel Lyceum, coordinates: [179, 91]}
+    requirements:
+      prerequisite_quests: [angel-lyceum-accumulation-schedule-of-students-grades]
+    rewards: {}
+    objectives:
+      - {type: choose_faction, options: [Aurora, Beast, Steel, Shadow]}
+    walkthrough:
+      - After completing the grade accumulation quest, choose your faction/country when prompted.
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-register-at-city-angel
+    name: Register at (City Angel)
+    repeatable: false
+    category: series
+    series: {name: Angel Lyceum graduation, position: 5, total: 5, previous: angel-lyceum-choosing-country}
+    giver: null
+    requirements:
+      prerequisite_quests: [angel-lyceum-choosing-country]
+    rewards: {experience: 50, credit: 10}
+    objectives:
+      - {type: talk, target: Faction city Angel, area: chosen home city}
+    walkthrough:
+      - Travel to the city associated with the faction selected in Choosing country.
+      - Speak with that city's Angel to register.
+    notes:
+      - The area page uses a generic quest title because the destination depends on faction.
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-battle-primary-course
+    name: Battle-Primary course
+    repeatable: true
+    category: training
+    giver: {npc: Battle Professor, area: Angel Lyceum, coordinates: [227, 86]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 150, credit_hours: 1}
+    objectives:
+      - {type: kill, target: Slarm, count: 10, area: Angel Lyceum}
+    walkthrough:
+      - Speak with the Battle Professor in Angel Lyceum.
+      - Defeat 10 Slarms.
+      - Return to the Battle Professor to turn in the quest.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-battle-intermediate-course
+    name: Battle-intermediate course
+    repeatable: true
+    category: training
+    giver: {npc: Battle Professor, area: Angel Lyceum, coordinates: [227, 86]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 250, credit_hours: 2}
+    objectives:
+      - {type: kill, target: Water Elf, count: 15, areas: [East Playground, West Playground]}
+    walkthrough:
+      - Speak with the Battle Professor in Angel Lyceum.
+      - Defeat 15 Water Elves in East Playground or West Playground.
+      - Return to the Battle Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-battle-advanced-course
+    name: Battle-advanced course
+    repeatable: true
+    category: training
+    giver: {npc: Battle Professor, area: Angel Lyceum, coordinates: [227, 86]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 450, credit_hours: 3}
+    objectives:
+      - {type: kill, target: Earth Elf, count: 15, areas: [East Playground, West Playground]}
+    walkthrough:
+      - Speak with the Battle Professor in Angel Lyceum.
+      - Defeat 15 Earth Elves in East Playground or West Playground.
+      - Return to the Battle Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-magic-primary-course
+    name: Magic-Primary course
+    repeatable: true
+    category: training
+    giver: {npc: Magic Professor, area: Angel Lyceum, coordinates: [170, 116]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 150, credit_hours: 1}
+    objectives:
+      - {type: kill, target: Lily, count: 10, area: Angel Lyceum}
+    walkthrough:
+      - Speak with the Magic Professor in Angel Lyceum.
+      - Defeat 10 Lilies.
+      - Return to the Magic Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-magic-intermediate-course
+    name: Magic-intermediate course
+    repeatable: true
+    category: training
+    giver: {npc: Magic Professor, area: Angel Lyceum, coordinates: [170, 116]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 250, credit_hours: 2}
+    objectives:
+      - {type: kill, target: Wind Elf, count: 15, areas: [East Playground, West Playground]}
+    walkthrough:
+      - Speak with the Magic Professor in Angel Lyceum.
+      - Defeat 15 Wind Elves in East Playground or West Playground.
+      - Return to the Magic Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-magic-advanced-course
+    name: Magic-advanced course
+    repeatable: true
+    category: training
+    giver: {npc: Magic Professor, area: Angel Lyceum, coordinates: [170, 116]}
+    requirements: {availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 450, credit_hours: 3}
+    objectives:
+      - {type: kill, target: Fire Elf, count: 15, areas: [East Playground, West Playground]}
+    walkthrough:
+      - Speak with the Magic Professor in Angel Lyceum.
+      - Defeat 15 Fire Elves in East Playground or West Playground.
+      - Return to the Magic Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-digging
+    name: Exercise for digging
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Dig], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 100, gold: 50, credit_hours: 1}
+    objectives:
+      - type: gather
+        resource: Copper
+        area: Angel Lyceum
+        items: [{name: Copper Mine piece, count: 30}, {name: Broken Rock Crystal, count: 1}]
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Gather 30 Copper Mine pieces and 1 Broken Rock Crystal from Copper.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-collecting
+    name: Exercise for collecting
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Collect], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 100, gold: 50, credit_hours: 1}
+    objectives:
+      - {type: gather, resource: Horseradish, area: Angel Lyceum, items: [{name: Horseradish Grass Root, count: 30}]}
+      - {type: gather, resource: Beast Den, area: Angel Lyceum, items: [{name: Beast Meat piece, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Gather 30 Horseradish Grass Roots from Horseradish.
+      - Gather 30 Beast Meat pieces from Beast Den.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-lumbering
+    name: Exercise for lumbering
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Lumber], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 100, gold: 50, credit_hours: 1}
+    objectives:
+      - type: gather
+        resource: Poplar
+        area: Angel Lyceum
+        items: [{name: Poplar Wood piece, count: 30}, {name: Worm Pupa crystal, count: 1}]
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Gather 30 Poplar Wood pieces and 1 Worm Pupa crystal from Poplar.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-fishing
+    name: Exercise for fishing
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Fishing], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 100, gold: 50, credit_hours: 1}
+    objectives:
+      - type: gather
+        resource: Wild Alga
+        area: Angel Lyceum
+        items: [{name: Chilin Fish, count: 30}, {name: Wild Pearl, count: 1}]
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Gather 30 Chilin Fish and 1 Wild Pearl from Wild Alga.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-manufacturing-weapon
+    name: Exercise for manufacturing weapon
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Weapon], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 300, gold: 150, credit_hours: 2}
+    objectives:
+      - {type: produce, items: [{name: Copper Ingot, count: 30}, {name: Poplar Strip, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Produce 30 Copper Ingots and 30 Poplar Strips.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-manufacturing-armor
+    name: Exercise for manufacturing armor
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Armor], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 300, gold: 150, credit_hours: 2}
+    objectives:
+      - {type: produce, items: [{name: Copper Ingot, count: 30}, {name: Beast Leatherlace, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Produce 30 Copper Ingots and 30 Beast Leatherlaces.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-sewing-lecturer
+    name: Sewing Lecturer
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Sew], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 300, gold: 150, credit_hours: 2}
+    objectives:
+      - {type: produce, items: [{name: Wasabi Silk, count: 30}, {name: Chili Fish Skin, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Produce 30 Wasabi Silks and 30 Chili Fish Skins.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-exercise-for-art
+    name: Exercise for art
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Technics], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 300, gold: 150, credit_hours: 2}
+    objectives:
+      - {type: produce, items: [{name: Wasabi Oil portion, count: 30}, {name: Poplar Strip, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Produce 30 Wasabi Oil portions and 30 Poplar Strips.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-cooking-lecturer
+    name: Cooking Lecturer
+    repeatable: true
+    category: training
+    giver: {npc: Mine Professor, area: Angel Lyceum, coordinates: [190, 41]}
+    requirements: {skills: [Cook], availability_window_ref: repeatable_training_availability}
+    rewards: {experience: 300, gold: 150, credit_hours: 2}
+    objectives:
+      - {type: produce, items: [{name: Beast Meatslice, count: 30}, {name: Chili Fish Meat piece, count: 30}]}
+    walkthrough:
+      - Speak with the Mine Professor.
+      - Produce 30 Beast Meatslices and 30 Chili Fish Meat pieces.
+      - Return to the Mine Professor.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: angel-lyceum-top-student-training
+    name: Top Student Training
+    repeatable: false
+    category: single
+    giver: {npc: Michael, area: Angel Lyceum, coordinates: [215, 110]}
+    requirements:
+      credit_hours_minimum: 15
+      must_not_have_completed: [angel-lyceum-accumulation-schedule-of-students-grades]
+    rewards:
+      experience: 1000
+      gold: 300
+      choose_one_item: [Top Student Dagger, Top Student Axe, Top Student Spear, Top Student Staff, Top Student Bow, Top Student Sharp Knife]
+    objectives:
+      - {type: collect_drop, target: Little Gebuer, item: Human Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: collect_drop, target: Wildwolf, item: Beast Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: collect_drop, target: Headless Armor, item: Energy Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: collect_drop, target: Tree Spirit, item: Plant Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: collect_drop, target: Brute Priest, item: Deathless Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: collect_drop, target: Goat Demon, item: Demon Core, count: 1, area: Training Palace, drop_rate: null}
+      - {type: interact, target: Altar, area: Training Palace, coordinates: [165, 86], action: Place the six different Cores on the Altar}
+      - {type: kill, target: Qiuaner, count: 1, area: Training Palace}
+      - {type: obtain, item: Guards Necklace, count: 1}
+      - {type: talk, target: Michael, area: Angel Lyceum, coordinates: [215, 110]}
+    walkthrough:
+      - "Earn at least 15 credit hours before completing Accumulation schedule of students' grades, then speak with Michael at (215,110)."
+      - Travel to Training Palace through East Playground or West Playground.
+      - Kill Little Gebuer, Wildwolf, Headless Armor, Tree Spirit, Brute Priest, and Goat Demon until you have their six corresponding cores.
+      - Interact with the altar at (165,86) and place all six cores to summon Qiuaner.
+      - Defeat Qiuaner. Eligible party members on the quest receive the Guards Necklace.
+      - Return the Guards Necklace to Michael and choose one reward weapon.
+    notes:
+      - The quest cannot be accepted after graduating, but the dedicated page says it can still be completed after graduation if accepted beforehand.
+      - The dedicated page recommends a party or help from a level 25+ character for Qiuaner.
+      - Core drops are explicitly described as non-guaranteed, but no percentages are documented. Drop rates therefore remain null.
+    related_entities:
+      areas: [Angel Lyceum, East Playground, West Playground, Training Palace]
+      npcs: [Michael]
+      monsters: [Little Gebuer, Wildwolf, Headless Armor, Tree Spirit, Brute Priest, Goat Demon, Qiuaner]
+      items: [Human Core, Beast Core, Energy Core, Plant Core, Deathless Core, Demon Core, Guards Necklace]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, top_student_training]
