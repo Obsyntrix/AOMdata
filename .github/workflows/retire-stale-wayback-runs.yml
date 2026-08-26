@@ -1,0 +1,19 @@
+name: Retire stale archive recovery runs
+
+on:
+  push:
+    paths:
+      - '.github/workflows/retire-stale-wayback-runs.yml'
+
+# GitHub concurrency groups are repository-scoped. This one-shot guard cancels archive
+# runs created by superseded crawler versions that used the previous group name.
+concurrency:
+  group: legacy-monster-wayback-harvest
+  cancel-in-progress: true
+
+jobs:
+  retire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm stale recovery retirement
+        run: echo 'Superseded legacy-monster-wayback-harvest runs retired.'
