@@ -1,0 +1,759 @@
+area:
+  id: training-palace
+  name_raw: Training Palace
+  source:
+    origin_url: https://angels.wikidot.com/area:training-palace
+    retrieval_url: https://www.aowiki.uk/pages/area_training-palace.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: a2c705ecf7cd8b6123f115b59ff29a9390eb600509a50e396e68f7ab44d4839e
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: training-palace__wildwolf__t001r0001
+  name_raw: Wildwolf
+  level_raw: '8'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wildwolf.html
+  row_raw:
+    Monster Name: Wildwolf
+    Level: '8'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 8
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__little-gebuer__t001r0002
+  name_raw: Little Gebuer
+  level_raw: '8'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_little-gebuer.html
+  row_raw:
+    Monster Name: Little Gebuer
+    Level: '8'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 8
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__tree-spirit__t001r0003
+  name_raw: Tree Spirit
+  level_raw: '8'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tree-spirit.html
+  row_raw:
+    Monster Name: Tree Spirit
+    Level: '8'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 8
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__headless-armor__t001r0004
+  name_raw: Headless Armor
+  level_raw: '8'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_headless-armor.html
+  row_raw:
+    Monster Name: Headless Armor
+    Level: '8'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 8
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__brute-priest__t001r0005
+  name_raw: Brute Priest
+  level_raw: '10'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_brute-priest.html
+  row_raw:
+    Monster Name: Brute Priest
+    Level: '10'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__goat-demon__t001r0006
+  name_raw: Goat Demon
+  level_raw: '10'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_goat-demon.html
+  row_raw:
+    Monster Name: Goat Demon
+    Level: '10'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: false
+    aggressive: true
+- area_occurrence_id: training-palace__qiuaner__t001r0008
+  name_raw: Qiuaner
+  level_raw: '12'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_qiuaner.html
+  row_raw:
+    Monster Name: Qiuaner
+    Level: '12'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : Summoned
+  normalized:
+    level: 12
+    boss: true
+    aggressive: true
+drops:
+- drop_id: training-palace__t002r0001
+  monster_name_raw: Brute Priest
+  item_name_raw: Shooter Head Band
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Shooter Head Band
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0002
+  monster_name_raw: Brute Priest
+  item_name_raw: Incantation Clothes
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Incantation Clothes
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0003
+  monster_name_raw: Brute Priest
+  item_name_raw: Staff
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Staff
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0004
+  monster_name_raw: Brute Priest
+  item_name_raw: Fiend Head Band
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Fiend Head Band
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0005
+  monster_name_raw: Brute Priest
+  item_name_raw: Fiend Mantle
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Fiend Mantle
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0006
+  monster_name_raw: Brute Priest
+  item_name_raw: Redmoon Staff
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Redmoon Staff
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0007
+  monster_name_raw: Brute Priest
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Brute Priest
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: training-palace__t002r0008
+  monster_name_raw: Goat Demon
+  item_name_raw: Incantation Diadem
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Incantation Diadem
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0009
+  monster_name_raw: Goat Demon
+  item_name_raw: Heavy Costume
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Heavy Costume
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0010
+  monster_name_raw: Goat Demon
+  item_name_raw: Spear
+  drop_share_raw: 0.2600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Spear
+    Drop Share: 0.2600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.26
+    quantity: 1
+- drop_id: training-palace__t002r0011
+  monster_name_raw: Goat Demon
+  item_name_raw: Fiend Diadem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Fiend Diadem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0012
+  monster_name_raw: Goat Demon
+  item_name_raw: Fiend Leather Jacket
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Fiend Leather Jacket
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0013
+  monster_name_raw: Goat Demon
+  item_name_raw: Red Crystal Spear
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Red Crystal Spear
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: training-palace__t002r0014
+  monster_name_raw: Goat Demon
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Goat Demon
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: training-palace__t002r0015
+  monster_name_raw: Headless Armor
+  item_name_raw: Iron Headband
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Iron Headband
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0016
+  monster_name_raw: Headless Armor
+  item_name_raw: Light Costume
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Light Costume
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0017
+  monster_name_raw: Headless Armor
+  item_name_raw: Dagger
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Dagger
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0018
+  monster_name_raw: Headless Armor
+  item_name_raw: Fiend Forehead Protection
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Fiend Forehead Protection
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0019
+  monster_name_raw: Headless Armor
+  item_name_raw: Fiend Mantle
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Fiend Mantle
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0020
+  monster_name_raw: Headless Armor
+  item_name_raw: Rubine Dagger
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Headless Armor
+    Item: Rubine Dagger
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0021
+  monster_name_raw: Little Gebuer
+  item_name_raw: Light Shoes
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Light Shoes
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0022
+  monster_name_raw: Little Gebuer
+  item_name_raw: Heavy Gloves
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Heavy Gloves
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0023
+  monster_name_raw: Little Gebuer
+  item_name_raw: Round Shield
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Round Shield
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0024
+  monster_name_raw: Little Gebuer
+  item_name_raw: Fiend Incantation Shoes
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Fiend Incantation Shoes
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0025
+  monster_name_raw: Little Gebuer
+  item_name_raw: Fiend Cuff
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Fiend Cuff
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0026
+  monster_name_raw: Little Gebuer
+  item_name_raw: Silver Round Shield
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Gebuer
+    Item: Silver Round Shield
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0027
+  monster_name_raw: Tree Spirit
+  item_name_raw: Incantation Shoes
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Incantation Shoes
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0028
+  monster_name_raw: Tree Spirit
+  item_name_raw: Light Gloves
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Light Gloves
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0029
+  monster_name_raw: Tree Spirit
+  item_name_raw: Bow
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Bow
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0030
+  monster_name_raw: Tree Spirit
+  item_name_raw: Fiend Incantation Shoes
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Fiend Incantation Shoes
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0031
+  monster_name_raw: Tree Spirit
+  item_name_raw: Fiend Wristlet
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Fiend Wristlet
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0032
+  monster_name_raw: Tree Spirit
+  item_name_raw: Redwood Bow
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Spirit
+    Item: Redwood Bow
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0033
+  monster_name_raw: Wildwolf
+  item_name_raw: Heavy Shoes
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Heavy Shoes
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0034
+  monster_name_raw: Wildwolf
+  item_name_raw: Incantation Gloves
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Incantation Gloves
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0035
+  monster_name_raw: Wildwolf
+  item_name_raw: Axe
+  drop_share_raw: 0.2100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Axe
+    Drop Share: 0.2100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.21
+    quantity: 1
+- drop_id: training-palace__t002r0036
+  monster_name_raw: Wildwolf
+  item_name_raw: Fiend Heavy Shoes
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Fiend Heavy Shoes
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0037
+  monster_name_raw: Wildwolf
+  item_name_raw: Fiend Gloves
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Fiend Gloves
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: training-palace__t002r0038
+  monster_name_raw: Wildwolf
+  item_name_raw: Silver Axe
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wildwolf
+    Item: Silver Axe
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 38

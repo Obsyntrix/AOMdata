@@ -1,0 +1,1617 @@
+area:
+  id: mysterious-wetland
+  name_raw: Mysterious Wetland
+  source:
+    origin_url: https://angels.wikidot.com/area:mysterious-wetland
+    retrieval_url: https://www.aowiki.uk/pages/area_mysterious-wetland.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 5b47bf846c7e4f91d6f1d8163b10f860508693fe1ed52f7cebe95d37ea6c14d4
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: mysterious-wetland__nepenthes__t004r0001
+  name_raw: Nepenthes
+  level_raw: '40'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_nepenthes.html
+  row_raw:
+    Monster Name: Nepenthes
+    Level: '40'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 40
+    boss: false
+    aggressive: true
+- area_occurrence_id: mysterious-wetland__tree-elf__t004r0002
+  name_raw: Tree Elf
+  level_raw: '43'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tree-elf.html
+  row_raw:
+    Monster Name: Tree Elf
+    Level: '43'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 43
+    boss: false
+    aggressive: true
+- area_occurrence_id: mysterious-wetland__marsh-wind-fairy__t004r0003
+  name_raw: Marsh Wind Fairy
+  level_raw: '45'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_marsh-wind-fairy.html
+  row_raw:
+    Monster Name: Marsh Wind Fairy
+    Level: '45'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: false
+    aggressive: false
+- area_occurrence_id: mysterious-wetland__sexy-quli__t004r0005
+  name_raw: Sexy Quli
+  level_raw: '45'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sexy-quli.html
+  row_raw:
+    Monster Name: Sexy Quli
+    Level: '45'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: true
+    aggressive: true
+- area_occurrence_id: mysterious-wetland__black-tree__t004r0006
+  name_raw: Black Tree
+  level_raw: '48'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_black-tree.html
+  row_raw:
+    Monster Name: Black Tree
+    Level: '48'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 48
+    boss: true
+    aggressive: true
+- area_occurrence_id: mysterious-wetland__wind-fairy-clair__t004r0007
+  name_raw: Wind Fairy Clair
+  level_raw: '50'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wind-fairy-clair.html
+  row_raw:
+    Monster Name: Wind Fairy Clair
+    Level: '50'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: true
+    aggressive: true
+drops:
+- drop_id: mysterious-wetland__t006r0001
+  monster_name_raw: Black Tree
+  item_name_raw: Light Boots
+  drop_share_raw: 0.4789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Light Boots
+    Drop Share: 0.4789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0002
+  monster_name_raw: Black Tree
+  item_name_raw: Rabbi's Boots
+  drop_share_raw: 0.4789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Rabbi's Boots
+    Drop Share: 0.4789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0003
+  monster_name_raw: Black Tree
+  item_name_raw: Eagle Boots
+  drop_share_raw: 0.0505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Eagle Boots
+    Drop Share: 0.0505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0505
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0004
+  monster_name_raw: Black Tree
+  item_name_raw: Fiery Boots
+  drop_share_raw: 0.0505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Fiery Boots
+    Drop Share: 0.0505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0505
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0005
+  monster_name_raw: Black Tree
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.2578%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Pearl Refining
+    Drop Share: 0.2578%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2578
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0006
+  monster_name_raw: Black Tree
+  item_name_raw: Red Beetle Bag
+  drop_share_raw: 0.2578%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Red Beetle Bag
+    Drop Share: 0.2578%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2578
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0007
+  monster_name_raw: Black Tree
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Sapphire
+    Drop Share: 0.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.04
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0008
+  monster_name_raw: Black Tree
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Purple Gem
+    Drop Share: 0.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.04
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0009
+  monster_name_raw: Black Tree
+  item_name_raw: Tendon Chop V
+  drop_share_raw: 0.2579%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Tendon Chop V
+    Drop Share: 0.2579%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2579
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0010
+  monster_name_raw: Black Tree
+  item_name_raw: Crazy Roar V
+  drop_share_raw: 0.2579%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Crazy Roar V
+    Drop Share: 0.2579%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2579
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0011
+  monster_name_raw: Black Tree
+  item_name_raw: Faquir Boots
+  drop_share_raw: 0.2579%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Faquir Boots
+    Drop Share: 0.2579%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2579
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0012
+  monster_name_raw: Black Tree
+  item_name_raw: Code Boots
+  drop_share_raw: 0.2579%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Code Boots
+    Drop Share: 0.2579%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2579
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0013
+  monster_name_raw: Black Tree
+  item_name_raw: Rare Fruit of Hercules
+  drop_share_raw: 28.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Rare Fruit of Hercules
+    Drop Share: 28.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 28.0001
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0014
+  monster_name_raw: Black Tree
+  item_name_raw: Rare Fruit of Mars
+  drop_share_raw: 28.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Rare Fruit of Mars
+    Drop Share: 28.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 28.0
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0015
+  monster_name_raw: Black Tree
+  item_name_raw: Map Piece
+  drop_share_raw: 1.3400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Map Piece
+    Drop Share: 1.3400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.34
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0016
+  monster_name_raw: Black Tree
+  item_name_raw: Pestle
+  drop_share_raw: 0.1191%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Black Tree
+    Item: Pestle
+    Drop Share: 0.1191%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1191
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0017
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Light Boots
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Light Boots
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0018
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Rabbi's Boots
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Rabbi's Boots
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0019
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Eagle Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Eagle Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0020
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Fiery Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Fiery Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0021
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0022
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0023
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0024
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0025
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0026
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Sapphire
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0027
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Purple Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0028
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Ruby
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Ruby
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0029
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Pestle
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Pestle
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0030
+  monster_name_raw: Marsh Wind Fairy
+  item_name_raw: Wind Goblin Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Marsh Wind Fairy
+    Item: Wind Goblin Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0031
+  monster_name_raw: Nepenthes
+  item_name_raw: Curved Bow
+  drop_share_raw: 0.1174%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Curved Bow
+    Drop Share: 0.1174%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1174
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0032
+  monster_name_raw: Nepenthes
+  item_name_raw: Staff
+  drop_share_raw: 0.1174%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Staff
+    Drop Share: 0.1174%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1174
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0033
+  monster_name_raw: Nepenthes
+  item_name_raw: Magic Stick
+  drop_share_raw: 0.0195%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Magic Stick
+    Drop Share: 0.0195%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0195
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0034
+  monster_name_raw: Nepenthes
+  item_name_raw: Ice Bow
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Ice Bow
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0035
+  monster_name_raw: Nepenthes
+  item_name_raw: Evil Cat's Staff
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Evil Cat's Staff
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0036
+  monster_name_raw: Nepenthes
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0037
+  monster_name_raw: Nepenthes
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0038
+  monster_name_raw: Nepenthes
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0039
+  monster_name_raw: Nepenthes
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0040
+  monster_name_raw: Nepenthes
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0041
+  monster_name_raw: Nepenthes
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Flawed Ruby
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0042
+  monster_name_raw: Nepenthes
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Defective Orange Gem
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0043
+  monster_name_raw: Nepenthes
+  item_name_raw: Pestle
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Nepenthes
+    Item: Pestle
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0044
+  monster_name_raw: Sexy Quli
+  item_name_raw: Curved Bow
+  drop_share_raw: 1.6325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Curved Bow
+    Drop Share: 1.6325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6325
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0045
+  monster_name_raw: Sexy Quli
+  item_name_raw: Magic Stick
+  drop_share_raw: 1.6325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Magic Stick
+    Drop Share: 1.6325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6325
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0046
+  monster_name_raw: Sexy Quli
+  item_name_raw: Ice Bow
+  drop_share_raw: 0.1956%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Ice Bow
+    Drop Share: 0.1956%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1956
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0047
+  monster_name_raw: Sexy Quli
+  item_name_raw: Evil Cat's Staff
+  drop_share_raw: 0.1956%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Evil Cat's Staff
+    Drop Share: 0.1956%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1956
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0048
+  monster_name_raw: Sexy Quli
+  item_name_raw: Bat Wings
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Bat Wings
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0049
+  monster_name_raw: Sexy Quli
+  item_name_raw: Ring of Devil
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Ring of Devil
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0050
+  monster_name_raw: Sexy Quli
+  item_name_raw: Staff
+  drop_share_raw: 20.8514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Staff
+    Drop Share: 20.8514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 20.8514
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0051
+  monster_name_raw: Sexy Quli
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Flawed Ruby
+    Drop Share: 0.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.59
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0052
+  monster_name_raw: Sexy Quli
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Defective Orange Gem
+    Drop Share: 0.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.59
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0053
+  monster_name_raw: Sexy Quli
+  item_name_raw: Earth Blessing V
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Earth Blessing V
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0054
+  monster_name_raw: Sexy Quli
+  item_name_raw: Exhaustion Curse V
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Exhaustion Curse V
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0055
+  monster_name_raw: Sexy Quli
+  item_name_raw: Magic Fruit
+  drop_share_raw: 21.7811%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Magic Fruit
+    Drop Share: 21.7811%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 21.7811
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0056
+  monster_name_raw: Sexy Quli
+  item_name_raw: Fruit of the Devil
+  drop_share_raw: 22.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Fruit of the Devil
+    Drop Share: 22.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 22.1
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0057
+  monster_name_raw: Sexy Quli
+  item_name_raw: Map Piece
+  drop_share_raw: 4.5700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Map Piece
+    Drop Share: 4.5700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.57
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0058
+  monster_name_raw: Sexy Quli
+  item_name_raw: Pestle
+  drop_share_raw: 0.1054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Pestle
+    Drop Share: 0.1054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1054
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0059
+  monster_name_raw: Sexy Quli
+  item_name_raw: Sexy Quli
+  drop_share_raw: 1.3889%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sexy Quli
+    Item: Sexy Quli
+    Drop Share: 1.3889%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3889
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0060
+  monster_name_raw: Tree Elf
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.0301%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Light Cuff
+    Drop Share: 0.0301%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0301
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0061
+  monster_name_raw: Tree Elf
+  item_name_raw: Short Tight Gloves
+  drop_share_raw: 0.0301%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Short Tight Gloves
+    Drop Share: 0.0301%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0301
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0062
+  monster_name_raw: Tree Elf
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Golden Chain Cuff
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0063
+  monster_name_raw: Tree Elf
+  item_name_raw: Eagle Wristlet
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Eagle Wristlet
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0064
+  monster_name_raw: Tree Elf
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0065
+  monster_name_raw: Tree Elf
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0066
+  monster_name_raw: Tree Elf
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0067
+  monster_name_raw: Tree Elf
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0068
+  monster_name_raw: Tree Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0069
+  monster_name_raw: Tree Elf
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0070
+  monster_name_raw: Tree Elf
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Purple Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0071
+  monster_name_raw: Tree Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Pestle
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0072
+  monster_name_raw: Tree Elf
+  item_name_raw: Red Potion 2
+  drop_share_raw: 49.4402%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Red Potion 2
+    Drop Share: 49.4402%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 49.4402
+    quantity: 3
+- drop_id: mysterious-wetland__t006r0073
+  monster_name_raw: Tree Elf
+  item_name_raw: Blue Potion 2
+  drop_share_raw: 49.4402%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tree Elf
+    Item: Blue Potion 2
+    Drop Share: 49.4402%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 49.4402
+    quantity: 3
+- drop_id: mysterious-wetland__t006r0074
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Light Cuff
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0075
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Short Tight Gloves
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Short Tight Gloves
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0076
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Golden Chain Cuff
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0077
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Eagle Wristlet
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Eagle Wristlet
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0078
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Pearl Refining
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0079
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Fighting Wings
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0080
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Sapphire
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0081
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Purple Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0082
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Ruby
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Ruby
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0083
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Halo Strike 5
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Halo Strike 5
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0084
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Rebound Spell V
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Rebound Spell V
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0085
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Faquir Gloves
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Faquir Gloves
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0086
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Black Knight's Cuff
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Black Knight's Cuff
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0087
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Rare Magic Fruit
+  drop_share_raw: 27.5371%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Rare Magic Fruit
+    Drop Share: 27.5371%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 27.5371
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0088
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Rare Fruit of the Devil
+  drop_share_raw: 28.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Rare Fruit of the Devil
+    Drop Share: 28.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 28.0
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0089
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Map Piece
+  drop_share_raw: 1.4700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Map Piece
+    Drop Share: 1.4700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.47
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0090
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Pestle
+  drop_share_raw: 0.1101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Pestle
+    Drop Share: 0.1101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1101
+    quantity: 1
+- drop_id: mysterious-wetland__t006r0091
+  monster_name_raw: Wind Fairy Clair
+  item_name_raw: Wind Goblin Claya Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Fairy Clair
+    Item: Wind Goblin Claya Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 7
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 91

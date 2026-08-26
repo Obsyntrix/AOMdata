@@ -1,0 +1,1224 @@
+area:
+  id: flower-corridor
+  name_raw: Flower Corridor
+  source:
+    origin_url: https://angels.wikidot.com/area:flower-corridor
+    retrieval_url: https://www.aowiki.uk/pages/area_flower-corridor.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 52199c7c9d4efcd9023b6226e8cbe76159aabc97c96599bd51e32668976d6c25
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: flower-corridor__moon-rabbit__t001r0001
+  name_raw: Moon Rabbit
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_moon-rabbit.html
+  row_raw:
+    Monster Name: Moon Rabbit
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__thunder-rabbit-new__t001r0002
+  name_raw: Thunder Rabbit(New)
+  level_raw: '102'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_thunder-rabbit-new.html
+  row_raw:
+    Monster Name: Thunder Rabbit(New)
+    Level: '102'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 102
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__mrs-fox__t001r0003
+  name_raw: Mrs. Fox
+  level_raw: '104'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mrs-fox.html
+  row_raw:
+    Monster Name: Mrs. Fox
+    Level: '104'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 104
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__mr-fox__t001r0004
+  name_raw: Mr. Fox
+  level_raw: '105'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mr-fox.html
+  row_raw:
+    Monster Name: Mr. Fox
+    Level: '105'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 105
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__panda-thief__t001r0005
+  name_raw: Panda Thief
+  level_raw: '107'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_panda-thief.html
+  row_raw:
+    Monster Name: Panda Thief
+    Level: '107'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 107
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__recluse-wanderer__t001r0006
+  name_raw: Recluse Wanderer
+  level_raw: '107'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_recluse-wanderer.html
+  row_raw:
+    Monster Name: Recluse Wanderer
+    Level: '107'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 107
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__red-shirt-woman__t001r0007
+  name_raw: Red-shirt Woman
+  level_raw: '107'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_red-shirt-woman.html
+  row_raw:
+    Monster Name: Red-shirt Woman
+    Level: '107'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 107
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__evil-dame__t001r0008
+  name_raw: Evil Dame
+  level_raw: '108'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-dame.html
+  row_raw:
+    Monster Name: Evil Dame
+    Level: '108'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 108
+    boss: false
+    aggressive: false
+- area_occurrence_id: flower-corridor__gory-baron__t001r0009
+  name_raw: Gory Baron
+  level_raw: '109'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gory-baron.html
+  row_raw:
+    Monster Name: Gory Baron
+    Level: '109'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 109
+    boss: false
+    aggressive: false
+drops:
+- drop_id: flower-corridor__t004r0001
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Dark Eagle Cap
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Dark Eagle Cap
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: flower-corridor__t004r0002
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Battle Horn Helmet
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Battle Horn Helmet
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: flower-corridor__t004r0003
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Wonder Cap
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Wonder Cap
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: flower-corridor__t004r0004
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Desert Eagle Crista
+  drop_share_raw: 0.0029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Desert Eagle Crista
+    Drop Share: 0.0029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0029
+    quantity: 1
+- drop_id: flower-corridor__t004r0005
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Steel Horn Helmet
+  drop_share_raw: 0.0029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Steel Horn Helmet
+    Drop Share: 0.0029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0029
+    quantity: 1
+- drop_id: flower-corridor__t004r0006
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Roaring Prophet Cap
+  drop_share_raw: 0.0029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Roaring Prophet Cap
+    Drop Share: 0.0029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0029
+    quantity: 1
+- drop_id: flower-corridor__t004r0007
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Panda Puppet Robot
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Panda Puppet Robot
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: flower-corridor__t004r0008
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 0.0437%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Blue Light Rune Piece
+    Drop Share: 0.0437%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0437
+    quantity: 1
+- drop_id: flower-corridor__t004r0009
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Cyclone Stab V
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Cyclone Stab V
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: flower-corridor__t004r0010
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: flower-corridor__t004r0011
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 44.7831%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Effective Evil Fruit
+    Drop Share: 44.7831%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 44.7831
+    quantity: 1
+- drop_id: flower-corridor__t004r0012
+  monster_name_raw: Cat Lord Fay
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.0419%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cat Lord Fay
+    Item: Effective Magic Potion
+    Drop Share: 46.0419%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.0419
+    quantity: 1
+- drop_id: flower-corridor__t004r0013
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Titan Cuffs
+  drop_share_raw: 3.1600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Titan Cuffs
+    Drop Share: 3.1600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.16
+    quantity: 1
+- drop_id: flower-corridor__t004r0014
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Cosmic Cuffs
+  drop_share_raw: 3.1600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Cosmic Cuffs
+    Drop Share: 3.1600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.16
+    quantity: 1
+- drop_id: flower-corridor__t004r0015
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Wrist Armor of Holy Field
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Wrist Armor of Holy Field
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: flower-corridor__t004r0016
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Flamen Cuffs
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Flamen Cuffs
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: flower-corridor__t004r0017
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Wild Desert Camel
+  drop_share_raw: 0.0095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Wild Desert Camel
+    Drop Share: 0.0095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0095
+    quantity: 1
+- drop_id: flower-corridor__t004r0018
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 0.0395%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Green Light Rune Piece
+    Drop Share: 0.0395%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0395
+    quantity: 1
+- drop_id: flower-corridor__t004r0019
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Close Snipe V
+  drop_share_raw: 0.0095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Close Snipe V
+    Drop Share: 0.0095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0095
+    quantity: 1
+- drop_id: flower-corridor__t004r0020
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: flower-corridor__t004r0021
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 45.2081%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Effective Agility Potion
+    Drop Share: 45.2081%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.2081
+    quantity: 1
+- drop_id: flower-corridor__t004r0022
+  monster_name_raw: Dancing Angel Ray
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.3457%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Angel Ray
+    Item: Effective Magic Potion
+    Drop Share: 46.3457%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.3457
+    quantity: 1
+- drop_id: flower-corridor__t004r0023
+  monster_name_raw: Evil Dame
+  item_name_raw: Wonder Shoes
+  drop_share_raw: 0.0699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dame
+    Item: Wonder Shoes
+    Drop Share: 0.0699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0699
+    quantity: 1
+- drop_id: flower-corridor__t004r0024
+  monster_name_raw: Evil Dame
+  item_name_raw: Roaring Prophet Shoes
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dame
+    Item: Roaring Prophet Shoes
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0025
+  monster_name_raw: Evil Dame
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dame
+    Item: Red Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0026
+  monster_name_raw: Flower Genie
+  item_name_raw: Woods Helmet
+  drop_share_raw: 6.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Woods Helmet
+    Drop Share: 6.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.01
+    quantity: 1
+- drop_id: flower-corridor__t004r0027
+  monster_name_raw: Flower Genie
+  item_name_raw: Conqueror Helmet
+  drop_share_raw: 0.0075%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Conqueror Helmet
+    Drop Share: 0.0075%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0075
+    quantity: 1
+- drop_id: flower-corridor__t004r0028
+  monster_name_raw: Flower Genie
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 0.0375%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Blue Light Rune Piece
+    Drop Share: 0.0375%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0375
+    quantity: 1
+- drop_id: flower-corridor__t004r0029
+  monster_name_raw: Flower Genie
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: flower-corridor__t004r0030
+  monster_name_raw: Flower Genie
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 45.4406%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Effective Agility Potion
+    Drop Share: 45.4406%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.4406
+    quantity: 1
+- drop_id: flower-corridor__t004r0031
+  monster_name_raw: Flower Genie
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 46.5216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Genie
+    Item: Effective Magic Potion
+    Drop Share: 46.5216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.5216
+    quantity: 1
+- drop_id: flower-corridor__t004r0032
+  monster_name_raw: Gory Baron
+  item_name_raw: Battle Horn Boots
+  drop_share_raw: 0.0721%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gory Baron
+    Item: Battle Horn Boots
+    Drop Share: 0.0721%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0721
+    quantity: 1
+- drop_id: flower-corridor__t004r0033
+  monster_name_raw: Gory Baron
+  item_name_raw: Steel Horn Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gory Baron
+    Item: Steel Horn Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0034
+  monster_name_raw: Gory Baron
+  item_name_raw: Purple Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gory Baron
+    Item: Purple Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0035
+  monster_name_raw: Moon Rabbit
+  item_name_raw: Wind Armor
+  drop_share_raw: 0.0548%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Rabbit
+    Item: Wind Armor
+    Drop Share: 0.0548%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0548
+    quantity: 1
+- drop_id: flower-corridor__t004r0036
+  monster_name_raw: Moon Rabbit
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Rabbit
+    Item: Storm Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0037
+  monster_name_raw: Moon Rabbit
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Rabbit
+    Item: Flawless Ruby
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: flower-corridor__t004r0038
+  monster_name_raw: Mr. Fox
+  item_name_raw: Wildness Boots
+  drop_share_raw: 0.0638%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mr. Fox
+    Item: Wildness Boots
+    Drop Share: 0.0638%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0638
+    quantity: 1
+- drop_id: flower-corridor__t004r0039
+  monster_name_raw: Mr. Fox
+  item_name_raw: Fighter Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mr. Fox
+    Item: Fighter Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0040
+  monster_name_raw: Mr. Fox
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mr. Fox
+    Item: Red Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0041
+  monster_name_raw: Mrs. Fox
+  item_name_raw: Magician Boots
+  drop_share_raw: 0.0619%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mrs. Fox
+    Item: Magician Boots
+    Drop Share: 0.0619%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0619
+    quantity: 1
+- drop_id: flower-corridor__t004r0042
+  monster_name_raw: Mrs. Fox
+  item_name_raw: Dream Saint Shoes
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mrs. Fox
+    Item: Dream Saint Shoes
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0043
+  monster_name_raw: Mrs. Fox
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mrs. Fox
+    Item: Green Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0044
+  monster_name_raw: Panda Thief
+  item_name_raw: Feather Bracelet
+  drop_share_raw: 0.0678%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Panda Thief
+    Item: Feather Bracelet
+    Drop Share: 0.0678%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0678
+    quantity: 1
+- drop_id: flower-corridor__t004r0045
+  monster_name_raw: Panda Thief
+  item_name_raw: Water Elf's Dance
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Panda Thief
+    Item: Water Elf's Dance
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0046
+  monster_name_raw: Panda Thief
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Panda Thief
+    Item: Blue Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0047
+  monster_name_raw: Recluse Wanderer
+  item_name_raw: Bloody Orchid Shield
+  drop_share_raw: 0.0678%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Recluse Wanderer
+    Item: Bloody Orchid Shield
+    Drop Share: 0.0678%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0678
+    quantity: 1
+- drop_id: flower-corridor__t004r0048
+  monster_name_raw: Recluse Wanderer
+  item_name_raw: Life Spring
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Recluse Wanderer
+    Item: Life Spring
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0049
+  monster_name_raw: Recluse Wanderer
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Recluse Wanderer
+    Item: Green Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0050
+  monster_name_raw: Red-shirt Woman
+  item_name_raw: Dark Eagle Boots
+  drop_share_raw: 0.0678%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red-shirt Woman
+    Item: Dark Eagle Boots
+    Drop Share: 0.0678%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0678
+    quantity: 1
+- drop_id: flower-corridor__t004r0051
+  monster_name_raw: Red-shirt Woman
+  item_name_raw: Desert Eagle Shoes
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red-shirt Woman
+    Item: Desert Eagle Shoes
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0052
+  monster_name_raw: Red-shirt Woman
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Red-shirt Woman
+    Item: Yellow Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flower-corridor__t004r0053
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Sword
+  drop_share_raw: 0.3744%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Sword
+    Drop Share: 0.3744%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3744
+    quantity: 1
+- drop_id: flower-corridor__t004r0054
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Long Shield
+  drop_share_raw: 0.3744%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Long Shield
+    Drop Share: 0.3744%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3744
+    quantity: 1
+- drop_id: flower-corridor__t004r0055
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Long Sword
+  drop_share_raw: 0.0624%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Long Sword
+    Drop Share: 0.0624%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0624
+    quantity: 1
+- drop_id: flower-corridor__t004r0056
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Beast Bone Balde
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Beast Bone Balde
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: flower-corridor__t004r0057
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Soldier's Long Shield
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Soldier's Long Shield
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: flower-corridor__t004r0058
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Map Piece
+  drop_share_raw: 0.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Map Piece
+    Drop Share: 0.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2
+    quantity: 1
+- drop_id: flower-corridor__t004r0059
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Flawed Emerald
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: flower-corridor__t004r0060
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Flawed Sapphire
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: flower-corridor__t004r0061
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Flawed Purple Gem
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: flower-corridor__t004r0062
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Woods Boots
+  drop_share_raw: 0.0583%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Woods Boots
+    Drop Share: 0.0583%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0583
+    quantity: 1
+- drop_id: flower-corridor__t004r0063
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Conqueror Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Conqueror Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flower-corridor__t004r0064
+  monster_name_raw: Thunder Rabbit
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thunder Rabbit
+    Item: Yellow Light Rune Piece
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Flower Genie
+  - '103'
+  - 'Yes'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 64

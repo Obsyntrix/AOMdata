@@ -1,0 +1,876 @@
+area:
+  id: golden-beach
+  name_raw: Golden Beach
+  source:
+    origin_url: https://angels.wikidot.com/area:golden-beach
+    retrieval_url: https://www.aowiki.uk/pages/area_golden-beach.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: dcdc6c6389e3cc29110755e42cba2d2c73172f68b9c5d049762dfc9a5a050ead
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: golden-beach__puqi-crab__t003r0001
+  name_raw: Puqi Crab
+  level_raw: '48'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_puqi-crab.html
+  row_raw:
+    Monster Name: Puqi Crab
+    Level: '48'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 48
+    boss: false
+    aggressive: false
+- area_occurrence_id: golden-beach__puqi-turtle__t003r0002
+  name_raw: Puqi Turtle
+  level_raw: '50'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_puqi-turtle.html
+  row_raw:
+    Monster Name: Puqi Turtle
+    Level: '50'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: false
+    aggressive: false
+- area_occurrence_id: golden-beach__puqi-local__t003r0003
+  name_raw: Puqi Local
+  level_raw: '52'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_puqi-local.html
+  row_raw:
+    Monster Name: Puqi Local
+    Level: '52'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 52
+    boss: false
+    aggressive: false
+- area_occurrence_id: golden-beach__puqi-warrior__t003r0004
+  name_raw: Puqi Warrior
+  level_raw: '53'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_puqi-warrior.html
+  row_raw:
+    Monster Name: Puqi Warrior
+    Level: '53'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 53
+    boss: false
+    aggressive: false
+- area_occurrence_id: golden-beach__color-crab__t003r0005
+  name_raw: Color Crab
+  level_raw: '55'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_color-crab.html
+  row_raw:
+    Monster Name: Color Crab
+    Level: '55'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: false
+    aggressive: true
+- area_occurrence_id: golden-beach__color-whelk__t003r0006
+  name_raw: Color Whelk
+  level_raw: '56'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_color-whelk.html
+  row_raw:
+    Monster Name: Color Whelk
+    Level: '56'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 56
+    boss: false
+    aggressive: true
+- area_occurrence_id: golden-beach__pontiff-hululu__t003r0008
+  name_raw: Pontiff Hululu
+  level_raw: '60'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pontiff-hululu.html
+  row_raw:
+    Monster Name: Pontiff Hululu
+    Level: '60'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 60
+    boss: true
+    aggressive: true
+drops:
+- drop_id: golden-beach__t005r0001
+  monster_name_raw: Color Crab
+  item_name_raw: Tight Leather Gloves
+  drop_share_raw: 0.0141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Crab
+    Item: Tight Leather Gloves
+    Drop Share: 0.0141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0141
+    quantity: 1
+- drop_id: golden-beach__t005r0002
+  monster_name_raw: Color Crab
+  item_name_raw: Magic Boots
+  drop_share_raw: 0.0141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Crab
+    Item: Magic Boots
+    Drop Share: 0.0141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0141
+    quantity: 1
+- drop_id: golden-beach__t005r0003
+  monster_name_raw: Color Crab
+  item_name_raw: Scale Shell
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Crab
+    Item: Scale Shell
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0004
+  monster_name_raw: Color Crab
+  item_name_raw: Slarm's Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Crab
+    Item: Slarm's Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0005
+  monster_name_raw: Color Crab
+  item_name_raw: Emerald
+  drop_share_raw: 0.0014%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Crab
+    Item: Emerald
+    Drop Share: 0.0014%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0014
+    quantity: 1
+- drop_id: golden-beach__t005r0006
+  monster_name_raw: Color Whelk
+  item_name_raw: Heavy Cap
+  drop_share_raw: 0.0147%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Heavy Cap
+    Drop Share: 0.0147%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0147
+    quantity: 1
+- drop_id: golden-beach__t005r0007
+  monster_name_raw: Color Whelk
+  item_name_raw: Iron Gloves
+  drop_share_raw: 0.0147%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Iron Gloves
+    Drop Share: 0.0147%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0147
+    quantity: 1
+- drop_id: golden-beach__t005r0008
+  monster_name_raw: Color Whelk
+  item_name_raw: Scale Cap
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Scale Cap
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0009
+  monster_name_raw: Color Whelk
+  item_name_raw: Knight Gloves
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Knight Gloves
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0010
+  monster_name_raw: Color Whelk
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Orange Gem
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: golden-beach__t005r0011
+  monster_name_raw: Color Whelk
+  item_name_raw: Whelk Shell
+  drop_share_raw: 1.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Color Whelk
+    Item: Whelk Shell
+    Drop Share: 1.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0
+    quantity: 1
+- drop_id: golden-beach__t005r0012
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Fire Guard Armor
+  drop_share_raw: 1.7950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Fire Guard Armor
+    Drop Share: 1.7950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.795
+    quantity: 1
+- drop_id: golden-beach__t005r0013
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Energy Gown
+  drop_share_raw: 1.7950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Energy Gown
+    Drop Share: 1.7950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.795
+    quantity: 1
+- drop_id: golden-beach__t005r0014
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Knight Armor
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Knight Armor
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: golden-beach__t005r0015
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Sound Gown
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Sound Gown
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: golden-beach__t005r0016
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Clean Purple Gem
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: golden-beach__t005r0017
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Pestle
+  drop_share_raw: 0.2393%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Pestle
+    Drop Share: 0.2393%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2393
+    quantity: 1
+- drop_id: golden-beach__t005r0018
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Medium Mighty Fruit
+  drop_share_raw: 46.9340%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Medium Mighty Fruit
+    Drop Share: 46.9340%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.934
+    quantity: 1
+- drop_id: golden-beach__t005r0019
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Medium Target Potion
+  drop_share_raw: 42.6260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Medium Target Potion
+    Drop Share: 42.6260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 42.626
+    quantity: 1
+- drop_id: golden-beach__t005r0020
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: Pontiff Hululu Card
+  drop_share_raw: 0.9259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: Pontiff Hululu Card
+    Drop Share: 0.9259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9259
+    quantity: 1
+- drop_id: golden-beach__t005r0021
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: 'Assassin Skill: Poisoned Dagger V'
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: 'Assassin Skill: Poisoned Dagger V'
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: golden-beach__t005r0022
+  monster_name_raw: Pontiff Hululu
+  item_name_raw: 'Assassin Skill: Skilled Stab V'
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pontiff Hululu
+    Item: 'Assassin Skill: Skilled Stab V'
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: golden-beach__t005r0023
+  monster_name_raw: Puqi Crab
+  item_name_raw: Light Boots
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Light Boots
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: golden-beach__t005r0024
+  monster_name_raw: Puqi Crab
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Light Cuff
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: golden-beach__t005r0025
+  monster_name_raw: Puqi Crab
+  item_name_raw: Eagle Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Eagle Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: golden-beach__t005r0026
+  monster_name_raw: Puqi Crab
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Golden Chain Cuff
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: golden-beach__t005r0027
+  monster_name_raw: Puqi Crab
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Flawed Emerald
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: golden-beach__t005r0028
+  monster_name_raw: Puqi Crab
+  item_name_raw: Puqi Crab Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Crab
+    Item: Puqi Crab Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: golden-beach__t005r0029
+  monster_name_raw: Puqi Local
+  item_name_raw: Heavy Cap
+  drop_share_raw: 0.0129%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Local
+    Item: Heavy Cap
+    Drop Share: 0.0129%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0129
+    quantity: 1
+- drop_id: golden-beach__t005r0030
+  monster_name_raw: Puqi Local
+  item_name_raw: Iron Gloves
+  drop_share_raw: 0.0129%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Local
+    Item: Iron Gloves
+    Drop Share: 0.0129%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0129
+    quantity: 1
+- drop_id: golden-beach__t005r0031
+  monster_name_raw: Puqi Local
+  item_name_raw: Scale Cap
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Local
+    Item: Scale Cap
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0032
+  monster_name_raw: Puqi Local
+  item_name_raw: Knight Gloves
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Local
+    Item: Knight Gloves
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0033
+  monster_name_raw: Puqi Local
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Local
+    Item: Yellow Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: golden-beach__t005r0034
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Thick-soled Boots
+  drop_share_raw: 0.0413%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Thick-soled Boots
+    Drop Share: 0.0413%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0413
+    quantity: 1
+- drop_id: golden-beach__t005r0035
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Magic Gloves
+  drop_share_raw: 0.0413%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Magic Gloves
+    Drop Share: 0.0413%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0413
+    quantity: 1
+- drop_id: golden-beach__t005r0036
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Scale Boots
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Scale Boots
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: golden-beach__t005r0037
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Slarm's Gloves
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Slarm's Gloves
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: golden-beach__t005r0038
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Sapphire
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: golden-beach__t005r0039
+  monster_name_raw: Puqi Turtle
+  item_name_raw: Puqi Turtle Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Turtle
+    Item: Puqi Turtle Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: golden-beach__t005r0040
+  monster_name_raw: Puqi Warrior
+  item_name_raw: Tight Leather Gloves
+  drop_share_raw: 0.0135%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Warrior
+    Item: Tight Leather Gloves
+    Drop Share: 0.0135%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0135
+    quantity: 1
+- drop_id: golden-beach__t005r0041
+  monster_name_raw: Puqi Warrior
+  item_name_raw: Magic Boots
+  drop_share_raw: 0.0135%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Warrior
+    Item: Magic Boots
+    Drop Share: 0.0135%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0135
+    quantity: 1
+- drop_id: golden-beach__t005r0042
+  monster_name_raw: Puqi Warrior
+  item_name_raw: Scale Shell
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Warrior
+    Item: Scale Shell
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0043
+  monster_name_raw: Puqi Warrior
+  item_name_raw: Slarm's Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Warrior
+    Item: Slarm's Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: golden-beach__t005r0044
+  monster_name_raw: Puqi Warrior
+  item_name_raw: Ruby
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Puqi Warrior
+    Item: Ruby
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 44

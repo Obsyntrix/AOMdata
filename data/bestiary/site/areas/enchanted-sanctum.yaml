@@ -1,0 +1,195 @@
+area:
+  id: enchanted-sanctum
+  name_raw: Enchanted Sanctum
+  source:
+    origin_url: https://angels.wikidot.com/area:enchanted-sanctum
+    retrieval_url: https://www.aowiki.uk/pages/area_enchanted-sanctum.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 220914729a08d802c9eb0f1d2422c28fade6ed56125e9d505161fa3bee781a92
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: enchanted-sanctum__peapeachie__t001r0001
+  name_raw: Peapeachie
+  level_raw: '316'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_peapeachie.html
+  row_raw:
+    Monster Name: Peapeachie
+    Level: '316'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 316
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__chickdandy__t001r0002
+  name_raw: Chickdandy
+  level_raw: '316'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chickdandy.html
+  row_raw:
+    Monster Name: Chickdandy
+    Level: '316'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 316
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__aerial-assassin__t001r0003
+  name_raw: Aerial Assassin
+  level_raw: '318'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_aerial-assassin.html
+  row_raw:
+    Monster Name: Aerial Assassin
+    Level: '318'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 318
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__judo-bun__t001r0004
+  name_raw: Judo Bun
+  level_raw: '318'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_judo-bun.html
+  row_raw:
+    Monster Name: Judo Bun
+    Level: '318'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 318
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__gypsophila__t001r0005
+  name_raw: Gypsophila
+  level_raw: '320'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gypsophila.html
+  row_raw:
+    Monster Name: Gypsophila
+    Level: '320'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 320
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__brass-colossus__t001r0006
+  name_raw: Brass Colossus
+  level_raw: '320'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_brass-colossus.html
+  row_raw:
+    Monster Name: Brass Colossus
+    Level: '320'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 320
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__nighthoot__t001r0007
+  name_raw: Nighthoot
+  level_raw: '320'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_nighthoot.html
+  row_raw:
+    Monster Name: Nighthoot
+    Level: '320'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 320
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__amethycorn__t001r0008
+  name_raw: Amethycorn
+  level_raw: '323'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_amethycorn.html
+  row_raw:
+    Monster Name: Amethycorn
+    Level: '323'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 323
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__tippler-tom__t001r0009
+  name_raw: Tippler Tom
+  level_raw: '323'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tippler-tom.html
+  row_raw:
+    Monster Name: Tippler Tom
+    Level: '323'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 323
+    boss: false
+    aggressive: true
+- area_occurrence_id: enchanted-sanctum__matrix-defender__t001r0010
+  name_raw: Matrix Defender
+  level_raw: '323'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_matrix-defender.html
+  row_raw:
+    Monster Name: Matrix Defender
+    Level: '323'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 323
+    boss: false
+    aggressive: true
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Peapeachie
+  - '325'
+  - 'No'
+  - 'Yes'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Manahoot Girgil
+  - '326'
+  - 'Yes'
+  - 'Yes'
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Crazed Zealot
+  - '300'
+  - 'No'
+  - 'Yes'
+  row_count: 2

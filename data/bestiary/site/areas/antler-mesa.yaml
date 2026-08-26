@@ -1,0 +1,195 @@
+area:
+  id: antler-mesa
+  name_raw: Antler Mesa
+  source:
+    origin_url: https://angels.wikidot.com/area:antler-mesa
+    retrieval_url: https://www.aowiki.uk/pages/area_antler-mesa.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 09e86a84cfe59f01b67aa88b25979e0d8a85f9464cb7653a1bfc07dc81d2f8bc
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: antler-mesa__icy-sybil__t001r0001
+  name_raw: Icy Sybil
+  level_raw: '291'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_icy-sybil.html
+  row_raw:
+    Monster Name: Icy Sybil
+    Level: '291'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 291
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__proud-meow__t001r0002
+  name_raw: Proud Meow
+  level_raw: '291'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_proud-meow.html
+  row_raw:
+    Monster Name: Proud Meow
+    Level: '291'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 291
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__necro-dino__t001r0003
+  name_raw: Necro Dino
+  level_raw: '294'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_necro-dino.html
+  row_raw:
+    Monster Name: Necro Dino
+    Level: '294'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 294
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__frosto-dino__t001r0004
+  name_raw: Frosto Dino
+  level_raw: '294'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_frosto-dino.html
+  row_raw:
+    Monster Name: Frosto Dino
+    Level: '294'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 294
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__sharp-tigra__t001r0005
+  name_raw: Sharp Tigra
+  level_raw: '295'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sharp-tigra.html
+  row_raw:
+    Monster Name: Sharp Tigra
+    Level: '295'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 295
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__dewy-tigra__t001r0006
+  name_raw: Dewy Tigra
+  level_raw: '295'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dewy-tigra.html
+  row_raw:
+    Monster Name: Dewy Tigra
+    Level: '295'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 295
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__netherex__t001r0007
+  name_raw: Netherex
+  level_raw: '296'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_netherex.html
+  row_raw:
+    Monster Name: Netherex
+    Level: '296'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 296
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__nethershade__t001r0008
+  name_raw: Nethershade
+  level_raw: '297'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_nethershade.html
+  row_raw:
+    Monster Name: Nethershade
+    Level: '297'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 297
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__murple-palm__t001r0009
+  name_raw: Murple Palm
+  level_raw: '298'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_murple-palm.html
+  row_raw:
+    Monster Name: Murple Palm
+    Level: '298'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 298
+    boss: false
+    aggressive: false
+- area_occurrence_id: antler-mesa__shadow-palm__t001r0010
+  name_raw: Shadow Palm
+  level_raw: '299'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_shadow-palm.html
+  row_raw:
+    Monster Name: Shadow Palm
+    Level: '299'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 299
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Icy Sybil
+  - '300'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - '?'
+  - '301'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

@@ -1,0 +1,1268 @@
+area:
+  id: ancient-front
+  name_raw: Ancient Front
+  source:
+    origin_url: https://angels.wikidot.com/area:ancient-front
+    retrieval_url: https://www.aowiki.uk/pages/area_ancient-front.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: ad5240d4f3214409bc29f39c2335043b0d9a2a132cd73786f0ec35f661d7cfd8
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: ancient-front__pink-lizard__t003r0001
+  name_raw: Pink Lizard
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pink-lizard.html
+  row_raw:
+    Monster Name: Pink Lizard
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__dark-beetle__t003r0002
+  name_raw: Dark Beetle
+  level_raw: '101'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dark-beetle.html
+  row_raw:
+    Monster Name: Dark Beetle
+    Level: '101'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 101
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__earth-worm__t003r0003
+  name_raw: Earth Worm
+  level_raw: '102'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-worm.html
+  row_raw:
+    Monster Name: Earth Worm
+    Level: '102'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 102
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__poison-smoker__t003r0004
+  name_raw: Poison Smoker
+  level_raw: '105'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_poison-smoker.html
+  row_raw:
+    Monster Name: Poison Smoker
+    Level: '105'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 105
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__giant-smoker__t003r0005
+  name_raw: Giant Smoker
+  level_raw: '103'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-smoker.html
+  row_raw:
+    Monster Name: Giant Smoker
+    Level: '103'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 103
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__sand-rock-goblin__t003r0006
+  name_raw: Sand Rock Goblin
+  level_raw: '107'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sand-rock-goblin.html
+  row_raw:
+    Monster Name: Sand Rock Goblin
+    Level: '107'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 107
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-front__grass-goblin__t003r0007
+  name_raw: Grass Goblin
+  level_raw: '108'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_grass-goblin.html
+  row_raw:
+    Monster Name: Grass Goblin
+    Level: '108'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 108
+    boss: false
+    aggressive: true
+drops:
+- drop_id: ancient-front__t006r0001
+  monster_name_raw: Dark Beetle
+  item_name_raw: Dark Eagle Boots
+  drop_share_raw: 0.0319%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Beetle
+    Item: Dark Eagle Boots
+    Drop Share: 0.0319%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0319
+    quantity: 1
+- drop_id: ancient-front__t006r0002
+  monster_name_raw: Dark Beetle
+  item_name_raw: Desert Eagle Shoes
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Beetle
+    Item: Desert Eagle Shoes
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0003
+  monster_name_raw: Dark Beetle
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Beetle
+    Item: Flawless Sapphire
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: ancient-front__t006r0004
+  monster_name_raw: Earth Worm
+  item_name_raw: Wonder Gloves
+  drop_share_raw: 0.0343%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Worm
+    Item: Wonder Gloves
+    Drop Share: 0.0343%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0343
+    quantity: 1
+- drop_id: ancient-front__t006r0005
+  monster_name_raw: Earth Worm
+  item_name_raw: Roaring Prophet
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Worm
+    Item: Roaring Prophet
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0006
+  monster_name_raw: Earth Worm
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Worm
+    Item: Flawless Emerald
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: ancient-front__t006r0007
+  monster_name_raw: Giant Smoker
+  item_name_raw: Wonder Cap
+  drop_share_raw: 0.0212%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Wonder Cap
+    Drop Share: 0.0212%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0212
+    quantity: 1
+- drop_id: ancient-front__t006r0008
+  monster_name_raw: Giant Smoker
+  item_name_raw: Feather Bracelet
+  drop_share_raw: 0.0212%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Feather Bracelet
+    Drop Share: 0.0212%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0212
+    quantity: 1
+- drop_id: ancient-front__t006r0009
+  monster_name_raw: Giant Smoker
+  item_name_raw: Roaring Prophet Cap
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Roaring Prophet Cap
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0010
+  monster_name_raw: Giant Smoker
+  item_name_raw: Water Elf's Dance
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Water Elf's Dance
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0011
+  monster_name_raw: Giant Smoker
+  item_name_raw: Forest Ox
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Forest Ox
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ancient-front__t006r0012
+  monster_name_raw: Giant Smoker
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Smoker
+    Item: Flawless Sapphire
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: ancient-front__t006r0013
+  monster_name_raw: Grass Goblin
+  item_name_raw: Gnosis Judge
+  drop_share_raw: 0.0350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Gnosis Judge
+    Drop Share: 0.0350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.035
+    quantity: 1
+- drop_id: ancient-front__t006r0014
+  monster_name_raw: Grass Goblin
+  item_name_raw: Battle Horn Boots
+  drop_share_raw: 0.0350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Battle Horn Boots
+    Drop Share: 0.0350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.035
+    quantity: 1
+- drop_id: ancient-front__t006r0015
+  monster_name_raw: Grass Goblin
+  item_name_raw: Camael's Judgment
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Camael's Judgment
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0016
+  monster_name_raw: Grass Goblin
+  item_name_raw: Steel Horn Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Steel Horn Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0017
+  monster_name_raw: Grass Goblin
+  item_name_raw: Yappy Duck Bathtub
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Yappy Duck Bathtub
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ancient-front__t006r0018
+  monster_name_raw: Grass Goblin
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Flawless Emerald
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: ancient-front__t006r0019
+  monster_name_raw: Grass Goblin
+  item_name_raw: Grass Goblin Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grass Goblin
+    Item: Grass Goblin Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: ancient-front__t006r0020
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Roaring Wind
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Roaring Wind
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: ancient-front__t006r0021
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Battle Horn Armor
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Battle Horn Armor
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: ancient-front__t006r0022
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Battle Horn Boots
+  drop_share_raw: 1.3718%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Battle Horn Boots
+    Drop Share: 1.3718%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3718
+    quantity: 1
+- drop_id: ancient-front__t006r0023
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Holy Prophet's Scar
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Holy Prophet's Scar
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: ancient-front__t006r0024
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Steel Horn Armor
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Steel Horn Armor
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: ancient-front__t006r0025
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Steel Horn Boots
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Steel Horn Boots
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: ancient-front__t006r0026
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Tropical Fruit Dish
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Tropical Fruit Dish
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: ancient-front__t006r0027
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Ice Leopard
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Ice Leopard
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: ancient-front__t006r0028
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0866%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Flawless Emerald
+    Drop Share: 0.0866%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0866
+    quantity: 1
+- drop_id: ancient-front__t006r0029
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-front__t006r0030
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Effective Magic Fruit
+  drop_share_raw: 93.7423%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Effective Magic Fruit
+    Drop Share: 93.7423%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 93.7423
+    quantity: 1
+- drop_id: ancient-front__t006r0031
+  monster_name_raw: Harold The Dragon
+  item_name_raw: Dragon Harold Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harold The Dragon
+    Item: Dragon Harold Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: ancient-front__t006r0032
+  monster_name_raw: Pink Lizard
+  item_name_raw: Life Wand
+  drop_share_raw: 0.0274%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Lizard
+    Item: Life Wand
+    Drop Share: 0.0274%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0274
+    quantity: 1
+- drop_id: ancient-front__t006r0033
+  monster_name_raw: Pink Lizard
+  item_name_raw: Espial Boots
+  drop_share_raw: 0.0274%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Lizard
+    Item: Espial Boots
+    Drop Share: 0.0274%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0274
+    quantity: 1
+- drop_id: ancient-front__t006r0034
+  monster_name_raw: Pink Lizard
+  item_name_raw: Laduna's Claw
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Lizard
+    Item: Laduna's Claw
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0035
+  monster_name_raw: Pink Lizard
+  item_name_raw: Magnetic Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Lizard
+    Item: Magnetic Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ancient-front__t006r0036
+  monster_name_raw: Pink Lizard
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Lizard
+    Item: Clean Purple Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: ancient-front__t006r0037
+  monster_name_raw: Poison Smoker
+  item_name_raw: Battle Horn Armor
+  drop_share_raw: 0.0368%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poison Smoker
+    Item: Battle Horn Armor
+    Drop Share: 0.0368%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0368
+    quantity: 1
+- drop_id: ancient-front__t006r0038
+  monster_name_raw: Poison Smoker
+  item_name_raw: Steel Horn Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poison Smoker
+    Item: Steel Horn Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ancient-front__t006r0039
+  monster_name_raw: Poison Smoker
+  item_name_raw: Tropical Fruit Dish
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poison Smoker
+    Item: Tropical Fruit Dish
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ancient-front__t006r0040
+  monster_name_raw: Poison Smoker
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poison Smoker
+    Item: Flawless Emerald
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: ancient-front__t006r0041
+  monster_name_raw: Raging Stoneman
+  item_name_raw: King's Roar
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: King's Roar
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: ancient-front__t006r0042
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Dark Eagle Armor
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Dark Eagle Armor
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: ancient-front__t006r0043
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Dark Eagle Boots
+  drop_share_raw: 2.3300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Dark Eagle Boots
+    Drop Share: 2.3300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.33
+    quantity: 1
+- drop_id: ancient-front__t006r0044
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Hercules' Armor
+  drop_share_raw: 0.0033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Hercules' Armor
+    Drop Share: 0.0033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0033
+    quantity: 1
+- drop_id: ancient-front__t006r0045
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Desert Eagle Armor
+  drop_share_raw: 0.0033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Desert Eagle Armor
+    Drop Share: 0.0033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0033
+    quantity: 1
+- drop_id: ancient-front__t006r0046
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Desert Eagle Shoes
+  drop_share_raw: 0.0033%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Desert Eagle Shoes
+    Drop Share: 0.0033%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0033
+    quantity: 1
+- drop_id: ancient-front__t006r0047
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Quadruple Shot V
+  drop_share_raw: 0.0099%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Quadruple Shot V
+    Drop Share: 0.0099%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0099
+    quantity: 1
+- drop_id: ancient-front__t006r0048
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Panda Puppet Robot
+  drop_share_raw: 0.0099%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Panda Puppet Robot
+    Drop Share: 0.0099%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0099
+    quantity: 1
+- drop_id: ancient-front__t006r0049
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0958%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Flawless Purple Gem
+    Drop Share: 0.0958%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0958
+    quantity: 1
+- drop_id: ancient-front__t006r0050
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-front__t006r0051
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Effective Target Potion
+  drop_share_raw: 90.4637%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Effective Target Potion
+    Drop Share: 90.4637%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 90.4637
+    quantity: 1
+- drop_id: ancient-front__t006r0052
+  monster_name_raw: Raging Stoneman
+  item_name_raw: Raging Giant Stoneman Card
+  drop_share_raw: 0.1543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Raging Stoneman
+    Item: Raging Giant Stoneman Card
+    Drop Share: 0.1543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1543
+    quantity: 1
+- drop_id: ancient-front__t006r0053
+  monster_name_raw: Sand Rock Goblin
+  item_name_raw: Roaring Wind
+  drop_share_raw: 0.0678%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Rock Goblin
+    Item: Roaring Wind
+    Drop Share: 0.0678%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0678
+    quantity: 1
+- drop_id: ancient-front__t006r0054
+  monster_name_raw: Sand Rock Goblin
+  item_name_raw: Holy Prophet's Scar
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Rock Goblin
+    Item: Holy Prophet's Scar
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ancient-front__t006r0055
+  monster_name_raw: Sand Rock Goblin
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Rock Goblin
+    Item: Flawless Orange Gem
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: ancient-front__t006r0056
+  monster_name_raw: Sand Rock Goblin
+  item_name_raw: Sand Rock Goblin Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Rock Goblin
+    Item: Sand Rock Goblin Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: ancient-front__t006r0057
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Bloody Scale Tooth
+  drop_share_raw: 2.2200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Bloody Scale Tooth
+    Drop Share: 2.2200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.22
+    quantity: 1
+- drop_id: ancient-front__t006r0058
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Wonder Cap
+  drop_share_raw: 2.2200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Wonder Cap
+    Drop Share: 2.2200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.22
+    quantity: 1
+- drop_id: ancient-front__t006r0059
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Wonder Gloves
+  drop_share_raw: 2.2200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Wonder Gloves
+    Drop Share: 2.2200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.22
+    quantity: 1
+- drop_id: ancient-front__t006r0060
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Apocal's Attack
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Apocal's Attack
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: ancient-front__t006r0061
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Roaring Prophet Cap
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Roaring Prophet Cap
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: ancient-front__t006r0062
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Roaring Prophet
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Roaring Prophet
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: ancient-front__t006r0063
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Powerful Beat V
+  drop_share_raw: 0.0094%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Powerful Beat V
+    Drop Share: 0.0094%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0094
+    quantity: 1
+- drop_id: ancient-front__t006r0064
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Wild Desert Camel
+  drop_share_raw: 0.0094%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Wild Desert Camel
+    Drop Share: 0.0094%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0094
+    quantity: 1
+- drop_id: ancient-front__t006r0065
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0920%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Flawless Sapphire
+    Drop Share: 0.0920%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.092
+    quantity: 1
+- drop_id: ancient-front__t006r0066
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-front__t006r0067
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 90.5585%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Effective Evil Fruit
+    Drop Share: 90.5585%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 90.5585
+    quantity: 1
+- drop_id: ancient-front__t006r0068
+  monster_name_raw: Savage Elite Leslie
+  item_name_raw: Savage Elite Leslie Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Savage Elite Leslie
+    Item: Savage Elite Leslie Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Harold The Dragon
+  - '105'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 68

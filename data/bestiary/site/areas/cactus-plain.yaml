@@ -1,0 +1,1296 @@
+area:
+  id: cactus-plain
+  name_raw: Cactus Plain
+  source:
+    origin_url: https://angels.wikidot.com/area:cactus-plain
+    retrieval_url: https://www.aowiki.uk/pages/area_cactus-plain.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: cactus-plain__spear-lizardman__t004r0001
+  name_raw: Spear Lizardman
+  level_raw: '18'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_spear-lizardman.html
+  row_raw:
+    Monster Name: Spear Lizardman
+    Level: '18'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 18
+    boss: false
+    aggressive: true
+- area_occurrence_id: cactus-plain__plateau-monkey__t004r0002
+  name_raw: Plateau Monkey
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_plateau-monkey.html
+  row_raw:
+    Monster Name: Plateau Monkey
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: false
+- area_occurrence_id: cactus-plain__ball-lizardman__t004r0003
+  name_raw: Ball Lizardman
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ball-lizardman.html
+  row_raw:
+    Monster Name: Ball Lizardman
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: true
+- area_occurrence_id: cactus-plain__farmongee__t004r0005
+  name_raw: Farmongee
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_farmongee.html
+  row_raw:
+    Monster Name: Farmongee
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+- area_occurrence_id: cactus-plain__lizard-lisad__t004r0006
+  name_raw: Lizard Lisad
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_lizard-lisad.html
+  row_raw:
+    Monster Name: Lizard Lisad
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+drops:
+- drop_id: cactus-plain__t006r0001
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Iron Wristlet
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0002
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Long Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Long Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0003
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Linen Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Linen Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0004
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0005
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0006
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Protector's Gloves
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0007
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Flawed Ruby
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0008
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Defective Orange Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0009
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0010
+  monster_name_raw: Ball Lizardman
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Lizardman
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: cactus-plain__t006r0011
+  monster_name_raw: Farmongee
+  item_name_raw: Iron Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Iron Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0012
+  monster_name_raw: Farmongee
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Thick-soled Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0013
+  monster_name_raw: Farmongee
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Cotton Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0014
+  monster_name_raw: Farmongee
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Heavy Leather Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0015
+  monster_name_raw: Farmongee
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Light Leather Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0016
+  monster_name_raw: Farmongee
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Protector's Magic Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0017
+  monster_name_raw: Farmongee
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Turtle Shell Bag
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0018
+  monster_name_raw: Farmongee
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Ring of Envoy
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0019
+  monster_name_raw: Farmongee
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Flawed Emerald
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0020
+  monster_name_raw: Farmongee
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Flawed Sapphire
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0021
+  monster_name_raw: Farmongee
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Flawed Purple Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0022
+  monster_name_raw: Farmongee
+  item_name_raw: Cure Spell 5
+  drop_share_raw: 1.5622%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Cure Spell 5
+    Drop Share: 1.5622%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5622
+    quantity: 1
+- drop_id: cactus-plain__t006r0023
+  monster_name_raw: Farmongee
+  item_name_raw: Summon Skeleton V
+  drop_share_raw: 1.5622%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Summon Skeleton V
+    Drop Share: 1.5622%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5622
+    quantity: 1
+- drop_id: cactus-plain__t006r0024
+  monster_name_raw: Farmongee
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Fruit of Hercules
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: cactus-plain__t006r0025
+  monster_name_raw: Farmongee
+  item_name_raw: Target Potion
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Target Potion
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: cactus-plain__t006r0026
+  monster_name_raw: Farmongee
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Farmongee
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+- drop_id: cactus-plain__t006r0027
+  monster_name_raw: Gebuer
+  item_name_raw: Thick Armor
+  drop_share_raw: 0.3141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Thick Armor
+    Drop Share: 0.3141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3141
+    quantity: 1
+- drop_id: cactus-plain__t006r0028
+  monster_name_raw: Gebuer
+  item_name_raw: Leather Vest
+  drop_share_raw: 0.3141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Leather Vest
+    Drop Share: 0.3141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3141
+    quantity: 1
+- drop_id: cactus-plain__t006r0029
+  monster_name_raw: Gebuer
+  item_name_raw: Heavy Leather Armor
+  drop_share_raw: 0.0052%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Heavy Leather Armor
+    Drop Share: 0.0052%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0052
+    quantity: 1
+- drop_id: cactus-plain__t006r0030
+  monster_name_raw: Gebuer
+  item_name_raw: Light Leather Armor
+  drop_share_raw: 0.0052%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Light Leather Armor
+    Drop Share: 0.0052%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0052
+    quantity: 1
+- drop_id: cactus-plain__t006r0031
+  monster_name_raw: Gebuer
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Flawed Emerald
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: cactus-plain__t006r0032
+  monster_name_raw: Gebuer
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Flawed Sapphire
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: cactus-plain__t006r0033
+  monster_name_raw: Gebuer
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Flawed Purple Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: cactus-plain__t006r0034
+  monster_name_raw: Gebuer
+  item_name_raw: Map Piece
+  drop_share_raw: 1.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gebuer
+    Item: Map Piece
+    Drop Share: 1.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.047
+    quantity: 1
+- drop_id: cactus-plain__t006r0035
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Iron Wristlet
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0036
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Long Gloves
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Long Gloves
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0037
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Linen Gloves
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Linen Gloves
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0038
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0039
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Bone Wristlet
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0040
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Protector's Gloves
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: cactus-plain__t006r0041
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Turtle Shell Bag
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0042
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Ring of Envoy
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: cactus-plain__t006r0043
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Flawed Ruby
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0044
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Defective Orange Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0045
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: cactus-plain__t006r0046
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Slicing Hit V
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Slicing Hit V
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: cactus-plain__t006r0047
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Basic Beating V
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Basic Beating V
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: cactus-plain__t006r0048
+  monster_name_raw: Lizard Lisad
+  item_name_raw: 'Assassin Skill: Stab V'
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: 'Assassin Skill: Stab V'
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: cactus-plain__t006r0049
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Fruit of Mars
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Fruit of Mars
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: cactus-plain__t006r0050
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Agility Potion
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Agility Potion
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: cactus-plain__t006r0051
+  monster_name_raw: Lizard Lisad
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lizard Lisad
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+- drop_id: cactus-plain__t006r0052
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Iron Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Iron Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0053
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Thick-soled Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0054
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Cotton Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: cactus-plain__t006r0055
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Heavy Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0056
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Light Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0057
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Protector's Magic Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: cactus-plain__t006r0058
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Flawed Emerald
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0059
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Flawed Sapphire
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0060
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Flawed Purple Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: cactus-plain__t006r0061
+  monster_name_raw: Plateau Monkey
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Plateau Monkey
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: cactus-plain__t006r0062
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Hook
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Hook
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: cactus-plain__t006r0063
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Catapult
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Catapult
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: cactus-plain__t006r0064
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Staff
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Staff
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: cactus-plain__t006r0065
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Slingshot
+  drop_share_raw: 0.1059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Slingshot
+    Drop Share: 0.1059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1059
+    quantity: 1
+- drop_id: cactus-plain__t006r0066
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Curse Hook
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Curse Hook
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: cactus-plain__t006r0067
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Raid Slingshot
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Raid Slingshot
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: cactus-plain__t006r0068
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Holy Wood Staff
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Holy Wood Staff
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: cactus-plain__t006r0069
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Emerald Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Emerald Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: cactus-plain__t006r0070
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Sapphire Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Sapphire Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: cactus-plain__t006r0071
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Purple Gem Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Purple Gem Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: cactus-plain__t006r0072
+  monster_name_raw: Spear Lizardman
+  item_name_raw: Map Piece
+  drop_share_raw: 3.1780%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spear Lizardman
+    Item: Map Piece
+    Drop Share: 3.1780%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.178
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 72

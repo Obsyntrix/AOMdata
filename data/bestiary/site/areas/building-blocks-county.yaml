@@ -1,160 +1,2279 @@
 area:
   id: building-blocks-county
-  name_raw: "Building Blocks County"
-  level_range_raw: "96-110"
+  name_raw: Building Blocks County
   source:
-    origin_url: "https://angels.wikidot.com/area:building-blocks-county"
-    bestiary_url: "https://angels.wikidot.com/bestiary:by-area"
-    retrieval_url: "https://www.aowiki.uk/pages/area_building-blocks-county.html"
+    origin_url: https://angels.wikidot.com/area:building-blocks-county
+    retrieval_url: https://www.aowiki.uk/pages/area_building-blocks-county.html
     source_kind: angels_wiki_area_mirror
     mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: f34948303d522f3990deca8e893de92c267d71c6cf85ac99c20b254b05fb133b
   capture:
     monsters: complete
     zone_drops: complete
   verification:
     client_confirmation: pending
-
 monsters:
-  - {spawn_id: building-blocks-county__earth-winged-bird, name_raw: "Earth Winged Bird", level_raw: "96", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "earth-winged-bird.gif", hp: "16176", attack_type: "Short", attack: "1160", defense: "1292", spell_attack: "693", spell_defense: "537", aggression: "No", experience: "8880", area: "Building Blocks County"}, normalized: {level: 96, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__sky-winged-bird, name_raw: "Sky Winged Bird", level_raw: "96", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "sky-winged-bird.gif", hp: "16176", attack_type: "Short", attack: "1160", defense: "1292", spell_attack: "693", spell_defense: "537", aggression: "No", experience: "8880", area: "Building Blocks County"}, normalized: {level: 96, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__fire-ball-baby, name_raw: "Fire Ball Baby", level_raw: "98", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "fire-ball-baby.gif", hp: "16584", attack_type: "Short", attack: "1206", defense: "1346", spell_attack: "710", spell_defense: "649", aggression: "No", experience: "9402", area: "Building Blocks County"}, normalized: {level: 98, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__flower-thorn-baby, name_raw: "Flower Thorn Baby", level_raw: "98", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "flower-thorn-baby.gif", hp: "16584", attack_type: "Short", attack: "1206", defense: "1346", spell_attack: "710", spell_defense: "649", aggression: "No", experience: "9402", area: "Building Blocks County"}, normalized: {level: 98, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__apple-dwarf, name_raw: "Apple Dwarf", level_raw: "100", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "apple-dwarf.gif", hp: "16994", attack_type: "Short", attack: "1378", defense: "1476", spell_attack: "861", spell_defense: "698", aggression: "No", experience: "9948", area: "Building Blocks County"}, normalized: {level: 100, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__sweet-dwarf, name_raw: "Sweet Dwarf", level_raw: "100", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "sweet-dwarf.gif", hp: "16994", attack_type: "Short", attack: "1378", defense: "1476", spell_attack: "861", spell_defense: "698", aggression: "No", experience: "9948", area: "Building Blocks County"}, normalized: {level: 100, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__dog-fighter, name_raw: "Dog Fighter", level_raw: "102", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "dog-fighter.gif", hp: "17407", attack_type: "Short", attack: "1426", defense: "1533", spell_attack: "883", spell_defense: "763", aggression: "No", experience: "10344", area: "Building Blocks County"}, normalized: {level: 102, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__dog-swordsman, name_raw: "Dog Swordsman", level_raw: "102", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "dog-swordsman.gif", hp: "17407", attack_type: "Short", attack: "1426", defense: "1533", spell_attack: "883", spell_defense: "763", aggression: "No", experience: "10344", area: "Building Blocks County"}, normalized: {level: 102, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__little-piggy, name_raw: "Little Piggy", level_raw: "104", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "little-piggy.gif", hp: "17822", attack_type: "Short", attack: "1474", defense: "1590", spell_attack: "905", spell_defense: "828", aggression: "No", experience: "10752", area: "Building Blocks County"}, normalized: {level: 104, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__big-piggy, name_raw: "Big Piggy", level_raw: "104", boss_raw: "No", aggressive_raw: "No", summary_raw: {image: "big-piggy.gif", hp: "17822", attack_type: "Short", attack: "1474", defense: "1590", spell_attack: "905", spell_defense: "828", aggression: "No", experience: "10752", area: "Building Blocks County"}, normalized: {level: 104, boss: false, aggressive: false}}
-  - {spawn_id: building-blocks-county__eyebasher-chiley, name_raw: "Eyebasher Chiley", level_raw: "105", boss_raw: "Yes", aggressive_raw: "No", summary_raw: {image: "eyebasher-chiley.gif", hp: "95410", attack_type: "Short", attack: "1653", defense: "1772", spell_attack: "1254", spell_defense: "1023", aggression: "No BOSS", experience: "60090", area: "Building Blocks County"}, normalized: {level: 105, boss: true, aggressive: false}}
-  - {spawn_id: building-blocks-county__pig-leader-kohl, name_raw: "Pig Leader Kohl", level_raw: "108", boss_raw: "Yes", aggressive_raw: "No", summary_raw: {image: "pig-leader-kohl.gif", hp: "98600", attack_type: "Short", attack: "1737", defense: "1871", spell_attack: "1340", spell_defense: "1053", aggression: "No BOSS", experience: "63450", area: "Building Blocks County"}, normalized: {level: 108, boss: true, aggressive: false}}
-  - {spawn_id: building-blocks-county__magic-tutor-hicder, name_raw: "Magic Tutor Hicder", level_raw: "110", boss_raw: "Yes", aggressive_raw: "No", summary_raw: {image: "magic-tutor-hicder.gif", hp: "100745", attack_type: "Short", attack: "1793", defense: "1937", spell_attack: "1397", spell_defense: "1073", aggression: "No BOSS", experience: "65730", area: "Building Blocks County"}, normalized: {level: 110, boss: true, aggressive: false}}
-
+- area_occurrence_id: building-blocks-county__earth-winged-bird__t003r0001
+  name_raw: Earth Winged Bird
+  level_raw: '96'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-winged-bird.html
+  row_raw:
+    Monster Name: Earth Winged Bird
+    Level: '96'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 96
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__sky-winged-bird__t003r0002
+  name_raw: Sky Winged Bird
+  level_raw: '96'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sky-winged-bird.html
+  row_raw:
+    Monster Name: Sky Winged Bird
+    Level: '96'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 96
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__fire-ball-baby__t003r0003
+  name_raw: Fire Ball Baby
+  level_raw: '98'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-ball-baby.html
+  row_raw:
+    Monster Name: Fire Ball Baby
+    Level: '98'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 98
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__flower-thorn-baby__t003r0004
+  name_raw: Flower Thorn Baby
+  level_raw: '98'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flower-thorn-baby.html
+  row_raw:
+    Monster Name: Flower Thorn Baby
+    Level: '98'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 98
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__apple-dwarf__t003r0005
+  name_raw: Apple Dwarf
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_apple-dwarf.html
+  row_raw:
+    Monster Name: Apple Dwarf
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__sweet-dwarf__t003r0006
+  name_raw: Sweet Dwarf
+  level_raw: '100'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sweet-dwarf.html
+  row_raw:
+    Monster Name: Sweet Dwarf
+    Level: '100'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__dog-fighter__t003r0007
+  name_raw: Dog Fighter
+  level_raw: '102'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dog-fighter.html
+  row_raw:
+    Monster Name: Dog Fighter
+    Level: '102'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 102
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__dog-swordsman__t003r0008
+  name_raw: Dog Swordsman
+  level_raw: '102'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dog-swordsman.html
+  row_raw:
+    Monster Name: Dog Swordsman
+    Level: '102'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 102
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__little-piggy__t003r0009
+  name_raw: Little Piggy
+  level_raw: '104'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_little-piggy.html
+  row_raw:
+    Monster Name: Little Piggy
+    Level: '104'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 104
+    boss: false
+    aggressive: false
+- area_occurrence_id: building-blocks-county__big-piggy__t003r0010
+  name_raw: Big Piggy
+  level_raw: '104'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_big-piggy.html
+  row_raw:
+    Monster Name: Big Piggy
+    Level: '104'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 104
+    boss: false
+    aggressive: false
 drops:
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Gnosis Judge", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Good Gnosis Judge", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Camael's Judgment", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Wonder Cap", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Good Wonder Cap", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Roaring Prophet Cap", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Apple Dwarf", spawn_id: building-blocks-county__apple-dwarf, item_name_raw: "Purple Light Rune Piece", drop_share_raw: "1.1775%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Wonder Gown", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Good Wonder Gown", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Roaring Prophet Gown", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Battle Horn Boots", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Good Battle Horn Boots", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Steel Horn Boots", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Big Piggy", spawn_id: building-blocks-county__big-piggy, item_name_raw: "Blue Light Rune Piece", drop_share_raw: "1.1775%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Dark Eagle Armor", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Good Dark Eagle Armor", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Desert Eagle Armor", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Wonder Gloves", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Good Wonder Gloves", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Roaring Prophet", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Fighter", spawn_id: building-blocks-county__dog-fighter, item_name_raw: "Green Light Rune Piece", drop_share_raw: "1.1775%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Roaring Wind", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Good Roaring Wind", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Holy Prophet's Scar", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Battle Horn Helmet", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Good Battle Horn Helmet", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Steel Horn Helmet", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Dog Swordsman", spawn_id: building-blocks-county__dog-swordsman, item_name_raw: "Yellow Light Rune Piece", drop_share_raw: "1.1775%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Wildness Helmet", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Good Wildness Helmet", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Fighter Helmet", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Woods Helmet", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Good Woods Helmet", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Conqueror Helmet", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Orange Light Rune Piece", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "A.Plan2: Wildness Helmet", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "A.Plan2: Conqueror Helmet", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Hell Executioner", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Good Hell Executioner", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "Carved Sin Blade", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Earth Winged Bird", spawn_id: building-blocks-county__earth-winged-bird, item_name_raw: "W.Plan2: Hell Executioner", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "War Ram Bone Bow", drop_share_raw: "3.1900%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Good War Ram Bone Bow", drop_share_raw: "0.7181%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Pan's Rescue", drop_share_raw: "0.0040%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Springtide Armor", drop_share_raw: "3.1900%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Good Springtide Armor", drop_share_raw: "0.7181%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Holy Feather Armor", drop_share_raw: "0.0040%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Flawed Red Light Rune", drop_share_raw: "0.0004%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "W.Plan2: War Ram Bone Bow", drop_share_raw: "0.0479%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "A.Plan2: Springtide Armor", drop_share_raw: "0.0479%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Pestle", drop_share_raw: "0.0054%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Super Healing Potion", drop_share_raw: "45.4627%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Eyebasher Chiley", spawn_id: building-blocks-county__eyebasher-chiley, item_name_raw: "Super Mars' Fruit", drop_share_raw: "46.6116%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Parrot Wand", drop_share_raw: "47.4705%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Good Parrot Wand", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Aurora's Prediction", drop_share_raw: "0.0520%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Wildness Armor", drop_share_raw: "47.4705%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Good Wildness Armor", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Fighter Armor", drop_share_raw: "0.0520%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Green Light Rune Piece", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "Craft Recipe 2: Parrot Wand", drop_share_raw: "0.4505%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Fire Ball Baby", spawn_id: building-blocks-county__fire-ball-baby, item_name_raw: "A.Plan2: Wildness Armor", drop_share_raw: "0.4505%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Black Knight's Axe", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Good Black Knight's Axe", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "??-??- ??????", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Magician Gown", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Good Magician Gown", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Dream Saint Gown", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Dragon's Scale Mantle", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Good Dragon's Scale Mantle", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Magic Dragon's Wings", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "Blue Light Rune Piece", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "W.Plan2: Black Knight's Axe", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "D.Plan2: Magician Gown", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Flower Thorn Baby", spawn_id: building-blocks-county__flower-thorn-baby, item_name_raw: "D.Plan2: Dragon's Scale Mantle", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Battle Horn Armor", drop_share_raw: "47.6404%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Good Battle Horn Armor", drop_share_raw: "1.1649%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Steel Horn Armor", drop_share_raw: "0.0299%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Green Light Rune Piece", drop_share_raw: "2.3297%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Sword of the Impure", drop_share_raw: "47.6404%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Good Sword of the Impure", drop_share_raw: "1.1649%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Little Piggy", spawn_id: building-blocks-county__little-piggy, item_name_raw: "Widow's Hug", drop_share_raw: "0.0299%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Elegant Wand", drop_share_raw: "3.7150%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Good Elegant Wand", drop_share_raw: "0.8362%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Blood of Adonis", drop_share_raw: "0.0046%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Titan Armor", drop_share_raw: "3.7150%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Good Titan Armor", drop_share_raw: "0.8362%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Holy Silver Armor", drop_share_raw: "0.0046%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Flawed Purple Light Rune", drop_share_raw: "0.0005%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Craft Recipe 2: Elegant Wand", drop_share_raw: "0.0557%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "A.Plan2: Titan Armor", drop_share_raw: "0.0557%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Pestle", drop_share_raw: "0.0054%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Super Mighty Fruit", drop_share_raw: "45.3808%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Super Evil Fruit", drop_share_raw: "45.3808%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Magic Tutor Hicder", spawn_id: building-blocks-county__magic-tutor-hicder, item_name_raw: "Big Mouth Bird", drop_share_raw: "0.0093%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Anima War Hammer", drop_share_raw: "3.4950%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Good Anima War Hammer", drop_share_raw: "0.7868%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Glass's Shock", drop_share_raw: "0.0044%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Cosmic Gown", drop_share_raw: "3.4950%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Good Cosmic Gown", drop_share_raw: "0.7868%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Flamen Gown", drop_share_raw: "0.0044%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Flawed Orange Light Rune", drop_share_raw: "0.0004%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "W.Plan2: Anima War Hammer", drop_share_raw: "0.0525%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "D.Plan2: Cosmic Gown", drop_share_raw: "0.0525%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Pestle", drop_share_raw: "0.0054%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Super Magic Potion", drop_share_raw: "45.6541%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Super Magic Fruit", drop_share_raw: "45.6541%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Pig Leader Kohl", spawn_id: building-blocks-county__pig-leader-kohl, item_name_raw: "Cantaloupe Dish", drop_share_raw: "0.0087%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Crescent Bow", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Good Crescent Bow", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Artemis's Chase", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Woods Armor", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Good Woods Armor", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Conqueror Armor", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Husk Shield", drop_share_raw: "31.6528%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Good Husk Shield", drop_share_raw: "0.9009%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Diamond Beetle", drop_share_raw: "0.0347%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "Red Light Rune Piece", drop_share_raw: "1.3514%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "W.Plan2: Crescent Bow", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "A.Plan2: Conqueror Armor", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sky Winged Bird", spawn_id: building-blocks-county__sky-winged-bird, item_name_raw: "A.Plan2: Husk Shield", drop_share_raw: "0.2945%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Feather Bracelet", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Good Feather Bracelet", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Water Elf's Dance", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Dark Eagle Boots", drop_share_raw: "48.1733%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Good Dark Eagle Boots", drop_share_raw: "1.1926%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Desert Eagle Shoes", drop_share_raw: "0.0453%", quantity_raw: "1", rate_semantic: zone_drop_share}
-  - {monster_name_raw: "Sweet Dwarf", spawn_id: building-blocks-county__sweet-dwarf, item_name_raw: "Yellow Light Rune Piece", drop_share_raw: "1.1775%", quantity_raw: "1", rate_semantic: zone_drop_share}
+- drop_id: building-blocks-county__t006r0001
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Gnosis Judge
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Gnosis Judge
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0002
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Good Gnosis Judge
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Good Gnosis Judge
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0003
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Camael's Judgment
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Camael's Judgment
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0004
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Wonder Cap
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Wonder Cap
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0005
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Good Wonder Cap
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Good Wonder Cap
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0006
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Roaring Prophet Cap
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Roaring Prophet Cap
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0007
+  monster_name_raw: Apple Dwarf
+  item_name_raw: Purple Light Rune Piece
+  drop_share_raw: 1.1775%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Apple Dwarf
+    Item: Purple Light Rune Piece
+    Drop Share: 1.1775%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1775
+    quantity: 1
+- drop_id: building-blocks-county__t006r0008
+  monster_name_raw: Big Piggy
+  item_name_raw: Wonder Gown
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Wonder Gown
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0009
+  monster_name_raw: Big Piggy
+  item_name_raw: Good Wonder Gown
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Good Wonder Gown
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0010
+  monster_name_raw: Big Piggy
+  item_name_raw: Roaring Prophet Gown
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Roaring Prophet Gown
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0011
+  monster_name_raw: Big Piggy
+  item_name_raw: Battle Horn Boots
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Battle Horn Boots
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0012
+  monster_name_raw: Big Piggy
+  item_name_raw: Good Battle Horn Boots
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Good Battle Horn Boots
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0013
+  monster_name_raw: Big Piggy
+  item_name_raw: Steel Horn Boots
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Steel Horn Boots
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0014
+  monster_name_raw: Big Piggy
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 1.1775%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Piggy
+    Item: Blue Light Rune Piece
+    Drop Share: 1.1775%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1775
+    quantity: 1
+- drop_id: building-blocks-county__t006r0015
+  monster_name_raw: Dog Fighter
+  item_name_raw: Dark Eagle Armor
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Dark Eagle Armor
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0016
+  monster_name_raw: Dog Fighter
+  item_name_raw: Good Dark Eagle Armor
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Good Dark Eagle Armor
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0017
+  monster_name_raw: Dog Fighter
+  item_name_raw: Desert Eagle Armor
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Desert Eagle Armor
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0018
+  monster_name_raw: Dog Fighter
+  item_name_raw: Wonder Gloves
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Wonder Gloves
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0019
+  monster_name_raw: Dog Fighter
+  item_name_raw: Good Wonder Gloves
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Good Wonder Gloves
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0020
+  monster_name_raw: Dog Fighter
+  item_name_raw: Roaring Prophet
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Roaring Prophet
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0021
+  monster_name_raw: Dog Fighter
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 1.1775%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Fighter
+    Item: Green Light Rune Piece
+    Drop Share: 1.1775%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1775
+    quantity: 1
+- drop_id: building-blocks-county__t006r0022
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Roaring Wind
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Roaring Wind
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0023
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Good Roaring Wind
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Good Roaring Wind
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0024
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Holy Prophet's Scar
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Holy Prophet's Scar
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0025
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Battle Horn Helmet
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Battle Horn Helmet
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0026
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Good Battle Horn Helmet
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Good Battle Horn Helmet
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0027
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Steel Horn Helmet
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Steel Horn Helmet
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0028
+  monster_name_raw: Dog Swordsman
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 1.1775%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dog Swordsman
+    Item: Yellow Light Rune Piece
+    Drop Share: 1.1775%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1775
+    quantity: 1
+- drop_id: building-blocks-county__t006r0029
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Wildness Helmet
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Wildness Helmet
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0030
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Good Wildness Helmet
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Good Wildness Helmet
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0031
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Fighter Helmet
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Fighter Helmet
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0032
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Woods Helmet
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Woods Helmet
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0033
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Good Woods Helmet
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Good Woods Helmet
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0034
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Conqueror Helmet
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Conqueror Helmet
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0035
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Orange Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0036
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: 'A.Plan2: Wildness Helmet'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: 'A.Plan2: Wildness Helmet'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0037
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: 'A.Plan2: Conqueror Helmet'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: 'A.Plan2: Conqueror Helmet'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0038
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Hell Executioner
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Hell Executioner
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0039
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Good Hell Executioner
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Good Hell Executioner
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0040
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: Carved Sin Blade
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: Carved Sin Blade
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0041
+  monster_name_raw: Earth Winged Bird
+  item_name_raw: 'W.Plan2: Hell Executioner'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Winged Bird
+    Item: 'W.Plan2: Hell Executioner'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0042
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: War Ram Bone Bow
+  drop_share_raw: 3.1900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: War Ram Bone Bow
+    Drop Share: 3.1900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.19
+    quantity: 1
+- drop_id: building-blocks-county__t006r0043
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Good War Ram Bone Bow
+  drop_share_raw: 0.7181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Good War Ram Bone Bow
+    Drop Share: 0.7181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7181
+    quantity: 1
+- drop_id: building-blocks-county__t006r0044
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Pan's Rescue
+  drop_share_raw: 0.0040%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Pan's Rescue
+    Drop Share: 0.0040%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.004
+    quantity: 1
+- drop_id: building-blocks-county__t006r0045
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Springtide Armor
+  drop_share_raw: 3.1900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Springtide Armor
+    Drop Share: 3.1900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.19
+    quantity: 1
+- drop_id: building-blocks-county__t006r0046
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Good Springtide Armor
+  drop_share_raw: 0.7181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Good Springtide Armor
+    Drop Share: 0.7181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7181
+    quantity: 1
+- drop_id: building-blocks-county__t006r0047
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Holy Feather Armor
+  drop_share_raw: 0.0040%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Holy Feather Armor
+    Drop Share: 0.0040%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.004
+    quantity: 1
+- drop_id: building-blocks-county__t006r0048
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Flawed Red Light Rune
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Flawed Red Light Rune
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: building-blocks-county__t006r0049
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: 'W.Plan2: War Ram Bone Bow'
+  drop_share_raw: 0.0479%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: 'W.Plan2: War Ram Bone Bow'
+    Drop Share: 0.0479%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0479
+    quantity: 1
+- drop_id: building-blocks-county__t006r0050
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: 'A.Plan2: Springtide Armor'
+  drop_share_raw: 0.0479%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: 'A.Plan2: Springtide Armor'
+    Drop Share: 0.0479%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0479
+    quantity: 1
+- drop_id: building-blocks-county__t006r0051
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: building-blocks-county__t006r0052
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Super Healing Potion
+  drop_share_raw: 45.4627%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Super Healing Potion
+    Drop Share: 45.4627%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.4627
+    quantity: 1
+- drop_id: building-blocks-county__t006r0053
+  monster_name_raw: Eyebasher Chiley
+  item_name_raw: Super Mars' Fruit
+  drop_share_raw: 46.6116%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eyebasher Chiley
+    Item: Super Mars' Fruit
+    Drop Share: 46.6116%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.6116
+    quantity: 1
+- drop_id: building-blocks-county__t006r0054
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Parrot Wand
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Parrot Wand
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: building-blocks-county__t006r0055
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Good Parrot Wand
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Good Parrot Wand
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0056
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Aurora's Prediction
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Aurora's Prediction
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: building-blocks-county__t006r0057
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Wildness Armor
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Wildness Armor
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: building-blocks-county__t006r0058
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Good Wildness Armor
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Good Wildness Armor
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0059
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Fighter Armor
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Fighter Armor
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: building-blocks-county__t006r0060
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: Green Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0061
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: 'Craft Recipe 2: Parrot Wand'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: 'Craft Recipe 2: Parrot Wand'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+- drop_id: building-blocks-county__t006r0062
+  monster_name_raw: Fire Ball Baby
+  item_name_raw: 'A.Plan2: Wildness Armor'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ball Baby
+    Item: 'A.Plan2: Wildness Armor'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+- drop_id: building-blocks-county__t006r0063
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Black Knight's Axe
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Black Knight's Axe
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0064
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Good Black Knight's Axe
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Good Black Knight's Axe
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0065
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: ??-??- ??????
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: ??-??- ??????
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0066
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Magician Gown
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Magician Gown
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0067
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Good Magician Gown
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Good Magician Gown
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0068
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Dream Saint Gown
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Dream Saint Gown
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0069
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Dragon's Scale Mantle
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Dragon's Scale Mantle
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0070
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Good Dragon's Scale Mantle
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Good Dragon's Scale Mantle
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0071
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Magic Dragon's Wings
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Magic Dragon's Wings
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0072
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: Blue Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0073
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: 'W.Plan2: Black Knight''s Axe'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: 'W.Plan2: Black Knight''s Axe'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0074
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: 'D.Plan2: Magician Gown'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: 'D.Plan2: Magician Gown'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0075
+  monster_name_raw: Flower Thorn Baby
+  item_name_raw: 'D.Plan2: Dragon''s Scale Mantle'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flower Thorn Baby
+    Item: 'D.Plan2: Dragon''s Scale Mantle'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0076
+  monster_name_raw: Little Piggy
+  item_name_raw: Battle Horn Armor
+  drop_share_raw: 47.6404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Battle Horn Armor
+    Drop Share: 47.6404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.6404
+    quantity: 1
+- drop_id: building-blocks-county__t006r0077
+  monster_name_raw: Little Piggy
+  item_name_raw: Good Battle Horn Armor
+  drop_share_raw: 1.1649%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Good Battle Horn Armor
+    Drop Share: 1.1649%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1649
+    quantity: 1
+- drop_id: building-blocks-county__t006r0078
+  monster_name_raw: Little Piggy
+  item_name_raw: Steel Horn Armor
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Steel Horn Armor
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: building-blocks-county__t006r0079
+  monster_name_raw: Little Piggy
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 2.3297%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Green Light Rune Piece
+    Drop Share: 2.3297%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3297
+    quantity: 1
+- drop_id: building-blocks-county__t006r0080
+  monster_name_raw: Little Piggy
+  item_name_raw: Sword of the Impure
+  drop_share_raw: 47.6404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Sword of the Impure
+    Drop Share: 47.6404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.6404
+    quantity: 1
+- drop_id: building-blocks-county__t006r0081
+  monster_name_raw: Little Piggy
+  item_name_raw: Good Sword of the Impure
+  drop_share_raw: 1.1649%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Good Sword of the Impure
+    Drop Share: 1.1649%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1649
+    quantity: 1
+- drop_id: building-blocks-county__t006r0082
+  monster_name_raw: Little Piggy
+  item_name_raw: Widow's Hug
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Piggy
+    Item: Widow's Hug
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: building-blocks-county__t006r0083
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Elegant Wand
+  drop_share_raw: 3.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Elegant Wand
+    Drop Share: 3.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.715
+    quantity: 1
+- drop_id: building-blocks-county__t006r0084
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Good Elegant Wand
+  drop_share_raw: 0.8362%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Good Elegant Wand
+    Drop Share: 0.8362%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8362
+    quantity: 1
+- drop_id: building-blocks-county__t006r0085
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Blood of Adonis
+  drop_share_raw: 0.0046%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Blood of Adonis
+    Drop Share: 0.0046%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0046
+    quantity: 1
+- drop_id: building-blocks-county__t006r0086
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Titan Armor
+  drop_share_raw: 3.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Titan Armor
+    Drop Share: 3.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.715
+    quantity: 1
+- drop_id: building-blocks-county__t006r0087
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Good Titan Armor
+  drop_share_raw: 0.8362%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Good Titan Armor
+    Drop Share: 0.8362%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8362
+    quantity: 1
+- drop_id: building-blocks-county__t006r0088
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Holy Silver Armor
+  drop_share_raw: 0.0046%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Holy Silver Armor
+    Drop Share: 0.0046%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0046
+    quantity: 1
+- drop_id: building-blocks-county__t006r0089
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Flawed Purple Light Rune
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Flawed Purple Light Rune
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: building-blocks-county__t006r0090
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: 'Craft Recipe 2: Elegant Wand'
+  drop_share_raw: 0.0557%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: 'Craft Recipe 2: Elegant Wand'
+    Drop Share: 0.0557%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0557
+    quantity: 1
+- drop_id: building-blocks-county__t006r0091
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: 'A.Plan2: Titan Armor'
+  drop_share_raw: 0.0557%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: 'A.Plan2: Titan Armor'
+    Drop Share: 0.0557%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0557
+    quantity: 1
+- drop_id: building-blocks-county__t006r0092
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: building-blocks-county__t006r0093
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Super Mighty Fruit
+  drop_share_raw: 45.3808%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Super Mighty Fruit
+    Drop Share: 45.3808%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.3808
+    quantity: 1
+- drop_id: building-blocks-county__t006r0094
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Super Evil Fruit
+  drop_share_raw: 45.3808%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Super Evil Fruit
+    Drop Share: 45.3808%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.3808
+    quantity: 1
+- drop_id: building-blocks-county__t006r0095
+  monster_name_raw: Magic Tutor Hicder
+  item_name_raw: Big Mouth Bird
+  drop_share_raw: 0.0093%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Magic Tutor Hicder
+    Item: Big Mouth Bird
+    Drop Share: 0.0093%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0093
+    quantity: 1
+- drop_id: building-blocks-county__t006r0096
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Anima War Hammer
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Anima War Hammer
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: building-blocks-county__t006r0097
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Good Anima War Hammer
+  drop_share_raw: 0.7868%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Good Anima War Hammer
+    Drop Share: 0.7868%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7868
+    quantity: 1
+- drop_id: building-blocks-county__t006r0098
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Glass's Shock
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Glass's Shock
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: building-blocks-county__t006r0099
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Cosmic Gown
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Cosmic Gown
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: building-blocks-county__t006r0100
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Good Cosmic Gown
+  drop_share_raw: 0.7868%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Good Cosmic Gown
+    Drop Share: 0.7868%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7868
+    quantity: 1
+- drop_id: building-blocks-county__t006r0101
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Flamen Gown
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Flamen Gown
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: building-blocks-county__t006r0102
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Flawed Orange Light Rune
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Flawed Orange Light Rune
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: building-blocks-county__t006r0103
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: 'W.Plan2: Anima War Hammer'
+  drop_share_raw: 0.0525%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: 'W.Plan2: Anima War Hammer'
+    Drop Share: 0.0525%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0525
+    quantity: 1
+- drop_id: building-blocks-county__t006r0104
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: 'D.Plan2: Cosmic Gown'
+  drop_share_raw: 0.0525%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: 'D.Plan2: Cosmic Gown'
+    Drop Share: 0.0525%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0525
+    quantity: 1
+- drop_id: building-blocks-county__t006r0105
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: building-blocks-county__t006r0106
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Super Magic Potion
+  drop_share_raw: 45.6541%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Super Magic Potion
+    Drop Share: 45.6541%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.6541
+    quantity: 1
+- drop_id: building-blocks-county__t006r0107
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Super Magic Fruit
+  drop_share_raw: 45.6541%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Super Magic Fruit
+    Drop Share: 45.6541%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.6541
+    quantity: 1
+- drop_id: building-blocks-county__t006r0108
+  monster_name_raw: Pig Leader Kohl
+  item_name_raw: Cantaloupe Dish
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pig Leader Kohl
+    Item: Cantaloupe Dish
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: building-blocks-county__t006r0109
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Crescent Bow
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Crescent Bow
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0110
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Good Crescent Bow
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Good Crescent Bow
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0111
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Artemis's Chase
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Artemis's Chase
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0112
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Woods Armor
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Woods Armor
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0113
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Good Woods Armor
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Good Woods Armor
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0114
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Conqueror Armor
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Conqueror Armor
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0115
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Husk Shield
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Husk Shield
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: building-blocks-county__t006r0116
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Good Husk Shield
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Good Husk Shield
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: building-blocks-county__t006r0117
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Diamond Beetle
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Diamond Beetle
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: building-blocks-county__t006r0118
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: Red Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: Red Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: building-blocks-county__t006r0119
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: 'W.Plan2: Crescent Bow'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: 'W.Plan2: Crescent Bow'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0120
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: 'A.Plan2: Conqueror Armor'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: 'A.Plan2: Conqueror Armor'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0121
+  monster_name_raw: Sky Winged Bird
+  item_name_raw: 'A.Plan2: Husk Shield'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sky Winged Bird
+    Item: 'A.Plan2: Husk Shield'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: building-blocks-county__t006r0122
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Feather Bracelet
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Feather Bracelet
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0123
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Good Feather Bracelet
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Good Feather Bracelet
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0124
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Water Elf's Dance
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Water Elf's Dance
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0125
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Dark Eagle Boots
+  drop_share_raw: 48.1733%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Dark Eagle Boots
+    Drop Share: 48.1733%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.1733
+    quantity: 1
+- drop_id: building-blocks-county__t006r0126
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Good Dark Eagle Boots
+  drop_share_raw: 1.1926%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Good Dark Eagle Boots
+    Drop Share: 1.1926%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1926
+    quantity: 1
+- drop_id: building-blocks-county__t006r0127
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Desert Eagle Shoes
+  drop_share_raw: 0.0453%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Desert Eagle Shoes
+    Drop Share: 0.0453%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0453
+    quantity: 1
+- drop_id: building-blocks-county__t006r0128
+  monster_name_raw: Sweet Dwarf
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 1.1775%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Dwarf
+    Item: Yellow Light Rune Piece
+    Drop Share: 1.1775%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1775
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Eyebasher Chiley
+  - '105'
+  - 'Yes'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 128

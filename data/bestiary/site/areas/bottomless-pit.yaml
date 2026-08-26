@@ -1,0 +1,1297 @@
+area:
+  id: bottomless-pit
+  name_raw: Bottomless Pit
+  source:
+    origin_url: https://angels.wikidot.com/area:bottomless-pit
+    retrieval_url: https://www.aowiki.uk/pages/area_bottomless-pit.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: ab90b0df465b6099953ce5bcea29871bf10323bbb28b0c0e8c312d724a9024cd
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: bottomless-pit__crow-wizard__t004r0001
+  name_raw: Crow Wizard
+  level_raw: '18'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crow-wizard.html
+  row_raw:
+    Monster Name: Crow Wizard
+    Level: '18'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 18
+    boss: false
+    aggressive: false
+- area_occurrence_id: bottomless-pit__frantic-wizard__t004r0002
+  name_raw: Frantic Wizard
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_frantic-wizard.html
+  row_raw:
+    Monster Name: Frantic Wizard
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: true
+- area_occurrence_id: bottomless-pit__fire-mimic__t004r0003
+  name_raw: Fire Mimic
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-mimic.html
+  row_raw:
+    Monster Name: Fire Mimic
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: true
+- area_occurrence_id: bottomless-pit__wizard-mord__t004r0005
+  name_raw: Wizard Mord
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wizard-mord.html
+  row_raw:
+    Monster Name: Wizard Mord
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+- area_occurrence_id: bottomless-pit__stunt-lord-abbi__t004r0006
+  name_raw: Stunt Lord Abbi
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stunt-lord-abbi.html
+  row_raw:
+    Monster Name: Stunt Lord Abbi
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+- area_occurrence_id: bottomless-pit__ancient-elf__t004r0007
+  name_raw: Ancient Elf
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ancient-elf.html
+  row_raw:
+    Monster Name: Ancient Elf
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : Summoned
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+drops:
+- drop_id: bottomless-pit__t006r0001
+  monster_name_raw: Crow Wizard
+  item_name_raw: Hook
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Hook
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: bottomless-pit__t006r0002
+  monster_name_raw: Crow Wizard
+  item_name_raw: Catapult
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Catapult
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: bottomless-pit__t006r0003
+  monster_name_raw: Crow Wizard
+  item_name_raw: Staff
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Staff
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: bottomless-pit__t006r0004
+  monster_name_raw: Crow Wizard
+  item_name_raw: Slingshot
+  drop_share_raw: 0.1059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Slingshot
+    Drop Share: 0.1059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1059
+    quantity: 1
+- drop_id: bottomless-pit__t006r0005
+  monster_name_raw: Crow Wizard
+  item_name_raw: Curse Hook
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Curse Hook
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: bottomless-pit__t006r0006
+  monster_name_raw: Crow Wizard
+  item_name_raw: Raid Slingshot
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Raid Slingshot
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: bottomless-pit__t006r0007
+  monster_name_raw: Crow Wizard
+  item_name_raw: Holy Wood Staff
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Holy Wood Staff
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: bottomless-pit__t006r0008
+  monster_name_raw: Crow Wizard
+  item_name_raw: Emerald Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Emerald Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: bottomless-pit__t006r0009
+  monster_name_raw: Crow Wizard
+  item_name_raw: Sapphire Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Sapphire Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: bottomless-pit__t006r0010
+  monster_name_raw: Crow Wizard
+  item_name_raw: Purple Gem Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Purple Gem Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: bottomless-pit__t006r0011
+  monster_name_raw: Crow Wizard
+  item_name_raw: Map Piece
+  drop_share_raw: 3.1780%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crow Wizard
+    Item: Map Piece
+    Drop Share: 3.1780%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.178
+    quantity: 1
+- drop_id: bottomless-pit__t006r0012
+  monster_name_raw: Evil Leech
+  item_name_raw: Gown
+  drop_share_raw: 0.6283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Gown
+    Drop Share: 0.6283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6283
+    quantity: 1
+- drop_id: bottomless-pit__t006r0013
+  monster_name_raw: Evil Leech
+  item_name_raw: Protector's Gown
+  drop_share_raw: 0.0104%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Protector's Gown
+    Drop Share: 0.0104%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0104
+    quantity: 1
+- drop_id: bottomless-pit__t006r0014
+  monster_name_raw: Evil Leech
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Flawed Ruby
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: bottomless-pit__t006r0015
+  monster_name_raw: Evil Leech
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Defective Orange Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: bottomless-pit__t006r0016
+  monster_name_raw: Evil Leech
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: bottomless-pit__t006r0017
+  monster_name_raw: Evil Leech
+  item_name_raw: Map Piece
+  drop_share_raw: 1.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Map Piece
+    Drop Share: 1.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.047
+    quantity: 1
+- drop_id: bottomless-pit__t006r0018
+  monster_name_raw: Evil Leech
+  item_name_raw: Evil Leech card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Evil Leech card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0019
+  monster_name_raw: Fire Mimic
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Iron Wristlet
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0020
+  monster_name_raw: Fire Mimic
+  item_name_raw: Long Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Long Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0021
+  monster_name_raw: Fire Mimic
+  item_name_raw: Linen Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Linen Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0022
+  monster_name_raw: Fire Mimic
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0023
+  monster_name_raw: Fire Mimic
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0024
+  monster_name_raw: Fire Mimic
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Protector's Gloves
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0025
+  monster_name_raw: Fire Mimic
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Flawed Ruby
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0026
+  monster_name_raw: Fire Mimic
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Defective Orange Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0027
+  monster_name_raw: Fire Mimic
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0028
+  monster_name_raw: Fire Mimic
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Mimic
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: bottomless-pit__t006r0029
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Iron Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Iron Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0030
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Thick-soled Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0031
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Cotton Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: bottomless-pit__t006r0032
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Heavy Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0033
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Light Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0034
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Protector's Magic Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: bottomless-pit__t006r0035
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Flawed Emerald
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0036
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Flawed Sapphire
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0037
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Flawed Purple Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: bottomless-pit__t006r0038
+  monster_name_raw: Frantic Wizard
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Frantic Wizard
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: bottomless-pit__t006r0039
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Iron Wristlet
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0040
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Long Gloves
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Long Gloves
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0041
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Linen Gloves
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Linen Gloves
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0042
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0043
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Bone Wristlet
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0044
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Protector's Gloves
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0045
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Turtle Shell Bag
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0046
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Ring of Envoy
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0047
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Flawed Ruby
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0048
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Defective Orange Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0049
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0050
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Slicing Hit V
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Slicing Hit V
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: bottomless-pit__t006r0051
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Basic Beating V
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Basic Beating V
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: bottomless-pit__t006r0052
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: 'Assassin Skill: Stab V'
+  drop_share_raw: 1.0415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: 'Assassin Skill: Stab V'
+    Drop Share: 1.0415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0415
+    quantity: 1
+- drop_id: bottomless-pit__t006r0053
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Fruit of Mars
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Fruit of Mars
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: bottomless-pit__t006r0054
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Agility Potion
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Agility Potion
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: bottomless-pit__t006r0055
+  monster_name_raw: Stunt Lord Abbi
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Stunt Lord Abbi
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+- drop_id: bottomless-pit__t006r0056
+  monster_name_raw: Wizard Mord
+  item_name_raw: Iron Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Iron Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0057
+  monster_name_raw: Wizard Mord
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Thick-soled Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0058
+  monster_name_raw: Wizard Mord
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Cotton Shoes
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0059
+  monster_name_raw: Wizard Mord
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Heavy Leather Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0060
+  monster_name_raw: Wizard Mord
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Light Leather Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0061
+  monster_name_raw: Wizard Mord
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.2366%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Protector's Magic Shoes
+    Drop Share: 0.2366%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2366
+    quantity: 1
+- drop_id: bottomless-pit__t006r0062
+  monster_name_raw: Wizard Mord
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Turtle Shell Bag
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0063
+  monster_name_raw: Wizard Mord
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.5621%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Ring of Envoy
+    Drop Share: 1.5621%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5621
+    quantity: 1
+- drop_id: bottomless-pit__t006r0064
+  monster_name_raw: Wizard Mord
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Flawed Emerald
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0065
+  monster_name_raw: Wizard Mord
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Flawed Sapphire
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0066
+  monster_name_raw: Wizard Mord
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Flawed Purple Gem
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: bottomless-pit__t006r0067
+  monster_name_raw: Wizard Mord
+  item_name_raw: Cure Spell 5
+  drop_share_raw: 1.5622%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Cure Spell 5
+    Drop Share: 1.5622%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5622
+    quantity: 1
+- drop_id: bottomless-pit__t006r0068
+  monster_name_raw: Wizard Mord
+  item_name_raw: Summon Skeleton V
+  drop_share_raw: 1.5622%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Summon Skeleton V
+    Drop Share: 1.5622%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5622
+    quantity: 1
+- drop_id: bottomless-pit__t006r0069
+  monster_name_raw: Wizard Mord
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Fruit of Hercules
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: bottomless-pit__t006r0070
+  monster_name_raw: Wizard Mord
+  item_name_raw: Target Potion
+  drop_share_raw: 18.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Target Potion
+    Drop Share: 18.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0077
+    quantity: 1
+- drop_id: bottomless-pit__t006r0071
+  monster_name_raw: Wizard Mord
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wizard Mord
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 14
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 71

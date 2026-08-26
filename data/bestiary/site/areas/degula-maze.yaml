@@ -1,0 +1,1050 @@
+area:
+  id: degula-maze
+  name_raw: Degula Maze
+  source:
+    origin_url: https://angels.wikidot.com/area:degula-maze
+    retrieval_url: https://www.aowiki.uk/pages/area_degula-maze.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 701302b5b879fe6bd733bf118446e08ff74f31f0d1bd2630965f8a04a95fabc1
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: degula-maze__little-eye__t003r0001
+  name_raw: Little Eye
+  level_raw: '24'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_little-eye.html
+  row_raw:
+    Monster Name: Little Eye
+    Level: '24'
+    Boss?: 'No'
+    Aggressive?: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 24
+    boss: false
+    aggressive: false
+- area_occurrence_id: degula-maze__one-eyed-bat__t003r0002
+  name_raw: One-eyed Bat
+  level_raw: '24'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_one-eyed-bat.html
+  row_raw:
+    Monster Name: One-eyed Bat
+    Level: '24'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 24
+    boss: false
+    aggressive: true
+- area_occurrence_id: degula-maze__evil-leech__t003r0003
+  name_raw: Evil Leech
+  level_raw: '27'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-leech.html
+  row_raw:
+    Monster Name: Evil Leech
+    Level: '27'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 27
+    boss: false
+    aggressive: true
+- area_occurrence_id: degula-maze__eye-bershala__t003r0005
+  name_raw: Eye Bershala
+  level_raw: '29'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_eye-bershala.html
+  row_raw:
+    Monster Name: Eye Bershala
+    Level: '29'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 29
+    boss: true
+    aggressive: true
+- area_occurrence_id: degula-maze__bloody-pound__t003r0006
+  name_raw: Bloody Pound
+  level_raw: '32'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bloody-pound.html
+  row_raw:
+    Monster Name: Bloody Pound
+    Level: '32'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 32
+    boss: true
+    aggressive: true
+drops:
+- drop_id: degula-maze__t005r0001
+  monster_name_raw: Bloody Pound
+  item_name_raw: Gown
+  drop_share_raw: 6.9114%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Gown
+    Drop Share: 6.9114%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.9114
+    quantity: 1
+- drop_id: degula-maze__t005r0002
+  monster_name_raw: Bloody Pound
+  item_name_raw: Protector's Gown
+  drop_share_raw: 1.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Protector's Gown
+    Drop Share: 1.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.047
+    quantity: 1
+- drop_id: degula-maze__t005r0003
+  monster_name_raw: Bloody Pound
+  item_name_raw: Golden Shell Bag
+  drop_share_raw: 2.3038%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Golden Shell Bag
+    Drop Share: 2.3038%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3038
+    quantity: 1
+- drop_id: degula-maze__t005r0004
+  monster_name_raw: Bloody Pound
+  item_name_raw: Ring of High Clerist
+  drop_share_raw: 2.3038%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Ring of High Clerist
+    Drop Share: 2.3038%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3038
+    quantity: 1
+- drop_id: degula-maze__t005r0005
+  monster_name_raw: Bloody Pound
+  item_name_raw: Thick Armor
+  drop_share_raw: 11.9181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Thick Armor
+    Drop Share: 11.9181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.9181
+    quantity: 1
+- drop_id: degula-maze__t005r0006
+  monster_name_raw: Bloody Pound
+  item_name_raw: Leather Vest
+  drop_share_raw: 11.9181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Leather Vest
+    Drop Share: 11.9181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.9181
+    quantity: 1
+- drop_id: degula-maze__t005r0007
+  monster_name_raw: Bloody Pound
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.2700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Defective Orange Gem
+    Drop Share: 0.2700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.27
+    quantity: 1
+- drop_id: degula-maze__t005r0008
+  monster_name_raw: Bloody Pound
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.2700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Flawed Yellow Gem
+    Drop Share: 0.2700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.27
+    quantity: 1
+- drop_id: degula-maze__t005r0009
+  monster_name_raw: Bloody Pound
+  item_name_raw: Basic Beating V
+  drop_share_raw: 1.5358%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Basic Beating V
+    Drop Share: 1.5358%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5358
+    quantity: 1
+- drop_id: degula-maze__t005r0010
+  monster_name_raw: Bloody Pound
+  item_name_raw: Basic Attack V
+  drop_share_raw: 1.5358%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Basic Attack V
+    Drop Share: 1.5358%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5358
+    quantity: 1
+- drop_id: degula-maze__t005r0011
+  monster_name_raw: Bloody Pound
+  item_name_raw: Basic Shot V
+  drop_share_raw: 1.5358%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Basic Shot V
+    Drop Share: 1.5358%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5358
+    quantity: 1
+- drop_id: degula-maze__t005r0012
+  monster_name_raw: Bloody Pound
+  item_name_raw: Target Potion
+  drop_share_raw: 18.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Target Potion
+    Drop Share: 18.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0001
+    quantity: 1
+- drop_id: degula-maze__t005r0013
+  monster_name_raw: Bloody Pound
+  item_name_raw: Agility Potion
+  drop_share_raw: 18.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Agility Potion
+    Drop Share: 18.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.0001
+    quantity: 1
+- drop_id: degula-maze__t005r0014
+  monster_name_raw: Bloody Pound
+  item_name_raw: Map Piece
+  drop_share_raw: 10.4700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Map Piece
+    Drop Share: 10.4700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 10.47
+    quantity: 1
+- drop_id: degula-maze__t005r0015
+  monster_name_raw: Bloody Pound
+  item_name_raw: Pestle
+  drop_share_raw: 0.0620%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Pound
+    Item: Pestle
+    Drop Share: 0.0620%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.062
+    quantity: 1
+- drop_id: degula-maze__t005r0016
+  monster_name_raw: Evil Leech
+  item_name_raw: Gown
+  drop_share_raw: 0.6283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Gown
+    Drop Share: 0.6283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6283
+    quantity: 1
+- drop_id: degula-maze__t005r0017
+  monster_name_raw: Evil Leech
+  item_name_raw: Protector's Gown
+  drop_share_raw: 0.0104%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Protector's Gown
+    Drop Share: 0.0104%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0104
+    quantity: 1
+- drop_id: degula-maze__t005r0018
+  monster_name_raw: Evil Leech
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Flawed Ruby
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: degula-maze__t005r0019
+  monster_name_raw: Evil Leech
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Defective Orange Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: degula-maze__t005r0020
+  monster_name_raw: Evil Leech
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: degula-maze__t005r0021
+  monster_name_raw: Evil Leech
+  item_name_raw: Map Piece
+  drop_share_raw: 1.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Map Piece
+    Drop Share: 1.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.047
+    quantity: 1
+- drop_id: degula-maze__t005r0022
+  monster_name_raw: Evil Leech
+  item_name_raw: Evil Leech card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Leech
+    Item: Evil Leech card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: degula-maze__t005r0023
+  monster_name_raw: Eye Bershala
+  item_name_raw: Rabbi's Cap
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Rabbi's Cap
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: degula-maze__t005r0024
+  monster_name_raw: Eye Bershala
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Hard-leather Cap
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: degula-maze__t005r0025
+  monster_name_raw: Eye Bershala
+  item_name_raw: Shade
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Shade
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: degula-maze__t005r0026
+  monster_name_raw: Eye Bershala
+  item_name_raw: Protector's Cap
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Protector's Cap
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: degula-maze__t005r0027
+  monster_name_raw: Eye Bershala
+  item_name_raw: Hard Leather Helmet
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Hard Leather Helmet
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: degula-maze__t005r0028
+  monster_name_raw: Eye Bershala
+  item_name_raw: Heavy Leather Helmet
+  drop_share_raw: 0.2895%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Heavy Leather Helmet
+    Drop Share: 0.2895%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2895
+    quantity: 1
+- drop_id: degula-maze__t005r0029
+  monster_name_raw: Eye Bershala
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Turtle Shell Bag
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: degula-maze__t005r0030
+  monster_name_raw: Eye Bershala
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Ring of Envoy
+    Drop Share: 1.9108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9108
+    quantity: 1
+- drop_id: degula-maze__t005r0031
+  monster_name_raw: Eye Bershala
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Flawed Emerald
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: degula-maze__t005r0032
+  monster_name_raw: Eye Bershala
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Flawed Sapphire
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: degula-maze__t005r0033
+  monster_name_raw: Eye Bershala
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Flawed Purple Gem
+    Drop Share: 0.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.13
+    quantity: 1
+- drop_id: degula-maze__t005r0034
+  monster_name_raw: Eye Bershala
+  item_name_raw: Shock Wave 5
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Shock Wave 5
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: degula-maze__t005r0035
+  monster_name_raw: Eye Bershala
+  item_name_raw: Poison Hit V
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Poison Hit V
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: degula-maze__t005r0036
+  monster_name_raw: Eye Bershala
+  item_name_raw: Flying Dart V
+  drop_share_raw: 1.2738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Flying Dart V
+    Drop Share: 1.2738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2738
+    quantity: 1
+- drop_id: degula-maze__t005r0037
+  monster_name_raw: Eye Bershala
+  item_name_raw: Magic Fruit
+  drop_share_raw: 24.8889%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Magic Fruit
+    Drop Share: 24.8889%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.8889
+    quantity: 1
+- drop_id: degula-maze__t005r0038
+  monster_name_raw: Eye Bershala
+  item_name_raw: Evil Eye Bershala card
+  drop_share_raw: 11.1111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Evil Eye Bershala card
+    Drop Share: 11.1111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.1111
+    quantity: 1
+- drop_id: degula-maze__t005r0039
+  monster_name_raw: Eye Bershala
+  item_name_raw: Map Piece
+  drop_share_raw: 8.6900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Eye Bershala
+    Item: Map Piece
+    Drop Share: 8.6900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 8.69
+    quantity: 1
+- drop_id: degula-maze__t005r0040
+  monster_name_raw: Little Eye
+  item_name_raw: Rabbi's Cap
+  drop_share_raw: 0.5211%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Rabbi's Cap
+    Drop Share: 0.5211%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5211
+    quantity: 1
+- drop_id: degula-maze__t005r0041
+  monster_name_raw: Little Eye
+  item_name_raw: Protector's Cap
+  drop_share_raw: 0.0086%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Protector's Cap
+    Drop Share: 0.0086%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0086
+    quantity: 1
+- drop_id: degula-maze__t005r0042
+  monster_name_raw: Little Eye
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Flawed Ruby
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0043
+  monster_name_raw: Little Eye
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Defective Orange Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0044
+  monster_name_raw: Little Eye
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0045
+  monster_name_raw: Little Eye
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: degula-maze__t005r0046
+  monster_name_raw: Little Eye
+  item_name_raw: Little Eye card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Eye
+    Item: Little Eye card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: degula-maze__t005r0047
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Hard-leather Cap
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: degula-maze__t005r0048
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Shade
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Shade
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: degula-maze__t005r0049
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Hard Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Hard Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: degula-maze__t005r0050
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Heavy Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Heavy Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: degula-maze__t005r0051
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Flawed Emerald
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0052
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Flawed Sapphire
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0053
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Flawed Purple Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: degula-maze__t005r0054
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: degula-maze__t005r0055
+  monster_name_raw: One-eyed Bat
+  item_name_raw: One-eyed Bat card
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: One-eyed Bat card
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: degula-maze__t005r0056
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Red Potion 2
+  drop_share_raw: 47.7675%
+  quantity_raw: '2'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Red Potion 2
+    Drop Share: 47.7675%
+    Qty: '2'
+  normalized:
+    drop_share_percent: 47.7675
+    quantity: 2
+- drop_id: degula-maze__t005r0057
+  monster_name_raw: One-eyed Bat
+  item_name_raw: Blue Potion 2
+  drop_share_raw: 47.7675%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: One-eyed Bat
+    Item: Blue Potion 2
+    Drop Share: 47.7675%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7675
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 57

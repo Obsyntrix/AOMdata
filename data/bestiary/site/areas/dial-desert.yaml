@@ -1,0 +1,218 @@
+area:
+  id: dial-desert
+  name_raw: Dial Desert
+  source:
+    origin_url: https://angels.wikidot.com/area:dial-desert
+    retrieval_url: https://www.aowiki.uk/pages/area_dial-desert.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 04783061634633527d84a87b2c9e6dd1f340cbb2bb70ec86ffc011e64dba699d
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: dial-desert__cake-bun__t001r0001
+  name_raw: Cake Bun
+  level_raw: '260'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cake-bun.html
+  row_raw:
+    Monster Name: Cake Bun
+    Level: '260'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 260
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__muffin-bun__t001r0002
+  name_raw: Muffin Bun
+  level_raw: '260'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_muffin-bun.html
+  row_raw:
+    Monster Name: Muffin Bun
+    Level: '260'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 260
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__crystalix__t001r0003
+  name_raw: Crystalix
+  level_raw: '262'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crystalix.html
+  row_raw:
+    Monster Name: Crystalix
+    Level: '262'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 262
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__amberix__t001r0004
+  name_raw: Amberix
+  level_raw: '262'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_amberix.html
+  row_raw:
+    Monster Name: Amberix
+    Level: '262'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 262
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__sugar-goo__t001r0005
+  name_raw: Sugar Goo
+  level_raw: '265'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sugar-goo.html
+  row_raw:
+    Monster Name: Sugar Goo
+    Level: '265'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 265
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__pepper-goo__t001r0006
+  name_raw: Pepper Goo
+  level_raw: '265'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pepper-goo.html
+  row_raw:
+    Monster Name: Pepper Goo
+    Level: '265'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 265
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__notty-kitty__t001r0007
+  name_raw: Notty Kitty
+  level_raw: '267'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_notty-kitty.html
+  row_raw:
+    Monster Name: Notty Kitty
+    Level: '267'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 267
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__cool-kitty__t001r0008
+  name_raw: Cool Kitty
+  level_raw: '267'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cool-kitty.html
+  row_raw:
+    Monster Name: Cool Kitty
+    Level: '267'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 267
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__trixy-palm__t001r0009
+  name_raw: Trixy Palm
+  level_raw: '269'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_trixy-palm.html
+  row_raw:
+    Monster Name: Trixy Palm
+    Level: '269'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 269
+    boss: false
+    aggressive: false
+- area_occurrence_id: dial-desert__stone-palm__t001r0010
+  name_raw: Stone Palm
+  level_raw: '269'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_stone-palm.html
+  row_raw:
+    Monster Name: Stone Palm
+    Level: '269'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 269
+    boss: false
+    aggressive: false
+drops:
+- drop_id: dial-desert__t004r0001
+  monster_name_raw: Patiboo
+  item_name_raw: Sonic Magic Fruit
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Patiboo
+    Item: Sonic Magic Fruit
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Cake Bun
+  - '270'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Patiboo
+  - '271'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 1
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

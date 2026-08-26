@@ -1,0 +1,2439 @@
+area:
+  id: mushroom-village
+  name_raw: Mushroom Village
+  source:
+    origin_url: https://angels.wikidot.com/area:mushroom-village
+    retrieval_url: https://www.aowiki.uk/pages/area_mushroom-village.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 70edf0a5e323ac6f7a80ad123a8da9af330c15c75345451fd2f608d4a4d58399
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: mushroom-village__purple-evil-cat__t005r0001
+  name_raw: Purple Evil Cat
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_purple-evil-cat.html
+  row_raw:
+    Monster Name: Purple Evil Cat
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__flaming-evil-cat__t005r0002
+  name_raw: Flaming Evil Cat
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flaming-evil-cat.html
+  row_raw:
+    Monster Name: Flaming Evil Cat
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__fairy-of-wind__t005r0003
+  name_raw: Fairy of Wind
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fairy-of-wind.html
+  row_raw:
+    Monster Name: Fairy of Wind
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__fairy-of-earth__t005r0004
+  name_raw: Fairy of Earth
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fairy-of-earth.html
+  row_raw:
+    Monster Name: Fairy of Earth
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__beach-sheep__t005r0005
+  name_raw: Beach Sheep
+  level_raw: '89'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_beach-sheep.html
+  row_raw:
+    Monster Name: Beach Sheep
+    Level: '89'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 89
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__ocean-sheep__t005r0006
+  name_raw: Ocean Sheep
+  level_raw: '89'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ocean-sheep.html
+  row_raw:
+    Monster Name: Ocean Sheep
+    Level: '89'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 89
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__young-witch__t005r0007
+  name_raw: Young Witch
+  level_raw: '92'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_young-witch.html
+  row_raw:
+    Monster Name: Young Witch
+    Level: '92'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 92
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__crystal-envoy__t005r0008
+  name_raw: Crystal Envoy
+  level_raw: '92'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crystal-envoy.html
+  row_raw:
+    Monster Name: Crystal Envoy
+    Level: '92'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 92
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__buddy__t005r0009
+  name_raw: Buddy
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_buddy.html
+  row_raw:
+    Monster Name: Buddy
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: false
+- area_occurrence_id: mushroom-village__elvis__t005r0010
+  name_raw: Elvis
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_elvis.html
+  row_raw:
+    Monster Name: Elvis
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: false
+drops:
+- drop_id: mushroom-village__t008r0001
+  monster_name_raw: Big Chris
+  item_name_raw: Supreme Wand
+  drop_share_raw: 2.7400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Supreme Wand
+    Drop Share: 2.7400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.74
+    quantity: 1
+- drop_id: mushroom-village__t008r0002
+  monster_name_raw: Big Chris
+  item_name_raw: Good Supreme Wand
+  drop_share_raw: 0.7047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Good Supreme Wand
+    Drop Share: 0.7047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7047
+    quantity: 1
+- drop_id: mushroom-village__t008r0003
+  monster_name_raw: Big Chris
+  item_name_raw: Nahuac Power
+  drop_share_raw: 0.0039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Nahuac Power
+    Drop Share: 0.0039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0039
+    quantity: 1
+- drop_id: mushroom-village__t008r0004
+  monster_name_raw: Big Chris
+  item_name_raw: Dark Eagle Cap
+  drop_share_raw: 2.7400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Dark Eagle Cap
+    Drop Share: 2.7400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.74
+    quantity: 1
+- drop_id: mushroom-village__t008r0005
+  monster_name_raw: Big Chris
+  item_name_raw: Good Dark Eagle Cap
+  drop_share_raw: 0.7047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Good Dark Eagle Cap
+    Drop Share: 0.7047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7047
+    quantity: 1
+- drop_id: mushroom-village__t008r0006
+  monster_name_raw: Big Chris
+  item_name_raw: Desert Eagle Crista
+  drop_share_raw: 0.0039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Desert Eagle Crista
+    Drop Share: 0.0039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0039
+    quantity: 1
+- drop_id: mushroom-village__t008r0007
+  monster_name_raw: Big Chris
+  item_name_raw: Purple Light Rune Piece
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Purple Light Rune Piece
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: mushroom-village__t008r0008
+  monster_name_raw: Big Chris
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: mushroom-village__t008r0009
+  monster_name_raw: Big Chris
+  item_name_raw: Super Magic Fruit
+  drop_share_raw: 46.5404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Super Magic Fruit
+    Drop Share: 46.5404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.5404
+    quantity: 1
+- drop_id: mushroom-village__t008r0010
+  monster_name_raw: Big Chris
+  item_name_raw: Super Agility Potion
+  drop_share_raw: 46.5404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Super Agility Potion
+    Drop Share: 46.5404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.5404
+    quantity: 1
+- drop_id: mushroom-village__t008r0011
+  monster_name_raw: Big Chris
+  item_name_raw: Ice Leopard
+  drop_share_raw: 0.0078%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Ice Leopard
+    Drop Share: 0.0078%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0078
+    quantity: 1
+- drop_id: mushroom-village__t008r0012
+  monster_name_raw: Big Chris
+  item_name_raw: Blue Bird
+  drop_share_raw: 0.0078%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Big Chris
+    Item: Blue Bird
+    Drop Share: 0.0078%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0078
+    quantity: 1
+- drop_id: mushroom-village__t008r0013
+  monster_name_raw: Buddy
+  item_name_raw: Magician Cap
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Magician Cap
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0014
+  monster_name_raw: Buddy
+  item_name_raw: Good Magician Cap
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Good Magician Cap
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0015
+  monster_name_raw: Buddy
+  item_name_raw: Dream Saint Hat
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Dream Saint Hat
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0016
+  monster_name_raw: Buddy
+  item_name_raw: Woods Cuffs
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Woods Cuffs
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0017
+  monster_name_raw: Buddy
+  item_name_raw: Good Woods Cuffs
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Good Woods Cuffs
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0018
+  monster_name_raw: Buddy
+  item_name_raw: Conqueror Cuffs
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Conqueror Cuffs
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0019
+  monster_name_raw: Buddy
+  item_name_raw: Woods Boots
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Woods Boots
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0020
+  monster_name_raw: Buddy
+  item_name_raw: Good Woods Boots
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Good Woods Boots
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0021
+  monster_name_raw: Buddy
+  item_name_raw: Conqueror Boots
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Conqueror Boots
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0022
+  monster_name_raw: Buddy
+  item_name_raw: Blue Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: Blue Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0023
+  monster_name_raw: Buddy
+  item_name_raw: 'D.Plan2: Magician Cap'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: 'D.Plan2: Magician Cap'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0024
+  monster_name_raw: Buddy
+  item_name_raw: 'A.Plan2: Conqueror Cuffs'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: 'A.Plan2: Conqueror Cuffs'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0025
+  monster_name_raw: Buddy
+  item_name_raw: 'A.Plan2: Conqueror Boots'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Buddy
+    Item: 'A.Plan2: Conqueror Boots'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0026
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Star Moon Bracelet
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Star Moon Bracelet
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: mushroom-village__t008r0027
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Good Star Moon Bracelet
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Good Star Moon Bracelet
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0028
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Elf's Whisper
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Elf's Whisper
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: mushroom-village__t008r0029
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Magician Gloves
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Magician Gloves
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: mushroom-village__t008r0030
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Good Magician Gloves
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Good Magician Gloves
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0031
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Dream Saint Cuffs
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Dream Saint Cuffs
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: mushroom-village__t008r0032
+  monster_name_raw: Crystal Envoy
+  item_name_raw: Green Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: Green Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0033
+  monster_name_raw: Crystal Envoy
+  item_name_raw: 'Craft Recipe 2: Star Moon Bracelet'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: 'Craft Recipe 2: Star Moon Bracelet'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+- drop_id: mushroom-village__t008r0034
+  monster_name_raw: Crystal Envoy
+  item_name_raw: 'D.Plan2: Magician Gloves'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crystal Envoy
+    Item: 'D.Plan2: Magician Gloves'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+- drop_id: mushroom-village__t008r0035
+  monster_name_raw: Elvis
+  item_name_raw: Butterfly Halbert
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Butterfly Halbert
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0036
+  monster_name_raw: Elvis
+  item_name_raw: Good Butterfly Halbert
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Good Butterfly Halbert
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0037
+  monster_name_raw: Elvis
+  item_name_raw: Coloris's Kiss
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Coloris's Kiss
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0038
+  monster_name_raw: Elvis
+  item_name_raw: Wildness Cuffs
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Wildness Cuffs
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0039
+  monster_name_raw: Elvis
+  item_name_raw: Good Wildness Cuffs
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Good Wildness Cuffs
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0040
+  monster_name_raw: Elvis
+  item_name_raw: Fighter Cuffs
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Fighter Cuffs
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0041
+  monster_name_raw: Elvis
+  item_name_raw: Magician Boots
+  drop_share_raw: 31.6528%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Magician Boots
+    Drop Share: 31.6528%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.6528
+    quantity: 1
+- drop_id: mushroom-village__t008r0042
+  monster_name_raw: Elvis
+  item_name_raw: Good Magician Boots
+  drop_share_raw: 0.9009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Good Magician Boots
+    Drop Share: 0.9009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9009
+    quantity: 1
+- drop_id: mushroom-village__t008r0043
+  monster_name_raw: Elvis
+  item_name_raw: Dream Saint Shoes
+  drop_share_raw: 0.0347%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Dream Saint Shoes
+    Drop Share: 0.0347%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0347
+    quantity: 1
+- drop_id: mushroom-village__t008r0044
+  monster_name_raw: Elvis
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: Yellow Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0045
+  monster_name_raw: Elvis
+  item_name_raw: 'W.Plan2: Butterfly Halbert'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: 'W.Plan2: Butterfly Halbert'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0046
+  monster_name_raw: Elvis
+  item_name_raw: 'A.Plan2: Wildness Cuffs'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: 'A.Plan2: Wildness Cuffs'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0047
+  monster_name_raw: Elvis
+  item_name_raw: 'D.Plan2: Magician Boots'
+  drop_share_raw: 0.2945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Elvis
+    Item: 'D.Plan2: Magician Boots'
+    Drop Share: 0.2945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2945
+    quantity: 1
+- drop_id: mushroom-village__t008r0048
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Rage Lance
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Rage Lance
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0049
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Good Rage Lance
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Good Rage Lance
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0050
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Poseidon Attacker
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Poseidon Attacker
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0051
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Coral Manteau
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Coral Manteau
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0052
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Good Coral Manteau
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Good Coral Manteau
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0053
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Blue Wings
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Blue Wings
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0054
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Wind Armguards
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Wind Armguards
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0055
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Good Wind Armguards
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Good Wind Armguards
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0056
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Storm Armguards
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Storm Armguards
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0057
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 3.5631%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Flawless Emerald
+    Drop Share: 3.5631%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.5631
+    quantity: 1
+- drop_id: mushroom-village__t008r0058
+  monster_name_raw: Fairy Of Earth
+  item_name_raw: Betel Jelly Jellyfish Armor
+  drop_share_raw: 0.3959%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Earth
+    Item: Betel Jelly Jellyfish Armor
+    Drop Share: 0.3959%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3959
+    quantity: 1
+- drop_id: mushroom-village__t008r0059
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Symbol Bow
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Symbol Bow
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0060
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Good Symbol Bow
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Good Symbol Bow
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0061
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Hermes' Breath
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Hermes' Breath
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0062
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Espial Boots
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Espial Boots
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0063
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Good Espial Boots
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Good Espial Boots
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0064
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Magnetic Boots
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Magnetic Boots
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0065
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Wind Helmet
+  drop_share_raw: 31.2039%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Wind Helmet
+    Drop Share: 31.2039%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2039
+    quantity: 1
+- drop_id: mushroom-village__t008r0066
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Good Wind Helmet
+  drop_share_raw: 0.7738%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Good Wind Helmet
+    Drop Share: 0.7738%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7738
+    quantity: 1
+- drop_id: mushroom-village__t008r0067
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Storm Helmet
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Storm Helmet
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0068
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 3.5631%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Flawless Yellow Gem
+    Drop Share: 3.5631%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.5631
+    quantity: 1
+- drop_id: mushroom-village__t008r0069
+  monster_name_raw: Fairy Of Wind
+  item_name_raw: Rade Fast Seahorse
+  drop_share_raw: 0.3959%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fairy Of Wind
+    Item: Rade Fast Seahorse
+    Drop Share: 0.3959%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3959
+    quantity: 1
+- drop_id: mushroom-village__t008r0070
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Crusader's Brooch
+  drop_share_raw: 18.7963%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Crusader's Brooch
+    Drop Share: 18.7963%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.7963
+    quantity: 1
+- drop_id: mushroom-village__t008r0071
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Good Crusader's Brooch
+  drop_share_raw: 0.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Good Crusader's Brooch
+    Drop Share: 0.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4699
+    quantity: 1
+- drop_id: mushroom-village__t008r0072
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: The Call of the Sea
+  drop_share_raw: 0.0181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: The Call of the Sea
+    Drop Share: 0.0181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0181
+    quantity: 1
+- drop_id: mushroom-village__t008r0073
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Wind Armor
+  drop_share_raw: 18.7963%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Wind Armor
+    Drop Share: 18.7963%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.7963
+    quantity: 1
+- drop_id: mushroom-village__t008r0074
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Good Wind Armor
+  drop_share_raw: 0.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Good Wind Armor
+    Drop Share: 0.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4699
+    quantity: 1
+- drop_id: mushroom-village__t008r0075
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Storm Armor
+    Drop Share: 0.0181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0181
+    quantity: 1
+- drop_id: mushroom-village__t008r0076
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Saint Brassart
+  drop_share_raw: 18.7963%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Saint Brassart
+    Drop Share: 18.7963%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.7963
+    quantity: 1
+- drop_id: mushroom-village__t008r0077
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Good Saint Brassart
+  drop_share_raw: 0.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Good Saint Brassart
+    Drop Share: 0.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4699
+    quantity: 1
+- drop_id: mushroom-village__t008r0078
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Holy Guard Cuffs
+  drop_share_raw: 0.0181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Holy Guard Cuffs
+    Drop Share: 0.0181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0181
+    quantity: 1
+- drop_id: mushroom-village__t008r0079
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Espial Hood
+  drop_share_raw: 18.7963%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Espial Hood
+    Drop Share: 18.7963%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.7963
+    quantity: 1
+- drop_id: mushroom-village__t008r0080
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Good Espial Hood
+  drop_share_raw: 0.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Good Espial Hood
+    Drop Share: 0.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4699
+    quantity: 1
+- drop_id: mushroom-village__t008r0081
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Magnetic Hat
+  drop_share_raw: 0.0181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Magnetic Hat
+    Drop Share: 0.0181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0181
+    quantity: 1
+- drop_id: mushroom-village__t008r0082
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 3.5785%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Flawless Orange Gem
+    Drop Share: 3.5785%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.5785
+    quantity: 1
+- drop_id: mushroom-village__t008r0083
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Potential Sword
+  drop_share_raw: 18.7963%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Potential Sword
+    Drop Share: 18.7963%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 18.7963
+    quantity: 1
+- drop_id: mushroom-village__t008r0084
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Good Potential Sword
+  drop_share_raw: 0.4699%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Good Potential Sword
+    Drop Share: 0.4699%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4699
+    quantity: 1
+- drop_id: mushroom-village__t008r0085
+  monster_name_raw: Flaming Evil Cat
+  item_name_raw: Sallen's Curse
+  drop_share_raw: 0.0181%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flaming Evil Cat
+    Item: Sallen's Curse
+    Drop Share: 0.0181%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0181
+    quantity: 1
+- drop_id: mushroom-village__t008r0086
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: King's Roar
+  drop_share_raw: 2.5200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: King's Roar
+    Drop Share: 2.5200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.52
+    quantity: 1
+- drop_id: mushroom-village__t008r0087
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Good King's Roar
+  drop_share_raw: 0.5665%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Good King's Roar
+    Drop Share: 0.5665%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5665
+    quantity: 1
+- drop_id: mushroom-village__t008r0088
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Hercules' Armor
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Hercules' Armor
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: mushroom-village__t008r0089
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Bloody Orchid Shield
+  drop_share_raw: 2.5200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Bloody Orchid Shield
+    Drop Share: 2.5200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.52
+    quantity: 1
+- drop_id: mushroom-village__t008r0090
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Good Bloody Orchid Shield
+  drop_share_raw: 0.5665%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Good Bloody Orchid Shield
+    Drop Share: 0.5665%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5665
+    quantity: 1
+- drop_id: mushroom-village__t008r0091
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Life Spring
+  drop_share_raw: 0.0031%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Life Spring
+    Drop Share: 0.0031%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0031
+    quantity: 1
+- drop_id: mushroom-village__t008r0092
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Orange Light Rune Piece
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Orange Light Rune Piece
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: mushroom-village__t008r0093
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: mushroom-village__t008r0094
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Super Mars' Fruit
+  drop_share_raw: 46.9007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Super Mars' Fruit
+    Drop Share: 46.9007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.9007
+    quantity: 1
+- drop_id: mushroom-village__t008r0095
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Super Target Potion
+  drop_share_raw: 46.9007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Super Target Potion
+    Drop Share: 46.9007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.9007
+    quantity: 1
+- drop_id: mushroom-village__t008r0096
+  monster_name_raw: Hell Envoy Disco
+  item_name_raw: Forest Ox
+  drop_share_raw: 0.0126%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hell Envoy Disco
+    Item: Forest Ox
+    Drop Share: 0.0126%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0126
+    quantity: 1
+- drop_id: mushroom-village__t008r0097
+  monster_name_raw: Monster Name
+  item_name_raw: Evil Hammer
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Evil Hammer
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0098
+  monster_name_raw: Monster Name
+  item_name_raw: Good Evil Hammer
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Good Evil Hammer
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0099
+  monster_name_raw: Monster Name
+  item_name_raw: Good Espial Bracers
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Good Espial Bracers
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0100
+  monster_name_raw: Monster Name
+  item_name_raw: Saint Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Saint Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0101
+  monster_name_raw: Monster Name
+  item_name_raw: Saint Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Saint Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0102
+  monster_name_raw: Monster Name
+  item_name_raw: Super Mighty Fruit
+  drop_share_raw: 65.00%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Super Mighty Fruit
+    Drop Share: 65.00%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 65.0
+    quantity: 1
+- drop_id: mushroom-village__t008r0103
+  monster_name_raw: Monster Name
+  item_name_raw: Bloody Scale Tooth
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Bloody Scale Tooth
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0104
+  monster_name_raw: Monster Name
+  item_name_raw: Wonder Shoes
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Wonder Shoes
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0105
+  monster_name_raw: Monster Name
+  item_name_raw: tropical fruit dish
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: tropical fruit dish
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0106
+  monster_name_raw: Monster Name
+  item_name_raw: Good Bloody scale tooth
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Monster Name
+    Item: Good Bloody scale tooth
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: mushroom-village__t008r0107
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Evil Hammer
+  drop_share_raw: 31.1927%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Evil Hammer
+    Drop Share: 31.1927%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.1927
+    quantity: 1
+- drop_id: mushroom-village__t008r0108
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Good Evil Hammer
+  drop_share_raw: 0.7735%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Good Evil Hammer
+    Drop Share: 0.7735%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7735
+    quantity: 1
+- drop_id: mushroom-village__t008r0109
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Aries Judge
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Aries Judge
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0110
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Espial Gown
+  drop_share_raw: 31.1927%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Espial Gown
+    Drop Share: 31.1927%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.1927
+    quantity: 1
+- drop_id: mushroom-village__t008r0111
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Good Espial Gown
+  drop_share_raw: 0.7735%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Good Espial Gown
+    Drop Share: 0.7735%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7735
+    quantity: 1
+- drop_id: mushroom-village__t008r0112
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Magnetic Gown
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Magnetic Gown
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0113
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Wind Boots
+  drop_share_raw: 31.1927%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Wind Boots
+    Drop Share: 31.1927%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.1927
+    quantity: 1
+- drop_id: mushroom-village__t008r0114
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Good Wind Boots
+  drop_share_raw: 0.7735%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Good Wind Boots
+    Drop Share: 0.7735%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7735
+    quantity: 1
+- drop_id: mushroom-village__t008r0115
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Storm Boots
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Storm Boots
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0116
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 3.5618%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Flawless Purple Gem
+    Drop Share: 3.5618%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.5618
+    quantity: 1
+- drop_id: mushroom-village__t008r0117
+  monster_name_raw: Ocean Sheep
+  item_name_raw: Fat Spot Seal
+  drop_share_raw: 0.4317%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ocean Sheep
+    Item: Fat Spot Seal
+    Drop Share: 0.4317%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4317
+    quantity: 1
+- drop_id: mushroom-village__t008r0118
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Whale Falchion
+  drop_share_raw: 31.2095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Whale Falchion
+    Drop Share: 31.2095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2095
+    quantity: 1
+- drop_id: mushroom-village__t008r0119
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Good Whale Falchion
+  drop_share_raw: 0.7739%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Good Whale Falchion
+    Drop Share: 0.7739%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7739
+    quantity: 1
+- drop_id: mushroom-village__t008r0120
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Solu Guard
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Solu Guard
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0121
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Symbol Shield
+  drop_share_raw: 31.2095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Symbol Shield
+    Drop Share: 31.2095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2095
+    quantity: 1
+- drop_id: mushroom-village__t008r0122
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Good Symbol Shield
+  drop_share_raw: 0.7739%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Good Symbol Shield
+    Drop Share: 0.7739%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7739
+    quantity: 1
+- drop_id: mushroom-village__t008r0123
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Seagod's Eye
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Seagod's Eye
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0124
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Saint Helmet
+  drop_share_raw: 31.2095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Saint Helmet
+    Drop Share: 31.2095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 31.2095
+    quantity: 1
+- drop_id: mushroom-village__t008r0125
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Good Saint Helmet
+  drop_share_raw: 0.7739%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Good Saint Helmet
+    Drop Share: 0.7739%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7739
+    quantity: 1
+- drop_id: mushroom-village__t008r0126
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Holy Guard Helmet
+  drop_share_raw: 0.0360%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Holy Guard Helmet
+    Drop Share: 0.0360%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.036
+    quantity: 1
+- drop_id: mushroom-village__t008r0127
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 3.5637%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Flawless Ruby
+    Drop Share: 3.5637%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.5637
+    quantity: 1
+- drop_id: mushroom-village__t008r0128
+  monster_name_raw: Purple Evil Cat
+  item_name_raw: Berry Shark-hunting Armor
+  drop_share_raw: 0.3780%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Evil Cat
+    Item: Berry Shark-hunting Armor
+    Drop Share: 0.3780%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.378
+    quantity: 1
+- drop_id: mushroom-village__t008r0129
+  monster_name_raw: Young Witch
+  item_name_raw: Evil Epee
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Evil Epee
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: mushroom-village__t008r0130
+  monster_name_raw: Young Witch
+  item_name_raw: Good Evil Epee
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Good Evil Epee
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0131
+  monster_name_raw: Young Witch
+  item_name_raw: Satan's Eye
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Satan's Eye
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: mushroom-village__t008r0132
+  monster_name_raw: Young Witch
+  item_name_raw: Wildness Boots
+  drop_share_raw: 47.4705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Wildness Boots
+    Drop Share: 47.4705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4705
+    quantity: 1
+- drop_id: mushroom-village__t008r0133
+  monster_name_raw: Young Witch
+  item_name_raw: Good Wildness Boots
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Good Wildness Boots
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0134
+  monster_name_raw: Young Witch
+  item_name_raw: Fighter Boots
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Fighter Boots
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: mushroom-village__t008r0135
+  monster_name_raw: Young Witch
+  item_name_raw: Yellow Light Rune Piece
+  drop_share_raw: 1.3514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: Yellow Light Rune Piece
+    Drop Share: 1.3514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3514
+    quantity: 1
+- drop_id: mushroom-village__t008r0136
+  monster_name_raw: Young Witch
+  item_name_raw: 'W.Plan2: Evil Epee'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: 'W.Plan2: Evil Epee'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+- drop_id: mushroom-village__t008r0137
+  monster_name_raw: Young Witch
+  item_name_raw: 'A.Plan2: Wildness Boots'
+  drop_share_raw: 0.4505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Young Witch
+    Item: 'A.Plan2: Wildness Boots'
+    Drop Share: 0.4505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4505
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 0
+- table_index: 3
+  headers_raw:
+  - Supply Lines
+  - 'No'
+  - Character lvl 85+
+  - Exp+3250000, Credit+2250, Gold+750000
+  - ''
+  row_count: 3
+- table_index: 4
+  headers_raw:
+  - The Stolen Bento
+  - 'Yes'
+  - Character lvl 95+
+  - Exp+31500, Credit+75
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 6
+  headers_raw:
+  - Village Guardian Litus
+  - '95'
+  - 'Yes'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 8
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 137

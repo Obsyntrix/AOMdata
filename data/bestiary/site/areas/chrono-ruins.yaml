@@ -1,0 +1,195 @@
+area:
+  id: chrono-ruins
+  name_raw: Chrono Ruins
+  source:
+    origin_url: https://angels.wikidot.com/area:chrono-ruins
+    retrieval_url: https://www.aowiki.uk/pages/area_chrono-ruins.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 06c2f8fa586a3e338fbe80fe58c71438003ceff62bd9b0360ed03ffde3eb543f
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: chrono-ruins__sand-gobbler__t001r0001
+  name_raw: Sand Gobbler
+  level_raw: '321'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sand-gobbler.html
+  row_raw:
+    Monster Name: Sand Gobbler
+    Level: '321'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 321
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__clay-gobbler__t001r0002
+  name_raw: Clay Gobbler
+  level_raw: '321'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_clay-gobbler.html
+  row_raw:
+    Monster Name: Clay Gobbler
+    Level: '321'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 321
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__fossil-rex__t001r0003
+  name_raw: Fossil Rex
+  level_raw: '323'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fossil-rex.html
+  row_raw:
+    Monster Name: Fossil Rex
+    Level: '323'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 323
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__rhodo-rex__t001r0004
+  name_raw: Rhodo Rex
+  level_raw: '323'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rhodo-rex.html
+  row_raw:
+    Monster Name: Rhodo Rex
+    Level: '323'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 323
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__berry-bun__t001r0005
+  name_raw: Berry Bun
+  level_raw: '325'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_berry-bun.html
+  row_raw:
+    Monster Name: Berry Bun
+    Level: '325'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 325
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__kitty-punk__t001r0006
+  name_raw: Kitty Punk
+  level_raw: '327'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_kitty-punk.html
+  row_raw:
+    Monster Name: Kitty Punk
+    Level: '327'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 327
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__gloomy-palm__t001r0007
+  name_raw: Gloomy Palm
+  level_raw: '325'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gloomy-palm.html
+  row_raw:
+    Monster Name: Gloomy Palm
+    Level: '325'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 325
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__vegan-rebel__t001r0008
+  name_raw: Vegan Rebel
+  level_raw: '327'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_vegan-rebel.html
+  row_raw:
+    Monster Name: Vegan Rebel
+    Level: '327'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 327
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__clock-lady__t001r0009
+  name_raw: Clock Lady
+  level_raw: '329'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_clock-lady.html
+  row_raw:
+    Monster Name: Clock Lady
+    Level: '329'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 329
+    boss: false
+    aggressive: false
+- area_occurrence_id: chrono-ruins__ticker-lady__t001r0010
+  name_raw: Ticker Lady
+  level_raw: '329'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ticker-lady.html
+  row_raw:
+    Monster Name: Ticker Lady
+    Level: '329'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 329
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Sand Gobbler
+  - '330'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Ragey Gardios
+  - '331'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

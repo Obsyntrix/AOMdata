@@ -1,0 +1,1563 @@
+area:
+  id: ancient-glide-river
+  name_raw: Ancient Glide River
+  source:
+    origin_url: https://angels.wikidot.com/area:ancient-glide-river
+    retrieval_url: https://www.aowiki.uk/pages/area_ancient-glide-river.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 51447f94bd0713e093165dcf34eec0a56bd9699e702e76fcef20a01b5c538945
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: ancient-glide-river__lily-mushroom__t004r0001
+  name_raw: Lily Mushroom
+  level_raw: '89'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_lily-mushroom.html
+  row_raw:
+    Monster Name: Lily Mushroom
+    Level: '89'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 89
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__glede-bud__t004r0002
+  name_raw: Glede Bud
+  level_raw: '91'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_glede-bud.html
+  row_raw:
+    Monster Name: Glede Bud
+    Level: '91'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 91
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__meat-eating-orchid__t004r0003
+  name_raw: Meat-eating Orchid
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_meat-eating-orchid.html
+  row_raw:
+    Monster Name: Meat-eating Orchid
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__golden-scale-guard__t004r0004
+  name_raw: Golden Scale Guard
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_golden-scale-guard.html
+  row_raw:
+    Monster Name: Golden Scale Guard
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__golden-scale-witch__t004r0005
+  name_raw: Golden Scale Witch
+  level_raw: '96'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_golden-scale-witch.html
+  row_raw:
+    Monster Name: Golden Scale Witch
+    Level: '96'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 96
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__animal-slave__t004r0006
+  name_raw: Animal Slave
+  level_raw: '97'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_animal-slave.html
+  row_raw:
+    Monster Name: Animal Slave
+    Level: '97'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 97
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__rain-butterfly__t004r0007
+  name_raw: Rain Butterfly
+  level_raw: '99'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rain-butterfly.html
+  row_raw:
+    Monster Name: Rain Butterfly
+    Level: '99'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 99
+    boss: false
+    aggressive: true
+- area_occurrence_id: ancient-glide-river__giant-hook-worm__t004r0008
+  name_raw: Giant Hook Worm
+  level_raw: '101'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-hook-worm.html
+  row_raw:
+    Monster Name: Giant Hook Worm
+    Level: '101'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 101
+    boss: false
+    aggressive: true
+drops:
+- drop_id: ancient-glide-river__t007r0001
+  monster_name_raw: Animal Slave
+  item_name_raw: Evil Hammer
+  drop_share_raw: 95.5046%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Animal Slave
+    Item: Evil Hammer
+    Drop Share: 95.5046%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 95.5046
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0002
+  monster_name_raw: Animal Slave
+  item_name_raw: Good Evil Hammer
+  drop_share_raw: 2.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Animal Slave
+    Item: Good Evil Hammer
+    Drop Share: 2.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.39
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0003
+  monster_name_raw: Animal Slave
+  item_name_raw: Aries Judge
+  drop_share_raw: 0.1138%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Animal Slave
+    Item: Aries Judge
+    Drop Share: 0.1138%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1138
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0004
+  monster_name_raw: Animal Slave
+  item_name_raw: 'W.Plan2: Evil Hammer'
+  drop_share_raw: 0.7967%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Animal Slave
+    Item: 'W.Plan2: Evil Hammer'
+    Drop Share: 0.7967%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7967
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0005
+  monster_name_raw: Animal Slave
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 1.1950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Animal Slave
+    Item: Flawless Emerald
+    Drop Share: 1.1950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.195
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0006
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Husk Shield
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Husk Shield
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0007
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Wildness Helmet
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Wildness Helmet
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0008
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Good Husk Shield
+  drop_share_raw: 0.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Good Husk Shield
+    Drop Share: 0.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1725
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0009
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Good Wildness Helmet
+  drop_share_raw: 0.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Good Wildness Helmet
+    Drop Share: 0.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1725
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0010
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Diamond Beetle
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Diamond Beetle
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0011
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Fighter Helmet
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Fighter Helmet
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0012
+  monster_name_raw: Death Killer Camote
+  item_name_raw: 'A.Plan2: Husk Shield'
+  drop_share_raw: 0.0575%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: 'A.Plan2: Husk Shield'
+    Drop Share: 0.0575%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0575
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0013
+  monster_name_raw: Death Killer Camote
+  item_name_raw: 'A.Plan2: Wildness Helmet'
+  drop_share_raw: 0.0575%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: 'A.Plan2: Wildness Helmet'
+    Drop Share: 0.0575%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0575
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0014
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0958%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Flawless Orange Gem
+    Drop Share: 0.0958%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0958
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0015
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0016
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Effective Healing Potion
+  drop_share_raw: 45.7199%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Effective Healing Potion
+    Drop Share: 45.7199%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.7199
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0017
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Effective Magic Fruit
+  drop_share_raw: 45.7199%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Effective Magic Fruit
+    Drop Share: 45.7199%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.7199
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0018
+  monster_name_raw: Death Killer Camote
+  item_name_raw: Death Killer Camote Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Killer Camote
+    Item: Death Killer Camote Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0019
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Woods Cuffs
+  drop_share_raw: 47.5029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Woods Cuffs
+    Drop Share: 47.5029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.5029
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0020
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Woods Boots
+  drop_share_raw: 47.5029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Woods Boots
+    Drop Share: 47.5029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.5029
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0021
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Good Woods Cuffs
+  drop_share_raw: 1.3452%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Good Woods Cuffs
+    Drop Share: 1.3452%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3452
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0022
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Good Woods Boots
+  drop_share_raw: 1.3452%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Good Woods Boots
+    Drop Share: 1.3452%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3452
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0023
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Conqueror Cuffs
+  drop_share_raw: 0.0504%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Conqueror Cuffs
+    Drop Share: 0.0504%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0504
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0024
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Conqueror Boots
+  drop_share_raw: 0.0504%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Conqueror Boots
+    Drop Share: 0.0504%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0504
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0025
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: 'A.Plan2: Conqueror Cuffs'
+  drop_share_raw: 0.4372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: 'A.Plan2: Conqueror Cuffs'
+    Drop Share: 0.4372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4372
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0026
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: 'A.Plan2: Conqueror Boots'
+  drop_share_raw: 0.4372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: 'A.Plan2: Conqueror Boots'
+    Drop Share: 0.4372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4372
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0027
+  monster_name_raw: Giant Hook Worm
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 1.3284%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Hook Worm
+    Item: Flawless Ruby
+    Drop Share: 1.3284%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3284
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0028
+  monster_name_raw: Glede Bud
+  item_name_raw: Wind Armor
+  drop_share_raw: 72.2913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: Wind Armor
+    Drop Share: 72.2913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 72.2913
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0029
+  monster_name_raw: Glede Bud
+  item_name_raw: Good Wind Armor
+  drop_share_raw: 1.8029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: Good Wind Armor
+    Drop Share: 1.8029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.8029
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0030
+  monster_name_raw: Glede Bud
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0875%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: Storm Armor
+    Drop Share: 0.0875%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0875
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0031
+  monster_name_raw: Glede Bud
+  item_name_raw: 'A.Plan2: Wind Armor'
+  drop_share_raw: 0.5951%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: 'A.Plan2: Wind Armor'
+    Drop Share: 0.5951%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5951
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0032
+  monster_name_raw: Glede Bud
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.9102%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: Flawless Ruby
+    Drop Share: 0.9102%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9102
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0033
+  monster_name_raw: Glede Bud
+  item_name_raw: Glede Bud Card
+  drop_share_raw: 24.3130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Glede Bud
+    Item: Glede Bud Card
+    Drop Share: 24.3130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.313
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0034
+  monster_name_raw: Golden Scale Guard
+  item_name_raw: Symbol Shield
+  drop_share_raw: 95.5236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Guard
+    Item: Symbol Shield
+    Drop Share: 95.5236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 95.5236
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0035
+  monster_name_raw: Golden Scale Guard
+  item_name_raw: Good Symbol Shield
+  drop_share_raw: 2.3901%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Guard
+    Item: Good Symbol Shield
+    Drop Share: 2.3901%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3901
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0036
+  monster_name_raw: Golden Scale Guard
+  item_name_raw: Seagod's Eye
+  drop_share_raw: 0.1013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Guard
+    Item: Seagod's Eye
+    Drop Share: 0.1013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1013
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0037
+  monster_name_raw: Golden Scale Guard
+  item_name_raw: 'A.Plan2: Symbol Shield'
+  drop_share_raw: 0.7900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Guard
+    Item: 'A.Plan2: Symbol Shield'
+    Drop Share: 0.7900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.79
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0038
+  monster_name_raw: Golden Scale Guard
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 1.1951%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Guard
+    Item: Flawless Purple Gem
+    Drop Share: 1.1951%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1951
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0039
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: Espial Gown
+  drop_share_raw: 95.2874%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: Espial Gown
+    Drop Share: 95.2874%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 95.2874
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0040
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: Good Espial Gown
+  drop_share_raw: 2.3856%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: Good Espial Gown
+    Drop Share: 2.3856%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3856
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0041
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: Magnetic Gown
+  drop_share_raw: 0.1173%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: Magnetic Gown
+    Drop Share: 0.1173%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1173
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0042
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: Rade Fast Seahorse
+  drop_share_raw: 0.2346%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: Rade Fast Seahorse
+    Drop Share: 0.2346%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2346
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0043
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: 'D.Plan2: Magnetic Gown'
+  drop_share_raw: 0.7822%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: 'D.Plan2: Magnetic Gown'
+    Drop Share: 0.7822%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7822
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0044
+  monster_name_raw: Golden Scale Witch
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 1.1928%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Scale Witch
+    Item: Flawless Yellow Gem
+    Drop Share: 1.1928%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1928
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0045
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Saint Armor
+  drop_share_raw: 48.0142%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Saint Armor
+    Drop Share: 48.0142%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.0142
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0046
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Saint Helmet
+  drop_share_raw: 48.0142%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Saint Helmet
+    Drop Share: 48.0142%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.0142
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0047
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Good Saint Armor
+  drop_share_raw: 1.1853%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Good Saint Armor
+    Drop Share: 1.1853%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1853
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0048
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Good Saint Helmet
+  drop_share_raw: 1.1853%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Good Saint Helmet
+    Drop Share: 1.1853%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1853
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0049
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Holy Guard Armor
+  drop_share_raw: 0.0462%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Holy Guard Armor
+    Drop Share: 0.0462%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0462
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0050
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Holy Guard Helmet
+  drop_share_raw: 0.0462%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Holy Guard Helmet
+    Drop Share: 0.0462%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0462
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0051
+  monster_name_raw: Lily Mushroom
+  item_name_raw: 'A.Plan2: Saint Helmet'
+  drop_share_raw: 0.3849%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: 'A.Plan2: Saint Helmet'
+    Drop Share: 0.3849%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3849
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0052
+  monster_name_raw: Lily Mushroom
+  item_name_raw: 'A.Plan2: Saint Armor'
+  drop_share_raw: 0.3849%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: 'A.Plan2: Saint Armor'
+    Drop Share: 0.3849%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3849
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0053
+  monster_name_raw: Lily Mushroom
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.7389%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily Mushroom
+    Item: Flawless Sapphire
+    Drop Share: 0.7389%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7389
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0054
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Evil Epee
+  drop_share_raw: 3.0950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Evil Epee
+    Drop Share: 3.0950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.095
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0055
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Woods Helmet
+  drop_share_raw: 3.0950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Woods Helmet
+    Drop Share: 3.0950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.095
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0056
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Good Evil Epee
+  drop_share_raw: 0.1559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Good Evil Epee
+    Drop Share: 0.1559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1559
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0057
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Good Woods Helmet
+  drop_share_raw: 0.1559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Good Woods Helmet
+    Drop Share: 0.1559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1559
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0058
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Satan's Eye
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Satan's Eye
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0059
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Conqueror Helmet
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Conqueror Helmet
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0060
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Forest Ox
+  drop_share_raw: 0.0088%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Forest Ox
+    Drop Share: 0.0088%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0088
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0061
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: 'W.Plan2: Evil Epee'
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: 'W.Plan2: Evil Epee'
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0062
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: 'A.Plan2: Conqueror Helmet'
+  drop_share_raw: 0.0520%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: 'A.Plan2: Conqueror Helmet'
+    Drop Share: 0.0520%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.052
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0063
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0866%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Flawless Ruby
+    Drop Share: 0.0866%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0866
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0064
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0065
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Effective Target Potion
+  drop_share_raw: 46.1428%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Effective Target Potion
+    Drop Share: 46.1428%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.1428
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0066
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Effective Mighty Fruit
+  drop_share_raw: 46.1428%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Effective Mighty Fruit
+    Drop Share: 46.1428%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.1428
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0067
+  monster_name_raw: Naga Colonel Zic
+  item_name_raw: Naga Colonel Zic Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Naga Colonel Zic
+    Item: Naga Colonel Zic Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0068
+  monster_name_raw: Rain Butterfly
+  item_name_raw: Coral Manteau
+  drop_share_raw: 95.3175%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: Coral Manteau
+    Drop Share: 95.3175%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 95.3175
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0069
+  monster_name_raw: Rain Butterfly
+  item_name_raw: Good Coral Manteau
+  drop_share_raw: 2.3767%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: Good Coral Manteau
+    Drop Share: 2.3767%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3767
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0070
+  monster_name_raw: Rain Butterfly
+  item_name_raw: Blue Wings
+  drop_share_raw: 0.1064%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: Blue Wings
+    Drop Share: 0.1064%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1064
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0071
+  monster_name_raw: Rain Butterfly
+  item_name_raw: Betel Jelly Jellyfish Armor
+  drop_share_raw: 0.2306%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: Betel Jelly Jellyfish Armor
+    Drop Share: 0.2306%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2306
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0072
+  monster_name_raw: Rain Butterfly
+  item_name_raw: 'D.Plan2: Coral Manteau'
+  drop_share_raw: 0.7804%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: 'D.Plan2: Coral Manteau'
+    Drop Share: 0.7804%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7804
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0073
+  monster_name_raw: Rain Butterfly
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 1.1884%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rain Butterfly
+    Item: Flawless Sapphire
+    Drop Share: 1.1884%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.1884
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0074
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Black Knight's Axe
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Black Knight's Axe
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0075
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Wildness Armor
+  drop_share_raw: 3.4950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Wildness Armor
+    Drop Share: 3.4950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.495
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0076
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Good Black Knight's Axe
+  drop_share_raw: 0.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Good Black Knight's Axe
+    Drop Share: 0.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1725
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0077
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Good Wildness Armor
+  drop_share_raw: 0.1725%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Good Wildness Armor
+    Drop Share: 0.1725%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1725
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0078
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Rodan's Strike
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Rodan's Strike
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0079
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Fighter Armor
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Fighter Armor
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0080
+  monster_name_raw: Wardenry Barda
+  item_name_raw: 'W.Plan2: Black Knight''s Axe'
+  drop_share_raw: 0.0575%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: 'W.Plan2: Black Knight''s Axe'
+    Drop Share: 0.0575%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0575
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0081
+  monster_name_raw: Wardenry Barda
+  item_name_raw: 'A.Plan2: Wildness Armor'
+  drop_share_raw: 0.0575%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: 'A.Plan2: Wildness Armor'
+    Drop Share: 0.0575%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0575
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0082
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0958%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Flawless Purple Gem
+    Drop Share: 0.0958%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0958
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0083
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0084
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Effective Mars' Fruit
+  drop_share_raw: 45.9514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Effective Mars' Fruit
+    Drop Share: 45.9514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.9514
+    quantity: 1
+- drop_id: ancient-glide-river__t007r0085
+  monster_name_raw: Wardenry Barda
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 45.9514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wardenry Barda
+    Item: Effective Agility Potion
+    Drop Share: 45.9514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.9514
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 5
+  headers_raw:
+  - Naga Colonel Zic
+  - '105'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 7
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 85

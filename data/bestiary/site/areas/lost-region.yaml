@@ -1,0 +1,1321 @@
+area:
+  id: lost-region
+  name_raw: Lost Region
+  source:
+    origin_url: https://angels.wikidot.com/area:lost-region
+    retrieval_url: https://www.aowiki.uk/pages/area_lost-region.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 019b0d42e8d4944996ee18041069cddb457f8179db6f82ff959873e2796cfe5f
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: lost-region__linberd-sender__t001r0001
+  name_raw: Linberd Sender
+  level_raw: '77'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_linberd-sender.html
+  row_raw:
+    Monster Name: Linberd Sender
+    Level: '77'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 77
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__angel-fishguard__t001r0002
+  name_raw: Angel Fishguard
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_angel-fishguard.html
+  row_raw:
+    Monster Name: Angel Fishguard
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__merman-guard__t001r0003
+  name_raw: Merman Guard
+  level_raw: '84'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_merman-guard.html
+  row_raw:
+    Monster Name: Merman Guard
+    Level: '84'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 84
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__mermaid__t001r0004
+  name_raw: Mermaid
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mermaid.html
+  row_raw:
+    Monster Name: Mermaid
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__fishguard-leader__t001r0005
+  name_raw: Fishguard Leader
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fishguard-leader.html
+  row_raw:
+    Monster Name: Fishguard Leader
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__mermaid-hunter__t001r0006
+  name_raw: Mermaid Hunter
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mermaid-hunter.html
+  row_raw:
+    Monster Name: Mermaid Hunter
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__slip-angel-fish__t001r0007
+  name_raw: Slip Angel Fish
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_slip-angel-fish.html
+  row_raw:
+    Monster Name: Slip Angel Fish
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: lost-region__hicalu-machine__t001r0009
+  name_raw: Hicalu Machine
+  level_raw: '95'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_hicalu-machine.html
+  row_raw:
+    Monster Name: Hicalu Machine
+    Level: '95'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: true
+    aggressive: true
+- area_occurrence_id: lost-region__hicalu-1__t001r0010
+  name_raw: Hicalu 1
+  level_raw: '100'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_hicalu-1.html
+  row_raw:
+    Monster Name: Hicalu 1
+    Level: '100'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 100
+    boss: true
+    aggressive: true
+drops:
+- drop_id: lost-region__t002r0001
+  monster_name_raw: Angel Fishguard
+  item_name_raw: Wave Manteau
+  drop_share_raw: 0.0769%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fishguard
+    Item: Wave Manteau
+    Drop Share: 0.0769%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0769
+    quantity: 1
+- drop_id: lost-region__t002r0002
+  monster_name_raw: Angel Fishguard
+  item_name_raw: Sea Lord Manteau
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fishguard
+    Item: Sea Lord Manteau
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0003
+  monster_name_raw: Angel Fishguard
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fishguard
+    Item: Flawless Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lost-region__t002r0004
+  monster_name_raw: Fishguard Leader
+  item_name_raw: Chief Armor
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fishguard Leader
+    Item: Chief Armor
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: lost-region__t002r0005
+  monster_name_raw: Fishguard Leader
+  item_name_raw: Fane Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fishguard Leader
+    Item: Fane Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0006
+  monster_name_raw: Fishguard Leader
+  item_name_raw: Mini Seal
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fishguard Leader
+    Item: Mini Seal
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lost-region__t002r0007
+  monster_name_raw: Fishguard Leader
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fishguard Leader
+    Item: Flawless Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lost-region__t002r0008
+  monster_name_raw: Hicalu 1
+  item_name_raw: Skeleton Hammer
+  drop_share_raw: 7.6233%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Skeleton Hammer
+    Drop Share: 7.6233%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.6233
+    quantity: 1
+- drop_id: lost-region__t002r0009
+  monster_name_raw: Hicalu 1
+  item_name_raw: Chief Helmet
+  drop_share_raw: 7.6233%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Chief Helmet
+    Drop Share: 7.6233%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.6233
+    quantity: 1
+- drop_id: lost-region__t002r0010
+  monster_name_raw: Hicalu 1
+  item_name_raw: Chief Armor
+  drop_share_raw: 7.6233%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Chief Armor
+    Drop Share: 7.6233%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.6233
+    quantity: 1
+- drop_id: lost-region__t002r0011
+  monster_name_raw: Hicalu 1
+  item_name_raw: Shalio's Bone
+  drop_share_raw: 0.0076%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Shalio's Bone
+    Drop Share: 0.0076%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0076
+    quantity: 1
+- drop_id: lost-region__t002r0012
+  monster_name_raw: Hicalu 1
+  item_name_raw: Fane Helmet
+  drop_share_raw: 0.0076%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Fane Helmet
+    Drop Share: 0.0076%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0076
+    quantity: 1
+- drop_id: lost-region__t002r0013
+  monster_name_raw: Hicalu 1
+  item_name_raw: Fane Armor
+  drop_share_raw: 0.0076%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Fane Armor
+    Drop Share: 0.0076%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0076
+    quantity: 1
+- drop_id: lost-region__t002r0014
+  monster_name_raw: Hicalu 1
+  item_name_raw: 'Assassin Skill: Skilled Assassination V'
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: 'Assassin Skill: Skilled Assassination V'
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: lost-region__t002r0015
+  monster_name_raw: Hicalu 1
+  item_name_raw: Fury Attack V
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Fury Attack V
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: lost-region__t002r0016
+  monster_name_raw: Hicalu 1
+  item_name_raw: Demon Sealed V
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Demon Sealed V
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: lost-region__t002r0017
+  monster_name_raw: Hicalu 1
+  item_name_raw: Silence V
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Silence V
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: lost-region__t002r0018
+  monster_name_raw: Hicalu 1
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.1178%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Flawless Purple Gem
+    Drop Share: 0.1178%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1178
+    quantity: 1
+- drop_id: lost-region__t002r0019
+  monster_name_raw: Hicalu 1
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: lost-region__t002r0020
+  monster_name_raw: Hicalu 1
+  item_name_raw: Effective Mighty Fruit
+  drop_share_raw: 74.5931%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Effective Mighty Fruit
+    Drop Share: 74.5931%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 74.5931
+    quantity: 1
+- drop_id: lost-region__t002r0021
+  monster_name_raw: Hicalu 1
+  item_name_raw: Hicalu Ship 1 Card
+  drop_share_raw: 0.6614%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Hicalu Ship 1 Card
+    Drop Share: 0.6614%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6614
+    quantity: 1
+- drop_id: lost-region__t002r0022
+  monster_name_raw: Hicalu 1
+  item_name_raw: Undying Energy
+  drop_share_raw: 5.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu 1
+    Item: Undying Energy
+    Drop Share: 5.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 3
+- drop_id: lost-region__t002r0023
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Lunar Wand
+  drop_share_raw: 4.1333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Lunar Wand
+    Drop Share: 4.1333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.1333
+    quantity: 1
+- drop_id: lost-region__t002r0024
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Luck Hood
+  drop_share_raw: 4.1333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Luck Hood
+    Drop Share: 4.1333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.1333
+    quantity: 1
+- drop_id: lost-region__t002r0025
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Luck Gown
+  drop_share_raw: 4.1333%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Luck Gown
+    Drop Share: 4.1333%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.1333
+    quantity: 1
+- drop_id: lost-region__t002r0026
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Selini's Direction
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Selini's Direction
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: lost-region__t002r0027
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Lucky Jack Hood
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Lucky Jack Hood
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: lost-region__t002r0028
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Lucky Jack Gown
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Lucky Jack Gown
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: lost-region__t002r0029
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Vigor Blessing 5
+  drop_share_raw: 0.0029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Vigor Blessing 5
+    Drop Share: 0.0029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0029
+    quantity: 1
+- drop_id: lost-region__t002r0030
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Fire Trap V
+  drop_share_raw: 0.0029%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Fire Trap V
+    Drop Share: 0.0029%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0029
+    quantity: 1
+- drop_id: lost-region__t002r0031
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Mini Seal
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Mini Seal
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: lost-region__t002r0032
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Luna Wand
+  drop_share_raw: 0.0236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Luna Wand
+    Drop Share: 0.0236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0236
+    quantity: 1
+- drop_id: lost-region__t002r0033
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Flawless Orange Gem
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: lost-region__t002r0034
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: lost-region__t002r0035
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Effective Magic Fruit
+  drop_share_raw: 86.3409%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Effective Magic Fruit
+    Drop Share: 86.3409%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 86.3409
+    quantity: 1
+- drop_id: lost-region__t002r0036
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Swiftness Armor
+  drop_share_raw: 2.8433%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Swiftness Armor
+    Drop Share: 2.8433%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.8433
+    quantity: 1
+- drop_id: lost-region__t002r0037
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Swiftness Helmet
+  drop_share_raw: 2.8433%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Swiftness Helmet
+    Drop Share: 2.8433%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.8433
+    quantity: 1
+- drop_id: lost-region__t002r0038
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Flood Shield
+  drop_share_raw: 2.8433%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Flood Shield
+    Drop Share: 2.8433%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.8433
+    quantity: 1
+- drop_id: lost-region__t002r0039
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Walker Armor
+  drop_share_raw: 0.0036%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Walker Armor
+    Drop Share: 0.0036%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0036
+    quantity: 1
+- drop_id: lost-region__t002r0040
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Walker Helmet
+  drop_share_raw: 0.0036%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Walker Helmet
+    Drop Share: 0.0036%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0036
+    quantity: 1
+- drop_id: lost-region__t002r0041
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Ancient Wings Shield
+  drop_share_raw: 0.0036%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Ancient Wings Shield
+    Drop Share: 0.0036%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0036
+    quantity: 1
+- drop_id: lost-region__t002r0042
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Seabed Steed
+  drop_share_raw: 0.0213%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Seabed Steed
+    Drop Share: 0.0213%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0213
+    quantity: 1
+- drop_id: lost-region__t002r0043
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Swift Armor
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Swift Armor
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: lost-region__t002r0044
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Swift Helmet
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Swift Helmet
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: lost-region__t002r0045
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Flawless Ruby
+    Drop Share: 0.0404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0404
+    quantity: 1
+- drop_id: lost-region__t002r0046
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 90.3443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Effective Evil Fruit
+    Drop Share: 90.3443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 90.3443
+    quantity: 1
+- drop_id: lost-region__t002r0047
+  monster_name_raw: Hicalu Machine
+  item_name_raw: Undying Energy
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hicalu Machine
+    Item: Undying Energy
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: lost-region__t002r0048
+  monster_name_raw: Linberd Sender
+  item_name_raw: Fire Scale Helmet
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Fire Scale Helmet
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: lost-region__t002r0049
+  monster_name_raw: Linberd Sender
+  item_name_raw: Fire Scale Boots
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Fire Scale Boots
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: lost-region__t002r0050
+  monster_name_raw: Linberd Sender
+  item_name_raw: Embrace Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Embrace Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0051
+  monster_name_raw: Linberd Sender
+  item_name_raw: Embrace Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Embrace Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0052
+  monster_name_raw: Linberd Sender
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Clean Ruby
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: lost-region__t002r0053
+  monster_name_raw: Linberd Sender
+  item_name_raw: Scale Soldier Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Linberd Sender
+    Item: Scale Soldier Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: lost-region__t002r0054
+  monster_name_raw: Mermaid
+  item_name_raw: Swiftness Armor
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mermaid
+    Item: Swiftness Armor
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: lost-region__t002r0055
+  monster_name_raw: Mermaid
+  item_name_raw: Walker Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mermaid
+    Item: Walker Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0056
+  monster_name_raw: Mermaid
+  item_name_raw: Seabed Steed
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mermaid
+    Item: Seabed Steed
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lost-region__t002r0057
+  monster_name_raw: Mermaid
+  item_name_raw: Swift Armor
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mermaid
+    Item: Swift Armor
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: lost-region__t002r0058
+  monster_name_raw: Mermaid
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mermaid
+    Item: Flawless Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lost-region__t002r0059
+  monster_name_raw: Merman Guard
+  item_name_raw: Luck Gown
+  drop_share_raw: 0.0824%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Guard
+    Item: Luck Gown
+    Drop Share: 0.0824%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0824
+    quantity: 1
+- drop_id: lost-region__t002r0060
+  monster_name_raw: Merman Guard
+  item_name_raw: Lucky Jack Gown
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Guard
+    Item: Lucky Jack Gown
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0061
+  monster_name_raw: Merman Guard
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Guard
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lost-region__t002r0062
+  monster_name_raw: Merman Hunter
+  item_name_raw: Spider Teeth
+  drop_share_raw: 96,81%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hunter
+    Item: Spider Teeth
+    Drop Share: 96,81%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.81
+    quantity: 1
+- drop_id: lost-region__t002r0063
+  monster_name_raw: Merman Hunter
+  item_name_raw: Good Spider Teeth
+  drop_share_raw: 2,42%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hunter
+    Item: Good Spider Teeth
+    Drop Share: 2,42%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.42
+    quantity: 1
+- drop_id: lost-region__t002r0064
+  monster_name_raw: Merman Hunter
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0,47%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hunter
+    Item: Flawless Ruby
+    Drop Share: 0,47%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.47
+    quantity: 1
+- drop_id: lost-region__t002r0065
+  monster_name_raw: Merman Hunter
+  item_name_raw: W.Plan2:Spider Teeth
+  drop_share_raw: 0,31%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hunter
+    Item: W.Plan2:Spider Teeth
+    Drop Share: 0,31%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.31
+    quantity: 1
+- drop_id: lost-region__t002r0066
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Lunar Wand
+  drop_share_raw: 0.0571%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Lunar Wand
+    Drop Share: 0.0571%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0571
+    quantity: 1
+- drop_id: lost-region__t002r0067
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Luck Hood
+  drop_share_raw: 0.0571%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Luck Hood
+    Drop Share: 0.0571%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0571
+    quantity: 1
+- drop_id: lost-region__t002r0068
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Selini's Direction
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Selini's Direction
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0069
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Lucky Jack Hood
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Lucky Jack Hood
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lost-region__t002r0070
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Luna Wand
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Luna Wand
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lost-region__t002r0071
+  monster_name_raw: Slip Angel Fish
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slip Angel Fish
+    Item: Flawless Orange Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 71

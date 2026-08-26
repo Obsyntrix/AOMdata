@@ -1,0 +1,195 @@
+area:
+  id: ivory-forest
+  name_raw: Ivory Forest
+  source:
+    origin_url: https://angels.wikidot.com/area:ivory-forest
+    retrieval_url: https://www.aowiki.uk/pages/area_ivory-forest.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: ef29f73a3af8abd7d2ba2be6c06730c1e34801435d49382bf98ee153b2c794d8
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: ivory-forest__tackie__t001r0001
+  name_raw: Tackie
+  level_raw: '241'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tackie.html
+  row_raw:
+    Monster Name: Tackie
+    Level: '241'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 241
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__pinky-tackie__t001r0002
+  name_raw: Pinky Tackie
+  level_raw: '241'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pinky-tackie.html
+  row_raw:
+    Monster Name: Pinky Tackie
+    Level: '241'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 241
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__mocha-woof__t001r0003
+  name_raw: Mocha Woof
+  level_raw: '243'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mocha-woof.html
+  row_raw:
+    Monster Name: Mocha Woof
+    Level: '243'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 243
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__matcha-woof__t001r0004
+  name_raw: Matcha Woof
+  level_raw: '243'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_matcha-woof.html
+  row_raw:
+    Monster Name: Matcha Woof
+    Level: '243'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 243
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__redhot-cacto__t001r0005
+  name_raw: Redhot Cacto
+  level_raw: '245'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_redhot-cacto.html
+  row_raw:
+    Monster Name: Redhot Cacto
+    Level: '245'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 245
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__terror-cacto__t001r0006
+  name_raw: Terror Cacto
+  level_raw: '245'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_terror-cacto.html
+  row_raw:
+    Monster Name: Terror Cacto
+    Level: '245'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 245
+    boss: false
+    aggressive: true
+- area_occurrence_id: ivory-forest__bronze-beetlebot__t001r0007
+  name_raw: Bronze Beetlebot
+  level_raw: '247'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bronze-beetlebot.html
+  row_raw:
+    Monster Name: Bronze Beetlebot
+    Level: '247'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 247
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__icy-beetlebot__t001r0008
+  name_raw: Icy Beetlebot
+  level_raw: '247'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_icy-beetlebot.html
+  row_raw:
+    Monster Name: Icy Beetlebot
+    Level: '247'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 247
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__granite-crab__t001r0009
+  name_raw: Granite Crab
+  level_raw: '249'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_granite-crab.html
+  row_raw:
+    Monster Name: Granite Crab
+    Level: '249'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 249
+    boss: false
+    aggressive: false
+- area_occurrence_id: ivory-forest__fab-crab__t001r0010
+  name_raw: Fab Crab
+  level_raw: '249'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fab-crab.html
+  row_raw:
+    Monster Name: Fab Crab
+    Level: '249'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 249
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Tackie
+  - '250'
+  - 'No'
+  - 'Yes'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Maddi Brawler
+  - '251'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

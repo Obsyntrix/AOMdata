@@ -1,0 +1,1050 @@
+area:
+  id: fantastic-sand-city
+  name_raw: Fantastic Sand City
+  source:
+    origin_url: https://angels.wikidot.com/area:fantastic-sand-city
+    retrieval_url: https://www.aowiki.uk/pages/area_fantastic-sand-city.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 815ed033229987404d6999cc47443befaefa1f9f8d5543493d7454d8198ca352
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: fantastic-sand-city__blago-miner__t004r0001
+  name_raw: Blago Miner
+  level_raw: '105'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blago-miner.html
+  row_raw:
+    Monster Name: Blago Miner
+    Level: '105'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 105
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__blago-warrior__t004r0002
+  name_raw: Blago Warrior
+  level_raw: '106'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blago-warrior.html
+  row_raw:
+    Monster Name: Blago Warrior
+    Level: '106'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 106
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__gelu-warrior__t004r0003
+  name_raw: Gelu Warrior
+  level_raw: '107'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gelu-warrior.html
+  row_raw:
+    Monster Name: Gelu Warrior
+    Level: '107'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 107
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__bottle-soldier__t004r0004
+  name_raw: Bottle Soldier
+  level_raw: '108'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bottle-soldier.html
+  row_raw:
+    Monster Name: Bottle Soldier
+    Level: '108'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 108
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__evil-dancing-girl__t004r0005
+  name_raw: Evil Dancing Girl
+  level_raw: '110'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-dancing-girl.html
+  row_raw:
+    Monster Name: Evil Dancing Girl
+    Level: '110'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 110
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__outpost-guardian__t004r0006
+  name_raw: Outpost Guardian
+  level_raw: '112'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_outpost-guardian.html
+  row_raw:
+    Monster Name: Outpost Guardian
+    Level: '112'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 112
+    boss: false
+    aggressive: true
+- area_occurrence_id: fantastic-sand-city__fierce-archer__t004r0007
+  name_raw: Fierce Archer
+  level_raw: '114'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fierce-archer.html
+  row_raw:
+    Monster Name: Fierce Archer
+    Level: '114'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 114
+    boss: false
+    aggressive: true
+drops:
+- drop_id: fantastic-sand-city__t007r0001
+  monster_name_raw: Blago Miner
+  item_name_raw: Wonder Gown
+  drop_share_raw: 0.0424%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Wonder Gown
+    Drop Share: 0.0424%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0424
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0002
+  monster_name_raw: Blago Miner
+  item_name_raw: Roaring Prophet Gown
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Roaring Prophet Gown
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0003
+  monster_name_raw: Blago Miner
+  item_name_raw: Ice Leopard
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Ice Leopard
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0004
+  monster_name_raw: Blago Miner
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Flawless Purple Gem
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0005
+  monster_name_raw: Blago Miner
+  item_name_raw: Mining Wall Lamp Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Mining Wall Lamp Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0006
+  monster_name_raw: Blago Miner
+  item_name_raw: Utility Tool Set Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Miner
+    Item: Utility Tool Set Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0007
+  monster_name_raw: Blago Warrior
+  item_name_raw: Dark Eagle Cuffs
+  drop_share_raw: 0.0658%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Dark Eagle Cuffs
+    Drop Share: 0.0658%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0658
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0008
+  monster_name_raw: Blago Warrior
+  item_name_raw: Desert Eagle Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Desert Eagle Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0009
+  monster_name_raw: Blago Warrior
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Flawless Ruby
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0010
+  monster_name_raw: Blago Warrior
+  item_name_raw: Blago Warrior Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Blago Warrior Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0011
+  monster_name_raw: Blago Warrior
+  item_name_raw: Mining Wall Lamp Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Mining Wall Lamp Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0012
+  monster_name_raw: Blago Warrior
+  item_name_raw: Utility Tool Set Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blago Warrior
+    Item: Utility Tool Set Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0013
+  monster_name_raw: Bottle Liam
+  item_name_raw: Supreme Wand
+  drop_share_raw: 1.7475%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Supreme Wand
+    Drop Share: 1.7475%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.7475
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0014
+  monster_name_raw: Bottle Liam
+  item_name_raw: Wonder Gown
+  drop_share_raw: 1.7475%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Wonder Gown
+    Drop Share: 1.7475%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.7475
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0015
+  monster_name_raw: Bottle Liam
+  item_name_raw: Wonder Shoes
+  drop_share_raw: 1.7475%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Wonder Shoes
+    Drop Share: 1.7475%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.7475
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0016
+  monster_name_raw: Bottle Liam
+  item_name_raw: Bloody Orchid Shield
+  drop_share_raw: 1.7475%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Bloody Orchid Shield
+    Drop Share: 1.7475%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.7475
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0017
+  monster_name_raw: Bottle Liam
+  item_name_raw: Roaring Prophet Gown
+  drop_share_raw: 0.0025%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Roaring Prophet Gown
+    Drop Share: 0.0025%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0025
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0018
+  monster_name_raw: Bottle Liam
+  item_name_raw: Roaring Prophet Shoes
+  drop_share_raw: 0.0025%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Roaring Prophet Shoes
+    Drop Share: 0.0025%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0025
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0019
+  monster_name_raw: Bottle Liam
+  item_name_raw: Life Spring
+  drop_share_raw: 0.0025%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Life Spring
+    Drop Share: 0.0025%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0025
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0020
+  monster_name_raw: Bottle Liam
+  item_name_raw: Yappy Duck Bathtub
+  drop_share_raw: 0.0099%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Yappy Duck Bathtub
+    Drop Share: 0.0099%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0099
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0021
+  monster_name_raw: Bottle Liam
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0958%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Flawless Orange Gem
+    Drop Share: 0.0958%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0958
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0022
+  monster_name_raw: Bottle Liam
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0023
+  monster_name_raw: Bottle Liam
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 90.6180%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Liam
+    Item: Effective Agility Potion
+    Drop Share: 90.6180%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 90.618
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0024
+  monster_name_raw: Bottle Soldier
+  item_name_raw: Bloody Scale Tooth
+  drop_share_raw: 0.0350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Soldier
+    Item: Bloody Scale Tooth
+    Drop Share: 0.0350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.035
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0025
+  monster_name_raw: Bottle Soldier
+  item_name_raw: Bloody Orchid Shield
+  drop_share_raw: 0.0350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Soldier
+    Item: Bloody Orchid Shield
+    Drop Share: 0.0350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.035
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0026
+  monster_name_raw: Bottle Soldier
+  item_name_raw: Apocal's Attack
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Soldier
+    Item: Apocal's Attack
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0027
+  monster_name_raw: Bottle Soldier
+  item_name_raw: Life Spring
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Soldier
+    Item: Life Spring
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0028
+  monster_name_raw: Bottle Soldier
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Soldier
+    Item: Flawless Sapphire
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0029
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Supreme Wand
+  drop_share_raw: 0.0372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Supreme Wand
+    Drop Share: 0.0372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0372
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0030
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Wonder Shoes
+  drop_share_raw: 0.0372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Wonder Shoes
+    Drop Share: 0.0372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0372
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0031
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Nahuac Power
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Nahuac Power
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0032
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Roaring Prophet Shoes
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Roaring Prophet Shoes
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0033
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Wild Desert Camel
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Wild Desert Camel
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0034
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Flawless Purple Gem
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0035
+  monster_name_raw: Evil Dancing Girl
+  item_name_raw: Evil Dancing Girl Card
+  drop_share_raw: 0.0069%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Dancing Girl
+    Item: Evil Dancing Girl Card
+    Drop Share: 0.0069%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0069
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0036
+  monster_name_raw: Fierce Archer
+  item_name_raw: Stealth Gloves
+  drop_share_raw: 0.0536%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fierce Archer
+    Item: Stealth Gloves
+    Drop Share: 0.0536%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0536
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0037
+  monster_name_raw: Fierce Archer
+  item_name_raw: Stealth Fur Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fierce Archer
+    Item: Stealth Fur Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0038
+  monster_name_raw: Fierce Archer
+  item_name_raw: Big Mouth Bird
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fierce Archer
+    Item: Big Mouth Bird
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0039
+  monster_name_raw: Fierce Archer
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fierce Archer
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0040
+  monster_name_raw: Gelu Warrior
+  item_name_raw: Dark Eagle Cap
+  drop_share_raw: 0.0678%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gelu Warrior
+    Item: Dark Eagle Cap
+    Drop Share: 0.0678%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0678
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0041
+  monster_name_raw: Gelu Warrior
+  item_name_raw: Desert Eagle Crista
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gelu Warrior
+    Item: Desert Eagle Crista
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0042
+  monster_name_raw: Gelu Warrior
+  item_name_raw: Panda Puppet Robot
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gelu Warrior
+    Item: Panda Puppet Robot
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0043
+  monster_name_raw: Gelu Warrior
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gelu Warrior
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0044
+  monster_name_raw: Outpost Guardian
+  item_name_raw: Stealth Gloves
+  drop_share_raw: 0.0465%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Guardian
+    Item: Stealth Gloves
+    Drop Share: 0.0465%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0465
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0045
+  monster_name_raw: Outpost Guardian
+  item_name_raw: Stealth Fur Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Guardian
+    Item: Stealth Fur Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0046
+  monster_name_raw: Outpost Guardian
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Outpost Guardian
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0047
+  monster_name_raw: Spearman Kente
+  item_name_raw: Fairy Brooch
+  drop_share_raw: 5.2455%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Fairy Brooch
+    Drop Share: 5.2455%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.2455
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0048
+  monster_name_raw: Spearman Kente
+  item_name_raw: Star's Tear
+  drop_share_raw: 0.0077%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Star's Tear
+    Drop Share: 0.0077%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0077
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0049
+  monster_name_raw: Spearman Kente
+  item_name_raw: Phoenix Fire V
+  drop_share_raw: 0.0111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Phoenix Fire V
+    Drop Share: 0.0111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0111
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0050
+  monster_name_raw: Spearman Kente
+  item_name_raw: Oasis Ostrich
+  drop_share_raw: 0.0111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Oasis Ostrich
+    Drop Share: 0.0111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0111
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0051
+  monster_name_raw: Spearman Kente
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.1060%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Flawless Yellow Gem
+    Drop Share: 0.1060%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.106
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0052
+  monster_name_raw: Spearman Kente
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0053
+  monster_name_raw: Spearman Kente
+  item_name_raw: Effective Mighty Fruit
+  drop_share_raw: 92.6540%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Effective Mighty Fruit
+    Drop Share: 92.6540%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 92.654
+    quantity: 1
+- drop_id: fantastic-sand-city__t007r0054
+  monster_name_raw: Spearman Kente
+  item_name_raw: Outpost Gunman Kente Card
+  drop_share_raw: 0.1543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Spearman Kente
+    Item: Outpost Gunman Kente Card
+    Drop Share: 0.1543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1543
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Bottle Liam
+  - '110'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 1
+- table_index: 6
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 7
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 54

@@ -1,0 +1,1520 @@
+area:
+  id: dawn-harbor
+  name_raw: Dawn Harbor
+  source:
+    origin_url: https://angels.wikidot.com/area:dawn-harbor
+    retrieval_url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 171f310d88431eb16b92fef94fca042a294b24e110acbca04d5df559eb7299e1
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: dawn-harbor__turtle__t004r0001
+  name_raw: Turtle
+  level_raw: '18'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_turtle.html
+  row_raw:
+    Monster Name: Turtle
+    Level: '18'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 18
+    boss: false
+    aggressive: false
+- area_occurrence_id: dawn-harbor__grey-mouse__t004r0002
+  name_raw: Grey Mouse
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_grey-mouse.html
+  row_raw:
+    Monster Name: Grey Mouse
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: true
+- area_occurrence_id: dawn-harbor__soldier-crab__t004r0003
+  name_raw: Soldier Crab
+  level_raw: '21'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_soldier-crab.html
+  row_raw:
+    Monster Name: Soldier Crab
+    Level: '21'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 21
+    boss: false
+    aggressive: false
+- area_occurrence_id: dawn-harbor__mousekin-mickey__t004r0005
+  name_raw: Mousekin Mickey
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mousekin-mickey.html
+  row_raw:
+    Monster Name: Mousekin Mickey
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+- area_occurrence_id: dawn-harbor__golden-crab__t004r0006
+  name_raw: Golden Crab
+  level_raw: '26'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_golden-crab.html
+  row_raw:
+    Monster Name: Golden Crab
+    Level: '26'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 26
+    boss: true
+    aggressive: true
+drops:
+- drop_id: dawn-harbor__t006r0001
+  monster_name_raw: Golden Crab
+  item_name_raw: Iron Shoes
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Iron Shoes
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0002
+  monster_name_raw: Golden Crab
+  item_name_raw: Linen Gloves
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Linen Gloves
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0003
+  monster_name_raw: Golden Crab
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Heavy Leather Shoes
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0004
+  monster_name_raw: Golden Crab
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Protector's Gloves
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0005
+  monster_name_raw: Golden Crab
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Turtle Shell Bag
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0006
+  monster_name_raw: Golden Crab
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Ring of Envoy
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0007
+  monster_name_raw: Golden Crab
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 16.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Iron Wristlet
+    Drop Share: 16.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 16.0
+    quantity: 1
+- drop_id: dawn-harbor__t006r0008
+  monster_name_raw: Golden Crab
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Flawed Emerald
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0009
+  monster_name_raw: Golden Crab
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Flawed Sapphire
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0010
+  monster_name_raw: Golden Crab
+  item_name_raw: Slicing Hit V
+  drop_share_raw: 1.3018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Slicing Hit V
+    Drop Share: 1.3018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3018
+    quantity: 1
+- drop_id: dawn-harbor__t006r0011
+  monster_name_raw: Golden Crab
+  item_name_raw: Basic Beating V
+  drop_share_raw: 1.3018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Basic Beating V
+    Drop Share: 1.3018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3018
+    quantity: 1
+- drop_id: dawn-harbor__t006r0012
+  monster_name_raw: Golden Crab
+  item_name_raw: 'Assassin Skill: Stab V'
+  drop_share_raw: 1.3018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: 'Assassin Skill: Stab V'
+    Drop Share: 1.3018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3018
+    quantity: 1
+- drop_id: dawn-harbor__t006r0013
+  monster_name_raw: Golden Crab
+  item_name_raw: Fruit of Mars
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Fruit of Mars
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0014
+  monster_name_raw: Golden Crab
+  item_name_raw: Agility Potion
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Agility Potion
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0015
+  monster_name_raw: Golden Crab
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Golden Crab
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+- drop_id: dawn-harbor__t006r0016
+  monster_name_raw: Grey Mouse
+  item_name_raw: Iron Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Iron Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0017
+  monster_name_raw: Grey Mouse
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Thick-soled Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0018
+  monster_name_raw: Grey Mouse
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Cotton Shoes
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0019
+  monster_name_raw: Grey Mouse
+  item_name_raw: Heavy Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Heavy Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0020
+  monster_name_raw: Grey Mouse
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Light Leather Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0021
+  monster_name_raw: Grey Mouse
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Protector's Magic Shoes
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0022
+  monster_name_raw: Grey Mouse
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Flawed Emerald
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0023
+  monster_name_raw: Grey Mouse
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Flawed Sapphire
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0024
+  monster_name_raw: Grey Mouse
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Flawed Purple Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0025
+  monster_name_raw: Grey Mouse
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Grey Mouse
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: dawn-harbor__t006r0026
+  monster_name_raw: Harp Sheep
+  item_name_raw: Rabbi's Cap
+  drop_share_raw: 0.5211%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Rabbi's Cap
+    Drop Share: 0.5211%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5211
+    quantity: 1
+- drop_id: dawn-harbor__t006r0027
+  monster_name_raw: Harp Sheep
+  item_name_raw: Protector's Cap
+  drop_share_raw: 0.0086%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Protector's Cap
+    Drop Share: 0.0086%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0086
+    quantity: 1
+- drop_id: dawn-harbor__t006r0028
+  monster_name_raw: Harp Sheep
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Flawed Ruby
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0029
+  monster_name_raw: Harp Sheep
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Defective Orange Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0030
+  monster_name_raw: Harp Sheep
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0031
+  monster_name_raw: Harp Sheep
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Harp Sheep
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: dawn-harbor__t006r0032
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Thick-soled Shoes
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Thick-soled Shoes
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0033
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Cotton Shoes
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Cotton Shoes
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0034
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Light Leather Shoes
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Light Leather Shoes
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0035
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Protector's Magic Shoes
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Protector's Magic Shoes
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0036
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Turtle Shell Bag
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0037
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Ring of Envoy
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0038
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Flawed Ruby
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0039
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Flawed Yellow Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0040
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Cure Spell 5
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Cure Spell 5
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0041
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Summon Skeleton V
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Summon Skeleton V
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0042
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Fruit of Hercules
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0043
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Target Potion
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Target Potion
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0044
+  monster_name_raw: Mousekin Mickey
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mousekin Mickey
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+- drop_id: dawn-harbor__t006r0045
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Hard-leather Cap
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: dawn-harbor__t006r0046
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Shade
+  drop_share_raw: 0.2605%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Shade
+    Drop Share: 0.2605%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2605
+    quantity: 1
+- drop_id: dawn-harbor__t006r0047
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Hard Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Hard Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: dawn-harbor__t006r0048
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Heavy Leather Helmet
+  drop_share_raw: 0.0043%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Heavy Leather Helmet
+    Drop Share: 0.0043%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0043
+    quantity: 1
+- drop_id: dawn-harbor__t006r0049
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Emerald
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Emerald
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0050
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Sapphire
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0051
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Flawed Purple Gem
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dawn-harbor__t006r0052
+  monster_name_raw: Riprap Pirate
+  item_name_raw: Map Piece
+  drop_share_raw: 0.8680%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Riprap Pirate
+    Item: Map Piece
+    Drop Share: 0.8680%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.868
+    quantity: 1
+- drop_id: dawn-harbor__t006r0053
+  monster_name_raw: Soldier Crab
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Iron Wristlet
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0054
+  monster_name_raw: Soldier Crab
+  item_name_raw: Long Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Long Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0055
+  monster_name_raw: Soldier Crab
+  item_name_raw: Linen Gloves
+  drop_share_raw: 0.1420%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Linen Gloves
+    Drop Share: 0.1420%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.142
+    quantity: 1
+- drop_id: dawn-harbor__t006r0056
+  monster_name_raw: Soldier Crab
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0057
+  monster_name_raw: Soldier Crab
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Bone Wristlet
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0058
+  monster_name_raw: Soldier Crab
+  item_name_raw: Protector's Gloves
+  drop_share_raw: 0.0023%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Protector's Gloves
+    Drop Share: 0.0023%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0023
+    quantity: 1
+- drop_id: dawn-harbor__t006r0059
+  monster_name_raw: Soldier Crab
+  item_name_raw: Flawed Ruby
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Flawed Ruby
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0060
+  monster_name_raw: Soldier Crab
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Defective Orange Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0061
+  monster_name_raw: Soldier Crab
+  item_name_raw: Flawed Yellow Gem
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Flawed Yellow Gem
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dawn-harbor__t006r0062
+  monster_name_raw: Soldier Crab
+  item_name_raw: Map Piece
+  drop_share_raw: 0.7100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soldier Crab
+    Item: Map Piece
+    Drop Share: 0.7100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.71
+    quantity: 1
+- drop_id: dawn-harbor__t006r0063
+  monster_name_raw: Turtle
+  item_name_raw: Hook
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Hook
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: dawn-harbor__t006r0064
+  monster_name_raw: Turtle
+  item_name_raw: Catapult
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Catapult
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: dawn-harbor__t006r0065
+  monster_name_raw: Turtle
+  item_name_raw: Staff
+  drop_share_raw: 0.6357%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Staff
+    Drop Share: 0.6357%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6357
+    quantity: 1
+- drop_id: dawn-harbor__t006r0066
+  monster_name_raw: Turtle
+  item_name_raw: Slingshot
+  drop_share_raw: 0.1059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Slingshot
+    Drop Share: 0.1059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1059
+    quantity: 1
+- drop_id: dawn-harbor__t006r0067
+  monster_name_raw: Turtle
+  item_name_raw: Curse Hook
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Curse Hook
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: dawn-harbor__t006r0068
+  monster_name_raw: Turtle
+  item_name_raw: Raid Slingshot
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Raid Slingshot
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: dawn-harbor__t006r0069
+  monster_name_raw: Turtle
+  item_name_raw: Holy Wood Staff
+  drop_share_raw: 0.0105%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Holy Wood Staff
+    Drop Share: 0.0105%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0105
+    quantity: 1
+- drop_id: dawn-harbor__t006r0070
+  monster_name_raw: Turtle
+  item_name_raw: Emerald Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Emerald Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: dawn-harbor__t006r0071
+  monster_name_raw: Turtle
+  item_name_raw: Sapphire Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Sapphire Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: dawn-harbor__t006r0072
+  monster_name_raw: Turtle
+  item_name_raw: Purple Gem Piece
+  drop_share_raw: 0.0318%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Purple Gem Piece
+    Drop Share: 0.0318%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0318
+    quantity: 1
+- drop_id: dawn-harbor__t006r0073
+  monster_name_raw: Turtle
+  item_name_raw: Map Piece
+  drop_share_raw: 3.1780%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Turtle
+    Item: Map Piece
+    Drop Share: 3.1780%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.178
+    quantity: 1
+- drop_id: dawn-harbor__t006r0074
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Iron Wristlet
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Iron Wristlet
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0075
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Long Gloves
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Long Gloves
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0076
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Heavy Bone Wristlet
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Heavy Bone Wristlet
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0077
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Bone Wristlet
+  drop_share_raw: 0.3550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Bone Wristlet
+    Drop Share: 0.3550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.355
+    quantity: 1
+- drop_id: dawn-harbor__t006r0078
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Turtle Shell Bag
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Turtle Shell Bag
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0079
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Ring of Envoy
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Ring of Envoy
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0080
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Defective Orange Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Defective Orange Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0081
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Flawed Purple Gem
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: dawn-harbor__t006r0082
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Cure Spell 5
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Cure Spell 5
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0083
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Summon Skeleton V
+  drop_share_raw: 1.9527%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Summon Skeleton V
+    Drop Share: 1.9527%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.9527
+    quantity: 1
+- drop_id: dawn-harbor__t006r0084
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Fruit of Hercules
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0085
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Target Potion
+  drop_share_raw: 24.1169%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Target Potion
+    Drop Share: 24.1169%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 24.1169
+    quantity: 1
+- drop_id: dawn-harbor__t006r0086
+  monster_name_raw: Vice Head Pirate
+  item_name_raw: Map Piece
+  drop_share_raw: 7.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vice Head Pirate
+    Item: Map Piece
+    Drop Share: 7.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.1
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 14
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 17
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 86

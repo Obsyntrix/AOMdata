@@ -1,0 +1,1140 @@
+area:
+  id: desert-racetrack
+  name_raw: Desert Racetrack
+  source:
+    origin_url: https://angels.wikidot.com/area:desert-racetrack
+    retrieval_url: https://www.aowiki.uk/pages/area_desert-racetrack.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 0dcc906a1c6f828904f690d9d9e130000a526b3b5d83b05f0c6cd9ccecbdab9a
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: desert-racetrack__race-judge__t003r0001
+  name_raw: Race Judge
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_race-judge.html
+  row_raw:
+    Monster Name: Race Judge
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__blazing-scorpion__t003r0002
+  name_raw: Blazing Scorpion
+  level_raw: '86'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blazing-scorpion.html
+  row_raw:
+    Monster Name: Blazing Scorpion
+    Level: '86'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 86
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__cruel-executioner__t003r0003
+  name_raw: Cruel Executioner
+  level_raw: '88'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cruel-executioner.html
+  row_raw:
+    Monster Name: Cruel Executioner
+    Level: '88'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 88
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__blazing-smoker__t003r0004
+  name_raw: Blazing Smoker
+  level_raw: '89'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blazing-smoker.html
+  row_raw:
+    Monster Name: Blazing Smoker
+    Level: '89'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 89
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__desert-worm__t003r0005
+  name_raw: Desert Worm
+  level_raw: '90'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_desert-worm.html
+  row_raw:
+    Monster Name: Desert Worm
+    Level: '90'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 90
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__desert-worm-elite__t003r0006
+  name_raw: Desert Worm Elite
+  level_raw: '92'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_desert-worm-elite.html
+  row_raw:
+    Monster Name: Desert Worm Elite
+    Level: '92'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 92
+    boss: false
+    aggressive: false
+- area_occurrence_id: desert-racetrack__smoking-doorman__t003r0007
+  name_raw: Smoking Doorman
+  level_raw: '94'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_smoking-doorman.html
+  row_raw:
+    Monster Name: Smoking Doorman
+    Level: '94'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 94
+    boss: false
+    aggressive: false
+drops:
+- drop_id: desert-racetrack__t006r0001
+  monster_name_raw: Blazing Scorpion
+  item_name_raw: Luck Hood
+  drop_share_raw: 0.0883%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Scorpion
+    Item: Luck Hood
+    Drop Share: 0.0883%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0883
+    quantity: 1
+- drop_id: desert-racetrack__t006r0002
+  monster_name_raw: Blazing Scorpion
+  item_name_raw: Lucky Jack Hood
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Scorpion
+    Item: Lucky Jack Hood
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0003
+  monster_name_raw: Blazing Scorpion
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Scorpion
+    Item: Clean Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: desert-racetrack__t006r0004
+  monster_name_raw: Blazing Smoker
+  item_name_raw: Lunar Wand
+  drop_share_raw: 0.0977%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Smoker
+    Item: Lunar Wand
+    Drop Share: 0.0977%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0977
+    quantity: 1
+- drop_id: desert-racetrack__t006r0005
+  monster_name_raw: Blazing Smoker
+  item_name_raw: Selini's Direction
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Smoker
+    Item: Selini's Direction
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0006
+  monster_name_raw: Blazing Smoker
+  item_name_raw: Shark Armor
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Smoker
+    Item: Shark Armor
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0007
+  monster_name_raw: Blazing Smoker
+  item_name_raw: Flood Shield
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Smoker
+    Item: Flood Shield
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: desert-racetrack__t006r0008
+  monster_name_raw: Blazing Smoker
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blazing Smoker
+    Item: Clean Purple Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: desert-racetrack__t006r0009
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Chief Helmet
+  drop_share_raw: 0.0473%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Chief Helmet
+    Drop Share: 0.0473%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0473
+    quantity: 1
+- drop_id: desert-racetrack__t006r0010
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Chief Legguard
+  drop_share_raw: 0.0473%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Chief Legguard
+    Drop Share: 0.0473%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0473
+    quantity: 1
+- drop_id: desert-racetrack__t006r0011
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Fane Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Fane Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0012
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Fane Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Fane Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0013
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Clean Sapphire
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: desert-racetrack__t006r0014
+  monster_name_raw: Cruel Executioner
+  item_name_raw: Cruel Executioner Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cruel Executioner
+    Item: Cruel Executioner Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: desert-racetrack__t006r0015
+  monster_name_raw: Desert Worm
+  item_name_raw: Skeleton Hammer
+  drop_share_raw: 0.1011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Skeleton Hammer
+    Drop Share: 0.1011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1011
+    quantity: 1
+- drop_id: desert-racetrack__t006r0016
+  monster_name_raw: Desert Worm
+  item_name_raw: Shalio's Bone
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Shalio's Bone
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0017
+  monster_name_raw: Desert Worm
+  item_name_raw: Seabed Steed
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Seabed Steed
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0018
+  monster_name_raw: Desert Worm
+  item_name_raw: Chief Legguard
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Chief Legguard
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: desert-racetrack__t006r0019
+  monster_name_raw: Desert Worm
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Clean Orange Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: desert-racetrack__t006r0020
+  monster_name_raw: Desert Worm
+  item_name_raw: Desert Worm Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm
+    Item: Desert Worm Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: desert-racetrack__t006r0021
+  monster_name_raw: Desert Worm Elite
+  item_name_raw: Wind Armor
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm Elite
+    Item: Wind Armor
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: desert-racetrack__t006r0022
+  monster_name_raw: Desert Worm Elite
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm Elite
+    Item: Storm Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0023
+  monster_name_raw: Desert Worm Elite
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm Elite
+    Item: Clean Emerald
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: desert-racetrack__t006r0024
+  monster_name_raw: Desert Worm Elite
+  item_name_raw: Desert Worm Elite Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Worm Elite
+    Item: Desert Worm Elite Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: desert-racetrack__t006r0025
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Skeleton Hammer
+  drop_share_raw: 2.0220%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Skeleton Hammer
+    Drop Share: 2.0220%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.022
+    quantity: 1
+- drop_id: desert-racetrack__t006r0026
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Luck Hood
+  drop_share_raw: 2.0220%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Luck Hood
+    Drop Share: 2.0220%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.022
+    quantity: 1
+- drop_id: desert-racetrack__t006r0027
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Luck Gown
+  drop_share_raw: 2.0220%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Luck Gown
+    Drop Share: 2.0220%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.022
+    quantity: 1
+- drop_id: desert-racetrack__t006r0028
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Luck Bracers
+  drop_share_raw: 2.0220%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Luck Bracers
+    Drop Share: 2.0220%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.022
+    quantity: 1
+- drop_id: desert-racetrack__t006r0029
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Wave Manteau
+  drop_share_raw: 2.0220%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Wave Manteau
+    Drop Share: 2.0220%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.022
+    quantity: 1
+- drop_id: desert-racetrack__t006r0030
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Shalio's Bone
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Shalio's Bone
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0031
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Lucky Jack Hood
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Lucky Jack Hood
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0032
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Lucky Jack Gown
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Lucky Jack Gown
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0033
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0034
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Sea Lord Manteau
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Sea Lord Manteau
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: desert-racetrack__t006r0035
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Mini Seal
+  drop_share_raw: 0.0202%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Mini Seal
+    Drop Share: 0.0202%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0202
+    quantity: 1
+- drop_id: desert-racetrack__t006r0036
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0496%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Clean Ruby
+    Drop Share: 0.0496%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0496
+    quantity: 1
+- drop_id: desert-racetrack__t006r0037
+  monster_name_raw: Destroyer Wesley
+  item_name_raw: Great Magic Potion
+  drop_share_raw: 87.3840%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Destroyer Wesley
+    Item: Great Magic Potion
+    Drop Share: 87.3840%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 87.384
+    quantity: 1
+- drop_id: desert-racetrack__t006r0038
+  monster_name_raw: Lord Adrian
+  item_name_raw: Whale Falchion
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Whale Falchion
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: desert-racetrack__t006r0039
+  monster_name_raw: Lord Adrian
+  item_name_raw: Rage Lance
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Rage Lance
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: desert-racetrack__t006r0040
+  monster_name_raw: Lord Adrian
+  item_name_raw: Saint Armor
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Saint Armor
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: desert-racetrack__t006r0041
+  monster_name_raw: Lord Adrian
+  item_name_raw: Espial Gown
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Espial Gown
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: desert-racetrack__t006r0042
+  monster_name_raw: Lord Adrian
+  item_name_raw: Crusader's Brooch
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Crusader's Brooch
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: desert-racetrack__t006r0043
+  monster_name_raw: Lord Adrian
+  item_name_raw: Solu Guard
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Solu Guard
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: desert-racetrack__t006r0044
+  monster_name_raw: Lord Adrian
+  item_name_raw: Poseidon Attacker
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Poseidon Attacker
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: desert-racetrack__t006r0045
+  monster_name_raw: Lord Adrian
+  item_name_raw: Holy Guard Armor
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Holy Guard Armor
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: desert-racetrack__t006r0046
+  monster_name_raw: Lord Adrian
+  item_name_raw: Magnetic Gown
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Magnetic Gown
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: desert-racetrack__t006r0047
+  monster_name_raw: Lord Adrian
+  item_name_raw: The Call of the Sea
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: The Call of the Sea
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: desert-racetrack__t006r0048
+  monster_name_raw: Lord Adrian
+  item_name_raw: Shark-hunting Armor
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Shark-hunting Armor
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: desert-racetrack__t006r0049
+  monster_name_raw: Lord Adrian
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Clean Sapphire
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: desert-racetrack__t006r0050
+  monster_name_raw: Lord Adrian
+  item_name_raw: Great Mighty Fruit
+  drop_share_raw: 93.6086%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Great Mighty Fruit
+    Drop Share: 93.6086%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 93.6086
+    quantity: 1
+- drop_id: desert-racetrack__t006r0051
+  monster_name_raw: Lord Adrian
+  item_name_raw: Lord Adrian Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lord Adrian
+    Item: Lord Adrian Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: desert-racetrack__t006r0052
+  monster_name_raw: Race Judge
+  item_name_raw: Swiftness Armor
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Swiftness Armor
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: desert-racetrack__t006r0053
+  monster_name_raw: Race Judge
+  item_name_raw: Flood Shield
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Flood Shield
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: desert-racetrack__t006r0054
+  monster_name_raw: Race Judge
+  item_name_raw: Walker Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Walker Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0055
+  monster_name_raw: Race Judge
+  item_name_raw: Ancient Wings Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Ancient Wings Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0056
+  monster_name_raw: Race Judge
+  item_name_raw: Swift Armor
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Swift Armor
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: desert-racetrack__t006r0057
+  monster_name_raw: Race Judge
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Race Judge
+    Item: Clean Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: desert-racetrack__t006r0058
+  monster_name_raw: Smoking Doorman
+  item_name_raw: Wind Helmet
+  drop_share_raw: 0.0456%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Smoking Doorman
+    Item: Wind Helmet
+    Drop Share: 0.0456%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0456
+    quantity: 1
+- drop_id: desert-racetrack__t006r0059
+  monster_name_raw: Smoking Doorman
+  item_name_raw: Storm Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Smoking Doorman
+    Item: Storm Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: desert-racetrack__t006r0060
+  monster_name_raw: Smoking Doorman
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Smoking Doorman
+    Item: Clean Yellow Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Destroyer Wesley
+  - '90'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 1
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 60

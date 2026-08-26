@@ -1,0 +1,1174 @@
+area:
+  id: blue-sea
+  name_raw: Blue Sea
+  source:
+    origin_url: https://angels.wikidot.com/area:blue-sea
+    retrieval_url: https://www.aowiki.uk/pages/area_blue-sea.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: ce4bbbe28c859c495acc6e1fc4b51c3dbfaf4bdeaec7b5026e919f39c42c9e2b
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: blue-sea__ball-jellyfish__t002r0001
+  name_raw: Ball Jellyfish
+  level_raw: '73'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ball-jellyfish.html
+  row_raw:
+    Monster Name: Ball Jellyfish
+    Level: '73'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 73
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__scale-fish__t002r0002
+  name_raw: Scale Fish
+  level_raw: '77'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_scale-fish.html
+  row_raw:
+    Monster Name: Scale Fish
+    Level: '77'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 77
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__angel-fish__t002r0003
+  name_raw: Angel Fish
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_angel-fish.html
+  row_raw:
+    Monster Name: Angel Fish
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__octopus-scholar__t002r0004
+  name_raw: Octopus Scholar
+  level_raw: '83'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_octopus-scholar.html
+  row_raw:
+    Monster Name: Octopus Scholar
+    Level: '83'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 83
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__giant-octopus__t002r0005
+  name_raw: Giant Octopus
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-octopus.html
+  row_raw:
+    Monster Name: Giant Octopus
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__blue-merman__t002r0006
+  name_raw: Blue Merman
+  level_raw: '84'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blue-merman.html
+  row_raw:
+    Monster Name: Blue Merman
+    Level: '84'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 84
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__bottle-mermaid__t002r0007
+  name_raw: Bottle Mermaid
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bottle-mermaid.html
+  row_raw:
+    Monster Name: Bottle Mermaid
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: true
+- area_occurrence_id: blue-sea__leader-nio__t002r0009
+  name_raw: Leader Nio
+  level_raw: '95'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_leader-nio.html
+  row_raw:
+    Monster Name: Leader Nio
+    Level: '95'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: true
+    aggressive: true
+- area_occurrence_id: blue-sea__merman-hulio__t002r0010
+  name_raw: Merman Hulio
+  level_raw: '95'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_merman-hulio.html
+  row_raw:
+    Monster Name: Merman Hulio
+    Level: '95'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: true
+    aggressive: true
+drops:
+- drop_id: blue-sea__t004r0001
+  monster_name_raw: Angel Fish
+  item_name_raw: Coral Ring
+  drop_share_raw: 0.0769%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Coral Ring
+    Drop Share: 0.0769%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0769
+    quantity: 1
+- drop_id: blue-sea__t004r0002
+  monster_name_raw: Angel Fish
+  item_name_raw: Seagod's Handloop
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Seagod's Handloop
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0003
+  monster_name_raw: Angel Fish
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Flawless Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0004
+  monster_name_raw: Angel Fish
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Chief Cuffs
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: blue-sea__t004r0005
+  monster_name_raw: Angel Fish
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Fane Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0006
+  monster_name_raw: Angel Fish
+  item_name_raw: Fish Haversack
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Fish Haversack
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0007
+  monster_name_raw: Angel Fish
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Flawless Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0008
+  monster_name_raw: Angel Fish
+  item_name_raw: Feather Angel Fish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Angel Fish
+    Item: Feather Angel Fish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: blue-sea__t004r0009
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Mage Cuffs
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Mage Cuffs
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: blue-sea__t004r0010
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Light Necklace
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: blue-sea__t004r0011
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Spring Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Spring Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0012
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Heaven Light
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Heaven Light
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0013
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Clean Emerald
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: blue-sea__t004r0014
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Beachball Jellyfish Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Beachball Jellyfish Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: blue-sea__t004r0015
+  monster_name_raw: Blue Merman
+  item_name_raw: Luck Bracers
+  drop_share_raw: 0.0824%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Luck Bracers
+    Drop Share: 0.0824%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0824
+    quantity: 1
+- drop_id: blue-sea__t004r0016
+  monster_name_raw: Blue Merman
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0017
+  monster_name_raw: Blue Merman
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0018
+  monster_name_raw: Blue Merman
+  item_name_raw: Blue Merman Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blue Merman
+    Item: Blue Merman Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: blue-sea__t004r0019
+  monster_name_raw: Bottle Mermaid
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Mermaid
+    Item: Swiftness Boots
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: blue-sea__t004r0020
+  monster_name_raw: Bottle Mermaid
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Mermaid
+    Item: Walker Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0021
+  monster_name_raw: Bottle Mermaid
+  item_name_raw: Jelly Fish
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Mermaid
+    Item: Jelly Fish
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: blue-sea__t004r0022
+  monster_name_raw: Bottle Mermaid
+  item_name_raw: Swift Boots
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Mermaid
+    Item: Swift Boots
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: blue-sea__t004r0023
+  monster_name_raw: Bottle Mermaid
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Mermaid
+    Item: Flawless Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0024
+  monster_name_raw: Giant Octopus
+  item_name_raw: Swiftness Helmet
+  drop_share_raw: 0.0853%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Octopus
+    Item: Swiftness Helmet
+    Drop Share: 0.0853%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0853
+    quantity: 1
+- drop_id: blue-sea__t004r0025
+  monster_name_raw: Giant Octopus
+  item_name_raw: Walker Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Octopus
+    Item: Walker Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0026
+  monster_name_raw: Giant Octopus
+  item_name_raw: Swift Helmet
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Octopus
+    Item: Swift Helmet
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: blue-sea__t004r0027
+  monster_name_raw: Giant Octopus
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Octopus
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0028
+  monster_name_raw: Leader Nio
+  item_name_raw: Crystal Spear
+  drop_share_raw: 6.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Crystal Spear
+    Drop Share: 6.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.2
+    quantity: 1
+- drop_id: blue-sea__t004r0029
+  monster_name_raw: Leader Nio
+  item_name_raw: Luck Bracers
+  drop_share_raw: 6.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Luck Bracers
+    Drop Share: 6.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.2
+    quantity: 1
+- drop_id: blue-sea__t004r0030
+  monster_name_raw: Leader Nio
+  item_name_raw: Shaer's Will
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Shaer's Will
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: blue-sea__t004r0031
+  monster_name_raw: Leader Nio
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: blue-sea__t004r0032
+  monster_name_raw: Leader Nio
+  item_name_raw: Natural Antibody V
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Natural Antibody V
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: blue-sea__t004r0033
+  monster_name_raw: Leader Nio
+  item_name_raw: Aurora Trap V
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Aurora Trap V
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: blue-sea__t004r0034
+  monster_name_raw: Leader Nio
+  item_name_raw: Jelly Fish
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Jelly Fish
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: blue-sea__t004r0035
+  monster_name_raw: Leader Nio
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Flawless Emerald
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: blue-sea__t004r0036
+  monster_name_raw: Leader Nio
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: blue-sea__t004r0037
+  monster_name_raw: Leader Nio
+  item_name_raw: Effective Target Potion
+  drop_share_raw: 83.1835%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Effective Target Potion
+    Drop Share: 83.1835%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 83.1835
+    quantity: 1
+- drop_id: blue-sea__t004r0038
+  monster_name_raw: Leader Nio
+  item_name_raw: Captain Nio Card
+  drop_share_raw: 0.9259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Leader Nio
+    Item: Captain Nio Card
+    Drop Share: 0.9259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9259
+    quantity: 1
+- drop_id: blue-sea__t004r0039
+  monster_name_raw: Merman Hulio
+  item_name_raw: Spider Teeth
+  drop_share_raw: 6.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Spider Teeth
+    Drop Share: 6.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.2
+    quantity: 1
+- drop_id: blue-sea__t004r0040
+  monster_name_raw: Merman Hulio
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 6.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Swiftness Boots
+    Drop Share: 6.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 6.2
+    quantity: 1
+- drop_id: blue-sea__t004r0041
+  monster_name_raw: Merman Hulio
+  item_name_raw: Minaca Attacker
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Minaca Attacker
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: blue-sea__t004r0042
+  monster_name_raw: Merman Hulio
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0062%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Walker Boots
+    Drop Share: 0.0062%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0062
+    quantity: 1
+- drop_id: blue-sea__t004r0043
+  monster_name_raw: Merman Hulio
+  item_name_raw: Hell Erosion V
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Hell Erosion V
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: blue-sea__t004r0044
+  monster_name_raw: Merman Hulio
+  item_name_raw: Protection Spell 5
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Protection Spell 5
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: blue-sea__t004r0045
+  monster_name_raw: Merman Hulio
+  item_name_raw: Cracking Beat V
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Cracking Beat V
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: blue-sea__t004r0046
+  monster_name_raw: Merman Hulio
+  item_name_raw: Shark Armor
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Shark Armor
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: blue-sea__t004r0047
+  monster_name_raw: Merman Hulio
+  item_name_raw: Swift Boots
+  drop_share_raw: 0.0354%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Swift Boots
+    Drop Share: 0.0354%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0354
+    quantity: 1
+- drop_id: blue-sea__t004r0048
+  monster_name_raw: Merman Hulio
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Flawless Sapphire
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: blue-sea__t004r0049
+  monster_name_raw: Merman Hulio
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: blue-sea__t004r0050
+  monster_name_raw: Merman Hulio
+  item_name_raw: Effective Agility Potion
+  drop_share_raw: 83.6464%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Effective Agility Potion
+    Drop Share: 83.6464%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 83.6464
+    quantity: 1
+- drop_id: blue-sea__t004r0051
+  monster_name_raw: Merman Hulio
+  item_name_raw: Merman Hulio Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Merman Hulio
+    Item: Merman Hulio Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: blue-sea__t004r0052
+  monster_name_raw: Octopus Scholar
+  item_name_raw: Swiftness Armguards
+  drop_share_raw: 0.0796%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Octopus Scholar
+    Item: Swiftness Armguards
+    Drop Share: 0.0796%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0796
+    quantity: 1
+- drop_id: blue-sea__t004r0053
+  monster_name_raw: Octopus Scholar
+  item_name_raw: Walker Armguards
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Octopus Scholar
+    Item: Walker Armguards
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0054
+  monster_name_raw: Octopus Scholar
+  item_name_raw: Swift Armguards
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Octopus Scholar
+    Item: Swift Armguards
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: blue-sea__t004r0055
+  monster_name_raw: Octopus Scholar
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Octopus Scholar
+    Item: Flawless Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: blue-sea__t004r0056
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Cuffs
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: blue-sea__t004r0057
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Boots
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: blue-sea__t004r0058
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0059
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: blue-sea__t004r0060
+  monster_name_raw: Scale Fish
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Clean Purple Gem
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: blue-sea__t004r0061
+  monster_name_raw: Scale Fish
+  item_name_raw: Scale Fish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Scale Fish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 61

@@ -1,0 +1,1063 @@
+area:
+  id: east-playground
+  name_raw: East Playground
+  source:
+    origin_url: https://angels.wikidot.com/area:east-playground
+    retrieval_url: https://www.aowiki.uk/pages/area_east-playground.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 4e9b79564600d4090abb06976dd072e9a91d4d4c28f22364cb158d8c8e962ea0
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: east-playground__slarm__t002r0001
+  name_raw: Slarm
+  level_raw: '1'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_slarm.html
+  row_raw:
+    Monster Name: Slarm
+    Level: '1'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 1
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__lily__t002r0002
+  name_raw: Lily
+  level_raw: '1'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_lily.html
+  row_raw:
+    Monster Name: Lily
+    Level: '1'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 1
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__wind-elf__t002r0003
+  name_raw: Wind Elf
+  level_raw: '4'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wind-elf.html
+  row_raw:
+    Monster Name: Wind Elf
+    Level: '4'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 4
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__water-elf__t002r0004
+  name_raw: Water Elf
+  level_raw: '4'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_water-elf.html
+  row_raw:
+    Monster Name: Water Elf
+    Level: '4'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 4
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__fire-elf__t002r0005
+  name_raw: Fire Elf
+  level_raw: '7'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-elf.html
+  row_raw:
+    Monster Name: Fire Elf
+    Level: '7'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 7
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__earth-elf__t002r0006
+  name_raw: Earth Elf
+  level_raw: '7'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-elf.html
+  row_raw:
+    Monster Name: Earth Elf
+    Level: '7'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 7
+    boss: false
+    aggressive: false
+- area_occurrence_id: east-playground__wind-lord__t002r0008
+  name_raw: Wind Lord
+  level_raw: '10'
+  boss_raw: 'Yes'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wind-lord.html
+  row_raw:
+    Monster Name: Wind Lord
+    Level: '10'
+    Boss: 'Yes'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: true
+    aggressive: false
+- area_occurrence_id: east-playground__water-lord__t002r0009
+  name_raw: Water Lord
+  level_raw: '10'
+  boss_raw: 'Yes'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_water-lord.html
+  row_raw:
+    Monster Name: Water Lord
+    Level: '10'
+    Boss: 'Yes'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: true
+    aggressive: false
+- area_occurrence_id: east-playground__fire-lord__t002r0010
+  name_raw: Fire Lord
+  level_raw: '10'
+  boss_raw: 'Yes'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-lord.html
+  row_raw:
+    Monster Name: Fire Lord
+    Level: '10'
+    Boss: 'Yes'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: true
+    aggressive: false
+- area_occurrence_id: east-playground__earth-lord__t002r0011
+  name_raw: Earth Lord
+  level_raw: '10'
+  boss_raw: 'Yes'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-lord.html
+  row_raw:
+    Monster Name: Earth Lord
+    Level: '10'
+    Boss: 'Yes'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 10
+    boss: true
+    aggressive: false
+drops:
+- drop_id: east-playground__t004r0001
+  monster_name_raw: Earth Elf
+  item_name_raw: Incantation Clothes
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Incantation Clothes
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0002
+  monster_name_raw: Earth Elf
+  item_name_raw: Heavy Costume
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Heavy Costume
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0003
+  monster_name_raw: Earth Elf
+  item_name_raw: Light Costume
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Light Costume
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0004
+  monster_name_raw: Earth Elf
+  item_name_raw: Fiend Mantle
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Fiend Mantle
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0005
+  monster_name_raw: Earth Elf
+  item_name_raw: Fiend Leather Jacket
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Fiend Leather Jacket
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0006
+  monster_name_raw: Earth Elf
+  item_name_raw: Fiend Manteau
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Elf
+    Item: Fiend Manteau
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0007
+  monster_name_raw: Earth Lord
+  item_name_raw: Red Potion 1
+  drop_share_raw: 10.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Red Potion 1
+    Drop Share: 10.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 10.0
+    quantity: 3
+- drop_id: east-playground__t004r0008
+  monster_name_raw: Earth Lord
+  item_name_raw: Blue Potion 1
+  drop_share_raw: 5.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Blue Potion 1
+    Drop Share: 5.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 3
+- drop_id: east-playground__t004r0009
+  monster_name_raw: Earth Lord
+  item_name_raw: Little Bambo Basket
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Little Bambo Basket
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: east-playground__t004r0010
+  monster_name_raw: Earth Lord
+  item_name_raw: Earth Elf's Aura
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Earth Elf's Aura
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0011
+  monster_name_raw: Earth Lord
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: east-playground__t004r0012
+  monster_name_raw: Earth Lord
+  item_name_raw: Earth Elf card
+  drop_share_raw: 11.1111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Lord
+    Item: Earth Elf card
+    Drop Share: 11.1111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.1111
+    quantity: 1
+- drop_id: east-playground__t004r0013
+  monster_name_raw: Fire Elf
+  item_name_raw: Incantation Diadem
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Incantation Diadem
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0014
+  monster_name_raw: Fire Elf
+  item_name_raw: Iron Headband
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Iron Headband
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0015
+  monster_name_raw: Fire Elf
+  item_name_raw: Shooter Head Band
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Shooter Head Band
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: east-playground__t004r0016
+  monster_name_raw: Fire Elf
+  item_name_raw: Fiend Head Band
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Fiend Head Band
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0017
+  monster_name_raw: Fire Elf
+  item_name_raw: Fiend Forehead Protection
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Fiend Forehead Protection
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0018
+  monster_name_raw: Fire Elf
+  item_name_raw: Fiend Diadem
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Elf
+    Item: Fiend Diadem
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: east-playground__t004r0019
+  monster_name_raw: Fire Lord
+  item_name_raw: Red Potion 1
+  drop_share_raw: 10.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Red Potion 1
+    Drop Share: 10.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 10.0
+    quantity: 3
+- drop_id: east-playground__t004r0020
+  monster_name_raw: Fire Lord
+  item_name_raw: Blue Potion 1
+  drop_share_raw: 5.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Blue Potion 1
+    Drop Share: 5.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 3
+- drop_id: east-playground__t004r0021
+  monster_name_raw: Fire Lord
+  item_name_raw: Little Bambo Basket
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Little Bambo Basket
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: east-playground__t004r0022
+  monster_name_raw: Fire Lord
+  item_name_raw: Fire Elf's Aura
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Fire Elf's Aura
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0023
+  monster_name_raw: Fire Lord
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: east-playground__t004r0024
+  monster_name_raw: Fire Lord
+  item_name_raw: Fire Elf card
+  drop_share_raw: 11.1111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Lord
+    Item: Fire Elf card
+    Drop Share: 11.1111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.1111
+    quantity: 1
+- drop_id: east-playground__t004r0025
+  monster_name_raw: Lily
+  item_name_raw: Biscuits
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily
+    Item: Biscuits
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: east-playground__t004r0026
+  monster_name_raw: Lily
+  item_name_raw: Magic Grass
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily
+    Item: Magic Grass
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: east-playground__t004r0027
+  monster_name_raw: Lily
+  item_name_raw: Lily Card
+  drop_share_raw: 0.0417%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Lily
+    Item: Lily Card
+    Drop Share: 0.0417%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0417
+    quantity: 1
+- drop_id: east-playground__t004r0028
+  monster_name_raw: Slarm
+  item_name_raw: Biscuits
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slarm
+    Item: Biscuits
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: east-playground__t004r0029
+  monster_name_raw: Slarm
+  item_name_raw: Magic Grass
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Slarm
+    Item: Magic Grass
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: east-playground__t004r0030
+  monster_name_raw: Water Elf
+  item_name_raw: Incantation Gloves
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Incantation Gloves
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0031
+  monster_name_raw: Water Elf
+  item_name_raw: Heavy Gloves
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Heavy Gloves
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0032
+  monster_name_raw: Water Elf
+  item_name_raw: Light Gloves
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Light Gloves
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0033
+  monster_name_raw: Water Elf
+  item_name_raw: Fiend Wristlet
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Fiend Wristlet
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0034
+  monster_name_raw: Water Elf
+  item_name_raw: Fiend Cuff
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Fiend Cuff
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0035
+  monster_name_raw: Water Elf
+  item_name_raw: Fiend Gloves
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Elf
+    Item: Fiend Gloves
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0036
+  monster_name_raw: Water Lord
+  item_name_raw: Red Potion 1
+  drop_share_raw: 10.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Red Potion 1
+    Drop Share: 10.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 10.0
+    quantity: 3
+- drop_id: east-playground__t004r0037
+  monster_name_raw: Water Lord
+  item_name_raw: Blue Potion 1
+  drop_share_raw: 5.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Blue Potion 1
+    Drop Share: 5.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 3
+- drop_id: east-playground__t004r0038
+  monster_name_raw: Water Lord
+  item_name_raw: Little Bambo Basket
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Little Bambo Basket
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: east-playground__t004r0039
+  monster_name_raw: Water Lord
+  item_name_raw: Water Elf's Aura
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Water Elf's Aura
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0040
+  monster_name_raw: Water Lord
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: east-playground__t004r0041
+  monster_name_raw: Water Lord
+  item_name_raw: Water Elf card
+  drop_share_raw: 11.1111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Water Lord
+    Item: Water Elf card
+    Drop Share: 11.1111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.1111
+    quantity: 1
+- drop_id: east-playground__t004r0042
+  monster_name_raw: Wind Elf
+  item_name_raw: Incantation Shoes
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Incantation Shoes
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0043
+  monster_name_raw: Wind Elf
+  item_name_raw: Heavy Shoes
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Heavy Shoes
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0044
+  monster_name_raw: Wind Elf
+  item_name_raw: Light Shoes
+  drop_share_raw: 0.1200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Light Shoes
+    Drop Share: 0.1200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.12
+    quantity: 1
+- drop_id: east-playground__t004r0045
+  monster_name_raw: Wind Elf
+  item_name_raw: Fiend Light Shoes
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Fiend Light Shoes
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0046
+  monster_name_raw: Wind Elf
+  item_name_raw: Fiend Heavy Shoes
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Fiend Heavy Shoes
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0047
+  monster_name_raw: Wind Elf
+  item_name_raw: Fiend Incantation Shoes
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Elf
+    Item: Fiend Incantation Shoes
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0048
+  monster_name_raw: Wind Lord
+  item_name_raw: Red Potion 1
+  drop_share_raw: 10.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Red Potion 1
+    Drop Share: 10.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 10.0
+    quantity: 3
+- drop_id: east-playground__t004r0049
+  monster_name_raw: Wind Lord
+  item_name_raw: Blue Potion 1
+  drop_share_raw: 5.0000%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Blue Potion 1
+    Drop Share: 5.0000%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 3
+- drop_id: east-playground__t004r0050
+  monster_name_raw: Wind Lord
+  item_name_raw: Little Bambo Basket
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Little Bambo Basket
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: east-playground__t004r0051
+  monster_name_raw: Wind Lord
+  item_name_raw: Wind Elf's Aura
+  drop_share_raw: 0.0100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Wind Elf's Aura
+    Drop Share: 0.0100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.01
+    quantity: 1
+- drop_id: east-playground__t004r0052
+  monster_name_raw: Wind Lord
+  item_name_raw: Map Piece
+  drop_share_raw: 1.7150%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Map Piece
+    Drop Share: 1.7150%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.715
+    quantity: 1
+- drop_id: east-playground__t004r0053
+  monster_name_raw: Wind Lord
+  item_name_raw: Wind Elf card
+  drop_share_raw: 11.1111%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wind Lord
+    Item: Wind Elf card
+    Drop Share: 11.1111%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 11.1111
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 53

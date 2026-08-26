@@ -1,0 +1,1296 @@
+area:
+  id: dragon-graveyard
+  name_raw: Dragon Graveyard
+  source:
+    origin_url: https://angels.wikidot.com/area:dragon-graveyard
+    retrieval_url: https://www.aowiki.uk/pages/area_dragon-graveyard.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: ed448d0debd6e779dd78c8fc00972b96390aa2299dfcf2d84397a3e704b9ff86
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: dragon-graveyard__ancient-soldier__t004r0001
+  name_raw: Ancient Soldier
+  level_raw: '40'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ancient-soldier.html
+  row_raw:
+    Monster Name: Ancient Soldier
+    Level: '40'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 40
+    boss: false
+    aggressive: true
+- area_occurrence_id: dragon-graveyard__desert-cooer__t004r0002
+  name_raw: Desert Cooer
+  level_raw: '43'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_desert-cooer.html
+  row_raw:
+    Monster Name: Desert Cooer
+    Level: '43'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 43
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-graveyard__hook-barft__t004r0003
+  name_raw: Hook Barft
+  level_raw: '45'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_hook-barft.html
+  row_raw:
+    Monster Name: Hook Barft
+    Level: '45'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: false
+    aggressive: true
+- area_occurrence_id: dragon-graveyard__silent-hero__t004r0004
+  name_raw: Silent Hero
+  level_raw: '45'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_silent-hero.html
+  row_raw:
+    Monster Name: Silent Hero
+    Level: '45'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 45
+    boss: true
+    aggressive: true
+- area_occurrence_id: dragon-graveyard__death-cyclone__t004r0005
+  name_raw: Death Cyclone
+  level_raw: '50'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_death-cyclone.html
+  row_raw:
+    Monster Name: Death Cyclone
+    Level: '50'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: true
+    aggressive: true
+drops:
+- drop_id: dragon-graveyard__t006r0001
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Spear
+  drop_share_raw: 0.1174%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Spear
+    Drop Share: 0.1174%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1174
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0002
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Round Shield
+  drop_share_raw: 0.1174%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Round Shield
+    Drop Share: 0.1174%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1174
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0003
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Spear of Earth
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Spear of Earth
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0004
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Turtle Round Shield
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Turtle Round Shield
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0005
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0006
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0007
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0008
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0009
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0010
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Flawed Sapphire
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0011
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Flawed Purple Gem
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0012
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Pestle
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Pestle
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0013
+  monster_name_raw: Ancient Soldier
+  item_name_raw: Ancient Soldier card
+  drop_share_raw: 0.0600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ancient Soldier
+    Item: Ancient Soldier card
+    Drop Share: 0.0600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.06
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0014
+  monster_name_raw: Death Cyclone
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Light Cuff
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0015
+  monster_name_raw: Death Cyclone
+  item_name_raw: Rabbi's Gloves
+  drop_share_raw: 0.5255%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Rabbi's Gloves
+    Drop Share: 0.5255%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5255
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0016
+  monster_name_raw: Death Cyclone
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Golden Chain Cuff
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0017
+  monster_name_raw: Death Cyclone
+  item_name_raw: Gloves of the Flame God
+  drop_share_raw: 0.0550%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Gloves of the Flame God
+    Drop Share: 0.0550%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.055
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0018
+  monster_name_raw: Death Cyclone
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Pearl Refining
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0019
+  monster_name_raw: Death Cyclone
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Fighting Wings
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0020
+  monster_name_raw: Death Cyclone
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Sapphire
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0021
+  monster_name_raw: Death Cyclone
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Purple Gem
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0022
+  monster_name_raw: Death Cyclone
+  item_name_raw: Ruby
+  drop_share_raw: 0.0300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Ruby
+    Drop Share: 0.0300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.03
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0023
+  monster_name_raw: Death Cyclone
+  item_name_raw: Weary Curse V
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Weary Curse V
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0024
+  monster_name_raw: Death Cyclone
+  item_name_raw: Summon Mummy V
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Summon Mummy V
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0025
+  monster_name_raw: Death Cyclone
+  item_name_raw: Black Knight's Cuff
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Black Knight's Cuff
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0026
+  monster_name_raw: Death Cyclone
+  item_name_raw: Code Gloves
+  drop_share_raw: 0.2828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Code Gloves
+    Drop Share: 0.2828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2828
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0027
+  monster_name_raw: Death Cyclone
+  item_name_raw: Rare Agility Potion
+  drop_share_raw: 25.2222%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Rare Agility Potion
+    Drop Share: 25.2222%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 25.2222
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0028
+  monster_name_raw: Death Cyclone
+  item_name_raw: Rare Magic Potion
+  drop_share_raw: 25.2222%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Rare Magic Potion
+    Drop Share: 25.2222%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 25.2222
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0029
+  monster_name_raw: Death Cyclone
+  item_name_raw: Map Piece
+  drop_share_raw: 1.4700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Map Piece
+    Drop Share: 1.4700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.47
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0030
+  monster_name_raw: Death Cyclone
+  item_name_raw: Pestle
+  drop_share_raw: 0.1101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Pestle
+    Drop Share: 0.1101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1101
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0031
+  monster_name_raw: Death Cyclone
+  item_name_raw: Death cyclone card
+  drop_share_raw: 5.5556%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Death Cyclone
+    Item: Death cyclone card
+    Drop Share: 5.5556%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.5556
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0032
+  monster_name_raw: Desert Cooer
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.0301%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Light Cuff
+    Drop Share: 0.0301%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0301
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0033
+  monster_name_raw: Desert Cooer
+  item_name_raw: Rabbi's Gloves
+  drop_share_raw: 0.0301%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Rabbi's Gloves
+    Drop Share: 0.0301%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0301
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0034
+  monster_name_raw: Desert Cooer
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Golden Chain Cuff
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0035
+  monster_name_raw: Desert Cooer
+  item_name_raw: Gloves of the Flame God
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Gloves of the Flame God
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0036
+  monster_name_raw: Desert Cooer
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0037
+  monster_name_raw: Desert Cooer
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0038
+  monster_name_raw: Desert Cooer
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0039
+  monster_name_raw: Desert Cooer
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0040
+  monster_name_raw: Desert Cooer
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0041
+  monster_name_raw: Desert Cooer
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0042
+  monster_name_raw: Desert Cooer
+  item_name_raw: Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0043
+  monster_name_raw: Desert Cooer
+  item_name_raw: Pestle
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Desert Cooer
+    Item: Pestle
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0044
+  monster_name_raw: Hook Barft
+  item_name_raw: Light Boots
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Light Boots
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0045
+  monster_name_raw: Hook Barft
+  item_name_raw: Iron Boots
+  drop_share_raw: 0.0330%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Iron Boots
+    Drop Share: 0.0330%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.033
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0046
+  monster_name_raw: Hook Barft
+  item_name_raw: Eagle Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Eagle Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0047
+  monster_name_raw: Hook Barft
+  item_name_raw: Golden Chain Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Golden Chain Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0048
+  monster_name_raw: Hook Barft
+  item_name_raw: Blue Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Blue Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0049
+  monster_name_raw: Hook Barft
+  item_name_raw: Red Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Red Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0050
+  monster_name_raw: Hook Barft
+  item_name_raw: Green Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Green Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0051
+  monster_name_raw: Hook Barft
+  item_name_raw: Yellow Stone
+  drop_share_raw: 0.0500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Yellow Stone
+    Drop Share: 0.0500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.05
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0052
+  monster_name_raw: Hook Barft
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Map Piece
+    Drop Share: 0.1000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0053
+  monster_name_raw: Hook Barft
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Sapphire
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0054
+  monster_name_raw: Hook Barft
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Purple Gem
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0055
+  monster_name_raw: Hook Barft
+  item_name_raw: Ruby
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Ruby
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0056
+  monster_name_raw: Hook Barft
+  item_name_raw: Pestle
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Pestle
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0057
+  monster_name_raw: Hook Barft
+  item_name_raw: Hook Barft card
+  drop_share_raw: 0.0600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hook Barft
+    Item: Hook Barft card
+    Drop Share: 0.0600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.06
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0058
+  monster_name_raw: Silent Hero
+  item_name_raw: Spear
+  drop_share_raw: 1.6325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Spear
+    Drop Share: 1.6325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6325
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0059
+  monster_name_raw: Silent Hero
+  item_name_raw: Round Shield
+  drop_share_raw: 1.6325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Round Shield
+    Drop Share: 1.6325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6325
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0060
+  monster_name_raw: Silent Hero
+  item_name_raw: Spear of Earth
+  drop_share_raw: 0.1956%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Spear of Earth
+    Drop Share: 0.1956%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1956
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0061
+  monster_name_raw: Silent Hero
+  item_name_raw: Turtle Round Shield
+  drop_share_raw: 0.1956%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Turtle Round Shield
+    Drop Share: 0.1956%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1956
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0062
+  monster_name_raw: Silent Hero
+  item_name_raw: Bat Wings
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Bat Wings
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0063
+  monster_name_raw: Silent Hero
+  item_name_raw: Ring of Devil
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Ring of Devil
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0064
+  monster_name_raw: Silent Hero
+  item_name_raw: Flawed Sapphire
+  drop_share_raw: 0.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Flawed Sapphire
+    Drop Share: 0.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.59
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0065
+  monster_name_raw: Silent Hero
+  item_name_raw: Flawed Purple Gem
+  drop_share_raw: 0.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Flawed Purple Gem
+    Drop Share: 0.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.59
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0066
+  monster_name_raw: Silent Hero
+  item_name_raw: Magic Bomb V
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Magic Bomb V
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0067
+  monster_name_raw: Silent Hero
+  item_name_raw: Exhaustion Curse V
+  drop_share_raw: 0.8789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Exhaustion Curse V
+    Drop Share: 0.8789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.8789
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0068
+  monster_name_raw: Silent Hero
+  item_name_raw: Fruit of Hercules
+  drop_share_raw: 19.8572%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Fruit of Hercules
+    Drop Share: 19.8572%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 19.8572
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0069
+  monster_name_raw: Silent Hero
+  item_name_raw: Fruit of Mars
+  drop_share_raw: 19.8572%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Fruit of Mars
+    Drop Share: 19.8572%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 19.8572
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0070
+  monster_name_raw: Silent Hero
+  item_name_raw: Map Piece
+  drop_share_raw: 4.5700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Map Piece
+    Drop Share: 4.5700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.57
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0071
+  monster_name_raw: Silent Hero
+  item_name_raw: Pestle
+  drop_share_raw: 0.1054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Pestle
+    Drop Share: 0.1054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1054
+    quantity: 1
+- drop_id: dragon-graveyard__t006r0072
+  monster_name_raw: Silent Hero
+  item_name_raw: Silent Hero card
+  drop_share_raw: 5.5556%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Silent Hero
+    Item: Silent Hero card
+    Drop Share: 5.5556%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.5556
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 72

@@ -1,0 +1,2447 @@
+area:
+  id: fiery-path
+  name_raw: Fiery Path
+  source:
+    origin_url: https://angels.wikidot.com/area:fiery-path
+    retrieval_url: https://www.aowiki.uk/pages/area_fiery-path.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 26acd8482e6c9aa2271b21e44a03622be2bacfe79c2b27c01221f74db448e218
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: fiery-path__fly__t003r0001
+  name_raw: Fly
+  level_raw: '48'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fly.html
+  row_raw:
+    Monster Name: Fly
+    Level: '48'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 48
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__theurgy-master__t003r0002
+  name_raw: Theurgy Master
+  level_raw: '55'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_theurgy-master.html
+  row_raw:
+    Monster Name: Theurgy Master
+    Level: '55'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__imp-elf__t003r0003
+  name_raw: Imp Elf
+  level_raw: '58'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_imp-elf.html
+  row_raw:
+    Monster Name: Imp Elf
+    Level: '58'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 58
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__gold-fly__t003r0004
+  name_raw: Gold Fly
+  level_raw: '60'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gold-fly.html
+  row_raw:
+    Monster Name: Gold Fly
+    Level: '60'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 60
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__evil-knight__t003r0005
+  name_raw: Evil Knight
+  level_raw: '63'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-knight.html
+  row_raw:
+    Monster Name: Evil Knight
+    Level: '63'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 63
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__terra-lampman__t003r0006
+  name_raw: Terra Lampman
+  level_raw: '65'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_terra-lampman.html
+  row_raw:
+    Monster Name: Terra Lampman
+    Level: '65'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 65
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__evil-flower__t003r0007
+  name_raw: Evil Flower
+  level_raw: '68'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-flower.html
+  row_raw:
+    Monster Name: Evil Flower
+    Level: '68'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 68
+    boss: false
+    aggressive: true
+- area_occurrence_id: fiery-path__jail-warden__t003r0008
+  name_raw: Jail Warden
+  level_raw: '60'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_jail-warden.html
+  row_raw:
+    Monster Name: Jail Warden
+    Level: '60'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 60
+    boss: true
+    aggressive: true
+- area_occurrence_id: fiery-path__wanderer__t003r0009
+  name_raw: Wanderer
+  level_raw: '65'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wanderer.html
+  row_raw:
+    Monster Name: Wanderer
+    Level: '65'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 65
+    boss: true
+    aggressive: true
+- area_occurrence_id: fiery-path__bloody-flower__t003r0010
+  name_raw: Bloody Flower
+  level_raw: '70'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bloody-flower.html
+  row_raw:
+    Monster Name: Bloody Flower
+    Level: '70'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: true
+    aggressive: true
+drops:
+- drop_id: fiery-path__t005r0001
+  monster_name_raw: Bloody Flower
+  item_name_raw: Energy Boots
+  drop_share_raw: 3.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Energy Boots
+    Drop Share: 3.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.13
+    quantity: 1
+- drop_id: fiery-path__t005r0002
+  monster_name_raw: Bloody Flower
+  item_name_raw: Sound Boots
+  drop_share_raw: 0.0261%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Sound Boots
+    Drop Share: 0.0261%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0261
+    quantity: 1
+- drop_id: fiery-path__t005r0003
+  monster_name_raw: Bloody Flower
+  item_name_raw: Ferocious Song V
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Ferocious Song V
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: fiery-path__t005r0004
+  monster_name_raw: Bloody Flower
+  item_name_raw: Bomb Snipe V
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Bomb Snipe V
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: fiery-path__t005r0005
+  monster_name_raw: Bloody Flower
+  item_name_raw: Repair Duck Robot
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Repair Duck Robot
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: fiery-path__t005r0006
+  monster_name_raw: Bloody Flower
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0132%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Clean Ruby
+    Drop Share: 0.0132%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0132
+    quantity: 1
+- drop_id: fiery-path__t005r0007
+  monster_name_raw: Bloody Flower
+  item_name_raw: Pestle
+  drop_share_raw: 0.3599%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Pestle
+    Drop Share: 0.3599%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3599
+    quantity: 1
+- drop_id: fiery-path__t005r0008
+  monster_name_raw: Bloody Flower
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: fiery-path__t005r0009
+  monster_name_raw: Bloody Flower
+  item_name_raw: Medium Mars' Fruit
+  drop_share_raw: 47.4762%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Medium Mars' Fruit
+    Drop Share: 47.4762%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4762
+    quantity: 1
+- drop_id: fiery-path__t005r0010
+  monster_name_raw: Bloody Flower
+  item_name_raw: Medium Target Potion
+  drop_share_raw: 45.5970%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Medium Target Potion
+    Drop Share: 45.5970%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.597
+    quantity: 1
+- drop_id: fiery-path__t005r0011
+  monster_name_raw: Bloody Flower
+  item_name_raw: Sanguinary Flower Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bloody Flower
+    Item: Sanguinary Flower Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+- drop_id: fiery-path__t005r0012
+  monster_name_raw: Earl Makice
+  item_name_raw: Mage Gown
+  drop_share_raw: 1.3600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Mage Gown
+    Drop Share: 1.3600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.36
+    quantity: 1
+- drop_id: fiery-path__t005r0013
+  monster_name_raw: Earl Makice
+  item_name_raw: Spring Gown
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Spring Gown
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: fiery-path__t005r0014
+  monster_name_raw: Earl Makice
+  item_name_raw: Summon Lich V
+  drop_share_raw: 0.0057%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Summon Lich V
+    Drop Share: 0.0057%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0057
+    quantity: 1
+- drop_id: fiery-path__t005r0015
+  monster_name_raw: Earl Makice
+  item_name_raw: Cutter's Axe
+  drop_share_raw: 0.0170%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Cutter's Axe
+    Drop Share: 0.0170%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.017
+    quantity: 1
+- drop_id: fiery-path__t005r0016
+  monster_name_raw: Earl Makice
+  item_name_raw: Wind Wings
+  drop_share_raw: 0.0170%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Wind Wings
+    Drop Share: 0.0170%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.017
+    quantity: 1
+- drop_id: fiery-path__t005r0017
+  monster_name_raw: Earl Makice
+  item_name_raw: Pestle
+  drop_share_raw: 0.4789%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Pestle
+    Drop Share: 0.4789%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4789
+    quantity: 1
+- drop_id: fiery-path__t005r0018
+  monster_name_raw: Earl Makice
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Map Piece
+    Drop Share: 0.0900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.09
+    quantity: 1
+- drop_id: fiery-path__t005r0019
+  monster_name_raw: Earl Makice
+  item_name_raw: Gear Shards
+  drop_share_raw: 1.5000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Gear Shards
+    Drop Share: 1.5000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.5
+    quantity: 1
+- drop_id: fiery-path__t005r0020
+  monster_name_raw: Earl Makice
+  item_name_raw: Energy Crystal
+  drop_share_raw: 53.1610%
+  quantity_raw: '4'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Energy Crystal
+    Drop Share: 53.1610%
+    Qty: '4'
+  normalized:
+    drop_share_percent: 53.161
+    quantity: 4
+- drop_id: fiery-path__t005r0021
+  monster_name_raw: Earl Makice
+  item_name_raw: Light Cuff
+  drop_share_raw: 14.1893%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Light Cuff
+    Drop Share: 14.1893%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 14.1893
+    quantity: 1
+- drop_id: fiery-path__t005r0022
+  monster_name_raw: Earl Makice
+  item_name_raw: Faquir Mirror
+  drop_share_raw: 14.1893%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Faquir Mirror
+    Drop Share: 14.1893%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 14.1893
+    quantity: 1
+- drop_id: fiery-path__t005r0023
+  monster_name_raw: Earl Makice
+  item_name_raw: Thick-soled Boots
+  drop_share_raw: 14.1893%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Thick-soled Boots
+    Drop Share: 14.1893%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 14.1893
+    quantity: 1
+- drop_id: fiery-path__t005r0024
+  monster_name_raw: Earl Makice
+  item_name_raw: Earl Makice Card
+  drop_share_raw: 0.6944%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Earl Makice Card
+    Drop Share: 0.6944%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6944
+    quantity: 1
+- drop_id: fiery-path__t005r0025
+  monster_name_raw: Earl Makice
+  item_name_raw: Kaz Cayman Robot
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Kaz Cayman Robot
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fiery-path__t005r0026
+  monster_name_raw: Earl Makice
+  item_name_raw: Hunter Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Hunter Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0027
+  monster_name_raw: Earl Makice
+  item_name_raw: Noble Elephant
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Noble Elephant
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fiery-path__t005r0028
+  monster_name_raw: Earl Makice
+  item_name_raw: Wit Staff
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Wit Staff
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0029
+  monster_name_raw: Earl Makice
+  item_name_raw: Fire Scale Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Fire Scale Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0030
+  monster_name_raw: Earl Makice
+  item_name_raw: Fire Scale Helmet
+  drop_share_raw: 0.0114%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Fire Scale Helmet
+    Drop Share: 0.0114%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0114
+    quantity: 1
+- drop_id: fiery-path__t005r0031
+  monster_name_raw: Earl Makice
+  item_name_raw: Embrace Helmet
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earl Makice
+    Item: Embrace Helmet
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fiery-path__t005r0032
+  monster_name_raw: Evil Flower
+  item_name_raw: Energy Cuffs
+  drop_share_raw: 0.0291%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Energy Cuffs
+    Drop Share: 0.0291%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0291
+    quantity: 1
+- drop_id: fiery-path__t005r0033
+  monster_name_raw: Evil Flower
+  item_name_raw: Sound Gloves
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Sound Gloves
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0034
+  monster_name_raw: Evil Flower
+  item_name_raw: Dida Cayman Robot
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Dida Cayman Robot
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0035
+  monster_name_raw: Evil Flower
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Hermit Boots
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: fiery-path__t005r0036
+  monster_name_raw: Evil Flower
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Clean Sapphire
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0037
+  monster_name_raw: Evil Flower
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0242%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Map Piece
+    Drop Share: 0.0242%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0242
+    quantity: 1
+- drop_id: fiery-path__t005r0038
+  monster_name_raw: Evil Flower
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Anchoret Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: fiery-path__t005r0039
+  monster_name_raw: Evil Flower
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Thunder Spear
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: fiery-path__t005r0040
+  monster_name_raw: Evil Flower
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Benison Ring
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: fiery-path__t005r0041
+  monster_name_raw: Evil Flower
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Heart Hit 5
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: fiery-path__t005r0042
+  monster_name_raw: Evil Knight
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Hermit Cuffs
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: fiery-path__t005r0043
+  monster_name_raw: Evil Knight
+  item_name_raw: Power Shield
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Power Shield
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: fiery-path__t005r0044
+  monster_name_raw: Evil Knight
+  item_name_raw: Anchoret Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Anchoret Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0045
+  monster_name_raw: Evil Knight
+  item_name_raw: Flight Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Flight Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0046
+  monster_name_raw: Evil Knight
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Map Piece
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: fiery-path__t005r0047
+  monster_name_raw: Fly
+  item_name_raw: Magic Gown
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fly
+    Item: Magic Gown
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: fiery-path__t005r0048
+  monster_name_raw: Fly
+  item_name_raw: Knights Shield
+  drop_share_raw: 0.0378%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fly
+    Item: Knights Shield
+    Drop Share: 0.0378%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0378
+    quantity: 1
+- drop_id: fiery-path__t005r0049
+  monster_name_raw: Fly
+  item_name_raw: Magic Gown of Flame God
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fly
+    Item: Magic Gown of Flame God
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: fiery-path__t005r0050
+  monster_name_raw: Fly
+  item_name_raw: Angel Knights Shield
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fly
+    Item: Angel Knights Shield
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: fiery-path__t005r0051
+  monster_name_raw: Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.1260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fly
+    Item: Map Piece
+    Drop Share: 0.1260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.126
+    quantity: 1
+- drop_id: fiery-path__t005r0052
+  monster_name_raw: Gold Fly
+  item_name_raw: Giant Bow
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Giant Bow
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: fiery-path__t005r0053
+  monster_name_raw: Gold Fly
+  item_name_raw: Staff
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Staff
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: fiery-path__t005r0054
+  monster_name_raw: Gold Fly
+  item_name_raw: Silver-Edged Javelin
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Silver-Edged Javelin
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: fiery-path__t005r0055
+  monster_name_raw: Gold Fly
+  item_name_raw: Elf Wings
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Elf Wings
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0056
+  monster_name_raw: Gold Fly
+  item_name_raw: Angel's Blessing
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Angel's Blessing
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0057
+  monster_name_raw: Gold Fly
+  item_name_raw: Saw Spear
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Saw Spear
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0058
+  monster_name_raw: Gold Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0598%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Map Piece
+    Drop Share: 0.0598%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0598
+    quantity: 1
+- drop_id: fiery-path__t005r0059
+  monster_name_raw: Gold Fly
+  item_name_raw: Gold Fly Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Gold Fly Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: fiery-path__t005r0060
+  monster_name_raw: Gold Fly
+  item_name_raw: Mue Duck Robot
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Mue Duck Robot
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: fiery-path__t005r0061
+  monster_name_raw: Gold Fly
+  item_name_raw: Fire Scale Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Fire Scale Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0062
+  monster_name_raw: Gold Fly
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Hunter Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: fiery-path__t005r0063
+  monster_name_raw: Imp Elf
+  item_name_raw: Light Cuff
+  drop_share_raw: 0.0166%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Light Cuff
+    Drop Share: 0.0166%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0166
+    quantity: 1
+- drop_id: fiery-path__t005r0064
+  monster_name_raw: Imp Elf
+  item_name_raw: Short Tight Gloves
+  drop_share_raw: 0.0166%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Short Tight Gloves
+    Drop Share: 0.0166%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0166
+    quantity: 1
+- drop_id: fiery-path__t005r0065
+  monster_name_raw: Imp Elf
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.0014%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Pearl Refining
+    Drop Share: 0.0014%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0014
+    quantity: 1
+- drop_id: fiery-path__t005r0066
+  monster_name_raw: Imp Elf
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.0014%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Fighting Wings
+    Drop Share: 0.0014%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0014
+    quantity: 1
+- drop_id: fiery-path__t005r0067
+  monster_name_raw: Imp Elf
+  item_name_raw: Golden Chain Cuff
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Golden Chain Cuff
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: fiery-path__t005r0068
+  monster_name_raw: Imp Elf
+  item_name_raw: Eagle Wristlet
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Eagle Wristlet
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: fiery-path__t005r0069
+  monster_name_raw: Imp Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0552%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Imp Elf
+    Item: Map Piece
+    Drop Share: 0.0552%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0552
+    quantity: 1
+- drop_id: fiery-path__t005r0070
+  monster_name_raw: Jail Warden
+  item_name_raw: Hermit Armor
+  drop_share_raw: 3.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Hermit Armor
+    Drop Share: 3.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.59
+    quantity: 1
+- drop_id: fiery-path__t005r0071
+  monster_name_raw: Jail Warden
+  item_name_raw: Anchoret Armor
+  drop_share_raw: 0.0598%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Anchoret Armor
+    Drop Share: 0.0598%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0598
+    quantity: 1
+- drop_id: fiery-path__t005r0072
+  monster_name_raw: Jail Warden
+  item_name_raw: Thunder Scope V
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Thunder Scope V
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: fiery-path__t005r0073
+  monster_name_raw: Jail Warden
+  item_name_raw: Quick Stab V
+  drop_share_raw: 0.0299%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Quick Stab V
+    Drop Share: 0.0299%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0299
+    quantity: 1
+- drop_id: fiery-path__t005r0074
+  monster_name_raw: Jail Warden
+  item_name_raw: Heaven Bow
+  drop_share_raw: 0.1794%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Heaven Bow
+    Drop Share: 0.1794%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1794
+    quantity: 1
+- drop_id: fiery-path__t005r0075
+  monster_name_raw: Jail Warden
+  item_name_raw: Fire Guard Cuffs
+  drop_share_raw: 0.1794%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Fire Guard Cuffs
+    Drop Share: 0.1794%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1794
+    quantity: 1
+- drop_id: fiery-path__t005r0076
+  monster_name_raw: Jail Warden
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.1800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Clean Yellow Gem
+    Drop Share: 0.1800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.18
+    quantity: 1
+- drop_id: fiery-path__t005r0077
+  monster_name_raw: Jail Warden
+  item_name_raw: Pestle
+  drop_share_raw: 0.2393%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Pestle
+    Drop Share: 0.2393%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2393
+    quantity: 1
+- drop_id: fiery-path__t005r0078
+  monster_name_raw: Jail Warden
+  item_name_raw: Map Piece
+  drop_share_raw: 0.9000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Map Piece
+    Drop Share: 0.9000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9
+    quantity: 1
+- drop_id: fiery-path__t005r0079
+  monster_name_raw: Jail Warden
+  item_name_raw: Medium Evil Fruit
+  drop_share_raw: 42.2294%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Medium Evil Fruit
+    Drop Share: 42.2294%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 42.2294
+    quantity: 1
+- drop_id: fiery-path__t005r0080
+  monster_name_raw: Jail Warden
+  item_name_raw: Medium Healing Potion
+  drop_share_raw: 46.5363%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Medium Healing Potion
+    Drop Share: 46.5363%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.5363
+    quantity: 1
+- drop_id: fiery-path__t005r0081
+  monster_name_raw: Jail Warden
+  item_name_raw: Jail Warden's Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jail Warden
+    Item: Jail Warden's Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+- drop_id: fiery-path__t005r0082
+  monster_name_raw: Rat Mosi
+  item_name_raw: Reborn Sword
+  drop_share_raw: 1.5650%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Reborn Sword
+    Drop Share: 1.5650%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.565
+    quantity: 1
+- drop_id: fiery-path__t005r0083
+  monster_name_raw: Rat Mosi
+  item_name_raw: Fire Guard Boots
+  drop_share_raw: 1.5650%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Fire Guard Boots
+    Drop Share: 1.5650%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.565
+    quantity: 1
+- drop_id: fiery-path__t005r0084
+  monster_name_raw: Rat Mosi
+  item_name_raw: Secret Sword
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Secret Sword
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: fiery-path__t005r0085
+  monster_name_raw: Rat Mosi
+  item_name_raw: Knight Boots
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Knight Boots
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: fiery-path__t005r0086
+  monster_name_raw: Rat Mosi
+  item_name_raw: Sword Trap V
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Sword Trap V
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: fiery-path__t005r0087
+  monster_name_raw: Rat Mosi
+  item_name_raw: Dancing Stab V
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Dancing Stab V
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: fiery-path__t005r0088
+  monster_name_raw: Rat Mosi
+  item_name_raw: Thunder Trap V
+  drop_share_raw: 0.0087%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Thunder Trap V
+    Drop Share: 0.0087%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0087
+    quantity: 1
+- drop_id: fiery-path__t005r0089
+  monster_name_raw: Rat Mosi
+  item_name_raw: Pestle
+  drop_share_raw: 0.3599%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Pestle
+    Drop Share: 0.3599%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3599
+    quantity: 1
+- drop_id: fiery-path__t005r0090
+  monster_name_raw: Rat Mosi
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: fiery-path__t005r0091
+  monster_name_raw: Rat Mosi
+  item_name_raw: Gloves Shards
+  drop_share_raw: 1.2000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Gloves Shards
+    Drop Share: 1.2000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2
+    quantity: 1
+- drop_id: fiery-path__t005r0092
+  monster_name_raw: Rat Mosi
+  item_name_raw: Energy Crystal
+  drop_share_raw: 44.3386%
+  quantity_raw: '2'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Energy Crystal
+    Drop Share: 44.3386%
+    Qty: '2'
+  normalized:
+    drop_share_percent: 44.3386
+    quantity: 2
+- drop_id: fiery-path__t005r0093
+  monster_name_raw: Rat Mosi
+  item_name_raw: Medium Magic Potion
+  drop_share_raw: 5.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Medium Magic Potion
+    Drop Share: 5.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 1
+- drop_id: fiery-path__t005r0094
+  monster_name_raw: Rat Mosi
+  item_name_raw: Medium Evil Fruit
+  drop_share_raw: 5.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Medium Evil Fruit
+    Drop Share: 5.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.0
+    quantity: 1
+- drop_id: fiery-path__t005r0095
+  monster_name_raw: Rat Mosi
+  item_name_raw: Light Boots
+  drop_share_raw: 12.7436%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Light Boots
+    Drop Share: 12.7436%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.7436
+    quantity: 1
+- drop_id: fiery-path__t005r0096
+  monster_name_raw: Rat Mosi
+  item_name_raw: Faquir Boots
+  drop_share_raw: 12.7436%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Faquir Boots
+    Drop Share: 12.7436%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.7436
+    quantity: 1
+- drop_id: fiery-path__t005r0097
+  monster_name_raw: Rat Mosi
+  item_name_raw: Weighty Iron Boots
+  drop_share_raw: 12.7436%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Weighty Iron Boots
+    Drop Share: 12.7436%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.7436
+    quantity: 1
+- drop_id: fiery-path__t005r0098
+  monster_name_raw: Rat Mosi
+  item_name_raw: Rat Mosi Card
+  drop_share_raw: 1.8287%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rat Mosi
+    Item: Rat Mosi Card
+    Drop Share: 1.8287%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.8287
+    quantity: 1
+- drop_id: fiery-path__t005r0099
+  monster_name_raw: Soul Slalin
+  item_name_raw: Heaven Bow
+  drop_share_raw: 1.2950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Heaven Bow
+    Drop Share: 1.2950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.295
+    quantity: 1
+- drop_id: fiery-path__t005r0100
+  monster_name_raw: Soul Slalin
+  item_name_raw: Holy Manteau
+  drop_share_raw: 1.2950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Holy Manteau
+    Drop Share: 1.2950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.295
+    quantity: 1
+- drop_id: fiery-path__t005r0101
+  monster_name_raw: Soul Slalin
+  item_name_raw: Fire Tooth
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Fire Tooth
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: fiery-path__t005r0102
+  monster_name_raw: Soul Slalin
+  item_name_raw: Hope Mantle
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Hope Mantle
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: fiery-path__t005r0103
+  monster_name_raw: Soul Slalin
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Heart Hit 5
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: fiery-path__t005r0104
+  monster_name_raw: Soul Slalin
+  item_name_raw: Advanced Attack V
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Advanced Attack V
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: fiery-path__t005r0105
+  monster_name_raw: Soul Slalin
+  item_name_raw: Pestle
+  drop_share_raw: 0.2934%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Pestle
+    Drop Share: 0.2934%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2934
+    quantity: 1
+- drop_id: fiery-path__t005r0106
+  monster_name_raw: Soul Slalin
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Map Piece
+    Drop Share: 0.3200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.32
+    quantity: 1
+- drop_id: fiery-path__t005r0107
+  monster_name_raw: Soul Slalin
+  item_name_raw: Shoes Shards
+  drop_share_raw: 1.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Shoes Shards
+    Drop Share: 1.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.0
+    quantity: 1
+- drop_id: fiery-path__t005r0108
+  monster_name_raw: Soul Slalin
+  item_name_raw: Energy Crystal
+  drop_share_raw: 56.1849%
+  quantity_raw: '2'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Energy Crystal
+    Drop Share: 56.1849%
+    Qty: '2'
+  normalized:
+    drop_share_percent: 56.1849
+    quantity: 2
+- drop_id: fiery-path__t005r0109
+  monster_name_raw: Soul Slalin
+  item_name_raw: Chain Armor
+  drop_share_raw: 12.8565%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Chain Armor
+    Drop Share: 12.8565%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.8565
+    quantity: 1
+- drop_id: fiery-path__t005r0110
+  monster_name_raw: Soul Slalin
+  item_name_raw: Black Knights Boots
+  drop_share_raw: 12.8565%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Black Knights Boots
+    Drop Share: 12.8565%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.8565
+    quantity: 1
+- drop_id: fiery-path__t005r0111
+  monster_name_raw: Soul Slalin
+  item_name_raw: Magic Gown
+  drop_share_raw: 12.8565%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Magic Gown
+    Drop Share: 12.8565%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 12.8565
+    quantity: 1
+- drop_id: fiery-path__t005r0112
+  monster_name_raw: Soul Slalin
+  item_name_raw: Soul-eater Slalin Card
+  drop_share_raw: 0.6099%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Slalin
+    Item: Soul-eater Slalin Card
+    Drop Share: 0.6099%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6099
+    quantity: 1
+- drop_id: fiery-path__t005r0113
+  monster_name_raw: Terra Lampman
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Hermit Boots
+    Drop Share: 0.0259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0259
+    quantity: 1
+- drop_id: fiery-path__t005r0114
+  monster_name_raw: Terra Lampman
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Anchoret Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0115
+  monster_name_raw: Terra Lampman
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Heart Hit 5
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: fiery-path__t005r0116
+  monster_name_raw: Terra Lampman
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Thunder Spear
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: fiery-path__t005r0117
+  monster_name_raw: Terra Lampman
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Benison Ring
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: fiery-path__t005r0118
+  monster_name_raw: Terra Lampman
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Map Piece
+    Drop Share: 0.0216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0216
+    quantity: 1
+- drop_id: fiery-path__t005r0119
+  monster_name_raw: Theurgy Master
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Alchemic Cap
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: fiery-path__t005r0120
+  monster_name_raw: Theurgy Master
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Hard-leather Cap
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: fiery-path__t005r0121
+  monster_name_raw: Theurgy Master
+  item_name_raw: Round Iron Helmet
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Round Iron Helmet
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: fiery-path__t005r0122
+  monster_name_raw: Theurgy Master
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Pearl Refining
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: fiery-path__t005r0123
+  monster_name_raw: Theurgy Master
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Fighting Wings
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: fiery-path__t005r0124
+  monster_name_raw: Theurgy Master
+  item_name_raw: Holy Alchemic Cap
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Holy Alchemic Cap
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: fiery-path__t005r0125
+  monster_name_raw: Theurgy Master
+  item_name_raw: Lion Shield
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Lion Shield
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: fiery-path__t005r0126
+  monster_name_raw: Theurgy Master
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Map Piece
+    Drop Share: 0.0488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0488
+    quantity: 1
+- drop_id: fiery-path__t005r0127
+  monster_name_raw: Theurgy Master
+  item_name_raw: Theurgy Master Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Theurgy Master Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: fiery-path__t005r0128
+  monster_name_raw: Wanderer
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 2.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Hermit Cuffs
+    Drop Share: 2.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.59
+    quantity: 1
+- drop_id: fiery-path__t005r0129
+  monster_name_raw: Wanderer
+  item_name_raw: Anchoret Cuffs
+  drop_share_raw: 0.0216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Anchoret Cuffs
+    Drop Share: 0.0216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0216
+    quantity: 1
+- drop_id: fiery-path__t005r0130
+  monster_name_raw: Wanderer
+  item_name_raw: Angel's Light 5
+  drop_share_raw: 0.0072%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Angel's Light 5
+    Drop Share: 0.0072%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0072
+    quantity: 1
+- drop_id: fiery-path__t005r0131
+  monster_name_raw: Wanderer
+  item_name_raw: Bloody Song V
+  drop_share_raw: 0.0072%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Bloody Song V
+    Drop Share: 0.0072%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0072
+    quantity: 1
+- drop_id: fiery-path__t005r0132
+  monster_name_raw: Wanderer
+  item_name_raw: Energy Souce V
+  drop_share_raw: 0.0072%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Energy Souce V
+    Drop Share: 0.0072%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0072
+    quantity: 1
+- drop_id: fiery-path__t005r0133
+  monster_name_raw: Wanderer
+  item_name_raw: Fool Staff
+  drop_share_raw: 0.0648%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Fool Staff
+    Drop Share: 0.0648%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0648
+    quantity: 1
+- drop_id: fiery-path__t005r0134
+  monster_name_raw: Wanderer
+  item_name_raw: Fire Guard Armor
+  drop_share_raw: 0.0648%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Fire Guard Armor
+    Drop Share: 0.0648%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0648
+    quantity: 1
+- drop_id: fiery-path__t005r0135
+  monster_name_raw: Wanderer
+  item_name_raw: Pestle
+  drop_share_raw: 0.2934%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Pestle
+    Drop Share: 0.2934%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2934
+    quantity: 1
+- drop_id: fiery-path__t005r0136
+  monster_name_raw: Wanderer
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Map Piece
+    Drop Share: 0.3200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.32
+    quantity: 1
+- drop_id: fiery-path__t005r0137
+  monster_name_raw: Wanderer
+  item_name_raw: Medium Magic Fruit
+  drop_share_raw: 47.8858%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Medium Magic Fruit
+    Drop Share: 47.8858%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.8858
+    quantity: 1
+- drop_id: fiery-path__t005r0138
+  monster_name_raw: Wanderer
+  item_name_raw: Medium Healing Potion
+  drop_share_raw: 46.3296%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Medium Healing Potion
+    Drop Share: 46.3296%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.3296
+    quantity: 1
+- drop_id: fiery-path__t005r0139
+  monster_name_raw: Wanderer
+  item_name_raw: Wanderer Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wanderer
+    Item: Wanderer Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 3
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 139

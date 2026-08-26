@@ -1,0 +1,720 @@
+area:
+  id: hot-spring-resort
+  name_raw: Hot Spring Resort
+  source:
+    origin_url: https://angels.wikidot.com/area:hot-spring-resort
+    retrieval_url: https://www.aowiki.uk/pages/area_hot-spring-resort.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: c5ec959cf02cdd4c2503db63ea3ce7194a4261de91a35ba7b34a4239f8eaf111
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: hot-spring-resort__aquatic-hunter__t002r0001
+  name_raw: Aquatic Hunter
+  level_raw: '180'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_aquatic-hunter.html
+  row_raw:
+    Monster Name: Aquatic Hunter
+    Level: '180'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 180
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__hot-spring-tako-trooper__t002r0002
+  name_raw: Hot Spring Tako Trooper
+  level_raw: '180'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_hot-spring-tako-trooper.html
+  row_raw:
+    Monster Name: Hot Spring Tako Trooper
+    Level: '180'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 180
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__blueflame-pup__t002r0003
+  name_raw: Blueflame Pup
+  level_raw: '182'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blueflame-pup.html
+  row_raw:
+    Monster Name: Blueflame Pup
+    Level: '182'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 182
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__jade-pup__t002r0004
+  name_raw: Jade Pup
+  level_raw: '182'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_jade-pup.html
+  row_raw:
+    Monster Name: Jade Pup
+    Level: '182'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 182
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__tub-monkey__t002r0005
+  name_raw: Tub Monkey
+  level_raw: '184'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tub-monkey.html
+  row_raw:
+    Monster Name: Tub Monkey
+    Level: '184'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 184
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__mossy-monkey__t002r0006
+  name_raw: Mossy Monkey
+  level_raw: '184'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mossy-monkey.html
+  row_raw:
+    Monster Name: Mossy Monkey
+    Level: '184'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 184
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__fragrant-onigiri__t002r0007
+  name_raw: Fragrant Onigiri
+  level_raw: '186'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fragrant-onigiri.html
+  row_raw:
+    Monster Name: Fragrant Onigiri
+    Level: '186'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 186
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__blueberry-onigiri__t002r0008
+  name_raw: Blueberry Onigiri
+  level_raw: '186'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blueberry-onigiri.html
+  row_raw:
+    Monster Name: Blueberry Onigiri
+    Level: '186'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 186
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__fanholder-fox__t002r0009
+  name_raw: Fanholder Fox
+  level_raw: '188'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fanholder-fox.html
+  row_raw:
+    Monster Name: Fanholder Fox
+    Level: '188'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 188
+    boss: false
+    aggressive: false
+- area_occurrence_id: hot-spring-resort__fandance-fox__t002r0010
+  name_raw: Fandance Fox
+  level_raw: '188'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fandance-fox.html
+  row_raw:
+    Monster Name: Fandance Fox
+    Level: '188'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 188
+    boss: false
+    aggressive: false
+drops:
+- drop_id: hot-spring-resort__t006r0001
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Four-Wing Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Four-Wing Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0002
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Good Four-Wing Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Good Four-Wing Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0003
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Dragon Bone Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Dragon Bone Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0004
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Forest Cuffs
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Forest Cuffs
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0005
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Good Forest Cuffs
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Good Forest Cuffs
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0006
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Dragon Bone Cuffs
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Dragon Bone Cuffs
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0007
+  monster_name_raw: Aquatic Hunter
+  item_name_raw: Pure Ruby Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Aquatic Hunter
+    Item: Pure Ruby Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0008
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Tribe Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Tribe Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0009
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Good Tribe Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Good Tribe Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0010
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Thunderous Armor
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Thunderous Armor
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0011
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Maple Dance Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Maple Dance Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0012
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Good Maple Dance Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Good Maple Dance Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0013
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Saint Will Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Saint Will Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0014
+  monster_name_raw: Blueflame Pup
+  item_name_raw: Refined Gold Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Blueflame Pup
+    Item: Refined Gold Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0015
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Star Pendant
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Star Pendant
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0016
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Good Star Pendant
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Good Star Pendant
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0017
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Star Spell
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Star Spell
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0018
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Springtide Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Springtide Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0019
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Good Springtide Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Good Springtide Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0020
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Flaming Hood
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Flaming Hood
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0021
+  monster_name_raw: Hot Spring Tako Trooper
+  item_name_raw: Pure Amber Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Hot Spring Tako Trooper
+    Item: Pure Amber Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0022
+  monster_name_raw: Jade Pup
+  item_name_raw: Eagle Feather Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Eagle Feather Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0023
+  monster_name_raw: Jade Pup
+  item_name_raw: Good Eagle Feather Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Good Eagle Feather Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0024
+  monster_name_raw: Jade Pup
+  item_name_raw: Oracle Mantle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Oracle Mantle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0025
+  monster_name_raw: Jade Pup
+  item_name_raw: Frost Heavy Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Frost Heavy Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0026
+  monster_name_raw: Jade Pup
+  item_name_raw: Good Frost Heavy Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Good Frost Heavy Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0027
+  monster_name_raw: Jade Pup
+  item_name_raw: Royal Sage Boots
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Royal Sage Boots
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0028
+  monster_name_raw: Jade Pup
+  item_name_raw: Refined Malachite Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Jade Pup
+    Item: Refined Malachite Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0029
+  monster_name_raw: Tub Monkey
+  item_name_raw: Blood God's Thorn
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tub Monkey
+    Item: Blood God's Thorn
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0030
+  monster_name_raw: Tub Monkey
+  item_name_raw: Good Blood God's Thorn
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tub Monkey
+    Item: Good Blood God's Thorn
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0031
+  monster_name_raw: Tub Monkey
+  item_name_raw: Purgatorial Messenger
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tub Monkey
+    Item: Purgatorial Messenger
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: hot-spring-resort__t006r0032
+  monster_name_raw: Tub Monkey
+  item_name_raw: Refined Sapphire Cross Rune
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Tub Monkey
+    Item: Refined Sapphire Cross Rune
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Elite - Aquatic Hunter
+  - '189'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Evil Captain One-Eye
+  - '190'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 32

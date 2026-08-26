@@ -1,0 +1,1639 @@
+area:
+  id: fruit-town
+  name_raw: Fruit Town
+  source:
+    origin_url: https://angels.wikidot.com/area:fruit-town
+    retrieval_url: https://www.aowiki.uk/pages/area_fruit-town.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: f0818a4b4a04151973912f8cbc51ed87635b1f477380c60681c2095881bdec72
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: fruit-town__purple-violet__t003r0001
+  name_raw: Purple Violet
+  level_raw: '115'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_purple-violet.html
+  row_raw:
+    Monster Name: Purple Violet
+    Level: '115'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 115
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__pink-violet__t003r0002
+  name_raw: Pink Violet
+  level_raw: '115'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pink-violet.html
+  row_raw:
+    Monster Name: Pink Violet
+    Level: '115'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 115
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__fruit-soldier__t003r0003
+  name_raw: Fruit Soldier
+  level_raw: '117'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fruit-soldier.html
+  row_raw:
+    Monster Name: Fruit Soldier
+    Level: '117'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 117
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__fruit-spearman__t003r0004
+  name_raw: Fruit Spearman
+  level_raw: '117'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fruit-spearman.html
+  row_raw:
+    Monster Name: Fruit Spearman
+    Level: '117'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 117
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__earth-dog-fighter__t003r0005
+  name_raw: Earth Dog Fighter
+  level_raw: '119'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_earth-dog-fighter.html
+  row_raw:
+    Monster Name: Earth Dog Fighter
+    Level: '119'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 119
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__mystic-dog-warrior__t003r0006
+  name_raw: Mystic Dog Warrior
+  level_raw: '119'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mystic-dog-warrior.html
+  row_raw:
+    Monster Name: Mystic Dog Warrior
+    Level: '119'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 119
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__expert-axeman__t003r0007
+  name_raw: Expert Axeman
+  level_raw: '122'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_expert-axeman.html
+  row_raw:
+    Monster Name: Expert Axeman
+    Level: '122'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 122
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__fruit-witch__t003r0008
+  name_raw: Fruit Witch
+  level_raw: '122'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fruit-witch.html
+  row_raw:
+    Monster Name: Fruit Witch
+    Level: '122'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 122
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__little-strawberry__t003r0009
+  name_raw: Little Strawberry
+  level_raw: '124'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_little-strawberry.html
+  row_raw:
+    Monster Name: Little Strawberry
+    Level: '124'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 124
+    boss: false
+    aggressive: false
+- area_occurrence_id: fruit-town__sweet-strawberry__t003r0010
+  name_raw: Sweet Strawberry
+  level_raw: '124'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sweet-strawberry.html
+  row_raw:
+    Monster Name: Sweet Strawberry
+    Level: '124'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 124
+    boss: false
+    aggressive: false
+drops:
+- drop_id: fruit-town__t006r0001
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Storm Thorn
+  drop_share_raw: 7.5100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Storm Thorn
+    Drop Share: 7.5100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.51
+    quantity: 1
+- drop_id: fruit-town__t006r0002
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Good Storm Thorn
+  drop_share_raw: 1.6902%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Good Storm Thorn
+    Drop Share: 1.6902%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6902
+    quantity: 1
+- drop_id: fruit-town__t006r0003
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Tsubasa's Attack
+  drop_share_raw: 0.0113%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Tsubasa's Attack
+    Drop Share: 0.0113%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0113
+    quantity: 1
+- drop_id: fruit-town__t006r0004
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: 'W.Plan2: Storm Thorn'
+  drop_share_raw: 0.1127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: 'W.Plan2: Storm Thorn'
+    Drop Share: 0.1127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1127
+    quantity: 1
+- drop_id: fruit-town__t006r0005
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: 'Stance 5: Thunder Burst 5'
+  drop_share_raw: 0.0102%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: 'Stance 5: Thunder Burst 5'
+    Drop Share: 0.0102%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0102
+    quantity: 1
+- drop_id: fruit-town__t006r0006
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Flawed Orange Light Rune
+  drop_share_raw: 0.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Flawed Orange Light Rune
+    Drop Share: 0.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.047
+    quantity: 1
+- drop_id: fruit-town__t006r0007
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: fruit-town__t006r0008
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Super Evil Fruit
+  drop_share_raw: 45.3010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Super Evil Fruit
+    Drop Share: 45.3010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.301
+    quantity: 1
+- drop_id: fruit-town__t006r0009
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Super Healing Potion
+  drop_share_raw: 45.3010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Super Healing Potion
+    Drop Share: 45.3010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.301
+    quantity: 1
+- drop_id: fruit-town__t006r0010
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Fantastic Ostrich
+  drop_share_raw: 0.0056%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Fantastic Ostrich
+    Drop Share: 0.0056%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0056
+    quantity: 1
+- drop_id: fruit-town__t006r0011
+  monster_name_raw: Dark Tutor Aslander
+  item_name_raw: Circus Panda Robot
+  drop_share_raw: 0.0056%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Tutor Aslander
+    Item: Circus Panda Robot
+    Drop Share: 0.0056%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0056
+    quantity: 1
+- drop_id: fruit-town__t006r0012
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Fairy Brooch
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Fairy Brooch
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0013
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Good Fairy Brooch
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Good Fairy Brooch
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0014
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Star's Tear
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Star's Tear
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0015
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Stealth Cap
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Stealth Cap
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0016
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Good Stealth Cap
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Good Stealth Cap
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0017
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Stealth Fur Cap
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Stealth Fur Cap
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0018
+  monster_name_raw: Earth Dog Fighter
+  item_name_raw: Flawed Purple Light Rune
+  drop_share_raw: 0.6434%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Earth Dog Fighter
+    Item: Flawed Purple Light Rune
+    Drop Share: 0.6434%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6434
+    quantity: 1
+- drop_id: fruit-town__t006r0019
+  monster_name_raw: Expert Axeman
+  item_name_raw: Cardinal Gloves
+  drop_share_raw: 96.1942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Expert Axeman
+    Item: Cardinal Gloves
+    Drop Share: 96.1942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.1942
+    quantity: 1
+- drop_id: fruit-town__t006r0020
+  monster_name_raw: Expert Axeman
+  item_name_raw: Good Cardinal Gloves
+  drop_share_raw: 2.3980%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Expert Axeman
+    Item: Good Cardinal Gloves
+    Drop Share: 2.3980%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.398
+    quantity: 1
+- drop_id: fruit-town__t006r0021
+  monster_name_raw: Expert Axeman
+  item_name_raw: Isis Gloves
+  drop_share_raw: 0.1193%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Expert Axeman
+    Item: Isis Gloves
+    Drop Share: 0.1193%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1193
+    quantity: 1
+- drop_id: fruit-town__t006r0022
+  monster_name_raw: Expert Axeman
+  item_name_raw: Flawed Green Light Rune
+  drop_share_raw: 0.5488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Expert Axeman
+    Item: Flawed Green Light Rune
+    Drop Share: 0.5488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5488
+    quantity: 1
+- drop_id: fruit-town__t006r0023
+  monster_name_raw: Expert Axeman
+  item_name_raw: 'D.Plan2: Cardinal Gloves'
+  drop_share_raw: 0.7397%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Expert Axeman
+    Item: 'D.Plan2: Cardinal Gloves'
+    Drop Share: 0.7397%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7397
+    quantity: 1
+- drop_id: fruit-town__t006r0024
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Evil Eye Wand
+  drop_share_raw: 7.5100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Evil Eye Wand
+    Drop Share: 7.5100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.51
+    quantity: 1
+- drop_id: fruit-town__t006r0025
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Good Evil Eye Wand
+  drop_share_raw: 1.6902%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Good Evil Eye Wand
+    Drop Share: 1.6902%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.6902
+    quantity: 1
+- drop_id: fruit-town__t006r0026
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Burning Dragon
+  drop_share_raw: 0.0113%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Burning Dragon
+    Drop Share: 0.0113%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0113
+    quantity: 1
+- drop_id: fruit-town__t006r0027
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: 'C.Plan2: Evil Eye Wand'
+  drop_share_raw: 0.1127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: 'C.Plan2: Evil Eye Wand'
+    Drop Share: 0.1127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1127
+    quantity: 1
+- drop_id: fruit-town__t006r0028
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Flawed Red Light Rune
+  drop_share_raw: 0.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Flawed Red Light Rune
+    Drop Share: 0.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.047
+    quantity: 1
+- drop_id: fruit-town__t006r0029
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: fruit-town__t006r0030
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Super Magic Fruit
+  drop_share_raw: 45.3061%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Super Magic Fruit
+    Drop Share: 45.3061%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.3061
+    quantity: 1
+- drop_id: fruit-town__t006r0031
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Super Agility Potion
+  drop_share_raw: 45.3061%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Super Agility Potion
+    Drop Share: 45.3061%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.3061
+    quantity: 1
+- drop_id: fruit-town__t006r0032
+  monster_name_raw: Fruit Leader Bern
+  item_name_raw: Elegant Camel
+  drop_share_raw: 0.0113%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Leader Bern
+    Item: Elegant Camel
+    Drop Share: 0.0113%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0113
+    quantity: 1
+- drop_id: fruit-town__t006r0033
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Horrible Abyss
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Horrible Abyss
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0034
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Good Horrible Abyss
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Good Horrible Abyss
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0035
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Pohja's Sorrow
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Pohja's Sorrow
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0036
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Ghost Cap
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Ghost Cap
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0037
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Good Ghost Cap
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Good Ghost Cap
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0038
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Dark Horror Cap
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Dark Horror Cap
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0039
+  monster_name_raw: Fruit Soldier
+  item_name_raw: Flawed Red Light Rune
+  drop_share_raw: 0.6434%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Soldier
+    Item: Flawed Red Light Rune
+    Drop Share: 0.6434%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6434
+    quantity: 1
+- drop_id: fruit-town__t006r0040
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Broken Bloody Blade
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Broken Bloody Blade
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0041
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Good Broken Bloody Blade
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Good Broken Bloody Blade
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0042
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Signos' Chop
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Signos' Chop
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0043
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Ghost Gloves
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Ghost Gloves
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0044
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Good Ghost Gloves
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Good Ghost Gloves
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0045
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Dark Horror
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Dark Horror
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0046
+  monster_name_raw: Fruit Spearman
+  item_name_raw: Flawed Orange Light Rune
+  drop_share_raw: 0.6434%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Spearman
+    Item: Flawed Orange Light Rune
+    Drop Share: 0.6434%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6434
+    quantity: 1
+- drop_id: fruit-town__t006r0047
+  monster_name_raw: Fruit Witch
+  item_name_raw: Ruby Shield
+  drop_share_raw: 96.1942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Witch
+    Item: Ruby Shield
+    Drop Share: 96.1942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.1942
+    quantity: 1
+- drop_id: fruit-town__t006r0048
+  monster_name_raw: Fruit Witch
+  item_name_raw: Good Ruby Shield
+  drop_share_raw: 2.3980%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Witch
+    Item: Good Ruby Shield
+    Drop Share: 2.3980%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.398
+    quantity: 1
+- drop_id: fruit-town__t006r0049
+  monster_name_raw: Fruit Witch
+  item_name_raw: Seraph's Staring
+  drop_share_raw: 0.1193%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Witch
+    Item: Seraph's Staring
+    Drop Share: 0.1193%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1193
+    quantity: 1
+- drop_id: fruit-town__t006r0050
+  monster_name_raw: Fruit Witch
+  item_name_raw: Flawed Blue Light Rune
+  drop_share_raw: 0.5488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Witch
+    Item: Flawed Blue Light Rune
+    Drop Share: 0.5488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5488
+    quantity: 1
+- drop_id: fruit-town__t006r0051
+  monster_name_raw: Fruit Witch
+  item_name_raw: 'A.Plan2: Ruby Shield'
+  drop_share_raw: 0.7397%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fruit Witch
+    Item: 'A.Plan2: Ruby Shield'
+    Drop Share: 0.7397%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7397
+    quantity: 1
+- drop_id: fruit-town__t006r0052
+  monster_name_raw: Little Strawberry
+  item_name_raw: Cardinal Gown
+  drop_share_raw: 96.1942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Strawberry
+    Item: Cardinal Gown
+    Drop Share: 96.1942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.1942
+    quantity: 1
+- drop_id: fruit-town__t006r0053
+  monster_name_raw: Little Strawberry
+  item_name_raw: Good Cardinal Gown
+  drop_share_raw: 2.3980%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Strawberry
+    Item: Good Cardinal Gown
+    Drop Share: 2.3980%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.398
+    quantity: 1
+- drop_id: fruit-town__t006r0054
+  monster_name_raw: Little Strawberry
+  item_name_raw: Isis Gown
+  drop_share_raw: 0.1193%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Strawberry
+    Item: Isis Gown
+    Drop Share: 0.1193%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1193
+    quantity: 1
+- drop_id: fruit-town__t006r0055
+  monster_name_raw: Little Strawberry
+  item_name_raw: Flawed Yellow Light Rune
+  drop_share_raw: 0.5488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Strawberry
+    Item: Flawed Yellow Light Rune
+    Drop Share: 0.5488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5488
+    quantity: 1
+- drop_id: fruit-town__t006r0056
+  monster_name_raw: Little Strawberry
+  item_name_raw: 'D.Plan2: Cardinal Gown'
+  drop_share_raw: 0.7397%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Little Strawberry
+    Item: 'D.Plan2: Cardinal Gown'
+    Drop Share: 0.7397%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7397
+    quantity: 1
+- drop_id: fruit-town__t006r0057
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Night Walker
+  drop_share_raw: 7.5100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Night Walker
+    Drop Share: 7.5100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 7.51
+    quantity: 1
+- drop_id: fruit-town__t006r0058
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Good Night Walker
+  drop_share_raw: 1.3522%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Good Night Walker
+    Drop Share: 1.3522%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.3522
+    quantity: 1
+- drop_id: fruit-town__t006r0059
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Hedice's Burst
+  drop_share_raw: 0.0113%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Hedice's Burst
+    Drop Share: 0.0113%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0113
+    quantity: 1
+- drop_id: fruit-town__t006r0060
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: 'W.Plan2: Night Walker'
+  drop_share_raw: 0.1127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: 'W.Plan2: Night Walker'
+    Drop Share: 0.1127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1127
+    quantity: 1
+- drop_id: fruit-town__t006r0061
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Flawed Purple Light Rune
+  drop_share_raw: 0.0470%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Flawed Purple Light Rune
+    Drop Share: 0.0470%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.047
+    quantity: 1
+- drop_id: fruit-town__t006r0062
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Pestle
+  drop_share_raw: 0.0054%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Pestle
+    Drop Share: 0.0054%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0054
+    quantity: 1
+- drop_id: fruit-town__t006r0063
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Super Target Potion
+  drop_share_raw: 45.4751%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Super Target Potion
+    Drop Share: 45.4751%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.4751
+    quantity: 1
+- drop_id: fruit-town__t006r0064
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Super Magic Potion
+  drop_share_raw: 45.4751%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Super Magic Potion
+    Drop Share: 45.4751%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.4751
+    quantity: 1
+- drop_id: fruit-town__t006r0065
+  monster_name_raw: Love Fighter Lisa
+  item_name_raw: Frozen White Bear
+  drop_share_raw: 0.0113%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Love Fighter Lisa
+    Item: Frozen White Bear
+    Drop Share: 0.0113%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0113
+    quantity: 1
+- drop_id: fruit-town__t006r0066
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Revival Shield
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Revival Shield
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0067
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Good Revival Shield
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Good Revival Shield
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0068
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Mineral Water Bottle
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Mineral Water Bottle
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0069
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Dragon Fire Helmet
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Dragon Fire Helmet
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0070
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Good Dragon Fire Helmet
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Good Dragon Fire Helmet
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0071
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Salamanca's Horn
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Salamanca's Horn
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0072
+  monster_name_raw: Mystic Dog Warrior
+  item_name_raw: Flawed Yellow Light Rune
+  drop_share_raw: 0.6434%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mystic Dog Warrior
+    Item: Flawed Yellow Light Rune
+    Drop Share: 0.6434%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6434
+    quantity: 1
+- drop_id: fruit-town__t006r0073
+  monster_name_raw: Pink Violet
+  item_name_raw: Ghost Gown
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Ghost Gown
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0074
+  monster_name_raw: Pink Violet
+  item_name_raw: Good Ghost Gown
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Good Ghost Gown
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0075
+  monster_name_raw: Pink Violet
+  item_name_raw: Dark Horror Gown
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Dark Horror Gown
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0076
+  monster_name_raw: Pink Violet
+  item_name_raw: Stealth Gloves
+  drop_share_raw: 48.4196%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Stealth Gloves
+    Drop Share: 48.4196%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.4196
+    quantity: 1
+- drop_id: fruit-town__t006r0077
+  monster_name_raw: Pink Violet
+  item_name_raw: Good Stealth Gloves
+  drop_share_raw: 1.2028%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Good Stealth Gloves
+    Drop Share: 1.2028%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2028
+    quantity: 1
+- drop_id: fruit-town__t006r0078
+  monster_name_raw: Pink Violet
+  item_name_raw: Stealth Fur Cuffs
+  drop_share_raw: 0.0559%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Stealth Fur Cuffs
+    Drop Share: 0.0559%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0559
+    quantity: 1
+- drop_id: fruit-town__t006r0079
+  monster_name_raw: Pink Violet
+  item_name_raw: Flawed Blue Light Rune
+  drop_share_raw: 0.6434%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Pink Violet
+    Item: Flawed Blue Light Rune
+    Drop Share: 0.6434%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.6434
+    quantity: 1
+- drop_id: fruit-town__t006r0080
+  monster_name_raw: Purple Violet
+  item_name_raw: Ghost Boots
+  drop_share_raw: 96.2201%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Violet
+    Item: Ghost Boots
+    Drop Share: 96.2201%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.2201
+    quantity: 1
+- drop_id: fruit-town__t006r0081
+  monster_name_raw: Purple Violet
+  item_name_raw: Good Ghost Boots
+  drop_share_raw: 2.3902%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Violet
+    Item: Good Ghost Boots
+    Drop Share: 2.3902%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3902
+    quantity: 1
+- drop_id: fruit-town__t006r0082
+  monster_name_raw: Purple Violet
+  item_name_raw: Dark Horror Boots
+  drop_share_raw: 0.1112%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Violet
+    Item: Dark Horror Boots
+    Drop Share: 0.1112%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1112
+    quantity: 1
+- drop_id: fruit-town__t006r0083
+  monster_name_raw: Purple Violet
+  item_name_raw: Flawed Green Light Rune
+  drop_share_raw: 1.2785%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Violet
+    Item: Flawed Green Light Rune
+    Drop Share: 1.2785%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.2785
+    quantity: 1
+- drop_id: fruit-town__t006r0084
+  monster_name_raw: Sweet Strawberry
+  item_name_raw: Burning Sun Mantle
+  drop_share_raw: 96.1942%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Strawberry
+    Item: Burning Sun Mantle
+    Drop Share: 96.1942%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 96.1942
+    quantity: 1
+- drop_id: fruit-town__t006r0085
+  monster_name_raw: Sweet Strawberry
+  item_name_raw: Good Burning Sun Mantle
+  drop_share_raw: 2.3980%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Strawberry
+    Item: Good Burning Sun Mantle
+    Drop Share: 2.3980%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.398
+    quantity: 1
+- drop_id: fruit-town__t006r0086
+  monster_name_raw: Sweet Strawberry
+  item_name_raw: Fiery Doomsday
+  drop_share_raw: 0.1193%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Strawberry
+    Item: Fiery Doomsday
+    Drop Share: 0.1193%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1193
+    quantity: 1
+- drop_id: fruit-town__t006r0087
+  monster_name_raw: Sweet Strawberry
+  item_name_raw: Flawed Green Light Rune
+  drop_share_raw: 0.5488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Strawberry
+    Item: Flawed Green Light Rune
+    Drop Share: 0.5488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5488
+    quantity: 1
+- drop_id: fruit-town__t006r0088
+  monster_name_raw: Sweet Strawberry
+  item_name_raw: 'D.Plan2: Burning Sun Mantle'
+  drop_share_raw: 0.7397%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sweet Strawberry
+    Item: 'D.Plan2: Burning Sun Mantle'
+    Drop Share: 0.7397%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7397
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Fruit Leader Bern
+  - '125'
+  - 'Yes'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 88

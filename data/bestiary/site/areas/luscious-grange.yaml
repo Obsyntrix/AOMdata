@@ -1,0 +1,69 @@
+area:
+  id: luscious-grange
+  name_raw: Luscious Grange
+  source:
+    origin_url: https://angels.wikidot.com/area:luscious-grange
+    retrieval_url: https://www.aowiki.uk/pages/area_luscious-grange.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 3639bebe293360264a7014c3b02cde0e1c27dc2450523743cc5fcbd4fe4b2c54
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: luscious-grange__monster-name__t004r0001
+  name_raw: Monster Name
+  level_raw: '?'
+  boss_raw: Yes/No
+  aggressive_raw: Yes/No
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_monster-name.html
+  row_raw:
+    Monster Name: Monster Name
+    Level: '?'
+    Boss: Yes/No
+    Aggressive: Yes/No
+    ? ''
+    : ''
+  normalized:
+    level: null
+    boss: null
+    aggressive: null
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 1
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5

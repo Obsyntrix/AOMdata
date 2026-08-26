@@ -1,0 +1,1699 @@
+area:
+  id: deity-palace-ruins
+  name_raw: Deity Palace Ruins
+  source:
+    origin_url: https://angels.wikidot.com/area:deity-palace-ruins
+    retrieval_url: https://www.aowiki.uk/pages/area_deity-palace-ruins.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: c47a7c378d9458c70250bf845ece66b435d35ed98c2821234c6d5c9e90c656d9
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: deity-palace-ruins__evil-fire-elf__t002r0001
+  name_raw: Evil Fire Elf
+  level_raw: '50'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-fire-elf.html
+  row_raw:
+    Monster Name: Evil Fire Elf
+    Level: '50'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 50
+    boss: false
+    aggressive: true
+- area_occurrence_id: deity-palace-ruins__evil-wind-elf__t002r0002
+  name_raw: Evil Wind Elf
+  level_raw: '53'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-wind-elf.html
+  row_raw:
+    Monster Name: Evil Wind Elf
+    Level: '53'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 53
+    boss: false
+    aggressive: true
+- area_occurrence_id: deity-palace-ruins__evil-earth-elf__t002r0003
+  name_raw: Evil Earth Elf
+  level_raw: '55'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-earth-elf.html
+  row_raw:
+    Monster Name: Evil Earth Elf
+    Level: '55'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: false
+    aggressive: true
+- area_occurrence_id: deity-palace-ruins__mirror-elf__t002r0004
+  name_raw: Mirror Elf
+  level_raw: '55'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mirror-elf.html
+  row_raw:
+    Monster Name: Mirror Elf
+    Level: '55'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: false
+    aggressive: true
+- area_occurrence_id: deity-palace-ruins__fane-priest__t002r0006
+  name_raw: Fane Priest
+  level_raw: '61'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fane-priest.html
+  row_raw:
+    Monster Name: Fane Priest
+    Level: '61'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 61
+    boss: true
+    aggressive: true
+- area_occurrence_id: deity-palace-ruins__fane-protector__t002r0007
+  name_raw: Fane Protector
+  level_raw: '63'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fane-protector.html
+  row_raw:
+    Monster Name: Fane Protector
+    Level: '63'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 63
+    boss: true
+    aggressive: true
+drops:
+- drop_id: deity-palace-ruins__t004r0001
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Crusader's Sword
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Crusader's Sword
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0002
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: War Axe
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: War Axe
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0003
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Crusader's Shield
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Crusader's Shield
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0004
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Rose Sword
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Rose Sword
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0005
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Fish Axe
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Fish Axe
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0006
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Vein Shield
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Vein Shield
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0007
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0480%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Map Piece
+    Drop Share: 0.0480%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.048
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0008
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Sapphire
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Sapphire
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0009
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Purple Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Purple Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0010
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Ruby
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Ruby
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0011
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Pestle
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0012
+  monster_name_raw: Evil Earth Elf
+  item_name_raw: Earth Demon Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Earth Elf
+    Item: Earth Demon Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0013
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Iron Gloves
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Iron Gloves
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0014
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Tight Leather Gloves
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Tight Leather Gloves
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0015
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Magic Gloves
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Magic Gloves
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0016
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Weighty Iron Boots
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Weighty Iron Boots
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0017
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Thick-soled Boots
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Thick-soled Boots
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0018
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Magic Boots
+  drop_share_raw: 0.0041%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Magic Boots
+    Drop Share: 0.0041%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0041
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0019
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Knight Gloves
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Knight Gloves
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0020
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Scale Shell
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Scale Shell
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0021
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Slarm's Gloves
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Slarm's Gloves
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0022
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Knight Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Knight Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0023
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Scale Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Scale Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0024
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Slarm's Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Slarm's Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0025
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Map Piece
+    Drop Share: 0.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.04
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0026
+  monster_name_raw: Evil Fire Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Fire Elf
+    Item: Pestle
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0027
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Heavy Cap
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Heavy Cap
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0028
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Knight Helmet
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Knight Helmet
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0029
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Alchemic Cap
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0030
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Weighty Bard
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Weighty Bard
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0031
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Weighty Breastplate
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Weighty Breastplate
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0032
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Magic Gown
+  drop_share_raw: 0.0044%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Magic Gown
+    Drop Share: 0.0044%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0044
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0033
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Knights Helmet
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Knights Helmet
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0034
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Weighted Breastplate
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Weighted Breastplate
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0035
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Scale Cap
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Scale Cap
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0036
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Slarm's Cap
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Slarm's Cap
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0037
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Knight Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Knight Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0038
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Scale Shell
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Scale Shell
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0039
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Slarm's Gown
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Slarm's Gown
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0040
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0450%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Map Piece
+    Drop Share: 0.0450%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.045
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0041
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Pestle
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0042
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Red Potion 2
+  drop_share_raw: 49.8960%
+  quantity_raw: '4'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Red Potion 2
+    Drop Share: 49.8960%
+    Qty: '4'
+  normalized:
+    drop_share_percent: 49.896
+    quantity: 4
+- drop_id: deity-palace-ruins__t004r0043
+  monster_name_raw: Evil Wind Elf
+  item_name_raw: Blue Potion 2
+  drop_share_raw: 49.8960%
+  quantity_raw: '3'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Wind Elf
+    Item: Blue Potion 2
+    Drop Share: 49.8960%
+    Qty: '3'
+  normalized:
+    drop_share_percent: 49.896
+    quantity: 3
+- drop_id: deity-palace-ruins__t004r0044
+  monster_name_raw: Fane Priest
+  item_name_raw: Weighty Bard
+  drop_share_raw: 0.2199%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Weighty Bard
+    Drop Share: 0.2199%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2199
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0045
+  monster_name_raw: Fane Priest
+  item_name_raw: Weighted Breastplate
+  drop_share_raw: 0.2199%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Weighted Breastplate
+    Drop Share: 0.2199%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2199
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0046
+  monster_name_raw: Fane Priest
+  item_name_raw: Magic Gown
+  drop_share_raw: 0.2199%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Magic Gown
+    Drop Share: 0.2199%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2199
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0047
+  monster_name_raw: Fane Priest
+  item_name_raw: Knight Armor
+  drop_share_raw: 0.0170%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Knight Armor
+    Drop Share: 0.0170%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.017
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0048
+  monster_name_raw: Fane Priest
+  item_name_raw: Scale Shell
+  drop_share_raw: 0.0170%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Scale Shell
+    Drop Share: 0.0170%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.017
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0049
+  monster_name_raw: Fane Priest
+  item_name_raw: Slarm's Gown
+  drop_share_raw: 0.0170%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Slarm's Gown
+    Drop Share: 0.0170%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.017
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0050
+  monster_name_raw: Fane Priest
+  item_name_raw: Mummy's Bag
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Mummy's Bag
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0051
+  monster_name_raw: Fane Priest
+  item_name_raw: Necklace of High Clerist
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Necklace of High Clerist
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0052
+  monster_name_raw: Fane Priest
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.1500%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Yellow Gem
+    Drop Share: 0.1500%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.15
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0053
+  monster_name_raw: Fane Priest
+  item_name_raw: Life Blessing 5
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Life Blessing 5
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0054
+  monster_name_raw: Fane Priest
+  item_name_raw: Corruption Trap V
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Corruption Trap V
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0055
+  monster_name_raw: Fane Priest
+  item_name_raw: Panther Killing V
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Panther Killing V
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0056
+  monster_name_raw: Fane Priest
+  item_name_raw: Angel Armor
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Angel Armor
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0057
+  monster_name_raw: Fane Priest
+  item_name_raw: Paladin Armor
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Paladin Armor
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0058
+  monster_name_raw: Fane Priest
+  item_name_raw: Notice Gown
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Notice Gown
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0059
+  monster_name_raw: Fane Priest
+  item_name_raw: Angel Code
+  drop_share_raw: 0.1283%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Angel Code
+    Drop Share: 0.1283%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1283
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0060
+  monster_name_raw: Fane Priest
+  item_name_raw: Rare Magic Potion
+  drop_share_raw: 96.4060%
+  quantity_raw: '5'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Rare Magic Potion
+    Drop Share: 96.4060%
+    Qty: '5'
+  normalized:
+    drop_share_percent: 96.406
+    quantity: 5
+- drop_id: deity-palace-ruins__t004r0061
+  monster_name_raw: Fane Priest
+  item_name_raw: Pestle
+  drop_share_raw: 0.2036%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Pestle
+    Drop Share: 0.2036%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2036
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0062
+  monster_name_raw: Fane Priest
+  item_name_raw: Nature's Egg
+  drop_share_raw: 1.3200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Nature's Egg
+    Drop Share: 1.3200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.32
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0063
+  monster_name_raw: Fane Priest
+  item_name_raw: Icy Trap V
+  drop_share_raw: 0.0555%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Priest
+    Item: Icy Trap V
+    Drop Share: 0.0555%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0555
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0064
+  monster_name_raw: Fane Protector
+  item_name_raw: Giant Bow
+  drop_share_raw: 0.2387%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Giant Bow
+    Drop Share: 0.2387%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2387
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0065
+  monster_name_raw: Fane Protector
+  item_name_raw: Staff
+  drop_share_raw: 0.2387%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Staff
+    Drop Share: 0.2387%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2387
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0066
+  monster_name_raw: Fane Protector
+  item_name_raw: Silver-Edged Javelin
+  drop_share_raw: 0.2387%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Silver-Edged Javelin
+    Drop Share: 0.2387%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2387
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0067
+  monster_name_raw: Fane Protector
+  item_name_raw: Elf Wings
+  drop_share_raw: 0.0184%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Elf Wings
+    Drop Share: 0.0184%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0184
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0068
+  monster_name_raw: Fane Protector
+  item_name_raw: Angel's Blessing
+  drop_share_raw: 0.0184%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Angel's Blessing
+    Drop Share: 0.0184%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0184
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0069
+  monster_name_raw: Fane Protector
+  item_name_raw: Saw Spear
+  drop_share_raw: 0.0184%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Saw Spear
+    Drop Share: 0.0184%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0184
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0070
+  monster_name_raw: Fane Protector
+  item_name_raw: Sage Mantle
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Sage Mantle
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0071
+  monster_name_raw: Fane Protector
+  item_name_raw: Necklace of Goddess
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Necklace of Goddess
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0072
+  monster_name_raw: Fane Protector
+  item_name_raw: Ruby
+  drop_share_raw: 0.1700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Ruby
+    Drop Share: 0.1700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.17
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0073
+  monster_name_raw: Fane Protector
+  item_name_raw: Freezing Snipe V
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Freezing Snipe V
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0074
+  monster_name_raw: Fane Protector
+  item_name_raw: Binding 5
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Binding 5
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0075
+  monster_name_raw: Fane Protector
+  item_name_raw: Frozen Spell V
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Frozen Spell V
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0076
+  monster_name_raw: Fane Protector
+  item_name_raw: Star Bow
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Star Bow
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0077
+  monster_name_raw: Fane Protector
+  item_name_raw: God Spear
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: God Spear
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0078
+  monster_name_raw: Fane Protector
+  item_name_raw: Judge Mantle
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Judge Mantle
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0079
+  monster_name_raw: Fane Protector
+  item_name_raw: Purple Staff
+  drop_share_raw: 0.1391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Purple Staff
+    Drop Share: 0.1391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1391
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0080
+  monster_name_raw: Fane Protector
+  item_name_raw: Rare Fruit of the Devil
+  drop_share_raw: 96.2060%
+  quantity_raw: '5'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Rare Fruit of the Devil
+    Drop Share: 96.2060%
+    Qty: '5'
+  normalized:
+    drop_share_percent: 96.206
+    quantity: 5
+- drop_id: deity-palace-ruins__t004r0081
+  monster_name_raw: Fane Protector
+  item_name_raw: Pestle
+  drop_share_raw: 0.2208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Pestle
+    Drop Share: 0.2208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2208
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0082
+  monster_name_raw: Fane Protector
+  item_name_raw: Nature's Egg
+  drop_share_raw: 1.3200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Nature's Egg
+    Drop Share: 1.3200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.32
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0083
+  monster_name_raw: Fane Protector
+  item_name_raw: Weak Curse V
+  drop_share_raw: 0.0600%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fane Protector
+    Item: Weak Curse V
+    Drop Share: 0.0600%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.06
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0084
+  monster_name_raw: Mirror Elf
+  item_name_raw: Giant Bow
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Giant Bow
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0085
+  monster_name_raw: Mirror Elf
+  item_name_raw: Staff
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Staff
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0086
+  monster_name_raw: Mirror Elf
+  item_name_raw: Silver-Edged Javelin
+  drop_share_raw: 0.0097%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Silver-Edged Javelin
+    Drop Share: 0.0097%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0097
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0087
+  monster_name_raw: Mirror Elf
+  item_name_raw: Elf Wings
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Elf Wings
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0088
+  monster_name_raw: Mirror Elf
+  item_name_raw: Angel's Blessing
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Angel's Blessing
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0089
+  monster_name_raw: Mirror Elf
+  item_name_raw: Saw Spear
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Saw Spear
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0090
+  monster_name_raw: Mirror Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0480%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Map Piece
+    Drop Share: 0.0480%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.048
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0091
+  monster_name_raw: Mirror Elf
+  item_name_raw: Orange Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Orange Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0092
+  monster_name_raw: Mirror Elf
+  item_name_raw: Yellow Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Yellow Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0093
+  monster_name_raw: Mirror Elf
+  item_name_raw: Emerald
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Emerald
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0094
+  monster_name_raw: Mirror Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Pestle
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0095
+  monster_name_raw: Mirror Elf
+  item_name_raw: Mirror Elf Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Mirror Elf Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: deity-palace-ruins__t004r0096
+  monster_name_raw: Mirror Elf
+  item_name_raw: Red Potion 2
+  drop_share_raw: 49.8712%
+  quantity_raw: '5'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Red Potion 2
+    Drop Share: 49.8712%
+    Qty: '5'
+  normalized:
+    drop_share_percent: 49.8712
+    quantity: 5
+- drop_id: deity-palace-ruins__t004r0097
+  monster_name_raw: Mirror Elf
+  item_name_raw: Blue Potion 2
+  drop_share_raw: 49.8712%
+  quantity_raw: '5'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mirror Elf
+    Item: Blue Potion 2
+    Drop Share: 49.8712%
+    Qty: '5'
+  normalized:
+    drop_share_percent: 49.8712
+    quantity: 5
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 97

@@ -1,0 +1,1505 @@
+area:
+  id: crescent-valley
+  name_raw: Crescent Valley
+  source:
+    origin_url: https://angels.wikidot.com/area:crescent-valley
+    retrieval_url: https://www.aowiki.uk/pages/area_crescent-valley.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 140ac50357690c0afca87ff5f603b3cd6fa04171eaa1c9263287c1d537b58efb
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: crescent-valley__moon-worm__t003r0001
+  name_raw: Moon Worm
+  level_raw: '80'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_moon-worm.html
+  row_raw:
+    Monster Name: Moon Worm
+    Level: '80'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 80
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__sand-spider__t003r0002
+  name_raw: Sand Spider
+  level_raw: '81'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sand-spider.html
+  row_raw:
+    Monster Name: Sand Spider
+    Level: '81'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 81
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__purple-scorpion__t003r0003
+  name_raw: Purple Scorpion
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_purple-scorpion.html
+  row_raw:
+    Monster Name: Purple Scorpion
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__venom-beetle__t003r0004
+  name_raw: Venom Beetle
+  level_raw: '83'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_venom-beetle.html
+  row_raw:
+    Monster Name: Venom Beetle
+    Level: '83'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 83
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__gloomy-smoker__t003r0005
+  name_raw: Gloomy Smoker
+  level_raw: '84'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gloomy-smoker.html
+  row_raw:
+    Monster Name: Gloomy Smoker
+    Level: '84'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 84
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__cactus-yoku__t003r0006
+  name_raw: Cactus Yoku
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cactus-yoku.html
+  row_raw:
+    Monster Name: Cactus Yoku
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__onion-bud__t003r0007
+  name_raw: Onion Bud
+  level_raw: '86'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_onion-bud.html
+  row_raw:
+    Monster Name: Onion Bud
+    Level: '86'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 86
+    boss: false
+    aggressive: false
+- area_occurrence_id: crescent-valley__giant-scorpion__t003r0008
+  name_raw: Giant Scorpion
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-scorpion.html
+  row_raw:
+    Monster Name: Giant Scorpion
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: false
+drops:
+- drop_id: crescent-valley__t006r0001
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Lunar Wand
+  drop_share_raw: 1.8900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Lunar Wand
+    Drop Share: 1.8900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.89
+    quantity: 1
+- drop_id: crescent-valley__t006r0002
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Swiftness Armor
+  drop_share_raw: 1.8900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Swiftness Armor
+    Drop Share: 1.8900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.89
+    quantity: 1
+- drop_id: crescent-valley__t006r0003
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 1.8900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Swiftness Boots
+    Drop Share: 1.8900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.89
+    quantity: 1
+- drop_id: crescent-valley__t006r0004
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Chief Legguard
+  drop_share_raw: 1.8900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Chief Legguard
+    Drop Share: 1.8900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.89
+    quantity: 1
+- drop_id: crescent-valley__t006r0005
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Flood Shield
+  drop_share_raw: 1.8900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Flood Shield
+    Drop Share: 1.8900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.89
+    quantity: 1
+- drop_id: crescent-valley__t006r0006
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Selini's Direction
+  drop_share_raw: 0.0024%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Selini's Direction
+    Drop Share: 0.0024%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0024
+    quantity: 1
+- drop_id: crescent-valley__t006r0007
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Walker Armor
+  drop_share_raw: 0.0024%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Walker Armor
+    Drop Share: 0.0024%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0024
+    quantity: 1
+- drop_id: crescent-valley__t006r0008
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0024%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Walker Boots
+    Drop Share: 0.0024%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0024
+    quantity: 1
+- drop_id: crescent-valley__t006r0009
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Fane Boots
+  drop_share_raw: 0.0024%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Fane Boots
+    Drop Share: 0.0024%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0024
+    quantity: 1
+- drop_id: crescent-valley__t006r0010
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Ancient Wings Shield
+  drop_share_raw: 0.0024%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Ancient Wings Shield
+    Drop Share: 0.0024%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0024
+    quantity: 1
+- drop_id: crescent-valley__t006r0011
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Jelly Fish
+  drop_share_raw: 0.0236%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Jelly Fish
+    Drop Share: 0.0236%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0236
+    quantity: 1
+- drop_id: crescent-valley__t006r0012
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Luna Wand
+  drop_share_raw: 0.1417%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Luna Wand
+    Drop Share: 0.1417%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1417
+    quantity: 1
+- drop_id: crescent-valley__t006r0013
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0457%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Clean Emerald
+    Drop Share: 0.0457%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0457
+    quantity: 1
+- drop_id: crescent-valley__t006r0014
+  monster_name_raw: Cactus Fighter
+  item_name_raw: Great Agility Potion
+  drop_share_raw: 88.2010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Fighter
+    Item: Great Agility Potion
+    Drop Share: 88.2010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 88.201
+    quantity: 1
+- drop_id: crescent-valley__t006r0015
+  monster_name_raw: Cactus Yoku
+  item_name_raw: Crystal Spear
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Yoku
+    Item: Crystal Spear
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: crescent-valley__t006r0016
+  monster_name_raw: Cactus Yoku
+  item_name_raw: Coral Ring
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Yoku
+    Item: Coral Ring
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: crescent-valley__t006r0017
+  monster_name_raw: Cactus Yoku
+  item_name_raw: Shaer's Will
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Yoku
+    Item: Shaer's Will
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0018
+  monster_name_raw: Cactus Yoku
+  item_name_raw: Seagod's Handloop
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Yoku
+    Item: Seagod's Handloop
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0019
+  monster_name_raw: Cactus Yoku
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cactus Yoku
+    Item: Clean Ruby
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: crescent-valley__t006r0020
+  monster_name_raw: Giant Scorpion
+  item_name_raw: Crystal Spear
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Scorpion
+    Item: Crystal Spear
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: crescent-valley__t006r0021
+  monster_name_raw: Giant Scorpion
+  item_name_raw: Shaer's Will
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Scorpion
+    Item: Shaer's Will
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0022
+  monster_name_raw: Giant Scorpion
+  item_name_raw: Mini Seal
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Scorpion
+    Item: Mini Seal
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: crescent-valley__t006r0023
+  monster_name_raw: Giant Scorpion
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Scorpion
+    Item: Clean Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: crescent-valley__t006r0024
+  monster_name_raw: Gloomy Smoker
+  item_name_raw: Luck Gown
+  drop_share_raw: 0.0824%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gloomy Smoker
+    Item: Luck Gown
+    Drop Share: 0.0824%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0824
+    quantity: 1
+- drop_id: crescent-valley__t006r0025
+  monster_name_raw: Gloomy Smoker
+  item_name_raw: Lucky Jack Gown
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gloomy Smoker
+    Item: Lucky Jack Gown
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0026
+  monster_name_raw: Gloomy Smoker
+  item_name_raw: Jelly Fish
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gloomy Smoker
+    Item: Jelly Fish
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: crescent-valley__t006r0027
+  monster_name_raw: Gloomy Smoker
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gloomy Smoker
+    Item: Clean Sapphire
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: crescent-valley__t006r0028
+  monster_name_raw: Gloomy Smoker
+  item_name_raw: Gloomy Smoker Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gloomy Smoker
+    Item: Gloomy Smoker Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: crescent-valley__t006r0029
+  monster_name_raw: Moon Worm
+  item_name_raw: Cyclone Spear
+  drop_share_raw: 0.0380%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Cyclone Spear
+    Drop Share: 0.0380%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.038
+    quantity: 1
+- drop_id: crescent-valley__t006r0030
+  monster_name_raw: Moon Worm
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0380%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Hunter Cuffs
+    Drop Share: 0.0380%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.038
+    quantity: 1
+- drop_id: crescent-valley__t006r0031
+  monster_name_raw: Moon Worm
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0380%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Hunter Boots
+    Drop Share: 0.0380%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.038
+    quantity: 1
+- drop_id: crescent-valley__t006r0032
+  monster_name_raw: Moon Worm
+  item_name_raw: Namila's Soul
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Namila's Soul
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0033
+  monster_name_raw: Moon Worm
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Forest Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0034
+  monster_name_raw: Moon Worm
+  item_name_raw: Forest Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Forest Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0035
+  monster_name_raw: Moon Worm
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Moon Worm
+    Item: Clean Yellow Gem
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: crescent-valley__t006r0036
+  monster_name_raw: Onion Bud
+  item_name_raw: Chief Armor
+  drop_share_raw: 0.0441%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Onion Bud
+    Item: Chief Armor
+    Drop Share: 0.0441%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0441
+    quantity: 1
+- drop_id: crescent-valley__t006r0037
+  monster_name_raw: Onion Bud
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 0.0441%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Onion Bud
+    Item: Chief Cuffs
+    Drop Share: 0.0441%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0441
+    quantity: 1
+- drop_id: crescent-valley__t006r0038
+  monster_name_raw: Onion Bud
+  item_name_raw: Fane Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Onion Bud
+    Item: Fane Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0039
+  monster_name_raw: Onion Bud
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Onion Bud
+    Item: Fane Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0040
+  monster_name_raw: Onion Bud
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Onion Bud
+    Item: Clean Purple Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: crescent-valley__t006r0041
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Luck Bracers
+  drop_share_raw: 0.0384%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Luck Bracers
+    Drop Share: 0.0384%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0384
+    quantity: 1
+- drop_id: crescent-valley__t006r0042
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Luck Boots
+  drop_share_raw: 0.0384%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Luck Boots
+    Drop Share: 0.0384%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0384
+    quantity: 1
+- drop_id: crescent-valley__t006r0043
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: crescent-valley__t006r0044
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Lucky Jack Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Lucky Jack Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: crescent-valley__t006r0045
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Clean Yellow Gem
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: crescent-valley__t006r0046
+  monster_name_raw: Purple Scorpion
+  item_name_raw: Evil Purple Scorpion Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion
+    Item: Evil Purple Scorpion Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: crescent-valley__t006r0047
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Great Healing Potion
+  drop_share_raw: 67.52%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Great Healing Potion
+    Drop Share: 67.52%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 67.52
+    quantity: 1
+- drop_id: crescent-valley__t006r0048
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 5.51%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Chief Cuffs
+    Drop Share: 5.51%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.51
+    quantity: 1
+- drop_id: crescent-valley__t006r0049
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Chief Armor
+  drop_share_raw: 5.51%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Chief Armor
+    Drop Share: 5.51%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.51
+    quantity: 1
+- drop_id: crescent-valley__t006r0050
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Spider Teeth
+  drop_share_raw: 5.51%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Spider Teeth
+    Drop Share: 5.51%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.51
+    quantity: 1
+- drop_id: crescent-valley__t006r0051
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Coral Ring
+  drop_share_raw: 5.51%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Coral Ring
+    Drop Share: 5.51%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.51
+    quantity: 1
+- drop_id: crescent-valley__t006r0052
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Good Chief Cuffs
+  drop_share_raw: 2.30%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Good Chief Cuffs
+    Drop Share: 2.30%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3
+    quantity: 1
+- drop_id: crescent-valley__t006r0053
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Good Chief Armor
+  drop_share_raw: 2.30%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Good Chief Armor
+    Drop Share: 2.30%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3
+    quantity: 1
+- drop_id: crescent-valley__t006r0054
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Good Spider Teeth
+  drop_share_raw: 2.30%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Good Spider Teeth
+    Drop Share: 2.30%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3
+    quantity: 1
+- drop_id: crescent-valley__t006r0055
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Good Coral Ring
+  drop_share_raw: 2.30%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Good Coral Ring
+    Drop Share: 2.30%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.3
+    quantity: 1
+- drop_id: crescent-valley__t006r0056
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.16%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Fane Cuffs
+    Drop Share: 0.16%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.16
+    quantity: 1
+- drop_id: crescent-valley__t006r0057
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Fane Armor
+  drop_share_raw: 0.16%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Fane Armor
+    Drop Share: 0.16%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.16
+    quantity: 1
+- drop_id: crescent-valley__t006r0058
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Minaca Attacker
+  drop_share_raw: 0.16%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Minaca Attacker
+    Drop Share: 0.16%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.16
+    quantity: 1
+- drop_id: crescent-valley__t006r0059
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Seagood's Handloop
+  drop_share_raw: 0.16%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Seagood's Handloop
+    Drop Share: 0.16%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.16
+    quantity: 1
+- drop_id: crescent-valley__t006r0060
+  monster_name_raw: Purple Scorpion Isaac
+  item_name_raw: Green Seabed Steed
+  drop_share_raw: 0.15%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Purple Scorpion Isaac
+    Item: Green Seabed Steed
+    Drop Share: 0.15%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.15
+    quantity: 1
+- drop_id: crescent-valley__t006r0061
+  monster_name_raw: Sand Spider
+  item_name_raw: Swiftness Armguards
+  drop_share_raw: 0.0371%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Swiftness Armguards
+    Drop Share: 0.0371%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0371
+    quantity: 1
+- drop_id: crescent-valley__t006r0062
+  monster_name_raw: Sand Spider
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 0.0371%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Swiftness Boots
+    Drop Share: 0.0371%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0371
+    quantity: 1
+- drop_id: crescent-valley__t006r0063
+  monster_name_raw: Sand Spider
+  item_name_raw: Walker Armguards
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Walker Armguards
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: crescent-valley__t006r0064
+  monster_name_raw: Sand Spider
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Walker Boots
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: crescent-valley__t006r0065
+  monster_name_raw: Sand Spider
+  item_name_raw: Swift Armguards
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Swift Armguards
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: crescent-valley__t006r0066
+  monster_name_raw: Sand Spider
+  item_name_raw: Swift Boots
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Swift Boots
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: crescent-valley__t006r0067
+  monster_name_raw: Sand Spider
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sand Spider
+    Item: Clean Emerald
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: crescent-valley__t006r0068
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Ancient Bow
+  drop_share_raw: 2.1325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Ancient Bow
+    Drop Share: 2.1325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1325
+    quantity: 1
+- drop_id: crescent-valley__t006r0069
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Swiftness Helmet
+  drop_share_raw: 2.1325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Swiftness Helmet
+    Drop Share: 2.1325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1325
+    quantity: 1
+- drop_id: crescent-valley__t006r0070
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Swiftness Armguards
+  drop_share_raw: 2.1325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Swiftness Armguards
+    Drop Share: 2.1325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1325
+    quantity: 1
+- drop_id: crescent-valley__t006r0071
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Luck Boots
+  drop_share_raw: 2.1325%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Luck Boots
+    Drop Share: 2.1325%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.1325
+    quantity: 1
+- drop_id: crescent-valley__t006r0072
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Xilios's Soul
+  drop_share_raw: 0.0027%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Xilios's Soul
+    Drop Share: 0.0027%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0027
+    quantity: 1
+- drop_id: crescent-valley__t006r0073
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Walker Helmet
+  drop_share_raw: 0.0027%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Walker Helmet
+    Drop Share: 0.0027%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0027
+    quantity: 1
+- drop_id: crescent-valley__t006r0074
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Walker Armguards
+  drop_share_raw: 0.0027%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Walker Armguards
+    Drop Share: 0.0027%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0027
+    quantity: 1
+- drop_id: crescent-valley__t006r0075
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Lucky Jack Boots
+  drop_share_raw: 0.0027%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Lucky Jack Boots
+    Drop Share: 0.0027%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0027
+    quantity: 1
+- drop_id: crescent-valley__t006r0076
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Shark Armor
+  drop_share_raw: 0.0213%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Shark Armor
+    Drop Share: 0.0213%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0213
+    quantity: 1
+- drop_id: crescent-valley__t006r0077
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0404%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Clean Yellow Gem
+    Drop Share: 0.0404%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0404
+    quantity: 1
+- drop_id: crescent-valley__t006r0078
+  monster_name_raw: Valley Worm Kenny
+  item_name_raw: Great Target Potion
+  drop_share_raw: 89.3501%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Valley Worm Kenny
+    Item: Great Target Potion
+    Drop Share: 89.3501%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 89.3501
+    quantity: 1
+- drop_id: crescent-valley__t006r0079
+  monster_name_raw: Venom Beetle
+  item_name_raw: Swiftness Helmet
+  drop_share_raw: 0.0796%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Venom Beetle
+    Item: Swiftness Helmet
+    Drop Share: 0.0796%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0796
+    quantity: 1
+- drop_id: crescent-valley__t006r0080
+  monster_name_raw: Venom Beetle
+  item_name_raw: Walker Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Venom Beetle
+    Item: Walker Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: crescent-valley__t006r0081
+  monster_name_raw: Venom Beetle
+  item_name_raw: Swift Helmet
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Venom Beetle
+    Item: Swift Helmet
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: crescent-valley__t006r0082
+  monster_name_raw: Venom Beetle
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Venom Beetle
+    Item: Clean Emerald
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 82

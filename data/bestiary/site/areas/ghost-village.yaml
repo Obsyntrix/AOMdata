@@ -1,0 +1,1493 @@
+area:
+  id: ghost-village
+  name_raw: Ghost Village
+  source:
+    origin_url: https://angels.wikidot.com/area:ghost-village
+    retrieval_url: https://www.aowiki.uk/pages/area_ghost-village.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: e465f06173870d3edfe20cc329552522049c31eb2163b371808420760c94e1ca
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: ghost-village__mad-bomber__t003r0001
+  name_raw: Mad Bomber
+  level_raw: '90'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_mad-bomber.html
+  row_raw:
+    Monster Name: Mad Bomber
+    Level: '90'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 90
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__violet-pixie__t003r0002
+  name_raw: Violet Pixie
+  level_raw: '92'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_violet-pixie.html
+  row_raw:
+    Monster Name: Violet Pixie
+    Level: '92'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 92
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__rip-man__t003r0003
+  name_raw: Rip Man
+  level_raw: '93'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rip-man.html
+  row_raw:
+    Monster Name: Rip Man
+    Level: '93'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 93
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__shadow-scorpion__t003r0004
+  name_raw: Shadow Scorpion
+  level_raw: '94'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_shadow-scorpion.html
+  row_raw:
+    Monster Name: Shadow Scorpion
+    Level: '94'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 94
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__fat-thief-jem__t003r0005
+  name_raw: Fat Thief Jem
+  level_raw: '95'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fat-thief-jem.html
+  row_raw:
+    Monster Name: Fat Thief Jem
+    Level: '95'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 95
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__ali-bandit__t003r0006
+  name_raw: Ali Bandit
+  level_raw: '96'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ali-bandit.html
+  row_raw:
+    Monster Name: Ali Bandit
+    Level: '96'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 96
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__fat-thief-jim__t003r0007
+  name_raw: Fat Thief Jim
+  level_raw: '97'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fat-thief-jim.html
+  row_raw:
+    Monster Name: Fat Thief Jim
+    Level: '97'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 97
+    boss: false
+    aggressive: true
+- area_occurrence_id: ghost-village__baba-bandit__t003r0008
+  name_raw: Baba Bandit
+  level_raw: '98'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_baba-bandit.html
+  row_raw:
+    Monster Name: Baba Bandit
+    Level: '98'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 98
+    boss: false
+    aggressive: true
+drops:
+- drop_id: ghost-village__t006r0001
+  monster_name_raw: Ali Bandit
+  item_name_raw: Saint Armor
+  drop_share_raw: 0.0487%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Saint Armor
+    Drop Share: 0.0487%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0487
+    quantity: 1
+- drop_id: ghost-village__t006r0002
+  monster_name_raw: Ali Bandit
+  item_name_raw: Holy Guard Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Holy Guard Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0003
+  monster_name_raw: Ali Bandit
+  item_name_raw: Shark-hunting Armor
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Shark-hunting Armor
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0004
+  monster_name_raw: Ali Bandit
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Clean Yellow Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0005
+  monster_name_raw: Ali Bandit
+  item_name_raw: Ali Bandit Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Ali Bandit Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0006
+  monster_name_raw: Ali Bandit
+  item_name_raw: Cactus Bag Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ali Bandit
+    Item: Cactus Bag Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0007
+  monster_name_raw: Baba Bandit
+  item_name_raw: Whale Falchion
+  drop_share_raw: 0.0260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Whale Falchion
+    Drop Share: 0.0260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.026
+    quantity: 1
+- drop_id: ghost-village__t006r0008
+  monster_name_raw: Baba Bandit
+  item_name_raw: Coral Manteau
+  drop_share_raw: 0.0260%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Coral Manteau
+    Drop Share: 0.0260%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.026
+    quantity: 1
+- drop_id: ghost-village__t006r0009
+  monster_name_raw: Baba Bandit
+  item_name_raw: Solu Guard
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Solu Guard
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ghost-village__t006r0010
+  monster_name_raw: Baba Bandit
+  item_name_raw: Blue Wings
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Blue Wings
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: ghost-village__t006r0011
+  monster_name_raw: Baba Bandit
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Clean Sapphire
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0012
+  monster_name_raw: Baba Bandit
+  item_name_raw: Cactus Bag Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Baba Bandit
+    Item: Cactus Bag Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0013
+  monster_name_raw: Fat Thief Jem
+  item_name_raw: Saint Brassart
+  drop_share_raw: 0.0472%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jem
+    Item: Saint Brassart
+    Drop Share: 0.0472%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0472
+    quantity: 1
+- drop_id: ghost-village__t006r0014
+  monster_name_raw: Fat Thief Jem
+  item_name_raw: Holy Guard Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jem
+    Item: Holy Guard Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0015
+  monster_name_raw: Fat Thief Jem
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jem
+    Item: Clean Sapphire
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0016
+  monster_name_raw: Fat Thief Jem
+  item_name_raw: Fat Thief Jem Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jem
+    Item: Fat Thief Jem Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0017
+  monster_name_raw: Fat Thief Jem
+  item_name_raw: Cactus Bag Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jem
+    Item: Cactus Bag Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0018
+  monster_name_raw: Fat Thief Jim
+  item_name_raw: Saint Helmet
+  drop_share_raw: 0.0503%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jim
+    Item: Saint Helmet
+    Drop Share: 0.0503%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0503
+    quantity: 1
+- drop_id: ghost-village__t006r0019
+  monster_name_raw: Fat Thief Jim
+  item_name_raw: Holy Guard Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jim
+    Item: Holy Guard Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0020
+  monster_name_raw: Fat Thief Jim
+  item_name_raw: Spot Seal
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jim
+    Item: Spot Seal
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0021
+  monster_name_raw: Fat Thief Jim
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jim
+    Item: Clean Ruby
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0022
+  monster_name_raw: Fat Thief Jim
+  item_name_raw: Cactus Bag Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fat Thief Jim
+    Item: Cactus Bag Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0023
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Life Wand
+  drop_share_raw: 1.0960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Life Wand
+    Drop Share: 1.0960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.096
+    quantity: 1
+- drop_id: ghost-village__t006r0024
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Espial Hood
+  drop_share_raw: 1.0960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Espial Hood
+    Drop Share: 1.0960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.096
+    quantity: 1
+- drop_id: ghost-village__t006r0025
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Wind Armguards
+  drop_share_raw: 1.0960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Wind Armguards
+    Drop Share: 1.0960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.096
+    quantity: 1
+- drop_id: ghost-village__t006r0026
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Saint Boots
+  drop_share_raw: 1.0960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Saint Boots
+    Drop Share: 1.0960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.096
+    quantity: 1
+- drop_id: ghost-village__t006r0027
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Espial Boots
+  drop_share_raw: 1.0960%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Espial Boots
+    Drop Share: 1.0960%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.096
+    quantity: 1
+- drop_id: ghost-village__t006r0028
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Laduna's Claw
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Laduna's Claw
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: ghost-village__t006r0029
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Magnetic Hat
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Magnetic Hat
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: ghost-village__t006r0030
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Storm Armguards
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Storm Armguards
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: ghost-village__t006r0031
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Holy Guard Boots
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Holy Guard Boots
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: ghost-village__t006r0032
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Magnetic Boots
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Magnetic Boots
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: ghost-village__t006r0033
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Spot Seal
+  drop_share_raw: 0.0157%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Spot Seal
+    Drop Share: 0.0157%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0157
+    quantity: 1
+- drop_id: ghost-village__t006r0034
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0783%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Clean Purple Gem
+    Drop Share: 0.0783%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0783
+    quantity: 1
+- drop_id: ghost-village__t006r0035
+  monster_name_raw: Female Priest Grace
+  item_name_raw: Great Evil Fruit
+  drop_share_raw: 92.9148%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Female Priest Grace
+    Item: Great Evil Fruit
+    Drop Share: 92.9148%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 92.9148
+    quantity: 1
+- drop_id: ghost-village__t006r0036
+  monster_name_raw: Mad Bomber
+  item_name_raw: Spider Teeth
+  drop_share_raw: 0.0505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mad Bomber
+    Item: Spider Teeth
+    Drop Share: 0.0505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0505
+    quantity: 1
+- drop_id: ghost-village__t006r0037
+  monster_name_raw: Mad Bomber
+  item_name_raw: Wave Manteau
+  drop_share_raw: 0.0505%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mad Bomber
+    Item: Wave Manteau
+    Drop Share: 0.0505%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0505
+    quantity: 1
+- drop_id: ghost-village__t006r0038
+  monster_name_raw: Mad Bomber
+  item_name_raw: Minaca Attacker
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mad Bomber
+    Item: Minaca Attacker
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0039
+  monster_name_raw: Mad Bomber
+  item_name_raw: Sea Lord Manteau
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mad Bomber
+    Item: Sea Lord Manteau
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0040
+  monster_name_raw: Mad Bomber
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Mad Bomber
+    Item: Clean Orange Gem
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: ghost-village__t006r0041
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Symbol Bow
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Symbol Bow
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: ghost-village__t006r0042
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Wind Helmet
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Wind Helmet
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: ghost-village__t006r0043
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Saint Brassart
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Saint Brassart
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: ghost-village__t006r0044
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Espial Bracers
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Espial Bracers
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: ghost-village__t006r0045
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Coral Manteau
+  drop_share_raw: 0.9440%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Coral Manteau
+    Drop Share: 0.9440%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.944
+    quantity: 1
+- drop_id: ghost-village__t006r0046
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Symbol Shield
+  drop_share_raw: 0.2122%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Symbol Shield
+    Drop Share: 0.2122%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2122
+    quantity: 1
+- drop_id: ghost-village__t006r0047
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Hermes' Breath
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Hermes' Breath
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: ghost-village__t006r0048
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Storm Helmet
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Storm Helmet
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: ghost-village__t006r0049
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Holy Guard Cuffs
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Holy Guard Cuffs
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: ghost-village__t006r0050
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Magnetic Bracers
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Magnetic Bracers
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: ghost-village__t006r0051
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Seagod's Eye
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Seagod's Eye
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+- drop_id: ghost-village__t006r0052
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Jellyfish Armor
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Jellyfish Armor
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: ghost-village__t006r0053
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0589%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Clean Ruby
+    Drop Share: 0.0589%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0589
+    quantity: 1
+- drop_id: ghost-village__t006r0054
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Great Mars' Fruit
+  drop_share_raw: 93.6086%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Great Mars' Fruit
+    Drop Share: 93.6086%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 93.6086
+    quantity: 1
+- drop_id: ghost-village__t006r0055
+  monster_name_raw: Poisonous Snake
+  item_name_raw: Poisonous Snake Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Poisonous Snake
+    Item: Poisonous Snake Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: ghost-village__t006r0056
+  monster_name_raw: Rip Man
+  item_name_raw: Wind Boots
+  drop_share_raw: 0.0442%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rip Man
+    Item: Wind Boots
+    Drop Share: 0.0442%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0442
+    quantity: 1
+- drop_id: ghost-village__t006r0057
+  monster_name_raw: Rip Man
+  item_name_raw: Storm Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rip Man
+    Item: Storm Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0058
+  monster_name_raw: Rip Man
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rip Man
+    Item: Clean Yellow Gem
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0059
+  monster_name_raw: Rip Man
+  item_name_raw: Shot Fierier Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rip Man
+    Item: Shot Fierier Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: ghost-village__t006r0060
+  monster_name_raw: Shadow Scorpion
+  item_name_raw: Symbol Bow
+  drop_share_raw: 0.0456%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Scorpion
+    Item: Symbol Bow
+    Drop Share: 0.0456%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0456
+    quantity: 1
+- drop_id: ghost-village__t006r0061
+  monster_name_raw: Shadow Scorpion
+  item_name_raw: Hermes' Breath
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Scorpion
+    Item: Hermes' Breath
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0062
+  monster_name_raw: Shadow Scorpion
+  item_name_raw: Crusader's Brooch
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Scorpion
+    Item: Crusader's Brooch
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: ghost-village__t006r0063
+  monster_name_raw: Shadow Scorpion
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Shadow Scorpion
+    Item: Clean Emerald
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: ghost-village__t006r0064
+  monster_name_raw: Thief Walter
+  item_name_raw: Evil Hammer
+  drop_share_raw: 1.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Evil Hammer
+    Drop Share: 1.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.04
+    quantity: 1
+- drop_id: ghost-village__t006r0065
+  monster_name_raw: Thief Walter
+  item_name_raw: Saint Helmet
+  drop_share_raw: 1.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Saint Helmet
+    Drop Share: 1.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.04
+    quantity: 1
+- drop_id: ghost-village__t006r0066
+  monster_name_raw: Thief Walter
+  item_name_raw: Wind Armor
+  drop_share_raw: 1.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Wind Armor
+    Drop Share: 1.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.04
+    quantity: 1
+- drop_id: ghost-village__t006r0067
+  monster_name_raw: Thief Walter
+  item_name_raw: Wind Boots
+  drop_share_raw: 1.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Wind Boots
+    Drop Share: 1.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.04
+    quantity: 1
+- drop_id: ghost-village__t006r0068
+  monster_name_raw: Thief Walter
+  item_name_raw: Symbol Shield
+  drop_share_raw: 1.0400%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Symbol Shield
+    Drop Share: 1.0400%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.04
+    quantity: 1
+- drop_id: ghost-village__t006r0069
+  monster_name_raw: Thief Walter
+  item_name_raw: Coral Manteau
+  drop_share_raw: 0.2341%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Coral Manteau
+    Drop Share: 0.2341%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2341
+    quantity: 1
+- drop_id: ghost-village__t006r0070
+  monster_name_raw: Thief Walter
+  item_name_raw: Aries Judge
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Aries Judge
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: ghost-village__t006r0071
+  monster_name_raw: Thief Walter
+  item_name_raw: Holy Guard Helmet
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Holy Guard Helmet
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: ghost-village__t006r0072
+  monster_name_raw: Thief Walter
+  item_name_raw: Storm Armor
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Storm Armor
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: ghost-village__t006r0073
+  monster_name_raw: Thief Walter
+  item_name_raw: Storm Boots
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Storm Boots
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: ghost-village__t006r0074
+  monster_name_raw: Thief Walter
+  item_name_raw: Blue Wings
+  drop_share_raw: 0.0013%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Blue Wings
+    Drop Share: 0.0013%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0013
+    quantity: 1
+- drop_id: ghost-village__t006r0075
+  monster_name_raw: Thief Walter
+  item_name_raw: Fast Seahorse
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Fast Seahorse
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: ghost-village__t006r0076
+  monster_name_raw: Thief Walter
+  item_name_raw: Clean Orange Gem
+  drop_share_raw: 0.0650%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Clean Orange Gem
+    Drop Share: 0.0650%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.065
+    quantity: 1
+- drop_id: ghost-village__t006r0077
+  monster_name_raw: Thief Walter
+  item_name_raw: Great Magic Fruit
+  drop_share_raw: 93.0040%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Great Magic Fruit
+    Drop Share: 93.0040%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 93.004
+    quantity: 1
+- drop_id: ghost-village__t006r0078
+  monster_name_raw: Thief Walter
+  item_name_raw: Robber Walter Card
+  drop_share_raw: 0.4630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Thief Walter
+    Item: Robber Walter Card
+    Drop Share: 0.4630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.463
+    quantity: 1
+- drop_id: ghost-village__t006r0079
+  monster_name_raw: Violet Pixie
+  item_name_raw: Wind Armguards
+  drop_share_raw: 0.0427%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Pixie
+    Item: Wind Armguards
+    Drop Share: 0.0427%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0427
+    quantity: 1
+- drop_id: ghost-village__t006r0080
+  monster_name_raw: Violet Pixie
+  item_name_raw: Storm Armguards
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Pixie
+    Item: Storm Armguards
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: ghost-village__t006r0081
+  monster_name_raw: Violet Pixie
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Violet Pixie
+    Item: Clean Sapphire
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Poisonous Snake
+  - '95'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 81

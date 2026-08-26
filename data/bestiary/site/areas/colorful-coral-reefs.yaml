@@ -1,0 +1,997 @@
+area:
+  id: colorful-coral-reefs
+  name_raw: Colorful Coral Reefs
+  source:
+    origin_url: https://angels.wikidot.com/area:colorful-coral-reefs
+    retrieval_url: https://www.aowiki.uk/pages/area_colorful-coral-reefs.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 28ac7d88e138ef36746c9df2c96e35dc3c20612ca33e01b4941a81b9b3569f35
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: colorful-coral-reefs__crab-general__t002r0001
+  name_raw: Crab General
+  level_raw: '66'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crab-general.html
+  row_raw:
+    Monster Name: Crab General
+    Level: '66'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 66
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__ink-octopus__t002r0002
+  name_raw: Ink Octopus
+  level_raw: '68'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ink-octopus.html
+  row_raw:
+    Monster Name: Ink Octopus
+    Level: '68'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 68
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__wood-octopus__t002r0003
+  name_raw: Wood Octopus
+  level_raw: '70'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_wood-octopus.html
+  row_raw:
+    Monster Name: Wood Octopus
+    Level: '70'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__ball-jellyfish__t002r0004
+  name_raw: Ball Jellyfish
+  level_raw: '73'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_ball-jellyfish.html
+  row_raw:
+    Monster Name: Ball Jellyfish
+    Level: '73'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 73
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__whelk-swordsman__t002r0005
+  name_raw: Whelk Swordsman
+  level_raw: '74'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_whelk-swordsman.html
+  row_raw:
+    Monster Name: Whelk Swordsman
+    Level: '74'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 74
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__whelk-mage__t002r0006
+  name_raw: Whelk Mage
+  level_raw: '75'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_whelk-mage.html
+  row_raw:
+    Monster Name: Whelk Mage
+    Level: '75'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 75
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__scale-fish__t002r0007
+  name_raw: Scale Fish
+  level_raw: '77'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_scale-fish.html
+  row_raw:
+    Monster Name: Scale Fish
+    Level: '77'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 77
+    boss: false
+    aggressive: true
+- area_occurrence_id: colorful-coral-reefs__sharp-shooter__t002r0009
+  name_raw: Sharp-shooter
+  level_raw: '80'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sharp-shooter.html
+  row_raw:
+    Monster Name: Sharp-shooter
+    Level: '80'
+    Boss: 'Yes'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 80
+    boss: true
+    aggressive: true
+drops:
+- drop_id: colorful-coral-reefs__t004r0001
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Mage Cuffs
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Mage Cuffs
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0002
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0443%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Light Necklace
+    Drop Share: 0.0443%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0443
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0003
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Spring Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Spring Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0004
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Heaven Light
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Heaven Light
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0005
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Clean Emerald
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0006
+  monster_name_raw: Ball Jellyfish
+  item_name_raw: Beachball Jellyfish Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ball Jellyfish
+    Item: Beachball Jellyfish Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0007
+  monster_name_raw: Crab General
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 0.0337%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Hermit Cuffs
+    Drop Share: 0.0337%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0337
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0008
+  monster_name_raw: Crab General
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0337%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Hermit Boots
+    Drop Share: 0.0337%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0337
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0009
+  monster_name_raw: Crab General
+  item_name_raw: Anchoret Cuffs
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Anchoret Cuffs
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0010
+  monster_name_raw: Crab General
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Anchoret Boots
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0011
+  monster_name_raw: Crab General
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Clean Yellow Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0012
+  monster_name_raw: Crab General
+  item_name_raw: Crab General Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Crab General
+    Item: Crab General Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0013
+  monster_name_raw: Ink Octopus
+  item_name_raw: Energy Hood
+  drop_share_raw: 0.0363%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Energy Hood
+    Drop Share: 0.0363%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0363
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0014
+  monster_name_raw: Ink Octopus
+  item_name_raw: Energy Boots
+  drop_share_raw: 0.0363%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Energy Boots
+    Drop Share: 0.0363%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0363
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0015
+  monster_name_raw: Ink Octopus
+  item_name_raw: Sound Hood
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Sound Hood
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0016
+  monster_name_raw: Ink Octopus
+  item_name_raw: Sound Boots
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Sound Boots
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0017
+  monster_name_raw: Ink Octopus
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Clean Ruby
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0018
+  monster_name_raw: Ink Octopus
+  item_name_raw: Octopus Brush Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Ink Octopus
+    Item: Octopus Brush Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0019
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Cuffs
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0020
+  monster_name_raw: Scale Fish
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0512%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Hunter Boots
+    Drop Share: 0.0512%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0512
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0021
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0022
+  monster_name_raw: Scale Fish
+  item_name_raw: Forest Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Forest Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0023
+  monster_name_raw: Scale Fish
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Clean Purple Gem
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0024
+  monster_name_raw: Scale Fish
+  item_name_raw: Scale Fish Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scale Fish
+    Item: Scale Fish Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0025
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Coral Ring
+  drop_share_raw: 5.6950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Coral Ring
+    Drop Share: 5.6950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.695
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0026
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Wave Manteau
+  drop_share_raw: 5.6950%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Wave Manteau
+    Drop Share: 5.6950%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 5.695
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0027
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Seagod's Handloop
+  drop_share_raw: 0.0095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Seagod's Handloop
+    Drop Share: 0.0095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0095
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0028
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Sea Lord Manteau
+  drop_share_raw: 0.0095%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Sea Lord Manteau
+    Drop Share: 0.0095%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0095
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0029
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.1898%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Flawless Yellow Gem
+    Drop Share: 0.1898%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1898
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0030
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0031
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Effective Magic Potion
+  drop_share_raw: 83.2897%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Effective Magic Potion
+    Drop Share: 83.2897%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 83.2897
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0032
+  monster_name_raw: Sharp-shooter
+  item_name_raw: Sharpshooter Cathie Card
+  drop_share_raw: 0.9259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Sharp-shooter
+    Item: Sharpshooter Cathie Card
+    Drop Share: 0.9259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.9259
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0033
+  monster_name_raw: Whelk Mage
+  item_name_raw: Hunter Helmet
+  drop_share_raw: 0.0477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Hunter Helmet
+    Drop Share: 0.0477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0477
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0034
+  monster_name_raw: Whelk Mage
+  item_name_raw: Rotten Shield
+  drop_share_raw: 0.0477%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Rotten Shield
+    Drop Share: 0.0477%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0477
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0035
+  monster_name_raw: Whelk Mage
+  item_name_raw: Forest Helmet
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Forest Helmet
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0036
+  monster_name_raw: Whelk Mage
+  item_name_raw: Holy Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Holy Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0037
+  monster_name_raw: Whelk Mage
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Clean Yellow Gem
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0038
+  monster_name_raw: Whelk Mage
+  item_name_raw: Whelk Shell
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Whelk Shell
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0039
+  monster_name_raw: Whelk Mage
+  item_name_raw: Whelk Wand Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Mage
+    Item: Whelk Wand Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0040
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Fire Scale Cuffs
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Fire Scale Cuffs
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0041
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Wind Wings
+  drop_share_raw: 0.0460%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Wind Wings
+    Drop Share: 0.0460%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.046
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0042
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Embrace Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Embrace Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0043
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Clean Sapphire
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0044
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Whelk Shell
+  drop_share_raw: 2.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Whelk Shell
+    Drop Share: 2.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.0
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0045
+  monster_name_raw: Whelk Swordsman
+  item_name_raw: Whelk Sword Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Whelk Swordsman
+    Item: Whelk Sword Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0046
+  monster_name_raw: Wood Octopus
+  item_name_raw: Fire Guard Helmet
+  drop_share_raw: 0.0391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Fire Guard Helmet
+    Drop Share: 0.0391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0391
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0047
+  monster_name_raw: Wood Octopus
+  item_name_raw: Fire Guard Boots
+  drop_share_raw: 0.0391%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Fire Guard Boots
+    Drop Share: 0.0391%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0391
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0048
+  monster_name_raw: Wood Octopus
+  item_name_raw: Knight Helmet
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Knight Helmet
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0049
+  monster_name_raw: Wood Octopus
+  item_name_raw: Knight Boots
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Knight Boots
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0050
+  monster_name_raw: Wood Octopus
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Clean Purple Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: colorful-coral-reefs__t004r0051
+  monster_name_raw: Wood Octopus
+  item_name_raw: Octopus Mallet Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Wood Octopus
+    Item: Octopus Mallet Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 9
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 51

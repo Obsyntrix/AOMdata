@@ -1,0 +1,1099 @@
+area:
+  id: nightmare-palace
+  name_raw: Nightmare Palace
+  source:
+    origin_url: https://angels.wikidot.com/area:nightmare-palace
+    retrieval_url: https://www.aowiki.uk/pages/area_nightmare-palace.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 41ae8be9933e6cba5ae50b2c37fa5a37a966d5fb24c10ccbbcb41f2d281a4e59
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: nightmare-palace__palace-soldier__t004r0001
+  name_raw: Palace Soldier
+  level_raw: '110'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_palace-soldier.html
+  row_raw:
+    Monster Name: Palace Soldier
+    Level: '110'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 110
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__dark-warrior__t004r0002
+  name_raw: Dark Warrior
+  level_raw: '112'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dark-warrior.html
+  row_raw:
+    Monster Name: Dark Warrior
+    Level: '112'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 112
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__bottle-leaguer__t004r0003
+  name_raw: Bottle Leaguer
+  level_raw: '114'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bottle-leaguer.html
+  row_raw:
+    Monster Name: Bottle Leaguer
+    Level: '114'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 114
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__bottle-captain__t004r0004
+  name_raw: Bottle Captain
+  level_raw: '115'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bottle-captain.html
+  row_raw:
+    Monster Name: Bottle Captain
+    Level: '115'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 115
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__green-rock-goblin__t004r0005
+  name_raw: Green Rock Goblin
+  level_raw: '117'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_green-rock-goblin.html
+  row_raw:
+    Monster Name: Green Rock Goblin
+    Level: '117'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 117
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__fervent-bride__t004r0006
+  name_raw: Fervent Bride
+  level_raw: '118'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fervent-bride.html
+  row_raw:
+    Monster Name: Fervent Bride
+    Level: '118'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 118
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__flame-rock-goblin__t004r0007
+  name_raw: Flame Rock Goblin
+  level_raw: '119'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flame-rock-goblin.html
+  row_raw:
+    Monster Name: Flame Rock Goblin
+    Level: '119'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 119
+    boss: false
+    aggressive: true
+- area_occurrence_id: nightmare-palace__white-witch__t004r0008
+  name_raw: White Witch
+  level_raw: '120'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_white-witch.html
+  row_raw:
+    Monster Name: White Witch
+    Level: '120'
+    Boss: 'No'
+    Aggressive: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 120
+    boss: false
+    aggressive: true
+drops:
+- drop_id: nightmare-palace__t007r0001
+  monster_name_raw: Bottle Captain
+  item_name_raw: Stealth Boots
+  drop_share_raw: 0.0575%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Captain
+    Item: Stealth Boots
+    Drop Share: 0.0575%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0575
+    quantity: 1
+- drop_id: nightmare-palace__t007r0002
+  monster_name_raw: Bottle Captain
+  item_name_raw: Stealth Fur Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Captain
+    Item: Stealth Fur Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0003
+  monster_name_raw: Bottle Captain
+  item_name_raw: Cantaloupe Dish
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Captain
+    Item: Cantaloupe Dish
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0004
+  monster_name_raw: Bottle Captain
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Captain
+    Item: Flawless Sapphire
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0005
+  monster_name_raw: Bottle Leaguer
+  item_name_raw: Ghost Gloves
+  drop_share_raw: 0.0536%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Leaguer
+    Item: Ghost Gloves
+    Drop Share: 0.0536%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0536
+    quantity: 1
+- drop_id: nightmare-palace__t007r0006
+  monster_name_raw: Bottle Leaguer
+  item_name_raw: Dark Horror
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Leaguer
+    Item: Dark Horror
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0007
+  monster_name_raw: Bottle Leaguer
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bottle Leaguer
+    Item: Flawless Emerald
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0008
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Horrible Abyss
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Horrible Abyss
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0009
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Stealth Armor
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Stealth Armor
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0010
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Stealth Boots
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Stealth Boots
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0011
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Quality Horrible Abyss
+  drop_share_raw: 0.7785%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Quality Horrible Abyss
+    Drop Share: 0.7785%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7785
+    quantity: 1
+- drop_id: nightmare-palace__t007r0012
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Pohja's Sorrow
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Pohja's Sorrow
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0013
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Stealth Fur Armor
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Stealth Fur Armor
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0014
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Stealth Fur Boots
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Stealth Fur Boots
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0015
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Blazing Charm V
+  drop_share_raw: 0.0140%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Blazing Charm V
+    Drop Share: 0.0140%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.014
+    quantity: 1
+- drop_id: nightmare-palace__t007r0016
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Barcelon Ox
+  drop_share_raw: 0.0070%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Barcelon Ox
+    Drop Share: 0.0070%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.007
+    quantity: 1
+- drop_id: nightmare-palace__t007r0017
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Big Mouth Bird
+  drop_share_raw: 0.0070%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Big Mouth Bird
+    Drop Share: 0.0070%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.007
+    quantity: 1
+- drop_id: nightmare-palace__t007r0018
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.1298%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Flawless Emerald
+    Drop Share: 0.1298%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1298
+    quantity: 1
+- drop_id: nightmare-palace__t007r0019
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: nightmare-palace__t007r0020
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Effective Magic Fruit
+  drop_share_raw: 86.7367%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Effective Magic Fruit
+    Drop Share: 86.7367%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 86.7367
+    quantity: 1
+- drop_id: nightmare-palace__t007r0021
+  monster_name_raw: Dancing Girl Bonnie
+  item_name_raw: Dancing Girl Bonnie Card
+  drop_share_raw: 0.1543%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dancing Girl Bonnie
+    Item: Dancing Girl Bonnie Card
+    Drop Share: 0.1543%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1543
+    quantity: 1
+- drop_id: nightmare-palace__t007r0022
+  monster_name_raw: Dark Warrior
+  item_name_raw: Fairy Brooch
+  drop_share_raw: 0.0465%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Warrior
+    Item: Fairy Brooch
+    Drop Share: 0.0465%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0465
+    quantity: 1
+- drop_id: nightmare-palace__t007r0023
+  monster_name_raw: Dark Warrior
+  item_name_raw: Star's Tear
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Warrior
+    Item: Star's Tear
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0024
+  monster_name_raw: Dark Warrior
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0010%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dark Warrior
+    Item: Flawless Emerald
+    Drop Share: 0.0010%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0025
+  monster_name_raw: Fervent Bride
+  item_name_raw: Dragon Fire Gloves
+  drop_share_raw: 0.0948%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fervent Bride
+    Item: Dragon Fire Gloves
+    Drop Share: 0.0948%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0948
+    quantity: 1
+- drop_id: nightmare-palace__t007r0026
+  monster_name_raw: Fervent Bride
+  item_name_raw: Salamanca's Hand
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fervent Bride
+    Item: Salamanca's Hand
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0027
+  monster_name_raw: Fervent Bride
+  item_name_raw: Flawless Emerald
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fervent Bride
+    Item: Flawless Emerald
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: nightmare-palace__t007r0028
+  monster_name_raw: Flame Rock Goblin
+  item_name_raw: Ghost Boots
+  drop_share_raw: 0.0978%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Rock Goblin
+    Item: Ghost Boots
+    Drop Share: 0.0978%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0978
+    quantity: 1
+- drop_id: nightmare-palace__t007r0029
+  monster_name_raw: Flame Rock Goblin
+  item_name_raw: Dark Horror Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Rock Goblin
+    Item: Dark Horror Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0030
+  monster_name_raw: Flame Rock Goblin
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Rock Goblin
+    Item: Flawless Purple Gem
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: nightmare-palace__t007r0031
+  monster_name_raw: Green Rock Goblin
+  item_name_raw: Dragon Fire Boots
+  drop_share_raw: 0.0920%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Rock Goblin
+    Item: Dragon Fire Boots
+    Drop Share: 0.0920%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.092
+    quantity: 1
+- drop_id: nightmare-palace__t007r0032
+  monster_name_raw: Green Rock Goblin
+  item_name_raw: Salamanca's Claw
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Rock Goblin
+    Item: Salamanca's Claw
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0033
+  monster_name_raw: Green Rock Goblin
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Green Rock Goblin
+    Item: Flawless Ruby
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: nightmare-palace__t007r0034
+  monster_name_raw: Palace Soldier
+  item_name_raw: King's Roar
+  drop_share_raw: 0.0372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: King's Roar
+    Drop Share: 0.0372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0372
+    quantity: 1
+- drop_id: nightmare-palace__t007r0035
+  monster_name_raw: Palace Soldier
+  item_name_raw: Dark Eagle Armor
+  drop_share_raw: 0.0372%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: Dark Eagle Armor
+    Drop Share: 0.0372%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0372
+    quantity: 1
+- drop_id: nightmare-palace__t007r0036
+  monster_name_raw: Palace Soldier
+  item_name_raw: Hercules' Armor
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: Hercules' Armor
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: nightmare-palace__t007r0037
+  monster_name_raw: Palace Soldier
+  item_name_raw: Desert Eagle Armor
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: Desert Eagle Armor
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: nightmare-palace__t007r0038
+  monster_name_raw: Palace Soldier
+  item_name_raw: Oasis Ostrich
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: Oasis Ostrich
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0039
+  monster_name_raw: Palace Soldier
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Palace Soldier
+    Item: Flawless Orange Gem
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: nightmare-palace__t007r0040
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Silent Moniter
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Silent Moniter
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0041
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Stealth Cap
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Stealth Cap
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0042
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Stealth Gloves
+  drop_share_raw: 3.3533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Stealth Gloves
+    Drop Share: 3.3533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.3533
+    quantity: 1
+- drop_id: nightmare-palace__t007r0043
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Quality Silent Moniter
+  drop_share_raw: 0.7785%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Quality Silent Moniter
+    Drop Share: 0.7785%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.7785
+    quantity: 1
+- drop_id: nightmare-palace__t007r0044
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Agamem's Rage
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Agamem's Rage
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0045
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Stealth Fur Cap
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Stealth Fur Cap
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0046
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Stealth Fur Cuffs
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Stealth Fur Cuffs
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0047
+  monster_name_raw: Scorpion Nick
+  item_name_raw: 'Tactics Skill: Mirror Hit V'
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: 'Tactics Skill: Mirror Hit V'
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0048
+  monster_name_raw: Scorpion Nick
+  item_name_raw: 'Assassin Skill: Deadly Combo V'
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: 'Assassin Skill: Deadly Combo V'
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0049
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Anti-locked Tactics V
+  drop_share_raw: 0.0047%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Anti-locked Tactics V
+    Drop Share: 0.0047%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0047
+    quantity: 1
+- drop_id: nightmare-palace__t007r0050
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.1298%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Flawless Sapphire
+    Drop Share: 0.1298%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1298
+    quantity: 1
+- drop_id: nightmare-palace__t007r0051
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: nightmare-palace__t007r0052
+  monster_name_raw: Scorpion Nick
+  item_name_raw: Effective Evil Fruit
+  drop_share_raw: 86.9050%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Scorpion Nick
+    Item: Effective Evil Fruit
+    Drop Share: 86.9050%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 86.905
+    quantity: 1
+- drop_id: nightmare-palace__t007r0053
+  monster_name_raw: White Witch
+  item_name_raw: Ghost Cap
+  drop_share_raw: 0.1008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: White Witch
+    Item: Ghost Cap
+    Drop Share: 0.1008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1008
+    quantity: 1
+- drop_id: nightmare-palace__t007r0054
+  monster_name_raw: White Witch
+  item_name_raw: Dark Horror Cap
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: White Witch
+    Item: Dark Horror Cap
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0055
+  monster_name_raw: White Witch
+  item_name_raw: Barcelon Ox
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: White Witch
+    Item: Barcelon Ox
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: nightmare-palace__t007r0056
+  monster_name_raw: White Witch
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0012%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: White Witch
+    Item: Flawless Orange Gem
+    Drop Share: 0.0012%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0012
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 5
+  headers_raw:
+  - Dancing Girl Bonnie
+  - '125'
+  - 'Yes'
+  - 'Yes'
+  - ''
+  row_count: 1
+- table_index: 6
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 7
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 56

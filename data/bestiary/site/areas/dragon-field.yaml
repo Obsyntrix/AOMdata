@@ -1,0 +1,1349 @@
+area:
+  id: dragon-field
+  name_raw: Dragon Field
+  source:
+    origin_url: https://angels.wikidot.com/area:dragon-field
+    retrieval_url: https://www.aowiki.uk/pages/area_dragon-field.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 9a6a28cc60dfaf1db7c1cb71fd2e4699fefc40b996de5405961d88e96f8b2c77
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: dragon-field__vampire-mummy__t002r0001
+  name_raw: Vampire Mummy
+  level_raw: '80'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_vampire-mummy.html
+  row_raw:
+    Monster Name: Vampire Mummy
+    Level: '80'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 80
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__burning-revival__t002r0002
+  name_raw: Burning Revival
+  level_raw: '81'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_burning-revival.html
+  row_raw:
+    Monster Name: Burning Revival
+    Level: '81'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 81
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__burning-hunter__t002r0003
+  name_raw: Burning Hunter
+  level_raw: '82'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_burning-hunter.html
+  row_raw:
+    Monster Name: Burning Hunter
+    Level: '82'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 82
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__burning-priest__t002r0004
+  name_raw: Burning Priest
+  level_raw: '83'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_burning-priest.html
+  row_raw:
+    Monster Name: Burning Priest
+    Level: '83'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 83
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__burning-criminal__t002r0005
+  name_raw: Burning Criminal
+  level_raw: '83'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_burning-criminal.html
+  row_raw:
+    Monster Name: Burning Criminal
+    Level: '83'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 83
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__dragon-soldier__t002r0006
+  name_raw: Dragon Soldier
+  level_raw: '85'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dragon-soldier.html
+  row_raw:
+    Monster Name: Dragon Soldier
+    Level: '85'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 85
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__dragon-lady__t002r0007
+  name_raw: Dragon Lady
+  level_raw: '86'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dragon-lady.html
+  row_raw:
+    Monster Name: Dragon Lady
+    Level: '86'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 86
+    boss: false
+    aggressive: false
+- area_occurrence_id: dragon-field__dragon-mystic__t002r0008
+  name_raw: Dragon Mystic
+  level_raw: '87'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_dragon-mystic.html
+  row_raw:
+    Monster Name: Dragon Mystic
+    Level: '87'
+    Boss: 'No'
+    Aggressive: 'No'
+    ? ''
+    : ''
+  normalized:
+    level: 87
+    boss: false
+    aggressive: false
+drops:
+- drop_id: dragon-field__t006r0001
+  monster_name_raw: Burning Criminal
+  item_name_raw: Swiftness Armguards
+  drop_share_raw: 0.0796%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Criminal
+    Item: Swiftness Armguards
+    Drop Share: 0.0796%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0796
+    quantity: 1
+- drop_id: dragon-field__t006r0002
+  monster_name_raw: Burning Criminal
+  item_name_raw: Walker Armguards
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Criminal
+    Item: Walker Armguards
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0003
+  monster_name_raw: Burning Criminal
+  item_name_raw: Swift Armguards
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Criminal
+    Item: Swift Armguards
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: dragon-field__t006r0004
+  monster_name_raw: Burning Criminal
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Criminal
+    Item: Flawless Sapphire
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: dragon-field__t006r0005
+  monster_name_raw: Burning Hunter
+  item_name_raw: Flood Shield
+  drop_share_raw: 0.0769%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Hunter
+    Item: Flood Shield
+    Drop Share: 0.0769%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0769
+    quantity: 1
+- drop_id: dragon-field__t006r0006
+  monster_name_raw: Burning Hunter
+  item_name_raw: Ancient Wings Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Hunter
+    Item: Ancient Wings Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0007
+  monster_name_raw: Burning Hunter
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0014%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Hunter
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0014%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0014
+    quantity: 1
+- drop_id: dragon-field__t006r0008
+  monster_name_raw: Burning Priest
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 0.0796%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Priest
+    Item: Swiftness Boots
+    Drop Share: 0.0796%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0796
+    quantity: 1
+- drop_id: dragon-field__t006r0009
+  monster_name_raw: Burning Priest
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Priest
+    Item: Walker Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0010
+  monster_name_raw: Burning Priest
+  item_name_raw: Swift Boots
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Priest
+    Item: Swift Boots
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: dragon-field__t006r0011
+  monster_name_raw: Burning Priest
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.0015%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Priest
+    Item: Flawless Sapphire
+    Drop Share: 0.0015%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0015
+    quantity: 1
+- drop_id: dragon-field__t006r0012
+  monster_name_raw: Burning Revival
+  item_name_raw: Coral Ring
+  drop_share_raw: 0.0743%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Revival
+    Item: Coral Ring
+    Drop Share: 0.0743%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0743
+    quantity: 1
+- drop_id: dragon-field__t006r0013
+  monster_name_raw: Burning Revival
+  item_name_raw: Seagod's Handloop
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Revival
+    Item: Seagod's Handloop
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0014
+  monster_name_raw: Burning Revival
+  item_name_raw: Flawless Yellow Gem
+  drop_share_raw: 0.0014%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Burning Revival
+    Item: Flawless Yellow Gem
+    Drop Share: 0.0014%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0014
+    quantity: 1
+- drop_id: dragon-field__t006r0015
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Wind Helmet
+  drop_share_raw: 4.7200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Wind Helmet
+    Drop Share: 4.7200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 4.72
+    quantity: 1
+- drop_id: dragon-field__t006r0016
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Storm Helmet
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Storm Helmet
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: dragon-field__t006r0017
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Shark-hunting Armor
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Shark-hunting Armor
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: dragon-field__t006r0018
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Flawless Sapphire
+  drop_share_raw: 0.1726%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Flawless Sapphire
+    Drop Share: 0.1726%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1726
+    quantity: 1
+- drop_id: dragon-field__t006r0019
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Protection Spell 5
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Protection Spell 5
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: dragon-field__t006r0020
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: dragon-field__t006r0021
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Great Evil Fruit
+  drop_share_raw: 47.1297%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Great Evil Fruit
+    Drop Share: 47.1297%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.1297
+    quantity: 1
+- drop_id: dragon-field__t006r0022
+  monster_name_raw: Dragon Captain Gordon
+  item_name_raw: Great Target Potion
+  drop_share_raw: 46.2808%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Captain Gordon
+    Item: Great Target Potion
+    Drop Share: 46.2808%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.2808
+    quantity: 1
+- drop_id: dragon-field__t006r0023
+  monster_name_raw: Dragon Knight
+  item_name_raw: Ancient Bow
+  drop_share_raw: 10.1100%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Ancient Bow
+    Drop Share: 10.1100%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 10.11
+    quantity: 1
+- drop_id: dragon-field__t006r0024
+  monster_name_raw: Dragon Knight
+  item_name_raw: Xilios's Soul
+  drop_share_raw: 0.0101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Xilios's Soul
+    Drop Share: 0.0101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0101
+    quantity: 1
+- drop_id: dragon-field__t006r0025
+  monster_name_raw: Dragon Knight
+  item_name_raw: Jelly Fish
+  drop_share_raw: 0.0202%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Jelly Fish
+    Drop Share: 0.0202%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0202
+    quantity: 1
+- drop_id: dragon-field__t006r0026
+  monster_name_raw: Dragon Knight
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.1955%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Flawless Orange Gem
+    Drop Share: 0.1955%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1955
+    quantity: 1
+- drop_id: dragon-field__t006r0027
+  monster_name_raw: Dragon Knight
+  item_name_raw: Heart Stab V
+  drop_share_raw: 0.0101%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Heart Stab V
+    Drop Share: 0.0101%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0101
+    quantity: 1
+- drop_id: dragon-field__t006r0028
+  monster_name_raw: Dragon Knight
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: dragon-field__t006r0029
+  monster_name_raw: Dragon Knight
+  item_name_raw: Great Mars' Fruit
+  drop_share_raw: 44.2530%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Great Mars' Fruit
+    Drop Share: 44.2530%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 44.253
+    quantity: 1
+- drop_id: dragon-field__t006r0030
+  monster_name_raw: Dragon Knight
+  item_name_raw: Great Healing Potion
+  drop_share_raw: 42.4335%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Great Healing Potion
+    Drop Share: 42.4335%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 42.4335
+    quantity: 1
+- drop_id: dragon-field__t006r0031
+  monster_name_raw: Dragon Knight
+  item_name_raw: Heart Wand
+  drop_share_raw: 3.6800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Heart Wand
+    Drop Share: 3.6800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.68
+    quantity: 1
+- drop_id: dragon-field__t006r0032
+  monster_name_raw: Dragon Knight
+  item_name_raw: Quality Heart Wand
+  drop_share_raw: 0.1891%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Quality Heart Wand
+    Drop Share: 0.1891%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1891
+    quantity: 1
+- drop_id: dragon-field__t006r0033
+  monster_name_raw: Dragon Knight
+  item_name_raw: Manlida's Favorite
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Manlida's Favorite
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: dragon-field__t006r0034
+  monster_name_raw: Dragon Knight
+  item_name_raw: Ripper Armor
+  drop_share_raw: 3.6800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Ripper Armor
+    Drop Share: 3.6800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.68
+    quantity: 1
+- drop_id: dragon-field__t006r0035
+  monster_name_raw: Dragon Knight
+  item_name_raw: Quality Ripper Armor
+  drop_share_raw: 0.1891%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Quality Ripper Armor
+    Drop Share: 0.1891%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1891
+    quantity: 1
+- drop_id: dragon-field__t006r0036
+  monster_name_raw: Dragon Knight
+  item_name_raw: Destroyer Armor
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Destroyer Armor
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: dragon-field__t006r0037
+  monster_name_raw: Dragon Knight
+  item_name_raw: 'Craft Recipe 2: Heart Wand'
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: 'Craft Recipe 2: Heart Wand'
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: dragon-field__t006r0038
+  monster_name_raw: Dragon Knight
+  item_name_raw: 'Clothes II: Ripper Armor'
+  drop_share_raw: 0.0630%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: 'Clothes II: Ripper Armor'
+    Drop Share: 0.0630%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.063
+    quantity: 1
+- drop_id: dragon-field__t006r0039
+  monster_name_raw: Dragon Knight
+  item_name_raw: Ursus
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Ursus
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: dragon-field__t006r0040
+  monster_name_raw: Dragon Knight
+  item_name_raw: Flawless Red Light Rune Piece
+  drop_share_raw: 0.0525%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Flawless Red Light Rune Piece
+    Drop Share: 0.0525%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0525
+    quantity: 1
+- drop_id: dragon-field__t006r0041
+  monster_name_raw: Dragon Knight
+  item_name_raw: Super Magic Potion
+  drop_share_raw: 45.7645%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Super Magic Potion
+    Drop Share: 45.7645%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.7645
+    quantity: 1
+- drop_id: dragon-field__t006r0042
+  monster_name_raw: Dragon Knight
+  item_name_raw: Super Mars' Fruit
+  drop_share_raw: 45.7645%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Knight
+    Item: Super Mars' Fruit
+    Drop Share: 45.7645%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.7645
+    quantity: 1
+- drop_id: dragon-field__t006r0043
+  monster_name_raw: Dragon Lady
+  item_name_raw: Chief Legguard
+  drop_share_raw: 0.0883%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Lady
+    Item: Chief Legguard
+    Drop Share: 0.0883%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0883
+    quantity: 1
+- drop_id: dragon-field__t006r0044
+  monster_name_raw: Dragon Lady
+  item_name_raw: Fane Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Lady
+    Item: Fane Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0045
+  monster_name_raw: Dragon Lady
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Lady
+    Item: Flawless Ruby
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: dragon-field__t006r0046
+  monster_name_raw: Dragon Maid
+  item_name_raw: Chief Cuffs
+  drop_share_raw: 0.0945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Maid
+    Item: Chief Cuffs
+    Drop Share: 0.0945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0945
+    quantity: 1
+- drop_id: dragon-field__t006r0047
+  monster_name_raw: Dragon Maid
+  item_name_raw: Fane Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Maid
+    Item: Fane Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0048
+  monster_name_raw: Dragon Maid
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Maid
+    Item: Flawless Purple Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: dragon-field__t006r0049
+  monster_name_raw: Dragon Meditator
+  item_name_raw: Luck Boots
+  drop_share_raw: 0.1011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Meditator
+    Item: Luck Boots
+    Drop Share: 0.1011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1011
+    quantity: 1
+- drop_id: dragon-field__t006r0050
+  monster_name_raw: Dragon Meditator
+  item_name_raw: Lucky Jack Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Meditator
+    Item: Lucky Jack Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0051
+  monster_name_raw: Dragon Meditator
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.0019%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Meditator
+    Item: Flawless Orange Gem
+    Drop Share: 0.0019%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0019
+    quantity: 1
+- drop_id: dragon-field__t006r0052
+  monster_name_raw: Dragon Mystic
+  item_name_raw: Swiftness Boots
+  drop_share_raw: 0.0913%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Mystic
+    Item: Swiftness Boots
+    Drop Share: 0.0913%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0913
+    quantity: 1
+- drop_id: dragon-field__t006r0053
+  monster_name_raw: Dragon Mystic
+  item_name_raw: Walker Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Mystic
+    Item: Walker Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0054
+  monster_name_raw: Dragon Mystic
+  item_name_raw: Swift Boots
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Mystic
+    Item: Swift Boots
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: dragon-field__t006r0055
+  monster_name_raw: Dragon Mystic
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0017%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Mystic
+    Item: Flawless Purple Gem
+    Drop Share: 0.0017%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0017
+    quantity: 1
+- drop_id: dragon-field__t006r0056
+  monster_name_raw: Dragon Raider
+  item_name_raw: Luck Bracers
+  drop_share_raw: 0.0945%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Raider
+    Item: Luck Bracers
+    Drop Share: 0.0945%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0945
+    quantity: 1
+- drop_id: dragon-field__t006r0057
+  monster_name_raw: Dragon Raider
+  item_name_raw: Lucky Jack Bracers
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Raider
+    Item: Lucky Jack Bracers
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0058
+  monster_name_raw: Dragon Raider
+  item_name_raw: Flawless Purple Gem
+  drop_share_raw: 0.0018%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Raider
+    Item: Flawless Purple Gem
+    Drop Share: 0.0018%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0018
+    quantity: 1
+- drop_id: dragon-field__t006r0059
+  monster_name_raw: Dragon Soldier
+  item_name_raw: Luck Boots
+  drop_share_raw: 0.0853%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Soldier
+    Item: Luck Boots
+    Drop Share: 0.0853%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0853
+    quantity: 1
+- drop_id: dragon-field__t006r0060
+  monster_name_raw: Dragon Soldier
+  item_name_raw: Lucky Jack Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Soldier
+    Item: Lucky Jack Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: dragon-field__t006r0061
+  monster_name_raw: Dragon Soldier
+  item_name_raw: Flawless Ruby
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Dragon Soldier
+    Item: Flawless Ruby
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: dragon-field__t006r0062
+  monster_name_raw: Vampire Mummy
+  item_name_raw: Rotten Shield
+  drop_share_raw: 0.1139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Mummy
+    Item: Rotten Shield
+    Drop Share: 0.1139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1139
+    quantity: 1
+- drop_id: dragon-field__t006r0063
+  monster_name_raw: Vampire Mummy
+  item_name_raw: Holy Shield
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Mummy
+    Item: Holy Shield
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: dragon-field__t006r0064
+  monster_name_raw: Vampire Mummy
+  item_name_raw: Clean Emerald
+  drop_share_raw: 0.0020%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Mummy
+    Item: Clean Emerald
+    Drop Share: 0.0020%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.002
+    quantity: 1
+- drop_id: dragon-field__t006r0065
+  monster_name_raw: Vampire Suki
+  item_name_raw: Crystal Spear
+  drop_share_raw: 8.5300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Crystal Spear
+    Drop Share: 8.5300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 8.53
+    quantity: 1
+- drop_id: dragon-field__t006r0066
+  monster_name_raw: Vampire Suki
+  item_name_raw: Shaer's Will
+  drop_share_raw: 0.0107%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Shaer's Will
+    Drop Share: 0.0107%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0107
+    quantity: 1
+- drop_id: dragon-field__t006r0067
+  monster_name_raw: Vampire Suki
+  item_name_raw: Shark Armor
+  drop_share_raw: 0.0213%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Shark Armor
+    Drop Share: 0.0213%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0213
+    quantity: 1
+- drop_id: dragon-field__t006r0068
+  monster_name_raw: Vampire Suki
+  item_name_raw: Flawless Orange Gem
+  drop_share_raw: 0.1594%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Flawless Orange Gem
+    Drop Share: 0.1594%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1594
+    quantity: 1
+- drop_id: dragon-field__t006r0069
+  monster_name_raw: Vampire Suki
+  item_name_raw: Stealth V
+  drop_share_raw: 0.0107%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Stealth V
+    Drop Share: 0.0107%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0107
+    quantity: 1
+- drop_id: dragon-field__t006r0070
+  monster_name_raw: Vampire Suki
+  item_name_raw: Pestle
+  drop_share_raw: 0.5415%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Pestle
+    Drop Share: 0.5415%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5415
+    quantity: 1
+- drop_id: dragon-field__t006r0071
+  monster_name_raw: Vampire Suki
+  item_name_raw: Great Mighty Fruit
+  drop_share_raw: 45.1073%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Great Mighty Fruit
+    Drop Share: 45.1073%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.1073
+    quantity: 1
+- drop_id: dragon-field__t006r0072
+  monster_name_raw: Vampire Suki
+  item_name_raw: Great Magic Potion
+  drop_share_raw: 43.5716%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Vampire Suki
+    Item: Great Magic Potion
+    Drop Share: 43.5716%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 43.5716
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 3
+  headers_raw:
+  - Dragon Raider
+  - '88'
+  - 'No'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Vampire Suki
+  - '85'
+  - 'Yes'
+  - 'No'
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 72

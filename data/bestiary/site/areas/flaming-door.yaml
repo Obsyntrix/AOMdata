@@ -1,0 +1,1572 @@
+area:
+  id: flaming-door
+  name_raw: Flaming Door
+  source:
+    origin_url: https://angels.wikidot.com/area:flaming-door
+    retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: flaming-door__evil-knight__t004r0001
+  name_raw: Evil Knight
+  level_raw: '63'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-knight.html
+  row_raw:
+    Monster Name: Evil Knight
+    Level: '63'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 63
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__rock-slarm__t004r0002
+  name_raw: Rock Slarm
+  level_raw: '63'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rock-slarm.html
+  row_raw:
+    Monster Name: Rock Slarm
+    Level: '63'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 63
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__terra-lampman__t004r0003
+  name_raw: Terra Lampman
+  level_raw: '65'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_terra-lampman.html
+  row_raw:
+    Monster Name: Terra Lampman
+    Level: '65'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 65
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__evil-flower__t004r0004
+  name_raw: Evil Flower
+  level_raw: '68'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-flower.html
+  row_raw:
+    Monster Name: Evil Flower
+    Level: '68'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 68
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__flame-mummy__t004r0005
+  name_raw: Flame Mummy
+  level_raw: '70'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flame-mummy.html
+  row_raw:
+    Monster Name: Flame Mummy
+    Level: '70'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__fire-fly__t004r0006
+  name_raw: Fire Fly
+  level_raw: '73'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-fly.html
+  row_raw:
+    Monster Name: Fire Fly
+    Level: '73'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 73
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__fire-ghost-kid__t004r0007
+  name_raw: Fire Ghost Kid
+  level_raw: '75'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-ghost-kid.html
+  row_raw:
+    Monster Name: Fire Ghost Kid
+    Level: '75'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 75
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__terra-miner__t004r0008
+  name_raw: Terra Miner
+  level_raw: '78'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_terra-miner.html
+  row_raw:
+    Monster Name: Terra Miner
+    Level: '78'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 78
+    boss: false
+    aggressive: true
+- area_occurrence_id: flaming-door__miner-foreman__t004r0009
+  name_raw: Miner Foreman
+  level_raw: '70'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_miner-foreman.html
+  row_raw:
+    Monster Name: Miner Foreman
+    Level: '70'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: true
+    aggressive: true
+- area_occurrence_id: flaming-door__soul-wizard__t004r0010
+  name_raw: Soul Wizard
+  level_raw: '75'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_soul-wizard.html
+  row_raw:
+    Monster Name: Soul Wizard
+    Level: '75'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 75
+    boss: true
+    aggressive: true
+- area_occurrence_id: flaming-door__soul-guide__t004r0011
+  name_raw: Soul Guide
+  level_raw: '80'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_soul-guide.html
+  row_raw:
+    Monster Name: Soul Guide
+    Level: '80'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 80
+    boss: true
+    aggressive: true
+drops:
+- drop_id: flaming-door__t006r0001
+  monster_name_raw: Evil Flower
+  item_name_raw: Energy Cuffs
+  drop_share_raw: 0.0291%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Energy Cuffs
+    Drop Share: 0.0291%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0291
+    quantity: 1
+- drop_id: flaming-door__t006r0002
+  monster_name_raw: Evil Flower
+  item_name_raw: Sound Gloves
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Sound Gloves
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: flaming-door__t006r0003
+  monster_name_raw: Evil Flower
+  item_name_raw: Dida Cayman Robot
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Dida Cayman Robot
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0004
+  monster_name_raw: Evil Flower
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Hermit Boots
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: flaming-door__t006r0005
+  monster_name_raw: Evil Flower
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Clean Sapphire
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0006
+  monster_name_raw: Evil Flower
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0242%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Map Piece
+    Drop Share: 0.0242%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0242
+    quantity: 1
+- drop_id: flaming-door__t006r0007
+  monster_name_raw: Evil Flower
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Anchoret Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: flaming-door__t006r0008
+  monster_name_raw: Evil Flower
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Thunder Spear
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: flaming-door__t006r0009
+  monster_name_raw: Evil Flower
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Benison Ring
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: flaming-door__t006r0010
+  monster_name_raw: Evil Flower
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Heart Hit 5
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: flaming-door__t006r0011
+  monster_name_raw: Evil Knight
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Hermit Cuffs
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: flaming-door__t006r0012
+  monster_name_raw: Evil Knight
+  item_name_raw: Power Shield
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Power Shield
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: flaming-door__t006r0013
+  monster_name_raw: Evil Knight
+  item_name_raw: Anchoret Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Anchoret Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0014
+  monster_name_raw: Evil Knight
+  item_name_raw: Flight Shield
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Flight Shield
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0015
+  monster_name_raw: Evil Knight
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Knight
+    Item: Map Piece
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: flaming-door__t006r0016
+  monster_name_raw: Fire Fly
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Hunter Cuffs
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: flaming-door__t006r0017
+  monster_name_raw: Fire Fly
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Forest Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: flaming-door__t006r0018
+  monster_name_raw: Fire Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Map Piece
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: flaming-door__t006r0019
+  monster_name_raw: Fire Fly
+  item_name_raw: Fire Fly Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Fire Fly Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: flaming-door__t006r0020
+  monster_name_raw: Fire Ghost Kid
+  item_name_raw: Fire Scale Boots
+  drop_share_raw: 0.0127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ghost Kid
+    Item: Fire Scale Boots
+    Drop Share: 0.0127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0127
+    quantity: 1
+- drop_id: flaming-door__t006r0021
+  monster_name_raw: Fire Ghost Kid
+  item_name_raw: Embrace Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ghost Kid
+    Item: Embrace Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0022
+  monster_name_raw: Fire Ghost Kid
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0053%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ghost Kid
+    Item: Map Piece
+    Drop Share: 0.0053%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0053
+    quantity: 1
+- drop_id: flaming-door__t006r0023
+  monster_name_raw: Fire Ghost Kid
+  item_name_raw: Ghost Kid Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Ghost Kid
+    Item: Ghost Kid Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: flaming-door__t006r0024
+  monster_name_raw: Flame Mummy
+  item_name_raw: Fire Guard Cuffs
+  drop_share_raw: 0.0313%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Fire Guard Cuffs
+    Drop Share: 0.0313%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0313
+    quantity: 1
+- drop_id: flaming-door__t006r0025
+  monster_name_raw: Flame Mummy
+  item_name_raw: Knight Cuffs
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Knight Cuffs
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: flaming-door__t006r0026
+  monster_name_raw: Flame Mummy
+  item_name_raw: Stiff Beetle
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Stiff Beetle
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0027
+  monster_name_raw: Flame Mummy
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Hermit Boots
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: flaming-door__t006r0028
+  monster_name_raw: Flame Mummy
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Clean Purple Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0029
+  monster_name_raw: Flame Mummy
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0261%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Map Piece
+    Drop Share: 0.0261%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0261
+    quantity: 1
+- drop_id: flaming-door__t006r0030
+  monster_name_raw: Miner Foreman
+  item_name_raw: Energy Hood
+  drop_share_raw: 3.1300%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Energy Hood
+    Drop Share: 3.1300%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 3.13
+    quantity: 1
+- drop_id: flaming-door__t006r0031
+  monster_name_raw: Miner Foreman
+  item_name_raw: Sound Hood
+  drop_share_raw: 0.0261%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Sound Hood
+    Drop Share: 0.0261%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0261
+    quantity: 1
+- drop_id: flaming-door__t006r0032
+  monster_name_raw: Miner Foreman
+  item_name_raw: Earth Bestow V
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Earth Bestow V
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: flaming-door__t006r0033
+  monster_name_raw: Miner Foreman
+  item_name_raw: Advance Chop V
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Advance Chop V
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: flaming-door__t006r0034
+  monster_name_raw: Miner Foreman
+  item_name_raw: Stiff Beetle
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Stiff Beetle
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: flaming-door__t006r0035
+  monster_name_raw: Miner Foreman
+  item_name_raw: Hermit Helmet
+  drop_share_raw: 0.0783%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Hermit Helmet
+    Drop Share: 0.0783%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0783
+    quantity: 1
+- drop_id: flaming-door__t006r0036
+  monster_name_raw: Miner Foreman
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0783%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Benison Ring
+    Drop Share: 0.0783%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0783
+    quantity: 1
+- drop_id: flaming-door__t006r0037
+  monster_name_raw: Miner Foreman
+  item_name_raw: Pestle
+  drop_share_raw: 0.3599%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Pestle
+    Drop Share: 0.3599%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3599
+    quantity: 1
+- drop_id: flaming-door__t006r0038
+  monster_name_raw: Miner Foreman
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: flaming-door__t006r0039
+  monster_name_raw: Miner Foreman
+  item_name_raw: Medium Evil Fruit
+  drop_share_raw: 47.4828%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Medium Evil Fruit
+    Drop Share: 47.4828%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.4828
+    quantity: 1
+- drop_id: flaming-door__t006r0040
+  monster_name_raw: Miner Foreman
+  item_name_raw: Medium Magic Potion
+  drop_share_raw: 45.6036%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Medium Magic Potion
+    Drop Share: 45.6036%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 45.6036
+    quantity: 1
+- drop_id: flaming-door__t006r0041
+  monster_name_raw: Miner Foreman
+  item_name_raw: Miner foreman Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Miner Foreman
+    Item: Miner foreman Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+- drop_id: flaming-door__t006r0042
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Armor
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Armor
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: flaming-door__t006r0043
+  monster_name_raw: Rock Slarm
+  item_name_raw: Anchoret Armor
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Anchoret Armor
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: flaming-door__t006r0044
+  monster_name_raw: Rock Slarm
+  item_name_raw: Circus Elephant
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Circus Elephant
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0045
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Helmet
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Helmet
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: flaming-door__t006r0046
+  monster_name_raw: Rock Slarm
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Clean Yellow Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0047
+  monster_name_raw: Rock Slarm
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Map Piece
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: flaming-door__t006r0048
+  monster_name_raw: Rock Slarm
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Light Necklace
+    Drop Share: 0.0127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0127
+    quantity: 1
+- drop_id: flaming-door__t006r0049
+  monster_name_raw: Rock Slarm
+  item_name_raw: Heaven Light
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Heaven Light
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0050
+  monster_name_raw: Rock Slarm
+  item_name_raw: Rock Slarm Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Rock Slarm Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: flaming-door__t006r0051
+  monster_name_raw: Rock Slarm
+  item_name_raw: Fire Guard Boots
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Fire Guard Boots
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: flaming-door__t006r0052
+  monster_name_raw: Rock Slarm
+  item_name_raw: Knight Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Knight Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: flaming-door__t006r0053
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Cuffs
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: flaming-door__t006r0054
+  monster_name_raw: Soul Guide
+  item_name_raw: Fire Scale Boots
+  drop_share_raw: 1.5200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Fire Scale Boots
+    Drop Share: 1.5200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.52
+    quantity: 1
+- drop_id: flaming-door__t006r0055
+  monster_name_raw: Soul Guide
+  item_name_raw: Embrace Boots
+  drop_share_raw: 0.0063%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Embrace Boots
+    Drop Share: 0.0063%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0063
+    quantity: 1
+- drop_id: flaming-door__t006r0056
+  monster_name_raw: Soul Guide
+  item_name_raw: Bear Shift V
+  drop_share_raw: 0.0032%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Bear Shift V
+    Drop Share: 0.0032%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0032
+    quantity: 1
+- drop_id: flaming-door__t006r0057
+  monster_name_raw: Soul Guide
+  item_name_raw: Endless Energy V
+  drop_share_raw: 0.0032%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Endless Energy V
+    Drop Share: 0.0032%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0032
+    quantity: 1
+- drop_id: flaming-door__t006r0058
+  monster_name_raw: Soul Guide
+  item_name_raw: Mage Cuffs
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Mage Cuffs
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: flaming-door__t006r0059
+  monster_name_raw: Soul Guide
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0190%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Light Necklace
+    Drop Share: 0.0190%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.019
+    quantity: 1
+- drop_id: flaming-door__t006r0060
+  monster_name_raw: Soul Guide
+  item_name_raw: Pestle
+  drop_share_raw: 0.5413%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Pestle
+    Drop Share: 0.5413%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.5413
+    quantity: 1
+- drop_id: flaming-door__t006r0061
+  monster_name_raw: Soul Guide
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Map Piece
+    Drop Share: 0.0900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.09
+    quantity: 1
+- drop_id: flaming-door__t006r0062
+  monster_name_raw: Soul Guide
+  item_name_raw: Great Target Potion
+  drop_share_raw: 48.8422%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Great Target Potion
+    Drop Share: 48.8422%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.8422
+    quantity: 1
+- drop_id: flaming-door__t006r0063
+  monster_name_raw: Soul Guide
+  item_name_raw: Great Evil Fruit
+  drop_share_raw: 48.3871%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Guide
+    Item: Great Evil Fruit
+    Drop Share: 48.3871%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.3871
+    quantity: 1
+- drop_id: flaming-door__t006r0064
+  monster_name_raw: Soul Wizard
+  item_name_raw: Fool Staff
+  drop_share_raw: 0.6350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Fool Staff
+    Drop Share: 0.6350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.635
+    quantity: 1
+- drop_id: flaming-door__t006r0065
+  monster_name_raw: Soul Wizard
+  item_name_raw: Power Shield
+  drop_share_raw: 0.6350%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Power Shield
+    Drop Share: 0.6350%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.635
+    quantity: 1
+- drop_id: flaming-door__t006r0066
+  monster_name_raw: Soul Wizard
+  item_name_raw: Mage Staff
+  drop_share_raw: 0.0026%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Mage Staff
+    Drop Share: 0.0026%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0026
+    quantity: 1
+- drop_id: flaming-door__t006r0067
+  monster_name_raw: Soul Wizard
+  item_name_raw: Flight Shield
+  drop_share_raw: 0.0026%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Flight Shield
+    Drop Share: 0.0026%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0026
+    quantity: 1
+- drop_id: flaming-door__t006r0068
+  monster_name_raw: Soul Wizard
+  item_name_raw: Charming Blessing V
+  drop_share_raw: 0.0053%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Charming Blessing V
+    Drop Share: 0.0053%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0053
+    quantity: 1
+- drop_id: flaming-door__t006r0069
+  monster_name_raw: Soul Wizard
+  item_name_raw: Pestle
+  drop_share_raw: 0.4414%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Pestle
+    Drop Share: 0.4414%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4414
+    quantity: 1
+- drop_id: flaming-door__t006r0070
+  monster_name_raw: Soul Wizard
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Map Piece
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: flaming-door__t006r0071
+  monster_name_raw: Soul Wizard
+  item_name_raw: Medium Magic Potion
+  drop_share_raw: 48.6705%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Medium Magic Potion
+    Drop Share: 48.6705%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.6705
+    quantity: 1
+- drop_id: flaming-door__t006r0072
+  monster_name_raw: Soul Wizard
+  item_name_raw: Medium Mighty Fruit
+  drop_share_raw: 49.0514%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Soul Wizard
+    Item: Medium Mighty Fruit
+    Drop Share: 49.0514%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 49.0514
+    quantity: 1
+- drop_id: flaming-door__t006r0073
+  monster_name_raw: Terra Lampman
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Hermit Boots
+    Drop Share: 0.0259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0259
+    quantity: 1
+- drop_id: flaming-door__t006r0074
+  monster_name_raw: Terra Lampman
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Anchoret Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: flaming-door__t006r0075
+  monster_name_raw: Terra Lampman
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Heart Hit 5
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: flaming-door__t006r0076
+  monster_name_raw: Terra Lampman
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Thunder Spear
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flaming-door__t006r0077
+  monster_name_raw: Terra Lampman
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Benison Ring
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: flaming-door__t006r0078
+  monster_name_raw: Terra Lampman
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Map Piece
+    Drop Share: 0.0216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0216
+    quantity: 1
+- drop_id: flaming-door__t006r0079
+  monster_name_raw: Terra Miner
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0141%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Miner
+    Item: Hunter Boots
+    Drop Share: 0.0141%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0141
+    quantity: 1
+- drop_id: flaming-door__t006r0080
+  monster_name_raw: Terra Miner
+  item_name_raw: Forest Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Miner
+    Item: Forest Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0081
+  monster_name_raw: Terra Miner
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0059%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Miner
+    Item: Map Piece
+    Drop Share: 0.0059%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0059
+    quantity: 1
+- drop_id: flaming-door__t006r0082
+  monster_name_raw: Terra Miner
+  item_name_raw: Cutter's Axe
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Miner
+    Item: Cutter's Axe
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: flaming-door__t006r0083
+  monster_name_raw: Terra Miner
+  item_name_raw: Wind Wings
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Miner
+    Item: Wind Wings
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 12
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 11
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 83

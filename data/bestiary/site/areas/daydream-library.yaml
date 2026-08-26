@@ -1,0 +1,195 @@
+area:
+  id: daydream-library
+  name_raw: Daydream Library
+  source:
+    origin_url: https://angels.wikidot.com/area:daydream-library
+    retrieval_url: https://www.aowiki.uk/pages/area_daydream-library.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 0af694769483905027ba33500cb3a1c191c18cd62a6f13da1162e4bb02f5abdf
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: daydream-library__magik-shredder__t001r0001
+  name_raw: Magik Shredder
+  level_raw: '291'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_magik-shredder.html
+  row_raw:
+    Monster Name: Magik Shredder
+    Level: '291'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 291
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__manik-shredder__t001r0002
+  name_raw: Manik Shredder
+  level_raw: '291'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_manik-shredder.html
+  row_raw:
+    Monster Name: Manik Shredder
+    Level: '291'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 291
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__suth-chyme__t001r0003
+  name_raw: Suth Chyme
+  level_raw: '293'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_suth-chyme.html
+  row_raw:
+    Monster Name: Suth Chyme
+    Level: '293'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 293
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__syren-cop__t001r0004
+  name_raw: Syren Cop
+  level_raw: '293'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_syren-cop.html
+  row_raw:
+    Monster Name: Syren Cop
+    Level: '293'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 293
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__whizhoot__t001r0005
+  name_raw: Whizhoot
+  level_raw: '295'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_whizhoot.html
+  row_raw:
+    Monster Name: Whizhoot
+    Level: '295'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 295
+    boss: false
+    aggressive: true
+- area_occurrence_id: daydream-library__scholhoot__t001r0006
+  name_raw: Scholhoot
+  level_raw: '295'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_scholhoot.html
+  row_raw:
+    Monster Name: Scholhoot
+    Level: '295'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 295
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__karate-bun__t001r0007
+  name_raw: Karate Bun
+  level_raw: '297'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_karate-bun.html
+  row_raw:
+    Monster Name: Karate Bun
+    Level: '297'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 297
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__kungfu-bun__t001r0008
+  name_raw: Kungfu Bun
+  level_raw: '297'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_kungfu-bun.html
+  row_raw:
+    Monster Name: Kungfu Bun
+    Level: '297'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 297
+    boss: false
+    aggressive: false
+- area_occurrence_id: daydream-library__blonde-brandon__t001r0009
+  name_raw: Blonde Brandon
+  level_raw: '299'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_blonde-brandon.html
+  row_raw:
+    Monster Name: Blonde Brandon
+    Level: '299'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 299
+    boss: false
+    aggressive: true
+- area_occurrence_id: daydream-library__graceful-gary__t001r0010
+  name_raw: Graceful Gary
+  level_raw: '299'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_graceful-gary.html
+  row_raw:
+    Monster Name: Graceful Gary
+    Level: '299'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 299
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Magik Shredder
+  - '300'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Skull Shredder
+  - '301'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

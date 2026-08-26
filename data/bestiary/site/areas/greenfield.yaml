@@ -1,0 +1,250 @@
+area:
+  id: greenfield
+  name_raw: Greenfield
+  source:
+    origin_url: https://angels.wikidot.com/area:greenfield
+    retrieval_url: https://www.aowiki.uk/pages/area_greenfield.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: b5f82c2c6c16cf0da92beb28523b8acaaed75446e81898a3ca5086e6e9eceb57
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: greenfield__tea-bun__t001r0001
+  name_raw: Tea Bun
+  level_raw: '271'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tea-bun.html
+  row_raw:
+    Monster Name: Tea Bun
+    Level: '271'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 271
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__sleepy-bun__t001r0002
+  name_raw: Sleepy Bun
+  level_raw: '271'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sleepy-bun.html
+  row_raw:
+    Monster Name: Sleepy Bun
+    Level: '271'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 271
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__prickopine__t001r0003
+  name_raw: Prickopine
+  level_raw: '273'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_prickopine.html
+  row_raw:
+    Monster Name: Prickopine
+    Level: '273'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 273
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__prickoball__t001r0004
+  name_raw: Prickoball
+  level_raw: '273'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_prickoball.html
+  row_raw:
+    Monster Name: Prickoball
+    Level: '273'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 273
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__luna-elly__t001r0005
+  name_raw: Luna Elly
+  level_raw: '275'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_luna-elly.html
+  row_raw:
+    Monster Name: Luna Elly
+    Level: '275'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 275
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__poison-elly__t001r0006
+  name_raw: Poison Elly
+  level_raw: '275'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_poison-elly.html
+  row_raw:
+    Monster Name: Poison Elly
+    Level: '275'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 275
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__bravepaws__t001r0007
+  name_raw: Bravepaws
+  level_raw: '277'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_bravepaws.html
+  row_raw:
+    Monster Name: Bravepaws
+    Level: '277'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 277
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__meowsassin__t001r0008
+  name_raw: Meowsassin
+  level_raw: '277'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_meowsassin.html
+  row_raw:
+    Monster Name: Meowsassin
+    Level: '277'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 277
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__love-birb__t001r0009
+  name_raw: Love Birb
+  level_raw: '279'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_love-birb.html
+  row_raw:
+    Monster Name: Love Birb
+    Level: '279'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 279
+    boss: false
+    aggressive: false
+- area_occurrence_id: greenfield__sky-birb__t001r0010
+  name_raw: Sky Birb
+  level_raw: '279'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sky-birb.html
+  row_raw:
+    Monster Name: Sky Birb
+    Level: '279'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 279
+    boss: false
+    aggressive: false
+drops:
+- drop_id: greenfield__t004r0001
+  monster_name_raw: Bellarella
+  item_name_raw: Sonic Evil Fruit
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bellarella
+    Item: Sonic Evil Fruit
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: greenfield__t004r0002
+  monster_name_raw: Bellarella
+  item_name_raw: Sonic Target Potion
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bellarella
+    Item: Sonic Target Potion
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: greenfield__t004r0003
+  monster_name_raw: Bellarella
+  item_name_raw: Pestle
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Bellarella
+    Item: Pestle
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Tea Bun
+  - '280'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - '?'
+  - '281'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

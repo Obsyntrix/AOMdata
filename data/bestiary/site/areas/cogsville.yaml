@@ -1,0 +1,195 @@
+area:
+  id: cogsville
+  name_raw: Cogsville
+  source:
+    origin_url: https://angels.wikidot.com/area:cogsville
+    retrieval_url: https://www.aowiki.uk/pages/area_cogsville.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: e7f132e5395272efff66c6607546b94c2deded563c2978cd18f94082acb5f15f
+  capture:
+    monsters: complete
+    zone_drops: not_present
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: cogsville__husky-cowboy__t001r0001
+  name_raw: Husky Cowboy
+  level_raw: '311'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_husky-cowboy.html
+  row_raw:
+    Monster Name: Husky Cowboy
+    Level: '311'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 311
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__husky-ranger__t001r0002
+  name_raw: Husky Ranger
+  level_raw: '311'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_husky-ranger.html
+  row_raw:
+    Monster Name: Husky Ranger
+    Level: '311'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 311
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__tea-hopper__t001r0003
+  name_raw: Tea Hopper
+  level_raw: '313'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_tea-hopper.html
+  row_raw:
+    Monster Name: Tea Hopper
+    Level: '313'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 313
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__sweet-hopper__t001r0004
+  name_raw: Sweet Hopper
+  level_raw: '313'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_sweet-hopper.html
+  row_raw:
+    Monster Name: Sweet Hopper
+    Level: '313'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 313
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__candy-priest__t001r0005
+  name_raw: Candy Priest
+  level_raw: '315'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_candy-priest.html
+  row_raw:
+    Monster Name: Candy Priest
+    Level: '315'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 315
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__candy-witch__t001r0006
+  name_raw: Candy Witch
+  level_raw: '315'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_candy-witch.html
+  row_raw:
+    Monster Name: Candy Witch
+    Level: '315'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 315
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__court-jester__t001r0007
+  name_raw: Court Jester
+  level_raw: '317'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_court-jester.html
+  row_raw:
+    Monster Name: Court Jester
+    Level: '317'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 317
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__crazy-jester__t001r0008
+  name_raw: Crazy Jester
+  level_raw: '317'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_crazy-jester.html
+  row_raw:
+    Monster Name: Crazy Jester
+    Level: '317'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 317
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__cruel-friend__t001r0009
+  name_raw: Cruel Friend
+  level_raw: '319'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cruel-friend.html
+  row_raw:
+    Monster Name: Cruel Friend
+    Level: '319'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 319
+    boss: false
+    aggressive: false
+- area_occurrence_id: cogsville__undead-friend__t001r0010
+  name_raw: Undead Friend
+  level_raw: '319'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_undead-friend.html
+  row_raw:
+    Monster Name: Undead Friend
+    Level: '319'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 319
+    boss: false
+    aggressive: false
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Husky Cowboy
+  - '320'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - '?'
+  - '321'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

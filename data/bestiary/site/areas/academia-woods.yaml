@@ -1,0 +1,234 @@
+area:
+  id: academia-woods
+  name_raw: Academia Woods
+  source:
+    origin_url: https://angels.wikidot.com/area:academia-woods
+    retrieval_url: https://www.aowiki.uk/pages/area_academia-woods.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 4efa147451fa669898bcb8a345ac9186f2b0c325706cdf510f57fe8bfcd49f8d
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: academia-woods__peamo__t001r0001
+  name_raw: Peamo
+  level_raw: '251'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_peamo.html
+  row_raw:
+    Monster Name: Peamo
+    Level: '251'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 251
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__peapo__t001r0002
+  name_raw: Peapo
+  level_raw: '251'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_peapo.html
+  row_raw:
+    Monster Name: Peapo
+    Level: '251'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 251
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__pulp-shredder__t001r0003
+  name_raw: Pulp Shredder
+  level_raw: '253'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_pulp-shredder.html
+  row_raw:
+    Monster Name: Pulp Shredder
+    Level: '253'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 253
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__papy-shredder__t001r0004
+  name_raw: Papy Shredder
+  level_raw: '253'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_papy-shredder.html
+  row_raw:
+    Monster Name: Papy Shredder
+    Level: '253'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 253
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__rubiks-keel__t001r0005
+  name_raw: Rubiks Keel
+  level_raw: '255'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rubiks-keel.html
+  row_raw:
+    Monster Name: Rubiks Keel
+    Level: '255'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 255
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__rubiks-die__t001r0006
+  name_raw: Rubiks Die
+  level_raw: '255'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rubiks-die.html
+  row_raw:
+    Monster Name: Rubiks Die
+    Level: '255'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 255
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__larkspa__t001r0007
+  name_raw: Larkspa
+  level_raw: '257'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_larkspa.html
+  row_raw:
+    Monster Name: Larkspa
+    Level: '257'
+    Boss: 'No'
+    Aggressive: 'Yes'
+  normalized:
+    level: 257
+    boss: false
+    aggressive: true
+- area_occurrence_id: academia-woods__aloevera__t001r0008
+  name_raw: Aloevera
+  level_raw: '257'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_aloevera.html
+  row_raw:
+    Monster Name: Aloevera
+    Level: '257'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 257
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__cheery-charlie__t001r0009
+  name_raw: Cheery Charlie
+  level_raw: '259'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cheery-charlie.html
+  row_raw:
+    Monster Name: Cheery Charlie
+    Level: '259'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 259
+    boss: false
+    aggressive: false
+- area_occurrence_id: academia-woods__chill-collin__t001r0010
+  name_raw: Chill Collin
+  level_raw: '259'
+  boss_raw: 'No'
+  aggressive_raw: 'No'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_chill-collin.html
+  row_raw:
+    Monster Name: Chill Collin
+    Level: '259'
+    Boss: 'No'
+    Aggressive: 'No'
+  normalized:
+    level: 259
+    boss: false
+    aggressive: false
+drops:
+- drop_id: academia-woods__t004r0001
+  monster_name_raw: Peapo
+  item_name_raw: Mech Militia Gauntlets
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Peapo
+    Item: Mech Militia Gauntlets
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+- drop_id: academia-woods__t004r0002
+  monster_name_raw: Peapo
+  item_name_raw: GoodMech Militia Gauntlets
+  drop_share_raw: '?'
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Peapo
+    Item: GoodMech Militia Gauntlets
+    Drop Share: '?'
+    Qty: '1'
+  normalized:
+    drop_share_percent: null
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Elite - Peamo
+  - '260'
+  - 'No'
+  - 'No'
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - El Pearoll
+  - '261'
+  - 'Yes'
+  - 'No'
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1

@@ -1,0 +1,1667 @@
+area:
+  id: lava-cave
+  name_raw: Lava Cave
+  source:
+    origin_url: https://angels.wikidot.com/area:lava-cave
+    retrieval_url: https://www.aowiki.uk/pages/area_lava-cave.html
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+    source_html_sha256: 51ccaf7e5e482e4659c0d76cc6fb0ea9e980a8b59dfbc710f8de706acb9b73ce
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+monsters:
+- area_occurrence_id: lava-cave__theurgy-master__t004r0001
+  name_raw: Theurgy Master
+  level_raw: '55'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_theurgy-master.html
+  row_raw:
+    Monster Name: Theurgy Master
+    Level: '55'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 55
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__gold-fly__t004r0002
+  name_raw: Gold Fly
+  level_raw: '60'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_gold-fly.html
+  row_raw:
+    Monster Name: Gold Fly
+    Level: '60'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 60
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__rock-slarm__t004r0003
+  name_raw: Rock Slarm
+  level_raw: '63'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_rock-slarm.html
+  row_raw:
+    Monster Name: Rock Slarm
+    Level: '63'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 63
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__terra-lampman__t004r0004
+  name_raw: Terra Lampman
+  level_raw: '65'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_terra-lampman.html
+  row_raw:
+    Monster Name: Terra Lampman
+    Level: '65'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 65
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__evil-flower__t004r0005
+  name_raw: Evil Flower
+  level_raw: '68'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_evil-flower.html
+  row_raw:
+    Monster Name: Evil Flower
+    Level: '68'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 68
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__flame-mummy__t004r0006
+  name_raw: Flame Mummy
+  level_raw: '70'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flame-mummy.html
+  row_raw:
+    Monster Name: Flame Mummy
+    Level: '70'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__fire-fly__t004r0007
+  name_raw: Fire Fly
+  level_raw: '73'
+  boss_raw: 'No'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_fire-fly.html
+  row_raw:
+    Monster Name: Fire Fly
+    Level: '73'
+    Boss?: 'No'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 73
+    boss: false
+    aggressive: true
+- area_occurrence_id: lava-cave__flame-elf__t004r0008
+  name_raw: Flame Elf
+  level_raw: '65'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_flame-elf.html
+  row_raw:
+    Monster Name: Flame Elf
+    Level: '65'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 65
+    boss: true
+    aggressive: true
+- area_occurrence_id: lava-cave__giant-rotten-fly__t004r0009
+  name_raw: Giant Rotten Fly
+  level_raw: '70'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_giant-rotten-fly.html
+  row_raw:
+    Monster Name: Giant Rotten Fly
+    Level: '70'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 70
+    boss: true
+    aggressive: true
+- area_occurrence_id: lava-cave__cuss-fire-lord__t004r0010
+  name_raw: Cuss Fire Lord
+  level_raw: '75'
+  boss_raw: 'Yes'
+  aggressive_raw: 'Yes'
+  monster_detail_retrieval_url: https://www.aowiki.uk/pages/monster_cuss-fire-lord.html
+  row_raw:
+    Monster Name: Cuss Fire Lord
+    Level: '75'
+    Boss?: 'Yes'
+    Aggressive?: 'Yes'
+    ? ''
+    : ''
+  normalized:
+    level: 75
+    boss: true
+    aggressive: true
+drops:
+- drop_id: lava-cave__t006r0001
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Thunder Spear
+  drop_share_raw: 1.2700%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Thunder Spear
+    Drop Share: 1.2700%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.27
+    quantity: 1
+- drop_id: lava-cave__t006r0002
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Thunder King
+  drop_share_raw: 0.0053%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Thunder King
+    Drop Share: 0.0053%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0053
+    quantity: 1
+- drop_id: lava-cave__t006r0003
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Shining Charm V
+  drop_share_raw: 0.0053%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Shining Charm V
+    Drop Share: 0.0053%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0053
+    quantity: 1
+- drop_id: lava-cave__t006r0004
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Dida Cayman Robot
+  drop_share_raw: 0.0026%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Dida Cayman Robot
+    Drop Share: 0.0026%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0026
+    quantity: 1
+- drop_id: lava-cave__t006r0005
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Reborn Sword
+  drop_share_raw: 0.0159%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Reborn Sword
+    Drop Share: 0.0159%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0159
+    quantity: 1
+- drop_id: lava-cave__t006r0006
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Energy Boots
+  drop_share_raw: 0.0159%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Energy Boots
+    Drop Share: 0.0159%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0159
+    quantity: 1
+- drop_id: lava-cave__t006r0007
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Pestle
+  drop_share_raw: 0.4414%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Pestle
+    Drop Share: 0.4414%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4414
+    quantity: 1
+- drop_id: lava-cave__t006r0008
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0800%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Map Piece
+    Drop Share: 0.0800%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.08
+    quantity: 1
+- drop_id: lava-cave__t006r0009
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Medium Agility Potion
+  drop_share_raw: 48.6533%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Medium Agility Potion
+    Drop Share: 48.6533%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 48.6533
+    quantity: 1
+- drop_id: lava-cave__t006r0010
+  monster_name_raw: Cuss Fire Lord
+  item_name_raw: Medium Mars' Fruit
+  drop_share_raw: 49.0342%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Cuss Fire Lord
+    Item: Medium Mars' Fruit
+    Drop Share: 49.0342%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 49.0342
+    quantity: 1
+- drop_id: lava-cave__t006r0011
+  monster_name_raw: Evil Flower
+  item_name_raw: Energy Cuffs
+  drop_share_raw: 0.0291%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Energy Cuffs
+    Drop Share: 0.0291%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0291
+    quantity: 1
+- drop_id: lava-cave__t006r0012
+  monster_name_raw: Evil Flower
+  item_name_raw: Sound Gloves
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Sound Gloves
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0013
+  monster_name_raw: Evil Flower
+  item_name_raw: Dida Cayman Robot
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Dida Cayman Robot
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0014
+  monster_name_raw: Evil Flower
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0008%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Hermit Boots
+    Drop Share: 0.0008%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0008
+    quantity: 1
+- drop_id: lava-cave__t006r0015
+  monster_name_raw: Evil Flower
+  item_name_raw: Clean Sapphire
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Clean Sapphire
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0016
+  monster_name_raw: Evil Flower
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0242%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Map Piece
+    Drop Share: 0.0242%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0242
+    quantity: 1
+- drop_id: lava-cave__t006r0017
+  monster_name_raw: Evil Flower
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Anchoret Boots
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: lava-cave__t006r0018
+  monster_name_raw: Evil Flower
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Thunder Spear
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: lava-cave__t006r0019
+  monster_name_raw: Evil Flower
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0011%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Benison Ring
+    Drop Share: 0.0011%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0011
+    quantity: 1
+- drop_id: lava-cave__t006r0020
+  monster_name_raw: Evil Flower
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0006%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Evil Flower
+    Item: Heart Hit 5
+    Drop Share: 0.0006%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0006
+    quantity: 1
+- drop_id: lava-cave__t006r0021
+  monster_name_raw: Fire Fly
+  item_name_raw: Hunter Cuffs
+  drop_share_raw: 0.0118%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Hunter Cuffs
+    Drop Share: 0.0118%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0118
+    quantity: 1
+- drop_id: lava-cave__t006r0022
+  monster_name_raw: Fire Fly
+  item_name_raw: Forest Cuffs
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Forest Cuffs
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: lava-cave__t006r0023
+  monster_name_raw: Fire Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0049%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Map Piece
+    Drop Share: 0.0049%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0049
+    quantity: 1
+- drop_id: lava-cave__t006r0024
+  monster_name_raw: Fire Fly
+  item_name_raw: Fire Fly Card
+  drop_share_raw: 0.0139%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Fire Fly
+    Item: Fire Fly Card
+    Drop Share: 0.0139%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0139
+    quantity: 1
+- drop_id: lava-cave__t006r0025
+  monster_name_raw: Flame Elf
+  item_name_raw: Fire Guard Cuffs
+  drop_share_raw: 2.5900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Fire Guard Cuffs
+    Drop Share: 2.5900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 2.59
+    quantity: 1
+- drop_id: lava-cave__t006r0026
+  monster_name_raw: Flame Elf
+  item_name_raw: Knight Cuffs
+  drop_share_raw: 0.0216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Knight Cuffs
+    Drop Share: 0.0216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0216
+    quantity: 1
+- drop_id: lava-cave__t006r0027
+  monster_name_raw: Flame Elf
+  item_name_raw: Frozen Trap V
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Frozen Trap V
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: lava-cave__t006r0028
+  monster_name_raw: Flame Elf
+  item_name_raw: Accurate Song V
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Accurate Song V
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: lava-cave__t006r0029
+  monster_name_raw: Flame Elf
+  item_name_raw: Repair Duck Robot
+  drop_share_raw: 0.0108%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Repair Duck Robot
+    Drop Share: 0.0108%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0108
+    quantity: 1
+- drop_id: lava-cave__t006r0030
+  monster_name_raw: Flame Elf
+  item_name_raw: Energy Cuffs
+  drop_share_raw: 0.1297%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Energy Cuffs
+    Drop Share: 0.1297%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.1297
+    quantity: 1
+- drop_id: lava-cave__t006r0031
+  monster_name_raw: Flame Elf
+  item_name_raw: Clean Ruby
+  drop_share_raw: 0.0107%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Clean Ruby
+    Drop Share: 0.0107%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0107
+    quantity: 1
+- drop_id: lava-cave__t006r0032
+  monster_name_raw: Flame Elf
+  item_name_raw: Pestle
+  drop_share_raw: 0.2934%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Pestle
+    Drop Share: 0.2934%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.2934
+    quantity: 1
+- drop_id: lava-cave__t006r0033
+  monster_name_raw: Flame Elf
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Map Piece
+    Drop Share: 0.3200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.32
+    quantity: 1
+- drop_id: lava-cave__t006r0034
+  monster_name_raw: Flame Elf
+  item_name_raw: Medium Mighty Fruit
+  drop_share_raw: 47.8751%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Medium Mighty Fruit
+    Drop Share: 47.8751%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.8751
+    quantity: 1
+- drop_id: lava-cave__t006r0035
+  monster_name_raw: Flame Elf
+  item_name_raw: Medium Agility Potion
+  drop_share_raw: 46.3189%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Medium Agility Potion
+    Drop Share: 46.3189%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 46.3189
+    quantity: 1
+- drop_id: lava-cave__t006r0036
+  monster_name_raw: Flame Elf
+  item_name_raw: Flame Elf Card
+  drop_share_raw: 0.4629%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Elf
+    Item: Flame Elf Card
+    Drop Share: 0.4629%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.4629
+    quantity: 1
+- drop_id: lava-cave__t006r0037
+  monster_name_raw: Flame Mummy
+  item_name_raw: Fire Guard Cuffs
+  drop_share_raw: 0.0313%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Fire Guard Cuffs
+    Drop Share: 0.0313%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0313
+    quantity: 1
+- drop_id: lava-cave__t006r0038
+  monster_name_raw: Flame Mummy
+  item_name_raw: Knight Cuffs
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Knight Cuffs
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: lava-cave__t006r0039
+  monster_name_raw: Flame Mummy
+  item_name_raw: Stiff Beetle
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Stiff Beetle
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0040
+  monster_name_raw: Flame Mummy
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0009%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Hermit Boots
+    Drop Share: 0.0009%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0009
+    quantity: 1
+- drop_id: lava-cave__t006r0041
+  monster_name_raw: Flame Mummy
+  item_name_raw: Clean Purple Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Clean Purple Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0042
+  monster_name_raw: Flame Mummy
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0261%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Flame Mummy
+    Item: Map Piece
+    Drop Share: 0.0261%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0261
+    quantity: 1
+- drop_id: lava-cave__t006r0043
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Shake Axe
+  drop_share_raw: 1.5650%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Shake Axe
+    Drop Share: 1.5650%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.565
+    quantity: 1
+- drop_id: lava-cave__t006r0044
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Benison Ring
+  drop_share_raw: 1.5650%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Benison Ring
+    Drop Share: 1.5650%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 1.565
+    quantity: 1
+- drop_id: lava-cave__t006r0045
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Nemesis Axe
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Nemesis Axe
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: lava-cave__t006r0046
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Angel's Blessing
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Angel's Blessing
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: lava-cave__t006r0047
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Silver Shield 5
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Silver Shield 5
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: lava-cave__t006r0048
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Shaking Beat V
+  drop_share_raw: 0.0130%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Shaking Beat V
+    Drop Share: 0.0130%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.013
+    quantity: 1
+- drop_id: lava-cave__t006r0049
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Pestle
+  drop_share_raw: 0.3599%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Pestle
+    Drop Share: 0.3599%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.3599
+    quantity: 1
+- drop_id: lava-cave__t006r0050
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.3900%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Map Piece
+    Drop Share: 0.3900%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.39
+    quantity: 1
+- drop_id: lava-cave__t006r0051
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Medium Target Potion
+  drop_share_raw: 47.7991%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Medium Target Potion
+    Drop Share: 47.7991%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7991
+    quantity: 1
+- drop_id: lava-cave__t006r0052
+  monster_name_raw: Giant Rotten Fly
+  item_name_raw: Medium Mars' Fruit
+  drop_share_raw: 47.7991%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Giant Rotten Fly
+    Item: Medium Mars' Fruit
+    Drop Share: 47.7991%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 47.7991
+    quantity: 1
+- drop_id: lava-cave__t006r0053
+  monster_name_raw: Gold Fly
+  item_name_raw: Giant Bow
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Giant Bow
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: lava-cave__t006r0054
+  monster_name_raw: Gold Fly
+  item_name_raw: Staff
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Staff
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: lava-cave__t006r0055
+  monster_name_raw: Gold Fly
+  item_name_raw: Silver-Edged Javelin
+  drop_share_raw: 0.0120%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Silver-Edged Javelin
+    Drop Share: 0.0120%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.012
+    quantity: 1
+- drop_id: lava-cave__t006r0056
+  monster_name_raw: Gold Fly
+  item_name_raw: Elf Wings
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Elf Wings
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0057
+  monster_name_raw: Gold Fly
+  item_name_raw: Angel's Blessing
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Angel's Blessing
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0058
+  monster_name_raw: Gold Fly
+  item_name_raw: Saw Spear
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Saw Spear
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0059
+  monster_name_raw: Gold Fly
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0598%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Map Piece
+    Drop Share: 0.0598%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0598
+    quantity: 1
+- drop_id: lava-cave__t006r0060
+  monster_name_raw: Gold Fly
+  item_name_raw: Gold Fly Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Gold Fly Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: lava-cave__t006r0061
+  monster_name_raw: Gold Fly
+  item_name_raw: Mue Duck Robot
+  drop_share_raw: 0.0000%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Mue Duck Robot
+    Drop Share: 0.0000%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0
+    quantity: 1
+- drop_id: lava-cave__t006r0062
+  monster_name_raw: Gold Fly
+  item_name_raw: Fire Scale Cuffs
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Fire Scale Cuffs
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0063
+  monster_name_raw: Gold Fly
+  item_name_raw: Hunter Boots
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Gold Fly
+    Item: Hunter Boots
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0064
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Armor
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Armor
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: lava-cave__t006r0065
+  monster_name_raw: Rock Slarm
+  item_name_raw: Anchoret Armor
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Anchoret Armor
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0066
+  monster_name_raw: Rock Slarm
+  item_name_raw: Circus Elephant
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Circus Elephant
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0067
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Helmet
+  drop_share_raw: 0.0007%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Helmet
+    Drop Share: 0.0007%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0007
+    quantity: 1
+- drop_id: lava-cave__t006r0068
+  monster_name_raw: Rock Slarm
+  item_name_raw: Clean Yellow Gem
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Clean Yellow Gem
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0069
+  monster_name_raw: Rock Slarm
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0200%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Map Piece
+    Drop Share: 0.0200%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.02
+    quantity: 1
+- drop_id: lava-cave__t006r0070
+  monster_name_raw: Rock Slarm
+  item_name_raw: Light Necklace
+  drop_share_raw: 0.0127%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Light Necklace
+    Drop Share: 0.0127%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0127
+    quantity: 1
+- drop_id: lava-cave__t006r0071
+  monster_name_raw: Rock Slarm
+  item_name_raw: Heaven Light
+  drop_share_raw: 0.0001%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Heaven Light
+    Drop Share: 0.0001%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0001
+    quantity: 1
+- drop_id: lava-cave__t006r0072
+  monster_name_raw: Rock Slarm
+  item_name_raw: Rock Slarm Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Rock Slarm Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+- drop_id: lava-cave__t006r0073
+  monster_name_raw: Rock Slarm
+  item_name_raw: Fire Guard Boots
+  drop_share_raw: 0.0240%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Fire Guard Boots
+    Drop Share: 0.0240%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.024
+    quantity: 1
+- drop_id: lava-cave__t006r0074
+  monster_name_raw: Rock Slarm
+  item_name_raw: Knight Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Knight Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0075
+  monster_name_raw: Rock Slarm
+  item_name_raw: Hermit Cuffs
+  drop_share_raw: 0.0003%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Rock Slarm
+    Item: Hermit Cuffs
+    Drop Share: 0.0003%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0003
+    quantity: 1
+- drop_id: lava-cave__t006r0076
+  monster_name_raw: Terra Lampman
+  item_name_raw: Hermit Boots
+  drop_share_raw: 0.0259%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Hermit Boots
+    Drop Share: 0.0259%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0259
+    quantity: 1
+- drop_id: lava-cave__t006r0077
+  monster_name_raw: Terra Lampman
+  item_name_raw: Anchoret Boots
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Anchoret Boots
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0078
+  monster_name_raw: Terra Lampman
+  item_name_raw: Heart Hit 5
+  drop_share_raw: 0.0002%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Heart Hit 5
+    Drop Share: 0.0002%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0002
+    quantity: 1
+- drop_id: lava-cave__t006r0079
+  monster_name_raw: Terra Lampman
+  item_name_raw: Thunder Spear
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Thunder Spear
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lava-cave__t006r0080
+  monster_name_raw: Terra Lampman
+  item_name_raw: Benison Ring
+  drop_share_raw: 0.0004%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Benison Ring
+    Drop Share: 0.0004%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0004
+    quantity: 1
+- drop_id: lava-cave__t006r0081
+  monster_name_raw: Terra Lampman
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0216%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Terra Lampman
+    Item: Map Piece
+    Drop Share: 0.0216%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0216
+    quantity: 1
+- drop_id: lava-cave__t006r0082
+  monster_name_raw: Theurgy Master
+  item_name_raw: Alchemic Cap
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Alchemic Cap
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: lava-cave__t006r0083
+  monster_name_raw: Theurgy Master
+  item_name_raw: Hard-leather Cap
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Hard-leather Cap
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: lava-cave__t006r0084
+  monster_name_raw: Theurgy Master
+  item_name_raw: Round Iron Helmet
+  drop_share_raw: 0.0098%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Round Iron Helmet
+    Drop Share: 0.0098%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0098
+    quantity: 1
+- drop_id: lava-cave__t006r0085
+  monster_name_raw: Theurgy Master
+  item_name_raw: Pearl Refining
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Pearl Refining
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: lava-cave__t006r0086
+  monster_name_raw: Theurgy Master
+  item_name_raw: Fighting Wings
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Fighting Wings
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: lava-cave__t006r0087
+  monster_name_raw: Theurgy Master
+  item_name_raw: Holy Alchemic Cap
+  drop_share_raw: 0.0005%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Holy Alchemic Cap
+    Drop Share: 0.0005%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0005
+    quantity: 1
+- drop_id: lava-cave__t006r0088
+  monster_name_raw: Theurgy Master
+  item_name_raw: Lion Shield
+  drop_share_raw: 0.0016%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Lion Shield
+    Drop Share: 0.0016%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0016
+    quantity: 1
+- drop_id: lava-cave__t006r0089
+  monster_name_raw: Theurgy Master
+  item_name_raw: Map Piece
+  drop_share_raw: 0.0488%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Map Piece
+    Drop Share: 0.0488%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0488
+    quantity: 1
+- drop_id: lava-cave__t006r0090
+  monster_name_raw: Theurgy Master
+  item_name_raw: Theurgy Master Card
+  drop_share_raw: 0.0208%
+  quantity_raw: '1'
+  rate_semantic: zone_drop_share
+  monster_links: []
+  item_links: []
+  row_raw:
+    Monster: Theurgy Master
+    Item: Theurgy Master Card
+    Drop Share: 0.0208%
+    Qty: '1'
+  normalized:
+    drop_share_percent: 0.0208
+    quantity: 1
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 10
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 90
