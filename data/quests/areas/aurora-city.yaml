@@ -1,0 +1,271 @@
+schema_version: 1
+dataset: quests
+area:
+  id: aurora-city
+  name: Aurora City
+  region: Aurora City
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:aurora-city
+  asmodeum_directory: https://angels.wikidot.com/directory:asmodeum
+  looking_for_spy_angel: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
+asmodeum_quest_refs:
+  - asmodeum-aurora-reaching-higher-level
+  - asmodeum-aurora-looking-for-spy-angel
+quests:
+  - id: aurora-city-knowing-aurora-city
+    name: Knowing Aurora City
+    repeatable: false
+    category: single
+    giver: null
+    requirements:
+      prerequisite_quests: [angel-lyceum-register-at-aurora-city-angel]
+    rewards: {experience: 100, credit: 5}
+    objectives:
+      - {type: talk, target: Explorer Lim, area: Aurora City, coordinates: null}
+    walkthrough:
+      - After registering with the Aurora City Angel, find and speak with Explorer Lim in Aurora City.
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-inexperience
+    name: Inexperience
+    repeatable: false
+    category: single
+    giver: null
+    requirements:
+      prerequisite_quests: [aurora-city-knowing-aurora-city]
+    rewards: {experience: 100, credit: 5}
+    objectives:
+      - {type: talk, target: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    walkthrough:
+      - Complete Knowing Aurora City.
+      - Speak with the Guard Captain at (156,114).
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-killing-mice
+    name: Killing mice
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 10, max: 14}}
+    rewards: {experience: 600, credit: 10, gold: 200}
+    objectives: [{type: kill, target: Field Mouse, count: 30, area: Spike Farm}]
+    walkthrough:
+      - Take the quest from the Guard Captain at (156,114).
+      - Travel to Spike Farm and defeat 30 Field Mice.
+      - Return to the Guard Captain in Aurora City.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-seizing-jackstraw-mige
+    name: Seizing Jackstraw Mige
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 10, max: 14}}
+    rewards: {experience: 1200, credit: 30, gold: 800}
+    objectives: [{type: kill, target: Jackstraw Mige, count: 1, area: Spike Farm, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Travel to Spike Farm and defeat Jackstraw Mige.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-seizing-pumpkin-banni
+    name: Seizing Pumpkin Banni
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 10, max: 14}}
+    rewards: {experience: 1200, credit: 30, gold: 800}
+    objectives: [{type: kill, target: Pumpkin Banni, count: 1, area: Spike Farm, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Travel to Spike Farm and defeat Pumpkin Banni.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-stopping-trick
+    name: Stopping trick
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 15, max: 19}}
+    rewards: {experience: 700, credit: 15, gold: 250}
+    objectives: [{type: kill, target: Magic Pumpkinman, count: 30, area: Sunflower Plain}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Magic Pumpkinmen in Sunflower Plain.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-riverside-clearance
+    name: Riverside clearance
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 15, max: 19}}
+    rewards: {experience: 700, credit: 15, gold: 250}
+    objectives: [{type: kill, target: Evil Slarm, count: 30, area: Sunflower Plain}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Evil Slarms in Sunflower Plain.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-evil-pluto
+    name: Evil Pluto
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 15, max: 19}}
+    rewards: {experience: 1400, credit: 45, gold: 910}
+    objectives: [{type: kill, target: Pumpkin Pluto, count: 1, area: Sunflower Plain, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Pumpkin Pluto in Sunflower Plain.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-reason-for-being-dirty
+    name: Reason for being dirty
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 24}}
+    rewards: {experience: 850, credit: 18, gold: 270}
+    objectives: [{type: kill, target: Grey Mouse, count: 30, area: Dawn Harbor}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Grey Mice in Dawn Harbor.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-ruffian-of-harbor
+    name: Ruffian of harbor
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 24}}
+    rewards: {experience: 1700, credit: 55, gold: 1100}
+    objectives: [{type: kill, target: Mousekin Mickey, count: 1, area: Dawn Harbor, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Mousekin Mickey in Dawn Harbor.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-creature-from-golden-island
+    name: Creature from Golden Island
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 24}}
+    rewards: {experience: 1700, credit: 55, gold: 1100}
+    objectives: [{type: kill, target: Golden Crab, count: 1, area: Dawn Harbor, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Golden Crab in Dawn Harbor.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-seizing-riprap-pirate
+    name: Seizing Riprap Pirate
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 25, max: 29}}
+    rewards: {experience: 950, credit: 20, gold: 310}
+    objectives: [{type: kill, target: Riprap Pirate, count: 30, area: Riprap Coast}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Riprap Pirates at Riprap Coast.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-seizing-riprap-pirate-leader
+    name: Seizing Riprap Pirate Leader
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 25, max: 29}}
+    rewards: {experience: 950, credit: 20, gold: 310}
+    objectives: [{type: kill, target: Piratekin, count: 30, area: Riprap Coast}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Piratekins at Riprap Coast.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-seizing-sheep-music
+    name: Seizing Sheep Music
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 25, max: 29}}
+    rewards: {experience: 1900, credit: 65, gold: 1240}
+    objectives: [{type: kill, target: Sheep Music, count: 1, area: Riprap Coast, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Sheep Music at Riprap Coast.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-bloody-spine
+    name: Bloody spine
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 30, max: null}}
+    rewards: {experience: 1080, credit: 25, gold: 350}
+    objectives: [{type: kill, target: Spine Turtle, count: 30, area: Cherry Village}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat 30 Spine Turtles in Cherry Village.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-coastal-devil
+    name: Coastal devil
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 30, max: null}}
+    rewards: {experience: 1400, credit: 75, gold: 2160}
+    objectives: [{type: kill, target: Evil Crab, count: 1, area: Cherry Village, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Evil Crab in Cherry Village.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+
+  - id: aurora-city-giant
+    name: Giant
+    repeatable: true
+    category: repeatable
+    giver: {npc: Guard Captain, area: Aurora City, coordinates: [156, 114]}
+    requirements: {factions: [Aurora], level: {min: 30, max: null}}
+    rewards: {experience: 1400, credit: 75, gold: 2160}
+    objectives: [{type: kill, target: Blue Potec, count: 1, area: Cherry Village, boss: true}]
+    walkthrough:
+      - Take the quest from the Guard Captain.
+      - Defeat Blue Potec in Cherry Village.
+      - Return to the Guard Captain.
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
