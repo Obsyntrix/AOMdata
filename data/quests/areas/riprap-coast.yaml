@@ -1,0 +1,61 @@
+schema_version: 1
+dataset: quests
+area: {id: riprap-coast, name: Riprap Coast, region: Aurora City}
+research_status: partial_secondary_reconstruction
+retrieved_on: 2026-08-25
+sources:
+  area_directory: https://angels.wikidot.com/directory:areas
+  cherry_village_area: https://angels.wikidot.com/area:cherry-village
+  dawn_harbor_area: https://angels.wikidot.com/area:dawn-harbor
+  secondary_aurora_guide: https://ao-q.blogspot.com/2012/06/aurora-quests.html
+source_notes:
+  - The Wikidot directory documents Riprap Coast as having one single quest and two quest-series entries, but the Riprap area page was not retrievable in this research pass.
+  - The 2012 Aurora quest guide is used only to reconstruct otherwise missing steps and is explicitly lower-confidence than direct target-client evidence.
+asmodeum_quest_refs:
+  - asmodeum-aurora-obtaining-asmodes-trust
+quests:
+  - id: riprap-coast-karters-planning-book
+    name: Karter's Planning Book
+    repeatable: false
+    category: single
+    giver: null
+    requirements: {factions: [Aurora]}
+    rewards: {}
+    objectives:
+      - {type: obtain, item: Karter's Planning Book, area: Riprap Coast, coordinates: [190, 36]}
+      - {type: obtain, item: "Bonny's quest item", exact_item_name: null}
+      - {type: talk, target: Sailor Bonny, area: Dawn Harbor, coordinates: [257, 111]}
+      - {type: talk, target: Sailor Karter, area: Dawn Harbor, coordinates: [269, 76]}
+    walkthrough:
+      - Find the planning book at approximately (190,36) according to the secondary Aurora guide.
+      - Obtain the additional item associated with Bonny; the guide's item name is garbled and is therefore not normalized as fact.
+      - Speak with Sailor Bonny at (257,111) in Dawn Harbor.
+      - Hand the result to Sailor Karter at (269,76).
+    notes:
+      - Dawn Harbor's Wikidot NPC table independently confirms that Sailor Bonny and Sailor Karter participate in Karter's Planning Book.
+      - Reward and exact quest giver are not documented by the available sources.
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [dawn_harbor_area, secondary_aurora_guide]
+  - id: riprap-coast-unknown-brilliant-necklace
+    name: Unknown Brilliant Necklace
+    repeatable: false
+    category: series
+    series: {name: Countrylady family series, position: 1, total: 3, next: cherry-village-whether-husband-is-alive-or-dead}
+    giver: null
+    requirements: {factions: [Aurora]}
+    rewards: {}
+    objectives:
+      - {type: collect_drop, target: Piratekin, item: Broken Necklace, count: 1, area: Riprap Coast, drop_rate: null}
+      - {type: talk, target: Countrylady, area: Cherry Village, coordinates: [186, 74], item_delivery: Broken Necklace}
+    walkthrough:
+      - Defeat Piratekin at Riprap Coast until a Broken Necklace is obtained.
+      - Take the necklace to the Countrylady in Cherry Village. The Wikidot NPC table places her at (186,74).
+    notes:
+      - Cherry Village's primary area page independently confirms Unknown Brilliant Necklace is the prerequisite to Whether Husband Is Alive or Dead and that the Countrylady participates in it.
+      - The exact start trigger/giver and reward are not documented in the currently retrieved primary pages.
+    verification:
+      status: web_partial
+      client_confirmation: pending
+      conflicts:
+        - {field: objectives.countrylady.coordinates, values: [[186, 74], [187, 75]], reason: Wikidot area page and secondary guide differ by one tile; primary Wikidot coordinates retained for navigation.}
+    source_refs: [cherry_village_area, secondary_aurora_guide]
