@@ -1,0 +1,66 @@
+schema_version: 1
+dataset: quests
+area: {id: burning-desert, name: Burning Desert, region: Iron Castle}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:burning-desert
+  retrieval_mirror: https://www.aowiki.uk/pages/area_burning-desert.html
+asmodeum_quest_refs: [asmodeum-steel-are-you-evil-enough, asmodeum-steel-magic-stone]
+series_quest_refs: [steel-rotten-bird-research-make-hormone-potion, steel-rotten-bird-research-huge-rotten-bird]
+quests:
+  - {id: burning-desert-spirit-in-war, name: Spirit in War, repeatable: true, category: repeatable, giver: {npc: Chief, area: Burning Desert, coordinates: [166, 152]}, requirements: {factions: [Steel], level: {min: 20, max: 35}}, rewards: {experience: 600, credit: 30}, objectives: [{type: kill, target: Mummy Leader, count: 20, area: Burning Desert}], walkthrough: ["Speak with the Chief at (166,152).", "Defeat 20 Mummy Leaders.", "Return to the Chief."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-toxic-spider-in-desert, name: Toxic Spider in Desert, repeatable: true, category: repeatable, giver: {npc: Chief, area: Burning Desert, coordinates: [166, 152]}, requirements: {factions: [Steel], level: {min: 20, max: 35}}, rewards: {experience: 600, credit: 30}, objectives: [{type: kill, target: Toxic Spider, count: 20, area: Burning Desert}], walkthrough: ["Speak with the Chief.", "Defeat 20 Toxic Spiders.", "Return to the Chief."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-blood-sacrifice, name: Blood Sacrifice, repeatable: true, category: repeatable, giver: {npc: null, area: Burning Desert, trigger: Gravestone, coordinates: null}, requirements: {factions: [Steel], level: {min: 20, max: 35}}, rewards: {experience: 1700, credit: 50}, objectives: [{type: collect_drop, target: Gebuer, item: Gebuer Blood vial, count: 5, area: Gebuer Vale, drop_rate: null}], walkthrough: ["Start the quest from the Gravestone in Burning Desert.", "Travel to Gebuer Vale and defeat Gebuers until you collect 5 vials of Gebuer Blood.", "Return to the Gravestone/quest turn-in as directed."], notes: ["The source marks Steel faction with a question mark; faction requirement remains source-derived and pending client confirmation."], verification: {status: web_partial, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-winning-achievement, name: Winning Achievement, repeatable: true, category: repeatable, giver: {npc: General Allie, area: Burning Desert, coordinates: [37, 162]}, requirements: {factions: [Steel], level: {min: 20, max: 35}}, rewards: {experience: 670, credit: 35}, objectives: [{type: kill, target: Gebuer, count: 20, area: Gebuer Vale}], walkthrough: ["Speak with General Allie at (37,162).", "Travel to Gebuer Vale and defeat 20 Gebuers.", "Return to General Allie."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-collecting-serum, name: Collecting Serum, repeatable: false, category: single, giver: {npc: Surgeon, area: Burning Desert, coordinates: [175, 142]}, requirements: {factions: [Steel], level: {min: 20, max: null}}, rewards: {gold: 1200, experience: 1600, credit: 45}, objectives: [{type: collect_drop, target: Toxic Spider, item: Spider's Venom Sac, count: 5, area: Burning Desert, drop_rate: null}], walkthrough: ["Speak with the Surgeon at (175,142).", "Defeat Toxic Spiders until you collect 5 Spider's Venom Sacs.", "Return to the Surgeon."], notes: ["The area page explicitly warns to complete this before the Asmode quest path; Steel Asmode step 6 requires it for the Dog Tags interaction."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-detecting-fountain, name: Detecting Fountain, repeatable: false, category: series, series: {name: Gebuer proposal sequence, position: 1, total: 2, next: burning-desert-gebuers-proposal}, giver: {npc: Spy Sungier, area: Burning Desert, coordinates: [263, 167]}, requirements: {factions: [Steel]}, rewards: {experience: 400, credit: 65}, objectives: [{type: talk, target: Spy Lude, area: Gebuer Vale, coordinates: [82, 262]}], walkthrough: ["Speak with Spy Sungier at (263,167).", "Travel to Gebuer Vale and speak with Spy Lude at (82,262)."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: burning-desert-gebuers-proposal, name: Gebuer‘s Proposal, repeatable: false, category: series, series: {name: Gebuer proposal sequence, position: 2, total: 2, previous: burning-desert-detecting-fountain}, giver: {npc: Pestal Aider, area: Burning Desert, coordinates: [40, 163]}, requirements: {factions: [Steel], level: {min: 25, max: null}, prerequisite_quests: [burning-desert-detecting-fountain]}, rewards: {gold: 1500, experience: 2000, credit: 70}, objectives: [{type: collect_drop, target: Gebuer Cadre, item: Gebuer‘s Fighting Proposal, count: 1, area: Gebuer Vale, drop_rate: null}], walkthrough: ["Complete Detecting Fountain and speak with Pestal Aider at (40,163).", "Travel to Gebuer Vale and defeat Gebuer Cadres until the Gebuer's Fighting Proposal is obtained.", "Return as directed."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: burning-desert-missing-friend
+    name: Missing Friend
+    repeatable: false
+    category: series
+    series: {name: Dinot spider series, position: 1, total: 4, next: burning-desert-destroying-spider-eggs}
+    giver: {npc: Dinot, area: Burning Desert, coordinates: [145, 135]}
+    requirements: {factions: [Steel], level: {min: 20, max: null}}
+    rewards: {experience: 1600, credit: 50}
+    objectives: [{type: collect_drop, target: Toxic Spider, item: Takice's Bracer, count: 1, area: Burning Desert, drop_rate: null}]
+    walkthrough: ["Speak with Dinot at (145,135).", "Defeat Toxic Spiders until you recover Takice's Bracer.", "Return to Dinot."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: burning-desert-destroying-spider-eggs
+    name: Destroying Spider Eggs
+    repeatable: false
+    category: series
+    series: {name: Dinot spider series, position: 2, total: 4, previous: burning-desert-missing-friend, next: burning-desert-carrions-temptation}
+    giver: {npc: Dinot, area: Burning Desert, coordinates: [145, 135]}
+    requirements: {factions: [Steel], level: {min: 20, max: null}, prerequisite_quests: [burning-desert-missing-friend]}
+    rewards: {experience: 400, credit: 45}
+    objectives: [{type: interact, target: spider nests, area: Burning Desert, action: destroy the eggs by clicking the nests}]
+    walkthrough: ["Complete Missing Friend.", "Find the spider nests in Burning Desert and click them to destroy the eggs.", "Return to Dinot as directed."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: burning-desert-carrions-temptation
+    name: Carrion‘s Temptation
+    repeatable: false
+    category: series
+    series: {name: Dinot spider series, position: 3, total: 4, previous: burning-desert-destroying-spider-eggs, next: burning-desert-black-widow}
+    giver: {npc: Dinot, area: Burning Desert, coordinates: [145, 135]}
+    requirements: {factions: [Steel], level: {min: 20, max: null}, prerequisite_quests: [burning-desert-destroying-spider-eggs]}
+    rewards: {experience: 1600, credit: 60, items: [{name: Common Red Potion, count: 5}]}
+    objectives: [{type: collect_drop, target: Mummy Leader, item: Carrion, count: 3, area: Burning Desert, drop_rate: null}]
+    walkthrough: ["Complete Destroying Spider Eggs.", "Defeat Mummy Leaders until you collect 3 Carrion.", "Return to Dinot."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: burning-desert-black-widow
+    name: Black Widow
+    repeatable: false
+    category: series
+    series: {name: Dinot spider series, position: 4, total: 4, previous: burning-desert-carrions-temptation}
+    giver: {npc: Dinot, area: Burning Desert, coordinates: [145, 135]}
+    requirements: {factions: [Steel], level: {min: 20, max: null}, prerequisite_quests: [burning-desert-carrions-temptation]}
+    rewards: {experience: 2000, credit: 400, items: [{name: null}]}
+    objectives: [{type: kill, target: Black Widow, count: 1, area: Burning Desert, boss: true, summoned: true}]
+    walkthrough: ["Complete Carrion's Temptation.", "Perform the quest's summoning interaction to summon Black Widow.", "Defeat Black Widow and return to Dinot as directed."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
