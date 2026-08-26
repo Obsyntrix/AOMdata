@@ -1,0 +1,60 @@
+schema_version: 1
+dataset: quests
+series:
+  id: steel-rotten-bird-research
+  name: Steel Rotten Bird research sequence
+  type: cross_area_series
+  quest_count: 3
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  strange_black_feather: https://angels.wikidot.com/quest:strange-black-feather
+  make_hormone_potion: https://angels.wikidot.com/quest:make-hormone-potion
+  collecting_herbs: https://angels.wikidot.com/quest:collecting-herbs
+  huge_rotten_bird: https://angels.wikidot.com/quest:huge-rotten-bird
+quests:
+  - id: steel-rotten-bird-research-strange-black-feather
+    name: Strange Black Feather
+    repeatable: false
+    category: series
+    series: {name: Steel Rotten Bird research sequence, position: 1, total: 3, next: steel-rotten-bird-research-make-hormone-potion}
+    giver: {npc: null, area: Gebuer Vale, trigger: Rotten Bird Nest, coordinates: [188, 80]}
+    requirements: {factions: [Steel], prerequisite_quests: [burning-desert-gebuers-proposal]}
+    rewards: {experience: 400, credit: 30}
+    objectives:
+      - {type: interact, target: Rotten Bird Nest, area: Gebuer Vale, coordinates: [188, 80], item: Black Feather}
+      - {type: talk, target: Myth Scholar, area: Burning Desert, coordinates: [55, 166], item_delivery: Black Feather}
+    walkthrough: ["After Gebuer's Proposal, go to the Rotten Bird Nest at (188,80) in Gebuer Vale and click it to obtain a Black Feather.", "Take the feather to the Myth Scholar at (55,166) in Burning Desert."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [strange_black_feather]
+  - id: steel-rotten-bird-research-make-hormone-potion
+    name: Make Hormone Potion
+    aliases: [Collecting Herbs]
+    repeatable: false
+    category: series
+    series: {name: Steel Rotten Bird research sequence, position: 2, total: 3, previous: steel-rotten-bird-research-strange-black-feather, next: steel-rotten-bird-research-huge-rotten-bird}
+    giver: {npc: Myth Scholar, area: Burning Desert, coordinates: [55, 166]}
+    requirements: {factions: [Steel], level: {min: 25, max: null}, prerequisite_quests: [steel-rotten-bird-research-strange-black-feather]}
+    rewards: {gold: 1000, experience: 1200, credit: 75}
+    objectives:
+      - {type: collect_drop, target: Ball Lizardman, item: Lizardman‘s Tail, count: 10, area: Cactus Plain, drop_rate: null}
+      - {type: collect_drop, target: Gebuer, item: Gebuer's Tooth, count: 10, area: Gebuer Vale, drop_rate: null}
+    walkthrough: ["Speak with the Myth Scholar.", "Collect 10 Lizardman Tails from Ball Lizardmen in Cactus Plain.", "Collect 10 Gebuer Teeth from Gebuers in Gebuer Vale.", "Return the materials to the Myth Scholar."]
+    notes: ["The Burning Desert area table and one dedicated page call this Make Hormone Potion. Another dedicated page with the same chain position, requirements, objectives, and rewards is titled Collecting Herbs. Treated as one quest with a source alias pending client confirmation."]
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts: [{field: name, values: [Make Hormone Potion, Collecting Herbs], reason: Two wiki pages describe the same quest payload under different titles.}]
+    source_refs: [make_hormone_potion, collecting_herbs]
+  - id: steel-rotten-bird-research-huge-rotten-bird
+    name: Huge Rotten Bird
+    repeatable: false
+    category: series
+    series: {name: Steel Rotten Bird research sequence, position: 3, total: 3, previous: steel-rotten-bird-research-make-hormone-potion}
+    giver: {npc: Myth Scholar, area: Burning Desert, coordinates: [55, 166]}
+    requirements: {factions: [Steel], level: {min: 25, max: null}, prerequisite_quests: [steel-rotten-bird-research-make-hormone-potion]}
+    rewards: {experience: 2100, credit: 500, choose_one_item: [Jade Gloves, Shooter Gloves, Warrior Cuff]}
+    objectives: [{type: kill, target: Giant Bird, count: 1, area: Gebuer Vale, boss: true}]
+    walkthrough: ["Speak with the Myth Scholar after the hormone-potion quest.", "Travel to Gebuer Vale and defeat Giant Bird.", "Report back to the Myth Scholar in Burning Desert and choose one reward item."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [huge_rotten_bird]
