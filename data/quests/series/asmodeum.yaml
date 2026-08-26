@@ -1,0 +1,353 @@
+schema_version: 1
+dataset: quests
+series:
+  id: asmodeum
+  name: Asmodeum
+  type: faction_parallel_series
+  steps_per_faction: 8
+research_status: researched_from_directory_with_partial_dedicated_pages
+retrieved_on: 2026-08-25
+sources:
+  directory: https://angels.wikidot.com/directory:asmodeum
+  aurora_city_area: https://angels.wikidot.com/area:aurora-city
+  dawn_harbor_area: https://angels.wikidot.com/area:dawn-harbor
+  aurora_looking_for_spy_angel: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
+  beast_magic_stone: https://angels.wikidot.com/quest:beast-magic-stone
+  steel_magic_stone: https://angels.wikidot.com/quest:steel-magic-stone
+chains:
+  Aurora:
+    - id: asmodeum-aurora-reaching-higher-level
+      name: Reaching Higher Level
+      position: 1
+      giver: {npc: Aurora Angel, area: Aurora City, coordinates: [63, 161]}
+      requirements: {factions: [Aurora], level: {min: 20}, rank: {min: 2}, prerequisite_quests: [angel-lyceum-register-at-aurora-city-angel]}
+      rewards: {credit: 100}
+      objectives: [{type: reach_progression, level: 20, rank: 2}, {type: talk, target: Aurora Angel, area: Aurora City, coordinates: [63, 161]}]
+      walkthrough: ["Reach level 20 and Rank 2.", "Speak with the Aurora Angel in Aurora City."]
+      verification:
+        status: web_conflict
+        client_confirmation: pending
+        conflicts: [{field: rewards, values: [{credit: 100}, {experience: 100, credit: 5}], reason: Asmodeum directory and Aurora City area page disagree.}]
+      source_refs: [directory, aurora_city_area]
+    - id: asmodeum-aurora-looking-for-spy-angel
+      name: Looking for Spy Angel
+      position: 2
+      giver: {npc: Aurora Angel, area: Aurora City, coordinates: [63, 161]}
+      requirements: {factions: [Aurora], level: {min: 20}, rank: {min: 2}, prerequisite_quests: [asmodeum-aurora-reaching-higher-level]}
+      rewards: {experience: 200, credit: 25}
+      objectives: [{type: talk, target: Spy Angel, area: Dawn Harbor, coordinates: [70, 177]}]
+      walkthrough: ["After Reaching Higher Level, go to Dawn Harbor.", "Speak with the Spy Angel at (70,177)."]
+      verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+      source_refs: [directory, aurora_looking_for_spy_angel]
+    - id: asmodeum-aurora-showing-speed-and-destroying-force
+      name: Showing Speed and Destroying Force
+      position: 3
+      giver: {npc: Spy Angel, area: Dawn Harbor, coordinates: [70, 177]}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-looking-for-spy-angel]}
+      rewards: {experience: 1500, credit: 60, items: [{name: null}]}
+      objectives: [{type: kill, target: Grey Mouse, count: 50, area: Dawn Harbor}]
+      walkthrough: ["Speak with the Spy Angel in Dawn Harbor after Looking for Spy Angel.", "Defeat 50 Grey Mice.", "Return to the Spy Angel."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory, dawn_harbor_area]
+    - id: asmodeum-aurora-disguise
+      name: Disguise
+      position: 4
+      giver: {npc: Spy Angel, area: Dawn Harbor, coordinates: [70, 177]}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-showing-speed-and-destroying-force]}
+      rewards: {gold: 500, experience: 2000, credit: 80}
+      objectives: [{type: collect_drop, target: Piratekin, item: Secret Badge, count: 1, area: Riprap Coast, drop_rate: null}]
+      walkthrough: ["Take the quest from the Spy Angel.", "Go to Riprap Coast and defeat Piratekin until you obtain the Secret Badge.", "Return as directed by the quest chain."]
+      verification:
+        status: web_conflict
+        client_confirmation: pending
+        conflicts: [{field: rewards.experience, values: [2000, 100], reason: Asmodeum directory says 2000 EXP; Dawn Harbor area page says 100 EXP.}]
+      source_refs: [directory, dawn_harbor_area]
+    - id: asmodeum-aurora-obtaining-asmodes-trust
+      name: Obtaining Asmode's Trust
+      position: 5
+      giver: {npc: Spy Angel, area: Dawn Harbor, coordinates: [70, 177]}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-disguise]}
+      rewards: {experience: 400, credit: 35}
+      objectives: [{type: talk, target: Asmode, area: Riprap Coast, coordinates: null, item_delivery: Secret Badge}]
+      walkthrough: ["After obtaining the Secret Badge, take it to Asmode at Riprap Coast."]
+      verification:
+        status: web_conflict
+        client_confirmation: pending
+        conflicts: [{field: rewards.experience, values: [400, 200], reason: Asmodeum directory says 400 EXP; Dawn Harbor area page says 200 EXP.}]
+      source_refs: [directory, dawn_harbor_area]
+    - id: asmodeum-aurora-are-you-evil-enough
+      name: Are you Evil Enough?
+      position: 6
+      giver: {npc: Asmode, area: Cherry Village, coordinates: null}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-obtaining-asmodes-trust]}
+      rewards: {experience: 500, credit: 25}
+      objectives: [{type: talk, target: Spy Angel}, {type: talk, target: "Cherry's Leader", area: Cherry Village, coordinates: [235, 73]}, {type: obtain, item: Pearls, count: null}]
+      walkthrough: ["Speak with Asmode in Cherry Village.", "Follow his test by speaking with the Spy Angel and Cherry's Leader.", "Obtain the required Pearls and bring them back as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-aurora-magic-stone
+      name: Magic Stone
+      position: 7
+      giver: {npc: Asmode, area: Cherry Village, coordinates: null}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-are-you-evil-enough]}
+      rewards: {experience: 400, credit: 25}
+      objectives: [{type: interact, target: Statue, area: Cherry Village, coordinates: null, item: Magic Stone}]
+      walkthrough: ["Receive the Magic Stone from Asmode.", "Take it to the required statue in Cherry Village and use it to access Asmodeus's den."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-aurora-evil-student-union-leader
+      name: Evil Student Union Leader
+      position: 8
+      giver: {npc: null, area: Cherry Village, trigger: after touching the statue}
+      requirements: {factions: [Aurora], prerequisite_quests: [asmodeum-aurora-magic-stone]}
+      rewards: {experience: 5000, credit: 850, items: [{name: null}]}
+      objectives: [{type: kill, target: Asmodeus, count: 1, boss: true}]
+      walkthrough: ["Use the Magic Stone/statue route to enter the den.", "Defeat Asmodeus."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+
+  Beast:
+    - id: asmodeum-beast-reaching-higher-level
+      name: Reaching Higher Level
+      position: 1
+      giver: {npc: Breezewood Angel, area: Breeze Woods, coordinates: null}
+      requirements: {factions: [Beast], level: {min: 20}, rank: {min: 2}}
+      rewards: {credit: 100}
+      objectives: [{type: reach_progression, level: 20, rank: 2}, {type: talk, target: Breezewood Angel, area: Breeze Woods}]
+      walkthrough: ["Reach level 20 and Rank 2.", "Speak with the Breezewood Angel in Breeze Woods."]
+      verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-looking-for-spy-angel
+      name: Looking for Spy Angel
+      position: 2
+      giver: {npc: Breezewood Angel, area: Breeze Woods, coordinates: null}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-reaching-higher-level]}
+      rewards: {experience: 200, credit: 25}
+      objectives: [{type: talk, target: Spy Angel, area: Cryptic Moon Swamp, coordinates: null}]
+      walkthrough: ["Go to Cryptic Moon Swamp and speak with the Spy Angel."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-killing-marsh-frogs
+      name: Killing Marsh Frogs
+      position: 3
+      giver: {npc: Spy Angel, area: Cryptic Moon Swamp, coordinates: null}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-looking-for-spy-angel]}
+      rewards: {experience: 1500, credit: 60, items: [{name: null}]}
+      objectives: [{type: kill, target: Marsh Frog, count: 50, area: Cryptic Moon Swamp}]
+      walkthrough: ["Take the assignment from the Spy Angel.", "Defeat 50 Marsh Frogs.", "Return as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-disguise
+      name: Disguise
+      position: 4
+      giver: {npc: Spy Angel, area: Jade Vale, coordinates: null}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-killing-marsh-frogs]}
+      rewards: {gold: 500, experience: 2000, credit: 80}
+      objectives: [{type: collect_drop, target: Magic Eye Member, item: Secret Badge, count: 1, area: Jade Vale, drop_rate: null}]
+      walkthrough: ["Defeat Magic Eye Members in Jade Vale until you obtain a Secret Badge.", "Return as directed by the chain."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-obtaining-asmodes-trust
+      name: Obtaining Asmode's Trust
+      position: 5
+      giver: {npc: Spy Angel, area: Jade Vale, coordinates: null}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-disguise]}
+      rewards: {experience: 400, credit: 35}
+      objectives: [{type: talk, target: Asmode, area: Jade Vale, coordinates: null, item_delivery: Secret Badge}]
+      walkthrough: ["Take the Secret Badge to Asmode in Jade Vale."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-are-you-evil-enough
+      name: Are you Evil Enough?
+      position: 6
+      giver: {npc: Asmode, area: Jade Vale, coordinates: null}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-obtaining-asmodes-trust]}
+      rewards: {experience: 500, credit: 25}
+      objectives: [{type: talk, target: Spy Angel}, {type: talk, target: Archaeologist}, {type: obtain, item: Relic, count: null}]
+      walkthrough: ["Speak with Asmode.", "Speak with the Spy Angel and then the Archaeologist.", "Obtain the required Relic and bring it back as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-beast-magic-stone
+      name: Magic Stone
+      position: 7
+      giver: {npc: Asmode, area: Jade Vale, coordinates: [301, 72]}
+      requirements: {factions: [Beast], level: {min: 20}, rank: {min: 2}, prerequisite_quests: [asmodeum-beast-are-you-evil-enough]}
+      rewards: {experience: 400, credit: 25}
+      objectives: [{type: interact, target: monkey statue, area: Mysterious Garden, coordinates: [257, 26], item: Magic Stone}]
+      walkthrough: ["Receive the Magic Stone from Asmode at (301,72).", "Go to Mysterious Garden.", "Use the stone on the monkey statue at (257,26) to be transported into Asmode's Den."]
+      verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+      source_refs: [directory, beast_magic_stone]
+    - id: asmodeum-beast-evil-student-union-leader
+      name: Evil Student Union Leader
+      position: 8
+      giver: {npc: null, area: Mysterious Garden, trigger: after touching the statue}
+      requirements: {factions: [Beast], prerequisite_quests: [asmodeum-beast-magic-stone]}
+      rewards: {experience: 5000, credit: 850, items: [{name: null}]}
+      objectives: [{type: kill, target: Asmodeus, count: 1, boss: true}]
+      walkthrough: ["Enter Asmode's Den through the statue.", "Defeat Asmodeus."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+
+  Steel:
+    - id: asmodeum-steel-reaching-higher-level
+      name: Reaching Higher Level
+      position: 1
+      giver: {npc: IronCastle Angel, area: Iron Castle, coordinates: null}
+      requirements: {factions: [Steel], level: {min: 20}, rank: {min: 2}}
+      rewards: {credit: 100}
+      objectives: [{type: reach_progression, level: 20, rank: 2}, {type: talk, target: IronCastle Angel, area: Iron Castle}]
+      walkthrough: ["Reach level 20 and Rank 2.", "Speak with the IronCastle Angel in Iron Castle."]
+      verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-looking-for-spy-angel
+      name: Looking for Spy Angel
+      position: 2
+      giver: {npc: IronCastle Angel, area: Iron Castle, coordinates: null}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-reaching-higher-level]}
+      rewards: {experience: 200, credit: 25}
+      objectives: [{type: talk, target: Spy Angel, area: Cactus Plain, coordinates: null}]
+      walkthrough: ["Go to Cactus Plain and speak with the Spy Angel."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-killing-plateau-monkey
+      name: Killing Plateau Monkey
+      position: 3
+      giver: {npc: Spy Angel, area: Cactus Plain, coordinates: null}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-looking-for-spy-angel]}
+      rewards: {experience: 1500, credit: 60, items: [{name: null}]}
+      objectives: [{type: kill, target: Plateau Monkey, count: 50, area: Cactus Plain}]
+      walkthrough: ["Take the assignment from the Spy Angel.", "Defeat 50 Plateau Monkeys.", "Return as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-disguise
+      name: Disguise
+      position: 4
+      giver: {npc: Spy Angel, area: Cactus Plain, coordinates: null}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-killing-plateau-monkey]}
+      rewards: {gold: 500, experience: 2000, credit: 80}
+      objectives: [{type: collect_drop, target: Gebuer, item: Secret Badge, count: 1, area: Cactus Plain, drop_rate: null}]
+      walkthrough: ["Defeat Gebuers until you obtain a Secret Badge.", "Return as directed by the chain."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-obtaining-asmodes-trust
+      name: Obtaining Asmode's Trust
+      position: 5
+      giver: {npc: Spy Angel, area: Cactus Plain, coordinates: null}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-disguise]}
+      rewards: {experience: 400, credit: 35}
+      objectives: [{type: talk, target: Asmode, area: Burning Desert, coordinates: null, item_delivery: Secret Badge}]
+      walkthrough: ["Take the Secret Badge to Asmode in Burning Desert."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-are-you-evil-enough
+      name: Are you Evil Enough?
+      position: 6
+      giver: {npc: Asmode, area: Burning Desert, coordinates: null}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-obtaining-asmodes-trust]}
+      rewards: {experience: 500, credit: 25}
+      objectives: [{type: talk, target: Spy Angel}, {type: talk, target: Surgeon}, {type: obtain, item: Dog Tags, count: null}]
+      walkthrough: ["Speak with Asmode.", "Speak with the Spy Angel and then the Surgeon.", "Obtain the required Dog Tags and bring them back as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-steel-magic-stone
+      name: Magic Stone
+      position: 7
+      giver: {npc: Asmode, area: Burning Desert, coordinates: [285, 22]}
+      requirements: {factions: [Steel], level: {min: 20}, rank: {min: 2}, prerequisite_quests: [asmodeum-steel-are-you-evil-enough]}
+      rewards: {experience: 400, credit: 25}
+      objectives: [{type: interact, target: monkey statue, area: Gebuer Vale, coordinates: [7, 247], item: Magic Stone}]
+      walkthrough: ["Receive the Magic Stone from Asmode at (285,22).", "Go to Gebuer Vale.", "Use the stone on the monkey statue at (7,247) to be transported into Asmode's Den."]
+      verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+      source_refs: [directory, steel_magic_stone]
+    - id: asmodeum-steel-evil-student-union-leader
+      name: Evil Student Union Leader
+      position: 8
+      giver: {npc: null, area: Gebuer Vale, trigger: after touching the statue}
+      requirements: {factions: [Steel], prerequisite_quests: [asmodeum-steel-magic-stone]}
+      rewards: {experience: 5000, credit: 850, items: [{name: null}]}
+      objectives: [{type: kill, target: Asmodeus, count: 1, boss: true}]
+      walkthrough: ["Enter Asmode's Den through the statue.", "Defeat Asmodeus."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+
+  Shadow:
+    - id: asmodeum-shadow-reaching-higher-level
+      name: Reaching Higher Level
+      position: 1
+      giver: {npc: Dark City Angel, area: Dark City, coordinates: null}
+      requirements: {factions: [Shadow], level: {min: 20}, rank: {min: 2}}
+      rewards: {credit: 100}
+      objectives: [{type: reach_progression, level: 20, rank: 2}, {type: talk, target: Dark City Angel, area: Dark City}]
+      walkthrough: ["Reach level 20 and Rank 2.", "Speak with the Dark City Angel in Dark City."]
+      verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-looking-for-spy-angel
+      name: Looking for Spy Angel
+      position: 2
+      giver: {npc: Dark City Angel, area: Dark City, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-reaching-higher-level]}
+      rewards: {experience: 200, credit: 25}
+      objectives: [{type: talk, target: Spy Angel, area: Bottomless Pit, coordinates: null}]
+      walkthrough: ["Go to Bottomless Pit and speak with the Spy Angel."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-showing-speed-and-destroying-force
+      name: Showing Speed and Destroying Force
+      position: 3
+      giver: {npc: Spy Angel, area: Bottomless Pit, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-looking-for-spy-angel]}
+      rewards: {experience: 1500, credit: 60, items: [{name: null}]}
+      objectives: [{type: kill, target: Fire Mimic, count: 50, area: Bottomless Pit}]
+      walkthrough: ["Take the assignment from the Spy Angel.", "Defeat 50 Fire Mimics.", "Return as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-disguise
+      name: Disguise
+      position: 4
+      giver: {npc: Spy Angel, area: Bottomless Pit, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-showing-speed-and-destroying-force]}
+      rewards: {gold: 500, experience: 2000, credit: 80}
+      objectives: [{type: collect_drop, target: Evil Leech, item: Secret Badge, count: 1, area: Bottomless Pit, drop_rate: null}]
+      walkthrough: ["Defeat Evil Leeches until you obtain a Secret Badge.", "Return as directed by the chain."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-obtaining-asmodes-trust
+      name: Obtaining Asmode's Trust
+      position: 5
+      giver: {npc: Spy Angel, area: Degula Maze, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-disguise]}
+      rewards: {experience: 400, credit: 35}
+      objectives: [{type: talk, target: Asmode, area: Degula Maze, coordinates: null, item_delivery: Secret Badge}]
+      walkthrough: ["Take the Secret Badge to Asmode in Degula Maze."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-are-you-evil-enough
+      name: Are you Evil Enough?
+      position: 6
+      giver: {npc: Asmode, area: Degula Maze, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-obtaining-asmodes-trust]}
+      rewards: {experience: 500, credit: 25}
+      objectives: [{type: talk, target: Spy Angel}, {type: talk, target: Lady}, {type: obtain, item: Skull, count: null}]
+      walkthrough: ["Speak with Asmode.", "Speak with the Spy Angel and then the Lady.", "Obtain the required Skull and bring it back as directed."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-magic-stone
+      name: Magic Stone
+      position: 7
+      giver: {npc: Asmode, area: Degula Maze, coordinates: null}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-are-you-evil-enough]}
+      rewards: {experience: 400, credit: 25}
+      objectives: [{type: interact, target: Statue, area: Memory Cave, coordinates: null, item: Magic Stone}]
+      walkthrough: ["Receive the Magic Stone from Asmode.", "Take it to the required statue in Memory Cave and use it to enter Asmodeus's den."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
+    - id: asmodeum-shadow-evil-student-union-leader
+      name: Evil Student Union Leader
+      position: 8
+      giver: {npc: null, area: Memory Cave, trigger: after touching the statue}
+      requirements: {factions: [Shadow], prerequisite_quests: [asmodeum-shadow-magic-stone]}
+      rewards: {experience: 5000, credit: 850, items: [{name: null}]}
+      objectives: [{type: kill, target: Asmodeus, count: 1, boss: true}]
+      walkthrough: ["Enter Asmodeus's den through the statue.", "Defeat Asmodeus."]
+      verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+      source_refs: [directory]
