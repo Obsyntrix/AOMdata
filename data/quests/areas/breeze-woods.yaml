@@ -1,0 +1,198 @@
+schema_version: 1
+dataset: quests
+area: {id: breeze-woods, name: Breeze Woods, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:breeze-woods
+asmodeum_quest_refs:
+  - asmodeum-beast-reaching-higher-level
+  - asmodeum-beast-looking-for-spy-angel
+quests:
+  - id: breeze-woods-knowing-breeze-woods
+    name: Knowing Breeze Woods
+    repeatable: false
+    category: single
+    giver: null
+    requirements: {prerequisite_quests: [angel-lyceum-register-at-breezewood-angel]}
+    rewards: {experience: 100, credit: 5}
+    objectives: [{type: talk, target: Explorer Gulin, area: Breeze Woods, coordinates: [290, 87]}]
+    walkthrough: ["After registering with the BreezeWood Angel, speak with Explorer Gulin at (290,87)."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-inexperience
+    name: Inexperience
+    repeatable: false
+    category: single
+    giver: null
+    requirements: {prerequisite_quests: [breeze-woods-knowing-breeze-woods]}
+    rewards: {experience: 100, credit: 5}
+    objectives: [{type: talk, target: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}]
+    walkthrough: ["Complete Knowing Breeze Woods, then speak with the Militia Chief at (191,111)."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-monkey-nassi-lord
+    name: Monkey Nassi(Lord)
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 10, max: 14}}
+    rewards: {gold: 800, experience: 1200, credit: 30}
+    objectives: [{type: kill, target: Monkey Nassi, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Monkey Nassi.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-blazing-and-dazzling
+    name: Blazing and Dazzling
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 10, max: 14}}
+    rewards: {gold: 800, experience: 1200, credit: 30}
+    objectives: [{type: kill, target: Flame Lily, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Flame Lily.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-custered-wood
+    name: Custered Wood
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 10, max: 14}}
+    rewards: {gold: 200, experience: 600, credit: 10}
+    objectives: [{type: kill, target: Nest Tree Elf, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Nest Tree Elves.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-blaics-soar
+    name: Blaic's Soar
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 15, max: 19}}
+    rewards: {gold: 910, experience: 1400, credit: 45}
+    objectives: [{type: kill, target: Iron Mane Blaic, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Iron Mane Blaic.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-defeat-yellow-mushroom
+    name: Defeat Yellow Mushroom
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 15, max: 19}}
+    rewards: {gold: 910, experience: 1400, credit: 45}
+    objectives: [{type: kill, target: Yellow Mushroom, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Yellow Mushroom.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-poison-gas-spreading
+    name: Poison Gas Spreading
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 15, max: 19}}
+    rewards: {gold: 250, experience: 700, credit: 15}
+    objectives: [{type: kill, target: Purple Mushroom, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Purple Mushrooms.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-fish-amount-preserving
+    name: Fish Amount Preserving
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 20, max: 24}}
+    rewards: {gold: 1100, experience: 1700, credit: 55}
+    objectives: [{type: kill, target: Crystal Crab, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Crystal Crab.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-island-dispossessor
+    name: Island Dispossessor
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 20, max: 24}}
+    rewards: {gold: 270, experience: 850, credit: 18}
+    objectives: [{type: kill, target: Marsh Frog, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Marsh Frogs.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-originators-of-an-evil-practice
+    name: Originators of an Evil Practice
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 20, max: 24}}
+    rewards: {gold: 1100, experience: 1700, credit: 55}
+    objectives: [{type: kill, target: Frog Lord Kuppa, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Frog Lord Kuppa.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-defeat-moon-evil-rabbit
+    name: Defeat Moon Evil Rabbit
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 25, max: 29}}
+    rewards: {gold: 1240, experience: 1900, credit: 65}
+    objectives: [{type: kill, target: Evil Moon Rabbit, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Evil Moon Rabbit.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-jade-vales-emerald
+    name: Jade Vale's Emerald
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 25, max: 29}}
+    rewards: {gold: 310, experience: 950, credit: 20}
+    objectives: [{type: kill, target: Green Lizard, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Green Lizards.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-capture-outlaws
+    name: Capture Outlaws
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 25, max: 29}}
+    rewards: {gold: 310, experience: 950, credit: 20}
+    objectives: [{type: kill, target: Magic Eye Member, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Magic Eye Members.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-queen-angela
+    name: Queen Angela
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 30, max: null}}
+    rewards: {gold: 2160, experience: 1400, credit: 75}
+    objectives: [{type: kill, target: Queen Angela, count: 1, boss: true}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat Queen Angela.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-defeat-thunder-rabbit
+    name: Defeat Thunder Rabbit
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 30, max: null}}
+    rewards: {gold: 350, experience: 1080, credit: 25}
+    objectives: [{type: kill, target: Thunder Rabbit, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Thunder Rabbits.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: breeze-woods-naughty-garden-elf
+    name: Naughty Garden Elf
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Chief, area: Breeze Woods, coordinates: [191, 111]}
+    requirements: {factions: [Beast], level: {min: 30, max: null}}
+    rewards: {gold: 350, experience: 1080, credit: 25}
+    objectives: [{type: kill, target: Garden Elf, count: 30}]
+    walkthrough: ["Take the assignment from the Militia Chief.", "Defeat 30 Garden Elves.", "Return to the Militia Chief."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
