@@ -1,9 +1,10 @@
-name: Recover archived legacy monster pages
+name: Recover archived legacy bestiary pages
 
 on:
   push:
     paths:
       - '.github/workflows/harvest-wayback-monsters.yml'
+      - 'tools/harvest_wayback_areas.py'
       - 'tools/harvest_wayback_monsters.py'
       - 'tools/parse_historical_monster_page.py'
       - 'tools/build_bestiary_indexes.py'
@@ -14,9 +15,11 @@ on:
 permissions:
   contents: write
 
+# Only the newest recovery code should touch the generated archive layer. Superseded
+# recovery runs are cancelled instead of serially replaying stale crawler versions.
 concurrency:
-  group: legacy-monster-wayback-harvest
-  cancel-in-progress: false
+  group: legacy-bestiary-wayback-harvest
+  cancel-in-progress: true
 
 jobs:
   recover:
@@ -39,10 +42,18 @@ jobs:
       - name: Capture alphabetical historical bestiary view
         run: python tools/capture_bestiary_alphabetic.py
 
+      - name: Recover missing original area pages from Wayback
+        env:
+          AOMDATA_WAYBACK_AREA_DELAY: '0.35'
+          AOMDATA_WAYBACK_RETRIES: '4'
+          AOMDATA_WAYBACK_LOOKUP_WORKERS: '4'
+        run: python tools/harvest_wayback_areas.py
+
       - name: Recover original monster pages from Wayback
         env:
           AOMDATA_WAYBACK_DELAY: '0.35'
           AOMDATA_WAYBACK_RETRIES: '4'
+          AOMDATA_WAYBACK_LOOKUP_WORKERS: '4'
           AOMDATA_WAYBACK_BATCH: '0'
         run: python tools/harvest_wayback_monsters.py
 
@@ -55,11 +66,14 @@ jobs:
       - name: Show recovery and audit summaries
         if: always()
         run: |
+          if [ -f data/bestiary/wayback-area-report.yaml ]; then
+            sed -n '1,100p' data/bestiary/wayback-area-report.yaml
+          fi
           if [ -f data/bestiary/wayback-monster-report.yaml ]; then
-            sed -n '1,80p' data/bestiary/wayback-monster-report.yaml
+            sed -n '1,100p' data/bestiary/wayback-monster-report.yaml
           fi
           if [ -f data/bestiary/audit.yaml ]; then
-            sed -n '1,120p' data/bestiary/audit.yaml
+            sed -n '1,160p' data/bestiary/audit.yaml
           fi
 
       - name: Commit recovered preservation data
@@ -71,7 +85,7 @@ jobs:
             echo 'No preservation changes to commit.'
             exit 0
           fi
-          git commit -m 'Recover archived Angels Wiki monster pages'
+          git commit -m 'Recover archived Angels Wiki bestiary pages'
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
