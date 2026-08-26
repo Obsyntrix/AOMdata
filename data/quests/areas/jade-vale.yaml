@@ -1,0 +1,108 @@
+schema_version: 1
+dataset: quests
+area: {id: jade-vale, name: Jade Vale, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:jade-vale
+  verify_ability: https://angels.wikidot.com/quest:verify-ability
+  mystic_words: https://angels.wikidot.com/quest:mystic-words
+asmodeum_quest_refs:
+  - asmodeum-beast-disguise
+  - asmodeum-beast-obtaining-asmodes-trust
+  - asmodeum-beast-are-you-evil-enough
+  - asmodeum-beast-magic-stone
+quests:
+  - id: jade-vale-damnable-green-lizard
+    name: Damnable Green Lizard
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Soldier, area: Jade Vale, coordinates: [282, 56]}
+    requirements: {factions: [Beast], level: {min: 20, max: 35}}
+    rewards: {experience: 600, credit: 30}
+    objectives: [{type: kill, target: Green Lizard, count: 20, area: Jade Vale}]
+    walkthrough: ["Take the quest in Jade Vale.", "Defeat 20 Green Lizards.", "Return to the quest giver."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: jade-vale-fight-for-ruins
+    name: Fight for Ruins
+    repeatable: true
+    category: repeatable
+    giver: {npc: Militia Soldier, area: Jade Vale, coordinates: [282, 56]}
+    requirements: {factions: [Beast], level: {min: 20, max: 35}}
+    rewards: {experience: 670, credit: 30}
+    objectives: [{type: kill, target: Magic Eye Member, count: 20, area: Jade Vale}]
+    walkthrough: ["Speak with the Militia Soldier at (282,56).", "Defeat 20 Magic Eye Members in Jade Vale.", "Return to the Militia Soldier."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: jade-vale-delaying-of-ruins-study
+    name: Delaying of Ruins Study
+    repeatable: false
+    category: single
+    giver: {npc: Archaeologist, area: Jade Vale, coordinates: [80, 11]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 800, experience: 1600, credit: 60}
+    objectives: [{type: collect_drop, target: Unicorn Rabbit, item: Archeology Scroll, count: 1, area: Jade Vale, drop_rate: null}]
+    walkthrough: ["Speak with the Archaeologist at (80,11).", "Defeat Unicorn Rabbits until the Archeology Scroll is obtained.", "Return to the Archaeologist."]
+    notes: ["The area page warns to complete this before the Asmode quest path that uses the Archaeologist/relic interaction."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: jade-vale-greedy-green-lizard
+    name: Greedy Green Lizard
+    repeatable: true
+    category: card
+    giver: null
+    requirements: {}
+    rewards: {items: [{name: Card, exact_item: null}]}
+    objectives: [{type: collect_drop, target: Green Lizard, item: Scale, count: null, area: Jade Vale, drop_rate: null}]
+    walkthrough: ["Defeat Green Lizards and collect the required Scale for the card quest."]
+    notes: ["The retrieved area text does not expose the quest giver, scale count, or exact card item."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: jade-vale-ancient-book-rubbing
+    name: Ancient Book Rubbing
+    repeatable: false
+    category: series
+    series: {name: Jade Vale Wiser series, position: 1, total: 3, next: jade-vale-mystic-words}
+    giver: null
+    requirements: {factions: [Beast]}
+    rewards: {experience: 500, credit: 30}
+    objectives: [{type: interact, target: relic, area: Jade Vale, action: obtain a rubbing of the letters and translate it}]
+    walkthrough: ["Obtain a rubbing of the writing on the Jade Vale relic and complete the translation step described by the quest."]
+    notes: ["Quest giver and exact relic coordinates were not exposed in the retrieved area snippet."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: jade-vale-mystic-words
+    name: Mystic Words
+    repeatable: false
+    category: series
+    series: {name: Jade Vale Wiser series, position: 2, total: 3, previous: jade-vale-ancient-book-rubbing, next: jade-vale-verify-ability}
+    giver: {npc: Training Priest, area: Jade Vale, coordinates: [292, 76]}
+    requirements: {factions: [Beast], prerequisite_quests: [jade-vale-ancient-book-rubbing]}
+    rewards: {experience: 400, credit: 25, items: [{name: Common Red Potion, count: 5}]}
+    objectives:
+      - {type: collect_drop, target: Unicorn Rabbit, item: Unicorn Rabbit Horn, count: 10, area: Jade Vale, drop_rate: null}
+      - {type: collect_drop, target: Green Lizard, item: Green Lizard Scale, count: 10, area: Jade Vale, drop_rate: null}
+      - {type: talk, target: Training Priest, area: Jade Vale, coordinates: [292, 76]}
+    walkthrough: ["After Ancient Book Rubbing, speak with the Training Priest at (292,76).", "Collect 10 Unicorn Rabbit Horns and 10 Green Lizard Scales.", "Return the materials to the Training Priest."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, mystic_words]
+  - id: jade-vale-verify-ability
+    name: Verify Ability
+    repeatable: false
+    category: series
+    series: {name: Jade Vale Wiser series, position: 3, total: 3, previous: jade-vale-mystic-words}
+    giver: {npc: Training Priest, area: Jade Vale, coordinates: [292, 76]}
+    requirements: {factions: [Beast], prerequisite_quests: [jade-vale-mystic-words]}
+    rewards:
+      experience: 2100
+      credit: 380
+      choose_one_item: [Courage Talisman, Intelligence Talisman, Body Talisman, Spell Talisman]
+    objectives:
+      - {type: obtain, item: Mysterious Incantation Stone, count: 1}
+      - {type: interact, target: relic, area: Jade Vale, coordinates: [244, 168], action: use the incantation stone to summon Sealed Beast}
+      - {type: kill, target: Sealed Beast, count: 1, area: Jade Vale, boss: true}
+      - {type: talk, target: Training Priest, area: Jade Vale, coordinates: [292, 76]}
+    walkthrough: ["Speak with the Training Priest after Mystic Words and obtain the Mysterious Incantation Stone.", "Go to the relic at (244,168) and use the stone to summon the Sealed Beast.", "Defeat the Sealed Beast.", "Return to the Training Priest and choose one talisman reward."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, verify_ability]
