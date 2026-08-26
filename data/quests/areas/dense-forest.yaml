@@ -1,0 +1,114 @@
+schema_version: 1
+dataset: quests
+area: {id: dense-forest, name: Dense Forest, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:dense-forest
+quests:
+  - id: dense-forest-inspection-tour
+    name: Inspection Tour
+    repeatable: false
+    category: single
+    giver: {npc: Militia Chief, area: Dense Forest, coordinates: [224, 111]}
+    requirements: {factions: [Beast]}
+    rewards: {experience: 200, credit: 20}
+    objectives:
+      - {type: talk, target: Jungle Sentinel, area: Dense Forest, coordinates: [22, 138], item_delivery: letter}
+      - {type: talk, target: Bog Sentinel, area: Dense Forest, coordinates: [234, 47], item_delivery: letter}
+    walkthrough: ["Speak with the Militia Chief at (224,111).", "Deliver the letter/message to the Jungle Sentinel at (22,138).", "Visit the Bog Sentinel at (234,47) as part of the inspection tour."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-man-eating-flower-masque
+    name: Man-eating Flower Masque
+    repeatable: false
+    category: single
+    giver: {npc: Merchant Wushor, area: Dense Forest, coordinates: [210, 119]}
+    requirements: {factions: [Beast], level: {min: 6, max: null}}
+    rewards: {gold: 250, experience: 850, credit: 25}
+    objectives: [{type: collect_drop, target: Wild Lily, item: Wild Lily Petal, count: 10, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with Merchant Wushor at (210,119).", "Defeat Wild Lilies until you collect 10 Wild Lily Petals.", "Return to Merchant Wushor."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-fighting-ceremony
+    name: Fighting Ceremony
+    repeatable: true
+    category: repeatable
+    giver: {npc: Jungle Priest, area: Dense Forest, coordinates: [210, 109]}
+    requirements: {factions: [Beast], level: {min: 6, max: 20}}
+    rewards: {experience: 320, credit: 10}
+    objectives: [{type: collect_drop, target: Forest Monkey, item: Monkey Hair, count: 10, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Jungle Priest at (210,109).", "Defeat Forest Monkeys until you collect 10 Monkey Hairs.", "Return to the Jungle Priest."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-guardian-ceremony
+    name: Guardian Ceremony
+    repeatable: true
+    category: repeatable
+    giver: {npc: Jungle Priest, area: Dense Forest, coordinates: [210, 109]}
+    requirements: {factions: [Beast], level: {min: 6, max: 20}}
+    rewards: {experience: 260, credit: 10}
+    objectives: [{type: collect_drop, target: Nest Tree Elf, item: Wind Leaf, count: 10, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Jungle Priest.", "Defeat Nest Tree Elves until you collect 10 Wind Leaves.", "Return to the Jungle Priest."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-ceremony-of-praying-for-rain
+    name: Ceremony of Praying for Rain
+    repeatable: true
+    category: repeatable
+    giver: {npc: Jungle Priest, area: Dense Forest, coordinates: [210, 109]}
+    requirements: {factions: [Beast], level: {min: 6, max: 20}}
+    rewards: {experience: 320, credit: 10}
+    objectives: [{type: collect_drop, target: Wild Lily, item: Icy Petal, count: 10, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Jungle Priest.", "Defeat Wild Lilies until you collect 10 Icy Petals.", "Return to the Jungle Priest."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-lost-little-frog
+    name: Lost Little Frog
+    repeatable: true
+    category: card
+    giver: {npc: Jungle Priest, area: Dense Forest, coordinates: [210, 109]}
+    requirements: {level: {min: 20, max: null}}
+    rewards: {items: [{name: Card, exact_item: null}]}
+    objectives: [{type: collect_drop, target: Flame Lily, item: Pet Frog, count: 1, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with the Jungle Priest.", "Defeat Flame Lily until the pet frog is recovered.", "Return to the Jungle Priest."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-the-reivers
+    name: The Reivers
+    repeatable: false
+    category: series
+    series: {name: Herbalist Hebu series, position: 1, total: 3, next: dense-forest-fiery-bud}
+    giver: {npc: Herbalist Hebu, area: Dense Forest, coordinates: [127, 72]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 150, experience: 850, credit: 30, items: [{name: Common Red Potion, count: 5}]}
+    objectives: [{type: collect_drop, target: Nest Tree Elf, item: Precious Mushroom, count: null, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Speak with Herbalist Hebu at (127,72).", "Defeat Nest Tree Elves and collect the required Precious Mushrooms.", "Return to Herbalist Hebu."]
+    notes: ["The currently retrieved area text does not expose the required Precious Mushroom count."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-fiery-bud
+    name: Fiery Bud
+    repeatable: false
+    category: series
+    series: {name: Herbalist Hebu series, position: 2, total: 3, previous: dense-forest-the-reivers, next: dense-forest-inquire-for-spore-collection}
+    giver: {npc: Herbalist Hebu, area: Dense Forest, coordinates: [127, 72]}
+    requirements: {factions: [Beast], prerequisite_quests: [dense-forest-the-reivers]}
+    rewards: {experience: 1120, credit: 160, items: [{name: null}]}
+    objectives: [{type: collect_drop, target: Flame Lily, item: Fiery Bud, count: null, area: Dense Forest, drop_rate: null}]
+    walkthrough: ["Complete The Reivers and speak with Herbalist Hebu.", "Defeat Flame Lily and obtain the required Fiery Bud material.", "Return to Herbalist Hebu."]
+    notes: ["The currently retrieved area text does not expose the exact required Fiery Bud count or reward item identity."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: dense-forest-inquire-for-spore-collection
+    name: Inquire for Spore Collection
+    repeatable: false
+    category: series
+    series: {name: Herbalist Hebu series, position: 3, total: 3, previous: dense-forest-fiery-bud}
+    giver: {npc: Herbalist Hebu, area: Dense Forest, coordinates: [127, 72]}
+    requirements: {factions: [Beast], prerequisite_quests: [dense-forest-fiery-bud]}
+    rewards: {experience: 850, credit: 25}
+    objectives: [{type: talk, target: Botany Assistant, area: Mushroom Forest, coordinates: [185, 54], item_delivery: letter}]
+    walkthrough: ["Complete Fiery Bud and speak with Herbalist Hebu.", "Travel to Mushroom Forest and give the letter/request to the Botany Assistant at (185,54)."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
