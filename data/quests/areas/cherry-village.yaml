@@ -1,0 +1,147 @@
+schema_version: 1
+dataset: quests
+area: {id: cherry-village, name: Cherry Village, region: Aurora City}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:cherry-village
+  fathers_legacy: https://angels.wikidot.com/quest:father-s-legacy
+  asmodeum_directory: https://angels.wikidot.com/directory:asmodeum
+asmodeum_quest_refs:
+  - asmodeum-aurora-are-you-evil-enough
+  - asmodeum-aurora-magic-stone
+  - asmodeum-aurora-evil-student-union-leader
+quests:
+  - id: cherry-village-militia-assignment-coast-clearance
+    name: Militia Assignment-Coast Clearance
+    repeatable: true
+    category: repeatable
+    giver: {npc: Robust Yady, area: Cherry Village, coordinates: [235, 51]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 35}, prerequisite_quests: [cherry-village-recruiting-cherry-militia]}
+    rewards: {experience: 670, credit: 35}
+    objectives: [{type: kill, target: Cherry Crab, count: 20, area: Cherry Village}]
+    walkthrough: ["Complete Recruiting Cherry Militia and speak with Robust Yady at (235,51).", "Defeat 20 Cherry Crabs.", "Return to Robust Yady."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-militia-assignment-punishing-pirate
+    name: Militia Assignment-Punishing Pirate
+    repeatable: true
+    category: repeatable
+    giver: {npc: Robust Yady, area: Cherry Village, coordinates: [235, 51]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 35}, prerequisite_quests: [cherry-village-recruiting-cherry-militia]}
+    rewards: {experience: 100, credit: 10}
+    objectives: [{type: interact, target: Pirate Camp, action: Insert the flag, area: null, coordinates: null}]
+    walkthrough: ["Complete Recruiting Cherry Militia and speak with Robust Yady.", "Find the Pirate Camp and insert the quest flag.", "Return to Robust Yady if the quest requires turn-in."]
+    notes: ["The area page does not document the Pirate Camp area/coordinates or explicit turn-in step."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-militia-assignment-turtle-shell-armor
+    name: Militia Assignment-Turtle Shell Armor
+    repeatable: true
+    category: repeatable
+    giver: {npc: Robust Yady, area: Cherry Village, coordinates: [235, 51]}
+    requirements: {factions: [Aurora], level: {min: 20, max: 35}, prerequisite_quests: [cherry-village-recruiting-cherry-militia]}
+    rewards: {experience: 740, credit: 35}
+    objectives: [{type: collect_drop, target: Spine Turtle, item: Spine Turtle shell, count: 10, area: Cherry Village, drop_rate: null}]
+    walkthrough: ["Complete Recruiting Cherry Militia and speak with Robust Yady.", "Defeat Spine Turtles until you collect 10 shells.", "Return to Robust Yady."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-citizens-plan-to-retake-property
+    name: Citizen's Plan to Retake Property
+    repeatable: false
+    category: single
+    giver: {npc: "Cherry's Leader", area: Cherry Village, coordinates: [235, 73]}
+    requirements: {factions: [Aurora], level: {min: 22, max: null}}
+    rewards: {experience: 1390, credit: 75, items: [{name: null}]}
+    objectives:
+      - {type: collect_drop, target: Piratekin, items: [{name: Copper Key, count: 1}, {name: Silver Key, count: 1}, {name: Golden Key, count: 1}], drop_rate: null}
+      - {type: obtain, item: treasure, area: Riprap Coast, location_note: western island}
+      - {type: talk, target: "Cherry's Leader", area: Cherry Village, coordinates: [235, 73]}
+    walkthrough: ["Speak with Cherry's Leader at (235,73).", "Defeat Piratekins until you obtain the Copper, Silver, and Golden Keys.", "Use the keys to take the treasure from the western island of Riprap Coast.", "Return the treasure to Cherry's Leader."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-recruiting-cherry-militia
+    name: Recruiting Cherry Militia
+    repeatable: false
+    category: single
+    giver: {npc: Robust Yady, area: Cherry Village, coordinates: [235, 51]}
+    requirements: {factions: [Aurora], level: {min: 22, max: null}}
+    rewards: {experience: 1980, credit: 80}
+    objectives: [{type: kill, target: Spine Turtle, count: 20, area: Cherry Village}]
+    walkthrough: ["Speak with Robust Yady at (235,51).", "Defeat 20 Spine Turtles in Cherry Village.", "Return to Robust Yady."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-cherry-crab-experiment
+    name: Cherry Crab Experiment
+    repeatable: false
+    category: series
+    series: {name: Scholar Nilsson research series, position: 1, total: 4, next: cherry-village-vanilla}
+    giver: {npc: Scholar Nilsson, area: Cherry Village, coordinates: [158, 40]}
+    requirements: {factions: [Aurora], level: {min: 22, max: null}}
+    rewards: {experience: 1780, credit: 75, gold: 1100}
+    objectives: [{type: collect_drop, target: Cherry Crab, item: Cherry Crab shell, count: 4, area: Cherry Village, drop_rate: null}]
+    walkthrough: ["Speak with Scholar Nilsson at (158,40).", "Defeat Cherry Crabs until you collect 4 shells.", "Return to Scholar Nilsson."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-vanilla
+    name: Vanilla
+    repeatable: false
+    category: series
+    series: {name: Scholar Nilsson research series, position: 2, total: 4, previous: cherry-village-cherry-crab-experiment, next: cherry-village-potecs-attack}
+    giver: {npc: Scholar Nilsson, area: Cherry Village, coordinates: [158, 40]}
+    requirements: {factions: [Aurora], prerequisite_quests: [cherry-village-cherry-crab-experiment]}
+    rewards: {experience: 1780, credit: 75, gold: 1500}
+    objectives: [{type: collect_drop, target: Spine Turtle, item: Vanilla Residue, count: 5, area: Cherry Village, drop_rate: null}]
+    walkthrough: ["Complete Cherry Crab Experiment and speak with Scholar Nilsson.", "Defeat Spine Turtles until you collect 5 Vanilla Residue.", "Return to Scholar Nilsson."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-potecs-attack
+    name: Potec's Attack
+    repeatable: false
+    category: series
+    series: {name: Scholar Nilsson research series, position: 3, total: 4, previous: cherry-village-vanilla, next: cherry-village-plant-research-report}
+    giver: {npc: Scholar Nilsson, area: Cherry Village, coordinates: [158, 40]}
+    requirements: {factions: [Aurora], prerequisite_quests: [cherry-village-vanilla]}
+    rewards: {experience: 2400, credit: 600, items: [{name: null}]}
+    objectives: [{type: kill, target: Blue Potec, count: 1, area: Cherry Village, boss: true}]
+    walkthrough: ["Complete Vanilla.", "Defeat Blue Potec in Cherry Village.", "Return to Scholar Nilsson."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-plant-research-report
+    name: Plant Research Report
+    repeatable: false
+    category: series
+    series: {name: Scholar Nilsson research series, position: 4, total: 4, previous: cherry-village-potecs-attack}
+    giver: {npc: Scholar Nilsson, area: Cherry Village, coordinates: [158, 40]}
+    requirements: {factions: [Aurora], prerequisite_quests: [cherry-village-potecs-attack]}
+    rewards: {experience: 800, credit: 30}
+    objectives: [{type: talk, target: Scholar Yale, area: Crashing Hillock, coordinates: null, item_delivery: research report}]
+    walkthrough: ["Complete Potec's Attack and speak with Scholar Nilsson.", "Travel to Crashing Hillock and give the research report to Scholar Yale."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-whether-husband-is-alive-or-dead
+    name: Whether Husband Is Alive or Dead
+    repeatable: false
+    category: series
+    series: {name: Countrylady family series, position: 2, total: 3, previous: riprap-coast-unknown-brilliant-necklace, next: cherry-village-fathers-legacy}
+    giver: {npc: Countrylady, area: Cherry Village, coordinates: [186, 74]}
+    requirements: {factions: [Aurora], prerequisite_quests: [riprap-coast-unknown-brilliant-necklace]}
+    rewards: {experience: 400, credit: 70}
+    objectives:
+      - {type: visit, target: skeletons, area: Riprap Coast, coordinates: [42, 96]}
+      - {type: talk, target: Countrylady, area: Cherry Village, coordinates: [186, 74]}
+    walkthrough: ["Complete Unknown Brilliant Necklace and speak with the Countrylady at (186,74).", "Go to the skeletons at (42,96) in Riprap Coast.", "Return to the Countrylady with what you find."]
+    verification: {status: web_area_derived, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page]
+  - id: cherry-village-fathers-legacy
+    name: Father's Legacy
+    repeatable: false
+    category: series
+    series: {name: Countrylady family series, position: 3, total: 3, previous: cherry-village-whether-husband-is-alive-or-dead}
+    giver: {npc: Countrylady, area: Cherry Village, coordinates: [186, 74]}
+    requirements: {factions: [Aurora], prerequisite_quests: [cherry-village-whether-husband-is-alive-or-dead]}
+    rewards: {experience: 800, credit: 65}
+    objectives: [{type: talk, target: Newbie Timi, area: Aurora City, coordinates: [77, 75], item_delivery: letter}]
+    walkthrough: ["Speak with the Countrylady at (186,74) after Whether Husband Is Alive or Dead and receive her letter.", "Travel to Aurora City.", "Give the letter to Newbie Timi at (77,75)."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, fathers_legacy]
