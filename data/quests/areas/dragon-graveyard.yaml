@@ -1,0 +1,45 @@
+schema_version: 1
+dataset: quests
+area: {id: dragon-graveyard, name: Dragon Graveyard, region: shared high-level zone}
+research_status: researched_with_one_incomplete_quest
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:dragon-graveyard
+  retrieval_mirror: https://www.aowiki.uk/pages/area_dragon-graveyard.html
+  hidden_enemy_agent_1: https://angels.wikidot.com/quest:the-hidden-enemy-agent-1
+series_quest_refs: [demon-kitchen-main-food-material-collection, demon-kitchen-main-exposed-plot, demon-kitchen-main-treatment-for-food-poisoning, demon-kitchen-main-learning-from-chef-boship]
+quests:
+  - {id: dragon-graveyard-helpless-choice, name: Helpless Choice, repeatable: true, category: repeatable, giver: {npc: Paladin Gerison, area: Dragon Graveyard, coordinates: [39, 173]}, requirements: {factions: [Any], level: {min: 35, max: 50}}, rewards: {experience: 1000, credit: 42}, objectives: [{type: kill, target: Ancient Soldier, count: 45, area: Dragon Graveyard}], walkthrough: ["Speak with Paladin Gerison at (39,173).", "Defeat 45 Ancient Soldiers.", "Return to Paladin Gerison."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: dragon-graveyard-bury, name: Bury, repeatable: true, category: repeatable, giver: {npc: Paladin Gerison, area: Dragon Graveyard, coordinates: [39, 173]}, requirements: {factions: [Any], level: {min: 35, max: 50}}, rewards: {experience: 1000, credit: 42}, objectives: [{type: collect_drop, target: Ancient Soldier, item: Complete Skeleton, count: 10, area: Dragon Graveyard, drop_rate: null}], walkthrough: ["Speak with Paladin Gerison.", "Defeat Ancient Soldiers until you collect 10 Complete Skeletons.", "Return to Paladin Gerison."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: dragon-graveyard-barfts-curse, name: Barft's Curse, repeatable: true, category: repeatable, giver: {npc: Warrior Gegen, area: Dragon Graveyard, coordinates: [290, 170]}, requirements: {factions: [Any], level: {min: 35, max: 50}}, rewards: {experience: 1150, credit: 45}, objectives: [{type: collect_drop, target: Hook Barft, item: Horn of Barft, count: 5, area: Dragon Graveyard, drop_rate: null}], walkthrough: ["Speak with Warrior Gegen at (290,170).", "Defeat Hook Barfts until you collect 5 Horns of Barft.", "Return to Warrior Gegen."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: dragon-graveyard-barfts-threat, name: Barft's Threat, repeatable: true, category: repeatable, giver: {npc: Warrior Gegen, area: Dragon Graveyard, coordinates: [290, 170]}, requirements: {factions: [Any], level: {min: 35, max: 50}}, rewards: {experience: 1150, credit: 45}, objectives: [{type: kill, target: Hook Barft, count: 45, area: Dragon Graveyard}], walkthrough: ["Speak with Warrior Gegen.", "Defeat 45 Hook Barfts.", "Return to Warrior Gegen."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: dragon-graveyard-the-hunt-for-cooer
+    name: The Hunt for Cooer
+    repeatable: true
+    category: repeatable
+    giver: {npc: Mad Mike, area: Dragon Graveyard, coordinates: [244, 14]}
+    requirements: {factions: [Any], level: {min: 35, max: 50}}
+    rewards: {experience: {min: 405, max: 1215}, credit: {min: 16, max: 50}}
+    objectives: [{type: collect_drop, target: Desert Cooer, item: lost jewelry, count: null, area: Dragon Graveyard, drop_rate: null}]
+    walkthrough: ["Speak with Mad Mike at (244,14).", "Defeat Desert Cooers and recover the lost jewelry required by the quest.", "Return to Mad Mike."]
+    notes: ["The area table exposes reward ranges but not the exact jewelry count/reward tier mapping."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: dragon-graveyard-the-hidden-enemy-agent-1
+    name: The Hidden Enemy Agent 1
+    repeatable: false
+    category: single
+    giver: {npc: Angel Agent, area: Dragon Graveyard, coordinates: null}
+    requirements: {factions: [Any], level: null}
+    rewards: {items: [{name: null}]}
+    objectives:
+      - {type: talk, target: Angel Agent, area: Dragon Graveyard}
+      - {type: visit, target: egg portal, area: Dragon Graveyard, location_note: below the map}
+      - {type: talk, target: Angel Agent, area: Dragon Graveyard}
+      - {type: kill, target: Evil Knight, count: 1, item: sword}
+      - {type: visit, target: Dragon Graveyard entrance, area: Dragon Graveyard, coordinates: [103, 18]}
+      - {type: collect_drop, targets: [Poo Poo Demon, Poo Poo Demon2], item: Stool Distillate, count: 40, area: Magic Kitchen Path, drop_rate: null}
+    walkthrough: ["Speak with the Angel Agent.", "Walk to the egg portal below the map, then report back to the Angel Agent.", "Defeat Evil Knight and obtain the sword.", "Go to the entrance at (103,18); the source says the door breaks but does not yet allow entry.", "Return to the Angel Agent, then go to Magic Kitchen Path and collect 40 Stool Distillate from Poo Poo Demon or Poo Poo Demon2.", "The source's next step is explicitly marked Pending Development."]
+    notes: ["The dedicated wiki page itself is unfinished. Unknown level, rank, reward, Angel Agent coordinates, and post-Stool-Distillate steps remain unresolved rather than guessed."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror, hidden_enemy_agent_1]
