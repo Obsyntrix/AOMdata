@@ -3,7 +3,7 @@ dataset: quests
 preservation_role: Canonical normalized quest knowledge for AOmega
 last_updated: 2026-08-25
 primary_source: https://angels.wikidot.com/directory:areas
-canonical_quest_records: 114
+canonical_quest_records: 180
 areas:
   - {id: angel-lyceum, name: Angel Lyceum, region: Heaven, path: data/quests/areas/angel-lyceum.yaml, local_quest_records: 21, status: researched}
   - {id: aurora-city, name: Aurora City, region: Aurora City, path: data/quests/areas/aurora-city.yaml, local_quest_records: 17, global_quest_refs: 2, status: researched}
@@ -13,16 +13,26 @@ areas:
   - {id: riprap-coast, name: Riprap Coast, region: Aurora City, path: data/quests/areas/riprap-coast.yaml, local_quest_records: 2, global_quest_refs: 1, status: partial_secondary_reconstruction}
   - {id: cherry-village, name: Cherry Village, region: Aurora City, path: data/quests/areas/cherry-village.yaml, local_quest_records: 11, global_quest_refs: 3, status: researched}
   - {id: thorn-wasteland, name: Thorn Wasteland, region: Aurora City, path: data/quests/areas/thorn-wasteland.yaml, local_quest_records: 5, status: researched}
+  - {id: breeze-woods, name: Breeze Woods, region: Breeze Woods, path: data/quests/areas/breeze-woods.yaml, local_quest_records: 17, global_quest_refs: 2, status: researched}
+  - {id: dense-forest, name: Dense Forest, region: Breeze Woods, path: data/quests/areas/dense-forest.yaml, local_quest_records: 9, status: researched}
+  - {id: mushroom-forest, name: Mushroom Forest, region: Breeze Woods, path: data/quests/areas/mushroom-forest.yaml, local_quest_records: 8, status: researched}
+  - {id: cryptic-moon-swamp, name: Cryptic Moon Swamp, region: Breeze Woods, path: data/quests/areas/cryptic-moon-swamp.yaml, local_quest_records: 10, global_quest_refs: 3, status: researched}
+  - {id: jade-vale, name: Jade Vale, region: Breeze Woods, path: data/quests/areas/jade-vale.yaml, local_quest_records: 7, global_quest_refs: 4, status: researched}
+  - {id: mysterious-garden, name: Mysterious Garden, region: Breeze Woods, path: data/quests/areas/mysterious-garden.yaml, local_quest_records: 6, global_quest_refs: 1, status: researched}
+  - {id: quiet-vale, name: Quiet Vale, region: Breeze Woods, path: data/quests/areas/quiet-vale.yaml, local_quest_records: 4, status: researched}
+  - {id: south-of-mirror-lake, name: South Of Mirror Lake, region: Breeze Woods, path: data/quests/areas/south-of-mirror-lake.yaml, local_quest_records: 5, status: researched}
 series:
   - {id: asmodeum, name: Asmodeum, path: data/quests/series/asmodeum.yaml, quest_records: 32, status: researched_from_directory_with_partial_dedicated_pages}
 coverage_notes:
   - Riprap Coast's primary area page was not retrievable; its known local quests are preserved as a lower-confidence reconstruction from cross-references and a 2012 guide.
   - Crashing Hillock and Thunder Ruins remain unresolved for local quest tables; the directory marks their quest counts unknown.
+  - North of Mirror Lake is known to have five repeatables, but its complete area table has not yet been recovered in a form sufficient for canonical entry.
   - Area-level documentation being absent or templated does not mean the game contains no quests there.
+  - Retrieval mirror pages from aowiki.uk are used only where they preserve the original Angels Wikidot area/quest text in a reliably fetchable form; additional mirror-generated drop tables are not being promoted into the quest dataset.
 research_queue:
   - {region: Aurora City, areas: [Crashing Hillock, Thunder Ruins], status: incomplete_source_pages}
-  - {region: Breeze Woods, status: next}
-  - {region: Iron Castle, status: queued}
+  - {region: Breeze Woods, areas: [North of Mirror Lake], status: incomplete_source_retrieval}
+  - {region: Iron Castle, status: next}
   - {region: Dark City, status: queued}
   - {region: Dungeon, status: queued}
   - {region: Atlantis, status: queued}
