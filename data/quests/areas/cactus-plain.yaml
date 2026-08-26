@@ -1,0 +1,61 @@
+schema_version: 1
+dataset: quests
+area: {id: cactus-plain, name: Cactus Plain, region: Iron Castle}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:cactus-plain
+  retrieval_mirror: https://www.aowiki.uk/pages/area_cactus-plain.html
+asmodeum_quest_refs: [asmodeum-steel-killing-plateau-monkey, asmodeum-steel-disguise, asmodeum-steel-obtaining-asmodes-trust]
+quests:
+  - {id: cactus-plain-plateau-monkey, name: Plateau Monkey, repeatable: true, category: repeatable, giver: {npc: Chief, area: Cactus Plain, coordinates: [43, 154]}, requirements: {factions: [Steel], level: {min: 15, max: 30}}, rewards: {experience: 530, credit: 25}, objectives: [{type: kill, target: Plateau Monkey, count: 20, area: Cactus Plain}], walkthrough: ["Speak with the Chief at (43,154).", "Defeat 20 Plateau Monkeys.", "Return to the Chief."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: cactus-plain-lizardmans-constant-attack, name: Lizardman‘s Constant Attack, repeatable: true, category: repeatable, giver: {npc: Chief, area: Cactus Plain, coordinates: [43, 154]}, requirements: {factions: [Steel], level: {min: 15, max: 30}}, rewards: {experience: 450, credit: 25}, objectives: [{type: kill, target: Spear Lizardman, count: 20, area: Cactus Plain}], walkthrough: ["Speak with the Chief.", "Defeat 20 Spear Lizardmen.", "Return to the Chief."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: cactus-plain-missing-necklace, name: Missing Necklace, repeatable: false, category: single, giver: {npc: Pestle Guard, area: Cactus Plain, coordinates: [53, 140]}, requirements: {factions: [Steel], level: {min: 15, max: null}}, rewards: {gold: 500, experience: 800, credit: 55}, objectives: [{type: collect_drop, target: Plateau Monkey, item: Love Necklace, count: 1, area: Cactus Plain, drop_rate: null}], walkthrough: ["Speak with the Pestle Guard at (53,140).", "Defeat Plateau Monkeys until the Love Necklace is recovered.", "Return to the Pestle Guard."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: cactus-plain-collecting-lizardmans-bone
+    name: Collecting Lizardman‘s Bone
+    repeatable: false
+    category: single
+    giver: {npc: Biologist, area: Cactus Plain, coordinates: [86, 48]}
+    requirements: {factions: [Steel], level: {min: 15, max: null}}
+    rewards: {gold: 600, experience: 1300, credit: 60}
+    objectives: [{type: collect_drop, target: Ball Lizardman, items: [{name: Complete Lizard skull, count: 1}, {name: Complete Lizard rib, count: 1}, {name: Complete Lizard shank bone, count: 1}, {name: Complete Lizard arm bone, count: 1}], area: Cactus Plain, drop_rate: null}]
+    walkthrough: ["Speak with the Biologist at (86,48).", "Defeat Ball Lizardmen until you obtain the complete skull, rib, shank, and arm bones.", "Return to the Biologist."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - {id: cactus-plain-mysterious-pieces, name: Mysterious Pieces, repeatable: false, category: single, giver: null, requirements: {factions: [Steel]}, rewards: {experience: 400, credit: 35}, objectives: [{type: collect_drop, target: Ball Lizardman, item: Mystic Piece, count: 1, area: Cactus Plain, drop_rate: null}, {type: talk, target: Scholar Francise, area: Iron Castle, coordinates: null, item_delivery: Mystic Piece}], walkthrough: ["While fighting Ball Lizardmen, obtain the Mystic Piece.", "Take it to Scholar Francise in Iron Castle."], notes: ["The area table does not expose the initial quest giver/trigger."], verification: {status: web_partial, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: cactus-plain-picking-cactus-fruit
+    name: Picking Cactus Fruit
+    repeatable: false
+    category: series
+    series: {name: Sam promotion series, position: 1, total: 3, next: cactus-plain-knack-for-promotion}
+    giver: {npc: Sam, area: Cactus Plain, coordinates: [96, 44]}
+    requirements: {factions: [Steel], level: {min: 15, max: null}}
+    rewards: {gold: 200, experience: 1200, credit: 65}
+    objectives: [{type: collect_drop, target: Plateau Monkey, item: Cactus Fruit, count: 3, area: Cactus Plain, drop_rate: null}]
+    walkthrough: ["Speak with Sam at (96,44).", "Defeat Plateau Monkeys until you collect 3 Cactus Fruits.", "Return to Sam."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: cactus-plain-knack-for-promotion
+    name: Knack for Promotion
+    repeatable: false
+    category: series
+    series: {name: Sam promotion series, position: 2, total: 3, previous: cactus-plain-picking-cactus-fruit, next: cactus-plain-reporting-achievement}
+    giver: {npc: Sam, area: Cactus Plain, coordinates: [96, 44]}
+    requirements: {factions: [Steel], level: {min: 15, max: null}, prerequisite_quests: [cactus-plain-picking-cactus-fruit]}
+    rewards: {gold: 200, experience: 1200, credit: 370, items: [{name: null}]}
+    objectives: [{type: kill, target: Lizard Lisad, count: 1, area: Cactus Plain, boss: true}, {type: obtain, item: Lizard Lisad head, count: 1}]
+    walkthrough: ["Complete Picking Cactus Fruit.", "Defeat Lizard Lisad and take its head.", "Return the head to Sam."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: cactus-plain-reporting-achievement
+    name: Reporting Achievement
+    repeatable: false
+    category: series
+    series: {name: Sam promotion series, position: 3, total: 3, previous: cactus-plain-knack-for-promotion}
+    giver: {npc: Sam, area: Cactus Plain, coordinates: [96, 44]}
+    requirements: {factions: [Steel], level: {min: 15, max: null}, prerequisite_quests: [cactus-plain-knack-for-promotion]}
+    rewards: {experience: 400, credit: 20}
+    objectives: [{type: talk, target: General Allie, area: Burning Desert, coordinates: [37, 162]}]
+    walkthrough: ["Complete Knack for Promotion.", "Travel to Burning Desert and report Sam's success to General Allie at (37,162)."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
