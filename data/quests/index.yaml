@@ -3,16 +3,25 @@ dataset: quests
 preservation_role: Canonical normalized quest knowledge for AOmega
 last_updated: 2026-08-25
 primary_source: https://angels.wikidot.com/directory:areas
+canonical_quest_records: 114
 areas:
-  - id: angel-lyceum
-    name: Angel Lyceum
-    region: Heaven
-    path: data/quests/areas/angel-lyceum.yaml
-    documented_quest_count: 21
-    status: researched
+  - {id: angel-lyceum, name: Angel Lyceum, region: Heaven, path: data/quests/areas/angel-lyceum.yaml, local_quest_records: 21, status: researched}
+  - {id: aurora-city, name: Aurora City, region: Aurora City, path: data/quests/areas/aurora-city.yaml, local_quest_records: 17, global_quest_refs: 2, status: researched}
+  - {id: spike-farm, name: Spike Farm, region: Aurora City, path: data/quests/areas/spike-farm.yaml, local_quest_records: 8, status: researched}
+  - {id: sunflower-plain, name: Sunflower Plain, region: Aurora City, path: data/quests/areas/sunflower-plain.yaml, local_quest_records: 7, status: researched}
+  - {id: dawn-harbor, name: Dawn Harbor, region: Aurora City, path: data/quests/areas/dawn-harbor.yaml, local_quest_records: 11, global_quest_refs: 3, status: researched}
+  - {id: riprap-coast, name: Riprap Coast, region: Aurora City, path: data/quests/areas/riprap-coast.yaml, local_quest_records: 2, global_quest_refs: 1, status: partial_secondary_reconstruction}
+  - {id: cherry-village, name: Cherry Village, region: Aurora City, path: data/quests/areas/cherry-village.yaml, local_quest_records: 11, global_quest_refs: 3, status: researched}
+  - {id: thorn-wasteland, name: Thorn Wasteland, region: Aurora City, path: data/quests/areas/thorn-wasteland.yaml, local_quest_records: 5, status: researched}
+series:
+  - {id: asmodeum, name: Asmodeum, path: data/quests/series/asmodeum.yaml, quest_records: 32, status: researched_from_directory_with_partial_dedicated_pages}
+coverage_notes:
+  - Riprap Coast's primary area page was not retrievable; its known local quests are preserved as a lower-confidence reconstruction from cross-references and a 2012 guide.
+  - Crashing Hillock and Thunder Ruins remain unresolved for local quest tables; the directory marks their quest counts unknown.
+  - Area-level documentation being absent or templated does not mean the game contains no quests there.
 research_queue:
-  - {region: Aurora City, status: next}
-  - {region: Breeze Woods, status: queued}
+  - {region: Aurora City, areas: [Crashing Hillock, Thunder Ruins], status: incomplete_source_pages}
+  - {region: Breeze Woods, status: next}
   - {region: Iron Castle, status: queued}
   - {region: Dark City, status: queued}
   - {region: Dungeon, status: queued}
