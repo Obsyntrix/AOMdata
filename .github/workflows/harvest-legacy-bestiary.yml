@@ -1,13 +1,9 @@
 name: Harvest legacy bestiary
 
 # Preservation harvester for the legacy Angels Wiki mirror.
+# Network crawling is intentionally manual-only so index/audit maintenance cannot
+# launch a competing harvest while another provenance source is being recovered.
 on:
-  push:
-    paths:
-      - '.github/workflows/harvest-legacy-bestiary.yml'
-      - 'tools/crawl_legacy_bestiary.py'
-      - 'tools/resume_legacy_bestiary.py'
-      - 'tools/build_bestiary_indexes.py'
   workflow_dispatch:
 
 permissions:
@@ -41,6 +37,9 @@ jobs:
 
       - name: Rebuild bestiary indexes
         run: python tools/build_bestiary_indexes.py
+
+      - name: Audit bestiary graph
+        run: python tools/audit_bestiary.py
 
       - name: Show crawl report
         if: always()
