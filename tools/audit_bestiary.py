@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Audit the derived AOmega bestiary graph for preservation/query completeness."""
+"""Audit the derived AOmega bestiary graph and actual preserved source coverage."""
 
 from __future__ import annotations
 
 from collections import Counter
 from pathlib import Path
+from urllib.parse import urlparse
 import sys
 
 import yaml
@@ -12,6 +13,9 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 BESTIARY = ROOT / "data" / "bestiary"
 INDEXES = BESTIARY / "indexes"
+SUMMARY_DIR = BESTIARY / "site" / "summary"
+AREA_DIR = BESTIARY / "site" / "areas"
+MONSTER_DIR = BESTIARY / "site" / "monster-pages"
 OUT = BESTIARY / "audit.yaml"
 
 
@@ -20,19 +24,66 @@ def load(path: Path) -> object:
         return yaml.safe_load(fh)
 
 
-def main() -> int:
-    by_item = load(INDEXES / "by-item.yaml") or {}
-    by_name = load(INDEXES / "by-name.yaml") or {}
-    by_area = load(INDEXES / "by-area.yaml") or {}
-    by_level = load(INDEXES / "by-level.yaml") or {}
-    bosses = load(INDEXES / "bosses.yaml") or {}
-    report = load(BESTIARY / "crawl-report.yaml") or {}
+def load_optional(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    value = load(path) or {}
+    return value if isinstance(value, dict) else {}
 
-    items = by_item.get("items", []) if isinstance(by_item, dict) else []
-    monsters = by_name.get("monsters", []) if isinstance(by_name, dict) else []
-    areas = by_area.get("areas", []) if isinstance(by_area, dict) else []
-    levels = by_level.get("levels", []) if isinstance(by_level, dict) else []
-    boss_rows = bosses.get("bosses", []) if isinstance(bosses, dict) else []
+
+def expected_source_slugs() -> tuple[set[str], set[str]]:
+    area_slugs: set[str] = set()
+    monster_slugs: set[str] = set()
+    for path in sorted(SUMMARY_DIR.glob("*.yaml")):
+        doc = load_optional(path)
+        for url in doc.get("discovered_area_urls", []) or []:
+            name = Path(urlparse(str(url)).path).name
+            if name.startswith("area_") and name.endswith(".html"):
+                area_slugs.add(name.removeprefix("area_").removesuffix(".html"))
+        for url in doc.get("discovered_monster_urls", []) or []:
+            name = Path(urlparse(str(url)).path).name
+            if name.startswith("monster_") and name.endswith(".html"):
+                monster_slugs.add(name.removeprefix("monster_").removesuffix(".html"))
+
+    # Area pages can expose monster links that do not occur in a summary view.
+    for path in sorted(AREA_DIR.glob("*.yaml")):
+        doc = load_optional(path)
+        for monster in doc.get("monsters", []) or []:
+            if not isinstance(monster, dict):
+                continue
+            url = monster.get("monster_detail_retrieval_url")
+            if url:
+                name = Path(urlparse(str(url)).path).name
+                if name.startswith("monster_") and name.endswith(".html"):
+                    monster_slugs.add(name.removeprefix("monster_").removesuffix(".html"))
+        for drop in doc.get("drops", []) or []:
+            if not isinstance(drop, dict):
+                continue
+            for link in drop.get("monster_links", []) or []:
+                if not isinstance(link, dict):
+                    continue
+                url = link.get("retrieval_url")
+                if url:
+                    name = Path(urlparse(str(url)).path).name
+                    if name.startswith("monster_") and name.endswith(".html"):
+                        monster_slugs.add(name.removeprefix("monster_").removesuffix(".html"))
+    return area_slugs, monster_slugs
+
+
+def main() -> int:
+    by_item = load_optional(INDEXES / "by-item.yaml")
+    by_name = load_optional(INDEXES / "by-name.yaml")
+    by_area = load_optional(INDEXES / "by-area.yaml")
+    by_level = load_optional(INDEXES / "by-level.yaml")
+    bosses = load_optional(INDEXES / "bosses.yaml")
+    crawl_report = load_optional(BESTIARY / "crawl-report.yaml")
+    wayback_report = load_optional(BESTIARY / "wayback-monster-report.yaml")
+
+    items = by_item.get("items", []) or []
+    monsters = by_name.get("monsters", []) or []
+    areas = by_area.get("areas", []) or []
+    levels = by_level.get("levels", []) or []
+    boss_rows = bosses.get("bosses", []) or []
 
     resolution = Counter()
     source_kinds = Counter()
@@ -94,9 +145,11 @@ def main() -> int:
         if len(area_values) > 1:
             names_with_area_variants += 1
 
-    report_counts = report.get("counts", {}) if isinstance(report, dict) else {}
-    unresolved_areas = report.get("unresolved_area_urls", []) if isinstance(report, dict) else []
-    unresolved_monsters = report.get("unresolved_monster_urls", []) if isinstance(report, dict) else []
+    expected_areas, expected_monsters = expected_source_slugs()
+    captured_areas = {path.stem for path in AREA_DIR.glob("*.yaml")}
+    captured_monsters = {path.stem for path in MONSTER_DIR.glob("*.yaml")}
+    missing_areas = sorted(expected_areas - captured_areas)
+    missing_monsters = sorted(expected_monsters - captured_monsters)
 
     exact_link_rows = sum(count for status, count in resolution.items() if status.startswith("exact_"))
     ambiguous_link_rows = sum(count for status, count in resolution.items() if status.startswith("ambiguous"))
@@ -104,9 +157,16 @@ def main() -> int:
 
     payload = {
         "dataset": "aomega_bestiary",
-        "audit_kind": "derived_graph_completeness",
-        "crawl_status": report.get("status") if isinstance(report, dict) else None,
-        "crawl_counts": report_counts,
+        "audit_kind": "derived_graph_and_source_completeness",
+        "source_snapshot_counts": {
+            "summary_documents": len(list(SUMMARY_DIR.glob("*.yaml"))),
+            "expected_area_pages": len(expected_areas),
+            "captured_area_pages": len(captured_areas & expected_areas),
+            "expected_monster_detail_pages": len(expected_monsters),
+            "captured_historical_monster_detail_pages": len(captured_monsters & expected_monsters),
+        },
+        "crawl_report_counts": crawl_report.get("counts", {}),
+        "wayback_recovery_counts": wayback_report.get("counts", {}),
         "index_counts": {
             "areas": len(areas),
             "levels": len(levels),
@@ -132,23 +192,26 @@ def main() -> int:
             "note": "Name reuse is evidence to preserve, not a request to merge records.",
         },
         "retrieval_gaps": {
-            "unresolved_area_pages": len(unresolved_areas or []),
-            "unresolved_monster_detail_pages": len(unresolved_monsters or []),
+            "missing_area_pages": len(missing_areas),
+            "missing_historical_monster_detail_pages": len(missing_monsters),
+            "missing_area_slugs": missing_areas,
+            "missing_monster_slugs_sample": missing_monsters[:250],
+            "missing_monster_slugs_sample_truncated": len(missing_monsters) > 250,
         },
         "unresolved_item_source_examples": unresolved_examples,
         "ambiguous_item_source_examples": ambiguous_examples,
         "pass_conditions": {
-            "all_discovered_monster_pages_accounted_for": (
-                isinstance(report_counts, dict)
-                and report_counts.get("captured_monster_detail_pages") == report_counts.get("discovered_monster_detail_pages")
-            ),
+            "all_discovered_area_pages_accounted_for": not missing_areas,
+            "all_discovered_historical_monster_pages_accounted_for": not missing_monsters,
             "no_unresolved_item_source_names": unresolved_link_rows == 0,
             "indexes_nonempty": bool(areas and levels and monsters and items),
         },
         "notes": [
+            "Coverage is computed from files actually preserved in the repository, not from a crawler's transient in-memory count.",
             "Ambiguous links are not silently collapsed because same-name monsters can represent multiple source observations.",
             "Question-mark rates are preserved source values and are not treated as parsing failures.",
-            "This audit evaluates the derived lookup graph; target-client verification remains a separate preservation step.",
+            "The 2026 aowiki.uk client-derived monster database is intentionally excluded from historical-monster coverage.",
+            "Target-client verification remains a separate AOmega preservation step.",
         ],
     }
 
