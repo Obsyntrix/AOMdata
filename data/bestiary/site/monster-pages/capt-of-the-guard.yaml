@@ -1,0 +1,284 @@
+monster_page:
+  id: capt-of-the-guard
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:capt-of-the-guard
+    retrieval_url: https://web.archive.org/web/20100803094047id_/http://angels.wikidot.com:80/monster:capt-of-the-guard
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100803094047'
+    archive_snapshot_url: https://web.archive.org/web/20100803094047/http://angels.wikidot.com:80/monster:capt-of-the-guard
+    archive_original_lookup_url: https://angels.wikidot.com/monster:capt-of-the-guard
+    source_html_sha256: 93d5a7fd0bf738896deedc4fa4b704e7a7bf2b85970643ccebbc5c7e9f92fa7d
+fields_raw:
+  Name: 'Spells:'
+  Capt of the Guard: '-'
+  'Spells:': 'Location:'
+  '-': Winding Flower Corridor
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 415 - 529
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: capt-of-the-guard__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Springtide Wristlet
+  chance_to_drop_raw: 48.32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.32%
+    Icon: ''
+    Item: Springtide Wristlet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.32
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Springtide Boots
+  chance_to_drop_raw: 48.32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.32%
+    Icon: ''
+    Item: Springtide Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.32
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSpringtide Wristlet
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodSpringtide Wristlet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSpringtide Boots
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodSpringtide Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wrist Holy Feather Helmet
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Wrist Holy Feather Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Feather Boots
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Holy Feather Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: capt-of-the-guard__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.85%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.85
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Capt of the Guard
+  - ''
+  rows_raw:
+  - - Name
+    - Capt of the Guard
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Winding Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 415 - 529
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.32%
+    - ''
+    - Springtide Wristlet
+    - ITEM NOTES
+  - - 48.32%
+    - ''
+    - Springtide Boots
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodSpringtide Wristlet
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodSpringtide Boots
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Wrist Holy Feather Helmet
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Holy Feather Boots
+    - ITEM NOTES
+  - - 0.85%
+    - ''
+    - Red Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

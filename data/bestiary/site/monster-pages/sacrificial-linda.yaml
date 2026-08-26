@@ -1,0 +1,266 @@
+monster_page:
+  id: sacrificial-linda
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sacrificial-linda
+    retrieval_url: https://web.archive.org/web/20100828153347id_/http://angels.wikidot.com:80/monster:sacrificial-linda
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100828153347'
+    archive_snapshot_url: https://web.archive.org/web/20100828153347/http://angels.wikidot.com:80/monster:sacrificial-linda
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sacrificial-linda
+    source_html_sha256: c05c734b461ed85c1ba1a0832128fd6656805f103989da40458b436f86af2b39
+fields_raw:
+  Name: 'Spells:'
+  Sacrificial Linda: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100%
+  Experience: '?'
+  Gold: 2336 - 2972(?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: sacrificial-linda__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Evil Fruit
+  chance_to_drop_raw: 45,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,49%
+    Icon: ''
+    Item: Effective Evil Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 45.49
+    quantity: null
+- drop_id: sacrificial-linda__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Target Potion
+  chance_to_drop_raw: 45,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,49%
+    Icon: ''
+    Item: Effective Target Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 45.49
+    quantity: null
+- drop_id: sacrificial-linda__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Helmet
+  chance_to_drop_raw: 8,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,06%
+    Icon: ''
+    Item: Dragon Fire Helmet
+    Short info: Garment 115
+  normalized:
+    chance_to_drop_percent: 8.06
+    quantity: null
+- drop_id: sacrificial-linda__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: sacrificial-linda__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDragon Fire Helmet
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: GoodDragon Fire Helmet
+    Short info: Garment 115
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: sacrificial-linda__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: Level 100 rune
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sacrificial Linda
+  - ''
+  rows_raw:
+  - - Name
+    - Sacrificial Linda
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '?'
+    - 2336 - 2972(?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 45,49%
+    - ''
+    - Effective Evil Fruit
+    - ITEM NOTES
+  - - 45,49%
+    - ''
+    - Effective Target Potion
+    - ITEM NOTES
+  - - 8,06%
+    - ''
+    - Dragon Fire Helmet
+    - Garment 115
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,36%
+    - ''
+    - GoodDragon Fire Helmet
+    - Garment 115
+  - - 0,05%
+    - ''
+    - Red Light Rune Piece
+    - Level 100 rune
+  row_count: 7

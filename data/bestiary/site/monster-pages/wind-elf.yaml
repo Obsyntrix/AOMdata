@@ -1,0 +1,265 @@
+monster_page:
+  id: wind-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:wind-elf
+    retrieval_url: https://web.archive.org/web/20191110065545id_/http://angels.wikidot.com:80/monster:wind-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191110065545'
+    archive_snapshot_url: https://web.archive.org/web/20191110065545/http://angels.wikidot.com:80/monster:wind-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:wind-elf
+    source_html_sha256: c4f75c148b9c9e9b0a107c228b84f989bfdb7787458d88f7b9095adc29ced75b
+fields_raw:
+  Name: 'Description:'
+  Wind Elf: An elemental incarnation of wind. Makes a very pleasant purring noise when squeezed. Don't put your fingers in its propeller.
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '4'
+  Hit Points: '162'
+  Rigor: '32'
+  Agility: '24'
+  Attack: '41'
+  Defense: '41'
+  Spell Attack: '33'
+  Spell Defense: '21'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,39%
+  Experience: '41'
+  Gold: 7 - 11 (9)
+item_drop_chance_raw: 0,39%
+drops:
+- drop_id: wind-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Shoes
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Heavy Shoes
+    Short info: Garment 1 (Dfs +7, Spl Dfs +1, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: wind-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Light Shoes
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Light Shoes
+    Short info: Mantle 1 (Dfs +5, Spl Dfs +2, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: wind-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Shoes
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Incantation Shoes
+    Short info: Vestment 1 (Dfs +2, Spl Dfs +3, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: wind-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Heavy Shoes
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Heavy Shoes
+    Short info: Garment 1 (Dfs +18, Spl Dfs +3, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+- drop_id: wind-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Light Shoes
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Light Shoes
+    Short info: Mantle 1 (Dfs +12, Spl Dfs +7, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+- drop_id: wind-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Incantation Shoes
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Incantation Shoes
+    Short info: Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Wind Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Wind Elf
+    - ''
+  - - 'Description:'
+    - An elemental incarnation of wind. Makes a very pleasant purring noise when squeezed. Don't put your fingers in its propeller.
+    - ''
+  - - 'Location:'
+    - East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '4'
+    - '162'
+    - '32'
+    - '24'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '41'
+    - '41'
+    - '33'
+    - '21'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,39%
+    - '41'
+    - 7 - 11 (9)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,77%
+    - ''
+    - Good Newbie Heavy Shoes
+    - Garment 1 (Dfs +7, Spl Dfs +1, Ag.+4)
+  - - 30,77%
+    - ''
+    - Good Newbie Light Shoes
+    - Mantle 1 (Dfs +5, Spl Dfs +2, Ag.+4)
+  - - 30,77%
+    - ''
+    - Good Newbie Incantation Shoes
+    - Vestment 1 (Dfs +2, Spl Dfs +3, Ag.+4)
+  - - 2,56%
+    - ''
+    - Fiend Heavy Shoes
+    - Garment 1 (Dfs +18, Spl Dfs +3, Ag.+7)
+  - - 2,56%
+    - ''
+    - Fiend Light Shoes
+    - Mantle 1 (Dfs +12, Spl Dfs +7, Ag.+7)
+  - - 2,56%
+    - ''
+    - Fiend Incantation Shoes
+    - Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  row_count: 7

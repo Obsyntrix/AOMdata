@@ -1,0 +1,338 @@
+monster_page:
+  id: botti-warden
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:botti-warden
+    retrieval_url: https://web.archive.org/web/20200109065626id_/http://angels.wikidot.com:80/monster:botti-warden
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109065626'
+    archive_snapshot_url: https://web.archive.org/web/20200109065626/http://angels.wikidot.com:80/monster:botti-warden
+    archive_original_lookup_url: https://angels.wikidot.com/monster:botti-warden
+    source_html_sha256: cbb6c49b2524aa2c209f72c94de556d5cb35420e3b5a5d4db74f367a1f965e77
+fields_raw:
+  Name: 'Spells:'
+  Botti Warden: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100%
+  Experience: '?'
+  Gold: 5704 - 7260 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: botti-warden__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 46,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,21%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.21
+    quantity: null
+- drop_id: botti-warden__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 46,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,21%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.21
+    quantity: null
+- drop_id: botti-warden__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Murderers Helmet
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Murderers Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: botti-warden__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Murderers Armor
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Murderers Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: botti-warden__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Night Walker
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Night Walker
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: botti-warden__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: botti-warden__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodMurderers Helmet
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: GoodMurderers Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: botti-warden__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodMurderers Armor
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: GoodMurderers Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: botti-warden__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Night Walker
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Night Walker
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: botti-warden__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Botti Warden
+  - ''
+  rows_raw:
+  - - Name
+    - Botti Warden
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '?'
+    - 5704 - 7260 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,21%
+    - ''
+    - Effective Healing Potion
+    - ITEM NOTES
+  - - 46,21%
+    - ''
+    - Effective Mighty Fruit
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Murderers Helmet
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Murderers Armor
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Night Walker
+    - ITEM NOTES
+  - - 0,54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - GoodMurderers Helmet
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - GoodMurderers Armor
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - Good Night Walker
+    - ITEM NOTES
+  - - 0,05%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 11

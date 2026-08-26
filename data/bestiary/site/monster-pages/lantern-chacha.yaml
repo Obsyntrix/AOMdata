@@ -1,0 +1,356 @@
+monster_page:
+  id: lantern-chacha
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:lantern-chacha
+    retrieval_url: https://web.archive.org/web/20191230105514id_/http://angels.wikidot.com:80/monster:lantern-chacha
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105514'
+    archive_snapshot_url: https://web.archive.org/web/20191230105514/http://angels.wikidot.com:80/monster:lantern-chacha
+    archive_original_lookup_url: https://angels.wikidot.com/monster:lantern-chacha
+    source_html_sha256: da04b7965be78597e7539212d92b567a376fcc70e6acf881dcf013f57edbb228
+fields_raw:
+  Name: 'Spells:'
+  Lantern Chacha: '-'
+  'Spells:': 'Location:'
+  '-': Leviathan's Bedroom
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '130'
+  Hit Points: '123932'
+  Rigor: '662'
+  Agility: '402'
+  Attack: '2338'
+  Defense: '2698'
+  Spell Attack: '1970'
+  Spell Defense: '1916'
+  Special Attack: +65 Lightning
+  Special Defense: '-'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100.00%
+  Experience: '250962'
+  Gold: 9315 - 11353
+item_drop_chance_raw: 100.00%
+drops:
+- drop_id: lantern-chacha__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Wand
+  chance_to_drop_raw: 4.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4.64%
+    Icon: ''
+    Item: Spring Wand
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 4.64
+    quantity: null
+- drop_id: lantern-chacha__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Armor
+  chance_to_drop_raw: 4.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4.64%
+    Icon: ''
+    Item: Dragon Fire Armor
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 4.64
+    quantity: null
+- drop_id: lantern-chacha__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Gloves
+  chance_to_drop_raw: 4.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4.64%
+    Icon: ''
+    Item: Dragon Fire Gloves
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 4.64
+    quantity: null
+- drop_id: lantern-chacha__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSpring Wand
+  chance_to_drop_raw: 0.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.21%
+    Icon: ''
+    Item: GoodSpring Wand
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: lantern-chacha__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDragon Fire Armor
+  chance_to_drop_raw: 0.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.21%
+    Icon: ''
+    Item: GoodDragon Fire Armor
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: lantern-chacha__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDragon Fire Gloves
+  chance_to_drop_raw: 0.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.21%
+    Icon: ''
+    Item: GoodDragon Fire Gloves
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: lantern-chacha__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 1:Crusader's Justice 5
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: Scroll 1:Crusader's Justice 5
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: lantern-chacha__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 0.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.14%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: lantern-chacha__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: lantern-chacha__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 84.67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 84.67%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 84.67
+    quantity: null
+- drop_id: lantern-chacha__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lantern Giant Chacha Card
+  chance_to_drop_raw: 0.07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.07%
+    Icon: ''
+    Item: Lantern Giant Chacha Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Lantern Chacha
+  - ''
+  rows_raw:
+  - - Name
+    - Lantern Chacha
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Leviathan's Bedroom
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '130'
+    - '123932'
+    - '662'
+    - '402'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2338'
+    - '2698'
+    - '1970'
+    - '1916'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +65 Lightning
+    - '-'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100.00%
+    - '250962'
+    - 9315 - 11353
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 4.64%
+    - ''
+    - Spring Wand
+    - ''
+  - - 4.64%
+    - ''
+    - Dragon Fire Armor
+    - ''
+  - - 4.64%
+    - ''
+    - Dragon Fire Gloves
+    - ''
+  - - 0.21%
+    - ''
+    - GoodSpring Wand
+    - ''
+  - - 0.21%
+    - ''
+    - GoodDragon Fire Armor
+    - ''
+  - - 0.21%
+    - ''
+    - GoodDragon Fire Gloves
+    - ''
+  - - 0.02%
+    - ''
+    - Scroll 1:Crusader's Justice 5
+    - ''
+  - - 0.14%
+    - ''
+    - Flawless Orange Gem
+    - ''
+  - - 0.54%
+    - ''
+    - Pestle
+    - ''
+  - - 84.67%
+    - ''
+    - Effective Healing Potion
+    - ''
+  - - 0.07%
+    - ''
+    - Lantern Giant Chacha Card
+    - 'See: Card Collection'
+  row_count: 12

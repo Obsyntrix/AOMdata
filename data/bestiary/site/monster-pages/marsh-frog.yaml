@@ -1,0 +1,392 @@
+monster_page:
+  id: marsh-frog
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:marsh-frog
+    retrieval_url: https://web.archive.org/web/20200111053500id_/http://angels.wikidot.com:80/monster:marsh-frog
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200111053500'
+    archive_snapshot_url: https://web.archive.org/web/20200111053500/http://angels.wikidot.com:80/monster:marsh-frog
+    archive_original_lookup_url: https://angels.wikidot.com/monster:marsh-frog
+    source_html_sha256: c7245057d36b01715c00b69e12202f3c325e76be7d9b205021c78eabf0842a23
+fields_raw:
+  Name: 'Spells:'
+  Marsh Frog: '-'
+  'Spells:': 'Location:'
+  '-': Cryptic Moon Swamp
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '21'
+  Hit Points: '696'
+  Rigor: '112'
+  Agility: '75'
+  Attack: '140'
+  Defense: '154'
+  Spell Attack: '150'
+  Spell Defense: '86'
+  Special Attack: Fire +2
+  Special Defense: '1'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Moderate (75)
+  Attack Speed: Moderate (75)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,22%
+  Experience: '174'
+  Gold: 27 - 49 (38)
+item_drop_chance_raw: 1,22%
+drops:
+- drop_id: marsh-frog__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 58,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,38%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.38
+    quantity: null
+- drop_id: marsh-frog__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Iron Shoes
+  chance_to_drop_raw: 11,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,68%
+    Icon: ''
+    Item: Traveller Iron Shoes
+    Short info: Garment 21 (Dfs +18, Spl Dfs +3, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 11.68
+    quantity: null
+- drop_id: marsh-frog__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Thick-soled Shoes
+  chance_to_drop_raw: 11,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,68%
+    Icon: ''
+    Item: Traveller Thick-soled Shoes
+    Short info: Mantle 21 (Dfs +12, Spl Dfs +7, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 11.68
+    quantity: null
+- drop_id: marsh-frog__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Cotton Shoes
+  chance_to_drop_raw: 11,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,68%
+    Icon: ''
+    Item: Traveller Cotton Shoes
+    Short info: Vestment 21 (Dfs +6, Spl Dfs +10, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 11.68
+    quantity: null
+- drop_id: marsh-frog__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Iron Shoes
+  chance_to_drop_raw: 1,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,94%
+    Icon: ''
+    Item: Good Traveller Iron Shoes
+    Short info: Garment 21 (Dfs +31, Spl Dfs +6, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 1.94
+    quantity: null
+- drop_id: marsh-frog__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Thick-soled Shoes
+  chance_to_drop_raw: 1,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,94%
+    Icon: ''
+    Item: Good Traveller Thick-soled Shoes
+    Short info: Mantle 21 (Dfs +21, Spl Dfs +11, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 1.94
+    quantity: null
+- drop_id: marsh-frog__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Cotton Shoes
+  chance_to_drop_raw: 1,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,94%
+    Icon: ''
+    Item: Good Traveller Cotton Shoes
+    Short info: Vestment 21 (Dfs +10, Spl Dfs +17, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 1.94
+    quantity: null
+- drop_id: marsh-frog__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Leather Shoes
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Heavy Leather Shoes
+    Short info: Garment 21 (Dfs +47, Spl Dfs +8, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: marsh-frog__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Light Leather Shoes
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Light Leather Shoes
+    Short info: Mantle 21 (Dfs +31, Spl Dfs +16, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: marsh-frog__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Protector's Magic Shoes
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Protector's Magic Shoes
+    Short info: Vestment 21 (Dfs +16, Spl Dfs +23, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: marsh-frog__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: marsh-frog__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: marsh-frog__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Marsh Frog
+  - ''
+  rows_raw:
+  - - Name
+    - Marsh Frog
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Cryptic Moon Swamp
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '21'
+    - '696'
+    - '112'
+    - '75'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '140'
+    - '154'
+    - '150'
+    - '86'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +2
+    - '1'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Moderate (75)
+    - Moderate (75)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,22%
+    - '174'
+    - 27 - 49 (38)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,38%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,68%
+    - ''
+    - Traveller Iron Shoes
+    - Garment 21 (Dfs +18, Spl Dfs +3, Ag.+7)
+  - - 11,68%
+    - ''
+    - Traveller Thick-soled Shoes
+    - Mantle 21 (Dfs +12, Spl Dfs +7, Ag.+7)
+  - - 11,68%
+    - ''
+    - Traveller Cotton Shoes
+    - Vestment 21 (Dfs +6, Spl Dfs +10, Ag.+7)
+  - - 1,94%
+    - ''
+    - Good Traveller Iron Shoes
+    - Garment 21 (Dfs +31, Spl Dfs +6, Ag.+11)
+  - - 1,94%
+    - ''
+    - Good Traveller Thick-soled Shoes
+    - Mantle 21 (Dfs +21, Spl Dfs +11, Ag.+11)
+  - - 1,94%
+    - ''
+    - Good Traveller Cotton Shoes
+    - Vestment 21 (Dfs +10, Spl Dfs +17, Ag.+11)
+  - - 0,19%
+    - ''
+    - Heavy Leather Shoes
+    - Garment 21 (Dfs +47, Spl Dfs +8, Ag.+14)
+  - - 0,19%
+    - ''
+    - Light Leather Shoes
+    - Mantle 21 (Dfs +31, Spl Dfs +16, Ag.+14)
+  - - 0,19%
+    - ''
+    - Protector's Magic Shoes
+    - Vestment 21 (Dfs +16, Spl Dfs +23, Ag.+14)
+  - - 0,07%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  - - 0,07%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,07%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  row_count: 14

@@ -1,0 +1,236 @@
+monster_page:
+  id: scale-soldier
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:scale-soldier
+    retrieval_url: https://web.archive.org/web/20200119193226id_/http://angels.wikidot.com:80/monster:scale-soldier
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119193226'
+    archive_snapshot_url: https://web.archive.org/web/20200119193226/http://angels.wikidot.com:80/monster:scale-soldier
+    archive_original_lookup_url: https://angels.wikidot.com/monster:scale-soldier
+    source_html_sha256: 1e3ea70c1137ad424d10c2f268f5b2c9e5f2d767a724bff8dcf1396e1a7147e4
+fields_raw:
+  Name: 'Description:'
+  Scale Soldier: The three-pronged fork is its deadly weapon. Any approaching creatures can hardly avoid being stabbed.
+  'Description:': 'Location:'
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '94'
+  Hit Points: '7650'
+  Rigor: '507'
+  Agility: '309'
+  Attack: '1708'
+  Defense: '1329'
+  Spell Attack: '688'
+  Spell Defense: '385'
+  Special Attack: Ice +50
+  Special Defense: '37'
+  Strong Against: Fire (67)
+  Weak Against: Thunder (7)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Bonus Damage: Ice +50
+  Item Drop Chance: 0,05%
+  Experience: '1798'
+  Gold: 1049 - 1241 (1145)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: scale-soldier__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coral Manteau
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Coral Manteau
+    Short info: Cloak Lvl 100 (Dfs +144, Spl Dfs +90, Ag.+31)
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: scale-soldier__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Coral Manteau
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Coral Manteau
+    Short info: Cloak Lvl 100 (Dfs +179, Spl Dfs +100, Ag.+34)
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: scale-soldier__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Sapphire
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Sapphire
+    Short info: 'Weapon: I.Atk +24, Armor: Max. MP +81, Shield: I.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: scale-soldier__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Coral Manteau
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: D.Plan2:Coral Manteau
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Scale Soldier
+  - ''
+  rows_raw:
+  - - Name
+    - Scale Soldier
+    - ''
+  - - 'Description:'
+    - The three-pronged fork is its deadly weapon. Any approaching creatures can hardly avoid being stabbed.
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '94'
+    - '7650'
+    - '507'
+    - '309'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1708'
+    - '1329'
+    - '688'
+    - '385'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +50
+    - '37'
+    - Fire (67)
+    - Thunder (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +50
+    - Fire
+    - Thunder
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1798'
+    - 1049 - 1241 (1145)
+  row_count: 4
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Coral Manteau
+    - Cloak Lvl 100 (Dfs +144, Spl Dfs +90, Ag.+31)
+  - - 2,39%
+    - ''
+    - Good Coral Manteau
+    - Cloak Lvl 100 (Dfs +179, Spl Dfs +100, Ag.+34)
+  - - 1,19%
+    - ''
+    - Flawless Sapphire
+    - 'Weapon: I.Atk +24, Armor: Max. MP +81, Shield: I.Dfs +5'
+  - - 0,80%
+    - ''
+    - D.Plan2:Coral Manteau
+    - Sew 95
+  row_count: 5

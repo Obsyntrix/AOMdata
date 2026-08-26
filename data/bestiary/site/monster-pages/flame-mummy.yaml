@@ -1,0 +1,284 @@
+monster_page:
+  id: flame-mummy
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:flame-mummy
+    retrieval_url: https://web.archive.org/web/20191102090418id_/http://angels.wikidot.com:80/monster:flame-mummy
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102090418'
+    archive_snapshot_url: https://web.archive.org/web/20191102090418/http://angels.wikidot.com:80/monster:flame-mummy
+    archive_original_lookup_url: https://angels.wikidot.com/monster:flame-mummy
+    source_html_sha256: 3c440505dd20219efd4ef03e0664cc3f68529a1b02cd89db01b2448b249e154f
+fields_raw:
+  Name: 'Description:'
+  Flame Mummy: Description
+  'Description:': 'Location:'
+  Description: Lava Cave , Flaming Door , Underground Square
+  Type: Undead
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '70'
+  Hit Points: '2576'
+  Rigor: '362'
+  Agility: '222'
+  Attack: '494'
+  Defense: '745'
+  Magic Attack: '499'
+  Magic Defense: '281'
+  Special Attack: Fire +34
+  Special Defense: '25'
+  Strong Against: Rotten(55)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Fast (90)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.06%
+  Experience: '955'
+  Gold: 154-248 (201)
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: flame-mummy__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Cuffs
+  chance_to_drop_raw: 50.70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 50.70%
+    Icon: ''
+    Item: Fire Guard Cuffs
+    Short info: Garment 67 (Dfs +103, Spl Dfs +13, Rig +62)
+  normalized:
+    chance_to_drop_percent: 50.7
+    quantity: null
+- drop_id: flame-mummy__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 42.25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 42.25%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 42.25
+    quantity: null
+- drop_id: flame-mummy__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Cuffs
+  chance_to_drop_raw: 4.22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4.22%
+    Icon: ''
+    Item: Good Fire Guard Cuffs
+    Short info: Garment 67 (Dfs +134, Spl Dfs +16, Rig +72)
+  normalized:
+    chance_to_drop_percent: 4.22
+    quantity: null
+- drop_id: flame-mummy__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hermit Boots'
+  chance_to_drop_raw: 1.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.41%
+    Icon: ''
+    Item: 'A.Plan2: Hermit Boots'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 1.41
+    quantity: null
+- drop_id: flame-mummy__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Brown Stiff Beetle
+  chance_to_drop_raw: 0.84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.84%
+    Icon: ''
+    Item: Brown Stiff Beetle
+    Short info: Lvl 70 (Spl Atk +55, Spl Dfs +55, Rig. +12, Ag. +18, Speed +30%)
+  normalized:
+    chance_to_drop_percent: 0.84
+    quantity: null
+- drop_id: flame-mummy__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Cuffs
+  chance_to_drop_raw: 0.42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.42%
+    Icon: ''
+    Item: Knight Cuffs
+    Short info: Garment 67 (Dfs +171, Spl Dfs +18, Rig +82)
+  normalized:
+    chance_to_drop_percent: 0.42
+    quantity: null
+- drop_id: flame-mummy__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 0.16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.16%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Flame Mummy
+  - ''
+  rows_raw:
+  - - Name
+    - Flame Mummy
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Lava Cave , Flaming Door , Underground Square
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Undead
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '2576'
+    - '362'
+    - '222'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '494'
+    - '745'
+    - '499'
+    - '281'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +34
+    - '25'
+    - Rotten(55)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (90)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '955'
+    - 154-248 (201)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 50.70%
+    - ''
+    - Fire Guard Cuffs
+    - Garment 67 (Dfs +103, Spl Dfs +13, Rig +62)
+  - - 42.25%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 4.22%
+    - ''
+    - Good Fire Guard Cuffs
+    - Garment 67 (Dfs +134, Spl Dfs +16, Rig +72)
+  - - 1.41%
+    - ''
+    - 'A.Plan2: Hermit Boots'
+    - Armor 65
+  - - 0.84%
+    - ''
+    - Brown Stiff Beetle
+    - Lvl 70 (Spl Atk +55, Spl Dfs +55, Rig. +12, Ag. +18, Speed +30%)
+  - - 0.42%
+    - ''
+    - Knight Cuffs
+    - Garment 67 (Dfs +171, Spl Dfs +18, Rig +82)
+  - - 0.16%
+    - ''
+    - Clean Purple Gem
+    - 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  row_count: 8

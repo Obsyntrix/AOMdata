@@ -1,0 +1,213 @@
+monster_page:
+  id: lily
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:lily
+    retrieval_url: https://web.archive.org/web/20191230105313id_/http://angels.wikidot.com:80/monster:lily
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105313'
+    archive_snapshot_url: https://web.archive.org/web/20191230105313/http://angels.wikidot.com:80/monster:lily
+    archive_original_lookup_url: https://angels.wikidot.com/monster:lily
+    source_html_sha256: 1fabd57471c72f7e63c5d78988b2b54b9fd833fb4696fbbdd7138221efa202f0
+fields_raw:
+  Name: 'Description:'
+  Lily: A beautiful white lily, with teeth. The Lyceum Lily gives off an enticing aroma to draw in unsuspecting prey. A wise adventurer would do well to be wary of
+    sticking his nose in the flower. If they want to keep that nose.
+  'Description:': 'Location:'
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '1'
+  Hit Points: '100'
+  Rigor: '17'
+  Agility: '15'
+  Attack: '23'
+  Defense: '25'
+  Spell Attack: '9'
+  Spell Defense: '13'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Long (12)
+  Speed: '0'
+  Attack Speed: Very Slow (30)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 4,04%
+  Experience: '43'
+  Gold: 4 - 6 (5)
+item_drop_chance_raw: 4,04%
+drops:
+- drop_id: lily__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Biscuits
+  chance_to_drop_raw: 49,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49,48%
+    Icon: ''
+    Item: Low-level Biscuits
+    Short info: Food (+50 HP)
+  normalized:
+    chance_to_drop_percent: 49.48
+    quantity: null
+- drop_id: lily__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Magic Grass
+  chance_to_drop_raw: 49,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49,48%
+    Icon: ''
+    Item: Low-level Magic Grass
+    Short info: Food (+40 MP)
+  normalized:
+    chance_to_drop_percent: 49.48
+    quantity: null
+- drop_id: lily__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lily Card
+  chance_to_drop_raw: 1,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,03%
+    Icon: ''
+    Item: Lily Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 1.03
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Lily
+  - ''
+  rows_raw:
+  - - Name
+    - Lily
+    - ''
+  - - 'Description:'
+    - A beautiful white lily, with teeth. The Lyceum Lily gives off an enticing aroma to draw in unsuspecting prey. A wise adventurer would do well to be wary of
+      sticking his nose in the flower. If they want to keep that nose.
+    - ''
+  - - 'Location:'
+    - Angel Lyceum , East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '1'
+    - '100'
+    - '17'
+    - '15'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '23'
+    - '25'
+    - '9'
+    - '13'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Long (12)
+    - '0'
+    - Very Slow (30)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 4,04%
+    - '43'
+    - 4 - 6 (5)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 49,48%
+    - ''
+    - Low-level Biscuits
+    - Food (+50 HP)
+  - - 49,48%
+    - ''
+    - Low-level Magic Grass
+    - Food (+40 MP)
+  - - 1,03%
+    - ''
+    - Lily Card
+    - 'See: Card Collection'
+  row_count: 4

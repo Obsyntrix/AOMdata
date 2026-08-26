@@ -1,0 +1,248 @@
+monster_page:
+  id: purple-hermit
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:purple-hermit
+    retrieval_url: https://web.archive.org/web/20200109123533id_/http://angels.wikidot.com:80/monster:purple-hermit
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109123533'
+    archive_snapshot_url: https://web.archive.org/web/20200109123533/http://angels.wikidot.com:80/monster:purple-hermit
+    archive_original_lookup_url: https://angels.wikidot.com/monster:purple-hermit
+    source_html_sha256: 566694be1d538c1a81cc0da52f903fe05f131b32a53c399436db63ff3747d4e4
+fields_raw:
+  Name: 'Spells:'
+  Purple Hermit: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '91'
+  Hit Points: '7585'
+  Rigor: '547'
+  Agility: '285'
+  Attack: '1051'
+  Defense: '1165'
+  Spell Attack: '654'
+  Spell Defense: '343'
+  Special Attack: +51 Rotten
+  Special Defense: +71 Rotten
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.04%
+  Experience: '3414'
+  Gold: 334 - 424
+item_drop_chance_raw: 0.04%
+drops:
+- drop_id: purple-hermit__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coral Manteau
+  chance_to_drop_raw: 92.27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 92.27%
+    Icon: ''
+    Item: Coral Manteau
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 92.27
+    quantity: null
+- drop_id: purple-hermit__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodCoral Manteau
+  chance_to_drop_raw: 2.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.3%
+    Icon: ''
+    Item: GoodCoral Manteau
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: purple-hermit__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Wings
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Blue Wings
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: purple-hermit__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Coral Manteau
+  chance_to_drop_raw: 0.76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.76%
+    Icon: ''
+    Item: D.Plan2:Coral Manteau
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.76
+    quantity: null
+- drop_id: purple-hermit__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 4.56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4.56%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 4.56
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Purple Hermit
+  - ''
+  rows_raw:
+  - - Name
+    - Purple Hermit
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '91'
+    - '7585'
+    - '547'
+    - '285'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1051'
+    - '1165'
+    - '654'
+    - '343'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +51 Rotten
+    - +71 Rotten
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.04%
+    - '3414'
+    - 334 - 424
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 92.27%
+    - ''
+    - Coral Manteau
+    - ITEM NOTES
+  - - 2.3%
+    - ''
+    - GoodCoral Manteau
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Blue Wings
+    - ITEM NOTES
+  - - 0.76%
+    - ''
+    - D.Plan2:Coral Manteau
+    - ITEM NOTES
+  - - 4.56%
+    - ''
+    - Flawless Yellow Gem
+    - ITEM NOTES
+  row_count: 6

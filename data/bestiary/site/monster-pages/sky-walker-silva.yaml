@@ -1,0 +1,340 @@
+monster_page:
+  id: sky-walker-silva
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sky-walker-silva
+    retrieval_url: https://web.archive.org/web/20170615193827id_/http://angels.wikidot.com:80/monster:sky-walker-silva
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170615193827'
+    archive_snapshot_url: https://web.archive.org/web/20170615193827/http://angels.wikidot.com:80/monster:sky-walker-silva
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sky-walker-silva
+    source_html_sha256: 168d287a6d6186371523abb64600c8591f1e7f1919c6bf6e2e6d8b979925e9ec
+fields_raw:
+  Name: 'Spells:'
+  Sky Walker Silva: Demon Sealed Venomous Breath
+  'Spells:': 'Location:'
+  Demon Sealed Venomous Breath: Chocolate Village
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '132'
+  Hit Points: '125065'
+  Rigor: '773'
+  Agility: '406'
+  Attack: '2387'
+  Defense: '2836'
+  Spell Attack: '2066'
+  Spell Defense: '1525'
+  Special Attack: Rtn +90
+  Special Defense: Thnd +70, Fire +50, Ice +70, Rtn +90
+  Strong Against: Rotten
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '84420'
+  Gold: 2628 - 3344 (2986)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: sky-walker-silva__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Super Mars' Fruit
+  chance_to_drop_raw: 46.137%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.137%
+    Icon: ''
+    Item: Super Mars' Fruit
+    Short info: Food (Def +300 | 10 min)
+  normalized:
+    chance_to_drop_percent: 46.137
+    quantity: null
+- drop_id: sky-walker-silva__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Super Target Potion
+  chance_to_drop_raw: 46.137%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.137%
+    Icon: ''
+    Item: Super Target Potion
+    Short info: Food (Rigor +62 | 10 min)
+  normalized:
+    chance_to_drop_percent: 46.137
+    quantity: null
+- drop_id: sky-walker-silva__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Wand
+  chance_to_drop_raw: 6.26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6.26%
+    Icon: ''
+    Item: Eagle Wand
+    Short info: Staff Lvl 130 (Atk 1874-2034 (1954), Spl Atk +912, Rig.+33)
+  normalized:
+    chance_to_drop_percent: 6.26
+    quantity: null
+- drop_id: sky-walker-silva__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Eagle Wand
+  chance_to_drop_raw: 1.2872%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2872%
+    Icon: ''
+    Item: Good Eagle Wand
+    Short info: Staff Lvl 130 (2571-2731 (2651), Spl Atk +1417, Rig.+36)
+  normalized:
+    chance_to_drop_percent: 1.2872
+    quantity: null
+- drop_id: sky-walker-silva__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Craft Recipe 2: Eagle Wand'
+  chance_to_drop_raw: 0.1073%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1073%
+    Icon: ''
+    Item: 'Craft Recipe 2: Eagle Wand'
+    Short info: Technics 131
+  normalized:
+    chance_to_drop_percent: 0.1073
+    quantity: null
+- drop_id: sky-walker-silva__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Orange Light Rune
+  chance_to_drop_raw: 0.0447%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.0447%
+    Icon: ''
+    Item: Flawed Orange Light Rune
+    Short info: 'Weapon: +127 Attack, Armor: +55 Defense, Shield: +55 Defense'
+  normalized:
+    chance_to_drop_percent: 0.0447
+    quantity: null
+- drop_id: sky-walker-silva__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sadell's Doomsday
+  chance_to_drop_raw: 0.0107%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.0107%
+    Icon: ''
+    Item: Sadell's Doomsday
+    Short info: Staff Lvl 130 (3112-3304 (3208), Spl Atk +1838, Rig.+39)
+  normalized:
+    chance_to_drop_percent: 0.0107
+    quantity: null
+- drop_id: sky-walker-silva__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rose Demon
+  chance_to_drop_raw: 0.0054%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.0054%
+    Icon: ''
+    Item: Rose Demon
+    Short info: 'Weight: 160, Required Level: 140, Spell Attack: +270, Spell Defense: +270, Rigor: +48, Agility: +55, Speed: +60%'
+  normalized:
+    chance_to_drop_percent: 0.0054
+    quantity: null
+- drop_id: sky-walker-silva__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Carp Robot
+  chance_to_drop_raw: 0.0054%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.0054%
+    Icon: ''
+    Item: Carp Robot
+    Short info: 'Weight: 500, Required Level: 130, Attack: 1800-2200 (2000), Attack Speed: 1, Defense: +3400, Max. HP: +4600, Beating Rate: +1, +27000 Max. Weight,
+      Hardiness: 490, Speed: +60%'
+  normalized:
+    chance_to_drop_percent: 0.0054
+    quantity: null
+- drop_id: sky-walker-silva__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.0054%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.0054%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.0054
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sky Walker Silva
+  - ''
+  rows_raw:
+  - - Name
+    - Sky Walker Silva
+    - ''
+  - - 'Spells:'
+    - Demon Sealed Venomous Breath
+    - ''
+  - - 'Location:'
+    - Chocolate Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '132'
+    - '125065'
+    - '773'
+    - '406'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2387'
+    - '2836'
+    - '2066'
+    - '1525'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rtn +90
+    - Thnd +70, Fire +50, Ice +70, Rtn +90
+    - Rotten
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '84420'
+    - 2628 - 3344 (2986)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.137%
+    - ''
+    - Super Mars' Fruit
+    - Food (Def +300 | 10 min)
+  - - 46.137%
+    - ''
+    - Super Target Potion
+    - Food (Rigor +62 | 10 min)
+  - - 6.26%
+    - ''
+    - Eagle Wand
+    - Staff Lvl 130 (Atk 1874-2034 (1954), Spl Atk +912, Rig.+33)
+  - - 1.2872%
+    - ''
+    - Good Eagle Wand
+    - Staff Lvl 130 (2571-2731 (2651), Spl Atk +1417, Rig.+36)
+  - - 0.1073%
+    - ''
+    - 'Craft Recipe 2: Eagle Wand'
+    - Technics 131
+  - - 0.0447%
+    - ''
+    - Flawed Orange Light Rune
+    - 'Weapon: +127 Attack, Armor: +55 Defense, Shield: +55 Defense'
+  - - 0.0107%
+    - ''
+    - Sadell's Doomsday
+    - Staff Lvl 130 (3112-3304 (3208), Spl Atk +1838, Rig.+39)
+  - - 0.0054%
+    - ''
+    - Rose Demon
+    - 'Weight: 160, Required Level: 140, Spell Attack: +270, Spell Defense: +270, Rigor: +48, Agility: +55, Speed: +60%'
+  - - 0.0054%
+    - ''
+    - Carp Robot
+    - 'Weight: 500, Required Level: 130, Attack: 1800-2200 (2000), Attack Speed: 1, Defense: +3400, Max. HP: +4600, Beating Rate: +1, +27000 Max. Weight, Hardiness:
+      490, Speed: +60%'
+  - - 0.0054%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 11

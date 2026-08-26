@@ -1,0 +1,482 @@
+monster_page:
+  id: white-wolf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:white-wolf
+    retrieval_url: https://web.archive.org/web/20220516233552id_/http://angels.wikidot.com/monster:white-wolf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20220516233552'
+    archive_snapshot_url: https://web.archive.org/web/20220516233552/http://angels.wikidot.com/monster:white-wolf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:white-wolf
+    source_html_sha256: b71ae53ea824420c17bafd4b759747370e00c485a36e1d7d98794fbf2b9f4190
+fields_raw:
+  Name: 'Spells:'
+  White Wolf: '-'
+  'Spells:': 'Location:'
+  '-': Crashing Hillock
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '1161'
+  Rigor: '187'
+  Agility: '117'
+  Attack: '219'
+  Defense: '329'
+  Spell Attack: '247'
+  Spell Defense: '139'
+  Special Attack: Fire +18
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '15'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,78%
+  Experience: '290'
+  Gold: 47 - 81 (64)
+item_drop_chance_raw: 0,78%
+drops:
+- drop_id: white-wolf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 38,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 38,23%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 38.23
+    quantity: null
+- drop_id: white-wolf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Heavy Iron Shoes
+  chance_to_drop_raw: 7,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 7,75%
+    Icon: ''
+    Item: Risker Heavy Iron Shoes
+    Short info: Garment 31 (Dfs +31, Spl Dfs +6, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 7.75
+    quantity: null
+- drop_id: white-wolf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Leather Boots
+  chance_to_drop_raw: 7,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 7,75%
+    Icon: ''
+    Item: Risker Leather Boots
+    Short info: Mantle 31 (Dfs +21, Spl Dfs +11, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 7.75
+    quantity: null
+- drop_id: white-wolf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Rabbi's Shoes
+  chance_to_drop_raw: 7,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 7,75%
+    Icon: ''
+    Item: Risker Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +10, Spl Dfs +17, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 7.75
+    quantity: null
+- drop_id: white-wolf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: White Wolf Card
+  chance_to_drop_raw: 7,65%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 7,65%
+    Icon: ''
+    Item: White Wolf Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 7.65
+    quantity: null
+- drop_id: white-wolf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 6,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,37%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 6.37
+    quantity: null
+- drop_id: white-wolf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 6.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6.37%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 6.37
+    quantity: null
+- drop_id: white-wolf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 6,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,37%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 6.37
+    quantity: null
+- drop_id: white-wolf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 6,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,37%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 6.37
+    quantity: null
+- drop_id: white-wolf__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Heavy Iron Shoes
+  chance_to_drop_raw: 1,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,29%
+    Icon: ''
+    Item: Good Risker Heavy Iron Shoes
+    Short info: Garment 31 (Dfs +47, Spl Dfs +8, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.29
+    quantity: null
+- drop_id: white-wolf__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Leather Boots
+  chance_to_drop_raw: 1,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,29%
+    Icon: ''
+    Item: Risker Leather Boots
+    Short info: Mantle 31 (Dfs +31, Spl Dfs +16, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.29
+    quantity: null
+- drop_id: white-wolf__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Rabbi's Shoes
+  chance_to_drop_raw: 1,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,29%
+    Icon: ''
+    Item: Good Risker Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +16, Spl Dfs +23, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.29
+    quantity: null
+- drop_id: white-wolf__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: white-wolf__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: white-wolf__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: white-wolf__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beastman's Iron Shoes
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Beastman's Iron Shoes
+    Short info: Garment 31 (Dfs +66, Spl Dfs +10, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: white-wolf__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Boots
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Ice Boots
+    Short info: Mantle 31 (Dfs +44, Spl Dfs +20, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: white-wolf__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Rabbi's Shoes
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Magic Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - White Wolf
+  - ''
+  rows_raw:
+  - - Name
+    - White Wolf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Crashing Hillock
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '1161'
+    - '187'
+    - '117'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '219'
+    - '329'
+    - '247'
+    - '139'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +18
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '15'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,78%
+    - '290'
+    - 47 - 81 (64)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 38,23%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 7,75%
+    - ''
+    - Risker Heavy Iron Shoes
+    - Garment 31 (Dfs +31, Spl Dfs +6, Ag.+11)
+  - - 7,75%
+    - ''
+    - Risker Leather Boots
+    - Mantle 31 (Dfs +21, Spl Dfs +11, Ag.+11)
+  - - 7,75%
+    - ''
+    - Risker Rabbi's Shoes
+    - Vestment 31 (Dfs +10, Spl Dfs +17, Ag.+11)
+  - - 7,65%
+    - ''
+    - White Wolf Card
+    - 'See: Card Collection'
+  - - 6,37%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 6.37%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 6,37%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 6,37%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 1,29%
+    - ''
+    - Good Risker Heavy Iron Shoes
+    - Garment 31 (Dfs +47, Spl Dfs +8, Ag.+14)
+  - - 1,29%
+    - ''
+    - Risker Leather Boots
+    - Mantle 31 (Dfs +31, Spl Dfs +16, Ag.+14)
+  - - 1,29%
+    - ''
+    - Good Risker Rabbi's Shoes
+    - Vestment 31 (Dfs +16, Spl Dfs +23, Ag.+14)
+  - - 0,38%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,38%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,38%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,13%
+    - ''
+    - Beastman's Iron Shoes
+    - Garment 31 (Dfs +66, Spl Dfs +10, Ag.+17)
+  - - 0,13%
+    - ''
+    - Ice Boots
+    - Mantle 31 (Dfs +44, Spl Dfs +20, Ag.+17)
+  - - 0,13%
+    - ''
+    - Magic Rabbi's Shoes
+    - Vestment 31 (Dfs +22, Spl Dfs +30, Ag.+17)
+  row_count: 19

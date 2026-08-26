@@ -1,0 +1,446 @@
+monster_page:
+  id: water-goblin
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:water-goblin
+    retrieval_url: https://web.archive.org/web/20200109172233id_/http://angels.wikidot.com:80/monster:water-goblin
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172233'
+    archive_snapshot_url: https://web.archive.org/web/20200109172233/http://angels.wikidot.com:80/monster:water-goblin
+    archive_original_lookup_url: https://angels.wikidot.com/monster:water-goblin
+    source_html_sha256: 1282a8ec693e34a9ffd2ef7c774fc56dd5fb43ab35e1ee1a8f21fdfe3c72b31a
+fields_raw:
+  Name: 'Spells:'
+  Water Goblin: Icy Storm Single Ranged | Dmg 161-165 Speed -20% | 8 sec
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 161-165 Speed -20% | 8 sec: North of Mirror Lake
+  Type: Energy
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '45'
+  Hit Points: '1523'
+  Rigor: '237'
+  Agility: '147'
+  Attack: '295'
+  Defense: '457'
+  Spell Attack: '296'
+  Spell Defense: '178'
+  Special Attack: Fire +23
+  Special Defense: '13'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,39%
+  Experience: '380'
+  Gold: 60 - 106 (83)
+item_drop_chance_raw: 0,39%
+drops:
+- drop_id: water-goblin__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 25,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,37%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 25.37
+    quantity: null
+- drop_id: water-goblin__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 12,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,68%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 12.68
+    quantity: null
+- drop_id: water-goblin__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 12,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,68%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 12.68
+    quantity: null
+- drop_id: water-goblin__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 12,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,68%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 12.68
+    quantity: null
+- drop_id: water-goblin__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 12,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,68%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 12.68
+    quantity: null
+- drop_id: water-goblin__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Iron Boots
+  chance_to_drop_raw: 8,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,37%
+    Icon: ''
+    Item: Advanced Iron Boots
+    Short info: Garment 41 (Dfs +47, Spl Dfs +8, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 8.37
+    quantity: null
+- drop_id: water-goblin__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Rabbi's Boots
+  chance_to_drop_raw: 8,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,37%
+    Icon: ''
+    Item: Advanced Rabbi's Boots
+    Short info: Vestment 41 (Dfs +16, Spl Dfs +23, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 8.37
+    quantity: null
+- drop_id: water-goblin__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Water Goblin Card
+  chance_to_drop_raw: 3,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,53%
+    Icon: ''
+    Item: Water Goblin Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 3.53
+    quantity: null
+- drop_id: water-goblin__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Iron Boots
+  chance_to_drop_raw: 1,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,40%
+    Icon: ''
+    Item: Good Advanced Iron Boots
+    Short info: Garment 41 (Dfs +66, Spl Dfs +10, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 1.4
+    quantity: null
+- drop_id: water-goblin__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Rabbi's Boots
+  chance_to_drop_raw: 1,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,40%
+    Icon: ''
+    Item: Good Advanced Rabbi's Boots
+    Short info: Vestment 41 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 1.4
+    quantity: null
+- drop_id: water-goblin__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,33%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.33
+    quantity: null
+- drop_id: water-goblin__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Chain Boots
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Golden Chain Boots
+    Short info: Garment 41 (Dfs +90, Spl Dfs +12, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: water-goblin__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiery Boots
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Fiery Boots
+    Short info: Vestment 41 (Dfs +30, Spl Dfs +37, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: water-goblin__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: water-goblin__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: water-goblin__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Water Goblin
+  - ''
+  rows_raw:
+  - - Name
+    - Water Goblin
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 161-165 Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - North of Mirror Lake
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '45'
+    - '1523'
+    - '237'
+    - '147'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '295'
+    - '457'
+    - '296'
+    - '178'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +23
+    - '13'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,39%
+    - '380'
+    - 60 - 106 (83)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 25,37%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 12,68%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 12,68%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 12,68%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 12,68%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 8,37%
+    - ''
+    - Advanced Iron Boots
+    - Garment 41 (Dfs +47, Spl Dfs +8, Ag.+14)
+  - - 8,37%
+    - ''
+    - Advanced Rabbi's Boots
+    - Vestment 41 (Dfs +16, Spl Dfs +23, Ag.+14)
+  - - 3,53%
+    - ''
+    - Water Goblin Card
+    - 'See: Card Collection'
+  - - 1,40%
+    - ''
+    - Good Advanced Iron Boots
+    - Garment 41 (Dfs +66, Spl Dfs +10, Ag.+17)
+  - - 1,40%
+    - ''
+    - Good Advanced Rabbi's Boots
+    - Vestment 41 (Dfs +22, Spl Dfs +30, Ag.+17)
+  - - 0,33%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,14%
+    - ''
+    - Golden Chain Boots
+    - Garment 41 (Dfs +90, Spl Dfs +12, Ag.+21)
+  - - 0,14%
+    - ''
+    - Fiery Boots
+    - Vestment 41 (Dfs +30, Spl Dfs +37, Ag.+21)
+  - - 0,08%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  - - 0,08%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,08%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  row_count: 17

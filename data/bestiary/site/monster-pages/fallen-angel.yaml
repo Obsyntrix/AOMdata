@@ -1,0 +1,446 @@
+monster_page:
+  id: fallen-angel
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fallen-angel
+    retrieval_url: https://web.archive.org/web/20200109171727id_/http://angels.wikidot.com:80/monster:fallen-angel
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171727'
+    archive_snapshot_url: https://web.archive.org/web/20200109171727/http://angels.wikidot.com:80/monster:fallen-angel
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fallen-angel
+    source_html_sha256: 033d42fc21cb87dfd16c99f0ec6f2dbc264864805eac7fa20da868082159acb6
+fields_raw:
+  Name: 'Spell:'
+  Fallen Angel: Halo Strike Single Ranged | Dmg 161-165
+  'Spell:': 'Location:'
+  Halo Strike Single Ranged | Dmg 161-165: Thunder Ruins
+  Type: Demon
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '45'
+  Hit Points: '1523'
+  Rigor: '228'
+  Agility: '147'
+  Attack: '319'
+  Defense: '379'
+  Spell Attack: '296'
+  Spell Defense: '178'
+  Special Attack: Fire +23
+  Special Defense: '13'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,39%
+  Experience: '380'
+  Gold: 80 - 126 (103)
+item_drop_chance_raw: 0,39%
+drops:
+- drop_id: fallen-angel__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 25,34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,34%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 25.34
+    quantity: null
+- drop_id: fallen-angel__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Alchemic Cap
+  chance_to_drop_raw: 16,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,75%
+    Icon: ''
+    Item: Advanced Alchemic Cap
+    Short info: Vestment 43 (Dfs +26, Spl Dfs +35)
+  normalized:
+    chance_to_drop_percent: 16.75
+    quantity: null
+- drop_id: fallen-angel__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 12,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,67%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 12.67
+    quantity: null
+- drop_id: fallen-angel__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 12,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,67%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 12.67
+    quantity: null
+- drop_id: fallen-angel__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 12,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,67%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 12.67
+    quantity: null
+- drop_id: fallen-angel__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 12,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,67%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 12.67
+    quantity: null
+- drop_id: fallen-angel__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Degenerate Angel Card
+  chance_to_drop_raw: 3,52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,52%
+    Icon: ''
+    Item: Degenerate Angel Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 3.52
+    quantity: null
+- drop_id: fallen-angel__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Alchemic Cap
+  chance_to_drop_raw: 2,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,79%
+    Icon: ''
+    Item: Good Advanced Alchemic Cap
+    Short info: Vestment 43 (Dfs +37, Spl Dfs +46)
+  normalized:
+    chance_to_drop_percent: 2.79
+    quantity: null
+- drop_id: fallen-angel__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,33%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.33
+    quantity: null
+- drop_id: fallen-angel__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Alchemic Cap
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Holy Alchemic Cap
+    Short info: Vestment 43 (Dfs +50, Spl Dfs +59)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: fallen-angel__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fallen-angel__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fallen-angel__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fallen-angel__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Sapphire
+    Short info: 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fallen-angel__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Gem
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Purple Gem
+    Short info: 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fallen-angel__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Ruby
+    Short info: 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fallen Angel
+  - ''
+  rows_raw:
+  - - Name
+    - Fallen Angel
+    - ''
+  - - 'Spell:'
+    - Halo Strike Single Ranged | Dmg 161-165
+    - ''
+  - - 'Location:'
+    - Thunder Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '45'
+    - '1523'
+    - '228'
+    - '147'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '319'
+    - '379'
+    - '296'
+    - '178'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +23
+    - '13'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,39%
+    - '380'
+    - 80 - 126 (103)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 25,34%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 16,75%
+    - ''
+    - Advanced Alchemic Cap
+    - Vestment 43 (Dfs +26, Spl Dfs +35)
+  - - 12,67%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 12,67%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 12,67%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 12,67%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 3,52%
+    - ''
+    - Degenerate Angel Card
+    - 'See: Card Collection'
+  - - 2,79%
+    - ''
+    - Good Advanced Alchemic Cap
+    - Vestment 43 (Dfs +37, Spl Dfs +46)
+  - - 0,33%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,28%
+    - ''
+    - Holy Alchemic Cap
+    - Vestment 43 (Dfs +50, Spl Dfs +59)
+  - - 0,05%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  - - 0,05%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,05%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  - - 0,05%
+    - ''
+    - Sapphire
+    - 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  - - 0,05%
+    - ''
+    - Purple Gem
+    - 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  - - 0,05%
+    - ''
+    - Ruby
+    - 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  row_count: 17

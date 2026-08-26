@@ -1,0 +1,302 @@
+monster_page:
+  id: evil-pawn
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-pawn
+    retrieval_url: https://web.archive.org/web/20110904024255id_/http://angels.wikidot.com:80/monster:evil-pawn
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904024255'
+    archive_snapshot_url: https://web.archive.org/web/20110904024255/http://angels.wikidot.com:80/monster:evil-pawn
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-pawn
+    source_html_sha256: 69d87e474327d219d801996951b609ee6f719c878a927a3f2d3fae58c4f1fa6a
+fields_raw:
+  Name: 'Spells:'
+  Evil Pawn: '-'
+  'Spells:': 'Location:'
+  '-': Secret Den
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '80'
+  Hit Points: '3252'
+  Rigor: '411'
+  Agility: '252'
+  Attack: '641'
+  Defense: '919'
+  Spell Attack: '566'
+  Spell Defense: '312'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,08%
+  Experience: '975'
+  Gold: 290 - 360
+item_drop_chance_raw: 0,08%
+drops:
+- drop_id: evil-pawn__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Helmet
+  chance_to_drop_raw: 48,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,19%
+    Icon: ''
+    Item: Swiftness Helmet
+    Short info: Mantle 88
+  normalized:
+    chance_to_drop_percent: 48.19
+    quantity: null
+- drop_id: evil-pawn__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armguards
+  chance_to_drop_raw: 48,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,19%
+    Icon: ''
+    Item: Swiftness Armguards
+    Short info: Mantle 87 (Dfs +114, Spl Dfs +36, Rigor +82)
+  normalized:
+    chance_to_drop_percent: 48.19
+    quantity: null
+- drop_id: evil-pawn__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armguards
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Swiftness Armguards
+    Short info: Mantle 87 (Dfs +144, Spl Dfs +40, Rigor +92)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: evil-pawn__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Helmet
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Swiftness Helmet
+    Short info: Mantle 88
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: evil-pawn__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Helmet
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Swift Helmet
+    Short info: adv.plans for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: evil-pawn__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armguards
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Swift Armguards
+    Short info: adv.plans for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: evil-pawn__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Armguards
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Walker Armguards
+    Short info: Mantle 87 (Dfs +179, Spl Dfs +44, Rigor +102)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: evil-pawn__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Helmet
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Walker Helmet
+    Short info: Mantle 88
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Pawn
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Pawn
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '80'
+    - '3252'
+    - '411'
+    - '252'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '641'
+    - '919'
+    - '566'
+    - '312'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%
+    - '975'
+    - 290 - 360
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,19%
+    - ''
+    - Swiftness Helmet
+    - Mantle 88
+  - - 48,19%
+    - ''
+    - Swiftness Armguards
+    - Mantle 87 (Dfs +114, Spl Dfs +36, Rigor +82)
+  - - 1,20%
+    - ''
+    - Good Swiftness Armguards
+    - Mantle 87 (Dfs +144, Spl Dfs +40, Rigor +92)
+  - - 1,20%
+    - ''
+    - Good Swiftness Helmet
+    - Mantle 88
+  - - 0,39%
+    - ''
+    - A.Plan2:Swift Helmet
+    - adv.plans for armorsmith
+  - - 0,39%
+    - ''
+    - A.Plan2:Swift Armguards
+    - adv.plans for armorsmith
+  - - ?,?%
+    - ''
+    - Walker Armguards
+    - Mantle 87 (Dfs +179, Spl Dfs +44, Rigor +102)
+  - - ?,?%
+    - ''
+    - Walker Helmet
+    - Mantle 88
+  row_count: 9

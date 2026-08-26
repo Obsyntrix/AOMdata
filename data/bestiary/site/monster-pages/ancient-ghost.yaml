@@ -1,0 +1,320 @@
+monster_page:
+  id: ancient-ghost
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ancient-ghost
+    retrieval_url: https://web.archive.org/web/20200109122944id_/http://angels.wikidot.com:80/monster:ancient-ghost
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109122944'
+    archive_snapshot_url: https://web.archive.org/web/20200109122944/http://angels.wikidot.com:80/monster:ancient-ghost
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ancient-ghost
+    source_html_sha256: 86e88defb12a86c724724d4416ef9794fac6666e23d4391fc5f7dbe9c1f30c11
+fields_raw:
+  Name: 'Spells:'
+  Ancient Ghost: '-'
+  'Spells:': 'Location:'
+  '-': Pharaoh Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 176 - 224
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: ancient-ghost__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon's Scale Mantle
+  chance_to_drop_raw: 46.7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.7%
+    Icon: ''
+    Item: Dragon's Scale Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.7
+    quantity: null
+- drop_id: ancient-ghost__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Dragon's Scale Mantle
+  chance_to_drop_raw: 1.17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.17%
+    Icon: ''
+    Item: Good Dragon's Scale Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.17
+    quantity: null
+- drop_id: ancient-ghost__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Dragon's Wings
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Magic Dragon's Wings
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: ancient-ghost__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wildness Cuffs
+  chance_to_drop_raw: 46.7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.7%
+    Icon: ''
+    Item: Wildness Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.7
+    quantity: null
+- drop_id: ancient-ghost__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wildness Cuffs
+  chance_to_drop_raw: 1.17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.17%
+    Icon: ''
+    Item: Good Wildness Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.17
+    quantity: null
+- drop_id: ancient-ghost__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighter Cuffs
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Fighter Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: ancient-ghost__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Dragon's Scale Mantle
+  chance_to_drop_raw: 0.38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.38%
+    Icon: ''
+    Item: D.Plan2:Dragon's Scale Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ancient-ghost__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wildness Cuffs
+  chance_to_drop_raw: 0.38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.38%
+    Icon: ''
+    Item: A.Plan2:Wildness Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ancient-ghost__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 3.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.43%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.43
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ancient Ghost
+  - ''
+  rows_raw:
+  - - Name
+    - Ancient Ghost
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Pharaoh Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 176 - 224
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.7%
+    - ''
+    - Dragon's Scale Mantle
+    - ITEM NOTES
+  - - 1.17%
+    - ''
+    - Good Dragon's Scale Mantle
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Magic Dragon's Wings
+    - ITEM NOTES
+  - - 46.7%
+    - ''
+    - Wildness Cuffs
+    - ITEM NOTES
+  - - 1.17%
+    - ''
+    - Good Wildness Cuffs
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Fighter Cuffs
+    - ITEM NOTES
+  - - 0.38%
+    - ''
+    - D.Plan2:Dragon's Scale Mantle
+    - ITEM NOTES
+  - - 0.38%
+    - ''
+    - A.Plan2:Wildness Cuffs
+    - ITEM NOTES
+  - - 3.43%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 10

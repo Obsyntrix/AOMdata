@@ -1,0 +1,338 @@
+monster_page:
+  id: gluttonous-shape
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:gluttonous-shape
+    retrieval_url: https://web.archive.org/web/20200629230624id_/http://angels.wikidot.com:80/monster:gluttonous-shape
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200629230624'
+    archive_snapshot_url: https://web.archive.org/web/20200629230624/http://angels.wikidot.com:80/monster:gluttonous-shape
+    archive_original_lookup_url: https://angels.wikidot.com/monster:gluttonous-shape
+    source_html_sha256: 101d3f39cfbda6fad826f6c507c1f62abc578d9fd9abc11d4e2f53c39a3c65ca
+fields_raw:
+  Name: 'Spells:'
+  Gluttonous Shape: Phoenix Fire Single Ranged | Dmg x-x
+  'Spells:': 'Location:'
+  Phoenix Fire Single Ranged | Dmg x-x: Underground Square
+  Type: Demon
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '83'
+  Hit Points: '34919'
+  Rigor: '452'
+  Agility: '276'
+  Attack: '1362'
+  Defense: '1045'
+  Magic Attack: '618'
+  Magic Defense: '350'
+  Special Attack: Thunder +42
+  Special Defense: '32'
+  Strong Against: Ice(62)
+  Weak Against: Rotten(2)
+  Attack Range: Short (1)
+  Speed: Super Fast(115)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '26189'
+  Gold: 2583 - 4259 (3421)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: gluttonous-shape__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Mighty Fruit
+  chance_to_drop_raw: 48.73%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.73%
+    Icon: ''
+    Item: Great Mighty Fruit
+    Short info: Food (Atk+70 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.73
+    quantity: null
+- drop_id: gluttonous-shape__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Healing Potion
+  chance_to_drop_raw: 48.73%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.73%
+    Icon: ''
+    Item: Great Healing Potion
+    Short info: Food ( Max. HP +240 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.73
+    quantity: null
+- drop_id: gluttonous-shape__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Cuffs
+  chance_to_drop_raw: 1.71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.71%
+    Icon: ''
+    Item: Mage Cuffs
+    Short info: Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  normalized:
+    chance_to_drop_percent: 1.71
+    quantity: null
+- drop_id: gluttonous-shape__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.61%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+- drop_id: gluttonous-shape__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Cuffs
+  chance_to_drop_raw: 0.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.13%
+    Icon: ''
+    Item: Good Mage Cuffs
+    Short info: Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: gluttonous-shape__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Rotten Shield'
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: 'A.Plan2: Rotten Shield'
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: gluttonous-shape__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Emerald
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: Clean Emerald
+    Short info: 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: gluttonous-shape__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Cuffs
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Spring Cuffs
+    Short info: Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: gluttonous-shape__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Kaz Cayman Robot
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Green Kaz Cayman Robot
+    Short info: Robot 80
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: gluttonous-shape__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Slow Curse 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Scroll 2: Slow Curse 5'
+    Short info: Wraith 76
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Gluttonous Shape
+  - ''
+  rows_raw:
+  - - Name
+    - Gluttonous Shape
+    - ''
+  - - 'Spells:'
+    - Phoenix Fire Single Ranged | Dmg x-x
+    - ''
+  - - 'Location:'
+    - Underground Square
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Demon
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '83'
+    - '34919'
+    - '452'
+    - '276'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1362'
+    - '1045'
+    - '618'
+    - '350'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +42
+    - '32'
+    - Ice(62)
+    - Rotten(2)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast(115)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '26189'
+    - 2583 - 4259 (3421)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.73%
+    - ''
+    - Great Mighty Fruit
+    - Food (Atk+70 | 10 min)
+  - - 48.73%
+    - ''
+    - Great Healing Potion
+    - Food ( Max. HP +240 | 10 min)
+  - - 1.71%
+    - ''
+    - Mage Cuffs
+    - Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  - - 0.61%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.13%
+    - ''
+    - Good Mage Cuffs
+    - Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  - - 0.04%
+    - ''
+    - 'A.Plan2: Rotten Shield'
+    - Armor 75
+  - - 0.02%
+    - ''
+    - Clean Emerald
+    - 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  - - 0.01%
+    - ''
+    - Spring Cuffs
+    - Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  - - 0.01%
+    - ''
+    - Green Kaz Cayman Robot
+    - Robot 80
+  - - 0.01%
+    - ''
+    - 'Scroll 2: Slow Curse 5'
+    - Wraith 76
+  row_count: 11

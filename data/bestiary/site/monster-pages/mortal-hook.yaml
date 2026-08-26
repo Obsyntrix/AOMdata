@@ -1,0 +1,248 @@
+monster_page:
+  id: mortal-hook
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mortal-hook
+    retrieval_url: https://web.archive.org/web/20110903185534id_/http://angels.wikidot.com:80/monster:mortal-hook
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110903185534'
+    archive_snapshot_url: https://web.archive.org/web/20110903185534/http://angels.wikidot.com:80/monster:mortal-hook
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mortal-hook
+    source_html_sha256: 08b3646fad81b1c24fef71f962d658fd5a5fa3f1c31e01109f3205fac0c82083
+fields_raw:
+  Name: 'Spells:'
+  Mortal Hook: '-'
+  'Spells:': 'Location:'
+  '-': Hermit Wetland
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 356 - 452
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: mortal-hook__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armguards
+  chance_to_drop_raw: 93.91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.91%
+    Icon: ''
+    Item: Wind Armguards
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.91
+    quantity: null
+- drop_id: mortal-hook__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWind Armguards
+  chance_to_drop_raw: 2.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.35%
+    Icon: ''
+    Item: GoodWind Armguards
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.35
+    quantity: null
+- drop_id: mortal-hook__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armguards
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Storm Armguards
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: mortal-hook__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Armguards
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: A.Plan2:Wind Armguards
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: mortal-hook__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Sapphire
+  chance_to_drop_raw: 2.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.85%
+    Icon: ''
+    Item: Flawless Sapphire
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.85
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mortal Hook
+  - ''
+  rows_raw:
+  - - Name
+    - Mortal Hook
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Hermit Wetland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 356 - 452
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.91%
+    - ''
+    - Wind Armguards
+    - ITEM NOTES
+  - - 2.35%
+    - ''
+    - GoodWind Armguards
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Storm Armguards
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - A.Plan2:Wind Armguards
+    - ITEM NOTES
+  - - 2.85%
+    - ''
+    - Flawless Sapphire
+    - ITEM NOTES
+  row_count: 6

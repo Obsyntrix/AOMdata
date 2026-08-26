@@ -1,0 +1,265 @@
+monster_page:
+  id: fire-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fire-elf
+    retrieval_url: https://web.archive.org/web/20200109171747id_/http://angels.wikidot.com:80/monster:fire-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171747'
+    archive_snapshot_url: https://web.archive.org/web/20200109171747/http://angels.wikidot.com:80/monster:fire-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fire-elf
+    source_html_sha256: fb1db94c2b41e8e11aa760c38abb4b422ceae84259cce5c72c61ee0659b5c082
+fields_raw:
+  Name: 'Description:'
+  Fire Elf: An elemental incarnation of fire. A wonderful companion for roasting marshmallows or making smores. Typically very hot tempered. Handle with caution.
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '7'
+  Hit Points: '300'
+  Rigor: '47'
+  Agility: '33'
+  Attack: '55'
+  Defense: '59'
+  Spell Attack: '51'
+  Spell Defense: '32'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,60%
+  Experience: '75'
+  Gold: 15 - 25 (20)
+item_drop_chance_raw: 0,60%
+drops:
+- drop_id: fire-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Iron Headband
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Iron Headband
+    Short info: Garment 3 (Dfs +12, Spl Dfs +2)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: fire-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Shooter Head Band
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Shooter Head Band
+    Short info: Mantle 3 (Dfs +8, Spl Dfs +3)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: fire-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Diadem
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Incantation Diadem
+    Short info: Vestment 3 (Dfs +5, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: fire-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Forehead Protection
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Forehead Protection
+    Short info: Garment 3 (Dfs +30, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+- drop_id: fire-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Head Band
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Head Band
+    Short info: Mantle 3 (Dfs +20, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+- drop_id: fire-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Diadem
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Diadem
+    Short info: Vestment 3 (Dfs +10, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fire Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Fire Elf
+    - ''
+  - - 'Description:'
+    - An elemental incarnation of fire. A wonderful companion for roasting marshmallows or making smores. Typically very hot tempered. Handle with caution.
+    - ''
+  - - 'Location:'
+    - East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '7'
+    - '300'
+    - '47'
+    - '33'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '55'
+    - '59'
+    - '51'
+    - '32'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,60%
+    - '75'
+    - 15 - 25 (20)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,00%
+    - ''
+    - Good Newbie Iron Headband
+    - Garment 3 (Dfs +12, Spl Dfs +2)
+  - - 30,00%
+    - ''
+    - Good Newbie Shooter Head Band
+    - Mantle 3 (Dfs +8, Spl Dfs +3)
+  - - 30,00%
+    - ''
+    - Good Newbie Incantation Diadem
+    - Vestment 3 (Dfs +5, Spl Dfs +5)
+  - - 3,33%
+    - ''
+    - Fiend Forehead Protection
+    - Garment 3 (Dfs +30, Spl Dfs +5)
+  - - 3,33%
+    - ''
+    - Fiend Head Band
+    - Mantle 3 (Dfs +20, Spl Dfs +10)
+  - - 3,33%
+    - ''
+    - Fiend Diadem
+    - Vestment 3 (Dfs +10, Spl Dfs +15)
+  row_count: 7

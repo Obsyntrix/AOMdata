@@ -1,0 +1,410 @@
+monster_page:
+  id: nepenthes
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:nepenthes
+    retrieval_url: https://web.archive.org/web/20191230110002id_/http://angels.wikidot.com:80/monster:nepenthes
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110002'
+    archive_snapshot_url: https://web.archive.org/web/20191230110002/http://angels.wikidot.com:80/monster:nepenthes
+    archive_original_lookup_url: https://angels.wikidot.com/monster:nepenthes
+    source_html_sha256: 14153b18ead49665c2a478b5b38b4a99a800181434a8411b06a2740bb03c31cb
+fields_raw:
+  Name: 'Spells:'
+  Nepenthes: '-'
+  'Spells:': 'Location:'
+  '-': Mysterious Wetland
+  Type: Plant
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '40'
+  Hit Points: '1339'
+  Rigor: '237'
+  Agility: '147'
+  Attack: '243'
+  Defense: '325'
+  Spell Attack: '282'
+  Spell Defense: '159'
+  Special Attack: Fire +20
+  Special Defense: '10'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Long (12)
+  Speed: Fast (80)
+  Attack Speed: Very Slow (40)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,88%
+  Experience: '334'
+  Gold: 55 - 95 (75)
+item_drop_chance_raw: 0,88%
+drops:
+- drop_id: nepenthes__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 44,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44,29%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 44.29
+    quantity: null
+- drop_id: nepenthes__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Curved Bow
+  chance_to_drop_raw: 13,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,33%
+    Icon: ''
+    Item: Risker Curved Bow
+    Short info: Bow Lvl 35 (Atk 78-92 (85), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 13.33
+    quantity: null
+- drop_id: nepenthes__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Staff
+  chance_to_drop_raw: 13,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,33%
+    Icon: ''
+    Item: Risker Staff
+    Short info: Staff Lvl 35 (Atk 80-102 (91), Spl Atk +51, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 13.33
+    quantity: null
+- drop_id: nepenthes__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: nepenthes__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: nepenthes__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: nepenthes__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: nepenthes__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Curved Bow
+  chance_to_drop_raw: 2,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,21%
+    Icon: ''
+    Item: Good Risker Curved Bow
+    Short info: Bow Lvl 35 (Atk 128-142 (135), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 2.21
+    quantity: null
+- drop_id: nepenthes__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Magic Stick
+  chance_to_drop_raw: 2,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,21%
+    Icon: ''
+    Item: Good Risker Magic Stick
+    Short info: Staff Lvl 35 (Atk 132-154 (143), Spl Atk +93, Rig.+9)
+  normalized:
+    chance_to_drop_percent: 2.21
+    quantity: null
+- drop_id: nepenthes__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,67%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.67
+    quantity: null
+- drop_id: nepenthes__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,67%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.67
+    quantity: null
+- drop_id: nepenthes__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Bow
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Ice Bow
+    Short info: Bow Lvl 35 (Atk 194-208 (201), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: nepenthes__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Cat's Staff
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Evil Cat's Staff
+    Short info: Staff Lvl 35 (Atk 200-222 (211), Spl Atk +147, Rig.+12)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: nepenthes__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Nepenthes
+  - ''
+  rows_raw:
+  - - Name
+    - Nepenthes
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mysterious Wetland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '40'
+    - '1339'
+    - '237'
+    - '147'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '243'
+    - '325'
+    - '282'
+    - '159'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +20
+    - '10'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Long (12)
+    - Fast (80)
+    - Very Slow (40)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,88%
+    - '334'
+    - 55 - 95 (75)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 44,29%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 13,33%
+    - ''
+    - Risker Curved Bow
+    - Bow Lvl 35 (Atk 78-92 (85), Rig.+14)
+  - - 13,33%
+    - ''
+    - Risker Staff
+    - Staff Lvl 35 (Atk 80-102 (91), Spl Atk +51, Rig.+7)
+  - - 5,68%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 5,68%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 5,68%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 5,68%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 2,21%
+    - ''
+    - Good Risker Curved Bow
+    - Bow Lvl 35 (Atk 128-142 (135), Rig.+19)
+  - - 2,21%
+    - ''
+    - Good Risker Magic Stick
+    - Staff Lvl 35 (Atk 132-154 (143), Spl Atk +93, Rig.+9)
+  - - 0,67%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,67%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,22%
+    - ''
+    - Ice Bow
+    - Bow Lvl 35 (Atk 194-208 (201), Rig.+24)
+  - - 0,22%
+    - ''
+    - Evil Cat's Staff
+    - Staff Lvl 35 (Atk 200-222 (211), Spl Atk +147, Rig.+12)
+  - - 0,12%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 15

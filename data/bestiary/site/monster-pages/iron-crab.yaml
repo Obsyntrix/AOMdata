@@ -1,0 +1,410 @@
+monster_page:
+  id: iron-crab
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:iron-crab
+    retrieval_url: https://web.archive.org/web/20200109171908id_/http://angels.wikidot.com:80/monster:iron-crab
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171908'
+    archive_snapshot_url: https://web.archive.org/web/20200109171908/http://angels.wikidot.com:80/monster:iron-crab
+    archive_original_lookup_url: https://angels.wikidot.com/monster:iron-crab
+    source_html_sha256: b08384ac1213001281a17893288a3af1a99a15d02d61f724950509c8d0b5fe8f
+fields_raw:
+  Name: 'Spells:'
+  Iron Crab: '-'
+  'Spells:': 'Location:'
+  '-': North of Mirror Lake
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '43'
+  Hit Points: '1449'
+  Rigor: '227'
+  Agility: '141'
+  Attack: '280'
+  Defense: '429'
+  Spell Attack: '304'
+  Spell Defense: '170'
+  Special Attack: Fire +22
+  Special Defense: '12'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,37%
+  Experience: '362'
+  Gold: 55 - 99 (77)
+item_drop_chance_raw: 0,37%
+drops:
+- drop_id: iron-crab__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 26,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 26,80%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 26.8
+    quantity: null
+- drop_id: iron-crab__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 13,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,40%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 13.4
+    quantity: null
+- drop_id: iron-crab__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 13,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,40%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 13.4
+    quantity: null
+- drop_id: iron-crab__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 13,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,40%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 13.4
+    quantity: null
+- drop_id: iron-crab__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 13,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,40%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 13.4
+    quantity: null
+- drop_id: iron-crab__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Short Tight Gloves
+  chance_to_drop_raw: 8,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,07%
+    Icon: ''
+    Item: Advanced Short Tight Gloves
+    Short info: Mantle 42 (Dfs +31, Spl Dfs +16, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 8.07
+    quantity: null
+- drop_id: iron-crab__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Rabbi's Gloves
+  chance_to_drop_raw: 8,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,07%
+    Icon: ''
+    Item: Advanced Rabbi's Gloves
+    Short info: Vestment 42 (Dfs +16, Spl Dfs +23, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 8.07
+    quantity: null
+- drop_id: iron-crab__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Short Tight Gloves
+  chance_to_drop_raw: 1,34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,34%
+    Icon: ''
+    Item: Good Advanced Short Tight Gloves
+    Short info: Mantle 42 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 1.34
+    quantity: null
+- drop_id: iron-crab__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Rabbi's Gloves
+  chance_to_drop_raw: 1,34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,34%
+    Icon: ''
+    Item: Good Advanced Rabbi's Gloves
+    Short info: Vestment 42 (Dfs +22, Spl Dfs +30, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 1.34
+    quantity: null
+- drop_id: iron-crab__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: iron-crab__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Wristlet
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Eagle Wristlet
+    Short info: Mantle 42 (Dfs +60, Spl Dfs +24, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: iron-crab__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gloves of the Flame God
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Gloves of the Flame God
+    Short info: Vestment 42 (Dfs +30, Spl Dfs +37, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: iron-crab__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Ruby
+    Short info: 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: iron-crab__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Iron Crab
+  - ''
+  rows_raw:
+  - - Name
+    - Iron Crab
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - North of Mirror Lake
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '43'
+    - '1449'
+    - '227'
+    - '141'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '280'
+    - '429'
+    - '304'
+    - '170'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +22
+    - '12'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,37%
+    - '362'
+    - 55 - 99 (77)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 26,80%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 13,40%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 13,40%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 13,40%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 13,40%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 8,07%
+    - ''
+    - Advanced Short Tight Gloves
+    - Mantle 42 (Dfs +31, Spl Dfs +16, Rig.+37)
+  - - 8,07%
+    - ''
+    - Advanced Rabbi's Gloves
+    - Vestment 42 (Dfs +16, Spl Dfs +23, Rig.+37)
+  - - 1,34%
+    - ''
+    - Good Advanced Short Tight Gloves
+    - Mantle 42 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 1,34%
+    - ''
+    - Good Advanced Rabbi's Gloves
+    - Vestment 42 (Dfs +22, Spl Dfs +30, Rig.+47)
+  - - 0,32%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,13%
+    - ''
+    - Eagle Wristlet
+    - Mantle 42 (Dfs +60, Spl Dfs +24, Rig.+57)
+  - - 0,13%
+    - ''
+    - Gloves of the Flame God
+    - Vestment 42 (Dfs +30, Spl Dfs +37, Rig.+57)
+  - - 0,11%
+    - ''
+    - Ruby
+    - 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  - - 0,11%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  row_count: 15

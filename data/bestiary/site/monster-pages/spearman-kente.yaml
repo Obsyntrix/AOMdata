@@ -1,0 +1,302 @@
+monster_page:
+  id: spearman-kente
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:spearman-kente
+    retrieval_url: https://web.archive.org/web/20200112194758id_/http://angels.wikidot.com:80/monster:spearman-kente
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200112194758'
+    archive_snapshot_url: https://web.archive.org/web/20200112194758/http://angels.wikidot.com:80/monster:spearman-kente
+    archive_original_lookup_url: https://angels.wikidot.com/monster:spearman-kente
+    source_html_sha256: 665651e44dc1c2dfee308015123e5da845130128df35620a9c7cc8da5104446b
+fields_raw:
+  Name: 'Spells:'
+  Spearman Kente: '-'
+  'Spells:': 'Location:'
+  '-': Fantastic Sand City
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '115'
+  Hit Points: '107241'
+  Rigor: '587'
+  Agility: '357'
+  Attack: '1908'
+  Defense: '2036'
+  Spell Attack: '1642'
+  Spell Defense: '1274'
+  Special Attack: +57Lightning
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (2)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '217163'
+  Gold: 4719 - 6005
+item_drop_chance_raw: 100%
+drops:
+- drop_id: spearman-kente__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fairy Brooch
+  chance_to_drop_raw: 5.25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5.25%
+    Icon: ''
+    Item: Fairy Brooch
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 5.25
+    quantity: null
+- drop_id: spearman-kente__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodFairy Brooch
+  chance_to_drop_raw: 0.25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.25%
+    Icon: ''
+    Item: GoodFairy Brooch
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.25
+    quantity: null
+- drop_id: spearman-kente__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 3:Phoenix Fire 5
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Scroll 3:Phoenix Fire 5
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: spearman-kente__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Oasis Ostrich
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Oasis Ostrich
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: spearman-kente__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: spearman-kente__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: spearman-kente__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 93.68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.68%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.68
+    quantity: null
+- drop_id: spearman-kente__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Outpost Gunman Kente Card
+  chance_to_drop_raw: 0.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.15%
+    Icon: ''
+    Item: Outpost Gunman Kente Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Spearman Kente
+  - ''
+  rows_raw:
+  - - Name
+    - Spearman Kente
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Fantastic Sand City
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '115'
+    - '107241'
+    - '587'
+    - '357'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1908'
+    - '2036'
+    - '1642'
+    - '1274'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +57Lightning
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (2)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '217163'
+    - 4719 - 6005
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 5.25%
+    - ''
+    - Fairy Brooch
+    - ITEM NOTES
+  - - 0.25%
+    - ''
+    - GoodFairy Brooch
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Scroll 3:Phoenix Fire 5
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Oasis Ostrich
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Flawless Yellow Gem
+    - ITEM NOTES
+  - - 0.54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 93.68%
+    - ''
+    - Effective Mighty Fruit
+    - ITEM NOTES
+  - - 0.15%
+    - ''
+    - Outpost Gunman Kente Card
+    - ITEM NOTES
+  row_count: 9

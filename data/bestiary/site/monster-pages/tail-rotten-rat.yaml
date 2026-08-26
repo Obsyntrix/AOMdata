@@ -1,0 +1,106 @@
+monster_page:
+  id: tail-rotten-rat
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:tail-rotten-rat
+    retrieval_url: https://web.archive.org/web/20200109172148id_/http://angels.wikidot.com:80/monster:tail-rotten-rat
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172148'
+    archive_snapshot_url: https://web.archive.org/web/20200109172148/http://angels.wikidot.com:80/monster:tail-rotten-rat
+    archive_original_lookup_url: https://angels.wikidot.com/monster:tail-rotten-rat
+    source_html_sha256: 42f56370aed1fb7cb6812cf6be6bfa56903b74ecb12f4865bcab1a355ac5da83
+fields_raw:
+  Name: 'Spells:'
+  Tail Rotten Rat: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Animal
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '60'
+  Hit Points: '4328'
+  Rigor: '312'
+  Agility: '192'
+  Attack: '454'
+  Defense: '681'
+  Magic Attack: '436'
+  Magic Defense: '247'
+  Bonus Damage: Ice
+  Strong Against: Fire
+  Weak Against: Thunder
+  Item Drop Chance: 0%
+  Experience: '433'
+  Gold: 0 - 0 (0)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Tail Rotten Rat
+  - ''
+  rows_raw:
+  - - Name
+    - Tail Rotten Rat
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Animal
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '4328'
+    - '312'
+    - '192'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '454'
+    - '681'
+    - '436'
+    - '247'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice
+    - Fire
+    - Thunder
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '433'
+    - 0 - 0 (0)
+  row_count: 4

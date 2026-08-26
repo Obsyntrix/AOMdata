@@ -1,0 +1,384 @@
+monster_page:
+  id: charming-flower
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:charming-flower
+    retrieval_url: https://web.archive.org/web/20200128093406id_/http://angels.wikidot.com:80/monster:charming-flower
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093406'
+    archive_snapshot_url: https://web.archive.org/web/20200128093406/http://angels.wikidot.com:80/monster:charming-flower
+    archive_original_lookup_url: https://angels.wikidot.com/monster:charming-flower
+    source_html_sha256: 0b1963350fcdc9a631ffe870eb9b6da3f20e3f970d6b27aee2e17cc6d9428fe3
+fields_raw:
+  Name: 'Spells:'
+  Charming Flower: Corrosion Claw
+  'Spells:': 'Location:'
+  Corrosion Claw: Underground Square
+  Type: Plant
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '75'
+  Hit Points: '29002'
+  Rigor: '414'
+  Agility: '252'
+  Attack: '1180'
+  Defense: '898'
+  Magic Attack: '562'
+  Magic Defense: '320'
+  Special Attack: Ice +38
+  Special Defense: '28'
+  Strong Against: Fire(58)
+  Weak Against: Thunder(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(110)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%.
+  Experience: '21752'
+  Gold: 1922 - 3314 (2618)
+item_drop_chance_raw: 100%.
+drops:
+- drop_id: charming-flower__t006r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Evil Fruit
+  chance_to_drop_raw: 48.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.57%
+    Icon: ''
+    Item: Medium Evil Fruit
+    Short info: Food (Spl Def +50 | 10min)
+  normalized:
+    chance_to_drop_percent: 48.57
+    quantity: null
+- drop_id: charming-flower__t006r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Healing Potion
+  chance_to_drop_raw: 48.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.57%
+    Icon: ''
+    Item: Medium Healing Potion
+    Short info: Food (Max. HP +180 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.57
+    quantity: null
+- drop_id: charming-flower__t006r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Helmet
+  chance_to_drop_raw: 1.27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.27%
+    Icon: ''
+    Item: Fire Guard Helmet
+    Short info: Garment 68 (Dfs +172, Spl Dfs +20)
+  normalized:
+    chance_to_drop_percent: 1.27
+    quantity: null
+- drop_id: charming-flower__t006r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Charming Flower Card
+  chance_to_drop_raw: 0.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.93%
+    Icon: ''
+    Item: Charming Flower Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: charming-flower__t006r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.44%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.44%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.44
+    quantity: null
+- drop_id: charming-flower__t006r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Helmet
+  chance_to_drop_raw: 0.10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.10%
+    Icon: ''
+    Item: Good Fire Guard Helmet
+    Short info: Garment 68 (Dfs +224, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: charming-flower__t006r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: charming-flower__t006r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hermit Armor'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'A.Plan2: Hermit Armor'
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: charming-flower__t006r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Holy Manteau'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'D.Plan2: Holy Manteau'
+    Short info: Sew 75
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: charming-flower__t006r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Helmet
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Knight Helmet
+    Short info: Garment 68 (Dfs +286, Spl Dfs +27)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: charming-flower__t006r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Circus Elephant
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Green Circus Elephant
+    Short info: Ride lvl 70
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: charming-flower__t006r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 1: Injury Cure 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Stance 1: Injury Cure 5'
+    Short info: Sword 80
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: charming-flower__t006r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 5: Sneak 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Stance 5: Sneak 5'
+    Short info: Shadowblade 96
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Charming Flower
+  - ''
+  rows_raw:
+  - - Name
+    - Charming Flower
+    - ''
+  - - 'Spells:'
+    - Corrosion Claw
+    - ''
+  - - 'Location:'
+    - Underground Square
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Plant
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '29002'
+    - '414'
+    - '252'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1180'
+    - '898'
+    - '562'
+    - '320'
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +38
+    - '28'
+    - Fire(58)
+    - Thunder(0)
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(110)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 5
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%.
+    - '21752'
+    - 1922 - 3314 (2618)
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.57%
+    - ''
+    - Medium Evil Fruit
+    - Food (Spl Def +50 | 10min)
+  - - 48.57%
+    - ''
+    - Medium Healing Potion
+    - Food (Max. HP +180 | 10 min)
+  - - 1.27%
+    - ''
+    - Fire Guard Helmet
+    - Garment 68 (Dfs +172, Spl Dfs +20)
+  - - 0.93%
+    - ''
+    - Charming Flower Card
+    - 'See: Card Collection'
+  - - 0.44%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.10%
+    - ''
+    - Good Fire Guard Helmet
+    - Garment 68 (Dfs +224, Spl Dfs +23)
+  - - 0.08%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.02%
+    - ''
+    - 'A.Plan2: Hermit Armor'
+    - Armor 75
+  - - 0.02%
+    - ''
+    - 'D.Plan2: Holy Manteau'
+    - Sew 75
+  - - 0.01%
+    - ''
+    - Knight Helmet
+    - Garment 68 (Dfs +286, Spl Dfs +27)
+  - - 0.01%
+    - ''
+    - Green Circus Elephant
+    - Ride lvl 70
+  - - 0.01%
+    - ''
+    - 'Stance 1: Injury Cure 5'
+    - Sword 80
+  - - 0.01%
+    - ''
+    - 'Stance 5: Sneak 5'
+    - Shadowblade 96
+  row_count: 14

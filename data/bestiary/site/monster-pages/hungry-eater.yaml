@@ -1,0 +1,106 @@
+monster_page:
+  id: hungry-eater
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hungry-eater
+    retrieval_url: https://web.archive.org/web/20200112181932id_/http://angels.wikidot.com:80/monster:hungry-eater
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200112181932'
+    archive_snapshot_url: https://web.archive.org/web/20200112181932/http://angels.wikidot.com:80/monster:hungry-eater
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hungry-eater
+    source_html_sha256: 95b98f3d9c1994ba8aa363db81f46ebbef822099325a8183cc4ec6401cc301ba
+fields_raw:
+  Name: 'Spells:'
+  Hungry Eater: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Undead
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '62'
+  Hit Points: '4490'
+  Rigor: '322'
+  Agility: '198'
+  Attack: '474'
+  Defense: '713'
+  Magic Attack: '450'
+  Magic Defense: '254'
+  Bonus Damage: Thunder +30
+  Strong Against: Thunder
+  Weak Against: Fire
+  Item Drop Chance: 0%
+  Experience: '0'
+  Gold: '0'
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hungry Eater
+  - ''
+  rows_raw:
+  - - Name
+    - Hungry Eater
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Undead
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '62'
+    - '4490'
+    - '322'
+    - '198'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '474'
+    - '713'
+    - '450'
+    - '254'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Thunder +30
+    - Thunder
+    - Fire
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '0'
+    - '0'
+  row_count: 4

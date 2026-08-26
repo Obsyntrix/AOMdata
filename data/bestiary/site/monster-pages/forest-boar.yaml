@@ -1,0 +1,206 @@
+monster_page:
+  id: forest-boar
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:forest-boar
+    retrieval_url: https://web.archive.org/web/20110903212046id_/http://angels.wikidot.com:80/monster:forest-boar
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110903212046'
+    archive_snapshot_url: https://web.archive.org/web/20110903212046/http://angels.wikidot.com:80/monster:forest-boar
+    archive_original_lookup_url: https://angels.wikidot.com/monster:forest-boar
+    source_html_sha256: 8019e13665d8dd59037be585c054fc7e0c73a905fbbed56dead15e29071e82b6
+fields_raw:
+  Name: 'Spells:'
+  Forest Boar: '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '70'
+  Hit Points: '2779'
+  Rigor: '361'
+  Agility: '222'
+  Attack: '516'
+  Defense: '731'
+  Spell Attack: '487'
+  Spell Defense: '274'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (90)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,11%
+  Experience: '833'
+  Gold: 247-307
+item_drop_chance_raw: 0,11%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Forest Boar
+  - ''
+  rows_raw:
+  - - Name
+    - Forest Boar
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '2779'
+    - '361'
+    - '222'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '516'
+    - '731'
+    - '487'
+    - '274'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (90)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,11%
+    - '833'
+    - 247-307
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 8
+  headers_raw:
+  - 35,83%
+  - ''
+  - Hunter Cuffs
+  - Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  rows_raw:
+  - - 35,83%
+    - ''
+    - Hunter Cuffs
+    - Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  - - 35,83%
+    - ''
+    - Hunter Helmet
+    - Mantle 78 (Dfs +149, Spl Dfs +47)
+  - - 23,91%
+    - ''
+    - Lvl 7 Robber LordMap Piece
+    - 'See: Treasure Maps'
+  - - 0,89%
+    - ''
+    - Clean Emerald
+    - 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  - - 0,89%
+    - ''
+    - Good Hunter Cuffs
+    - Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  - - 0,89%
+    - ''
+    - Good Hunter Helmet
+    - Mantle 78 (Dfs +190, Spl Dfs +53)
+  - - 0,39%
+    - ''
+    - 'A.Plan2: Hunter Helmet'
+    - Armor 75
+  - - 0,39%
+    - ''
+    - 'A.Plan2: Hunter Cuffs'
+    - Armor 75
+  - - 0,04%
+    - ''
+    - Forest Helmet
+    - Mantle 78 (Dfs +240, Spl Dfs +60)
+  - - 0,04%
+    - ''
+    - Forest Cuffs
+    - Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  row_count: 10

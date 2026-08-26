@@ -1,0 +1,238 @@
+monster_page:
+  id: crocodile-mr-ku
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:crocodile-mr-ku
+    retrieval_url: https://web.archive.org/web/20190909214025id_/http://angels.wikidot.com:80/monster:crocodile-mr-ku
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20190909214025'
+    archive_snapshot_url: https://web.archive.org/web/20190909214025/http://angels.wikidot.com:80/monster:crocodile-mr-ku
+    archive_original_lookup_url: https://angels.wikidot.com/monster:crocodile-mr-ku
+    source_html_sha256: f1a22bdf69eb39c36365c4eb2450033084338fd81bacb466f353667380fb45cb
+fields_raw:
+  Name: 'Spells:'
+  Crocodile Mr. Ku: Cracking Beat
+  'Spells:': 'Location:'
+  Cracking Beat: River Valley
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '80'
+  Hit Points: '35440'
+  Rigor: '432'
+  Agility: '264'
+  Attack: '1289'
+  Defense: '1003'
+  Spell Attack: '775'
+  Spell Defense: '574'
+  Special Attack: +40 Ice
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '31896'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: 100,00%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Crocodile Mr. Ku
+  - ''
+  rows_raw:
+  - - Name
+    - Crocodile Mr. Ku
+    - ''
+  - - 'Spells:'
+    - Cracking Beat
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '80'
+    - '35440'
+    - '432'
+    - '264'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1289'
+    - '1003'
+    - '775'
+    - '574'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +40 Ice
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '31896'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 8
+  headers_raw:
+  - 45,95%
+  - ''
+  - Medium Agility Potion
+  - ''
+  rows_raw:
+  - - 45,95%
+    - ''
+    - Medium Agility Potion
+    - ''
+  - - 45,95%
+    - ''
+    - Medium Target Potion
+    - ''
+  - - 1,78%
+    - ''
+    - Swiftness Boots
+    - Mantle 86 (Dfs +114, Spl Dfs +36, Agility +29)
+  - - 1,78%
+    - ''
+    - Swiftness Armguards
+    - Mantle 87 (Dfs +114, Spl Dfs +36, Rigor +82)
+  - - 1,78%
+    - ''
+    - Swiftness Armor
+    - Mantle 89 (Dfs +343, Spl Dfs +66)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,08%
+    - ''
+    - Good Swiftness Armor
+    - Mantle 89 (Dfs +432, Spl Dfs +74)
+  - - 0,08%
+    - ''
+    - Good Swiftness Boots
+    - Mantle 86 (Dfs +144, Spl Dfs +40, Agility +32)
+  - - 0,08%
+    - ''
+    - Good Swiftness Armguards
+    - Mantle 87 (Dfs +144, Spl Dfs +40, Rigor +92)
+  - - 0,03%
+    - ''
+    - A.Plan2:Swift Armguards
+    - adv.plans for armorsmith
+  - - 0,03%
+    - ''
+    - A.Plan2:Swift Boots
+    - adv.plans for armorsmith
+  - - 0,03%
+    - ''
+    - A.Plan2:Swift Helmet
+    - adv.plans for armorsmith
+  - - 0,03%
+    - ''
+    - A.Plan2:Swift Armor
+    - adv.plans for armorsmith
+  - - ?,?%
+    - ''
+    - Walker Boots
+    - Mantle 86 (Dfs +179, Spl Dfs +44, Agility +36)
+  - - ?,?%
+    - ''
+    - Walker Armguards
+    - Mantle 87 (Dfs +179, Spl Dfs +44, Rigor +102)
+  - - ?,?%
+    - ''
+    - Walker Armor
+    - Mantle 89 (Dfs +538, Spl Dfs +83)
+  - - ?,?%
+    - ''
+    - Pure Shark Armor
+    - Robot Lv 90
+  - - ?,?%
+    - ''
+    - Crocodile Quake Card
+    - Crocodile Quake Card
+  row_count: 18

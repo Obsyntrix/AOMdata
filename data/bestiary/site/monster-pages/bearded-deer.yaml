@@ -1,0 +1,284 @@
+monster_page:
+  id: bearded-deer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bearded-deer
+    retrieval_url: https://web.archive.org/web/20200108102254id_/http://angels.wikidot.com:80/monster:bearded-deer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108102254'
+    archive_snapshot_url: https://web.archive.org/web/20200108102254/http://angels.wikidot.com:80/monster:bearded-deer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bearded-deer
+    source_html_sha256: 2507e2e398c0e1d9d19970ea50843d12a0c35fe2a0e6cd7c559d88583d10e1af
+fields_raw:
+  Name: 'Spells:'
+  Bearded Deer: '-'
+  'Spells:': 'Location:'
+  '-': Sakura Valley
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: bearded-deer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mechanical Shield
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Mechanical Shield
+    Short info: Lv 170 Shield
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mechanical Shield
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Mechanical Shield
+    Short info: Lv 170 Shield
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hot Wheel
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Hot Wheel
+    Short info: Lv 170 Shield
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Butterfly Hood
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Butterfly Hood
+    Short info: Lv 170 Mantle Cap
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Butterfly Hood
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Butterfly Hood
+    Short info: Lv 170 Mantle Cap
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunting Tribe Cap
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Hunting Tribe Cap
+    Short info: Lv 170 Mantle Cap
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: bearded-deer__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Amethyst Cross Rune
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Amethyst Cross Rune
+    Short info: Lv 170 Gem
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bearded Deer
+  - ''
+  rows_raw:
+  - - Name
+    - Bearded Deer
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sakura Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Mechanical Shield
+    - Lv 170 Shield
+  - - ??,??%
+    - ''
+    - Good Mechanical Shield
+    - Lv 170 Shield
+  - - ??,??%
+    - ''
+    - Hot Wheel
+    - Lv 170 Shield
+  - - ??,??%
+    - ''
+    - Butterfly Hood
+    - Lv 170 Mantle Cap
+  - - ??,??%
+    - ''
+    - Good Butterfly Hood
+    - Lv 170 Mantle Cap
+  - - ??,??%
+    - ''
+    - Hunting Tribe Cap
+    - Lv 170 Mantle Cap
+  - - ??,??%
+    - ''
+    - Amethyst Cross Rune
+    - Lv 170 Gem
+  row_count: 8

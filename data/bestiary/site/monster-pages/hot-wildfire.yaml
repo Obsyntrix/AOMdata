@@ -1,0 +1,262 @@
+monster_page:
+  id: hot-wildfire
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hot-wildfire
+    retrieval_url: https://web.archive.org/web/20200109171858id_/http://angels.wikidot.com:80/monster:hot-wildfire
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171858'
+    archive_snapshot_url: https://web.archive.org/web/20200109171858/http://angels.wikidot.com:80/monster:hot-wildfire
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hot-wildfire
+    source_html_sha256: bb6eeea6fd108368c0fccba1c2376bc9898e44e0c27b39b48ae21be0fffd1d3e
+fields_raw:
+  Name: 'Spells:'
+  Hot Wildfire: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '60'
+  Hit Points: '4328'
+  Rigor: '312'
+  Agility: '192'
+  Attack: '425'
+  Defense: '635'
+  Magic Attack: '457'
+  Magic Defense: '258'
+  Bonus Damage: Fire +29
+  Strong Against: Rotten
+  Weak Against: Ice
+  Item Drop Chance: 0,10%
+  Experience: '866'
+  Gold: 201 - 331 (266)
+item_drop_chance_raw: 0,10%
+drops:
+- drop_id: hot-wildfire__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 58,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,50%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.5
+    quantity: null
+- drop_id: hot-wildfire__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Round Iron Helmet
+  chance_to_drop_raw: 11,70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,70%
+    Icon: ''
+    Item: Advanced Round Iron Helmet
+    Short info: Garment 43 (Dfs +78, Spl Dfs +12)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: hot-wildfire__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Hard-leather Cap
+  chance_to_drop_raw: 11,70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,70%
+    Icon: ''
+    Item: Advanced Hard-leather Cap
+    Short info: Mantle 43 (Dfs +52, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: hot-wildfire__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Alchemic Cap
+  chance_to_drop_raw: 11,70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,70%
+    Icon: ''
+    Item: Advanced Alchemic Cap
+    Short info: Vestment 43 (Dfs +26, Spl Dfs +35)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: hot-wildfire__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Alchemic Cap
+  chance_to_drop_raw: 5,85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,85%
+    Icon: ''
+    Item: Good Advanced Alchemic Cap
+    Short info: Vestment 43 (Dfs +37, Spl Dfs +46)
+  normalized:
+    chance_to_drop_percent: 5.85
+    quantity: null
+- drop_id: hot-wildfire__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pearl Refining
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Pearl Refining
+    Short info: Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig. +23, Ag. +16)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: hot-wildfire__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighting Wings
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Fighting Wings
+    Short info: Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: hot-wildfire__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Alchemic Cap
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Holy Alchemic Cap
+    Short info: Vestment 43 (Dfs +50, Spl Dfs +59)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hot Wildfire
+  - ''
+  rows_raw:
+  - - Name
+    - Hot Wildfire
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '4328'
+    - '312'
+    - '192'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '425'
+    - '635'
+    - '457'
+    - '258'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Fire +29
+    - Rotten
+    - Ice
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,10%
+    - '866'
+    - 201 - 331 (266)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,50%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,70%
+    - ''
+    - Advanced Round Iron Helmet
+    - Garment 43 (Dfs +78, Spl Dfs +12)
+  - - 11,70%
+    - ''
+    - Advanced Hard-leather Cap
+    - Mantle 43 (Dfs +52, Spl Dfs +23)
+  - - 11,70%
+    - ''
+    - Advanced Alchemic Cap
+    - Vestment 43 (Dfs +26, Spl Dfs +35)
+  - - 5,85%
+    - ''
+    - Good Advanced Alchemic Cap
+    - Vestment 43 (Dfs +37, Spl Dfs +46)
+  - - 0,19%
+    - ''
+    - Pearl Refining
+    - Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig. +23, Ag. +16)
+  - - 0,19%
+    - ''
+    - Fighting Wings
+    - Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max Weight +50)
+  - - 0,19%
+    - ''
+    - Holy Alchemic Cap
+    - Vestment 43 (Dfs +50, Spl Dfs +59)
+  row_count: 9

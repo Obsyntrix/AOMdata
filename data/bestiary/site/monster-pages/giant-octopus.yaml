@@ -1,0 +1,247 @@
+monster_page:
+  id: giant-octopus
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:giant-octopus
+    retrieval_url: https://web.archive.org/web/20200119233340id_/http://angels.wikidot.com:80/monster:giant-octopus
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119233340'
+    archive_snapshot_url: https://web.archive.org/web/20200119233340/http://angels.wikidot.com:80/monster:giant-octopus
+    archive_original_lookup_url: https://angels.wikidot.com/monster:giant-octopus
+    source_html_sha256: 017a377d75e666b6012ed1be9a6f3916b8590427958880d4ccd14b953db55c60
+fields_raw:
+  Name: 'Description:'
+  Giant Octopus: It looks scary, but it's actually kinda cute, it like eating angels' legs and hearts. When you meet it , remember to take a picture with it.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '85'
+  Hit Points: '3406'
+  Rigor: '437'
+  Agility: '267'
+  Attack: '716'
+  Defense: '1058'
+  Spell Attack: '606'
+  Spell Defense: '332'
+  Special Attack: Ice +45
+  Special Defense: '33'
+  Strong Against: Fire (63)
+  Weak Against: Thunder (3)
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '1058'
+  Gold: 344 - 430 (387)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: giant-octopus__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Helmet
+  chance_to_drop_raw: 96,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96,23%
+    Icon: ''
+    Item: Swiftness Helmet
+    Short info: Mantle 88 (Dfs +190, Spl Dfs +53)
+  normalized:
+    chance_to_drop_percent: 96.23
+    quantity: null
+- drop_id: giant-octopus__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Helmet
+  chance_to_drop_raw: 2,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,40%
+    Icon: ''
+    Item: Good Swiftness Helmet
+    Short info: Mantle 88 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 2.4
+    quantity: null
+- drop_id: giant-octopus__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Helmet
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: A.Plan2:Swift Helmet
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+- drop_id: giant-octopus__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,45%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+- drop_id: giant-octopus__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Helmet
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Walker Helmet
+    Short info: Mantle 88 (Dfs +299, Spl Dfs +67)
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Giant Octopus
+  - ''
+  rows_raw:
+  - - Name
+    - Giant Octopus
+    - ''
+  - - 'Description:'
+    - It looks scary, but it's actually kinda cute, it like eating angels' legs and hearts. When you meet it , remember to take a picture with it.
+    - ''
+  - - 'Location:'
+    - Blue Sea , Blue Ocean , Raging Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '3406'
+    - '437'
+    - '267'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '716'
+    - '1058'
+    - '606'
+    - '332'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +45
+    - '33'
+    - Fire (63)
+    - Thunder (3)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '1058'
+    - 344 - 430 (387)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96,23%
+    - ''
+    - Swiftness Helmet
+    - Mantle 88 (Dfs +190, Spl Dfs +53)
+  - - 2,40%
+    - ''
+    - Good Swiftness Helmet
+    - Mantle 88 (Dfs +240, Spl Dfs +60)
+  - - 0,80%
+    - ''
+    - A.Plan2:Swift Helmet
+    - Armor 85
+  - - 0,45%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,11%
+    - ''
+    - Walker Helmet
+    - Mantle 88 (Dfs +299, Spl Dfs +67)
+  row_count: 6

@@ -1,0 +1,230 @@
+monster_page:
+  id: gluttonous-angel
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:gluttonous-angel
+    retrieval_url: https://web.archive.org/web/20200105031012id_/http://angels.wikidot.com:80/monster:gluttonous-angel
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105031012'
+    archive_snapshot_url: https://web.archive.org/web/20200105031012/http://angels.wikidot.com:80/monster:gluttonous-angel
+    archive_original_lookup_url: https://angels.wikidot.com/monster:gluttonous-angel
+    source_html_sha256: 5a5a6516d36dd9fc4a35c8aff952b7979148289cf77627025e4b40b7164ed5b7
+fields_raw:
+  Name: 'Description:'
+  Gluttonous Angel: Description
+  'Description:': 'Location:'
+  Description: Underground Square , Hell Palace
+  Type: Demon
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '80'
+  Hit Points: '3006'
+  Rigor: '412'
+  Agility: '252'
+  Attack: '623'
+  Defense: '952'
+  Magic Attack: '555'
+  Magic Defense: '316'
+  Special Attack: Thunder +39
+  Special Defense: '30'
+  Strong Against: Ice(60)
+  Weak Against: Rotten(0)
+  Attack Range: Short (1)
+  Speed: Fast(95)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.03%
+  Experience: '751'
+  Gold: 332-476 (404)
+item_drop_chance_raw: 0.03%
+drops:
+- drop_id: gluttonous-angel__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gluttonous Angel Card
+  chance_to_drop_raw: 76.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 76.19%
+    Icon: ''
+    Item: Gluttonous Angel Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 76.19
+    quantity: null
+- drop_id: gluttonous-angel__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 23.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23.08%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 23.08
+    quantity: null
+- drop_id: gluttonous-angel__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hunter Armor'
+  chance_to_drop_raw: 0.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.37%
+    Icon: ''
+    Item: 'A.Plan2: Hunter Armor'
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.37
+    quantity: null
+- drop_id: gluttonous-angel__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'C.Plan2: Light Necklace'
+  chance_to_drop_raw: 0.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.37%
+    Icon: ''
+    Item: 'C.Plan2: Light Necklace'
+    Short info: Tech 75
+  normalized:
+    chance_to_drop_percent: 0.37
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Gluttonous Angel
+  - ''
+  rows_raw:
+  - - Name
+    - Gluttonous Angel
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Underground Square , Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Demon
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '80'
+    - '3006'
+    - '412'
+    - '252'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '623'
+    - '952'
+    - '555'
+    - '316'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +39
+    - '30'
+    - Ice(60)
+    - Rotten(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(95)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.03%
+    - '751'
+    - 332-476 (404)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 76.19%
+    - ''
+    - Gluttonous Angel Card
+    - 'See: Card Collection'
+  - - 23.08%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.37%
+    - ''
+    - 'A.Plan2: Hunter Armor'
+    - Armor 75
+  - - 0.37%
+    - ''
+    - 'C.Plan2: Light Necklace'
+    - Tech 75
+  row_count: 5

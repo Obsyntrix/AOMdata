@@ -1,0 +1,356 @@
+monster_page:
+  id: horn-dragon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:horn-dragon
+    retrieval_url: https://web.archive.org/web/20200203143425id_/http://angels.wikidot.com:80/monster:horn-dragon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200203143425'
+    archive_snapshot_url: https://web.archive.org/web/20200203143425/http://angels.wikidot.com:80/monster:horn-dragon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:horn-dragon
+    source_html_sha256: e6f4e037d0f897035876338fda1ca4de8437d9b4ec4da2307329f6f4e0de1958
+fields_raw:
+  Name: 'Description:'
+  Horn Dragon: Description
+  'Description:': 'Location:'
+  Description: Hell Palace
+  Type: Beast
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '85'
+  Hit Points: '30339'
+  Rigor: '427'
+  Agility: '261'
+  Attack: '1316'
+  Defense: '1009'
+  Magic Attack: '569'
+  Magic Defense: '320'
+  Special Attack: Thunder +39
+  Special Defense: '33'
+  Strong Against: Ice(63)
+  Weak Against: Rotten(3)
+  Attack Range: Short (1)
+  Speed: Super Fast(115)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '22754'
+  Gold: 2064 - 3520 (2792)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: horn-dragon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Magic Fruit
+  chance_to_drop_raw: 48.52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.52%
+    Icon: ''
+    Item: Great Magic Fruit
+    Short info: Food (Spl. Atk. +65 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.52
+    quantity: null
+- drop_id: horn-dragon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Agility Potion
+  chance_to_drop_raw: 48.52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.52%
+    Icon: ''
+    Item: Great Agility Potion
+    Short info: Food (Agi. +42 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.52
+    quantity: null
+- drop_id: horn-dragon__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Horn Dragon Card
+  chance_to_drop_raw: 0.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.93%
+    Icon: ''
+    Item: Horn Dragon Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: horn-dragon__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Cuffs
+  chance_to_drop_raw: 0.71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.71%
+    Icon: ''
+    Item: Hunter Cuffs
+    Short info: Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: horn-dragon__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Light Necklace
+  chance_to_drop_raw: 0.71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.71%
+    Icon: ''
+    Item: Light Necklace
+    Short info: Trinket 80
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: horn-dragon__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.50%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.5
+    quantity: null
+- drop_id: horn-dragon__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Cuffs
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Good Hunter Cuffs
+    Short info: Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: horn-dragon__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Light Necklace
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Good Light Necklace
+    Short info: Trinket 80
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: horn-dragon__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Cuffs
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Forest Cuffs
+    Short info: Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: horn-dragon__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heaven Light
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Heaven Light
+    Short info: Trinket 80
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: horn-dragon__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance: Rushing 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Stance: Rushing 5'
+    Short info: Sword, Axe, Spear, Bow 78
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Horn Dragon
+  - ''
+  rows_raw:
+  - - Name
+    - Horn Dragon
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Beast
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '30339'
+    - '427'
+    - '261'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1316'
+    - '1009'
+    - '569'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +39
+    - '33'
+    - Ice(63)
+    - Rotten(3)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast(115)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '22754'
+    - 2064 - 3520 (2792)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.52%
+    - ''
+    - Great Magic Fruit
+    - Food (Spl. Atk. +65 | 10 min)
+  - - 48.52%
+    - ''
+    - Great Agility Potion
+    - Food (Agi. +42 | 10 min)
+  - - 0.93%
+    - ''
+    - Horn Dragon Card
+    - 'See: Card Collection'
+  - - 0.71%
+    - ''
+    - Hunter Cuffs
+    - Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  - - 0.71%
+    - ''
+    - Light Necklace
+    - Trinket 80
+  - - 0.50%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.05%
+    - ''
+    - Good Hunter Cuffs
+    - Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  - - 0.05%
+    - ''
+    - Good Light Necklace
+    - Trinket 80
+  - - 0.01%
+    - ''
+    - Forest Cuffs
+    - Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  - - 0.01%
+    - ''
+    - Heaven Light
+    - Trinket 80
+  - - 0.01%
+    - ''
+    - 'Stance: Rushing 5'
+    - Sword, Axe, Spear, Bow 78
+  row_count: 12

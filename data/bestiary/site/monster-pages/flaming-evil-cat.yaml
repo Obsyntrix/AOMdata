@@ -1,0 +1,320 @@
+monster_page:
+  id: flaming-evil-cat
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:flaming-evil-cat
+    retrieval_url: https://web.archive.org/web/20200105105947id_/http://angels.wikidot.com:80/monster:flaming-evil-cat
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105105947'
+    archive_snapshot_url: https://web.archive.org/web/20200105105947/http://angels.wikidot.com:80/monster:flaming-evil-cat
+    archive_original_lookup_url: https://angels.wikidot.com/monster:flaming-evil-cat
+    source_html_sha256: a3d981389fe7b4827f06f78959852e3fabc0767f8415de10eded5a89c25b5c1f
+fields_raw:
+  Name: 'Spells:'
+  Flaming Evil Cat: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Village
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '85'
+  Hit Points: '13980'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '930'
+  Defense: '1025'
+  Spell Attack: '606'
+  Spell Defense: '460'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: 308 - 392 (350)
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: flaming-evil-cat__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Potential Sword
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Potential Sword
+    Short info: Lvl 98 Shadow Blade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Potential Sword
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Potential Sword
+    Short info: Lvl 98 Shadow Blade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sallen's Curse
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Sallen's Curse
+    Short info: Lvl 98 Shadow Blade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Brassart
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Saint Brassart
+    Short info: Lvl 96 Garment Cuffs
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Brassart
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Saint Brassart
+    Short info: Lvl 96 Garment Cuffs
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Cuffs
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Holy Guard Cuffs
+    Short info: Lvl 96 Garment Cuffs
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Wind Armor
+    Short info: Lvl 96 Mantle armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Wind Armor
+    Short info: Lvl 96 Mantle armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flaming-evil-cat__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Storm Armor
+    Short info: Lvl 96 Mantle armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Flaming Evil Cat
+  - ''
+  rows_raw:
+  - - Name
+    - Flaming Evil Cat
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '13980'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '930'
+    - '1025'
+    - '606'
+    - '460'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - 308 - 392 (350)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Potential Sword
+    - Lvl 98 Shadow Blade
+  - - ??,??%
+    - ''
+    - Good Potential Sword
+    - Lvl 98 Shadow Blade
+  - - ??,??%
+    - ''
+    - Sallen's Curse
+    - Lvl 98 Shadow Blade
+  - - ??,??%
+    - ''
+    - Saint Brassart
+    - Lvl 96 Garment Cuffs
+  - - ??,??%
+    - ''
+    - Good Saint Brassart
+    - Lvl 96 Garment Cuffs
+  - - ??,??%
+    - ''
+    - Holy Guard Cuffs
+    - Lvl 96 Garment Cuffs
+  - - ??,??%
+    - ''
+    - Wind Armor
+    - Lvl 96 Mantle armor
+  - - ??,??%
+    - ''
+    - Good Wind Armor
+    - Lvl 96 Mantle armor
+  - - ??,??%
+    - ''
+    - Storm Armor
+    - Lvl 96 Mantle armor
+  row_count: 10

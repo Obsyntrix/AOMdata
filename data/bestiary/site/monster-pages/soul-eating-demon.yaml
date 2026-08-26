@@ -1,0 +1,244 @@
+monster_page:
+  id: soul-eating-demon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:soul-eating-demon
+    retrieval_url: https://web.archive.org/web/20200109172123id_/http://angels.wikidot.com:80/monster:soul-eating-demon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172123'
+    archive_snapshot_url: https://web.archive.org/web/20200109172123/http://angels.wikidot.com:80/monster:soul-eating-demon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:soul-eating-demon
+    source_html_sha256: c9231dfc898256a68b1dc7d1ff992f223c8792511352663c08c00aaeb82a1515
+fields_raw:
+  Name: 'Spells:'
+  Soul-eating Demon: Frozen Snipe Single Ranged | Power 100 Stop | 6 sec
+  'Spells:': 'Location:'
+  Frozen Snipe Single Ranged | Power 100 Stop | 6 sec: Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '65'
+  Hit Points: '4736'
+  Rigor: '347'
+  Agility: '213'
+  Attack: '557'
+  Defense: '845'
+  Magic Attack: '478'
+  Magic Defense: '270'
+  Bonus Damage: Ice +23
+  Strong Against: Thunder
+  Weak Against: Fire
+  Item Drop Chance: 0,05%
+  Experience: '3552'
+  Gold: 313 - 483 (398)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: soul-eating-demon__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Armor
+  chance_to_drop_raw: 51,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 51,30%
+    Icon: ''
+    Item: Fire Guard Armor
+    Short info: Garment 69 (Dfs +310, Spl Dfs +25)
+  normalized:
+    chance_to_drop_percent: 51.3
+    quantity: null
+- drop_id: soul-eating-demon__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 42,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 42,71%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 42.71
+    quantity: null
+- drop_id: soul-eating-demon__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Armor
+  chance_to_drop_raw: 3,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,95%
+    Icon: ''
+    Item: Good Fire Guard Armor
+    Short info: Garment 69 (Dfs +403, Spl Dfs +29)
+  normalized:
+    chance_to_drop_percent: 3.95
+    quantity: null
+- drop_id: soul-eating-demon__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Fire Guard Armor
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: A.Plan2:Fire Guard Armor
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: soul-eating-demon__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Fool Staff
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: Craft Recipe 2:Fool Staff
+    Short info: Technics 65
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: soul-eating-demon__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Armor
+  chance_to_drop_raw: 0,42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,42%
+    Icon: ''
+    Item: Knight Armor
+    Short info: Garment 69 (Dfs +514, Spl Dfs +33)
+  normalized:
+    chance_to_drop_percent: 0.42
+    quantity: null
+- drop_id: soul-eating-demon__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 0,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,20%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.2
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Soul-eating Demon
+  - ''
+  rows_raw:
+  - - Name
+    - Soul-eating Demon
+    - ''
+  - - 'Spells:'
+    - Frozen Snipe Single Ranged | Power 100 Stop | 6 sec
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '4736'
+    - '347'
+    - '213'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '557'
+    - '845'
+    - '478'
+    - '270'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +23
+    - Thunder
+    - Fire
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '3552'
+    - 313 - 483 (398)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 51,30%
+    - ''
+    - Fire Guard Armor
+    - Garment 69 (Dfs +310, Spl Dfs +25)
+  - - 42,71%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 3,95%
+    - ''
+    - Good Fire Guard Armor
+    - Garment 69 (Dfs +403, Spl Dfs +29)
+  - - 0,71%
+    - ''
+    - A.Plan2:Fire Guard Armor
+    - Armor 65
+  - - 0,71%
+    - ''
+    - Craft Recipe 2:Fool Staff
+    - Technics 65
+  - - 0,42%
+    - ''
+    - Knight Armor
+    - Garment 69 (Dfs +514, Spl Dfs +33)
+  - - 0,20%
+    - ''
+    - Clean Ruby
+    - 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  row_count: 8

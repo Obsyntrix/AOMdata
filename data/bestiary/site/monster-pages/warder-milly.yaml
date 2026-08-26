@@ -1,0 +1,194 @@
+monster_page:
+  id: warder-milly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:warder-milly
+    retrieval_url: https://web.archive.org/web/20200112193020id_/http://angels.wikidot.com:80/monster:warder-milly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200112193020'
+    archive_snapshot_url: https://web.archive.org/web/20200112193020/http://angels.wikidot.com:80/monster:warder-milly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:warder-milly
+    source_html_sha256: 717f5508b2f89d3db747af114a363157371a844670d195396868af22e55ae626
+fields_raw:
+  Name: 'Spells:'
+  Warder Milly: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '97'
+  Hit Points: '44035'
+  Rigor: '597'
+  Agility: '315'
+  Attack: '1278'
+  Defense: '1430'
+  Spell Attack: '1194'
+  Spell Defense: '697'
+  Special Attack: +57 Ice
+  Special Defense: +77 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: ??,??%
+  Experience: '32619'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: warder-milly__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: warder-milly__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Warder Milly
+  - ''
+  rows_raw:
+  - - Name
+    - Warder Milly
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '97'
+    - '44035'
+    - '597'
+    - '315'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1278'
+    - '1430'
+    - '1194'
+    - '697'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +57 Ice
+    - +77 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '32619'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

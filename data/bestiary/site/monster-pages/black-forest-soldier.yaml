@@ -1,0 +1,284 @@
+monster_page:
+  id: black-forest-soldier
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:black-forest-soldier
+    retrieval_url: https://web.archive.org/web/20161108145225id_/http://angels.wikidot.com:80/monster:black-forest-soldier
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20161108145225'
+    archive_snapshot_url: https://web.archive.org/web/20161108145225/http://angels.wikidot.com:80/monster:black-forest-soldier
+    archive_original_lookup_url: https://angels.wikidot.com/monster:black-forest-soldier
+    source_html_sha256: d3ec615b4ee53360eb9b4349e1d2cf7ea7dd65fcbfae56cb282e77d8a6927232
+fields_raw:
+  Name: 'Spells:'
+  Black Forest Soldier: '-'
+  'Spells:': 'Location:'
+  '-': Chocolate Forest
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: black-forest-soldier__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Vital Steel Blade
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Vital Steel Blade
+    Short info: lvl 130 ShadowBlade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Vital Steel Blade
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Vital Steel Blade
+    Short info: lvl 130 ShadowBlade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blurred Dark Angel
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Blurred Dark Angel
+    Short info: lvl 130 ShadowBlade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Red Light Rune
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Flawed Red Light Rune
+    Short info: lvl 110 upgrade stone
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Murderers Legguard
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Murderers Legguard
+    Short info: lvl 130 garment shoes
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Murderers Legguard
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Murderers Legguard
+    Short info: lvl 130 garment shoes
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-soldier__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Thunder Legguard
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Thunder Legguard
+    Short info: lvl 130 garment shoes
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Black Forest Soldier
+  - ''
+  rows_raw:
+  - - Name
+    - Black Forest Soldier
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Chocolate Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Vital Steel Blade
+    - lvl 130 ShadowBlade
+  - - ??,??%
+    - ''
+    - Good Vital Steel Blade
+    - lvl 130 ShadowBlade
+  - - ??,??%
+    - ''
+    - Blurred Dark Angel
+    - lvl 130 ShadowBlade
+  - - ??,??%
+    - ''
+    - Flawed Red Light Rune
+    - lvl 110 upgrade stone
+  - - ??,??%
+    - ''
+    - Murderers Legguard
+    - lvl 130 garment shoes
+  - - ??,??%
+    - ''
+    - Good Murderers Legguard
+    - lvl 130 garment shoes
+  - - ??,??%
+    - ''
+    - Thunder Legguard
+    - lvl 130 garment shoes
+  row_count: 8

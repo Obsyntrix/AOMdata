@@ -1,0 +1,284 @@
+monster_page:
+  id: color-crab
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:color-crab
+    retrieval_url: https://web.archive.org/web/20200119160853id_/http://angels.wikidot.com:80/monster:color-crab
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119160853'
+    archive_snapshot_url: https://web.archive.org/web/20200119160853/http://angels.wikidot.com:80/monster:color-crab
+    archive_original_lookup_url: https://angels.wikidot.com/monster:color-crab
+    source_html_sha256: 1bbf29caafd98a7d33c44ee86266ab06306170f4be2b1d6262f9cdcbe7c5a042
+fields_raw:
+  Name: 'Description:'
+  Color Crab: It has an armored shell, and always patrols the beach that belongs to it.
+  'Description:': 'Location:'
+  It has an armored shell, and always patrols the beach that belongs to it.: Golden Beach , Shining Coast
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '54'
+  Hit Points: '2068'
+  Rigor: '282'
+  Agility: '174'
+  Attack: '350'
+  Defense: '490'
+  Spell Attack: '364'
+  Spell Defense: '212'
+  Special Attack: Thunder +30
+  Special Defense: '17'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,03%
+  Experience: '622'
+  Gold: 71 - 123 (97)
+item_drop_chance_raw: 0,03%
+drops:
+- drop_id: color-crab__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Tight Leather Gloves
+  chance_to_drop_raw: 40,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,57%
+    Icon: ''
+    Item: Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 40.57
+    quantity: null
+- drop_id: color-crab__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Boots
+  chance_to_drop_raw: 40,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,57%
+    Icon: ''
+    Item: Royal Magic Boots
+    Short info: Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 40.57
+    quantity: null
+- drop_id: color-crab__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Tight Leather Gloves
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Good Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: color-crab__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Boots
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Good Royal Magic Boots
+    Short info: Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: color-crab__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 4,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,04%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 4.04
+    quantity: null
+- drop_id: color-crab__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Shell (gloves)
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Scale Shell (gloves)
+    Short info: Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+- drop_id: color-crab__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gown (shoes)
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Slarm's Gown (shoes)
+    Short info: Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Color Crab
+  - ''
+  rows_raw:
+  - - Name
+    - Color Crab
+    - ''
+  - - 'Description:'
+    - It has an armored shell, and always patrols the beach that belongs to it.
+    - ''
+  - - 'Location:'
+    - Golden Beach , Shining Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '54'
+    - '2068'
+    - '282'
+    - '174'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '350'
+    - '490'
+    - '364'
+    - '212'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +30
+    - '17'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,03%
+    - '622'
+    - 71 - 123 (97)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 40,57%
+    - ''
+    - Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 40,57%
+    - ''
+    - Royal Magic Boots
+    - Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  - - 6,75%
+    - ''
+    - Good Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  - - 6,75%
+    - ''
+    - Good Royal Magic Boots
+    - Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  - - 4,04%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  - - 0,66%
+    - ''
+    - Scale Shell (gloves)
+    - Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  - - 0,66%
+    - ''
+    - Slarm's Gown (shoes)
+    - Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  row_count: 8

@@ -1,0 +1,161 @@
+monster_page:
+  id: qiuaner
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:qiuaner
+    retrieval_url: https://web.archive.org/web/20200109172043id_/http://angels.wikidot.com:80/monster:qiuaner
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172043'
+    archive_snapshot_url: https://web.archive.org/web/20200109172043/http://angels.wikidot.com:80/monster:qiuaner
+    archive_original_lookup_url: https://angels.wikidot.com/monster:qiuaner
+    source_html_sha256: f958b5960f8f68fd16b4ea9f0a5071e08984d01baba85e3e4893df6dba31afe5
+fields_raw:
+  Name: 'Description:'
+  Qiuaner: This fallen angel was actually locked away here by Michael to test his best students. Don't expect him to hold back. If you are going to defeat him, it
+    will be in a duel to the death as Qiuaner fights for his freedom. - Frozen Spell Single Ranged | Dmg 91-95 Move Speed -10% | 5 sec - Frozen Trap Self AOE | Dmg
+    118-122 Stop | 3 sec
+  'Description:': 'Location:'
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '12'
+  Hit Points: '4994'
+  Rigor: '93'
+  Agility: '63'
+  Attack: '232'
+  Defense: '125'
+  Spell Attack: '91'
+  Spell Defense: '91'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Very Fast (90)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 0%
+  Experience: '323'
+  Gold: 235 - 379 (307)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Qiuaner
+  - ''
+  rows_raw:
+  - - Name
+    - Qiuaner
+    - ''
+  - - 'Description:'
+    - This fallen angel was actually locked away here by Michael to test his best students. Don't expect him to hold back. If you are going to defeat him, it will
+      be in a duel to the death as Qiuaner fights for his freedom. - Frozen Spell Single Ranged | Dmg 91-95 Move Speed -10% | 5 sec - Frozen Trap Self AOE | Dmg 118-122
+      Stop | 3 sec
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '12'
+    - '4994'
+    - '93'
+    - '63'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '232'
+    - '125'
+    - '91'
+    - '91'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Very Fast (90)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '323'
+    - 235 - 379 (307)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Badges
+  - ''
+  rows_raw:
+  - - Badges
+    - ''
+  - - 2x
+    - ''
+    - Copper Monster Badge
+    - ''
+  row_count: 2

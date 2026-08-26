@@ -1,0 +1,284 @@
+monster_page:
+  id: hot-dancing-girl
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hot-dancing-girl
+    retrieval_url: https://web.archive.org/web/20200109065641id_/http://angels.wikidot.com:80/monster:hot-dancing-girl
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109065641'
+    archive_snapshot_url: https://web.archive.org/web/20200109065641/http://angels.wikidot.com:80/monster:hot-dancing-girl
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hot-dancing-girl
+    source_html_sha256: c6f70958cab3d7f20cf181c49b8e060f6be324ce59303629a3d23fd8c207c24e
+fields_raw:
+  Name: 'Spells:'
+  Hot Dancing Girl: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0,04%
+  Experience: '?'
+  Gold: 963 - 1225 (?)
+item_drop_chance_raw: 0,04%
+drops:
+- drop_id: hot-dancing-girl__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Raging Chord
+  chance_to_drop_raw: 32,6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,6%
+    Icon: ''
+    Item: Raging Chord
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.6
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Murderers Cuffs
+  chance_to_drop_raw: 32,6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,6%
+    Icon: ''
+    Item: Murderers Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.6
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Thorny Mantle
+  chance_to_drop_raw: 32,6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,6%
+    Icon: ''
+    Item: Thorny Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.6
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Raging Chord
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Raging Chord
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Murderers Cuffs
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Murderers Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Thorny Mantle
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Thorny Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: hot-dancing-girl__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 1,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,15%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.15
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hot Dancing Girl
+  - ''
+  rows_raw:
+  - - Name
+    - Hot Dancing Girl
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,04%
+    - '?'
+    - 963 - 1225 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 32,6%
+    - ''
+    - Raging Chord
+    - ITEM NOTES
+  - - 32,6%
+    - ''
+    - Murderers Cuffs
+    - ITEM NOTES
+  - - 32,6%
+    - ''
+    - Thorny Mantle
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Raging Chord
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Murderers Cuffs
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Thorny Mantle
+    - ITEM NOTES
+  - - 1,15%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

@@ -1,0 +1,339 @@
+monster_page:
+  id: valley-orangutan
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:valley-orangutan
+    retrieval_url: https://web.archive.org/web/20170105043235id_/http://angels.wikidot.com:80/monster:valley-orangutan
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170105043235'
+    archive_snapshot_url: https://web.archive.org/web/20170105043235/http://angels.wikidot.com:80/monster:valley-orangutan
+    archive_original_lookup_url: https://angels.wikidot.com/monster:valley-orangutan
+    source_html_sha256: 1d6bd654852a38d04789dbe9eefe81591d59d66ba1a3cf4deb3489bf9575f11c
+fields_raw:
+  Name: 'Spells:'
+  Valley Orangutan: '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '75'
+  Hit Points: '3013'
+  Rigor: '386'
+  Agility: '237'
+  Attack: '648'
+  Defense: '821'
+  Spell Attack: '526'
+  Spell Defense: '293'
+  Special Attack: +37 Fire
+  Special Defense: '?'
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short (1)
+  Speed: Very fast (90)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,13%
+  Experience: '903'
+  Gold: 269 - 333)
+item_drop_chance_raw: 0,13%
+drops:
+- drop_id: valley-orangutan__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 23,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23,91%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 23.91
+    quantity: null
+- drop_id: valley-orangutan__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Armor
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Hunter Armor
+    Short info: Mantle lvl 79
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: valley-orangutan__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Boots
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Hunter Boots
+    Short info: Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: valley-orangutan__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Boots
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Hunter Boots
+    Short info: Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: valley-orangutan__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Armor
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Hunter Armor
+    Short info: Mantle lvl 79
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: valley-orangutan__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: valley-orangutan__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hunter Boots'
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: 'A.Plan2: Hunter Boots'
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: valley-orangutan__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hunter Armor'
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: 'A.Plan2: Hunter Armor'
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: valley-orangutan__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Boots
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Forest Boots
+    Short info: Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: valley-orangutan__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Forest Armor
+    Short info: Mantle lvl 79
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Valley Orangutan
+  - ''
+  rows_raw:
+  - - Name
+    - Valley Orangutan
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '3013'
+    - '386'
+    - '237'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '648'
+    - '821'
+    - '526'
+    - '293'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +37 Fire
+    - '?'
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (90)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,13%
+    - '903'
+    - 269 - 333)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 23,91%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+    - ''
+  - - 35,87%
+    - ''
+    - Hunter Armor
+    - Mantle lvl 79
+  - - 35,87%
+    - ''
+    - Hunter Boots
+    - Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  - - 1,19%
+    - ''
+    - Good Hunter Boots
+    - Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  - - 1,19%
+    - ''
+    - Good Hunter Armor
+    - Mantle lvl 79
+  - - 1,19%
+    - ''
+    - Clean Ruby
+    - 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  - - 0,39%
+    - ''
+    - 'A.Plan2: Hunter Boots'
+    - Armor 75
+  - - 0,39%
+    - ''
+    - 'A.Plan2: Hunter Armor'
+    - Armor 75
+  - - ?.?%
+    - ''
+    - Forest Boots
+    - Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  - - ??,??%
+    - ''
+    - Forest Armor
+    - Mantle lvl 79
+  row_count: 11

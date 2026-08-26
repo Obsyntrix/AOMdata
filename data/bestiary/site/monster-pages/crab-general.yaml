@@ -1,0 +1,301 @@
+monster_page:
+  id: crab-general
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:crab-general
+    retrieval_url: https://web.archive.org/web/20191230105811id_/http://angels.wikidot.com:80/monster:crab-general
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105811'
+    archive_snapshot_url: https://web.archive.org/web/20191230105811/http://angels.wikidot.com:80/monster:crab-general
+    archive_original_lookup_url: https://angels.wikidot.com/monster:crab-general
+    source_html_sha256: 65500e919aec8542ab34479590e55cb1cc4f504986797393d8e06af294b757a9
+fields_raw:
+  Name: 'Description:'
+  Crab General: If you think it is a poser, you are totally wrong, this crab has been involved in millions of fights. Of course it won a lot.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '66'
+  Hit Points: '2566'
+  Rigor: '342'
+  Agility: '210'
+  Attack: '464'
+  Defense: '665'
+  Spell Attack: '457'
+  Spell Defense: '259'
+  Special Attack: Ice +36
+  Special Defense: '23'
+  Strong Against: Fire (53)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (90)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '782'
+  Gold: 90 - 154 (122)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: crab-general__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Boots
+  chance_to_drop_raw: 37,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 37,95%
+    Icon: ''
+    Item: Hermit Boots
+    Short info: Mantle 66 (Dfs +69, Spl Dfs +27, Ag.+22)
+  normalized:
+    chance_to_drop_percent: 37.95
+    quantity: null
+- drop_id: crab-general__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Cuffs
+  chance_to_drop_raw: 37,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 37,95%
+    Icon: ''
+    Item: Hermit Cuffs
+    Short info: Mantle 67 (Dfs +69, Spl Dfs +27, Rig.+62)
+  normalized:
+    chance_to_drop_percent: 37.95
+    quantity: null
+- drop_id: crab-general__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crab General Card
+  chance_to_drop_raw: 15,65%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,65%
+    Icon: ''
+    Item: Crab General Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 15.65
+    quantity: null
+- drop_id: crab-general__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Boots
+  chance_to_drop_raw: 3,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,80%
+    Icon: ''
+    Item: Good Hermit Boots
+    Short info: Mantle 66 (Dfs +90, Spl Dfs +31, Ag.+26)
+  normalized:
+    chance_to_drop_percent: 3.8
+    quantity: null
+- drop_id: crab-general__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Cuffs
+  chance_to_drop_raw: 3,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,80%
+    Icon: ''
+    Item: Good Hermit Cuffs
+    Short info: Mantle 67 (Dfs +90, Spl Dfs +31, Rig.+72)
+  normalized:
+    chance_to_drop_percent: 3.8
+    quantity: null
+- drop_id: crab-general__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Boots
+  chance_to_drop_raw: 0,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,37%
+    Icon: ''
+    Item: Anchoret Boots
+    Short info: Mantle 66 (Dfs +114, Spl Dfs +36, Ag.+29)
+  normalized:
+    chance_to_drop_percent: 0.37
+    quantity: null
+- drop_id: crab-general__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Cuffs
+  chance_to_drop_raw: 0,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,37%
+    Icon: ''
+    Item: Anchoret Cuffs
+    Short info: Mantle 67 (Dfs +114, Spl Dfs +36, Rig.+82)
+  normalized:
+    chance_to_drop_percent: 0.37
+    quantity: null
+- drop_id: crab-general__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Yellow Gem
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Clean Yellow Gem
+    Short info: 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Crab General
+  - ''
+  rows_raw:
+  - - Name
+    - Crab General
+    - ''
+  - - 'Description:'
+    - If you think it is a poser, you are totally wrong, this crab has been involved in millions of fights. Of course it won a lot.
+    - ''
+  - - 'Location:'
+    - Shining Coast , Colorful Coral Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '66'
+    - '2566'
+    - '342'
+    - '210'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '464'
+    - '665'
+    - '457'
+    - '259'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +36
+    - '23'
+    - Fire (53)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (90)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '782'
+    - 90 - 154 (122)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 37,95%
+    - ''
+    - Hermit Boots
+    - Mantle 66 (Dfs +69, Spl Dfs +27, Ag.+22)
+  - - 37,95%
+    - ''
+    - Hermit Cuffs
+    - Mantle 67 (Dfs +69, Spl Dfs +27, Rig.+62)
+  - - 15,65%
+    - ''
+    - Crab General Card
+    - 'See: Card Collection'
+  - - 3,80%
+    - ''
+    - Good Hermit Boots
+    - Mantle 66 (Dfs +90, Spl Dfs +31, Ag.+26)
+  - - 3,80%
+    - ''
+    - Good Hermit Cuffs
+    - Mantle 67 (Dfs +90, Spl Dfs +31, Rig.+72)
+  - - 0,37%
+    - ''
+    - Anchoret Boots
+    - Mantle 66 (Dfs +114, Spl Dfs +36, Ag.+29)
+  - - 0,37%
+    - ''
+    - Anchoret Cuffs
+    - Mantle 67 (Dfs +114, Spl Dfs +36, Rig.+82)
+  - - 0,11%
+    - ''
+    - Clean Yellow Gem
+    - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  row_count: 9

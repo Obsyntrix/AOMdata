@@ -1,0 +1,374 @@
+monster_page:
+  id: hicalu-machine2
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hicalu-machine2
+    retrieval_url: https://web.archive.org/web/20200119160745id_/http://angels.wikidot.com:80/monster:hicalu-machine2
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119160745'
+    archive_snapshot_url: https://web.archive.org/web/20200119160745/http://angels.wikidot.com:80/monster:hicalu-machine2
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hicalu-machine2
+    source_html_sha256: 71e55e1d234d826e477bf05405e1380437a1e1183715ea382172fbe30664a7b6
+fields_raw:
+  Name: 'Spells:'
+  Hicalu Machine: '-'
+  'Spells:': 'Location:'
+  '-': Lost Region
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '85'
+  Hit Points: '33311'
+  Rigor: '462'
+  Agility: '282'
+  Attack: '1509'
+  Defense: '1140'
+  Magic Attack: '646'
+  Magic Defense: '617'
+  Special Attack: Thunder +43
+  Special Defense: '33'
+  Strong Against: Ice (63)
+  Weak Against: Rotten (3)
+  Attack Range: Short (1)
+  Speed: Super Fast (115)
+  Attack Speed: Moderate (70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '25464'
+  Gold: 6286 - 7792 (7039)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: hicalu-machine2__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Evil Fruit
+  chance_to_drop_raw: 90,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 90,38%
+    Icon: ''
+    Item: Effective Evil Fruit
+    Short info: Food (Spl Atk +75 | 10 min)
+  normalized:
+    chance_to_drop_percent: 90.38
+    quantity: null
+- drop_id: hicalu-machine2__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flood Shield
+  chance_to_drop_raw: 2,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,84%
+    Icon: ''
+    Item: Flood Shield
+    Short info: Shield 90 (Dfs +286, Spl Dfs +92)
+  normalized:
+    chance_to_drop_percent: 2.84
+    quantity: null
+- drop_id: hicalu-machine2__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armor
+  chance_to_drop_raw: 2,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,84%
+    Icon: ''
+    Item: Swiftness Armor
+    Short info: Mantle 89 (Dfs +343, Spl Dfs +66)
+  normalized:
+    chance_to_drop_percent: 2.84
+    quantity: null
+- drop_id: hicalu-machine2__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Helmet
+  chance_to_drop_raw: 2,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,84%
+    Icon: ''
+    Item: Swiftness Helmet
+    Short info: Mantle 88 (Dfs +190, Spl Dfs +53)
+  normalized:
+    chance_to_drop_percent: 2.84
+    quantity: null
+- drop_id: hicalu-machine2__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: hicalu-machine2__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Flood Shield
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Good Flood Shield
+    Short info: Shield 90 (Dfs +360, Spl Dfs +103)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: hicalu-machine2__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armor
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Good Swiftness Armor
+    Short info: Mantle 89 (Dfs +432, Spl Dfs +74)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: hicalu-machine2__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Helmet
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Good Swiftness Helmet
+    Short info: Mantle 88 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: hicalu-machine2__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: hicalu-machine2__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Flood Shield
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: A.Plan2:Flood Shield
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: hicalu-machine2__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armor
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: A.Plan2:Swift Armor
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: hicalu-machine2__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Helmet
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: A.Plan2:Swift Helmet
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hicalu Machine
+  - ''
+  rows_raw:
+  - - Name
+    - Hicalu Machine
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Lost Region
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '33311'
+    - '462'
+    - '282'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1509'
+    - '1140'
+    - '646'
+    - '617'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +43
+    - '33'
+    - Ice (63)
+    - Rotten (3)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (115)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '25464'
+    - 6286 - 7792 (7039)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 90,38%
+    - ''
+    - Effective Evil Fruit
+    - Food (Spl Atk +75 | 10 min)
+  - - 2,84%
+    - ''
+    - Flood Shield
+    - Shield 90 (Dfs +286, Spl Dfs +92)
+  - - 2,84%
+    - ''
+    - Swiftness Armor
+    - Mantle 89 (Dfs +343, Spl Dfs +66)
+  - - 2,84%
+    - ''
+    - Swiftness Helmet
+    - Mantle 88 (Dfs +190, Spl Dfs +53)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,13%
+    - ''
+    - Good Flood Shield
+    - Shield 90 (Dfs +360, Spl Dfs +103)
+  - - 0,13%
+    - ''
+    - Good Swiftness Armor
+    - Mantle 89 (Dfs +432, Spl Dfs +74)
+  - - 0,13%
+    - ''
+    - Good Swiftness Helmet
+    - Mantle 88 (Dfs +240, Spl Dfs +60)
+  - - 0,04%
+    - ''
+    - Flawless Ruby
+    - 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  - - 0,04%
+    - ''
+    - A.Plan2:Flood Shield
+    - Armor 85
+  - - 0,04%
+    - ''
+    - A.Plan2:Swift Armor
+    - Armor 85
+  - - 0,04%
+    - ''
+    - A.Plan2:Swift Helmet
+    - Armor 85
+  row_count: 13

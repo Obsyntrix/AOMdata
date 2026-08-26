@@ -1,0 +1,248 @@
+monster_page:
+  id: mr-fox
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mr-fox
+    retrieval_url: https://web.archive.org/web/20110904024320id_/http://angels.wikidot.com:80/monster:mr-fox
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904024320'
+    archive_snapshot_url: https://web.archive.org/web/20110904024320/http://angels.wikidot.com:80/monster:mr-fox
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mr-fox
+    source_html_sha256: 5f86877dace81427946e86fe72cc21a6de523df0d42076ea7eb960a9e035ff78
+fields_raw:
+  Name: 'Spells:'
+  Mr.Fox: '-'
+  'Spells:': 'Location:'
+  '-': Flower Corridor
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.07%
+  Experience: '?'
+  Gold: 397 - 505
+item_drop_chance_raw: 0.07%
+drops:
+- drop_id: mr-fox__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wildness Boots
+  chance_to_drop_raw: 96.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.1%
+    Icon: ''
+    Item: Wildness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.1
+    quantity: null
+- drop_id: mr-fox__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWildness Boots
+  chance_to_drop_raw: 2.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.39%
+    Icon: ''
+    Item: GoodWildness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: mr-fox__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighter Boots
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Fighter Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: mr-fox__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wildness Boots
+  chance_to_drop_raw: 0.8%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.8%
+    Icon: ''
+    Item: A.Plan2:Wildness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+- drop_id: mr-fox__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mr.Fox
+  - ''
+  rows_raw:
+  - - Name
+    - Mr.Fox
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.07%
+    - '?'
+    - 397 - 505
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.1%
+    - ''
+    - Wildness Boots
+    - ITEM NOTES
+  - - 2.39%
+    - ''
+    - GoodWildness Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Fighter Boots
+    - ITEM NOTES
+  - - 0.8%
+    - ''
+    - A.Plan2:Wildness Boots
+    - ITEM NOTES
+  - - 0.6%
+    - ''
+    - Red Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

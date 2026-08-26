@@ -1,0 +1,356 @@
+monster_page:
+  id: cuss-fire-lord
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:cuss-fire-lord
+    retrieval_url: https://web.archive.org/web/20200128093411id_/http://angels.wikidot.com:80/monster:cuss-fire-lord
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093411'
+    archive_snapshot_url: https://web.archive.org/web/20200128093411/http://angels.wikidot.com:80/monster:cuss-fire-lord
+    archive_original_lookup_url: https://angels.wikidot.com/monster:cuss-fire-lord
+    source_html_sha256: 7b5c218478617b45a9d00308902c03c2612de9cfbb1cfa0813b2f6e4098fcaaf
+fields_raw:
+  Name: 'Description:'
+  Cuss Fire Lord: Description
+  'Description:': 'Location:'
+  Description: Lava Cave
+  Type: Undead
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '75'
+  Hit Points: '29002'
+  Rigor: '412'
+  Agility: '252'
+  Attack: '1180'
+  Defense: '898'
+  Magic Attack: '562'
+  Magic Defense: '320'
+  Special Attack: Fire +38
+  Special Defense: '28'
+  Strong Against: Rotten(58)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(110)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '21752'
+  Gold: 2430 - 3822 (3126)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: cuss-fire-lord__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Mars' Fruit
+  chance_to_drop_raw: 49.03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49.03%
+    Icon: ''
+    Item: Medium Mars' Fruit
+    Short info: Food (Dfs +55 | 10 min)
+  normalized:
+    chance_to_drop_percent: 49.03
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Agility Potion
+  chance_to_drop_raw: 49.03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49.03%
+    Icon: ''
+    Item: Medium Agility Potion
+    Short info: Food (Ag. +30 | 10 min)
+  normalized:
+    chance_to_drop_percent: 49.03
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Thunder Spear
+  chance_to_drop_raw: 1.27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.27%
+    Icon: ''
+    Item: Thunder Spear
+    Short info: Lvl 70 (Atk 410-446 (423), Rig +31)
+  normalized:
+    chance_to_drop_percent: 1.27
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.44%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.44%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.44
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Thunder Spear
+  chance_to_drop_raw: 0.10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.10%
+    Icon: ''
+    Item: Good Thunder Spear
+    Short info: Lvl 70 (Atk 546-570 (558), Rig +36)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'W.Plan2: Reborn Sword'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'W.Plan2: Reborn Sword'
+    Short info: Weapon 65
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Energy Boots'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'D.Plan2: Energy Boots'
+    Short info: Sew 65
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 4: Shining Charm 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Scroll 4: Shining Charm 5'
+    Short info: Earth 80
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Thunder King
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Thunder King
+    Short info: Lvl 70 (Atk 712-736 (724), Rig +41)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: cuss-fire-lord__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Dida Cayman Robot
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Blue Dida Cayman Robot
+    Short info: Lvl 70 (Atk 450-550, Dfs +1250, Max. HP +1550, Max. Weight +8000, Speed +25%)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Cuss Fire Lord
+  - ''
+  rows_raw:
+  - - Name
+    - Cuss Fire Lord
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Lava Cave
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Undead
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '29002'
+    - '412'
+    - '252'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1180'
+    - '898'
+    - '562'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +38
+    - '28'
+    - Rotten(58)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(110)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '21752'
+    - 2430 - 3822 (3126)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 49.03%
+    - ''
+    - Medium Mars' Fruit
+    - Food (Dfs +55 | 10 min)
+  - - 49.03%
+    - ''
+    - Medium Agility Potion
+    - Food (Ag. +30 | 10 min)
+  - - 1.27%
+    - ''
+    - Thunder Spear
+    - Lvl 70 (Atk 410-446 (423), Rig +31)
+  - - 0.44%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.10%
+    - ''
+    - Good Thunder Spear
+    - Lvl 70 (Atk 546-570 (558), Rig +36)
+  - - 0.08%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.02%
+    - ''
+    - 'W.Plan2: Reborn Sword'
+    - Weapon 65
+  - - 0.02%
+    - ''
+    - 'D.Plan2: Energy Boots'
+    - Sew 65
+  - - 0.01%
+    - ''
+    - 'Scroll 4: Shining Charm 5'
+    - Earth 80
+  - - 0.01%
+    - ''
+    - Thunder King
+    - Lvl 70 (Atk 712-736 (724), Rig +41)
+  - - 0.01%
+    - ''
+    - Blue Dida Cayman Robot
+    - Lvl 70 (Atk 450-550, Dfs +1250, Max. HP +1550, Max. Weight +8000, Speed +25%)
+  row_count: 12

@@ -1,0 +1,301 @@
+monster_page:
+  id: ball-jellyfish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ball-jellyfish
+    retrieval_url: https://web.archive.org/web/20191229154307id_/http://angels.wikidot.com:80/monster:ball-jellyfish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191229154307'
+    archive_snapshot_url: https://web.archive.org/web/20191229154307/http://angels.wikidot.com:80/monster:ball-jellyfish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ball-jellyfish
+    source_html_sha256: 06f56adb37427f288d1d1bc0ba8e757842c1d503c1de7560f310bf604b2eda6d
+fields_raw:
+  Name: 'Description:'
+  Ball Jellyfish: It's crazy about round things, and always uses its claws to play with them, however it can only play with 2 balls at 1 time at the most.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '73'
+  Hit Points: '2867'
+  Rigor: '377'
+  Agility: '231'
+  Attack: '536'
+  Defense: '785'
+  Spell Attack: '511'
+  Spell Defense: '286'
+  Special Attack: Ice +39
+  Special Defense: '27'
+  Strong Against: Fire (57)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Fast (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,21%
+  Experience: '847'
+  Gold: 288 - 360 (324)
+item_drop_chance_raw: 0,21%
+drops:
+- drop_id: ball-jellyfish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Cuffs
+  chance_to_drop_raw: 43,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 43,08%
+    Icon: ''
+    Item: Mage Cuffs
+    Short info: Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  normalized:
+    chance_to_drop_percent: 43.08
+    quantity: null
+- drop_id: ball-jellyfish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Light Necklace
+  chance_to_drop_raw: 43,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 43,08%
+    Icon: ''
+    Item: Light Necklace
+    Short info: Trinket Lvl 80 (Dfs +67, Spl Dfs +47, Rig +36, Ag +24)
+  normalized:
+    chance_to_drop_percent: 43.08
+    quantity: null
+- drop_id: ball-jellyfish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beachball Jellyfish Card
+  chance_to_drop_raw: 10,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,12%
+    Icon: ''
+    Item: Beachball Jellyfish Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 10.12
+    quantity: null
+- drop_id: ball-jellyfish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Cuffs
+  chance_to_drop_raw: 1,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,43%
+    Icon: ''
+    Item: Good Mage Cuffs
+    Short info: Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  normalized:
+    chance_to_drop_percent: 1.43
+    quantity: null
+- drop_id: ball-jellyfish__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Light Necklace
+  chance_to_drop_raw: 1,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,43%
+    Icon: ''
+    Item: Good Light Necklace
+    Short info: Trinket Lvl 80 (Dfs +82, Spl Dfs +53, Rig +41, Ag +27)
+  normalized:
+    chance_to_drop_percent: 1.43
+    quantity: null
+- drop_id: ball-jellyfish__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Emerald
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: Clean Emerald
+    Short info: 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: ball-jellyfish__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Cuffs
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Spring Cuffs
+    Short info: Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: ball-jellyfish__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heaven Light
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Heaven Light
+    Short info: Trinket Lvl 80 (Dfs +103, Spl Dfs +60, Rig +46, Ag +31)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ball Jellyfish
+  - ''
+  rows_raw:
+  - - Name
+    - Ball Jellyfish
+    - ''
+  - - 'Description:'
+    - It's crazy about round things, and always uses its claws to play with them, however it can only play with 2 balls at 1 time at the most.
+    - ''
+  - - 'Location:'
+    - Colorful Coral Reefs , Blue Sea , Wave Harbor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '73'
+    - '2867'
+    - '377'
+    - '231'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '536'
+    - '785'
+    - '511'
+    - '286'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +39
+    - '27'
+    - Fire (57)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Fast (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,21%
+    - '847'
+    - 288 - 360 (324)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 43,08%
+    - ''
+    - Mage Cuffs
+    - Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  - - 43,08%
+    - ''
+    - Light Necklace
+    - Trinket Lvl 80 (Dfs +67, Spl Dfs +47, Rig +36, Ag +24)
+  - - 10,12%
+    - ''
+    - Beachball Jellyfish Card
+    - 'See: Card Collection'
+  - - 1,43%
+    - ''
+    - Good Mage Cuffs
+    - Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  - - 1,43%
+    - ''
+    - Good Light Necklace
+    - Trinket Lvl 80 (Dfs +82, Spl Dfs +53, Rig +41, Ag +27)
+  - - 0,71%
+    - ''
+    - Clean Emerald
+    - 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  - - 0,07%
+    - ''
+    - Spring Cuffs
+    - Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  - - 0,07%
+    - ''
+    - Heaven Light
+    - Trinket Lvl 80 (Dfs +103, Spl Dfs +60, Rig +46, Ag +31)
+  row_count: 9

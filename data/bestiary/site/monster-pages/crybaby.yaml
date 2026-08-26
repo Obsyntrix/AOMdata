@@ -1,0 +1,392 @@
+monster_page:
+  id: crybaby
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:crybaby
+    retrieval_url: https://web.archive.org/web/20191229044357id_/http://angels.wikidot.com:80/monster:crybaby
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191229044357'
+    archive_snapshot_url: https://web.archive.org/web/20191229044357/http://angels.wikidot.com:80/monster:crybaby
+    archive_original_lookup_url: https://angels.wikidot.com/monster:crybaby
+    source_html_sha256: ac0fec1cb3dc490f35dab7d3cfc2c0e7d3469202621816095e630f255bd76442
+fields_raw:
+  Name: 'Spells:'
+  Crybaby: Poison Hit Single Ranged | Dmg 107-111 HP -3 x5 | 10 sec
+  'Spells:': 'Location:'
+  Poison Hit Single Ranged | Dmg 107-111 HP -3 x5 | 10 sec: Fungus Forest South
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '18'
+  Hit Points: '364'
+  Rigor: '102'
+  Agility: '66'
+  Attack: '111'
+  Defense: '132'
+  Spell Attack: '98'
+  Spell Defense: '98'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 5,53%
+  Experience: '151'
+  Gold: 31 - 49 (40)
+item_drop_chance_raw: 5,53%
+drops:
+- drop_id: crybaby__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 57,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 57,47%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 57.47
+    quantity: null
+- drop_id: crybaby__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Light Sword
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Light Sword
+    Short info: Sword Lvl 15 (Atk 33-37 (35), Rig.+2)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crybaby__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Double-blade Axe
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Double-blade Axe
+    Short info: Axe Lvl 15 (43-67 (55), Rig.+2)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crybaby__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Wood Shield
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Wood Shield
+    Short info: Shield Lvl 15 (Dfs +12, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crybaby__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Sword
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Sword
+    Short info: Sword Lvl 15 (62-68 (65), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crybaby__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Double-blade Axe
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Double-blade Axe
+    Short info: Axe Lvl 15 (80-104 (92), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crybaby__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Wooden Shield
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Wooden Shield
+    Short info: Shield Lvl 15 (Dfs +30, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crybaby__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Ruby Piece
+    Short info: 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crybaby__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Orange Gem Piece
+    Short info: 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crybaby__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Yellow Gem Piece
+    Short info: 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crybaby__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Antique Rapier
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Antique Rapier
+    Short info: Sword Lvl 15 (102-112 (107), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: crybaby__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Double-bladed Axe
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Silver Double-bladed Axe
+    Short info: Axe Lvl 15 (131-155 (143), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: crybaby__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Shield
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Silver Shield
+    Short info: Shield Lvl 15 (Dfs +51, Spl Dfs +32)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Crybaby
+  - ''
+  rows_raw:
+  - - Name
+    - Crybaby
+    - ''
+  - - 'Spells:'
+    - Poison Hit Single Ranged | Dmg 107-111 HP -3 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Fungus Forest South
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '18'
+    - '364'
+    - '102'
+    - '66'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '111'
+    - '132'
+    - '98'
+    - '98'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 5,53%
+    - '151'
+    - 31 - 49 (40)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 57,47%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,50%
+    - ''
+    - Basic Light Sword
+    - Sword Lvl 15 (Atk 33-37 (35), Rig.+2)
+  - - 11,50%
+    - ''
+    - Basic Double-blade Axe
+    - Axe Lvl 15 (43-67 (55), Rig.+2)
+  - - 11,50%
+    - ''
+    - Basic Wood Shield
+    - Shield Lvl 15 (Dfs +12, Spl Dfs +10)
+  - - 1,92%
+    - ''
+    - Good Basic Sword
+    - Sword Lvl 15 (62-68 (65), Rig.+4)
+  - - 1,92%
+    - ''
+    - Good Basic Double-blade Axe
+    - Axe Lvl 15 (80-104 (92), Rig.+4)
+  - - 1,92%
+    - ''
+    - Good Basic Wooden Shield
+    - Shield Lvl 15 (Dfs +30, Spl Dfs +21)
+  - - 0,58%
+    - ''
+    - Ruby Piece
+    - 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  - - 0,58%
+    - ''
+    - Orange Gem Piece
+    - 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  - - 0,58%
+    - ''
+    - Yellow Gem Piece
+    - 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  - - 0,19%
+    - ''
+    - Antique Rapier
+    - Sword Lvl 15 (102-112 (107), Rig.+7)
+  - - 0,19%
+    - ''
+    - Silver Double-bladed Axe
+    - Axe Lvl 15 (131-155 (143), Rig.+7)
+  - - 0,19%
+    - ''
+    - Silver Shield
+    - Shield Lvl 15 (Dfs +51, Spl Dfs +32)
+  row_count: 14

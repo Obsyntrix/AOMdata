@@ -1,0 +1,285 @@
+monster_page:
+  id: red-lantern-fish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-lantern-fish
+    retrieval_url: https://web.archive.org/web/20200120035600id_/http://angels.wikidot.com:80/monster:red-lantern-fish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200120035600'
+    archive_snapshot_url: https://web.archive.org/web/20200120035600/http://angels.wikidot.com:80/monster:red-lantern-fish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-lantern-fish
+    source_html_sha256: d4a07a7d6175d2c3b6295b032d906668da873a3cb498bf60fb2873aa01582e8f
+fields_raw:
+  Name: 'Description:'
+  Red Lantern Fish: In the distance, it looks like a chinese red Lantern hangs on its head, but actually, the lantern is connected to its body. What is the lantern
+    used for? You should explore it yourself.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '98'
+  Hit Points: '4020'
+  Rigor: '502'
+  Agility: '306'
+  Attack: '943'
+  Defense: '1346'
+  Spell Attack: '710'
+  Spell Defense: '382'
+  Special Attack: Rotten +52
+  Special Defense: '39'
+  Strong Against: Thunder (69)
+  Weak Against: Fire (9)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1159'
+  Gold: 457 - 557 (507)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: red-lantern-fish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Bow
+  chance_to_drop_raw: 47,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,82%
+    Icon: ''
+    Item: Symbol Bow
+    Short info: Bow Lvl 100 (Atk 761-797 (779), Rig.+46)
+  normalized:
+    chance_to_drop_percent: 47.82
+    quantity: null
+- drop_id: red-lantern-fish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crusader's Brooch
+  chance_to_drop_raw: 47,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,82%
+    Icon: ''
+    Item: Crusader's Brooch
+    Short info: Trinket Lvl 100 (Dfs +96, Spl Dfs +60, Rig.+36, Ag.+31)
+  normalized:
+    chance_to_drop_percent: 47.82
+    quantity: null
+- drop_id: red-lantern-fish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Symbol Bow
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Symbol Bow
+    Short info: Bow Lvl 100 (Atk 977-1013 (995), Rig.+51)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: red-lantern-fish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Crusader's Brooch
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Crusader's Brooch
+    Short info: Trinket Lvl 100 (Dfs +119, Spl Dfs +67, Rig.+41, Ag.+34)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: red-lantern-fish__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: 'Weapon: Spl Atk +30, Armor: Spl Dfs +7, Shield: Spl Dfs +7'
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: red-lantern-fish__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Symbol Bow
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: W.Plan2:Symbol Bow
+    Short info: Weapon 95
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: red-lantern-fish__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Crusader's Brooch
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: Craft Recipe 2:Crusader's Brooch
+    Short info: Technics 95
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Lantern Fish
+  - ''
+  rows_raw:
+  - - Name
+    - Red Lantern Fish
+    - ''
+  - - 'Description:'
+    - In the distance, it looks like a chinese red Lantern hangs on its head, but actually, the lantern is connected to its body. What is the lantern used for? You
+      should explore it yourself.
+    - ''
+  - - 'Location:'
+    - Quiet Ocean , Coral Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '98'
+    - '4020'
+    - '502'
+    - '306'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '943'
+    - '1346'
+    - '710'
+    - '382'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +52
+    - '39'
+    - Thunder (69)
+    - Fire (9)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1159'
+    - 457 - 557 (507)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,82%
+    - ''
+    - Symbol Bow
+    - Bow Lvl 100 (Atk 761-797 (779), Rig.+46)
+  - - 47,82%
+    - ''
+    - Crusader's Brooch
+    - Trinket Lvl 100 (Dfs +96, Spl Dfs +60, Rig.+36, Ag.+31)
+  - - 1,20%
+    - ''
+    - Good Symbol Bow
+    - Bow Lvl 100 (Atk 977-1013 (995), Rig.+51)
+  - - 1,20%
+    - ''
+    - Good Crusader's Brooch
+    - Trinket Lvl 100 (Dfs +119, Spl Dfs +67, Rig.+41, Ag.+34)
+  - - 1,20%
+    - ''
+    - Flawless Purple Gem
+    - 'Weapon: Spl Atk +30, Armor: Spl Dfs +7, Shield: Spl Dfs +7'
+  - - 0,39%
+    - ''
+    - W.Plan2:Symbol Bow
+    - Weapon 95
+  - - 0,39%
+    - ''
+    - Craft Recipe 2:Crusader's Brooch
+    - Technics 95
+  row_count: 8

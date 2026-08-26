@@ -1,0 +1,266 @@
+monster_page:
+  id: big-chris
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:big-chris
+    retrieval_url: https://web.archive.org/web/20190825200612id_/http://angels.wikidot.com:80/monster:big-chris
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20190825200612'
+    archive_snapshot_url: https://web.archive.org/web/20190825200612/http://angels.wikidot.com:80/monster:big-chris
+    archive_original_lookup_url: https://angels.wikidot.com/monster:big-chris
+    source_html_sha256: 0ef1fbddb8395aa5ceb3a4c22b54e9fa938105f347b2e98a51c7e79f1b62b384
+fields_raw:
+  Name: 'Spells:'
+  Big Chris: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: big-chris__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Wand
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Spring Wand
+    Short info: 105 staff,+529sa
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: big-chris__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Spring Wand
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Spring Wand
+    Short info: 105 staff,+868sa
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: big-chris__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nahuac Power
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Nahuac Power
+    Short info: 105 staff,+1178sa
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: big-chris__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Leopard
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Ice Leopard
+    Short info: '| Lvl 100 Ride'
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: big-chris__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: lvl 100 mantle head
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: lvl 100 mantle head
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: big-chris__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: blue bird
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: blue bird
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Big Chris
+  - ''
+  rows_raw:
+  - - Name
+    - Big Chris
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Spring Wand
+    - 105 staff,+529sa
+  - - ??,??%
+    - ''
+    - Good Spring Wand
+    - 105 staff,+868sa
+  - - ??,??%
+    - ''
+    - Nahuac Power
+    - 105 staff,+1178sa
+  - - ??,??%
+    - ''
+    - Ice Leopard
+    - '| Lvl 100 Ride'
+  - - ??,??%
+    - ''
+    - lvl 100 mantle head
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - blue bird
+    - ITEM NOTES
+  row_count: 7

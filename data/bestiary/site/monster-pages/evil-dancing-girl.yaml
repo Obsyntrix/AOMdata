@@ -1,0 +1,320 @@
+monster_page:
+  id: evil-dancing-girl
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-dancing-girl
+    retrieval_url: https://web.archive.org/web/20200108101330id_/http://angels.wikidot.com:80/monster:evil-dancing-girl
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108101330'
+    archive_snapshot_url: https://web.archive.org/web/20200108101330/http://angels.wikidot.com:80/monster:evil-dancing-girl
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-dancing-girl
+    source_html_sha256: 112e00af15c5bf248c37a72b212c3dcf826705fbf3a81c27f104bda82c327ff5
+fields_raw:
+  Name: 'Spells:'
+  Evil Dancing Girl: '-'
+  'Spells:': 'Location:'
+  '-': Fantastic Sand City
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '110'
+  Hit Points: '10114'
+  Rigor: '562'
+  Agility: '342'
+  Attack: '1248'
+  Defense: '1344'
+  Spell Attack: '1527'
+  Spell Defense: '1019'
+  Special Attack: +55Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.08%
+  Experience: '6009'
+  Gold: 418 - 532
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: evil-dancing-girl__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Supreme Wand
+  chance_to_drop_raw: 44.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44.08%
+    Icon: ''
+    Item: Supreme Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 44.08
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wonder Shoes
+  chance_to_drop_raw: 44.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44.08%
+    Icon: ''
+    Item: Wonder Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 44.08
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSupreme Wand
+  chance_to_drop_raw: 1.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.14%
+    Icon: ''
+    Item: GoodSupreme Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.14
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWonder Shoes
+  chance_to_drop_raw: 1.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.14%
+    Icon: ''
+    Item: GoodWonder Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.14
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nahuac Power
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Nahuac Power
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Prophet Shoes
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Roaring Prophet Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wild Desert Camel
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Wild Desert Camel
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 0.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.13%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: evil-dancing-girl__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Dancing Girl Card
+  chance_to_drop_raw: 8.23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8.23%
+    Icon: ''
+    Item: Evil Dancing Girl Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 8.23
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Dancing Girl
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Dancing Girl
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Fantastic Sand City
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '110'
+    - '10114'
+    - '562'
+    - '342'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1248'
+    - '1344'
+    - '1527'
+    - '1019'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +55Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '6009'
+    - 418 - 532
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 44.08%
+    - ''
+    - Supreme Wand
+    - ITEM NOTES
+  - - 44.08%
+    - ''
+    - Wonder Shoes
+    - ITEM NOTES
+  - - 1.14%
+    - ''
+    - GoodSupreme Wand
+    - ITEM NOTES
+  - - 1.14%
+    - ''
+    - GoodWonder Shoes
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Nahuac Power
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Roaring Prophet Shoes
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Wild Desert Camel
+    - ITEM NOTES
+  - - 0.13%
+    - ''
+    - Flawless Purple Gem
+    - ITEM NOTES
+  - - 8.23%
+    - ''
+    - Evil Dancing Girl Card
+    - ITEM NOTES
+  row_count: 10

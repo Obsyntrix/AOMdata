@@ -1,0 +1,266 @@
+monster_page:
+  id: hairy-orangutan
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hairy-orangutan
+    retrieval_url: https://web.archive.org/web/20200109122418id_/http://angels.wikidot.com:80/monster:hairy-orangutan
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109122418'
+    archive_snapshot_url: https://web.archive.org/web/20200109122418/http://angels.wikidot.com:80/monster:hairy-orangutan
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hairy-orangutan
+    source_html_sha256: 05d303ebcd18d6847057511700da1e2d2e719b26438dcfbe84dd039e783f670a
+fields_raw:
+  Name: 'Spells:'
+  Hairy Orangutan: '-'
+  'Spells:': 'Location:'
+  '-': Roam Battlefield
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '95'
+  Hit Points: '7987'
+  Rigor: '567'
+  Agility: '297'
+  Attack: '1137'
+  Defense: '1266'
+  Spell Attack: '685'
+  Spell Defense: '359'
+  Special Attack: +55 Lightning
+  Special Defense: +75 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '3594'
+  Gold: 351 - 447
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: hairy-orangutan__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Boots
+  chance_to_drop_raw: 93.16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.16%
+    Icon: ''
+    Item: Saint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.16
+    quantity: null
+- drop_id: hairy-orangutan__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSaint Boots
+  chance_to_drop_raw: 2.33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.33%
+    Icon: ''
+    Item: GoodSaint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.33
+    quantity: null
+- drop_id: hairy-orangutan__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Boots
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Holy Guard Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: hairy-orangutan__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: BerryShark-hunting Armor
+  chance_to_drop_raw: 0.22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.22%
+    Icon: ''
+    Item: BerryShark-hunting Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: hairy-orangutan__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Boots
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: A.Plan2:Saint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: hairy-orangutan__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 3.42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.42%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.42
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hairy Orangutan
+  - ''
+  rows_raw:
+  - - Name
+    - Hairy Orangutan
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Roam Battlefield
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '7987'
+    - '567'
+    - '297'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1137'
+    - '1266'
+    - '685'
+    - '359'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +55 Lightning
+    - +75 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '3594'
+    - 351 - 447
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.16%
+    - ''
+    - Saint Boots
+    - ITEM NOTES
+  - - 2.33%
+    - ''
+    - GoodSaint Boots
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Holy Guard Boots
+    - ITEM NOTES
+  - - 0.22%
+    - ''
+    - BerryShark-hunting Armor
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - A.Plan2:Saint Boots
+    - ITEM NOTES
+  - - 3.42%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  row_count: 7

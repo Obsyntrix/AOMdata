@@ -1,0 +1,465 @@
+monster_page:
+  id: bloody-pound
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bloody-pound
+    retrieval_url: https://web.archive.org/web/20200224074946id_/http://angels.wikidot.com:80/monster:bloody-pound
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200224074946'
+    archive_snapshot_url: https://web.archive.org/web/20200224074946/http://angels.wikidot.com:80/monster:bloody-pound
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bloody-pound
+    source_html_sha256: 3d066bd2d4a51786b2fae176270ec65bb9d51b304ae451cb0f82565cbc66a8d3
+fields_raw:
+  Name: 'Spells:'
+  Bloody Pound: Poison Hit Single Ranged | Dmg 138-142 HP -3 x5 | 10 sec - Strong Acid Rain Ranged AOE | Dmg 208-212 HP -20 x5 | 10 sec
+  'Spells:': 'Location:'
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '32'
+  Hit Points: '11563'
+  Rigor: '197'
+  Agility: '123'
+  Attack: '534'
+  Defense: '294'
+  Spell Attack: '236'
+  Spell Defense: '235'
+  Special Attack: '-'
+  Special Defense: '6'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '792'
+  Gold: 413 - 731 (572)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: bloody-pound__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Target Potion
+  chance_to_drop_raw: 18,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,00%
+    Icon: ''
+    Item: Target Potion
+    Short info: Food (Rigor +8 | 10 min)
+  normalized:
+    chance_to_drop_percent: 18.0
+    quantity: null
+- drop_id: bloody-pound__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Agility Potion
+  chance_to_drop_raw: 18,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,00%
+    Icon: ''
+    Item: Agility Potion
+    Short info: Food (Agility +6 | 10 min)
+  normalized:
+    chance_to_drop_percent: 18.0
+    quantity: null
+- drop_id: bloody-pound__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Gown
+  chance_to_drop_raw: 11,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,92%
+    Icon: ''
+    Item: Traveller Gown
+    Short info: Vestment 24 (Dfs +18, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 11.92
+    quantity: null
+- drop_id: bloody-pound__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Thick Armor
+  chance_to_drop_raw: 11,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,92%
+    Icon: ''
+    Item: Traveller Thick Armor
+    Short info: Garment 24 (Dfs +53, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 11.92
+    quantity: null
+- drop_id: bloody-pound__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Leather Vest
+  chance_to_drop_raw: 11,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,92%
+    Icon: ''
+    Item: Traveller Leather Vest
+    Short info: Mantle 24 (Dfs +35, Spl Dfs +14)
+  normalized:
+    chance_to_drop_percent: 11.92
+    quantity: null
+- drop_id: bloody-pound__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 10,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,47%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 10.47
+    quantity: null
+- drop_id: bloody-pound__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Gown
+  chance_to_drop_raw: 6,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,91%
+    Icon: ''
+    Item: Good Traveller Gown
+    Short info: Vestment 24 (Dfs +31, Spl Dfs +34)
+  normalized:
+    chance_to_drop_percent: 6.91
+    quantity: null
+- drop_id: bloody-pound__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of High Clerist
+  chance_to_drop_raw: 2,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,30%
+    Icon: ''
+    Item: Ring of High Clerist
+    Short info: Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: bloody-pound__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Shell Bag
+  chance_to_drop_raw: 2,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,30%
+    Icon: ''
+    Item: Golden Shell Bag
+    Short info: Backpack Lvl 25 (Max Weight +500, Slots 12)
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: bloody-pound__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 2: Basic Beating 5'
+  chance_to_drop_raw: 1,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,54%
+    Icon: ''
+    Item: 'Stance 2: Basic Beating 5'
+    Short info: Axe 24
+  normalized:
+    chance_to_drop_percent: 1.54
+    quantity: null
+- drop_id: bloody-pound__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 3: Basic Attack 5'
+  chance_to_drop_raw: 1,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,54%
+    Icon: ''
+    Item: 'Stance 3: Basic Attack 5'
+    Short info: Spear 24
+  normalized:
+    chance_to_drop_percent: 1.54
+    quantity: null
+- drop_id: bloody-pound__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 4: Basic Shot 5'
+  chance_to_drop_raw: 1,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,54%
+    Icon: ''
+    Item: 'Stance 4: Basic Shot 5'
+    Short info: Bow 24
+  normalized:
+    chance_to_drop_percent: 1.54
+    quantity: null
+- drop_id: bloody-pound__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Protector's Gown
+  chance_to_drop_raw: 1,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,05%
+    Icon: ''
+    Item: Protector's Gown
+    Short info: Vestment 24 (Dfs +47, Spl Dfs +50)
+  normalized:
+    chance_to_drop_percent: 1.05
+    quantity: null
+- drop_id: bloody-pound__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,27%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+- drop_id: bloody-pound__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,27%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+- drop_id: bloody-pound__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: bloody-pound__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Monster Badge
+  chance_to_drop_raw: 1x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1x
+    Icon: ''
+    Item: Silver Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bloody Pound
+  - ''
+  rows_raw:
+  - - Name
+    - Bloody Pound
+    - ''
+  - - 'Spells:'
+    - Poison Hit Single Ranged | Dmg 138-142 HP -3 x5 | 10 sec - Strong Acid Rain Ranged AOE | Dmg 208-212 HP -20 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Degula Maze
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '32'
+    - '11563'
+    - '197'
+    - '123'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '534'
+    - '294'
+    - '236'
+    - '235'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '6'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '792'
+    - 413 - 731 (572)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 18,00%
+    - ''
+    - Target Potion
+    - Food (Rigor +8 | 10 min)
+  - - 18,00%
+    - ''
+    - Agility Potion
+    - Food (Agility +6 | 10 min)
+  - - 11,92%
+    - ''
+    - Traveller Gown
+    - Vestment 24 (Dfs +18, Spl Dfs +21)
+  - - 11,92%
+    - ''
+    - Traveller Thick Armor
+    - Garment 24 (Dfs +53, Spl Dfs +7)
+  - - 11,92%
+    - ''
+    - Traveller Leather Vest
+    - Mantle 24 (Dfs +35, Spl Dfs +14)
+  - - 10,47%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 6,91%
+    - ''
+    - Good Traveller Gown
+    - Vestment 24 (Dfs +31, Spl Dfs +34)
+  - - 2,30%
+    - ''
+    - Ring of High Clerist
+    - Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  - - 2,30%
+    - ''
+    - Golden Shell Bag
+    - Backpack Lvl 25 (Max Weight +500, Slots 12)
+  - - 1,54%
+    - ''
+    - 'Stance 2: Basic Beating 5'
+    - Axe 24
+  - - 1,54%
+    - ''
+    - 'Stance 3: Basic Attack 5'
+    - Spear 24
+  - - 1,54%
+    - ''
+    - 'Stance 4: Basic Shot 5'
+    - Bow 24
+  - - 1,05%
+    - ''
+    - Protector's Gown
+    - Vestment 24 (Dfs +47, Spl Dfs +50)
+  - - 0,27%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,27%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,06%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - Badges
+    - ''
+  - - 1x
+    - ''
+    - Silver Monster Badge
+    - ''
+  row_count: 19

@@ -1,0 +1,284 @@
+monster_page:
+  id: dead-eye
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dead-eye
+    retrieval_url: https://web.archive.org/web/20200109064650id_/http://angels.wikidot.com:80/monster:dead-eye
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064650'
+    archive_snapshot_url: https://web.archive.org/web/20200109064650/http://angels.wikidot.com:80/monster:dead-eye
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dead-eye
+    source_html_sha256: fd0ea76c84f79b0bf5099f80bddb4c1bd7b931dedab8dca1f8b78f7e217c79ba
+fields_raw:
+  Name: 'Spells:'
+  Dead Eye: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '125'
+  Hit Points: '22326'
+  Rigor: '717'
+  Agility: '387'
+  Attack: '1641'
+  Defense: '1792'
+  Spell Attack: '1083'
+  Spell Defense: '893'
+  Special Attack: +85 Poison
+  Special Defense: +105 Poison
+  Strong Against: Poison
+  Weak Against: Ice
+  Attack Range: Short(1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,04%
+  Experience: '10047'
+  Gold: 982 - 1250 (?)
+item_drop_chance_raw: 0,04%
+drops:
+- drop_id: dead-eye__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Wand
+  chance_to_drop_raw: 32,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,06%
+    Icon: ''
+    Item: Eagle Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.06
+    quantity: null
+- drop_id: dead-eye__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Celestial Hood
+  chance_to_drop_raw: 32,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,06%
+    Icon: ''
+    Item: Celestial Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.06
+    quantity: null
+- drop_id: dead-eye__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Celestial Gown
+  chance_to_drop_raw: 32,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,06%
+    Icon: ''
+    Item: Celestial Gown
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.06
+    quantity: null
+- drop_id: dead-eye__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Eagle Wand
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Eagle Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: dead-eye__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Celestial Hood
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Celestial Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: dead-eye__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Celestial Gown
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Celestial Gown
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: dead-eye__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 1,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,13%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dead Eye
+  - ''
+  rows_raw:
+  - - Name
+    - Dead Eye
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '125'
+    - '22326'
+    - '717'
+    - '387'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1641'
+    - '1792'
+    - '1083'
+    - '893'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +85 Poison
+    - +105 Poison
+    - Poison
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,04%
+    - '10047'
+    - 982 - 1250 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 32,06%
+    - ''
+    - Eagle Wand
+    - ITEM NOTES
+  - - 32,06%
+    - ''
+    - Celestial Hood
+    - ITEM NOTES
+  - - 32,06%
+    - ''
+    - Celestial Gown
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Eagle Wand
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Celestial Hood
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Celestial Gown
+    - ITEM NOTES
+  - - 1,13%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

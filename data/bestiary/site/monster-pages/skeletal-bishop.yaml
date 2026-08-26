@@ -1,0 +1,464 @@
+monster_page:
+  id: skeletal-bishop
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:skeletal-bishop
+    retrieval_url: https://web.archive.org/web/20200128093152id_/http://angels.wikidot.com:80/monster:skeletal-bishop
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093152'
+    archive_snapshot_url: https://web.archive.org/web/20200128093152/http://angels.wikidot.com:80/monster:skeletal-bishop
+    archive_original_lookup_url: https://angels.wikidot.com/monster:skeletal-bishop
+    source_html_sha256: 4984c0f5b5755cec2aebb3fe82284ca7eb936947be2eb5b7fd8017bb86c71333
+fields_raw:
+  Name: 'Spells:'
+  Skeletal Bishop: Electronic Hit Single Ranged | Dmg 161-165 - Thunder Scope Self Ranged | Dmg 242-246
+  'Spells:': 'Location:'
+  Electronic Hit Single Ranged | Dmg 161-165 - Thunder Scope Self Ranged | Dmg 242-246: Quiet Vale
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '45'
+  Hit Points: '16381'
+  Rigor: '262'
+  Agility: '162'
+  Attack: '682'
+  Defense: '439'
+  Spell Attack: '333'
+  Spell Defense: '328'
+  Special Attack: '-'
+  Special Defense: '13'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Very Fast (90)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '1142'
+  Gold: 593 - 1049 (821)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: skeletal-bishop__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Fruit
+  chance_to_drop_raw: 22,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 22,64%
+    Icon: ''
+    Item: Magic Fruit
+    Short info: Food (Spl Atk +20 | 10 min)
+  normalized:
+    chance_to_drop_percent: 22.64
+    quantity: null
+- drop_id: skeletal-bishop__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fruit of the Devil
+  chance_to_drop_raw: 22,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 22,64%
+    Icon: ''
+    Item: Fruit of the Devil
+    Short info: Food (Spl Dfs +20 | 10 min)
+  normalized:
+    chance_to_drop_percent: 22.64
+    quantity: null
+- drop_id: skeletal-bishop__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earl Mantle
+  chance_to_drop_raw: 20,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 20,82%
+    Icon: ''
+    Item: Earl Mantle
+    Short info: Cloak Lvl 35 (Dfs +36, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 20.82
+    quantity: null
+- drop_id: skeletal-bishop__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earl Ring
+  chance_to_drop_raw: 20,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 20,00%
+    Icon: ''
+    Item: Earl Ring
+    Short info: Trinket Lvl 35 (Dfs +29, Spl Dfs +17, Rig.+13, Ag.+9)
+  normalized:
+    chance_to_drop_percent: 20.0
+    quantity: null
+- drop_id: skeletal-bishop__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 4,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,57%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 4.57
+    quantity: null
+- drop_id: skeletal-bishop__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Earl Ring
+  chance_to_drop_raw: 1,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,63%
+    Icon: ''
+    Item: Good Earl Ring
+    Short info: Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  normalized:
+    chance_to_drop_percent: 1.63
+    quantity: null
+- drop_id: skeletal-bishop__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Earl Mantle
+  chance_to_drop_raw: 1,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,63%
+    Icon: ''
+    Item: Good Earl Mantle
+    Short info: Cloak Lvl 35 (Dfs +52, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 1.63
+    quantity: null
+- drop_id: skeletal-bishop__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Bat Wings
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: Bat Wings
+    Short info: Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: skeletal-bishop__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of Devil
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: Ring of Devil
+    Short info: Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: skeletal-bishop__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Soul Entangle 5'
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: 'Scroll 2: Soul Entangle 5'
+    Short info: Wraith 34
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: skeletal-bishop__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Hurt Transfer 5'
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: 'Scroll 2: Hurt Transfer 5'
+    Short info: Wraith 36
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: skeletal-bishop__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Exhaustion Curse 5'
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: 'Scroll 2: Exhaustion Curse 5'
+    Short info: Wraith 40
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: skeletal-bishop__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,59%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,59%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.59
+    quantity: null
+- drop_id: skeletal-bishop__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,59%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,59%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor/Shield: Spl Def +4'
+  normalized:
+    chance_to_drop_percent: 0.59
+    quantity: null
+- drop_id: skeletal-bishop__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blood Ring
+  chance_to_drop_raw: 0,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,20%
+    Icon: ''
+    Item: Blood Ring
+    Short info: Trinket Lvl 35 (Dfs +48, Spl Dfs +30, Rig.+23, Ag.+16)
+  normalized:
+    chance_to_drop_percent: 0.2
+    quantity: null
+- drop_id: skeletal-bishop__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Moonnight Mantle
+  chance_to_drop_raw: 0,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,20%
+    Icon: ''
+    Item: Moonnight Mantle
+    Short info: Cloak Lvl 35 (Dfs +65, Spl Dfs +25, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.2
+    quantity: null
+- drop_id: skeletal-bishop__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Skeletal Bishop
+  - ''
+  rows_raw:
+  - - Name
+    - Skeletal Bishop
+    - ''
+  - - 'Spells:'
+    - Electronic Hit Single Ranged | Dmg 161-165 - Thunder Scope Self Ranged | Dmg 242-246
+    - ''
+  - - 'Location:'
+    - Quiet Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '45'
+    - '16381'
+    - '262'
+    - '162'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '682'
+    - '439'
+    - '333'
+    - '328'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '13'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1142'
+    - 593 - 1049 (821)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 22,64%
+    - ''
+    - Magic Fruit
+    - Food (Spl Atk +20 | 10 min)
+  - - 22,64%
+    - ''
+    - Fruit of the Devil
+    - Food (Spl Dfs +20 | 10 min)
+  - - 20,82%
+    - ''
+    - Earl Mantle
+    - Cloak Lvl 35 (Dfs +36, Max.Weight +50)
+  - - 20,00%
+    - ''
+    - Earl Ring
+    - Trinket Lvl 35 (Dfs +29, Spl Dfs +17, Rig.+13, Ag.+9)
+  - - 4,57%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 1,63%
+    - ''
+    - Good Earl Ring
+    - Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  - - 1,63%
+    - ''
+    - Good Earl Mantle
+    - Cloak Lvl 35 (Dfs +52, Max.Weight +50)
+  - - 0,55%
+    - ''
+    - Bat Wings
+    - Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  - - 0,55%
+    - ''
+    - Ring of Devil
+    - Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  - - 0,64%
+    - ''
+    - 'Scroll 2: Soul Entangle 5'
+    - Wraith 34
+  - - 0,64%
+    - ''
+    - 'Scroll 2: Hurt Transfer 5'
+    - Wraith 36
+  - - 0,64%
+    - ''
+    - 'Scroll 2: Exhaustion Curse 5'
+    - Wraith 40
+  - - 0,59%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,59%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor/Shield: Spl Def +4'
+  - - 0,20%
+    - ''
+    - Blood Ring
+    - Trinket Lvl 35 (Dfs +48, Spl Dfs +30, Rig.+23, Ag.+16)
+  - - 0,20%
+    - ''
+    - Moonnight Mantle
+    - Cloak Lvl 35 (Dfs +65, Spl Dfs +25, Max.Weight +50)
+  - - 0,11%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 18

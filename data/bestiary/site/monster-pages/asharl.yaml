@@ -1,0 +1,374 @@
+monster_page:
+  id: asharl
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:asharl
+    retrieval_url: https://web.archive.org/web/20200220215706id_/http://angels.wikidot.com:80/monster:asharl
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220215706'
+    archive_snapshot_url: https://web.archive.org/web/20200220215706/http://angels.wikidot.com:80/monster:asharl
+    archive_original_lookup_url: https://angels.wikidot.com/monster:asharl
+    source_html_sha256: 8b23b7d7d4e11a164f66c361440f1bf6ffb71e23f8a0b65ca22aafbe6691eee1
+fields_raw:
+  Name: 'Spells:'
+  Asharl: '-'
+  'Spells:': 'Location:'
+  '-': Evil Ship
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: Yes (12)
+  Level: '100'
+  Hit Points: '96874'
+  Rigor: '637'
+  Agility: '387'
+  Attack: '2039'
+  Defense: '2806'
+  Spell Attack: '927'
+  Spell Defense: '871'
+  Special Attack: Rotten +60
+  Special Defense: '48'
+  Strong Against: Thunder (78)
+  Weak Against: Fire (18)
+  Attack Range: Short (2)
+  Speed: Super Fast (140)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '45803'
+  Gold: 5291 - 6501 (5896)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: asharl__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 88,51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 88,51%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: Food (Max.HP +270 | 10 min)
+  normalized:
+    chance_to_drop_percent: 88.51
+    quantity: null
+- drop_id: asharl__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whale Falchion
+  chance_to_drop_raw: 5,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,06%
+    Icon: ''
+    Item: Whale Falchion
+    Short info: Sword Lvl 98 (Atk 823-859 (841), Rig.+23)
+  normalized:
+    chance_to_drop_percent: 5.06
+    quantity: null
+- drop_id: asharl__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Gown
+  chance_to_drop_raw: 5,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,06%
+    Icon: ''
+    Item: Espial Gown
+    Short info: Vestment 96 (Dfs +216, Spl Dfs +112)
+  normalized:
+    chance_to_drop_percent: 5.06
+    quantity: null
+- drop_id: asharl__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: asharl__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Whale Falchion
+  chance_to_drop_raw: 0,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,26%
+    Icon: ''
+    Item: Good Whale Falchion
+    Short info: Sword Lvl 98 (Atk 1038-1074 (1056), Rig.+26)
+  normalized:
+    chance_to_drop_percent: 0.26
+    quantity: null
+- drop_id: asharl__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Gown
+  chance_to_drop_raw: 0,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,26%
+    Icon: ''
+    Item: Good Espial Gown
+    Short info: Vestment 96 (Dfs +269, Spl Dfs +165)
+  normalized:
+    chance_to_drop_percent: 0.26
+    quantity: null
+- drop_id: asharl__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Asharl Card
+  chance_to_drop_raw: 0,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,26%
+    Icon: ''
+    Item: Asharl Card
+    Short info: Asharl Card
+  normalized:
+    chance_to_drop_percent: 0.26
+    quantity: null
+- drop_id: asharl__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: asharl__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Whale Falchion
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: W.Plan2:Whale Falchion
+    Short info: Weapon 95
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: asharl__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Gown
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: D.Plan2:Espial Gown
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: asharl__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Solu Guard
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Solu Guard
+    Short info: Sword Lvl 98 (Atk 1315 - 1351 (1333), Rig.+28)
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: asharl__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fat Spot Seal
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Fat Spot Seal
+    Short info: 'Ride: Spl Atk +120 Spl Def +120 Rig +21 Agi +31 Speed 45%'
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Asharl
+  - ''
+  rows_raw:
+  - - Name
+    - Asharl
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - Yes (12)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '96874'
+    - '637'
+    - '387'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2039'
+    - '2806'
+    - '927'
+    - '871'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +60
+    - '48'
+    - Thunder (78)
+    - Fire (18)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (2)
+    - Super Fast (140)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '45803'
+    - 5291 - 6501 (5896)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 88,51%
+    - ''
+    - Effective Healing Potion
+    - Food (Max.HP +270 | 10 min)
+  - - 5,06%
+    - ''
+    - Whale Falchion
+    - Sword Lvl 98 (Atk 823-859 (841), Rig.+23)
+  - - 5,06%
+    - ''
+    - Espial Gown
+    - Vestment 96 (Dfs +216, Spl Dfs +112)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,26%
+    - ''
+    - Good Whale Falchion
+    - Sword Lvl 98 (Atk 1038-1074 (1056), Rig.+26)
+  - - 0,26%
+    - ''
+    - Good Espial Gown
+    - Vestment 96 (Dfs +269, Spl Dfs +165)
+  - - 0,26%
+    - ''
+    - Asharl Card
+    - Asharl Card
+  - - 0,14%
+    - ''
+    - Flawless Ruby
+    - 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  - - 0,09%
+    - ''
+    - W.Plan2:Whale Falchion
+    - Weapon 95
+  - - 0,09%
+    - ''
+    - D.Plan2:Espial Gown
+    - Sew 95
+  - - 0,02%
+    - ''
+    - Solu Guard
+    - Sword Lvl 98 (Atk 1315 - 1351 (1333), Rig.+28)
+  - - 0,02%
+    - ''
+    - Fat Spot Seal
+    - 'Ride: Spl Atk +120 Spl Def +120 Rig +21 Agi +31 Speed 45%'
+  row_count: 13

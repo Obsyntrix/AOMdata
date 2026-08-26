@@ -1,0 +1,302 @@
+monster_page:
+  id: iron-shell-worm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:iron-shell-worm
+    retrieval_url: https://web.archive.org/web/20170105043131id_/http://angels.wikidot.com:80/monster:iron-shell-worm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170105043131'
+    archive_snapshot_url: https://web.archive.org/web/20170105043131/http://angels.wikidot.com:80/monster:iron-shell-worm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:iron-shell-worm
+    source_html_sha256: b7a47fb9911599ddf188d5a6c2ecc66a02a7f0776f366750d508662cb05f1d5c
+fields_raw:
+  Name: 'Spells:'
+  Iron-shell Worm: '-'
+  'Spells:': 'Location:'
+  '-': Secret Den
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '86'
+  Hit Points: '3544'
+  Rigor: '441'
+  Agility: '270'
+  Attack: '726'
+  Defense: '1047'
+  Spell Attack: '871'
+  Spell Defense: '335'
+  Special Attack: +43 Rotten
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '1063'
+  Gold: 316 - 392 (354)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: iron-shell-worm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Boots
+  chance_to_drop_raw: 48,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,18%
+    Icon: ''
+    Item: Luck Boots
+    Short info: Shoes Lvl 86 (Def +57, Spell Def +53, Agility.+29)
+  normalized:
+    chance_to_drop_percent: 48.18
+    quantity: null
+- drop_id: iron-shell-worm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Gown
+  chance_to_drop_raw: 48,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,18%
+    Icon: ''
+    Item: Luck Gown
+    Short info: Vestment Lv 89
+  normalized:
+    chance_to_drop_percent: 48.18
+    quantity: null
+- drop_id: iron-shell-worm__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Boots
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Luck Boots
+    Short info: Shoes Lvl 86 (Def +72, Spell Def +68, Agility.+32)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: iron-shell-worm__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Gown
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Luck Gown
+    Short info: Vestment Lv 89
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: iron-shell-worm__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Gown
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Luck Gown
+    Short info: Adv.plans for tailors
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: iron-shell-worm__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Boots
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Luck Boots
+    Short info: Adv.plans for tailors
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: iron-shell-worm__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Boots
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Lucky Jack Boots
+    Short info: Shoes Lvl 86 (Def +90, Spell Def +86, Agility.+36)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: iron-shell-worm__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Gown
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Lucky Jack Gown
+    Short info: Vestment Lv 89
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Iron-shell Worm
+  - ''
+  rows_raw:
+  - - Name
+    - Iron-shell Worm
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '86'
+    - '3544'
+    - '441'
+    - '270'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '726'
+    - '1047'
+    - '871'
+    - '335'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +43 Rotten
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '1063'
+    - 316 - 392 (354)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,18%
+    - ''
+    - Luck Boots
+    - Shoes Lvl 86 (Def +57, Spell Def +53, Agility.+29)
+  - - 48,18%
+    - ''
+    - Luck Gown
+    - Vestment Lv 89
+  - - 1,20%
+    - ''
+    - Good Luck Boots
+    - Shoes Lvl 86 (Def +72, Spell Def +68, Agility.+32)
+  - - 1,20%
+    - ''
+    - Good Luck Gown
+    - Vestment Lv 89
+  - - 0,39%
+    - ''
+    - D.Plan2:Luck Gown
+    - Adv.plans for tailors
+  - - 0,39%
+    - ''
+    - D.Plan2:Luck Boots
+    - Adv.plans for tailors
+  - - ?,?%
+    - ''
+    - Lucky Jack Boots
+    - Shoes Lvl 86 (Def +90, Spell Def +86, Agility.+36)
+  - - ?,?%
+    - ''
+    - Lucky Jack Gown
+    - Vestment Lv 89
+  row_count: 9

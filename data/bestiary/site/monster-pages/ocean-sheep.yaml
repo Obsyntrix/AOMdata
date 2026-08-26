@@ -1,0 +1,266 @@
+monster_page:
+  id: ocean-sheep
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ocean-sheep
+    retrieval_url: https://web.archive.org/web/20200105110007id_/http://angels.wikidot.com:80/monster:ocean-sheep
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105110007'
+    archive_snapshot_url: https://web.archive.org/web/20200105110007/http://angels.wikidot.com:80/monster:ocean-sheep
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ocean-sheep
+    source_html_sha256: a487f000160d4b378beb3e729438ef9123b4e6ac950272be9963a9187bc45f22
+fields_raw:
+  Name: 'Spells:'
+  Ocean Sheep: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '89'
+  Hit Points: '14769'
+  Rigor: '537'
+  Agility: '279'
+  Attack: '1009'
+  Defense: '1117'
+  Spell Attack: '638'
+  Spell Defense: '470'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '5'
+  Speed: '90'
+  Attack Speed: '70'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '6648'
+  Gold: 325 - 413 (369)
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: ocean-sheep__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Saint Armor
+    Short info: Lv 96 Garment B Armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: ocean-sheep__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Saint Armor
+    Short info: Lv 96 Garment A Armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: ocean-sheep__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Holy Guard Armor
+    Short info: Lv 96 Garment S Armor
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: ocean-sheep__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Boots
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Wind Boots
+    Short info: Lv 96 Mantle B Boots
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: ocean-sheep__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Boots
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Wind Boots
+    Short info: Lv 96 Mantle A Boots
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: ocean-sheep__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Boots
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Storm Boots
+    Short info: Lv 96 Mantle S Boots
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ocean Sheep
+  - ''
+  rows_raw:
+  - - Name
+    - Ocean Sheep
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '89'
+    - '14769'
+    - '537'
+    - '279'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1009'
+    - '1117'
+    - '638'
+    - '470'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '5'
+    - '90'
+    - '70'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '6648'
+    - 325 - 413 (369)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Saint Armor
+    - Lv 96 Garment B Armor
+  - - ??,??%
+    - ''
+    - Good Saint Armor
+    - Lv 96 Garment A Armor
+  - - ??,??%
+    - ''
+    - Holy Guard Armor
+    - Lv 96 Garment S Armor
+  - - ??,??%
+    - ''
+    - Wind Boots
+    - Lv 96 Mantle B Boots
+  - - ??,??%
+    - ''
+    - Good Wind Boots
+    - Lv 96 Mantle A Boots
+  - - ??,??%
+    - ''
+    - Storm Boots
+    - Lv 96 Mantle S Boots
+  row_count: 7

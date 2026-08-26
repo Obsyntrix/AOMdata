@@ -1,0 +1,248 @@
+monster_page:
+  id: swift-eyebasher
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:swift-eyebasher
+    retrieval_url: https://web.archive.org/web/20200223033135id_/http://angels.wikidot.com:80/monster:swift-eyebasher
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200223033135'
+    archive_snapshot_url: https://web.archive.org/web/20200223033135/http://angels.wikidot.com:80/monster:swift-eyebasher
+    archive_original_lookup_url: https://angels.wikidot.com/monster:swift-eyebasher
+    source_html_sha256: e5150da24fc2ecb3c7e8c5b4ada9b73dcbdb52460067703ca8c3571931c0939a
+fields_raw:
+  Name: 'Spells:'
+  Swift Eyebasher: '-'
+  'Spells:': 'Location:'
+  '-': Season Garden
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '125'
+  Hit Points: '11163'
+  Rigor: '717'
+  Agility: '387'
+  Attack: '1993'
+  Defense: '2281'
+  Spell Attack: '1083'
+  Spell Defense: '491'
+  Special Attack: +85 Ice
+  Special Defense: +105 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,08%
+  Experience: '7533'
+  Gold: 491 - 625 (?)
+item_drop_chance_raw: 0,08%
+drops:
+- drop_id: swift-eyebasher__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Love Bow
+  chance_to_drop_raw: 48,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,5%
+    Icon: ''
+    Item: Love Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.5
+    quantity: null
+- drop_id: swift-eyebasher__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wild Beast Boots
+  chance_to_drop_raw: 48,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,5%
+    Icon: ''
+    Item: Wild Beast Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.5
+    quantity: null
+- drop_id: swift-eyebasher__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Love Bow
+  chance_to_drop_raw: 1,2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,2%
+    Icon: ''
+    Item: Good Love Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: swift-eyebasher__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wild Beast Boots
+  chance_to_drop_raw: 1,2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,2%
+    Icon: ''
+    Item: Good Wild Beast Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: swift-eyebasher__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 0,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,61%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Swift Eyebasher
+  - ''
+  rows_raw:
+  - - Name
+    - Swift Eyebasher
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Season Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '125'
+    - '11163'
+    - '717'
+    - '387'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1993'
+    - '2281'
+    - '1083'
+    - '491'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +85 Ice
+    - +105 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%
+    - '7533'
+    - 491 - 625 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,5%
+    - ''
+    - Love Bow
+    - ITEM NOTES
+  - - 48,5%
+    - ''
+    - Wild Beast Boots
+    - ITEM NOTES
+  - - 1,2%
+    - ''
+    - Good Love Bow
+    - ITEM NOTES
+  - - 1,2%
+    - ''
+    - Good Wild Beast Boots
+    - ITEM NOTES
+  - - 0,61%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

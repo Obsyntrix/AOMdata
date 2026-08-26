@@ -1,0 +1,338 @@
+monster_page:
+  id: mort-the-claw
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mort-the-claw
+    retrieval_url: https://web.archive.org/web/20200109070329id_/http://angels.wikidot.com:80/monster:mort-the-claw
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109070329'
+    archive_snapshot_url: https://web.archive.org/web/20200109070329/http://angels.wikidot.com:80/monster:mort-the-claw
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mort-the-claw
+    source_html_sha256: a011f963ef0d1de529389b2a2d96deb92ee86859499616314080ddc29b4f64a5
+fields_raw:
+  Name: 'Spells:'
+  Mort The Claw: '-'
+  'Spells:': 'Location:'
+  '-': Season Garden
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '125'
+  Hit Points: '59149'
+  Rigor: '737'
+  Agility: '399'
+  Attack: '2140'
+  Defense: '2459'
+  Spell Attack: '1949'
+  Spell Defense: '922'
+  Special Attack: +85 Lightning
+  Special Defense: +105 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '43814'
+  Gold: 2602 - 3312 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: mort-the-claw__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 45,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,78%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 45.78
+    quantity: null
+- drop_id: mort-the-claw__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mars' Fruit
+  chance_to_drop_raw: 45,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,78%
+    Icon: ''
+    Item: Effective Mars' Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 45.78
+    quantity: null
+- drop_id: mort-the-claw__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Thorn
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Storm Thorn
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: mort-the-claw__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Eye Wand
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Evil Eye Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: mort-the-claw__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Wind Armor
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Desert Wind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: mort-the-claw__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: mort-the-claw__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Storm Thorn
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Storm Thorn
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: mort-the-claw__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Evil Eye Wand
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Evil Eye Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: mort-the-claw__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Desert Wind Armor
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Desert Wind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: mort-the-claw__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mort The Claw
+  - ''
+  rows_raw:
+  - - Name
+    - Mort The Claw
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Season Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '125'
+    - '59149'
+    - '737'
+    - '399'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2140'
+    - '2459'
+    - '1949'
+    - '922'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +85 Lightning
+    - +105 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '43814'
+    - 2602 - 3312 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 45,78%
+    - ''
+    - Effective Healing Potion
+    - ITEM NOTES
+  - - 45,78%
+    - ''
+    - Effective Mars' Fruit
+    - ITEM NOTES
+  - - 2,5%
+    - ''
+    - Storm Thorn
+    - ITEM NOTES
+  - - 2,5%
+    - ''
+    - Evil Eye Wand
+    - ITEM NOTES
+  - - 2,5%
+    - ''
+    - Desert Wind Armor
+    - ITEM NOTES
+  - - 0,54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - Good Storm Thorn
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - Good Evil Eye Wand
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - Good Desert Wind Armor
+    - ITEM NOTES
+  - - 0,05%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 11

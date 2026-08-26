@@ -1,0 +1,356 @@
+monster_page:
+  id: gold-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:gold-fly
+    retrieval_url: https://web.archive.org/web/20200105031017id_/http://angels.wikidot.com:80/monster:gold-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105031017'
+    archive_snapshot_url: https://web.archive.org/web/20200105031017/http://angels.wikidot.com:80/monster:gold-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:gold-fly
+    source_html_sha256: 1b861ab857fbd2db5f09e2e9564907d64e7da8700089ae321ed5f6aeec1bb963
+fields_raw:
+  Name: 'Spells:'
+  Gold Fly: '-'
+  'Spells:': 'Location:'
+  '-': Sad Abyss , Fiery Path , Lava Cave
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '60'
+  Hit Points: '2164'
+  Rigor: '312'
+  Agility: '192'
+  Attack: '415'
+  Defense: '620'
+  Spell Attack: '415'
+  Spell Defense: '239'
+  Special Attack: Rotten +30
+  Special Defense: '20'
+  Strong Against: Thunder (50)
+  Weak Against: Fire (0)
+  Attack Range: Short (1)
+  Speed: Moderate (85)
+  Attack Speed: Slow (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,12%
+  Experience: '541'
+  Gold: 79 - 143 (111)
+item_drop_chance_raw: 0,12%
+drops:
+- drop_id: gold-fly__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 48,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,61%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 48.61
+    quantity: null
+- drop_id: gold-fly__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gold Fly Card
+  chance_to_drop_raw: 16,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,91%
+    Icon: ''
+    Item: Gold Fly Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 16.91
+    quantity: null
+- drop_id: gold-fly__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Silver-Edged Javelin
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Silver-Edged Javelin
+    Short info: Spear Lvl 55 (Atk 254 - 278 (266), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: gold-fly__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Giant Bow
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Giant Bow
+    Short info: Bow Lvl 55 (Atk 191 - 211 (201), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: gold-fly__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Staff
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Staff
+    Short info: Staff Lvl 55 (Atk 195 - 227 (211), Spl Atk +99, Rig.+12)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: gold-fly__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Silver-Edged Javelin
+  chance_to_drop_raw: 1,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,62%
+    Icon: ''
+    Item: Good Royal Silver-Edged Javelin
+    Short info: Spear Lvl 55 (Atk 353 - 377 (365), Rig.+29)
+  normalized:
+    chance_to_drop_percent: 1.62
+    quantity: null
+- drop_id: gold-fly__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Giant Bow
+  chance_to_drop_raw: 1,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,62%
+    Icon: ''
+    Item: Good Royal Giant Bow
+    Short info: Bow Lvl 55 (Atk 276 - 296 (286), Rig.+29)
+  normalized:
+    chance_to_drop_percent: 1.62
+    quantity: null
+- drop_id: gold-fly__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Staff
+  chance_to_drop_raw: 1,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,62%
+    Icon: ''
+    Item: Good Royal Staff
+    Short info: Staff Lvl 55 (Atk 282 - 314 (298), Spl Atk +169, Rig.+14)
+  normalized:
+    chance_to_drop_percent: 1.62
+    quantity: null
+- drop_id: gold-fly__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saw Spear
+  chance_to_drop_raw: 0,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,15%
+    Icon: ''
+    Item: Saw Spear
+    Short info: Spear Lvl 55 (Atk 475 - 499 (487), Rig.+34)
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: gold-fly__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Elf Wings
+  chance_to_drop_raw: 0,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,15%
+    Icon: ''
+    Item: Elf Wings
+    Short info: Bow Lvl 55 (Atk 383 - 403 (393), Rig.+34)
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: gold-fly__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel's Blessing
+  chance_to_drop_raw: 0,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,15%
+    Icon: ''
+    Item: Angel's Blessing
+    Short info: Staff Lvl 55 (Atk 391 - 423 (407), Spl Atk +256, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Gold Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Gold Fly
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sad Abyss , Fiery Path , Lava Cave
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '2164'
+    - '312'
+    - '192'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '415'
+    - '620'
+    - '415'
+    - '239'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +30
+    - '20'
+    - Thunder (50)
+    - Fire (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (85)
+    - Slow (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,12%
+    - '541'
+    - 79 - 143 (111)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,61%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 16,91%
+    - ''
+    - Gold Fly Card
+    - 'See: Card Collection'
+  - - 9,72%
+    - ''
+    - Royal Silver-Edged Javelin
+    - Spear Lvl 55 (Atk 254 - 278 (266), Rig.+24)
+  - - 9,72%
+    - ''
+    - Royal Giant Bow
+    - Bow Lvl 55 (Atk 191 - 211 (201), Rig.+24)
+  - - 9,72%
+    - ''
+    - Royal Staff
+    - Staff Lvl 55 (Atk 195 - 227 (211), Spl Atk +99, Rig.+12)
+  - - 1,62%
+    - ''
+    - Good Royal Silver-Edged Javelin
+    - Spear Lvl 55 (Atk 353 - 377 (365), Rig.+29)
+  - - 1,62%
+    - ''
+    - Good Royal Giant Bow
+    - Bow Lvl 55 (Atk 276 - 296 (286), Rig.+29)
+  - - 1,62%
+    - ''
+    - Good Royal Staff
+    - Staff Lvl 55 (Atk 282 - 314 (298), Spl Atk +169, Rig.+14)
+  - - 0,15%
+    - ''
+    - Saw Spear
+    - Spear Lvl 55 (Atk 475 - 499 (487), Rig.+34)
+  - - 0,15%
+    - ''
+    - Elf Wings
+    - Bow Lvl 55 (Atk 383 - 403 (393), Rig.+34)
+  - - 0,15%
+    - ''
+    - Angel's Blessing
+    - Staff Lvl 55 (Atk 391 - 423 (407), Spl Atk +256, Rig.+17)
+  row_count: 12

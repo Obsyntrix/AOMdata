@@ -1,0 +1,248 @@
+monster_page:
+  id: jumping-mushroom
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jumping-mushroom
+    retrieval_url: https://web.archive.org/web/20110907100929id_/http://angels.wikidot.com:80/monster:jumping-mushroom
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907100929'
+    archive_snapshot_url: https://web.archive.org/web/20110907100929/http://angels.wikidot.com:80/monster:jumping-mushroom
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jumping-mushroom
+    source_html_sha256: b4bf824a29522b982434f7636b04e1c1bc73272191f5540f053166205c5aa910
+fields_raw:
+  Name: 'Spells:'
+  Jumping Mushroom: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.1%
+  Experience: '?'
+  Gold: 317 - 403
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: jumping-mushroom__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Bracers
+  chance_to_drop_raw: 94.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.93%
+    Icon: ''
+    Item: Luck Bracers
+    Short info: Lvl 87 Vestment
+  normalized:
+    chance_to_drop_percent: 94.93
+    quantity: null
+- drop_id: jumping-mushroom__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Bracers
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: Good Luck Bracers
+    Short info: Lvl 87 Vestment
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: jumping-mushroom__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Bracers
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Lucky Jack Bracers
+    Short info: Lvl 87 Vestment
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: jumping-mushroom__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D. Plan 2:Luck Bracers
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: D. Plan 2:Luck Bracers
+    Short info: Lvl 85 Sew
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: jumping-mushroom__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1.8%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.8%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: Gem Lvl 80
+  normalized:
+    chance_to_drop_percent: 1.8
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jumping Mushroom
+  - ''
+  rows_raw:
+  - - Name
+    - Jumping Mushroom
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '?'
+    - 317 - 403
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.93%
+    - ''
+    - Luck Bracers
+    - Lvl 87 Vestment
+  - - 2.37%
+    - ''
+    - Good Luck Bracers
+    - Lvl 87 Vestment
+  - - 0.11%
+    - ''
+    - Lucky Jack Bracers
+    - Lvl 87 Vestment
+  - - 0.79%
+    - ''
+    - D. Plan 2:Luck Bracers
+    - Lvl 85 Sew
+  - - 1.8%
+    - ''
+    - Flawless Orange Gem
+    - Gem Lvl 80
+  row_count: 6

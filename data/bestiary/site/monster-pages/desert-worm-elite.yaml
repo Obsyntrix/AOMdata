@@ -1,0 +1,266 @@
+monster_page:
+  id: desert-worm-elite
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:desert-worm-elite
+    retrieval_url: https://web.archive.org/web/20200109123324id_/http://angels.wikidot.com:80/monster:desert-worm-elite
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109123324'
+    archive_snapshot_url: https://web.archive.org/web/20200109123324/http://angels.wikidot.com:80/monster:desert-worm-elite
+    archive_original_lookup_url: https://angels.wikidot.com/monster:desert-worm-elite
+    source_html_sha256: a092d149de50414746f2364dc99ed27971e5ffdbf59117f25bbd282903c2a3f5
+fields_raw:
+  Name: 'Spells:'
+  Desert Worm Elite: '-'
+  'Spells:': 'Location:'
+  '-': Desert Racetrack
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '92'
+  Hit Points: '7684'
+  Rigor: '472'
+  Agility: '288'
+  Attack: '1072'
+  Defense: '1189'
+  Spell Attack: '1001'
+  Spell Defense: '347'
+  Special Attack: +46 Lightning
+  Special Defense: +66 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.06%
+  Experience: '3459'
+  Gold: 338 - 430
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: desert-worm-elite__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armor
+  chance_to_drop_raw: 72.88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 72.88%
+    Icon: ''
+    Item: Wind Armor
+    Short info: Lvl 99 Mantle
+  normalized:
+    chance_to_drop_percent: 72.88
+    quantity: null
+- drop_id: desert-worm-elite__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWind Armor
+  chance_to_drop_raw: 1.83%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.83%
+    Icon: ''
+    Item: GoodWind Armor
+    Short info: Lvl 99 Mantle
+  normalized:
+    chance_to_drop_percent: 1.83
+    quantity: null
+- drop_id: desert-worm-elite__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armor
+  chance_to_drop_raw: 0.09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.09%
+    Icon: ''
+    Item: Storm Armor
+    Short info: Lvl 99 Mantle
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: desert-worm-elite__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Armor
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: A.Plan2:Wind Armor
+    Short info: Lvl 95 Armor Plan
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+- drop_id: desert-worm-elite__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Emerald
+  chance_to_drop_raw: 0.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.9%
+    Icon: ''
+    Item: Clean Emerald
+    Short info: Lvl 60 Gem
+  normalized:
+    chance_to_drop_percent: 0.9
+    quantity: null
+- drop_id: desert-worm-elite__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Worm Elite Card
+  chance_to_drop_raw: 23.71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23.71%
+    Icon: ''
+    Item: Desert Worm Elite Card
+    Short info: Card
+  normalized:
+    chance_to_drop_percent: 23.71
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Desert Worm Elite
+  - ''
+  rows_raw:
+  - - Name
+    - Desert Worm Elite
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Desert Racetrack
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '92'
+    - '7684'
+    - '472'
+    - '288'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1072'
+    - '1189'
+    - '1001'
+    - '347'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +46 Lightning
+    - +66 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '3459'
+    - 338 - 430
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 72.88%
+    - ''
+    - Wind Armor
+    - Lvl 99 Mantle
+  - - 1.83%
+    - ''
+    - GoodWind Armor
+    - Lvl 99 Mantle
+  - - 0.09%
+    - ''
+    - Storm Armor
+    - Lvl 99 Mantle
+  - - 0.6%
+    - ''
+    - A.Plan2:Wind Armor
+    - Lvl 95 Armor Plan
+  - - 0.9%
+    - ''
+    - Clean Emerald
+    - Lvl 60 Gem
+  - - 23.71%
+    - ''
+    - Desert Worm Elite Card
+    - Card
+  row_count: 7

@@ -1,0 +1,229 @@
+monster_page:
+  id: winged-fish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:winged-fish
+    retrieval_url: https://web.archive.org/web/20191105094319id_/http://angels.wikidot.com:80/monster:winged-fish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191105094319'
+    archive_snapshot_url: https://web.archive.org/web/20191105094319/http://angels.wikidot.com:80/monster:winged-fish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:winged-fish
+    source_html_sha256: 87ef1a8517fec3ad409270fa8ded68def7dfc4475f11afc9aa22e6c688682e54
+fields_raw:
+  Name: 'Description:'
+  Winged Fish: It looks like an angel, however it's not. It's just a special kind of fish. - Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+  'Description:': 'Location:'
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '94'
+  Hit Points: '3825'
+  Rigor: '482'
+  Agility: '294'
+  Attack: '868'
+  Defense: '1240'
+  Spell Attack: '677'
+  Spell Defense: '646'
+  Special Attack: Ice +49
+  Special Defense: '31'
+  Strong Against: Fire (67)
+  Weak Against: Thunder (7)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1065'
+  Gold: 388 - 484 (336)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: winged-fish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Boots
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Espial Boots
+    Short info: Vestment 96 (Dfs +72, Spl Dfs +60, Ag +32)
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: winged-fish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Boots
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Espial Boots
+    Short info: Vestment 96 (Dfs +90, Spl Dfs +78, Ag +36)
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: winged-fish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: winged-fish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Boots
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: D.Plan2:Espial Boots
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Winged Fish
+  - ''
+  rows_raw:
+  - - Name
+    - Winged Fish
+    - ''
+  - - 'Description:'
+    - It looks like an angel, however it's not. It's just a special kind of fish. - Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - Sunken Ruins , Quiet Ocean , Coral Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '94'
+    - '3825'
+    - '482'
+    - '294'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '868'
+    - '1240'
+    - '677'
+    - '646'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +49
+    - '31'
+    - Fire (67)
+    - Thunder (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1065'
+    - 388 - 484 (336)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Espial Boots
+    - Vestment 96 (Dfs +72, Spl Dfs +60, Ag +32)
+  - - 2,39%
+    - ''
+    - Good Espial Boots
+    - Vestment 96 (Dfs +90, Spl Dfs +78, Ag +36)
+  - - 1,19%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,80%
+    - ''
+    - D.Plan2:Espial Boots
+    - Sew 95
+  row_count: 5

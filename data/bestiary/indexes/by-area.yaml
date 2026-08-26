@@ -527,6 +527,24 @@ areas:
 - area_id: angel-lyceum
   area_name_raw: Angel Lyceum
   monsters:
+  - record_id: alphabetic__t009__r0006
+    name_raw: Lily
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: angel-lyceum
+    area_name_raw: Angel Lyceum
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0023
+    name_raw: Slarm
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: angel-lyceum
+    area_name_raw: Angel Lyceum
+    summary_source_id: alphabetic
   - record_id: by-area__t001__r0001
     name_raw: Lily
     level_raw: '1'
@@ -947,6 +965,18 @@ areas:
     area_id: apocalypso
     area_name_raw: Apocalypso
     summary_source_id: area_page
+- area_id: asmode-den
+  area_name_raw: Asmode Den
+  monsters:
+  - record_id: alphabetic__t001__r0007
+    name_raw: Asmodeus
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: asmode-den
+    area_name_raw: Asmode Den
+    summary_source_id: alphabetic
 - area_id: bayan-village
   area_name_raw: Bayan Village
   monsters:
@@ -1115,6 +1145,78 @@ areas:
 - area_id: blue-ocean
   area_name_raw: Blue Ocean
   monsters:
+  - record_id: alphabetic__t001__r0004
+    name_raw: (Feather) Angel Fish
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0004
+    name_raw: Death Sail
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0005
+    name_raw: Death Sailor
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0007
+    name_raw: Giant Octopus
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0002
+    name_raw: Octopus Oliss (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0003
+    name_raw: Octopus Scholar
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0007
+    name_raw: Rage Shark
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0011
+    name_raw: Sea Shark
+    level_raw: '90'
+    level: 90
+    boss: null
+    aggressive: null
+    area_id: blue-ocean
+    area_name_raw: Blue Ocean
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0037
     name_raw: (Feather) Angel Fish
     level_raw: '87'
@@ -1205,15 +1307,6 @@ areas:
     area_id: blue-ocean
     area_name_raw: Blue Ocean
     summary_source_id: area_page
-  - record_id: blue-ocean__death-sailor__t004r0006
-    name_raw: Death Sailor
-    level_raw: '93'
-    level: 93
-    boss: false
-    aggressive: true
-    area_id: blue-ocean
-    area_name_raw: Blue Ocean
-    summary_source_id: area_page
   - record_id: blue-ocean__rage-denio__t004r0011
     name_raw: Rage Denio
     level_raw: '100'
@@ -1226,6 +1319,87 @@ areas:
 - area_id: blue-sea
   area_name_raw: Blue Sea
   monsters:
+  - record_id: alphabetic__t001__r0003
+    name_raw: Angel Fish
+    level_raw: '82'
+    level: 82
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0011
+    name_raw: Ball Jellyfish
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0020
+    name_raw: Blue Merman
+    level_raw: '84'
+    level: 84
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0022
+    name_raw: Bottle Mermaid
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0007
+    name_raw: Giant Octopus
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0005
+    name_raw: Leader Nio (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0012
+    name_raw: Merman Hulio (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0003
+    name_raw: Octopus Scholar
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0006
+    name_raw: Scale Fish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: blue-sea
+    area_name_raw: Blue Sea
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0025
     name_raw: Ball Jellyfish
     level_raw: '73'
@@ -1520,6 +1694,60 @@ areas:
 - area_id: bottomless-pit
   area_name_raw: Bottomless Pit
   monsters:
+  - record_id: alphabetic__t001__r0001
+    name_raw: Ancient Elf (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0013
+    name_raw: Crow Wizard
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0014
+    name_raw: Fire Mimic
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0024
+    name_raw: Frantic Wizard
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0034
+    name_raw: Stunt Lord Abbi (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0020
+    name_raw: Wizard Mord (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: bottomless-pit
+    area_name_raw: Bottomless Pit
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0014
     name_raw: Crow Wizard
     level_raw: '18'
@@ -2276,6 +2504,51 @@ areas:
 - area_id: burning-desert
   area_name_raw: Burning Desert
   monsters:
+  - record_id: alphabetic__t001__r0015
+    name_raw: Black Widow (Boss)
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: burning-desert
+    area_name_raw: Burning Desert
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0021
+    name_raw: Mummy
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: burning-desert
+    area_name_raw: Burning Desert
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0022
+    name_raw: Mummy Leader
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: burning-desert
+    area_name_raw: Burning Desert
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0006
+    name_raw: Toxic Spider
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: burning-desert
+    area_name_raw: Burning Desert
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0001
+    name_raw: Undying Lord (Boss)
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: burning-desert
+    area_name_raw: Burning Desert
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0019
     name_raw: Toxic Spider
     level_raw: '24'
@@ -2462,6 +2735,51 @@ areas:
 - area_id: cactus-plain
   area_name_raw: Cactus Plain
   monsters:
+  - record_id: alphabetic__t001__r0010
+    name_raw: Ball Lizardman
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: cactus-plain
+    area_name_raw: Cactus Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0005
+    name_raw: Farmongee (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: cactus-plain
+    area_name_raw: Cactus Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0014
+    name_raw: Lizard Lisad (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: cactus-plain
+    area_name_raw: Cactus Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0009
+    name_raw: Plateau Monkey
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: cactus-plain
+    area_name_raw: Cactus Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0029
+    name_raw: Spear Lizardman
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: cactus-plain
+    area_name_raw: Cactus Plain
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0013
     name_raw: Spear Lizardman
     level_raw: '18'
@@ -2675,6 +2993,51 @@ areas:
 - area_id: cherry-village
   area_name_raw: Cherry Village
   monsters:
+  - record_id: alphabetic__t001__r0021
+    name_raw: Blue Potec
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: cherry-village
+    area_name_raw: Cherry Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0004
+    name_raw: Cherry Crab
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: cherry-village
+    area_name_raw: Cherry Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0012
+    name_raw: Evil Crab
+    level_raw: '32'
+    level: 32
+    boss: null
+    aggressive: null
+    area_id: cherry-village
+    area_name_raw: Cherry Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0030
+    name_raw: Spine Turtle
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: cherry-village
+    area_name_raw: Cherry Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0004
+    name_raw: Vice Piratekin
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: cherry-village
+    area_name_raw: Cherry Village
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0027
     name_raw: Cherry Crab
     level_raw: '27'
@@ -3338,6 +3701,78 @@ areas:
 - area_id: colorful-coral-reefs
   area_name_raw: Colorful Coral Reefs
   monsters:
+  - record_id: alphabetic__t001__r0011
+    name_raw: Ball Jellyfish
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0010
+    name_raw: Crab General
+    level_raw: '66'
+    level: 66
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0004
+    name_raw: Ink Octopus
+    level_raw: '68'
+    level: 68
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0006
+    name_raw: Scale Fish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0015
+    name_raw: Sharp-shooter (Boss)
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0010
+    name_raw: Whelk Mage
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0011
+    name_raw: Whelk Swordsman
+    level_raw: '74'
+    level: 74
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0021
+    name_raw: Wood Octopus
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: colorful-coral-reefs
+    area_name_raw: Colorful Coral Reefs
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0019
     name_raw: Crab General
     level_raw: '66'
@@ -3578,6 +4013,87 @@ areas:
 - area_id: coral-vale
   area_name_raw: Coral Vale
   monsters:
+  - record_id: alphabetic__t002__r0002
+    name_raw: Captain Mark (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0004
+    name_raw: Death Sail
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0005
+    name_raw: Death Sailor
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0016
+    name_raw: Evil Fish
+    level_raw: '91'
+    level: 91
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0011
+    name_raw: Poison Evil Fish
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0009
+    name_raw: Red Lantern Fish
+    level_raw: '98'
+    level: 98
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0009
+    name_raw: Sea Hunter Dipu (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0010
+    name_raw: Sea Lantern Fish
+    level_raw: '96'
+    level: 96
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0019
+    name_raw: Winged Fish
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: coral-vale
+    area_name_raw: Coral Vale
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0038
     name_raw: Winged Fish
     level_raw: '94'
@@ -3668,18 +4184,63 @@ areas:
     area_id: coral-vale
     area_name_raw: Coral Vale
     summary_source_id: area_page
-  - record_id: coral-vale__death-sailor__t004r0004
-    name_raw: Death Sailor
-    level_raw: '93'
-    level: 93
-    boss: false
-    aggressive: true
-    area_id: coral-vale
-    area_name_raw: Coral Vale
-    summary_source_id: area_page
 - area_id: crashing-hillock
   area_name_raw: Crashing Hillock
   monsters:
+  - record_id: alphabetic__t001__r0019
+    name_raw: Bloody Wolf (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0027
+    name_raw: Evil Wolf (Boss)
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0004
+    name_raw: Giant Boar (Boss)
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0018
+    name_raw: Green Wolf
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0012
+    name_raw: Tusk Boar
+    level_raw: '33'
+    level: 33
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0012
+    name_raw: White Wolf
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: crashing-hillock
+    area_name_raw: Crashing Hillock
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0033
     name_raw: Green Wolf
     level_raw: '30'
@@ -3839,6 +4400,51 @@ areas:
 - area_id: cryptic-moon-swamp
   area_name_raw: Cryptic Moon Swamp
   monsters:
+  - record_id: alphabetic__t002__r0015
+    name_raw: Crystal Crab (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: cryptic-moon-swamp
+    area_name_raw: Cryptic Moon Swamp
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0006
+    name_raw: Elf
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: cryptic-moon-swamp
+    area_name_raw: Cryptic Moon Swamp
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0025
+    name_raw: Frog Lord Kuppa (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: cryptic-moon-swamp
+    area_name_raw: Cryptic Moon Swamp
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0007
+    name_raw: Marsh Frog
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: cryptic-moon-swamp
+    area_name_raw: Cryptic Moon Swamp
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0020
+    name_raw: Mud Crab
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: cryptic-moon-swamp
+    area_name_raw: Cryptic Moon Swamp
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0013
     name_raw: Elf
     level_raw: '18'
@@ -3887,6 +4493,51 @@ areas:
 - area_id: dawn-harbor
   area_name_raw: Dawn Harbor
   monsters:
+  - record_id: alphabetic__t006__r0016
+    name_raw: Golden Crab (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: dawn-harbor
+    area_name_raw: Dawn Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0021
+    name_raw: Grey Mouse
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: dawn-harbor
+    area_name_raw: Dawn Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0019
+    name_raw: Mousekin Mickey (Boss)
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: dawn-harbor
+    area_name_raw: Dawn Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0026
+    name_raw: Soldier Crab
+    level_raw: '21'
+    level: 21
+    boss: null
+    aggressive: null
+    area_id: dawn-harbor
+    area_name_raw: Dawn Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0011
+    name_raw: Turtle
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: dawn-harbor
+    area_name_raw: Dawn Harbor
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0015
     name_raw: Turtle
     level_raw: '18'
@@ -4100,6 +4751,51 @@ areas:
 - area_id: degula-maze
   area_name_raw: Degula Maze
   monsters:
+  - record_id: alphabetic__t001__r0018
+    name_raw: Bloody Pound (Boss)
+    level_raw: '32'
+    level: 32
+    boss: null
+    aggressive: null
+    area_id: degula-maze
+    area_name_raw: Degula Maze
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0014
+    name_raw: Evil Eye Bershala (Boss)
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: degula-maze
+    area_name_raw: Degula Maze
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0020
+    name_raw: Evil Leech
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: degula-maze
+    area_name_raw: Degula Maze
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0011
+    name_raw: Little Eye
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: degula-maze
+    area_name_raw: Degula Maze
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0004
+    name_raw: One-eyed Bat
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: degula-maze
+    area_name_raw: Degula Maze
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0021
     name_raw: Little Eye
     level_raw: '24'
@@ -4148,6 +4844,60 @@ areas:
 - area_id: deity-palace-ruins
   area_name_raw: Deity Palace Ruins
   monsters:
+  - record_id: alphabetic__t004__r0013
+    name_raw: Evil Earth Elf
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0015
+    name_raw: Evil Fire Elf
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0026
+    name_raw: Evil Wind Elf
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0003
+    name_raw: Fane Priest (Boss)
+    level_raw: '61'
+    level: 61
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0004
+    name_raw: Fane Protector (Boss)
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0015
+    name_raw: Mirror Elf
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: deity-palace-ruins
+    area_name_raw: Deity Palace Ruins
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0044
     name_raw: Evil Fire Elf
     level_raw: '50'
@@ -4205,6 +4955,51 @@ areas:
 - area_id: dense-forest
   area_name_raw: Dense Forest
   monsters:
+  - record_id: alphabetic__t005__r0018
+    name_raw: Flame Lily (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: dense-forest
+    area_name_raw: Dense Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0023
+    name_raw: Forest Monkey
+    level_raw: '9'
+    level: 9
+    boss: null
+    aggressive: null
+    area_id: dense-forest
+    area_name_raw: Dense Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0016
+    name_raw: Monkey Nassi (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: dense-forest
+    area_name_raw: Dense Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0026
+    name_raw: Nest Tree Elf
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: dense-forest
+    area_name_raw: Dense Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0013
+    name_raw: Wild Lily
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: dense-forest
+    area_name_raw: Dense Forest
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0001
     name_raw: Forest Monkey
     level_raw: '9'
@@ -4979,6 +5774,51 @@ areas:
 - area_id: dragon-graveyard
   area_name_raw: Dragon Graveyard
   monsters:
+  - record_id: alphabetic__t001__r0002
+    name_raw: Ancient Soldier
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: dragon-graveyard
+    area_name_raw: Dragon Graveyard
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0002
+    name_raw: Death Cyclone (Boss)
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: dragon-graveyard
+    area_name_raw: Dragon Graveyard
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0008
+    name_raw: Desert Cooer
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: dragon-graveyard
+    area_name_raw: Dragon Graveyard
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0013
+    name_raw: Hook Barft
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: dragon-graveyard
+    area_name_raw: Dragon Graveyard
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0018
+    name_raw: Silent Hero (Boss)
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: dragon-graveyard
+    area_name_raw: Dragon Graveyard
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0038
     name_raw: Ancient Soldier
     level_raw: '40'
@@ -5027,6 +5867,96 @@ areas:
 - area_id: dream-ocean
   area_name_raw: Dream Ocean
   monsters:
+  - record_id: alphabetic__t001__r0003
+    name_raw: Angel Fish
+    level_raw: '82'
+    level: 82
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0004
+    name_raw: (Feather) Angel Fish
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0020
+    name_raw: Blue Merman
+    level_raw: '84'
+    level: 84
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0022
+    name_raw: Bottle Mermaid
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0004
+    name_raw: Ink Octopus
+    level_raw: '68'
+    level: 68
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0005
+    name_raw: Leader Nio (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0012
+    name_raw: Merman Hulio (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0011
+    name_raw: Sea Shark
+    level_raw: '90'
+    level: 90
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0031
+    name_raw: Stab Jellyfish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0021
+    name_raw: Wood Octopus
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: dream-ocean
+    area_name_raw: Dream Ocean
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0022
     name_raw: Ink Octopus
     level_raw: '68'
@@ -5495,6 +6425,96 @@ areas:
 - area_id: east-playground
   area_name_raw: East Playground
   monsters:
+  - record_id: alphabetic__t004__r0001
+    name_raw: Earth Elf
+    level_raw: '7'
+    level: 7
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0002
+    name_raw: Earth Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0010
+    name_raw: Fire Elf
+    level_raw: '7'
+    level: 7
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0013
+    name_raw: Fire Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0006
+    name_raw: Lily
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0023
+    name_raw: Slarm
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0007
+    name_raw: Water Elf
+    level_raw: '4'
+    level: 4
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0008
+    name_raw: Water Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0016
+    name_raw: Wind Elf
+    level_raw: '4'
+    level: 4
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0018
+    name_raw: Wind Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: east-playground
+    area_name_raw: East Playground
+    summary_source_id: alphabetic
   - record_id: by-area__t001__r0001
     name_raw: Lily
     level_raw: '1'
@@ -6110,6 +7130,96 @@ areas:
 - area_id: evil-ship
   area_name_raw: Evil Ship
   monsters:
+  - record_id: alphabetic__t001__r0006
+    name_raw: Asharl (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0016
+    name_raw: Blade Octopus
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0003
+    name_raw: Death Captain
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0015
+    name_raw: Fire Shark
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0004
+    name_raw: Lantern Fish
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0008
+    name_raw: Linberd Elder
+    level_raw: '96'
+    level: 96
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0009
+    name_raw: Linberd Knight
+    level_raw: '96'
+    level: 96
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0004
+    name_raw: Mamen (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0001
+    name_raw: Sallen (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0007
+    name_raw: Scale Soldier
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: evil-ship
+    area_name_raw: Evil Ship
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0085
     name_raw: Scale Soldier
     level_raw: '94'
@@ -6287,6 +7397,96 @@ areas:
 - area_id: fiery-path
   area_name_raw: Fiery Path
   monsters:
+  - record_id: alphabetic__t001__r0017
+    name_raw: Bloody Flower (Boss)
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0017
+    name_raw: Evil Flower
+    level_raw: '68'
+    level: 68
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0019
+    name_raw: Evil Knight
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0021
+    name_raw: Fly
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0014
+    name_raw: Gold Fly
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0002
+    name_raw: Imp Elf
+    level_raw: '58'
+    level: 58
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0010
+    name_raw: Jail Warden (Boss)
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0001
+    name_raw: Terra Lampman
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0003
+    name_raw: Theurgy Master
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0005
+    name_raw: Wanderer (Boss)
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: fiery-path
+    area_name_raw: Fiery Path
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0002
     name_raw: Fly
     level_raw: '48'
@@ -6572,6 +7772,105 @@ areas:
 - area_id: flaming-door
   area_name_raw: Flaming Door
   monsters:
+  - record_id: alphabetic__t004__r0017
+    name_raw: Evil Flower
+    level_raw: '68'
+    level: 68
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0019
+    name_raw: Evil Knight
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0011
+    name_raw: Fire Fly
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0012
+    name_raw: Fire Ghost Kid
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0019
+    name_raw: Flame Mummy
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0014
+    name_raw: Miner Foreman (Boss)
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0013
+    name_raw: Rock Slarm
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0027
+    name_raw: Soul Guide (Boss)
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0028
+    name_raw: Soul Wizard (Boss)
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0001
+    name_raw: Terra Lampman
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0002
+    name_raw: Terra Miner
+    level_raw: '78'
+    level: 78
+    boss: null
+    aggressive: null
+    area_id: flaming-door
+    area_name_raw: Flaming Door
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0007
     name_raw: Evil Knight
     level_raw: '63'
@@ -7004,6 +8303,60 @@ areas:
 - area_id: foggy-forest
   area_name_raw: Foggy Forest
   monsters:
+  - record_id: alphabetic__t002__r0011
+    name_raw: Crazy Babi
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0017
+    name_raw: Cursed Ghost Kid
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0028
+    name_raw: Exiled Earl
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0022
+    name_raw: Fog Lizard
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0013
+    name_raw: Lizard Chief
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0006
+    name_raw: Marquis Blute
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: foggy-forest
+    area_name_raw: Foggy Forest
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0040
     name_raw: Fog Lizard
     level_raw: '35'
@@ -7703,6 +9056,60 @@ areas:
 - area_id: fungus-forest-north
   area_name_raw: Fungus Forest North
   monsters:
+  - record_id: alphabetic__t003__r0001
+    name_raw: Dark Fungus
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0005
+    name_raw: Elder Fungus (Boss)
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0010
+    name_raw: Giant Mouse
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0005
+    name_raw: Hell Mouse (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0024
+    name_raw: Mutant Mushroom (Boss)
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0005
+    name_raw: Orange Mushroom
+    level_raw: '33'
+    level: 33
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-north
+    area_name_raw: Fungus Forest North
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0033
     name_raw: Giant Mouse
     level_raw: '30'
@@ -7760,6 +9167,51 @@ areas:
 - area_id: fungus-forest-south
   area_name_raw: Fungus Forest South
   monsters:
+  - record_id: alphabetic__t002__r0014
+    name_raw: Crybaby
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-south
+    area_name_raw: Fungus Forest South
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0011
+    name_raw: Dream Paopao (Boss)
+    level_raw: '20'
+    level: 20
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-south
+    area_name_raw: Fungus Forest South
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0001
+    name_raw: Imp
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-south
+    area_name_raw: Fungus Forest South
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0006
+    name_raw: Paopao
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-south
+    area_name_raw: Fungus Forest South
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0006
+    name_raw: Rage Fire Elf (Boss)
+    level_raw: '23'
+    level: 23
+    boss: null
+    aggressive: null
+    area_id: fungus-forest-south
+    area_name_raw: Fungus Forest South
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0008
     name_raw: Imp
     level_raw: '15'
@@ -7808,6 +9260,51 @@ areas:
 - area_id: gebuer-vale
   area_name_raw: Gebuer Vale
   monsters:
+  - record_id: alphabetic__t006__r0002
+    name_raw: Gebuer
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: gebuer-vale
+    area_name_raw: Gebuer Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0003
+    name_raw: Gebuer Cadre
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: gebuer-vale
+    area_name_raw: Gebuer Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0008
+    name_raw: Giant Rotten Bird (Boss)
+    level_raw: '32'
+    level: 32
+    boss: null
+    aggressive: null
+    area_id: gebuer-vale
+    area_name_raw: Gebuer Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0002
+    name_raw: Header Gaberna (Boss)
+    level_raw: '32'
+    level: 32
+    boss: null
+    aggressive: null
+    area_id: gebuer-vale
+    area_name_raw: Gebuer Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0014
+    name_raw: Rotten Bird
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: gebuer-vale
+    area_name_raw: Gebuer Vale
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0025
     name_raw: Gebuer
     level_raw: '27'
@@ -7967,6 +9464,69 @@ areas:
 - area_id: golden-beach
   area_name_raw: Golden Beach
   monsters:
+  - record_id: alphabetic__t002__r0006
+    name_raw: Color Crab
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0007
+    name_raw: Color Whelk
+    level_raw: '56'
+    level: 56
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0013
+    name_raw: Pontiff Hululu (Boss)
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0019
+    name_raw: Puqi Crab
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0021
+    name_raw: Puqi Local
+    level_raw: '52'
+    level: 52
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0024
+    name_raw: Puqi Turtle
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0025
+    name_raw: Puqi Warrior
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: golden-beach
+    area_name_raw: Golden Beach
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0001
     name_raw: Puqi Crab
     level_raw: '48'
@@ -8381,6 +9941,96 @@ areas:
 - area_id: hell-palace
   area_name_raw: Hell Palace
   monsters:
+  - record_id: alphabetic__t003__r0006
+    name_raw: Declined Angel
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0012
+    name_raw: Fire Ghost Kid
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0011
+    name_raw: Gluttonous Angel
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0014
+    name_raw: Horn Dragon (Boss)
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0003
+    name_raw: Injuried Angel (Boss)
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0012
+    name_raw: Poison Flower
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0011
+    name_raw: Riddle Bishop
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0015
+    name_raw: Rotten Slarm
+    level_raw: '78'
+    level: 78
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0013
+    name_raw: Sealed Elf Lord (Boss)
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0002
+    name_raw: Terra Miner
+    level_raw: '78'
+    level: 78
+    boss: null
+    aggressive: null
+    area_id: hell-palace
+    area_name_raw: Hell Palace
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0026
     name_raw: Fire Ghost Kid
     level_raw: '7520'
@@ -8852,6 +10502,33 @@ areas:
 - area_id: horrible-lost-region
   area_name_raw: Horrible Lost Region
   monsters:
+  - record_id: alphabetic__t007__r0010
+    name_raw: Hicalu Machine (Boss)
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: horrible-lost-region
+    area_name_raw: Horrible Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0011
+    name_raw: Hicalu Machine (Boss))
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: horrible-lost-region
+    area_name_raw: Horrible Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0012
+    name_raw: Hicalu 1 (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: horrible-lost-region
+    area_name_raw: Horrible Lost Region
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0081
     name_raw: Hicalu Machine
     level_raw: '85'
@@ -9734,6 +11411,51 @@ areas:
 - area_id: jade-vale
   area_name_raw: Jade Vale
   monsters:
+  - record_id: alphabetic__t004__r0021
+    name_raw: Evil Moon Rabbit (Boss)
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: jade-vale
+    area_name_raw: Jade Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0017
+    name_raw: Green Lizard
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: jade-vale
+    area_name_raw: Jade Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0002
+    name_raw: Magic Eye Member
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: jade-vale
+    area_name_raw: Jade Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0012
+    name_raw: Sealed Beast (Boss)
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: jade-vale
+    area_name_raw: Jade Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0002
+    name_raw: Unicorn Rabbit
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: jade-vale
+    area_name_raw: Jade Vale
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0019
     name_raw: Unicorn Rabbit
     level_raw: '24'
@@ -10349,6 +12071,96 @@ areas:
 - area_id: lava-cave
   area_name_raw: Lava Cave
   monsters:
+  - record_id: alphabetic__t002__r0018
+    name_raw: Cuss Fire Lord (Boss)
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0017
+    name_raw: Evil Flower
+    level_raw: '68'
+    level: 68
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0011
+    name_raw: Fire Fly
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0017
+    name_raw: Flame Elf (Boss)
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0019
+    name_raw: Flame Mummy
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0009
+    name_raw: Giant Rotten Fly (Boss)
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0014
+    name_raw: Gold Fly
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0013
+    name_raw: Rock Slarm
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0001
+    name_raw: Terra Lampman
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0003
+    name_raw: Theurgy Master
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: lava-cave
+    area_name_raw: Lava Cave
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0006
     name_raw: Gold Fly
     level_raw: '60'
@@ -10682,6 +12494,105 @@ areas:
 - area_id: lost-region
   area_name_raw: Lost Region
   monsters:
+  - record_id: alphabetic__t001__r0005
+    name_raw: Angel Fishguard
+    level_raw: '82'
+    level: 82
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0016
+    name_raw: Fishguard Leader
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0007
+    name_raw: Hicalu Machine (Boss)
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0008
+    name_raw: Hicalu Machine (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0009
+    name_raw: Hicalu 1 (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0007
+    name_raw: Linberd Captain
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0010
+    name_raw: Linberd Sender
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0009
+    name_raw: Mermaid
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0010
+    name_raw: Mermaid Hunter
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0011
+    name_raw: Merman Guard
+    level_raw: '84'
+    level: 84
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0025
+    name_raw: Slip Angel Fish
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: lost-region
+    area_name_raw: Lost Region
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0069
     name_raw: Linberd Sender
     level_raw: '77'
@@ -11123,6 +13034,33 @@ areas:
 - area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
   monsters:
+  - record_id: alphabetic__t001__r0009
+    name_raw: Azrael Hook
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: magic-kitchen-path
+    area_name_raw: Magic Kitchen Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0015
+    name_raw: Hungry Fly
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: magic-kitchen-path
+    area_name_raw: Magic Kitchen Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0014
+    name_raw: Poo Poo Demon
+    level_raw: '56'
+    level: 56
+    boss: null
+    aggressive: null
+    area_id: magic-kitchen-path
+    area_name_raw: Magic Kitchen Path
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0045
     name_raw: Hungry Fly
     level_raw: '53'
@@ -12143,6 +14081,60 @@ areas:
 - area_id: megalith-plain
   area_name_raw: Megalith Plain
   monsters:
+  - record_id: alphabetic__t006__r0006
+    name_raw: Giant Chief (Boss)
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0019
+    name_raw: Green Wolf
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0020
+    name_raw: Green Wolf Tusk (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0018
+    name_raw: Mount Saby (Boss)
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0008
+    name_raw: Plain Titan
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0013
+    name_raw: Tusk Boar
+    level_raw: '33'
+    level: 33
+    boss: null
+    aggressive: null
+    area_id: megalith-plain
+    area_name_raw: Megalith Plain
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0031
     name_raw: Green Wolf
     level_raw: '30'
@@ -12200,6 +14192,51 @@ areas:
 - area_id: memory-cave
   area_name_raw: Memory Cave
   monsters:
+  - record_id: alphabetic__t003__r0007
+    name_raw: Decrusader
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: memory-cave
+    area_name_raw: Memory Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0011
+    name_raw: Evil Cat Yese (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: memory-cave
+    area_name_raw: Memory Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0001
+    name_raw: Magic cat
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: memory-cave
+    area_name_raw: Memory cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0015
+    name_raw: Porky Man
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: memory-cave
+    area_name_raw: Memory Cave
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0016
+    name_raw: Rotten Wanda (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: memory-cave
+    area_name_raw: Memory Cave
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0027
     name_raw: Decrusader
     level_raw: '27'
@@ -12422,6 +14459,51 @@ areas:
 - area_id: mushroom-forest
   area_name_raw: Mushroom Forest
   monsters:
+  - record_id: alphabetic__t008__r0006
+    name_raw: Iron Mane Blaic (Boss)
+    level_raw: '23'
+    level: 23
+    boss: null
+    aggressive: null
+    area_id: mushroom-forest
+    area_name_raw: Mushroom Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0005
+    name_raw: Mane Boar
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: mushroom-forest
+    area_name_raw: Mushroom Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0026
+    name_raw: Purple Mushroom
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: mushroom-forest
+    area_name_raw: Mushroom Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0010
+    name_raw: Red Mushroom
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: mushroom-forest
+    area_name_raw: Mushroom Forest
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0022
+    name_raw: Yellow Mushroom (Boss)
+    level_raw: '20'
+    level: 20
+    boss: null
+    aggressive: null
+    area_id: mushroom-forest
+    area_name_raw: Mushroom Forest
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0007
     name_raw: Red Mushroom
     level_raw: '15'
@@ -12599,6 +14681,51 @@ areas:
 - area_id: mysterious-garden
   area_name_raw: Mysterious Garden
   monsters:
+  - record_id: alphabetic__t005__r0020
+    name_raw: Flaming Rose
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: mysterious-garden
+    area_name_raw: Mysterious Garden
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0001
+    name_raw: Garden Elf
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: mysterious-garden
+    area_name_raw: Mysterious Garden
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0002
+    name_raw: Queen Angela (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: mysterious-garden
+    area_name_raw: Mysterious Garden
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0005
+    name_raw: Rage Elf (Boss)
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: mysterious-garden
+    area_name_raw: Mysterious Garden
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0004
+    name_raw: Thunder Rabbit
+    level_raw: '30'
+    level: 30
+    boss: null
+    aggressive: null
+    area_id: mysterious-garden
+    area_name_raw: Mysterious Garden
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0025
     name_raw: Garden Elf
     level_raw: '27'
@@ -12647,6 +14774,60 @@ areas:
 - area_id: mysterious-wetland
   area_name_raw: Mysterious Wetland
   monsters:
+  - record_id: alphabetic__t001__r0014
+    name_raw: Black Tree
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0008
+    name_raw: Marsh Wind Fairy
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0025
+    name_raw: Nepenthes
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0014
+    name_raw: Sexy Quli
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0008
+    name_raw: Tree Elf
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0017
+    name_raw: Wind Fairy Clair
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: mysterious-wetland
+    area_name_raw: Mysterious Wetland
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0047
     name_raw: Nepenthes
     level_raw: '40'
@@ -13292,6 +15473,60 @@ areas:
 - area_id: north-of-mirror-lake
   area_name_raw: North of Mirror Lake
   monsters:
+  - record_id: alphabetic__t004__r0007
+    name_raw: Elf Narice (Boss)
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0005
+    name_raw: Iron Crab
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0027
+    name_raw: North Lake Slarm
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0010
+    name_raw: Platina Slarm (Boss)
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0033
+    name_raw: Steel Clamp (Boss)
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0006
+    name_raw: Water Goblin
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: north-of-mirror-lake
+    area_name_raw: North of Mirror Lake
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0045
     name_raw: North Lake Slarm
     level_raw: '40'
@@ -13943,6 +16178,96 @@ areas:
 - area_id: quiet-ocean
   area_name_raw: Quiet Ocean
   monsters:
+  - record_id: alphabetic__t001__r0004
+    name_raw: (Feather) Angel Fish
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0001
+    name_raw: Captain Hack (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0004
+    name_raw: Death Sail
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0005
+    name_raw: Death Sailor
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0016
+    name_raw: Evil Fish
+    level_raw: '91'
+    level: 91
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0011
+    name_raw: Poison Evil Fish
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0009
+    name_raw: Red Lantern Fish
+    level_raw: '98'
+    level: 98
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0008
+    name_raw: Sea Explorer (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0010
+    name_raw: Sea Lantern Fish
+    level_raw: '96'
+    level: 96
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0019
+    name_raw: Winged Fish
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: quiet-ocean
+    area_name_raw: Quiet Ocean
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0037
     name_raw: (Feather) Angel Fish
     level_raw: '87'
@@ -14042,18 +16367,63 @@ areas:
     area_id: quiet-ocean
     area_name_raw: Quiet Ocean
     summary_source_id: area_page
-  - record_id: quiet-ocean__death-sailor__t004r0004
-    name_raw: Death Sailor
-    level_raw: '93'
-    level: 93
-    boss: false
-    aggressive: true
-    area_id: quiet-ocean
-    area_name_raw: Quiet Ocean
-    summary_source_id: area_page
 - area_id: quiet-vale
   area_name_raw: Quiet Vale
   monsters:
+  - record_id: alphabetic__t002__r0012
+    name_raw: Crazy Rosit (Boss)
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0009
+    name_raw: Evil Bishop
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0022
+    name_raw: Evil Nazarite
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0007
+    name_raw: Iron Scale Allen (Boss)
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0019
+    name_raw: Skeletal Bishop (Boss)
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0014
+    name_raw: Wild Lizardman
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: quiet-vale
+    area_name_raw: Quiet Vale
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0031
     name_raw: Evil Nazarite
     level_raw: '35'
@@ -14111,6 +16481,87 @@ areas:
 - area_id: raging-reefs
   area_name_raw: Raging Reefs
   monsters:
+  - record_id: alphabetic__t006__r0007
+    name_raw: Giant Octopus
+    level_raw: '85'
+    level: 85
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0002
+    name_raw: Octopus Oliss (Boss)
+    level_raw: '95'
+    level: 95
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0003
+    name_raw: Octopus Scholar
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0004
+    name_raw: Rage Denio (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0007
+    name_raw: Rage Shark
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0011
+    name_raw: Sea Shark
+    level_raw: '90'
+    level: 90
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0031
+    name_raw: Stab Jellyfish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0036
+    name_raw: Sword Whelk
+    level_raw: '86'
+    level: 86
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0009
+    name_raw: Whelk Elder
+    level_raw: '88'
+    level: 88
+    boss: null
+    aggressive: null
+    area_id: raging-reefs
+    area_name_raw: Raging Reefs
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0026
     name_raw: Stab Jellyfish
     level_raw: '77'
@@ -14984,6 +17435,51 @@ areas:
 - area_id: riprap-coast
   area_name_raw: Riprap Coast
   monsters:
+  - record_id: alphabetic__t007__r0001
+    name_raw: Harp Sheep
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0007
+    name_raw: Piratekin
+    level_raw: '27'
+    level: 27
+    boss: null
+    aggressive: null
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0012
+    name_raw: Riprap Pirate
+    level_raw: '24'
+    level: 24
+    boss: null
+    aggressive: null
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0017
+    name_raw: Sheep Music
+    level_raw: '29'
+    level: 29
+    boss: null
+    aggressive: null
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0003
+    name_raw: Vice Head Pirate
+    level_raw: '26'
+    level: 26
+    boss: null
+    aggressive: null
+    area_id: riprap-coast
+    area_name_raw: Riprap Coast
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0021
     name_raw: Harp Sheep
     level_raw: '24'
@@ -15032,6 +17528,15 @@ areas:
 - area_id: river-valley
   area_name_raw: River Valley
   monsters:
+  - record_id: alphabetic__t010__r0017
+    name_raw: Moon Berry Elf
+    level_raw: '65'
+    level: 65
+    boss: null
+    aggressive: null
+    area_id: river-valley
+    area_name_raw: River Valley
+    summary_source_id: alphabetic
   - record_id: by-area__t008__r0001
     name_raw: Moon Berry Elf
     level_raw: '65'
@@ -15572,9 +18077,102 @@ areas:
     area_id: rusty-pipe-lane
     area_name_raw: Rusty Pipe Lane
     summary_source_id: area_page
+- area_id: sad-abbys
+  area_name_raw: Sad Abbys
+  monsters:
+  - record_id: alphabetic__t004__r0018
+    name_raw: Evil Grass
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0019
+    name_raw: Evil Knight
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0025
+    name_raw: Evil Tree (Boss)
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0007
+    name_raw: Fetor Fly (Boss)
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0021
+    name_raw: Fly
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0014
+    name_raw: Gold Fly
+    level_raw: '60'
+    level: 60
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0004
+    name_raw: Heat Elf
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0006
+    name_raw: Hell Slave
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0002
+    name_raw: Imp Elf
+    level_raw: '58'
+    level: 58
+    boss: null
+    aggressive: null
+    area_id: sad-abbys
+    area_name_raw: Sad Abbys
+    summary_source_id: alphabetic
 - area_id: sad-abyss
   area_name_raw: Sad Abyss
   monsters:
+  - record_id: alphabetic__t013__r0024
+    name_raw: Slave Driver (Boss)
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: sad-abyss
+    area_name_raw: Sad Abyss
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0001
     name_raw: Heat Elf
     level_raw: '45'
@@ -16007,6 +18605,51 @@ areas:
 - area_id: scrap-iron-village
   area_name_raw: Scrap Iron Village
   monsters:
+  - record_id: alphabetic__t001__r0024
+    name_raw: Buccinal Robot
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0006
+    name_raw: Fat Robot
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0013
+    name_raw: Metal Robot (Boss)
+    level_raw: '20'
+    level: 20
+    boss: null
+    aggressive: null
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0003
+    name_raw: Radiant Slarm
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0010
+    name_raw: Turbo Robot (Boss)
+    level_raw: '23'
+    level: 23
+    boss: null
+    aggressive: null
+    area_id: scrap-iron-village
+    area_name_raw: Scrap Iron Village
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0007
     name_raw: Radiant Slarm
     level_raw: '15'
@@ -16406,6 +19049,60 @@ areas:
 - area_id: shadowy-path
   area_name_raw: Shadowy Path
   monsters:
+  - record_id: alphabetic__t004__r0010
+    name_raw: Evil Cat
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0005
+    name_raw: Giant Cat Cinlo (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0008
+    name_raw: Red-cloth Skull
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0020
+    name_raw: Skeletal Rogue
+    level_raw: '9'
+    level: 9
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0021
+    name_raw: Skeletal Sniper
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0022
+    name_raw: Skull Leader (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: shadowy-path
+    area_name_raw: Shadowy Path
+    summary_source_id: alphabetic
   - record_id: by-area__t005__r0001
     name_raw: Skeletal Rogue
     level_raw: '9'
@@ -16583,6 +19280,78 @@ areas:
 - area_id: shining-coast
   area_name_raw: Shining Coast
   monsters:
+  - record_id: alphabetic__t002__r0006
+    name_raw: Color Crab
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0007
+    name_raw: Color Whelk
+    level_raw: '56'
+    level: 56
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0009
+    name_raw: Coast Protector (Boss)
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0010
+    name_raw: Crab General
+    level_raw: '66'
+    level: 66
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0023
+    name_raw: Evil Puqi Turtle
+    level_raw: '61'
+    level: 61
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0020
+    name_raw: Puqi Isle Crab
+    level_raw: '59'
+    level: 59
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0022
+    name_raw: Puqi Pirate
+    level_raw: '62'
+    level: 62
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0023
+    name_raw: Puqi Pirate Leader
+    level_raw: '63'
+    level: 63
+    boss: null
+    aggressive: null
+    area_id: shining-coast
+    area_name_raw: Shining Coast
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0008
     name_raw: Color Crab
     level_raw: '55'
@@ -17291,6 +20060,60 @@ areas:
 - area_id: south-of-mirror-lake
   area_name_raw: South of Mirror Lake
   monsters:
+  - record_id: alphabetic__t002__r0005
+    name_raw: Circus Leader (Boss)
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t002__r0008
+    name_raw: Circus Tyrant
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0015
+    name_raw: Gold Slarm (Boss)
+    level_raw: '40'
+    level: 40
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0002
+    name_raw: Lake Deathwood
+    level_raw: '38'
+    level: 38
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0003
+    name_raw: Lake Slarm
+    level_raw: '35'
+    level: 35
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0007
+    name_raw: Tree Elder (Boss)
+    level_raw: '43'
+    level: 43
+    boss: null
+    aggressive: null
+    area_id: south-of-mirror-lake
+    area_name_raw: South of Mirror Lake
+    summary_source_id: alphabetic
   - record_id: by-area__t003__r0038
     name_raw: Lake Slarm
     level_raw: '35'
@@ -17348,6 +20171,60 @@ areas:
 - area_id: spike-farm
   area_name_raw: Spike Farm
   monsters:
+  - record_id: alphabetic__t004__r0004
+    name_raw: Eggshell Chick
+    level_raw: '6'
+    level: 6
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0008
+    name_raw: Field Mouse
+    level_raw: '9'
+    level: 9
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0008
+    name_raw: Jackstraw
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t008__r0009
+    name_raw: Jackstraw Mige (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0016
+    name_raw: Pumpkin
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0017
+    name_raw: Pumpkin Banni (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: spike-farm
+    area_name_raw: Spike Farm
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0001
     name_raw: Eggshell Chick
     level_raw: '6'
@@ -17690,6 +20567,60 @@ areas:
 - area_id: sunflower-plain
   area_name_raw: Sunflower Plain
   monsters:
+  - record_id: alphabetic__t004__r0003
+    name_raw: Egg Chick
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0024
+    name_raw: Evil Slarm
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0003
+    name_raw: Magic Pumpkinman
+    level_raw: '15'
+    level: 15
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0018
+    name_raw: Pumpkin Pluto (Boss)
+    level_raw: '20'
+    level: 20
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0016
+    name_raw: Sheep Beethoven (Boss)
+    level_raw: '23'
+    level: 23
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0005
+    name_raw: Tone Sheep
+    level_raw: '18'
+    level: 18
+    boss: null
+    aggressive: null
+    area_id: sunflower-plain
+    area_name_raw: Sunflower Plain
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0008
     name_raw: Egg Chick
     level_raw: '12'
@@ -17747,6 +20678,78 @@ areas:
 - area_id: sunken-ruins
   area_name_raw: Sunken Ruins
   monsters:
+  - record_id: alphabetic__t001__r0004
+    name_raw: (Feather) Angel Fish
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0022
+    name_raw: Bottle Mermaid
+    level_raw: '87'
+    level: 87
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0016
+    name_raw: Evil Fish
+    level_raw: '91'
+    level: 91
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0001
+    name_raw: Knight Clarc (Boss)
+    level_raw: '100'
+    level: 100
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t010__r0023
+    name_raw: Music Merman
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0011
+    name_raw: Poison Evil Fish
+    level_raw: '93'
+    level: 93
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0007
+    name_raw: Rage Shark
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0019
+    name_raw: Winged Fish
+    level_raw: '94'
+    level: 94
+    boss: null
+    aggressive: null
+    area_id: sunken-ruins
+    area_name_raw: Sunken Ruins
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0037
     name_raw: (Feather) Angel Fish
     level_raw: '87'
@@ -18290,6 +21293,60 @@ areas:
 - area_id: thorn-wasteland
   area_name_raw: Thorn Wasteland
   monsters:
+  - record_id: alphabetic__t001__r0012
+    name_raw: Barft Laird (Boss)
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0009
+    name_raw: Fire Barft
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0002
+    name_raw: Savage Chief Apu (Boss)
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0003
+    name_raw: Savage Dogface
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0004
+    name_raw: Savage Head (Boss)
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0005
+    name_raw: Savage Priest
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: thorn-wasteland
+    area_name_raw: Thorn Wasteland
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0047
     name_raw: Savage Dogface
     level_raw: '45'
@@ -18356,6 +21413,60 @@ areas:
 - area_id: thunder-ruins
   area_name_raw: Thunder Ruins
   monsters:
+  - record_id: alphabetic__t001__r0008
+    name_raw: Azrael's Aide (Boss)
+    level_raw: '55'
+    level: 55
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0013
+    name_raw: Black Fire Harr (Boss)
+    level_raw: '53'
+    level: 53
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0025
+    name_raw: Burning Monster
+    level_raw: '48'
+    level: 48
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0001
+    name_raw: Fallen Angel
+    level_raw: '45'
+    level: 45
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0002
+    name_raw: Fallen Archangel (Boss)
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0022
+    name_raw: Guilt Azarel
+    level_raw: '50'
+    level: 50
+    boss: null
+    aggressive: null
+    area_id: thunder-ruins
+    area_name_raw: Thunder Ruins
+    summary_source_id: alphabetic
   - record_id: by-area__t002__r0040
     name_raw: Fallen Angel
     level_raw: '45'
@@ -18413,6 +21524,69 @@ areas:
 - area_id: training-palace
   area_name_raw: Training Palace
   monsters:
+  - record_id: alphabetic__t001__r0023
+    name_raw: Brute Priest
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0013
+    name_raw: Goat Demon
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t007__r0003
+    name_raw: Headless Armor
+    level_raw: '8'
+    level: 8
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0012
+    name_raw: Little Gebuer
+    level_raw: '8'
+    level: 8
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0001
+    name_raw: Qiuaner (Boss)
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0009
+    name_raw: Tree Spirit
+    level_raw: '8'
+    level: 8
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0015
+    name_raw: Wildwolf
+    level_raw: '8'
+    level: 8
+    boss: null
+    aggressive: null
+    area_id: training-palace
+    area_name_raw: Training Palace
+    summary_source_id: alphabetic
   - record_id: by-area__t001__r0013
     name_raw: Wildwolf
     level_raw: '8'
@@ -18737,6 +21911,96 @@ areas:
 - area_id: underground-square
   area_name_raw: Underground Square
   monsters:
+  - record_id: alphabetic__t002__r0003
+    name_raw: Charming Flower (Boss)
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0008
+    name_raw: Enmity Deissy (Boss)
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0011
+    name_raw: Fire Fly
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0012
+    name_raw: Fire Ghost Kid
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0019
+    name_raw: Flame Mummy
+    level_raw: '70'
+    level: 70
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0011
+    name_raw: Gluttonous Angel
+    level_raw: '80'
+    level: 80
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t006__r0012
+    name_raw: Gluttonous Shape (Boss)
+    level_raw: '83'
+    level: 83
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0012
+    name_raw: Poison Flower
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t012__r0015
+    name_raw: Rotten Slarm
+    level_raw: '78'
+    level: 78
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t014__r0002
+    name_raw: Terra Miner
+    level_raw: '78'
+    level: 78
+    boss: null
+    aggressive: null
+    area_id: underground-square
+    area_name_raw: Underground Square
+    summary_source_id: alphabetic
   - record_id: by-area__t006__r0020
     name_raw: Flame Mummy
     level_raw: '70'
@@ -19070,6 +22334,78 @@ areas:
 - area_id: wave-harbor
   area_name_raw: Wave Harbor
   monsters:
+  - record_id: alphabetic__t001__r0003
+    name_raw: Angel Fish
+    level_raw: '82'
+    level: 82
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0011
+    name_raw: Ball Jellyfish
+    level_raw: '73'
+    level: 73
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t001__r0020
+    name_raw: Blue Merman
+    level_raw: '84'
+    level: 84
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0006
+    name_raw: Scale Fish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0031
+    name_raw: Stab Jellyfish
+    level_raw: '77'
+    level: 77
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0035
+    name_raw: Sword Jellyfish (Boss)
+    level_raw: '90'
+    level: 90
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0010
+    name_raw: Whelk Mage
+    level_raw: '75'
+    level: 75
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0011
+    name_raw: Whelk Swordsman
+    level_raw: '74'
+    level: 74
+    boss: null
+    aggressive: null
+    area_id: wave-harbor
+    area_name_raw: Wave Harbor
+    summary_source_id: alphabetic
   - record_id: by-area__t007__r0025
     name_raw: Ball Jellyfish
     level_raw: '73'
@@ -19145,6 +22481,96 @@ areas:
 - area_id: west-playground
   area_name_raw: West Playground
   monsters:
+  - record_id: alphabetic__t004__r0001
+    name_raw: Earth Elf
+    level_raw: '7'
+    level: 7
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t004__r0002
+    name_raw: Earth Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0010
+    name_raw: Fire Elf
+    level_raw: '7'
+    level: 7
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t005__r0013
+    name_raw: Fire Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t009__r0006
+    name_raw: Lily
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0023
+    name_raw: Slarm
+    level_raw: '1'
+    level: 1
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0007
+    name_raw: Water Elf
+    level_raw: '4'
+    level: 4
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0008
+    name_raw: Water Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0016
+    name_raw: Wind Elf
+    level_raw: '4'
+    level: 4
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t015__r0018
+    name_raw: Wind Lord (Boss)
+    level_raw: '10'
+    level: 10
+    boss: null
+    aggressive: null
+    area_id: west-playground
+    area_name_raw: West Playground
+    summary_source_id: alphabetic
   - record_id: by-area__t001__r0001
     name_raw: Lily
     level_raw: '1'
@@ -19523,6 +22949,51 @@ areas:
 - area_id: wishing-tear
   area_name_raw: Wishing Tear
   monsters:
+  - record_id: alphabetic__t002__r0016
+    name_raw: Crystal Lizard (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0009
+    name_raw: Desert Lizard
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t003__r0010
+    name_raw: Desert Mouse
+    level_raw: '9'
+    level: 9
+    boss: null
+    aggressive: null
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t011__r0001
+    name_raw: Ocher Toad
+    level_raw: '12'
+    level: 12
+    boss: null
+    aggressive: null
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    summary_source_id: alphabetic
+  - record_id: alphabetic__t013__r0032
+    name_raw: Stained Robot (Boss)
+    level_raw: '17'
+    level: 17
+    boss: null
+    aggressive: null
+    area_id: wishing-tear
+    area_name_raw: Wishing Tear
+    summary_source_id: alphabetic
   - record_id: by-area__t004__r0001
     name_raw: Desert Mouse
     level_raw: '9'

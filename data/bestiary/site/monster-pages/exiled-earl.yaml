@@ -1,0 +1,500 @@
+monster_page:
+  id: exiled-earl
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:exiled-earl
+    retrieval_url: https://web.archive.org/web/20200109171722id_/http://angels.wikidot.com:80/monster:exiled-earl
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171722'
+    archive_snapshot_url: https://web.archive.org/web/20200109171722/http://angels.wikidot.com:80/monster:exiled-earl
+    archive_original_lookup_url: https://angels.wikidot.com/monster:exiled-earl
+    source_html_sha256: ff3c1f19730b018f1722cb8bbcea14c3bcaec2fe50279f50bd72756a815c2542
+fields_raw:
+  Monster Name: 'Spells:'
+  Exiled Earl: Demon-Sucking Single Ranged | Dmg 153-157
+  'Spells:': 'Location:'
+  Demon-Sucking Single Ranged | Dmg 153-157: Foggy Forest
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '40'
+  Hit Points: '1339'
+  Rigor: '212'
+  Agility: '132'
+  Attack: '256'
+  Defense: '390'
+  Spell Attack: '258'
+  Spell Defense: '159'
+  Special Attack: Fire +20
+  Special Defense: '10'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,83%
+  Experience: '334'
+  Gold: 69 - 109 (89)
+item_drop_chance_raw: 0,83%
+drops:
+- drop_id: exiled-earl__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 46,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,92%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 46.92
+    quantity: null
+- drop_id: exiled-earl__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earl Ring
+  chance_to_drop_raw: 9,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,41%
+    Icon: ''
+    Item: Earl Ring
+    Short info: Trinket Lvl 35 (Dfs +29, Spl Dfs +17, Rig.+13, Ag.+9)
+  normalized:
+    chance_to_drop_percent: 9.41
+    quantity: null
+- drop_id: exiled-earl__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earl Mantle
+  chance_to_drop_raw: 9,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,41%
+    Icon: ''
+    Item: Earl Mantle
+    Short info: Cloak Lvl 35 (Dfs +36, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 9.41
+    quantity: null
+- drop_id: exiled-earl__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 6,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,02%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 6.02
+    quantity: null
+- drop_id: exiled-earl__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 6,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,02%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 6.02
+    quantity: null
+- drop_id: exiled-earl__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 6,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,02%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 6.02
+    quantity: null
+- drop_id: exiled-earl__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 6,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,02%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 6.02
+    quantity: null
+- drop_id: exiled-earl__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Exiled Earl Card
+  chance_to_drop_raw: 5,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,02%
+    Icon: ''
+    Item: Exiled Earl Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 5.02
+    quantity: null
+- drop_id: exiled-earl__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Earl Ring
+  chance_to_drop_raw: 1,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,56%
+    Icon: ''
+    Item: Good Earl Ring
+    Short info: Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  normalized:
+    chance_to_drop_percent: 1.56
+    quantity: null
+- drop_id: exiled-earl__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Earl Mantle
+  chance_to_drop_raw: 1,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,56%
+    Icon: ''
+    Item: Good Earl Mantle
+    Short info: Cloak Lvl 35 (Dfs +52, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 1.56
+    quantity: null
+- drop_id: exiled-earl__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor/Shield: Spl Def +4'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blood Ring
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Blood Ring
+    Short info: Trinket Lvl 35 (Dfs +48, Spl Dfs +30, Rig.+23, Ag.+16)
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Moonnight Mantle
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Moonnight Mantle
+    Short info: Cloak Lvl 35 (Dfs +65, Spl Dfs +25, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: exiled-earl__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Exiled Earl
+  - ''
+  rows_raw:
+  - - Monster Name
+    - Exiled Earl
+    - ''
+  - - 'Spells:'
+    - Demon-Sucking Single Ranged | Dmg 153-157
+    - ''
+  - - 'Location:'
+    - Foggy Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '40'
+    - '1339'
+    - '212'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '256'
+    - '390'
+    - '258'
+    - '159'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +20
+    - '10'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,83%
+    - '334'
+    - 69 - 109 (89)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,92%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 9,41%
+    - ''
+    - Earl Ring
+    - Trinket Lvl 35 (Dfs +29, Spl Dfs +17, Rig.+13, Ag.+9)
+  - - 9,41%
+    - ''
+    - Earl Mantle
+    - Cloak Lvl 35 (Dfs +36, Max.Weight +50)
+  - - 6,02%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 6,02%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 6,02%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 6,02%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 5,02%
+    - ''
+    - Exiled Earl Card
+    - 'See: Card Collection'
+  - - 1,56%
+    - ''
+    - Good Earl Ring
+    - Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  - - 1,56%
+    - ''
+    - Good Earl Mantle
+    - Cloak Lvl 35 (Dfs +52, Max.Weight +50)
+  - - 0,24%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,24%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,24%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,24%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  - - 0,24%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  - - 0,24%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor/Shield: Spl Def +4'
+  - - 0,24%
+    - ''
+    - Blood Ring
+    - Trinket Lvl 35 (Dfs +48, Spl Dfs +30, Rig.+23, Ag.+16)
+  - - 0,24%
+    - ''
+    - Moonnight Mantle
+    - Cloak Lvl 35 (Dfs +65, Spl Dfs +25, Max.Weight +50)
+  - - 0,14%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 20

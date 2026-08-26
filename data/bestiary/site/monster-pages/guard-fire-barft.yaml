@@ -1,0 +1,370 @@
+monster_page:
+  id: guard-fire-barft
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:guard-fire-barft
+    retrieval_url: https://web.archive.org/web/20200129151521id_/http://angels.wikidot.com:80/monster:guard-fire-barft
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200129151521'
+    archive_snapshot_url: https://web.archive.org/web/20200129151521/http://angels.wikidot.com:80/monster:guard-fire-barft
+    archive_original_lookup_url: https://angels.wikidot.com/monster:guard-fire-barft
+    source_html_sha256: 12df5a4f1a2c42d81cc45ccc577e5a76233c3cc059a247caa1b8860854b07976
+fields_raw:
+  Name: 'Spells:'
+  Guard Fire Barft: Fireball Hit Single Ranged | Dmg 128-133 Fire Dmg +220
+  'Spells:': 'Location:'
+  Fireball Hit Single Ranged | Dmg 128-133 Fire Dmg +220: Magic Kitchen Path
+  Type: Deamon
+  Boss?: 'Yes'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '62'
+  Hit Points: '46830'
+  Rigor: '347'
+  Agility: '213'
+  Attack: '908'
+  Defense: '681'
+  Magic Attack: '478'
+  Magic Defense: '270'
+  Bonus Damage: Fire +31
+  Strong Against: Rotten
+  Weak Against: Ice
+  Item Drop Chance: 100,00%
+  Experience: '35123'
+  Gold: 2458 - 4144 (3301)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: guard-fire-barft__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Crystal x3
+  chance_to_drop_raw: 48,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,30%
+    Icon: ''
+    Item: Energy Crystal x3
+    Short info: See Sets
+  normalized:
+    chance_to_drop_percent: 48.3
+    quantity: null
+- drop_id: guard-fire-barft__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Light Cuff
+  chance_to_drop_raw: 16,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,10%
+    Icon: ''
+    Item: Advanced Light Cuff
+    Short info: Garment 42 (Dfs +47, Spl Dfs +8, Rig +37)
+  normalized:
+    chance_to_drop_percent: 16.1
+    quantity: null
+- drop_id: guard-fire-barft__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Black Knights Cuff
+  chance_to_drop_raw: 16,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,10%
+    Icon: ''
+    Item: Black Knights Cuff
+    Short info: Garment 47 (Dfs +56, Spl Dfs +9, Rig +42)
+  normalized:
+    chance_to_drop_percent: 16.1
+    quantity: null
+- drop_id: guard-fire-barft__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Weighty Breastplate
+  chance_to_drop_raw: 16,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,10%
+    Icon: ''
+    Item: Royal Weighty Breastplate
+    Short info: Mantle 54 (Dfs +133, Spl Dfs +38)
+  normalized:
+    chance_to_drop_percent: 16.1
+    quantity: null
+- drop_id: guard-fire-barft__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Helmet
+  chance_to_drop_raw: 2,31%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,31%
+    Icon: ''
+    Item: Hermit Helmet
+    Short info: Mantle 68 (Dfs +115, Spl Dfs +40)
+  normalized:
+    chance_to_drop_percent: 2.31
+    quantity: null
+- drop_id: guard-fire-barft__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Helmet
+  chance_to_drop_raw: 0,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,35%
+    Icon: ''
+    Item: Good Hermit Helmet
+    Short info: Mantle 68 (Dfs +149, Spl Dfs +47)
+  normalized:
+    chance_to_drop_percent: 0.35
+    quantity: null
+- drop_id: guard-fire-barft__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 0,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,29%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.29
+    quantity: null
+- drop_id: guard-fire-barft__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,26%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.26
+    quantity: null
+- drop_id: guard-fire-barft__t004r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Fire Guard Helmet'
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: 'A.Plan2: Fire Guard Helmet'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: guard-fire-barft__t004r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Circus Elephant
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Blue Circus Elephant
+    Short info: Ride Lvl 70 (Atk +55, Dfs +55, Rig +21, Ag +14, Speed +30%)
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: guard-fire-barft__t004r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Helmet
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Anchoret Helmet
+    Short info: Mantle 68 (Dfs +190, Spl Dfs +53)
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: guard-fire-barft__t004r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 1: Swiftness Song 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 1: Swiftness Song 5'
+    Short info: Sword 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: guard-fire-barft__t004r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 2: Advanced Beat 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 2: Advanced Beat 5'
+    Short info: Axe 66
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: guard-fire-barft__t004r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Yellow Gem
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Clean Yellow Gem
+    Short info: 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Guard Fire Barft
+  - ''
+  rows_raw:
+  - - Name
+    - Guard Fire Barft
+    - ''
+  - - 'Spells:'
+    - Fireball Hit Single Ranged | Dmg 128-133 Fire Dmg +220
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Deamon
+    - 'Yes'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '62'
+    - '46830'
+    - '347'
+    - '213'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '908'
+    - '681'
+    - '478'
+    - '270'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Fire +31
+    - Rotten
+    - Ice
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '35123'
+    - 2458 - 4144 (3301)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,30%
+    - ''
+    - Energy Crystal x3
+    - See Sets
+  - - 16,10%
+    - ''
+    - Advanced Light Cuff
+    - Garment 42 (Dfs +47, Spl Dfs +8, Rig +37)
+  - - 16,10%
+    - ''
+    - Black Knights Cuff
+    - Garment 47 (Dfs +56, Spl Dfs +9, Rig +42)
+  - - 16,10%
+    - ''
+    - Royal Weighty Breastplate
+    - Mantle 54 (Dfs +133, Spl Dfs +38)
+  - - 2,31%
+    - ''
+    - Hermit Helmet
+    - Mantle 68 (Dfs +115, Spl Dfs +40)
+  - - 0,35%
+    - ''
+    - Good Hermit Helmet
+    - Mantle 68 (Dfs +149, Spl Dfs +47)
+  - - 0,29%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,26%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,12%
+    - ''
+    - 'A.Plan2: Fire Guard Helmet'
+    - Armor 65
+  - - 0,04%
+    - ''
+    - Blue Circus Elephant
+    - Ride Lvl 70 (Atk +55, Dfs +55, Rig +21, Ag +14, Speed +30%)
+  - - 0,02%
+    - ''
+    - Anchoret Helmet
+    - Mantle 68 (Dfs +190, Spl Dfs +53)
+  - - 0,01%
+    - ''
+    - 'Stance 1: Swiftness Song 5'
+    - Sword 64
+  - - 0,01%
+    - ''
+    - 'Stance 2: Advanced Beat 5'
+    - Axe 66
+  - - 0,01%
+    - ''
+    - Clean Yellow Gem
+    - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  row_count: 15

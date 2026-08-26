@@ -1,0 +1,106 @@
+monster_page:
+  id: terra-miner2
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:terra-miner2
+    retrieval_url: https://web.archive.org/web/20200109172153id_/http://angels.wikidot.com:80/monster:terra-miner2
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172153'
+    archive_snapshot_url: https://web.archive.org/web/20200109172153/http://angels.wikidot.com:80/monster:terra-miner2
+    archive_original_lookup_url: https://angels.wikidot.com/monster:terra-miner2
+    source_html_sha256: 12076597d6c8b55d9fb8afdcf42ac6bb8afbfbeb4cba1ba02f7e04cfba2db323
+fields_raw:
+  Name: 'Spells:'
+  Terra Miner 2: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Human
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '60'
+  Hit Points: '4328'
+  Rigor: '312'
+  Agility: '192'
+  Attack: '454'
+  Defense: '681'
+  Magic Attack: '436'
+  Magic Defense: '247'
+  Bonus Damage: Ice +29
+  Strong Against: Fire(50)
+  Weak Against: Thunder(0)
+  Item Drop Chance: '0'
+  Experience: '0'
+  Gold: 0 - 0
+item_drop_chance_raw: '0'
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Terra Miner 2
+  - ''
+  rows_raw:
+  - - Name
+    - Terra Miner 2
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Human
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '4328'
+    - '312'
+    - '192'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '454'
+    - '681'
+    - '436'
+    - '247'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +29
+    - Fire(50)
+    - Thunder(0)
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - '0'
+    - '0'
+    - 0 - 0
+  row_count: 4

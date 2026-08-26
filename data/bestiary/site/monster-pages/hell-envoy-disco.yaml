@@ -1,0 +1,265 @@
+monster_page:
+  id: hell-envoy-disco
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hell-envoy-disco
+    retrieval_url: https://web.archive.org/web/20170907080508id_/http://angels.wikidot.com:80/monster:hell-envoy-disco
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170907080508'
+    archive_snapshot_url: https://web.archive.org/web/20170907080508/http://angels.wikidot.com:80/monster:hell-envoy-disco
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hell-envoy-disco
+    source_html_sha256: 2bd069b8bfe0410649cf6aeac475aabe9ab2c8582ef56887f7a91a6fccb592f4
+fields_raw:
+  Name: 'Spells:'
+  Hell Envoy Disco: Hell Flame 5
+  'Spells:': 'Location:'
+  Hell Flame 5: Mushroom Village
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '105'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100,00%
+  Experience: '51720'
+  Gold: 2278 - ? (?)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: hell-envoy-disco__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Super Target Potion
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Super Target Potion
+    Short info: Increase 62 Rigor. The effect will last 10 mins.
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hell-envoy-disco__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Super Mars Fruit
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Super Mars Fruit
+    Short info: Increase 300 Defense. The effect will last 10 mins.
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hell-envoy-disco__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: King's Roar
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: King's Roar
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hell-envoy-disco__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Bloody Orchid Shield
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Bloody Orchid Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hell-envoy-disco__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good King's Roar
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good King's Roar
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hell-envoy-disco__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Ox
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Forest Ox
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hell Envoy Disco
+  - ''
+  rows_raw:
+  - - Name
+    - Hell Envoy Disco
+    - ''
+  - - 'Spells:'
+    - Hell Flame 5
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '105'
+    - ''
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '51720'
+    - 2278 - ? (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Super Target Potion
+    - Increase 62 Rigor. The effect will last 10 mins.
+  - - ??,??%
+    - ''
+    - Super Mars Fruit
+    - Increase 300 Defense. The effect will last 10 mins.
+  - - ??,??%
+    - ''
+    - King's Roar
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Bloody Orchid Shield
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Good King's Roar
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Forest Ox
+    - ITEM NOTES
+  row_count: 7

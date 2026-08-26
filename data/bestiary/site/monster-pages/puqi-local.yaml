@@ -1,0 +1,284 @@
+monster_page:
+  id: puqi-local
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:puqi-local
+    retrieval_url: https://web.archive.org/web/20200119162805id_/http://angels.wikidot.com:80/monster:puqi-local
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119162805'
+    archive_snapshot_url: https://web.archive.org/web/20200119162805/http://angels.wikidot.com:80/monster:puqi-local
+    archive_original_lookup_url: https://angels.wikidot.com/monster:puqi-local
+    source_html_sha256: 505c28ddfc6fa8d781f5e4ebb82c7843f04a3f2fc04b55e8fa3955ba44e32784
+fields_raw:
+  Name: 'Spells:'
+  Puqi Local: '-'
+  'Spells:': 'Location:'
+  '-': Golden Beach
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '52'
+  Hit Points: '1988'
+  Rigor: '272'
+  Agility: '168'
+  Attack: '333'
+  Defense: '464'
+  Spell Attack: '349'
+  Spell Defense: '205'
+  Special Attack: Thunder +29
+  Special Defense: '16'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,03%
+  Experience: '507'
+  Gold: 76 - 126 (101)
+item_drop_chance_raw: 0,03%
+drops:
+- drop_id: puqi-local__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Heavy Cap
+  chance_to_drop_raw: 40,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,55%
+    Icon: ''
+    Item: Royal Heavy Cap
+    Short info: Mantle 53 (Dfs +74, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 40.55
+    quantity: null
+- drop_id: puqi-local__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Iron Gloves
+  chance_to_drop_raw: 40,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,55%
+    Icon: ''
+    Item: Royal Iron Gloves
+    Short info: Garment 52 (Dfs +66, Spl Dfs +10, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 40.55
+    quantity: null
+- drop_id: puqi-local__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Highgrade Royal Heavy Cap
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Highgrade Royal Heavy Cap
+    Short info: Mantle 53 (Dfs +100, Spl Dfs +37)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: puqi-local__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Iron Gloves
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Good Royal Iron Gloves
+    Short info: Garment 52 (Dfs +90, Spl Dfs +12, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: puqi-local__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 4,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,08%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 4.08
+    quantity: null
+- drop_id: puqi-local__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Cap
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Scale Cap
+    Short info: Mantle 53 (Dfs +131, Spl Dfs +43)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+- drop_id: puqi-local__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Gloves
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Knight Gloves
+    Short info: Garment 52 (Dfs +118, Spl Dfs +14, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Puqi Local
+  - ''
+  rows_raw:
+  - - Name
+    - Puqi Local
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Golden Beach
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '52'
+    - '1988'
+    - '272'
+    - '168'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '333'
+    - '464'
+    - '349'
+    - '205'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +29
+    - '16'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,03%
+    - '507'
+    - 76 - 126 (101)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 40,55%
+    - ''
+    - Royal Heavy Cap
+    - Mantle 53 (Dfs +74, Spl Dfs +30)
+  - - 40,55%
+    - ''
+    - Royal Iron Gloves
+    - Garment 52 (Dfs +66, Spl Dfs +10, Rig.+47)
+  - - 6,75%
+    - ''
+    - Highgrade Royal Heavy Cap
+    - Mantle 53 (Dfs +100, Spl Dfs +37)
+  - - 6,75%
+    - ''
+    - Good Royal Iron Gloves
+    - Garment 52 (Dfs +90, Spl Dfs +12, Rig.+57)
+  - - 4,08%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,66%
+    - ''
+    - Scale Cap
+    - Mantle 53 (Dfs +131, Spl Dfs +43)
+  - - 0,66%
+    - ''
+    - Knight Gloves
+    - Garment 52 (Dfs +118, Spl Dfs +14, Rig.+67)
+  row_count: 8

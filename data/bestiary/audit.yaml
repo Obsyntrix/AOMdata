@@ -1,0 +1,1462 @@
+dataset: aomega_bestiary
+audit_kind: derived_graph_and_source_completeness
+source_snapshot_counts:
+  summary_documents: 4
+  expected_area_pages: 159
+  captured_area_pages: 131
+  expected_monster_detail_pages: 1922
+  captured_historical_monster_detail_pages: 715
+crawl_report_counts:
+  summary_documents: 3
+  discovered_area_pages: 157
+  captured_area_pages: 129
+  newly_captured_area_pages: 0
+  unresolved_area_pages: 28
+  discovered_monster_detail_pages: 1918
+  captured_monster_detail_pages: 0
+  newly_captured_monster_detail_pages: 0
+  unresolved_monster_detail_pages: 1918
+  summary_appearances: 1997
+  areas_indexed: 157
+  levels_indexed: 291
+  unique_monster_names: 1928
+  unique_item_names: 2003
+  boss_appearances: 464
+  drop_source_rows: 8127
+wayback_recovery_counts:
+  expected_from_legacy_bestiary: 1922
+  existing_before_run: 0
+  looked_up_this_run: 1922
+  archive_snapshots_found_this_run: 725
+  captured_this_run: 715
+  captured_total: 715
+  remaining_expected: 1207
+  no_snapshot_found_this_run: 1197
+  snapshot_fetch_failed_this_run: 10
+index_counts:
+  areas: 159
+  levels: 291
+  monster_names: 2037
+  items: 2678
+  boss_appearances: 464
+  drop_source_rows: 14358
+item_source_linkage:
+  exact_rows: 5189
+  ambiguous_rows: 2706
+  unresolved_rows: 6463
+  resolution_status_counts:
+    ambiguous_global: 181
+    ambiguous_local: 2525
+    exact_name_local_area: 5149
+    exact_name_unique_global: 40
+    unresolved_name: 6463
+  source_kind_counts:
+    area_zone_drops: 8127
+    monster_page_drop_table: 6231
+  rate_semantic_counts:
+    monster_drop_table_share: 6231
+    zone_drop_share: 8127
+  raw_rate_unknown_or_question_mark_rows: 1093
+  items_with_multiple_source_observations: 1900
+monster_name_reuse:
+  names_with_multiple_appearances: 282
+  names_with_multiple_levels: 76
+  names_with_multiple_areas: 76
+  note: Name reuse is evidence to preserve, not a request to merge records.
+retrieval_gaps:
+  missing_area_pages: 28
+  missing_historical_monster_detail_pages: 1207
+  missing_area_slugs:
+  - bayan-village
+  - branch-way
+  - buzzing-stopover
+  - deserted-ruins
+  - dinosaur-area
+  - drip-drop-passage
+  - flamefang-sanctum
+  - floral-palace
+  - fragant-courtyard
+  - hell-mahal-altar
+  - hell-siam-square
+  - jade-garden
+  - joaquin
+  - leviathans-bedroom
+  - lost-trail
+  - mahal-altar
+  - mariam-waterway
+  - paua-shell-harbor
+  - queen-bee-hideout
+  - rave-riverpoint
+  - razorex-temple
+  - scrap-iron-works
+  - shuwa-market
+  - siam-square
+  - sleepy-spring
+  - sylvan-gardens
+  - transient-waters
+  - whitefang-village
+  missing_monster_slugs_sample:
+  - abyssal-drakos
+  - accursed-damon
+  - accursed-dino
+  - admonicorn
+  - adv-mech-soldier-x
+  - adventude-chair
+  - aerial-assassin
+  - all-seeing-eye-philosphin
+  - aloevera
+  - ambassador-of-magic-dragon
+  - amber-jester
+  - amber-lion
+  - amethycorn
+  - amphibian-thorny
+  - amphibian-thorny-dragon
+  - ancient-anuxis
+  - ancient-crustace
+  - ancient-crustacean
+  - ancient-mosquito
+  - ancient-thorny-dragon
+  - ancient-thorny-turtle
+  - angry-rabito
+  - aqua-clam
+  - aquaria-brute
+  - aquatic-hunter
+  - aquazard
+  - arcana-toridos
+  - arcane-blader
+  - arcane-kayote
+  - armored-caine
+  - armored-horned-dragon
+  - aromatic-honey-jar
+  - arrogant-beast
+  - arrogant-beastman
+  - ashen-mudmon
+  - assassin-bamboo-cin
+  - attack-quick-dragon
+  - autumn-deerman
+  - awkward-lass
+  - azure-peach
+  - azurei
+  - baby-croc
+  - baby-pearl
+  - bald-wanderer
+  - banana-diva
+  - barbaleaf-clubber
+  - barbazard
+  - barren-barbarian
+  - barren-spearman
+  - barren-warrior
+  - bat-yaksha
+  - beast-brahma
+  - beast-guardian
+  - beetlesap-duke
+  - bellarella
+  - belly-crocodile
+  - berry-bun
+  - berry-hammie
+  - berry-owl
+  - berry-sandwich-goblin
+  - berry-soldier
+  - berserker-brad
+  - beryl-pixie
+  - beryl-ranger
+  - big-name-orang
+  - big-piggy
+  - bigfist-monkey
+  - bihorn-crocodiles
+  - bitter-survivor
+  - blaboo-warrior
+  - black-kappa-soldier
+  - black-widow-bari
+  - blade-dragon-rid
+  - blond-spider
+  - blonde-brandon
+  - blood-mozzie
+  - bloodlust-fern
+  - bloodthirsty-fly
+  - bloody-croc
+  - bloody-crocodile
+  - bloody-thorn-dragon
+  - blotzie
+  - blue-budsie
+  - blue-cat-mask
+  - blue-mushiroom
+  - blue-rabbit
+  - blue-sand-baby
+  - bluebarry-warrior
+  - bluebeat-knight
+  - blueberry-baby
+  - blueberry-collector
+  - blueberry-onigiri
+  - blueberry-warrior
+  - blueflame-pup
+  - bluegrass-elf
+  - bluegrass-king-singa
+  - bluesea-monkey
+  - bonfur
+  - bottlecap-butler
+  - bouncy-leafball
+  - bound-samurai
+  - brass-colossus
+  - brave-paws
+  - bravepaws
+  - brawler-wolf
+  - bronze-beetlebot
+  - brown-draconan
+  - brutal-ape
+  - bud-dragon
+  - bud-elf
+  - bug-king-wartoz
+  - bunsen-mudmon
+  - bunsen-sprite
+  - buzzfly
+  - cacaou
+  - cake-bun
+  - can-snail
+  - canal-diver
+  - candy-priest
+  - candy-witch
+  - captain-banjeowl
+  - captain-bluie
+  - captain-slashazard
+  - caramel-pudding-fighter
+  - carnival-elephant
+  - carnivore-clam
+  - carpenter-piggy
+  - carrot-cook
+  - carrot-farmer
+  - carved-vase-gnome
+  - cavendish-dancer
+  - chainsaw-melono
+  - champion-bun
+  - charatos
+  - charming-clyde
+  - cheeky-squirrel
+  - cheery-charlie
+  - cheese-warrior
+  - chef-carrot
+  - chef-hoppler
+  - cherry-sprite
+  - cherubic-babe
+  - chickaspark
+  - chickdandy
+  - chickpet
+  - chickren
+  - chief-cheese-warrior
+  - chief-fruit-spearman
+  - chief-syreno
+  - chikaclass
+  - chikadrum
+  - chikahop
+  - chikahorn
+  - chill-collin
+  - chillihot-dog
+  - chive-dumpling
+  - chrysaleaf-clubber
+  - circus-jester
+  - clawed-swift-dragon
+  - clay-gobbler
+  - clock-lady
+  - clover-elf
+  - club-spearman
+  - clumsy-croc
+  - cobalt-crocodile
+  - coldhearted-ape
+  - colorful-snail
+  - cook-corrat
+  - cooked-cornie
+  - cool-blue-doggo
+  - cool-kitty
+  - copper-wolf-mask
+  - corarei
+  - court-jester
+  - crab-gabe
+  - crazy-jester
+  - creepy-doll
+  - crimson-thicket
+  - cruel-fiend
+  - cruel-friend
+  - crusadizard
+  - crying-red-onion
+  - cryptic-vince
+  - crystal-clear-thorn
+  - crystal-clear-thorny-dragon
+  - crystal-dragon-turtle
+  - crystal-indigo
+  - crystal-shrimp
+  - crystalix
+  - cuckoo-clock
+  - curly-grass
+  - cursed-princess
+  - cutter-meister
+  - cyan-clamshell
+  - dacca-dancer
+  - daisy-sprite
+  - dark-fighter
+  - dark-jumpy-brolly
+  - datty-soldier
+  - daylily
+  - deadly-brach
+  - death-jester
+  - deathly-torcher
+  - decayed-trooper
+  - deep-sea-croc
+  - demon-snail-olo
+  - demon-tower-dancer
+  - dendrobium
+  - desert-gangster
+  - dessert-fruit-fly
+  - devil-s-snar
+  - devil-s-snare
+  - devilish-datura
+  - dewy-tigra
+  - diamond-spearman
+  - diamond-wang
+  - disaster-diffuser
+  - disaster-disseminator
+  - diva-banasis
+  - diver-croc
+  - double-winged-gargoyle
+  - dougard
+  - dragan-the-guard
+  - dragon-blader
+  - dragonfruit-porcupine
+  - dream-fowl
+  - dreamland-cradle
+  - dreamland-cradle-rex
+  - drifting-droplet
+  - drifting-flutterfae
+  - drowsicoo
+  - dull-spider
+  - e-amber-jester
+  - e-berry-bun
+  - e-brave-paws
+  - e-cake-bun
+  - e-candy-priest
+  - e-carrot-farmer
+  - e-chef-hoppler
+  - e-clock-lady
+  - e-court-jester
+  - e-cruel-fiend
+  - e-crystalix
+  - e-fossil-rex
+  - e-gloomy-palm
+  - e-hammer-rabbit
+  - e-husky-cowboy
+  - e-icy-sybil
+  - e-kitty-baron
+  - e-lovebirb
+  missing_monster_slugs_sample_truncated: true
+unresolved_item_source_examples:
+- item_name_raw: '?'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: '?'
+  source_kind: monster_page_drop_table
+- item_name_raw: '?'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: '?'
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan 2:Wit Staff
+  monster_name_raw: Evil Cook Beelzebub 2
+  area_id: magic-kitchen-path
+  rate_raw: 0.04%
+  source_kind: area_zone_drops
+- item_name_raw: A.Plan 2:Wit Staff
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.04%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Angel Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,13%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Angel Cuff'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Angel Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Black Knight''s Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,26%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Black Knight''s Cuff'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Black Knights Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,32%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Black Knights Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Crusader''s Shield'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,32%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Faquir Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,32%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Faquir Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,26%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Faquir Gloves'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Faquir Gloves'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Faquir Mirror'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Guard Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.06%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Guard Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,18%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Guard Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.56%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Guard Cuffs'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.18%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Guard Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,12%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Fire Scale Cuffs'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.019%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.02%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1.41%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Cuffs'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,37%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Cuffs'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.56%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.08%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hermit Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1,11%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.37%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,39%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.04%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Boots'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,39%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Cuffs'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.04%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Hunter Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,03%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Husk Shield'
+  monster_name_raw: Death Killer Camote
+  area_id: ancient-glide-river
+  rate_raw: 0.0575%
+  source_kind: area_zone_drops
+- item_name_raw: 'A.Plan2: Lion Shield'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1,53%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Paladin Armor'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,13%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Paladin Cuff'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Paladin Helmet'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Power Shield'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.18%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Rotten Shield'
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.04%
+  source_kind: monster_page_drop_table
+- item_name_raw: 'A.Plan2: Wildness Helmet'
+  monster_name_raw: Death Killer Camote
+  area_id: ancient-glide-river
+  rate_raw: 0.0575%
+  source_kind: area_zone_drops
+- item_name_raw: A.Plan2:Angel Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Black Knight's Cuff
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,28%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,80%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Man-eating Crocodile
+  area_id: secret-den
+  rate_raw: 0,40%
+  source_kind: area_zone_drops
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,80%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.78%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.78%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,08%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Helmet
+  monster_name_raw: Man-eating Crocodile
+  area_id: secret-den
+  rate_raw: 0,40%
+  source_kind: area_zone_drops
+- item_name_raw: A.Plan2:Chief Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.7%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 2,06%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,34%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.7%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.7%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.79%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,19%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Chief Legguard
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,03%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Conqueror Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.25%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Conqueror Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.39%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Conqueror Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.38%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Elf Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.39%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Espial Bracers
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,39%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Espial Bracers
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,06%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Fire Guard Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,71%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Fire Scale Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: ?,?%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Fire Scale Cuffs
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Fire Scale Helmet
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.8%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.79%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,04%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,26%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,40%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Flood Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.79%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Hunter Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: ?,?%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Husk Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.38%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Husk Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.37%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Husk Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.37%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Lion Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,95%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Paladin Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,35%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Power Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1,41%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Rotten Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 1.04%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Ruby Shield
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,04%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.51%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,89%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.07%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.02%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Armor
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.77%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.76%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,39%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.77%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0,05%
+  source_kind: monster_page_drop_table
+- item_name_raw: A.Plan2:Saint Boots
+  monster_name_raw: Angels Online Wiki
+  area_id: null
+  rate_raw: 0.9%
+  source_kind: monster_page_drop_table
+ambiguous_item_source_examples:
+- item_name_raw: A.Plan2:Conqueror Cuffs
+  monster_name_raw: Crystal Spirit A
+  area_id: lost-cove
+  rate_raw: 0.05%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: A.Plan2:Conqueror Cuffs
+  monster_name_raw: Thunder Master
+  area_id: pharaoh-village
+  rate_raw: 0.39%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: A.Plan2:Wildness Armor
+  monster_name_raw: Crystal Spirit A
+  area_id: lost-cove
+  rate_raw: 0.05%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Adas's Blade
+  monster_name_raw: Hungry Fly
+  area_id: magic-kitchen-path
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Adas's Blade
+  monster_name_raw: Poo Poo Demon
+  area_id: magic-kitchen-path
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Adas's Blade
+  monster_name_raw: Fire Barft
+  area_id: thorn-wasteland
+  rate_raw: 0.0007%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Advanced Shot V
+  monster_name_raw: Slave Driver
+  area_id: sad-abyss
+  rate_raw: 0.0130%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Agamem's Rage
+  monster_name_raw: Pyramid Slave
+  area_id: dune-oasis
+  rate_raw: 0.0000%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Agility Potion
+  monster_name_raw: Blue Potec
+  area_id: cherry-village
+  rate_raw: 15.1504%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Agility Potion
+  monster_name_raw: Evil Crab
+  area_id: cherry-village
+  rate_raw: 18.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Agility Potion
+  monster_name_raw: Crazy Babi
+  area_id: foggy-forest
+  rate_raw: 18.6915%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Evil Wind Elf
+  area_id: deity-palace-ruins
+  rate_raw: 0.0044%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Theurgy Master
+  area_id: fiery-path
+  rate_raw: 0.0098%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Fog Lizard
+  area_id: foggy-forest
+  rate_raw: 0.0608%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Lizard Chief
+  area_id: foggy-forest
+  rate_raw: 0.9378%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Theurgy Master
+  area_id: lava-cave
+  rate_raw: 0.0098%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Evil Nazarite
+  area_id: quiet-vale
+  rate_raw: 0.0608%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Lake Slarm
+  area_id: south-of-mirror-lake
+  rate_raw: 0.0608%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Fallen Angel
+  area_id: thorn-wasteland
+  rate_raw: 0.0661%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Cap
+  monster_name_raw: Fallen Angel
+  area_id: thunder-ruins
+  rate_raw: 0.0661%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Gown
+  monster_name_raw: Crazy Babi
+  area_id: foggy-forest
+  rate_raw: 1.0925%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Gown
+  monster_name_raw: Cursed Ghost Kid
+  area_id: foggy-forest
+  rate_raw: 0.0709%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Gown
+  monster_name_raw: Wild Lizardman
+  area_id: quiet-vale
+  rate_raw: 0.0709%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Alchemic Gown
+  monster_name_raw: Lake Deathwood
+  area_id: south-of-mirror-lake
+  rate_raw: 0.0709%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Armor
+  monster_name_raw: Rock Slarm
+  area_id: flaming-door
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Armor
+  monster_name_raw: Rock Slarm
+  area_id: lava-cave
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Crab General
+  area_id: colorful-coral-reefs
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Evil Flower
+  area_id: fiery-path
+  rate_raw: 0.0006%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Terra Lampman
+  area_id: fiery-path
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Evil Flower
+  area_id: flaming-door
+  rate_raw: 0.0006%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Terra Lampman
+  area_id: flaming-door
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Evil Flower
+  area_id: lava-cave
+  rate_raw: 0.0006%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Terra Lampman
+  area_id: lava-cave
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Boots
+  monster_name_raw: Crab General
+  area_id: shining-coast
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Cuffs
+  monster_name_raw: Crab General
+  area_id: colorful-coral-reefs
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Cuffs
+  monster_name_raw: Evil Knight
+  area_id: fiery-path
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Cuffs
+  monster_name_raw: Evil Knight
+  area_id: flaming-door
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Cuffs
+  monster_name_raw: Crab General
+  area_id: shining-coast
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Helmet
+  monster_name_raw: Soul-eating Demon
+  area_id: magic-kitchen-path
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Helmet
+  monster_name_raw: Puqi Pirate
+  area_id: shining-coast
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Anchoret Helmet
+  monster_name_raw: Puqi Pirate Leader
+  area_id: shining-coast
+  rate_raw: 0,37%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Bow
+  monster_name_raw: Sea Shark
+  area_id: blue-ocean
+  rate_raw: 0.0505%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Bow
+  monster_name_raw: Sea Shark
+  area_id: dream-ocean
+  rate_raw: 0.0505%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Bow
+  monster_name_raw: Sea Shark
+  area_id: raging-reefs
+  rate_raw: 0.0505%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Soldier card
+  monster_name_raw: Ancient Soldier
+  area_id: dragon-graveyard
+  rate_raw: 0.0600%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Wings Shield
+  monster_name_raw: Sea Shark
+  area_id: blue-ocean
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Wings Shield
+  monster_name_raw: Sea Shark
+  area_id: dream-ocean
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Wings Shield
+  monster_name_raw: Hicalu Machine
+  area_id: lost-region
+  rate_raw: 0.0036%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Ancient Wings Shield
+  monster_name_raw: Sea Shark
+  area_id: raging-reefs
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel Knights Shield
+  monster_name_raw: Fly
+  area_id: fiery-path
+  rate_raw: 0.0006%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel Knights Shield
+  monster_name_raw: Poo Poo Demon
+  area_id: magic-kitchen-path
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Angel Knights Shield
+  monster_name_raw: Savage Chief Apu
+  area_id: thorn-wasteland
+  rate_raw: 0.0630%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel Knights Shield
+  monster_name_raw: Savage Priest
+  area_id: thorn-wasteland
+  rate_raw: 0.0006%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel Wings
+  monster_name_raw: Crazy Babi
+  area_id: foggy-forest
+  rate_raw: 0.6373%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel Wings
+  monster_name_raw: Lizard Chief
+  area_id: foggy-forest
+  rate_raw: 0.5471%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel's Blessing
+  monster_name_raw: Mirror Elf
+  area_id: deity-palace-ruins
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel's Blessing
+  monster_name_raw: Gold Fly
+  area_id: fiery-path
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel's Blessing
+  monster_name_raw: Gold Fly
+  area_id: lava-cave
+  rate_raw: 0.0002%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel's Blessing
+  monster_name_raw: Moon Berry Elf
+  area_id: river-valley
+  rate_raw: 0.2302%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angel's Blessing
+  monster_name_raw: Puqi Pirate
+  area_id: shining-coast
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gloves
+  monster_name_raw: Nest Tree Elf
+  area_id: dense-forest
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gloves
+  monster_name_raw: Red-cloth Skull
+  area_id: shadowy-path
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gloves
+  monster_name_raw: Jackstraw
+  area_id: spike-farm
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gloves
+  monster_name_raw: Ocher Toad
+  area_id: wishing-tear
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gown
+  monster_name_raw: Imp
+  area_id: fungus-forest-south
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gown
+  monster_name_raw: Mane Boar
+  area_id: mushroom-forest
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gown
+  monster_name_raw: Buccinal Robot
+  area_id: scrap-iron-village
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Gown
+  monster_name_raw: Evil Slarm
+  area_id: sunflower-plain
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Hood
+  monster_name_raw: Paopao
+  area_id: fungus-forest-south
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Hood
+  monster_name_raw: Red Mushroom
+  area_id: mushroom-forest
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Hood
+  monster_name_raw: Radiant Slarm
+  area_id: scrap-iron-village
+  rate_raw: 0.0083%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Sandals
+  monster_name_raw: Wild Lily
+  area_id: cryptic-moon-swamp
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Sandals
+  monster_name_raw: Wild Lily
+  area_id: dense-forest
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Sandals
+  monster_name_raw: Skeletal Sniper
+  area_id: shadowy-path
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Sandals
+  monster_name_raw: Pumpkin
+  area_id: spike-farm
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Angelos Sandals
+  monster_name_raw: Desert Lizard
+  area_id: wishing-tear
+  rate_raw: 0.0063%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Anima War Hammer
+  monster_name_raw: Small Kitty Tower
+  area_id: niro-river
+  rate_raw: 0.0217%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Antique Rapier
+  monster_name_raw: Crybaby
+  area_id: fungus-forest-south
+  rate_raw: 0.0105%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Antique Rapier
+  monster_name_raw: Purple Mushroom
+  area_id: mushroom-forest
+  rate_raw: 0.0105%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Antique Rapier
+  monster_name_raw: Fat Robot
+  area_id: scrap-iron-village
+  rate_raw: 0.0105%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Antique Rapier
+  monster_name_raw: Tone Sheep
+  area_id: sunflower-plain
+  rate_raw: 0.0105%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Apocal's Attack
+  monster_name_raw: Green-Shelled Holy Beetle
+  area_id: niro-river
+  rate_raw: 0.0000%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Archer Hood
+  monster_name_raw: Paopao
+  area_id: fungus-forest-south
+  rate_raw: 0.4986%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Archer Hood
+  monster_name_raw: Red Mushroom
+  area_id: mushroom-forest
+  rate_raw: 0.4986%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Archer Hood
+  monster_name_raw: Radiant Slarm
+  area_id: scrap-iron-village
+  rate_raw: 0.4986%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Aries Judge
+  monster_name_raw: Palm Tree Stoneman
+  area_id: karang-desert
+  rate_raw: 0.0001%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: 'Armor II: Ruby Shield'
+  monster_name_raw: Mutated Hornet
+  area_id: dune-oasis
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: 'Armor II: Wild Beast Cuffs'
+  monster_name_raw: Copper Wolf Mask
+  area_id: dune-oasis
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: 'Armor II: Wild Beast Helmet'
+  monster_name_raw: Violet Wolf Mask
+  area_id: dune-oasis
+  rate_raw: 0.0003%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: 'Armor II: Wild Beast Helmet'
+  monster_name_raw: Pyramid Dancer Natis
+  area_id: niro-river
+  rate_raw: 0.0605%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Army Knife
+  monster_name_raw: Hungry Fly
+  area_id: magic-kitchen-path
+  rate_raw: 0.0135%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Army Knife
+  monster_name_raw: Poo Poo Demon
+  area_id: magic-kitchen-path
+  rate_raw: 0.0135%
+  source_kind: area_zone_drops
+  candidate_count: 3
+- item_name_raw: Army Knife
+  monster_name_raw: Fire Barft
+  area_id: thorn-wasteland
+  rate_raw: 0.0412%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Artemis's Chase
+  monster_name_raw: Sand Scorpion King Sylarcat
+  area_id: karang-desert
+  rate_raw: 0.0029%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Aurora's Prediction
+  monster_name_raw: Lime Sand King Bitu
+  area_id: karang-desert
+  rate_raw: 0.0039%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Axe
+  monster_name_raw: Wildwolf
+  area_id: training-palace
+  rate_raw: 0.2100%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Azog's Legend
+  monster_name_raw: Demon Tower Dancer
+  area_id: dune-oasis
+  rate_raw: 0.0000%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Basic Attack V
+  monster_name_raw: Blue Potec
+  area_id: cherry-village
+  rate_raw: 1.8304%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Basic Attack V
+  monster_name_raw: Evil Crab
+  area_id: cherry-village
+  rate_raw: 1.5358%
+  source_kind: area_zone_drops
+  candidate_count: 2
+- item_name_raw: Basic Beating V
+  monster_name_raw: Blue Potec
+  area_id: cherry-village
+  rate_raw: 1.8304%
+  source_kind: area_zone_drops
+  candidate_count: 2
+pass_conditions:
+  all_discovered_area_pages_accounted_for: false
+  all_discovered_historical_monster_pages_accounted_for: false
+  no_unresolved_item_source_names: false
+  indexes_nonempty: true
+notes:
+- Coverage is computed from files actually preserved in the repository, not from a crawler's transient in-memory count.
+- Ambiguous links are not silently collapsed because same-name monsters can represent multiple source observations.
+- Question-mark rates are preserved source values and are not treated as parsing failures.
+- The 2026 aowiki.uk client-derived monster database is intentionally excluded from historical-monster coverage.
+- Target-client verification remains a separate AOmega preservation step.

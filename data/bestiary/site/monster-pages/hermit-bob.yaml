@@ -1,0 +1,194 @@
+monster_page:
+  id: hermit-bob
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hermit-bob
+    retrieval_url: https://web.archive.org/web/20200215125453id_/http://angels.wikidot.com:80/monster:hermit-bob
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200215125453'
+    archive_snapshot_url: https://web.archive.org/web/20200215125453/http://angels.wikidot.com:80/monster:hermit-bob
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hermit-bob
+    source_html_sha256: 07534c076ea49fd4e7bbbbc133cb0f0ca6898a9af90855d0bcfd4f7b536e4207
+fields_raw:
+  Name: 'Spells:'
+  Hermit Bob: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '95'
+  Hit Points: '43000'
+  Rigor: '587'
+  Agility: '309'
+  Attack: '1230'
+  Defense: '1374'
+  Spell Attack: '1151'
+  Spell Defense: '682'
+  Special Attack: +55 Lightning
+  Special Defense: +75 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: '?'
+  Experience: '31852'
+  Gold: '?'
+item_drop_chance_raw: '?'
+drops:
+- drop_id: hermit-bob__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: '?'
+  chance_to_drop_raw: '?'
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: '?'
+    Icon: ''
+    Item: '?'
+    Short info: '?'
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: hermit-bob__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: '?'
+  chance_to_drop_raw: '?'
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: '?'
+    Icon: ''
+    Item: '?'
+    Short info: '?'
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hermit Bob
+  - ''
+  rows_raw:
+  - - Name
+    - Hermit Bob
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '43000'
+    - '587'
+    - '309'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1230'
+    - '1374'
+    - '1151'
+    - '682'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +55 Lightning
+    - +75 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - '?'
+    - '31852'
+    - '?'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - '?'
+    - ''
+    - '?'
+    - '?'
+  - - '?'
+    - ''
+    - '?'
+    - '?'
+  row_count: 3

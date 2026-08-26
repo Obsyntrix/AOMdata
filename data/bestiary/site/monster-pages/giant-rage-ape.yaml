@@ -1,0 +1,320 @@
+monster_page:
+  id: giant-rage-ape
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:giant-rage-ape
+    retrieval_url: https://web.archive.org/web/20120815013524id_/http://angels.wikidot.com:80/monster:giant-rage-ape
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20120815013524'
+    archive_snapshot_url: https://web.archive.org/web/20120815013524/http://angels.wikidot.com:80/monster:giant-rage-ape
+    archive_original_lookup_url: https://angels.wikidot.com/monster:giant-rage-ape
+    source_html_sha256: 802ec0c992c5e298e8e0a897b92cd4cac65c5ef367dd68870f06605c993ec0d3
+fields_raw:
+  Name: 'Spells:'
+  Giant Rage Ape: '-'
+  'Spells:': 'Location:'
+  '-': Waterfall Camp
+  Type: '-'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '85'
+  Hit Points: '-'
+  Rigor: '-'
+  Agility: '-'
+  Attack: '712'
+  Defense: '1027'
+  Spell Attack: '605'
+  Spell Defense: '331'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '-'
+  Speed: '-'
+  Attack Speed: '-'
+  Critical: '-'
+  Stamina: '-'
+  Soul: '-'
+  Item Drop Chance: 0.05%
+  Experience: '1077'
+  Gold: 294-374
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: giant-rage-ape__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Boots
+  chance_to_drop_raw: 47,85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,85%
+    Icon: ''
+    Item: Saint Boots
+    Short info: Garment lv96
+  normalized:
+    chance_to_drop_percent: 47.85
+    quantity: null
+- drop_id: giant-rage-ape__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Bracers
+  chance_to_drop_raw: 47,85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,85%
+    Icon: ''
+    Item: Espial Bracers
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: 47.85
+    quantity: null
+- drop_id: giant-rage-ape__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Boots
+  chance_to_drop_raw: 1,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,18%
+    Icon: ''
+    Item: Good Saint Boots
+    Short info: Garment lv96
+  normalized:
+    chance_to_drop_percent: 1.18
+    quantity: null
+- drop_id: giant-rage-ape__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Bracers
+  chance_to_drop_raw: 1,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,18%
+    Icon: ''
+    Item: Good Espial Bracers
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: 1.18
+    quantity: null
+- drop_id: giant-rage-ape__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,18%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: lv80 Gem
+  normalized:
+    chance_to_drop_percent: 1.18
+    quantity: null
+- drop_id: giant-rage-ape__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Boots
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Saint Boots
+    Short info: adv.pans for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: giant-rage-ape__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Espial Bracers
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Espial Bracers
+    Short info: adv.plans for tailors
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: giant-rage-ape__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Bracers
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: Magnetic Bracers
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: giant-rage-ape__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Boots
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: Holy Guard Boots
+    Short info: Garment lv96
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Giant Rage Ape
+  - ''
+  rows_raw:
+  - - Name
+    - Giant Rage Ape
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Waterfall Camp
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '-'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '-'
+    - '-'
+    - '-'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '712'
+    - '1027'
+    - '605'
+    - '331'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '-'
+    - '-'
+    - '-'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '-'
+    - '-'
+    - '-'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '1077'
+    - 294-374
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,85%
+    - ''
+    - Saint Boots
+    - Garment lv96
+  - - 47,85%
+    - ''
+    - Espial Bracers
+    - Vestment lv96
+  - - 1,18%
+    - ''
+    - Good Saint Boots
+    - Garment lv96
+  - - 1,18%
+    - ''
+    - Good Espial Bracers
+    - Vestment lv96
+  - - 1,18%
+    - ''
+    - Flawless Yellow Gem
+    - lv80 Gem
+  - - 0,39%
+    - ''
+    - A.Plan2:Saint Boots
+    - adv.pans for armorsmith
+  - - 0,39%
+    - ''
+    - A.Plan2:Espial Bracers
+    - adv.plans for tailors
+  - - ?.??%
+    - ''
+    - Magnetic Bracers
+    - Vestment lv96
+  - - ?.??%
+    - ''
+    - Holy Guard Boots
+    - Garment lv96
+  row_count: 10

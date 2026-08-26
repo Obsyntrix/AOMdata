@@ -1,0 +1,302 @@
+monster_page:
+  id: sentry-attk-tower
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sentry-attk-tower
+    retrieval_url: https://web.archive.org/web/20100813182404id_/http://angels.wikidot.com:80/monster:sentry-attk-tower
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100813182404'
+    archive_snapshot_url: https://web.archive.org/web/20100813182404/http://angels.wikidot.com:80/monster:sentry-attk-tower
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sentry-attk-tower
+    source_html_sha256: a185991600cd5198acf9a4aedeb4a210b1b6f32837d013ea2368bea01e7d1361
+fields_raw:
+  Name: 'Spells:'
+  Sentry Attk Tower: '-'
+  'Spells:': 'Location:'
+  '-': Troop Outpost
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: sentry-attk-tower__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Hood
+  chance_to_drop_raw: 47.76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.76%
+    Icon: ''
+    Item: Espial Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.76
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Shield
+  chance_to_drop_raw: 47.76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.76%
+    Icon: ''
+    Item: Symbol Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.76
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEspial Hood
+  chance_to_drop_raw: 1.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.19%
+    Icon: ''
+    Item: GoodEspial Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSymbol Shield
+  chance_to_drop_raw: 1.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.19%
+    Icon: ''
+    Item: GoodSymbol Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Hat
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Magnetic Hat
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Seagod's Eye
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Seagod's Eye
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Symbol Shield
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: A.Plan2:Symbol Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: sentry-attk-tower__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 1.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.19%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sentry Attk Tower
+  - ''
+  rows_raw:
+  - - Name
+    - Sentry Attk Tower
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Troop Outpost
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.76%
+    - ''
+    - Espial Hood
+    - ITEM NOTES
+  - - 47.76%
+    - ''
+    - Symbol Shield
+    - ITEM NOTES
+  - - 1.19%
+    - ''
+    - GoodEspial Hood
+    - ITEM NOTES
+  - - 1.19%
+    - ''
+    - GoodSymbol Shield
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Magnetic Hat
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Seagod's Eye
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - A.Plan2:Symbol Shield
+    - ITEM NOTES
+  - - 1.19%
+    - ''
+    - Clean Ruby
+    - ITEM NOTES
+  row_count: 9

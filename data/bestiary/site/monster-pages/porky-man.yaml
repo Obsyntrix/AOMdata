@@ -1,0 +1,338 @@
+monster_page:
+  id: porky-man
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:porky-man
+    retrieval_url: https://web.archive.org/web/20191110070305id_/http://angels.wikidot.com:80/monster:porky-man
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191110070305'
+    archive_snapshot_url: https://web.archive.org/web/20191110070305/http://angels.wikidot.com:80/monster:porky-man
+    archive_original_lookup_url: https://angels.wikidot.com/monster:porky-man
+    source_html_sha256: d4731d85863be73b62bb5aec7b8d88dd5f9ff0b447fe1e3fdcb76da2243c3d35
+fields_raw:
+  Name: 'Spells:'
+  Porky Man: '-'
+  'Spells:': 'Location:'
+  '-': Memory Cave
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '30'
+  Hit Points: '989'
+  Rigor: '162'
+  Agility: '102'
+  Attack: '213'
+  Defense: '273'
+  Spell Attack: '212'
+  Spell Defense: '120'
+  Special Attack: Fire +15
+  Special Defense: '5'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (75)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,09%
+  Experience: '247'
+  Gold: 58 - 88 (73)
+item_drop_chance_raw: 1,09%
+drops:
+- drop_id: porky-man__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Iron Slingshot
+  chance_to_drop_raw: 34,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34,26%
+    Icon: ''
+    Item: Traveller Iron Slingshot
+    Short info: Bow Lvl 25 (Atk 42-54 (48), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 34.26
+    quantity: null
+- drop_id: porky-man__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Token
+  chance_to_drop_raw: 34,26%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34,26%
+    Icon: ''
+    Item: Traveller Token
+    Short info: Staff Lvl 25 (Atk 44-60 (52), Spl Atk +29, Rig.+4)
+  normalized:
+    chance_to_drop_percent: 34.26
+    quantity: null
+- drop_id: porky-man__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 18,3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,3%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 18.3
+    quantity: null
+- drop_id: porky-man__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Iron Slingshot
+  chance_to_drop_raw: 5,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,71%
+    Icon: ''
+    Item: Good Traveller Iron Slingshot
+    Short info: Bow Lvl 25 (Atk 79-91 (85), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 5.71
+    quantity: null
+- drop_id: porky-man__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Token
+  chance_to_drop_raw: 5,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,71%
+    Icon: ''
+    Item: Good Traveller Token
+    Short info: Staff Lvl 25 (Atk 83-99 (91), Spl Atk +60, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 5.71
+    quantity: null
+- drop_id: porky-man__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Puppet Electrical Bow
+  chance_to_drop_raw: 0,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,57%
+    Icon: ''
+    Item: Puppet Electrical Bow
+    Short info: Bow Lvl 25 (Atk 129-141 (135), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 0.57
+    quantity: null
+- drop_id: porky-man__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whitle Token
+  chance_to_drop_raw: 0,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,57%
+    Icon: ''
+    Item: Whitle Token
+    Short info: Staff Lvl 25 (Atk 135-151 (143), Spl Atk +102, Rig.+9)
+  normalized:
+    chance_to_drop_percent: 0.57
+    quantity: null
+- drop_id: porky-man__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: porky-man__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: porky-man__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Porky Man
+  - ''
+  rows_raw:
+  - - Name
+    - Porky Man
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Memory Cave
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '30'
+    - '989'
+    - '162'
+    - '102'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '213'
+    - '273'
+    - '212'
+    - '120'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +15
+    - '5'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (75)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,09%
+    - '247'
+    - 58 - 88 (73)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 34,26%
+    - ''
+    - Traveller Iron Slingshot
+    - Bow Lvl 25 (Atk 42-54 (48), Rig.+9)
+  - - 34,26%
+    - ''
+    - Traveller Token
+    - Staff Lvl 25 (Atk 44-60 (52), Spl Atk +29, Rig.+4)
+  - - 18,3%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 5,71%
+    - ''
+    - Good Traveller Iron Slingshot
+    - Bow Lvl 25 (Atk 79-91 (85), Rig.+14)
+  - - 5,71%
+    - ''
+    - Good Traveller Token
+    - Staff Lvl 25 (Atk 83-99 (91), Spl Atk +60, Rig.+7)
+  - - 0,57%
+    - ''
+    - Puppet Electrical Bow
+    - Bow Lvl 25 (Atk 129-141 (135), Rig.+19)
+  - - 0,57%
+    - ''
+    - Whitle Token
+    - Staff Lvl 25 (Atk 135-151 (143), Spl Atk +102, Rig.+9)
+  - - 0,21%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  - - 0,21%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,21%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  row_count: 11

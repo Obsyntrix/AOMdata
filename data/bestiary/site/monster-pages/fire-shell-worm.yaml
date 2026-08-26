@@ -1,0 +1,320 @@
+monster_page:
+  id: fire-shell-worm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fire-shell-worm
+    retrieval_url: https://web.archive.org/web/20170105043126id_/http://angels.wikidot.com:80/monster:fire-shell-worm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170105043126'
+    archive_snapshot_url: https://web.archive.org/web/20170105043126/http://angels.wikidot.com:80/monster:fire-shell-worm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fire-shell-worm
+    source_html_sha256: 28d57f7e0d5a395c3af79679da21b81d84c297e247a04f7972c1adf2780ec064
+fields_raw:
+  Name: 'Spells:'
+  Fire-shell Worm: '-'
+  'Spells:': 'Location:'
+  '-': Secret Den
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '87'
+  Hit Points: '3593'
+  Rigor: '446'
+  Agility: '273'
+  Attack: '742'
+  Defense: '1070'
+  Spell Attack: '621'
+  Spell Defense: '339'
+  Special Attack: +43 Rotten
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '1077'
+  Gold: 320 - 398 (359)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: fire-shell-worm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Armor
+  chance_to_drop_raw: 48,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,17%
+    Icon: ''
+    Item: Chief Armor
+    Short info: Garment 89lv
+  normalized:
+    chance_to_drop_percent: 48.17
+    quantity: null
+- drop_id: fire-shell-worm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Legguard
+  chance_to_drop_raw: 48,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,17%
+    Icon: ''
+    Item: Chief Legguard
+    Short info: Garment 87v
+  normalized:
+    chance_to_drop_percent: 48.17
+    quantity: null
+- drop_id: fire-shell-worm__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Armor
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Chief Armor
+    Short info: Garment 89lv
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: fire-shell-worm__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Legguard
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Chief Legguard
+    Short info: Garment 87lv
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: fire-shell-worm__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 0,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,45%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: Gem lv 80
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+- drop_id: fire-shell-worm__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Chief Legguard
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: A.Plan2:Chief Legguard
+    Short info: adv.plans for armorsmiths
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: fire-shell-worm__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Chief Armor
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: A.Plan2:Chief Armor
+    Short info: adv.plans for armorsmiths
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: fire-shell-worm__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fane Cuffs
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Fane Cuffs
+    Short info: Garment 86lv
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fire-shell-worm__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fane Armor
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Fane Armor
+    Short info: Garment 89 lv
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fire-shell Worm
+  - ''
+  rows_raw:
+  - - Name
+    - Fire-shell Worm
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '87'
+    - '3593'
+    - '446'
+    - '273'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '742'
+    - '1070'
+    - '621'
+    - '339'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +43 Rotten
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '1077'
+    - 320 - 398 (359)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,17%
+    - ''
+    - Chief Armor
+    - Garment 89lv
+  - - 48,17%
+    - ''
+    - Chief Legguard
+    - Garment 87v
+  - - 1,20%
+    - ''
+    - Good Chief Armor
+    - Garment 89lv
+  - - 1,20%
+    - ''
+    - Good Chief Legguard
+    - Garment 87lv
+  - - 0,45%
+    - ''
+    - Flawless Orange Gem
+    - Gem lv 80
+  - - 0,40%
+    - ''
+    - A.Plan2:Chief Legguard
+    - adv.plans for armorsmiths
+  - - 0,40%
+    - ''
+    - A.Plan2:Chief Armor
+    - adv.plans for armorsmiths
+  - - ?.?%
+    - ''
+    - Fane Cuffs
+    - Garment 86lv
+  - - ?.?%
+    - ''
+    - Fane Armor
+    - Garment 89 lv
+  row_count: 10

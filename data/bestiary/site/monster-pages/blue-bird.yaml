@@ -1,0 +1,237 @@
+monster_page:
+  id: blue-bird
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blue-bird
+    retrieval_url: https://web.archive.org/web/20200220214713id_/http://angels.wikidot.com:80/monster:blue-bird
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220214713'
+    archive_snapshot_url: https://web.archive.org/web/20200220214713/http://angels.wikidot.com:80/monster:blue-bird
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blue-bird
+    source_html_sha256: 283b7deaee27a24f312e79d07fd0101956dc91424c079cebb8f23287bc432f39
+fields_raw:
+  Name: 'Spells:'
+  Blue Bird: '-'
+  'Spells:': 'Location:'
+  '-': Winding Flower Corridor
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '105'
+  Hit Points: '9015'
+  Rigor: '617'
+  Agility: '327'
+  Attack: '1379'
+  Defense: '1550'
+  Spell Attack: '899'
+  Spell Defense: '411'
+  Special Attack: +65 Ice
+  Special Defense: +85 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '5475'
+  Gold: 397 - 505
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: blue-bird__t008r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wonder Cap
+  chance_to_drop_raw: 96.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.64%
+    Icon: ''
+    Item: Wonder Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.64
+    quantity: null
+- drop_id: blue-bird__t008r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWonder Cap
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodWonder Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: blue-bird__t008r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Prophet Cap
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Roaring Prophet Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: blue-bird__t008r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 0.84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.84%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.84
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blue Bird
+  - ''
+  rows_raw:
+  - - Name
+    - Blue Bird
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Winding Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '105'
+    - '9015'
+    - '617'
+    - '327'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1379'
+    - '1550'
+    - '899'
+    - '411'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +65 Ice
+    - +85 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Critical
+  - Stamina
+  - Soul
+  rows_raw:
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '5475'
+    - 397 - 505
+  row_count: 2
+- table_index: 8
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.64%
+    - ''
+    - Wonder Cap
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodWonder Cap
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Roaring Prophet Cap
+    - ITEM NOTES
+  - - 0.84%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 5

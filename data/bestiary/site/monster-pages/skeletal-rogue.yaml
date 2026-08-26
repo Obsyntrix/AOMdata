@@ -1,0 +1,212 @@
+monster_page:
+  id: skeletal-rogue
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:skeletal-rogue
+    retrieval_url: https://web.archive.org/web/20191103133835id_/http://angels.wikidot.com:80/monster:skeletal-rogue
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191103133835'
+    archive_snapshot_url: https://web.archive.org/web/20191103133835/http://angels.wikidot.com:80/monster:skeletal-rogue
+    archive_original_lookup_url: https://angels.wikidot.com/monster:skeletal-rogue
+    source_html_sha256: 6c3738295c86fab5fd12d96cab3c2c2c4a42dfcac1f193162903e2ca2d59836f
+fields_raw:
+  Name: 'Spells:'
+  Skeletal Rogue: '-'
+  'Spells:': 'Location:'
+  '-': Shadowy Path
+  Type: Undead
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '9'
+  Hit Points: '350'
+  Rigor: '57'
+  Agility: '39'
+  Attack: '80'
+  Defense: '71'
+  Spell Attack: '70'
+  Spell Defense: '40'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 4,08%
+  Experience: '87'
+  Gold: 14 - 24 (19)
+item_drop_chance_raw: 4,08%
+drops:
+- drop_id: skeletal-rogue__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Biscuits
+  chance_to_drop_raw: 49,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49,02%
+    Icon: ''
+    Item: Low-level Biscuits
+    Short info: Food (HP +50)
+  normalized:
+    chance_to_drop_percent: 49.02
+    quantity: null
+- drop_id: skeletal-rogue__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Magic Grass
+  chance_to_drop_raw: 49,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 49,02%
+    Icon: ''
+    Item: Low-level Magic Grass
+    Short info: Food (MP +40)
+  normalized:
+    chance_to_drop_percent: 49.02
+    quantity: null
+- drop_id: skeletal-rogue__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Skeletal Rogue card
+  chance_to_drop_raw: 1,96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,96%
+    Icon: ''
+    Item: Skeletal Rogue card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 1.96
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Skeletal Rogue
+  - ''
+  rows_raw:
+  - - Name
+    - Skeletal Rogue
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Shadowy Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '9'
+    - '350'
+    - '57'
+    - '39'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '80'
+    - '71'
+    - '70'
+    - '40'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 4,08%
+    - '87'
+    - 14 - 24 (19)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 49,02%
+    - ''
+    - Low-level Biscuits
+    - Food (HP +50)
+  - - 49,02%
+    - ''
+    - Low-level Magic Grass
+    - Food (MP +40)
+  - - 1,96%
+    - ''
+    - Skeletal Rogue card
+    - 'See: Card Collection'
+  row_count: 4

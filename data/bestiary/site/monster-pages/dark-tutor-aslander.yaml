@@ -1,0 +1,230 @@
+monster_page:
+  id: dark-tutor-aslander
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dark-tutor-aslander
+    retrieval_url: https://web.archive.org/web/20191230215455id_/http://angels.wikidot.com:80/monster:dark-tutor-aslander
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230215455'
+    archive_snapshot_url: https://web.archive.org/web/20191230215455/http://angels.wikidot.com:80/monster:dark-tutor-aslander
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dark-tutor-aslander
+    source_html_sha256: dc127fe6d0f946bc24beef9919d03cc98aacba38016f402dfc3baa7f73868307
+fields_raw:
+  Name: 'Spells:'
+  Dark Tutor Aslander: '-'
+  'Spells:': 'Location:'
+  '-': Fruit Town
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100,00%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: dark-tutor-aslander__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Thorn
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Storm Thorn
+    Short info: Axe Lvl 120
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dark-tutor-aslander__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Storm Thorn
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Storm Thorn
+    Short info: Axe Lvl 120
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dark-tutor-aslander__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Tsubasa's Attack
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Tsubasa's Attack
+    Short info: Axe Lvl 120
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dark-tutor-aslander__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Pestle
+    Short info: Pestle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dark Tutor Aslander
+  - ''
+  rows_raw:
+  - - Name
+    - Dark Tutor Aslander
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Fruit Town
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Storm Thorn
+    - Axe Lvl 120
+  - - ??,??%
+    - ''
+    - Good Storm Thorn
+    - Axe Lvl 120
+  - - ??,??%
+    - ''
+    - Tsubasa's Attack
+    - Axe Lvl 120
+  - - ??,??%
+    - ''
+    - Pestle
+    - Pestle
+  row_count: 5

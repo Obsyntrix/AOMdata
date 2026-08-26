@@ -1,0 +1,320 @@
+monster_page:
+  id: moon-berry-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:moon-berry-elf
+    retrieval_url: https://web.archive.org/web/20120729030946id_/http://angels.wikidot.com:80/monster:moon-berry-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20120729030946'
+    archive_snapshot_url: https://web.archive.org/web/20120729030946/http://angels.wikidot.com:80/monster:moon-berry-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:moon-berry-elf
+    source_html_sha256: 37b6c0988325620fddf27c83ebae3da6639ec3a539f15522f6193fbda337d782
+fields_raw:
+  Name: 'Spells:'
+  Moon Blery Elf: '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '65'
+  Hit Points: '2549'
+  Rigor: '336'
+  Agility: '207'
+  Attack: '460'
+  Defense: '648'
+  Spell Attack: '448'
+  Spell Defense: '254'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short(1)
+  Speed: Very Fast (90)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.14%
+  Experience: '764'
+  Gold: 227-281
+item_drop_chance_raw: 0.14%
+drops:
+- drop_id: moon-berry-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 46.63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.63%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 46.63
+    quantity: null
+- drop_id: moon-berry-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Manteau
+  chance_to_drop_raw: 23,31%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23,31%
+    Icon: ''
+    Item: Holy Manteau
+    Short info: Cloak Lvl 70 (Dfs +92, Spl Dfs+60, Ag +21)
+  normalized:
+    chance_to_drop_percent: 23.31
+    quantity: null
+- drop_id: moon-berry-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Benison Ring
+  chance_to_drop_raw: 23,31%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23,31%
+    Icon: ''
+    Item: Benison Ring
+    Short info: Trinket Lvl 70 (Dfs +61, Spl Dfs +40, Rig.+31, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 23.31
+    quantity: null
+- drop_id: moon-berry-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Benison Ring
+  chance_to_drop_raw: 2,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,32%
+    Icon: ''
+    Item: Good Benison Ring
+    Short info: Trinket Lvl 70 (Dfs +67, Spl Dfs +47, Rig.+36, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 2.32
+    quantity: null
+- drop_id: moon-berry-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Holy Manteau
+  chance_to_drop_raw: 2,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,32%
+    Icon: ''
+    Item: Good Holy Manteau
+    Short info: Cloak Lvl 70 (Dfs +108, Spl Dfs+70, Ag +24)
+  normalized:
+    chance_to_drop_percent: 2.32
+    quantity: null
+- drop_id: moon-berry-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Benison Ring
+  chance_to_drop_raw: 0,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,78%
+    Icon: ''
+    Item: Craft Recipe 2:Benison Ring
+    Short info: Adv.plan for technicians
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: moon-berry-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Holy Manteau
+  chance_to_drop_raw: 0,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,78%
+    Icon: ''
+    Item: D.Plan2:Holy Manteau
+    Short info: Adv.plan for Taylors
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: moon-berry-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hope Mantle
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Hope Mantle
+    Short info: Cloak Lvl 70 (Dfs +122, Spl Dfs+80, Ag +28)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: moon-berry-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel's Blessing
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Angel's Blessing
+    Short info: Trinket Lvl 70 (Dfs +82, Spl Dfs +53, Rig.+41, Ag.+27)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Moon Blery Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Moon Blery Elf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '2549'
+    - '336'
+    - '207'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '460'
+    - '648'
+    - '448'
+    - '254'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast (90)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.14%
+    - '764'
+    - 227-281
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.63%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 23,31%
+    - ''
+    - Holy Manteau
+    - Cloak Lvl 70 (Dfs +92, Spl Dfs+60, Ag +21)
+  - - 23,31%
+    - ''
+    - Benison Ring
+    - Trinket Lvl 70 (Dfs +61, Spl Dfs +40, Rig.+31, Ag.+21)
+  - - 2,32%
+    - ''
+    - Good Benison Ring
+    - Trinket Lvl 70 (Dfs +67, Spl Dfs +47, Rig.+36, Ag.+24)
+  - - 2,32%
+    - ''
+    - Good Holy Manteau
+    - Cloak Lvl 70 (Dfs +108, Spl Dfs+70, Ag +24)
+  - - 0,78%
+    - ''
+    - Craft Recipe 2:Benison Ring
+    - Adv.plan for technicians
+  - - 0,78%
+    - ''
+    - D.Plan2:Holy Manteau
+    - Adv.plan for Taylors
+  - - 0,23%
+    - ''
+    - Hope Mantle
+    - Cloak Lvl 70 (Dfs +122, Spl Dfs+80, Ag +28)
+  - - 0,23%
+    - ''
+    - Angel's Blessing
+    - Trinket Lvl 70 (Dfs +82, Spl Dfs +53, Rig.+41, Ag.+27)
+  row_count: 10

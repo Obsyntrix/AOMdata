@@ -1,0 +1,212 @@
+monster_page:
+  id: fervent-bride
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fervent-bride
+    retrieval_url: https://web.archive.org/web/20200108101801id_/http://angels.wikidot.com:80/monster:fervent-bride
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108101801'
+    archive_snapshot_url: https://web.archive.org/web/20200108101801/http://angels.wikidot.com:80/monster:fervent-bride
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fervent-bride
+    source_html_sha256: d0f687dd16c1c31aa2bdb40f81f6ce1c08717b347b2e581e5435a7f617db1a18
+fields_raw:
+  Name: 'Spells:'
+  Fervent Bride: '-'
+  'Spells:': 'Location:'
+  '-': Nightmare Palace
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '118'
+  Hit Points: '11022'
+  Rigor: '602'
+  Agility: '366'
+  Attack: '1446'
+  Defense: '1569'
+  Spell Attack: '1711'
+  Spell Defense: '1095'
+  Special Attack: +59 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.1%
+  Experience: '6927'
+  Gold: 460 - 576
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: fervent-bride__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Gloves
+  chance_to_drop_raw: 96.56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.56%
+    Icon: ''
+    Item: Dragon Fire Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.56
+    quantity: null
+- drop_id: fervent-bride__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDragon Fire Gloves
+  chance_to_drop_raw: 2.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.3%
+    Icon: ''
+    Item: GoodDragon Fire Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: fervent-bride__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 1.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.14%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fervent Bride
+  - ''
+  rows_raw:
+  - - Name
+    - Fervent Bride
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Nightmare Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '118'
+    - '11022'
+    - '602'
+    - '366'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1446'
+    - '1569'
+    - '1711'
+    - '1095'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +59 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '6927'
+    - 460 - 576
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.56%
+    - ''
+    - Dragon Fire Gloves
+    - ITEM NOTES
+  - - 2.3%
+    - ''
+    - GoodDragon Fire Gloves
+    - ITEM NOTES
+  - - 1.14%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  row_count: 4

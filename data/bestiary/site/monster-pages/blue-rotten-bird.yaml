@@ -1,0 +1,266 @@
+monster_page:
+  id: blue-rotten-bird
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blue-rotten-bird
+    retrieval_url: https://web.archive.org/web/20170909213728id_/http://angels.wikidot.com:80/monster:blue-rotten-bird
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170909213728'
+    archive_snapshot_url: https://web.archive.org/web/20170909213728/http://angels.wikidot.com:80/monster:blue-rotten-bird
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blue-rotten-bird
+    source_html_sha256: ce52fbc30425e75fb2975710aec0ba83425baca75c149d0705952ca0fcdaa04d
+fields_raw:
+  Name: 'Spells:'
+  Blue Rotten Bird: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '89'
+  Hit Points: '7385'
+  Rigor: '537'
+  Agility: '279'
+  Attack: '1009'
+  Defense: '1117'
+  Spell Attack: '638'
+  Spell Defense: '336'
+  Special Attack: +49 Lightning
+  Special Defense: +69 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.1%
+  Experience: '3324'
+  Gold: 325 - 413
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: blue-rotten-bird__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Helmet
+  chance_to_drop_raw: 94.68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.68%
+    Icon: ''
+    Item: Swiftness Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.68
+    quantity: null
+- drop_id: blue-rotten-bird__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSwiftness Helmet
+  chance_to_drop_raw: 2.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.36%
+    Icon: ''
+    Item: GoodSwiftness Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.36
+    quantity: null
+- drop_id: blue-rotten-bird__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Helmet
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Walker Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: blue-rotten-bird__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: CrystalJelly Fish
+  chance_to_drop_raw: 0.23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.23%
+    Icon: ''
+    Item: CrystalJelly Fish
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: blue-rotten-bird__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Helmet
+  chance_to_drop_raw: 0.78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.78%
+    Icon: ''
+    Item: A.Plan2:Swift Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: blue-rotten-bird__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1.82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.82%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.82
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blue Rotten Bird
+  - ''
+  rows_raw:
+  - - Name
+    - Blue Rotten Bird
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '89'
+    - '7385'
+    - '537'
+    - '279'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1009'
+    - '1117'
+    - '638'
+    - '336'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +49 Lightning
+    - +69 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '3324'
+    - 325 - 413
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.68%
+    - ''
+    - Swiftness Helmet
+    - ITEM NOTES
+  - - 2.36%
+    - ''
+    - GoodSwiftness Helmet
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Walker Helmet
+    - ITEM NOTES
+  - - 0.23%
+    - ''
+    - CrystalJelly Fish
+    - ITEM NOTES
+  - - 0.78%
+    - ''
+    - A.Plan2:Swift Helmet
+    - ITEM NOTES
+  - - 1.82%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  row_count: 7

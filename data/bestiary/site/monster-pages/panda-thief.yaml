@@ -1,0 +1,230 @@
+monster_page:
+  id: panda-thief
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:panda-thief
+    retrieval_url: https://web.archive.org/web/20190909211900id_/http://angels.wikidot.com:80/monster:panda-thief
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20190909211900'
+    archive_snapshot_url: https://web.archive.org/web/20190909211900/http://angels.wikidot.com:80/monster:panda-thief
+    archive_original_lookup_url: https://angels.wikidot.com/monster:panda-thief
+    source_html_sha256: f6a80900293d88f69d79a4bc7542e865f917d31d25f24a14e8f8166b67ce4f91
+fields_raw:
+  Name: 'Spells:'
+  Panda Thief: '-'
+  'Spells:': 'Location:'
+  '-': Flower Corridor
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '107'
+  Hit Points: '9225'
+  Rigor: '547'
+  Agility: '333'
+  Attack: '1432'
+  Defense: '1612'
+  Spell Attack: '917'
+  Spell Defense: '629'
+  Special Attack: +54 Rotten
+  Special Defense: +74 Rotten
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.07%
+  Experience: '5688'
+  Gold: 406 - 516
+item_drop_chance_raw: 0.07%
+drops:
+- drop_id: panda-thief__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Feather Bracelet
+  chance_to_drop_raw: 96.87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.87%
+    Icon: ''
+    Item: Feather Bracelet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.87
+    quantity: null
+- drop_id: panda-thief__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodFeather Bracelet
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodFeather Bracelet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: panda-thief__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Water Elf's Dance
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Water Elf's Dance
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: panda-thief__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Panda Thief
+  - ''
+  rows_raw:
+  - - Name
+    - Panda Thief
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '107'
+    - '9225'
+    - '547'
+    - '333'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1432'
+    - '1612'
+    - '917'
+    - '629'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +54 Rotten
+    - +74 Rotten
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.07%
+    - '5688'
+    - 406 - 516
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.87%
+    - ''
+    - Feather Bracelet
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodFeather Bracelet
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Water Elf's Dance
+    - ITEM NOTES
+  - - 0.6%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 5

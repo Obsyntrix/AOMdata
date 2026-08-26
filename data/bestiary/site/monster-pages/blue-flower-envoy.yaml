@@ -1,0 +1,374 @@
+monster_page:
+  id: blue-flower-envoy
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blue-flower-envoy
+    retrieval_url: https://web.archive.org/web/20200630073924id_/http://angels.wikidot.com:80/monster:blue-flower-envoy
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200630073924'
+    archive_snapshot_url: https://web.archive.org/web/20200630073924/http://angels.wikidot.com:80/monster:blue-flower-envoy
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blue-flower-envoy
+    source_html_sha256: c61ba9296ca3bcac8c643a12fbbaef62defc8f6cfede6bdf45e445d9dde54656
+fields_raw:
+  Name: 'Spells:'
+  Blue Flower Envoy: '-'
+  'Spells:': 'Location:'
+  '-': Winding Flower Corridor
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '105'
+  Hit Points: '45076'
+  Rigor: '637'
+  Agility: '339'
+  Attack: '1487'
+  Defense: '1677'
+  Spell Attack: '1504'
+  Spell Defense: '777'
+  Special Attack: +65 Fire
+  Special Defense: +85 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '33390'
+  Gold: 1984 - 2524
+item_drop_chance_raw: 100%
+drops:
+- drop_id: blue-flower-envoy__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Wind
+  chance_to_drop_raw: 2.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.3%
+    Icon: ''
+    Item: Roaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dark Eagle Armor
+  chance_to_drop_raw: 2.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.3%
+    Icon: ''
+    Item: Dark Eagle Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.3
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRoaring Wind
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: GoodRoaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDark Eagle Armor
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: GoodDark Eagle Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Prophet's Scar
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: Holy Prophet's Scar
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Eagle Armor
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: Desert Eagle Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yappy Duck Bathtub
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Yappy Duck Bathtub
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 3:Phoenix Fire 5
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Scroll 3:Phoenix Fire 5
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Agility Potion
+  chance_to_drop_raw: 47.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.3%
+    Icon: ''
+    Item: Effective Agility Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.3
+    quantity: null
+- drop_id: blue-flower-envoy__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Magic Potion
+  chance_to_drop_raw: 47.3%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.3%
+    Icon: ''
+    Item: Effective Magic Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.3
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blue Flower Envoy
+  - ''
+  rows_raw:
+  - - Name
+    - Blue Flower Envoy
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Winding Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '105'
+    - '45076'
+    - '637'
+    - '339'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1487'
+    - '1677'
+    - '1504'
+    - '777'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +65 Fire
+    - +85 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '33390'
+    - 1984 - 2524
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 2.3%
+    - ''
+    - Roaring Wind
+    - ITEM NOTES
+  - - 2.3%
+    - ''
+    - Dark Eagle Armor
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - GoodRoaring Wind
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - GoodDark Eagle Armor
+    - ITEM NOTES
+  - - <0.01%
+    - ''
+    - Holy Prophet's Scar
+    - ITEM NOTES
+  - - <0.01%
+    - ''
+    - Desert Eagle Armor
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Yappy Duck Bathtub
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Red Light Rune Piece
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Scroll 3:Phoenix Fire 5
+    - ITEM NOTES
+  - - 0.54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 47.3%
+    - ''
+    - Effective Agility Potion
+    - ITEM NOTES
+  - - 47.3%
+    - ''
+    - Effective Magic Potion
+    - ITEM NOTES
+  row_count: 13

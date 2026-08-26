@@ -1,0 +1,194 @@
+monster_page:
+  id: dog-swordsman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dog-swordsman
+    retrieval_url: https://web.archive.org/web/20110307134113id_/http://angels.wikidot.com:80/monster:dog-swordsman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110307134113'
+    archive_snapshot_url: https://web.archive.org/web/20110307134113/http://angels.wikidot.com:80/monster:dog-swordsman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dog-swordsman
+    source_html_sha256: 724f3f3f5790773846ee50be78ff9e81f11cfb13f95df384c3217861589e8581
+fields_raw:
+  Name: 'Spells:'
+  Dog Swordsman: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks County
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '102'
+  Hit Points: '17407'
+  Rigor: '615'
+  Agility: '311'
+  Attack: '1426'
+  Defense: '1533'
+  Spell Attack: '883'
+  Spell Defense: '763'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '10344'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: dog-swordsman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dog-swordsman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dog Swordsman
+  - ''
+  rows_raw:
+  - - Name
+    - Dog Swordsman
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks County
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '102'
+    - '17407'
+    - '615'
+    - '311'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1426'
+    - '1533'
+    - '883'
+    - '763'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '10344'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

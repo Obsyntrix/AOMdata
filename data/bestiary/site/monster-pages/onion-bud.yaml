@@ -1,0 +1,229 @@
+monster_page:
+  id: onion-bud
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:onion-bud
+    retrieval_url: https://web.archive.org/web/20200109121839id_/http://angels.wikidot.com:80/monster:onion-bud
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109121839'
+    archive_snapshot_url: https://web.archive.org/web/20200109121839/http://angels.wikidot.com:80/monster:onion-bud
+    archive_original_lookup_url: https://angels.wikidot.com/monster:onion-bud
+    source_html_sha256: b03586daf86eed051da8a181fedb188b9a445a5950e92b93b1443b23dc74bb33
+fields_raw:
+  Name: 'Spells:'
+  Onion Bud: '-'
+  'Spells:': 'Location:'
+  '-': Crescent Valley
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '86'
+  Hit Points: '7088'
+  Rigor: '442'
+  Attack: '950'
+  Defense: '1047'
+  Spell Attack: '872'
+  Spell Defense: '324'
+  Special Attack: +46 Fire
+  Special Defense: +63 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: ??,??%
+  Experience: '3189'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: onion-bud__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Cuffs
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Chief Cuffs
+    Short info: Lvl 87 Garment
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: onion-bud__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Cuffs
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Chief Cuffs
+    Short info: Lvl 87 A Class Garment
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: onion-bud__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Chief Armor
+    Short info: Lvl 89 Garment
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: onion-bud__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Armor
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Chief Armor
+    Short info: Lvl 89 A Class Garment
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Onion Bud
+  - ''
+  rows_raw:
+  - - Name
+    - Onion Bud
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Crescent Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '86'
+    - '7088'
+    - '442'
+    - ''
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '950'
+    - '1047'
+    - '872'
+    - '324'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +46 Fire
+    - +63 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '3189'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Chief Cuffs
+    - Lvl 87 Garment
+  - - ??,??%
+    - ''
+    - Good Chief Cuffs
+    - Lvl 87 A Class Garment
+  - - ??,??%
+    - ''
+    - Chief Armor
+    - Lvl 89 Garment
+  - - ??,??%
+    - ''
+    - Good Chief Armor
+    - Lvl 89 A Class Garment
+  row_count: 5

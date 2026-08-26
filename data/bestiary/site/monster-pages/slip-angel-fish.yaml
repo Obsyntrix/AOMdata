@@ -1,0 +1,230 @@
+monster_page:
+  id: slip-angel-fish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:slip-angel-fish
+    retrieval_url: https://web.archive.org/web/20200120034105id_/http://angels.wikidot.com:80/monster:slip-angel-fish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200120034105'
+    archive_snapshot_url: https://web.archive.org/web/20200120034105/http://angels.wikidot.com:80/monster:slip-angel-fish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:slip-angel-fish
+    source_html_sha256: aa50392ac0bbf8789c085af5bb9a32da97d6106d5faa8107679c99e15216d3d8
+fields_raw:
+  Name: 'Spells:'
+  Slip Angel Fish: Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec: Lost Region
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '93'
+  Hit Points: '7556'
+  Rigor: '502'
+  Agility: '306'
+  Attack: '1630'
+  Defense: '815'
+  Spell Attack: '695'
+  Spell Defense: '389'
+  Special Attack: Ice +49
+  Special Defense: '37'
+  Strong Against: Fire (67)
+  Weak Against: Thunder (7)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,12%
+  Experience: '2437'
+  Gold: 920 - 1108 (1014)
+item_drop_chance_raw: 0,12%
+drops:
+- drop_id: slip-angel-fish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lunar Wand
+  chance_to_drop_raw: 48,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,78%
+    Icon: ''
+    Item: Lunar Wand
+    Short info: Staff Lvl 90 (Atk 596-640 (618), Spl Atk +195, Rig.+21)
+  normalized:
+    chance_to_drop_percent: 48.78
+    quantity: null
+- drop_id: slip-angel-fish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Hood
+  chance_to_drop_raw: 48,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,78%
+    Icon: ''
+    Item: Luck Hood
+    Short info: Vestment 88 (Dfs +95, Spl Dfs +80)
+  normalized:
+    chance_to_drop_percent: 48.78
+    quantity: null
+- drop_id: slip-angel-fish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Lunar Wand
+  chance_to_drop_raw: 1,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,22%
+    Icon: ''
+    Item: Good Lunar Wand
+    Short info: Staff Lvl 90 (Atk 776-820 (798), Spl Atk +375, Rig.+23)
+  normalized:
+    chance_to_drop_percent: 1.22
+    quantity: null
+- drop_id: slip-angel-fish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Hood
+  chance_to_drop_raw: 1,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,22%
+    Icon: ''
+    Item: Good Luck Hood
+    Short info: Vestment 88 (Dfs +120, Spl Dfs +105)
+  normalized:
+    chance_to_drop_percent: 1.22
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Slip Angel Fish
+  - ''
+  rows_raw:
+  - - Name
+    - Slip Angel Fish
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - Lost Region
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '93'
+    - '7556'
+    - '502'
+    - '306'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1630'
+    - '815'
+    - '695'
+    - '389'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +49
+    - '37'
+    - Fire (67)
+    - Thunder (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,12%
+    - '2437'
+    - 920 - 1108 (1014)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,78%
+    - ''
+    - Lunar Wand
+    - Staff Lvl 90 (Atk 596-640 (618), Spl Atk +195, Rig.+21)
+  - - 48,78%
+    - ''
+    - Luck Hood
+    - Vestment 88 (Dfs +95, Spl Dfs +80)
+  - - 1,22%
+    - ''
+    - Good Lunar Wand
+    - Staff Lvl 90 (Atk 776-820 (798), Spl Atk +375, Rig.+23)
+  - - 1,22%
+    - ''
+    - Good Luck Hood
+    - Vestment 88 (Dfs +120, Spl Dfs +105)
+  row_count: 5

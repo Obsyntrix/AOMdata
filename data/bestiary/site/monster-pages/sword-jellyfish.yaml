@@ -1,0 +1,356 @@
+monster_page:
+  id: sword-jellyfish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sword-jellyfish
+    retrieval_url: https://web.archive.org/web/20200119163040id_/http://angels.wikidot.com:80/monster:sword-jellyfish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119163040'
+    archive_snapshot_url: https://web.archive.org/web/20200119163040/http://angels.wikidot.com:80/monster:sword-jellyfish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sword-jellyfish
+    source_html_sha256: 075026e4de9058eb78c92e5ed6411ee1db0510929e1fe60ddddf626471d8dce4
+fields_raw:
+  Name: 'Spells:'
+  Sword Jellyfish: Icy Storm Single Ranged | Dmg 200-220 Ice Dmg +94 | Speed -20%
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 200-220 Ice Dmg +94 | Speed -20%: Wave Harbor
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '90'
+  Hit Points: '37945'
+  Rigor: '492'
+  Agility: '312'
+  Attack: '1104'
+  Defense: '1402'
+  Spell Attack: '726'
+  Spell Defense: '690'
+  Special Attack: Rotten +48
+  Special Defense: '35'
+  Strong Against: Thunder (65)
+  Weak Against: Fire (5)
+  Attack Range: Short (1)
+  Speed: Super fast (120)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '34418'
+  Gold: 3908 - 4856 (4382)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: sword-jellyfish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 87,76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 87,76%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: Food (Max. HP +270 | 10 min)
+  normalized:
+    chance_to_drop_percent: 87.76
+    quantity: null
+- drop_id: sword-jellyfish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Cuffs
+  chance_to_drop_raw: 5,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,06%
+    Icon: ''
+    Item: Chief Cuffs
+    Short info: Garment 87 (Dfs +171, Spl Dfs +18, Rig +82)
+  normalized:
+    chance_to_drop_percent: 5.06
+    quantity: null
+- drop_id: sword-jellyfish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armguards
+  chance_to_drop_raw: 5,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,06%
+    Icon: ''
+    Item: Swiftness Armguards
+    Short info: Mantle 87 (Dfs +114, Spl Dfs +36, Rig +82)
+  normalized:
+    chance_to_drop_percent: 5.06
+    quantity: null
+- drop_id: sword-jellyfish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sword Jellyfish Card
+  chance_to_drop_raw: 0,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,93%
+    Icon: ''
+    Item: Sword Jellyfish Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: sword-jellyfish__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: sword-jellyfish__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Cuffs
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Good Chief Cuffs
+    Short info: Garment 87 (Dfs +216, Spl Dfs +20, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: sword-jellyfish__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armguards
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Good Swiftness Armguards
+    Short info: Mantle 87 (Dfs +144, Spl Dfs +40, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: sword-jellyfish__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Chief Cuffs
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: A.Plan2:Chief Cuffs
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: sword-jellyfish__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armguards
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: A.Plan2:Swift Armguards
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: sword-jellyfish__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: sword-jellyfish__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fish Haversack
+  chance_to_drop_raw: <0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0,01%
+    Icon: ''
+    Item: Fish Haversack
+    Short info: Bag Lvl 90 (Max.Weight +2400, Slots 40)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sword Jellyfish
+  - ''
+  rows_raw:
+  - - Name
+    - Sword Jellyfish
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 200-220 Ice Dmg +94 | Speed -20%
+    - ''
+  - - 'Location:'
+    - Wave Harbor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '90'
+    - '37945'
+    - '492'
+    - '312'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1104'
+    - '1402'
+    - '726'
+    - '690'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +48
+    - '35'
+    - Thunder (65)
+    - Fire (5)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super fast (120)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '34418'
+    - 3908 - 4856 (4382)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 87,76%
+    - ''
+    - Effective Healing Potion
+    - Food (Max. HP +270 | 10 min)
+  - - 5,06%
+    - ''
+    - Chief Cuffs
+    - Garment 87 (Dfs +171, Spl Dfs +18, Rig +82)
+  - - 5,06%
+    - ''
+    - Swiftness Armguards
+    - Mantle 87 (Dfs +114, Spl Dfs +36, Rig +82)
+  - - 0,93%
+    - ''
+    - Sword Jellyfish Card
+    - 'See: Card Collection'
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,23%
+    - ''
+    - Good Chief Cuffs
+    - Garment 87 (Dfs +216, Spl Dfs +20, Rig +92)
+  - - 0,23%
+    - ''
+    - Good Swiftness Armguards
+    - Mantle 87 (Dfs +144, Spl Dfs +40, Rig +92)
+  - - 0,08%
+    - ''
+    - A.Plan2:Chief Cuffs
+    - Armor 85
+  - - 0,08%
+    - ''
+    - A.Plan2:Swift Armguards
+    - Armor 85
+  - - 0,05%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - <0,01%
+    - ''
+    - Fish Haversack
+    - Bag Lvl 90 (Max.Weight +2400, Slots 40)
+  row_count: 12

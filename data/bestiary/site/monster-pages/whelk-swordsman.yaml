@@ -1,0 +1,320 @@
+monster_page:
+  id: whelk-swordsman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:whelk-swordsman
+    retrieval_url: https://web.archive.org/web/20200128093223id_/http://angels.wikidot.com:80/monster:whelk-swordsman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093223'
+    archive_snapshot_url: https://web.archive.org/web/20200128093223/http://angels.wikidot.com:80/monster:whelk-swordsman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:whelk-swordsman
+    source_html_sha256: fa39db387d033fa32deb563076369abd245c4d466d4fa4e58985cde974ebe3e9
+fields_raw:
+  Name: 'Description:'
+  Whelk Swordsman: It has armor to protect the vulnerable parts of its body, so it has almost has no weaknesses.
+  'Description:': 'Location:'
+  It has armor to protect the vulnerable parts of its body, so it has almost has no weaknesses.: Colorful Coral Reefs , Wave Harbor
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '74'
+  Hit Points: '2911'
+  Rigor: '382'
+  Agility: '234'
+  Attack: '547'
+  Defense: '803'
+  Spell Attack: '519'
+  Spell Defense: '290'
+  Special Attack: Thunder +40 Fire +40
+  Special Defense: '27'
+  Strong Against: Rotten (57)
+  Weak Against: Ice (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 2,11%
+  Experience: '751'
+  Gold: 178 - 250 (214)
+item_drop_chance_raw: 2,11%
+drops:
+- drop_id: whelk-swordsman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Shell
+  chance_to_drop_raw: 94,76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94,76%
+    Icon: ''
+    Item: Whelk Shell
+    Short info: Quest Item
+  normalized:
+    chance_to_drop_percent: 94.76
+    quantity: null
+- drop_id: whelk-swordsman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Cuffs
+  chance_to_drop_raw: 2,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,18%
+    Icon: ''
+    Item: Fire Scale Cuffs
+    Short info: Garment 77 (Dfs +134, Spl Dfs +16, Rig.+72)
+  normalized:
+    chance_to_drop_percent: 2.18
+    quantity: null
+- drop_id: whelk-swordsman__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Wings
+  chance_to_drop_raw: 2,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,18%
+    Icon: ''
+    Item: Wind Wings
+    Short info: Cloak Lvl 80 (Dfs +108, Spl Dfs +70, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 2.18
+    quantity: null
+- drop_id: whelk-swordsman__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Sword Card
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Whelk Sword Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: whelk-swordsman__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Cuffs
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Good Fire Scale Cuffs
+    Short info: Garment 77 (Dfs +171, Spl Dfs +18, Rig.+82)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: whelk-swordsman__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Wings
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Good Wind Wings
+    Short info: Cloak Lvl 80 (Dfs +122, Spl Dfs +80, Ag.+28)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: whelk-swordsman__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Sapphire
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Clean Sapphire
+    Short info: 'Weapon: I.Atk +14, Armor: Max.MP +59, Shield: I.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: whelk-swordsman__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Cuffs
+  chance_to_drop_raw: <0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0,01%
+    Icon: ''
+    Item: Embrace Cuffs
+    Short info: Garment 77 (Dfs +216, Spl Dfs +20, Rig.+92)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: whelk-swordsman__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Wings
+  chance_to_drop_raw: <0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0,01%
+    Icon: ''
+    Item: Wind Wings
+    Short info: Cloak Lvl 80 (Dfs +137, Spl Dfs +90, Ag.+31)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Whelk Swordsman
+  - ''
+  rows_raw:
+  - - Name
+    - Whelk Swordsman
+    - ''
+  - - 'Description:'
+    - It has armor to protect the vulnerable parts of its body, so it has almost has no weaknesses.
+    - ''
+  - - 'Location:'
+    - Colorful Coral Reefs , Wave Harbor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '74'
+    - '2911'
+    - '382'
+    - '234'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '547'
+    - '803'
+    - '519'
+    - '290'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +40 Fire +40
+    - '27'
+    - Rotten (57)
+    - Ice (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,11%
+    - '751'
+    - 178 - 250 (214)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94,76%
+    - ''
+    - Whelk Shell
+    - Quest Item
+  - - 2,18%
+    - ''
+    - Fire Scale Cuffs
+    - Garment 77 (Dfs +134, Spl Dfs +16, Rig.+72)
+  - - 2,18%
+    - ''
+    - Wind Wings
+    - Cloak Lvl 80 (Dfs +108, Spl Dfs +70, Ag.+24)
+  - - 0,14%
+    - ''
+    - Whelk Sword Card
+    - 'See: Card Collection'
+  - - 0,07%
+    - ''
+    - Good Fire Scale Cuffs
+    - Garment 77 (Dfs +171, Spl Dfs +18, Rig.+82)
+  - - 0,07%
+    - ''
+    - Good Wind Wings
+    - Cloak Lvl 80 (Dfs +122, Spl Dfs +80, Ag.+28)
+  - - 0,01%
+    - ''
+    - Clean Sapphire
+    - 'Weapon: I.Atk +14, Armor: Max.MP +59, Shield: I.Dfs +4'
+  - - <0,01%
+    - ''
+    - Embrace Cuffs
+    - Garment 77 (Dfs +216, Spl Dfs +20, Rig.+92)
+  - - <0,01%
+    - ''
+    - Wind Wings
+    - Cloak Lvl 80 (Dfs +137, Spl Dfs +90, Ag.+31)
+  row_count: 10

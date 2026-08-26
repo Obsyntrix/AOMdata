@@ -1,0 +1,248 @@
+monster_page:
+  id: poison-smoker
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:poison-smoker
+    retrieval_url: https://web.archive.org/web/20200220214514id_/http://angels.wikidot.com:80/monster:poison-smoker
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220214514'
+    archive_snapshot_url: https://web.archive.org/web/20200220214514/http://angels.wikidot.com:80/monster:poison-smoker
+    archive_original_lookup_url: https://angels.wikidot.com/monster:poison-smoker
+    source_html_sha256: 22e7b6d83fc8d4e0ca4e29b3cc67f4da6e801b0b0dbf24783fb26d98da39fbfc
+fields_raw:
+  Name: 'Spells:'
+  Poison Smoker: '-'
+  'Spells:': 'Location:'
+  '-': Ancient Front
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '103'
+  Hit Points: '8807'
+  Rigor: '527'
+  Agility: '321'
+  Attack: '1328'
+  Defense: '1489'
+  Spell Attack: '1237'
+  Spell Defense: '587'
+  Special Attack: +51 Rotten
+  Special Defense: '?'
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.04%
+  Experience: '5271'
+  Gold: 387 - 493
+item_drop_chance_raw: 0.04%
+drops:
+- drop_id: poison-smoker__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Battle Horn Armor
+  chance_to_drop_raw: 94.92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.92%
+    Icon: ''
+    Item: Battle Horn Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.92
+    quantity: null
+- drop_id: poison-smoker__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Battle Horn Armor
+  chance_to_drop_raw: 2.63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.63%
+    Icon: ''
+    Item: Good Battle Horn Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.63
+    quantity: null
+- drop_id: poison-smoker__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Steel Horn Armor
+  chance_to_drop_raw: 0.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.13%
+    Icon: ''
+    Item: Steel Horn Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: poison-smoker__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Tropical Fruit Dish
+  chance_to_drop_raw: 0.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.21%
+    Icon: ''
+    Item: Tropical Fruit Dish
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: poison-smoker__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 2.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.12%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Poison Smoker
+  - ''
+  rows_raw:
+  - - Name
+    - Poison Smoker
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ancient Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '103'
+    - '8807'
+    - '527'
+    - '321'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1328'
+    - '1489'
+    - '1237'
+    - '587'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +51 Rotten
+    - '?'
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.04%
+    - '5271'
+    - 387 - 493
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.92%
+    - ''
+    - Battle Horn Armor
+    - ITEM NOTES
+  - - 2.63%
+    - ''
+    - Good Battle Horn Armor
+    - ITEM NOTES
+  - - 0.13%
+    - ''
+    - Steel Horn Armor
+    - ITEM NOTES
+  - - 0.21%
+    - ''
+    - Tropical Fruit Dish
+    - ITEM NOTES
+  - - 2.12%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  row_count: 6

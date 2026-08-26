@@ -1,0 +1,230 @@
+monster_page:
+  id: silver-armor-baby
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:silver-armor-baby
+    retrieval_url: https://web.archive.org/web/20100803075125id_/http://angels.wikidot.com:80/monster:silver-armor-baby
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100803075125'
+    archive_snapshot_url: https://web.archive.org/web/20100803075125/http://angels.wikidot.com:80/monster:silver-armor-baby
+    archive_original_lookup_url: https://angels.wikidot.com/monster:silver-armor-baby
+    source_html_sha256: 0d5fd8cf4ac971b742b5cda9e8bd51a114a7e8a9167fe77a7d50d43f47e83fb8
+fields_raw:
+  Name: 'Spells:'
+  Silver Armor Baby: '-'
+  'Spells:': 'Location:'
+  '-': Winding Flower Corridor
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.04%
+  Experience: '?'
+  Gold: 365 - 465
+item_drop_chance_raw: 0.04%
+drops:
+- drop_id: silver-armor-baby__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dark Eagle Boots
+  chance_to_drop_raw: 94.56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.56%
+    Icon: ''
+    Item: Dark Eagle Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.56
+    quantity: null
+- drop_id: silver-armor-baby__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDark Eagle Boots
+  chance_to_drop_raw: 2.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.35%
+    Icon: ''
+    Item: GoodDark Eagle Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.35
+    quantity: null
+- drop_id: silver-armor-baby__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Eagle Shoes
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Desert Eagle Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: silver-armor-baby__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 2.98%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.98%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.98
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Silver Armor Baby
+  - ''
+  rows_raw:
+  - - Name
+    - Silver Armor Baby
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Winding Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.04%
+    - '?'
+    - 365 - 465
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.56%
+    - ''
+    - Dark Eagle Boots
+    - ITEM NOTES
+  - - 2.35%
+    - ''
+    - GoodDark Eagle Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Desert Eagle Shoes
+    - ITEM NOTES
+  - - 2.98%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  row_count: 5

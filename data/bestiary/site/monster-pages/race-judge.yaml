@@ -1,0 +1,302 @@
+monster_page:
+  id: race-judge
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:race-judge
+    retrieval_url: https://web.archive.org/web/20110907214548id_/http://angels.wikidot.com:80/monster:race-judge
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907214548'
+    archive_snapshot_url: https://web.archive.org/web/20110907214548/http://angels.wikidot.com:80/monster:race-judge
+    archive_original_lookup_url: https://angels.wikidot.com/monster:race-judge
+    source_html_sha256: b81c9052a26def6a5fd8ddbda27663027dff2ae0ba14f1ea56bcd6d188a7ab85
+fields_raw:
+  Name: 'Spells:'
+  Race Judge: '-'
+  'Spells:': 'Location:'
+  '-': Desert Racetrack
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '85'
+  Hit Points: '6990'
+  Rigor: '437'
+  Agility: '267'
+  Attack: '930'
+  Defense: '1025'
+  Spell Attack: '850'
+  Spell Defense: '320'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.09%
+  Experience: '3144'
+  Gold: 308 - 390
+item_drop_chance_raw: 0.09%
+drops:
+- drop_id: race-judge__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armor
+  chance_to_drop_raw: 48.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.12%
+    Icon: ''
+    Item: Swiftness Armor
+    Short info: Lvl 89 Mantle
+  normalized:
+    chance_to_drop_percent: 48.12
+    quantity: null
+- drop_id: race-judge__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flood Shield
+  chance_to_drop_raw: 48.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.12%
+    Icon: ''
+    Item: Flood Shield
+    Short info: Lvl 90 Shield
+  normalized:
+    chance_to_drop_percent: 48.12
+    quantity: null
+- drop_id: race-judge__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armor
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: Good Swiftness Armor
+    Short info: Lvl 89 Mantle
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: race-judge__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Flood Shield
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: Good Flood Shield
+    Short info: Lvl 90 Shield
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: race-judge__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Armor
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Walker Armor
+    Short info: Lvl 89 Mantle
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: race-judge__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ancient Wings Shield
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Ancient Wings Shield
+    Short info: Lvl 90 Shield
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: race-judge__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armor
+  chance_to_drop_raw: 0.8%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.8%
+    Icon: ''
+    Item: A.Plan2:Swift Armor
+    Short info: Lvl 85 Armor Plan
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+- drop_id: race-judge__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 0.45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.45%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: Lvl 60 Gem
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Race Judge
+  - ''
+  rows_raw:
+  - - Name
+    - Race Judge
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Desert Racetrack
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '6990'
+    - '437'
+    - '267'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '930'
+    - '1025'
+    - '850'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Fast (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.09%
+    - '3144'
+    - 308 - 390
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.12%
+    - ''
+    - Swiftness Armor
+    - Lvl 89 Mantle
+  - - 48.12%
+    - ''
+    - Flood Shield
+    - Lvl 90 Shield
+  - - 1.2%
+    - ''
+    - Good Swiftness Armor
+    - Lvl 89 Mantle
+  - - 1.2%
+    - ''
+    - Good Flood Shield
+    - Lvl 90 Shield
+  - - 0.06%
+    - ''
+    - Walker Armor
+    - Lvl 89 Mantle
+  - - 0.06%
+    - ''
+    - Ancient Wings Shield
+    - Lvl 90 Shield
+  - - 0.8%
+    - ''
+    - A.Plan2:Swift Armor
+    - Lvl 85 Armor Plan
+  - - 0.45%
+    - ''
+    - Clean Ruby
+    - Lvl 60 Gem
+  row_count: 9

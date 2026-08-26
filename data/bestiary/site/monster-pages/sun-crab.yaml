@@ -1,0 +1,248 @@
+monster_page:
+  id: sun-crab
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sun-crab
+    retrieval_url: https://web.archive.org/web/20200109070847id_/http://angels.wikidot.com:80/monster:sun-crab
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109070847'
+    archive_snapshot_url: https://web.archive.org/web/20200109070847/http://angels.wikidot.com:80/monster:sun-crab
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sun-crab
+    source_html_sha256: 4a11c7e622d8a38e77ec921e71f72ddd53cc164193718c7978a2ccc84f3dc8e1
+fields_raw:
+  Name: 'Spells:'
+  Sun Crab: '-'
+  'Spells:': 'Location:'
+  '-': Season Garden
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '119'
+  Hit Points: '10506'
+  Rigor: '687'
+  Agility: '369'
+  Attack: '1788'
+  Defense: '2036'
+  Spell Attack: '1027'
+  Spell Defense: '467'
+  Special Attack: +79 Lightning
+  Special Defense: +99 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '7044'
+  Gold: 462 - 588 (?)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: sun-crab__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cardinal Gloves
+  chance_to_drop_raw: 48,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,32%
+    Icon: ''
+    Item: Cardinal Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.32
+    quantity: null
+- drop_id: sun-crab__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nature Symbol
+  chance_to_drop_raw: 48,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,32%
+    Icon: ''
+    Item: Nature Symbol
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.32
+    quantity: null
+- drop_id: sun-crab__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Cardinal Gloves
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Cardinal Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: sun-crab__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Nature Symbol
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Nature Symbol
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: sun-crab__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 0,99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,99%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.99
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sun Crab
+  - ''
+  rows_raw:
+  - - Name
+    - Sun Crab
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Season Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '119'
+    - '10506'
+    - '687'
+    - '369'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1788'
+    - '2036'
+    - '1027'
+    - '467'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +79 Lightning
+    - +99 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '7044'
+    - 462 - 588 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,32%
+    - ''
+    - Cardinal Gloves
+    - ITEM NOTES
+  - - 48,32%
+    - ''
+    - Nature Symbol
+    - ITEM NOTES
+  - - 1,19%
+    - ''
+    - Good Cardinal Gloves
+    - ITEM NOTES
+  - - 1,19%
+    - ''
+    - Good Nature Symbol
+    - ITEM NOTES
+  - - 0,99%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

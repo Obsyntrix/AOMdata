@@ -1,0 +1,48 @@
+dataset: legacy_angels_wiki_area_pages
+recovery_source: Internet Archive Wayback Machine
+policy: Use static historical mirror first; use archived original area:* pages only for missing mirror snapshots, preserving separate retrieval provenance.
+counts:
+  expected_from_legacy_bestiary: 159
+  existing_before_run: 129
+  looked_up_this_run: 30
+  archive_snapshots_found_this_run: 2
+  captured_this_run: 2
+  captured_total: 131
+  remaining_expected: 28
+  no_snapshot_found_this_run: 28
+  snapshot_fetch_failed_this_run: 0
+no_snapshot_found_this_run:
+- bayan-village
+- branch-way
+- buzzing-stopover
+- deserted-ruins
+- dinosaur-area
+- drip-drop-passage
+- flamefang-sanctum
+- floral-palace
+- fragant-courtyard
+- hell-mahal-altar
+- hell-siam-square
+- jade-garden
+- joaquin
+- leviathans-bedroom
+- lost-trail
+- mahal-altar
+- mariam-waterway
+- paua-shell-harbor
+- queen-bee-hideout
+- rave-riverpoint
+- razorex-temple
+- scrap-iron-works
+- shuwa-market
+- siam-square
+- sleepy-spring
+- sylvan-gardens
+- transient-waters
+- whitefang-village
+snapshot_fetch_failed_this_run: []
+errors: []
+notes:
+- Every rendered archived table row is retained in source_tables_raw in addition to parsed Monster and Zone Drops rows.
+- Mirror 404 is not interpreted as absence of historical game data.
+- Historical drop percentages remain raw source observations pending target-version verification.

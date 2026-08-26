@@ -1,0 +1,320 @@
+monster_page:
+  id: imp-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:imp-elf
+    retrieval_url: https://web.archive.org/web/20191102191220id_/http://angels.wikidot.com:80/monster:imp-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102191220'
+    archive_snapshot_url: https://web.archive.org/web/20191102191220/http://angels.wikidot.com:80/monster:imp-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:imp-elf
+    source_html_sha256: 173674a0d4ed83e60f0b4a5c6e89d0a59a90448ad8ed656446d4762af1e6d17a
+fields_raw:
+  Name: 'Spells:'
+  Imp Elf: '-'
+  'Spells:': 'Location:'
+  '-': Sad Abyss , Fiery Path
+  Type: Energy
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '58'
+  Hit Points: '2083'
+  Rigor: '302'
+  Agility: '186'
+  Attack: '378'
+  Defense: '562'
+  Spell Attack: '415'
+  Spell Defense: '235'
+  Special Attack: Thunder +28
+  Special Defense: '19'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (85)
+  Attack Speed: Slow (70)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,09%
+  Experience: '521'
+  Gold: 74-136 (105)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: imp-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 58,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,50%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.5
+    quantity: null
+- drop_id: imp-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Light Cuff
+  chance_to_drop_raw: 17,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,55%
+    Icon: ''
+    Item: Advanced Light Cuff
+    Short info: Garment 42 (Dfs +47, Spl Dfs +8, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 17.55
+    quantity: null
+- drop_id: imp-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Short Tight Gloves
+  chance_to_drop_raw: 17,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,55%
+    Icon: ''
+    Item: Advanced Short Tight Gloves
+    Short info: Mantle 42 (Dfs +31, Spl Dfs +16, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 17.55
+    quantity: null
+- drop_id: imp-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Light Cuff
+  chance_to_drop_raw: 2,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,92%
+    Icon: ''
+    Item: Good Advanced Light Cuff
+    Short info: Garment 42 (Dfs +66, Spl Dfs +10, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 2.92
+    quantity: null
+- drop_id: imp-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Short Tight Gloves
+  chance_to_drop_raw: 2,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,92%
+    Icon: ''
+    Item: Good Advanced Short Tight Gloves
+    Short info: Mantle 42 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 2.92
+    quantity: null
+- drop_id: imp-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Chain Cuff
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Golden Chain Cuff
+    Short info: Garment 42 (Dfs +90, Spl Dfs +12, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: imp-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Wristlet
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Eagle Wristlet
+    Short info: Mantle 42 (Dfs +60, Spl Dfs +24, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: imp-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pearl Refining
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Pearl Refining
+    Short info: Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig. +23, Ag.+16)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: imp-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighting Wings
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Fighting Wings
+    Short info: Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max.Weight+50)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Imp Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Imp Elf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sad Abyss , Fiery Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '58'
+    - '2083'
+    - '302'
+    - '186'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '378'
+    - '562'
+    - '415'
+    - '235'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +28
+    - '19'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (85)
+    - Slow (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '521'
+    - 74-136 (105)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,50%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 17,55%
+    - ''
+    - Advanced Light Cuff
+    - Garment 42 (Dfs +47, Spl Dfs +8, Rig.+37)
+  - - 17,55%
+    - ''
+    - Advanced Short Tight Gloves
+    - Mantle 42 (Dfs +31, Spl Dfs +16, Rig.+37)
+  - - 2,92%
+    - ''
+    - Good Advanced Light Cuff
+    - Garment 42 (Dfs +66, Spl Dfs +10, Rig.+47)
+  - - 2,92%
+    - ''
+    - Good Advanced Short Tight Gloves
+    - Mantle 42 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 0,14%
+    - ''
+    - Golden Chain Cuff
+    - Garment 42 (Dfs +90, Spl Dfs +12, Rig.+57)
+  - - 0,14%
+    - ''
+    - Eagle Wristlet
+    - Mantle 42 (Dfs +60, Spl Dfs +24, Rig.+57)
+  - - 0,14%
+    - ''
+    - Pearl Refining
+    - Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig. +23, Ag.+16)
+  - - 0,14%
+    - ''
+    - Fighting Wings
+    - Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max.Weight+50)
+  row_count: 10

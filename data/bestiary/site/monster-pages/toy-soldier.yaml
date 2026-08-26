@@ -1,0 +1,194 @@
+monster_page:
+  id: toy-soldier
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:toy-soldier
+    retrieval_url: https://web.archive.org/web/20200105122037id_/http://angels.wikidot.com:80/monster:toy-soldier
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105122037'
+    archive_snapshot_url: https://web.archive.org/web/20200105122037/http://angels.wikidot.com:80/monster:toy-soldier
+    archive_original_lookup_url: https://angels.wikidot.com/monster:toy-soldier
+    source_html_sha256: a2f8a89ecb90828d75bdd830591266339b748892b0ea21587e5cc2419c1e8fa8
+fields_raw:
+  Name: 'Spells:'
+  Toy Soldier: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks City
+  Type: '?'
+  Boss: 'no'
+  Aggressive: 'no'
+  Level: '107'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: toy-soldier__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Teeth Blade
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Teeth Blade
+    Short info: Lvl 110 Shadowblade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: toy-soldier__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Toy Soldier
+  - ''
+  rows_raw:
+  - - Name
+    - Toy Soldier
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks City
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'no'
+    - 'no'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '107'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Teeth Blade
+    - Lvl 110 Shadowblade
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

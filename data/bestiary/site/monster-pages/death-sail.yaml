@@ -1,0 +1,229 @@
+monster_page:
+  id: death-sail
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:death-sail
+    retrieval_url: https://web.archive.org/web/20200119194230id_/http://angels.wikidot.com:80/monster:death-sail
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119194230'
+    archive_snapshot_url: https://web.archive.org/web/20200119194230/http://angels.wikidot.com:80/monster:death-sail
+    archive_original_lookup_url: https://angels.wikidot.com/monster:death-sail
+    source_html_sha256: ff33a3b01b485d711452b1f9c2d84990410fbc7b01de7cd9590371d5cf9aff9a
+fields_raw:
+  Name: 'Description:'
+  Death Sail: The most notorious pirate when he was alive. He liked the sea very much, ironically, his life was taken by sea.
+  'Description:': 'Location:'
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '95'
+  Hit Points: '3872'
+  Rigor: '487'
+  Agility: '297'
+  Attack: '887'
+  Defense: '1266'
+  Spell Attack: '685'
+  Spell Defense: '371'
+  Special Attack: Thunder +50
+  Special Defense: '38'
+  Strong Against: Ice (68)
+  Weak Against: Rotten (8)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1008'
+  Gold: 513 - 609 (561)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: death-sail__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Shield
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Symbol Shield
+    Short info: Shield 100 (Dfs +360, Spl Dfs +103)
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: death-sail__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Symbol Shield
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Symbol Shield
+    Short info: Shield 100 (Dfs +448, Spl Dfs +115)
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: death-sail__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: 'Weapon: R.Atk +24, Armor: Rig.+10, Shield: R.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: death-sail__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Symbol Shield
+  chance_to_drop_raw: 0,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,79%
+    Icon: ''
+    Item: A.Plan2:Symbol Shield
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Death Sail
+  - ''
+  rows_raw:
+  - - Name
+    - Death Sail
+    - ''
+  - - 'Description:'
+    - The most notorious pirate when he was alive. He liked the sea very much, ironically, his life was taken by sea.
+    - ''
+  - - 'Location:'
+    - Blue Ocean , Quiet Ocean , Coral Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '3872'
+    - '487'
+    - '297'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '887'
+    - '1266'
+    - '685'
+    - '371'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +50
+    - '38'
+    - Ice (68)
+    - Rotten (8)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1008'
+    - 513 - 609 (561)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Symbol Shield
+    - Shield 100 (Dfs +360, Spl Dfs +103)
+  - - 2,39%
+    - ''
+    - Good Symbol Shield
+    - Shield 100 (Dfs +448, Spl Dfs +115)
+  - - 1,20%
+    - ''
+    - Flawless Emerald
+    - 'Weapon: R.Atk +24, Armor: Rig.+10, Shield: R.Dfs +5'
+  - - 0,79%
+    - ''
+    - A.Plan2:Symbol Shield
+    - Armor 95
+  row_count: 5

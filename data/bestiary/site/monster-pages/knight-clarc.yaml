@@ -1,0 +1,338 @@
+monster_page:
+  id: knight-clarc
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:knight-clarc
+    retrieval_url: https://web.archive.org/web/20200630073939id_/http://angels.wikidot.com:80/monster:knight-clarc
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200630073939'
+    archive_snapshot_url: https://web.archive.org/web/20200630073939/http://angels.wikidot.com:80/monster:knight-clarc
+    archive_original_lookup_url: https://angels.wikidot.com/monster:knight-clarc
+    source_html_sha256: b6aae0944149923f693075ec74b0a046c96f8881c4627f94668c4469e2e8dab9
+fields_raw:
+  Name: 'Spells:'
+  Knight Clarc: Frozen Trap Self AOE | Dmg 108-132 Ice Dmg +103 | Stop | 10 sec
+  'Spells:': 'Location:'
+  Frozen Trap Self AOE | Dmg 108-132 Ice Dmg +103 | Stop | 10 sec: Sunken Ruins
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '100'
+  Hit Points: '41116'
+  Rigor: '540'
+  Agility: '342'
+  Attack: '1349'
+  Defense: '1712'
+  Spell Attack: '806'
+  Spell Defense: '702'
+  Special Attack: Thunder +53
+  Special Defense: '30'
+  Strong Against: Ice (70)
+  Weak Against: Rotten (10)
+  Attack Range: Short (1)
+  Speed: Super Fast (125)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '40161'
+  Gold: 4478 - 5506 (4992)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: knight-clarc__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Magic Potion
+  chance_to_drop_raw: 93,52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93,52%
+    Icon: ''
+    Item: Effective Magic Potion
+    Short info: Food (Max MP +225 | 10 min)
+  normalized:
+    chance_to_drop_percent: 93.52
+    quantity: null
+- drop_id: knight-clarc__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Boots
+  chance_to_drop_raw: 2,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,74%
+    Icon: ''
+    Item: Saint Boots
+    Short info: Garment 96 (Dfs +216, Spl Dfs +20, Ag.+32)
+  normalized:
+    chance_to_drop_percent: 2.74
+    quantity: null
+- drop_id: knight-clarc__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Hood
+  chance_to_drop_raw: 2,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,74%
+    Icon: ''
+    Item: Espial Hood
+    Short info: Vestment 98 (Dfs +120, Spl Dfs +90)
+  normalized:
+    chance_to_drop_percent: 2.74
+    quantity: null
+- drop_id: knight-clarc__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: knight-clarc__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Boots
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Good Saint Boots
+    Short info: Garment 96 (Dfs +269, Spl Dfs +22, Ag.+36)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: knight-clarc__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Hood
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Good Espial Hood
+    Short info: Vestment 98 (Dfs +149, Spl Dfs +119)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: knight-clarc__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: knight-clarc__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Boots
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: A.Plan2:Saint Boots
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: knight-clarc__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Hood
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: D.Plan2:Espial Hood
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: knight-clarc__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Demon-Sucking 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Scroll 2: Demon-Sucking 5'
+    Short info: Wraith 94
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Knight Clarc
+  - ''
+  rows_raw:
+  - - Name
+    - Knight Clarc
+    - ''
+  - - 'Spells:'
+    - Frozen Trap Self AOE | Dmg 108-132 Ice Dmg +103 | Stop | 10 sec
+    - ''
+  - - 'Location:'
+    - Sunken Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '41116'
+    - '540'
+    - '342'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1349'
+    - '1712'
+    - '806'
+    - '702'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +53
+    - '30'
+    - Ice (70)
+    - Rotten (10)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (125)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '40161'
+    - 4478 - 5506 (4992)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93,52%
+    - ''
+    - Effective Magic Potion
+    - Food (Max MP +225 | 10 min)
+  - - 2,74%
+    - ''
+    - Saint Boots
+    - Garment 96 (Dfs +216, Spl Dfs +20, Ag.+32)
+  - - 2,74%
+    - ''
+    - Espial Hood
+    - Vestment 98 (Dfs +120, Spl Dfs +90)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,28%
+    - ''
+    - Good Saint Boots
+    - Garment 96 (Dfs +269, Spl Dfs +22, Ag.+36)
+  - - 0,28%
+    - ''
+    - Good Espial Hood
+    - Vestment 98 (Dfs +149, Spl Dfs +119)
+  - - 0,08%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,05%
+    - ''
+    - A.Plan2:Saint Boots
+    - Armor 95
+  - - 0,05%
+    - ''
+    - D.Plan2:Espial Hood
+    - Sew 95
+  - - 0,01%
+    - ''
+    - 'Scroll 2: Demon-Sucking 5'
+    - Wraith 94
+  row_count: 11

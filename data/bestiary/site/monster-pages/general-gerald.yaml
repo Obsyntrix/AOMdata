@@ -1,0 +1,212 @@
+monster_page:
+  id: general-gerald
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:general-gerald
+    retrieval_url: https://web.archive.org/web/20200109064530id_/http://angels.wikidot.com:80/monster:general-gerald
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064530'
+    archive_snapshot_url: https://web.archive.org/web/20200109064530/http://angels.wikidot.com:80/monster:general-gerald
+    archive_original_lookup_url: https://angels.wikidot.com/monster:general-gerald
+    source_html_sha256: 4fdc48e55e0773d7f700ec690a57c6a6a461ba6652acab1aca36e2756af37b2d
+fields_raw:
+  Name: 'Spells:'
+  General Gerald: '-'
+  'Spells:': 'Location:'
+  '-': Sweet Orchard
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '155'
+  Hit Points: '604820'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: general-gerald__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sparrow Hood
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Sparrow Hood
+    Short info: Lv 150 Vestment Hood
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: general-gerald__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Tempest Hood
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Tempest Hood
+    Short info: Lv 150 Mantle Hood
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: general-gerald__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spinning Spear
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Spinning Spear
+    Short info: Lv 150 Spear
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - General Gerald
+  - ''
+  rows_raw:
+  - - Name
+    - General Gerald
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sweet Orchard
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '155'
+    - '604820'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Sparrow Hood
+    - Lv 150 Vestment Hood
+  - - ??,??%
+    - ''
+    - Tempest Hood
+    - Lv 150 Mantle Hood
+  - - ??,??%
+    - ''
+    - Spinning Spear
+    - Lv 150 Spear
+  row_count: 4

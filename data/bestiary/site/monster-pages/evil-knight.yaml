@@ -1,0 +1,284 @@
+monster_page:
+  id: evil-knight
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-knight
+    retrieval_url: https://web.archive.org/web/20200223110403id_/http://angels.wikidot.com:80/monster:evil-knight
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200223110403'
+    archive_snapshot_url: https://web.archive.org/web/20200223110403/http://angels.wikidot.com:80/monster:evil-knight
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-knight
+    source_html_sha256: 9433ee1de777641b5e62c2da965e68ca84fd27fe6b8c7f3a8f52c670014f4c06
+fields_raw:
+  Name: 'Stances:'
+  Evil Knight: Aurora Trap Self AOE | Power 1114
+  'Stances:': 'Location:'
+  Aurora Trap Self AOE | Power 1114: Sad Abyss , Fiery Path , Flaming Door
+  Type: Energy
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '63'
+  Hit Points: '2286'
+  Rigor: '327'
+  Agility: '201'
+  Attack: '444'
+  Defense: '666'
+  Spell Attack: '436'
+  Spell Defense: '251'
+  Special Attack: Thunder +31
+  Special Defense: '22'
+  Strong Against: Ice (52)
+  Weak Against: Rotten (0)
+  Attack Range: Short (1)
+  Speed: Moderate (85)
+  Attack Speed: Slow (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '571'
+  Gold: 130-212 (171)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: evil-knight__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 43,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 43,29%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 43.29
+    quantity: null
+- drop_id: evil-knight__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Cuffs
+  chance_to_drop_raw: 25,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,97%
+    Icon: ''
+    Item: Hermit Cuffs
+    Short info: Mantle 67 (Dfs +69, Spl Dfs +27, Rig.+62)
+  normalized:
+    chance_to_drop_percent: 25.97
+    quantity: null
+- drop_id: evil-knight__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Power Shield
+  chance_to_drop_raw: 25,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,97%
+    Icon: ''
+    Item: Power Shield
+    Short info: Shield 70 (Dfs +172, Spl Dfs +70)
+  normalized:
+    chance_to_drop_percent: 25.97
+    quantity: null
+- drop_id: evil-knight__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Cuffs
+  chance_to_drop_raw: 2,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,16%
+    Icon: ''
+    Item: Good Hermit Cuffs
+    Short info: Mantle 67 (Dfs +90, Spl Dfs +31, Rig.+72)
+  normalized:
+    chance_to_drop_percent: 2.16
+    quantity: null
+- drop_id: evil-knight__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Power Shield
+  chance_to_drop_raw: 2,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,16%
+    Icon: ''
+    Item: Good Power Shield
+    Short info: Shield 70 (Dfs +224, Spl Dfs +81)
+  normalized:
+    chance_to_drop_percent: 2.16
+    quantity: null
+- drop_id: evil-knight__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Cuffs
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Anchoret Cuffs
+    Short info: Mantle 67 (Dfs +114, Spl Dfs +36, Rig.+82)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: evil-knight__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flight Shield
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Flight Shield
+    Short info: Shield 70 (Dfs +286, Spl Dfs +92)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Knight
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Knight
+    - ''
+  - - 'Stances:'
+    - Aurora Trap Self AOE | Power 1114
+    - ''
+  - - 'Location:'
+    - Sad Abyss , Fiery Path , Flaming Door
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '63'
+    - '2286'
+    - '327'
+    - '201'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '444'
+    - '666'
+    - '436'
+    - '251'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +31
+    - '22'
+    - Ice (52)
+    - Rotten (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (85)
+    - Slow (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '571'
+    - 130-212 (171)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 43,29%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 25,97%
+    - ''
+    - Hermit Cuffs
+    - Mantle 67 (Dfs +69, Spl Dfs +27, Rig.+62)
+  - - 25,97%
+    - ''
+    - Power Shield
+    - Shield 70 (Dfs +172, Spl Dfs +70)
+  - - 2,16%
+    - ''
+    - Good Hermit Cuffs
+    - Mantle 67 (Dfs +90, Spl Dfs +31, Rig.+72)
+  - - 2,16%
+    - ''
+    - Good Power Shield
+    - Shield 70 (Dfs +224, Spl Dfs +81)
+  - - 0,22%
+    - ''
+    - Anchoret Cuffs
+    - Mantle 67 (Dfs +114, Spl Dfs +36, Rig.+82)
+  - - 0,22%
+    - ''
+    - Flight Shield
+    - Shield 70 (Dfs +286, Spl Dfs +92)
+  row_count: 8

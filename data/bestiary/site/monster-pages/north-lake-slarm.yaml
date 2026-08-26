@@ -1,0 +1,410 @@
+monster_page:
+  id: north-lake-slarm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:north-lake-slarm
+    retrieval_url: https://web.archive.org/web/20200109172003id_/http://angels.wikidot.com:80/monster:north-lake-slarm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172003'
+    archive_snapshot_url: https://web.archive.org/web/20200109172003/http://angels.wikidot.com:80/monster:north-lake-slarm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:north-lake-slarm
+    source_html_sha256: a0c3f0d7dfa090932472c9cabc53178a30f13a3e9c82a902842b1bca5bf837dd
+fields_raw:
+  Name: 'Spells:'
+  North Lake Slarm: '-'
+  'Spells:': 'Location:'
+  '-': North of Mirror Lake
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '40'
+  Hit Points: '1339'
+  Rigor: '212'
+  Agility: '132'
+  Attack: '256'
+  Defense: '390'
+  Spell Attack: '282'
+  Spell Defense: '159'
+  Special Attack: Fire +20
+  Special Defense: '10'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,88%
+  Experience: '334'
+  Gold: 54 - 94 (74)
+item_drop_chance_raw: 0,88%
+drops:
+- drop_id: north-lake-slarm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 44,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44,29%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 44.29
+    quantity: null
+- drop_id: north-lake-slarm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Long Sword
+  chance_to_drop_raw: 13,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,33%
+    Icon: ''
+    Item: Risker Long Sword
+    Short info: Sword Lvl 35 (Atk 102-112 (107), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 13.33
+    quantity: null
+- drop_id: north-lake-slarm__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Iron Axe
+  chance_to_drop_raw: 13,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,33%
+    Icon: ''
+    Item: Risker Iron Axe
+    Short info: Axe Lvl 35 (Atk 125-161 (143), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 13.33
+    quantity: null
+- drop_id: north-lake-slarm__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: north-lake-slarm__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: north-lake-slarm__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: north-lake-slarm__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 5,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,68%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 5.68
+    quantity: null
+- drop_id: north-lake-slarm__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Broad Sword
+  chance_to_drop_raw: 2,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,21%
+    Icon: ''
+    Item: Good Risker Broad Sword
+    Short info: Sword Lvl 35 (Atk 157-169 (163), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 2.21
+    quantity: null
+- drop_id: north-lake-slarm__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Iron Axe
+  chance_to_drop_raw: 2,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,21%
+    Icon: ''
+    Item: Good Risker Iron Axe
+    Short info: Axe Lvl 35 (Atk 191-227 (209), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 2.21
+    quantity: null
+- drop_id: north-lake-slarm__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,67%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.67
+    quantity: null
+- drop_id: north-lake-slarm__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,67%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.67
+    quantity: null
+- drop_id: north-lake-slarm__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sword of Goddess
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Sword of Goddess
+    Short info: Sword Lvl 35 (Atk 227-241 (234), Rig.+12)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: north-lake-slarm__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: The Beast God Blood Axe
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: The Beast God Blood Axe
+    Short info: Axe Lvl 35 (Atk 275-311 (293), Rig.+12)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: north-lake-slarm__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - North Lake Slarm
+  - ''
+  rows_raw:
+  - - Name
+    - North Lake Slarm
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - North of Mirror Lake
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '40'
+    - '1339'
+    - '212'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '256'
+    - '390'
+    - '282'
+    - '159'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +20
+    - '10'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,88%
+    - '334'
+    - 54 - 94 (74)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 44,29%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 13,33%
+    - ''
+    - Risker Long Sword
+    - Sword Lvl 35 (Atk 102-112 (107), Rig.+7)
+  - - 13,33%
+    - ''
+    - Risker Iron Axe
+    - Axe Lvl 35 (Atk 125-161 (143), Rig.+7)
+  - - 5,68%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 5,68%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 5,68%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 5,68%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 2,21%
+    - ''
+    - Good Risker Broad Sword
+    - Sword Lvl 35 (Atk 157-169 (163), Rig.+9)
+  - - 2,21%
+    - ''
+    - Good Risker Iron Axe
+    - Axe Lvl 35 (Atk 191-227 (209), Rig.+9)
+  - - 0,67%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,67%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  - - 0,22%
+    - ''
+    - Sword of Goddess
+    - Sword Lvl 35 (Atk 227-241 (234), Rig.+12)
+  - - 0,22%
+    - ''
+    - The Beast God Blood Axe
+    - Axe Lvl 35 (Atk 275-311 (293), Rig.+12)
+  - - 0,12%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 15

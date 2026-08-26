@@ -1,0 +1,248 @@
+monster_page:
+  id: dragon-raider
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dragon-raider
+    retrieval_url: https://web.archive.org/web/20160616111723id_/http://angels.wikidot.com:80/monster:dragon-raider
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20160616111723'
+    archive_snapshot_url: https://web.archive.org/web/20160616111723/http://angels.wikidot.com:80/monster:dragon-raider
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dragon-raider
+    source_html_sha256: c34dc9b55b80794a5b7b1b924bb7e3f7ae7d2c0e670973e522d46a01b8cccea3
+fields_raw:
+  Name: 'Spells:'
+  Dragon Raider: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Field
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '88'
+  Hit Points: '7285'
+  Rigor: '452'
+  Agility: '276'
+  Attack: '1057'
+  Defense: '1093'
+  Spell Attack: '630'
+  Spell Defense: '498'
+  Special Attack: +44 Lightning
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (2)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.1%
+  Experience: '3279'
+  Gold: 320 - 408
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: dragon-raider__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Bracers
+  chance_to_drop_raw: 94.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.93%
+    Icon: ''
+    Item: Luck Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.93
+    quantity: null
+- drop_id: dragon-raider__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodLuck Bracers
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: GoodLuck Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: dragon-raider__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Bracers
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Lucky Jack Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: dragon-raider__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Bracers
+  chance_to_drop_raw: 0.78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.78%
+    Icon: ''
+    Item: D.Plan2:Luck Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: dragon-raider__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 1.81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.81%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.81
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dragon Raider
+  - ''
+  rows_raw:
+  - - Name
+    - Dragon Raider
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Field
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '88'
+    - '7285'
+    - '452'
+    - '276'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1057'
+    - '1093'
+    - '630'
+    - '498'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +44 Lightning
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (2)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '3279'
+    - 320 - 408
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.93%
+    - ''
+    - Luck Bracers
+    - ITEM NOTES
+  - - 2.37%
+    - ''
+    - GoodLuck Bracers
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Lucky Jack Bracers
+    - ITEM NOTES
+  - - 0.78%
+    - ''
+    - D.Plan2:Luck Bracers
+    - ITEM NOTES
+  - - 1.81%
+    - ''
+    - Flawless Purple Gem
+    - ITEM NOTES
+  row_count: 6

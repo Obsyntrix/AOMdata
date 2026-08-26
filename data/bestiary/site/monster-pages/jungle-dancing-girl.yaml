@@ -1,0 +1,284 @@
+monster_page:
+  id: jungle-dancing-girl
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jungle-dancing-girl
+    retrieval_url: https://web.archive.org/web/20200109071005id_/http://angels.wikidot.com:80/monster:jungle-dancing-girl
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109071005'
+    archive_snapshot_url: https://web.archive.org/web/20200109071005/http://angels.wikidot.com:80/monster:jungle-dancing-girl
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jungle-dancing-girl
+    source_html_sha256: ef5ee4183a8d0699c9c9d4c604da15fb29cdad40b081d91e6306c1745f7cdbdb
+fields_raw:
+  Name: 'Spells:'
+  Jungle Dancing Girl: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0,04%
+  Experience: '?'
+  Gold: 943 - 1201 (?)
+item_drop_chance_raw: 0,04%
+drops:
+- drop_id: jungle-dancing-girl__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Unicorn Cuffs
+  chance_to_drop_raw: 32,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,03%
+    Icon: ''
+    Item: Unicorn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.03
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Celestial Cuffs
+  chance_to_drop_raw: 32,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,03%
+    Icon: ''
+    Item: Celestial Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.03
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Shield
+  chance_to_drop_raw: 32,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32,03%
+    Icon: ''
+    Item: Energy Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 32.03
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Unicorn Cuffs
+  chance_to_drop_raw: 0,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,91%
+    Icon: ''
+    Item: Good Unicorn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.91
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Celestial Cuffs
+  chance_to_drop_raw: 0,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,91%
+    Icon: ''
+    Item: Good Celestial Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.91
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Shield
+  chance_to_drop_raw: 0,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,91%
+    Icon: ''
+    Item: Good Energy Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.91
+    quantity: null
+- drop_id: jungle-dancing-girl__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Light Rune Piece
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Green Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jungle Dancing Girl
+  - ''
+  rows_raw:
+  - - Name
+    - Jungle Dancing Girl
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,04%
+    - '?'
+    - 943 - 1201 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 32,03%
+    - ''
+    - Unicorn Cuffs
+    - ITEM NOTES
+  - - 32,03%
+    - ''
+    - Celestial Cuffs
+    - ITEM NOTES
+  - - 32,03%
+    - ''
+    - Energy Shield
+    - ITEM NOTES
+  - - 0,91%
+    - ''
+    - Good Unicorn Cuffs
+    - ITEM NOTES
+  - - 0,91%
+    - ''
+    - Good Celestial Cuffs
+    - ITEM NOTES
+  - - 0,91%
+    - ''
+    - Good Energy Shield
+    - ITEM NOTES
+  - - 1,19%
+    - ''
+    - Green Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

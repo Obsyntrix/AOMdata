@@ -1,0 +1,320 @@
+monster_page:
+  id: red-clapper-dragon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-clapper-dragon
+    retrieval_url: https://web.archive.org/web/20120815005906id_/http://angels.wikidot.com:80/monster:red-clapper-dragon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20120815005906'
+    archive_snapshot_url: https://web.archive.org/web/20120815005906/http://angels.wikidot.com:80/monster:red-clapper-dragon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-clapper-dragon
+    source_html_sha256: fe588cbc504ce27ee750a23cd4b9ab61ae34650eca0382d854e0e68bcd9c554b
+fields_raw:
+  Name: 'Spells:'
+  Red Clapper Dragon: '-'
+  'Spells:': 'Location:'
+  '-': Waterfall Camp
+  Type: '-'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '91'
+  Hit Points: '-'
+  Rigor: '-'
+  Agility: '-'
+  Attack: '804'
+  Defense: '1164'
+  Spell Attack: '653'
+  Spell Defense: '335'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '-'
+  Speed: '-'
+  Attack Speed: '-'
+  Critical: '-'
+  Stamina: '-'
+  Soul: '-'
+  Item Drop Chance: 0,04%
+  Experience: '1004'
+  Gold: 294-374
+item_drop_chance_raw: 0,04%
+drops:
+- drop_id: red-clapper-dragon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Boots
+  chance_to_drop_raw: 47,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,92%
+    Icon: ''
+    Item: Wind Boots
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 47.92
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armguards
+  chance_to_drop_raw: 47,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,92%
+    Icon: ''
+    Item: Wind Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 47.92
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: lv80 Gem
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Armguards
+  chance_to_drop_raw: 0,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,88%
+    Icon: ''
+    Item: Good Wind Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 0.88
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Boots
+  chance_to_drop_raw: 0,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,88%
+    Icon: ''
+    Item: Good Wind Boots
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 0.88
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Boots
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Wind Boots
+    Short info: Adv.plands for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Armguards
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: A.Plan2:Wind Armguards
+    Short info: Adv.plands for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Boots
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: Storm Boots
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: red-clapper-dragon__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armguards
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: Storm Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Clapper Dragon
+  - ''
+  rows_raw:
+  - - Name
+    - Red Clapper Dragon
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Waterfall Camp
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '-'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '91'
+    - '-'
+    - '-'
+    - '-'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '804'
+    - '1164'
+    - '653'
+    - '335'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '-'
+    - '-'
+    - '-'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '-'
+    - '-'
+    - '-'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,04%
+    - '1004'
+    - 294-374
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,92%
+    - ''
+    - Wind Boots
+    - Mantle lv96
+  - - 47,92%
+    - ''
+    - Wind Armguards
+    - Mantle lv96
+  - - 1,60%
+    - ''
+    - Flawless Emerald
+    - lv80 Gem
+  - - 0,88%
+    - ''
+    - Good Wind Armguards
+    - Mantle lv96
+  - - 0,88%
+    - ''
+    - Good Wind Boots
+    - Mantle lv96
+  - - 0,39%
+    - ''
+    - A.Plan2:Wind Boots
+    - Adv.plands for armorsmith
+  - - 0,39%
+    - ''
+    - A.Plan2:Wind Armguards
+    - Adv.plands for armorsmith
+  - - ?.??%
+    - ''
+    - Storm Boots
+    - Mantle lv96
+  - - ?.??%
+    - ''
+    - Storm Armguards
+    - Mantle lv96
+  row_count: 10

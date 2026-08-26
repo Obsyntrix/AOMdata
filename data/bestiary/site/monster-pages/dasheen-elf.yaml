@@ -1,0 +1,320 @@
+monster_page:
+  id: dasheen-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dasheen-elf
+    retrieval_url: https://web.archive.org/web/20120815012108id_/http://angels.wikidot.com:80/monster:dasheen-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20120815012108'
+    archive_snapshot_url: https://web.archive.org/web/20120815012108/http://angels.wikidot.com:80/monster:dasheen-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dasheen-elf
+    source_html_sha256: ae90cf9011f53debd76cce6fba4a68442baeffd613eb19ff8fa987234a5cb2ab
+fields_raw:
+  Name: 'Spells:'
+  Dasheen Elf: '-'
+  'Spells:': 'Location:'
+  '-': Waterfall Camp
+  Type: '-'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '82'
+  Hit Points: '-'
+  Rigor: '-'
+  Agility: '-'
+  Attack: '668'
+  Defense: '960'
+  Spell Attack: '580'
+  Spell Defense: '320'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '-'
+  Speed: '-'
+  Attack Speed: '-'
+  Critical: '-'
+  Stamina: '-'
+  Soul: '-'
+  Item Drop Chance: 0.04%
+  Experience: '1004'
+  Gold: 294-374
+item_drop_chance_raw: 0.04%
+drops:
+- drop_id: dasheen-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Boots
+  chance_to_drop_raw: 47.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.9%
+    Icon: ''
+    Item: Espial Boots
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: 47.9
+    quantity: null
+- drop_id: dasheen-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armguards
+  chance_to_drop_raw: 47.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.9%
+    Icon: ''
+    Item: Wind Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 47.9
+    quantity: null
+- drop_id: dasheen-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Armguards
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Wind Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: dasheen-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Boots
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Espial Boots
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: dasheen-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armguards
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Storm Armguards
+    Short info: Mantle lv96
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: dasheen-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Boots
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Magnetic Boots
+    Short info: Vestment lv96
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: dasheen-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: lv80 gem
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: dasheen-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Boots
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Espial Boots
+    Short info: D.Plan2 technician
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: dasheen-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Bracers
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Espial Bracers
+    Short info: D.Plan2 technician
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dasheen Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Dasheen Elf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Waterfall Camp
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '-'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '82'
+    - '-'
+    - '-'
+    - '-'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '668'
+    - '960'
+    - '580'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '-'
+    - '-'
+    - '-'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '-'
+    - '-'
+    - '-'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.04%
+    - '1004'
+    - 294-374
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.9%
+    - ''
+    - Espial Boots
+    - Vestment lv96
+  - - 47.9%
+    - ''
+    - Wind Armguards
+    - Mantle lv96
+  - - 1,19%
+    - ''
+    - Good Wind Armguards
+    - Mantle lv96
+  - - 1,19%
+    - ''
+    - Good Espial Boots
+    - Vestment lv96
+  - - 0.05%
+    - ''
+    - Storm Armguards
+    - Mantle lv96
+  - - 0.05%
+    - ''
+    - Magnetic Boots
+    - Vestment lv96
+  - - 0.94%
+    - ''
+    - Flawless Emerald
+    - lv80 gem
+  - - 0,39%
+    - ''
+    - D.Plan2:Espial Boots
+    - D.Plan2 technician
+  - - 0,39%
+    - ''
+    - D.Plan2:Espial Bracers
+    - D.Plan2 technician
+  row_count: 10

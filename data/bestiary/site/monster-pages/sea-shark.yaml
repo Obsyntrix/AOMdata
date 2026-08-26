@@ -1,0 +1,303 @@
+monster_page:
+  id: sea-shark
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sea-shark
+    retrieval_url: https://web.archive.org/web/20200119195036id_/http://angels.wikidot.com:80/monster:sea-shark
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119195036'
+    archive_snapshot_url: https://web.archive.org/web/20200119195036/http://angels.wikidot.com:80/monster:sea-shark
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sea-shark
+    source_html_sha256: 75dbb393ef4663cfc0531cf3b5a1e625e3cd269755f04bb46d6dcd2130157291
+fields_raw:
+  Name: 'Description:'
+  Sea Shark: An extremely arrogant shark, however it has what it takes to be arrogant. Just look at its huge mouth and sharp teeth, it seems it can swallow a human
+    at 1 time.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '90'
+  Hit Points: '3637'
+  Rigor: '462'
+  Agility: '282'
+  Attack: '798'
+  Defense: '1140'
+  Spell Attack: '646'
+  Spell Defense: '351'
+  Special Attack: Fire +48
+  Special Defense: '35'
+  Strong Against: Rotten (65)
+  Weak Against: Ice (5)
+  Attack Range: Short (1)
+  Speed: Very fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,10%
+  Experience: '950'
+  Gold: 259 - 349 (304)
+item_drop_chance_raw: 0,10%
+drops:
+- drop_id: sea-shark__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ancient Bow
+  chance_to_drop_raw: 48,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,16%
+    Icon: ''
+    Item: Ancient Bow
+    Short info: Bow Lvl 90 (Atk 585-617 (601), Rig.+41)
+  normalized:
+    chance_to_drop_percent: 48.16
+    quantity: null
+- drop_id: sea-shark__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flood Shield
+  chance_to_drop_raw: 48,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,16%
+    Icon: ''
+    Item: Flood Shield
+    Short info: Shield 90 (Dfs +286, Spl Dfs +92)
+  normalized:
+    chance_to_drop_percent: 48.16
+    quantity: null
+- drop_id: sea-shark__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Ancient Bow
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Ancient Bow
+    Short info: Bow Lvl 90 (Atk 763-795 (779), Rig.+46)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: sea-shark__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Flood Shield
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Good Flood Shield
+    Short info: Shield 90 (Dfs +360, Spl Dfs +103)
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: sea-shark__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 0,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,48%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: 'Weapon: Spl Atk +30, Armor: Spl Dfs +7, Shield: Spl Dfs +7'
+  normalized:
+    chance_to_drop_percent: 0.48
+    quantity: null
+- drop_id: sea-shark__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Ancient Bow
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: W.Plan2:Ancient Bow
+    Short info: Weapon 85
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: sea-shark__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Flood Shield
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: A.Plan2:Flood Shield
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: sea-shark__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sea Shark Card
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Sea Shark Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sea Shark
+  - ''
+  rows_raw:
+  - - Name
+    - Sea Shark
+    - ''
+  - - 'Description:'
+    - An extremely arrogant shark, however it has what it takes to be arrogant. Just look at its huge mouth and sharp teeth, it seems it can swallow a human at 1
+      time.
+    - ''
+  - - 'Location:'
+    - Blue Ocean , Dream Ocean , Raging Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '90'
+    - '3637'
+    - '462'
+    - '282'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '798'
+    - '1140'
+    - '646'
+    - '351'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +48
+    - '35'
+    - Rotten (65)
+    - Ice (5)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,10%
+    - '950'
+    - 259 - 349 (304)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,16%
+    - ''
+    - Ancient Bow
+    - Bow Lvl 90 (Atk 585-617 (601), Rig.+41)
+  - - 48,16%
+    - ''
+    - Flood Shield
+    - Shield 90 (Dfs +286, Spl Dfs +92)
+  - - 1,20%
+    - ''
+    - Good Ancient Bow
+    - Bow Lvl 90 (Atk 763-795 (779), Rig.+46)
+  - - 1,20%
+    - ''
+    - Good Flood Shield
+    - Shield 90 (Dfs +360, Spl Dfs +103)
+  - - 0,48%
+    - ''
+    - Flawless Purple Gem
+    - 'Weapon: Spl Atk +30, Armor: Spl Dfs +7, Shield: Spl Dfs +7'
+  - - 0,40%
+    - ''
+    - W.Plan2:Ancient Bow
+    - Weapon 85
+  - - 0,40%
+    - ''
+    - A.Plan2:Flood Shield
+    - Armor 85
+  - - ?.?%
+    - ''
+    - Sea Shark Card
+    - 'See: Card Collection'
+  row_count: 9

@@ -1,0 +1,356 @@
+monster_page:
+  id: savage-priest
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:savage-priest
+    retrieval_url: https://web.archive.org/web/20200109172103id_/http://angels.wikidot.com:80/monster:savage-priest
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172103'
+    archive_snapshot_url: https://web.archive.org/web/20200109172103/http://angels.wikidot.com:80/monster:savage-priest
+    archive_original_lookup_url: https://angels.wikidot.com/monster:savage-priest
+    source_html_sha256: 20f7db34c8ec2b3edbd2a8e74a95fa04ed2d4de12a5f59d7a1d2594172b8209d
+fields_raw:
+  Name: 'Spells:'
+  Savage Priest: '-'
+  'Spells:': 'Location:'
+  '-': Thorn Wasteland
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '48'
+  Hit Points: '1637'
+  Rigor: '242'
+  Agility: '156'
+  Attack: '347'
+  Defense: '414'
+  Spell Attack: '339'
+  Spell Defense: '189'
+  Special Attack: Fire +24
+  Special Defense: '14'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (85)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,21%
+  Experience: '409'
+  Gold: 89 - 139 (114)
+item_drop_chance_raw: 0,21%
+drops:
+- drop_id: savage-priest__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 56,65%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 56,65%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 56.65
+    quantity: null
+- drop_id: savage-priest__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Magic Gown
+  chance_to_drop_raw: 17,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,84%
+    Icon: ''
+    Item: Advanced Magic Gown
+    Short info: Vestment 44 (Dfs +47, Spl Dfs +44)
+  normalized:
+    chance_to_drop_percent: 17.84
+    quantity: null
+- drop_id: savage-priest__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Knights Shield
+  chance_to_drop_raw: 17,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,84%
+    Icon: ''
+    Item: Advanced Knights Shield
+    Short info: Shield 45 (Dfs +78, Spl Dfs +43)
+  normalized:
+    chance_to_drop_percent: 17.84
+    quantity: null
+- drop_id: savage-priest__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Magic Gown
+  chance_to_drop_raw: 2,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,97%
+    Icon: ''
+    Item: Good Advanced Magic Gown
+    Short info: Vestment 44 (Dfs +66, Spl Dfs +63)
+  normalized:
+    chance_to_drop_percent: 2.97
+    quantity: null
+- drop_id: savage-priest__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Knights Shield
+  chance_to_drop_raw: 2,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,97%
+    Icon: ''
+    Item: Good Advanced Knights Shield
+    Short info: Shield 45 (Dfs +110, Spl Dfs +54)
+  normalized:
+    chance_to_drop_percent: 2.97
+    quantity: null
+- drop_id: savage-priest__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: savage-priest__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Gown of Flame God
+  chance_to_drop_raw: 0,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,30%
+    Icon: ''
+    Item: Magic Gown of Flame God
+    Short info: Vestment 44 (Dfs +90, Spl Dfs +87)
+  normalized:
+    chance_to_drop_percent: 0.3
+    quantity: null
+- drop_id: savage-priest__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel Knights Shield
+  chance_to_drop_raw: 0,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,30%
+    Icon: ''
+    Item: Angel Knights Shield
+    Short info: Shield 45 (Dfs +150, Spl Dfs +65)
+  normalized:
+    chance_to_drop_percent: 0.3
+    quantity: null
+- drop_id: savage-priest__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: savage-priest__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: savage-priest__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Savage Priest
+  - ''
+  rows_raw:
+  - - Name
+    - Savage Priest
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Thorn Wasteland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '48'
+    - '1637'
+    - '242'
+    - '156'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '347'
+    - '414'
+    - '339'
+    - '189'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +24
+    - '14'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (85)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,21%
+    - '409'
+    - 89 - 139 (114)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 56,65%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 17,84%
+    - ''
+    - Advanced Magic Gown
+    - Vestment 44 (Dfs +47, Spl Dfs +44)
+  - - 17,84%
+    - ''
+    - Advanced Knights Shield
+    - Shield 45 (Dfs +78, Spl Dfs +43)
+  - - 2,97%
+    - ''
+    - Good Advanced Magic Gown
+    - Vestment 44 (Dfs +66, Spl Dfs +63)
+  - - 2,97%
+    - ''
+    - Good Advanced Knights Shield
+    - Shield 45 (Dfs +110, Spl Dfs +54)
+  - - 0,71%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,30%
+    - ''
+    - Magic Gown of Flame God
+    - Vestment 44 (Dfs +90, Spl Dfs +87)
+  - - 0,30%
+    - ''
+    - Angel Knights Shield
+    - Shield 45 (Dfs +150, Spl Dfs +65)
+  - - 0,14%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  - - 0,14%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,14%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  row_count: 12

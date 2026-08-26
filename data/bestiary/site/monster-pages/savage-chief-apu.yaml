@@ -1,0 +1,518 @@
+monster_page:
+  id: savage-chief-apu
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:savage-chief-apu
+    retrieval_url: https://web.archive.org/web/20200129115739id_/http://angels.wikidot.com:80/monster:savage-chief-apu
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200129115739'
+    archive_snapshot_url: https://web.archive.org/web/20200129115739/http://angels.wikidot.com:80/monster:savage-chief-apu
+    archive_original_lookup_url: https://angels.wikidot.com/monster:savage-chief-apu
+    source_html_sha256: 2c9a6beb31dd34d111a990bb0787f83601b1755c78623cff1dd903a50a2aa13b
+fields_raw:
+  Name: 'Stances:'
+  Savage Chief Apu: Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 421
+  'Stances:': 'Location:'
+  Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 421: Thorn Wasteland
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '53'
+  Hit Points: '19527'
+  Rigor: '290'
+  Agility: '186'
+  Attack: '896'
+  Defense: '544'
+  Spell Attack: '395'
+  Spell Defense: '386'
+  Special Attack: '-'
+  Special Defense: '17'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Super Fast (105)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '1372'
+  Gold: 947 - 1499 (1223)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: savage-chief-apu__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rare Fruit of Mars
+  chance_to_drop_raw: 48,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,95%
+    Icon: ''
+    Item: Rare Fruit of Mars
+    Short info: Food (Defense +40 | 10 min)
+  normalized:
+    chance_to_drop_percent: 48.95
+    quantity: null
+- drop_id: savage-chief-apu__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Magic Gown
+  chance_to_drop_raw: 19,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,74%
+    Icon: ''
+    Item: Advanced Magic Gown
+    Short info: Vestment 44 (Dfs +47, Spl Dfs +44)
+  normalized:
+    chance_to_drop_percent: 19.74
+    quantity: null
+- drop_id: savage-chief-apu__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Knights Shield
+  chance_to_drop_raw: 19,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,74%
+    Icon: ''
+    Item: Advanced Knights Shield
+    Short info: Shield 45 (Dfs +78, Spl Dfs +43)
+  normalized:
+    chance_to_drop_percent: 19.74
+    quantity: null
+- drop_id: savage-chief-apu__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beast's Egg
+  chance_to_drop_raw: 6,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,01%
+    Icon: ''
+    Item: Beast's Egg
+    Short info: An egg with a beast shape will turn to different shapes with different education.
+  normalized:
+    chance_to_drop_percent: 6.01
+    quantity: null
+- drop_id: savage-chief-apu__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 1,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,68%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 1.68
+    quantity: null
+- drop_id: savage-chief-apu__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Magic Gown
+  chance_to_drop_raw: 0,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,60%
+    Icon: ''
+    Item: Good Advanced Magic Gown
+    Short info: Vestment 44 (Dfs +66, Spl Dfs +63)
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+- drop_id: savage-chief-apu__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Knights Shield
+  chance_to_drop_raw: 0,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,60%
+    Icon: ''
+    Item: Good Advanced Knights Shield
+    Short info: Shield 45 (Dfs +110, Spl Dfs +54)
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+- drop_id: savage-chief-apu__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Curse Refining
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: Curse Refining
+    Short info: Trinkets 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Beetle Bag
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: Green Beetle Bag
+    Short info: Bag Lvl 45 (Max. Weight +900, Slots 22)
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'W.Plan2: Crystal Sword'
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: 'W.Plan2: Crystal Sword'
+    Short info: Weapon 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'W.Plan2: Crystal Axe'
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: 'W.Plan2: Crystal Axe'
+    Short info: Weapon 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Black Knights Armor'
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: 'A.Plan2: Black Knights Armor'
+    Short info: Armor 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Crusader''s Shield'
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: 'A.Plan2: Crusader''s Shield'
+    Short info: Armor 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'C.Plan2: Oracle'
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: 'C.Plan2: Oracle'
+    Short info: Technics 45
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: savage-chief-apu__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,15%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: savage-chief-apu__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Gown of Flame God
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Magic Gown of Flame God
+    Short info: Vestment 44 (Dfs +90, Spl Dfs +87)
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: savage-chief-apu__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel Knights Shield
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Angel Knights Shield
+    Short info: Shield 45 (Dfs +150, Spl Dfs +65)
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: savage-chief-apu__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: savage-chief-apu__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: savage-chief-apu__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 1: Mighty Cure 5'
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: 'Scroll 1: Mighty Cure 5'
+    Short info: Life 60
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Savage Chief Apu
+  - ''
+  rows_raw:
+  - - Name
+    - Savage Chief Apu
+    - ''
+  - - 'Stances:'
+    - Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 421
+    - ''
+  - - 'Location:'
+    - Thorn Wasteland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '53'
+    - '19527'
+    - '290'
+    - '186'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '896'
+    - '544'
+    - '395'
+    - '386'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '17'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Super Fast (105)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1372'
+    - 947 - 1499 (1223)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,95%
+    - ''
+    - Rare Fruit of Mars
+    - Food (Defense +40 | 10 min)
+  - - 19,74%
+    - ''
+    - Advanced Magic Gown
+    - Vestment 44 (Dfs +47, Spl Dfs +44)
+  - - 19,74%
+    - ''
+    - Advanced Knights Shield
+    - Shield 45 (Dfs +78, Spl Dfs +43)
+  - - 6,01%
+    - ''
+    - Beast's Egg
+    - An egg with a beast shape will turn to different shapes with different education.
+  - - 1,68%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,60%
+    - ''
+    - Good Advanced Magic Gown
+    - Vestment 44 (Dfs +66, Spl Dfs +63)
+  - - 0,60%
+    - ''
+    - Good Advanced Knights Shield
+    - Shield 45 (Dfs +110, Spl Dfs +54)
+  - - 0,32%
+    - ''
+    - Curse Refining
+    - Trinkets 45
+  - - 0,32%
+    - ''
+    - Green Beetle Bag
+    - Bag Lvl 45 (Max. Weight +900, Slots 22)
+  - - 0,32%
+    - ''
+    - 'W.Plan2: Crystal Sword'
+    - Weapon 45
+  - - 0,32%
+    - ''
+    - 'W.Plan2: Crystal Axe'
+    - Weapon 45
+  - - 0,32%
+    - ''
+    - 'A.Plan2: Black Knights Armor'
+    - Armor 45
+  - - 0,32%
+    - ''
+    - 'A.Plan2: Crusader''s Shield'
+    - Armor 45
+  - - 0,32%
+    - ''
+    - 'C.Plan2: Oracle'
+    - Technics 45
+  - - 0,15%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,06%
+    - ''
+    - Magic Gown of Flame God
+    - Vestment 44 (Dfs +90, Spl Dfs +87)
+  - - 0,06%
+    - ''
+    - Angel Knights Shield
+    - Shield 45 (Dfs +150, Spl Dfs +65)
+  - - 0,05%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  - - 0,05%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  - - 0,04%
+    - ''
+    - 'Scroll 1: Mighty Cure 5'
+    - Life 60
+  row_count: 21

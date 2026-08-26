@@ -1,0 +1,194 @@
+monster_page:
+  id: drought-toad
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:drought-toad
+    retrieval_url: https://web.archive.org/web/20200105121701id_/http://angels.wikidot.com:80/monster:drought-toad
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105121701'
+    archive_snapshot_url: https://web.archive.org/web/20200105121701/http://angels.wikidot.com:80/monster:drought-toad
+    archive_original_lookup_url: https://angels.wikidot.com/monster:drought-toad
+    source_html_sha256: 1430f19fa744e5a011406d7c9bbdce45f8c31d90a68432ca0bb40b9de669c616
+fields_raw:
+  Name: 'Spells:'
+  Drought Toad: '-'
+  'Spells:': 'Location:'
+  '-': Lost Cove
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '86'
+  Hit Points: '14176'
+  Rigor: '442'
+  Agility: '270'
+  Attack: '950'
+  Defense: '1047'
+  Spell Attack: '614'
+  Spell Defense: '486'
+  Special Attack: Ice +80
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (3)'
+  Speed: Moderate (70)
+  Attack Speed: '? (80)'
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: ??,??%
+  Experience: '6378'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: drought-toad__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: drought-toad__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Drought Toad
+  - ''
+  rows_raw:
+  - - Name
+    - Drought Toad
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Lost Cove
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '86'
+    - '14176'
+    - '442'
+    - '270'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '950'
+    - '1047'
+    - '614'
+    - '486'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +80
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (3)'
+    - Moderate (70)
+    - '? (80)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '6378'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

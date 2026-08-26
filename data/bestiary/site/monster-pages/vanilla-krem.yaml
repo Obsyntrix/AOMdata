@@ -1,0 +1,230 @@
+monster_page:
+  id: vanilla-krem
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:vanilla-krem
+    retrieval_url: https://web.archive.org/web/20170619044410id_/http://angels.wikidot.com:80/monster:vanilla-krem
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170619044410'
+    archive_snapshot_url: https://web.archive.org/web/20170619044410/http://angels.wikidot.com:80/monster:vanilla-krem
+    archive_original_lookup_url: https://angels.wikidot.com/monster:vanilla-krem
+    source_html_sha256: 2945f30cecbe9f663a13194ffbd564c16dee94d4dedb4eee8019cbb2959c2e94
+fields_raw:
+  Name: 'Spells:'
+  Vanilla Krem: Heavy Crack
+  'Spells:': 'Location:'
+  Heavy Crack: Chocolate Forest
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100,00%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: vanilla-krem__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Diamond Explorer
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Diamond Explorer
+    Short info: 140 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: vanilla-krem__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Diamond Explorer
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Diamond Explorer
+    Short info: 140 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: vanilla-krem__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Deep Digging
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Deep Digging
+    Short info: 140 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: vanilla-krem__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Pestle
+    Short info: Pestle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Vanilla Krem
+  - ''
+  rows_raw:
+  - - Name
+    - Vanilla Krem
+    - ''
+  - - 'Spells:'
+    - Heavy Crack
+    - ''
+  - - 'Location:'
+    - Chocolate Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Diamond Explorer
+    - 140 Axe
+  - - ??,??%
+    - ''
+    - Good Diamond Explorer
+    - 140 Axe
+  - - ??,??%
+    - ''
+    - Deep Digging
+    - 140 Axe
+  - - ??,??%
+    - ''
+    - Pestle
+    - Pestle
+  row_count: 5

@@ -1,0 +1,284 @@
+monster_page:
+  id: fox-spirit-tamamo
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fox-spirit-tamamo
+    retrieval_url: https://web.archive.org/web/20191230105308id_/http://angels.wikidot.com:80/monster:fox-spirit-tamamo
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105308'
+    archive_snapshot_url: https://web.archive.org/web/20191230105308/http://angels.wikidot.com:80/monster:fox-spirit-tamamo
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fox-spirit-tamamo
+    source_html_sha256: 23b314c320b8f9796bb9f08df0a294960e37f4d76c657a148602f70cdc2d29ba
+fields_raw:
+  Name: 'Spells:'
+  Fox Spirit Tamamo: '-'
+  'Spells:': 'Location:'
+  '-': Jade Tassel City
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '220'
+  Hit Points: '17479692'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: fox-spirit-tamamo__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Pestle
+    Short info: Pestle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scepter of Deception
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Scepter of Deception
+    Short info: 220 Staff
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Scepter of Deception
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Scepter of Deception
+    Short info: 220 Staff
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Tamer's Comet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Tamer's Comet
+    Short info: 220 Staff
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Vampire Falchion
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Vampire Falchion
+    Short info: 220 Shadowblade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Vampire Falchion
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Vampire Falchion
+    Short info: 220 Shadowblade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: fox-spirit-tamamo__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Bloodpact Instrument
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Bloodpact Instrument
+    Short info: 220 Shadowblade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fox Spirit Tamamo
+  - ''
+  rows_raw:
+  - - Name
+    - Fox Spirit Tamamo
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Jade Tassel City
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '220'
+    - '17479692'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Pestle
+    - Pestle
+  - - ??,??%
+    - ''
+    - Scepter of Deception
+    - 220 Staff
+  - - ??,??%
+    - ''
+    - Good Scepter of Deception
+    - 220 Staff
+  - - ??,??%
+    - ''
+    - Tamer's Comet
+    - 220 Staff
+  - - ??,??%
+    - ''
+    - Vampire Falchion
+    - 220 Shadowblade
+  - - ??,??%
+    - ''
+    - Good Vampire Falchion
+    - 220 Shadowblade
+  - - ??,??%
+    - ''
+    - Bloodpact Instrument
+    - 220 Shadowblade
+  row_count: 8

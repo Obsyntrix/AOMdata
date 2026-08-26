@@ -1,0 +1,283 @@
+monster_page:
+  id: scale-fish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:scale-fish
+    retrieval_url: https://web.archive.org/web/20191230105334id_/http://angels.wikidot.com:80/monster:scale-fish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105334'
+    archive_snapshot_url: https://web.archive.org/web/20191230105334/http://angels.wikidot.com:80/monster:scale-fish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:scale-fish
+    source_html_sha256: 47e2b67a961ef077331b6150d0c74b26b60537473698b3b6803d4fe0de89e787
+fields_raw:
+  Name: 'Description:'
+  Scale Fish: Always holding a long spear is its' feature. The reason it always holds the spear is not because it wants to look cool, it's because it is very aggressive.
+  'Description:': 'Location:'
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '77'
+  Hit Points: '3045'
+  Rigor: '397'
+  Agility: '243'
+  Attack: '579'
+  Defense: '860'
+  Spell Attack: '543'
+  Spell Defense: '301'
+  Special Attack: Thunder +41
+  Special Defense: '29'
+  Strong Against: Ice (59)
+  Weak Against: Rotten (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,21%
+  Experience: '934'
+  Gold: 316 - 392 (354)
+item_drop_chance_raw: 0,21%
+drops:
+- drop_id: scale-fish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Boots
+  chance_to_drop_raw: 47,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,93%
+    Icon: ''
+    Item: Hunter Boots
+    Short info: Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  normalized:
+    chance_to_drop_percent: 47.93
+    quantity: null
+- drop_id: scale-fish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Cuffs
+  chance_to_drop_raw: 47,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,93%
+    Icon: ''
+    Item: Hunter Cuffs
+    Short info: Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  normalized:
+    chance_to_drop_percent: 47.93
+    quantity: null
+- drop_id: scale-fish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Boots
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Good Hunter Boots
+    Short info: Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: scale-fish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Cuffs
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Good Hunter Cuffs
+    Short info: Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: scale-fish__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+- drop_id: scale-fish__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Boots
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Forest Boots
+    Short info: Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: scale-fish__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Cuffs
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Forest Cuffs
+    Short info: Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Scale Fish
+  - ''
+  rows_raw:
+  - - Name
+    - Scale Fish
+    - ''
+  - - 'Description:'
+    - Always holding a long spear is its' feature. The reason it always holds the spear is not because it wants to look cool, it's because it is very aggressive.
+    - ''
+  - - 'Location:'
+    - Colorful Coral Reefs , Blue Sea , Wave Harbor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '77'
+    - '3045'
+    - '397'
+    - '243'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '579'
+    - '860'
+    - '543'
+    - '301'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +41
+    - '29'
+    - Ice (59)
+    - Rotten (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,21%
+    - '934'
+    - 316 - 392 (354)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,93%
+    - ''
+    - Hunter Boots
+    - Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  - - 47,93%
+    - ''
+    - Hunter Cuffs
+    - Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  - - 1,60%
+    - ''
+    - Good Hunter Boots
+    - Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  - - 1,60%
+    - ''
+    - Good Hunter Cuffs
+    - Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  - - 0,80%
+    - ''
+    - Clean Purple Gem
+    - 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  - - 0,08%
+    - ''
+    - Forest Boots
+    - Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  - - 0,08%
+    - ''
+    - Forest Cuffs
+    - Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  row_count: 8

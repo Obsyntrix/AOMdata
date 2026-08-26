@@ -1,0 +1,194 @@
+monster_page:
+  id: dancing-angel-ray
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dancing-angel-ray
+    retrieval_url: https://web.archive.org/web/20200215125119id_/http://angels.wikidot.com:80/monster:dancing-angel-ray
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200215125119'
+    archive_snapshot_url: https://web.archive.org/web/20200215125119/http://angels.wikidot.com:80/monster:dancing-angel-ray
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dancing-angel-ray
+    source_html_sha256: 7c9a591f31c35978b7557229941dc06137f21d9cd22cc011baefb9b7fa77159a
+fields_raw:
+  Name: 'Spells:'
+  Dancing Angel Ray: '-'
+  'Spells:': 'Location:'
+  '-': Flower Corridor
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '112'
+  Hit Points: '48768'
+  Rigor: '592'
+  Agility: '360'
+  Attack: '1693'
+  Defense: '1922'
+  Spell Attack: '1665'
+  Spell Defense: '1241'
+  Special Attack: +56 Ice
+  Special Defense: +76 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: ??,??%
+  Experience: '36124'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: dancing-angel-ray__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: item:Wild Desert Camel
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: item:Wild Desert Camel
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dancing-angel-ray__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dancing Angel Ray
+  - ''
+  rows_raw:
+  - - Name
+    - Dancing Angel Ray
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '112'
+    - '48768'
+    - '592'
+    - '360'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1693'
+    - '1922'
+    - '1665'
+    - '1241'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +56 Ice
+    - +76 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '36124'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - item:Wild Desert Camel
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

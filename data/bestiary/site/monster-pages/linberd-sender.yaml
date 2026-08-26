@@ -1,0 +1,284 @@
+monster_page:
+  id: linberd-sender
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:linberd-sender
+    retrieval_url: https://web.archive.org/web/20200119163140id_/http://angels.wikidot.com:80/monster:linberd-sender
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119163140'
+    archive_snapshot_url: https://web.archive.org/web/20200119163140/http://angels.wikidot.com:80/monster:linberd-sender
+    archive_original_lookup_url: https://angels.wikidot.com/monster:linberd-sender
+    source_html_sha256: 1e0eb19b2d3ef22aea2f3cc4b981371ebb2b5e904e6eb8a1c67507bcf665fe22
+fields_raw:
+  Name: 'Spells:'
+  Linberd Sender: '-'
+  'Spells:': 'Location:'
+  '-': Lost Region
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '77'
+  Hit Points: '6090'
+  Rigor: '422'
+  Agility: '258'
+  Attack: '1292'
+  Defense: '988'
+  Spell Attack: '569'
+  Spell Defense: '319'
+  Special Attack: Ice +41
+  Special Defense: '29'
+  Strong Against: Fire (59)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,11%
+  Experience: '1987'
+  Gold: 412 - 564 (488)
+item_drop_chance_raw: 0,11%
+drops:
+- drop_id: linberd-sender__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Boots
+  chance_to_drop_raw: 47,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,55%
+    Icon: ''
+    Item: Fire Scale Boots
+    Short info: Garment 76 (Dfs +134, Spl Dfs +16, Ag.+26)
+  normalized:
+    chance_to_drop_percent: 47.55
+    quantity: null
+- drop_id: linberd-sender__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Helmet
+  chance_to_drop_raw: 47,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,55%
+    Icon: ''
+    Item: Fire Scale Helmet
+    Short info: Garment 78 (Dfs +224, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 47.55
+    quantity: null
+- drop_id: linberd-sender__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Boots
+  chance_to_drop_raw: 1,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,58%
+    Icon: ''
+    Item: Good Fire Scale Boots
+    Short info: Garment 76 (Dfs +171, Spl Dfs +18, Ag.+29)
+  normalized:
+    chance_to_drop_percent: 1.58
+    quantity: null
+- drop_id: linberd-sender__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Helmet
+  chance_to_drop_raw: 1,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,58%
+    Icon: ''
+    Item: Good Fire Scale Helmet
+    Short info: Garment 78 (Dfs +286, Spl Dfs +27)
+  normalized:
+    chance_to_drop_percent: 1.58
+    quantity: null
+- drop_id: linberd-sender__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 1,59%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,59%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 1.59
+    quantity: null
+- drop_id: linberd-sender__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Boots
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Embrace Boots
+    Short info: Garment 76 (Dfs +216, Spl Dfs +20, Ag.+32)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: linberd-sender__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Helmet
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Embrace Helmet
+    Short info: Garment 78 (Dfs +360, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Linberd Sender
+  - ''
+  rows_raw:
+  - - Name
+    - Linberd Sender
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Lost Region
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '77'
+    - '6090'
+    - '422'
+    - '258'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1292'
+    - '988'
+    - '569'
+    - '319'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +41
+    - '29'
+    - Fire (59)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,11%
+    - '1987'
+    - 412 - 564 (488)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,55%
+    - ''
+    - Fire Scale Boots
+    - Garment 76 (Dfs +134, Spl Dfs +16, Ag.+26)
+  - - 47,55%
+    - ''
+    - Fire Scale Helmet
+    - Garment 78 (Dfs +224, Spl Dfs +23)
+  - - 1,58%
+    - ''
+    - Good Fire Scale Boots
+    - Garment 76 (Dfs +171, Spl Dfs +18, Ag.+29)
+  - - 1,58%
+    - ''
+    - Good Fire Scale Helmet
+    - Garment 78 (Dfs +286, Spl Dfs +27)
+  - - 1,59%
+    - ''
+    - Clean Ruby
+    - 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  - - 0,07%
+    - ''
+    - Embrace Boots
+    - Garment 76 (Dfs +216, Spl Dfs +20, Ag.+32)
+  - - 0,07%
+    - ''
+    - Embrace Helmet
+    - Garment 78 (Dfs +360, Spl Dfs +30)
+  row_count: 8

@@ -1,0 +1,280 @@
+monster_page:
+  id: hungry-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:hungry-fly
+    retrieval_url: https://web.archive.org/web/20200109171903id_/http://angels.wikidot.com:80/monster:hungry-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171903'
+    archive_snapshot_url: https://web.archive.org/web/20200109171903/http://angels.wikidot.com:80/monster:hungry-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:hungry-fly
+    source_html_sha256: 14b4a1246cc5afaba41e61466379de3a996e67f7359e1f1b0943114bbd7ac861
+fields_raw:
+  Name: 'Spells:'
+  Hungry Fly: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Animal
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '53'
+  Hit Points: '3770'
+  Rigor: '277'
+  Agility: '171'
+  Attack: '387'
+  Defense: '576'
+  Magic Attack: '387'
+  Magic Defense: '220'
+  Bonus Damage: Rotten +26
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Item Drop Chance: 0,08%
+  Experience: '754'
+  Gold: 159 - 273 (216)
+item_drop_chance_raw: 0,08%
+drops:
+- drop_id: hungry-fly__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 57,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 57,37%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 57.37
+    quantity: null
+- drop_id: hungry-fly__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Army Knife
+  chance_to_drop_raw: 17,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,22%
+    Icon: ''
+    Item: Advanced Army Knife
+    Short info: Sword Lvl 45 (Atk 157-169 (163), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 17.22
+    quantity: null
+- drop_id: hungry-fly__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Huge Axe
+  chance_to_drop_raw: 17,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,22%
+    Icon: ''
+    Item: Advanced Huge Axe
+    Short info: Axe Lvl 45 (Atk 187-231 (209), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 17.22
+    quantity: null
+- drop_id: hungry-fly__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Army Knife
+  chance_to_drop_raw: 2,86%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,86%
+    Icon: ''
+    Item: Good Advanced Army Knife
+    Short info: Sword Lvl 45 (Atk 227-241 (234), Rig.+12)
+  normalized:
+    chance_to_drop_percent: 2.86
+    quantity: null
+- drop_id: hungry-fly__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced War Axe
+  chance_to_drop_raw: 2,86%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,86%
+    Icon: ''
+    Item: Good Advanced War Axe
+    Short info: Axe Lvl 45 (Atk 271-315 (293), Rig.+12)
+  normalized:
+    chance_to_drop_percent: 2.86
+    quantity: null
+- drop_id: hungry-fly__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Golden Hammer
+  chance_to_drop_raw: 0,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,95%
+    Icon: ''
+    Item: W.Plan2:Golden Hammer
+    Short info: Weapon 55
+  normalized:
+    chance_to_drop_percent: 0.95
+    quantity: null
+- drop_id: hungry-fly__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Lion Shield
+  chance_to_drop_raw: 0,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,95%
+    Icon: ''
+    Item: A.Plan2:Lion Shield
+    Short info: Armor 55
+  normalized:
+    chance_to_drop_percent: 0.95
+    quantity: null
+- drop_id: hungry-fly__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Adas's Blade
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Adas's Blade
+    Short info: Sword Lvl 45 (Atk 315-335 (325), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: hungry-fly__t004r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rainbow Axe
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Rainbow Axe
+    Short info: Axe Lvl 45 (Atk 376-420 (398), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Hungry Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Hungry Fly
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Animal
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '53'
+    - '3770'
+    - '277'
+    - '171'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '387'
+    - '576'
+    - '387'
+    - '220'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Rotten +26
+    - Nothing
+    - Nothing
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%
+    - '754'
+    - 159 - 273 (216)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 57,37%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 17,22%
+    - ''
+    - Advanced Army Knife
+    - Sword Lvl 45 (Atk 157-169 (163), Rig.+9)
+  - - 17,22%
+    - ''
+    - Advanced Huge Axe
+    - Axe Lvl 45 (Atk 187-231 (209), Rig.+9)
+  - - 2,86%
+    - ''
+    - Good Advanced Army Knife
+    - Sword Lvl 45 (Atk 227-241 (234), Rig.+12)
+  - - 2,86%
+    - ''
+    - Good Advanced War Axe
+    - Axe Lvl 45 (Atk 271-315 (293), Rig.+12)
+  - - 0,95%
+    - ''
+    - W.Plan2:Golden Hammer
+    - Weapon 55
+  - - 0,95%
+    - ''
+    - A.Plan2:Lion Shield
+    - Armor 55
+  - - 0,28%
+    - ''
+    - Adas's Blade
+    - Sword Lvl 45 (Atk 315-335 (325), Rig.+14)
+  - - 0,28%
+    - ''
+    - Rainbow Axe
+    - Axe Lvl 45 (Atk 376-420 (398), Rig.+14)
+  row_count: 10

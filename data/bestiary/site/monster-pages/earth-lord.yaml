@@ -1,0 +1,305 @@
+monster_page:
+  id: earth-lord
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:earth-lord
+    retrieval_url: https://web.archive.org/web/20191230105258id_/http://angels.wikidot.com:80/monster:earth-lord
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105258'
+    archive_snapshot_url: https://web.archive.org/web/20191230105258/http://angels.wikidot.com:80/monster:earth-lord
+    archive_original_lookup_url: https://angels.wikidot.com/monster:earth-lord
+    source_html_sha256: a9d56fa10c200511c4cb8f452f70791840ba5a4b95891f4ba98954023ece90f5
+fields_raw:
+  Name: 'Description:'
+  Earth Lord: The lord of the earth elves. He is very shy, but will come out if people pick on his friends. Although strong, he is easily intimidated by those stronger
+    than him. - Basic Beat Single Short-R. | Power 206 (10%) Stun | 2 sec
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '10'
+  Hit Points: '1128'
+  Rigor: '62'
+  Agility: '42'
+  Attack: '85'
+  Defense: '92'
+  Spell Attack: '77'
+  Spell Defense: '43'
+  Special Attack: (5%) Rotten +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 27,95%
+  Experience: '94'
+  Gold: 57 - 91 (74)
+item_drop_chance_raw: 27,95%
+drops:
+- drop_id: earth-lord__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earth Elf Card
+  chance_to_drop_raw: 39,76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 39,76%
+    Icon: ''
+    Item: Earth Elf Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 39.76
+    quantity: null
+- drop_id: earth-lord__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-effect Red Potion 1 x3
+  chance_to_drop_raw: 35,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,78%
+    Icon: ''
+    Item: Low-effect Red Potion 1 x3
+    Short info: Food (HP +100)
+  normalized:
+    chance_to_drop_percent: 35.78
+    quantity: null
+- drop_id: earth-lord__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-effect Blue Potion 1 x3
+  chance_to_drop_raw: 17,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,89%
+    Icon: ''
+    Item: Low-effect Blue Potion 1 x3
+    Short info: Food (MP +80)
+  normalized:
+    chance_to_drop_percent: 17.89
+    quantity: null
+- drop_id: earth-lord__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 6,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,14%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 6.14
+    quantity: null
+- drop_id: earth-lord__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Little Bambo Basket
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Little Bambo Basket
+    Short info: Backpack (Max.Weight +100, Slots 5)
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: earth-lord__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earth Elf's Aura
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Earth Elf's Aura
+    Short info: Halo (Dfs +12, R.Dfs +5)
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: earth-lord__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Earth Elf's Aura
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Earth Elf's Aura
+    Short info: Cloak (Dfs +15, Spl Dfs +10, R.Dfs +5)
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: earth-lord__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Copper Monster Badge
+  chance_to_drop_raw: 1 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1 x
+    Icon: ''
+    Item: Copper Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Earth Lord
+  - ''
+  rows_raw:
+  - - Name
+    - Earth Lord
+    - ''
+  - - 'Description:'
+    - The lord of the earth elves. He is very shy, but will come out if people pick on his friends. Although strong, he is easily intimidated by those stronger than
+      him. - Basic Beat Single Short-R. | Power 206 (10%) Stun | 2 sec
+    - ''
+  - - 'Location:'
+    - East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '10'
+    - '1128'
+    - '62'
+    - '42'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '85'
+    - '92'
+    - '77'
+    - '43'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Rotten +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 27,95%
+    - '94'
+    - 57 - 91 (74)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 39,76%
+    - ''
+    - Earth Elf Card
+    - 'See: Card Collection'
+  - - 35,78%
+    - ''
+    - Low-effect Red Potion 1 x3
+    - Food (HP +100)
+  - - 17,89%
+    - ''
+    - Low-effect Blue Potion 1 x3
+    - Food (MP +80)
+  - - 6,14%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,36%
+    - ''
+    - Little Bambo Basket
+    - Backpack (Max.Weight +100, Slots 5)
+  - - 0,04%
+    - ''
+    - Earth Elf's Aura
+    - Halo (Dfs +12, R.Dfs +5)
+  - - 0,04%
+    - ''
+    - Earth Elf's Aura
+    - Cloak (Dfs +15, Spl Dfs +10, R.Dfs +5)
+  - - Badges
+    - ''
+  - - 1 x
+    - ''
+    - Copper Monster Badge
+    - ''
+  row_count: 10

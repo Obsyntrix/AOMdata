@@ -1,0 +1,146 @@
+monster_page:
+  id: rotten-wanda
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rotten-wanda
+    retrieval_url: https://web.archive.org/web/20191229154152id_/http://angels.wikidot.com:80/monster:rotten-wanda
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191229154152'
+    archive_snapshot_url: https://web.archive.org/web/20191229154152/http://angels.wikidot.com:80/monster:rotten-wanda
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rotten-wanda
+    source_html_sha256: 6b4d5dcd775f1a2effbc9f8bada38f4966080f4cd0259e0ca7b4a2c7095c0509
+fields_raw:
+  'Name:': 'Stances:'
+  Rotten Wanda: Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 284
+  'Stances:': 'Location:'
+  Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 284: Memory Cave
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '12641'
+  Rigor: '212'
+  Agility: '132'
+  Attack: '586'
+  Defense: '390'
+  Spell Attack: '258'
+  Spell Defense: '256'
+  Special Attack: '-'
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 0%
+  Experience: '870'
+  Gold: 598 - 946 (772)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - 'Name:'
+  - Rotten Wanda
+  - ''
+  rows_raw:
+  - - 'Name:'
+    - Rotten Wanda
+    - ''
+  - - 'Stances:'
+    - Heart Stab Single Short-R. | x3 - Dancing Stab Self AOE | Power 284
+    - ''
+  - - 'Location:'
+    - Memory Cave
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '12641'
+    - '212'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '586'
+    - '390'
+    - '258'
+    - '256'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '870'
+    - 598 - 946 (772)
+  row_count: 2

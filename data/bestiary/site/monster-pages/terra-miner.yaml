@@ -1,0 +1,230 @@
+monster_page:
+  id: terra-miner
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:terra-miner
+    retrieval_url: https://web.archive.org/web/20191102090333id_/http://angels.wikidot.com:80/monster:terra-miner
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102090333'
+    archive_snapshot_url: https://web.archive.org/web/20191102090333/http://angels.wikidot.com:80/monster:terra-miner
+    archive_original_lookup_url: https://angels.wikidot.com/monster:terra-miner
+    source_html_sha256: a526046c48cc3ea3361d6b646fe7d6b70271593797ea3794b605160b8ae65d86
+fields_raw:
+  Name: 'Description:'
+  Terra Miner: Description
+  'Description:': 'Location:'
+  Description: Flaming Door , Underground Square , Hell Palace
+  Type: Human
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '78'
+  Hit Points: '2918'
+  Rigor: '402'
+  Agility: '246'
+  Attack: '579'
+  Defense: '880'
+  Magic Attack: '555'
+  Magic Defense: '312'
+  Special Attack: Ice +38
+  Special Defense: '29'
+  Strong Against: Fire(59)
+  Weak Against: Thunder(0)
+  Attack Range: Short (1)
+  Speed: Fast(95)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.02%
+  Experience: '730'
+  Gold: 235-375 (305)
+item_drop_chance_raw: 0.02%
+drops:
+- drop_id: terra-miner__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 28.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 28.54%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 28.54
+    quantity: null
+- drop_id: terra-miner__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Boots
+  chance_to_drop_raw: 68.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 68.36%
+    Icon: ''
+    Item: Hunter Boots
+    Short info: Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  normalized:
+    chance_to_drop_percent: 68.36
+    quantity: null
+- drop_id: terra-miner__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Boots
+  chance_to_drop_raw: 2.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.85%
+    Icon: ''
+    Item: Good Hunter Boots
+    Short info: Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  normalized:
+    chance_to_drop_percent: 2.85
+    quantity: null
+- drop_id: terra-miner__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Boots
+  chance_to_drop_raw: 0.24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.24%
+    Icon: ''
+    Item: Forest Boots
+    Short info: Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Terra Miner
+  - ''
+  rows_raw:
+  - - Name
+    - Terra Miner
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Flaming Door , Underground Square , Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Human
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '78'
+    - '2918'
+    - '402'
+    - '246'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '579'
+    - '880'
+    - '555'
+    - '312'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +38
+    - '29'
+    - Fire(59)
+    - Thunder(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(95)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.02%
+    - '730'
+    - 235-375 (305)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 28.54%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Card Collection'
+  - - 68.36%
+    - ''
+    - Hunter Boots
+    - Mantle 76 (Dfs +90, Spl Dfs +31, Ag +26)
+  - - 2.85%
+    - ''
+    - Good Hunter Boots
+    - Mantle 76 (Dfs +114, Spl Dfs +36, Ag +29)
+  - - 0.24%
+    - ''
+    - Forest Boots
+    - Mantle 76 (Dfs +144, Spl Dfs +40, Ag +32)
+  row_count: 5

@@ -1,0 +1,194 @@
+monster_page:
+  id: buddy
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:buddy
+    retrieval_url: https://web.archive.org/web/20110907072000id_/http://angels.wikidot.com:80/monster:buddy
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907072000'
+    archive_snapshot_url: https://web.archive.org/web/20110907072000/http://angels.wikidot.com:80/monster:buddy
+    archive_original_lookup_url: https://angels.wikidot.com/monster:buddy
+    source_html_sha256: 82d92a2f468600e4a8d87f51aec576c53fc1ab505301429d377b542c4c5d5b8b
+fields_raw:
+  Name: 'Spells:'
+  Buddy: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '95'
+  Hit Points: '15973'
+  Rigor: '567'
+  Agility: '297'
+  Attack: '1137'
+  Defense: '1266'
+  Spell Attack: '685'
+  Spell Defense: '534'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '5'
+  Speed: '90'
+  Attack Speed: '70'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '7188'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: buddy__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Woods Cuffs
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Woods Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: buddy__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Woods Cuffs
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Woods Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Buddy
+  - ''
+  rows_raw:
+  - - Name
+    - Buddy
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '15973'
+    - '567'
+    - '297'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1137'
+    - '1266'
+    - '685'
+    - '534'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '5'
+    - '90'
+    - '70'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '7188'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Woods Cuffs
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Good Woods Cuffs
+    - ITEM NOTES
+  row_count: 3

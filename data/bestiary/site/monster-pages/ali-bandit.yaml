@@ -1,0 +1,302 @@
+monster_page:
+  id: ali-bandit
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ali-bandit
+    retrieval_url: https://web.archive.org/web/20200220220207id_/http://angels.wikidot.com:80/monster:ali-bandit
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220220207'
+    archive_snapshot_url: https://web.archive.org/web/20200220220207/http://angels.wikidot.com:80/monster:ali-bandit
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ali-bandit
+    source_html_sha256: cd4a234e232fe27d85a949bdb73b8ac3b083545a2091791b49af2bbdccde480b
+fields_raw:
+  Name: 'Spells:'
+  Ali Bandit: '-'
+  'Spells:': 'Location:'
+  '-': Ghost Village
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '96'
+  Hit Points: '8088'
+  Rigor: '492'
+  Agility: '300'
+  Attack: '1160'
+  Defense: '1292'
+  Spell Attack: '1086'
+  Spell Defense: '363'
+  Special Attack: +48 Ice
+  Special Defense: '?'
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.08%
+  Experience: '4440'
+  Gold: 356 - 452
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: ali-bandit__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Armor
+  chance_to_drop_raw: 61.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 61.75%
+    Icon: ''
+    Item: Saint Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 61.75
+    quantity: null
+- drop_id: ali-bandit__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSaint Armor
+  chance_to_drop_raw: 1.55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.55%
+    Icon: ''
+    Item: GoodSaint Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.55
+    quantity: null
+- drop_id: ali-bandit__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Armor
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: Holy Guard Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: ali-bandit__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: BerryShark-hunting Armor
+  chance_to_drop_raw: 0.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.15%
+    Icon: ''
+    Item: BerryShark-hunting Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: ali-bandit__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Armor
+  chance_to_drop_raw: 0.51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.51%
+    Icon: ''
+    Item: A.Plan2:Saint Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.51
+    quantity: null
+- drop_id: ali-bandit__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Yellow Gem
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: Clean Yellow Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: ali-bandit__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ali Bandit Card
+  chance_to_drop_raw: 17.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17.6%
+    Icon: ''
+    Item: Ali Bandit Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 17.6
+    quantity: null
+- drop_id: ali-bandit__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cactus Bag Card
+  chance_to_drop_raw: 17.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17.6%
+    Icon: ''
+    Item: Cactus Bag Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 17.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ali Bandit
+  - ''
+  rows_raw:
+  - - Name
+    - Ali Bandit
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ghost Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '96'
+    - '8088'
+    - '492'
+    - '300'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1160'
+    - '1292'
+    - '1086'
+    - '363'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +48 Ice
+    - '?'
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '4440'
+    - 356 - 452
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 61.75%
+    - ''
+    - Saint Armor
+    - ITEM NOTES
+  - - 1.55%
+    - ''
+    - GoodSaint Armor
+    - ITEM NOTES
+  - - 0.08%
+    - ''
+    - Holy Guard Armor
+    - ITEM NOTES
+  - - 0.15%
+    - ''
+    - BerryShark-hunting Armor
+    - ITEM NOTES
+  - - 0.51%
+    - ''
+    - A.Plan2:Saint Armor
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - Clean Yellow Gem
+    - ITEM NOTES
+  - - 17.6%
+    - ''
+    - Ali Bandit Card
+    - ITEM NOTES
+  - - 17.6%
+    - ''
+    - Cactus Bag Card
+    - ITEM NOTES
+  row_count: 9

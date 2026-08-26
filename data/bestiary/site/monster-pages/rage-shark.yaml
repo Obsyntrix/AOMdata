@@ -1,0 +1,230 @@
+monster_page:
+  id: rage-shark
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rage-shark
+    retrieval_url: https://web.archive.org/web/20200119195525id_/http://angels.wikidot.com:80/monster:rage-shark
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119195525'
+    archive_snapshot_url: https://web.archive.org/web/20200119195525/http://angels.wikidot.com:80/monster:rage-shark
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rage-shark
+    source_html_sha256: 3f2b58bfc2e53974209db3fc40ad17652097a174f834b35c2454509cf86e7bd5
+fields_raw:
+  Name: 'Description:'
+  Rage Shark: Usually, it is heavily armed. Because it has too many enemies after decades of cruel killing.
+  'Description:': 'Location:'
+  Usually, it is heavily armed. Because it has too many enemies after decades of cruel killing.: Blue Ocean , Dream Ocean , Raging Reefs
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '94'
+  Hit Points: '3825'
+  Rigor: '482'
+  Agility: '294'
+  Attack: '868'
+  Defense: '1240'
+  Magic Attack: '677'
+  Magic Defense: '367'
+  Special Attack: Fire +50
+  Special Defense: '35'
+  Strong Against: Rotten (67)
+  Weak Against: Ice (7)
+  Attack Range: Short (1)
+  Speed: Very fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1243'
+  Gold: 557 - 653 (605)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: rage-shark__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Boots
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Saint Boots
+    Short info: Garment 96 (Dfs +216, Spl Dfs +20, Ag +32)
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: rage-shark__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Boots
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Saint Boots
+    Short info: Garment 96 (Dfs +269, Spl Dfs +22, Ag +36)
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: rage-shark__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: rage-shark__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Boots
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: A.Plan2:Saint Boots
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rage Shark
+  - ''
+  rows_raw:
+  - - Name
+    - Rage Shark
+    - ''
+  - - 'Description:'
+    - Usually, it is heavily armed. Because it has too many enemies after decades of cruel killing.
+    - ''
+  - - 'Location:'
+    - Blue Ocean , Dream Ocean , Raging Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '94'
+    - '3825'
+    - '482'
+    - '294'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '868'
+    - '1240'
+    - '677'
+    - '367'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +50
+    - '35'
+    - Rotten (67)
+    - Ice (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1243'
+    - 557 - 653 (605)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Saint Boots
+    - Garment 96 (Dfs +216, Spl Dfs +20, Ag +32)
+  - - 2,39%
+    - ''
+    - Good Saint Boots
+    - Garment 96 (Dfs +269, Spl Dfs +22, Ag +36)
+  - - 1,19%
+    - ''
+    - Flawless Orange Gem
+    - 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  - - 0,80%
+    - ''
+    - A.Plan2:Saint Boots
+    - Armor 95
+  row_count: 5

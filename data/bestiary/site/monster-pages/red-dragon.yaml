@@ -1,0 +1,338 @@
+monster_page:
+  id: red-dragon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-dragon
+    retrieval_url: https://web.archive.org/web/20170610010634id_/http://angels.wikidot.com:80/monster:red-dragon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170610010634'
+    archive_snapshot_url: https://web.archive.org/web/20170610010634/http://angels.wikidot.com:80/monster:red-dragon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-dragon
+    source_html_sha256: 85267312f5fb48fbf27950d5e266d42ccf593503da6f23733eb885bd25a5257a
+fields_raw:
+  Name: 'Spells:'
+  Red Dragon: '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'no'
+  Level: '73'
+  Hit Points: '2919'
+  Rigor: '376'
+  Agility: '231'
+  Attack: '551'
+  Defense: '784'
+  Spell Attack: '511'
+  Spell Defense: '285'
+  Special Attack: +36 Rotten
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very fast (90)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,13%
+  Experience: '875'
+  Gold: 260 - 322
+item_drop_chance_raw: 0,13%
+drops:
+- drop_id: red-dragon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Cuffs
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Fire Scale Cuffs
+    Short info: Garment lv77
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: red-dragon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Helmet
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Fire Scale Helmet
+    Short info: garment 78
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: red-dragon__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber LordMap Piece
+  chance_to_drop_raw: 23,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23,91%
+    Icon: ''
+    Item: Lvl 7 Robber LordMap Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 23.91
+    quantity: null
+- drop_id: red-dragon__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Sapphire
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Clean Sapphire
+    Short info: Lv 80 Gem
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: red-dragon__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Cuffs
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Fire Scale Cuffs
+    Short info: Garment 77
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: red-dragon__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Helmet
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Fire Scale Helmet
+    Short info: Garment78
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: red-dragon__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Fire Scale Cuffs
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: A.Plan2:Fire Scale Cuffs
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: red-dragon__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Fire Scale Helmet
+  chance_to_drop_raw: 0,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,40%
+    Icon: ''
+    Item: A.Plan2:Fire Scale Helmet
+    Short info: Armor 75
+  normalized:
+    chance_to_drop_percent: 0.4
+    quantity: null
+- drop_id: red-dragon__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Helmet
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Embrace Helmet
+    Short info: Garment78
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: red-dragon__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Cuffs
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Embrace Cuffs
+    Short info: Garment 77
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Dragon
+  - ''
+  rows_raw:
+  - - Name
+    - Red Dragon
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'no'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '73'
+    - '2919'
+    - '376'
+    - '231'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '551'
+    - '784'
+    - '511'
+    - '285'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +36 Rotten
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (90)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,13%
+    - '875'
+    - 260 - 322
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 35,87%
+    - ''
+    - Fire Scale Cuffs
+    - Garment lv77
+  - - 35,87%
+    - ''
+    - Fire Scale Helmet
+    - garment 78
+  - - 23,91%
+    - ''
+    - Lvl 7 Robber LordMap Piece
+    - 'See: Treasure Maps'
+  - - 1,19%
+    - ''
+    - Clean Sapphire
+    - Lv 80 Gem
+  - - 1,19%
+    - ''
+    - Good Fire Scale Cuffs
+    - Garment 77
+  - - 1,19%
+    - ''
+    - Good Fire Scale Helmet
+    - Garment78
+  - - 0,40%
+    - ''
+    - A.Plan2:Fire Scale Cuffs
+    - Armor 75
+  - - 0,40%
+    - ''
+    - A.Plan2:Fire Scale Helmet
+    - Armor 75
+  - - ?.?%
+    - ''
+    - Embrace Helmet
+    - Garment78
+  - - ?,?%
+    - ''
+    - Embrace Cuffs
+    - Garment 77
+  row_count: 11

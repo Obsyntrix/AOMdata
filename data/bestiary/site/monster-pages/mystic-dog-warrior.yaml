@@ -1,0 +1,194 @@
+monster_page:
+  id: mystic-dog-warrior
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mystic-dog-warrior
+    retrieval_url: https://web.archive.org/web/20200109064225id_/http://angels.wikidot.com:80/monster:mystic-dog-warrior
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064225'
+    archive_snapshot_url: https://web.archive.org/web/20200109064225/http://angels.wikidot.com:80/monster:mystic-dog-warrior
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mystic-dog-warrior
+    source_html_sha256: 6085626fff0ca6d0ed5d9d652ff020b6880d627fdc0f3b4615b077edc79a5e05
+fields_raw:
+  Name: 'Spells:'
+  Mystic Dog Warrior: '-'
+  'Spells:': 'Location:'
+  '-': Fruit Town
+  Type: '?'
+  Boss: 'no'
+  Aggressive: 'no'
+  Level: '119'
+  Hit Points: '21013'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '1940'
+  Defense: '2081'
+  Spell Attack: '1192'
+  Spell Defense: '1113'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: 14 088
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: mystic-dog-warrior__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Revival Shield
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Revival Shield
+    Short info: Shield lvl 115
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: mystic-dog-warrior__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mystic Dog Warrior
+  - ''
+  rows_raw:
+  - - Name
+    - Mystic Dog Warrior
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Fruit Town
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'no'
+    - 'no'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '119'
+    - '21013'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1940'
+    - '2081'
+    - '1192'
+    - '1113'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - 14 088
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Revival Shield
+    - Shield lvl 115
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

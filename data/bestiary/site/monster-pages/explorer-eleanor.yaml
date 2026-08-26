@@ -1,0 +1,356 @@
+monster_page:
+  id: explorer-eleanor
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:explorer-eleanor
+    retrieval_url: https://web.archive.org/web/20170929164746id_/http://angels.wikidot.com:80/monster:explorer-eleanor
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170929164746'
+    archive_snapshot_url: https://web.archive.org/web/20170929164746/http://angels.wikidot.com:80/monster:explorer-eleanor
+    archive_original_lookup_url: https://angels.wikidot.com/monster:explorer-eleanor
+    source_html_sha256: c388d5d49b591f5b975bf3724e599a9bb2f4d72cc3fa111df8e33c12de084982
+fields_raw:
+  Name: 'Spells:'
+  Explorer Eleanor: '-'
+  'Spells:': 'Location:'
+  '-': Airship Station
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '114'
+  Hit Points: '53076'
+  Rigor: '682'
+  Agility: '366'
+  Attack: '1756'
+  Defense: '1997'
+  Spell Attack: '1711'
+  Spell Defense: '842'
+  Special Attack: +74 Fire
+  Special Defense: +94 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '39316'
+  Gold: 2336 - 2972
+item_drop_chance_raw: 100%
+drops:
+- drop_id: explorer-eleanor__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: War Ram Bone Bow
+  chance_to_drop_raw: 3.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.36%
+    Icon: ''
+    Item: War Ram Bone Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: explorer-eleanor__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Titan Armor
+  chance_to_drop_raw: 3.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.36%
+    Icon: ''
+    Item: Titan Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: explorer-eleanor__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWar Ram Bone Bow
+  chance_to_drop_raw: 0.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.15%
+    Icon: ''
+    Item: GoodWar Ram Bone Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: explorer-eleanor__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodTitan Armor
+  chance_to_drop_raw: 0.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.15%
+    Icon: ''
+    Item: GoodTitan Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.15
+    quantity: null
+- drop_id: explorer-eleanor__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pan's Rescue
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Pan's Rescue
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: explorer-eleanor__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Silver Armor
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Holy Silver Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: explorer-eleanor__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Spine Leopard
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Ice Spine Leopard
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: explorer-eleanor__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Light Rune Piece
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Purple Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: explorer-eleanor__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: explorer-eleanor__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mars' Fruit
+  chance_to_drop_raw: 46.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.19%
+    Icon: ''
+    Item: Effective Mars' Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.19
+    quantity: null
+- drop_id: explorer-eleanor__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 46.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.19%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Explorer Eleanor
+  - ''
+  rows_raw:
+  - - Name
+    - Explorer Eleanor
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Airship Station
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '114'
+    - '53076'
+    - '682'
+    - '366'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1756'
+    - '1997'
+    - '1711'
+    - '842'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +74 Fire
+    - +94 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '39316'
+    - 2336 - 2972
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 3.36%
+    - ''
+    - War Ram Bone Bow
+    - ITEM NOTES
+  - - 3.36%
+    - ''
+    - Titan Armor
+    - ITEM NOTES
+  - - 0.15%
+    - ''
+    - GoodWar Ram Bone Bow
+    - ITEM NOTES
+  - - 0.15%
+    - ''
+    - GoodTitan Armor
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Pan's Rescue
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Holy Silver Armor
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Ice Spine Leopard
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Purple Light Rune Piece
+    - ITEM NOTES
+  - - 0.54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 46.19%
+    - ''
+    - Effective Mars' Fruit
+    - ITEM NOTES
+  - - 46.19%
+    - ''
+    - Effective Healing Potion
+    - ITEM NOTES
+  row_count: 12

@@ -1,0 +1,198 @@
+monster_page:
+  id: bloody-widow
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bloody-widow
+    retrieval_url: https://web.archive.org/web/20110904091532id_/http://angels.wikidot.com:80/monster:bloody-widow
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904091532'
+    archive_snapshot_url: https://web.archive.org/web/20110904091532/http://angels.wikidot.com:80/monster:bloody-widow
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bloody-widow
+    source_html_sha256: f189ba63b1d9cd48fd26c897c6abb3d2c6009727e13295d9a372445ab0e34f3f
+fields_raw:
+  Name: 'Spells:'
+  Bloody Widow: '-'
+  'Spells:': 'Location:'
+  '-': Secret Den
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '76'
+  Hit Points: '3060'
+  Rigor: '391'
+  Agility: '240'
+  Attack: '588'
+  Defense: '840'
+  Spell Attack: '534'
+  Spell Defense: '297'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,1%
+  Experience: '918'
+  Gold: 273 - 339
+item_drop_chance_raw: 0,1%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bloody Widow
+  - ''
+  rows_raw:
+  - - Name
+    - Bloody Widow
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '76'
+    - '3060'
+    - '391'
+    - '240'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '588'
+    - '840'
+    - '534'
+    - '297'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,1%
+    - '918'
+    - 273 - 339
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 8
+  headers_raw:
+  - 47,89%
+  - ''
+  - Light Necklace
+  - Trinket lv80
+  rows_raw:
+  - - 47,89%
+    - ''
+    - Light Necklace
+    - Trinket lv80
+  - - 47,89%
+    - ''
+    - Wind Wings
+    - Lvl 80 Mantle ( 108 def, 70 spl def, 24 agility)
+  - - 1,59%
+    - ''
+    - Good Light Necklace
+    - Lvl 80 trinket (82 def, 53 spl def, 41 rigor, 27 agility)
+  - - 1,59%
+    - ''
+    - Good Wind Wings
+    - Lvl 80 Mantle
+  - - 0,52%
+    - ''
+    - Craft Recipe 2:Light Necklace
+    - adv.plans for technicians
+  - - 0,52%
+    - ''
+    - D.Plan2:Wind Wings
+    - adv. plan for technicians
+  - - ?.?%
+    - ''
+    - Wind Wings-s
+    - Lvl 80 Mantle
+  - - ?.?%
+    - ''
+    - Heaven Light
+    - Lvl 80 Trinket
+  row_count: 8

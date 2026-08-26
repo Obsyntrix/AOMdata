@@ -1,0 +1,428 @@
+monster_page:
+  id: vice-head-pirate
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:vice-head-pirate
+    retrieval_url: https://web.archive.org/web/20191102162149id_/http://angels.wikidot.com:80/monster:vice-head-pirate
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102162149'
+    archive_snapshot_url: https://web.archive.org/web/20191102162149/http://angels.wikidot.com:80/monster:vice-head-pirate
+    archive_original_lookup_url: https://angels.wikidot.com/monster:vice-head-pirate
+    source_html_sha256: d85d5d1e7f6f6b000a5a04e0296c6b134ea2c73fd5d1e5a7580d6dbc8bef781a
+fields_raw:
+  Name: 'Stances:'
+  Vice Head Pirate: Cross Chop Single Short-R. | Power 63 x2 - Swords Trap Self AOE | Power 228
+  'Stances:': 'Location:'
+  Cross Chop Single Short-R. | Power 63 x2 - Swords Trap Self AOE | Power 228: Riprap Coast
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '26'
+  Hit Points: '9475'
+  Rigor: '167'
+  Agility: '105'
+  Attack: '382'
+  Defense: '284'
+  Spell Attack: '191'
+  Spell Defense: '191'
+  Special Attack: '-'
+  Special Defense: '3'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 100,00%
+  Experience: '642'
+  Gold: 471 - 729 (600)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: vice-head-pirate__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fruit of Hercules
+  chance_to_drop_raw: 24,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 24,12%
+    Icon: ''
+    Item: Fruit of Hercules
+    Short info: Food (Atk +15 | 10 min)
+  normalized:
+    chance_to_drop_percent: 24.12
+    quantity: null
+- drop_id: vice-head-pirate__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Target Potion
+  chance_to_drop_raw: 24,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 24,12%
+    Icon: ''
+    Item: Target Potion
+    Short info: Food (Rig.+8 | 10 min)
+  normalized:
+    chance_to_drop_percent: 24.12
+    quantity: null
+- drop_id: vice-head-pirate__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Iron Wristlet
+  chance_to_drop_raw: 16,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,00%
+    Icon: ''
+    Item: Traveller Iron Wristlet
+    Short info: Garment 22 (Dfs +18, Spl Dfs +3, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 16.0
+    quantity: null
+- drop_id: vice-head-pirate__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Long Gloves
+  chance_to_drop_raw: 16,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,00%
+    Icon: ''
+    Item: Traveller Long Gloves
+    Short info: Mantle 22 (Dfs +12, Spl Dfs +7, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 16.0
+    quantity: null
+- drop_id: vice-head-pirate__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 7,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 7,10%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 7.1
+    quantity: null
+- drop_id: vice-head-pirate__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Iron Wristlet
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Good Traveller Iron Wristlet
+    Short info: Garment 22 (Dfs +31, Spl Dfs +6, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Long Gloves
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Good Traveller Long Gloves
+    Short info: Mantle 22 (Dfs +21, Spl Dfs +11, Rig.+28)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Turtle Shell Bag
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Turtle Shell Bag
+    Short info: Backpack Lvl 25 (Max.Weight +500, Slots 12)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of Envoy
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Ring of Envoy
+    Short info: Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig.+13, Ag.+9)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 1: Cure Spell 5'
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: 'Scroll 1: Cure Spell 5'
+    Short info: Life 22
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Summon Skeleton 5'
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: 'Scroll 2: Summon Skeleton 5'
+    Short info: Wraith 22
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: vice-head-pirate__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Bone Wristlet
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Heavy Bone Wristlet
+    Short info: Garment 22 (Dfs +47, Spl Dfs +8, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: vice-head-pirate__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Bone Wristlet
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Bone Wristlet
+    Short info: Mantle 22 (Dfs +31, Spl Dfs +16, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: vice-head-pirate__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: vice-head-pirate__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Vice Head Pirate
+  - ''
+  rows_raw:
+  - - Name
+    - Vice Head Pirate
+    - ''
+  - - 'Stances:'
+    - Cross Chop Single Short-R. | Power 63 x2 - Swords Trap Self AOE | Power 228
+    - ''
+  - - 'Location:'
+    - Riprap Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '26'
+    - '9475'
+    - '167'
+    - '105'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '382'
+    - '284'
+    - '191'
+    - '191'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '3'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '642'
+    - 471 - 729 (600)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 24,12%
+    - ''
+    - Fruit of Hercules
+    - Food (Atk +15 | 10 min)
+  - - 24,12%
+    - ''
+    - Target Potion
+    - Food (Rig.+8 | 10 min)
+  - - 16,00%
+    - ''
+    - Traveller Iron Wristlet
+    - Garment 22 (Dfs +18, Spl Dfs +3, Rig.+17)
+  - - 16,00%
+    - ''
+    - Traveller Long Gloves
+    - Mantle 22 (Dfs +12, Spl Dfs +7, Rig.+17)
+  - - 7,10%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 1,95%
+    - ''
+    - Good Traveller Iron Wristlet
+    - Garment 22 (Dfs +31, Spl Dfs +6, Rig.+27)
+  - - 1,95%
+    - ''
+    - Good Traveller Long Gloves
+    - Mantle 22 (Dfs +21, Spl Dfs +11, Rig.+28)
+  - - 1,95%
+    - ''
+    - Turtle Shell Bag
+    - Backpack Lvl 25 (Max.Weight +500, Slots 12)
+  - - 1,95%
+    - ''
+    - Ring of Envoy
+    - Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig.+13, Ag.+9)
+  - - 1,95%
+    - ''
+    - 'Scroll 1: Cure Spell 5'
+    - Life 22
+  - - 1,95%
+    - ''
+    - 'Scroll 2: Summon Skeleton 5'
+    - Wraith 22
+  - - 0,36%
+    - ''
+    - Heavy Bone Wristlet
+    - Garment 22 (Dfs +47, Spl Dfs +8, Rig.+37)
+  - - 0,36%
+    - ''
+    - Bone Wristlet
+    - Mantle 22 (Dfs +31, Spl Dfs +16, Rig.+37)
+  - - 0,12%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,12%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  row_count: 16

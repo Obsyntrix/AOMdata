@@ -1,0 +1,230 @@
+monster_page:
+  id: evil-puqi-turtle
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-puqi-turtle
+    retrieval_url: https://web.archive.org/web/20200119205435id_/http://angels.wikidot.com:80/monster:evil-puqi-turtle
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119205435'
+    archive_snapshot_url: https://web.archive.org/web/20200119205435/http://angels.wikidot.com:80/monster:evil-puqi-turtle
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-puqi-turtle
+    source_html_sha256: 4d4e791ab36648278d2a6a47a335481d22ea8f76ca6befe475b2cb2d61c3f8d4
+fields_raw:
+  Name: 'Spells:'
+  Evil Puqi Turtle: '-'
+  'Spells:': 'Location:'
+  '-': Shining Coast
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '61'
+  Hit Points: '2354'
+  Rigor: '317'
+  Agility: '195'
+  Attack: '415'
+  Defense: '588'
+  Spell Attack: '418'
+  Spell Defense: '239'
+  Special Attack: Ice +33
+  Special Defense: '21'
+  Strong Against: Fire (51)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (90)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,06%
+  Experience: '712'
+  Gold: 156 - 214 (185)
+item_drop_chance_raw: 0,06%
+drops:
+- drop_id: evil-puqi-turtle__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Cuffs
+  chance_to_drop_raw: 89,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 89,95%
+    Icon: ''
+    Item: Energy Cuffs
+    Short info: Vesment 67 (Dfs +34, Spl Dfs +40, Rig.+62)
+  normalized:
+    chance_to_drop_percent: 89.95
+    quantity: null
+- drop_id: evil-puqi-turtle__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Cuffs
+  chance_to_drop_raw: 8,99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,99%
+    Icon: ''
+    Item: Good Energy Cuffs
+    Short info: Vesment 67 (Dfs +34, Spl Dfs +40, Rig.+62)
+  normalized:
+    chance_to_drop_percent: 8.99
+    quantity: null
+- drop_id: evil-puqi-turtle__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Gloves
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Sound Gloves
+    Short info: Vesment 67 (Dfs +57, Spl Dfs +63, Rig.+82)
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: evil-puqi-turtle__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Sapphire
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Clean Sapphire
+    Short info: 'Weapon: I.Atk +14, Armor: Max.MP +59, Shield: I.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Puqi Turtle
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Puqi Turtle
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Shining Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '61'
+    - '2354'
+    - '317'
+    - '195'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '415'
+    - '588'
+    - '418'
+    - '239'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +33
+    - '21'
+    - Fire (51)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (90)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,06%
+    - '712'
+    - 156 - 214 (185)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 89,95%
+    - ''
+    - Energy Cuffs
+    - Vesment 67 (Dfs +34, Spl Dfs +40, Rig.+62)
+  - - 8,99%
+    - ''
+    - Good Energy Cuffs
+    - Vesment 67 (Dfs +34, Spl Dfs +40, Rig.+62)
+  - - 0,89%
+    - ''
+    - Sound Gloves
+    - Vesment 67 (Dfs +57, Spl Dfs +63, Rig.+82)
+  - - 0,16%
+    - ''
+    - Clean Sapphire
+    - 'Weapon: I.Atk +14, Armor: Max.MP +59, Shield: I.Dfs +4'
+  row_count: 5

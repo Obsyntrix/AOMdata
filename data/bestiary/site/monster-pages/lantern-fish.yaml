@@ -1,0 +1,285 @@
+monster_page:
+  id: lantern-fish
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:lantern-fish
+    retrieval_url: https://web.archive.org/web/20200119194606id_/http://angels.wikidot.com:80/monster:lantern-fish
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119194606'
+    archive_snapshot_url: https://web.archive.org/web/20200119194606/http://angels.wikidot.com:80/monster:lantern-fish
+    archive_original_lookup_url: https://angels.wikidot.com/monster:lantern-fish
+    source_html_sha256: 53120c87282d02769915be48249009fa17ab758946973711fce23420fa038528
+fields_raw:
+  Name: 'Description:'
+  Lantern Fish: A very special kind of fish. No one knows how a lantern grew on its head. - Thunder Sharp Single Ranged | Dmg 226-266 Thunder Dmg +259 - Poison Hit
+    Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '100'
+  Hit Points: '4540'
+  Rigor: '562'
+  Agility: '342'
+  Attack: '1948'
+  Defense: '1528'
+  Spell Attack: '772'
+  Spell Defense: '431'
+  Special Attack: Rotten +55
+  Special Defense: '43'
+  Strong Against: Thunder (73)
+  Weak Against: Fire (13)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,07%
+  Experience: '2340'
+  Gold: 594 - 708 (651)
+item_drop_chance_raw: 0,07%
+drops:
+- drop_id: lantern-fish__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Life Wand
+  chance_to_drop_raw: 47,51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,51%
+    Icon: ''
+    Item: Life Wand
+    Short info: Staff Lvl 100 (Atk 773-823 (798), Spl Atk +224, Rig.+23)
+  normalized:
+    chance_to_drop_percent: 47.51
+    quantity: null
+- drop_id: lantern-fish__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Helmet
+  chance_to_drop_raw: 47,51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,51%
+    Icon: ''
+    Item: Wind Helmet
+    Short info: Mantle 98 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 47.51
+    quantity: null
+- drop_id: lantern-fish__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Life Wand
+  chance_to_drop_raw: 1,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,36%
+    Icon: ''
+    Item: Good Life Wand
+    Short info: Staff Lvl 100 (Atk 992-1040 (1016), Spl Atk +442, Rig.+26)
+  normalized:
+    chance_to_drop_percent: 1.36
+    quantity: null
+- drop_id: lantern-fish__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Helmet
+  chance_to_drop_raw: 1,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,36%
+    Icon: ''
+    Item: Good Wind Helmet
+    Short info: Mantle 98 (Dfs +299, Spl Dfs +67)
+  normalized:
+    chance_to_drop_percent: 1.36
+    quantity: null
+- drop_id: lantern-fish__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,36%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  normalized:
+    chance_to_drop_percent: 1.36
+    quantity: null
+- drop_id: lantern-fish__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Life Wand
+  chance_to_drop_raw: 0,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,45%
+    Icon: ''
+    Item: Craft Recipe 2:Life Wand
+    Short info: Technics 95
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+- drop_id: lantern-fish__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Helmet
+  chance_to_drop_raw: 0,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,45%
+    Icon: ''
+    Item: A.Plan2:Wind Helmet
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Lantern Fish
+  - ''
+  rows_raw:
+  - - Name
+    - Lantern Fish
+    - ''
+  - - 'Description:'
+    - A very special kind of fish. No one knows how a lantern grew on its head. - Thunder Sharp Single Ranged | Dmg 226-266 Thunder Dmg +259 - Poison Hit Single Ranged
+      | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '4540'
+    - '562'
+    - '342'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1948'
+    - '1528'
+    - '772'
+    - '431'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +55
+    - '43'
+    - Thunder (73)
+    - Fire (13)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,07%
+    - '2340'
+    - 594 - 708 (651)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,51%
+    - ''
+    - Life Wand
+    - Staff Lvl 100 (Atk 773-823 (798), Spl Atk +224, Rig.+23)
+  - - 47,51%
+    - ''
+    - Wind Helmet
+    - Mantle 98 (Dfs +240, Spl Dfs +60)
+  - - 1,36%
+    - ''
+    - Good Life Wand
+    - Staff Lvl 100 (Atk 992-1040 (1016), Spl Atk +442, Rig.+26)
+  - - 1,36%
+    - ''
+    - Good Wind Helmet
+    - Mantle 98 (Dfs +299, Spl Dfs +67)
+  - - 1,36%
+    - ''
+    - Flawless Orange Gem
+    - 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  - - 0,45%
+    - ''
+    - Craft Recipe 2:Life Wand
+    - Technics 95
+  - - 0,45%
+    - ''
+    - A.Plan2:Wind Helmet
+    - Armor 95
+  row_count: 8

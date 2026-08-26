@@ -1,0 +1,320 @@
+monster_page:
+  id: thunder-master
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:thunder-master
+    retrieval_url: https://web.archive.org/web/20200109123820id_/http://angels.wikidot.com:80/monster:thunder-master
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109123820'
+    archive_snapshot_url: https://web.archive.org/web/20200109123820/http://angels.wikidot.com:80/monster:thunder-master
+    archive_original_lookup_url: https://angels.wikidot.com/monster:thunder-master
+    source_html_sha256: 4bfb03c944c001c1be765fdaff6699be385bd624faf83bfa460a07502f084a35
+fields_raw:
+  Name: 'Spells:'
+  Thunder Master: '-'
+  'Spells:': 'Location:'
+  '-': Pharaoh Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 180 - 230
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: thunder-master__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Butterfly Halbert
+  chance_to_drop_raw: 47.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.13%
+    Icon: ''
+    Item: Butterfly Halbert
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.13
+    quantity: null
+- drop_id: thunder-master__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Butterfly Halbert
+  chance_to_drop_raw: 1.18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.18%
+    Icon: ''
+    Item: Good Butterfly Halbert
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.18
+    quantity: null
+- drop_id: thunder-master__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coloris's Kiss
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Coloris's Kiss
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: thunder-master__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Woods Cuffs
+  chance_to_drop_raw: 47.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.13%
+    Icon: ''
+    Item: Woods Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.13
+    quantity: null
+- drop_id: thunder-master__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Woods Cuffs
+  chance_to_drop_raw: 1.18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.18%
+    Icon: ''
+    Item: Good Woods Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.18
+    quantity: null
+- drop_id: thunder-master__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Conqueror Cuffs
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Conqueror Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: thunder-master__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Butterfly Halbert
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: W.Plan2:Butterfly Halbert
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: thunder-master__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Conqueror Cuffs
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: A.Plan2:Conqueror Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: thunder-master__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Light Rune Piece
+  chance_to_drop_raw: 2.49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.49%
+    Icon: ''
+    Item: Green Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.49
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Thunder Master
+  - ''
+  rows_raw:
+  - - Name
+    - Thunder Master
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Pharaoh Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 180 - 230
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.13%
+    - ''
+    - Butterfly Halbert
+    - ITEM NOTES
+  - - 1.18%
+    - ''
+    - Good Butterfly Halbert
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Coloris's Kiss
+    - ITEM NOTES
+  - - 47.13%
+    - ''
+    - Woods Cuffs
+    - ITEM NOTES
+  - - 1.18%
+    - ''
+    - Good Woods Cuffs
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Conqueror Cuffs
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - W.Plan2:Butterfly Halbert
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - A.Plan2:Conqueror Cuffs
+    - ITEM NOTES
+  - - 2.49%
+    - ''
+    - Green Light Rune Piece
+    - ITEM NOTES
+  row_count: 10

@@ -1,0 +1,392 @@
+monster_page:
+  id: leader-nio
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:leader-nio
+    retrieval_url: https://web.archive.org/web/20200204193031id_/http://angels.wikidot.com:80/monster:leader-nio
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200204193031'
+    archive_snapshot_url: https://web.archive.org/web/20200204193031/http://angels.wikidot.com:80/monster:leader-nio
+    archive_original_lookup_url: https://angels.wikidot.com/monster:leader-nio
+    source_html_sha256: 8312ecbd0c60dfeae389806aab61afb2f4c3e4c4c14529acdbb4d9e9f4d82ca2
+fields_raw:
+  Name: 'Spells:'
+  Leader Nio: Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec: Blue Sea , Dream Ocean
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '95'
+  Hit Points: '40155'
+  Rigor: '537'
+  Agility: '327'
+  Attack: '1475'
+  Defense: '2002'
+  Spell Attack: '766'
+  Spell Defense: '726'
+  Special Attack: Thunder +50
+  Special Defense: '30'
+  Strong Against: Ice (68)
+  Weak Against: Rotten (8)
+  Attack Range: Short (1)
+  Speed: Super Fast (120)
+  Attack Speed: Very Fast (90)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '33310'
+  Gold: 5130 - 6134 (5632)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: leader-nio__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Target Potion
+  chance_to_drop_raw: 72,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 72,15%
+    Icon: ''
+    Item: Effective Target Potion
+    Short info: Food (Rigor +50 | 10 min)
+  normalized:
+    chance_to_drop_percent: 72.15
+    quantity: null
+- drop_id: leader-nio__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crystal Spear
+  chance_to_drop_raw: 12,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,40%
+    Icon: ''
+    Item: Crystal Spear
+    Short info: Spear Lvl 90 (Atk 707-741 (724), Rig +41)
+  normalized:
+    chance_to_drop_percent: 12.4
+    quantity: null
+- drop_id: leader-nio__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Bracers
+  chance_to_drop_raw: 12,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,40%
+    Icon: ''
+    Item: Luck Bracers
+    Short info: Vestment 87 (Dfs +57, Spl Dfs +53, Rig +82)
+  normalized:
+    chance_to_drop_percent: 12.4
+    quantity: null
+- drop_id: leader-nio__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Captain Nio Card
+  chance_to_drop_raw: 0,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,93%
+    Icon: ''
+    Item: Captain Nio Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: leader-nio__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Crystal Spear
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Good Crystal Spear
+    Short info: Spear Lvl 90 (Atk 908-942 (558), Rig +46)
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: leader-nio__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Bracers
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Good Luck Bracers
+    Short info: Vestment 87 (Dfs +72, Spl Dfs +68, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: leader-nio__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: leader-nio__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Crystal Spear
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: W.Plan2:Crystal Spear
+    Short info: Weapon 85
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: leader-nio__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Bracers
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: D.Plan2:Luck Bracers
+    Short info: Sew 85
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: leader-nio__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: leader-nio__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Shaer's Will
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Shaer's Will
+    Short info: Spear Lvl 90 (Atk 1150-1184 (1167), T.Atk +84, Rig +51)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: leader-nio__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Bracers
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Lucky Jack Bracers
+    Short info: Vestment 87 (Dfs +90, Spl Dfs +86, Rig +102)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: leader-nio__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crystal Jelly Fish
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Crystal Jelly Fish
+    Short info: Robot Lvl 90 (Atk 756-924 (840), Dfs +2050, Max.HP +2050, Max.Weight +10000, Speed +35%)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Leader Nio
+  - ''
+  rows_raw:
+  - - Name
+    - Leader Nio
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - Blue Sea , Dream Ocean
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '40155'
+    - '537'
+    - '327'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1475'
+    - '2002'
+    - '766'
+    - '726'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +50
+    - '30'
+    - Ice (68)
+    - Rotten (8)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (120)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '33310'
+    - 5130 - 6134 (5632)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 72,15%
+    - ''
+    - Effective Target Potion
+    - Food (Rigor +50 | 10 min)
+  - - 12,40%
+    - ''
+    - Crystal Spear
+    - Spear Lvl 90 (Atk 707-741 (724), Rig +41)
+  - - 12,40%
+    - ''
+    - Luck Bracers
+    - Vestment 87 (Dfs +57, Spl Dfs +53, Rig +82)
+  - - 0,93%
+    - ''
+    - Captain Nio Card
+    - 'See: Card Collection'
+  - - 0,56%
+    - ''
+    - Good Crystal Spear
+    - Spear Lvl 90 (Atk 908-942 (558), Rig +46)
+  - - 0,56%
+    - ''
+    - Good Luck Bracers
+    - Vestment 87 (Dfs +72, Spl Dfs +68, Rig +92)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,19%
+    - ''
+    - W.Plan2:Crystal Spear
+    - Weapon 85
+  - - 0,19%
+    - ''
+    - D.Plan2:Luck Bracers
+    - Sew 85
+  - - 0,06%
+    - ''
+    - Flawless Emerald
+    - 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  - - 0,01%
+    - ''
+    - Shaer's Will
+    - Spear Lvl 90 (Atk 1150-1184 (1167), T.Atk +84, Rig +51)
+  - - 0,01%
+    - ''
+    - Lucky Jack Bracers
+    - Vestment 87 (Dfs +90, Spl Dfs +86, Rig +102)
+  - - 0,01%
+    - ''
+    - Crystal Jelly Fish
+    - Robot Lvl 90 (Atk 756-924 (840), Dfs +2050, Max.HP +2050, Max.Weight +10000, Speed +35%)
+  row_count: 14

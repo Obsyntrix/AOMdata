@@ -1,0 +1,500 @@
+monster_page:
+  id: crazy-babi
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:crazy-babi
+    retrieval_url: https://web.archive.org/web/20200224074909id_/http://angels.wikidot.com:80/monster:crazy-babi
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200224074909'
+    archive_snapshot_url: https://web.archive.org/web/20200224074909/http://angels.wikidot.com:80/monster:crazy-babi
+    archive_original_lookup_url: https://angels.wikidot.com/monster:crazy-babi
+    source_html_sha256: 21a8c4645eb081be3e274eb5bba47309a818303cf0e65caa2ecf15ca9a49dcaa
+fields_raw:
+  Name: 'Stances:'
+  Crazy Babi: Cross Chop Single Short-R. | Power 95 | x2 - Aurora Trap Self AOE | Power 340
+  'Stances:': 'Location:'
+  Cross Chop Single Short-R. | Power 95 | x2 - Aurora Trap Self AOE | Power 340: Foggy Forest
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '43'
+  Hit Points: '15615'
+  Rigor: '252'
+  Agility: '156'
+  Attack: '646'
+  Defense: '414'
+  Spell Attack: '318'
+  Spell Defense: '314'
+  Special Attack: '-'
+  Special Defense: '12'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Long (12)
+  Speed: Very Fast (100)
+  Attack Speed: Very Fast (90)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '1086'
+  Gold: 742 - 1174 (958)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: crazy-babi__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Agility Potion
+  chance_to_drop_raw: 18,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,69%
+    Icon: ''
+    Item: Agility Potion
+    Short info: Food (Ag. +6 | 10 min)
+  normalized:
+    chance_to_drop_percent: 18.69
+    quantity: null
+- drop_id: crazy-babi__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Potion
+  chance_to_drop_raw: 18,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,69%
+    Icon: ''
+    Item: Magic Potion
+    Short info: Food (Max. MP +50 | 10 min)
+  normalized:
+    chance_to_drop_percent: 18.69
+    quantity: null
+- drop_id: crazy-babi__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Heavy Armor
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Heavy Armor
+    Short info: Garment 34 (Dfs +92, Spl Dfs +11)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: crazy-babi__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Leather Armor
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Leather Armor
+    Short info: Mantle 34 (Dfs +62, Spl Dfs +22)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: crazy-babi__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Alchemic Gown
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Alchemic Gown
+    Short info: Vestment 34 (Dfs +31, Spl Dfs +32)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: crazy-babi__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 4,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,14%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 4.14
+    quantity: null
+- drop_id: crazy-babi__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Weighty Armor
+  chance_to_drop_raw: 1,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,09%
+    Icon: ''
+    Item: Good Risker Weighty Armor
+    Short info: Garment 34 (Dfs +140, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 1.09
+    quantity: null
+- drop_id: crazy-babi__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Thick Vest
+  chance_to_drop_raw: 1,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,09%
+    Icon: ''
+    Item: Good Risker Thick Vest
+    Short info: Mantle 34 (Dfs +94, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 1.09
+    quantity: null
+- drop_id: crazy-babi__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Alchemic Gown
+  chance_to_drop_raw: 1,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,09%
+    Icon: ''
+    Item: Good Risker Alchemic Gown
+    Short info: Vestment 34 (Dfs +47, Spl Dfs +48)
+  normalized:
+    chance_to_drop_percent: 1.09
+    quantity: null
+- drop_id: crazy-babi__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel Wings
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: Angel Wings
+    Short info: Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: crazy-babi__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of Goddess
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: Ring of Goddess
+    Short info: Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: crazy-babi__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Soul Entangle 5'
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: 'Scroll 2: Soul Entangle 5'
+    Short info: Wraith 34
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: crazy-babi__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Hurt Transfer 5'
+  chance_to_drop_raw: 0,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,64%
+    Icon: ''
+    Item: 'Scroll 2: Hurt Transfer 5'
+    Short info: Wraith 36
+  normalized:
+    chance_to_drop_percent: 0.64
+    quantity: null
+- drop_id: crazy-babi__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: crazy-babi__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: crazy-babi__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beastman Leather Armor
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Beastman Leather Armor
+    Short info: Garment 34 (Dfs +199, Spl Dfs +19)
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: crazy-babi__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Stone Armor
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Ice Stone Armor
+    Short info: Mantle 34 (Dfs +133, Spl Dfs +38)
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: crazy-babi__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Alchemic Gown
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Magic Alchemic Gown
+    Short info: Vestment 34 (Dfs +66, Spl Dfs +67)
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: crazy-babi__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Crazy Babi
+  - ''
+  rows_raw:
+  - - Name
+    - Crazy Babi
+    - ''
+  - - 'Stances:'
+    - Cross Chop Single Short-R. | Power 95 | x2 - Aurora Trap Self AOE | Power 340
+    - ''
+  - - 'Location:'
+    - Foggy Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '43'
+    - '15615'
+    - '252'
+    - '156'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '646'
+    - '414'
+    - '318'
+    - '314'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '12'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Long (12)
+    - Very Fast (100)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1086'
+    - 742 - 1174 (958)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 18,69%
+    - ''
+    - Agility Potion
+    - Food (Ag. +6 | 10 min)
+  - - 18,69%
+    - ''
+    - Magic Potion
+    - Food (Max. MP +50 | 10 min)
+  - - 17,05%
+    - ''
+    - Risker Heavy Armor
+    - Garment 34 (Dfs +92, Spl Dfs +11)
+  - - 17,05%
+    - ''
+    - Risker Leather Armor
+    - Mantle 34 (Dfs +62, Spl Dfs +22)
+  - - 17,05%
+    - ''
+    - Risker Alchemic Gown
+    - Vestment 34 (Dfs +31, Spl Dfs +32)
+  - - 4,14%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 1,09%
+    - ''
+    - Good Risker Weighty Armor
+    - Garment 34 (Dfs +140, Spl Dfs +15)
+  - - 1,09%
+    - ''
+    - Good Risker Thick Vest
+    - Mantle 34 (Dfs +94, Spl Dfs +30)
+  - - 1,09%
+    - ''
+    - Good Risker Alchemic Gown
+    - Vestment 34 (Dfs +47, Spl Dfs +48)
+  - - 0,64%
+    - ''
+    - Angel Wings
+    - Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  - - 0,64%
+    - ''
+    - Ring of Goddess
+    - Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  - - 0,64%
+    - ''
+    - 'Scroll 2: Soul Entangle 5'
+    - Wraith 34
+  - - 0,64%
+    - ''
+    - 'Scroll 2: Hurt Transfer 5'
+    - Wraith 36
+  - - 0,53%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,53%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  - - 0,12%
+    - ''
+    - Beastman Leather Armor
+    - Garment 34 (Dfs +199, Spl Dfs +19)
+  - - 0,12%
+    - ''
+    - Ice Stone Armor
+    - Mantle 34 (Dfs +133, Spl Dfs +38)
+  - - 0,12%
+    - ''
+    - Magic Alchemic Gown
+    - Vestment 34 (Dfs +66, Spl Dfs +67)
+  - - 0,10%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 20

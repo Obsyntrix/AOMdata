@@ -1,0 +1,296 @@
+monster_page:
+  id: rock-slarm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rock-slarm
+    retrieval_url: https://web.archive.org/web/20191102090403id_/http://angels.wikidot.com:80/monster:rock-slarm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102090403'
+    archive_snapshot_url: https://web.archive.org/web/20191102090403/http://angels.wikidot.com:80/monster:rock-slarm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rock-slarm
+    source_html_sha256: ac459d610eaf74fd633aa1d0cca90ce3903bf8341b0004c5eb2cd35323cde244
+fields_raw:
+  Name: 'Description:'
+  Rock Slarm: Description
+  'Description:': 'Location:'
+  Description: Lava Cave , Flaming Door
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: Yes(5)
+  Level: '63'
+  Hit Points: '2286'
+  Rigor: '327'
+  Agility: '201'
+  Attack: '444'
+  Defense: '635'
+  Magic Attack: '436'
+  Magic Defense: '251'
+  Special Attack: Fire +31
+  Special Defense: '22'
+  Strong Against: Rotten(52)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Fast(90)
+  Attack Speed: Slow (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.06%
+  Experience: 571-628
+  Gold: 101 - 183 (142)
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: rock-slarm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Boots
+  chance_to_drop_raw: 40.99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40.99%
+    Icon: ''
+    Item: Fire Guard Boots
+    Short info: Garment 66 (Dfs +103, Spl Dfs +13, Agility +22)
+  normalized:
+    chance_to_drop_percent: 40.99
+    quantity: null
+- drop_id: rock-slarm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 34.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34.15%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 34.15
+    quantity: null
+- drop_id: rock-slarm__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rock Slarm Card
+  chance_to_drop_raw: 19.81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19.81%
+    Icon: ''
+    Item: Rock Slarm Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 19.81
+    quantity: null
+- drop_id: rock-slarm__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Boots
+  chance_to_drop_raw: 3.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.41%
+    Icon: ''
+    Item: Good Fire Guard Boots
+    Short info: Garment 66 (Dfs +134, Spl Dfs +16, Agility +26)
+  normalized:
+    chance_to_drop_percent: 3.41
+    quantity: null
+- drop_id: rock-slarm__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hermit Cuffs'
+  chance_to_drop_raw: 0.56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.56%
+    Icon: ''
+    Item: 'A.Plan2: Hermit Cuffs'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: rock-slarm__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Fire Guard Boots'
+  chance_to_drop_raw: 0.56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.56%
+    Icon: ''
+    Item: 'A.Plan2: Fire Guard Boots'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: rock-slarm__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Boots
+  chance_to_drop_raw: 0.34 %
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.34 %
+    Icon: ''
+    Item: Knight Boots
+    Short info: Garment 66 (Dfs +171, Spl Dfs +18, Agility +29)
+  normalized:
+    chance_to_drop_percent: 0.34
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rock Slarm
+  - ''
+  rows_raw:
+  - - Name
+    - Rock Slarm
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Lava Cave , Flaming Door
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Energy
+    - 'No'
+    - Yes(5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '63'
+    - '2286'
+    - '327'
+    - '201'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '444'
+    - '635'
+    - '436'
+    - '251'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +31
+    - '22'
+    - Rotten(52)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(90)
+    - Slow (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - 571-628
+    - 101 - 183 (142)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 40.99%
+    - ''
+    - Fire Guard Boots
+    - Garment 66 (Dfs +103, Spl Dfs +13, Agility +22)
+  - - 34.15%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 19.81%
+    - ''
+    - Rock Slarm Card
+    - 'See: Card Collection'
+  - - 3.41%
+    - ''
+    - Good Fire Guard Boots
+    - Garment 66 (Dfs +134, Spl Dfs +16, Agility +26)
+  - - 0.56%
+    - ''
+    - 'A.Plan2: Hermit Cuffs'
+    - Armor 65
+  - - 0.56%
+    - ''
+    - 'A.Plan2: Fire Guard Boots'
+    - Armor 65
+  - - 0.34 %
+    - ''
+    - Knight Boots
+    - Garment 66 (Dfs +171, Spl Dfs +18, Agility +29)
+  row_count: 8
+- table_index: 8
+  headers_raw:
+  - 0.17%
+  - ''
+  - Clean Yellow Gem
+  - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  rows_raw:
+  - - 0.17%
+    - ''
+    - Clean Yellow Gem
+    - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  row_count: 1

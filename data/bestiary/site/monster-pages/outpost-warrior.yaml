@@ -1,0 +1,320 @@
+monster_page:
+  id: outpost-warrior
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:outpost-warrior
+    retrieval_url: https://web.archive.org/web/20100811003445id_/http://angels.wikidot.com:80/monster:outpost-warrior
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100811003445'
+    archive_snapshot_url: https://web.archive.org/web/20100811003445/http://angels.wikidot.com:80/monster:outpost-warrior
+    archive_original_lookup_url: https://angels.wikidot.com/monster:outpost-warrior
+    source_html_sha256: 5bba202bd10ddf0ecb43e81009f3d73bd659fd9dd41cefbf1c8609066f42c45c
+fields_raw:
+  Name: 'Spells:'
+  Outpost Warrior: '-'
+  'Spells:': 'Location:'
+  '-': Troop Outpost
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 307 - 403
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: outpost-warrior__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rage Lance
+  chance_to_drop_raw: 37.53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 37.53%
+    Icon: ''
+    Item: Rage Lance
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 37.53
+    quantity: null
+- drop_id: outpost-warrior__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crusader's Brooch
+  chance_to_drop_raw: 37.53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 37.53%
+    Icon: ''
+    Item: Crusader's Brooch
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 37.53
+    quantity: null
+- drop_id: outpost-warrior__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRage Lance
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: GoodRage Lance
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: outpost-warrior__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodCrusader's Brooch
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: GoodCrusader's Brooch
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: outpost-warrior__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Poseidon Attacker
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Poseidon Attacker
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: outpost-warrior__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: The Call of the Sea
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: The Call of the Sea
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: outpost-warrior__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Rage Lance
+  chance_to_drop_raw: 0.62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.62%
+    Icon: ''
+    Item: W.Plan2:Rage Lance
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.62
+    quantity: null
+- drop_id: outpost-warrior__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Orange Gem
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Clean Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: outpost-warrior__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Outpost Warrior Card
+  chance_to_drop_raw: 21.4%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 21.4%
+    Icon: ''
+    Item: Outpost Warrior Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 21.4
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Outpost Warrior
+  - ''
+  rows_raw:
+  - - Name
+    - Outpost Warrior
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Troop Outpost
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 307 - 403
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 37.53%
+    - ''
+    - Rage Lance
+    - ITEM NOTES
+  - - 37.53%
+    - ''
+    - Crusader's Brooch
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - GoodRage Lance
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - GoodCrusader's Brooch
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Poseidon Attacker
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - The Call of the Sea
+    - ITEM NOTES
+  - - 0.62%
+    - ''
+    - W.Plan2:Rage Lance
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - Clean Orange Gem
+    - ITEM NOTES
+  - - 21.4%
+    - ''
+    - Outpost Warrior Card
+    - ITEM NOTES
+  row_count: 10

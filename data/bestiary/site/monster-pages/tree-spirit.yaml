@@ -1,0 +1,267 @@
+monster_page:
+  id: tree-spirit
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:tree-spirit
+    retrieval_url: https://web.archive.org/web/20200109172213id_/http://angels.wikidot.com:80/monster:tree-spirit
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172213'
+    archive_snapshot_url: https://web.archive.org/web/20200109172213/http://angels.wikidot.com:80/monster:tree-spirit
+    archive_original_lookup_url: https://angels.wikidot.com/monster:tree-spirit
+    source_html_sha256: 45883eae0007d43d15bf84627405a18b779d739e895f061821913e72983710d9
+fields_raw:
+  Name: 'Description:'
+  Tree Spirit: This tree appears calming and contemplative. Only after a brave angel gets near it is it's inner turmoil revealed. This tree is not happy and is very
+    much willing to take it out on anyone it can wrap it's branches around.
+  'Description:': 'Location:'
+  Type: Plant
+  Boss: 'No'
+  Aggressive: Yes (2)
+  Level: '8'
+  Hit Points: '324'
+  Rigor: '52'
+  Agility: '36'
+  Attack: '59'
+  Defense: '65'
+  Spell Attack: '64'
+  Spell Defense: '36'
+  Special Attack: (5%) Thunder +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,69%
+  Experience: '81'
+  Gold: 18 - 28 (23)
+item_drop_chance_raw: 0,69%
+drops:
+- drop_id: tree-spirit__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Shoes
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Incantation Shoes
+    Short info: Vestment 1 (Dfs +2, Spl Dfs +3, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: tree-spirit__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Light Gloves
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Light Gloves
+    Short info: Mantle 2 (Dfs +5, Spl Dfs +2, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: tree-spirit__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Bow
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Bow
+    Short info: Bow Lvl 5 (Atk 19-27 (23), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: tree-spirit__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Incantation Shoes
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Incantation Shoes
+    Short info: Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: tree-spirit__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Wristlet
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Wristlet
+    Short info: Mantle 2 (Dfs +12, Spl Dfs +7, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: tree-spirit__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Redwood Bow
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Redwood Bow
+    Short info: Bow Lvl 5 (Atk 44-52 (48), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Tree Spirit
+  - ''
+  rows_raw:
+  - - Name
+    - Tree Spirit
+    - ''
+  - - 'Description:'
+    - This tree appears calming and contemplative. Only after a brave angel gets near it is it's inner turmoil revealed. This tree is not happy and is very much willing
+      to take it out on anyone it can wrap it's branches around.
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - Yes (2)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '8'
+    - '324'
+    - '52'
+    - '36'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '59'
+    - '65'
+    - '64'
+    - '36'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Thunder +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,69%
+    - '81'
+    - 18 - 28 (23)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,43%
+    - ''
+    - Good Newbie Incantation Shoes
+    - Vestment 1 (Dfs +2, Spl Dfs +3, Ag.+4)
+  - - 30,43%
+    - ''
+    - Good Newbie Light Gloves
+    - Mantle 2 (Dfs +5, Spl Dfs +2, Rig.+7)
+  - - 30,43%
+    - ''
+    - Good Newbie Bow
+    - Bow Lvl 5 (Atk 19-27 (23), Rig.+4)
+  - - 2,90%
+    - ''
+    - Fiend Incantation Shoes
+    - Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  - - 2,90%
+    - ''
+    - Fiend Wristlet
+    - Mantle 2 (Dfs +12, Spl Dfs +7, Rig.+17)
+  - - 2,90%
+    - ''
+    - Redwood Bow
+    - Bow Lvl 5 (Atk 44-52 (48), Rig.+9)
+  row_count: 7

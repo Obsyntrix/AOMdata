@@ -1,0 +1,338 @@
+monster_page:
+  id: lilith
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:lilith
+    retrieval_url: https://web.archive.org/web/20200109064219id_/http://angels.wikidot.com:80/monster:lilith
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064219'
+    archive_snapshot_url: https://web.archive.org/web/20200109064219/http://angels.wikidot.com:80/monster:lilith
+    archive_original_lookup_url: https://angels.wikidot.com/monster:lilith
+    source_html_sha256: c3f05772147732afb5b894fe1d0ada817d9493a6f2cdbfa11d10e997165d9546
+fields_raw:
+  Name: 'Spells:'
+  Lilith: Icy Storm/Lul Thorn
+  'Spells:': 'Location:'
+  Icy Storm/Lul Thorn: Botti Palace
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '145'
+  Hit Points: '300000'
+  Rigor: '1037'
+  Agility: '459'
+  Attack: '3531'
+  Defense: '3548'
+  Spell Attack: '2519'
+  Spell Defense: '1267'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: 5 (?)
+  Speed: 120 (?)
+  Attack Speed: 100 (?)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '?'
+  Gold: 13200 - 16800 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: lilith__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 46,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,23%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: Attack +70 lasts 10 min
+  normalized:
+    chance_to_drop_percent: 46.23
+    quantity: null
+- drop_id: lilith__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Healing Potion
+  chance_to_drop_raw: 46,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,23%
+    Icon: ''
+    Item: Effective Healing Potion
+    Short info: '? 10 min'
+  normalized:
+    chance_to_drop_percent: 46.23
+    quantity: null
+- drop_id: lilith__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Diamond Explorer
+  chance_to_drop_raw: 2,2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,2%
+    Icon: ''
+    Item: Diamond Explorer
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.2
+    quantity: null
+- drop_id: lilith__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ripper Hood
+  chance_to_drop_raw: 2,2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,2%
+    Icon: ''
+    Item: Ripper Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.2
+    quantity: null
+- drop_id: lilith__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ripper Armor
+  chance_to_drop_raw: 2,2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,2%
+    Icon: ''
+    Item: Ripper Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.2
+    quantity: null
+- drop_id: lilith__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: lilith__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDiamond Explorer
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: GoodDiamond Explorer
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: lilith__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRipper Hood
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: GoodRipper Hood
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: lilith__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRipper Armor
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: GoodRipper Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: lilith__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Lilith
+  - ''
+  rows_raw:
+  - - Name
+    - Lilith
+    - ''
+  - - 'Spells:'
+    - Icy Storm/Lul Thorn
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '145'
+    - '300000'
+    - '1037'
+    - '459'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '3531'
+    - '3548'
+    - '2519'
+    - '1267'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - 5 (?)
+    - 120 (?)
+    - 100 (?)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '?'
+    - 13200 - 16800 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,23%
+    - ''
+    - Effective Mighty Fruit
+    - Attack +70 lasts 10 min
+  - - 46,23%
+    - ''
+    - Effective Healing Potion
+    - '? 10 min'
+  - - 2,2%
+    - ''
+    - Diamond Explorer
+    - ITEM NOTES
+  - - 2,2%
+    - ''
+    - Ripper Hood
+    - ITEM NOTES
+  - - 2,2%
+    - ''
+    - Ripper Armor
+    - ITEM NOTES
+  - - 0,54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - GoodDiamond Explorer
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - GoodRipper Hood
+    - ITEM NOTES
+  - - 0,11%
+    - ''
+    - GoodRipper Armor
+    - ITEM NOTES
+  - - 0,05%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 11

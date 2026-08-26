@@ -1,0 +1,411 @@
+monster_page:
+  id: fierce-knight-william
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fierce-knight-william
+    retrieval_url: https://web.archive.org/web/20200630101504id_/http://angels.wikidot.com:80/monster:fierce-knight-william
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200630101504'
+    archive_snapshot_url: https://web.archive.org/web/20200630101504/http://angels.wikidot.com:80/monster:fierce-knight-william
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fierce-knight-william
+    source_html_sha256: d1febf5f5a2faffbe4254c2398f09266b42e9e03ec54dc88ea83724212973769
+fields_raw:
+  Name: 'Spells:'
+  Fierce Knight William: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '115'
+  Hit Points: '53621'
+  Rigor: '607'
+  Agility: '369'
+  Attack: '1788'
+  Defense: '2036'
+  Spell Attack: '1734'
+  Spell Defense: '1699'
+  Special Attack: +58 Lightning
+  Special Defense: +78 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '39719'
+  Gold: 2359 - 3003 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: fierce-knight-william__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Agility Potion
+  chance_to_drop_raw: 46,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,02%
+    Icon: ''
+    Item: Effective Agility Potion
+    Short info: Adds x agility lasts 10minutes
+  normalized:
+    chance_to_drop_percent: 46.02
+    quantity: null
+- drop_id: fierce-knight-william__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mars' Fruit
+  chance_to_drop_raw: 46,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,02%
+    Icon: ''
+    Item: Effective Mars' Fruit
+    Short info: Adds 80 defense lasts 10minutes
+  normalized:
+    chance_to_drop_percent: 46.02
+    quantity: null
+- drop_id: fierce-knight-william__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Titan Heavy Boots
+  chance_to_drop_raw: 3,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,46%
+    Icon: ''
+    Item: Titan Heavy Boots
+    Short info: 110 Garment
+  normalized:
+    chance_to_drop_percent: 3.46
+    quantity: null
+- drop_id: fierce-knight-william__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cosmic Boots
+  chance_to_drop_raw: 3,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,46%
+    Icon: ''
+    Item: Cosmic Boots
+    Short info: 110 Vestment
+  normalized:
+    chance_to_drop_percent: 3.46
+    quantity: null
+- drop_id: fierce-knight-william__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: fierce-knight-william__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Titan Heavy Boots
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Good Titan Heavy Boots
+    Short info: 110 Garment
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+- drop_id: fierce-knight-william__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Cosmic Boots
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Good Cosmic Boots
+    Short info: 110 Vestment
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+- drop_id: fierce-knight-william__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Titan Heavy Boots
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: A.Plan2:Titan Heavy Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fierce-knight-william__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Cosmic Boots
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: D.Plan2:Cosmic Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: fierce-knight-william__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: Level 100 Rune
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: fierce-knight-william__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Silver Boots
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Holy Silver Boots
+    Short info: Garment 110
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: fierce-knight-william__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flamen Sandals
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Flamen Sandals
+    Short info: Vestment 110
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: fierce-knight-william__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cantaloupe Dish
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Cantaloupe Dish
+    Short info: Robo level 110
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: fierce-knight-william__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 2:Doomsday Bomb 5
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Scroll 2:Doomsday Bomb 5
+    Short info: Wraith 112
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fierce Knight William
+  - ''
+  rows_raw:
+  - - Name
+    - Fierce Knight William
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '115'
+    - '53621'
+    - '607'
+    - '369'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1788'
+    - '2036'
+    - '1734'
+    - '1699'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +58 Lightning
+    - +78 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '39719'
+    - 2359 - 3003 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,02%
+    - ''
+    - Effective Agility Potion
+    - Adds x agility lasts 10minutes
+  - - 46,02%
+    - ''
+    - Effective Mars' Fruit
+    - Adds 80 defense lasts 10minutes
+  - - 3,46%
+    - ''
+    - Titan Heavy Boots
+    - 110 Garment
+  - - 3,46%
+    - ''
+    - Cosmic Boots
+    - 110 Vestment
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,16%
+    - ''
+    - Good Titan Heavy Boots
+    - 110 Garment
+  - - 0,16%
+    - ''
+    - Good Cosmic Boots
+    - 110 Vestment
+  - - 0,05%
+    - ''
+    - A.Plan2:Titan Heavy Boots
+    - ITEM NOTES
+  - - 0,05%
+    - ''
+    - D.Plan2:Cosmic Boots
+    - ITEM NOTES
+  - - 0,04%
+    - ''
+    - Blue Light Rune Piece
+    - Level 100 Rune
+  - - 0,01%
+    - ''
+    - Holy Silver Boots
+    - Garment 110
+  - - 0,01%
+    - ''
+    - Flamen Sandals
+    - Vestment 110
+  - - 0,01%
+    - ''
+    - Cantaloupe Dish
+    - Robo level 110
+  - - 0,01%
+    - ''
+    - Scroll 2:Doomsday Bomb 5
+    - Wraith 112
+    - ''
+  row_count: 15

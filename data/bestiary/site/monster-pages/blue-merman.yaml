@@ -1,0 +1,266 @@
+monster_page:
+  id: blue-merman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blue-merman
+    retrieval_url: https://web.archive.org/web/20200119202150id_/http://angels.wikidot.com:80/monster:blue-merman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119202150'
+    archive_snapshot_url: https://web.archive.org/web/20200119202150/http://angels.wikidot.com:80/monster:blue-merman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blue-merman
+    source_html_sha256: feea5bd315665691400dd5f7b22d6e1316b88e6575986a8d4aab8d6578898481
+fields_raw:
+  Name: 'Description:'
+  Blue Merman: It grew up in the sea, and hates anything from the continent.
+  'Description:': 'Location:'
+  It grew up in the sea, and hates anything from the continent.: Blue Sea , Wave Harbor , Dream Ocean , Blue Ocean
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '84'
+  Hit Points: '3360'
+  Rigor: '432'
+  Agility: '264'
+  Attack: '700'
+  Defense: '1003'
+  Spell Attack: '598'
+  Spell Defense: '328'
+  Special Attack: Ice +45
+  Special Defense: '32'
+  Strong Against: Fire (62)
+  Weak Against: Thunder (2)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '1058'
+  Gold: 397 - 481 (439)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: blue-merman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Bracers
+  chance_to_drop_raw: 88,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 88,24%
+    Icon: ''
+    Item: Luck Bracers
+    Short info: Vestment 87 (Dfs +57, Spl Dfs +53, Rig +82)
+  normalized:
+    chance_to_drop_percent: 88.24
+    quantity: null
+- drop_id: blue-merman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Bracers
+  chance_to_drop_raw: 2,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,41%
+    Icon: ''
+    Item: Good Luck Bracers
+    Short info: Vestment 87 (Dfs +72, Spl Dfs +68, Rig +92)
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: blue-merman__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Bracers
+  chance_to_drop_raw: 0,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,88%
+    Icon: ''
+    Item: D.Plan2:Luck Bracers
+    Short info: Sew 85
+  normalized:
+    chance_to_drop_percent: 0.88
+    quantity: null
+- drop_id: blue-merman__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,45%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.45
+    quantity: null
+- drop_id: blue-merman__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Bracers
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Lucky Jack Bracers
+    Short info: Vestment 87 (Dfs +90, Spl Dfs +86, Rig +102)
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: blue-merman__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: blue marman card
+  chance_to_drop_raw: 8,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,00%
+    Icon: ''
+    Item: blue marman card
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 8.0
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blue Merman
+  - ''
+  rows_raw:
+  - - Name
+    - Blue Merman
+    - ''
+  - - 'Description:'
+    - It grew up in the sea, and hates anything from the continent.
+    - ''
+  - - 'Location:'
+    - Blue Sea , Wave Harbor , Dream Ocean , Blue Ocean
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '84'
+    - '3360'
+    - '432'
+    - '264'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '700'
+    - '1003'
+    - '598'
+    - '328'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +45
+    - '32'
+    - Fire (62)
+    - Thunder (2)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '1058'
+    - 397 - 481 (439)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 88,24%
+    - ''
+    - Luck Bracers
+    - Vestment 87 (Dfs +57, Spl Dfs +53, Rig +82)
+  - - 2,41%
+    - ''
+    - Good Luck Bracers
+    - Vestment 87 (Dfs +72, Spl Dfs +68, Rig +92)
+  - - 0,88%
+    - ''
+    - D.Plan2:Luck Bracers
+    - Sew 85
+  - - 0,45%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,11%
+    - ''
+    - Lucky Jack Bracers
+    - Vestment 87 (Dfs +90, Spl Dfs +86, Rig +102)
+  - - 8,00%
+    - ''
+    - blue marman card
+    - ''
+  row_count: 7

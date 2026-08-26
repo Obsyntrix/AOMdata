@@ -1,0 +1,320 @@
+monster_page:
+  id: mandala-mushroom
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mandala-mushroom
+    retrieval_url: https://web.archive.org/web/20110809091332id_/http://angels.wikidot.com:80/monster:mandala-mushroom
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110809091332'
+    archive_snapshot_url: https://web.archive.org/web/20110809091332/http://angels.wikidot.com:80/monster:mandala-mushroom
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mandala-mushroom
+    source_html_sha256: e6dafd3cde10c426a969dad2d6f0b2a4cf0376c680003ea983a831b13221221a
+fields_raw:
+  Name: 'Spells:'
+  Mandala Mushroom: '-'
+  'Spells:': 'Location:'
+  '-': Noisy Rain Forest
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 316 - 402
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: mandala-mushroom__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armor
+  chance_to_drop_raw: 47.96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.96%
+    Icon: ''
+    Item: Wind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.96
+    quantity: null
+- drop_id: mandala-mushroom__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Helmet
+  chance_to_drop_raw: 47.96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.96%
+    Icon: ''
+    Item: Wind Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.96
+    quantity: null
+- drop_id: mandala-mushroom__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWind Armor
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodWind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: mandala-mushroom__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWind Helmet
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodWind Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: mandala-mushroom__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Armor
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Storm Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: mandala-mushroom__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Helmet
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Storm Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: mandala-mushroom__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Armor
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: A.Plan2:Wind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: mandala-mushroom__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Helmet
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: A.Plan2:Wind Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: mandala-mushroom__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mandala Mushroom
+  - ''
+  rows_raw:
+  - - Name
+    - Mandala Mushroom
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Noisy Rain Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 316 - 402
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.96%
+    - ''
+    - Wind Armor
+    - ITEM NOTES
+  - - 47.96%
+    - ''
+    - Wind Helmet
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodWind Armor
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodWind Helmet
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Storm Armor
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Storm Helmet
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - A.Plan2:Wind Armor
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - A.Plan2:Wind Helmet
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - Flawless Purple Gem
+    - ITEM NOTES
+  row_count: 10

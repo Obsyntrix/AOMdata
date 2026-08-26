@@ -1,0 +1,538 @@
+monster_page:
+  id: bloody-wolf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bloody-wolf
+    retrieval_url: https://web.archive.org/web/20191102161951id_/http://angels.wikidot.com:80/monster:bloody-wolf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102161951'
+    archive_snapshot_url: https://web.archive.org/web/20191102161951/http://angels.wikidot.com:80/monster:bloody-wolf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bloody-wolf
+    source_html_sha256: 716b6a6383deee34d47a8721be3b24f2d7515a60cb75f329778abe298eb8e81d
+fields_raw:
+  Name: 'Stances:'
+  Bloody Wolf: Swiftness Cut Single Short-R. | x3 - Aurora Trap Self AOE | Power 284
+  'Stances:': 'Location:'
+  Swiftness Cut Single Short-R. | x3 - Aurora Trap Self AOE | Power 284: Crashing Hillock
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '12641'
+  Rigor: '212'
+  Agility: '132'
+  Attack: '512'
+  Defense: '325'
+  Spell Attack: '258'
+  Spell Defense: '256'
+  Special Attack: '-'
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Very Fast (90)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '870'
+  Gold: 494 - 842 (668)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: bloody-wolf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Healing Potion
+  chance_to_drop_raw: 34,52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34,52%
+    Icon: ''
+    Item: Healing Potion
+    Short info: Food (Max. HP +60 | 10 min)
+  normalized:
+    chance_to_drop_percent: 34.52
+    quantity: null
+- drop_id: bloody-wolf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Potion
+  chance_to_drop_raw: 34,52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34,52%
+    Icon: ''
+    Item: Magic Potion
+    Short info: Food (Max. MP +50 | 10 min)
+  normalized:
+    chance_to_drop_percent: 34.52
+    quantity: null
+- drop_id: bloody-wolf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 12,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,48%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 12.48
+    quantity: null
+- drop_id: bloody-wolf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of High Clerist
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Ring of High Clerist
+    Short info: Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Shell Bag
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Golden Shell Bag
+    Short info: Backpack Lvl 25 (Max Weight +500, Slots 12)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 3: Magic Bomb 5'
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: 'Scroll 3: Magic Bomb 5'
+    Short info: Chaos 30
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 4: Earth Blessing 5'
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: 'Scroll 4: Earth Blessing 5'
+    Short info: Earth 30
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Long Sword
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Long Sword
+    Short info: Sword Lvl 25 (Atk 102-112 (107), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Stone Crusher
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Stone Crusher
+    Short info: Axe Lvl 25 (Atk 128-158 (143), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Iron Javelin
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Iron Javelin
+    Short info: Spear Lvl 25 (Atk 119-133 (126), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Iron Slingshot
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Iron Slingshot
+    Short info: Bow Lvl 25 (Atk 79-91 (85), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Token
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Token
+    Short info: Staff Lvl 25 (Atk 83-99 (91), Spl Atk +60, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Long Shield
+  chance_to_drop_raw: 1,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,72%
+    Icon: ''
+    Item: Good Traveller Long Shield
+    Short info: Shield 25 (Dfs +51, Spl Dfs +32)
+  normalized:
+    chance_to_drop_percent: 1.72
+    quantity: null
+- drop_id: bloody-wolf__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beast Bone Blade
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Beast Bone Blade
+    Short info: Sword Lvl 25 (Atk 157-169 (163), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wolf-teeth Mace
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Wolf-teeth Mace
+    Short info: Axe Lvl 25 (Atk 194-224 (209), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Soldier Javelin
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Soldier Javelin
+    Short info: Spear Lvl 25 (Atk 180-194 (187), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Puppet Electrical Bow
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Puppet Electrical Bow
+    Short info: Bow Lvl 25 (Atk 129-141 (135), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whitle Token
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Whitle Token
+    Short info: Staff Lvl 25 (Atk 135-151 (143), Spl Atk +102, Rig.+9)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Soldier's Long Shield
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Soldier's Long Shield
+    Short info: Shield 25 (Dfs +78, Spl Dfs +43)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: bloody-wolf__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: bloody-wolf__t007r0022
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Monster Badge
+  chance_to_drop_raw: 3x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3x
+    Icon: ''
+    Item: Silver Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bloody Wolf
+  - ''
+  rows_raw:
+  - - Name
+    - Bloody Wolf
+    - ''
+  - - 'Stances:'
+    - Swiftness Cut Single Short-R. | x3 - Aurora Trap Self AOE | Power 284
+    - ''
+  - - 'Location:'
+    - Crashing Hillock
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '12641'
+    - '212'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '512'
+    - '325'
+    - '258'
+    - '256'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '870'
+    - 494 - 842 (668)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 34,52%
+    - ''
+    - Healing Potion
+    - Food (Max. HP +60 | 10 min)
+  - - 34,52%
+    - ''
+    - Magic Potion
+    - Food (Max. MP +50 | 10 min)
+  - - 12,48%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 1,72%
+    - ''
+    - Ring of High Clerist
+    - Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  - - 1,72%
+    - ''
+    - Golden Shell Bag
+    - Backpack Lvl 25 (Max Weight +500, Slots 12)
+  - - 1,72%
+    - ''
+    - 'Scroll 3: Magic Bomb 5'
+    - Chaos 30
+  - - 1,72%
+    - ''
+    - 'Scroll 4: Earth Blessing 5'
+    - Earth 30
+  - - 1,72%
+    - ''
+    - Good Traveller Long Sword
+    - Sword Lvl 25 (Atk 102-112 (107), Rig.+7)
+  - - 1,72%
+    - ''
+    - Good Traveller Stone Crusher
+    - Axe Lvl 25 (Atk 128-158 (143), Rig.+7)
+  - - 1,72%
+    - ''
+    - Good Traveller Iron Javelin
+    - Spear Lvl 25 (Atk 119-133 (126), Rig.+14)
+  - - 1,72%
+    - ''
+    - Good Traveller Iron Slingshot
+    - Bow Lvl 25 (Atk 79-91 (85), Rig.+14)
+  - - 1,72%
+    - ''
+    - Good Traveller Token
+    - Staff Lvl 25 (Atk 83-99 (91), Spl Atk +60, Rig.+7)
+  - - 1,72%
+    - ''
+    - Good Traveller Long Shield
+    - Shield 25 (Dfs +51, Spl Dfs +32)
+  - - 0,21%
+    - ''
+    - Beast Bone Blade
+    - Sword Lvl 25 (Atk 157-169 (163), Rig.+9)
+  - - 0,21%
+    - ''
+    - Wolf-teeth Mace
+    - Axe Lvl 25 (Atk 194-224 (209), Rig.+9)
+  - - 0,21%
+    - ''
+    - Soldier Javelin
+    - Spear Lvl 25 (Atk 180-194 (187), Rig.+19)
+  - - 0,21%
+    - ''
+    - Puppet Electrical Bow
+    - Bow Lvl 25 (Atk 129-141 (135), Rig.+19)
+  - - 0,21%
+    - ''
+    - Whitle Token
+    - Staff Lvl 25 (Atk 135-151 (143), Spl Atk +102, Rig.+9)
+  - - 0,21%
+    - ''
+    - Soldier's Long Shield
+    - Shield 25 (Dfs +78, Spl Dfs +43)
+  - - 0,07%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - Badges
+    - ''
+  - - 3x
+    - ''
+    - Silver Monster Badge
+    - ''
+  row_count: 23

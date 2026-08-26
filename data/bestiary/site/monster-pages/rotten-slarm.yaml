@@ -1,0 +1,231 @@
+monster_page:
+  id: rotten-slarm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rotten-slarm
+    retrieval_url: https://web.archive.org/web/20200109185810id_/http://angels.wikidot.com:80/monster:rotten-slarm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109185810'
+    archive_snapshot_url: https://web.archive.org/web/20200109185810/http://angels.wikidot.com:80/monster:rotten-slarm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rotten-slarm
+    source_html_sha256: 67163b7f1b358c933c6ab9c9eae9f2f8e1f12514d463ab041683494dfb72feb3
+fields_raw:
+  Name: 'Description:'
+  Rotten Slarm: Description
+  'Description:': 'Location:'
+  Description: Underground Square , Hell Palace
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '78'
+  Hit Points: '2918'
+  Rigor: '402'
+  Agility: '246'
+  Attack: '579'
+  Defense: '880'
+  Magic Attack: '555'
+  Magic Defense: '312'
+  Special Attack: Rotten +38
+  Special Defense: '29'
+  Strong Against: Thunder(59)
+  Weak Against: Fire(0)
+  Attack Range: Short (1)
+  Speed: Fast(95)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.03%
+  Experience: '584'
+  Gold: 332-476 (?)
+item_drop_chance_raw: 0.03%
+drops:
+- drop_id: rotten-slarm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 28.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 28.54%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 28.54
+    quantity: null
+- drop_id: rotten-slarm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Cuffs
+  chance_to_drop_raw: 68.23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 68.23%
+    Icon: ''
+    Item: Fire Scale Cuffs
+    Short info: Garment 77 (Dfs +134, Spl Dfs +16, Rig +72)
+  normalized:
+    chance_to_drop_percent: 68.23
+    quantity: null
+- drop_id: rotten-slarm__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Cuffs
+  chance_to_drop_raw: 2.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.85%
+    Icon: ''
+    Item: Good Fire Scale Cuffs
+    Short info: Garment 77 (Dfs +171, Spl Dfs +18, Rig +82)
+  normalized:
+    chance_to_drop_percent: 2.85
+    quantity: null
+- drop_id: rotten-slarm__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Cuffs
+  chance_to_drop_raw: 0.24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.24%
+    Icon: ''
+    Item: Embrace Cuffs
+    Short info: Garment 77 (Dfs +216, Spl Dfs +20, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rotten Slarm
+  - ''
+  rows_raw:
+  - - Name
+    - Rotten Slarm
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Underground Square , Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Energy
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '78'
+    - '2918'
+    - '402'
+    - '246'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '579'
+    - '880'
+    - '555'
+    - '312'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +38
+    - '29'
+    - Thunder(59)
+    - Fire(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(95)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.03%
+    - '584'
+    - 332-476 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 28.54%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+    - ''
+  - - 68.23%
+    - ''
+    - Fire Scale Cuffs
+    - Garment 77 (Dfs +134, Spl Dfs +16, Rig +72)
+  - - 2.85%
+    - ''
+    - Good Fire Scale Cuffs
+    - Garment 77 (Dfs +171, Spl Dfs +18, Rig +82)
+  - - 0.24%
+    - ''
+    - Embrace Cuffs
+    - Garment 77 (Dfs +216, Spl Dfs +20, Rig +92)
+  row_count: 5

@@ -1,0 +1,194 @@
+monster_page:
+  id: black-forest-spearman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:black-forest-spearman
+    retrieval_url: https://web.archive.org/web/20200223000259id_/http://angels.wikidot.com:80/monster:black-forest-spearman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200223000259'
+    archive_snapshot_url: https://web.archive.org/web/20200223000259/http://angels.wikidot.com:80/monster:black-forest-spearman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:black-forest-spearman
+    source_html_sha256: 917e2f130a12652f66840b02867c429302799cb441ef78b740f0e19db60504fe
+fields_raw:
+  Name: 'Spells:'
+  Black Forest Spearman: '-'
+  'Spells:': 'Location:'
+  '-': Chocolate Forest
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '132'
+  Hit Points: '23884'
+  Rigor: '750'
+  Agility: '392'
+  Attack: '2196'
+  Defense: '2605'
+  Spell Attack: '1524'
+  Spell Defense: '1457'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '16122'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: black-forest-spearman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Murderers Helmet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Murderers Helmet
+    Short info: Head lvl 130 Garment
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: black-forest-spearman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Black Forest Spearman
+  - ''
+  rows_raw:
+  - - Name
+    - Black Forest Spearman
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Chocolate Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '132'
+    - '23884'
+    - '750'
+    - '392'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2196'
+    - '2605'
+    - '1524'
+    - '1457'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '16122'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Murderers Helmet
+    - Head lvl 130 Garment
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

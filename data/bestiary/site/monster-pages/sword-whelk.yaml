@@ -1,0 +1,248 @@
+monster_page:
+  id: sword-whelk
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sword-whelk
+    retrieval_url: https://web.archive.org/web/20200119191730id_/http://angels.wikidot.com:80/monster:sword-whelk
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119191730'
+    archive_snapshot_url: https://web.archive.org/web/20200119191730/http://angels.wikidot.com:80/monster:sword-whelk
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sword-whelk
+    source_html_sha256: d061492f210a501f38b0176de3b3fa5c26422068495cb167bff57e5550a6d319
+fields_raw:
+  Name: 'Description:'
+  Sword Whelk: It's good at fighting, and very aggressive.
+  'Description:': 'Location:'
+  It's good at fighting, and very aggressive.: Raging Reefs
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '86'
+  Hit Points: '3451'
+  Rigor: '442'
+  Agility: '270'
+  Attack: '732'
+  Defense: '1047'
+  Spell Attack: '614'
+  Spell Defense: '336'
+  Special Attack: Fire +46
+  Special Defense: '33'
+  Strong Against: Rotten (63)
+  Weak Against: Ice (3)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 2,59%
+  Experience: '964'
+  Gold: 348 - 434 (391)
+item_drop_chance_raw: 2,59%
+drops:
+- drop_id: sword-whelk__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Shell
+  chance_to_drop_raw: 96,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96,46%
+    Icon: ''
+    Item: Whelk Shell
+    Short info: Quest Item
+  normalized:
+    chance_to_drop_percent: 96.46
+    quantity: null
+- drop_id: sword-whelk__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Chief Legguard
+  chance_to_drop_raw: 3,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,41%
+    Icon: ''
+    Item: Chief Legguard
+    Short info: Garment 86 (Dfs +171, Spl Dfs +18, Ag.+29)
+  normalized:
+    chance_to_drop_percent: 3.41
+    quantity: null
+- drop_id: sword-whelk__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Chief Legguard
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: Good Chief Legguard
+    Short info: Garment 86 (Dfs +216, Spl Dfs +20, Ag.+32)
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: sword-whelk__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Chief Legguard
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: A.Plan2:Chief Legguard
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: sword-whelk__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sword Whelk
+  - ''
+  rows_raw:
+  - - Name
+    - Sword Whelk
+    - ''
+  - - 'Description:'
+    - It's good at fighting, and very aggressive.
+    - ''
+  - - 'Location:'
+    - Raging Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '86'
+    - '3451'
+    - '442'
+    - '270'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '732'
+    - '1047'
+    - '614'
+    - '336'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +46
+    - '33'
+    - Rotten (63)
+    - Ice (3)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,59%
+    - '964'
+    - 348 - 434 (391)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96,46%
+    - ''
+    - Whelk Shell
+    - Quest Item
+  - - 3,41%
+    - ''
+    - Chief Legguard
+    - Garment 86 (Dfs +171, Spl Dfs +18, Ag.+29)
+  - - 0,09%
+    - ''
+    - Good Chief Legguard
+    - Garment 86 (Dfs +216, Spl Dfs +20, Ag.+32)
+  - - 0,03%
+    - ''
+    - A.Plan2:Chief Legguard
+    - Armor 85
+  - - 0,02%
+    - ''
+    - Flawless Emerald
+    - 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  row_count: 6

@@ -1,0 +1,338 @@
+monster_page:
+  id: walker-gillian
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:walker-gillian
+    retrieval_url: https://web.archive.org/web/20200108094454id_/http://angels.wikidot.com:80/monster:walker-gillian
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108094454'
+    archive_snapshot_url: https://web.archive.org/web/20200108094454/http://angels.wikidot.com:80/monster:walker-gillian
+    archive_original_lookup_url: https://angels.wikidot.com/monster:walker-gillian
+    source_html_sha256: b884d87eda54fbda8cf049726d55b2654450f6cd2f23559b0aeafad015423631
+fields_raw:
+  Name: 'Spells:'
+  Walker Gillian: '-'
+  'Spells:': 'Location:'
+  '-': Roam Battlefield
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '100'
+  Hit Points: '45599'
+  Rigor: '612'
+  Agility: '324'
+  Attack: '1353'
+  Defense: '1519'
+  Spell Attack: '1391'
+  Spell Defense: '740'
+  Special Attack: +60 Lightning
+  Special Defense: +80 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '33777'
+  Gold: 2006 - 2554
+item_drop_chance_raw: 100%
+drops:
+- drop_id: walker-gillian__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Bow
+  chance_to_drop_raw: 5.48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5.48%
+    Icon: ''
+    Item: Symbol Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 5.48
+    quantity: null
+- drop_id: walker-gillian__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Symbol Bow
+  chance_to_drop_raw: 0.28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.28%
+    Icon: ''
+    Item: Good Symbol Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: walker-gillian__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermes' Breath
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Hermes' Breath
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: walker-gillian__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: BerryShark-hunting Armor
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: BerryShark-hunting Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: walker-gillian__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Symbol Bow
+  chance_to_drop_raw: 0.09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.09%
+    Icon: ''
+    Item: W.Plan2:Symbol Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: walker-gillian__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: walker-gillian__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Stance:Speedup Attack 5
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Stance:Speedup Attack 5
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: walker-gillian__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: walker-gillian__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Mighty Fruit
+  chance_to_drop_raw: 46.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.75%
+    Icon: ''
+    Item: Great Mighty Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.75
+    quantity: null
+- drop_id: walker-gillian__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Target Potion
+  chance_to_drop_raw: 46.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.75%
+    Icon: ''
+    Item: Great Target Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.75
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Walker Gillian
+  - ''
+  rows_raw:
+  - - Name
+    - Walker Gillian
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Roam Battlefield
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '45599'
+    - '612'
+    - '324'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1353'
+    - '1519'
+    - '1391'
+    - '740'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +60 Lightning
+    - +80 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '33777'
+    - 2006 - 2554
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 5.48%
+    - ''
+    - Symbol Bow
+    - ITEM NOTES
+  - - 0.28%
+    - ''
+    - Good Symbol Bow
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Hermes' Breath
+    - ITEM NOTES
+  - - 0.02%
+    - ''
+    - BerryShark-hunting Armor
+    - ITEM NOTES
+  - - 0.09%
+    - ''
+    - W.Plan2:Symbol Bow
+    - ITEM NOTES
+  - - 0.08%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Stance:Speedup Attack 5
+    - ITEM NOTES
+  - - 0.54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 46.75%
+    - ''
+    - Great Mighty Fruit
+    - ITEM NOTES
+  - - 46.75%
+    - ''
+    - Great Target Potion
+    - ITEM NOTES
+  row_count: 11

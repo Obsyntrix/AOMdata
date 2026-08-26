@@ -1,0 +1,248 @@
+monster_page:
+  id: fire-ghost-kid
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fire-ghost-kid
+    retrieval_url: https://web.archive.org/web/20191102090109id_/http://angels.wikidot.com:80/monster:fire-ghost-kid
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102090109'
+    archive_snapshot_url: https://web.archive.org/web/20191102090109/http://angels.wikidot.com:80/monster:fire-ghost-kid
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fire-ghost-kid
+    source_html_sha256: f7bc63de97f815b69b22df9b2e978da0363e8c52cd632c6c5b66f38906a6c65f
+fields_raw:
+  Name: 'Description:'
+  Fire Ghost Kid: Description
+  'Description:': 'Location:'
+  Description: Flaming Door , Underground Square , Hell Palace
+  Type: Undead
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '75'
+  Hit Points: '2789'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '547'
+  Defense: '828'
+  Magic Attack: '534'
+  Magic Defense: '300'
+  Special Attack: Fire +37
+  Special Defense: '28'
+  Strong Against: Rotten(58)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Fast(90)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.04%
+  Experience: '697'
+  Gold: 256 - 390 (323)
+item_drop_chance_raw: 0.04%
+drops:
+- drop_id: fire-ghost-kid__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Ghost Kid Card
+  chance_to_drop_raw: 52.82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 52.82%
+    Icon: ''
+    Item: Fire Ghost Kid Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 52.82
+    quantity: null
+- drop_id: fire-ghost-kid__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 13.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13.46%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 13.46
+    quantity: null
+- drop_id: fire-ghost-kid__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Boots
+  chance_to_drop_raw: 32.25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 32.25%
+    Icon: ''
+    Item: Fire Scale Boots
+    Short info: Garment 76 (Dfs +134, Spl Dfs +16, Ag +26)
+  normalized:
+    chance_to_drop_percent: 32.25
+    quantity: null
+- drop_id: fire-ghost-kid__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Boots
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: Good Fire Scale Boots
+    Short info: Garment 76 (Dfs +171, Spl Dfs +18, Ag +29)
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+- drop_id: fire-ghost-kid__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Boots
+  chance_to_drop_raw: 0.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.13%
+    Icon: ''
+    Item: Embrace Boots
+    Short info: Garment 76 (Dfs +216, Spl Dfs +20, Ag +32)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fire Ghost Kid
+  - ''
+  rows_raw:
+  - - Name
+    - Fire Ghost Kid
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Flaming Door , Underground Square , Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Undead
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '2789'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '547'
+    - '828'
+    - '534'
+    - '300'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +37
+    - '28'
+    - Rotten(58)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(90)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.04%
+    - '697'
+    - 256 - 390 (323)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 52.82%
+    - ''
+    - Fire Ghost Kid Card
+    - 'See: Card Collection'
+  - - 13.46%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Card Collection'
+  - - 32.25%
+    - ''
+    - Fire Scale Boots
+    - Garment 76 (Dfs +134, Spl Dfs +16, Ag +26)
+  - - 1.35%
+    - ''
+    - Good Fire Scale Boots
+    - Garment 76 (Dfs +171, Spl Dfs +18, Ag +29)
+  - - 0.13%
+    - ''
+    - Embrace Boots
+    - Garment 76 (Dfs +216, Spl Dfs +20, Ag +32)
+  row_count: 6

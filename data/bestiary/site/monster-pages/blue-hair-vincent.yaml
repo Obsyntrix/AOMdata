@@ -1,0 +1,248 @@
+monster_page:
+  id: blue-hair-vincent
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blue-hair-vincent
+    retrieval_url: https://web.archive.org/web/20110903224839id_/http://angels.wikidot.com:80/monster:blue-hair-vincent
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110903224839'
+    archive_snapshot_url: https://web.archive.org/web/20110903224839/http://angels.wikidot.com:80/monster:blue-hair-vincent
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blue-hair-vincent
+    source_html_sha256: afd3b3dcd88cfbd42068602e538ce955a11e12644cde78a1c1793b19df376c2c
+fields_raw:
+  Name: 'Spells:'
+  Blue-hair Vincent: '-'
+  'Spells:': 'Location:'
+  '-': Hermit Wetland
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 351 - 447
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: blue-hair-vincent__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Boots
+  chance_to_drop_raw: 93.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.37%
+    Icon: ''
+    Item: Wind Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.37
+    quantity: null
+- drop_id: blue-hair-vincent__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWind Boots
+  chance_to_drop_raw: 2.34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.34%
+    Icon: ''
+    Item: GoodWind Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.34
+    quantity: null
+- drop_id: blue-hair-vincent__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Boots
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Storm Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: blue-hair-vincent__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Boots
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: A.Plan2:Wind Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: blue-hair-vincent__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 3.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.43%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.43
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blue-hair Vincent
+  - ''
+  rows_raw:
+  - - Name
+    - Blue-hair Vincent
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Hermit Wetland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 351 - 447
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.37%
+    - ''
+    - Wind Boots
+    - ITEM NOTES
+  - - 2.34%
+    - ''
+    - GoodWind Boots
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Storm Boots
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - A.Plan2:Wind Boots
+    - ITEM NOTES
+  - - 3.43%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  row_count: 6

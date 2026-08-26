@@ -1,0 +1,202 @@
+monster_page:
+  id: evil-monitor
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-monitor
+    retrieval_url: https://web.archive.org/web/20110904024250id_/http://angels.wikidot.com:80/monster:evil-monitor
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904024250'
+    archive_snapshot_url: https://web.archive.org/web/20110904024250/http://angels.wikidot.com:80/monster:evil-monitor
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-monitor
+    source_html_sha256: 67e1d5455acb5d2f852553a492d4b4b3872af70a6a468e016d4a386441d5fcec
+fields_raw:
+  Name: 'Spells:'
+  Evil Monitor: '-'
+  'Spells:': 'Location:'
+  '-': Secret Den
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '82'
+  Hit Points: '3348'
+  Rigor: '421'
+  Agility: '258'
+  Attack: '668'
+  Defense: '960'
+  Spell Attack: '582'
+  Spell Defense: '320'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,08%.
+  Experience: '1004'
+  Gold: 298 - 370
+item_drop_chance_raw: 0,08%.
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Monitor
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Monitor
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '82'
+    - '3348'
+    - '421'
+    - '258'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '668'
+    - '960'
+    - '582'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%.
+    - '1004'
+    - 298 - 370
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 8
+  headers_raw:
+  - 48,18%
+  - ''
+  - Luck Hood
+  - Helmet Lvl 88 (Def +95, Spell Def +80)
+  rows_raw:
+  - - 48,18%
+    - ''
+    - Luck Hood
+    - Helmet Lvl 88 (Def +95, Spell Def +80)
+  - - 48,18%
+    - ''
+    - Luck Bracers
+    - Vestment 87 (Dfs +57, Spl Dfs +53, Agility +82)
+  - - 1,20%
+    - ''
+    - Good Luck Hood
+    - Helmet Lvl 88 (Def +120, Spell Def +105)
+  - - 1,20%
+    - ''
+    - Good Luck Bracers
+    - Gloves Lvl 87 (Def +72, Spell Def +68, Agility.+92)
+  - - 0,44%
+    - ''
+    - Flawless Sapphire
+    - lv80 gem
+  - - 0,40%
+    - ''
+    - D.Plan2:Luck Bracers
+    - adv.plans for tailors
+  - - 0,40%
+    - ''
+    - D.Plan2:Luck Hood
+    - adv.plans for tailors
+  - - 0.01%
+    - ''
+    - Lucky Jack Bracers
+    - Gloves Lvl 87 (Def +90, Spell Def +86, Agility.+102)
+  - - 0.01%
+    - ''
+    - Lucky Jack Hood
+    - Helmet Lvl 88 (Def +149, Spell Def +134)
+  row_count: 9

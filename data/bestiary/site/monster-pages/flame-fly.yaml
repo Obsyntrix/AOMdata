@@ -1,0 +1,298 @@
+monster_page:
+  id: flame-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:flame-fly
+    retrieval_url: https://web.archive.org/web/20200109171758id_/http://angels.wikidot.com:80/monster:flame-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171758'
+    archive_snapshot_url: https://web.archive.org/web/20200109171758/http://angels.wikidot.com:80/monster:flame-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:flame-fly
+    source_html_sha256: 65c904b018a205bea7c1a190bdf3403fe79b0d7305524708371118652f2fbb5c
+fields_raw:
+  Name: 'Spells:'
+  Flame Fly: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Animal
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '60'
+  Hit Points: '4328'
+  Rigor: '312'
+  Agility: '192'
+  Attack: '425'
+  Defense: '635'
+  Magic Attack: '457'
+  Magic Defense: '258'
+  Bonus Damage: Fire +29
+  Strong Against: Rotten
+  Weak Against: Ice
+  Item Drop Chance: 0,10%
+  Experience: '866'
+  Gold: 184 - 314 (249)
+item_drop_chance_raw: 0,10%
+drops:
+- drop_id: flame-fly__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 58,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,50%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.5
+    quantity: null
+- drop_id: flame-fly__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Crusader's Sword
+  chance_to_drop_raw: 11,7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,7%
+    Icon: ''
+    Item: Royal Crusader's Sword
+    Short info: Sword Lvl 55 (Atk 224-244 (234), Rig. +12)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: flame-fly__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal War Axe
+  chance_to_drop_raw: 11,7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,7%
+    Icon: ''
+    Item: Royal War Axe
+    Short info: Axe Lvl 55 (Atk 268-318 (293), Rig. +12)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: flame-fly__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Crusader's Shield
+  chance_to_drop_raw: 11,7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,7%
+    Icon: ''
+    Item: Royal Crusader's Shield
+    Short info: Shield 55 (Dfs +110, Spl Dfs +54)
+  normalized:
+    chance_to_drop_percent: 11.7
+    quantity: null
+- drop_id: flame-fly__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Crusader's Sword
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Good Royal Crusader's Sword
+    Short info: Sword Lvl 55 (Atk 315-335 (325), Rig. +14)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: flame-fly__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal War Axe
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Good Royal War Axe
+    Short info: Axe Lvl 55 (Atk 373-423 (398), Rig. +14)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: flame-fly__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Crusader's Shield
+  chance_to_drop_raw: 1,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,95%
+    Icon: ''
+    Item: Good Royal Crusader's Shield
+    Short info: Shield 55 (Dfs +150, Spl Dfs +65)
+  normalized:
+    chance_to_drop_percent: 1.95
+    quantity: null
+- drop_id: flame-fly__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rose Sword
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Rose Sword
+    Short info: Sword Lvl 55 (Atk 428-448 (438), Rig. +17)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: flame-fly__t004r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fish Axe
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Fish Axe
+    Short info: Axe Lvl 55 (Atk 502-552 (527), Rig. +17)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: flame-fly__t004r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Vein Shield
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Vein Shield
+    Short info: Shield 55 (Dfs +197, Spl Dfs +76)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Flame Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Flame Fly
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Animal
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '4328'
+    - '312'
+    - '192'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '425'
+    - '635'
+    - '457'
+    - '258'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Fire +29
+    - Rotten
+    - Ice
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,10%
+    - '866'
+    - 184 - 314 (249)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,50%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,7%
+    - ''
+    - Royal Crusader's Sword
+    - Sword Lvl 55 (Atk 224-244 (234), Rig. +12)
+  - - 11,7%
+    - ''
+    - Royal War Axe
+    - Axe Lvl 55 (Atk 268-318 (293), Rig. +12)
+  - - 11,7%
+    - ''
+    - Royal Crusader's Shield
+    - Shield 55 (Dfs +110, Spl Dfs +54)
+  - - 1,95%
+    - ''
+    - Good Royal Crusader's Sword
+    - Sword Lvl 55 (Atk 315-335 (325), Rig. +14)
+  - - 1,95%
+    - ''
+    - Good Royal War Axe
+    - Axe Lvl 55 (Atk 373-423 (398), Rig. +14)
+  - - 1,95%
+    - ''
+    - Good Royal Crusader's Shield
+    - Shield 55 (Dfs +150, Spl Dfs +65)
+  - - 0,19%
+    - ''
+    - Rose Sword
+    - Sword Lvl 55 (Atk 428-448 (438), Rig. +17)
+  - - 0,19%
+    - ''
+    - Fish Axe
+    - Axe Lvl 55 (Atk 502-552 (527), Rig. +17)
+  - - 0,19%
+    - ''
+    - Vein Shield
+    - Shield 55 (Dfs +197, Spl Dfs +76)
+  row_count: 11

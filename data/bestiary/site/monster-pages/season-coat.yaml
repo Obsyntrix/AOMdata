@@ -1,0 +1,338 @@
+monster_page:
+  id: season-coat
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:season-coat
+    retrieval_url: https://web.archive.org/web/20200109070219id_/http://angels.wikidot.com:80/monster:season-coat
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109070219'
+    archive_snapshot_url: https://web.archive.org/web/20200109070219/http://angels.wikidot.com:80/monster:season-coat
+    archive_original_lookup_url: https://angels.wikidot.com/monster:season-coat
+    source_html_sha256: 70d51f4aee16992eb3b31b94c71e72120c8add903195a02530e36be0cdcea4d6
+fields_raw:
+  Name: 'Spells:'
+  Season Coat: '-'
+  'Spells:': 'Location:'
+  '-': Season Garden
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '121'
+  Hit Points: '53621'
+  Rigor: '717'
+  Agility: '387'
+  Attack: '1993'
+  Defense: '2281'
+  Spell Attack: '1864'
+  Spell Defense: '893'
+  Special Attack: +81 Fire
+  Special Defense: +101 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '39719'
+  Gold: 2359 - 3003(?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: season-coat__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Evil Fruit
+  chance_to_drop_raw: 46,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,23%
+    Icon: ''
+    Item: Effective Evil Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.23
+    quantity: null
+- drop_id: season-coat__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Magic Potion
+  chance_to_drop_raw: 46,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,23%
+    Icon: ''
+    Item: Effective Magic Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.23
+    quantity: null
+- drop_id: season-coat__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hell Attack
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Hell Attack
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: season-coat__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Wind Cap
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Desert Wind Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: season-coat__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cardinal Hat
+  chance_to_drop_raw: 2,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,22%
+    Icon: ''
+    Item: Cardinal Hat
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.22
+    quantity: null
+- drop_id: season-coat__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: season-coat__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hell Attack
+  chance_to_drop_raw: 0,1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,1%
+    Icon: ''
+    Item: Good Hell Attack
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: season-coat__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Desert Wind Cap
+  chance_to_drop_raw: 0,1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,1%
+    Icon: ''
+    Item: Good Desert Wind Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: season-coat__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Cardinal Hat
+  chance_to_drop_raw: 0,1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,1%
+    Icon: ''
+    Item: Good Cardinal Hat
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: season-coat__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Season Coat
+  - ''
+  rows_raw:
+  - - Name
+    - Season Coat
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Season Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '121'
+    - '53621'
+    - '717'
+    - '387'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1993'
+    - '2281'
+    - '1864'
+    - '893'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +81 Fire
+    - +101 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '39719'
+    - 2359 - 3003(?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,23%
+    - ''
+    - Effective Evil Fruit
+    - ITEM NOTES
+  - - 46,23%
+    - ''
+    - Effective Magic Potion
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Hell Attack
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Desert Wind Cap
+    - ITEM NOTES
+  - - 2,22%
+    - ''
+    - Cardinal Hat
+    - ITEM NOTES
+  - - 0,54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 0,1%
+    - ''
+    - Good Hell Attack
+    - ITEM NOTES
+  - - 0,1%
+    - ''
+    - Good Desert Wind Cap
+    - ITEM NOTES
+  - - 0,1%
+    - ''
+    - Good Cardinal Hat
+    - ITEM NOTES
+  - - 0,04%
+    - ''
+    - Red Light Rune Piece
+    - ITEM NOTES
+  row_count: 11

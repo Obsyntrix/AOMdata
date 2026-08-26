@@ -1,0 +1,145 @@
+monster_page:
+  id: black-widow
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:black-widow
+    retrieval_url: https://web.archive.org/web/20200128093106id_/http://angels.wikidot.com:80/monster:black-widow
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093106'
+    archive_snapshot_url: https://web.archive.org/web/20200128093106/http://angels.wikidot.com:80/monster:black-widow
+    archive_original_lookup_url: https://angels.wikidot.com/monster:black-widow
+    source_html_sha256: 2e23d0a72158ef084fb8baa8e11607a993c19bd86d629e8bf4b906e8f08da4c7
+fields_raw:
+  'Name:': 'Spells:'
+  Black Widow: Poison Hit Single Ranged | Dmg 132-136 HP -3 x5 | 10 sec - Canker Moss Ranged AOE | Dmg 200-204 HP -23 x5 | 10 sec
+  'Spells:': 'Location:'
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '29'
+  Hit Points: '10508'
+  Rigor: '182'
+  Agility: '114'
+  Attack: '424'
+  Defense: '265'
+  Spell Attack: '213'
+  Spell Defense: '213'
+  Special Attack: '-'
+  Special Defense: '5'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Very Fast (90)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 0%
+  Experience: '716'
+  Gold: 589 - 907 (748)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - 'Name:'
+  - Black Widow
+  - ''
+  rows_raw:
+  - - 'Name:'
+    - Black Widow
+    - ''
+  - - 'Spells:'
+    - Poison Hit Single Ranged | Dmg 132-136 HP -3 x5 | 10 sec - Canker Moss Ranged AOE | Dmg 200-204 HP -23 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Burning Desert
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '29'
+    - '10508'
+    - '182'
+    - '114'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '424'
+    - '265'
+    - '213'
+    - '213'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '5'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '716'
+    - 589 - 907 (748)
+  row_count: 2

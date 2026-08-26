@@ -1,0 +1,337 @@
+monster_page:
+  id: sea-explorer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sea-explorer
+    retrieval_url: https://web.archive.org/web/20200220195544id_/http://angels.wikidot.com:80/monster:sea-explorer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220195544'
+    archive_snapshot_url: https://web.archive.org/web/20200220195544/http://angels.wikidot.com:80/monster:sea-explorer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sea-explorer
+    source_html_sha256: f7120aef8c7ecfb9377b8471c2bd6aef3f3e948f1309d917d6df47cc91a34bab
+fields_raw:
+  Name: 'Spells:'
+  Sea Explorer: Thunder Sharp Single Ranged | Dmg 226-266 Thunder Dmg +259 - Poison Hit Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+  'Spells:': 'Location:'
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '100'
+  Hit Points: '43532'
+  Rigor: '587'
+  Agility: '357'
+  Attack: '1757'
+  Defense: '2404'
+  Spell Attack: '846'
+  Spell Defense: '498'
+  Special Attack: Rotten +55
+  Special Defense: '43'
+  Strong Against: Thunder (73)
+  Weak Against: Fire (13)
+  Attack Range: Short (1)
+  Speed: Super Fast (130)
+  Attack Speed: Slow (60)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '36809'
+  Gold: 4454 - 5542 (4998)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: sea-explorer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Evil Fruit
+  chance_to_drop_raw: 92,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 92,18%
+    Icon: ''
+    Item: Effective Evil Fruit
+    Short info: Food (Spl Dfs +75 | 10 min)
+  normalized:
+    chance_to_drop_percent: 92.18
+    quantity: null
+- drop_id: sea-explorer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Helmet
+  chance_to_drop_raw: 3,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,36%
+    Icon: ''
+    Item: Wind Helmet
+    Short info: Mantle 98 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: sea-explorer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Brassart
+  chance_to_drop_raw: 3,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,36%
+    Icon: ''
+    Item: Saint Brassart
+    Short info: Garment 97 (Dfs +216, Spl Dfs +20, Rig.+92)
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: sea-explorer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: sea-explorer__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Helmet
+  chance_to_drop_raw: 0,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,17%
+    Icon: ''
+    Item: Good Wind Helmet
+    Short info: Mantle 98 (Dfs +299, Spl Dfs +67)
+  normalized:
+    chance_to_drop_percent: 0.17
+    quantity: null
+- drop_id: sea-explorer__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Brassart
+  chance_to_drop_raw: 0,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,17%
+    Icon: ''
+    Item: Good Saint Brassart
+    Short info: Garment 97 (Dfs +269, Spl Dfs +22, Rig.+102)
+  normalized:
+    chance_to_drop_percent: 0.17
+    quantity: null
+- drop_id: sea-explorer__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: sea-explorer__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Helmet
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: A.Plan2:Wind Helmet
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: sea-explorer__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Brassart
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: A.Plan2:Saint Brassart
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: sea-explorer__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 4 Stealth 5
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Scroll 4 Stealth 5
+    Short info: Earth Spell Lv84
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sea Explorer
+  - ''
+  rows_raw:
+  - - Name
+    - Sea Explorer
+    - ''
+  - - 'Spells:'
+    - Thunder Sharp Single Ranged | Dmg 226-266 Thunder Dmg +259 - Poison Hit Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+    - ''
+  - - 'Location:'
+    - Quiet Ocean
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '43532'
+    - '587'
+    - '357'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1757'
+    - '2404'
+    - '846'
+    - '498'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +55
+    - '43'
+    - Thunder (73)
+    - Fire (13)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (130)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '36809'
+    - 4454 - 5542 (4998)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 92,18%
+    - ''
+    - Effective Evil Fruit
+    - Food (Spl Dfs +75 | 10 min)
+  - - 3,36%
+    - ''
+    - Wind Helmet
+    - Mantle 98 (Dfs +240, Spl Dfs +60)
+  - - 3,36%
+    - ''
+    - Saint Brassart
+    - Garment 97 (Dfs +216, Spl Dfs +20, Rig.+92)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,17%
+    - ''
+    - Good Wind Helmet
+    - Mantle 98 (Dfs +299, Spl Dfs +67)
+  - - 0,17%
+    - ''
+    - Good Saint Brassart
+    - Garment 97 (Dfs +269, Spl Dfs +22, Rig.+102)
+  - - 0,10%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,06%
+    - ''
+    - A.Plan2:Wind Helmet
+    - Armor 95
+  - - 0,06%
+    - ''
+    - A.Plan2:Saint Brassart
+    - Armor 95
+  - - 0,01%
+    - ''
+    - Scroll 4 Stealth 5
+    - Earth Spell Lv84
+  row_count: 11

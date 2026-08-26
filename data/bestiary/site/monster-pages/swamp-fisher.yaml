@@ -1,0 +1,248 @@
+monster_page:
+  id: swamp-fisher
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:swamp-fisher
+    retrieval_url: https://web.archive.org/web/20110904000952id_/http://angels.wikidot.com:80/monster:swamp-fisher
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904000952'
+    archive_snapshot_url: https://web.archive.org/web/20110904000952/http://angels.wikidot.com:80/monster:swamp-fisher
+    archive_original_lookup_url: https://angels.wikidot.com/monster:swamp-fisher
+    source_html_sha256: 7cc30cc27e3819fcc58f5bc0c31a96516b86b335ab5c473f7ea5bd68c7b94edf
+fields_raw:
+  Name: 'Spells:'
+  Swamp Fisher: '-'
+  'Spells:': 'Location:'
+  '-': Hermit Wetlands
+  Type: Monster
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 347 - 441
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: swamp-fisher__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol shield
+  chance_to_drop_raw: 93.45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.45%
+    Icon: ''
+    Item: Symbol shield
+    Short info: LVL 98 shield
+  normalized:
+    chance_to_drop_percent: 93.45
+    quantity: null
+- drop_id: swamp-fisher__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSymbol Shield
+  chance_to_drop_raw: 2.33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.33%
+    Icon: ''
+    Item: GoodSymbol Shield
+    Short info: Item Notes
+  normalized:
+    chance_to_drop_percent: 2.33
+    quantity: null
+- drop_id: swamp-fisher__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Seagod's Eye
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Seagod's Eye
+    Short info: Item Notes
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: swamp-fisher__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Symbol Shield
+  chance_to_drop_raw: 0.78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.78%
+    Icon: ''
+    Item: A.Plan2:Symbol Shield
+    Short info: Item Notes
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: swamp-fisher__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless emerald
+  chance_to_drop_raw: 3.34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.34%
+    Icon: ''
+    Item: Flawless emerald
+    Short info: LVL 80 Gem
+  normalized:
+    chance_to_drop_percent: 3.34
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Swamp Fisher
+  - ''
+  rows_raw:
+  - - Name
+    - Swamp Fisher
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Hermit Wetlands
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Monster
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 347 - 441
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.45%
+    - ''
+    - Symbol shield
+    - LVL 98 shield
+  - - 2.33%
+    - ''
+    - GoodSymbol Shield
+    - Item Notes
+  - - 0.1%
+    - ''
+    - Seagod's Eye
+    - Item Notes
+  - - 0.78%
+    - ''
+    - A.Plan2:Symbol Shield
+    - Item Notes
+  - - 3.34%
+    - ''
+    - Flawless emerald
+    - LVL 80 Gem
+  row_count: 6

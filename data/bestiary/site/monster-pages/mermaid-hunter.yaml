@@ -1,0 +1,237 @@
+monster_page:
+  id: mermaid-hunter
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mermaid-hunter
+    retrieval_url: https://web.archive.org/web/20200119193721id_/http://angels.wikidot.com:80/monster:mermaid-hunter
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119193721'
+    archive_snapshot_url: https://web.archive.org/web/20200119193721/http://angels.wikidot.com:80/monster:mermaid-hunter
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mermaid-hunter
+    source_html_sha256: 112f829da97ed157748d02bfbad557b96d218b481930bffea01aab102a83d457
+fields_raw:
+  Name: 'Spells:'
+  Merman Hunter: Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec: Lost Region
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '93'
+  Hit Points: '7556'
+  Rigor: '502'
+  Agility: '306'
+  Attack: '1630'
+  Defense: '815'
+  Spell Attack: '695'
+  Spell Defense: '389'
+  Special Attack: Ice +49
+  Special Defense: '37'
+  Strong Against: Fire (67)
+  Weak Against: Thunder (7)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Bonus Damage: Ice +49
+  Item Drop Chance: 0,12%
+  Experience: '1976'
+  Gold: 904 - 1092 (998)
+item_drop_chance_raw: 0,12%
+drops:
+- drop_id: mermaid-hunter__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spider Teeth
+  chance_to_drop_raw: 96,81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96,81%
+    Icon: ''
+    Item: Spider Teeth
+    Short info: Sword Lvl 90 (Atk 640-672 (656), Rig +21)
+  normalized:
+    chance_to_drop_percent: 96.81
+    quantity: null
+- drop_id: mermaid-hunter__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Spider Teeth
+  chance_to_drop_raw: 2,42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,42%
+    Icon: ''
+    Item: Good Spider Teeth
+    Short info: Sword Lvl 90 (Atk 825-857 (841), Rig +23)
+  normalized:
+    chance_to_drop_percent: 2.42
+    quantity: null
+- drop_id: mermaid-hunter__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 0,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,47%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.47
+    quantity: null
+- drop_id: mermaid-hunter__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Spider Teeth
+  chance_to_drop_raw: 0,31%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,31%
+    Icon: ''
+    Item: W.Plan2:Spider Teeth
+    Short info: Weapon 85
+  normalized:
+    chance_to_drop_percent: 0.31
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Merman Hunter
+  - ''
+  rows_raw:
+  - - Name
+    - Merman Hunter
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 215-235 Ice Dmg +96 | Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - Lost Region
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '93'
+    - '7556'
+    - '502'
+    - '306'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1630'
+    - '815'
+    - '695'
+    - '389'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +49
+    - '37'
+    - Fire (67)
+    - Thunder (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +49
+    - Fire
+    - Thunder
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,12%
+    - '1976'
+    - 904 - 1092 (998)
+  row_count: 4
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96,81%
+    - ''
+    - Spider Teeth
+    - Sword Lvl 90 (Atk 640-672 (656), Rig +21)
+  - - 2,42%
+    - ''
+    - Good Spider Teeth
+    - Sword Lvl 90 (Atk 825-857 (841), Rig +23)
+  - - 0,47%
+    - ''
+    - Flawless Ruby
+    - 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  - - 0,31%
+    - ''
+    - W.Plan2:Spider Teeth
+    - Weapon 85
+  row_count: 5

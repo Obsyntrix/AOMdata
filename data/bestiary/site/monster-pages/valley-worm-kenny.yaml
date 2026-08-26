@@ -1,0 +1,230 @@
+monster_page:
+  id: valley-worm-kenny
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:valley-worm-kenny
+    retrieval_url: https://web.archive.org/web/20110903175643id_/http://angels.wikidot.com:80/monster:valley-worm-kenny
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110903175643'
+    archive_snapshot_url: https://web.archive.org/web/20110903175643/http://angels.wikidot.com:80/monster:valley-worm-kenny
+    archive_original_lookup_url: https://angels.wikidot.com/monster:valley-worm-kenny
+    source_html_sha256: 4576a048f6d5f3d8b083a98123cfc486d4951667ee79d49c5f9d242cfc6b90c0
+fields_raw:
+  Name: 'Spells:'
+  Valley Worm Kenny: '-'
+  'Spells:': 'Location:'
+  '-': Crescent Valley
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '85'
+  Hit Points: '75840'
+  Rigor: '437'
+  Agility: '267'
+  Attack: '1079'
+  Defense: '1117'
+  Spell Attack: '850'
+  Spell Defense: '610'
+  Special Attack: '-'
+  Special Defense: '-'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (2)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '153576'
+  Gold: 3641 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: valley-worm-kenny__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Target Potion
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Great Target Potion
+    Short info: Food:+44 Rigor (10 Minutes)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: valley-worm-kenny__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armguards
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Swiftness Armguards
+    Short info: Lvl 87 Mantle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: valley-worm-kenny__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armguards
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Swiftness Armguards
+    Short info: Lvl 87 Mantle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: valley-worm-kenny__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Helmet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Swiftness Helmet
+    Short info: Lvl 88 Mantle
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Valley Worm Kenny
+  - ''
+  rows_raw:
+  - - Name
+    - Valley Worm Kenny
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Crescent Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '75840'
+    - '437'
+    - '267'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1079'
+    - '1117'
+    - '850'
+    - '610'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (2)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '153576'
+    - 3641 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Great Target Potion
+    - Food:+44 Rigor (10 Minutes)
+  - - ??,??%
+    - ''
+    - Good Swiftness Armguards
+    - Lvl 87 Mantle
+  - - ??,??%
+    - ''
+    - Swiftness Armguards
+    - Lvl 87 Mantle
+  - - ??,??%
+    - ''
+    - Swiftness Helmet
+    - Lvl 88 Mantle
+  row_count: 5

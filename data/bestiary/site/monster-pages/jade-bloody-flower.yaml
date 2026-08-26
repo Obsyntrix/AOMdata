@@ -1,0 +1,194 @@
+monster_page:
+  id: jade-bloody-flower
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jade-bloody-flower
+    retrieval_url: https://web.archive.org/web/20190827032728id_/http://angels.wikidot.com:80/monster:jade-bloody-flower
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20190827032728'
+    archive_snapshot_url: https://web.archive.org/web/20190827032728/http://angels.wikidot.com:80/monster:jade-bloody-flower
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jade-bloody-flower
+    source_html_sha256: 327203de7d27bbed76a3eb5973936199a2b0960e1a639617d19969c53eb5ed91
+fields_raw:
+  Name: 'Spells:'
+  Jade Bloody Flower: '-'
+  'Spells:': 'Location:'
+  '-': Noisy Rain Forest
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '90'
+  Hit Points: '3742'
+  Rigor: '461'
+  Agility: '282'
+  Attack: '788'
+  Defense: '1140'
+  Spell Attack: '645'
+  Spell Defense: '351'
+  Special Attack: +45 Rotten
+  Special Defense: '-'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: ??,??%
+  Experience: '1122'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: jade-bloody-flower__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: jade-bloody-flower__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jade Bloody Flower
+  - ''
+  rows_raw:
+  - - Name
+    - Jade Bloody Flower
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Noisy Rain Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '90'
+    - '3742'
+    - '461'
+    - '282'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '788'
+    - '1140'
+    - '645'
+    - '351'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +45 Rotten
+    - '-'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '1122'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

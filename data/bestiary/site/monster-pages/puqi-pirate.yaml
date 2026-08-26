@@ -1,0 +1,302 @@
+monster_page:
+  id: puqi-pirate
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:puqi-pirate
+    retrieval_url: https://web.archive.org/web/20200119194156id_/http://angels.wikidot.com:80/monster:puqi-pirate
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119194156'
+    archive_snapshot_url: https://web.archive.org/web/20200119194156/http://angels.wikidot.com:80/monster:puqi-pirate
+    archive_original_lookup_url: https://angels.wikidot.com/monster:puqi-pirate
+    source_html_sha256: d4804c216d259cef83acb4b0d33049c9387b3bc9c563b1814d148036f97a8028
+fields_raw:
+  Name: 'Spells:'
+  Puqi Pirate: '-'
+  'Spells:': 'Location:'
+  '-': Shining Coast
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '62'
+  Hit Points: '2396'
+  Rigor: '322'
+  Agility: '198'
+  Attack: '425'
+  Defense: '603'
+  Spell Attack: '426'
+  Spell Defense: '243'
+  Special Attack: Thunder +34 Fire +34
+  Special Defense: '21'
+  Strong Against: Rotten (51)
+  Weak Against: Ice (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (90)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,08%
+  Experience: '697'
+  Gold: 142 - 202 (172)
+item_drop_chance_raw: 0,08%
+drops:
+- drop_id: puqi-pirate__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Cuffs
+  chance_to_drop_raw: 36,99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 36,99%
+    Icon: ''
+    Item: Fire Guard Cuffs
+    Short info: Garment 67 (Dfs +103, Spl Dfs +13, Rig.+62)
+  normalized:
+    chance_to_drop_percent: 36.99
+    quantity: null
+- drop_id: puqi-pirate__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Benison Ring
+  chance_to_drop_raw: 36,99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 36,99%
+    Icon: ''
+    Item: Benison Ring
+    Short info: Trinket Lvl 70 (Dfs +61, Spl Dfs +40, Rig.+31, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 36.99
+    quantity: null
+- drop_id: puqi-pirate__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Puqi Pirate Card
+  chance_to_drop_raw: 17,8%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,8%
+    Icon: ''
+    Item: Puqi Pirate Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 17.8
+    quantity: null
+- drop_id: puqi-pirate__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Cuffs
+  chance_to_drop_raw: 3,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,69%
+    Icon: ''
+    Item: Good Fire Guard Cuffs
+    Short info: Garment 67 (Dfs +134, Spl Dfs +16, Rig.+72)
+  normalized:
+    chance_to_drop_percent: 3.69
+    quantity: null
+- drop_id: puqi-pirate__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Benison Ring
+  chance_to_drop_raw: 3,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,69%
+    Icon: ''
+    Item: Good Benison Ring
+    Short info: Trinket Lvl 70 (Dfs +67, Spl Dfs +47, Rig.+36, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 3.69
+    quantity: null
+- drop_id: puqi-pirate__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Cuffs
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Knight Cuffs
+    Short info: Garment 67 (Dfs +171, Spl Dfs +18, Rig.+82)
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: puqi-pirate__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel's Blessing
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Angel's Blessing
+    Short info: Trinket Lvl 70 (Dfs +82, Spl Dfs +53, Rig.+41, Ag.+27)
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: puqi-pirate__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Emerald
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Clean Emerald
+    Short info: 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Puqi Pirate
+  - ''
+  rows_raw:
+  - - Name
+    - Puqi Pirate
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Shining Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '62'
+    - '2396'
+    - '322'
+    - '198'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '425'
+    - '603'
+    - '426'
+    - '243'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +34 Fire +34
+    - '21'
+    - Rotten (51)
+    - Ice (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (90)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%
+    - '697'
+    - 142 - 202 (172)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 36,99%
+    - ''
+    - Fire Guard Cuffs
+    - Garment 67 (Dfs +103, Spl Dfs +13, Rig.+62)
+  - - 36,99%
+    - ''
+    - Benison Ring
+    - Trinket Lvl 70 (Dfs +61, Spl Dfs +40, Rig.+31, Ag.+21)
+  - - 17,8%
+    - ''
+    - Puqi Pirate Card
+    - 'See: Card Collection'
+  - - 3,69%
+    - ''
+    - Good Fire Guard Cuffs
+    - Garment 67 (Dfs +134, Spl Dfs +16, Rig.+72)
+  - - 3,69%
+    - ''
+    - Good Benison Ring
+    - Trinket Lvl 70 (Dfs +67, Spl Dfs +47, Rig.+36, Ag.+24)
+  - - 0,36%
+    - ''
+    - Knight Cuffs
+    - Garment 67 (Dfs +171, Spl Dfs +18, Rig.+82)
+  - - 0,36%
+    - ''
+    - Angel's Blessing
+    - Trinket Lvl 70 (Dfs +82, Spl Dfs +53, Rig.+41, Ag.+27)
+  - - 0,13%
+    - ''
+    - Clean Emerald
+    - 'Weapon: R.Atk +14, Armor: Rig. +8, Shield: R.Dfs +4'
+  row_count: 9

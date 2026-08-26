@@ -1,0 +1,248 @@
+monster_page:
+  id: eyebasher
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:eyebasher
+    retrieval_url: https://web.archive.org/web/20200223032943id_/http://angels.wikidot.com:80/monster:eyebasher
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200223032943'
+    archive_snapshot_url: https://web.archive.org/web/20200223032943/http://angels.wikidot.com:80/monster:eyebasher
+    archive_original_lookup_url: https://angels.wikidot.com/monster:eyebasher
+    source_html_sha256: c1b7dfa33612f0de913dae92659fe5228ccc44c3d8035cd35a6ad291c84ace08
+fields_raw:
+  Name: 'Spells:'
+  Eyebasher: '-'
+  'Spells:': 'Location:'
+  '-': Season Garden
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '123'
+  Hit Points: '10943'
+  Rigor: '707'
+  Agility: '381'
+  Attack: '1922'
+  Defense: '2196'
+  Spell Attack: '1064'
+  Spell Defense: '483'
+  Special Attack: +83 Ice
+  Special Defense: +103 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,07%
+  Experience: '7386'
+  Gold: 481 - 613 (?)
+item_drop_chance_raw: 0,07%
+drops:
+- drop_id: eyebasher__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wild Beast Helmet
+  chance_to_drop_raw: 48,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,49%
+    Icon: ''
+    Item: Wild Beast Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.49
+    quantity: null
+- drop_id: eyebasher__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wild Beast Boots
+  chance_to_drop_raw: 48,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,49%
+    Icon: ''
+    Item: Wild Beast Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.49
+    quantity: null
+- drop_id: eyebasher__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wild Beast Helmet
+  chance_to_drop_raw: 1,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,21%
+    Icon: ''
+    Item: Good Wild Beast Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: eyebasher__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wild Beast Boots
+  chance_to_drop_raw: 1,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,21%
+    Icon: ''
+    Item: Good Wild Beast Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: eyebasher__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Light Rune Piece
+  chance_to_drop_raw: 0,6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,6%
+    Icon: ''
+    Item: Purple Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Eyebasher
+  - ''
+  rows_raw:
+  - - Name
+    - Eyebasher
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Season Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '123'
+    - '10943'
+    - '707'
+    - '381'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1922'
+    - '2196'
+    - '1064'
+    - '483'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +83 Ice
+    - +103 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,07%
+    - '7386'
+    - 481 - 613 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,49%
+    - ''
+    - Wild Beast Helmet
+    - ITEM NOTES
+  - - 48,49%
+    - ''
+    - Wild Beast Boots
+    - ITEM NOTES
+  - - 1,21%
+    - ''
+    - Good Wild Beast Helmet
+    - ITEM NOTES
+  - - 1,21%
+    - ''
+    - Good Wild Beast Boots
+    - ITEM NOTES
+  - - 0,6%
+    - ''
+    - Purple Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

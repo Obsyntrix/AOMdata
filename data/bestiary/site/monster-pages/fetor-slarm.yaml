@@ -1,0 +1,154 @@
+monster_page:
+  id: fetor-slarm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fetor-slarm
+    retrieval_url: https://web.archive.org/web/20200109171732id_/http://angels.wikidot.com:80/monster:fetor-slarm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171732'
+    archive_snapshot_url: https://web.archive.org/web/20200109171732/http://angels.wikidot.com:80/monster:fetor-slarm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fetor-slarm
+    source_html_sha256: 918d4303467b9bad55b70d029ddd2703f3dfdd439a43b54c94fa7bbfc3bd4175
+fields_raw:
+  Name: 'Spells:'
+  Fetor Slarm: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Long/Short
+  Level: '65'
+  Hit Points: '4736'
+  Rigor: '337'
+  Agility: '207'
+  Attack: '505'
+  Defense: '761'
+  Magic Attack: '471'
+  Magic Defense: '266'
+  Bonus Damage: Rotten +32
+  Strong Against: Rotten(23)
+  Weak Against: Fire(0)
+  Item Drop Chance: 0.05%
+  Experience: '947'
+  Gold: 319 - 489 (?)
+item_drop_chance_raw: 0.05%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fetor Slarm
+  - ''
+  rows_raw:
+  - - Name
+    - Fetor Slarm
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'Yes'
+    - Long/Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '4736'
+    - '337'
+    - '207'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '505'
+    - '761'
+    - '471'
+    - '266'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Rotten +32
+    - Rotten(23)
+    - Fire(0)
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '947'
+    - 319 - 489 (?)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 5
+  headers_raw:
+  - 50,70%
+  - ''
+  - Energy Cuffs
+  - Vesment 67 (Dfs +34, Spl Dfs +40, Rig +62)
+  rows_raw:
+  - - 50,70%
+    - ''
+    - Energy Cuffs
+    - Vesment 67 (Dfs +34, Spl Dfs +40, Rig +62)
+  - - 42,22%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 4,22%
+    - ''
+    - Good Energy Cuffs
+    - Vesment 67 (Dfs +45, Spl Dfs +51, Rig +72)
+  - - 1.41%
+    - ''
+    - 'A.Plan2: Hermit Armor'
+    - Armor 75
+  - - 0.84%
+    - ''
+    - Green Stiff Beetle
+    - Lvl 70 (Dfs +20, Spl Atk +55, Spl Dfs +55, Rig. +12, Ag. +18, Speed +30%)
+  - - 0,41%
+    - ''
+    - Sound Gloves
+    - Vesment 67 (Dfs +57, Spl Dfs +63, Rig +82)
+  - - 0.20%
+    - ''
+    - Clean Emerald
+    - '-'
+  row_count: 7

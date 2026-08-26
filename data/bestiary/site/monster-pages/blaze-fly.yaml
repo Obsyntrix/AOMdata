@@ -1,0 +1,106 @@
+monster_page:
+  id: blaze-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blaze-fly
+    retrieval_url: https://web.archive.org/web/20200109171607id_/http://angels.wikidot.com:80/monster:blaze-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171607'
+    archive_snapshot_url: https://web.archive.org/web/20200109171607/http://angels.wikidot.com:80/monster:blaze-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blaze-fly
+    source_html_sha256: b7a406524bf046494fea9d76a5f31d124984d545d30b390355d44137c69fb300
+fields_raw:
+  Name: 'Spells:'
+  Blaze Fly: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Animal
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Long/Short
+  Level: '68'
+  Hit Points: '4985'
+  Rigor: '352'
+  Agility: '216'
+  Attack: '505'
+  Defense: '761'
+  Magic Attack: '513'
+  Magic Defense: '289'
+  Bonus Damage: Fire +33
+  Strong Against: Rotten(54)
+  Weak Against: Ice(0)
+  Item Drop Chance: '0'
+  Experience: '0'
+  Gold: 0 - 0
+item_drop_chance_raw: '0'
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blaze Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Blaze Fly
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Animal
+    - 'No'
+    - 'Yes'
+    - Long/Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '68'
+    - '4985'
+    - '352'
+    - '216'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '505'
+    - '761'
+    - '513'
+    - '289'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Fire +33
+    - Rotten(54)
+    - Ice(0)
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - '0'
+    - '0'
+    - 0 - 0
+  row_count: 4

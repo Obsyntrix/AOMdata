@@ -1,0 +1,339 @@
+monster_page:
+  id: stone-crocodile
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:stone-crocodile
+    retrieval_url: https://web.archive.org/web/20150720055027id_/http://angels.wikidot.com:80/monster:stone-crocodile
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20150720055027'
+    archive_snapshot_url: https://web.archive.org/web/20150720055027/http://angels.wikidot.com:80/monster:stone-crocodile
+    archive_original_lookup_url: https://angels.wikidot.com/monster:stone-crocodile
+    source_html_sha256: 65b889c489858fd1a892fead942a4ae95f735cf93b0f919f0bb9816ac36096c2
+fields_raw:
+  Name: 'Spells:'
+  Stone Crocodile: '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '76'
+  Hit Points: '3060'
+  Rigor: '391'
+  Agility: '240'
+  Attack: '662'
+  Defense: '840'
+  Spell Attack: '534'
+  Spell Defense: '297'
+  Special Attack: +38 Ice
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very fast (90)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,14%
+  Experience: '918'
+  Gold: 273 - 339
+item_drop_chance_raw: 0,14%
+drops:
+- drop_id: stone-crocodile__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Gown
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Mage Gown
+    Short info: Vestment 79
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: stone-crocodile__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Boots
+  chance_to_drop_raw: 35,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 35,87%
+    Icon: ''
+    Item: Mage Boots
+    Short info: Vestment 76
+  normalized:
+    chance_to_drop_percent: 35.87
+    quantity: null
+- drop_id: stone-crocodile__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 23,91%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 23,91%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 23.91
+    quantity: null
+- drop_id: stone-crocodile__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Boots
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Mage Boots
+    Short info: Vestment 76
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: stone-crocodile__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Gown
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Good Mage Gown
+    Short info: Vestment 79
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: stone-crocodile__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: Clean Purple Gem
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: stone-crocodile__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Mage Boots
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Mage Boots
+    Short info: Sew 75
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: stone-crocodile__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Mage Gown
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Mage Gown
+    Short info: Sew 75
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: stone-crocodile__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Gown
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Spring Gown
+    Short info: Vestment 79
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: stone-crocodile__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Boots
+  chance_to_drop_raw: ??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??%
+    Icon: ''
+    Item: Spring Boots
+    Short info: Vestment 76
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Stone Crocodile
+  - ''
+  rows_raw:
+  - - Name
+    - Stone Crocodile
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '76'
+    - '3060'
+    - '391'
+    - '240'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '662'
+    - '840'
+    - '534'
+    - '297'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +38 Ice
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (90)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,14%
+    - '918'
+    - 273 - 339
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 35,87%
+    - ''
+    - Mage Gown
+    - Vestment 79
+  - - 35,87%
+    - ''
+    - Mage Boots
+    - Vestment 76
+  - - 23,91%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+    - ''
+  - - 1,19%
+    - ''
+    - Good Mage Boots
+    - Vestment 76
+  - - 1,19%
+    - ''
+    - Good Mage Gown
+    - Vestment 79
+  - - 1,19%
+    - ''
+    - Clean Purple Gem
+    - Clean Purple Gem
+  - - 0,39%
+    - ''
+    - D.Plan2:Mage Boots
+    - Sew 75
+  - - 0,39%
+    - ''
+    - D.Plan2:Mage Gown
+    - Sew 75
+  - - ?.?%
+    - ''
+    - Spring Gown
+    - Vestment 79
+  - - ??%
+    - ''
+    - Spring Boots
+    - Vestment 76
+  row_count: 11

@@ -1,0 +1,464 @@
+monster_page:
+  id: dark-fungus
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dark-fungus
+    retrieval_url: https://web.archive.org/web/20200109171637id_/http://angels.wikidot.com:80/monster:dark-fungus
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171637'
+    archive_snapshot_url: https://web.archive.org/web/20200109171637/http://angels.wikidot.com:80/monster:dark-fungus
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dark-fungus
+    source_html_sha256: 660be21aae2cb0387d88c42c4049e2bb74fe11b622fd2fc891438cd7f706f12d
+fields_raw:
+  Name: 'Spells:'
+  Dark Fungus: Poison Hit Single Ranged | Dmg 144-148 HP -3 x5 | 10 sec
+  'Spells:': 'Location:'
+  Poison Hit Single Ranged | Dmg 144-148 HP -3 x5 | 10 sec: Fungus Forest North
+  Type: Plant
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '1161'
+  Rigor: '180'
+  Agility: '117'
+  Attack: '236'
+  Defense: '275'
+  Spell Attack: '221'
+  Spell Defense: '139'
+  Special Attack: Fire +18
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '15'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,72%
+  Experience: '290'
+  Gold: 61 - 95 (73)
+item_drop_chance_raw: 0,72%
+drops:
+- drop_id: dark-fungus__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 41,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 41,39%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 41.39
+    quantity: null
+- drop_id: dark-fungus__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Heavy Iron Shoes
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Heavy Iron Shoes
+    Short info: Garment 31 (Dfs +31, Spl Dfs +6, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: dark-fungus__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Leather Boots
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Leather Boots
+    Short info: Mantle 31 (Dfs +21, Spl Dfs +11, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: dark-fungus__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Rabbi's Shoes
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +10, Spl Dfs +17, Ag.+11)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: dark-fungus__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: dark-fungus__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: dark-fungus__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: dark-fungus__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: dark-fungus__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Heavy Iron Shoes
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Good Risker Heavy Iron Shoes
+    Short info: Garment 31 (Dfs +47, Spl Dfs +8, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: dark-fungus__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Leather Boots
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Risker Leather Boots
+    Short info: Mantle 31 (Dfs +31, Spl Dfs +16, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: dark-fungus__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Rabbi's Shoes
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Good Risker Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +16, Spl Dfs +23, Ag.+14)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: dark-fungus__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: dark-fungus__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: dark-fungus__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: dark-fungus__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beastman's Iron Shoes
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Beastman's Iron Shoes
+    Short info: Garment 31 (Dfs +66, Spl Dfs +10, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: dark-fungus__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Boots
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Ice Boots
+    Short info: Mantle 31 (Dfs +44, Spl Dfs +20, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: dark-fungus__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Rabbi's Shoes
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Magic Rabbi's Shoes
+    Short info: Vestment 31 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dark Fungus
+  - ''
+  rows_raw:
+  - - Name
+    - Dark Fungus
+    - ''
+  - - 'Spells:'
+    - Poison Hit Single Ranged | Dmg 144-148 HP -3 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Fungus Forest North
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '1161'
+    - '180'
+    - '117'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '236'
+    - '275'
+    - '221'
+    - '139'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +18
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '15'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,72%
+    - '290'
+    - 61 - 95 (73)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 41,39%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 8,39%
+    - ''
+    - Risker Heavy Iron Shoes
+    - Garment 31 (Dfs +31, Spl Dfs +6, Ag.+11)
+  - - 8,39%
+    - ''
+    - Risker Leather Boots
+    - Mantle 31 (Dfs +21, Spl Dfs +11, Ag.+11)
+  - - 8,39%
+    - ''
+    - Risker Rabbi's Shoes
+    - Vestment 31 (Dfs +10, Spl Dfs +17, Ag.+11)
+  - - 6,90%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 6,90%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 6,90%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 6,90%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 1,39%
+    - ''
+    - Good Risker Heavy Iron Shoes
+    - Garment 31 (Dfs +47, Spl Dfs +8, Ag.+14)
+  - - 1,39%
+    - ''
+    - Risker Leather Boots
+    - Mantle 31 (Dfs +31, Spl Dfs +16, Ag.+14)
+  - - 1,39%
+    - ''
+    - Good Risker Rabbi's Shoes
+    - Vestment 31 (Dfs +16, Spl Dfs +23, Ag.+14)
+  - - 0,41%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,41%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,41%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,14%
+    - ''
+    - Beastman's Iron Shoes
+    - Garment 31 (Dfs +66, Spl Dfs +10, Ag.+17)
+  - - 0,14%
+    - ''
+    - Ice Boots
+    - Mantle 31 (Dfs +44, Spl Dfs +20, Ag.+17)
+  - - 0,14%
+    - ''
+    - Magic Rabbi's Shoes
+    - Vestment 31 (Dfs +22, Spl Dfs +30, Ag.+17)
+  row_count: 18

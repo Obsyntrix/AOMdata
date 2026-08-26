@@ -1,0 +1,285 @@
+monster_page:
+  id: goat-demon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:goat-demon
+    retrieval_url: https://web.archive.org/web/20191230105957id_/http://angels.wikidot.com:80/monster:goat-demon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105957'
+    archive_snapshot_url: https://web.archive.org/web/20191230105957/http://angels.wikidot.com:80/monster:goat-demon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:goat-demon
+    source_html_sha256: 97882b66a3f1950a53c3d3ac19b6495acd0963003931e1be6221b973fae5c214
+fields_raw:
+  Name: 'Description:'
+  Goat Demon: 'A brutal demon summoned from the training grounds of Evil Lyceum. The stench of old tortures and fresh blood rolls off of their skin. A tip: avoid
+    the horns. - Fireball Hit Single Ranged | Dmg 85-89 - Cure Spell HP restore +105'
+  'Description:': 'Location:'
+  Type: Demon
+  Boss: 'No'
+  Aggressive: Yes (2)
+  Level: '10'
+  Hit Points: '376'
+  Rigor: '62'
+  Agility: '42'
+  Attack: '69'
+  Defense: '78'
+  Spell Attack: '43'
+  Spell Defense: '43'
+  Special Attack: (5%) Thunder +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 2,58%
+  Experience: '94'
+  Gold: 20 - 32 (26)
+item_drop_chance_raw: 2,58%
+drops:
+- drop_id: goat-demon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 66,34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 66,34%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 66.34
+    quantity: null
+- drop_id: goat-demon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Diadem
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Incantation Diadem
+    Short info: Vestment 3 (Dfs +5, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: goat-demon__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Costume
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Heavy Costume
+    Short info: Garment 4 (Dfs +21, Spl Dfs +3)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: goat-demon__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Spear
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Spear
+    Short info: Spear Lvl 5 (Atk 41-49 (45), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: goat-demon__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Diadem
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Fiend Diadem
+    Short info: Vestment 3 (Dfs +10, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: goat-demon__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Leather Jacket
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Fiend Leather Jacket
+    Short info: Garment 4 (Dfs +53, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: goat-demon__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Crystal Spear
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Red Crystal Spear
+    Short info: Spear Lvl 5 (Atk 75-83 (79), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Goat Demon
+  - ''
+  rows_raw:
+  - - Name
+    - Goat Demon
+    - ''
+  - - 'Description:'
+    - 'A brutal demon summoned from the training grounds of Evil Lyceum. The stench of old tortures and fresh blood rolls off of their skin. A tip: avoid the horns.
+      - Fireball Hit Single Ranged | Dmg 85-89 - Cure Spell HP restore +105'
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - Yes (2)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '10'
+    - '376'
+    - '62'
+    - '42'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '69'
+    - '78'
+    - '43'
+    - '43'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Thunder +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,58%
+    - '94'
+    - 20 - 32 (26)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 66,34%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 10,06%
+    - ''
+    - Good Newbie Incantation Diadem
+    - Vestment 3 (Dfs +5, Spl Dfs +5)
+  - - 10,06%
+    - ''
+    - Good Newbie Heavy Costume
+    - Garment 4 (Dfs +21, Spl Dfs +3)
+  - - 10,06%
+    - ''
+    - Good Newbie Spear
+    - Spear Lvl 5 (Atk 41-49 (45), Rig.+4)
+  - - 1,16%
+    - ''
+    - Fiend Diadem
+    - Vestment 3 (Dfs +10, Spl Dfs +15)
+  - - 1,16%
+    - ''
+    - Fiend Leather Jacket
+    - Garment 4 (Dfs +53, Spl Dfs +7)
+  - - 1,16%
+    - ''
+    - Red Crystal Spear
+    - Spear Lvl 5 (Atk 75-83 (79), Rig.+9)
+  row_count: 8

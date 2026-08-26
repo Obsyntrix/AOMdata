@@ -1,0 +1,230 @@
+monster_page:
+  id: white-witch
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:white-witch
+    retrieval_url: https://web.archive.org/web/20200108100151id_/http://angels.wikidot.com:80/monster:white-witch
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108100151'
+    archive_snapshot_url: https://web.archive.org/web/20200108100151/http://angels.wikidot.com:80/monster:white-witch
+    archive_original_lookup_url: https://angels.wikidot.com/monster:white-witch
+    source_html_sha256: d01a1e0dc05a6ffa2ce55cadbf0ff42a5d5542e116357aa528470f933f6efe5f
+fields_raw:
+  Name: 'Spells:'
+  White Witch: '-'
+  'Spells:': 'Location:'
+  '-': Nightmare Palace
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '120'
+  Hit Points: '11252'
+  Rigor: '612'
+  Agility: '372'
+  Attack: '1500'
+  Defense: '1630'
+  Spell Attack: '1758'
+  Spell Defense: '1286'
+  Special Attack: +60 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.1%
+  Experience: '7164'
+  Gold: 464 - 584
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: white-witch__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ghost Cap
+  chance_to_drop_raw: 96.53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.53%
+    Icon: ''
+    Item: Ghost Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.53
+    quantity: null
+- drop_id: white-witch__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodGhost Cap
+  chance_to_drop_raw: 2.25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.25%
+    Icon: ''
+    Item: GoodGhost Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.25
+    quantity: null
+- drop_id: white-witch__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Barcelon Ox
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Barcelon Ox
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: white-witch__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.11%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - White Witch
+  - ''
+  rows_raw:
+  - - Name
+    - White Witch
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Nightmare Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '120'
+    - '11252'
+    - '612'
+    - '372'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1500'
+    - '1630'
+    - '1758'
+    - '1286'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +60 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '7164'
+    - 464 - 584
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.53%
+    - ''
+    - Ghost Cap
+    - ITEM NOTES
+  - - 2.25%
+    - ''
+    - GoodGhost Cap
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Barcelon Ox
+    - ITEM NOTES
+  - - 1.11%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  row_count: 5

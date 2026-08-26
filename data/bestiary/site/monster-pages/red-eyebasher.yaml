@@ -1,0 +1,284 @@
+monster_page:
+  id: red-eyebasher
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-eyebasher
+    retrieval_url: https://web.archive.org/web/20200220220514id_/http://angels.wikidot.com:80/monster:red-eyebasher
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220220514'
+    archive_snapshot_url: https://web.archive.org/web/20200220220514/http://angels.wikidot.com:80/monster:red-eyebasher
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-eyebasher
+    source_html_sha256: 6df27533e7cee4dc75176e7c5dcdc029897dc8e7f81d0dea746f586cdf9c04ac
+fields_raw:
+  Name: 'Spells:'
+  Red Eyebasher: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0,03%
+  Experience: '?'
+  Gold: 1022 - 1300 (?)
+item_drop_chance_raw: 0,03%
+drops:
+- drop_id: red-eyebasher__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ripper Cuffs
+  chance_to_drop_raw: 31,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,95%
+    Icon: ''
+    Item: Ripper Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.95
+    quantity: null
+- drop_id: red-eyebasher__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flexible Boots
+  chance_to_drop_raw: 31,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,95%
+    Icon: ''
+    Item: Flexible Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.95
+    quantity: null
+- drop_id: red-eyebasher__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Mantle
+  chance_to_drop_raw: 31,95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,95%
+    Icon: ''
+    Item: Saint Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.95
+    quantity: null
+- drop_id: red-eyebasher__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Ripper Cuffs
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Ripper Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: red-eyebasher__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Flexible Boots
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Flexible Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: red-eyebasher__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Mantle
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Saint Mantle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: red-eyebasher__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 1,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,49%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.49
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Eyebasher
+  - ''
+  rows_raw:
+  - - Name
+    - Red Eyebasher
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,03%
+    - '?'
+    - 1022 - 1300 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 31,95%
+    - ''
+    - Ripper Cuffs
+    - ITEM NOTES
+  - - 31,95%
+    - ''
+    - Flexible Boots
+    - ITEM NOTES
+  - - 31,95%
+    - ''
+    - Saint Mantle
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Ripper Cuffs
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Flexible Boots
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Saint Mantle
+    - ITEM NOTES
+  - - 1,49%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

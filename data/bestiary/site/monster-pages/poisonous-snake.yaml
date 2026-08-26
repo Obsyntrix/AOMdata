@@ -1,0 +1,332 @@
+monster_page:
+  id: poisonous-snake
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:poisonous-snake
+    retrieval_url: https://web.archive.org/web/20110907155101id_/http://angels.wikidot.com:80/monster:poisonous-snake
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907155101'
+    archive_snapshot_url: https://web.archive.org/web/20110907155101/http://angels.wikidot.com:80/monster:poisonous-snake
+    archive_original_lookup_url: https://angels.wikidot.com/monster:poisonous-snake
+    source_html_sha256: 0c44bf27c5d3322bb03e7a493880e33e8975ff470f383b67688951c0c45c528a
+fields_raw:
+  Name: 'Spells:'
+  Poisonous Snake: '-'
+  'Spells:': 'Location:'
+  '-': Ghost Village
+  Type: '?'
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '95'
+  Hit Points: '86000'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '1314'
+  Defense: '1374'
+  Spell Attack: '1065'
+  Spell Defense: '682'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100%
+  Experience: '174150'
+  Gold: 3514 - 4472
+item_drop_chance_raw: 100%
+drops:
+- drop_id: poisonous-snake__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Bow
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Symbol Bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: poisonous-snake__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Helmet
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Wind Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: poisonous-snake__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Brassart
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Saint Brassart
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: poisonous-snake__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Bracers
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Espial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: poisonous-snake__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coral Manteau
+  chance_to_drop_raw: 0.94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.94%
+    Icon: ''
+    Item: Coral Manteau
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Poisonous Snake
+  - ''
+  rows_raw:
+  - - Name
+    - Poisonous Snake
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ghost Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '86000'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1314'
+    - '1374'
+    - '1065'
+    - '682'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '174150'
+    - 3514 - 4472
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 0.94%
+    - ''
+    - Symbol Bow
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - Wind Helmet
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - Saint Brassart
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - Espial Bracers
+    - ITEM NOTES
+  - - 0.94%
+    - ''
+    - Coral Manteau
+    - ITEM NOTES
+  row_count: 6
+- table_index: 8
+  headers_raw:
+  - 0.04%
+  - ''
+  - Good Symbol Bow
+  - ITEM NOTES
+  rows_raw:
+  - - 0.04%
+    - ''
+    - Good Symbol Bow
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Good Wind Helmet
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Good Saint Brassart
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Good Espial Bracers
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Good Symbol Shield
+    - ITEM NOTES
+  row_count: 5
+- table_index: 9
+  headers_raw:
+  - < 0.01%
+  - ''
+  - Hermes' Breath
+  - ITEM NOTES
+  rows_raw:
+  - - < 0.01%
+    - ''
+    - Hermes' Breath
+    - ITEM NOTES
+  - - < 0.01%
+    - ''
+    - Storm Helmet
+    - ITEM NOTES
+  - - < 0.01%
+    - ''
+    - Holy Guard Cuffs
+    - ITEM NOTES
+  - - < 0.01%
+    - ''
+    - Magnetic Bracers
+    - ITEM NOTES
+  - - < 0.01%
+    - ''
+    - Seagod's Eye
+    - ITEM NOTES
+  row_count: 5
+- table_index: 10
+  headers_raw:
+  - 0.01%
+  - ''
+  - Betel JellyJellyfish Armor
+  - ITEM NOTES
+  rows_raw:
+  - - 0.01%
+    - ''
+    - Betel JellyJellyfish Armor
+    - ITEM NOTES
+  - - 0.07%
+    - ''
+    - W.Plan2:Symbol Bow
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - Clean Ruby
+    - ITEM NOTES
+  - - 94.46%
+    - ''
+    - Great Mars' Fruit
+    - ITEM NOTES
+  - - 0.46%
+    - ''
+    - Poisonous Snake Card
+    - ITEM NOTES
+  row_count: 5

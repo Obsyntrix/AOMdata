@@ -1,0 +1,316 @@
+monster_page:
+  id: rotten-seeker
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rotten-seeker
+    retrieval_url: https://web.archive.org/web/20200109172058id_/http://angels.wikidot.com:80/monster:rotten-seeker
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172058'
+    archive_snapshot_url: https://web.archive.org/web/20200109172058/http://angels.wikidot.com:80/monster:rotten-seeker
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rotten-seeker
+    source_html_sha256: e4e55654364de6fb1c6a165198a8b76c0b5b50f4abf1b1c1aa69079f310f0b3e
+fields_raw:
+  Name: 'Spells:'
+  Rotten Seeker: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Undead
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '55'
+  Hit Points: '3928'
+  Rigor: '287'
+  Agility: '177'
+  Attack: '406'
+  Defense: '605'
+  Magic Attack: '401'
+  Magic Defense: '228'
+  Bonus Damage: Rotten +27
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Item Drop Chance: 0,08%
+  Experience: '786'
+  Gold: 163 - 281 (222)
+item_drop_chance_raw: 0,08%
+drops:
+- drop_id: rotten-seeker__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 58,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,49%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.49
+    quantity: null
+- drop_id: rotten-seeker__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Trident
+  chance_to_drop_raw: 17,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,56%
+    Icon: ''
+    Item: Advanced Trident
+    Short info: Spear Lvl 45 (Atk 177-197 (187), Rig +19)
+  normalized:
+    chance_to_drop_percent: 17.56
+    quantity: null
+- drop_id: rotten-seeker__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Spinning Slingshot
+  chance_to_drop_raw: 17,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,56%
+    Icon: ''
+    Item: Advanced Spinning Slingshot
+    Short info: Bow Lvl 45 (Atk 126-144 (135), Rig +19)
+  normalized:
+    chance_to_drop_percent: 17.56
+    quantity: null
+- drop_id: rotten-seeker__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Trident
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Good Advanced Trident
+    Short info: Spear Lvl 45 (Atk 256-276 (266), Rig +24)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rotten-seeker__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Spinning Slingshot
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Good Advanced Spinning Slingshot
+    Short info: Bow Lvl 45 (Atk 192-210 (201), Rig +24)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rotten-seeker__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Magic Stick
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Good Advanced Magic Stick
+    Short info: Staff Lvl 45 (Atk 198- 24 (211), Spl Atk +128, Rig +12)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rotten-seeker__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Curse Refining
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Curse Refining
+    Short info: Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig +23, Ag +16)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rotten-seeker__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Devil Wings
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Devil Wings
+    Short info: Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max Weight +50)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rotten-seeker__t004r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spear of Yugo
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Spear of Yugo
+    Short info: Spear Lvl 45 (Atk 355-375 (365), Rig +29)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: rotten-seeker__t004r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Splash Slingshot
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Splash Slingshot
+    Short info: Bow Lvl 45 (Atk 277-295 (286), Rig +29)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: rotten-seeker__t004r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiery Staff
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Fiery Staff
+    Short info: Staff Lvl 45 (Atk 385-311 (298), Spl Atk +198, Rig +14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rotten Seeker
+  - ''
+  rows_raw:
+  - - Name
+    - Rotten Seeker
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Undead
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '55'
+    - '3928'
+    - '287'
+    - '177'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '406'
+    - '605'
+    - '401'
+    - '228'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Rotten +27
+    - Nothing
+    - Nothing
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,08%
+    - '786'
+    - 163 - 281 (222)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,49%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 17,56%
+    - ''
+    - Advanced Trident
+    - Spear Lvl 45 (Atk 177-197 (187), Rig +19)
+  - - 17,56%
+    - ''
+    - Advanced Spinning Slingshot
+    - Bow Lvl 45 (Atk 126-144 (135), Rig +19)
+  - - 1,16%
+    - ''
+    - Good Advanced Trident
+    - Spear Lvl 45 (Atk 256-276 (266), Rig +24)
+  - - 1,16%
+    - ''
+    - Good Advanced Spinning Slingshot
+    - Bow Lvl 45 (Atk 192-210 (201), Rig +24)
+  - - 1,16%
+    - ''
+    - Good Advanced Magic Stick
+    - Staff Lvl 45 (Atk 198- 24 (211), Spl Atk +128, Rig +12)
+  - - 1,16%
+    - ''
+    - Curse Refining
+    - Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig +23, Ag +16)
+  - - 1,16%
+    - ''
+    - Devil Wings
+    - Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max Weight +50)
+  - - 0,19%
+    - ''
+    - Spear of Yugo
+    - Spear Lvl 45 (Atk 355-375 (365), Rig +29)
+  - - 0,19%
+    - ''
+    - Splash Slingshot
+    - Bow Lvl 45 (Atk 277-295 (286), Rig +29)
+  - - 0,19%
+    - ''
+    - Fiery Staff
+    - Staff Lvl 45 (Atk 385-311 (298), Spl Atk +198, Rig +14)
+  row_count: 12

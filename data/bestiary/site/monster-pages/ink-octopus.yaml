@@ -1,0 +1,293 @@
+monster_page:
+  id: ink-octopus
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ink-octopus
+    retrieval_url: https://web.archive.org/web/20191228215436id_/http://angels.wikidot.com:80/monster:ink-octopus
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191228215436'
+    archive_snapshot_url: https://web.archive.org/web/20191228215436/http://angels.wikidot.com:80/monster:ink-octopus
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ink-octopus
+    source_html_sha256: ab01c756939b591292773327c98f30cc14093c8dab636bba882e3b0b5d0c2b6a
+fields_raw:
+  Name: 'Description:'
+  Ink Octopus: Its hobby is calligraphy. God knows why.
+  'Description:': 'Location:'
+  Its hobby is calligraphy. God knows why.: Colorful Coral Reefs , Dream Ocean
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '68'
+  Hit Points: '2561'
+  Rigor: '352'
+  Agility: '216'
+  Attack: '484'
+  Defense: '698'
+  Spell Attack: '472'
+  Spell Defense: '266'
+  Special Attack: Ice +37
+  Special Defense: '17'
+  Strong Against: Fire (54)
+  Weak Against: Thunder (0)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '674'
+  Gold: 125 - 189 (157)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: ink-octopus__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Boots
+  chance_to_drop_raw: 38,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 38,39%
+    Icon: ''
+    Item: Energy Boots
+    Short info: Vesment 66 (Dfs +34, Spl Dfs +40, Ag.+22)
+  normalized:
+    chance_to_drop_percent: 38.39
+    quantity: null
+- drop_id: ink-octopus__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Hood
+  chance_to_drop_raw: 38,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 38,39%
+    Icon: ''
+    Item: Energy Hood
+    Short info: Vesment 68 (Dfs +57, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 38.39
+    quantity: null
+- drop_id: ink-octopus__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Octopus Brush Card
+  chance_to_drop_raw: 14,68%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 14,68%
+    Icon: ''
+    Item: Octopus Brush Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 14.68
+    quantity: null
+- drop_id: ink-octopus__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Boots
+  chance_to_drop_raw: 3,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,84%
+    Icon: ''
+    Item: Good Energy Boots
+    Short info: Vesment 66 (Dfs +45, Spl Dfs +51, Ag.+26)
+  normalized:
+    chance_to_drop_percent: 3.84
+    quantity: null
+- drop_id: ink-octopus__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Hood
+  chance_to_drop_raw: 3,84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,84%
+    Icon: ''
+    Item: Good Energy Hood
+    Short info: Vesment 68 (Dfs +75, Spl Dfs +78)
+  normalized:
+    chance_to_drop_percent: 3.84
+    quantity: null
+- drop_id: ink-octopus__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Boots
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Sound Boots
+    Short info: Vesment 66 (Dfs +57, Spl Dfs +63, Ag.+29)
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ink-octopus__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Hood
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Sound Hood
+    Short info: Vesment 68 (Dfs +95, Spl Dfs +98)
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ink-octopus__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Ruby
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Clean Ruby
+    Short info: 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ink Octopus
+  - ''
+  rows_raw:
+  - - Name
+    - Ink Octopus
+    - ''
+  - - 'Description:'
+    - Its hobby is calligraphy. God knows why.
+    - ''
+  - - 'Location:'
+    - Colorful Coral Reefs , Dream Ocean
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '68'
+    - '2561'
+    - '352'
+    - '216'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '484'
+    - '698'
+    - '472'
+    - '266'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +37
+    - '17'
+    - Fire (54)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Critical
+  - Stamina
+  - Soul
+  rows_raw:
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '674'
+    - 125 - 189 (157)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 38,39%
+    - ''
+    - Energy Boots
+    - Vesment 66 (Dfs +34, Spl Dfs +40, Ag.+22)
+  - - 38,39%
+    - ''
+    - Energy Hood
+    - Vesment 68 (Dfs +57, Spl Dfs +60)
+  - - 14,68%
+    - ''
+    - Octopus Brush Card
+    - 'See: Card Collection'
+  - - 3,84%
+    - ''
+    - Good Energy Boots
+    - Vesment 66 (Dfs +45, Spl Dfs +51, Ag.+26)
+  - - 3,84%
+    - ''
+    - Good Energy Hood
+    - Vesment 68 (Dfs +75, Spl Dfs +78)
+  - - 0,38%
+    - ''
+    - Sound Boots
+    - Vesment 66 (Dfs +57, Spl Dfs +63, Ag.+29)
+  - - 0,38%
+    - ''
+    - Sound Hood
+    - Vesment 68 (Dfs +95, Spl Dfs +98)
+  - - 0,11%
+    - ''
+    - Clean Ruby
+    - 'Weapon: F.Atk +14, Armor: Max.Hp +59, Shield: F.Dfs +4'
+  row_count: 9

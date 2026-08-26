@@ -1,0 +1,320 @@
+monster_page:
+  id: grass-goblin
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:grass-goblin
+    retrieval_url: https://web.archive.org/web/20170928060055id_/http://angels.wikidot.com:80/monster:grass-goblin
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170928060055'
+    archive_snapshot_url: https://web.archive.org/web/20170928060055/http://angels.wikidot.com:80/monster:grass-goblin
+    archive_original_lookup_url: https://angels.wikidot.com/monster:grass-goblin
+    source_html_sha256: f4718f0c27e51554870820d5b535588b8636b33765a0b67beabdff1c1951f196
+fields_raw:
+  Name: 'Spells:'
+  Grass Goblin: '-'
+  'Spells:': 'Location:'
+  '-': Ancient Front
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '108'
+  Hit Points: '9330'
+  Rigor: '522'
+  Agility: '336'
+  Attack: '1460'
+  Defense: '1644'
+  Spell Attack: '1481'
+  Spell Defense: '635'
+  Special Attack: +54 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.08%
+  Experience: '5793'
+  Gold: 408 - 524
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: grass-goblin__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gnosis Judge
+  chance_to_drop_raw: 43.82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 43.82%
+    Icon: ''
+    Item: Gnosis Judge
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 43.82
+    quantity: null
+- drop_id: grass-goblin__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Battle Horn Boots
+  chance_to_drop_raw: 43.82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 43.82%
+    Icon: ''
+    Item: Battle Horn Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 43.82
+    quantity: null
+- drop_id: grass-goblin__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodGnosis Judge
+  chance_to_drop_raw: 1.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.15%
+    Icon: ''
+    Item: GoodGnosis Judge
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.15
+    quantity: null
+- drop_id: grass-goblin__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodBattle Horn Boots
+  chance_to_drop_raw: 1.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.15%
+    Icon: ''
+    Item: GoodBattle Horn Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.15
+    quantity: null
+- drop_id: grass-goblin__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Camael's Judgment
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Camael's Judgment
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: grass-goblin__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Steel Horn Boots
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Steel Horn Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: grass-goblin__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yappy Duck Bathtub
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Yappy Duck Bathtub
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: grass-goblin__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 1.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.14%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.14
+    quantity: null
+- drop_id: grass-goblin__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Grass Goblin Card
+  chance_to_drop_raw: 8.7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8.7%
+    Icon: ''
+    Item: Grass Goblin Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 8.7
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Grass Goblin
+  - ''
+  rows_raw:
+  - - Name
+    - Grass Goblin
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ancient Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '108'
+    - '9330'
+    - '522'
+    - '336'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1460'
+    - '1644'
+    - '1481'
+    - '635'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +54 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '5793'
+    - 408 - 524
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 43.82%
+    - ''
+    - Gnosis Judge
+    - ITEM NOTES
+  - - 43.82%
+    - ''
+    - Battle Horn Boots
+    - ITEM NOTES
+  - - 1.15%
+    - ''
+    - GoodGnosis Judge
+    - ITEM NOTES
+  - - 1.15%
+    - ''
+    - GoodBattle Horn Boots
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Camael's Judgment
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Steel Horn Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Yappy Duck Bathtub
+    - ITEM NOTES
+  - - 1.14%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  - - 8.7%
+    - ''
+    - Grass Goblin Card
+    - ITEM NOTES
+  row_count: 10

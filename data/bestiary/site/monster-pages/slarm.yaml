@@ -1,0 +1,195 @@
+monster_page:
+  id: slarm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:slarm
+    retrieval_url: https://web.archive.org/web/20200109172113id_/http://angels.wikidot.com:80/monster:slarm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172113'
+    archive_snapshot_url: https://web.archive.org/web/20200109172113/http://angels.wikidot.com:80/monster:slarm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:slarm
+    source_html_sha256: b47e2f9fa2127d3401959e7fb1e6f8d5b56c17c6a4006afd9a1ce20a88cbff46
+fields_raw:
+  'Name:': 'Description:'
+  Slarm: A translucent green ball of goo. It would be difficult to tell that it was alive at all if not for it's habit of staring at you with those tiny eyes. It
+    has a bad attitude and often tries to eat people that provoke it.
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '1'
+  Hit Points: '118'
+  Rigor: '17'
+  Agility: '15'
+  Attack: '28'
+  Defense: '25'
+  Spell Attack: '9'
+  Spell Defense: '13'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Very Fast (90)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 4,00%
+  Experience: '43'
+  Gold: 7 - 9 (8)
+item_drop_chance_raw: 4,00%
+drops:
+- drop_id: slarm__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Biscuits
+  chance_to_drop_raw: 50,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 50,00%
+    Icon: ''
+    Item: Low-level Biscuits
+    Short info: Food (+50 HP)
+  normalized:
+    chance_to_drop_percent: 50.0
+    quantity: null
+- drop_id: slarm__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Low-level Magic Grass
+  chance_to_drop_raw: 50,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 50,00%
+    Icon: ''
+    Item: Low-level Magic Grass
+    Short info: Food (+40 MP)
+  normalized:
+    chance_to_drop_percent: 50.0
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - 'Name:'
+  - Slarm
+  - ''
+  rows_raw:
+  - - 'Name:'
+    - Slarm
+    - ''
+  - - 'Description:'
+    - A translucent green ball of goo. It would be difficult to tell that it was alive at all if not for it's habit of staring at you with those tiny eyes. It has
+      a bad attitude and often tries to eat people that provoke it.
+    - ''
+  - - 'Location:'
+    - Angel Lyceum , East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '1'
+    - '118'
+    - '17'
+    - '15'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '28'
+    - '25'
+    - '9'
+    - '13'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 4,00%
+    - '43'
+    - 7 - 9 (8)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 50,00%
+    - ''
+    - Low-level Biscuits
+    - Food (+50 HP)
+  - - 50,00%
+    - ''
+    - Low-level Magic Grass
+    - Food (+40 MP)
+  row_count: 3

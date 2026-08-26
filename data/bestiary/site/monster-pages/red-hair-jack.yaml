@@ -1,0 +1,248 @@
+monster_page:
+  id: red-hair-jack
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-hair-jack
+    retrieval_url: https://web.archive.org/web/20110907094754id_/http://angels.wikidot.com:80/monster:red-hair-jack
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907094754'
+    archive_snapshot_url: https://web.archive.org/web/20110907094754/http://angels.wikidot.com:80/monster:red-hair-jack
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-hair-jack
+    source_html_sha256: 28bc2f6a634a9c8a6ba52752b51ece2264ec37b37bb7fe4d0f617cfe0eb0e1fb
+fields_raw:
+  Name: 'Spells:'
+  Red-hair Jack: '-'
+  'Spells:': 'Location:'
+  '-': Hermit Wetland
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 351 - 447
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: red-hair-jack__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Boots
+  chance_to_drop_raw: 93.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.37%
+    Icon: ''
+    Item: Espial Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.37
+    quantity: null
+- drop_id: red-hair-jack__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEspial Boots
+  chance_to_drop_raw: 2.34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.34%
+    Icon: ''
+    Item: GoodEspial Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.34
+    quantity: null
+- drop_id: red-hair-jack__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Boots
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Magnetic Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: red-hair-jack__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Boots
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: D.Plan2:Espial Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: red-hair-jack__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Sapphire
+  chance_to_drop_raw: 3.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.43%
+    Icon: ''
+    Item: Flawless Sapphire
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.43
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red-hair Jack
+  - ''
+  rows_raw:
+  - - Name
+    - Red-hair Jack
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Hermit Wetland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 351 - 447
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.37%
+    - ''
+    - Espial Boots
+    - ITEM NOTES
+  - - 2.34%
+    - ''
+    - GoodEspial Boots
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Magnetic Boots
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - D.Plan2:Espial Boots
+    - ITEM NOTES
+  - - 3.43%
+    - ''
+    - Flawless Sapphire
+    - ITEM NOTES
+  row_count: 6

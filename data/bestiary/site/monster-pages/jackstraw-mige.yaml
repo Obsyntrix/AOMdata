@@ -1,0 +1,520 @@
+monster_page:
+  id: jackstraw-mige
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jackstraw-mige
+    retrieval_url: https://web.archive.org/web/20191230110138id_/http://angels.wikidot.com:80/monster:jackstraw-mige
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110138'
+    archive_snapshot_url: https://web.archive.org/web/20191230110138/http://angels.wikidot.com:80/monster:jackstraw-mige
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jackstraw-mige
+    source_html_sha256: 3ab9d8aa5f0b6efab3f4caaf1520557b2d4fe6946c45b4175497b6524dec491a
+fields_raw:
+  Name: 'Stances:'
+  Jackstraw Mige: Basic Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179
+  'Stances:': 'Location:'
+  Basic Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179: Spike Farm
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '17'
+  Hit Points: '6524'
+  Rigor: '122'
+  Agility: '78'
+  Attack: '314'
+  Defense: '162'
+  Spell Attack: '126'
+  Spell Defense: '127'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (90)
+  Attack Speed: Moderate (70)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 100,00%
+  Experience: '642'
+  Gold: 348 - 522 (435)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: jackstraw-mige__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fruit of Hercules
+  chance_to_drop_raw: 18,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 18,00%
+    Icon: ''
+    Item: Fruit of Hercules
+    Short info: Food (Atk +15 | 10 min)
+  normalized:
+    chance_to_drop_percent: 18.0
+    quantity: null
+- drop_id: jackstraw-mige__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 15,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,80%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 15.8
+    quantity: null
+- drop_id: jackstraw-mige__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Heavy Boots
+  chance_to_drop_raw: 13,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,74%
+    Icon: ''
+    Item: Basic Heavy Boots
+    Short info: Garment 11 (Dfs +7, Spl Dfs +1, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 13.74
+    quantity: null
+- drop_id: jackstraw-mige__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Legwrap Sandals
+  chance_to_drop_raw: 13,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,74%
+    Icon: ''
+    Item: Basic Legwrap Sandals
+    Short info: Mantle 11 (Dfs +5, Spl Dfs +2, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 13.74
+    quantity: null
+- drop_id: jackstraw-mige__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Sandals
+  chance_to_drop_raw: 13,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,74%
+    Icon: ''
+    Item: Basic Sandals
+    Short info: Vestment 11 (Dfs +2, Spl Dfs +3, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 13.74
+    quantity: null
+- drop_id: jackstraw-mige__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Heavy Boots
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Heavy Boots
+    Short info: Garment 11 (Dfs +18, Spl Dfs +3, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Legwrap Sandals
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Legwrap Sandals
+    Short info: Mantle 11 (Dfs +12, Spl Dfs +7, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Sandals
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Sandals
+    Short info: Vestment 11 (Dfs +6, Spl Dfs +10, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Heavy Wristlet
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Heavy Wristlet
+    Short info: Garment 12 (Dfs +18, Spl Dfs +3, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Light Gloves
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Light Gloves
+    Short info: Mantle 12 (Dfs +12, Spl Dfs +7, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Jute Gloves
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Good Basic Jute Gloves
+    Short info: Vestment 12 (Dfs +6, Spl Dfs +10, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mege's Straw Hat
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Mege's Straw Hat
+    Short info: Lvl 15 (Dfs +30)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pirate Flag
+  chance_to_drop_raw: 2,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,17%
+    Icon: ''
+    Item: Pirate Flag
+    Short info: Lvl 15 (Dfs +17, Spl Dfs +9, Rig.+8, Ag.+6)
+  normalized:
+    chance_to_drop_percent: 2.17
+    quantity: null
+- drop_id: jackstraw-mige__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby Piece
+  chance_to_drop_raw: 1,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,90%
+    Icon: ''
+    Item: Ruby Piece
+    Short info: 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 1.9
+    quantity: null
+- drop_id: jackstraw-mige__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem Piece
+  chance_to_drop_raw: 1,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,90%
+    Icon: ''
+    Item: Orange Gem Piece
+    Short info: 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  normalized:
+    chance_to_drop_percent: 1.9
+    quantity: null
+- drop_id: jackstraw-mige__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem Piece
+  chance_to_drop_raw: 1,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,90%
+    Icon: ''
+    Item: Yellow Gem Piece
+    Short info: 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 1.9
+    quantity: null
+- drop_id: jackstraw-mige__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Iron Helmet
+  chance_to_drop_raw: 0,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,63%
+    Icon: ''
+    Item: Savage Iron Helmet
+    Short info: Garment 13 (Dfs +51, Spl Dfs +8)
+  normalized:
+    chance_to_drop_percent: 0.63
+    quantity: null
+- drop_id: jackstraw-mige__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Hood
+  chance_to_drop_raw: 0,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,63%
+    Icon: ''
+    Item: Savage Hood
+    Short info: Mantle 13 (Dfs +34, Spl Dfs +17)
+  normalized:
+    chance_to_drop_percent: 0.63
+    quantity: null
+- drop_id: jackstraw-mige__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angelos Hood
+  chance_to_drop_raw: 0,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,63%
+    Icon: ''
+    Item: Angelos Hood
+    Short info: Vestment 13 (Dfs +17, Spl Dfs +25)
+  normalized:
+    chance_to_drop_percent: 0.63
+    quantity: null
+- drop_id: jackstraw-mige__t007r0021
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Copper Monster Badge
+  chance_to_drop_raw: 2 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2 x
+    Icon: ''
+    Item: Copper Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jackstraw Mige
+  - ''
+  rows_raw:
+  - - Name
+    - Jackstraw Mige
+    - ''
+  - - 'Stances:'
+    - Basic Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179
+    - ''
+  - - 'Location:'
+    - Spike Farm
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '17'
+    - '6524'
+    - '122'
+    - '78'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '314'
+    - '162'
+    - '126'
+    - '127'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (90)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '642'
+    - 348 - 522 (435)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 18,00%
+    - ''
+    - Fruit of Hercules
+    - Food (Atk +15 | 10 min)
+  - - 15,80%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 13,74%
+    - ''
+    - Basic Heavy Boots
+    - Garment 11 (Dfs +7, Spl Dfs +1, Ag.+4)
+  - - 13,74%
+    - ''
+    - Basic Legwrap Sandals
+    - Mantle 11 (Dfs +5, Spl Dfs +2, Ag.+4)
+  - - 13,74%
+    - ''
+    - Basic Sandals
+    - Vestment 11 (Dfs +2, Spl Dfs +3, Ag.+4)
+  - - 2,17%
+    - ''
+    - Good Basic Heavy Boots
+    - Garment 11 (Dfs +18, Spl Dfs +3, Ag.+7)
+  - - 2,17%
+    - ''
+    - Good Basic Legwrap Sandals
+    - Mantle 11 (Dfs +12, Spl Dfs +7, Ag.+7)
+  - - 2,17%
+    - ''
+    - Good Basic Sandals
+    - Vestment 11 (Dfs +6, Spl Dfs +10, Ag.+7)
+  - - 2,17%
+    - ''
+    - Good Basic Heavy Wristlet
+    - Garment 12 (Dfs +18, Spl Dfs +3, Rig.+17)
+  - - 2,17%
+    - ''
+    - Good Basic Light Gloves
+    - Mantle 12 (Dfs +12, Spl Dfs +7, Rig.+17)
+  - - 2,17%
+    - ''
+    - Good Basic Jute Gloves
+    - Vestment 12 (Dfs +6, Spl Dfs +10, Rig.+17)
+  - - 2,17%
+    - ''
+    - Mege's Straw Hat
+    - Lvl 15 (Dfs +30)
+  - - 2,17%
+    - ''
+    - Pirate Flag
+    - Lvl 15 (Dfs +17, Spl Dfs +9, Rig.+8, Ag.+6)
+  - - 1,90%
+    - ''
+    - Ruby Piece
+    - 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  - - 1,90%
+    - ''
+    - Orange Gem Piece
+    - 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  - - 1,90%
+    - ''
+    - Yellow Gem Piece
+    - 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  - - 0,63%
+    - ''
+    - Savage Iron Helmet
+    - Garment 13 (Dfs +51, Spl Dfs +8)
+  - - 0,63%
+    - ''
+    - Savage Hood
+    - Mantle 13 (Dfs +34, Spl Dfs +17)
+  - - 0,63%
+    - ''
+    - Angelos Hood
+    - Vestment 13 (Dfs +17, Spl Dfs +25)
+  - - Badges
+    - ''
+  - - 2 x
+    - ''
+    - Copper Monster Badge
+    - ''
+  row_count: 22

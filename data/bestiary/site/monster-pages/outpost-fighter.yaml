@@ -1,0 +1,392 @@
+monster_page:
+  id: outpost-fighter
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:outpost-fighter
+    retrieval_url: https://web.archive.org/web/20100810033554id_/http://angels.wikidot.com:80/monster:outpost-fighter
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100810033554'
+    archive_snapshot_url: https://web.archive.org/web/20100810033554/http://angels.wikidot.com:80/monster:outpost-fighter
+    archive_original_lookup_url: https://angels.wikidot.com/monster:outpost-fighter
+    source_html_sha256: 0ae769b39a8a96e0dad247a23a649246f8855ca7311a017410431430b430acc4
+fields_raw:
+  Name: 'Spells:'
+  Outpost Fighter: '-'
+  'Spells:': 'Location:'
+  '-': Troop Outpost
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100%
+  Experience: '?'
+  Gold: 3989 - 5077
+item_drop_chance_raw: 100%
+drops:
+- drop_id: outpost-fighter__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Battle Horn Helmet
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: Battle Horn Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: outpost-fighter__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dark Eagle Cuffs
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: Dark Eagle Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: outpost-fighter__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Feather Bracelet
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: Feather Bracelet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: outpost-fighter__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodBattle Horn Helmet
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: GoodBattle Horn Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: outpost-fighter__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodDark Eagle Cuffs
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: GoodDark Eagle Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: outpost-fighter__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodFeather Bracelet
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: GoodFeather Bracelet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: outpost-fighter__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Steel Horn Helmet
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: Steel Horn Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: outpost-fighter__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Eagle Cuffs
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: Desert Eagle Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: outpost-fighter__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Water Elf's Dance
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: Water Elf's Dance
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: outpost-fighter__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Bird
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Blue Bird
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: outpost-fighter__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: outpost-fighter__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: outpost-fighter__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 95.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95.57%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 95.57
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Outpost Fighter
+  - ''
+  rows_raw:
+  - - Name
+    - Outpost Fighter
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Troop Outpost
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '?'
+    - 3989 - 5077
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 1.2%
+    - ''
+    - Battle Horn Helmet
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - Dark Eagle Cuffs
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - Feather Bracelet
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - GoodBattle Horn Helmet
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - GoodDark Eagle Cuffs
+    - ITEM NOTES
+  - - 0.06%
+    - ''
+    - GoodFeather Bracelet
+    - ITEM NOTES
+  - - <0.01%
+    - ''
+    - Steel Horn Helmet
+    - ITEM NOTES
+  - - <0.01%
+    - ''
+    - Desert Eagle Cuffs
+    - ITEM NOTES
+  - - <0.01%
+    - ''
+    - Water Elf's Dance
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Blue Bird
+    - ITEM NOTES
+  - - 0.08%
+    - ''
+    - Flawless Yellow Gem
+    - ITEM NOTES
+  - - 0.54%
+    - ''
+    - Pestle
+    - ITEM NOTES
+  - - 95.57%
+    - ''
+    - Effective Mighty Fruit
+    - ITEM NOTES
+  row_count: 14

@@ -1,0 +1,146 @@
+monster_page:
+  id: stained-robot
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:stained-robot
+    retrieval_url: https://web.archive.org/web/20200109172143id_/http://angels.wikidot.com:80/monster:stained-robot
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172143'
+    archive_snapshot_url: https://web.archive.org/web/20200109172143/http://angels.wikidot.com:80/monster:stained-robot
+    archive_original_lookup_url: https://angels.wikidot.com/monster:stained-robot
+    source_html_sha256: 987058905ec1c7bbd0be82643b7260d11d3506861000446620c77d9dddbac2e8
+fields_raw:
+  Name: 'Stances:'
+  Stained Robot: Strong Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179
+  'Stances:': 'Location:'
+  Strong Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179: Wishing Tear
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '17'
+  Hit Points: '6524'
+  Rigor: '122'
+  Agility: '78'
+  Attack: '314'
+  Defense: '193'
+  Magic Attack: '126'
+  Magic Defense: '127'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (90)
+  Attack Speed: Very Fast (100)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 0%
+  Experience: '430'
+  Gold: 227 - 401 (314)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Stained Robot
+  - ''
+  rows_raw:
+  - - Name
+    - Stained Robot
+    - ''
+  - - 'Stances:'
+    - Strong Beat Single Short-R. | Power 254 - Shaking Beat Self AOE | Power 179
+    - ''
+  - - 'Location:'
+    - Wishing Tear
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '17'
+    - '6524'
+    - '122'
+    - '78'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '314'
+    - '193'
+    - '126'
+    - '127'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (90)
+    - Very Fast (100)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '430'
+    - 227 - 401 (314)
+  row_count: 2

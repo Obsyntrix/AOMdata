@@ -1,0 +1,428 @@
+monster_page:
+  id: ancient-soldier
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ancient-soldier
+    retrieval_url: https://web.archive.org/web/20200109171547id_/http://angels.wikidot.com:80/monster:ancient-soldier
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171547'
+    archive_snapshot_url: https://web.archive.org/web/20200109171547/http://angels.wikidot.com:80/monster:ancient-soldier
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ancient-soldier
+    source_html_sha256: 364650abf984004de658b54dec6435427d41c49cc5e27def65766de1a47b0291
+fields_raw:
+  Name: 'Spells:'
+  Ancient Soldier: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Graveyard
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '40'
+  Hit Points: '1339'
+  Rigor: '204'
+  Agility: '132'
+  Attack: '256'
+  Defense: '325'
+  Spell Attack: '282'
+  Spell Defense: '159'
+  Special Attack: Fire +20
+  Special Defense: '10'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,94%
+  Experience: '334'
+  Gold: 48 - 88 (75)
+item_drop_chance_raw: 0,94%
+drops:
+- drop_id: ancient-soldier__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 41,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 41,46%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 41.46
+    quantity: null
+- drop_id: ancient-soldier__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Spear
+  chance_to_drop_raw: 12,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,48%
+    Icon: ''
+    Item: Risker Spear
+    Short info: Spear Lvl 35 (Atk 117-135 (126), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 12.48
+    quantity: null
+- drop_id: ancient-soldier__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Round Shield
+  chance_to_drop_raw: 12,48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,48%
+    Icon: ''
+    Item: Risker Round Shield
+    Short info: Shield Lvl 35 (Dfs +51, Spl Dfs +32)
+  normalized:
+    chance_to_drop_percent: 12.48
+    quantity: null
+- drop_id: ancient-soldier__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ancient Soldier Card
+  chance_to_drop_raw: 6,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,38%
+    Icon: ''
+    Item: Ancient Soldier Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 6.38
+    quantity: null
+- drop_id: ancient-soldier__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 5,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,32%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 5.32
+    quantity: null
+- drop_id: ancient-soldier__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 5,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,32%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 5.32
+    quantity: null
+- drop_id: ancient-soldier__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 5,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,32%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 5.32
+    quantity: null
+- drop_id: ancient-soldier__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 5,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,32%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 5.32
+    quantity: null
+- drop_id: ancient-soldier__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Spear
+  chance_to_drop_raw: 2,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,07%
+    Icon: ''
+    Item: Good Risker Spear
+    Short info: Spear Lvl 35 (Atk 178 - 196 (187), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 2.07
+    quantity: null
+- drop_id: ancient-soldier__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Round Shield
+  chance_to_drop_raw: 2,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,07%
+    Icon: ''
+    Item: Good Risker Round Shield
+    Short info: Shield Lvl 35 (Dfs +78, Spl Dfs +43)
+  normalized:
+    chance_to_drop_percent: 2.07
+    quantity: null
+- drop_id: ancient-soldier__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,63%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.63
+    quantity: null
+- drop_id: ancient-soldier__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,63%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Spl Dfs +4, Shield: Spl Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.63
+    quantity: null
+- drop_id: ancient-soldier__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spear of Earth
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Spear of Earth
+    Short info: Spear Lvl 35 (Atk 257 - 275 (266), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: ancient-soldier__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Turtle Round Shield
+  chance_to_drop_raw: 0,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,21%
+    Icon: ''
+    Item: Turtle Round Shield
+    Short info: Shield Lvl 35 (Dfs +110, Spl Dfs +54)
+  normalized:
+    chance_to_drop_percent: 0.21
+    quantity: null
+- drop_id: ancient-soldier__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ancient Soldier
+  - ''
+  rows_raw:
+  - - Name
+    - Ancient Soldier
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Graveyard
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '40'
+    - '1339'
+    - '204'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '256'
+    - '325'
+    - '282'
+    - '159'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +20
+    - '10'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,94%
+    - '334'
+    - 48 - 88 (75)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 41,46%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 12,48%
+    - ''
+    - Risker Spear
+    - Spear Lvl 35 (Atk 117-135 (126), Rig.+14)
+  - - 12,48%
+    - ''
+    - Risker Round Shield
+    - Shield Lvl 35 (Dfs +51, Spl Dfs +32)
+  - - 6,38%
+    - ''
+    - Ancient Soldier Card
+    - 'See: Card Collection'
+  - - 5,32%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 5,32%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 5,32%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 5,32%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 2,07%
+    - ''
+    - Good Risker Spear
+    - Spear Lvl 35 (Atk 178 - 196 (187), Rig.+19)
+  - - 2,07%
+    - ''
+    - Good Risker Round Shield
+    - Shield Lvl 35 (Dfs +78, Spl Dfs +43)
+  - - 0,63%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  - - 0,63%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Spl Dfs +4, Shield: Spl Dfs +4'
+  - - 0,21%
+    - ''
+    - Spear of Earth
+    - Spear Lvl 35 (Atk 257 - 275 (266), Rig.+24)
+  - - 0,21%
+    - ''
+    - Turtle Round Shield
+    - Shield Lvl 35 (Dfs +110, Spl Dfs +54)
+  - - 0,12%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  row_count: 16

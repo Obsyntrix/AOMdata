@@ -1,0 +1,248 @@
+monster_page:
+  id: linberd-knight
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:linberd-knight
+    retrieval_url: https://web.archive.org/web/20200119203156id_/http://angels.wikidot.com:80/monster:linberd-knight
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119203156'
+    archive_snapshot_url: https://web.archive.org/web/20200119203156/http://angels.wikidot.com:80/monster:linberd-knight
+    archive_original_lookup_url: https://angels.wikidot.com/monster:linberd-knight
+    source_html_sha256: 4444af4848e666d92326526bdb7ef44a5d85b605f1f8fde7cb3ec28d1513795a
+fields_raw:
+  Name: 'Description:'
+  Linberd Knight: A hunter in the sea, it likes torturing its preys before eating them.
+  'Description:': 'Location:'
+  A hunter in the sea, it likes torturing its preys before eating them.: Evil Ship
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '98'
+  Hit Points: '8040'
+  Rigor: '527'
+  Agility: '321'
+  Attack: '1813'
+  Defense: '1416'
+  Spell Attack: '716'
+  Spell Defense: '400'
+  Special Attack: Thunder +52
+  Special Defense: '39'
+  Strong Against: Ice (69)
+  Weak Against: Rotten (9)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '2089'
+  Gold: 897 - 1099 (998)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: linberd-knight__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armor
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Wind Armor
+    Short info: Mantle 99 (Dfs +432, Spl Dfs +74)
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: linberd-knight__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Armor
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Wind Armor
+    Short info: Mantle 99 (Dfs +538, Spl Dfs +83)
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: linberd-knight__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: linberd-knight__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Armor
+  chance_to_drop_raw: 0,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,79%
+    Icon: ''
+    Item: A.Plan2:Wind Armor
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: linberd-knight__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rade Fast Seahorse
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Rade Fast Seahorse
+    Short info: Ride lv100
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Linberd Knight
+  - ''
+  rows_raw:
+  - - Name
+    - Linberd Knight
+    - ''
+  - - 'Description:'
+    - A hunter in the sea, it likes torturing its preys before eating them.
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '98'
+    - '8040'
+    - '527'
+    - '321'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1813'
+    - '1416'
+    - '716'
+    - '400'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +52
+    - '39'
+    - Ice (69)
+    - Rotten (9)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '2089'
+    - 897 - 1099 (998)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Wind Armor
+    - Mantle 99 (Dfs +432, Spl Dfs +74)
+  - - 2,39%
+    - ''
+    - Good Wind Armor
+    - Mantle 99 (Dfs +538, Spl Dfs +83)
+  - - 1,19%
+    - ''
+    - Flawless Yellow Gem
+    - 'Weapon: T.Atk +24, Armor: Ag +10, Shield: T.Dfs +5'
+  - - 0,79%
+    - ''
+    - A.Plan2:Wind Armor
+    - Armor 95
+  - - 0,24%
+    - ''
+    - Rade Fast Seahorse
+    - Ride lv100
+  row_count: 6

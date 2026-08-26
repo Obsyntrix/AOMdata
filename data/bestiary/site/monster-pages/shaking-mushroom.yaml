@@ -1,0 +1,248 @@
+monster_page:
+  id: shaking-mushroom
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:shaking-mushroom
+    retrieval_url: https://web.archive.org/web/20110907091957id_/http://angels.wikidot.com:80/monster:shaking-mushroom
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907091957'
+    archive_snapshot_url: https://web.archive.org/web/20110907091957/http://angels.wikidot.com:80/monster:shaking-mushroom
+    archive_original_lookup_url: https://angels.wikidot.com/monster:shaking-mushroom
+    source_html_sha256: 4986720537510dde7fe9d2c8267e153e268dfdf93c89a845b6ba3decc6e44d82
+fields_raw:
+  Name: 'Spells:'
+  Shaking Mushroom: '-'
+  'Spells:': 'Location:'
+  '-': Vine Front
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.1%
+  Experience: '?'
+  Gold: 317 - 403
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: shaking-mushroom__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armguards
+  chance_to_drop_raw: 94.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.93%
+    Icon: ''
+    Item: Swiftness Armguards
+    Short info: Mantle
+  normalized:
+    chance_to_drop_percent: 94.93
+    quantity: null
+- drop_id: shaking-mushroom__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSwiftness Armguards
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: GoodSwiftness Armguards
+    Short info: Mantle
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: shaking-mushroom__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Armguards
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Walker Armguards
+    Short info: Mantle
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: shaking-mushroom__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armguards
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: A.Plan2:Swift Armguards
+    Short info: Armorsmith Plan
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: shaking-mushroom__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Purple Gem
+  chance_to_drop_raw: 1.8%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.8%
+    Icon: ''
+    Item: Flawless Purple Gem
+    Short info: Can be set in the equipment which has a hole cut to increase the power. Weapon:Spell Attack +30.Armor:Spell Defense +7.Shield:Spell Defense +7 Lvl80
+  normalized:
+    chance_to_drop_percent: 1.8
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Shaking Mushroom
+  - ''
+  rows_raw:
+  - - Name
+    - Shaking Mushroom
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Vine Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '?'
+    - 317 - 403
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.93%
+    - ''
+    - Swiftness Armguards
+    - Mantle
+  - - 2.37%
+    - ''
+    - GoodSwiftness Armguards
+    - Mantle
+  - - 0.11%
+    - ''
+    - Walker Armguards
+    - Mantle
+  - - 0.79%
+    - ''
+    - A.Plan2:Swift Armguards
+    - Armorsmith Plan
+  - - 1.8%
+    - ''
+    - Flawless Purple Gem
+    - Can be set in the equipment which has a hole cut to increase the power. Weapon:Spell Attack +30.Armor:Spell Defense +7.Shield:Spell Defense +7 Lvl80
+  row_count: 6

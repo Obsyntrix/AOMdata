@@ -1,0 +1,212 @@
+monster_page:
+  id: apple-dwarf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:apple-dwarf
+    retrieval_url: https://web.archive.org/web/20110307135202id_/http://angels.wikidot.com:80/monster:apple-dwarf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110307135202'
+    archive_snapshot_url: https://web.archive.org/web/20110307135202/http://angels.wikidot.com:80/monster:apple-dwarf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:apple-dwarf
+    source_html_sha256: d41d26fbb228e91ca8096ce43aac781cc3de51be6aad284d6eb09a2d2cabf46c
+fields_raw:
+  Name: 'Spells:'
+  Apple Dwarf: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks County
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '100'
+  Hit Points: '16994'
+  Rigor: '606'
+  Agility: '306'
+  Attack: '1378'
+  Defense: '1476'
+  Spell Attack: '861'
+  Spell Defense: '698'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '90'
+  Attack Speed: '70'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '9948'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: apple-dwarf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gnosis Judge
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Gnosis Judge
+    Short info: Sword Lvl 105
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: apple-dwarf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Gnosis Judge
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Gnosis Judge
+    Short info: Sword Lvl 105
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: apple-dwarf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Camael's Judgment
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Camael's Judgment
+    Short info: Sword Lvl 105
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Apple Dwarf
+  - ''
+  rows_raw:
+  - - Name
+    - Apple Dwarf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks County
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '16994'
+    - '606'
+    - '306'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1378'
+    - '1476'
+    - '861'
+    - '698'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '90'
+    - '70'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '9948'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Gnosis Judge
+    - Sword Lvl 105
+  - - ??,??%
+    - ''
+    - Good Gnosis Judge
+    - Sword Lvl 105
+  - - ??,??%
+    - ''
+    - Camael's Judgment
+    - Sword Lvl 105
+  row_count: 4

@@ -1,0 +1,194 @@
+monster_page:
+  id: venom-beetle
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:venom-beetle
+    retrieval_url: https://web.archive.org/web/20110907104316id_/http://angels.wikidot.com:80/monster:venom-beetle
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907104316'
+    archive_snapshot_url: https://web.archive.org/web/20110907104316/http://angels.wikidot.com:80/monster:venom-beetle
+    archive_original_lookup_url: https://angels.wikidot.com/monster:venom-beetle
+    source_html_sha256: cc08726878ac510cc6103199738bbee1bb854ef45a4a9572d0971548c18c855f
+fields_raw:
+  Name: 'Spells:'
+  Venom Beetle: '-'
+  'Spells:': 'Location:'
+  '-': Crescent Valley
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '83'
+  Hit Points: '6794'
+  Rigor: '427'
+  Agility: '261'
+  Attack: '893'
+  Defense: '982'
+  Spell Attack: '807'
+  Spell Defense: '312'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '1'
+  Speed: '100'
+  Attack Speed: '70'
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: ??,??%
+  Experience: '3057'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: venom-beetle__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: venom-beetle__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Venom Beetle
+  - ''
+  rows_raw:
+  - - Name
+    - Venom Beetle
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Crescent Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '83'
+    - '6794'
+    - '427'
+    - '261'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '893'
+    - '982'
+    - '807'
+    - '312'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '1'
+    - '100'
+    - '70'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '3057'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

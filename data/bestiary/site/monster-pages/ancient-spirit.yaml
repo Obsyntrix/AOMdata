@@ -1,0 +1,320 @@
+monster_page:
+  id: ancient-spirit
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ancient-spirit
+    retrieval_url: https://web.archive.org/web/20200109122519id_/http://angels.wikidot.com:80/monster:ancient-spirit
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109122519'
+    archive_snapshot_url: https://web.archive.org/web/20200109122519/http://angels.wikidot.com:80/monster:ancient-spirit
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ancient-spirit
+    source_html_sha256: fc60f9a280785989c93dc3bb17f1e4a0d660cbb73e312e4e0fe0f82623ae5e15
+fields_raw:
+  Name: 'Spells:'
+  Ancient Spirit: '-'
+  'Spells:': 'Location:'
+  '-': Pharaoh Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 176 - 224
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: ancient-spirit__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Husk Shield
+  chance_to_drop_raw: 46.7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.7%
+    Icon: ''
+    Item: Husk Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.7
+    quantity: null
+- drop_id: ancient-spirit__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Husk Shield
+  chance_to_drop_raw: 1.17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.17%
+    Icon: ''
+    Item: Good Husk Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.17
+    quantity: null
+- drop_id: ancient-spirit__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Diamond Beetle
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Diamond Beetle
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: ancient-spirit__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Woods Helmet
+  chance_to_drop_raw: 46.7%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.7%
+    Icon: ''
+    Item: Woods Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.7
+    quantity: null
+- drop_id: ancient-spirit__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Woods Helmet
+  chance_to_drop_raw: 1.17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.17%
+    Icon: ''
+    Item: Good Woods Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.17
+    quantity: null
+- drop_id: ancient-spirit__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Conqueror Helmet
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Conqueror Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: ancient-spirit__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Husk Shield
+  chance_to_drop_raw: 0.38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.38%
+    Icon: ''
+    Item: A.Plan2:Husk Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ancient-spirit__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Conqueror Helmet
+  chance_to_drop_raw: 0.38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.38%
+    Icon: ''
+    Item: A.Plan2:Conqueror Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: ancient-spirit__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 3.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.43%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.43
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ancient Spirit
+  - ''
+  rows_raw:
+  - - Name
+    - Ancient Spirit
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Pharaoh Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 176 - 224
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.7%
+    - ''
+    - Husk Shield
+    - ITEM NOTES
+  - - 1.17%
+    - ''
+    - Good Husk Shield
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Diamond Beetle
+    - ITEM NOTES
+  - - 46.7%
+    - ''
+    - Woods Helmet
+    - ITEM NOTES
+  - - 1.17%
+    - ''
+    - Good Woods Helmet
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Conqueror Helmet
+    - ITEM NOTES
+  - - 0.38%
+    - ''
+    - A.Plan2:Husk Shield
+    - ITEM NOTES
+  - - 0.38%
+    - ''
+    - A.Plan2:Conqueror Helmet
+    - ITEM NOTES
+  - - 3.43%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 10

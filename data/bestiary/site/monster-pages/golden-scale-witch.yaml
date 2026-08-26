@@ -1,0 +1,266 @@
+monster_page:
+  id: golden-scale-witch
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:golden-scale-witch
+    retrieval_url: https://web.archive.org/web/20200108095939id_/http://angels.wikidot.com:80/monster:golden-scale-witch
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200108095939'
+    archive_snapshot_url: https://web.archive.org/web/20200108095939/http://angels.wikidot.com:80/monster:golden-scale-witch
+    archive_original_lookup_url: https://angels.wikidot.com/monster:golden-scale-witch
+    source_html_sha256: 5a808505decc62967717c7c9e264a6d23d70332908c8244a33e28a7042e551e0
+fields_raw:
+  Name: 'Spells:'
+  Golden Scale Witch: Icy Storm
+  'Spells:': 'Location:'
+  Icy Storm: Ancient Glide River
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '96'
+  Hit Points: '3766'
+  Rigor: '491'
+  Agility: '300'
+  Attack: '697'
+  Defense: '1015'
+  Spell Attack: '1086'
+  Spell Defense: '660'
+  Special Attack: +48 Ice
+  Special Defense: +38 Rotten and Ice
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1478'
+  Gold: 358-450
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: golden-scale-witch__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Gown
+  chance_to_drop_raw: 95,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,29%
+    Icon: ''
+    Item: Espial Gown
+    Short info: 96 Vestment Gown
+  normalized:
+    chance_to_drop_percent: 95.29
+    quantity: null
+- drop_id: golden-scale-witch__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Gown
+  chance_to_drop_raw: 2.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.39%
+    Icon: ''
+    Item: Good Espial Gown
+    Short info: 96 Vestment Gown
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: golden-scale-witch__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: 80 Yellow Gem
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: golden-scale-witch__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Espial Gown'
+  chance_to_drop_raw: 0,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,78%
+    Icon: ''
+    Item: 'D.Plan2: Espial Gown'
+    Short info: Tailor 95
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: golden-scale-witch__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rade Fast Seahorse
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Rade Fast Seahorse
+    Short info: 98 Warrior Ride
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: golden-scale-witch__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Gown
+  chance_to_drop_raw: 0,12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,12%
+    Icon: ''
+    Item: Magnetic Gown
+    Short info: 96 Vestment Gown
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Golden Scale Witch
+  - ''
+  rows_raw:
+  - - Name
+    - Golden Scale Witch
+    - ''
+  - - 'Spells:'
+    - Icy Storm
+    - ''
+  - - 'Location:'
+    - Ancient Glide River
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '96'
+    - '3766'
+    - '491'
+    - '300'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '697'
+    - '1015'
+    - '1086'
+    - '660'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +48 Ice
+    - +38 Rotten and Ice
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1478'
+    - 358-450
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,29%
+    - ''
+    - Espial Gown
+    - 96 Vestment Gown
+  - - 2.39%
+    - ''
+    - Good Espial Gown
+    - 96 Vestment Gown
+  - - 1,19%
+    - ''
+    - Flawless Yellow Gem
+    - 80 Yellow Gem
+  - - 0,78%
+    - ''
+    - 'D.Plan2: Espial Gown'
+    - Tailor 95
+  - - 0,23%
+    - ''
+    - Rade Fast Seahorse
+    - 98 Warrior Ride
+  - - 0,12%
+    - ''
+    - Magnetic Gown
+    - 96 Vestment Gown
+  row_count: 7

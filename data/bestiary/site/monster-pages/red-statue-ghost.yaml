@@ -1,0 +1,212 @@
+monster_page:
+  id: red-statue-ghost
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-statue-ghost
+    retrieval_url: https://web.archive.org/web/20200220220024id_/http://angels.wikidot.com:80/monster:red-statue-ghost
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220220024'
+    archive_snapshot_url: https://web.archive.org/web/20200220220024/http://angels.wikidot.com:80/monster:red-statue-ghost
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-statue-ghost
+    source_html_sha256: 5034c3135c4f4e501e86f6fda1b15a57f6a09571db287cbc4ce1a4810c3a8408
+fields_raw:
+  Name: 'Spells:'
+  Red Statue Ghost: '-'
+  'Spells:': 'Location:'
+  '-': Leviathan's Bedroom
+  Type: Demon
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '117'
+  Hit Points: '20580'
+  Rigor: '597'
+  Agility: '363'
+  Attack: '1724'
+  Defense: '1959'
+  Spell Attack: '1688'
+  Spell Defense: '689'
+  Special Attack: +58 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.1%
+  Experience: '9261'
+  Gold: 680 - 758
+item_drop_chance_raw: 0.1%
+drops:
+- drop_id: red-statue-ghost__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Stealth Cap
+  chance_to_drop_raw: 96.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.54%
+    Icon: ''
+    Item: Stealth Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.54
+    quantity: null
+- drop_id: red-statue-ghost__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodStealth Cap
+  chance_to_drop_raw: 2.32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.32%
+    Icon: ''
+    Item: GoodStealth Cap
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.32
+    quantity: null
+- drop_id: red-statue-ghost__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1.14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.14%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Statue Ghost
+  - ''
+  rows_raw:
+  - - Name
+    - Red Statue Ghost
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Leviathan's Bedroom
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '117'
+    - '20580'
+    - '597'
+    - '363'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1724'
+    - '1959'
+    - '1688'
+    - '689'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +58 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.1%
+    - '9261'
+    - 680 - 758
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.54%
+    - ''
+    - Stealth Cap
+    - ITEM NOTES
+  - - 2.32%
+    - ''
+    - GoodStealth Cap
+    - ITEM NOTES
+  - - 1.14%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  row_count: 4

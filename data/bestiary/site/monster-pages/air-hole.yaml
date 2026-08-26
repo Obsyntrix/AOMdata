@@ -1,0 +1,106 @@
+monster_page:
+  id: air-hole
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:air-hole
+    retrieval_url: https://web.archive.org/web/20191230105947id_/http://angels.wikidot.com:80/monster:air-hole
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105947'
+    archive_snapshot_url: https://web.archive.org/web/20191230105947/http://angels.wikidot.com:80/monster:air-hole
+    archive_original_lookup_url: https://angels.wikidot.com/monster:air-hole
+    source_html_sha256: 3f8f7238f3240b2e50f36279b97ccd52f7af2c293d9922220ff320b5f265bb74
+fields_raw:
+  Name: 'Spells:'
+  Air Hole: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'No'
+  Attack Range: None
+  Level: '62'
+  Hit Points: '4490'
+  Rigor: '332'
+  Agility: '204'
+  Attack: '0'
+  Defense: '713'
+  Magic Attack: '872'
+  Magic Defense: '494'
+  Bonus Damage: Nothing
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Item Drop Chance: 0%
+  Experience: '0'
+  Gold: 0 - 0 (0)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Air Hole
+  - ''
+  rows_raw:
+  - - Name
+    - Air Hole
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'No'
+    - None
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '62'
+    - '4490'
+    - '332'
+    - '204'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '0'
+    - '713'
+    - '872'
+    - '494'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Nothing
+    - Nothing
+    - Nothing
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '0'
+    - 0 - 0 (0)
+  row_count: 4

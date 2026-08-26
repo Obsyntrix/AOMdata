@@ -1,0 +1,303 @@
+monster_page:
+  id: whelk-elder
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:whelk-elder
+    retrieval_url: https://web.archive.org/web/20200119163206id_/http://angels.wikidot.com:80/monster:whelk-elder
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119163206'
+    archive_snapshot_url: https://web.archive.org/web/20200119163206/http://angels.wikidot.com:80/monster:whelk-elder
+    archive_original_lookup_url: https://angels.wikidot.com/monster:whelk-elder
+    source_html_sha256: 8a789acf2854af36e9c6f2fbc5cd8fb9c2acc713ed9810d53ac74ba249834d1a
+fields_raw:
+  Name: 'Description:'
+  Whelk Elder: It is the most respected Whelk among all the species of Whelk. It has mighty powers. - Phoenix Fire Single Ranged | Dmg 176-202 Fire Dmg +200 | HP
+    -30 x6 - Mighty Cure HP +750
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '88'
+  Hit Points: '3544'
+  Rigor: '452'
+  Agility: '276'
+  Attack: '764'
+  Defense: '1093'
+  Spell Attack: '630'
+  Spell Defense: '603'
+  Special Attack: Fire +47
+  Special Defense: '34'
+  Strong Against: Rotten (64)
+  Weak Against: Ice (4)
+  Attack Range: Short (1)
+  Speed: Very fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 2,60%
+  Experience: '1112'
+  Gold: 275 - 363 (319)
+item_drop_chance_raw: 2,60%
+drops:
+- drop_id: whelk-elder__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Shell
+  chance_to_drop_raw: 98,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 98,08%
+    Icon: ''
+    Item: Whelk Shell
+    Short info: Quest Item
+  normalized:
+    chance_to_drop_percent: 98.08
+    quantity: null
+- drop_id: whelk-elder__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Boots
+  chance_to_drop_raw: 1,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,82%
+    Icon: ''
+    Item: Luck Boots
+    Short info: Vestment 86 (Dfs +57, Spl Dfs +53, Ag.+29)
+  normalized:
+    chance_to_drop_percent: 1.82
+    quantity: null
+- drop_id: whelk-elder__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crystal Spear
+  chance_to_drop_raw: 1,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,82%
+    Icon: ''
+    Item: Crystal Spear
+    Short info: Spear Lvl 90 (Atk 707-741 (724), Rig.+41)
+  normalized:
+    chance_to_drop_percent: 1.82
+    quantity: null
+- drop_id: whelk-elder__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Luck Boots
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Good Luck Boots
+    Short info: Vestment 86 (Dfs +72, Spl Dfs +68, Ag.+32)
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: whelk-elder__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Crystal Spear
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Good Crystal Spear
+    Short info: Spear Lvl 90 (Atk 908-942 (558), Rig.+46)
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: whelk-elder__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Boots
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: D.Plan2:Luck Boots
+    Short info: Sew 85
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: whelk-elder__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Crystal Spear
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: W.Plan2:Crystal Spear
+    Short info: Weapon 85
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: whelk-elder__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Whelk Elder
+  - ''
+  rows_raw:
+  - - Name
+    - Whelk Elder
+    - ''
+  - - 'Description:'
+    - It is the most respected Whelk among all the species of Whelk. It has mighty powers. - Phoenix Fire Single Ranged | Dmg 176-202 Fire Dmg +200 | HP -30 x6 -
+      Mighty Cure HP +750
+    - ''
+  - - 'Location:'
+    - Raging Reefs
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '88'
+    - '3544'
+    - '452'
+    - '276'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '764'
+    - '1093'
+    - '630'
+    - '603'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +47
+    - '34'
+    - Rotten (64)
+    - Ice (4)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,60%
+    - '1112'
+    - 275 - 363 (319)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 98,08%
+    - ''
+    - Whelk Shell
+    - Quest Item
+  - - 1,82%
+    - ''
+    - Luck Boots
+    - Vestment 86 (Dfs +57, Spl Dfs +53, Ag.+29)
+  - - 1,82%
+    - ''
+    - Crystal Spear
+    - Spear Lvl 90 (Atk 707-741 (724), Rig.+41)
+  - - 0,05%
+    - ''
+    - Good Luck Boots
+    - Vestment 86 (Dfs +72, Spl Dfs +68, Ag.+32)
+  - - 0,05%
+    - ''
+    - Good Crystal Spear
+    - Spear Lvl 90 (Atk 908-942 (558), Rig.+46)
+  - - 0,02%
+    - ''
+    - D.Plan2:Luck Boots
+    - Sew 85
+  - - 0,02%
+    - ''
+    - W.Plan2:Crystal Spear
+    - Weapon 85
+  - - 0,02%
+    - ''
+    - Flawless Orange Gem
+    - 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  row_count: 9

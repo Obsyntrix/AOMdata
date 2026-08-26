@@ -1,0 +1,284 @@
+monster_page:
+  id: earth-winged-bird
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:earth-winged-bird
+    retrieval_url: https://web.archive.org/web/20110908144914id_/http://angels.wikidot.com:80/monster:earth-winged-bird
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110908144914'
+    archive_snapshot_url: https://web.archive.org/web/20110908144914/http://angels.wikidot.com:80/monster:earth-winged-bird
+    archive_original_lookup_url: https://angels.wikidot.com/monster:earth-winged-bird
+    source_html_sha256: a132a149ef4175e1b17b7f2068109f6c271150d0d0304c9aa0a6d2739be06285
+fields_raw:
+  Name: 'Spells:'
+  Earth Winged Bird: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks County
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '96'
+  Hit Points: '16176'
+  Rigor: '492'
+  Agility: '300'
+  Attack: '1160'
+  Defense: '1292'
+  Spell Attack: '693'
+  Spell Defense: '537'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '5'
+  Speed: '110'
+  Attack Speed: '90'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '8880'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: earth-winged-bird__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wildness Helmet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Wildness Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wildness Helmet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Wildness Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighter Helmet
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Fighter Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hell Executioner
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Hell Executioner
+    Short info: Lvl 100 Shadowblade
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: lvl 100 mantle body
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: lvl 100 mantle body
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: lvl 100 bow
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: lvl 100 bow
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-winged-bird__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: lvl 100 shield
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: lvl 100 shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Earth Winged Bird
+  - ''
+  rows_raw:
+  - - Name
+    - Earth Winged Bird
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks County
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '96'
+    - '16176'
+    - '492'
+    - '300'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1160'
+    - '1292'
+    - '693'
+    - '537'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '5'
+    - '110'
+    - '90'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '8880'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Wildness Helmet
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Good Wildness Helmet
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Fighter Helmet
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Hell Executioner
+    - Lvl 100 Shadowblade
+  - - ??,??%
+    - ''
+    - lvl 100 mantle body
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - lvl 100 bow
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - lvl 100 shield
+    - ITEM NOTES
+  row_count: 8

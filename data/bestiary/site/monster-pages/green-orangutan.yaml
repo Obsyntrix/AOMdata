@@ -1,0 +1,266 @@
+monster_page:
+  id: green-orangutan
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:green-orangutan
+    retrieval_url: https://web.archive.org/web/20200109124331id_/http://angels.wikidot.com:80/monster:green-orangutan
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109124331'
+    archive_snapshot_url: https://web.archive.org/web/20200109124331/http://angels.wikidot.com:80/monster:green-orangutan
+    archive_original_lookup_url: https://angels.wikidot.com/monster:green-orangutan
+    source_html_sha256: 1050a60de61bcf814b04e59501fe9fc1a7ca52fcd80e8790cf16d0465c69db7c
+fields_raw:
+  Name: 'Spells:'
+  Green Orangutan: '-'
+  'Spells:': 'Location:'
+  '-': Roam Battlefield
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '95'
+  Hit Points: '7987'
+  Rigor: '567'
+  Agility: '297'
+  Attack: '1137'
+  Defense: '1266'
+  Spell Attack: '685'
+  Spell Defense: '359'
+  Special Attack: +55 Fire
+  Special Defense: +75 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '3594'
+  Gold: 351 - 447
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: green-orangutan__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Bracers
+  chance_to_drop_raw: 93.16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.16%
+    Icon: ''
+    Item: Espial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.16
+    quantity: null
+- drop_id: green-orangutan__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEspial Bracers
+  chance_to_drop_raw: 2.33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.33%
+    Icon: ''
+    Item: GoodEspial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.33
+    quantity: null
+- drop_id: green-orangutan__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Bracers
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Magnetic Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: green-orangutan__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Betel JellyJellyfish Armor
+  chance_to_drop_raw: 0.22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.22%
+    Icon: ''
+    Item: Betel JellyJellyfish Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: green-orangutan__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Bracers
+  chance_to_drop_raw: 0.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.77%
+    Icon: ''
+    Item: D.Plan2:Espial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.77
+    quantity: null
+- drop_id: green-orangutan__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 3.42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.42%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.42
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Green Orangutan
+  - ''
+  rows_raw:
+  - - Name
+    - Green Orangutan
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Roam Battlefield
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '7987'
+    - '567'
+    - '297'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1137'
+    - '1266'
+    - '685'
+    - '359'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +55 Fire
+    - +75 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '3594'
+    - 351 - 447
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.16%
+    - ''
+    - Espial Bracers
+    - ITEM NOTES
+  - - 2.33%
+    - ''
+    - GoodEspial Bracers
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Magnetic Bracers
+    - ITEM NOTES
+  - - 0.22%
+    - ''
+    - Betel JellyJellyfish Armor
+    - ITEM NOTES
+  - - 0.77%
+    - ''
+    - D.Plan2:Espial Bracers
+    - ITEM NOTES
+  - - 3.42%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  row_count: 7

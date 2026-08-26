@@ -1,0 +1,408 @@
+monster_page:
+  id: nest-tree-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:nest-tree-elf
+    retrieval_url: https://web.archive.org/web/20191230110148id_/http://angels.wikidot.com:80/monster:nest-tree-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110148'
+    archive_snapshot_url: https://web.archive.org/web/20191230110148/http://angels.wikidot.com:80/monster:nest-tree-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:nest-tree-elf
+    source_html_sha256: b7a1f7e3a763dba09ac49894a0e10452ad0ec699664006f31a791f7629fa00fd
+fields_raw:
+  Name: 'Description:'
+  'Description:': 'Location:'
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '12'
+  Hit Points: '431'
+  Rigor: '72'
+  Agility: '48'
+  Attack: '96'
+  Defense: '107'
+  Spell Attack: '90'
+  Spell Defense: '51'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 3,38%
+  Experience: '107'
+  Gold: 18 - 32 (25)
+item_drop_chance_raw: 3,38%
+drops:
+- drop_id: nest-tree-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 56,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 56,11%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 56.11
+    quantity: null
+- drop_id: nest-tree-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Heavy Wristlet
+  chance_to_drop_raw: 11,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,22%
+    Icon: ''
+    Item: Basic Heavy Wristlet
+    Short info: Garment 12 (Dfs +7, Spl Dfs +1, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 11.22
+    quantity: null
+- drop_id: nest-tree-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Light Gloves
+  chance_to_drop_raw: 11,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,22%
+    Icon: ''
+    Item: Basic Light Gloves
+    Short info: Mantle 12 (Dfs +5, Spl Dfs +2, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 11.22
+    quantity: null
+- drop_id: nest-tree-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Jute Gloves
+  chance_to_drop_raw: 11,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,22%
+    Icon: ''
+    Item: Basic Jute Gloves
+    Short info: Vestment 12 (Dfs +2, Spl Dfs +3, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 11.22
+    quantity: null
+- drop_id: nest-tree-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Heavy Wristlet
+  chance_to_drop_raw: 1,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,87%
+    Icon: ''
+    Item: Good Basic Heavy Wristlet
+    Short info: Garment 12 (Dfs +18, Spl Dfs +3, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 1.87
+    quantity: null
+- drop_id: nest-tree-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Light Gloves
+  chance_to_drop_raw: 1,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,87%
+    Icon: ''
+    Item: Good Basic Light Gloves
+    Short info: Mantle 12 (Dfs +12, Spl Dfs +7, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 1.87
+    quantity: null
+- drop_id: nest-tree-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Jute Gloves
+  chance_to_drop_raw: 1,87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,87%
+    Icon: ''
+    Item: Good Basic Jute Gloves
+    Short info: Vestment 12 (Dfs +6, Spl Dfs +10, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 1.87
+    quantity: null
+- drop_id: nest-tree-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nest Tree Elf
+  chance_to_drop_raw: 2,37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,37%
+    Icon: ''
+    Item: Nest Tree Elf
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: nest-tree-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Emerald Piece
+    Short info: 'Weapon: R.Atk +2, Armor: Rg. +2, Shield: R.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: nest-tree-elf__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Sapphire Piece
+    Short info: 'Weapon: I.Atk +2, Armor: Max. MP +8, Shield: I.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: nest-tree-elf__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Gem Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Purple Gem Piece
+    Short info: 'Weapon: Spl Atk +10, Armor: Spl Dfs +3, Shield: Spl Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: nest-tree-elf__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Cuff
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Savage Cuff
+    Short info: Garment 12 (Dfs +31, Spl Dfs +6, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: nest-tree-elf__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Gloves
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Savage Gloves
+    Short info: Mantle 12 (Dfs +21, Spl Dfs +11, Rig.+28)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: nest-tree-elf__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angelos Gloves
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Angelos Gloves
+    Short info: Vestment 12 (Dfs +10, Spl Dfs +17, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Nest Tree Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Nest Tree Elf
+    - ''
+  - - 'Description:'
+    - ''
+    - ''
+  - - 'Location:'
+    - Dense Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '12'
+    - '431'
+    - '72'
+    - '48'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '96'
+    - '107'
+    - '90'
+    - '51'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 3,38%
+    - '107'
+    - 18 - 32 (25)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 56,11%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,22%
+    - ''
+    - Basic Heavy Wristlet
+    - Garment 12 (Dfs +7, Spl Dfs +1, Rig.+7)
+  - - 11,22%
+    - ''
+    - Basic Light Gloves
+    - Mantle 12 (Dfs +5, Spl Dfs +2, Rig.+7)
+  - - 11,22%
+    - ''
+    - Basic Jute Gloves
+    - Vestment 12 (Dfs +2, Spl Dfs +3, Rig.+7)
+  - - 1,87%
+    - ''
+    - Good Basic Heavy Wristlet
+    - Garment 12 (Dfs +18, Spl Dfs +3, Rig.+17)
+  - - 1,87%
+    - ''
+    - Good Basic Light Gloves
+    - Mantle 12 (Dfs +12, Spl Dfs +7, Rig.+17)
+  - - 1,87%
+    - ''
+    - Good Basic Jute Gloves
+    - Vestment 12 (Dfs +6, Spl Dfs +10, Rig.+17)
+  - - 2,37%
+    - ''
+    - Nest Tree Elf
+    - 'See: Card Collection'
+  - - 0,56%
+    - ''
+    - Emerald Piece
+    - 'Weapon: R.Atk +2, Armor: Rg. +2, Shield: R.Dfs +1'
+  - - 0,56%
+    - ''
+    - Sapphire Piece
+    - 'Weapon: I.Atk +2, Armor: Max. MP +8, Shield: I.Dfs +1'
+  - - 0,56%
+    - ''
+    - Purple Gem Piece
+    - 'Weapon: Spl Atk +10, Armor: Spl Dfs +3, Shield: Spl Dfs +3'
+  - - 0,19%
+    - ''
+    - Savage Cuff
+    - Garment 12 (Dfs +31, Spl Dfs +6, Rig.+27)
+  - - 0,19%
+    - ''
+    - Savage Gloves
+    - Mantle 12 (Dfs +21, Spl Dfs +11, Rig.+28)
+  - - 0,19%
+    - ''
+    - Angelos Gloves
+    - Vestment 12 (Dfs +10, Spl Dfs +17, Rig.+27)
+  row_count: 15

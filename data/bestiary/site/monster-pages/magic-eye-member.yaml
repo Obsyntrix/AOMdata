@@ -1,0 +1,356 @@
+monster_page:
+  id: magic-eye-member
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:magic-eye-member
+    retrieval_url: https://web.archive.org/web/20200109171943id_/http://angels.wikidot.com:80/monster:magic-eye-member
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171943'
+    archive_snapshot_url: https://web.archive.org/web/20200109171943/http://angels.wikidot.com:80/monster:magic-eye-member
+    archive_original_lookup_url: https://angels.wikidot.com/monster:magic-eye-member
+    source_html_sha256: 256da7f036d0fbdebf28c25b6a876212a56e4602b22b714e78dbecffbf2fa775
+fields_raw:
+  Name: 'Description:'
+  Magic Eye Member: '-'
+  'Description:': 'Location:'
+  '-': Jade Vale
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '27'
+  Hit Points: '888'
+  Rigor: '147'
+  Agility: '93'
+  Attack: '164'
+  Defense: '202'
+  Spell Attack: '191'
+  Spell Defense: '109'
+  Special Attack: Fire +10
+  Special Defense: '4'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (75)
+  Attack Speed: Very Fast (90)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,88%
+  Experience: '222'
+  Gold: 42 - 68 (55)
+item_drop_chance_raw: 1,88%
+drops:
+- drop_id: magic-eye-member__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 55,82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 55,82%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 55.82
+    quantity: null
+- drop_id: magic-eye-member__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Thick Armor
+  chance_to_drop_raw: 16,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,75%
+    Icon: ''
+    Item: Traveller Thick Armor
+    Short info: Garment 24 (Dfs +53, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 16.75
+    quantity: null
+- drop_id: magic-eye-member__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Leather Vest
+  chance_to_drop_raw: 16,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,75%
+    Icon: ''
+    Item: Traveller Leather Vest
+    Short info: Mantle 24 (Dfs +35, Spl Dfs +14)
+  normalized:
+    chance_to_drop_percent: 16.75
+    quantity: null
+- drop_id: magic-eye-member__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Eye Member card
+  chance_to_drop_raw: 4,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,27%
+    Icon: ''
+    Item: Magic Eye Member card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 4.27
+    quantity: null
+- drop_id: magic-eye-member__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Thick Armor
+  chance_to_drop_raw: 2,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,79%
+    Icon: ''
+    Item: Good Traveller Thick Armor
+    Short info: Garment 24 (Dfs +92, Spl Dfs +11)
+  normalized:
+    chance_to_drop_percent: 2.79
+    quantity: null
+- drop_id: magic-eye-member__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Leather Vest
+  chance_to_drop_raw: 2,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,79%
+    Icon: ''
+    Item: Good Traveller Leather Vest
+    Short info: Mantle 24 (Dfs +62, Spl Dfs +22)
+  normalized:
+    chance_to_drop_percent: 2.79
+    quantity: null
+- drop_id: magic-eye-member__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Leather Armor
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Heavy Leather Armor
+    Short info: Garment 24 (Dfs +140, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: magic-eye-member__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Light Leather Armor
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Light Leather Armor
+    Short info: Mantle 24 (Dfs +94, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: magic-eye-member__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.Atk +4, Armor: Rg. +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: magic-eye-member__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: magic-eye-member__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor: Spl Dfs +4, Shield: Spl Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Magic Eye Member
+  - ''
+  rows_raw:
+  - - Name
+    - Magic Eye Member
+    - ''
+  - - 'Description:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Jade Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '27'
+    - '888'
+    - '147'
+    - '93'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '164'
+    - '202'
+    - '191'
+    - '109'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +10
+    - '4'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (75)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,88%
+    - '222'
+    - 42 - 68 (55)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 55,82%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 16,75%
+    - ''
+    - Traveller Thick Armor
+    - Garment 24 (Dfs +53, Spl Dfs +7)
+  - - 16,75%
+    - ''
+    - Traveller Leather Vest
+    - Mantle 24 (Dfs +35, Spl Dfs +14)
+  - - 4,27%
+    - ''
+    - Magic Eye Member card
+    - 'See: Card Collection'
+  - - 2,79%
+    - ''
+    - Good Traveller Thick Armor
+    - Garment 24 (Dfs +92, Spl Dfs +11)
+  - - 2,79%
+    - ''
+    - Good Traveller Leather Vest
+    - Mantle 24 (Dfs +62, Spl Dfs +22)
+  - - 0,28%
+    - ''
+    - Heavy Leather Armor
+    - Garment 24 (Dfs +140, Spl Dfs +15)
+  - - 0,28%
+    - ''
+    - Light Leather Armor
+    - Mantle 24 (Dfs +94, Spl Dfs +30)
+  - - 0,10%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.Atk +4, Armor: Rg. +4, Shield: R.Dfs +2'
+  - - 0,10%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  - - 0,10%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor: Spl Dfs +4, Shield: Spl Dfs +4'
+  row_count: 12

@@ -1,0 +1,212 @@
+monster_page:
+  id: skeleton-warrior
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:skeleton-warrior
+    retrieval_url: https://web.archive.org/web/20100801214429id_/http://angels.wikidot.com:80/monster:skeleton-warrior
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100801214429'
+    archive_snapshot_url: https://web.archive.org/web/20100801214429/http://angels.wikidot.com:80/monster:skeleton-warrior
+    archive_original_lookup_url: https://angels.wikidot.com/monster:skeleton-warrior
+    source_html_sha256: 57e3a5dc88c20789cbfbcccd8a42d86a6c107b9796f4ca89c410d41981187a14
+fields_raw:
+  Name: 'Spells:'
+  Skeleton Warrior: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.08%
+  Experience: '?'
+  Gold: 458 - 582
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: skeleton-warrior__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Revival Shield
+  chance_to_drop_raw: 96.98%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.98%
+    Icon: ''
+    Item: Revival Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.98
+    quantity: null
+- drop_id: skeleton-warrior__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRevival Shield
+  chance_to_drop_raw: 2.42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.42%
+    Icon: ''
+    Item: GoodRevival Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.42
+    quantity: null
+- drop_id: skeleton-warrior__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Light Rune Piece
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: Green Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Skeleton Warrior
+  - ''
+  rows_raw:
+  - - Name
+    - Skeleton Warrior
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '?'
+    - 458 - 582
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.98%
+    - ''
+    - Revival Shield
+    - ITEM NOTES
+  - - 2.42%
+    - ''
+    - GoodRevival Shield
+    - ITEM NOTES
+  - - 0.6%
+    - ''
+    - Green Light Rune Piece
+    - ITEM NOTES
+  row_count: 4

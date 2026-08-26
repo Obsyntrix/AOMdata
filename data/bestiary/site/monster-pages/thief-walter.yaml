@@ -1,0 +1,332 @@
+monster_page:
+  id: thief-walter
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:thief-walter
+    retrieval_url: https://web.archive.org/web/20170619053905id_/http://angels.wikidot.com:80/monster:thief-walter
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170619053905'
+    archive_snapshot_url: https://web.archive.org/web/20170619053905/http://angels.wikidot.com:80/monster:thief-walter
+    archive_original_lookup_url: https://angels.wikidot.com/monster:thief-walter
+    source_html_sha256: 44c332fb7de406b7cb3e46046f93d3b5367644fbd7cfdfda4cbca445274d9db6
+fields_raw:
+  Name: 'Spells:'
+  Thief Walter: '-'
+  'Spells:': 'Location:'
+  '-': Ghost Village
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '98'
+  Hit Points: '89110'
+  Rigor: '502'
+  Agility: '306'
+  Attack: '1459'
+  Defense: '1459'
+  Spell Attack: '1130'
+  Spell Defense: '704'
+  Special Attack: +49 Rotten
+  Special Defense: '?'
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '180448'
+  Gold: 3813 - 4853
+item_drop_chance_raw: 100%
+drops:
+- drop_id: thief-walter__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Hammer
+  chance_to_drop_raw: 1.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.04%
+    Icon: ''
+    Item: Evil Hammer
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.04
+    quantity: null
+- drop_id: thief-walter__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Helmet
+  chance_to_drop_raw: 1.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.04%
+    Icon: ''
+    Item: Saint Helmet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.04
+    quantity: null
+- drop_id: thief-walter__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Armor
+  chance_to_drop_raw: 1.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.04%
+    Icon: ''
+    Item: Wind Armor
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.04
+    quantity: null
+- drop_id: thief-walter__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Boots
+  chance_to_drop_raw: 1.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.04%
+    Icon: ''
+    Item: Wind Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.04
+    quantity: null
+- drop_id: thief-walter__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Symbol Shield
+  chance_to_drop_raw: 1.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.04%
+    Icon: ''
+    Item: Symbol Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.04
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Thief Walter
+  - ''
+  rows_raw:
+  - - Name
+    - Thief Walter
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ghost Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '98'
+    - '89110'
+    - '502'
+    - '306'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1459'
+    - '1459'
+    - '1130'
+    - '704'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +49 Rotten
+    - '?'
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '180448'
+    - 3813 - 4853
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 1.04%
+    - ''
+    - Evil Hammer
+    - ITEM NOTES
+  - - 1.04%
+    - ''
+    - Saint Helmet
+    - ITEM NOTES
+  - - 1.04%
+    - ''
+    - Wind Armor
+    - ITEM NOTES
+  - - 1.04%
+    - ''
+    - Wind Boots
+    - ITEM NOTES
+  - - 1.04%
+    - ''
+    - Symbol Shield
+    - ITEM NOTES
+  row_count: 6
+- table_index: 8
+  headers_raw:
+  - 0.05%
+  - ''
+  - Good Evil Hammer
+  - ITEM NOTES
+  rows_raw:
+  - - 0.05%
+    - ''
+    - Good Evil Hammer
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Good Saint Helmet
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Good Wind Armor
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Good Wind Boots
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Good Coral Manteau
+    - ITEM NOTES
+  row_count: 5
+- table_index: 9
+  headers_raw:
+  - 0.01%
+  - ''
+  - Aries Judge
+  - ITEM NOTES
+  rows_raw:
+  - - 0.01%
+    - ''
+    - Aries Judge
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Holy Guard Helmet
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Storm Armor
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Storm Boots
+    - ITEM NOTES
+  - - 0.01%
+    - ''
+    - Blue Wings
+    - ITEM NOTES
+  row_count: 5
+- table_index: 10
+  headers_raw:
+  - 0.01%
+  - ''
+  - Rade Fast Seahorse
+  - ITEM NOTES
+  rows_raw:
+  - - 0.01%
+    - ''
+    - Rade Fast Seahorse
+    - ITEM NOTES
+  - - 0.08%
+    - ''
+    - W.Plan2:Evil Hammer
+    - ''
+  - - 0.07%
+    - ''
+    - Clean Orange Gem
+    - ITEM NOTES
+  - - 93.94%
+    - ''
+    - Great Magic Fruit
+    - ITEM NOTES
+  - - 0.46%
+    - ''
+    - Robber Walter Card
+    - ITEM NOTES
+  row_count: 5

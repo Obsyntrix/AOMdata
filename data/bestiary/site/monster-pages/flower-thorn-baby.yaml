@@ -1,0 +1,212 @@
+monster_page:
+  id: flower-thorn-baby
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:flower-thorn-baby
+    retrieval_url: https://web.archive.org/web/20110307111714id_/http://angels.wikidot.com:80/monster:flower-thorn-baby
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110307111714'
+    archive_snapshot_url: https://web.archive.org/web/20110307111714/http://angels.wikidot.com:80/monster:flower-thorn-baby
+    archive_original_lookup_url: https://angels.wikidot.com/monster:flower-thorn-baby
+    source_html_sha256: 3027e5c5b8df97c6114471084742c40f4355c1a7ed8f2b6767a3a426422c1179
+fields_raw:
+  Name: 'Spells:'
+  Flower Thorn Baby: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks County
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: flower-thorn-baby__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Black Knight's Axe
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Black Knight's Axe
+    Short info: Lvl 100 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flower-thorn-baby__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Black Knight's Axe
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Black Knight's Axe
+    Short info: Lvl 100 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: flower-thorn-baby__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rodan's Strike
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Rodan's Strike
+    Short info: Lvl 100 Axe
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Flower Thorn Baby
+  - ''
+  rows_raw:
+  - - Name
+    - Flower Thorn Baby
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks County
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Black Knight's Axe
+    - Lvl 100 Axe
+  - - ??,??%
+    - ''
+    - Good Black Knight's Axe
+    - Lvl 100 Axe
+  - - ??,??%
+    - ''
+    - Rodan's Strike
+    - Lvl 100 Axe
+  row_count: 4

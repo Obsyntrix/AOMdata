@@ -1,0 +1,392 @@
+monster_page:
+  id: jail-warden
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jail-warden
+    retrieval_url: https://web.archive.org/web/20200701152330id_/http://angels.wikidot.com:80/monster:jail-warden
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200701152330'
+    archive_snapshot_url: https://web.archive.org/web/20200701152330/http://angels.wikidot.com:80/monster:jail-warden
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jail-warden
+    source_html_sha256: 2420a2a798b3cd5d00764f1eb9cb4a22beef36c64857c07f37eaa18b50e20332
+fields_raw:
+  Name: 'Spells:'
+  Jail Warden: Basic Shot
+  'Spells:': 'Location:'
+  Basic Shot: Fiery Path
+  Type: Energy
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '60'
+  Hit Points: '22585'
+  Rigor: '337'
+  Agility: '207'
+  Attack: '928'
+  Defense: '697'
+  Magic Attack: '443'
+  Magic Defense: '251'
+  Special Attack: Thunder +30
+  Special Defense: '20'
+  Strong Against: Ice(50)
+  Weak Against: Rotten(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(110)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '16939'
+  Gold: 969 - 1783 (1376)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: jail-warden__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Evil Fruit
+  chance_to_drop_raw: 46.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.54%
+    Icon: ''
+    Item: Medium Evil Fruit
+    Short info: Food (Spl Def +50 | 10min)
+  normalized:
+    chance_to_drop_percent: 46.54
+    quantity: null
+- drop_id: jail-warden__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Healing Potion
+  chance_to_drop_raw: 46.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.54%
+    Icon: ''
+    Item: Medium Healing Potion
+    Short info: Food (Max. HP +180 | 10 min)
+  normalized:
+    chance_to_drop_percent: 46.54
+    quantity: null
+- drop_id: jail-warden__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Armor
+  chance_to_drop_raw: 3.59%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.59%
+    Icon: ''
+    Item: Hermit Armor
+    Short info: Mantle 69 (Dfs +207, Spl Dfs +50)
+  normalized:
+    chance_to_drop_percent: 3.59
+    quantity: null
+- drop_id: jail-warden__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Armor
+  chance_to_drop_raw: 1.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.08%
+    Icon: ''
+    Item: Good Hermit Armor
+    Short info: Mantle 69 (Dfs +269, Spl Dfs +58)
+  normalized:
+    chance_to_drop_percent: 1.08
+    quantity: null
+- drop_id: jail-warden__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 0.90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.90%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.9
+    quantity: null
+- drop_id: jail-warden__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Jail Warden's Card
+  chance_to_drop_raw: 0.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.46%
+    Icon: ''
+    Item: Jail Warden's Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.46
+    quantity: null
+- drop_id: jail-warden__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.24%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: jail-warden__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Yellow Gem
+  chance_to_drop_raw: 0.18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.18%
+    Icon: ''
+    Item: Clean Yellow Gem
+    Short info: 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.18
+    quantity: null
+- drop_id: jail-warden__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'W.Plan2: Heaven Bow'
+  chance_to_drop_raw: 0.18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.18%
+    Icon: ''
+    Item: 'W.Plan2: Heaven Bow'
+    Short info: Weapon 65
+  normalized:
+    chance_to_drop_percent: 0.18
+    quantity: null
+- drop_id: jail-warden__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Fire Guard Cuffs'
+  chance_to_drop_raw: 0.18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.18%
+    Icon: ''
+    Item: 'A.Plan2: Fire Guard Cuffs'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.18
+    quantity: null
+- drop_id: jail-warden__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Armor
+  chance_to_drop_raw: 0.06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.06%
+    Icon: ''
+    Item: Anchoret Armor
+    Short info: Mantle 69 (Dfs +343, Spl Dfs +66)
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: jail-warden__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 3: Quick Stab 5'
+  chance_to_drop_raw: 0.03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.03%
+    Icon: ''
+    Item: 'Stance 3: Quick Stab 5'
+    Short info: Spear 64
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: jail-warden__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 3: Thunder Scope 5'
+  chance_to_drop_raw: 0.03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.03%
+    Icon: ''
+    Item: 'Scroll 3: Thunder Scope 5'
+    Short info: Chaos 64
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jail Warden
+  - ''
+  rows_raw:
+  - - Name
+    - Jail Warden
+    - ''
+  - - 'Spells:'
+    - Basic Shot
+    - ''
+  - - 'Location:'
+    - Fiery Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Energy
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '22585'
+    - '337'
+    - '207'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '928'
+    - '697'
+    - '443'
+    - '251'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +30
+    - '20'
+    - Ice(50)
+    - Rotten(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(110)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '16939'
+    - 969 - 1783 (1376)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.54%
+    - ''
+    - Medium Evil Fruit
+    - Food (Spl Def +50 | 10min)
+  - - 46.54%
+    - ''
+    - Medium Healing Potion
+    - Food (Max. HP +180 | 10 min)
+  - - 3.59%
+    - ''
+    - Hermit Armor
+    - Mantle 69 (Dfs +207, Spl Dfs +50)
+  - - 1.08%
+    - ''
+    - Good Hermit Armor
+    - Mantle 69 (Dfs +269, Spl Dfs +58)
+  - - 0.90%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.46%
+    - ''
+    - Jail Warden's Card
+    - 'See: Card Collection'
+  - - 0.24%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.18%
+    - ''
+    - Clean Yellow Gem
+    - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  - - 0.18%
+    - ''
+    - 'W.Plan2: Heaven Bow'
+    - Weapon 65
+  - - 0.18%
+    - ''
+    - 'A.Plan2: Fire Guard Cuffs'
+    - Armor 65
+  - - 0.06%
+    - ''
+    - Anchoret Armor
+    - Mantle 69 (Dfs +343, Spl Dfs +66)
+  - - 0.03%
+    - ''
+    - 'Stance 3: Quick Stab 5'
+    - Spear 64
+  - - 0.03%
+    - ''
+    - 'Scroll 3: Thunder Scope 5'
+    - Chaos 64
+  row_count: 14

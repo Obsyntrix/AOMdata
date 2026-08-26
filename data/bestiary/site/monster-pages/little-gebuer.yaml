@@ -1,0 +1,266 @@
+monster_page:
+  id: little-gebuer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:little-gebuer
+    retrieval_url: https://web.archive.org/web/20200109171933id_/http://angels.wikidot.com:80/monster:little-gebuer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171933'
+    archive_snapshot_url: https://web.archive.org/web/20200109171933/http://angels.wikidot.com:80/monster:little-gebuer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:little-gebuer
+    source_html_sha256: 42d2c6e348fcfb786df86ab3fd4077b676947b4d612f68b7146bfb0e4a844a13
+fields_raw:
+  Name: 'Description:'
+  Little Gebuer: Mischevious little creatures. Gebuer are scrawny and ugly, but that serves to disguise their fearsome intelligence. Don't set your backpack down
+    when near them.
+  'Description:': 'Location:'
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (2)
+  Level: '8'
+  Hit Points: '324'
+  Rigor: '52'
+  Agility: '36'
+  Attack: '59'
+  Defense: '65'
+  Spell Attack: '64'
+  Spell Defense: '36'
+  Special Attack: (5%) Thunder +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,69%
+  Experience: '81'
+  Gold: 15 - 25 (20)
+item_drop_chance_raw: 0,69%
+drops:
+- drop_id: little-gebuer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Light Shoes
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Light Shoes
+    Short info: Mantle 1 (Dfs +5, Spl Dfs +2, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: little-gebuer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Gloves
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Heavy Gloves
+    Short info: Garment 2 (Dfs +7, Spl Dfs +1, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: little-gebuer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Round Shield
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Round Shield
+    Short info: Shield 5 (Dfs +12, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: little-gebuer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Incantation Shoes
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Incantation Shoes
+    Short info: Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: little-gebuer__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Cuff
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Cuff
+    Short info: Garment 2 (Dfs +18, Spl Dfs +3, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: little-gebuer__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Round Shield
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Silver Round Shield
+    Short info: Shield 5 (Dfs +30, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Little Gebuer
+  - ''
+  rows_raw:
+  - - Name
+    - Little Gebuer
+    - ''
+  - - 'Description:'
+    - Mischevious little creatures. Gebuer are scrawny and ugly, but that serves to disguise their fearsome intelligence. Don't set your backpack down when near them.
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (2)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '8'
+    - '324'
+    - '52'
+    - '36'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '59'
+    - '65'
+    - '64'
+    - '36'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Thunder +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,69%
+    - '81'
+    - 15 - 25 (20)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,43%
+    - ''
+    - Good Newbie Light Shoes
+    - Mantle 1 (Dfs +5, Spl Dfs +2, Ag.+4)
+  - - 30,43%
+    - ''
+    - Good Newbie Heavy Gloves
+    - Garment 2 (Dfs +7, Spl Dfs +1, Rig.+7)
+  - - 30,43%
+    - ''
+    - Good Newbie Round Shield
+    - Shield 5 (Dfs +12, Spl Dfs +10)
+  - - 2,90%
+    - ''
+    - Fiend Incantation Shoes
+    - Vestment 1 (Dfs +6, Spl Dfs +10, Ag.+7)
+  - - 2,90%
+    - ''
+    - Fiend Cuff
+    - Garment 2 (Dfs +18, Spl Dfs +3, Rig.+17)
+  - - 2,90%
+    - ''
+    - Silver Round Shield
+    - Shield 5 (Dfs +30, Spl Dfs +21)
+  row_count: 7

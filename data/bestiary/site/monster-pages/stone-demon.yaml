@@ -1,0 +1,230 @@
+monster_page:
+  id: stone-demon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:stone-demon
+    retrieval_url: https://web.archive.org/web/20200220220401id_/http://angels.wikidot.com:80/monster:stone-demon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220220401'
+    archive_snapshot_url: https://web.archive.org/web/20200220220401/http://angels.wikidot.com:80/monster:stone-demon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:stone-demon
+    source_html_sha256: 91ac6e9b63b3e9522d6fffb3125223cac64b37f96da498a74f80c24e4c1650ff
+fields_raw:
+  Name: 'Spells:'
+  Stone Demon: '-'
+  'Spells:': 'Location:'
+  '-': Sky Pumice
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '105'
+  Hit Points: '9015'
+  Rigor: '617'
+  Agility: '327'
+  Attack: '1379'
+  Defense: '1550'
+  Spell Attack: '899'
+  Spell Defense: '411'
+  Special Attack: +65 Fire
+  Special Defense: +85 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '5475'
+  Gold: 397 - 505
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: stone-demon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Battle Horn Cuffs
+  chance_to_drop_raw: 96.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.64%
+    Icon: ''
+    Item: Battle Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.64
+    quantity: null
+- drop_id: stone-demon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodBattle Horn Cuffs
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodBattle Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: stone-demon__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Steel Horn Cuffs
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Steel Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: stone-demon__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Light Rune Piece
+  chance_to_drop_raw: 0.84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.84%
+    Icon: ''
+    Item: Red Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.84
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Stone Demon
+  - ''
+  rows_raw:
+  - - Name
+    - Stone Demon
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sky Pumice
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '105'
+    - '9015'
+    - '617'
+    - '327'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1379'
+    - '1550'
+    - '899'
+    - '411'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +65 Fire
+    - +85 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '5475'
+    - 397 - 505
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.64%
+    - ''
+    - Battle Horn Cuffs
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodBattle Horn Cuffs
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Steel Horn Cuffs
+    - ITEM NOTES
+  - - 0.84%
+    - ''
+    - Red Light Rune Piece
+    - ITEM NOTES
+  row_count: 5

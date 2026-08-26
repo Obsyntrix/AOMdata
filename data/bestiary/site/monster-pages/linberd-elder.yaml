@@ -1,0 +1,249 @@
+monster_page:
+  id: linberd-elder
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:linberd-elder
+    retrieval_url: https://web.archive.org/web/20200120000946id_/http://angels.wikidot.com:80/monster:linberd-elder
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200120000946'
+    archive_snapshot_url: https://web.archive.org/web/20200120000946/http://angels.wikidot.com:80/monster:linberd-elder
+    archive_original_lookup_url: https://angels.wikidot.com/monster:linberd-elder
+    source_html_sha256: 9e6513c6e4a7858306d5350762d2cabb3b2590677a4ef736c4d6efdd6514098c
+fields_raw:
+  Name: 'Description:'
+  Linberd Elder: It is one of the smartest sea creatures. Its behavior always shows it has intellegience. This species has been highly revered by other sea creatures.
+    - Icy Storm Single Ranged | Dmg 264-284 Ice Dmg +98 | Speed -20% | 8 sec - Frozen Trap Self AOE | Dmg 108-132 Ice Dmg +103 | Stop (90%) | 10 sec
+  'Description:': 'Location:'
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '96'
+  Hit Points: '7840'
+  Rigor: '517'
+  Agility: '315'
+  Attack: '1708'
+  Defense: '1329'
+  Spell Attack: '716'
+  Spell Defense: '400'
+  Special Attack: Fire +51
+  Special Defense: '38'
+  Strong Against: Rotten (68)
+  Weak Against: Ice (8)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1893'
+  Gold: 1009 - 1205 (1107)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: linberd-elder__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Hood
+  chance_to_drop_raw: 95,62%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,62%
+    Icon: ''
+    Item: Espial Hood
+    Short info: Vestment 98
+  normalized:
+    chance_to_drop_percent: 95.62
+    quantity: null
+- drop_id: linberd-elder__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Hood
+  chance_to_drop_raw: 2,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,39%
+    Icon: ''
+    Item: Good Espial Hood
+    Short info: Vestment 98
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: linberd-elder__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Hat
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Magnetic Hat
+    Short info: Vestment 98
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: linberd-elder__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 1,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,20%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: linberd-elder__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Hood
+  chance_to_drop_raw: 0,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,78%
+    Icon: ''
+    Item: D.Plan2:Espial Hood
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Linberd Elder
+  - ''
+  rows_raw:
+  - - Name
+    - Linberd Elder
+    - ''
+  - - 'Description:'
+    - It is one of the smartest sea creatures. Its behavior always shows it has intellegience. This species has been highly revered by other sea creatures. - Icy
+      Storm Single Ranged | Dmg 264-284 Ice Dmg +98 | Speed -20% | 8 sec - Frozen Trap Self AOE | Dmg 108-132 Ice Dmg +103 | Stop (90%) | 10 sec
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '96'
+    - '7840'
+    - '517'
+    - '315'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1708'
+    - '1329'
+    - '716'
+    - '400'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +51
+    - '38'
+    - Rotten (68)
+    - Ice (8)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1893'
+    - 1009 - 1205 (1107)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,62%
+    - ''
+    - Espial Hood
+    - Vestment 98
+  - - 2,39%
+    - ''
+    - Good Espial Hood
+    - Vestment 98
+  - - ??,??%
+    - ''
+    - Magnetic Hat
+    - Vestment 98
+  - - 1,20%
+    - ''
+    - Flawless Emerald
+    - 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  - - 0,78%
+    - ''
+    - D.Plan2:Espial Hood
+    - Sew 95
+  row_count: 6

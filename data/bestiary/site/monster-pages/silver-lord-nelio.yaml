@@ -1,0 +1,392 @@
+monster_page:
+  id: silver-lord-nelio
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:silver-lord-nelio
+    retrieval_url: https://web.archive.org/web/20180306190641id_/http://angels.wikidot.com:80/monster:silver-lord-nelio
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20180306190641'
+    archive_snapshot_url: https://web.archive.org/web/20180306190641/http://angels.wikidot.com:80/monster:silver-lord-nelio
+    archive_original_lookup_url: https://angels.wikidot.com/monster:silver-lord-nelio
+    source_html_sha256: 5b903d9fdf0a632cb7952a17dc9618bcd63fb2623c4e4b5a3cdb2b02e81ba848
+fields_raw:
+  Name: 'Spells:'
+  Silver Lord Nelio: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '125'
+  Hit Points: '59149'
+  Rigor: '657'
+  Agility: '399'
+  Attack: '2140'
+  Defense: '2459'
+  Spell Attack: '1949'
+  Spell Defense: '1844'
+  Special Attack: +63 Ice
+  Special Defense: +83 Ice
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '43814'
+  Gold: 2602 - 3312 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: silver-lord-nelio__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Target Potion
+  chance_to_drop_raw: 45,73%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,73%
+    Icon: ''
+    Item: Effective Target Potion
+    Short info: +50 Rigor/10minutes
+  normalized:
+    chance_to_drop_percent: 45.73
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Magic Fruit
+  chance_to_drop_raw: 45,73%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 45,73%
+    Icon: ''
+    Item: Effective Magic Fruit
+    Short info: +65 Spell Attack/10minutes
+  normalized:
+    chance_to_drop_percent: 45.73
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Love Bow
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Love Bow
+    Short info: Lvl 120
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wild Beast Helmet
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Wild Beast Helmet
+    Short info: Lvl 120 Garment
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby Shield
+  chance_to_drop_raw: 2,5%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,5%
+    Icon: ''
+    Item: Ruby Shield
+    Short info: Lvl 120 Shield
+  normalized:
+    chance_to_drop_percent: 2.5
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Love Bow
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Love Bow
+    Short info: Lvl 120
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wild Beast Helmet
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Wild Beast Helmet
+    Short info: Lvl 120 Garment
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Ruby Shield
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Ruby Shield
+    Short info: Lvl 120 Shield
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Light Rune Piece
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Purple Light Rune Piece
+    Short info: Lvl 100 Rune
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wild Beast Helmet
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: A.Plan2:Wild Beast Helmet
+    Short info: Armorsmith's plan
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Ruby Shield
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: A.Plan2:Ruby Shield
+    Short info: Armorsmith's plan
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: silver-lord-nelio__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Love Bow
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: W.Plan2:Love Bow
+    Short info: Weaponsmith's plan
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Silver Lord Nelio
+  - ''
+  rows_raw:
+  - - Name
+    - Silver Lord Nelio
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '125'
+    - '59149'
+    - '657'
+    - '399'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2140'
+    - '2459'
+    - '1949'
+    - '1844'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +63 Ice
+    - +83 Ice
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '43814'
+    - 2602 - 3312 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 45,73%
+    - ''
+    - Effective Target Potion
+    - +50 Rigor/10minutes
+  - - 45,73%
+    - ''
+    - Effective Magic Fruit
+    - +65 Spell Attack/10minutes
+  - - 2,5%
+    - ''
+    - Love Bow
+    - Lvl 120
+  - - 2,5%
+    - ''
+    - Wild Beast Helmet
+    - Lvl 120 Garment
+  - - 2,5%
+    - ''
+    - Ruby Shield
+    - Lvl 120 Shield
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,11%
+    - ''
+    - Good Love Bow
+    - Lvl 120
+  - - 0,11%
+    - ''
+    - Good Wild Beast Helmet
+    - Lvl 120 Garment
+  - - 0,11%
+    - ''
+    - Good Ruby Shield
+    - Lvl 120 Shield
+  - - 0,05%
+    - ''
+    - Purple Light Rune Piece
+    - Lvl 100 Rune
+  - - 0,04%
+    - ''
+    - A.Plan2:Wild Beast Helmet
+    - Armorsmith's plan
+  - - 0,04%
+    - ''
+    - A.Plan2:Ruby Shield
+    - Armorsmith's plan
+  - - 0,04%
+    - ''
+    - W.Plan2:Love Bow
+    - Weaponsmith's plan
+  row_count: 14

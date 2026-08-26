@@ -1,0 +1,266 @@
+monster_page:
+  id: water-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:water-elf
+    retrieval_url: https://web.archive.org/web/20200109172228id_/http://angels.wikidot.com:80/monster:water-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172228'
+    archive_snapshot_url: https://web.archive.org/web/20200109172228/http://angels.wikidot.com:80/monster:water-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:water-elf
+    source_html_sha256: 7b0aa73925d693025a8f61b0dd9783c16a63f39c0e249df7d889e09cee6c28a0
+fields_raw:
+  Name: 'Description:'
+  Water Elf: An elemental incarnation of water. Makes an excellent pet due to the calming sound of a small waterfall it makes at night. Capable of spitting at high
+    velocity.
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '4'
+  Hit Points: '162'
+  Rigor: '32'
+  Agility: '24'
+  Attack: '41'
+  Defense: '41'
+  Spell Attack: '33'
+  Spell Defense: '21'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,39%
+  Experience: '41'
+  Gold: 10 - 14 (12)
+item_drop_chance_raw: 0,39%
+drops:
+- drop_id: water-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Gloves
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Heavy Gloves
+    Short info: Garment 2 (Dfs +7, Spl Dfs +1, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: water-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Light Gloves
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Light Gloves
+    Short info: Mantle 2 (Dfs +5, Spl Dfs +2, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: water-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Gloves
+  chance_to_drop_raw: 30,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,77%
+    Icon: ''
+    Item: Good Newbie Incantation Gloves
+    Short info: Vestment 2 (Dfs +2, Spl Dfs +3, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.77
+    quantity: null
+- drop_id: water-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Cuff
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Cuff
+    Short info: Garment 2 (Dfs +18, Spl Dfs +3, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+- drop_id: water-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Wristlet
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Wristlet
+    Short info: Mantle 2 (Dfs +12, Spl Dfs +7, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+- drop_id: water-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Gloves
+  chance_to_drop_raw: 2,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,56%
+    Icon: ''
+    Item: Fiend Gloves
+    Short info: Vestment 2 (Dfs +6, Spl Dfs +10, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.56
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Water Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Water Elf
+    - ''
+  - - 'Description:'
+    - An elemental incarnation of water. Makes an excellent pet due to the calming sound of a small waterfall it makes at night. Capable of spitting at high velocity.
+    - ''
+  - - 'Location:'
+    - East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '4'
+    - '162'
+    - '32'
+    - '24'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '41'
+    - '41'
+    - '33'
+    - '21'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,39%
+    - '41'
+    - 10 - 14 (12)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,77%
+    - ''
+    - Good Newbie Heavy Gloves
+    - Garment 2 (Dfs +7, Spl Dfs +1, Rig.+7)
+  - - 30,77%
+    - ''
+    - Good Newbie Light Gloves
+    - Mantle 2 (Dfs +5, Spl Dfs +2, Rig.+7)
+  - - 30,77%
+    - ''
+    - Good Newbie Incantation Gloves
+    - Vestment 2 (Dfs +2, Spl Dfs +3, Rig.+7)
+  - - 2,56%
+    - ''
+    - Fiend Cuff
+    - Garment 2 (Dfs +18, Spl Dfs +3, Rig.+17)
+  - - 2,56%
+    - ''
+    - Fiend Wristlet
+    - Mantle 2 (Dfs +12, Spl Dfs +7, Rig.+17)
+  - - 2,56%
+    - ''
+    - Fiend Gloves
+    - Vestment 2 (Dfs +6, Spl Dfs +10, Rig.+17)
+  row_count: 7

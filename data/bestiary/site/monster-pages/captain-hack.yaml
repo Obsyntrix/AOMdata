@@ -1,0 +1,338 @@
+monster_page:
+  id: captain-hack
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:captain-hack
+    retrieval_url: https://web.archive.org/web/20200128132649id_/http://angels.wikidot.com:80/monster:captain-hack
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128132649'
+    archive_snapshot_url: https://web.archive.org/web/20200128132649/http://angels.wikidot.com:80/monster:captain-hack
+    archive_original_lookup_url: https://angels.wikidot.com/monster:captain-hack
+    source_html_sha256: 296a64c103899aa3d5759d97cf11d031e0b3a0f275f783ac631053f17ed9e3c5
+fields_raw:
+  Name: 'Spells:'
+  Captain Hack: Poison Hit Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+  'Spells:': 'Location:'
+  Poison Hit Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec: Quiet Ocean
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '100'
+  Hit Points: '43532'
+  Rigor: '612'
+  Agility: '372'
+  Attack: '1330'
+  Defense: '1886'
+  Spell Attack: '846'
+  Spell Defense: '498'
+  Special Attack: Thunder +55
+  Special Defense: '43'
+  Strong Against: Ice (73)
+  Weak Against: Rotten (13)
+  Attack Range: Long (12)
+  Speed: Super fast (130)
+  Attack Speed: Very Fast (100)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '35676'
+  Gold: 5970 - 7058 (6514)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: captain-hack__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Target Potion
+  chance_to_drop_raw: 92,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 92,18%
+    Icon: ''
+    Item: Effective Target Potion
+    Short info: Food (Rig +50 | 10 min)
+  normalized:
+    chance_to_drop_percent: 92.18
+    quantity: null
+- drop_id: captain-hack__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rage Lance
+  chance_to_drop_raw: 3,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,36%
+    Icon: ''
+    Item: Rage Lance
+    Short info: Spear Lvl 100 (Atk 907-943 (925), Rig +46)
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: captain-hack__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Boots
+  chance_to_drop_raw: 3,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,36%
+    Icon: ''
+    Item: Espial Boots
+    Short info: Vestment 96 (Dfs +72, Spl Dfs +60, Ag +32)
+  normalized:
+    chance_to_drop_percent: 3.36
+    quantity: null
+- drop_id: captain-hack__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Rage Lance
+  chance_to_drop_raw: 0,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,17%
+    Icon: ''
+    Item: Good Rage Lance
+    Short info: Spear Lvl 100 (Atk 1149-1185 (1167), Rig +51)
+  normalized:
+    chance_to_drop_percent: 0.17
+    quantity: null
+- drop_id: captain-hack__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Boots
+  chance_to_drop_raw: 0,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,17%
+    Icon: ''
+    Item: Good Espial Boots
+    Short info: Vestment 96 (Dfs +90, Spl Dfs +78, Ag +36)
+  normalized:
+    chance_to_drop_percent: 0.17
+    quantity: null
+- drop_id: captain-hack__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: captain-hack__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: W.Plan2:Rage Lance
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: W.Plan2:Rage Lance
+    Short info: Weapon 95
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: captain-hack__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Boots
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: D.Plan2:Espial Boots
+    Short info: Sew 95
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: captain-hack__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Sapphire
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawless Sapphire
+    Short info: 'Weapon: I.Atk +24, Armor: Max. MP +81, Shield: I.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: captain-hack__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 1: Swift Cut 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 1: Swift Cut 5'
+    Short info: Sword stance
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Captain Hack
+  - ''
+  rows_raw:
+  - - Name
+    - Captain Hack
+    - ''
+  - - 'Spells:'
+    - Poison Hit Single Ranged | Dmg 114-226 Rotten Dmg +103 | HP -150 x5 | 21 sec
+    - ''
+  - - 'Location:'
+    - Quiet Ocean
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '43532'
+    - '612'
+    - '372'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1330'
+    - '1886'
+    - '846'
+    - '498'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +55
+    - '43'
+    - Ice (73)
+    - Rotten (13)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Long (12)
+    - Super fast (130)
+    - Very Fast (100)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '35676'
+    - 5970 - 7058 (6514)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 92,18%
+    - ''
+    - Effective Target Potion
+    - Food (Rig +50 | 10 min)
+  - - 3,36%
+    - ''
+    - Rage Lance
+    - Spear Lvl 100 (Atk 907-943 (925), Rig +46)
+  - - 3,36%
+    - ''
+    - Espial Boots
+    - Vestment 96 (Dfs +72, Spl Dfs +60, Ag +32)
+  - - 0,17%
+    - ''
+    - Good Rage Lance
+    - Spear Lvl 100 (Atk 1149-1185 (1167), Rig +51)
+  - - 0,17%
+    - ''
+    - Good Espial Boots
+    - Vestment 96 (Dfs +90, Spl Dfs +78, Ag +36)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,06%
+    - ''
+    - W.Plan2:Rage Lance
+    - Weapon 95
+  - - 0,06%
+    - ''
+    - D.Plan2:Espial Boots
+    - Sew 95
+  - - 0,10%
+    - ''
+    - Flawless Sapphire
+    - 'Weapon: I.Atk +24, Armor: Max. MP +81, Shield: I.Dfs +5'
+  - - 0,01%
+    - ''
+    - 'Stance 1: Swift Cut 5'
+    - Sword stance
+  row_count: 11

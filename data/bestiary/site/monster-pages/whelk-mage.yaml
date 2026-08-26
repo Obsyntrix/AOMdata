@@ -1,0 +1,321 @@
+monster_page:
+  id: whelk-mage
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:whelk-mage
+    retrieval_url: https://web.archive.org/web/20191230110022id_/http://angels.wikidot.com:80/monster:whelk-mage
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110022'
+    archive_snapshot_url: https://web.archive.org/web/20191230110022/http://angels.wikidot.com:80/monster:whelk-mage
+    archive_original_lookup_url: https://angels.wikidot.com/monster:whelk-mage
+    source_html_sha256: b64e09f9a2f7f23252a322a618da2f240f09497d9b3dac73e6b5a0a0f405563f
+fields_raw:
+  Name: 'Description:'
+  Whelk Mage: It has been studying magic for many years, and likes being alone. Anyone disturbing it will be severely punished. - Icy Storm Single Ranged | Dmg 166-186
+    Ice Dmg +90 | Speed -20% - Mighty Cure HP +500
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '75'
+  Hit Points: '2956'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '557'
+  Defense: '821'
+  Magic Attack: '527'
+  Magic Defense: '509'
+  Special Attack: Thunder +40
+  Special Defense: '28'
+  Strong Against: Ice (58)
+  Weak Against: Rotten (0)
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 2,11%
+  Experience: '937'
+  Gold: 351 - 425 (388)
+item_drop_chance_raw: 2,11%
+drops:
+- drop_id: whelk-mage__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Shell
+  chance_to_drop_raw: 94,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94,60%
+    Icon: ''
+    Item: Whelk Shell
+    Short info: Quest Item
+  normalized:
+    chance_to_drop_percent: 94.6
+    quantity: null
+- drop_id: whelk-mage__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Helmet
+  chance_to_drop_raw: 2,25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,25%
+    Icon: ''
+    Item: Hunter Helmet
+    Short info: Mantle 78 (Dfs +149, Spl Dfs +47)
+  normalized:
+    chance_to_drop_percent: 2.25
+    quantity: null
+- drop_id: whelk-mage__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rotten Shield
+  chance_to_drop_raw: 2,25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,25%
+    Icon: ''
+    Item: Rotten Shield
+    Short info: Shield 80 (Dfs +224, Spl Dfs +81)
+  normalized:
+    chance_to_drop_percent: 2.25
+    quantity: null
+- drop_id: whelk-mage__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Whelk Wand Card
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Whelk Wand Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+- drop_id: whelk-mage__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Helmet
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Good Hunter Helmet
+    Short info: Mantle 78 (Dfs +190, Spl Dfs +53)
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: whelk-mage__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Rotten Shield
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Good Rotten Shield
+    Short info: Shield 80 (Dfs +286, Spl Dfs +92)
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: whelk-mage__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Yellow Gem
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Clean Yellow Gem
+    Short info: 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: whelk-mage__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Helmet
+  chance_to_drop_raw: <0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0,01%
+    Icon: ''
+    Item: Forest Helmet
+    Short info: Mantle 78 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: whelk-mage__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Shield
+  chance_to_drop_raw: <0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0,01%
+    Icon: ''
+    Item: Holy Shield
+    Short info: Shield 80 (Dfs +360, Spl Dfs +103)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Whelk Mage
+  - ''
+  rows_raw:
+  - - Name
+    - Whelk Mage
+    - ''
+  - - 'Description:'
+    - It has been studying magic for many years, and likes being alone. Anyone disturbing it will be severely punished. - Icy Storm Single Ranged | Dmg 166-186 Ice
+      Dmg +90 | Speed -20% - Mighty Cure HP +500
+    - ''
+  - - 'Location:'
+    - Colorful Coral Reefs , Wave Harbor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '2956'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '557'
+    - '821'
+    - '527'
+    - '509'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +40
+    - '28'
+    - Ice (58)
+    - Rotten (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,11%
+    - '937'
+    - 351 - 425 (388)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94,60%
+    - ''
+    - Whelk Shell
+    - Quest Item
+  - - 2,25%
+    - ''
+    - Hunter Helmet
+    - Mantle 78 (Dfs +149, Spl Dfs +47)
+  - - 2,25%
+    - ''
+    - Rotten Shield
+    - Shield 80 (Dfs +224, Spl Dfs +81)
+  - - 0,66%
+    - ''
+    - Whelk Wand Card
+    - 'See: Card Collection'
+  - - 0,08%
+    - ''
+    - Good Hunter Helmet
+    - Mantle 78 (Dfs +190, Spl Dfs +53)
+  - - 0,08%
+    - ''
+    - Good Rotten Shield
+    - Shield 80 (Dfs +286, Spl Dfs +92)
+  - - 0,08%
+    - ''
+    - Clean Yellow Gem
+    - 'Weapon: T.Atk +14, Armor: Ag. +8, Shield: T.Dfs +4'
+  - - <0,01%
+    - ''
+    - Forest Helmet
+    - Mantle 78 (Dfs +240, Spl Dfs +60)
+  - - <0,01%
+    - ''
+    - Holy Shield
+    - Shield 80 (Dfs +360, Spl Dfs +103)
+  row_count: 10

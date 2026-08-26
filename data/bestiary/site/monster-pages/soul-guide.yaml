@@ -1,0 +1,357 @@
+monster_page:
+  id: soul-guide
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:soul-guide
+    retrieval_url: https://web.archive.org/web/20200203143514id_/http://angels.wikidot.com:80/monster:soul-guide
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200203143514'
+    archive_snapshot_url: https://web.archive.org/web/20200203143514/http://angels.wikidot.com:80/monster:soul-guide
+    archive_original_lookup_url: https://angels.wikidot.com/monster:soul-guide
+    source_html_sha256: 2a98c9a0fd19c36b00e8eaec448bebedf6cffc4c4011de595eb7334185c7e096
+fields_raw:
+  Name: 'Spells:'
+  Soul Guide: Blood-sucking Spell
+  'Spells:': 'Location:'
+  Blood-sucking Spell: Flaming Door
+  Type: Undead
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '80'
+  Hit Points: '31239'
+  Rigor: '437'
+  Agility: '267'
+  Attack: '1293'
+  Defense: '989'
+  Magic Attack: '597'
+  Magic Defense: '339'
+  Special Attack: Thunder +40
+  Special Defense: '30'
+  Strong Against: Ice(60)
+  Weak Against: Rotten(0)
+  Attack Range: Short (1)
+  Speed: Very Fast (115)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '34032'
+  Gold: 2777 - 4277 (3527)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: soul-guide__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Evil Fruit
+  chance_to_drop_raw: 48.84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.84%
+    Icon: ''
+    Item: Great Evil Fruit
+    Short info: Food (Spl. Def. +65| 10min)
+  normalized:
+    chance_to_drop_percent: 48.84
+    quantity: null
+- drop_id: soul-guide__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Target Potion
+  chance_to_drop_raw: 48.84%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.84%
+    Icon: ''
+    Item: Great Target Potion
+    Short info: Food (Rig. +44| 10min)
+  normalized:
+    chance_to_drop_percent: 48.84
+    quantity: null
+- drop_id: soul-guide__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Boots
+  chance_to_drop_raw: 1.52%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.52%
+    Icon: ''
+    Item: Fire Scale Boots
+    Short info: Garment 76 (Dfs +134, Spl Dfs +16, Ag +26)
+  normalized:
+    chance_to_drop_percent: 1.52
+    quantity: null
+- drop_id: soul-guide__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: soul-guide__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Boots
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Good Fire Scale Boots
+    Short info: Garment 76 (Dfs +171, Spl Dfs +18, Ag +29)
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: soul-guide__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 0.09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.09%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: soul-guide__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Mage Gown'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'D.Plan2: Mage Gown'
+    Short info: Sew 75
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: soul-guide__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'C.Plan2: Light Necklace'
+  chance_to_drop_raw: 0.02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.02%
+    Icon: ''
+    Item: 'C.Plan2: Light Necklace'
+    Short info: Technics 75
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: soul-guide__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Boots
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Embrace Boots
+    Short info: Garment 76 (Dfs +216, Spl Dfs +20, Ag +32)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: soul-guide__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 3: Endless Energy 5'
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: 'Stance 3: Endless Energy 5'
+    Short info: Spear 80
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: soul-guide__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 4: Bear Shift 5'
+  chance_to_drop_raw: <0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: <0.01%
+    Icon: ''
+    Item: 'Scroll 4: Bear Shift 5'
+    Short info: Earth 76
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Soul Guide
+  - ''
+  rows_raw:
+  - - Name
+    - Soul Guide
+    - ''
+  - - 'Spells:'
+    - Blood-sucking Spell
+    - ''
+  - - 'Location:'
+    - Flaming Door
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Undead
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '80'
+    - '31239'
+    - '437'
+    - '267'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1293'
+    - '989'
+    - '597'
+    - '339'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +40
+    - '30'
+    - Ice(60)
+    - Rotten(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (115)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '34032'
+    - 2777 - 4277 (3527)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.84%
+    - ''
+    - Great Evil Fruit
+    - Food (Spl. Def. +65| 10min)
+  - - 48.84%
+    - ''
+    - Great Target Potion
+    - Food (Rig. +44| 10min)
+  - - 1.52%
+    - ''
+    - Fire Scale Boots
+    - Garment 76 (Dfs +134, Spl Dfs +16, Ag +26)
+  - - 0.54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.11%
+    - ''
+    - Good Fire Scale Boots
+    - Garment 76 (Dfs +171, Spl Dfs +18, Ag +29)
+  - - 0.09%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+    - ''
+  - - 0.02%
+    - ''
+    - 'D.Plan2: Mage Gown'
+    - Sew 75
+  - - 0.02%
+    - ''
+    - 'C.Plan2: Light Necklace'
+    - Technics 75
+  - - 0.01%
+    - ''
+    - Embrace Boots
+    - Garment 76 (Dfs +216, Spl Dfs +20, Ag +32)
+  - - <0.01%
+    - ''
+    - 'Stance 3: Endless Energy 5'
+    - Spear 80
+  - - <0.01%
+    - ''
+    - 'Scroll 4: Bear Shift 5'
+    - Earth 76
+  row_count: 12

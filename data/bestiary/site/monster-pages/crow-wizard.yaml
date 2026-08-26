@@ -1,0 +1,392 @@
+monster_page:
+  id: crow-wizard
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:crow-wizard
+    retrieval_url: https://web.archive.org/web/20191230110123id_/http://angels.wikidot.com:80/monster:crow-wizard
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110123'
+    archive_snapshot_url: https://web.archive.org/web/20191230110123/http://angels.wikidot.com:80/monster:crow-wizard
+    archive_original_lookup_url: https://angels.wikidot.com/monster:crow-wizard
+    source_html_sha256: 1e3361def6dc880f1d5b5bdeb21398b3b7550b474372db4349ac43e80f13587c
+fields_raw:
+  Name: 'Spells:'
+  Crow Wizard: Magic Bomb Single Ranged | Dmg 107-111
+  'Spells:': 'Location:'
+  Magic Bomb Single Ranged | Dmg 107-111: Bottomless Pit
+  Type: Undead
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '18'
+  Hit Points: '364'
+  Rigor: '102'
+  Agility: '66'
+  Attack: '111'
+  Defense: '132'
+  Spell Attack: '98'
+  Spell Defense: '98'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 5,53%
+  Experience: '151'
+  Gold: 27 - 45 (36)
+item_drop_chance_raw: 5,53%
+drops:
+- drop_id: crow-wizard__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 57,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 57,47%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 57.47
+    quantity: null
+- drop_id: crow-wizard__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Hook
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Hook
+    Short info: Spear Lvl 15 (Atk 39-51 (45), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crow-wizard__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Catapult
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Catapult
+    Short info: Bow Lvl 15 (Atk 18-28 (23), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crow-wizard__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Staff
+  chance_to_drop_raw: 11,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,50%
+    Icon: ''
+    Item: Basic Staff
+    Short info: Staff Lvl 15 (Atk 19-31 (25), Spl Atk +10, Rig.+2)
+  normalized:
+    chance_to_drop_percent: 11.5
+    quantity: null
+- drop_id: crow-wizard__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Hook
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Hook
+    Short info: Spear Lvl 15 (Atk 73-85 (79), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crow-wizard__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Slingshot
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Slingshot
+    Short info: Bow Lvl 15 (Atk 43-53 (48), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crow-wizard__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Staff
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Basic Staff
+    Short info: Staff Lvl 15 (Atk 46-58 (52), Spl Atk +32, Rig.+4)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: crow-wizard__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Emerald Piece
+    Short info: 'Weapon: R.Atk +2, Armor: Rg. +2, Shield: R.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crow-wizard__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Sapphire Piece
+    Short info: 'Weapon: I.Atk +2, Armor: Max. MP +8, Shield: I.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crow-wizard__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Gem Piece
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Purple Gem Piece
+    Short info: 'Weapon: Spl Atk +10, Armor: Spl Dfs +3, Shield: Spl Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: crow-wizard__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Curse Hook
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Curse Hook
+    Short info: Spear Lvl 15 (Atk 120-132 (126), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: crow-wizard__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Raid Slingshot
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Raid Slingshot
+    Short info: Bow Lvl 15 (Atk 80-90 (85), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: crow-wizard__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Wood Staff
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Holy Wood Staff
+    Short info: Staff Lvl 15 (Atk 85-97 (91), Spl Atk +63, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Crow Wizard
+  - ''
+  rows_raw:
+  - - Name
+    - Crow Wizard
+    - ''
+  - - 'Spells:'
+    - Magic Bomb Single Ranged | Dmg 107-111
+    - ''
+  - - 'Location:'
+    - Bottomless Pit
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '18'
+    - '364'
+    - '102'
+    - '66'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '111'
+    - '132'
+    - '98'
+    - '98'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 5,53%
+    - '151'
+    - 27 - 45 (36)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 57,47%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,50%
+    - ''
+    - Basic Hook
+    - Spear Lvl 15 (Atk 39-51 (45), Rig.+4)
+  - - 11,50%
+    - ''
+    - Basic Catapult
+    - Bow Lvl 15 (Atk 18-28 (23), Rig.+4)
+  - - 11,50%
+    - ''
+    - Basic Staff
+    - Staff Lvl 15 (Atk 19-31 (25), Spl Atk +10, Rig.+2)
+  - - 1,92%
+    - ''
+    - Good Basic Hook
+    - Spear Lvl 15 (Atk 73-85 (79), Rig.+9)
+  - - 1,92%
+    - ''
+    - Good Basic Slingshot
+    - Bow Lvl 15 (Atk 43-53 (48), Rig.+9)
+  - - 1,92%
+    - ''
+    - Good Basic Staff
+    - Staff Lvl 15 (Atk 46-58 (52), Spl Atk +32, Rig.+4)
+  - - 0,58%
+    - ''
+    - Emerald Piece
+    - 'Weapon: R.Atk +2, Armor: Rg. +2, Shield: R.Dfs +1'
+  - - 0,58%
+    - ''
+    - Sapphire Piece
+    - 'Weapon: I.Atk +2, Armor: Max. MP +8, Shield: I.Dfs +1'
+  - - 0,58%
+    - ''
+    - Purple Gem Piece
+    - 'Weapon: Spl Atk +10, Armor: Spl Dfs +3, Shield: Spl Dfs +3'
+  - - 0,19%
+    - ''
+    - Curse Hook
+    - Spear Lvl 15 (Atk 120-132 (126), Rig.+14)
+  - - 0,19%
+    - ''
+    - Raid Slingshot
+    - Bow Lvl 15 (Atk 80-90 (85), Rig.+14)
+  - - 0,19%
+    - ''
+    - Holy Wood Staff
+    - Staff Lvl 15 (Atk 85-97 (91), Spl Atk +63, Rig.+7)
+  row_count: 14

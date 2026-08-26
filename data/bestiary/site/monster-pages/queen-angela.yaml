@@ -1,0 +1,538 @@
+monster_page:
+  id: queen-angela
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:queen-angela
+    retrieval_url: https://web.archive.org/web/20200220215832id_/http://angels.wikidot.com:80/monster:queen-angela
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220215832'
+    archive_snapshot_url: https://web.archive.org/web/20200220215832/http://angels.wikidot.com:80/monster:queen-angela
+    archive_original_lookup_url: https://angels.wikidot.com/monster:queen-angela
+    source_html_sha256: 6930e5360f4e7b1875f2f41e433ef715c12051d1479ef89168a249d5a84c7f29
+fields_raw:
+  Name: 'Stances:'
+  Queen Angela: Double Shoot Single Ranged | Power 79 - Bomb Snipe Ranged AOE | Power 284
+  'Stances:': 'Location:'
+  Double Shoot Single Ranged | Power 79 - Bomb Snipe Ranged AOE | Power 284: Mysterious Garden
+  Type: Plant
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '12641'
+  Rigor: '212'
+  Agility: '132'
+  Attack: '486'
+  Defense: '325'
+  Spell Attack: '258'
+  Spell Defense: '256'
+  Special Attack: '-'
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Long (12)
+  Speed: Very Fast (100)
+  Attack Speed: Very Fast (100)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '870'
+  Gold: 551 - 899 (725)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: queen-angela__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Target Potion
+  chance_to_drop_raw: 15,25%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,25%
+    Icon: ''
+    Item: Target Potion
+    Short info: Food (Rig. +8 | 10 min)
+  normalized:
+    chance_to_drop_percent: 15.25
+    quantity: null
+- drop_id: queen-angela__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Agility Potion
+  chance_to_drop_raw: 13,86%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,86%
+    Icon: ''
+    Item: Agility Potion
+    Short info: Food (Ag. +6 | 10 min)
+  normalized:
+    chance_to_drop_percent: 13.86
+    quantity: null
+- drop_id: queen-angela__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 12.48%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12.48%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 12.48
+    quantity: null
+- drop_id: queen-angela__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Thick Armor
+  chance_to_drop_raw: 12,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,00%
+    Icon: ''
+    Item: Traveller Thick Armor
+    Short info: Garment 24 (Dfs +53, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 12.0
+    quantity: null
+- drop_id: queen-angela__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Leather Vest
+  chance_to_drop_raw: 12,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,00%
+    Icon: ''
+    Item: Traveller Leather Vest
+    Short info: Mantle 24 (Dfs +35, Spl Dfs +14)
+  normalized:
+    chance_to_drop_percent: 12.0
+    quantity: null
+- drop_id: queen-angela__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Gown
+  chance_to_drop_raw: 12,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,00%
+    Icon: ''
+    Item: Traveller Gown
+    Short info: Vestment 24 (Dfs +18, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 12.0
+    quantity: null
+- drop_id: queen-angela__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of High Clerist
+  chance_to_drop_raw: 4,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,10%
+    Icon: ''
+    Item: Ring of High Clerist
+    Short info: Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  normalized:
+    chance_to_drop_percent: 4.1
+    quantity: null
+- drop_id: queen-angela__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Queen Angela Card
+  chance_to_drop_raw: 2,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,78%
+    Icon: ''
+    Item: Queen Angela Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 2.78
+    quantity: null
+- drop_id: queen-angela__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Thick Armor
+  chance_to_drop_raw: 2,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,75%
+    Icon: ''
+    Item: Good Traveller Thick Armor
+    Short info: Garment 24 (Dfs +92, Spl Dfs +11)
+  normalized:
+    chance_to_drop_percent: 2.75
+    quantity: null
+- drop_id: queen-angela__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Leather Vest
+  chance_to_drop_raw: 2,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,75%
+    Icon: ''
+    Item: Good Traveller Leather Vest
+    Short info: Mantle 24 (Dfs +62, Spl Dfs +22)
+  normalized:
+    chance_to_drop_percent: 2.75
+    quantity: null
+- drop_id: queen-angela__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Gown
+  chance_to_drop_raw: 2,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,75%
+    Icon: ''
+    Item: Good Traveller Gown
+    Short info: Vestment 24 (Dfs +31, Spl Dfs +34)
+  normalized:
+    chance_to_drop_percent: 2.75
+    quantity: null
+- drop_id: queen-angela__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 3: Basic Attack 5'
+  chance_to_drop_raw: 2.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.75%
+    Icon: ''
+    Item: 'Stance 3: Basic Attack 5'
+    Short info: Spear 24
+  normalized:
+    chance_to_drop_percent: 2.75
+    quantity: null
+- drop_id: queen-angela__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 4: Basic Shot 5'
+  chance_to_drop_raw: 2.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.75%
+    Icon: ''
+    Item: 'Stance 4: Basic Shot 5'
+    Short info: Bow 24
+  normalized:
+    chance_to_drop_percent: 2.75
+    quantity: null
+- drop_id: queen-angela__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Leather Armor
+  chance_to_drop_raw: 0,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,35%
+    Icon: ''
+    Item: Heavy Leather Armor
+    Short info: Garment 24 (Dfs +140, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 0.35
+    quantity: null
+- drop_id: queen-angela__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Light Leather Armor
+  chance_to_drop_raw: 0,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,35%
+    Icon: ''
+    Item: Light Leather Armor
+    Short info: Mantle 24 (Dfs +94, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 0.35
+    quantity: null
+- drop_id: queen-angela__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Protector's Gown
+  chance_to_drop_raw: 0,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,35%
+    Icon: ''
+    Item: Protector's Gown
+    Short info: Vestment 24 (Dfs +47, Spl Dfs +50)
+  normalized:
+    chance_to_drop_percent: 0.35
+    quantity: null
+- drop_id: queen-angela__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: queen-angela__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: queen-angela__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,23%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: queen-angela__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: queen-angela__t007r0022
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Monster Badge
+  chance_to_drop_raw: 2 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2 x
+    Icon: ''
+    Item: Silver Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Queen Angela
+  - ''
+  rows_raw:
+  - - Name
+    - Queen Angela
+    - ''
+  - - 'Stances:'
+    - Double Shoot Single Ranged | Power 79 - Bomb Snipe Ranged AOE | Power 284
+    - ''
+  - - 'Location:'
+    - Mysterious Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '12641'
+    - '212'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '486'
+    - '325'
+    - '258'
+    - '256'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Long (12)
+    - Very Fast (100)
+    - Very Fast (100)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '870'
+    - 551 - 899 (725)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 15,25%
+    - ''
+    - Target Potion
+    - Food (Rig. +8 | 10 min)
+  - - 13,86%
+    - ''
+    - Agility Potion
+    - Food (Ag. +6 | 10 min)
+  - - 12.48%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 12,00%
+    - ''
+    - Traveller Thick Armor
+    - Garment 24 (Dfs +53, Spl Dfs +7)
+  - - 12,00%
+    - ''
+    - Traveller Leather Vest
+    - Mantle 24 (Dfs +35, Spl Dfs +14)
+  - - 12,00%
+    - ''
+    - Traveller Gown
+    - Vestment 24 (Dfs +18, Spl Dfs +21)
+  - - 4,10%
+    - ''
+    - Ring of High Clerist
+    - Trinket Lvl 25 (Dfs +25, Spl Dfs +17, Rig. +13, Ag. +9)
+  - - 2,78%
+    - ''
+    - Queen Angela Card
+    - 'See: Card Collection'
+  - - 2,75%
+    - ''
+    - Good Traveller Thick Armor
+    - Garment 24 (Dfs +92, Spl Dfs +11)
+  - - 2,75%
+    - ''
+    - Good Traveller Leather Vest
+    - Mantle 24 (Dfs +62, Spl Dfs +22)
+  - - 2,75%
+    - ''
+    - Good Traveller Gown
+    - Vestment 24 (Dfs +31, Spl Dfs +34)
+  - - 2.75%
+    - ''
+    - 'Stance 3: Basic Attack 5'
+    - Spear 24
+  - - 2.75%
+    - ''
+    - 'Stance 4: Basic Shot 5'
+    - Bow 24
+  - - 0,35%
+    - ''
+    - Heavy Leather Armor
+    - Garment 24 (Dfs +140, Spl Dfs +15)
+  - - 0,35%
+    - ''
+    - Light Leather Armor
+    - Mantle 24 (Dfs +94, Spl Dfs +30)
+  - - 0,35%
+    - ''
+    - Protector's Gown
+    - Vestment 24 (Dfs +47, Spl Dfs +50)
+  - - 0,23%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max.HP +22, Shield: F.Dfs +2'
+  - - 0,23%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,23%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  - - 0,06%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - Badges
+    - ''
+  - - 2 x
+    - ''
+    - Silver Monster Badge
+    - ''
+  row_count: 23

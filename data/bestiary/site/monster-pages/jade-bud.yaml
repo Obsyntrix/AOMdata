@@ -1,0 +1,248 @@
+monster_page:
+  id: jade-bud
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:jade-bud
+    retrieval_url: https://web.archive.org/web/20170611153842id_/http://angels.wikidot.com:80/monster:jade-bud
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170611153842'
+    archive_snapshot_url: https://web.archive.org/web/20170611153842/http://angels.wikidot.com:80/monster:jade-bud
+    archive_original_lookup_url: https://angels.wikidot.com/monster:jade-bud
+    source_html_sha256: 4fc78020c4b73f72d55ac4d3123bbcd15c8c1e23b7298096831e502e380c5e03
+fields_raw:
+  Name: 'Spells:'
+  Jade Bud: '-'
+  'Spells:': 'Location:'
+  '-': Roam Battlefield
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '93'
+  Hit Points: '7785'
+  Rigor: '557'
+  Agility: '291'
+  Attack: '1093'
+  Defense: '1214'
+  Spell Attack: '670'
+  Spell Defense: '351'
+  Special Attack: +53 Fire
+  Special Defense: +73 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '3504'
+  Gold: 342 - 436
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: jade-bud__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Bracers
+  chance_to_drop_raw: 93.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 93.01%
+    Icon: ''
+    Item: Espial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 93.01
+    quantity: null
+- drop_id: jade-bud__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEspial Bracers
+  chance_to_drop_raw: 2.32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.32%
+    Icon: ''
+    Item: GoodEspial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.32
+    quantity: null
+- drop_id: jade-bud__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Bracers
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Magnetic Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: jade-bud__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Bracers
+  chance_to_drop_raw: 0.76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.76%
+    Icon: ''
+    Item: D.Plan2:Espial Bracers
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.76
+    quantity: null
+- drop_id: jade-bud__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 3.81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.81%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 3.81
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Jade Bud
+  - ''
+  rows_raw:
+  - - Name
+    - Jade Bud
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Roam Battlefield
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '93'
+    - '7785'
+    - '557'
+    - '291'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1093'
+    - '1214'
+    - '670'
+    - '351'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +53 Fire
+    - +73 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '3504'
+    - 342 - 436
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 93.01%
+    - ''
+    - Espial Bracers
+    - ITEM NOTES
+  - - 2.32%
+    - ''
+    - GoodEspial Bracers
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Magnetic Bracers
+    - ITEM NOTES
+  - - 0.76%
+    - ''
+    - D.Plan2:Espial Bracers
+    - ITEM NOTES
+  - - 3.81%
+    - ''
+    - Flawless Ruby
+    - ITEM NOTES
+  row_count: 6

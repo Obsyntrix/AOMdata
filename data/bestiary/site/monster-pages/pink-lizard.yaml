@@ -1,0 +1,302 @@
+monster_page:
+  id: pink-lizard
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:pink-lizard
+    retrieval_url: https://web.archive.org/web/20110907085813id_/http://angels.wikidot.com:80/monster:pink-lizard
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907085813'
+    archive_snapshot_url: https://web.archive.org/web/20110907085813/http://angels.wikidot.com:80/monster:pink-lizard
+    archive_original_lookup_url: https://angels.wikidot.com/monster:pink-lizard
+    source_html_sha256: beced145b1f78092327243f970613a692805deb50ed845efd0e663a1a3a7aede
+fields_raw:
+  Name: 'Spells:'
+  Pink Lizard: '-'
+  'Spells:': 'Location:'
+  '-': Ancient Front
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 375 - 475
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: pink-lizard__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Boots
+  chance_to_drop_raw: 47.47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.47%
+    Icon: ''
+    Item: Espial Boots
+    Short info: Lvl 96 Vestment
+  normalized:
+    chance_to_drop_percent: 47.47
+    quantity: null
+- drop_id: pink-lizard__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Life Wand
+  chance_to_drop_raw: 47.47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.47%
+    Icon: ''
+    Item: Life Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.47
+    quantity: null
+- drop_id: pink-lizard__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEspial Boots
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: GoodEspial Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+- drop_id: pink-lizard__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodLife Wand
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: GoodLife Wand
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+- drop_id: pink-lizard__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Boots
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Magnetic Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: pink-lizard__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Laduna's Claw
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Laduna's Claw
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: pink-lizard__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Boots
+  chance_to_drop_raw: 0.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.9%
+    Icon: ''
+    Item: D.Plan2:Espial Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.9
+    quantity: null
+- drop_id: pink-lizard__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Pink Lizard
+  - ''
+  rows_raw:
+  - - Name
+    - Pink Lizard
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ancient Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 375 - 475
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.47%
+    - ''
+    - Espial Boots
+    - Lvl 96 Vestment
+  - - 47.47%
+    - ''
+    - Life Wand
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - GoodEspial Boots
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - GoodLife Wand
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Magnetic Boots
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Laduna's Claw
+    - ITEM NOTES
+  - - 0.9%
+    - ''
+    - D.Plan2:Espial Boots
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - Clean Purple Gem
+    - ITEM NOTES
+  row_count: 9

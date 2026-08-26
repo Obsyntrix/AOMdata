@@ -1,0 +1,106 @@
+monster_page:
+  id: soul-eating-worm
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:soul-eating-worm
+    retrieval_url: https://web.archive.org/web/20200109172133id_/http://angels.wikidot.com:80/monster:soul-eating-worm
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172133'
+    archive_snapshot_url: https://web.archive.org/web/20200109172133/http://angels.wikidot.com:80/monster:soul-eating-worm
+    archive_original_lookup_url: https://angels.wikidot.com/monster:soul-eating-worm
+    source_html_sha256: 1b820806135c023935dd773a7bab7b64a5448266bd9d39ee639a939f14276303
+fields_raw:
+  Name: 'Spells:'
+  Soul-eating Worm: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '55'
+  Hit Points: '3928'
+  Rigor: '287'
+  Agility: '177'
+  Attack: '406'
+  Defense: '605'
+  Magic Attack: '605'
+  Magic Defense: '228'
+  Bonus Damage: Ice +27
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Item Drop Chance: 0%
+  Experience: '0'
+  Gold: 0 - 0 (0)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Soul-eating Worm
+  - ''
+  rows_raw:
+  - - Name
+    - Soul-eating Worm
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '55'
+    - '3928'
+    - '287'
+    - '177'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '406'
+    - '605'
+    - '605'
+    - '228'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +27
+    - Nothing
+    - Nothing
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '0'
+    - 0 - 0 (0)
+  row_count: 4

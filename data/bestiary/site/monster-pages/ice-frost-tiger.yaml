@@ -1,0 +1,206 @@
+monster_page:
+  id: ice-frost-tiger
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:ice-frost-tiger
+    retrieval_url: https://web.archive.org/web/20170707154123id_/http://angels.wikidot.com:80/monster:ice-frost-tiger
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170707154123'
+    archive_snapshot_url: https://web.archive.org/web/20170707154123/http://angels.wikidot.com:80/monster:ice-frost-tiger
+    archive_original_lookup_url: https://angels.wikidot.com/monster:ice-frost-tiger
+    source_html_sha256: 65267c0cc306b64d1329aa381eba1ee56f0c23211e8f63b6dc8c7bc10286d893
+fields_raw:
+  Name: 'Spells:'
+  Ice Frost Tiger: '-'
+  'Spells:': 'Location:'
+  '-': Shilly Desert
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '142'
+  Hit Points: '26157'
+  Rigor: '795'
+  Agility: '419'
+  Attack: '2625'
+  Defense: '3116'
+  Spell Attack: '6810'
+  Spell Defense: '?'
+  Special Attack: Lightning attack +140
+  Special Defense: Lightning defense +90
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Thunder Defense: '+90'
+  Fire Defense: '+50'
+  Ice Defense: '+70'
+  Rotten Defense: '+70'
+  Attack Range: '1'
+  Speed: '95'
+  Attack Speed: '90'
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.2%
+  Experience: '17658'
+  Gold: 411 - 848
+item_drop_chance_raw: 0.2%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Ice Frost Tiger
+  - ''
+  rows_raw:
+  - - Name
+    - Ice Frost Tiger
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Shilly Desert
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '142'
+    - '26157'
+    - '795'
+    - '419'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '2625'
+    - '3116'
+    - '6810'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Lightning attack +140
+    - Lightning defense +90
+    - Nothing
+    - Nothing
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Thunder Defense
+  - Fire Defense
+  - Ice Defense
+  - Rotten Defense
+  rows_raw:
+  - - Thunder Defense
+    - Fire Defense
+    - Ice Defense
+    - Rotten Defense
+  - - '+90'
+    - '+50'
+    - '+70'
+    - '+70'
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '1'
+    - '95'
+    - '90'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 7
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.2%
+    - '17658'
+    - 411 - 848
+  row_count: 2
+- table_index: 8
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 9
+  headers_raw:
+  - 95.55%
+  - ''
+  - Time Traveller
+  - Sword Lvl 140 Atk 2424-2544 (2484) , Rig.+36)
+  rows_raw:
+  - - 95.55%
+    - ''
+    - Time Traveller
+    - Sword Lvl 140 Atk 2424-2544 (2484) , Rig.+36)
+  - - 2.72%
+    - ''
+    - Good Time Traveller
+    - Sword Lvl 140 2958-3078 (3018) , Rig.+39)
+  - - 0.91%
+    - ''
+    - 'W.Plan2: Time Traveller'
+    - Sword Lvl 140
+  - - 0.68%
+    - ''
+    - Flawless Blue Light Rune Piece
+    - ''
+  - - 0.14%
+    - ''
+    - Immortal Needle
+    - Sword Lvl 140 Atk 4020-4184 (4102) , Rig.+42)
+  row_count: 5

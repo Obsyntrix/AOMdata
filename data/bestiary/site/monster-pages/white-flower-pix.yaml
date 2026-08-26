@@ -1,0 +1,212 @@
+monster_page:
+  id: white-flower-pix
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:white-flower-pix
+    retrieval_url: https://web.archive.org/web/20110805144646id_/http://angels.wikidot.com:80/monster:white-flower-pix
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110805144646'
+    archive_snapshot_url: https://web.archive.org/web/20110805144646/http://angels.wikidot.com:80/monster:white-flower-pix
+    archive_original_lookup_url: https://angels.wikidot.com/monster:white-flower-pix
+    source_html_sha256: 5a585387398379db2aed6e2c939f0fcdd3dddeea9572468bbc06ae11b3b7a910
+fields_raw:
+  Name: 'Spells:'
+  White Flower Pixie: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.08%
+  Experience: '?'
+  Gold: 245 - 311
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: white-flower-pix__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Stealth Boots
+  chance_to_drop_raw: 96.97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.97%
+    Icon: ''
+    Item: Stealth Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.97
+    quantity: null
+- drop_id: white-flower-pix__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodStealth Boots
+  chance_to_drop_raw: 2.42%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.42%
+    Icon: ''
+    Item: GoodStealth Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.42
+    quantity: null
+- drop_id: white-flower-pix__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 0.61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.61%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - White Flower Pixie
+  - ''
+  rows_raw:
+  - - Name
+    - White Flower Pixie
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '?'
+    - 245 - 311
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.97%
+    - ''
+    - Stealth Boots
+    - ITEM NOTES
+  - - 2.42%
+    - ''
+    - GoodStealth Boots
+    - ITEM NOTES
+  - - 0.61%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 4

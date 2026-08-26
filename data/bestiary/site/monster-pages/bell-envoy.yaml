@@ -1,0 +1,248 @@
+monster_page:
+  id: bell-envoy
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bell-envoy
+    retrieval_url: https://web.archive.org/web/20110904000842id_/http://angels.wikidot.com:80/monster:bell-envoy
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904000842'
+    archive_snapshot_url: https://web.archive.org/web/20110904000842/http://angels.wikidot.com:80/monster:bell-envoy
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bell-envoy
+    source_html_sha256: 22a04be454b8f41e2144b40e9819e267d227dc9a61b704ed012b00bd8733da82
+fields_raw:
+  Name: 'Spells:'
+  Bell Envoy: '-'
+  'Spells:': 'Location:'
+  '-': Hermit Wetland
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.05%
+  Experience: '?'
+  Gold: 365 - 465
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: bell-envoy__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Brassart
+  chance_to_drop_raw: 94.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.75%
+    Icon: ''
+    Item: Saint Brassart
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.75
+    quantity: null
+- drop_id: bell-envoy__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSaint Brassart
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: GoodSaint Brassart
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: bell-envoy__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Cuffs
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Holy Guard Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: bell-envoy__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Brassart
+  chance_to_drop_raw: 0.78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.78%
+    Icon: ''
+    Item: A.Plan2:Saint Brassart
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+- drop_id: bell-envoy__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 1.99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.99%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.99
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bell Envoy
+  - ''
+  rows_raw:
+  - - Name
+    - Bell Envoy
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Hermit Wetland
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '?'
+    - 365 - 465
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.75%
+    - ''
+    - Saint Brassart
+    - ITEM NOTES
+  - - 2.37%
+    - ''
+    - GoodSaint Brassart
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Holy Guard Cuffs
+    - ITEM NOTES
+  - - 0.78%
+    - ''
+    - A.Plan2:Saint Brassart
+    - ITEM NOTES
+  - - 1.99%
+    - ''
+    - Flawless Ruby
+    - ITEM NOTES
+  row_count: 6

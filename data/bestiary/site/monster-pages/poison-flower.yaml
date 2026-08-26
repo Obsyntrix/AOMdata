@@ -1,0 +1,222 @@
+monster_page:
+  id: poison-flower
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:poison-flower
+    retrieval_url: https://web.archive.org/web/20191230105821/http://angels.wikidot.com:80/monster:poison-flower
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105821'
+    archive_snapshot_url: https://web.archive.org/web/20191230105821/http://angels.wikidot.com:80/monster:poison-flower
+    archive_original_lookup_url: https://angels.wikidot.com/monster:poison-flower
+    source_html_sha256: 43a8d71442d363dc110d55018703cc03cfee14e122a83d15c9ecea9c8b34809d
+fields_raw:
+  Name: 'Description:'
+  Poison Flower: Description
+  'Description:': 'Location:'
+  Description: Underground Square , Hell Palace
+  Type: Plant
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '75'
+  Hit Points: '2789'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '547'
+  Defense: '828'
+  Magic Attack: '534'
+  Magic Defense: '300'
+  Special Attack: Rotten +37
+  Special Defense: '28'
+  Strong Against: Thunder(58)
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast 90
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: '0.02'
+  Experience: '697'
+  Gold: 213 - 347 (280)
+item_drop_chance_raw: '0.02'
+drops:
+- drop_id: poison-flower__t006r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 28.53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 28.53%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 28.53
+    quantity: null
+- drop_id: poison-flower__t006r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Boots
+  chance_to_drop_raw: 68.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 68.35%
+    Icon: ''
+    Item: Mage Boots
+    Short info: Vestment 76 (Dfs +45, Spl Dfs +47, Ag +26)
+  normalized:
+    chance_to_drop_percent: 68.35
+    quantity: null
+- drop_id: poison-flower__t006r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Boots
+  chance_to_drop_raw: 2.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.85%
+    Icon: ''
+    Item: Good Mage Boots
+    Short info: Vestment 76 (Dfs +57, Spl Dfs +59, Ag +29)
+  normalized:
+    chance_to_drop_percent: 2.85
+    quantity: null
+- drop_id: poison-flower__t006r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Boots
+  chance_to_drop_raw: 0.27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.27%
+    Icon: ''
+    Item: Spring Boots
+    Short info: Vestment 76 (Dfs +72, Spl Dfs +74, Ag +32)
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Poison Flower
+  - ''
+  rows_raw:
+  - - Name
+    - Poison Flower
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Underground Square , Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Plant
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '75'
+    - '2789'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '547'
+    - '828'
+    - '534'
+    - '300'
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +37
+    - '28'
+    - Thunder(58)
+    - '-'
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast 90
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 5
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - '0.02'
+    - '697'
+    - 213 - 347 (280)
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 28.53%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 68.35%
+    - ''
+    - Mage Boots
+    - Vestment 76 (Dfs +45, Spl Dfs +47, Ag +26)
+  - - 2.85%
+    - ''
+    - Good Mage Boots
+    - Vestment 76 (Dfs +57, Spl Dfs +59, Ag +29)
+  - - 0.27%
+    - ''
+    - Spring Boots
+    - Vestment 76 (Dfs +72, Spl Dfs +74, Ag +32)
+  row_count: 5

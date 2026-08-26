@@ -1,0 +1,446 @@
+monster_page:
+  id: grimace-doyle
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:grimace-doyle
+    retrieval_url: https://web.archive.org/web/20110904091542id_/http://angels.wikidot.com:80/monster:grimace-doyle
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904091542'
+    archive_snapshot_url: https://web.archive.org/web/20110904091542/http://angels.wikidot.com:80/monster:grimace-doyle
+    archive_original_lookup_url: https://angels.wikidot.com/monster:grimace-doyle
+    source_html_sha256: 2462e475660a012d57d03039417e8399b101b4323bfaac9c4a2b744d2c823f0f
+fields_raw:
+  Name: 'Spells:'
+  Grimace Doyle: Cracking Beat
+  'Spells:': 'Location:'
+  Cracking Beat: Secret Den
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '95'
+  Hit Points: '43000'
+  Rigor: '507'
+  Agility: '309'
+  Attack: '1734'
+  Defense: '1374'
+  Spell Attack: '1098'
+  Spell Defense: '682'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (100)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '38700'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: grimace-doyle__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 47,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,23%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: Food (Atk +80 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.23
+    quantity: null
+- drop_id: grimace-doyle__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 47,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,23%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: Food (Atk +80 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.23
+    quantity: null
+- drop_id: grimace-doyle__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Helmet
+  chance_to_drop_raw: 1,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,57%
+    Icon: ''
+    Item: Saint Helmet
+    Short info: Garment 98 (Dfs +360, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: grimace-doyle__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Helmet
+  chance_to_drop_raw: 1,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,57%
+    Icon: ''
+    Item: Wind Helmet
+    Short info: Mantle 98 (Dfs +240, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: grimace-doyle__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Espial Hood
+  chance_to_drop_raw: 1,57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,57%
+    Icon: ''
+    Item: Espial Hood
+    Short info: Vestment 98 (Dfs +120, Spl Dfs +90)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: grimace-doyle__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: grimace-doyle__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Helmet
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Good Saint Helmet
+    Short info: Garment 98 (Dfs +448, Spl Dfs +33)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: grimace-doyle__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Helmet
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Good Wind Helmet
+    Short info: Mantle 98 (Dfs +299, Spl Dfs +67)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: grimace-doyle__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Espial Hood
+  chance_to_drop_raw: 0,07%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,07%
+    Icon: ''
+    Item: Good Espial Hood
+    Short info: Vestment 98 (Dfs +149, Spl Dfs +119)
+  normalized:
+    chance_to_drop_percent: 0.07
+    quantity: null
+- drop_id: grimace-doyle__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Helmet
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: A.Plan2:Saint Helmet
+    Short info: adv.plans for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: grimace-doyle__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Helmet
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: A.Plan2:Wind Helmet
+    Short info: adv.plans for armorsmith
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: grimace-doyle__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Espial Hood
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: D.Plan2:Espial Hood
+    Short info: adv.plans for tailor
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: grimace-doyle__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magnetic Hat
+  chance_to_drop_raw: ?.?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.?%
+    Icon: ''
+    Item: Magnetic Hat
+    Short info: Vestment 98 (Dfs +184, Spl Dfs +154)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: grimace-doyle__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Helmet
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Holy Guard Helmet
+    Short info: Garment 98 (Dfs +553, Spl Dfs +37)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: grimace-doyle__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Storm Helmet
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Storm Helmet
+    Short info: Mantle 98 (Dfs +369, Spl Dfs +73)
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: grimace-doyle__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Berry Shark Hunting Armor
+  chance_to_drop_raw: ?,?%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?,?%
+    Icon: ''
+    Item: Berry Shark Hunting Armor
+    Short info: Lv 100 Robot
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Grimace Doyle
+  - ''
+  rows_raw:
+  - - Name
+    - Grimace Doyle
+    - ''
+  - - 'Spells:'
+    - Cracking Beat
+    - ''
+  - - 'Location:'
+    - Secret Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '43000'
+    - '507'
+    - '309'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1734'
+    - '1374'
+    - '1098'
+    - '682'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '38700'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,23%
+    - ''
+    - Effective Mighty Fruit
+    - Food (Atk +80 | 10 min)
+  - - 47,23%
+    - ''
+    - Effective Mighty Fruit
+    - Food (Atk +80 | 10 min)
+  - - 1,57%
+    - ''
+    - Saint Helmet
+    - Garment 98 (Dfs +360, Spl Dfs +30)
+  - - 1,57%
+    - ''
+    - Wind Helmet
+    - Mantle 98 (Dfs +240, Spl Dfs +60)
+  - - 1,57%
+    - ''
+    - Espial Hood
+    - Vestment 98 (Dfs +120, Spl Dfs +90)
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,07%
+    - ''
+    - Good Saint Helmet
+    - Garment 98 (Dfs +448, Spl Dfs +33)
+  - - 0,07%
+    - ''
+    - Good Wind Helmet
+    - Mantle 98 (Dfs +299, Spl Dfs +67)
+  - - 0,07%
+    - ''
+    - Good Espial Hood
+    - Vestment 98 (Dfs +149, Spl Dfs +119)
+  - - 0,02%
+    - ''
+    - A.Plan2:Saint Helmet
+    - adv.plans for armorsmith
+  - - 0,02%
+    - ''
+    - A.Plan2:Wind Helmet
+    - adv.plans for armorsmith
+  - - 0,02%
+    - ''
+    - D.Plan2:Espial Hood
+    - adv.plans for tailor
+  - - ?.?%
+    - ''
+    - Magnetic Hat
+    - Vestment 98 (Dfs +184, Spl Dfs +154)
+  - - ?,?%
+    - ''
+    - Holy Guard Helmet
+    - Garment 98 (Dfs +553, Spl Dfs +37)
+  - - ?,?%
+    - ''
+    - Storm Helmet
+    - Mantle 98 (Dfs +369, Spl Dfs +73)
+  - - ?,?%
+    - ''
+    - Berry Shark Hunting Armor
+    - Lv 100 Robot
+  row_count: 17

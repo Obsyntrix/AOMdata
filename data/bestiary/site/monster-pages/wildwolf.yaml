@@ -1,0 +1,265 @@
+monster_page:
+  id: wildwolf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:wildwolf
+    retrieval_url: https://web.archive.org/web/20200109172243id_/http://angels.wikidot.com:80/monster:wildwolf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172243'
+    archive_snapshot_url: https://web.archive.org/web/20200109172243/http://angels.wikidot.com:80/monster:wildwolf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:wildwolf
+    source_html_sha256: 0f6fb5b3afacbe06cc99e72bd027f87c102e18431cfe5f0f0e25c65fc1188ba6
+fields_raw:
+  Name: 'Description:'
+  Wildwolf: A very large, shaggy, grey wolf. These are not tame. Don't feed them. They like to hunt in packs, and are quite dangerous in large numbers.
+  'Description:': 'Location:'
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (2)
+  Level: '8'
+  Hit Points: '324'
+  Rigor: '52'
+  Agility: '36'
+  Attack: '59'
+  Defense: '65'
+  Spell Attack: '64'
+  Spell Defense: '36'
+  Special Attack: (5%) Thunder +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Very Fast (90)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,69%
+  Experience: '50'
+  Gold: 14 - 24 (19)
+item_drop_chance_raw: 0,69%
+drops:
+- drop_id: wildwolf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Shoes
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Heavy Shoes
+    Short info: Garment 1 (Dfs +7, Spl Dfs +1, Ag.+4)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: wildwolf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Gloves
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Incantation Gloves
+    Short info: Vestment 2 (Dfs +2, Spl Dfs +3, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: wildwolf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Axe
+  chance_to_drop_raw: 30,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,43%
+    Icon: ''
+    Item: Good Newbie Axe
+    Short info: Axe Lvl 5 (Atk 47-63 (55), Rig.+2)
+  normalized:
+    chance_to_drop_percent: 30.43
+    quantity: null
+- drop_id: wildwolf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Heavy Shoes
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Heavy Shoes
+    Short info: Garment 1 (Dfs +18, Spl Dfs +3, Ag.+7)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: wildwolf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Gloves
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Fiend Gloves
+    Short info: Vestment 2 (Dfs +6, Spl Dfs +10, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+- drop_id: wildwolf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Axe
+  chance_to_drop_raw: 2,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,90%
+    Icon: ''
+    Item: Silver Axe
+    Short info: Axe Lvl 5 (Atk 84-100 (92), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 2.9
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Wildwolf
+  - ''
+  rows_raw:
+  - - Name
+    - Wildwolf
+    - ''
+  - - 'Description:'
+    - A very large, shaggy, grey wolf. These are not tame. Don't feed them. They like to hunt in packs, and are quite dangerous in large numbers.
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (2)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '8'
+    - '324'
+    - '52'
+    - '36'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '59'
+    - '65'
+    - '64'
+    - '36'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Thunder +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,69%
+    - '50'
+    - 14 - 24 (19)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,43%
+    - ''
+    - Good Newbie Heavy Shoes
+    - Garment 1 (Dfs +7, Spl Dfs +1, Ag.+4)
+  - - 30,43%
+    - ''
+    - Good Newbie Incantation Gloves
+    - Vestment 2 (Dfs +2, Spl Dfs +3, Rig.+7)
+  - - 30,43%
+    - ''
+    - Good Newbie Axe
+    - Axe Lvl 5 (Atk 47-63 (55), Rig.+2)
+  - - 2,90%
+    - ''
+    - Fiend Heavy Shoes
+    - Garment 1 (Dfs +18, Spl Dfs +3, Ag.+7)
+  - - 2,90%
+    - ''
+    - Fiend Gloves
+    - Vestment 2 (Dfs +6, Spl Dfs +10, Rig.+17)
+  - - 2,90%
+    - ''
+    - Silver Axe
+    - Axe Lvl 5 (Atk 84-100 (92), Rig.+4)
+  row_count: 7

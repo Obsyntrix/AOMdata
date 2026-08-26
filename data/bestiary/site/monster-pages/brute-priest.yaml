@@ -1,0 +1,286 @@
+monster_page:
+  id: brute-priest
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:brute-priest
+    retrieval_url: https://web.archive.org/web/20191230105509id_/http://angels.wikidot.com:80/monster:brute-priest
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105509'
+    archive_snapshot_url: https://web.archive.org/web/20191230105509/http://angels.wikidot.com:80/monster:brute-priest
+    archive_original_lookup_url: https://angels.wikidot.com/monster:brute-priest
+    source_html_sha256: 8bc0043b2ca58bc90ecc1adc1ea8c7d68d20af9d331283d62ac59dd660f1dd93
+fields_raw:
+  Name: 'Description:'
+  Brute Priest: This creepy leech was once a human sorcerer, and after years of study, finally unlocked the key to immortality. Too bad it cost him his sanity and
+    soul in the process. Still, his mastery over the dark arts remains undiminished. - Poison Hit Single Ranged | Dmg 85-89 HP -3 / 2 sec | 10 sec - Cure Spell HP
+    restore +105
+  'Description:': 'Location:'
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (2)
+  Level: '10'
+  Hit Points: '296'
+  Rigor: '62'
+  Agility: '42'
+  Attack: '69'
+  Defense: '24'
+  Spell Attack: '43'
+  Spell Defense: '41'
+  Special Attack: (5%) Thunder +8
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 2,58%
+  Experience: '94'
+  Gold: 15 - 27 (21)
+item_drop_chance_raw: 2,58%
+drops:
+- drop_id: brute-priest__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 66,34%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 66,34%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 66.34
+    quantity: null
+- drop_id: brute-priest__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Shooter Head Band
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Shooter Head Band
+    Short info: Mantle 3 (Dfs +8, Spl Dfs +3)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: brute-priest__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Clothes
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Incantation Clothes
+    Short info: Vestment 4 (Dfs +7, Spl Dfs +9)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: brute-priest__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Staff
+  chance_to_drop_raw: 10,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 10,06%
+    Icon: ''
+    Item: Good Newbie Staff
+    Short info: Staff Lvl 5 (Atk 22-28 (25), Spl Atk +11, Rig.+2)
+  normalized:
+    chance_to_drop_percent: 10.06
+    quantity: null
+- drop_id: brute-priest__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Head Band
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Fiend Head Band
+    Short info: Mantle 3 (Dfs +20, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: brute-priest__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Mantle
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Fiend Mantle
+    Short info: Mantle 4 (Dfs +35, Spl Dfs +14)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: brute-priest__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Redmoon Staff
+  chance_to_drop_raw: 1,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,16%
+    Icon: ''
+    Item: Redmoon Staff
+    Short info: Staff Lvl 5 (Atk 49-55 (52), Spl Atk +33, Rig.+4)
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Brute Priest
+  - ''
+  rows_raw:
+  - - Name
+    - Brute Priest
+    - ''
+  - - 'Description:'
+    - This creepy leech was once a human sorcerer, and after years of study, finally unlocked the key to immortality. Too bad it cost him his sanity and soul in the
+      process. Still, his mastery over the dark arts remains undiminished. - Poison Hit Single Ranged | Dmg 85-89 HP -3 / 2 sec | 10 sec - Cure Spell HP restore +105
+    - ''
+  - - 'Location:'
+    - Training Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (2)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '10'
+    - '296'
+    - '62'
+    - '42'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '69'
+    - '24'
+    - '43'
+    - '41'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - (5%) Thunder +8
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 2,58%
+    - '94'
+    - 15 - 27 (21)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 66,34%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 10,06%
+    - ''
+    - Good Newbie Shooter Head Band
+    - Mantle 3 (Dfs +8, Spl Dfs +3)
+  - - 10,06%
+    - ''
+    - Good Newbie Incantation Clothes
+    - Vestment 4 (Dfs +7, Spl Dfs +9)
+  - - 10,06%
+    - ''
+    - Good Newbie Staff
+    - Staff Lvl 5 (Atk 22-28 (25), Spl Atk +11, Rig.+2)
+  - - 1,16%
+    - ''
+    - Fiend Head Band
+    - Mantle 3 (Dfs +20, Spl Dfs +10)
+  - - 1,16%
+    - ''
+    - Fiend Mantle
+    - Mantle 4 (Dfs +35, Spl Dfs +14)
+  - - 1,16%
+    - ''
+    - Redmoon Staff
+    - Staff Lvl 5 (Atk 49-55 (52), Spl Atk +33, Rig.+4)
+  row_count: 8

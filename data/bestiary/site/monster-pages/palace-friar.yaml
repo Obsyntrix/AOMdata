@@ -1,0 +1,284 @@
+monster_page:
+  id: palace-friar
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:palace-friar
+    retrieval_url: https://web.archive.org/web/20200109064700id_/http://angels.wikidot.com:80/monster:palace-friar
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064700'
+    archive_snapshot_url: https://web.archive.org/web/20200109064700/http://angels.wikidot.com:80/monster:palace-friar
+    archive_original_lookup_url: https://angels.wikidot.com/monster:palace-friar
+    source_html_sha256: d845043c2ba9e8fd6e48351826958754dd171247dc8dcff9ef3746f6d3b87008
+fields_raw:
+  Name: 'Spells:'
+  Palace Friar: '-'
+  'Spells:': 'Location:'
+  '-': Botti Palace
+  Type: '?'
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0,03%
+  Experience: '?'
+  Gold: 1001 - 1275 (?)
+item_drop_chance_raw: 0,03%
+drops:
+- drop_id: palace-friar__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Thorn Legguard
+  chance_to_drop_raw: 31,9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,9%
+    Icon: ''
+    Item: Thorn Legguard
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.9
+    quantity: null
+- drop_id: palace-friar__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flexible Cuffs
+  chance_to_drop_raw: 31,9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,9%
+    Icon: ''
+    Item: Flexible Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.9
+    quantity: null
+- drop_id: palace-friar__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Polar Light
+  chance_to_drop_raw: 31,9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 31,9%
+    Icon: ''
+    Item: Polar Light
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 31.9
+    quantity: null
+- drop_id: palace-friar__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Thorn Legguard
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Thorn Legguard
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: palace-friar__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Flexible Cuffs
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Flexible Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: palace-friar__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Polar Light
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Polar Light
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: palace-friar__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Light Rune Piece
+  chance_to_drop_raw: 1,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,61%
+    Icon: ''
+    Item: Green Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Palace Friar
+  - ''
+  rows_raw:
+  - - Name
+    - Palace Friar
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,03%
+    - '?'
+    - 1001 - 1275 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 31,9%
+    - ''
+    - Thorn Legguard
+    - ITEM NOTES
+  - - 31,9%
+    - ''
+    - Flexible Cuffs
+    - ITEM NOTES
+  - - 31,9%
+    - ''
+    - Polar Light
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Thorn Legguard
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Flexible Cuffs
+    - ITEM NOTES
+  - - 0,89%
+    - ''
+    - Good Polar Light
+    - ITEM NOTES
+  - - 1,61%
+    - ''
+    - Green Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

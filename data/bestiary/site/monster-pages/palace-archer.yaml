@@ -1,0 +1,248 @@
+monster_page:
+  id: palace-archer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:palace-archer
+    retrieval_url: https://web.archive.org/web/20100906110855id_/http://angels.wikidot.com:80/monster:palace-archer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100906110855'
+    archive_snapshot_url: https://web.archive.org/web/20100906110855/http://angels.wikidot.com:80/monster:palace-archer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:palace-archer
+    source_html_sha256: 66dc2bfa4e42ec2d25f0664987bf4f468257172d0d08fa1c7b14b85ad8fff6da
+fields_raw:
+  Name: 'Spells:'
+  Palace Archer: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.07%
+  Experience: '?'
+  Gold: 438 - 558
+item_drop_chance_raw: 0.07%
+drops:
+- drop_id: palace-archer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Battle Horn Cuffs
+  chance_to_drop_raw: 96.76%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.76%
+    Icon: ''
+    Item: Battle Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.76
+    quantity: null
+- drop_id: palace-archer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodBattle Horn Cuffs
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodBattle Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: palace-archer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Steel Horn Cuffs
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Steel Horn Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: palace-archer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Panda Puppet Robot
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Panda Puppet Robot
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: palace-archer__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 0.61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.61%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Palace Archer
+  - ''
+  rows_raw:
+  - - Name
+    - Palace Archer
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.07%
+    - '?'
+    - 438 - 558
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.76%
+    - ''
+    - Battle Horn Cuffs
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodBattle Horn Cuffs
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Steel Horn Cuffs
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Panda Puppet Robot
+    - ITEM NOTES
+  - - 0.61%
+    - ''
+    - Orange Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

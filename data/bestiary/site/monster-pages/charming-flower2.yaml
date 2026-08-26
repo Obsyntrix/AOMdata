@@ -1,0 +1,106 @@
+monster_page:
+  id: charming-flower2
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:charming-flower2
+    retrieval_url: https://web.archive.org/web/20200109171622id_/http://angels.wikidot.com:80/monster:charming-flower2
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171622'
+    archive_snapshot_url: https://web.archive.org/web/20200109171622/http://angels.wikidot.com:80/monster:charming-flower2
+    archive_original_lookup_url: https://angels.wikidot.com/monster:charming-flower2
+    source_html_sha256: 50cf3d1e3c01454980d4ccd7373dad94010310374fabeba3d732677743496488
+fields_raw:
+  Name: 'Spells:'
+  Charming Flower: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Plant
+  Boss?: 'No'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '63'
+  Hit Points: '4572'
+  Rigor: '327'
+  Agility: '201'
+  Attack: '454'
+  Defense: '681'
+  Magic Attack: '478'
+  Magic Defense: '270'
+  Bonus Damage: Ice +31
+  Strong Against: Fire
+  Weak Against: Thunder
+  Item Drop Chance: 0%
+  Experience: '0'
+  Gold: 0 - 0
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Charming Flower
+  - ''
+  rows_raw:
+  - - Name
+    - Charming Flower
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Plant
+    - 'No'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '63'
+    - '4572'
+    - '327'
+    - '201'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '454'
+    - '681'
+    - '478'
+    - '270'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +31
+    - Fire
+    - Thunder
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '0'
+    - 0 - 0
+  row_count: 4

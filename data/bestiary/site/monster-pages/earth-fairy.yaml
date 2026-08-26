@@ -1,0 +1,320 @@
+monster_page:
+  id: earth-fairy
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:earth-fairy
+    retrieval_url: https://web.archive.org/web/20170909211844id_/http://angels.wikidot.com:80/monster:earth-fairy
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170909211844'
+    archive_snapshot_url: https://web.archive.org/web/20170909211844/http://angels.wikidot.com:80/monster:earth-fairy
+    archive_original_lookup_url: https://angels.wikidot.com/monster:earth-fairy
+    source_html_sha256: 719f5ce13a56f0fee8e947479611a85eef606d78c2b5472ceaed27f9cf84b55c
+fields_raw:
+  Name: 'Spells:'
+  Earth Fairy: '-'
+  'Spells:': 'Location:'
+  '-': Waterfall Camp
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '88'
+  Hit Points: '3345'
+  Rigor: '451'
+  Agility: '276'
+  Attack: '594'
+  Defense: '858'
+  Spell Attack: '914'
+  Spell Defense: '602'
+  Special Attack: +44 Rotten
+  Special Defense: '?'
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Fast(95)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '1091'
+  Gold: 294-374
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: earth-fairy__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coral Manteau
+  chance_to_drop_raw: 47,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,89%
+    Icon: ''
+    Item: Coral Manteau
+    Short info: Cloak lv98
+  normalized:
+    chance_to_drop_percent: 47.89
+    quantity: null
+- drop_id: earth-fairy__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Crusader's Brooch
+  chance_to_drop_raw: 47,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,89%
+    Icon: ''
+    Item: Crusader's Brooch
+    Short info: Trinket lv98
+  normalized:
+    chance_to_drop_percent: 47.89
+    quantity: null
+- drop_id: earth-fairy__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1,67%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,67%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: lv80 Gem
+  normalized:
+    chance_to_drop_percent: 1.67
+    quantity: null
+- drop_id: earth-fairy__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Coral Manteau
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Coral Manteau
+    Short info: Cloak lv98
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: earth-fairy__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Crusader's Brooch
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: Good Crusader's Brooch
+    Short info: Trinket lv98
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: earth-fairy__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Coral Manteau
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: D.Plan2:Coral Manteau
+    Short info: adv.pans for tailors
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: earth-fairy__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Crusader's Brooch
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: Craft Recipe 2:Crusader's Brooch
+    Short info: adv.pans for technicians
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: earth-fairy__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Wings
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: Blue Wings
+    Short info: Cloak lv98
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: earth-fairy__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: The Call of the Sea
+  chance_to_drop_raw: ?.??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ?.??%
+    Icon: ''
+    Item: The Call of the Sea
+    Short info: Trinket lv98
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Earth Fairy
+  - ''
+  rows_raw:
+  - - Name
+    - Earth Fairy
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Waterfall Camp
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '88'
+    - '3345'
+    - '451'
+    - '276'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '594'
+    - '858'
+    - '914'
+    - '602'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +44 Rotten
+    - '?'
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Fast(95)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '1091'
+    - 294-374
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,89%
+    - ''
+    - Coral Manteau
+    - Cloak lv98
+  - - 47,89%
+    - ''
+    - Crusader's Brooch
+    - Trinket lv98
+  - - 1,67%
+    - ''
+    - Flawless Yellow Gem
+    - lv80 Gem
+  - - 0,89%
+    - ''
+    - Good Coral Manteau
+    - Cloak lv98
+  - - 0,89%
+    - ''
+    - Good Crusader's Brooch
+    - Trinket lv98
+  - - 0,39%
+    - ''
+    - D.Plan2:Coral Manteau
+    - adv.pans for tailors
+  - - 0,39%
+    - ''
+    - Craft Recipe 2:Crusader's Brooch
+    - adv.pans for technicians
+  - - ?.??%
+    - ''
+    - Blue Wings
+    - Cloak lv98
+  - - ?.??%
+    - ''
+    - The Call of the Sea
+    - Trinket lv98
+  row_count: 10

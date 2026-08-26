@@ -1,0 +1,392 @@
+monster_page:
+  id: miner-foreman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:miner-foreman
+    retrieval_url: https://web.archive.org/web/20200220225433id_/http://angels.wikidot.com:80/monster:miner-foreman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220225433'
+    archive_snapshot_url: https://web.archive.org/web/20200220225433/http://angels.wikidot.com:80/monster:miner-foreman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:miner-foreman
+    source_html_sha256: 11c40544fde8197a91f46ff66330acf3e2059dd9772c9ed9425a638a90ffc6f6
+fields_raw:
+  Name: 'Spells:'
+  Miner Foreman: Frozen Spell 2
+  'Spells:': 'Location:'
+  Frozen Spell 2: Flaming Door
+  Type: Human
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '70'
+  Hit Points: '26815'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '1072'
+  Defense: '811'
+  Magic Attack: '527'
+  Magic Defense: '300'
+  Special Attack: Ice +35
+  Special Defense: '25'
+  Strong Against: Fire(55)
+  Weak Against: Thunder(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(110)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '20111'
+  Gold: 1623 - 2589 (2106)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: miner-foreman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Evil Fruit
+  chance_to_drop_raw: 47.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.46%
+    Icon: ''
+    Item: Medium Evil Fruit
+    Short info: Food (Spl Def +50 | 10min)
+  normalized:
+    chance_to_drop_percent: 47.46
+    quantity: null
+- drop_id: miner-foreman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Magic Potion
+  chance_to_drop_raw: 47.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.46%
+    Icon: ''
+    Item: Medium Magic Potion
+    Short info: Food (Max. MP +150 | 10min)
+  normalized:
+    chance_to_drop_percent: 47.46
+    quantity: null
+- drop_id: miner-foreman__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Hood
+  chance_to_drop_raw: 3.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3.13%
+    Icon: ''
+    Item: Energy Hood
+    Short info: Vesment 68 (Dfs +57, Spl Dfs +60)
+  normalized:
+    chance_to_drop_percent: 3.13
+    quantity: null
+- drop_id: miner-foreman__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Hood
+  chance_to_drop_raw: 0.47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.47%
+    Icon: ''
+    Item: Good Energy Hood
+    Short info: Vesment 68 (Dfs +75, Spl Dfs +78)
+  normalized:
+    chance_to_drop_percent: 0.47
+    quantity: null
+- drop_id: miner-foreman__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Miner foreman Card
+  chance_to_drop_raw: 0.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.46%
+    Icon: ''
+    Item: Miner foreman Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.46
+    quantity: null
+- drop_id: miner-foreman__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.36%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: miner-foreman__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: miner-foreman__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Hermit Helmet'
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: 'A.Plan2: Hermit Helmet'
+    Short info: Armor 65
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: miner-foreman__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'C.Plan2: Benison Ring'
+  chance_to_drop_raw: 0.08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.08%
+    Icon: ''
+    Item: 'C.Plan2: Benison Ring'
+    Short info: Technics 65
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: miner-foreman__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stiff Beetle
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Green Stiff Beetle
+    Short info: Lvl 70 (Dfs +20, Spl Atk +55, Spl Dfs +55, Rig. +12, Ag. +18, Speed +30%)
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: miner-foreman__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Hood
+  chance_to_drop_raw: 0.03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.03%
+    Icon: ''
+    Item: Sound Hood
+    Short info: Vesment 68 (Dfs +95, Spl Dfs +98)
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: miner-foreman__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 1: Advance Chop 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Stance 1: Advance Chop 5'
+    Short info: Sword 66
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: miner-foreman__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 4: Earth Bestow 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Scroll 4: Earth Bestow 5'
+    Short info: Earth 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Miner Foreman
+  - ''
+  rows_raw:
+  - - Name
+    - Miner Foreman
+    - ''
+  - - 'Spells:'
+    - Frozen Spell 2
+    - ''
+  - - 'Location:'
+    - Flaming Door
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Human
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '26815'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1072'
+    - '811'
+    - '527'
+    - '300'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +35
+    - '25'
+    - Fire(55)
+    - Thunder(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(110)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '20111'
+    - 1623 - 2589 (2106)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.46%
+    - ''
+    - Medium Evil Fruit
+    - Food (Spl Def +50 | 10min)
+  - - 47.46%
+    - ''
+    - Medium Magic Potion
+    - Food (Max. MP +150 | 10min)
+  - - 3.13%
+    - ''
+    - Energy Hood
+    - Vesment 68 (Dfs +57, Spl Dfs +60)
+  - - 0.47%
+    - ''
+    - Good Energy Hood
+    - Vesment 68 (Dfs +75, Spl Dfs +78)
+  - - 0.46%
+    - ''
+    - Miner foreman Card
+    - 'See: Card Collection'
+  - - 0.36%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.39%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.08%
+    - ''
+    - 'A.Plan2: Hermit Helmet'
+    - Armor 65
+  - - 0.08%
+    - ''
+    - 'C.Plan2: Benison Ring'
+    - Technics 65
+  - - 0.05%
+    - ''
+    - Green Stiff Beetle
+    - Lvl 70 (Dfs +20, Spl Atk +55, Spl Dfs +55, Rig. +12, Ag. +18, Speed +30%)
+  - - 0.03%
+    - ''
+    - Sound Hood
+    - Vesment 68 (Dfs +95, Spl Dfs +98)
+  - - 0.01%
+    - ''
+    - 'Stance 1: Advance Chop 5'
+    - Sword 66
+  - - 0.01%
+    - ''
+    - 'Scroll 4: Earth Bestow 5'
+    - Earth 64
+  row_count: 14

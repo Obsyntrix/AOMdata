@@ -1,0 +1,356 @@
+monster_page:
+  id: coast-protector
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:coast-protector
+    retrieval_url: https://web.archive.org/web/20200119162001id_/http://angels.wikidot.com:80/monster:coast-protector
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119162001'
+    archive_snapshot_url: https://web.archive.org/web/20200119162001/http://angels.wikidot.com:80/monster:coast-protector
+    archive_original_lookup_url: https://angels.wikidot.com/monster:coast-protector
+    source_html_sha256: 59323e7a8a584764cd49cea968dfc9e969e3c7b5351c4edfec1e34f1c71f3964
+fields_raw:
+  Name: 'Spells:'
+  Coast Protector: Great Shot Single Ranged | Power 353
+  'Spells:': 'Location:'
+  Great Shot Single Ranged | Power 353: Shining Coast
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '70'
+  Hit Points: '28810'
+  Rigor: '396'
+  Agility: '252'
+  Attack: '738'
+  Defense: '919'
+  Spell Attack: '566'
+  Spell Defense: '545'
+  Special Attack: Ice +38
+  Special Defense: '25'
+  Strong Against: Fire (55)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Super Fast (115)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '40'
+  Item Drop Chance: 100,00%
+  Experience: '24990'
+  Gold: 1866 - 2586 (2226)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: coast-protector__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Mars' Fruit
+  chance_to_drop_raw: 44,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44,69%
+    Icon: ''
+    Item: Great Mars' Fruit
+    Short info: Food (Dfs +70 | 10 min)
+  normalized:
+    chance_to_drop_percent: 44.69
+    quantity: null
+- drop_id: coast-protector__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Great Agility Potion
+  chance_to_drop_raw: 44,69%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44,69%
+    Icon: ''
+    Item: Great Agility Potion
+    Short info: Food (Ag. +42 | 10 min)
+  normalized:
+    chance_to_drop_percent: 44.69
+    quantity: null
+- drop_id: coast-protector__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Scale Armor
+  chance_to_drop_raw: 3,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,92%
+    Icon: ''
+    Item: Fire Scale Armor
+    Short info: Garment 79 (Dfs +403, Spl Dfs +29)
+  normalized:
+    chance_to_drop_percent: 3.92
+    quantity: null
+- drop_id: coast-protector__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Gown
+  chance_to_drop_raw: 3,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,92%
+    Icon: ''
+    Item: Mage Gown
+    Short info: Vestment 79 (Dfs +134, Spl Dfs +87)
+  normalized:
+    chance_to_drop_percent: 3.92
+    quantity: null
+- drop_id: coast-protector__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Seacoast Guard Card
+  chance_to_drop_raw: 0,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,93%
+    Icon: ''
+    Item: Seacoast Guard Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: coast-protector__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Scale Armor
+  chance_to_drop_raw: 0,70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,70%
+    Icon: ''
+    Item: Good Fire Scale Armor
+    Short info: Garment 79 (Dfs +514, Spl Dfs +33)
+  normalized:
+    chance_to_drop_percent: 0.7
+    quantity: null
+- drop_id: coast-protector__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Gown
+  chance_to_drop_raw: 0,70%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,70%
+    Icon: ''
+    Item: Good Mage Gown
+    Short info: Vesment 79 (Dfs +171, Spl Dfs +124)
+  normalized:
+    chance_to_drop_percent: 0.7
+    quantity: null
+- drop_id: coast-protector__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: coast-protector__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Embrace Armor
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Embrace Armor
+    Short info: Garment 79 (Dfs +648, Spl Dfs +37)
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: coast-protector__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Gown
+  chance_to_drop_raw: 0,04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,04%
+    Icon: ''
+    Item: Spring Gown
+    Short info: Vesment 79 (Dfs +216, Spl Dfs +169)
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: coast-protector__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Coast Protector
+  - ''
+  rows_raw:
+  - - Name
+    - Coast Protector
+    - ''
+  - - 'Spells:'
+    - Great Shot Single Ranged | Power 353
+    - ''
+  - - 'Location:'
+    - Shining Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '28810'
+    - '396'
+    - '252'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '738'
+    - '919'
+    - '566'
+    - '545'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +38
+    - '25'
+    - Fire (55)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (115)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '24990'
+    - 1866 - 2586 (2226)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 44,69%
+    - ''
+    - Great Mars' Fruit
+    - Food (Dfs +70 | 10 min)
+  - - 44,69%
+    - ''
+    - Great Agility Potion
+    - Food (Ag. +42 | 10 min)
+  - - 3,92%
+    - ''
+    - Fire Scale Armor
+    - Garment 79 (Dfs +403, Spl Dfs +29)
+  - - 3,92%
+    - ''
+    - Mage Gown
+    - Vestment 79 (Dfs +134, Spl Dfs +87)
+  - - 0,93%
+    - ''
+    - Seacoast Guard Card
+    - 'See: Card Collection'
+  - - 0,70%
+    - ''
+    - Good Fire Scale Armor
+    - Garment 79 (Dfs +514, Spl Dfs +33)
+  - - 0,70%
+    - ''
+    - Good Mage Gown
+    - Vesment 79 (Dfs +171, Spl Dfs +124)
+  - - 0,36%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,04%
+    - ''
+    - Embrace Armor
+    - Garment 79 (Dfs +648, Spl Dfs +37)
+  - - 0,04%
+    - ''
+    - Spring Gown
+    - Vesment 79 (Dfs +216, Spl Dfs +169)
+  - - 0,01%
+    - ''
+    - Clean Purple Gem
+    - 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  row_count: 12

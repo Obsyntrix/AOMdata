@@ -1,0 +1,356 @@
+monster_page:
+  id: green-lizard
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:green-lizard
+    retrieval_url: https://web.archive.org/web/20200109171828id_/http://angels.wikidot.com:80/monster:green-lizard
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171828'
+    archive_snapshot_url: https://web.archive.org/web/20200109171828/http://angels.wikidot.com:80/monster:green-lizard
+    archive_original_lookup_url: https://angels.wikidot.com/monster:green-lizard
+    source_html_sha256: 5d683b320afc4be13adf771c8efb0d38fc851f35e15b53edb45d2ebcbcb0043d
+fields_raw:
+  Name: 'Spells:'
+  Green Lizard: '-'
+  'Spells:': 'Location:'
+  '-': Jade Vale
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '24'
+  Hit Points: '791'
+  Rigor: '132'
+  Agility: '84'
+  Attack: '170'
+  Defense: '178'
+  Spell Attack: '170'
+  Spell Defense: '97'
+  Special Attack: Fire +6
+  Special Defense: '2'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (75)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,57%
+  Experience: '197'
+  Gold: 39 - 63 (51)
+item_drop_chance_raw: 1,57%
+drops:
+- drop_id: green-lizard__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 55,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 55,35%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 55.35
+    quantity: null
+- drop_id: green-lizard__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Hard-leather Cap
+  chance_to_drop_raw: 16,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,61%
+    Icon: ''
+    Item: Traveller Hard-leather Cap
+    Short info: Mantle 23 (Dfs +20, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 16.61
+    quantity: null
+- drop_id: green-lizard__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Shade
+  chance_to_drop_raw: 16,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,61%
+    Icon: ''
+    Item: Traveller Shade
+    Short info: Garment 23 (Dfs +30, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 16.61
+    quantity: null
+- drop_id: green-lizard__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Lizard card
+  chance_to_drop_raw: 5,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,10%
+    Icon: ''
+    Item: Green Lizard card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 5.1
+    quantity: null
+- drop_id: green-lizard__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Hard-leather Cap
+  chance_to_drop_raw: 2,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,77%
+    Icon: ''
+    Item: Good Traveller Hard-leather Cap
+    Short info: Mantle 23 (Dfs +34, Spl Dfs +17)
+  normalized:
+    chance_to_drop_percent: 2.77
+    quantity: null
+- drop_id: green-lizard__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Shade
+  chance_to_drop_raw: 2,77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,77%
+    Icon: ''
+    Item: Good Traveller Shade
+    Short info: Garment 23 (Dfs +51, Spl Dfs +8)
+  normalized:
+    chance_to_drop_percent: 2.77
+    quantity: null
+- drop_id: green-lizard__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hard Leather Helmet
+  chance_to_drop_raw: 0,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,27%
+    Icon: ''
+    Item: Hard Leather Helmet
+    Short info: Mantle 23 (Dfs +52, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+- drop_id: green-lizard__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Leather Helmet
+  chance_to_drop_raw: 0,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,27%
+    Icon: ''
+    Item: Heavy Leather Helmet
+    Short info: Garment 23 (Dfs +78, Spl Dfs +12)
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+- drop_id: green-lizard__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.tk +4, Armor: Rig. +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: green-lizard__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+- drop_id: green-lizard__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,08%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.08
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Green Lizard
+  - ''
+  rows_raw:
+  - - Name
+    - Green Lizard
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Jade Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '24'
+    - '791'
+    - '132'
+    - '84'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '170'
+    - '178'
+    - '170'
+    - '97'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +6
+    - '2'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (75)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,57%
+    - '197'
+    - 39 - 63 (51)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 55,35%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 16,61%
+    - ''
+    - Traveller Hard-leather Cap
+    - Mantle 23 (Dfs +20, Spl Dfs +10)
+  - - 16,61%
+    - ''
+    - Traveller Shade
+    - Garment 23 (Dfs +30, Spl Dfs +5)
+  - - 5,10%
+    - ''
+    - Green Lizard card
+    - 'See: Card Collection'
+  - - 2,77%
+    - ''
+    - Good Traveller Hard-leather Cap
+    - Mantle 23 (Dfs +34, Spl Dfs +17)
+  - - 2,77%
+    - ''
+    - Good Traveller Shade
+    - Garment 23 (Dfs +51, Spl Dfs +8)
+  - - 0,27%
+    - ''
+    - Hard Leather Helmet
+    - Mantle 23 (Dfs +52, Spl Dfs +23)
+  - - 0,27%
+    - ''
+    - Heavy Leather Helmet
+    - Garment 23 (Dfs +78, Spl Dfs +12)
+  - - 0,08%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.tk +4, Armor: Rig. +4, Shield: R.Dfs +2'
+  - - 0,08%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  - - 0,08%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  row_count: 12

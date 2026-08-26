@@ -1,0 +1,229 @@
+monster_page:
+  id: death-sailor
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:death-sailor
+    retrieval_url: https://web.archive.org/web/20200105031058id_/http://angels.wikidot.com:80/monster:death-sailor
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105031058'
+    archive_snapshot_url: https://web.archive.org/web/20200105031058/http://angels.wikidot.com:80/monster:death-sailor
+    archive_original_lookup_url: https://angels.wikidot.com/monster:death-sailor
+    source_html_sha256: 589bb601890556a93d8129c6a757d3a0ecc9090cf18796affac99c3cb2b45dfb
+fields_raw:
+  Name: 'Description:'
+  Death Sailor: The most notorious pirate when he was alive. He liked the sea very much, ironically, his life was taken by sea.
+  'Description:': 'Location:'
+  Type: Undead
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '93'
+  Hit Points: '3778'
+  Rigor: '477'
+  Agility: '291'
+  Attack: '850'
+  Defense: '1214'
+  Spell Attack: '670'
+  Spell Defense: '363'
+  Special Attack: Thunder +49
+  Special Defense: '37'
+  Strong Against: Ice (67)
+  Weak Against: Rotten (7)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '1083'
+  Gold: 486 - 580 (533)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: death-sailor__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wind Boots
+  chance_to_drop_raw: 95,65%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,65%
+    Icon: ''
+    Item: Wind Boots
+    Short info: Mantle 96 (Dfs +144, Spl Dfs +40, Ag.+32)
+  normalized:
+    chance_to_drop_percent: 95.65
+    quantity: null
+- drop_id: death-sailor__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Wind Boots
+  chance_to_drop_raw: 2,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,38%
+    Icon: ''
+    Item: Good Wind Boots
+    Short info: Mantle 96 (Dfs +179, Spl Dfs +44, Ag.+36)
+  normalized:
+    chance_to_drop_percent: 2.38
+    quantity: null
+- drop_id: death-sailor__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,19%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  normalized:
+    chance_to_drop_percent: 1.19
+    quantity: null
+- drop_id: death-sailor__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wind Boots
+  chance_to_drop_raw: 0,78%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,78%
+    Icon: ''
+    Item: A.Plan2:Wind Boots
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.78
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Death Sailor
+  - ''
+  rows_raw:
+  - - Name
+    - Death Sailor
+    - ''
+  - - 'Description:'
+    - The most notorious pirate when he was alive. He liked the sea very much, ironically, his life was taken by sea.
+    - ''
+  - - 'Location:'
+    - Blue Ocean , Quiet Ocean , Coral Vale
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '93'
+    - '3778'
+    - '477'
+    - '291'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '850'
+    - '1214'
+    - '670'
+    - '363'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +49
+    - '37'
+    - Ice (67)
+    - Rotten (7)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '1083'
+    - 486 - 580 (533)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,65%
+    - ''
+    - Wind Boots
+    - Mantle 96 (Dfs +144, Spl Dfs +40, Ag.+32)
+  - - 2,38%
+    - ''
+    - Good Wind Boots
+    - Mantle 96 (Dfs +179, Spl Dfs +44, Ag.+36)
+  - - 1,19%
+    - ''
+    - Flawless Orange Gem
+    - 'Weapon: Atk +33, Armor: Dfs +15, Shield: Dfs +15'
+  - - 0,78%
+    - ''
+    - A.Plan2:Wind Boots
+    - Armor 95
+  row_count: 5

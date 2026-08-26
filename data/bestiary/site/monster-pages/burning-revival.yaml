@@ -1,0 +1,248 @@
+monster_page:
+  id: burning-revival
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:burning-revival
+    retrieval_url: https://web.archive.org/web/20160815231007id_/http://angels.wikidot.com:80/monster:burning-revival
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20160815231007'
+    archive_snapshot_url: https://web.archive.org/web/20160815231007/http://angels.wikidot.com:80/monster:burning-revival
+    archive_original_lookup_url: https://angels.wikidot.com/monster:burning-revival
+    source_html_sha256: 226eeec0349750f9c1362978783b9b0966f924414efedff4b697f7fde999859f
+fields_raw:
+  Name: 'Spells:'
+  Burning Revival: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Field
+  Type: Undead
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '81'
+  Hit Points: '6600'
+  Rigor: '417'
+  Agility: '255'
+  Attack: '856'
+  Defense: '940'
+  Spell Attack: '574'
+  Spell Defense: '456'
+  Special Attack: +41 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.08%
+  Experience: '2970'
+  Gold: 290 - 370
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: burning-revival__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Coral Ring
+  chance_to_drop_raw: 94.99%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.99%
+    Icon: ''
+    Item: Coral Ring
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.99
+    quantity: null
+- drop_id: burning-revival__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Coral Ring
+  chance_to_drop_raw: 2.38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.38%
+    Icon: ''
+    Item: Good Coral Ring
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.38
+    quantity: null
+- drop_id: burning-revival__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Seagod's Handloop
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Seagod's Handloop
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: burning-revival__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Craft Recipe 2:Coral Ring
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: Craft Recipe 2:Coral Ring
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: burning-revival__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Yellow Gem
+  chance_to_drop_raw: 1.73%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.73%
+    Icon: ''
+    Item: Flawless Yellow Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.73
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Burning Revival
+  - ''
+  rows_raw:
+  - - Name
+    - Burning Revival
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Field
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '81'
+    - '6600'
+    - '417'
+    - '255'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '856'
+    - '940'
+    - '574'
+    - '456'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +41 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '2970'
+    - 290 - 370
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.99%
+    - ''
+    - Coral Ring
+    - ITEM NOTES
+  - - 2.38%
+    - ''
+    - Good Coral Ring
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Seagod's Handloop
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - Craft Recipe 2:Coral Ring
+    - ITEM NOTES
+  - - 1.73%
+    - ''
+    - Flawless Yellow Gem
+    - ITEM NOTES
+  row_count: 6

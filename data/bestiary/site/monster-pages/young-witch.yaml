@@ -1,0 +1,212 @@
+monster_page:
+  id: young-witch
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:young-witch
+    retrieval_url: https://web.archive.org/web/20110907101547id_/http://angels.wikidot.com:80/monster:young-witch
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907101547'
+    archive_snapshot_url: https://web.archive.org/web/20110907101547/http://angels.wikidot.com:80/monster:young-witch
+    archive_original_lookup_url: https://angels.wikidot.com/monster:young-witch
+    source_html_sha256: f539fbb0ccee315c9aaafc04c7495655430291390c53f08483a8c484c5e208ee
+fields_raw:
+  Name: 'Spells:'
+  Young Witch: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '92'
+  Hit Points: '15368'
+  Rigor: '472'
+  Agility: '288'
+  Attack: '1072'
+  Defense: '1189'
+  Spell Attack: '662'
+  Spell Defense: '527'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '5'
+  Speed: '105'
+  Attack Speed: '70'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '6918'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: young-witch__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Epee
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Evil Epee
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: young-witch__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Evil Epee
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Good Evil Epee
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: young-witch__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wildness Boots
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Wildness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Young Witch
+  - ''
+  rows_raw:
+  - - Name
+    - Young Witch
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '92'
+    - '15368'
+    - '472'
+    - '288'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1072'
+    - '1189'
+    - '662'
+    - '527'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '5'
+    - '105'
+    - '70'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '6918'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Evil Epee
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Good Evil Epee
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Wildness Boots
+    - ITEM NOTES
+  row_count: 4

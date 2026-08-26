@@ -1,0 +1,374 @@
+monster_page:
+  id: burning-monster
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:burning-monster
+    retrieval_url: https://web.archive.org/web/20200109171617id_/http://angels.wikidot.com:80/monster:burning-monster
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171617'
+    archive_snapshot_url: https://web.archive.org/web/20200109171617/http://angels.wikidot.com:80/monster:burning-monster
+    archive_original_lookup_url: https://angels.wikidot.com/monster:burning-monster
+    source_html_sha256: 8c462cea6e8fad48a6108002789f586351ae27f42eb2ac05cc72368858afbfdf
+fields_raw:
+  Name: 'Spell:'
+  Burning Monster: Fireball Hit Single Ranged | Dmg 165-169
+  'Spell:': 'Location:'
+  Fireball Hit Single Ranged | Dmg 165-169: Thunder Ruins
+  Type: Demon
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '48'
+  Hit Points: '1637'
+  Rigor: '242'
+  Agility: '156'
+  Attack: '347'
+  Defense: '414'
+  Spell Attack: '318'
+  Spell Defense: '189'
+  Special Attack: Fire +24
+  Special Defense: '14'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (85)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,23%
+  Experience: '409'
+  Gold: 95 - 145 (120)
+item_drop_chance_raw: 0,23%
+drops:
+- drop_id: burning-monster__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 53,15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 53,15%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 53.15
+    quantity: null
+- drop_id: burning-monster__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Light Breastplate
+  chance_to_drop_raw: 16,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,75%
+    Icon: ''
+    Item: Advanced Light Breastplate
+    Short info: Mantle 44 (Dfs +94, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 16.75
+    quantity: null
+- drop_id: burning-monster__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Chain Armor
+  chance_to_drop_raw: 16,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 16,75%
+    Icon: ''
+    Item: Advanced Chain Armor
+    Short info: Garment 44 (Dfs +140, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 16.75
+    quantity: null
+- drop_id: burning-monster__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Burning Monster Card
+  chance_to_drop_raw: 6,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,16%
+    Icon: ''
+    Item: Burning Monster Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 6.16
+    quantity: null
+- drop_id: burning-monster__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Light Breastplate
+  chance_to_drop_raw: 2,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,79%
+    Icon: ''
+    Item: Good Advanced Light Breastplate
+    Short info: Mantle 44 (Dfs +133, Spl Dfs +38)
+  normalized:
+    chance_to_drop_percent: 2.79
+    quantity: null
+- drop_id: burning-monster__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Chain Armor
+  chance_to_drop_raw: 2,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,79%
+    Icon: ''
+    Item: Good Advanced Chain Armor
+    Short info: Garment 44 (Dfs +199, Spl Dfs +19)
+  normalized:
+    chance_to_drop_percent: 2.79
+    quantity: null
+- drop_id: burning-monster__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+- drop_id: burning-monster__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Breastplate
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Eagle Breastplate
+    Short info: Mantle 44 (Dfs +180, Spl Dfs +46)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: burning-monster__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Chain Armor
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Golden Chain Armor
+    Short info: Garment 44 (Dfs +269, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: burning-monster__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Sapphire
+    Short info: 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: burning-monster__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Gem
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Purple Gem
+    Short info: 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: burning-monster__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Ruby
+    Short info: 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Burning Monster
+  - ''
+  rows_raw:
+  - - Name
+    - Burning Monster
+    - ''
+  - - 'Spell:'
+    - Fireball Hit Single Ranged | Dmg 165-169
+    - ''
+  - - 'Location:'
+    - Thunder Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '48'
+    - '1637'
+    - '242'
+    - '156'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '347'
+    - '414'
+    - '318'
+    - '189'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +24
+    - '14'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (85)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,23%
+    - '409'
+    - 95 - 145 (120)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 53,15%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 16,75%
+    - ''
+    - Advanced Light Breastplate
+    - Mantle 44 (Dfs +94, Spl Dfs +30)
+  - - 16,75%
+    - ''
+    - Advanced Chain Armor
+    - Garment 44 (Dfs +140, Spl Dfs +15)
+  - - 6,16%
+    - ''
+    - Burning Monster Card
+    - 'See: Card Collection'
+  - - 2,79%
+    - ''
+    - Good Advanced Light Breastplate
+    - Mantle 44 (Dfs +133, Spl Dfs +38)
+  - - 2,79%
+    - ''
+    - Good Advanced Chain Armor
+    - Garment 44 (Dfs +199, Spl Dfs +19)
+  - - 0,66%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,28%
+    - ''
+    - Eagle Breastplate
+    - Mantle 44 (Dfs +180, Spl Dfs +46)
+  - - 0,28%
+    - ''
+    - Golden Chain Armor
+    - Garment 44 (Dfs +269, Spl Dfs +23)
+  - - 0,13%
+    - ''
+    - Sapphire
+    - 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  - - 0,13%
+    - ''
+    - Purple Gem
+    - 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  - - 0,13%
+    - ''
+    - Ruby
+    - 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  row_count: 13

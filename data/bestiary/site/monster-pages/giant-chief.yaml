@@ -1,0 +1,538 @@
+monster_page:
+  id: giant-chief
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:giant-chief
+    retrieval_url: https://web.archive.org/web/20200224074951id_/http://angels.wikidot.com:80/monster:giant-chief
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200224074951'
+    archive_snapshot_url: https://web.archive.org/web/20200224074951/http://angels.wikidot.com:80/monster:giant-chief
+    archive_original_lookup_url: https://angels.wikidot.com/monster:giant-chief
+    source_html_sha256: 97727277abc7273538262970ea646c05d76f20825bf9674ea0358d4138c3877f
+fields_raw:
+  Name: 'Spells:'
+  Giant Chief: Butterflies Trap Single Ranged | Dmg 153-157 - Canker Moss Ranged AOE | Dmg 230-234
+  'Spells:': 'Location:'
+  Butterflies Trap Single Ranged | Dmg 153-157 - Canker Moss Ranged AOE | Dmg 230-234: Megalith Plain
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '40'
+  Hit Points: '14483'
+  Rigor: '237'
+  Agility: '147'
+  Attack: '676'
+  Defense: '457'
+  Spell Attack: '296'
+  Spell Defense: '292'
+  Special Attack: '-'
+  Special Defense: '10'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '1494'
+  Gold: 470 - 872 (671)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: giant-chief__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fruit of Mars
+  chance_to_drop_raw: 19,51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,51%
+    Icon: ''
+    Item: Fruit of Mars
+    Short info: Food (Dfs +15 | 10 min)
+  normalized:
+    chance_to_drop_percent: 19.51
+    quantity: null
+- drop_id: giant-chief__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Agility Potion
+  chance_to_drop_raw: 19,51%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,51%
+    Icon: ''
+    Item: Agility Potion
+    Short info: Food (Ag. +6 | 10 min)
+  normalized:
+    chance_to_drop_percent: 19.51
+    quantity: null
+- drop_id: giant-chief__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Heavy Wristlet
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Heavy Wristlet
+    Short info: Garment 32 (Dfs +31, Spl Dfs +6, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: giant-chief__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Thick Gloves
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Thick Gloves
+    Short info: Mantle 32 (Dfs +21, Spl Dfs +11, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: giant-chief__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Cotton Gloves
+  chance_to_drop_raw: 17,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,05%
+    Icon: ''
+    Item: Risker Cotton Gloves
+    Short info: Vestment 32 (Dfs +10, Spl Dfs +17, Rig.+27)
+  normalized:
+    chance_to_drop_percent: 17.05
+    quantity: null
+- drop_id: giant-chief__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 3,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,55%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 3.55
+    quantity: null
+- drop_id: giant-chief__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Weighty Wristlet
+  chance_to_drop_raw: 0,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,94%
+    Icon: ''
+    Item: Good Risker Weighty Wristlet
+    Short info: Garment 32 (Dfs +47, Spl Dfs +8, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: giant-chief__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Thick Gloves
+  chance_to_drop_raw: 0,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,94%
+    Icon: ''
+    Item: Good Risker Thick Gloves
+    Short info: Mantle 32 (Dfs +31, Spl Dfs +16, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: giant-chief__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Cotton Gloves
+  chance_to_drop_raw: 0,94%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,94%
+    Icon: ''
+    Item: Good Risker Cotton Gloves
+    Short info: Vestment 32 (Dfs +16, Spl Dfs +23, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 0.94
+    quantity: null
+- drop_id: giant-chief__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel Wings
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: Angel Wings
+    Short info: Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: giant-chief__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ring of Goddess
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: Ring of Goddess
+    Short info: Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: giant-chief__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Soul Entangle 5'
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: 'Scroll 2: Soul Entangle 5'
+    Short info: Wraith 34
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: giant-chief__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Hurt Transfer 5'
+  chance_to_drop_raw: 0,55%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,55%
+    Icon: ''
+    Item: 'Scroll 2: Hurt Transfer 5'
+    Short info: Wraith 36
+  normalized:
+    chance_to_drop_percent: 0.55
+    quantity: null
+- drop_id: giant-chief__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,30%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.Atk +4, Armor: Rig.+4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.3
+    quantity: null
+- drop_id: giant-chief__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,30%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.3
+    quantity: null
+- drop_id: giant-chief__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,30%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl.Atk +15, Armor/Shield: Spl. Def. +4'
+  normalized:
+    chance_to_drop_percent: 0.3
+    quantity: null
+- drop_id: giant-chief__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beastman Wristlet
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Beastman Wristlet
+    Short info: Garment 32 (Dfs +66, Spl Dfs +10, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: giant-chief__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ice Gloves
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Ice Gloves
+    Short info: Mantle 32 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: giant-chief__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Gloves
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Magic Gloves
+    Short info: Vestment 32 (Dfs +22, Spl Dfs +30, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: giant-chief__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: giant-chief__t007r0022
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Monster Badge
+  chance_to_drop_raw: 3 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3 x
+    Icon: ''
+    Item: Silver Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Giant Chief
+  - ''
+  rows_raw:
+  - - Name
+    - Giant Chief
+    - ''
+  - - 'Spells:'
+    - Butterflies Trap Single Ranged | Dmg 153-157 - Canker Moss Ranged AOE | Dmg 230-234
+    - ''
+  - - 'Location:'
+    - Megalith Plain
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '40'
+    - '14483'
+    - '237'
+    - '147'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '676'
+    - '457'
+    - '296'
+    - '292'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '10'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1494'
+    - 470 - 872 (671)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 19,51%
+    - ''
+    - Fruit of Mars
+    - Food (Dfs +15 | 10 min)
+  - - 19,51%
+    - ''
+    - Agility Potion
+    - Food (Ag. +6 | 10 min)
+  - - 17,05%
+    - ''
+    - Risker Heavy Wristlet
+    - Garment 32 (Dfs +31, Spl Dfs +6, Rig.+27)
+  - - 17,05%
+    - ''
+    - Risker Thick Gloves
+    - Mantle 32 (Dfs +21, Spl Dfs +11, Rig.+27)
+  - - 17,05%
+    - ''
+    - Risker Cotton Gloves
+    - Vestment 32 (Dfs +10, Spl Dfs +17, Rig.+27)
+  - - 3,55%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,94%
+    - ''
+    - Good Risker Weighty Wristlet
+    - Garment 32 (Dfs +47, Spl Dfs +8, Rig.+37)
+  - - 0,94%
+    - ''
+    - Good Risker Thick Gloves
+    - Mantle 32 (Dfs +31, Spl Dfs +16, Rig.+37)
+  - - 0,94%
+    - ''
+    - Good Risker Cotton Gloves
+    - Vestment 32 (Dfs +16, Spl Dfs +23, Rig.+37)
+  - - 0,55%
+    - ''
+    - Angel Wings
+    - Cloak Lvl 35 (Dfs +52, Spl Dfs +35, Max.Weight +50)
+  - - 0,55%
+    - ''
+    - Ring of Goddess
+    - Trinket Lvl 35 (Dfs +40, Spl Dfs +23, Rig.+18, Ag.+12)
+  - - 0,55%
+    - ''
+    - 'Scroll 2: Soul Entangle 5'
+    - Wraith 34
+  - - 0,55%
+    - ''
+    - 'Scroll 2: Hurt Transfer 5'
+    - Wraith 36
+  - - 0,30%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.Atk +4, Armor: Rig.+4, Shield: R.Dfs +2'
+  - - 0,30%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  - - 0,30%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl.Atk +15, Armor/Shield: Spl. Def. +4'
+  - - 0,10%
+    - ''
+    - Beastman Wristlet
+    - Garment 32 (Dfs +66, Spl Dfs +10, Rig.+47)
+  - - 0,10%
+    - ''
+    - Ice Gloves
+    - Mantle 32 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 0,10%
+    - ''
+    - Magic Gloves
+    - Vestment 32 (Dfs +22, Spl Dfs +30, Rig.+47)
+  - - 0,09%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - Badges
+    - ''
+  - - 3 x
+    - ''
+    - Silver Monster Badge
+    - ''
+  row_count: 23

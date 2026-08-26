@@ -1,0 +1,517 @@
+monster_page:
+  id: fane-priest
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fane-priest
+    retrieval_url: https://web.archive.org/web/20200630073959id_/http://angels.wikidot.com:80/monster:fane-priest
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200630073959'
+    archive_snapshot_url: https://web.archive.org/web/20200630073959/http://angels.wikidot.com:80/monster:fane-priest
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fane-priest
+    source_html_sha256: 3c6ecdf06f0860b32183d6004874f2b26a7c1205c86075b60d9fd48e8d2dab46
+fields_raw:
+  Name: 'Spells:'
+  Fane Priest: Corrosion Claw Single Ranged | Dmg 183-187 HP -12 x5 | 10 sec - Hell Flame Self AOE | Dmg 275-279 HP -40 x5 | 10 sec
+  'Spells:': 'Location:'
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '61'
+  Hit Points: '22799'
+  Rigor: '342'
+  Agility: '210'
+  Attack: '1142'
+  Defense: '806'
+  Spell Attack: '457'
+  Spell Defense: '444'
+  Special Attack: '-'
+  Special Defense: '21'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Super Fast (110)
+  Attack Speed: Slow (60)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '1611'
+  Gold: 799 - 1173 (986)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: fane-priest__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rare Magic Potion x5
+  chance_to_drop_raw: 96,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96,41%
+    Icon: ''
+    Item: Rare Magic Potion x5
+    Short info: Food (Max.MP +100 | 10 min)
+  normalized:
+    chance_to_drop_percent: 96.41
+    quantity: null
+- drop_id: fane-priest__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nature's Egg
+  chance_to_drop_raw: 1,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,32%
+    Icon: ''
+    Item: Nature's Egg
+    Short info: An egg with a nature shape will turn to different shapes with different education.
+  normalized:
+    chance_to_drop_percent: 1.32
+    quantity: null
+- drop_id: fane-priest__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Weighty Bard
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Good Royal Weighty Bard
+    Short info: Garment 54 (Dfs +269, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: fane-priest__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Weighted Breastplate
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Good Royal Weighted Breastplate
+    Short info: Mantle 54 (Dfs +180, Spl Dfs +46)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: fane-priest__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Gown
+  chance_to_drop_raw: 0,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,22%
+    Icon: ''
+    Item: Good Royal Magic Gown
+    Short info: Vestment 54 (Dfs +90, Spl Dfs +80)
+  normalized:
+    chance_to_drop_percent: 0.22
+    quantity: null
+- drop_id: fane-priest__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,20%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,20%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.2
+    quantity: null
+- drop_id: fane-priest__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 0,17%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,17%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.17
+    quantity: null
+- drop_id: fane-priest__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mummy's Bag
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Mummy's Bag
+    Short info: Bag Lvl 55 (Max Weight +1100, Slots 28)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Necklace of High Clerist
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: Necklace of High Clerist
+    Short info: Trinket Lvl 55 (Dfs +59, Spl Dfs +37, Rig.+28, Ag.+19)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance: Panther Killing 5'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'Stance: Panther Killing 5'
+    Short info: Sword/Axe/Spear 56
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 1: Life Blessing 5'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'Scroll 1: Life Blessing 5'
+    Short info: Life 54
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 4: Corruption Trap 5'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'Scroll 4: Corruption Trap 5'
+    Short info: Earth 54
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Angel Armor'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'A.Plan2: Angel Armor'
+    Short info: Armor 55
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Paladin Armor'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'A.Plan2: Paladin Armor'
+    Short info: Armor 55
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Notice Gown'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'D.Plan2: Notice Gown'
+    Short info: Sew 55
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Craft Recipe 2: Angel Code'
+  chance_to_drop_raw: 0,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,13%
+    Icon: ''
+    Item: 'Craft Recipe 2: Angel Code'
+    Short info: Technics 55
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+- drop_id: fane-priest__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 3: Icy Trap 5'
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: 'Scroll 3: Icy Trap 5'
+    Short info: Chaos 60
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: fane-priest__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Armor
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Knight Armor
+    Short info: Garment 54 (Dfs +354, Spl Dfs +27)
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: fane-priest__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Shell
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Scale Shell
+    Short info: Mantle 54 (Dfs +236, Spl Dfs +54)
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+- drop_id: fane-priest__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gown
+  chance_to_drop_raw: 0,02%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,02%
+    Icon: ''
+    Item: Slarm's Gown
+    Short info: Vestment 54 (Dfs +118, Spl Dfs +108)
+  normalized:
+    chance_to_drop_percent: 0.02
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fane Priest
+  - ''
+  rows_raw:
+  - - Name
+    - Fane Priest
+    - ''
+  - - 'Spells:'
+    - Corrosion Claw Single Ranged | Dmg 183-187 HP -12 x5 | 10 sec - Hell Flame Self AOE | Dmg 275-279 HP -40 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Deity Palace Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '61'
+    - '22799'
+    - '342'
+    - '210'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1142'
+    - '806'
+    - '457'
+    - '444'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '21'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (110)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1611'
+    - 799 - 1173 (986)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96,41%
+    - ''
+    - Rare Magic Potion x5
+    - Food (Max.MP +100 | 10 min)
+  - - 1,32%
+    - ''
+    - Nature's Egg
+    - An egg with a nature shape will turn to different shapes with different education.
+  - - 0,22%
+    - ''
+    - Good Royal Weighty Bard
+    - Garment 54 (Dfs +269, Spl Dfs +23)
+  - - 0,22%
+    - ''
+    - Good Royal Weighted Breastplate
+    - Mantle 54 (Dfs +180, Spl Dfs +46)
+  - - 0,22%
+    - ''
+    - Good Royal Magic Gown
+    - Vestment 54 (Dfs +90, Spl Dfs +80)
+  - - 0,20%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,17%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,13%
+    - ''
+    - Mummy's Bag
+    - Bag Lvl 55 (Max Weight +1100, Slots 28)
+  - - 0,13%
+    - ''
+    - Necklace of High Clerist
+    - Trinket Lvl 55 (Dfs +59, Spl Dfs +37, Rig.+28, Ag.+19)
+  - - 0,13%
+    - ''
+    - 'Stance: Panther Killing 5'
+    - Sword/Axe/Spear 56
+  - - 0,13%
+    - ''
+    - 'Scroll 1: Life Blessing 5'
+    - Life 54
+  - - 0,13%
+    - ''
+    - 'Scroll 4: Corruption Trap 5'
+    - Earth 54
+  - - 0,13%
+    - ''
+    - 'A.Plan2: Angel Armor'
+    - Armor 55
+  - - 0,13%
+    - ''
+    - 'A.Plan2: Paladin Armor'
+    - Armor 55
+  - - 0,13%
+    - ''
+    - 'D.Plan2: Notice Gown'
+    - Sew 55
+  - - 0,13%
+    - ''
+    - 'Craft Recipe 2: Angel Code'
+    - Technics 55
+  - - 0,06%
+    - ''
+    - 'Scroll 3: Icy Trap 5'
+    - Chaos 60
+  - - 0,02%
+    - ''
+    - Knight Armor
+    - Garment 54 (Dfs +354, Spl Dfs +27)
+  - - 0,02%
+    - ''
+    - Scale Shell
+    - Mantle 54 (Dfs +236, Spl Dfs +54)
+  - - 0,02%
+    - ''
+    - Slarm's Gown
+    - Vestment 54 (Dfs +118, Spl Dfs +108)
+  row_count: 21

@@ -1,0 +1,194 @@
+monster_page:
+  id: evil-spider-elinna
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-spider-elinna
+    retrieval_url: https://web.archive.org/web/20110806083213id_/http://angels.wikidot.com:80/monster:evil-spider-elinna
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110806083213'
+    archive_snapshot_url: https://web.archive.org/web/20110806083213/http://angels.wikidot.com:80/monster:evil-spider-elinna
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-spider-elinna
+    source_html_sha256: 4d22f3d5267a10b3e63fe249f78073bcc25b83673725dbcff7204a6f71033241
+fields_raw:
+  Name: 'Spells:'
+  Evil Spider Elinna: '-'
+  'Spells:': 'Location:'
+  '-': Building Blocks City
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: ??,??%
+  Experience: '?'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: evil-spider-elinna__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Death Battle
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Death Battle
+    Short info: Axe Lvl 115
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: evil-spider-elinna__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Boots
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Dragon Fire Boots
+    Short info: Garment Boot Lvl 115
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Spider Elinna
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Spider Elinna
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Building Blocks City
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '?'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Death Battle
+    - Axe Lvl 115
+  - - ??,??%
+    - ''
+    - Dragon Fire Boots
+    - Garment Boot Lvl 115
+  row_count: 3

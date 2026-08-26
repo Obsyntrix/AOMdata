@@ -1,0 +1,356 @@
+monster_page:
+  id: pontiff-hululu
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:pontiff-hululu
+    retrieval_url: https://web.archive.org/web/20200128093306id_/http://angels.wikidot.com:80/monster:pontiff-hululu
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093306'
+    archive_snapshot_url: https://web.archive.org/web/20200128093306/http://angels.wikidot.com:80/monster:pontiff-hululu
+    archive_original_lookup_url: https://angels.wikidot.com/monster:pontiff-hululu
+    source_html_sha256: 3db5e29dd0f65de52c3fd50278f84b5b4525bb43812ee06820533bb41cbc22bc
+fields_raw:
+  Name: 'Spells:'
+  Pontiff Hululu: Basic Shot Single Ranged | Power 93
+  'Spells:': 'Location:'
+  Basic Shot Single Ranged | Power 93: Golden Beach
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (5)
+  Level: '60'
+  Hit Points: '24480'
+  Rigor: '362'
+  Agility: '222'
+  Attack: '555'
+  Defense: '732'
+  Spell Attack: '488'
+  Spell Defense: '473'
+  Special Attack: Thunder +33
+  Special Defense: '20'
+  Strong Against: Ice (50)
+  Weak Against: Rotten (0)
+  Attack Range: Short (1)
+  Speed: Super Fast (110)
+  Attack Speed: Slow (60)
+  Critical: '30'
+  Stamina: '20'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '20688'
+  Gold: 828 - 1440 (1134)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: pontiff-hululu__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Mighty Fruit
+  chance_to_drop_raw: 46,96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,96%
+    Icon: ''
+    Item: Medium Mighty Fruit
+    Short info: Food (Attack +55 | 10 min)
+  normalized:
+    chance_to_drop_percent: 46.96
+    quantity: null
+- drop_id: pontiff-hululu__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Target Potion
+  chance_to_drop_raw: 46,96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,96%
+    Icon: ''
+    Item: Medium Target Potion
+    Short info: Food (Rigor +32 | 10 min)
+  normalized:
+    chance_to_drop_percent: 46.96
+    quantity: null
+- drop_id: pontiff-hululu__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Guard Armor
+  chance_to_drop_raw: 1,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,80%
+    Icon: ''
+    Item: Fire Guard Armor
+    Short info: Garment 69 (Dfs +310, Spl Dfs +25)
+  normalized:
+    chance_to_drop_percent: 1.8
+    quantity: null
+- drop_id: pontiff-hululu__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Gown
+  chance_to_drop_raw: 1,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,80%
+    Icon: ''
+    Item: Energy Gown
+    Short info: Vestment 69 (Dfs +103, Spl Dfs +75)
+  normalized:
+    chance_to_drop_percent: 1.8
+    quantity: null
+- drop_id: pontiff-hululu__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pontiff Hululu Card
+  chance_to_drop_raw: 0,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,93%
+    Icon: ''
+    Item: Pontiff Hululu Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.93
+    quantity: null
+- drop_id: pontiff-hululu__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Fire Guard Armor
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Good Fire Guard Armor
+    Short info: Garment 69 (Dfs +403, Spl Dfs +29)
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: pontiff-hululu__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Gown
+  chance_to_drop_raw: 0,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,54%
+    Icon: ''
+    Item: Good Energy Gown
+    Short info: Vesment 69 (Dfs +134, Spl Dfs +106)
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: pontiff-hululu__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,24%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,24%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.24
+    quantity: null
+- drop_id: pontiff-hululu__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 0,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,18%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.18
+    quantity: null
+- drop_id: pontiff-hululu__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Armor
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: Knight Armor
+    Short info: Garment 69 (Dfs +514, Spl Dfs +33)
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: pontiff-hululu__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Gown
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: Sound Gown
+    Short info: Vesment 69 (Dfs +171, Spl Dfs +143)
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Pontiff Hululu
+  - ''
+  rows_raw:
+  - - Name
+    - Pontiff Hululu
+    - ''
+  - - 'Spells:'
+    - Basic Shot Single Ranged | Power 93
+    - ''
+  - - 'Location:'
+    - Golden Beach
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '60'
+    - '24480'
+    - '362'
+    - '222'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '555'
+    - '732'
+    - '488'
+    - '473'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +33
+    - '20'
+    - Ice (50)
+    - Rotten (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (110)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '20'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '20688'
+    - 828 - 1440 (1134)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,96%
+    - ''
+    - Medium Mighty Fruit
+    - Food (Attack +55 | 10 min)
+  - - 46,96%
+    - ''
+    - Medium Target Potion
+    - Food (Rigor +32 | 10 min)
+  - - 1,80%
+    - ''
+    - Fire Guard Armor
+    - Garment 69 (Dfs +310, Spl Dfs +25)
+  - - 1,80%
+    - ''
+    - Energy Gown
+    - Vestment 69 (Dfs +103, Spl Dfs +75)
+  - - 0,93%
+    - ''
+    - Pontiff Hululu Card
+    - 'See: Card Collection'
+  - - 0,54%
+    - ''
+    - Good Fire Guard Armor
+    - Garment 69 (Dfs +403, Spl Dfs +29)
+  - - 0,54%
+    - ''
+    - Good Energy Gown
+    - Vesment 69 (Dfs +134, Spl Dfs +106)
+  - - 0,24%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,18%
+    - ''
+    - Clean Purple Gem
+    - 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  - - 0,03%
+    - ''
+    - Knight Armor
+    - Garment 69 (Dfs +514, Spl Dfs +33)
+  - - 0,03%
+    - ''
+    - Sound Gown
+    - Vesment 69 (Dfs +171, Spl Dfs +143)
+  row_count: 12

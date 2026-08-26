@@ -1,0 +1,308 @@
+monster_page:
+  id: flower-walker
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:flower-walker
+    retrieval_url: https://web.archive.org/web/20200220215948id_/http://angels.wikidot.com:80/monster:flower-walker
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200220215948'
+    archive_snapshot_url: https://web.archive.org/web/20200220215948/http://angels.wikidot.com:80/monster:flower-walker
+    archive_original_lookup_url: https://angels.wikidot.com/monster:flower-walker
+    source_html_sha256: 34159ad7f50903d29467a0c97c54fc681a945f8161b8d1fb5c39da0e2c7cabb9
+fields_raw:
+  Name: 'Spells:'
+  Flower Walker: '-'
+  'Spells:': 'Location:'
+  '-': Winding Flower Corridor
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '111'
+  Hit Points: '9647'
+  Rigor: '647'
+  Agility: '345'
+  Attack: '1544'
+  Defense: '1744'
+  Spell Attack: '954'
+  Spell Defense: '435'
+  Special Attack: +71 Lightning
+  Special Defense: +91 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.06%
+  Experience: '6120'
+  Gold: 424 - 540
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: flower-walker__t008r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Titan Cuffs
+  chance_to_drop_raw: 48.4%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.4%
+    Icon: ''
+    Item: Titan Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.4
+    quantity: null
+- drop_id: flower-walker__t008r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Titan Heavy Boots
+  chance_to_drop_raw: 48.4%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.4%
+    Icon: ''
+    Item: Titan Heavy Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.4
+    quantity: null
+- drop_id: flower-walker__t008r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodTitan Cuffs
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodTitan Cuffs
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: flower-walker__t008r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodTitan Heavy Boots
+  chance_to_drop_raw: 1.2%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.2%
+    Icon: ''
+    Item: GoodTitan Heavy Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.2
+    quantity: null
+- drop_id: flower-walker__t008r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Cantaloupe Dish
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Cantaloupe Dish
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: flower-walker__t008r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Light Rune Piece
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: Purple Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+- drop_id: flower-walker__t008r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wrist Armor of Holy Field
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Wrist Armor of Holy Field
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: flower-walker__t008r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Silver Boots
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Holy Silver Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Flower Walker
+  - ''
+  rows_raw:
+  - - Name
+    - Flower Walker
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Winding Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '111'
+    - '9647'
+    - '647'
+    - '345'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1544'
+    - '1744'
+    - '954'
+    - '435'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +71 Lightning
+    - +91 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  row_count: 2
+- table_index: 6
+  headers_raw:
+  - Critical
+  - Stamina
+  - Soul
+  rows_raw:
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '6120'
+    - 424 - 540
+  row_count: 2
+- table_index: 8
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.4%
+    - ''
+    - Titan Cuffs
+    - ITEM NOTES
+  - - 48.4%
+    - ''
+    - Titan Heavy Boots
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodTitan Cuffs
+    - ITEM NOTES
+  - - 1.2%
+    - ''
+    - GoodTitan Heavy Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Cantaloupe Dish
+  - - 0.6%
+    - ''
+    - Purple Light Rune Piece
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Wrist Armor of Holy Field
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Holy Silver Boots
+    - ITEM NOTES
+  row_count: 9

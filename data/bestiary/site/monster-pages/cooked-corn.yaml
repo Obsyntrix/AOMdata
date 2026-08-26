@@ -1,0 +1,284 @@
+monster_page:
+  id: cooked-corn
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:cooked-corn
+    retrieval_url: https://web.archive.org/web/20200109122237id_/http://angels.wikidot.com:80/monster:cooked-corn
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109122237'
+    archive_snapshot_url: https://web.archive.org/web/20200109122237/http://angels.wikidot.com:80/monster:cooked-corn
+    archive_original_lookup_url: https://angels.wikidot.com/monster:cooked-corn
+    source_html_sha256: c0d9f857216606913740fddb247bb2ff83576e25b53ea463943c909d0de63dca
+fields_raw:
+  Name: 'Spells:'
+  Cooked Corn: '-'
+  'Spells:': 'Location:'
+  '-': Pharaoh Village
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 194 - 246
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: cooked-corn__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Wind
+  chance_to_drop_raw: 48.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.43%
+    Icon: ''
+    Item: Roaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.43
+    quantity: null
+- drop_id: cooked-corn__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Roaring Wind
+  chance_to_drop_raw: 1.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.21%
+    Icon: ''
+    Item: Good Roaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: cooked-corn__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Prophet's Scar
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Holy Prophet's Scar
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: cooked-corn__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dark Eagle Boots
+  chance_to_drop_raw: 48.43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48.43%
+    Icon: ''
+    Item: Dark Eagle Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.43
+    quantity: null
+- drop_id: cooked-corn__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Dark Eagle Boots
+  chance_to_drop_raw: 1.21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.21%
+    Icon: ''
+    Item: Good Dark Eagle Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: cooked-corn__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Desert Eagle Shoes
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Desert Eagle Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: cooked-corn__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Light Rune Piece
+  chance_to_drop_raw: 0.61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.61%
+    Icon: ''
+    Item: Blue Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Cooked Corn
+  - ''
+  rows_raw:
+  - - Name
+    - Cooked Corn
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Pharaoh Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 194 - 246
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48.43%
+    - ''
+    - Roaring Wind
+    - ITEM NOTES
+  - - 1.21%
+    - ''
+    - Good Roaring Wind
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Holy Prophet's Scar
+    - ITEM NOTES
+  - - 48.43%
+    - ''
+    - Dark Eagle Boots
+    - ITEM NOTES
+  - - 1.21%
+    - ''
+    - Good Dark Eagle Boots
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Desert Eagle Shoes
+    - ITEM NOTES
+  - - 0.61%
+    - ''
+    - Blue Light Rune Piece
+    - ITEM NOTES
+  row_count: 8

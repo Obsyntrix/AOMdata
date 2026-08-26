@@ -1,0 +1,338 @@
+monster_page:
+  id: fallen-martin
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fallen-martin
+    retrieval_url: https://web.archive.org/web/20200109064209id_/http://angels.wikidot.com:80/monster:fallen-martin
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109064209'
+    archive_snapshot_url: https://web.archive.org/web/20200109064209/http://angels.wikidot.com:80/monster:fallen-martin
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fallen-martin
+    source_html_sha256: 00908ec34318a7face4d0b60b09e0b34a3cf51e11ed99c9241a9a5af55d2f1f5
+fields_raw:
+  Name: 'Spells:'
+  Fallen Martin: Venomous Breath
+  'Spells:': 'Location:'
+  Venomous Breath: Botti Palace
+  Type: Undead
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 100%
+  Experience: '?'
+  Gold: 5403 - 6877 (?)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: fallen-martin__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Magic Potion
+  chance_to_drop_raw: 46,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,35%
+    Icon: ''
+    Item: Effective Magic Potion
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.35
+    quantity: null
+- drop_id: fallen-martin__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Effective Mighty Fruit
+  chance_to_drop_raw: 46,35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46,35%
+    Icon: ''
+    Item: Effective Mighty Fruit
+    Short info: +80 Attack
+  normalized:
+    chance_to_drop_percent: 46.35
+    quantity: null
+- drop_id: fallen-martin__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Eagle Wand
+  chance_to_drop_raw: 2,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,13%
+    Icon: ''
+    Item: Eagle Wand
+    Short info: 130 Staff
+  normalized:
+    chance_to_drop_percent: 2.13
+    quantity: null
+- drop_id: fallen-martin__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Celestial Hood
+  chance_to_drop_raw: 2,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,13%
+    Icon: ''
+    Item: Celestial Hood
+    Short info: 130 Vestment Hood
+  normalized:
+    chance_to_drop_percent: 2.13
+    quantity: null
+- drop_id: fallen-martin__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Celestial Gown
+  chance_to_drop_raw: 2,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,13%
+    Icon: ''
+    Item: Celestial Gown
+    Short info: 130 Vestment Gown
+  normalized:
+    chance_to_drop_percent: 2.13
+    quantity: null
+- drop_id: fallen-martin__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 00,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 00,54%
+    Icon: ''
+    Item: Pestle
+    Short info: Pestle
+  normalized:
+    chance_to_drop_percent: 0.54
+    quantity: null
+- drop_id: fallen-martin__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Eagle Wand
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Eagle Wand
+    Short info: 130 Staff
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: fallen-martin__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Celestial Hood
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Celestial Hood
+    Short info: 130 Vestment Hood
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: fallen-martin__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Celestial Gown
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Good Celestial Gown
+    Short info: 130 Vestment Gown
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: fallen-martin__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Light Rune Piece
+  chance_to_drop_raw: 00,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 00,05%
+    Icon: ''
+    Item: Orange Light Rune Piece
+    Short info: 100 Gem +104 Attack
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fallen Martin
+  - ''
+  rows_raw:
+  - - Name
+    - Fallen Martin
+    - ''
+  - - 'Spells:'
+    - Venomous Breath
+    - ''
+  - - 'Location:'
+    - Botti Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '?'
+    - 5403 - 6877 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46,35%
+    - ''
+    - Effective Magic Potion
+    - ITEM NOTES
+  - - 46,35%
+    - ''
+    - Effective Mighty Fruit
+    - +80 Attack
+  - - 2,13%
+    - ''
+    - Eagle Wand
+    - 130 Staff
+  - - 2,13%
+    - ''
+    - Celestial Hood
+    - 130 Vestment Hood
+  - - 2,13%
+    - ''
+    - Celestial Gown
+    - 130 Vestment Gown
+  - - 00,54%
+    - ''
+    - Pestle
+    - Pestle
+  - - 0,11%
+    - ''
+    - Good Eagle Wand
+    - 130 Staff
+  - - 0,11%
+    - ''
+    - Good Celestial Hood
+    - 130 Vestment Hood
+  - - 0,11%
+    - ''
+    - Good Celestial Gown
+    - 130 Vestment Gown
+  - - 00,05%
+    - ''
+    - Orange Light Rune Piece
+    - 100 Gem +104 Attack
+  row_count: 11

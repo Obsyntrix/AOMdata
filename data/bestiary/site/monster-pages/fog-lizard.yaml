@@ -1,0 +1,464 @@
+monster_page:
+  id: fog-lizard
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fog-lizard
+    retrieval_url: https://web.archive.org/web/20200109171803id_/http://angels.wikidot.com:80/monster:fog-lizard
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171803'
+    archive_snapshot_url: https://web.archive.org/web/20200109171803/http://angels.wikidot.com:80/monster:fog-lizard
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fog-lizard
+    source_html_sha256: e390ef9f4c405dfec6db19952ea3b64570483ea31eaf6ef923e3dcc2d6071eda
+fields_raw:
+  Name: 'Spells:'
+  Fog Lizard: '-'
+  'Spells:': 'Location:'
+  '-': Foggy Forest
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '35'
+  Hit Points: '1161'
+  Rigor: '180'
+  Agility: '117'
+  Attack: '236'
+  Defense: '275'
+  Spell Attack: '247'
+  Spell Defense: '139'
+  Special Attack: Fire +18
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Fast (80)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,72%
+  Experience: '290'
+  Gold: 59 - 93 (76)
+item_drop_chance_raw: 0,72%
+drops:
+- drop_id: fog-lizard__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 3 Robber Lord Map Piece
+  chance_to_drop_raw: 41,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 41,39%
+    Icon: ''
+    Item: Lvl 3 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 41.39
+    quantity: null
+- drop_id: fog-lizard__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Round Iron Helmet
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Round Iron Helmet
+    Short info: Garment 33 (Dfs +51, Spl Dfs +8)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: fog-lizard__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Hard-leather Cap
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Hard-leather Cap
+    Short info: Mantle 33 (Dfs +34, Spl Dfs +17)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: fog-lizard__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Risker Alchemic Cap
+  chance_to_drop_raw: 8,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8,39%
+    Icon: ''
+    Item: Risker Alchemic Cap
+    Short info: Vestment 33 (Dfs +17, Spl Dfs +25)
+  normalized:
+    chance_to_drop_percent: 8.39
+    quantity: null
+- drop_id: fog-lizard__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Blue Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Blue Stone
+    Short info: Used in Nightmare Cave for summoning Bloody Hook
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: fog-lizard__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Red Stone
+    Short info: Used in Nightmare Cave for summoning Soul Puller
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: fog-lizard__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Green Stone
+    Short info: Used in Nightmare Cave for summoning Evil Chieftain
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: fog-lizard__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Stone
+  chance_to_drop_raw: 6,90%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,90%
+    Icon: ''
+    Item: Yellow Stone
+    Short info: Used in Nightmare Cave for summoning Violent Cat
+  normalized:
+    chance_to_drop_percent: 6.9
+    quantity: null
+- drop_id: fog-lizard__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Round Iron Helmet
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Good Risker Round Iron Helmet
+    Short info: Garment 33 (Dfs +78, Spl Dfs +12)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: fog-lizard__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Hard-leather Cap
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Good Risker Hard-leather Cap
+    Short info: Mantle 33 (Dfs +52, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: fog-lizard__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Risker Alchemic Cap
+  chance_to_drop_raw: 1,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,39%
+    Icon: ''
+    Item: Good Risker Alchemic Cap
+    Short info: Vestment 33 (Dfs +26, Spl Dfs +35)
+  normalized:
+    chance_to_drop_percent: 1.39
+    quantity: null
+- drop_id: fog-lizard__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: fog-lizard__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: fog-lizard__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl.Atk +15, Armor/Shield: Spl. Def. +4'
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+- drop_id: fog-lizard__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Beastman Viking Cap
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Beastman Viking Cap
+    Short info: Garment 33 (Dfs +110, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: fog-lizard__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Icy Hard-Leather Cap
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Icy Hard-Leather Cap
+    Short info: Mantle 33 (Dfs +74, Spl Dfs +30)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+- drop_id: fog-lizard__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magic Alchemic Cap
+  chance_to_drop_raw: 0,14%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,14%
+    Icon: ''
+    Item: Magic Alchemic Cap
+    Short info: Vestment 33 (Dfs +37, Spl Dfs +45)
+  normalized:
+    chance_to_drop_percent: 0.14
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fog Lizard
+  - ''
+  rows_raw:
+  - - Name
+    - Fog Lizard
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Foggy Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '1161'
+    - '180'
+    - '117'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '236'
+    - '275'
+    - '247'
+    - '139'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +18
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Fast (80)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,72%
+    - '290'
+    - 59 - 93 (76)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 41,39%
+    - ''
+    - Lvl 3 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 8,39%
+    - ''
+    - Risker Round Iron Helmet
+    - Garment 33 (Dfs +51, Spl Dfs +8)
+  - - 8,39%
+    - ''
+    - Risker Hard-leather Cap
+    - Mantle 33 (Dfs +34, Spl Dfs +17)
+  - - 8,39%
+    - ''
+    - Risker Alchemic Cap
+    - Vestment 33 (Dfs +17, Spl Dfs +25)
+  - - 6,90%
+    - ''
+    - Blue Stone
+    - Used in Nightmare Cave for summoning Bloody Hook
+  - - 6,90%
+    - ''
+    - Red Stone
+    - Used in Nightmare Cave for summoning Soul Puller
+  - - 6,90%
+    - ''
+    - Green Stone
+    - Used in Nightmare Cave for summoning Evil Chieftain
+  - - 6,90%
+    - ''
+    - Yellow Stone
+    - Used in Nightmare Cave for summoning Violent Cat
+  - - 1,39%
+    - ''
+    - Good Risker Round Iron Helmet
+    - Garment 33 (Dfs +78, Spl Dfs +12)
+  - - 1,39%
+    - ''
+    - Good Risker Hard-leather Cap
+    - Mantle 33 (Dfs +52, Spl Dfs +23)
+  - - 1,39%
+    - ''
+    - Good Risker Alchemic Cap
+    - Vestment 33 (Dfs +26, Spl Dfs +35)
+  - - 0,41%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.Atk +4, Armor: Rig +4, Shield: R.Dfs +2'
+  - - 0,41%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max.MP +22, Shield: I.Dfs +2'
+  - - 0,41%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl.Atk +15, Armor/Shield: Spl. Def. +4'
+  - - 0,14%
+    - ''
+    - Beastman Viking Cap
+    - Garment 33 (Dfs +110, Spl Dfs +15)
+  - - 0,14%
+    - ''
+    - Icy Hard-Leather Cap
+    - Mantle 33 (Dfs +74, Spl Dfs +30)
+  - - 0,14%
+    - ''
+    - Magic Alchemic Cap
+    - Vestment 33 (Dfs +37, Spl Dfs +45)
+  row_count: 18

@@ -1,0 +1,248 @@
+monster_page:
+  id: palace-swordsman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:palace-swordsman
+    retrieval_url: https://web.archive.org/web/20170314222553id_/http://angels.wikidot.com:80/monster:palace-swordsman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170314222553'
+    archive_snapshot_url: https://web.archive.org/web/20170314222553/http://angels.wikidot.com:80/monster:palace-swordsman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:palace-swordsman
+    source_html_sha256: f9fa4044ff3442040d74743c46f5ef6ab6c32a8929247747426dbe78cce05baa
+fields_raw:
+  Name: 'Spells:'
+  Palace Swordsman: '-'
+  'Spells:': 'Location:'
+  '-': Sunshine Palace
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '113'
+  Hit Points: '9860'
+  Rigor: '577'
+  Agility: '351'
+  Attack: '1602'
+  Defense: '1813'
+  Spell Attack: '972'
+  Spell Defense: '665'
+  Special Attack: +57 Fire
+  Special Defense: +77 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.07%
+  Experience: '6345'
+  Gold: 434 - 552
+item_drop_chance_raw: 0.07%
+drops:
+- drop_id: palace-swordsman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Wonder Gloves
+  chance_to_drop_raw: 96.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.75%
+    Icon: ''
+    Item: Wonder Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.75
+    quantity: null
+- drop_id: palace-swordsman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWonder Gloves
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodWonder Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: palace-swordsman__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Prophet
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Roaring Prophet
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: palace-swordsman__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Oasis Ostrich
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Oasis Ostrich
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: palace-swordsman__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 0.61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.61%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Palace Swordsman
+  - ''
+  rows_raw:
+  - - Name
+    - Palace Swordsman
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Sunshine Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '113'
+    - '9860'
+    - '577'
+    - '351'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1602'
+    - '1813'
+    - '972'
+    - '665'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +57 Fire
+    - +77 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.07%
+    - '6345'
+    - 434 - 552
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.75%
+    - ''
+    - Wonder Gloves
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodWonder Gloves
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Roaring Prophet
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Oasis Ostrich
+    - ITEM NOTES
+  - - 0.61%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

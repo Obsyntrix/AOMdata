@@ -1,0 +1,230 @@
+monster_page:
+  id: floating-airship
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:floating-airship
+    retrieval_url: https://web.archive.org/web/20200105105702id_/http://angels.wikidot.com:80/monster:floating-airship
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105105702'
+    archive_snapshot_url: https://web.archive.org/web/20200105105702/http://angels.wikidot.com:80/monster:floating-airship
+    archive_original_lookup_url: https://angels.wikidot.com/monster:floating-airship
+    source_html_sha256: 0b1346bde2034879391fe2af6f98fa679246f211c781a6e0298e68c3f1a78544
+fields_raw:
+  Name: 'Spells:'
+  Floating Airship: '-'
+  'Spells:': 'Location:'
+  '-': Airship Station
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '107'
+  Hit Points: '9225'
+  Rigor: '627'
+  Agility: '333'
+  Attack: '1432'
+  Defense: '1612'
+  Spell Attack: '917'
+  Spell Defense: '419'
+  Special Attack: +67 Fire
+  Special Defense: +87 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '5688'
+  Gold: 406 - 516
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: floating-airship__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Titan Heavy Boots
+  chance_to_drop_raw: 96.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.64%
+    Icon: ''
+    Item: Titan Heavy Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.64
+    quantity: null
+- drop_id: floating-airship__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodTitan Heavy Boots
+  chance_to_drop_raw: 2.4%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.4%
+    Icon: ''
+    Item: GoodTitan Heavy Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.4
+    quantity: null
+- drop_id: floating-airship__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Silver Boots
+  chance_to_drop_raw: 0.1%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.1%
+    Icon: ''
+    Item: Holy Silver Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: floating-airship__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 0.86%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.86%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.86
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Floating Airship
+  - ''
+  rows_raw:
+  - - Name
+    - Floating Airship
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Airship Station
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '107'
+    - '9225'
+    - '627'
+    - '333'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1432'
+    - '1612'
+    - '917'
+    - '419'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +67 Fire
+    - +87 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '5688'
+    - 406 - 516
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.64%
+    - ''
+    - Titan Heavy Boots
+    - ITEM NOTES
+  - - 2.4%
+    - ''
+    - GoodTitan Heavy Boots
+    - ITEM NOTES
+  - - 0.1%
+    - ''
+    - Holy Silver Boots
+    - ITEM NOTES
+  - - 0.86%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 5

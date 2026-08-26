@@ -1,0 +1,538 @@
+monster_page:
+  id: turbo-robot
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:turbo-robot
+    retrieval_url: https://web.archive.org/web/20191230110203id_/http://angels.wikidot.com:80/monster:turbo-robot
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110203'
+    archive_snapshot_url: https://web.archive.org/web/20191230110203/http://angels.wikidot.com:80/monster:turbo-robot
+    archive_original_lookup_url: https://angels.wikidot.com/monster:turbo-robot
+    source_html_sha256: bf4da939c4bb8073c3044dad933085920c2d4e2f7d73e447c62c1054fe9dde3c
+fields_raw:
+  Name: 'Stances:'
+  Turbo Robot: Strong Beat Single Short-R. | Power 300 - Shaking Beat Self AOE | Power 211
+  'Stances:': 'Location:'
+  Strong Beat Single Short-R. | Power 300 - Shaking Beat Self AOE | Power 211: Scrap Iron Village
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '23'
+  Hit Points: '8466'
+  Rigor: '152'
+  Agility: '96'
+  Attack: '396'
+  Defense: '252'
+  Spell Attack: '170'
+  Spell Defense: '170'
+  Special Attack: '-'
+  Special Defense: '2'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Very Fast (95)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 100,00%
+  Experience: '569'
+  Gold: 389 - 617 (503)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: turbo-robot__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 26,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 26,49%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 26.49
+    quantity: null
+- drop_id: turbo-robot__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fruit of Hercules
+  chance_to_drop_raw: 20,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 20,54%
+    Icon: ''
+    Item: Fruit of Hercules
+    Short info: Food (Atk +15 | 10 min)
+  normalized:
+    chance_to_drop_percent: 20.54
+    quantity: null
+- drop_id: turbo-robot__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Turbo Robot card
+  chance_to_drop_raw: 11,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,11%
+    Icon: ''
+    Item: Turbo Robot card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 11.11
+    quantity: null
+- drop_id: turbo-robot__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Sword
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Sword
+    Short info: Sword Lvl 15 (62-68 (65), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Double-blade Axe
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Double-blade Axe
+    Short info: Axe Lvl 15 (80-104 (92), Rig.+4)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Wooden Shield
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Wooden Shield
+    Short info: Shield Lvl 15 (Dfs +30, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Hook
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Hook
+    Short info: Spear Lvl 15 (73-85 (79), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Slingshot
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Slingshot
+    Short info: Bow Lvl 15 (43-53 (48), Rig.+9)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Staff
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Good Basic Staff
+    Short info: Staff Lvl 15 (46-58 (52), Spl Atk +32, Rig.+4)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Iron Hat
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Iron Hat
+    Short info: Cap Lvl 15 (Dfs +30)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Robber Flag
+  chance_to_drop_raw: 3,64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,64%
+    Icon: ''
+    Item: Robber Flag
+    Short info: Trinket Lvl 15 (Dfs +17, Spl Dfs +9, Rig.+8, Ag.+6)
+  normalized:
+    chance_to_drop_percent: 3.64
+    quantity: null
+- drop_id: turbo-robot__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby Piece
+  chance_to_drop_raw: 3,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,18%
+    Icon: ''
+    Item: Ruby Piece
+    Short info: 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 3.18
+    quantity: null
+- drop_id: turbo-robot__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem Piece
+  chance_to_drop_raw: 3,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,18%
+    Icon: ''
+    Item: Orange Gem Piece
+    Short info: 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  normalized:
+    chance_to_drop_percent: 3.18
+    quantity: null
+- drop_id: turbo-robot__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem Piece
+  chance_to_drop_raw: 3,18%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,18%
+    Icon: ''
+    Item: Yellow Gem Piece
+    Short info: 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 3.18
+    quantity: null
+- drop_id: turbo-robot__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Antique Rapier
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Antique Rapier
+    Short info: Sword Lvl 15 (102-112 (107), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Double-bladed Axe
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Silver Double-bladed Axe
+    Short info: Axe Lvl 15 (131-155 (143), Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Shield
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Silver Shield
+    Short info: Shield Lvl 15 (Dfs +51, Spl Dfs +32)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Curse Hook
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Curse Hook
+    Short info: Spear Lvl 15 (120-132 (126), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Raid Slingshot
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Raid Slingshot
+    Short info: Bow Lvl 15 (80-90 (85), Rig.+14)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Wood Staff
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Holy Wood Staff
+    Short info: Staff Lvl 15 (85-97 (91), Spl Atk +63, Rig.+7)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: turbo-robot__t007r0022
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Copper Monster Badge
+  chance_to_drop_raw: 3 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3 x
+    Icon: ''
+    Item: Copper Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Turbo Robot
+  - ''
+  rows_raw:
+  - - Name
+    - Turbo Robot
+    - ''
+  - - 'Stances:'
+    - Strong Beat Single Short-R. | Power 300 - Shaking Beat Self AOE | Power 211
+    - ''
+  - - 'Location:'
+    - Scrap Iron Village
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '23'
+    - '8466'
+    - '152'
+    - '96'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '396'
+    - '252'
+    - '170'
+    - '170'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '2'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Very Fast (95)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '569'
+    - 389 - 617 (503)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 26,49%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 20,54%
+    - ''
+    - Fruit of Hercules
+    - Food (Atk +15 | 10 min)
+  - - 11,11%
+    - ''
+    - Turbo Robot card
+    - 'See: Card Collection'
+  - - 3,64%
+    - ''
+    - Good Basic Sword
+    - Sword Lvl 15 (62-68 (65), Rig.+4)
+  - - 3,64%
+    - ''
+    - Good Basic Double-blade Axe
+    - Axe Lvl 15 (80-104 (92), Rig.+4)
+  - - 3,64%
+    - ''
+    - Good Basic Wooden Shield
+    - Shield Lvl 15 (Dfs +30, Spl Dfs +21)
+  - - 3,64%
+    - ''
+    - Good Basic Hook
+    - Spear Lvl 15 (73-85 (79), Rig.+9)
+  - - 3,64%
+    - ''
+    - Good Basic Slingshot
+    - Bow Lvl 15 (43-53 (48), Rig.+9)
+  - - 3,64%
+    - ''
+    - Good Basic Staff
+    - Staff Lvl 15 (46-58 (52), Spl Atk +32, Rig.+4)
+  - - 3,64%
+    - ''
+    - Iron Hat
+    - Cap Lvl 15 (Dfs +30)
+  - - 3,64%
+    - ''
+    - Robber Flag
+    - Trinket Lvl 15 (Dfs +17, Spl Dfs +9, Rig.+8, Ag.+6)
+  - - 3,18%
+    - ''
+    - Ruby Piece
+    - 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  - - 3,18%
+    - ''
+    - Orange Gem Piece
+    - 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  - - 3,18%
+    - ''
+    - Yellow Gem Piece
+    - 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  - - 0,53%
+    - ''
+    - Antique Rapier
+    - Sword Lvl 15 (102-112 (107), Rig.+7)
+  - - 0,53%
+    - ''
+    - Silver Double-bladed Axe
+    - Axe Lvl 15 (131-155 (143), Rig.+7)
+  - - 0,53%
+    - ''
+    - Silver Shield
+    - Shield Lvl 15 (Dfs +51, Spl Dfs +32)
+  - - 0,53%
+    - ''
+    - Curse Hook
+    - Spear Lvl 15 (120-132 (126), Rig.+14)
+  - - 0,53%
+    - ''
+    - Raid Slingshot
+    - Bow Lvl 15 (80-90 (85), Rig.+14)
+  - - 0,53%
+    - ''
+    - Holy Wood Staff
+    - Staff Lvl 15 (85-97 (91), Spl Atk +63, Rig.+7)
+  - - Badges
+    - ''
+  - - 3 x
+    - ''
+    - Copper Monster Badge
+    - ''
+  row_count: 23

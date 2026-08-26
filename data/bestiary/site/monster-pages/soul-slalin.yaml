@@ -1,0 +1,406 @@
+monster_page:
+  id: soul-slalin
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:soul-slalin
+    retrieval_url: https://web.archive.org/web/20200221174204id_/http://angels.wikidot.com:80/monster:soul-slalin
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200221174204'
+    archive_snapshot_url: https://web.archive.org/web/20200221174204/http://angels.wikidot.com:80/monster:soul-slalin
+    archive_original_lookup_url: https://angels.wikidot.com/monster:soul-slalin
+    source_html_sha256: b564df10f8854d7c575d576bc2760e61c23a352e6d6ff52f8988852f38adae9c
+fields_raw:
+  Name: 'Spells:'
+  Soul Slalin: Silence 5 sec
+  'Spells:': 'Location:'
+  Silence 5 sec: Magic Kitchen Path
+  Type: Energy
+  Boss?: 'Yes'
+  Aggressive?: 'Yes'
+  Attack Range: Short
+  Level: '65'
+  Hit Points: '49351'
+  Rigor: '362'
+  Agility: '222'
+  Attack: '1030'
+  Defense: '778'
+  Magic Attack: '478'
+  Magic Defense: '270'
+  Bonus Damage: Ice +33
+  Strong Against: Thunder
+  Weak Against: Fire
+  Item Drop Chance: 100,00%
+  Experience: '37013'
+  Gold: 2693 - 4471 (3582)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: soul-slalin__t004r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Crystal x2
+  chance_to_drop_raw: 47,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,38%
+    Icon: ''
+    Item: Energy Crystal x2
+    Short info: See Sets
+  normalized:
+    chance_to_drop_percent: 47.38
+    quantity: null
+- drop_id: soul-slalin__t004r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Chain Armor
+  chance_to_drop_raw: 15,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,79%
+    Icon: ''
+    Item: Advanced Chain Armor
+    Short info: Garment 44 (Dfs +140, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 15.79
+    quantity: null
+- drop_id: soul-slalin__t004r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Black Knights Boots
+  chance_to_drop_raw: 15,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,79%
+    Icon: ''
+    Item: Black Knights Boots
+    Short info: Garment 46 (Dfs +56, Spl Dfs +9, Ag +16)
+  normalized:
+    chance_to_drop_percent: 15.79
+    quantity: null
+- drop_id: soul-slalin__t004r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Gown
+  chance_to_drop_raw: 15,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15,79%
+    Icon: ''
+    Item: Royal Magic Gown
+    Short info: Vestment 54 (Dfs +66, Spl Dfs +56)
+  normalized:
+    chance_to_drop_percent: 15.79
+    quantity: null
+- drop_id: soul-slalin__t004r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heaven Bow
+  chance_to_drop_raw: 1.30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.30%
+    Icon: ''
+    Item: Heaven Bow
+    Short info: Bow Lvl 70 (Atk 324-348 (336), Rig +31)
+  normalized:
+    chance_to_drop_percent: 1.3
+    quantity: null
+- drop_id: soul-slalin__t004r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Manteau
+  chance_to_drop_raw: 1.30%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.30%
+    Icon: ''
+    Item: Holy Manteau
+    Short info: Cloak Lvl 70 (Dfs +92, Spl Dfs+60, Ag +21)
+  normalized:
+    chance_to_drop_percent: 1.3
+    quantity: null
+- drop_id: soul-slalin__t004r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Torn Shoes Shards
+  chance_to_drop_raw: 1.00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.00%
+    Icon: ''
+    Item: Torn Shoes Shards
+    Short info: 'See: Sets'
+  normalized:
+    chance_to_drop_percent: 1.0
+    quantity: null
+- drop_id: soul-slalin__t004r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Soul-eater Slalin Card
+  chance_to_drop_raw: 0,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,61%
+    Icon: ''
+    Item: Soul-eater Slalin Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+- drop_id: soul-slalin__t004r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 0,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,32%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.32
+    quantity: null
+- drop_id: soul-slalin__t004r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.29%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.29
+    quantity: null
+- drop_id: soul-slalin__t004r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Heaven Bow
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Good Heaven Bow
+    Short info: Bow Lvl 70 (Atk 446-464 (455), Rig +36)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: soul-slalin__t004r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Holy Manteau
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Good Holy Manteau
+    Short info: Cloak Lvl 70 (Dfs +108, Spl Dfs+70, Ag +24)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: soul-slalin__t004r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Tooth
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Fire Tooth
+    Short info: Bow Lvl 70 (Atk 592-610 (601), Rig +41)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: soul-slalin__t004r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hope Mantle
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Hope Mantle
+    Short info: Cloak Lvl 70 (Dfs +122, Spl Dfs+80, Ag +28)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: soul-slalin__t004r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scroll 1:Heart Hit 5
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Scroll 1:Heart Hit 5
+    Short info: Life 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: soul-slalin__t004r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 3: Advanced Attack 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 3: Advanced Attack 5'
+    Short info: Spear 66
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Soul Slalin
+  - ''
+  rows_raw:
+  - - Name
+    - Soul Slalin
+    - ''
+  - - 'Spells:'
+    - Silence 5 sec
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'Yes'
+    - 'Yes'
+    - Short
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '49351'
+    - '362'
+    - '222'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1030'
+    - '778'
+    - '478'
+    - '270'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Ice +33
+    - Thunder
+    - Fire
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '37013'
+    - 2693 - 4471 (3582)
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,38%
+    - ''
+    - Energy Crystal x2
+    - See Sets
+  - - 15,79%
+    - ''
+    - Advanced Chain Armor
+    - Garment 44 (Dfs +140, Spl Dfs +15)
+  - - 15,79%
+    - ''
+    - Black Knights Boots
+    - Garment 46 (Dfs +56, Spl Dfs +9, Ag +16)
+  - - 15,79%
+    - ''
+    - Royal Magic Gown
+    - Vestment 54 (Dfs +66, Spl Dfs +56)
+  - - 1.30%
+    - ''
+    - Heaven Bow
+    - Bow Lvl 70 (Atk 324-348 (336), Rig +31)
+  - - 1.30%
+    - ''
+    - Holy Manteau
+    - Cloak Lvl 70 (Dfs +92, Spl Dfs+60, Ag +21)
+  - - 1.00%
+    - ''
+    - Torn Shoes Shards
+    - 'See: Sets'
+  - - 0,61%
+    - ''
+    - Soul-eater Slalin Card
+    - 'See: Card Collection'
+  - - 0,32%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.29%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,19%
+    - ''
+    - Good Heaven Bow
+    - Bow Lvl 70 (Atk 446-464 (455), Rig +36)
+  - - 0,19%
+    - ''
+    - Good Holy Manteau
+    - Cloak Lvl 70 (Dfs +108, Spl Dfs+70, Ag +24)
+  - - 0,01%
+    - ''
+    - Fire Tooth
+    - Bow Lvl 70 (Atk 592-610 (601), Rig +41)
+  - - 0,01%
+    - ''
+    - Hope Mantle
+    - Cloak Lvl 70 (Dfs +122, Spl Dfs+80, Ag +28)
+  - - 0,01%
+    - ''
+    - Scroll 1:Heart Hit 5
+    - Life 64
+  - - 0,01%
+    - ''
+    - 'Stance 3: Advanced Attack 5'
+    - Spear 66
+  row_count: 17

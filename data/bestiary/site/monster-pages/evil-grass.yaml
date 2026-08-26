@@ -1,0 +1,300 @@
+monster_page:
+  id: evil-grass
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-grass
+    retrieval_url: https://web.archive.org/web/20200109171712id_/http://angels.wikidot.com:80/monster:evil-grass
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171712'
+    archive_snapshot_url: https://web.archive.org/web/20200109171712/http://angels.wikidot.com:80/monster:evil-grass
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-grass
+    source_html_sha256: b28c98dfe075ccdedb87f0c272c8bf466be82e5e930c1f6a49025103a29bd231
+fields_raw:
+  Name: 'Spells:'
+  'Spells:': 'Location:'
+  Type: Plant
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '50'
+  Hit Points: '1768'
+  Rigor: '262'
+  Agility: '162'
+  Attack: '307'
+  Defense: '453'
+  Spell Attack: '359'
+  Spell Defense: '205'
+  Special Attack: Rotten +25
+  Special Defense: '15'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (85)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,24%
+  Experience: '657'
+  Gold: 94 - 146 (120)
+item_drop_chance_raw: 0,24%
+drops:
+- drop_id: evil-grass__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 57,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 57,71%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 57.71
+    quantity: null
+- drop_id: evil-grass__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Trident
+  chance_to_drop_raw: 11,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,54%
+    Icon: ''
+    Item: Advanced Trident
+    Short info: Spear Lvl 45 (Atk 177 - 197 (187), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 11.54
+    quantity: null
+- drop_id: evil-grass__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Spinning Slingshot
+  chance_to_drop_raw: 11,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,54%
+    Icon: ''
+    Item: Advanced Spinning Slingshot
+    Short info: Bow Lvl 45 (Atk 126 - 144 (135), Rig.+19)
+  normalized:
+    chance_to_drop_percent: 11.54
+    quantity: null
+- drop_id: evil-grass__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Staff
+  chance_to_drop_raw: 11,54%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,54%
+    Icon: ''
+    Item: Advanced Staff
+    Short info: Staff Lvl 45 (Atk 130 - 156 (143), Spl Atk +74, Rig.+9)
+  normalized:
+    chance_to_drop_percent: 11.54
+    quantity: null
+- drop_id: evil-grass__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Trident
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Advanced Trident
+    Short info: Spear Lvl 45 (Atk 256 - 276 (266), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: evil-grass__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Spinning Slingshot
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Advanced Spinning Slingshot
+    Short info: Bow Lvl 45 (Atk 192 - 210 (201), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: evil-grass__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Magic Stick
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: Good Advanced Magic Stick
+    Short info: Staff Lvl 45 (Atk 198 - 224 (211), Spl Atk +128, Rig.+12)
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+- drop_id: evil-grass__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'W.Plan2: Dragon Blade'
+  chance_to_drop_raw: 1,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,92%
+    Icon: ''
+    Item: 'W.Plan2: Dragon Blade'
+    Short info: Weapon 55
+  normalized:
+    chance_to_drop_percent: 1.92
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Grass
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Grass
+    - ''
+  - - 'Spells:'
+    - ''
+    - ''
+  - - 'Location:'
+    - Sad Abyss
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '50'
+    - '1768'
+    - '262'
+    - '162'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '307'
+    - '453'
+    - '359'
+    - '205'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +25
+    - '15'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (85)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,24%
+    - '657'
+    - 94 - 146 (120)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 57,71%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,54%
+    - ''
+    - Advanced Trident
+    - Spear Lvl 45 (Atk 177 - 197 (187), Rig.+19)
+  - - 11,54%
+    - ''
+    - Advanced Spinning Slingshot
+    - Bow Lvl 45 (Atk 126 - 144 (135), Rig.+19)
+  - - 11,54%
+    - ''
+    - Advanced Staff
+    - Staff Lvl 45 (Atk 130 - 156 (143), Spl Atk +74, Rig.+9)
+  - - 1,92%
+    - ''
+    - Good Advanced Trident
+    - Spear Lvl 45 (Atk 256 - 276 (266), Rig.+24)
+  - - 1,92%
+    - ''
+    - Good Advanced Spinning Slingshot
+    - Bow Lvl 45 (Atk 192 - 210 (201), Rig.+24)
+  - - 1,92%
+    - ''
+    - Good Advanced Magic Stick
+    - Staff Lvl 45 (Atk 198 - 224 (211), Spl Atk +128, Rig.+12)
+  - - 1,92%
+    - ''
+    - 'W.Plan2: Dragon Blade'
+    - Weapon 55
+  row_count: 9

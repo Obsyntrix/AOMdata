@@ -1,0 +1,248 @@
+monster_page:
+  id: thunder-rabbit-new
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:thunder-rabbit-new
+    retrieval_url: https://web.archive.org/web/20110907045644id_/http://angels.wikidot.com:80/monster:thunder-rabbit-new
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907045644'
+    archive_snapshot_url: https://web.archive.org/web/20110907045644/http://angels.wikidot.com:80/monster:thunder-rabbit-new
+    archive_original_lookup_url: https://angels.wikidot.com/monster:thunder-rabbit-new
+    source_html_sha256: 80c32910d598b26e757356bfedaac11ad0e13d2ad4b60039dbfe65bb300745fd
+fields_raw:
+  Name: 'Spells:'
+  Thunder Rabbit: '-'
+  'Spells:': 'Location:'
+  '-': Flower Corridor
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 383 - 487
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: thunder-rabbit-new__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Woods Boots
+  chance_to_drop_raw: 96.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.11%
+    Icon: ''
+    Item: Woods Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.11
+    quantity: null
+- drop_id: thunder-rabbit-new__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWoods Boots
+  chance_to_drop_raw: 2.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.39%
+    Icon: ''
+    Item: GoodWoods Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.39
+    quantity: null
+- drop_id: thunder-rabbit-new__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Conqueror Boots
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Conqueror Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: thunder-rabbit-new__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Woods Boots
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: A.Plan2:Woods Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: thunder-rabbit-new__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 0.59%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.59%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.59
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Thunder Rabbit
+  - ''
+  rows_raw:
+  - - Name
+    - Thunder Rabbit
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 383 - 487
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.11%
+    - ''
+    - Woods Boots
+    - ITEM NOTES
+  - - 2.39%
+    - ''
+    - GoodWoods Boots
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Conqueror Boots
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - A.Plan2:Woods Boots
+    - ITEM NOTES
+  - - 0.59%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

@@ -1,0 +1,194 @@
+monster_page:
+  id: animal-slave
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:animal-slave
+    retrieval_url: https://web.archive.org/web/20200109122113id_/http://angels.wikidot.com:80/monster:animal-slave
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109122113'
+    archive_snapshot_url: https://web.archive.org/web/20200109122113/http://angels.wikidot.com:80/monster:animal-slave
+    archive_original_lookup_url: https://angels.wikidot.com/monster:animal-slave
+    source_html_sha256: 36c887f962bfa052910c9e27374effd4fba2e0c009b45405e6a04333667da747
+fields_raw:
+  Name: 'Spells:'
+  Animal Slave: '-'
+  'Spells:': 'Location:'
+  '-': Ancient Glide River
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '97'
+  Hit Points: '4094'
+  Rigor: '496'
+  Agility: '303'
+  Attack: '1014'
+  Defense: '1318'
+  Spell Attack: '1108'
+  Spell Defense: '378'
+  Special Attack: +48 Lightning
+  Special Defense: '?'
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: ??,??%
+  Experience: '1523'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: animal-slave__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: animal-slave__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Animal Slave
+  - ''
+  rows_raw:
+  - - Name
+    - Animal Slave
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ancient Glide River
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '97'
+    - '4094'
+    - '496'
+    - '303'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1014'
+    - '1318'
+    - '1108'
+    - '378'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +48 Lightning
+    - '?'
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '1523'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

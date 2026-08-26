@@ -1,0 +1,518 @@
+monster_page:
+  id: evil-fire-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:evil-fire-elf
+    retrieval_url: https://web.archive.org/web/20191231132154id_/http://angels.wikidot.com:80/monster:evil-fire-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191231132154'
+    archive_snapshot_url: https://web.archive.org/web/20191231132154/http://angels.wikidot.com:80/monster:evil-fire-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:evil-fire-elf
+    source_html_sha256: a6f128374d0e4cd05e441236cbb7c975809658bb5e2804aabdc0856808743274
+fields_raw:
+  Name: 'Spells:'
+  Evil Fire Elf: Phoenix Fire Single Ranged | Dmg 168-172 HP -18 x5 | 10 sec
+  'Spells:': 'Location:'
+  Phoenix Fire Single Ranged | Dmg 168-172 HP -18 x5 | 10 sec: Deity Palace Ruins
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '50'
+  Hit Points: '1713'
+  Rigor: '262'
+  Agility: '162'
+  Attack: '387'
+  Defense: '439'
+  Spell Attack: '333'
+  Spell Defense: '197'
+  Special Attack: Fire +25
+  Special Defense: '15'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,07%
+  Experience: '428'
+  Gold: 88 - 140 (114)
+item_drop_chance_raw: 0,07%
+drops:
+- drop_id: evil-fire-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 56,45%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 56,45%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 56.45
+    quantity: null
+- drop_id: evil-fire-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Iron Gloves
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Iron Gloves
+    Short info: Garment 52 (Dfs +66, Spl Dfs +10, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Tight Leather Gloves
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Gloves
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Magic Gloves
+    Short info: Vestment 52 (Dfs +22, Spl Dfs +30, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Weighty Iron Boots
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Weighty Iron Boots
+    Short info: Garment 51 (Dfs +66, Spl Dfs +10, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Thick-soled Boots
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Thick-soled Boots
+    Short info: Mantle 51 (Dfs +44, Spl Dfs +20, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Boots
+  chance_to_drop_raw: 5,79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,79%
+    Icon: ''
+    Item: Royal Magic Boots
+    Short info: Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 5.79
+    quantity: null
+- drop_id: evil-fire-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 2,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,40%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 2.4
+    quantity: null
+- drop_id: evil-fire-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Iron Gloves
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Iron Gloves
+    Short info: Garment 52 (Dfs +90, Spl Dfs +12, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Tight Leather Gloves
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Gloves
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Magic Gloves
+    Short info: Vestment 52 (Dfs +30, Spl Dfs +38, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Weighty Iron Boots
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Weighty Iron Boots
+    Short info: Garment 51 (Dfs +90, Spl Dfs +12, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Thick-soled Boots
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Thick-soled Boots
+    Short info: Mantle 51 (Dfs +60, Spl Dfs +24, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Boots
+  chance_to_drop_raw: 0,97%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,97%
+    Icon: ''
+    Item: Good Royal Magic Boots
+    Short info: Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 0.97
+    quantity: null
+- drop_id: evil-fire-elf__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Gloves
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Knight Gloves
+    Short info: Garment 52 (Dfs +118, Spl Dfs +14, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: evil-fire-elf__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Shell (gloves)
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Scale Shell (gloves)
+    Short info: Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: evil-fire-elf__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gloves
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Slarm's Gloves
+    Short info: Vestment 52 (Dfs +39, Spl Dfs +47, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: evil-fire-elf__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Knight Boots
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Knight Boots
+    Short info: Garment 51 (Dfs +118, Spl Dfs +14, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: evil-fire-elf__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Boots
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Scale Boots
+    Short info: Mantle 51 (Dfs +79, Spl Dfs +29, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: evil-fire-elf__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gown (boots)
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Slarm's Gown (boots)
+    Short info: Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Evil Fire Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Evil Fire Elf
+    - ''
+  - - 'Spells:'
+    - Phoenix Fire Single Ranged | Dmg 168-172 HP -18 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Deity Palace Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '50'
+    - '1713'
+    - '262'
+    - '162'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '387'
+    - '439'
+    - '333'
+    - '197'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +25
+    - '15'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,07%
+    - '428'
+    - 88 - 140 (114)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 56,45%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 5,79%
+    - ''
+    - Royal Iron Gloves
+    - Garment 52 (Dfs +66, Spl Dfs +10, Rig.+47)
+  - - 5,79%
+    - ''
+    - Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 5,79%
+    - ''
+    - Royal Magic Gloves
+    - Vestment 52 (Dfs +22, Spl Dfs +30, Rig.+47)
+  - - 5,79%
+    - ''
+    - Royal Weighty Iron Boots
+    - Garment 51 (Dfs +66, Spl Dfs +10, Ag.+17)
+  - - 5,79%
+    - ''
+    - Royal Thick-soled Boots
+    - Mantle 51 (Dfs +44, Spl Dfs +20, Ag.+17)
+  - - 5,79%
+    - ''
+    - Royal Magic Boots
+    - Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  - - 2,40%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,97%
+    - ''
+    - Good Royal Iron Gloves
+    - Garment 52 (Dfs +90, Spl Dfs +12, Rig.+57)
+  - - 0,97%
+    - ''
+    - Good Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  - - 0,97%
+    - ''
+    - Good Royal Magic Gloves
+    - Vestment 52 (Dfs +30, Spl Dfs +38, Rig.+57)
+  - - 0,97%
+    - ''
+    - Good Royal Weighty Iron Boots
+    - Garment 51 (Dfs +90, Spl Dfs +12, Ag.+21)
+  - - 0,97%
+    - ''
+    - Good Royal Thick-soled Boots
+    - Mantle 51 (Dfs +60, Spl Dfs +24, Ag.+21)
+  - - 0,97%
+    - ''
+    - Good Royal Magic Boots
+    - Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  - - 0,10%
+    - ''
+    - Knight Gloves
+    - Garment 52 (Dfs +118, Spl Dfs +14, Rig.+67)
+  - - 0,10%
+    - ''
+    - Scale Shell (gloves)
+    - Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  - - 0,10%
+    - ''
+    - Slarm's Gloves
+    - Vestment 52 (Dfs +39, Spl Dfs +47, Rig.+67)
+  - - 0,10%
+    - ''
+    - Knight Boots
+    - Garment 51 (Dfs +118, Spl Dfs +14, Ag.+24)
+  - - 0,10%
+    - ''
+    - Scale Boots
+    - Mantle 51 (Dfs +79, Spl Dfs +29, Ag.+24)
+  - - 0,10%
+    - ''
+    - Slarm's Gown (boots)
+    - Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  row_count: 21

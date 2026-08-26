@@ -1,0 +1,374 @@
+monster_page:
+  id: giant-rotten-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:giant-rotten-fly
+    retrieval_url: https://web.archive.org/web/20200128093111id_/http://angels.wikidot.com:80/monster:giant-rotten-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093111'
+    archive_snapshot_url: https://web.archive.org/web/20200128093111/http://angels.wikidot.com:80/monster:giant-rotten-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:giant-rotten-fly
+    source_html_sha256: 75bff45ef4599570b685169d5fca85ce70a22fbff57931ae296e9ee3154d1b55
+fields_raw:
+  Name: 'Description:'
+  Giant Rotten Fly: Description
+  'Description:': 'Location:'
+  Description: Lava Cave
+  Type: Beast
+  Boss?: 'Yes'
+  Aggressive?: Yes(10)
+  Level: '70'
+  Hit Points: '26.815'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '1072'
+  Defense: '811'
+  Magic Attack: '527'
+  Magic Defense: '300'
+  Special Attack: Rotten +35
+  Special Defense: '25'
+  Strong Against: Thunder(55)
+  Weak Against: Fire(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(110)
+  Attack Speed: Slow(70)
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100%
+  Experience: '20111'
+  Gold: 1718 - 2684(2201)
+item_drop_chance_raw: 100%
+drops:
+- drop_id: giant-rotten-fly__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Mars' Fruit
+  chance_to_drop_raw: 47.80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.80%
+    Icon: ''
+    Item: Medium Mars' Fruit
+    Short info: Food (Dfs +55 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.8
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Target Potion
+  chance_to_drop_raw: 47.80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.80%
+    Icon: ''
+    Item: Medium Target Potion
+    Short info: Food (Rig. +44 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.8
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Shake Axe
+  chance_to_drop_raw: 1.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.57%
+    Icon: ''
+    Item: Shake Axe
+    Short info: Lvl 70 (Atk 434-484 (459), Rig +16)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Benison Ring
+  chance_to_drop_raw: 1.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.57%
+    Icon: ''
+    Item: Benison Ring
+    Short info: Lvl 70 (Dfs +61, Spl Dfs +40, Rig +31, Ag +21)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0.36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.36%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Shake Axe
+  chance_to_drop_raw: 0.23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.23%
+    Icon: ''
+    Item: Good Shake Axe
+    Short info: Lvl 70 (Atk 578-626 (602), Rig +18)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Benison Ring
+  chance_to_drop_raw: 0.23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.23%
+    Icon: ''
+    Item: Good Benison Ring
+    Short info: Lvl 70 (Dfs +67, Spl Dfs +47, Rig +36, Ag +24)
+  normalized:
+    chance_to_drop_percent: 0.23
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Nemesis Axe
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Nemesis Axe
+    Short info: Lvl 70 (Atk 753-801 (777), Rig +21)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel's Blessing
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: Angel's Blessing
+    Short info: Lvl 70 (Dfs +82, Spl Dfs +53, Rig +41, Ag +27)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 2: Shaking Beat 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Stance 2: Shaking Beat 5'
+    Short info: Axe 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: giant-rotten-fly__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 1: Silver Shield 5'
+  chance_to_drop_raw: 0.01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.01%
+    Icon: ''
+    Item: 'Scroll 1: Silver Shield 5'
+    Short info: Life 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Giant Rotten Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Giant Rotten Fly
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Lava Cave
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Beast
+    - 'Yes'
+    - Yes(10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '26.815'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '1072'
+    - '811'
+    - '527'
+    - '300'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Rotten +35
+    - '25'
+    - Thunder(55)
+    - Fire(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(110)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100%
+    - '20111'
+    - 1718 - 2684(2201)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.80%
+    - ''
+    - Medium Mars' Fruit
+    - Food (Dfs +55 | 10 min)
+  - - 47.80%
+    - ''
+    - Medium Target Potion
+    - Food (Rig. +44 | 10 min)
+  - - 1.57%
+    - ''
+    - Shake Axe
+    - Lvl 70 (Atk 434-484 (459), Rig +16)
+  - - 1.57%
+    - ''
+    - Benison Ring
+    - Lvl 70 (Dfs +61, Spl Dfs +40, Rig +31, Ag +21)
+  - - 0.39%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0.36%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0.23%
+    - ''
+    - Good Shake Axe
+    - Lvl 70 (Atk 578-626 (602), Rig +18)
+  - - 0.23%
+    - ''
+    - Good Benison Ring
+    - Lvl 70 (Dfs +67, Spl Dfs +47, Rig +36, Ag +24)
+  - - 0.01%
+    - ''
+    - Nemesis Axe
+    - Lvl 70 (Atk 753-801 (777), Rig +21)
+  - - 0.01%
+    - ''
+    - Angel's Blessing
+    - Lvl 70 (Dfs +82, Spl Dfs +53, Rig +41, Ag +27)
+  - - 0.01%
+    - ''
+    - 'Stance 2: Shaking Beat 5'
+    - Axe 64
+  - - 0.01%
+    - ''
+    - 'Scroll 1: Silver Shield 5'
+    - Life 64
+  row_count: 13

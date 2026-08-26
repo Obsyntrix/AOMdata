@@ -1,0 +1,302 @@
+monster_page:
+  id: outpost-archer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:outpost-archer
+    retrieval_url: https://web.archive.org/web/20100811141239id_/http://angels.wikidot.com:80/monster:outpost-archer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20100811141239'
+    archive_snapshot_url: https://web.archive.org/web/20100811141239/http://angels.wikidot.com:80/monster:outpost-archer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:outpost-archer
+    source_html_sha256: 29dfaa3e51ea9173a001876e58c794a215b6397481ac9e31d874e0b2e56f156c
+fields_raw:
+  Name: 'Spells:'
+  Outpost Archer: '-'
+  'Spells:': 'Location:'
+  '-': Troop Outpost
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.06%
+  Experience: '?'
+  Gold: 375 - 475
+item_drop_chance_raw: 0.06%
+drops:
+- drop_id: outpost-archer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Evil Hammer
+  chance_to_drop_raw: 47.47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.47%
+    Icon: ''
+    Item: Evil Hammer
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.47
+    quantity: null
+- drop_id: outpost-archer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Boots
+  chance_to_drop_raw: 47.47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47.47%
+    Icon: ''
+    Item: Saint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 47.47
+    quantity: null
+- drop_id: outpost-archer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodEvil Hammer
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: GoodEvil Hammer
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+- drop_id: outpost-archer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodSaint Boots
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: GoodSaint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+- drop_id: outpost-archer__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Aries Judge
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Aries Judge
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: outpost-archer__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Guard Boots
+  chance_to_drop_raw: 0.05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.05%
+    Icon: ''
+    Item: Holy Guard Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: outpost-archer__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Boots
+  chance_to_drop_raw: 0.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.9%
+    Icon: ''
+    Item: A.Plan2:Saint Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.9
+    quantity: null
+- drop_id: outpost-archer__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Orange Gem
+  chance_to_drop_raw: 1.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.35%
+    Icon: ''
+    Item: Clean Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.35
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Outpost Archer
+  - ''
+  rows_raw:
+  - - Name
+    - Outpost Archer
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Troop Outpost
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.06%
+    - '?'
+    - 375 - 475
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47.47%
+    - ''
+    - Evil Hammer
+    - ITEM NOTES
+  - - 47.47%
+    - ''
+    - Saint Boots
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - GoodEvil Hammer
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - GoodSaint Boots
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Aries Judge
+    - ITEM NOTES
+  - - 0.05%
+    - ''
+    - Holy Guard Boots
+    - ITEM NOTES
+  - - 0.9%
+    - ''
+    - A.Plan2:Saint Boots
+    - ITEM NOTES
+  - - 1.35%
+    - ''
+    - Clean Orange Gem
+    - ITEM NOTES
+  row_count: 9

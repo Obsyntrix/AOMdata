@@ -1,0 +1,194 @@
+monster_page:
+  id: dragon-captain-gordon
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dragon-captain-gordon
+    retrieval_url: https://web.archive.org/web/20161111104103id_/http://angels.wikidot.com:80/monster:dragon-captain-gordon
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20161111104103'
+    archive_snapshot_url: https://web.archive.org/web/20161111104103/http://angels.wikidot.com:80/monster:dragon-captain-gordon
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dragon-captain-gordon
+    source_html_sha256: ac7805d2673c0553f13eb9577d1dd4c16a578eadff5344d1097bd28f12bdea63
+fields_raw:
+  Name: 'Spells:'
+  Dragon Captain Gordon: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Field
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: 'No'
+  Level: '95'
+  Hit Points: '43000'
+  Rigor: '507'
+  Agility: '309'
+  Attack: '1230'
+  Defense: '1374'
+  Spell Attack: '1151'
+  Spell Defense: '1365'
+  Special Attack: +48 Rotten
+  Special Defense: '?'
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: ??,??%
+  Experience: '29956'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: ??,??%
+drops:
+- drop_id: dragon-captain-gordon__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+- drop_id: dragon-captain-gordon__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Item Name
+  chance_to_drop_raw: ??,??%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: ??,??%
+    Icon: ''
+    Item: Item Name
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dragon Captain Gordon
+  - ''
+  rows_raw:
+  - - Name
+    - Dragon Captain Gordon
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Field
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '95'
+    - '43000'
+    - '507'
+    - '309'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1230'
+    - '1374'
+    - '1151'
+    - '1365'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +48 Rotten
+    - '?'
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - ??,??%
+    - '29956'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  - - ??,??%
+    - ''
+    - Item Name
+    - ITEM NOTES
+  row_count: 3

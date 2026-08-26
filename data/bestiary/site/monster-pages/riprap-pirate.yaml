@@ -1,0 +1,338 @@
+monster_page:
+  id: riprap-pirate
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:riprap-pirate
+    retrieval_url: https://web.archive.org/web/20200109172048id_/http://angels.wikidot.com:80/monster:riprap-pirate
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109172048'
+    archive_snapshot_url: https://web.archive.org/web/20200109172048/http://angels.wikidot.com:80/monster:riprap-pirate
+    archive_original_lookup_url: https://angels.wikidot.com/monster:riprap-pirate
+    source_html_sha256: 8369aed70131bf9ac8f2452f6ad0c4b9fc674a2b08ebf57e746b28cc71046798
+fields_raw:
+  Name: 'Spells:'
+  Riprap Pirate: '-'
+  'Spells:': 'Location:'
+  '-': Riprap Coast
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '24'
+  Hit Points: '791'
+  Rigor: '132'
+  Agility: '84'
+  Attack: '146'
+  Defense: '212'
+  Spell Attack: '170'
+  Spell Defense: '97'
+  Special Attack: Fire +6
+  Special Defense: '2'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (75)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,49%
+  Experience: '197'
+  Gold: 34 - 58 (46)
+item_drop_chance_raw: 1,49%
+drops:
+- drop_id: riprap-pirate__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 58,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,32%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.32
+    quantity: null
+- drop_id: riprap-pirate__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Hard-leather Cap
+  chance_to_drop_raw: 17,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,50%
+    Icon: ''
+    Item: Traveller Hard-leather Cap
+    Short info: Mantle 23 (Dfs +20, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 17.5
+    quantity: null
+- drop_id: riprap-pirate__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Shade
+  chance_to_drop_raw: 17,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 17,50%
+    Icon: ''
+    Item: Traveller Shade
+    Short info: Garment 23 (Dfs +30, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 17.5
+    quantity: null
+- drop_id: riprap-pirate__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Hard-leather Cap
+  chance_to_drop_raw: 2,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,92%
+    Icon: ''
+    Item: Good Traveller Hard-leather Cap
+    Short info: Mantle 23 (Dfs +34, Spl Dfs +17)
+  normalized:
+    chance_to_drop_percent: 2.92
+    quantity: null
+- drop_id: riprap-pirate__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Shade
+  chance_to_drop_raw: 2,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,92%
+    Icon: ''
+    Item: Good Traveller Shade
+    Short info: Garment 23 (Dfs +51, Spl Dfs +8)
+  normalized:
+    chance_to_drop_percent: 2.92
+    quantity: null
+- drop_id: riprap-pirate__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hard Leather Helmet
+  chance_to_drop_raw: 0,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,29%
+    Icon: ''
+    Item: Hard Leather Helmet
+    Short info: Mantle 23 (Dfs +52, Spl Dfs +23)
+  normalized:
+    chance_to_drop_percent: 0.29
+    quantity: null
+- drop_id: riprap-pirate__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Heavy Leather Helmet
+  chance_to_drop_raw: 0,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,29%
+    Icon: ''
+    Item: Heavy Leather Helmet
+    Short info: Garment 23 (Dfs +78, Spl Dfs +12)
+  normalized:
+    chance_to_drop_percent: 0.29
+    quantity: null
+- drop_id: riprap-pirate__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Emerald
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: Flawed Emerald
+    Short info: 'Weapon: R.tk +4, Armor: Rig. +4, Shield: R.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: riprap-pirate__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Sapphire
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: Flawed Sapphire
+    Short info: 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+- drop_id: riprap-pirate__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Purple Gem
+  chance_to_drop_raw: 0,09%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,09%
+    Icon: ''
+    Item: Flawed Purple Gem
+    Short info: 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  normalized:
+    chance_to_drop_percent: 0.09
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Riprap Pirate
+  - ''
+  rows_raw:
+  - - Name
+    - Riprap Pirate
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Riprap Coast
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '24'
+    - '791'
+    - '132'
+    - '84'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '146'
+    - '212'
+    - '170'
+    - '97'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +6
+    - '2'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (75)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,49%
+    - '197'
+    - 34 - 58 (46)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,32%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 17,50%
+    - ''
+    - Traveller Hard-leather Cap
+    - Mantle 23 (Dfs +20, Spl Dfs +10)
+  - - 17,50%
+    - ''
+    - Traveller Shade
+    - Garment 23 (Dfs +30, Spl Dfs +5)
+  - - 2,92%
+    - ''
+    - Good Traveller Hard-leather Cap
+    - Mantle 23 (Dfs +34, Spl Dfs +17)
+  - - 2,92%
+    - ''
+    - Good Traveller Shade
+    - Garment 23 (Dfs +51, Spl Dfs +8)
+  - - 0,29%
+    - ''
+    - Hard Leather Helmet
+    - Mantle 23 (Dfs +52, Spl Dfs +23)
+  - - 0,29%
+    - ''
+    - Heavy Leather Helmet
+    - Garment 23 (Dfs +78, Spl Dfs +12)
+  - - 0,09%
+    - ''
+    - Flawed Emerald
+    - 'Weapon: R.tk +4, Armor: Rig. +4, Shield: R.Dfs +2'
+  - - 0,09%
+    - ''
+    - Flawed Sapphire
+    - 'Weapon: I.Atk +4, Armor: Max. MP +22, Shield: I.Dfs +2'
+  - - 0,09%
+    - ''
+    - Flawed Purple Gem
+    - 'Weapon: Spl Atk +15, Armor/Shield: Spl Dfs +4'
+  row_count: 11

@@ -1,0 +1,145 @@
+monster_page:
+  id: rage-fire-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rage-fire-elf
+    retrieval_url: https://web.archive.org/web/20200128093423id_/http://angels.wikidot.com:80/monster:rage-fire-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093423'
+    archive_snapshot_url: https://web.archive.org/web/20200128093423/http://angels.wikidot.com:80/monster:rage-fire-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rage-fire-elf
+    source_html_sha256: b866e2ec498a89544283734490543982a845d04fc3153c94ddc38c595c95634e
+fields_raw:
+  Name: 'Spells:'
+  Rage Fire Elf: Phoenix Fire Single Ranged | Dmg 119-123 HP -18 x5 | 10 sec - Fire Trap Ranged AOE | Dmg 180-184 HP -23 x5 | 10 sec
+  'Spells:': 'Location:'
+  Type: Energy
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '23'
+  Hit Points: '8466'
+  Rigor: '152'
+  Agility: '96'
+  Attack: '396'
+  Defense: '211'
+  Spell Attack: '170'
+  Spell Defense: '170'
+  Special Attack: '-'
+  Special Defense: '2'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Fast (95)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '60'
+  Item Drop Chance: 0%
+  Experience: '569'
+  Gold: 439 - 667 (553)
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rage Fire Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Rage Fire Elf
+    - ''
+  - - 'Spells:'
+    - Phoenix Fire Single Ranged | Dmg 119-123 HP -18 x5 | 10 sec - Fire Trap Ranged AOE | Dmg 180-184 HP -23 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Fungus Forest South
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '23'
+    - '8466'
+    - '152'
+    - '96'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '396'
+    - '211'
+    - '170'
+    - '170'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '2'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (95)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '60'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '569'
+    - 439 - 667 (553)
+  row_count: 2

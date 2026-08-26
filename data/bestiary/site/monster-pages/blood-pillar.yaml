@@ -1,0 +1,106 @@
+monster_page:
+  id: blood-pillar
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:blood-pillar
+    retrieval_url: https://web.archive.org/web/20200109171612id_/http://angels.wikidot.com:80/monster:blood-pillar
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171612'
+    archive_snapshot_url: https://web.archive.org/web/20200109171612/http://angels.wikidot.com:80/monster:blood-pillar
+    archive_original_lookup_url: https://angels.wikidot.com/monster:blood-pillar
+    source_html_sha256: 4ebb5840f93b67bdfc4cd6355e113d42ca820277839e6b24c4556d0a321c4c44
+fields_raw:
+  Name: 'Spells:'
+  Blood Pillar: '-'
+  'Spells:': 'Location:'
+  '-': Magic Kitchen Path
+  Type: Energy
+  Boss?: 'No'
+  Aggressive?: 'No'
+  Attack Range: '-'
+  Level: '65'
+  Hit Points: '4736'
+  Rigor: '347'
+  Agility: '213'
+  Attack: '0'
+  Defense: '761'
+  Magic Attack: '914'
+  Magic Defense: '517'
+  Bonus Damage: Nothing
+  Strong Against: Nothing
+  Weak Against: Nothing
+  Item Drop Chance: 0%
+  Experience: '0'
+  Gold: '0'
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Blood Pillar
+  - ''
+  rows_raw:
+  - - Name
+    - Blood Pillar
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Magic Kitchen Path
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  - Attack Range
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+    - Attack Range
+  - - Energy
+    - 'No'
+    - 'No'
+    - '-'
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '4736'
+    - '347'
+    - '213'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '0'
+    - '761'
+    - '914'
+    - '517'
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Bonus Damage
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Bonus Damage
+    - Strong Against
+    - Weak Against
+  - - Nothing
+    - Nothing
+    - Nothing
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '0'
+    - '0'
+  row_count: 4

@@ -1,0 +1,302 @@
+monster_page:
+  id: puqi-turtle
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:puqi-turtle
+    retrieval_url: https://web.archive.org/web/20200119194031id_/http://angels.wikidot.com:80/monster:puqi-turtle
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119194031'
+    archive_snapshot_url: https://web.archive.org/web/20200119194031/http://angels.wikidot.com:80/monster:puqi-turtle
+    archive_original_lookup_url: https://angels.wikidot.com/monster:puqi-turtle
+    source_html_sha256: a83b154e902357bf7d443d056e52db36ee57310a4732ce684d4030f25c123455
+fields_raw:
+  Name: 'Spells:'
+  Puqi Turtle: '-'
+  'Spells:': 'Location:'
+  '-': Golden Beach
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '50'
+  Hit Points: '1908'
+  Rigor: '262'
+  Agility: '162'
+  Attack: '315'
+  Defense: '439'
+  Spell Attack: '333'
+  Spell Defense: '197'
+  Special Attack: Thunder +28
+  Special Defense: '15'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Slow (60)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,11%
+  Experience: '574'
+  Gold: 71 - 119 (95)
+item_drop_chance_raw: 0,11%
+drops:
+- drop_id: puqi-turtle__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Thick-soled Boots
+  chance_to_drop_raw: 36,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 36,60%
+    Icon: ''
+    Item: Royal Thick-soled Boots
+    Short info: Mantle 51 (Dfs +44, Spl Dfs +20, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 36.6
+    quantity: null
+- drop_id: puqi-turtle__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Gloves
+  chance_to_drop_raw: 36,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 36,60%
+    Icon: ''
+    Item: Royal Magic Gloves
+    Short info: Vestment 52 (Dfs +22, Spl Dfs +30, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 36.6
+    quantity: null
+- drop_id: puqi-turtle__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Puqi Turtle Card
+  chance_to_drop_raw: 12,32%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 12,32%
+    Icon: ''
+    Item: Puqi Turtle Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 12.32
+    quantity: null
+- drop_id: puqi-turtle__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Thick-soled Boots
+  chance_to_drop_raw: 6,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,10%
+    Icon: ''
+    Item: Good Royal Thick-soled Boots
+    Short info: Mantle 51 (Dfs +60, Spl Dfs +24, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 6.1
+    quantity: null
+- drop_id: puqi-turtle__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Gloves
+  chance_to_drop_raw: 6,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,10%
+    Icon: ''
+    Item: Good Royal Magic Gloves
+    Short info: Vestment 52 (Dfs +30, Spl Dfs +38, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 6.1
+    quantity: null
+- drop_id: puqi-turtle__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire
+  chance_to_drop_raw: 1,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,06%
+    Icon: ''
+    Item: Sapphire
+    Short info: 'Weapon: I.Atk +8, Armor: Max. MP +39, Shield: I.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 1.06
+    quantity: null
+- drop_id: puqi-turtle__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Boots
+  chance_to_drop_raw: 0,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,60%
+    Icon: ''
+    Item: Scale Boots
+    Short info: Mantle 51 (Dfs +79, Spl Dfs +29, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+- drop_id: puqi-turtle__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gloves
+  chance_to_drop_raw: 0,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,60%
+    Icon: ''
+    Item: Slarm's Gloves
+    Short info: Vestment 52 (Dfs +39, Spl Dfs +47, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Puqi Turtle
+  - ''
+  rows_raw:
+  - - Name
+    - Puqi Turtle
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Golden Beach
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '50'
+    - '1908'
+    - '262'
+    - '162'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '315'
+    - '439'
+    - '333'
+    - '197'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +28
+    - '15'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Slow (60)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,11%
+    - '574'
+    - 71 - 119 (95)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 36,60%
+    - ''
+    - Royal Thick-soled Boots
+    - Mantle 51 (Dfs +44, Spl Dfs +20, Ag.+17)
+  - - 36,60%
+    - ''
+    - Royal Magic Gloves
+    - Vestment 52 (Dfs +22, Spl Dfs +30, Rig.+47)
+  - - 12,32%
+    - ''
+    - Puqi Turtle Card
+    - 'See: Card Collection'
+  - - 6,10%
+    - ''
+    - Good Royal Thick-soled Boots
+    - Mantle 51 (Dfs +60, Spl Dfs +24, Ag.+21)
+  - - 6,10%
+    - ''
+    - Good Royal Magic Gloves
+    - Vestment 52 (Dfs +30, Spl Dfs +38, Rig.+57)
+  - - 1,06%
+    - ''
+    - Sapphire
+    - 'Weapon: I.Atk +8, Armor: Max. MP +39, Shield: I.Dfs +3'
+  - - 0,60%
+    - ''
+    - Scale Boots
+    - Mantle 51 (Dfs +79, Spl Dfs +29, Ag.+24)
+  - - 0,60%
+    - ''
+    - Slarm's Gloves
+    - Vestment 52 (Dfs +39, Spl Dfs +47, Rig.+67)
+  row_count: 9

@@ -1,0 +1,428 @@
+monster_page:
+  id: mirror-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mirror-elf
+    retrieval_url: https://web.archive.org/web/20191231131920id_/http://angels.wikidot.com:80/monster:mirror-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191231131920'
+    archive_snapshot_url: https://web.archive.org/web/20191231131920/http://angels.wikidot.com:80/monster:mirror-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mirror-elf
+    source_html_sha256: 511734a7a43acae2e9968d540a11fa74236a0566633ae58d84725850b7c90552
+fields_raw:
+  Name: 'Spells:'
+  Mirror Elf: Icy Storm Single Ranged | Dmg 175-179 Speed -20% | 8 sec
+  'Spells:': 'Location:'
+  Icy Storm Single Ranged | Dmg 175-179 Speed -20% | 8 sec: Deity Palace Ruins
+  Type: Energy
+  Boss: 'No'
+  Aggressive: Yes (3)
+  Level: '55'
+  Hit Points: '1908'
+  Rigor: '287'
+  Agility: '177'
+  Attack: '388'
+  Defense: '608'
+  Spell Attack: '372'
+  Spell Defense: '216'
+  Special Attack: Fire +28
+  Special Defense: '18'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '15'
+  Soul: '35'
+  Item Drop Chance: 0,10%
+  Experience: '477'
+  Gold: 88 - 146 (117)
+item_drop_chance_raw: 0,10%
+drops:
+- drop_id: mirror-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 5 Robber Lord Map Piece
+  chance_to_drop_raw: 48,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,11%
+    Icon: ''
+    Item: Lvl 5 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 48.11
+    quantity: null
+- drop_id: mirror-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mirror Elf Card
+  chance_to_drop_raw: 13,93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 13,93%
+    Icon: ''
+    Item: Mirror Elf Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 13.93
+    quantity: null
+- drop_id: mirror-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Silver-Edged Javelin
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Silver-Edged Javelin
+    Short info: Spear Lvl 55 (Atk 254 - 278 (266), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: mirror-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Giant Bow
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Giant Bow
+    Short info: Bow Lvl 55 (Atk 191 - 211 (201), Rig.+24)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: mirror-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Staff
+  chance_to_drop_raw: 9,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 9,72%
+    Icon: ''
+    Item: Royal Staff
+    Short info: Staff Lvl 55 (Atk 195 - 227 (211), Spl Atk +99, Rig.+12)
+  normalized:
+    chance_to_drop_percent: 9.72
+    quantity: null
+- drop_id: mirror-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 2,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,00%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 2.0
+    quantity: null
+- drop_id: mirror-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Silver-Edged Javelin
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Good Royal Silver-Edged Javelin
+    Short info: Spear Lvl 55 (Atk 353 - 377 (365), Rig.+29)
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: mirror-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Giant Bow
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Good Royal Giant Bow
+    Short info: Bow Lvl 55 (Atk 276 - 296 (286), Rig.+29)
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: mirror-elf__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Staff
+  chance_to_drop_raw: 1,60%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,60%
+    Icon: ''
+    Item: Good Royal Staff
+    Short info: Staff Lvl 55 (Atk 282 - 314 (298), Spl Atk +169, Rig.+14)
+  normalized:
+    chance_to_drop_percent: 1.6
+    quantity: null
+- drop_id: mirror-elf__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem
+  chance_to_drop_raw: 0,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,50%
+    Icon: ''
+    Item: Orange Gem
+    Short info: 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.5
+    quantity: null
+- drop_id: mirror-elf__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem
+  chance_to_drop_raw: 0,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,50%
+    Icon: ''
+    Item: Yellow Gem
+    Short info: 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.5
+    quantity: null
+- drop_id: mirror-elf__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Emerald
+  chance_to_drop_raw: 0,50%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,50%
+    Icon: ''
+    Item: Emerald
+    Short info: 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.5
+    quantity: null
+- drop_id: mirror-elf__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saw Spear
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Saw Spear
+    Short info: Spear Lvl 55 (Atk 475 - 499 (487), Rig.+34)
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+- drop_id: mirror-elf__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Elf Wings
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Elf Wings
+    Short info: Bow Lvl 55 (Atk 383 - 403 (393), Rig. +34)
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+- drop_id: mirror-elf__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angel's Blessing
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: Angel's Blessing
+    Short info: Staff Lvl 55 (Atk 391 - 423 (407), Spl Atk +256, Rig.+17)
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mirror Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Mirror Elf
+    - ''
+  - - 'Spells:'
+    - Icy Storm Single Ranged | Dmg 175-179 Speed -20% | 8 sec
+    - ''
+  - - 'Location:'
+    - Deity Palace Ruins
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '55'
+    - '1908'
+    - '287'
+    - '177'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '388'
+    - '608'
+    - '372'
+    - '216'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +28
+    - '18'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '15'
+    - '35'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,10%
+    - '477'
+    - 88 - 146 (117)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,11%
+    - ''
+    - Lvl 5 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 13,93%
+    - ''
+    - Mirror Elf Card
+    - 'See: Card Collection'
+  - - 9,72%
+    - ''
+    - Royal Silver-Edged Javelin
+    - Spear Lvl 55 (Atk 254 - 278 (266), Rig.+24)
+  - - 9,72%
+    - ''
+    - Royal Giant Bow
+    - Bow Lvl 55 (Atk 191 - 211 (201), Rig.+24)
+  - - 9,72%
+    - ''
+    - Royal Staff
+    - Staff Lvl 55 (Atk 195 - 227 (211), Spl Atk +99, Rig.+12)
+  - - 2,00%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 1,60%
+    - ''
+    - Good Royal Silver-Edged Javelin
+    - Spear Lvl 55 (Atk 353 - 377 (365), Rig.+29)
+  - - 1,60%
+    - ''
+    - Good Royal Giant Bow
+    - Bow Lvl 55 (Atk 276 - 296 (286), Rig.+29)
+  - - 1,60%
+    - ''
+    - Good Royal Staff
+    - Staff Lvl 55 (Atk 282 - 314 (298), Spl Atk +169, Rig.+14)
+  - - 0,50%
+    - ''
+    - Orange Gem
+    - 'Weapon: Atk +15, Armor: Dfs +6, Shield: Dfs +6'
+  - - 0,50%
+    - ''
+    - Yellow Gem
+    - 'Weapon: T.Atk +8, Armor: Ag. +6, Shield: T.Dfs +3'
+  - - 0,50%
+    - ''
+    - Emerald
+    - 'Weapon: R.Atk +8, Armor: Rig. +6, Shield: R.Dfs +3'
+  - - 0,16%
+    - ''
+    - Saw Spear
+    - Spear Lvl 55 (Atk 475 - 499 (487), Rig.+34)
+  - - 0,16%
+    - ''
+    - Elf Wings
+    - Bow Lvl 55 (Atk 383 - 403 (393), Rig. +34)
+  - - 0,16%
+    - ''
+    - Angel's Blessing
+    - Staff Lvl 55 (Atk 391 - 423 (407), Spl Atk +256, Rig.+17)
+  row_count: 16

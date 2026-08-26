@@ -1,0 +1,248 @@
+monster_page:
+  id: fire-fly
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fire-fly
+    retrieval_url: https://web.archive.org/web/20191102090210id_/http://angels.wikidot.com:80/monster:fire-fly
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191102090210'
+    archive_snapshot_url: https://web.archive.org/web/20191102090210/http://angels.wikidot.com:80/monster:fire-fly
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fire-fly
+    source_html_sha256: 99469983d0b7ecc981352a7966dad2ec502a19b7685d076c23202e96c256f2a0
+fields_raw:
+  Name: 'Description:'
+  Fire Fly: Description
+  'Description:': 'Location:'
+  Description: Lava Cave , Flaming Door , Underground Square
+  Type: Beast
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '73'
+  Hit Points: '2703'
+  Rigor: '377'
+  Agility: '231'
+  Attack: '525'
+  Defense: '794'
+  Magic Attack: '520'
+  Magic Defense: '293'
+  Special Attack: Fire +36
+  Special Defense: '27'
+  Strong Against: Rotten(57)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Fast(90)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.03%
+  Experience: '676'
+  Gold: 169 - 299 (234)
+item_drop_chance_raw: 0.03%
+drops:
+- drop_id: fire-fly__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fire Fly Card
+  chance_to_drop_raw: 44.64%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 44.64%
+    Icon: ''
+    Item: Fire Fly Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 44.64
+    quantity: null
+- drop_id: fire-fly__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hunter Cuffs
+  chance_to_drop_raw: 37.93%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 37.93%
+    Icon: ''
+    Item: Hunter Cuffs
+    Short info: Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  normalized:
+    chance_to_drop_percent: 37.93
+    quantity: null
+- drop_id: fire-fly__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 15.74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 15.74%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 15.74
+    quantity: null
+- drop_id: fire-fly__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hunter Cuffs
+  chance_to_drop_raw: 1.57%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.57%
+    Icon: ''
+    Item: Good Hunter Cuffs
+    Short info: Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  normalized:
+    chance_to_drop_percent: 1.57
+    quantity: null
+- drop_id: fire-fly__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Forest Cuffs
+  chance_to_drop_raw: 0.13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.13%
+    Icon: ''
+    Item: Forest Cuffs
+    Short info: Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.13
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fire Fly
+  - ''
+  rows_raw:
+  - - Name
+    - Fire Fly
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Lava Cave , Flaming Door , Underground Square
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Beast
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '73'
+    - '2703'
+    - '377'
+    - '231'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '525'
+    - '794'
+    - '520'
+    - '293'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +36
+    - '27'
+    - Rotten(57)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast(90)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.03%
+    - '676'
+    - 169 - 299 (234)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 44.64%
+    - ''
+    - Fire Fly Card
+    - 'See: Card Collection'
+  - - 37.93%
+    - ''
+    - Hunter Cuffs
+    - Mantle 77 (Dfs +90, Spl Dfs +31, Rig +72)
+  - - 15.74%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 1.57%
+    - ''
+    - Good Hunter Cuffs
+    - Mantle 77 (Dfs +114, Spl Dfs +36, Rig +82)
+  - - 0.13%
+    - ''
+    - Forest Cuffs
+    - Mantle 77 (Dfs +144, Spl Dfs +40, Rig +92)
+  row_count: 6

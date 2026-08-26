@@ -1,0 +1,392 @@
+monster_page:
+  id: slave-driver
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:slave-driver
+    retrieval_url: https://web.archive.org/web/20200128093026id_/http://angels.wikidot.com:80/monster:slave-driver
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200128093026'
+    archive_snapshot_url: https://web.archive.org/web/20200128093026/http://angels.wikidot.com:80/monster:slave-driver
+    archive_original_lookup_url: https://angels.wikidot.com/monster:slave-driver
+    source_html_sha256: 46da16c6eac82ded8dabd850cf29d829ba2e049b8d395a9426eb1514f41c76eb
+fields_raw:
+  Name: 'Stances:'
+  Slave Driver: Great Chop Single Short-R. | Power 268 HP -13 x5 | 10 sec
+  'Stances:': 'Location:'
+  Great Chop Single Short-R. | Power 268 HP -13 x5 | 10 sec: Sad Abyss
+  Type: Human
+  Boss: 'Yes'
+  Aggressive: Yes (10)
+  Level: '70'
+  Hit Points: '26815'
+  Rigor: '387'
+  Agility: '237'
+  Attack: '1136'
+  Defense: '863'
+  Spell Attack: '513'
+  Spell Defense: '289'
+  Special Attack: Ice +25
+  Special Defense: '25'
+  Strong Against: Fire (55)
+  Weak Against: Thunder (0)
+  Attack Range: Short (1)
+  Speed: Super Fast (110)
+  Attack Speed: Slow (70)
+  Critical: '5'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '20111'
+  Gold: 1330 - 2296 (1813)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: slave-driver__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Magic Fruit
+  chance_to_drop_raw: 47,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,46%
+    Icon: ''
+    Item: Medium Magic Fruit
+    Short info: Food (Spl Atk +50 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.46
+    quantity: null
+- drop_id: slave-driver__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Medium Target Potion
+  chance_to_drop_raw: 47,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 47,46%
+    Icon: ''
+    Item: Medium Target Potion
+    Short info: Food (Rig. +44 | 10 min)
+  normalized:
+    chance_to_drop_percent: 47.46
+    quantity: null
+- drop_id: slave-driver__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Energy Gown
+  chance_to_drop_raw: 3,13%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,13%
+    Icon: ''
+    Item: Energy Gown
+    Short info: Vesment 69 (Dfs +103, Spl Dfs +75)
+  normalized:
+    chance_to_drop_percent: 3.13
+    quantity: null
+- drop_id: slave-driver__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Energy Gown
+  chance_to_drop_raw: 0,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,47%
+    Icon: ''
+    Item: Good Energy Gown
+    Short info: Vesment 69 (Dfs +134, Spl Dfs +106)
+  normalized:
+    chance_to_drop_percent: 0.47
+    quantity: null
+- drop_id: slave-driver__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slave Driver Card
+  chance_to_drop_raw: 0,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,46%
+    Icon: ''
+    Item: Slave Driver Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.46
+    quantity: null
+- drop_id: slave-driver__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 0,39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,39%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: slave-driver__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,36%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.36
+    quantity: null
+- drop_id: slave-driver__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Energy Gown'
+  chance_to_drop_raw: 0,16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,16%
+    Icon: ''
+    Item: 'D.Plan2: Energy Gown'
+    Short info: Sew 65
+  normalized:
+    chance_to_drop_percent: 0.16
+    quantity: null
+- drop_id: slave-driver__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Brown Stiff Beetle
+  chance_to_drop_raw: 0,05%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,05%
+    Icon: ''
+    Item: Brown Stiff Beetle
+    Short info: Lvl 70 (Spl Atk +55, Spl Dfs +55, Rig.+12, Ag.+18, Speed +30%)
+  normalized:
+    chance_to_drop_percent: 0.05
+    quantity: null
+- drop_id: slave-driver__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sound Gown
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Sound Gown
+    Short info: Vesment 69 (Dfs +171, Spl Dfs +143)
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: slave-driver__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 1: Cross Chop 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 1: Cross Chop 5'
+    Short info: Sword 64
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: slave-driver__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Stance 4: Advanced Shot 5'
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: 'Stance 4: Advanced Shot 5'
+    Short info: Bow 66
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+- drop_id: slave-driver__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Orange Gem
+  chance_to_drop_raw: 0,01%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,01%
+    Icon: ''
+    Item: Clean Orange Gem
+    Short info: 'Weapon: Atk +22, Armor/Shield: Dfs +10'
+  normalized:
+    chance_to_drop_percent: 0.01
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Slave Driver
+  - ''
+  rows_raw:
+  - - Name
+    - Slave Driver
+    - ''
+  - - 'Stances:'
+    - Great Chop Single Short-R. | Power 268 HP -13 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Sad Abyss
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'Yes'
+    - Yes (10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '70'
+    - '26815'
+    - '387'
+    - '237'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1136'
+    - '863'
+    - '513'
+    - '289'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +25
+    - '25'
+    - Fire (55)
+    - Thunder (0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Super Fast (110)
+    - Slow (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '20111'
+    - 1330 - 2296 (1813)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 47,46%
+    - ''
+    - Medium Magic Fruit
+    - Food (Spl Atk +50 | 10 min)
+  - - 47,46%
+    - ''
+    - Medium Target Potion
+    - Food (Rig. +44 | 10 min)
+  - - 3,13%
+    - ''
+    - Energy Gown
+    - Vesment 69 (Dfs +103, Spl Dfs +75)
+  - - 0,47%
+    - ''
+    - Good Energy Gown
+    - Vesment 69 (Dfs +134, Spl Dfs +106)
+  - - 0,46%
+    - ''
+    - Slave Driver Card
+    - 'See: Card Collection'
+  - - 0,39%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,36%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,16%
+    - ''
+    - 'D.Plan2: Energy Gown'
+    - Sew 65
+  - - 0,05%
+    - ''
+    - Brown Stiff Beetle
+    - Lvl 70 (Spl Atk +55, Spl Dfs +55, Rig.+12, Ag.+18, Speed +30%)
+  - - 0,01%
+    - ''
+    - Sound Gown
+    - Vesment 69 (Dfs +171, Spl Dfs +143)
+  - - 0,01%
+    - ''
+    - 'Stance 1: Cross Chop 5'
+    - Sword 64
+  - - 0,01%
+    - ''
+    - 'Stance 4: Advanced Shot 5'
+    - Bow 66
+  - - 0,01%
+    - ''
+    - Clean Orange Gem
+    - 'Weapon: Atk +22, Armor/Shield: Dfs +10'
+  row_count: 14

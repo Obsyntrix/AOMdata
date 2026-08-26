@@ -1,0 +1,410 @@
+monster_page:
+  id: red-mushroom
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:red-mushroom
+    retrieval_url: https://web.archive.org/web/20191229044624id_/http://angels.wikidot.com:80/monster:red-mushroom
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191229044624'
+    archive_snapshot_url: https://web.archive.org/web/20191229044624/http://angels.wikidot.com:80/monster:red-mushroom
+    archive_original_lookup_url: https://angels.wikidot.com/monster:red-mushroom
+    source_html_sha256: 5df7b0da84beca8faada64e0d702e17df3aa2018674647cd097f7519a9b6d360
+fields_raw:
+  Name: 'Spells:'
+  Red Mushroom: '-'
+  'Spells:': 'Location:'
+  '-': Mushroom Forest
+  Type: Plant
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '15'
+  Hit Points: '516'
+  Rigor: '87'
+  Agility: '57'
+  Attack: '114'
+  Defense: '111'
+  Spell Attack: '110'
+  Spell Defense: '63'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (70)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 4,42%
+  Experience: '129'
+  Gold: 20 - 36 (28)
+item_drop_chance_raw: 4,42%
+drops:
+- drop_id: red-mushroom__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 1 Robber Lord Map Piece
+  chance_to_drop_raw: 56,43%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 56,43%
+    Icon: ''
+    Item: Lvl 1 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 56.43
+    quantity: null
+- drop_id: red-mushroom__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Helmet
+  chance_to_drop_raw: 11,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,29%
+    Icon: ''
+    Item: Basic Helmet
+    Short info: Garment 13 (Dfs +12, Spl Dfs +2)
+  normalized:
+    chance_to_drop_percent: 11.29
+    quantity: null
+- drop_id: red-mushroom__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Archer Hood
+  chance_to_drop_raw: 11,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,29%
+    Icon: ''
+    Item: Basic Archer Hood
+    Short info: Mantle 13 (Dfs +8, Spl Dfs +3)
+  normalized:
+    chance_to_drop_percent: 11.29
+    quantity: null
+- drop_id: red-mushroom__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Basic Incantation Hood
+  chance_to_drop_raw: 11,29%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 11,29%
+    Icon: ''
+    Item: Basic Incantation Hood
+    Short info: Vestment 13 (Dfs +4, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 11.29
+    quantity: null
+- drop_id: red-mushroom__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Helmet
+  chance_to_drop_raw: 1,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,88%
+    Icon: ''
+    Item: Good Basic Helmet
+    Short info: Garment 13 (Dfs +30, Spl Dfs +5)
+  normalized:
+    chance_to_drop_percent: 1.88
+    quantity: null
+- drop_id: red-mushroom__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Archer Hood
+  chance_to_drop_raw: 1,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,88%
+    Icon: ''
+    Item: Good Basic Archer Hood
+    Short info: Mantle 13 (Dfs +20, Spl Dfs +10)
+  normalized:
+    chance_to_drop_percent: 1.88
+    quantity: null
+- drop_id: red-mushroom__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Basic Incantation Hood
+  chance_to_drop_raw: 1,88%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,88%
+    Icon: ''
+    Item: Good Basic Incantation Hood
+    Short info: Vestment 13 (Dfs +10, Spl Dfs +15)
+  normalized:
+    chance_to_drop_percent: 1.88
+    quantity: null
+- drop_id: red-mushroom__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Red Mushroom Card
+  chance_to_drop_raw: 1,81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,81%
+    Icon: ''
+    Item: Red Mushroom Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 1.81
+    quantity: null
+- drop_id: red-mushroom__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Ruby Piece
+    Short info: 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: red-mushroom__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Orange Gem Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Orange Gem Piece
+    Short info: 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: red-mushroom__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Gem Piece
+  chance_to_drop_raw: 0,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,56%
+    Icon: ''
+    Item: Yellow Gem Piece
+    Short info: 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  normalized:
+    chance_to_drop_percent: 0.56
+    quantity: null
+- drop_id: red-mushroom__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Iron Helmet
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Savage Iron Helmet
+    Short info: Garment 13 (Dfs +51, Spl Dfs +8)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: red-mushroom__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Savage Hood
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Savage Hood
+    Short info: Mantle 13 (Dfs +34, Spl Dfs +17)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+- drop_id: red-mushroom__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Angelos Hood
+  chance_to_drop_raw: 0,19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,19%
+    Icon: ''
+    Item: Angelos Hood
+    Short info: Vestment 13 (Dfs +17, Spl Dfs +25)
+  normalized:
+    chance_to_drop_percent: 0.19
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Red Mushroom
+  - ''
+  rows_raw:
+  - - Name
+    - Red Mushroom
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mushroom Forest
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Plant
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '15'
+    - '516'
+    - '87'
+    - '57'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '114'
+    - '111'
+    - '110'
+    - '63'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (70)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 4,42%
+    - '129'
+    - 20 - 36 (28)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 56,43%
+    - ''
+    - Lvl 1 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 11,29%
+    - ''
+    - Basic Helmet
+    - Garment 13 (Dfs +12, Spl Dfs +2)
+  - - 11,29%
+    - ''
+    - Basic Archer Hood
+    - Mantle 13 (Dfs +8, Spl Dfs +3)
+  - - 11,29%
+    - ''
+    - Basic Incantation Hood
+    - Vestment 13 (Dfs +4, Spl Dfs +5)
+  - - 1,88%
+    - ''
+    - Good Basic Helmet
+    - Garment 13 (Dfs +30, Spl Dfs +5)
+  - - 1,88%
+    - ''
+    - Good Basic Archer Hood
+    - Mantle 13 (Dfs +20, Spl Dfs +10)
+  - - 1,88%
+    - ''
+    - Good Basic Incantation Hood
+    - Vestment 13 (Dfs +10, Spl Dfs +15)
+  - - 1,81%
+    - ''
+    - Red Mushroom Card
+    - 'See: Card Collection'
+  - - 0,56%
+    - ''
+    - Ruby Piece
+    - 'Weapon: F.Atk +2, Armor: Max HP +8, Shield: F.Dfs +1'
+  - - 0,56%
+    - ''
+    - Orange Gem Piece
+    - 'Weapon: Atk +5, Armor: Dfs +1, Shield: Dfs +1'
+  - - 0,56%
+    - ''
+    - Yellow Gem Piece
+    - 'Weapon: T.Atk +2, Armor: Ag. +2, Shield: T.Dfs +1'
+  - - 0,19%
+    - ''
+    - Savage Iron Helmet
+    - Garment 13 (Dfs +51, Spl Dfs +8)
+  - - 0,19%
+    - ''
+    - Savage Hood
+    - Mantle 13 (Dfs +34, Spl Dfs +17)
+  - - 0,19%
+    - ''
+    - Angelos Hood
+    - Vestment 13 (Dfs +17, Spl Dfs +25)
+  row_count: 15

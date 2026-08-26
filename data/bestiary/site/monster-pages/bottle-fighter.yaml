@@ -1,0 +1,212 @@
+monster_page:
+  id: bottle-fighter
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:bottle-fighter
+    retrieval_url: https://web.archive.org/web/20111118032211id_/http://angels.wikidot.com:80/monster:bottle-fighter
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20111118032211'
+    archive_snapshot_url: https://web.archive.org/web/20111118032211/http://angels.wikidot.com:80/monster:bottle-fighter
+    archive_original_lookup_url: https://angels.wikidot.com/monster:bottle-fighter
+    source_html_sha256: 1f1aba2dedb9d16acf41c700cb7bc21432b860ab50808027cd7d4431c55e2110
+fields_raw:
+  Name: 'Spells:'
+  Bottle Fighter: '-'
+  'Spells:': 'Location:'
+  '-': Leviathan's Bedroom
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: '0.06'
+  Experience: '?'
+  Gold: 632 - 778
+item_drop_chance_raw: '0.06'
+drops:
+- drop_id: bottle-fighter__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Revival Shield
+  chance_to_drop_raw: 95.9%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95.9%
+    Icon: ''
+    Item: Revival Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 95.9
+    quantity: null
+- drop_id: bottle-fighter__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRevival Shield
+  chance_to_drop_raw: 2.35%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.35%
+    Icon: ''
+    Item: GoodRevival Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.35
+    quantity: null
+- drop_id: bottle-fighter__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 1.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.75%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.75
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Bottle Fighter
+  - ''
+  rows_raw:
+  - - Name
+    - Bottle Fighter
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Leviathan's Bedroom
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - '0.06'
+    - '?'
+    - 632 - 778
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95.9%
+    - ''
+    - Revival Shield
+    - ITEM NOTES
+  - - 2.35%
+    - ''
+    - GoodRevival Shield
+    - ITEM NOTES
+  - - 1.75%
+    - ''
+    - Flawless Ruby
+    - ITEM NOTES
+  row_count: 4

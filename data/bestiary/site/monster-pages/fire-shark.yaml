@@ -1,0 +1,248 @@
+monster_page:
+  id: fire-shark
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:fire-shark
+    retrieval_url: https://web.archive.org/web/20200119203326id_/http://angels.wikidot.com:80/monster:fire-shark
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119203326'
+    archive_snapshot_url: https://web.archive.org/web/20200119203326/http://angels.wikidot.com:80/monster:fire-shark
+    archive_original_lookup_url: https://angels.wikidot.com/monster:fire-shark
+    source_html_sha256: e0cfd9f19b82b474b799778e738df51f0697b5cde87db9bce372be2dca06812a
+fields_raw:
+  Name: 'Description:'
+  Fire Shark: A hunter in the sea, it likes torturing its preys before eating them.
+  'Description:': 'Location:'
+  A hunter in the sea, it likes torturing its preys before eating them.: Evil Ship
+  Type: Animal
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '100'
+  Hit Points: '8460'
+  Rigor: '547'
+  Agility: '333'
+  Attack: '1921'
+  Defense: '1505'
+  Spell Attack: '744'
+  Spell Defense: '415'
+  Special Attack: Fire +54
+  Special Defense: '41'
+  Strong Against: Rotten (71)
+  Weak Against: Ice (11)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,06%
+  Experience: '1778'
+  Gold: 971 - 1183 (1077)
+item_drop_chance_raw: 0,06%
+drops:
+- drop_id: fire-shark__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Saint Armor
+  chance_to_drop_raw: 95,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 95,03%
+    Icon: ''
+    Item: Saint Armor
+    Short info: Garment 99 (Dfs +648, Spl Dfs +37)
+  normalized:
+    chance_to_drop_percent: 95.03
+    quantity: null
+- drop_id: fire-shark__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Saint Armor
+  chance_to_drop_raw: 2,72%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,72%
+    Icon: ''
+    Item: Good Saint Armor
+    Short info: Garment 99 (Dfs +807, Spl Dfs +41)
+  normalized:
+    chance_to_drop_percent: 2.72
+    quantity: null
+- drop_id: fire-shark__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 1,36%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,36%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 1.36
+    quantity: null
+- drop_id: fire-shark__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Saint Armor
+  chance_to_drop_raw: 0,89%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,89%
+    Icon: ''
+    Item: A.Plan2:Saint Armor
+    Short info: Armor 95
+  normalized:
+    chance_to_drop_percent: 0.89
+    quantity: null
+- drop_id: fire-shark__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fat Mini Seal
+  chance_to_drop_raw: 0,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,27%
+    Icon: ''
+    Item: Fat Mini Seal
+    Short info: Ride lv90
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Fire Shark
+  - ''
+  rows_raw:
+  - - Name
+    - Fire Shark
+    - ''
+  - - 'Description:'
+    - A hunter in the sea, it likes torturing its preys before eating them.
+    - ''
+  - - 'Location:'
+    - Evil Ship
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '100'
+    - '8460'
+    - '547'
+    - '333'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1921'
+    - '1505'
+    - '744'
+    - '415'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +54
+    - '41'
+    - Rotten (71)
+    - Ice (11)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,06%
+    - '1778'
+    - 971 - 1183 (1077)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 95,03%
+    - ''
+    - Saint Armor
+    - Garment 99 (Dfs +648, Spl Dfs +37)
+  - - 2,72%
+    - ''
+    - Good Saint Armor
+    - Garment 99 (Dfs +807, Spl Dfs +41)
+  - - 1,36%
+    - ''
+    - Flawless Ruby
+    - 'Weapon: F.Atk +24, Max.HP +81, Shield: F.Dfs +5'
+  - - 0,89%
+    - ''
+    - A.Plan2:Saint Armor
+    - Armor 95
+  - - 0,27%
+    - ''
+    - Fat Mini Seal
+    - Ride lv90
+  row_count: 6

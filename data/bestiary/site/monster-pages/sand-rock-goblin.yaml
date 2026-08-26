@@ -1,0 +1,248 @@
+monster_page:
+  id: sand-rock-goblin
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:sand-rock-goblin
+    retrieval_url: https://web.archive.org/web/20110907214553/http://angels.wikidot.com:80/monster:sand-rock-goblin
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110907214553'
+    archive_snapshot_url: https://web.archive.org/web/20110907214553/http://angels.wikidot.com:80/monster:sand-rock-goblin
+    archive_original_lookup_url: https://angels.wikidot.com/monster:sand-rock-goblin
+    source_html_sha256: 5a7b5f3edb7d22124e9130a1b98fcf8bf6d862c1424c2da01d06cea97c73a335
+fields_raw:
+  Name: 'Spells:'
+  Sand Rock Goblin: '-'
+  'Spells:': 'Location:'
+  '-': Ancient Front
+  Type: '?'
+  Boss: '?'
+  Aggressive: '?'
+  Level: '?'
+  Hit Points: '?'
+  Rigor: '?'
+  Agility: '?'
+  Attack: '?'
+  Defense: '?'
+  Spell Attack: '?'
+  Spell Defense: '?'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: '? (?)'
+  Speed: '? (?)'
+  Attack Speed: '? (?)'
+  Critical: '?'
+  Stamina: '?'
+  Soul: '?'
+  Item Drop Chance: 0.08%
+  Experience: '?'
+  Gold: 405 - 517
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: sand-rock-goblin__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Roaring Wind
+  chance_to_drop_raw: 87.46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 87.46%
+    Icon: ''
+    Item: Roaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 87.46
+    quantity: null
+- drop_id: sand-rock-goblin__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodRoaring Wind
+  chance_to_drop_raw: 2.33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.33%
+    Icon: ''
+    Item: GoodRoaring Wind
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.33
+    quantity: null
+- drop_id: sand-rock-goblin__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Holy Prophet's Scar
+  chance_to_drop_raw: 0.12%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.12%
+    Icon: ''
+    Item: Holy Prophet's Scar
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.12
+    quantity: null
+- drop_id: sand-rock-goblin__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Orange Gem
+  chance_to_drop_raw: 1.15%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.15%
+    Icon: ''
+    Item: Flawless Orange Gem
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.15
+    quantity: null
+- drop_id: sand-rock-goblin__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sand Rock Goblin Card
+  chance_to_drop_raw: 8.95%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 8.95%
+    Icon: ''
+    Item: Sand Rock Goblin Card
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 8.95
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Sand Rock Goblin
+  - ''
+  rows_raw:
+  - - Name
+    - Sand Rock Goblin
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Ancient Front
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '?'
+    - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - '? (?)'
+    - '? (?)'
+    - '? (?)'
+  - - Critical
+    - Stamina
+    - Soul
+  - - '?'
+    - '?'
+    - '?'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '?'
+    - 405 - 517
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 87.46%
+    - ''
+    - Roaring Wind
+    - ITEM NOTES
+  - - 2.33%
+    - ''
+    - GoodRoaring Wind
+    - ITEM NOTES
+  - - 0.12%
+    - ''
+    - Holy Prophet's Scar
+    - ITEM NOTES
+  - - 1.15%
+    - ''
+    - Flawless Orange Gem
+    - ITEM NOTES
+  - - 8.95%
+    - ''
+    - Sand Rock Goblin Card
+    - ITEM NOTES
+  row_count: 6

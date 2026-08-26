@@ -1,0 +1,538 @@
+monster_page:
+  id: death-cyclone
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:death-cyclone
+    retrieval_url: https://web.archive.org/web/20200630073954id_/http://angels.wikidot.com:80/monster:death-cyclone
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200630073954'
+    archive_snapshot_url: https://web.archive.org/web/20200630073954/http://angels.wikidot.com:80/monster:death-cyclone
+    archive_original_lookup_url: https://angels.wikidot.com/monster:death-cyclone
+    source_html_sha256: df41c642dddbe9b9feab468a0ac00cc2da98bb41af67b2d2cb25244cfa32814f
+fields_raw:
+  Name: 'Stances:'
+  Death Cyclone: Powerful Beat Single Short-R. | Power 558 - Shaking Beat Self AOE | Power 395
+  'Stances:': 'Location:'
+  Powerful Beat Single Short-R. | Power 558 - Shaking Beat Self AOE | Power 395: Dragon Graveyard
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: Yes (3)
+  Level: '50'
+  Hit Points: '18332'
+  Rigor: '276'
+  Agility: '177'
+  Attack: '832'
+  Defense: '503'
+  Spell Attack: '372'
+  Spell Defense: '364'
+  Special Attack: '-'
+  Special Defense: '15'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Super Fast (105)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 100,00%
+  Experience: '1284'
+  Gold: 865 - 1381 (1123)
+item_drop_chance_raw: 100,00%
+drops:
+- drop_id: death-cyclone__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rare Agility Potion
+  chance_to_drop_raw: 25,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,22%
+    Icon: ''
+    Item: Rare Agility Potion
+    Short info: Food (Ag. +18 | 10 min)
+  normalized:
+    chance_to_drop_percent: 25.22
+    quantity: null
+- drop_id: death-cyclone__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Rare Magic Potion
+  chance_to_drop_raw: 25,22%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 25,22%
+    Icon: ''
+    Item: Rare Magic Potion
+    Short info: Food (Max.MP +100 | 10 min)
+  normalized:
+    chance_to_drop_percent: 25.22
+    quantity: null
+- drop_id: death-cyclone__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Light Cuff
+  chance_to_drop_raw: 19,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,74%
+    Icon: ''
+    Item: Advanced Light Cuff
+    Short info: Garment 42 (Dfs +47, Spl Dfs +8, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 19.74
+    quantity: null
+- drop_id: death-cyclone__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Advanced Rabbi's Gloves
+  chance_to_drop_raw: 19,74%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 19,74%
+    Icon: ''
+    Item: Advanced Rabbi's Gloves
+    Short info: Vestment 42 (Dfs +16, Spl Dfs +23, Rig.+37)
+  normalized:
+    chance_to_drop_percent: 19.74
+    quantity: null
+- drop_id: death-cyclone__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dead Cyclone Card
+  chance_to_drop_raw: 5,56%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,56%
+    Icon: ''
+    Item: Dead Cyclone Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 5.56
+    quantity: null
+- drop_id: death-cyclone__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 4 Robber Lord Map Piece
+  chance_to_drop_raw: 1,47%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,47%
+    Icon: ''
+    Item: Lvl 4 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 1.47
+    quantity: null
+- drop_id: death-cyclone__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Light Cuff
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Good Advanced Light Cuff
+    Short info: Garment 42 (Dfs +66, Spl Dfs +10, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: death-cyclone__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Advanced Rabbi's Gloves
+  chance_to_drop_raw: 0,53%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,53%
+    Icon: ''
+    Item: Good Advanced Rabbi's Gloves
+    Short info: Vestment 42 (Dfs +22, Spl Dfs +30, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 0.53
+    quantity: null
+- drop_id: death-cyclone__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pearl Refining
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Pearl Refining
+    Short info: Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig +23, Ag.+16)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0010
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fighting Wings
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: Fighting Wings
+    Short info: Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max.Weight +50)
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0011
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Weary Curse 5'
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: 'Scroll 2: Weary Curse 5'
+    Short info: Wraith 46
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0012
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 2: Summon Mummy 5'
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: 'Scroll 2: Summon Mummy 5'
+    Short info: Wraith 48
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0013
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'A.Plan2: Black Knight''s Cuff'
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: 'A.Plan2: Black Knight''s Cuff'
+    Short info: Armor 45
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0014
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'D.Plan2: Code Gloves'
+  chance_to_drop_raw: 0,28%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,28%
+    Icon: ''
+    Item: 'D.Plan2: Code Gloves'
+    Short info: Sew 45
+  normalized:
+    chance_to_drop_percent: 0.28
+    quantity: null
+- drop_id: death-cyclone__t007r0015
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Pestle
+  chance_to_drop_raw: 0,11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,11%
+    Icon: ''
+    Item: Pestle
+    Short info: 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: death-cyclone__t007r0016
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Golden Chain Cuff
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Golden Chain Cuff
+    Short info: Garment 42 (Dfs +90, Spl Dfs +12, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: death-cyclone__t007r0017
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Gloves of the Flame God
+  chance_to_drop_raw: 0,06%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,06%
+    Icon: ''
+    Item: Gloves of the Flame God
+    Short info: Vestment 42 (Dfs +30, Spl Dfs +37, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 0.06
+    quantity: null
+- drop_id: death-cyclone__t007r0018
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Sapphire
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: Sapphire
+    Short info: 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: death-cyclone__t007r0019
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Purple Gem
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: Purple Gem
+    Short info: 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: death-cyclone__t007r0020
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby
+  chance_to_drop_raw: 0,03%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,03%
+    Icon: ''
+    Item: Ruby
+    Short info: 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.03
+    quantity: null
+- drop_id: death-cyclone__t007r0022
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Silver Monster Badge
+  chance_to_drop_raw: 3 x
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3 x
+    Icon: ''
+    Item: Silver Monster Badge
+    Short info: ''
+  normalized:
+    chance_to_drop_percent: null
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Death Cyclone
+  - ''
+  rows_raw:
+  - - Name
+    - Death Cyclone
+    - ''
+  - - 'Stances:'
+    - Powerful Beat Single Short-R. | Power 558 - Shaking Beat Self AOE | Power 395
+    - ''
+  - - 'Location:'
+    - Dragon Graveyard
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - Yes (3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '50'
+    - '18332'
+    - '276'
+    - '177'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '832'
+    - '503'
+    - '372'
+    - '364'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '15'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Super Fast (105)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '1284'
+    - 865 - 1381 (1123)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 25,22%
+    - ''
+    - Rare Agility Potion
+    - Food (Ag. +18 | 10 min)
+  - - 25,22%
+    - ''
+    - Rare Magic Potion
+    - Food (Max.MP +100 | 10 min)
+  - - 19,74%
+    - ''
+    - Advanced Light Cuff
+    - Garment 42 (Dfs +47, Spl Dfs +8, Rig.+37)
+  - - 19,74%
+    - ''
+    - Advanced Rabbi's Gloves
+    - Vestment 42 (Dfs +16, Spl Dfs +23, Rig.+37)
+  - - 5,56%
+    - ''
+    - Dead Cyclone Card
+    - 'See: Card Collection'
+  - - 1,47%
+    - ''
+    - Lvl 4 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 0,53%
+    - ''
+    - Good Advanced Light Cuff
+    - Garment 42 (Dfs +66, Spl Dfs +10, Rig.+47)
+  - - 0,53%
+    - ''
+    - Good Advanced Rabbi's Gloves
+    - Vestment 42 (Dfs +22, Spl Dfs +30, Rig.+47)
+  - - 0,28%
+    - ''
+    - Pearl Refining
+    - Trinket Lvl 45 (Dfs +48, Spl Dfs +30, Rig +23, Ag.+16)
+  - - 0,28%
+    - ''
+    - Fighting Wings
+    - Cloak Lvl 45 (Dfs +65, Spl Dfs +45, Max.Weight +50)
+  - - 0,28%
+    - ''
+    - 'Scroll 2: Weary Curse 5'
+    - Wraith 46
+  - - 0,28%
+    - ''
+    - 'Scroll 2: Summon Mummy 5'
+    - Wraith 48
+  - - 0,28%
+    - ''
+    - 'A.Plan2: Black Knight''s Cuff'
+    - Armor 45
+  - - 0,28%
+    - ''
+    - 'D.Plan2: Code Gloves'
+    - Sew 45
+  - - 0,11%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,06%
+    - ''
+    - Golden Chain Cuff
+    - Garment 42 (Dfs +90, Spl Dfs +12, Rig.+57)
+  - - 0,06%
+    - ''
+    - Gloves of the Flame God
+    - Vestment 42 (Dfs +30, Spl Dfs +37, Rig.+57)
+  - - 0,03%
+    - ''
+    - Sapphire
+    - 'Weapon: I.Atk +8, Armor: Max.MP +39, Shield: I.Dfs +3'
+  - - 0,03%
+    - ''
+    - Purple Gem
+    - 'Weapon: Spl Atk +20, Spl Dfs +5, Shield: Spl Dfs +5'
+  - - 0,03%
+    - ''
+    - Ruby
+    - 'Weapon: F.Atk +8, Armor: Max.HP +39, Shield: F.Dfs +3'
+  - - Badges
+    - ''
+  - - 3 x
+    - ''
+    - Silver Monster Badge
+    - ''
+  row_count: 23

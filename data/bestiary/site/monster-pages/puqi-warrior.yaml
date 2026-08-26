@@ -1,0 +1,284 @@
+monster_page:
+  id: puqi-warrior
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:puqi-warrior
+    retrieval_url: https://web.archive.org/web/20200119193136id_/http://angels.wikidot.com:80/monster:puqi-warrior
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119193136'
+    archive_snapshot_url: https://web.archive.org/web/20200119193136/http://angels.wikidot.com:80/monster:puqi-warrior
+    archive_original_lookup_url: https://angels.wikidot.com/monster:puqi-warrior
+    source_html_sha256: dc4b37c365f7fb9289a13844b1776a0d66ad7815cc5bc3d2e3af32e66d8d4649
+fields_raw:
+  Name: 'Spells:'
+  Puqi Warrior: '-'
+  'Spells:': 'Location:'
+  '-': Golden Beach
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '53'
+  Hit Points: '2028'
+  Rigor: '277'
+  Agility: '171'
+  Attack: '341'
+  Defense: '477'
+  Spell Attack: '356'
+  Spell Defense: '209'
+  Special Attack: Thunder +29
+  Special Defense: '17'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Fast (85)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,03%
+  Experience: '595'
+  Gold: 102 - 152 (127)
+item_drop_chance_raw: 0,03%
+drops:
+- drop_id: puqi-warrior__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Tight Leather Gloves
+  chance_to_drop_raw: 40,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,63%
+    Icon: ''
+    Item: Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  normalized:
+    chance_to_drop_percent: 40.63
+    quantity: null
+- drop_id: puqi-warrior__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Royal Magic Boots
+  chance_to_drop_raw: 40,63%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 40,63%
+    Icon: ''
+    Item: Royal Magic Boots
+    Short info: Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  normalized:
+    chance_to_drop_percent: 40.63
+    quantity: null
+- drop_id: puqi-warrior__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Tight Leather Gloves
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Good Royal Tight Leather Gloves
+    Short info: Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: puqi-warrior__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Royal Magic Boots
+  chance_to_drop_raw: 6,75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 6,75%
+    Icon: ''
+    Item: Good Royal Magic Boots
+    Short info: Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  normalized:
+    chance_to_drop_percent: 6.75
+    quantity: null
+- drop_id: puqi-warrior__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ruby
+  chance_to_drop_raw: 3,92%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,92%
+    Icon: ''
+    Item: Ruby
+    Short info: 'Weapon: F.Atk +8, Armor: Max. HP +39, Shield: F.Dfs +3'
+  normalized:
+    chance_to_drop_percent: 3.92
+    quantity: null
+- drop_id: puqi-warrior__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Scale Shell (gloves)
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Scale Shell (gloves)
+    Short info: Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+- drop_id: puqi-warrior__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Slarm's Gown (boots)
+  chance_to_drop_raw: 0,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,66%
+    Icon: ''
+    Item: Slarm's Gown (boots)
+    Short info: Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  normalized:
+    chance_to_drop_percent: 0.66
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Puqi Warrior
+  - ''
+  rows_raw:
+  - - Name
+    - Puqi Warrior
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Golden Beach
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '53'
+    - '2028'
+    - '277'
+    - '171'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '341'
+    - '477'
+    - '356'
+    - '209'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Thunder +29
+    - '17'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Fast (85)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,03%
+    - '595'
+    - 102 - 152 (127)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 40,63%
+    - ''
+    - Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +44, Spl Dfs +20, Rig.+47)
+  - - 40,63%
+    - ''
+    - Royal Magic Boots
+    - Vestment 51 (Dfs +22, Spl Dfs +30, Ag.+17)
+  - - 6,75%
+    - ''
+    - Good Royal Tight Leather Gloves
+    - Mantle 52 (Dfs +60, Spl Dfs +24, Rig.+57)
+  - - 6,75%
+    - ''
+    - Good Royal Magic Boots
+    - Vestment 51 (Dfs +30, Spl Dfs +38, Ag.+21)
+  - - 3,92%
+    - ''
+    - Ruby
+    - 'Weapon: F.Atk +8, Armor: Max. HP +39, Shield: F.Dfs +3'
+  - - 0,66%
+    - ''
+    - Scale Shell (gloves)
+    - Mantle 52 (Dfs +79, Spl Dfs +29, Rig.+67)
+  - - 0,66%
+    - ''
+    - Slarm's Gown (boots)
+    - Vestment 51 (Dfs +39, Spl Dfs +47, Ag.+24)
+  row_count: 8

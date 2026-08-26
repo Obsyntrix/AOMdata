@@ -1,0 +1,248 @@
+monster_page:
+  id: riddle-bishop
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:riddle-bishop
+    retrieval_url: https://web.archive.org/web/20191230105826id_/http://angels.wikidot.com:80/monster:riddle-bishop
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230105826'
+    archive_snapshot_url: https://web.archive.org/web/20191230105826/http://angels.wikidot.com:80/monster:riddle-bishop
+    archive_original_lookup_url: https://angels.wikidot.com/monster:riddle-bishop
+    source_html_sha256: 057df98432ce6c30df35c1db90c230b6952076f03da0e4c2e76c3032314476a8
+fields_raw:
+  Name: 'Description:'
+  Riddle Bishop: Description
+  'Description:': 'Location:'
+  Description: Hell Palace
+  Type: Undead
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '80'
+  Hit Points: '3006'
+  Rigor: '412'
+  Agility: '252'
+  Attack: '601'
+  Defense: '916'
+  Magic Attack: '569'
+  Magic Defense: '320'
+  Special Attack: Fire +39
+  Special Defense: '30'
+  Strong Against: Rotten(60)
+  Weak Against: Ice(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(95)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.02%
+  Experience: '751'
+  Gold: 280 - 424 (352)
+item_drop_chance_raw: 0.02%
+drops:
+- drop_id: riddle-bishop__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Mage Cuffs
+  chance_to_drop_raw: 67.87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 67.87%
+    Icon: ''
+    Item: Mage Cuffs
+    Short info: Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  normalized:
+    chance_to_drop_percent: 67.87
+    quantity: null
+- drop_id: riddle-bishop__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 7 Robber Lord Map Piece
+  chance_to_drop_raw: 28.19%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 28.19%
+    Icon: ''
+    Item: Lvl 7 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 28.19
+    quantity: null
+- drop_id: riddle-bishop__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Mage Cuffs
+  chance_to_drop_raw: 2.82%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.82%
+    Icon: ''
+    Item: Good Mage Cuffs
+    Short info: Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  normalized:
+    chance_to_drop_percent: 2.82
+    quantity: null
+- drop_id: riddle-bishop__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Clean Purple Gem
+  chance_to_drop_raw: 0.85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.85%
+    Icon: ''
+    Item: Clean Purple Gem
+    Short info: 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  normalized:
+    chance_to_drop_percent: 0.85
+    quantity: null
+- drop_id: riddle-bishop__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Spring Cuffs
+  chance_to_drop_raw: 0.27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.27%
+    Icon: ''
+    Item: Spring Cuffs
+    Short info: Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  normalized:
+    chance_to_drop_percent: 0.27
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Riddle Bishop
+  - ''
+  rows_raw:
+  - - Name
+    - Riddle Bishop
+    - ''
+  - - 'Description:'
+    - Description
+    - ''
+  - - 'Location:'
+    - Hell Palace
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Undead
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '80'
+    - '3006'
+    - '412'
+    - '252'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '601'
+    - '916'
+    - '569'
+    - '320'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +39
+    - '30'
+    - Rotten(60)
+    - Ice(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(95)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.02%
+    - '751'
+    - 280 - 424 (352)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 67.87%
+    - ''
+    - Mage Cuffs
+    - Vestment 77 (Dfs +45, Spl Dfs +47, Rig +72)
+  - - 28.19%
+    - ''
+    - Lvl 7 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 2.82%
+    - ''
+    - Good Mage Cuffs
+    - Vestment 77 (Dfs +57, Spl Dfs +59, Rig +82)
+  - - 0.85%
+    - ''
+    - Clean Purple Gem
+    - 'Weapon: Spl Atk +25, Armor: Spl Dfs +6, Shield: Spl Dfs +6'
+  - - 0.27%
+    - ''
+    - Spring Cuffs
+    - Vestment 77 (Dfs +72, Spl Dfs +74, Rig +92)
+  row_count: 6

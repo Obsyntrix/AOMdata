@@ -1,0 +1,283 @@
+monster_page:
+  id: earth-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:earth-elf
+    retrieval_url: https://web.archive.org/web/20200109171657id_/http://angels.wikidot.com:80/monster:earth-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171657'
+    archive_snapshot_url: https://web.archive.org/web/20200109171657/http://angels.wikidot.com:80/monster:earth-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:earth-elf
+    source_html_sha256: 21a4d75e00ac01bcf0f13eb019e2a2954eec61f31889cec6207f4ffba6ccb530
+fields_raw:
+  Name: 'Description:'
+  Earth Elf: An elemental incarnation of earth. Does not smell as bad as it looks. Makes a good bookend. Has a very powerful head-butt.
+  'Description:': 'Location:'
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '7'
+  Hit Points: '300'
+  Rigor: '47'
+  Agility: '33'
+  Attack: '55'
+  Defense: '59'
+  Spell Attack: '51'
+  Spell Defense: '32'
+  Special Attack: '-'
+  Special Defense: '0'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very Slow (50)
+  Attack Speed: Fast (80)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 0,60%
+  Experience: '75'
+  Gold: 14 - 24 (19)
+item_drop_chance_raw: 0,60%
+drops:
+- drop_id: earth-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Heavy Costume
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Heavy Costume
+    Short info: Garment 4 (Dfs +21, Spl Dfs +3)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: earth-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Light Costume
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Light Costume
+    Short info: Mantle 4 (Dfs +14, Spl Dfs +6)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: earth-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Newbie Incantation Clothes
+  chance_to_drop_raw: 30,00%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 30,00%
+    Icon: ''
+    Item: Good Newbie Incantation Clothes
+    Short info: Vestment 4 (Dfs +7, Spl Dfs +9)
+  normalized:
+    chance_to_drop_percent: 30.0
+    quantity: null
+- drop_id: earth-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Leather Jacket
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Leather Jacket
+    Short info: Garment 4 (Dfs +53, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+- drop_id: earth-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Mantle
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Mantle
+    Short info: Mantle 4 (Dfs +35, Spl Dfs +14)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+- drop_id: earth-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Manteau
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Manteau
+    Short info: Vestment 4 (Dfs +18, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+- drop_id: earth-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Fiend Wristlet
+  chance_to_drop_raw: 3,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 3,33%
+    Icon: ''
+    Item: Fiend Wristlet
+    Short info: Mantle 2 (Dfs +12, Spl Dfs +7)
+  normalized:
+    chance_to_drop_percent: 3.33
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Earth Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Earth Elf
+    - ''
+  - - 'Description:'
+    - An elemental incarnation of earth. Does not smell as bad as it looks. Makes a good bookend. Has a very powerful head-butt.
+    - ''
+  - - 'Location:'
+    - East Playground , West Playground
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '7'
+    - '300'
+    - '47'
+    - '33'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '55'
+    - '59'
+    - '51'
+    - '32'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '0'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Slow (50)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,60%
+    - '75'
+    - 14 - 24 (19)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 30,00%
+    - ''
+    - Good Newbie Heavy Costume
+    - Garment 4 (Dfs +21, Spl Dfs +3)
+  - - 30,00%
+    - ''
+    - Good Newbie Light Costume
+    - Mantle 4 (Dfs +14, Spl Dfs +6)
+  - - 30,00%
+    - ''
+    - Good Newbie Incantation Clothes
+    - Vestment 4 (Dfs +7, Spl Dfs +9)
+  - - 3,33%
+    - ''
+    - Fiend Leather Jacket
+    - Garment 4 (Dfs +53, Spl Dfs +7)
+  - - 3,33%
+    - ''
+    - Fiend Mantle
+    - Mantle 4 (Dfs +35, Spl Dfs +14)
+  - - 3,33%
+    - ''
+    - Fiend Manteau
+    - Vestment 4 (Dfs +18, Spl Dfs +21)
+  - - 3,33%
+    - ''
+    - Fiend Wristlet
+    - Mantle 2 (Dfs +12, Spl Dfs +7)
+  row_count: 8

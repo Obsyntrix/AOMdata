@@ -1,0 +1,302 @@
+monster_page:
+  id: garden-elf
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:garden-elf
+    retrieval_url: https://web.archive.org/web/20200109171818id_/http://angels.wikidot.com:80/monster:garden-elf
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200109171818'
+    archive_snapshot_url: https://web.archive.org/web/20200109171818/http://angels.wikidot.com:80/monster:garden-elf
+    archive_original_lookup_url: https://angels.wikidot.com/monster:garden-elf
+    source_html_sha256: 1d31034de060bc57cb3b32399cee4fae8667c06ed52476f467f33f4401747ba1
+fields_raw:
+  Name: 'Spells:'
+  Garden Elf: '-'
+  'Spells:': 'Location:'
+  '-': Mysterious Garden
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '27'
+  Hit Points: '888'
+  Rigor: '147'
+  Agility: '93'
+  Attack: '164'
+  Defense: '202'
+  Spell Attack: '191'
+  Spell Defense: '109'
+  Special Attack: Fire +10
+  Special Defense: '4'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Moderate (75)
+  Attack Speed: Very Fast (90)
+  Critical: '5'
+  Stamina: '10'
+  Soul: '30'
+  Item Drop Chance: 1,80%
+  Experience: '222'
+  Gold: 44 - 70 (57)
+item_drop_chance_raw: 1,80%
+drops:
+- drop_id: garden-elf__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 2 Robber Lord Map Piece
+  chance_to_drop_raw: 58,08%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 58,08%
+    Icon: ''
+    Item: Lvl 2 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 58.08
+    quantity: null
+- drop_id: garden-elf__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Traveller Gown
+  chance_to_drop_raw: 34,85%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 34,85%
+    Icon: ''
+    Item: Traveller Gown
+    Short info: Vestment 24 (Dfs +18, Spl Dfs +21)
+  normalized:
+    chance_to_drop_percent: 34.85
+    quantity: null
+- drop_id: garden-elf__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Traveller Gown
+  chance_to_drop_raw: 5,81%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 5,81%
+    Icon: ''
+    Item: Good Traveller Gown
+    Short info: Vestment 24 (Dfs +31, Spl Dfs +34)
+  normalized:
+    chance_to_drop_percent: 5.81
+    quantity: null
+- drop_id: garden-elf__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Protector's Gown
+  chance_to_drop_raw: 0,58%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,58%
+    Icon: ''
+    Item: Protector's Gown
+    Short info: Vestment 24 (Dfs +47, Spl Dfs +50)
+  normalized:
+    chance_to_drop_percent: 0.58
+    quantity: null
+- drop_id: garden-elf__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Garden Elf Card
+  chance_to_drop_raw: 0,38%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,38%
+    Icon: ''
+    Item: Garden Elf Card
+    Short info: 'See: Card Collection'
+  normalized:
+    chance_to_drop_percent: 0.38
+    quantity: null
+- drop_id: garden-elf__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Ruby
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawed Ruby
+    Short info: 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: garden-elf__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Defective Orange Gem
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Defective Orange Gem
+    Short info: 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+- drop_id: garden-elf__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawed Yellow Gem
+  chance_to_drop_raw: 0,10%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,10%
+    Icon: ''
+    Item: Flawed Yellow Gem
+    Short info: 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  normalized:
+    chance_to_drop_percent: 0.1
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Garden Elf
+  - ''
+  rows_raw:
+  - - Name
+    - Garden Elf
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Mysterious Garden
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '27'
+    - '888'
+    - '147'
+    - '93'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '164'
+    - '202'
+    - '191'
+    - '109'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Fire +10
+    - '4'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Moderate (75)
+    - Very Fast (90)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '10'
+    - '30'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 1,80%
+    - '222'
+    - 44 - 70 (57)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 58,08%
+    - ''
+    - Lvl 2 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 34,85%
+    - ''
+    - Traveller Gown
+    - Vestment 24 (Dfs +18, Spl Dfs +21)
+  - - 5,81%
+    - ''
+    - Good Traveller Gown
+    - Vestment 24 (Dfs +31, Spl Dfs +34)
+  - - 0,58%
+    - ''
+    - Protector's Gown
+    - Vestment 24 (Dfs +47, Spl Dfs +50)
+  - - 0,38%
+    - ''
+    - Garden Elf Card
+    - 'See: Card Collection'
+  - - 0,10%
+    - ''
+    - Flawed Ruby
+    - 'Weapon: F.Atk +4, Armor: Max HP +22, Shield: F.Dfs +2'
+  - - 0,10%
+    - ''
+    - Defective Orange Gem
+    - 'Weapon: Atk +10, Armor: Dfs +3, Shield: Dfs +3'
+  - - 0,10%
+    - ''
+    - Flawed Yellow Gem
+    - 'Weapon: T.Atk +4, Armor: Ag. +4, Shield: T.Dfs +2'
+  row_count: 9

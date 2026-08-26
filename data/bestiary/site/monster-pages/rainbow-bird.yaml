@@ -1,0 +1,320 @@
+monster_page:
+  id: rainbow-bird
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rainbow-bird
+    retrieval_url: https://web.archive.org/web/20170611153716id_/http://angels.wikidot.com:80/monster:rainbow-bird
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20170611153716'
+    archive_snapshot_url: https://web.archive.org/web/20170611153716/http://angels.wikidot.com:80/monster:rainbow-bird
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rainbow-bird
+    source_html_sha256: cfe9765791216f97f07c7006bfe10647ae6970c54868e753fc4a47bac5f2bdd1
+fields_raw:
+  Name: 'Spells:'
+  Rainbow Bird: '-'
+  'Spells:': 'Location:'
+  '-': Roam Battlefield
+  Type: Animal
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '97'
+  Hit Points: '8190'
+  Rigor: '577'
+  Agility: '303'
+  Attack: '1183'
+  Defense: '1319'
+  Spell Attack: '702'
+  Spell Defense: '367'
+  Special Attack: +57 Lightning
+  Special Defense: +77 Lightning
+  Strong Against: Lightning
+  Weak Against: Fire
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.05%
+  Experience: '4569'
+  Gold: 361 - 459
+item_drop_chance_raw: 0.05%
+drops:
+- drop_id: rainbow-bird__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Woods Boots
+  chance_to_drop_raw: 46.98%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.98%
+    Icon: ''
+    Item: Woods Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.98
+    quantity: null
+- drop_id: rainbow-bird__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Magician Boots
+  chance_to_drop_raw: 46.98%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 46.98%
+    Icon: ''
+    Item: Magician Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 46.98
+    quantity: null
+- drop_id: rainbow-bird__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodWoods Boots
+  chance_to_drop_raw: 1.16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.16%
+    Icon: ''
+    Item: GoodWoods Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rainbow-bird__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodMagician Boots
+  chance_to_drop_raw: 1.16%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.16%
+    Icon: ''
+    Item: GoodMagician Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.16
+    quantity: null
+- drop_id: rainbow-bird__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Conqueror Boots
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Conqueror Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: rainbow-bird__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dream Saint Shoes
+  chance_to_drop_raw: 0.04%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.04%
+    Icon: ''
+    Item: Dream Saint Shoes
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.04
+    quantity: null
+- drop_id: rainbow-bird__t007r0007
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Wildness Boots
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: A.Plan2:Wildness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: rainbow-bird__t007r0008
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Magician Boots
+  chance_to_drop_raw: 0.39%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.39%
+    Icon: ''
+    Item: D.Plan2:Magician Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.39
+    quantity: null
+- drop_id: rainbow-bird__t007r0009
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 2.86%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.86%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.86
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rainbow Bird
+  - ''
+  rows_raw:
+  - - Name
+    - Rainbow Bird
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Roam Battlefield
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '97'
+    - '8190'
+    - '577'
+    - '303'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1183'
+    - '1319'
+    - '702'
+    - '367'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +57 Lightning
+    - +77 Lightning
+    - Lightning
+    - Fire
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.05%
+    - '4569'
+    - 361 - 459
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 46.98%
+    - ''
+    - Woods Boots
+    - ITEM NOTES
+  - - 46.98%
+    - ''
+    - Magician Boots
+    - ITEM NOTES
+  - - 1.16%
+    - ''
+    - GoodWoods Boots
+    - ITEM NOTES
+  - - 1.16%
+    - ''
+    - GoodMagician Boots
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Conqueror Boots
+    - ITEM NOTES
+  - - 0.04%
+    - ''
+    - Dream Saint Shoes
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - A.Plan2:Wildness Boots
+    - ITEM NOTES
+  - - 0.39%
+    - ''
+    - D.Plan2:Magician Boots
+    - ITEM NOTES
+  - - 2.86%
+    - ''
+    - Flawless Emerald
+    - ITEM NOTES
+  row_count: 10

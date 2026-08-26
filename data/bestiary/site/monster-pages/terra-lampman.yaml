@@ -1,0 +1,266 @@
+monster_page:
+  id: terra-lampman
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:terra-lampman
+    retrieval_url: https://web.archive.org/web/20191230110007id_/http://angels.wikidot.com:80/monster:terra-lampman
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20191230110007'
+    archive_snapshot_url: https://web.archive.org/web/20191230110007/http://angels.wikidot.com:80/monster:terra-lampman
+    archive_original_lookup_url: https://angels.wikidot.com/monster:terra-lampman
+    source_html_sha256: 14219e5bf577b8785154b5b27776d657a8496379c3164499b94246068e84ff07
+fields_raw:
+  Name: 'Spells:'
+  Terra Lampman: '-'
+  'Spells:': 'Location:'
+  '-': Fiery Path , Lava Cave , Flaming Door
+  Type: Human
+  Boss?: 'No'
+  Aggressive?: Yes(3)
+  Level: '65'
+  Hit Points: '2368'
+  Rigor: '337'
+  Agility: '207'
+  Attack: '464'
+  Defense: '697'
+  Magic Attack: '450'
+  Magic Defense: '258'
+  Special Attack: Ice +32
+  Special Defense: '23'
+  Strong Against: Fire(53)
+  Weak Against: Thunder(0)
+  Attack Range: Short (1)
+  Speed: Very Fast(90)
+  Attack Speed: Slow(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,05%
+  Experience: '592'
+  Gold: 157 - 243 (200)
+item_drop_chance_raw: 0,05%
+drops:
+- drop_id: terra-lampman__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Hermit Boots
+  chance_to_drop_raw: 51,23%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 51,23%
+    Icon: ''
+    Item: Hermit Boots
+    Short info: Mantle 66 (Dfs +69, Spl Dfs +27, Ag +22)
+  normalized:
+    chance_to_drop_percent: 51.23
+    quantity: null
+- drop_id: terra-lampman__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lvl 6 Robber Lord Map Piece
+  chance_to_drop_raw: 42,66%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 42,66%
+    Icon: ''
+    Item: Lvl 6 Robber Lord Map Piece
+    Short info: 'See: Treasure Maps'
+  normalized:
+    chance_to_drop_percent: 42.66
+    quantity: null
+- drop_id: terra-lampman__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Hermit Boots
+  chance_to_drop_raw: 4,27%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 4,27%
+    Icon: ''
+    Item: Good Hermit Boots
+    Short info: Mantle 66 (Dfs +90, Spl Dfs +31, Ag +26)
+  normalized:
+    chance_to_drop_percent: 4.27
+    quantity: null
+- drop_id: terra-lampman__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'C.Plan2: Benison Ring'
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: 'C.Plan2: Benison Ring'
+    Short info: Tecnics 65
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: terra-lampman__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: 'Scroll 1: Heart Hit'
+  chance_to_drop_raw: 0,71%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,71%
+    Icon: ''
+    Item: 'Scroll 1: Heart Hit'
+    Short info: Life 64
+  normalized:
+    chance_to_drop_percent: 0.71
+    quantity: null
+- drop_id: terra-lampman__t007r0006
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Anchoret Boots
+  chance_to_drop_raw: 0,41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,41%
+    Icon: ''
+    Item: Anchoret Boots
+    Short info: Mantle 66 (Dfs +114, Spl Dfs +36, Ag +29)
+  normalized:
+    chance_to_drop_percent: 0.41
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Terra Lampman
+  - ''
+  rows_raw:
+  - - Name
+    - Terra Lampman
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Fiery Path , Lava Cave , Flaming Door
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss?
+  - Aggressive?
+  rows_raw:
+  - - Type
+    - Boss?
+    - Aggressive?
+  - - Human
+    - 'No'
+    - Yes(3)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '65'
+    - '2368'
+    - '337'
+    - '207'
+  - - Attack
+    - Defense
+    - Magic Attack
+    - Magic Defense
+  - - '464'
+    - '697'
+    - '450'
+    - '258'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +32
+    - '23'
+    - Fire(53)
+    - Thunder(0)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast(90)
+    - Slow(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,05%
+    - '592'
+    - 157 - 243 (200)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 51,23%
+    - ''
+    - Hermit Boots
+    - Mantle 66 (Dfs +69, Spl Dfs +27, Ag +22)
+  - - 42,66%
+    - ''
+    - Lvl 6 Robber Lord Map Piece
+    - 'See: Treasure Maps'
+  - - 4,27%
+    - ''
+    - Good Hermit Boots
+    - Mantle 66 (Dfs +90, Spl Dfs +31, Ag +26)
+  - - 0,71%
+    - ''
+    - 'C.Plan2: Benison Ring'
+    - Tecnics 65
+  - - 0,71%
+    - ''
+    - 'Scroll 1: Heart Hit'
+    - Life 64
+  - - 0,41%
+    - ''
+    - Anchoret Boots
+    - Mantle 66 (Dfs +114, Spl Dfs +36, Ag +29)
+  row_count: 7

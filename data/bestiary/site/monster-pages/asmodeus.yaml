@@ -1,0 +1,146 @@
+monster_page:
+  id: asmodeus
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:asmodeus
+    retrieval_url: https://web.archive.org/web/20200224075011id_/http://angels.wikidot.com:80/monster:asmodeus
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200224075011'
+    archive_snapshot_url: https://web.archive.org/web/20200224075011/http://angels.wikidot.com:80/monster:asmodeus
+    archive_original_lookup_url: https://angels.wikidot.com/monster:asmodeus
+    source_html_sha256: 80ae9d8b25803663795758ff7e6e5fcd58737c6b9cd9e2ef06b46e5ccfe26e02
+fields_raw:
+  Name: 'Spells:'
+  Asmodeus: Fireball Hit Single Ranged | Dmg 153-157 - Fire Trap Ranged AOE | Dmg 230-234 HP -23 x5 | 10 sec
+  'Spells:': 'Location:'
+  Fireball Hit Single Ranged | Dmg 153-157 - Fire Trap Ranged AOE | Dmg 230-234 HP -23 x5 | 10 sec: Asmode's Den
+  Type: Demon
+  Boss: 'Yes'
+  Aggressive: Yes (10)
+  Level: '35'
+  Hit Points: '14483'
+  Rigor: '201'
+  Agility: '132'
+  Attack: '683'
+  Defense: '379'
+  Spell Attack: '296'
+  Spell Defense: '292'
+  Special Attack: '-'
+  Special Defense: '8'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (3)
+  Speed: Very Fast (100)
+  Attack Speed: Fast (80)
+  Critical: '30'
+  Stamina: '30'
+  Soul: '70'
+  Item Drop Chance: 0%
+  Experience: '870'
+  Gold: '0'
+item_drop_chance_raw: 0%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Asmodeus
+  - ''
+  rows_raw:
+  - - Name
+    - Asmodeus
+    - ''
+  - - 'Spells:'
+    - Fireball Hit Single Ranged | Dmg 153-157 - Fire Trap Ranged AOE | Dmg 230-234 HP -23 x5 | 10 sec
+    - ''
+  - - 'Location:'
+    - Asmode's Den
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Demon
+    - 'Yes'
+    - Yes (10)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '35'
+    - '14483'
+    - '201'
+    - '132'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '683'
+    - '379'
+    - '296'
+    - '292'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '-'
+    - '8'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (3)
+    - Very Fast (100)
+    - Fast (80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '30'
+    - '70'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0%
+    - '870'
+    - '0'
+  row_count: 2

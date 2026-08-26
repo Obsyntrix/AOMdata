@@ -1,0 +1,248 @@
+monster_page:
+  id: burning-priest
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:burning-priest
+    retrieval_url: https://web.archive.org/web/20160616111707id_/http://angels.wikidot.com:80/monster:burning-priest
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20160616111707'
+    archive_snapshot_url: https://web.archive.org/web/20160616111707/http://angels.wikidot.com:80/monster:burning-priest
+    archive_original_lookup_url: https://angels.wikidot.com/monster:burning-priest
+    source_html_sha256: b776c426ba4757eb19ee6b43b98f4426389ffd21e998bd3b6c020aff881a1ec9
+fields_raw:
+  Name: 'Spells:'
+  Burning Priest: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Field
+  Type: Undead
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '83'
+  Hit Points: '3601'
+  Rigor: '427'
+  Agility: '261'
+  Attack: '735'
+  Defense: '771'
+  Spell Attack: '590'
+  Spell Defense: '567'
+  Special Attack: +42 Fire
+  Special Defense: '?'
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.08%
+  Experience: '3057'
+  Gold: 158 - 202
+item_drop_chance_raw: 0.08%
+drops:
+- drop_id: burning-priest__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Boots
+  chance_to_drop_raw: 94.98%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.98%
+    Icon: ''
+    Item: Swiftness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.98
+    quantity: null
+- drop_id: burning-priest__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Boots
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: Good Swiftness Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: burning-priest__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Walker Boots
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Walker Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: burning-priest__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Boots
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: A.Plan2:Swift Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: burning-priest__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Sapphire
+  chance_to_drop_raw: 1.75%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.75%
+    Icon: ''
+    Item: Flawless Sapphire
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.75
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Burning Priest
+  - ''
+  rows_raw:
+  - - Name
+    - Burning Priest
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Field
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '83'
+    - '3601'
+    - '427'
+    - '261'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '735'
+    - '771'
+    - '590'
+    - '567'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +42 Fire
+    - '?'
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.08%
+    - '3057'
+    - 158 - 202
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.98%
+    - ''
+    - Swiftness Boots
+    - ITEM NOTES
+  - - 2.37%
+    - ''
+    - Good Swiftness Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Walker Boots
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - A.Plan2:Swift Boots
+    - ITEM NOTES
+  - - 1.75%
+    - ''
+    - Flawless Sapphire
+    - ITEM NOTES
+  row_count: 6

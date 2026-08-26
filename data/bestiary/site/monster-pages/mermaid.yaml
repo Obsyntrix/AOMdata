@@ -1,0 +1,230 @@
+monster_page:
+  id: mermaid
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:mermaid
+    retrieval_url: https://web.archive.org/web/20200119203331id_/http://angels.wikidot.com:80/monster:mermaid
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200119203331'
+    archive_snapshot_url: https://web.archive.org/web/20200119203331/http://angels.wikidot.com:80/monster:mermaid
+    archive_original_lookup_url: https://angels.wikidot.com/monster:mermaid
+    source_html_sha256: f099e5532afbf07929f46d225bb3f4d45851a252d10a10189de4b124b196a9ca
+fields_raw:
+  Name: 'Spells:'
+  Mermaid: '-'
+  'Spells:': 'Location:'
+  '-': Lost Region
+  Type: Human
+  Boss: 'No'
+  Aggressive: Yes (5)
+  Level: '87'
+  Hit Points: '6996'
+  Rigor: '472'
+  Agility: '288'
+  Attack: '1530'
+  Defense: '1182'
+  Spell Attack: '639'
+  Spell Defense: '357'
+  Special Attack: Ice +46
+  Special Defense: '34'
+  Strong Against: Fire (64)
+  Weak Against: Thunder (4)
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,09%
+  Experience: '2069'
+  Gold: 608 - 782 (695)
+item_drop_chance_raw: 0,09%
+drops:
+- drop_id: mermaid__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Swiftness Armor
+  chance_to_drop_raw: 96,33%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96,33%
+    Icon: ''
+    Item: Swiftness Armor
+    Short info: Mantle 89 (Dfs +343, Spl Dfs +66)
+  normalized:
+    chance_to_drop_percent: 96.33
+    quantity: null
+- drop_id: mermaid__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Swiftness Armor
+  chance_to_drop_raw: 2,40%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2,40%
+    Icon: ''
+    Item: Good Swiftness Armor
+    Short info: Mantle 89 (Dfs +432, Spl Dfs +74)
+  normalized:
+    chance_to_drop_percent: 2.4
+    quantity: null
+- drop_id: mermaid__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: A.Plan2:Swift Armor
+  chance_to_drop_raw: 0,80%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,80%
+    Icon: ''
+    Item: A.Plan2:Swift Armor
+    Short info: Armor 85
+  normalized:
+    chance_to_drop_percent: 0.8
+    quantity: null
+- drop_id: mermaid__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Emerald
+  chance_to_drop_raw: 0,46%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,46%
+    Icon: ''
+    Item: Flawless Emerald
+    Short info: 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  normalized:
+    chance_to_drop_percent: 0.46
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Mermaid
+  - ''
+  rows_raw:
+  - - Name
+    - Mermaid
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Lost Region
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - Yes (5)
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '87'
+    - '6996'
+    - '472'
+    - '288'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1530'
+    - '1182'
+    - '639'
+    - '357'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - Ice +46
+    - '34'
+    - Fire (64)
+    - Thunder (4)
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,09%
+    - '2069'
+    - 608 - 782 (695)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96,33%
+    - ''
+    - Swiftness Armor
+    - Mantle 89 (Dfs +343, Spl Dfs +66)
+  - - 2,40%
+    - ''
+    - Good Swiftness Armor
+    - Mantle 89 (Dfs +432, Spl Dfs +74)
+  - - 0,80%
+    - ''
+    - A.Plan2:Swift Armor
+    - Armor 85
+  - - 0,46%
+    - ''
+    - Flawless Emerald
+    - 'Weapon: R.Atk +24, Armor: Rig +10, Shield: R.Dfs +5'
+  row_count: 5

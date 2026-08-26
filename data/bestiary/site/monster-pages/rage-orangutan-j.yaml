@@ -1,0 +1,253 @@
+monster_page:
+  id: rage-orangutan-j
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:rage-orangutan-j
+    retrieval_url: https://web.archive.org/web/20110904064216id_/http://angels.wikidot.com:80/monster:rage-orangutan-j
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20110904064216'
+    archive_snapshot_url: https://web.archive.org/web/20110904064216/http://angels.wikidot.com:80/monster:rage-orangutan-j
+    archive_original_lookup_url: https://angels.wikidot.com/monster:rage-orangutan-j
+    source_html_sha256: 89be7c521cfef7d6d88a58c572dd970b041916cd071739216e544a195256b9eb
+fields_raw:
+  Name: 'Spells:'
+  Rage Orangutan J(ordan): '-'
+  'Spells:': 'Location:'
+  '-': River Valley
+  Type: Animal
+  Boss: 'Yes'
+  Aggressive: 'Yes'
+  Level: '85'
+  Hit Points: '37920'
+  Rigor: '457'
+  Agility: '279'
+  Attack: '1427'
+  Defense: '1117'
+  Spell Attack: '883'
+  Spell Defense: '610'
+  Special Attack: '?'
+  Special Defense: '?'
+  Strong Against: '-'
+  Weak Against: '-'
+  Attack Range: Short (1)
+  Speed: Very fast (95)
+  Attack Speed: Fast 80
+  Critical: '30'
+  Stamina: '40'
+  Soul: '80'
+  Item Drop Chance: 100,00%
+  Experience: '34128'
+  Gold: '? - ? (?)'
+item_drop_chance_raw: 100,00%
+drops: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Rage Orangutan J(ordan)
+  - ''
+  rows_raw:
+  - - Name
+    - Rage Orangutan J(ordan)
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - River Valley
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Animal
+    - 'Yes'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '37920'
+    - '457'
+    - '279'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1427'
+    - '1117'
+    - '883'
+    - '610'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - '?'
+    - '?'
+    - '-'
+    - '-'
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very fast (95)
+    - Fast 80
+  - - Critical
+    - Stamina
+    - Soul
+  - - '30'
+    - '40'
+    - '80'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 100,00%
+    - '34128'
+    - '? - ? (?)'
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  row_count: 1
+- table_index: 8
+  headers_raw:
+  - 45,21%
+  - ''
+  - Great Target Potion
+  - ''
+  rows_raw:
+  - - 45,21%
+    - ''
+    - Great Target Potion
+    - ''
+  - - 45,21%
+    - ''
+    - Great Healing Potion
+    - ''
+  - - 2,13%
+    - ''
+    - Chief Helmet
+    - Garment 88
+  - - 2,13%
+    - ''
+    - Chief Cuffs
+    - Garment 86lv
+  - - 2,13%
+    - ''
+    - Chief Armor
+    - Garment 89lv
+  - - 2,13%
+    - ''
+    - Chief Legguard
+    - Garment 87v
+  - - 0,54%
+    - ''
+    - Pestle
+    - 'Weapon: Atk +2%, Spl Atk +6%, Armor/Shield: Dfs +1%, Spl Dfs +3%'
+  - - 0,20%
+    - ''
+    - Rage Urangutan Jordan Card
+  - - 0,10%
+    - ''
+    - Good Chief Helmet
+    - Garment 88lv
+  - - 0,10%
+    - ''
+    - Good Chief Cuffs
+    - Garment 86lv
+  - - 0,10%
+    - ''
+    - Good Chief Armor
+    - Garment 89lv
+  - - 0,10%
+    - ''
+    - Good Chief Legguard
+    - Garment 87lv
+  - - 0,03%
+    - ''
+    - A.Plan2:Chief Cuffs
+    - adv.plans for armorsmiths
+  - - 0,03%
+    - ''
+    - A.Plan2:Chief Legguard
+    - adv.plans for armorsmiths
+  - - 0,03%
+    - ''
+    - A.Plan2:Chief Helmet
+    - adv.plans for armorsmiths
+  - - 0,03%
+    - ''
+    - A.Plan2:Chief Armor
+    - adv.plans for armorsmiths
+  - - ?.?%
+    - ''
+    - Fane Helmet
+    - Garment 88lv
+  - - ?.?%
+    - ''
+    - Fane Cuffs
+    - Garment 86lv
+  - - ?.?%
+    - ''
+    - Fane Armor
+    - Garment 89 lv
+  - - ?.?%
+    - ''
+    - Fane Boots
+    - Garment 87lv
+  - - ?.?%
+    - ''
+    - crystal jelly fish
+    - Lv90 Robot
+  - - ?.?%
+    - ''
+    - green-seabed-steed
+    - Lv90 Ride
+  row_count: 22

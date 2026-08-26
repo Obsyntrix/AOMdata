@@ -1,0 +1,230 @@
+monster_page:
+  id: recluse-wanderer
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:recluse-wanderer
+    retrieval_url: https://web.archive.org/web/20190909214049id_/http://angels.wikidot.com:80/monster:recluse-wanderer
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20190909214049'
+    archive_snapshot_url: https://web.archive.org/web/20190909214049/http://angels.wikidot.com:80/monster:recluse-wanderer
+    archive_original_lookup_url: https://angels.wikidot.com/monster:recluse-wanderer
+    source_html_sha256: 65c26ceb76cc700e009954b16d853377415a673ff85b73798391c2e388b6b337
+fields_raw:
+  Name: 'Spells:'
+  Recluse Wanderer: '-'
+  'Spells:': 'Location:'
+  '-': Flower Corridor
+  Type: Human
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '107'
+  Hit Points: '9225'
+  Rigor: '547'
+  Agility: '333'
+  Attack: '1531'
+  Defense: '1612'
+  Spell Attack: '917'
+  Spell Defense: '629'
+  Special Attack: +54 Rotten
+  Special Defense: +74 Rotten
+  Strong Against: Rotten
+  Weak Against: Ice
+  Attack Range: Short(2)
+  Speed: Very Fast(100)
+  Attack Speed: Fast(80)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.07%
+  Experience: '5688'
+  Gold: 406 - 516
+item_drop_chance_raw: 0.07%
+drops:
+- drop_id: recluse-wanderer__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Bloody Orchid Shield
+  chance_to_drop_raw: 96.87%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 96.87%
+    Icon: ''
+    Item: Bloody Orchid Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 96.87
+    quantity: null
+- drop_id: recluse-wanderer__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodBloody Orchid Shield
+  chance_to_drop_raw: 2.41%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.41%
+    Icon: ''
+    Item: GoodBloody Orchid Shield
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.41
+    quantity: null
+- drop_id: recluse-wanderer__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Life Spring
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Life Spring
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: recluse-wanderer__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Green Light Rune Piece
+  chance_to_drop_raw: 0.6%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.6%
+    Icon: ''
+    Item: Green Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.6
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Recluse Wanderer
+  - ''
+  rows_raw:
+  - - Name
+    - Recluse Wanderer
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Flower Corridor
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Human
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '107'
+    - '9225'
+    - '547'
+    - '333'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1531'
+    - '1612'
+    - '917'
+    - '629'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +54 Rotten
+    - +74 Rotten
+    - Rotten
+    - Ice
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(2)
+    - Very Fast(100)
+    - Fast(80)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.07%
+    - '5688'
+    - 406 - 516
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 96.87%
+    - ''
+    - Bloody Orchid Shield
+    - ITEM NOTES
+  - - 2.41%
+    - ''
+    - GoodBloody Orchid Shield
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Life Spring
+    - ITEM NOTES
+  - - 0.6%
+    - ''
+    - Green Light Rune Piece
+    - ITEM NOTES
+  row_count: 5

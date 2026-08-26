@@ -1,0 +1,248 @@
+monster_page:
+  id: adv-mech-soldier-y
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:adv-mech-soldier-y
+    retrieval_url: https://web.archive.org/web/20200105105657id_/http://angels.wikidot.com:80/monster:adv-mech-soldier-y
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20200105105657'
+    archive_snapshot_url: https://web.archive.org/web/20200105105657/http://angels.wikidot.com:80/monster:adv-mech-soldier-y
+    archive_original_lookup_url: https://angels.wikidot.com/monster:adv-mech-soldier-y
+    source_html_sha256: 6f4a2f2563f37bbe3c40e88881de784fff12f4811eddc92537b37bcc2fdfd90b
+fields_raw:
+  Name: 'Spells:'
+  Adv Mech Soldier Y: '-'
+  'Spells:': 'Location:'
+  '-': Bouleuterion
+  Type: Energy
+  Boss: 'No'
+  Aggressive: 'Yes'
+  Level: '116'
+  Hit Points: '10182'
+  Rigor: '672'
+  Agility: '360'
+  Attack: '1693'
+  Defense: '1922'
+  Spell Attack: '1000'
+  Spell Defense: '455'
+  Special Attack: +76 Fire
+  Special Defense: +96 Fire
+  Strong Against: Fire
+  Weak Against: Lightning
+  Attack Range: Short(1)
+  Speed: Very Fast(100)
+  Attack Speed: Moderate(70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0,07%
+  Experience: '6687'
+  Gold: 448 - 570 (?)
+item_drop_chance_raw: 0,07%
+drops:
+- drop_id: adv-mech-soldier-y__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Dragon Fire Gloves
+  chance_to_drop_raw: 48,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,49%
+    Icon: ''
+    Item: Dragon Fire Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.49
+    quantity: null
+- drop_id: adv-mech-soldier-y__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Ghost Gloves
+  chance_to_drop_raw: 48,49%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 48,49%
+    Icon: ''
+    Item: Ghost Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 48.49
+    quantity: null
+- drop_id: adv-mech-soldier-y__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Dragon Fire Gloves
+  chance_to_drop_raw: 1,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,21%
+    Icon: ''
+    Item: Good Dragon Fire Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: adv-mech-soldier-y__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Good Ghost Gloves
+  chance_to_drop_raw: 1,21%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1,21%
+    Icon: ''
+    Item: Good Ghost Gloves
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.21
+    quantity: null
+- drop_id: adv-mech-soldier-y__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Yellow Light Rune Piece
+  chance_to_drop_raw: 0,61%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0,61%
+    Icon: ''
+    Item: Yellow Light Rune Piece
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.61
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Adv Mech Soldier Y
+  - ''
+  rows_raw:
+  - - Name
+    - Adv Mech Soldier Y
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Bouleuterion
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Energy
+    - 'No'
+    - 'Yes'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '116'
+    - '10182'
+    - '672'
+    - '360'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '1693'
+    - '1922'
+    - '1000'
+    - '455'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +76 Fire
+    - +96 Fire
+    - Fire
+    - Lightning
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short(1)
+    - Very Fast(100)
+    - Moderate(70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0,07%
+    - '6687'
+    - 448 - 570 (?)
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 48,49%
+    - ''
+    - Dragon Fire Gloves
+    - ITEM NOTES
+  - - 48,49%
+    - ''
+    - Ghost Gloves
+    - ITEM NOTES
+  - - 1,21%
+    - ''
+    - Good Dragon Fire Gloves
+    - ITEM NOTES
+  - - 1,21%
+    - ''
+    - Good Ghost Gloves
+    - ITEM NOTES
+  - - 0,61%
+    - ''
+    - Yellow Light Rune Piece
+    - ITEM NOTES
+  row_count: 6

@@ -1,0 +1,248 @@
+monster_page:
+  id: dragon-soldier
+  name_raw: Angels Online Wiki
+  verification:
+    client_confirmation: pending
+  source:
+    origin_url: https://angels.wikidot.com/monster:dragon-soldier
+    retrieval_url: https://web.archive.org/web/20241212093728id_/http://angels.wikidot.com/monster:dragon-soldier
+    source_kind: angels_wiki_monster_wayback
+    archive_timestamp: '20241212093728'
+    archive_snapshot_url: https://web.archive.org/web/20241212093728/http://angels.wikidot.com/monster:dragon-soldier
+    archive_original_lookup_url: https://angels.wikidot.com/monster:dragon-soldier
+    source_html_sha256: 8c512140a8b99cfee7f117b730199be21fc590acf1d23221872d388fe6087c3f
+fields_raw:
+  Name: 'Spells:'
+  Dragon Soldier: '-'
+  'Spells:': 'Location:'
+  '-': Dragon Field
+  Type: Undead
+  Boss: 'No'
+  Aggressive: 'No'
+  Level: '85'
+  Hit Points: '6990'
+  Rigor: '437'
+  Agility: '267'
+  Attack: '930'
+  Defense: '1025'
+  Spell Attack: '606'
+  Spell Defense: '480'
+  Special Attack: +43 Ice
+  Special Defense: '?'
+  Strong Against: Ice
+  Weak Against: Rotten
+  Attack Range: Short (1)
+  Speed: Very Fast (100)
+  Attack Speed: Moderate (70)
+  Critical: '5'
+  Stamina: '20'
+  Soul: '40'
+  Item Drop Chance: 0.09%
+  Experience: '3144'
+  Gold: 308 - 392
+item_drop_chance_raw: 0.09%
+drops:
+- drop_id: dragon-soldier__t007r0001
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Luck Boots
+  chance_to_drop_raw: 94.96%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 94.96%
+    Icon: ''
+    Item: Luck Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 94.96
+    quantity: null
+- drop_id: dragon-soldier__t007r0002
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: GoodLuck Boots
+  chance_to_drop_raw: 2.37%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 2.37%
+    Icon: ''
+    Item: GoodLuck Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 2.37
+    quantity: null
+- drop_id: dragon-soldier__t007r0003
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Lucky Jack Boots
+  chance_to_drop_raw: 0.11%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.11%
+    Icon: ''
+    Item: Lucky Jack Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.11
+    quantity: null
+- drop_id: dragon-soldier__t007r0004
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: D.Plan2:Luck Boots
+  chance_to_drop_raw: 0.79%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 0.79%
+    Icon: ''
+    Item: D.Plan2:Luck Boots
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 0.79
+    quantity: null
+- drop_id: dragon-soldier__t007r0005
+  monster_name_raw: Angels Online Wiki
+  item_name_raw: Flawless Ruby
+  chance_to_drop_raw: 1.77%
+  quantity_raw: null
+  rate_semantic: monster_drop_table_share
+  row_raw:
+    Chance to drop: 1.77%
+    Icon: ''
+    Item: Flawless Ruby
+    Short info: ITEM NOTES
+  normalized:
+    chance_to_drop_percent: 1.77
+    quantity: null
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Name
+  - Dragon Soldier
+  - ''
+  rows_raw:
+  - - Name
+    - Dragon Soldier
+    - ''
+  - - 'Spells:'
+    - '-'
+    - ''
+  - - 'Location:'
+    - Dragon Field
+    - ''
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Type
+  - Boss
+  - Aggressive
+  rows_raw:
+  - - Type
+    - Boss
+    - Aggressive
+  - - Undead
+    - 'No'
+    - 'No'
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Level
+  - Hit Points
+  - Rigor
+  - Agility
+  rows_raw:
+  - - Level
+    - Hit Points
+    - Rigor
+    - Agility
+  - - '85'
+    - '6990'
+    - '437'
+    - '267'
+  - - Attack
+    - Defense
+    - Spell Attack
+    - Spell Defense
+  - - '930'
+    - '1025'
+    - '606'
+    - '480'
+  row_count: 4
+- table_index: 4
+  headers_raw:
+  - Special Attack
+  - Special Defense
+  - Strong Against
+  - Weak Against
+  rows_raw:
+  - - Special Attack
+    - Special Defense
+    - Strong Against
+    - Weak Against
+  - - +43 Ice
+    - '?'
+    - Ice
+    - Rotten
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Attack Range
+  - Speed
+  - Attack Speed
+  rows_raw:
+  - - Attack Range
+    - Speed
+    - Attack Speed
+  - - Short (1)
+    - Very Fast (100)
+    - Moderate (70)
+  - - Critical
+    - Stamina
+    - Soul
+  - - '5'
+    - '20'
+    - '40'
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Item Drop Chance
+  - Experience
+  - Gold
+  rows_raw:
+  - - Item Drop Chance
+    - Experience
+    - Gold
+  - - 0.09%
+    - '3144'
+    - 308 - 392
+  row_count: 2
+- table_index: 7
+  headers_raw:
+  - Chance to drop
+  - Icon
+  - Item
+  - Short info
+  rows_raw:
+  - - Chance to drop
+    - Icon
+    - Item
+    - Short info
+  - - 94.96%
+    - ''
+    - Luck Boots
+    - ITEM NOTES
+  - - 2.37%
+    - ''
+    - GoodLuck Boots
+    - ITEM NOTES
+  - - 0.11%
+    - ''
+    - Lucky Jack Boots
+    - ITEM NOTES
+  - - 0.79%
+    - ''
+    - D.Plan2:Luck Boots
+    - ITEM NOTES
+  - - 1.77%
+    - ''
+    - Flawless Ruby
+    - ITEM NOTES
+  row_count: 6
