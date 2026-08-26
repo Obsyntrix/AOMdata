@@ -1,0 +1,185 @@
+schema_version: 1
+dataset: quests
+series:
+  id: demon-kitchen-main
+  name: Demon’s Kitchen / Dungeon main quest
+  type: cross_area_world_series
+  quest_count: 12
+research_status: researched_with_secondary_tail
+retrieved_on: 2026-08-25
+sources:
+  megalith_area: https://angels.wikidot.com/area:megalith-plain
+  investigate_evil_food: https://angels.wikidot.com/quest:investigate-evil-food
+  food_material_collection: https://angels.wikidot.com/quest:food-material-collection
+  exposed_plot: https://angels.wikidot.com/quest:exposed-plot
+  treatment_for_food_poisoning: https://angels.wikidot.com/quest:treatment-for-food-poisoning
+  learning_from_chef_boship: https://angels.wikidot.com/quest:learning-from-chef-boship
+  first_appetizer: https://angels.wikidot.com/quest:the-first-appetizer
+  second_appetizer: https://angels.wikidot.com/quest:the-second-appetizer
+  third_appetizer: https://angels.wikidot.com/quest:the-third-appetizer
+  gorily_aperitif: https://angels.wikidot.com/quest:gorily-aperitif
+  devils_feast: https://angels.wikidot.com/quest:devils-feast
+  secondary_2012_guide: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+quests:
+  - id: demon-kitchen-main-new-scheme-of-evil-lyceum
+    name: New Scheme of Evil Lyceum
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 1, total: 12, next: demon-kitchen-main-investigate-evil-food}
+    giver: {npc: Faction Angel, area: chosen faction city, coordinates: null}
+    requirements: {prerequisite_quests: [asmodeum-faction-completion]}
+    rewards: {}
+    objectives: [{type: talk, target: Faction Angel, area: chosen faction city}, {type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}]
+    walkthrough: ["After completing the faction Asmode/Asmodeus chain, speak with your faction Angel.", "Travel to Megalith Plain and speak with the Angel Inspector near (52,157)."]
+    notes: ["The Megalith primary area table explicitly requires Completed New Scheme of Evil Lyceum for Investigate Evil Food. The standalone Investigate page instead lists only Finished Battle with Asmode and no previous quest. The actual New Scheme steps are preserved from a 2012 guide pending target-client confirmation."]
+    verification: {status: web_conflict, client_confirmation: pending, conflicts: [{field: series.previous_to_investigate, values: [New Scheme of Evil Lyceum, direct after Battle with Asmode], reason: Primary area table and dedicated Investigate page disagree.}]}
+    source_refs: [megalith_area, secondary_2012_guide]
+  - id: demon-kitchen-main-investigate-evil-food
+    name: Investigate Evil Food
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 2, total: 12, previous: demon-kitchen-main-new-scheme-of-evil-lyceum, next: demon-kitchen-main-food-material-collection}
+    giver: {npc: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-new-scheme-of-evil-lyceum]}
+    rewards: {}
+    objectives: [{type: talk, target: Machel, area: Iron Castle}, {type: talk, target: Romier, area: Dark City}, {type: talk, target: Michael, area: Breeze Woods}, {type: talk, target: Nemize, area: Aurora City}, {type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}]
+    walkthrough: ["Speak with Machel in Iron Castle.", "Speak with Romier in Dark City.", "Speak with Michael in Breeze Woods.", "Speak with Nemize in Aurora City.", "Report to the Angel Inspector in Megalith Plain."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [investigate_evil_food, megalith_area]
+  - id: demon-kitchen-main-food-material-collection
+    name: Food Material Collection
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 3, total: 12, previous: demon-kitchen-main-investigate-evil-food, next: demon-kitchen-main-exposed-plot}
+    giver: {npc: Chef Boship, area: Dragon Graveyard, coordinates: [158, 16]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-investigate-evil-food]}
+    rewards: {}
+    objectives:
+      - {type: collect_drop, target: Circus Tyrant, item: Mashed Apple, count: 5, area: South Of Mirror Lake, drop_rate: null}
+      - {type: collect_drop, target: Tree Elf, item: Smoky Pitch, count: 7, area: Mysterious Wetland, drop_rate: null}
+      - {type: collect_drop, target: Water Goblin, item: Excitement Drop, count: 10, area: North of Mirror Lake, drop_rate: null}
+      - {type: collect_drop, target: Savage Dogface, item: Rotten Beast Meat, count: 10, area: Thorn Wasteland, drop_rate: null}
+    walkthrough: ["Find Chef Boship at (158,16) in Dragon Graveyard.", "Collect 5 Mashed Apples from Circus Tyrants, 7 Smoky Pitches from Tree Elves, 10 Excitement Drops from Water Goblins, and 10 Rotten Beast Meat from Savage Dogfaces.", "Return to Chef Boship. Quest materials are documented as appearing in the quest log rather than inventory."]
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts: [{field: objectives.smoky_pitch.count, values: [7, 5], reason: Dedicated quest page says 7; an older 2012 guide says 5. Dedicated quest page retained canonically.}]
+    source_refs: [food_material_collection, secondary_2012_guide]
+  - id: demon-kitchen-main-exposed-plot
+    name: Exposed Plot
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 4, total: 12, previous: demon-kitchen-main-food-material-collection, next: demon-kitchen-main-treatment-for-food-poisoning}
+    giver: {npc: Boship, area: Dragon Graveyard, coordinates: [158, 16]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-food-material-collection]}
+    rewards: {experience: 6000, credit: 80}
+    objectives: [{type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}, {type: talk, target: Healing Lecturer, area: Angel Lyceum, coordinates: [93, 106]}]
+    walkthrough: ["After Boship agrees to teach the strange dish, return to the Angel Inspector.", "Take the dish to the Healing Lecturer at approximately (93,106) in Angel Lyceum for analysis."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [exposed_plot]
+  - id: demon-kitchen-main-treatment-for-food-poisoning
+    name: Treatment for Food Poisoning
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 5, total: 12, previous: demon-kitchen-main-exposed-plot, next: demon-kitchen-main-learning-from-chef-boship}
+    giver: {npc: Boship, area: Dragon Graveyard, coordinates: [158, 16]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-exposed-plot]}
+    rewards: {gold: 8000, experience: 18000, credit: 225}
+    objectives:
+      - {type: collect_drop, target: Hook Barft, item: Evil Bolus, count: 3, area: Dragon Graveyard, drop_rate: null}
+      - {type: collect_drop, target: Savage Priest, item: Shrub Bark, count: 5, area: Thorn Wasteland, drop_rate: null}
+      - {type: collect_drop, target: Marsh Wind Fairy, item: Nature Prime, count: 5, area: Mysterious Wetland, drop_rate: null}
+      - {type: collect_drop, target: Burning Monster, item: Pure Fire Crystal, count: 1, area: Thunder Ruins, drop_rate: null}
+      - {type: talk, target: Healing Lecturer, area: Angel Lyceum, coordinates: [93, 107]}
+      - {type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}
+    walkthrough: ["Collect 3 Evil Bolus, 5 Shrub Bark, 5 Nature Prime, and 1 Pure Fire Crystal from the documented monsters.", "Give them to the Healing Lecturer at Angel Lyceum.", "Report to the Angel Inspector in Megalith Plain."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [treatment_for_food_poisoning]
+  - id: demon-kitchen-main-learning-from-chef-boship
+    name: Learning from Chef Boship
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 6, total: 12, previous: demon-kitchen-main-treatment-for-food-poisoning, next: demon-kitchen-main-the-first-appetizer}
+    giver: {npc: Boship, area: Dragon Graveyard, coordinates: [158, 16]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-treatment-for-food-poisoning]}
+    rewards: {}
+    objectives: [{type: talk, target: Boship, area: Dragon Graveyard, coordinates: [158, 16]}, {type: talk, target: Mayole, area: Fiery Path, coordinates: [110, 108]}]
+    walkthrough: ["Ask Boship to teach you cooking.", "Find Beelzebub's third disciple Mayole at approximately (110,108) in Fiery Path."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [learning_from_chef_boship, secondary_2012_guide]
+  - id: demon-kitchen-main-the-first-appetizer
+    name: The First Appetizer
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 7, total: 12, previous: demon-kitchen-main-learning-from-chef-boship, next: demon-kitchen-main-the-second-appetizer}
+    giver: {npc: Mayole, area: Fiery Path, coordinates: [110, 108]}
+    requirements: {level: {min: 30, max: null}, prerequisite_quests: [demon-kitchen-main-learning-from-chef-boship]}
+    rewards: {}
+    objectives: [{type: collect_drop, target: Heat Elf, item: Black Sugar, count: 6, drop_rate: null}, {type: collect_drop, target: Hell Slave, item: Dirt Fungus, count: 6, drop_rate: null}, {type: collect_drop, target: Evil Grass, item: Crazy Whey, count: 6, drop_rate: null}, {type: talk, target: Ugly Saladan, area: Lava Cave, coordinates: [162, 65]}]
+    walkthrough: ["Speak with Mayole.", "Collect 6 Black Sugar, 6 Dirt Fungus, and 6 Crazy Whey from the documented monsters.", "Give Mayole the ingredients, then find Ugly Saladan in Lava Cave."]
+    notes: ["The dedicated page names the three monsters but omits counts; counts come from the 2012 quest guide and therefore remain pending client confirmation."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [first_appetizer, secondary_2012_guide]
+  - id: demon-kitchen-main-the-second-appetizer
+    name: The Second Appetizer
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 8, total: 12, previous: demon-kitchen-main-the-first-appetizer, next: demon-kitchen-main-the-third-appetizer}
+    giver: {npc: Ugly Saladan, area: Lava Cave, coordinates: [162, 65]}
+    requirements: {level: {min: 30, max: null}, prerequisite_quests: [demon-kitchen-main-the-first-appetizer]}
+    rewards: {gold: 12000, experience: 35000, credit: 400}
+    objectives: [{type: obtain, item: Rotten Caudex, count: 9, source: Primrose/production}, {type: collect_drop, target: Gold Fly, item: Acid Ketchup, count: 9, area: Lava Cave, drop_rate: null}, {type: talk, target: Luxious Ba, area: Underground Square, coordinates: [117, 70]}]
+    walkthrough: ["Speak with Ugly Saladan.", "Obtain 9 Rotten Caudex and collect 9 Acid Ketchup from Gold Fly in Lava Cave.", "Return to Ugly Saladan, then find Luxious Ba in Underground Square."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [second_appetizer]
+  - id: demon-kitchen-main-the-third-appetizer
+    name: The Third Appetizer
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 9, total: 12, previous: demon-kitchen-main-the-second-appetizer, next: demon-kitchen-main-gorily-aperitif}
+    giver: {npc: Luxious Ba, area: Underground Square, coordinates: [117, 70]}
+    requirements: {level: {min: 30, max: null}, rank: {min: 2}, prerequisite_quests: [demon-kitchen-main-the-second-appetizer]}
+    rewards: {gold: 15000, experience: 40000, credit: 500}
+    objectives: [{type: obtain, item: Carrion-filled Storage Bag, count: 30, sources: [Rock Slarm, Terra Lampman, Evil Flower, Flame Mummy, Fire Fly]}, {type: talk, target: Annoying Clerk, area: Lava Cave, coordinates: [234, 169]}]
+    walkthrough: ["Speak with Luxious Ba and receive 5 Spell Storage Bags.", "Buy additional bags as needed and defeat the listed monsters until 30 Carrion-filled Storage Bags are filled.", "Return to Luxious Ba, then find the Annoying Clerk in front of Magic Kitchen Path in Lava Cave."]
+    notes: ["The dedicated page says additional Spell Storage Bags cost 95 Gold and unused bags expire after 2 hours. An older guide says 100 Gold; 95 is retained from the dedicated page."]
+    verification: {status: web_conflict, client_confirmation: pending, conflicts: [{field: spell_storage_bag.price_gold, values: [95, 100], reason: Dedicated quest page and 2012 guide disagree.}]}
+    source_refs: [third_appetizer, secondary_2012_guide]
+  - id: demon-kitchen-main-gorily-aperitif
+    name: Gorily Aperitif
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 10, total: 12, previous: demon-kitchen-main-the-third-appetizer, next: demon-kitchen-main-devils-feast}
+    giver: {npc: Annoying Clerk, area: Lava Cave, coordinates: [234, 169]}
+    requirements: {level: {min: 30, max: null}, rank: {min: 2}, prerequisite_quests: [demon-kitchen-main-the-third-appetizer]}
+    rewards: {gold: 4000, experience: 8000, credit: 200}
+    objectives: [{type: talk, target: Healing Lecturer, area: Angel Lyceum}, {type: talk, target: Athlete Cliff, area: North of Mirror Lake, coordinates: [138, 128]}, {type: talk, target: Annoying Clerk, area: Lava Cave, coordinates: [234, 169]}]
+    walkthrough: ["Consult the Healing Lecturer in Angel Lyceum.", "Speak with Athlete Cliff in North of Mirror Lake to obtain the required human blood.", "Return to the Annoying Clerk in Lava Cave."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [gorily_aperitif, secondary_2012_guide]
+  - id: demon-kitchen-main-devils-feast
+    name: Devil's Feast (Group)
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 11, total: 12, previous: demon-kitchen-main-gorily-aperitif, next: demon-kitchen-main-defeating-berssif}
+    giver: {npc: Annoying Clerk, area: Lava Cave, coordinates: [234, 169]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-gorily-aperitif], group_required: true}
+    rewards: {items: [{name: null}]}
+    objectives: [{type: obtain, item: Devil Kitchen Key, area: Gulp Room, location_note: chest near (118,222)}, {type: interact, target: Devil Kitchen portal, coordinates: [387, 247]}, {type: kill, target: Beelzebub, count: 1, coordinates: [226, 146], boss: true}, {type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}]
+    walkthrough: ["Form a group before approaching Devil Kitchen.", "Find the Devil Kitchen key in the chest in Gulp Room near (118,222).", "Open/enter the Devil Kitchen portal near (387,247).", "Defeat Beelzebub near (226,146).", "Report to the Angel Inspector in Megalith Plain."]
+    notes: ["The dedicated page shows no next quest, while the 2012 guide continues to Defeating Berssif. That continuation is retained at lower confidence."]
+    verification: {status: web_conflict, client_confirmation: pending, conflicts: [{field: series.next, values: [null, demon-kitchen-main-defeating-berssif], reason: Dedicated Devil's Feast page ends the chain; 2012 guide continues with Defeating Berssif.}]}
+    source_refs: [devils_feast, secondary_2012_guide]
+  - id: demon-kitchen-main-defeating-berssif
+    name: Defeating Berssif
+    repeatable: false
+    category: series
+    series: {name: Demon’s Kitchen main quest, position: 12, total: 12, previous: demon-kitchen-main-devils-feast}
+    giver: {npc: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}
+    requirements: {prerequisite_quests: [demon-kitchen-main-devils-feast]}
+    rewards: {}
+    objectives: [{type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}, {type: kill, target: Beelzebub, count: 1, area: Gulp Room, boss: true}, {type: talk, target: Angel Inspector, area: Megalith Plain, coordinates: [52, 157]}]
+    walkthrough: ["Speak with the Angel Inspector in Megalith Plain.", "Find Beelzebub in Gulp Room and defeat him.", "Report back to the Angel Inspector."]
+    notes: ["Currently supported only by the 2012 quest guide; no dedicated Wikidot page was found in this pass."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [secondary_2012_guide]
