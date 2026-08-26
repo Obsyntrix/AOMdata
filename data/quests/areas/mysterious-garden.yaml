@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quests
+area: {id: mysterious-garden, name: Mysterious Garden, region: Breeze Woods}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  primary_area_page: https://angels.wikidot.com/area:mysterious-garden
+  retrieval_mirror: https://www.aowiki.uk/pages/area_mysterious-garden.html
+  secondary_beast_guide: https://ao-q.blogspot.com/2012/07/beast-quests.html
+asmodeum_quest_refs:
+  - asmodeum-beast-evil-student-union-leader
+quests:
+  - id: mysterious-garden-magic-pool
+    name: Magic Pool
+    repeatable: true
+    category: repeatable
+    giver: {npc: null, area: Mysterious Garden, trigger: pool statue, coordinates: [181, 193]}
+    requirements: {factions: [Beast], level: {min: 20, max: 35}}
+    rewards: {experience: 670, credit: 35}
+    objectives: [{type: collect_drop, target: Garden Elf, item: Star Dust, count: 10, area: Mysterious Garden, drop_rate: null}]
+    walkthrough: ["Start the quest from the statue by the pool; the secondary Beast guide places it around (181,193).", "Defeat Garden Elves until you collect 10 Star Dusts.", "Return to the quest trigger/turn-in point as directed."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
+  - id: mysterious-garden-sleeping-spirit
+    name: Sleeping Spirit
+    repeatable: false
+    category: single
+    giver: {npc: Household Hark, area: Mysterious Garden, coordinates: [153, 102]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 1000, experience: 800, credit: 50}
+    objectives:
+      - {type: talk, target: Garden Labor, area: Mysterious Garden, coordinates: [266, 110]}
+      - {type: talk, target: Garden Labor, area: Mysterious Garden, coordinates: [79, 140]}
+    walkthrough: ["Speak with Household Hark at (153,102).", "Find the two sleeping Garden Labor NPCs at (266,110) and (79,140).", "Return as directed by the quest."]
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts:
+        - {field: objectives.second_garden_labor.coordinates, values: [[79, 140], [82, 138]], reason: Primary/mirrored area NPC table and 2012 Beast guide differ slightly; primary area coordinate retained.}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
+  - id: mysterious-garden-save-garden
+    name: Save Garden
+    repeatable: false
+    category: single
+    giver: {npc: null, area: Mysterious Garden, trigger: dead patch of grass, coordinates: [121, 142]}
+    requirements: {factions: [Beast], level: {min: 22, max: null}}
+    rewards: {experience: 1800, credit: 65}
+    objectives: [{type: kill, target: Flaming Rose, count: 20, area: Mysterious Garden}]
+    walkthrough: ["Investigate the dead patch of grass; the secondary guide places it around (121,142).", "Defeat 20 Flaming Roses.", "Return/complete the garden interaction as directed."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
+  - id: mysterious-garden-gazes-grave
+    name: Gaze's Grave
+    repeatable: false
+    category: series
+    series: {name: Marlin series, position: 1, total: 3, next: mysterious-garden-marlins-bone}
+    giver: {npc: Mistress Marlin, area: Mysterious Garden, coordinates: [182, 111]}
+    requirements: {factions: [Beast]}
+    rewards: {gold: 600, experience: 800, credit: 45}
+    objectives:
+      - {type: visit, target: Gaze's grave, area: Mysterious Garden, coordinates: [62, 131]}
+      - {type: talk, target: Mistress Marlin, area: Mysterious Garden, coordinates: [182, 111]}
+    walkthrough: ["Speak with Mistress Marlin at (182,111).", "Find Gaze's grave; the secondary guide places it near (62,131).", "Return to Mistress Marlin."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
+  - id: mysterious-garden-marlins-bone
+    name: Marlin's Bone
+    repeatable: false
+    category: series
+    series: {name: Marlin series, position: 2, total: 3, previous: mysterious-garden-gazes-grave, next: mysterious-garden-reunion}
+    giver: {npc: Mistress Marlin, area: Mysterious Garden, coordinates: [182, 111]}
+    requirements: {factions: [Beast], level: {min: 20, max: null}, prerequisite_quests: [mysterious-garden-gazes-grave]}
+    rewards: {gold: 1200, experience: 2000, credit: 75}
+    objectives: [{type: collect_drop, target: Thunder Rabbit, item: Marlin's Bone, count: null, area: Mysterious Garden, drop_rate: null}]
+    walkthrough: ["After Gaze's Grave, speak with Mistress Marlin.", "Defeat Thunder Rabbits until the missing bone quest item is obtained.", "Return to Mistress Marlin."]
+    notes: ["The area table does not expose the required bone count."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
+  - id: mysterious-garden-reunion
+    name: Reunion
+    repeatable: false
+    category: series
+    series: {name: Marlin series, position: 3, total: 3, previous: mysterious-garden-marlins-bone}
+    giver: {npc: Mistress Marlin, area: Mysterious Garden, coordinates: [182, 111]}
+    requirements: {factions: [Beast], prerequisite_quests: [mysterious-garden-marlins-bone]}
+    rewards: {experience: 2300, credit: 550, items: [{name: null}]}
+    objectives:
+      - {type: interact, target: Gaze's grave, area: Mysterious Garden, coordinates: [62, 131], item: Marlin's Bone}
+      - {type: talk, target: Magnet Gaze, area: Mysterious Garden, coordinates: [57, 130]}
+      - {type: kill, target: Rage Elf, count: 1, area: Mysterious Garden, boss: true}
+      - {type: talk, target: Magnet Gaze, area: Mysterious Garden, coordinates: [57, 130]}
+    walkthrough: ["Take Marlin's Bone to Gaze's grave near (62,131).", "Speak with Magnet Gaze near (57,130).", "Defeat the summoned/quest boss Rage Elf.", "Speak with Magnet Gaze again to complete the chain."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [primary_area_page, retrieval_mirror, secondary_beast_guide]
