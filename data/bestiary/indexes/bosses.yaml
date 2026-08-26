@@ -1,1651 +1,4177 @@
 bosses:
-- spawn_id: niro-river__all-seeing-eye-philosphin
+- record_id: niro-river__all-seeing-eye-philosphin__t004r0011
   name_raw: All Seeing Eye Philosphin
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: niro-river
   area_name_raw: Niro River
-  source_file: data/bestiary/site/areas/niro-river.yaml
-  source_url: https://angels.wikidot.com/area:niro-river
-- spawn_id: rock-forest__axe-beast-denk
+  summary_source_id: area_page
+- record_id: by-area__t013__r0115
+  name_raw: Ambassador of Magic Dragon
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: dinosaur-area
+  area_name_raw: Dinosaur Area
+  summary_source_id: by-area
+- record_id: by-area__t013__r0083
+  name_raw: Armored Caine
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: hunter-s-ridge
+  area_name_raw: Hunter's Ridge
+  summary_source_id: by-area
+- record_id: by-area__t013__r0026
   name_raw: Axe Beast Denk
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rock-forest
   area_name_raw: Rock Forest
-  source_file: data/bestiary/site/areas/rock-forest.yaml
-  source_url: https://angels.wikidot.com/area:rock-forest
-- spawn_id: rock-forest__gururu-the-wild
+  summary_source_id: by-area
+- record_id: by-area__t013__r0082
+  name_raw: Barkley the Thorn
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: hunter-s-ridge
+  area_name_raw: Hunter's Ridge
+  summary_source_id: by-area
+- record_id: by-area__t013__r0081
+  name_raw: Dragon Knight
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: hunter-s-ridge
+  area_name_raw: Hunter's Ridge
+  summary_source_id: by-area
+- record_id: by-area__t013__r0027
   name_raw: Gururu the Wild
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rock-forest
   area_name_raw: Rock Forest
-  source_file: data/bestiary/site/areas/rock-forest.yaml
-  source_url: https://angels.wikidot.com/area:rock-forest
-- spawn_id: karang-desert__ivy-king-gabrose
+  summary_source_id: by-area
+- record_id: karang-desert__ivy-king-gabrose__t004r0013
   name_raw: Ivy King Gabrose
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: karang-desert
   area_name_raw: Karang Desert
-  source_file: data/bestiary/site/areas/karang-desert.yaml
-  source_url: https://angels.wikidot.com/area:karang-desert
-- spawn_id: shilly-desert__king-of-raptor
+  summary_source_id: area_page
+- record_id: by-area__t013__r0068
+  name_raw: Je'bi - Aeroassa
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: rave-riverpoint
+  area_name_raw: Rave Riverpoint
+  summary_source_id: by-area
+- record_id: by-area__t013__r0117
+  name_raw: Kaz Troy
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: dinosaur-area
+  area_name_raw: Dinosaur Area
+  summary_source_id: by-area
+- record_id: by-area__t013__r0096
   name_raw: King of Raptor
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: shilly-desert
   area_name_raw: Shilly Desert
-  source_file: data/bestiary/site/areas/shilly-desert.yaml
-  source_url: https://angels.wikidot.com/area:shilly-desert
-- spawn_id: karang-desert__lime-sand-king-bitu
+  summary_source_id: by-area
+- record_id: karang-desert__lime-sand-king-bitu__t004r0011
   name_raw: Lime Sand King Bitu
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: karang-desert
   area_name_raw: Karang Desert
-  source_file: data/bestiary/site/areas/karang-desert.yaml
-  source_url: https://angels.wikidot.com/area:karang-desert
-- spawn_id: rock-forest__master-archer-vi
+  summary_source_id: area_page
+- record_id: rock-forest__master-archer-vi__t003r0011
   name_raw: Master Archer Vi
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rock-forest
   area_name_raw: Rock Forest
-  source_file: data/bestiary/site/areas/rock-forest.yaml
-  source_url: https://angels.wikidot.com/area:rock-forest
-- spawn_id: niro-river__pyramid-dancer-natis
+  summary_source_id: area_page
+- record_id: by-area__t013__r0025
+  name_raw: Master Archer Vincent
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: rock-forest
+  area_name_raw: Rock Forest
+  summary_source_id: by-area
+- record_id: by-area__t013__r0069
+  name_raw: Minks the Fanged
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: rave-riverpoint
+  area_name_raw: Rave Riverpoint
+  summary_source_id: by-area
+- record_id: by-area__t013__r0114
+  name_raw: Posen Dino
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: dinosaur-area
+  area_name_raw: Dinosaur Area
+  summary_source_id: by-area
+- record_id: by-area__t013__r0067
+  name_raw: Prehistoric Crocs
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: rave-riverpoint
+  area_name_raw: Rave Riverpoint
+  summary_source_id: by-area
+- record_id: niro-river__pyramid-dancer-natis__t004r0010
   name_raw: Pyramid Dancer Natis
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: niro-river
   area_name_raw: Niro River
-  source_file: data/bestiary/site/areas/niro-river.yaml
-  source_url: https://angels.wikidot.com/area:niro-river
-- spawn_id: shilly-desert__rex
+  summary_source_id: area_page
+- record_id: by-area__t013__r0095
   name_raw: Rex
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: shilly-desert
   area_name_raw: Shilly Desert
-  source_file: data/bestiary/site/areas/shilly-desert.yaml
-  source_url: https://angels.wikidot.com/area:shilly-desert
-- spawn_id: shilly-desert__sabertooth-yagre
+  summary_source_id: by-area
+- record_id: by-area__t013__r0097
   name_raw: Sabertooth Yagre
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: shilly-desert
   area_name_raw: Shilly Desert
-  source_file: data/bestiary/site/areas/shilly-desert.yaml
-  source_url: https://angels.wikidot.com/area:shilly-desert
-- spawn_id: karang-desert__sand-scorpion-king-sylarcat
+  summary_source_id: by-area
+- record_id: karang-desert__sand-scorpion-king-sylarcat__t004r0012
   name_raw: Sand Scorpion King Sylarcat
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: karang-desert
   area_name_raw: Karang Desert
-  source_file: data/bestiary/site/areas/karang-desert.yaml
-  source_url: https://angels.wikidot.com/area:karang-desert
-- spawn_id: niro-river__wandering-statue-nulie
+  summary_source_id: area_page
+- record_id: by-area__t013__r0116
+  name_raw: Speedy Dragon
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: dinosaur-area
+  area_name_raw: Dinosaur Area
+  summary_source_id: by-area
+- record_id: by-area__t013__r0118
+  name_raw: T.Rex
+  level_raw: '?'
+  level: null
+  boss: true
+  aggressive: false
+  area_id: dinosaur-area
+  area_name_raw: Dinosaur Area
+  summary_source_id: by-area
+- record_id: niro-river__wandering-statue-nulie__t004r0012
   name_raw: Wandering Statue Nulie
   level_raw: '?'
   level: null
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: niro-river
   area_name_raw: Niro River
-  source_file: data/bestiary/site/areas/niro-river.yaml
-  source_url: https://angels.wikidot.com/area:niro-river
-- spawn_id: east-playground__earth-lord
+  summary_source_id: area_page
+- record_id: by-area__t001__r0011
   name_raw: Earth Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: east-playground
   area_name_raw: East Playground
-  source_file: data/bestiary/site/areas/east-playground.yaml
-  source_url: https://angels.wikidot.com/area:east-playground
-- spawn_id: west-playground__earth-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0011
   name_raw: Earth Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: west-playground
   area_name_raw: West Playground
-  source_file: data/bestiary/site/areas/west-playground.yaml
-  source_url: https://angels.wikidot.com/area:west-playground
-- spawn_id: east-playground__fire-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0010
   name_raw: Fire Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: east-playground
   area_name_raw: East Playground
-  source_file: data/bestiary/site/areas/east-playground.yaml
-  source_url: https://angels.wikidot.com/area:east-playground
-- spawn_id: west-playground__fire-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0010
   name_raw: Fire Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: west-playground
   area_name_raw: West Playground
-  source_file: data/bestiary/site/areas/west-playground.yaml
-  source_url: https://angels.wikidot.com/area:west-playground
-- spawn_id: east-playground__water-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0009
   name_raw: Water Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: east-playground
   area_name_raw: East Playground
-  source_file: data/bestiary/site/areas/east-playground.yaml
-  source_url: https://angels.wikidot.com/area:east-playground
-- spawn_id: west-playground__water-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0009
   name_raw: Water Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: west-playground
   area_name_raw: West Playground
-  source_file: data/bestiary/site/areas/west-playground.yaml
-  source_url: https://angels.wikidot.com/area:west-playground
-- spawn_id: east-playground__wind-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0008
   name_raw: Wind Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: east-playground
   area_name_raw: East Playground
-  source_file: data/bestiary/site/areas/east-playground.yaml
-  source_url: https://angels.wikidot.com/area:east-playground
-- spawn_id: west-playground__wind-lord
+  summary_source_id: by-area
+- record_id: by-area__t001__r0008
   name_raw: Wind Lord
   level_raw: '10'
   level: 10
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: west-playground
   area_name_raw: West Playground
-  source_file: data/bestiary/site/areas/west-playground.yaml
-  source_url: https://angels.wikidot.com/area:west-playground
-- spawn_id: training-palace__qiuaner
+  summary_source_id: by-area
+- record_id: by-area__t001__r0019
   name_raw: Qiuaner
   level_raw: '12'
   level: 12
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: training-palace
   area_name_raw: Training Palace
-  source_file: data/bestiary/site/areas/training-palace.yaml
-  source_url: https://angels.wikidot.com/area:training-palace
-- spawn_id: wishing-tear__crystal-lizard
+  summary_source_id: by-area
+- record_id: by-level__t002__r0012
+  name_raw: Qiuaner
+  level_raw: '12'
+  level: 12
+  boss: true
+  aggressive: true
+  area_id: training-palace
+  area_name_raw: Training Palace
+  summary_source_id: by-level
+- record_id: by-area__t004__r0004
   name_raw: Crystal Lizard
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: wishing-tear
   area_name_raw: Wishing Tear
-  source_file: data/bestiary/site/areas/wishing-tear.yaml
-  source_url: https://angels.wikidot.com/area:wishing-tear
-- spawn_id: dense-forest__flame-lily
+  summary_source_id: by-area
+- record_id: by-area__t003__r0005
   name_raw: Flame Lily
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dense-forest
   area_name_raw: Dense Forest
-  source_file: data/bestiary/site/areas/dense-forest.yaml
-  source_url: https://angels.wikidot.com/area:dense-forest
-- spawn_id: shadowy-path__giant-cat-cinlo
+  summary_source_id: by-area
+- record_id: by-area__t005__r0006
   name_raw: Giant Cat Cinlo
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: shadowy-path
   area_name_raw: Shadowy Path
-  source_file: data/bestiary/site/areas/shadowy-path.yaml
-  source_url: https://angels.wikidot.com/area:shadowy-path
-- spawn_id: spike-farm__jackstraw-mige
+  summary_source_id: by-area
+- record_id: by-area__t002__r0006
   name_raw: Jackstraw Mige
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: spike-farm
   area_name_raw: Spike Farm
-  source_file: data/bestiary/site/areas/spike-farm.yaml
-  source_url: https://angels.wikidot.com/area:spike-farm
-- spawn_id: dense-forest__monkey-nassi
+  summary_source_id: by-area
+- record_id: by-area__t003__r0004
   name_raw: Monkey Nassi
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dense-forest
   area_name_raw: Dense Forest
-  source_file: data/bestiary/site/areas/dense-forest.yaml
-  source_url: https://angels.wikidot.com/area:dense-forest
-- spawn_id: spike-farm__pumpkin-banni
+  summary_source_id: by-area
+- record_id: by-area__t002__r0005
   name_raw: Pumpkin Banni
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: spike-farm
   area_name_raw: Spike Farm
-  source_file: data/bestiary/site/areas/spike-farm.yaml
-  source_url: https://angels.wikidot.com/area:spike-farm
-- spawn_id: shadowy-path__skull-leader
+  summary_source_id: by-area
+- record_id: by-area__t005__r0005
   name_raw: Skull Leader
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: shadowy-path
   area_name_raw: Shadowy Path
-  source_file: data/bestiary/site/areas/shadowy-path.yaml
-  source_url: https://angels.wikidot.com/area:shadowy-path
-- spawn_id: wishing-tear__stained-robot
+  summary_source_id: by-area
+- record_id: by-area__t004__r0005
   name_raw: Stained Robot
   level_raw: '17'
   level: 17
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: wishing-tear
   area_name_raw: Wishing Tear
-  source_file: data/bestiary/site/areas/wishing-tear.yaml
-  source_url: https://angels.wikidot.com/area:wishing-tear
-- spawn_id: fungus-forest-south__dream-paopao
+  summary_source_id: by-area
+- record_id: by-area__t005__r0011
   name_raw: Dream Paopao
   level_raw: '20'
   level: 20
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fungus-forest-south
   area_name_raw: Fungus Forest South
-  source_file: data/bestiary/site/areas/fungus-forest-south.yaml
-  source_url: https://angels.wikidot.com/area:fungus-forest-south
-- spawn_id: scrap-iron-village__metal-robot
+  summary_source_id: by-area
+- record_id: by-area__t004__r0010
   name_raw: Metal Robot
   level_raw: '20'
   level: 20
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: scrap-iron-village
   area_name_raw: Scrap Iron Village
-  source_file: data/bestiary/site/areas/scrap-iron-village.yaml
-  source_url: https://angels.wikidot.com/area:scrap-iron-village
-- spawn_id: sunflower-plain__pumpkin-pluto
+  summary_source_id: by-area
+- record_id: by-area__t002__r0012
   name_raw: Pumpkin Pluto
   level_raw: '20'
   level: 20
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sunflower-plain
   area_name_raw: Sunflower Plain
-  source_file: data/bestiary/site/areas/sunflower-plain.yaml
-  source_url: https://angels.wikidot.com/area:sunflower-plain
-- spawn_id: mushroom-forest__yellow-mushroom
+  summary_source_id: by-area
+- record_id: by-area__t003__r0010
   name_raw: Yellow Mushroom
   level_raw: '20'
   level: 20
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mushroom-forest
   area_name_raw: Mushroom Forest
-  source_file: data/bestiary/site/areas/mushroom-forest.yaml
-  source_url: https://angels.wikidot.com/area:mushroom-forest
-- spawn_id: mushroom-forest__iron-mane-blaic
+  summary_source_id: by-area
+- record_id: by-area__t003__r0011
   name_raw: Iron Mane Blaic
   level_raw: '23'
   level: 23
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mushroom-forest
   area_name_raw: Mushroom Forest
-  source_file: data/bestiary/site/areas/mushroom-forest.yaml
-  source_url: https://angels.wikidot.com/area:mushroom-forest
-- spawn_id: fungus-forest-south__rage-fire-elf
+  summary_source_id: by-area
+- record_id: by-area__t005__r0012
   name_raw: Rage Fire Elf
   level_raw: '23'
   level: 23
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fungus-forest-south
   area_name_raw: Fungus Forest South
-  source_file: data/bestiary/site/areas/fungus-forest-south.yaml
-  source_url: https://angels.wikidot.com/area:fungus-forest-south
-- spawn_id: sunflower-plain__sheep-beethoven
+  summary_source_id: by-area
+- record_id: by-area__t002__r0013
   name_raw: Sheep Beethoven
   level_raw: '23'
   level: 23
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sunflower-plain
   area_name_raw: Sunflower Plain
-  source_file: data/bestiary/site/areas/sunflower-plain.yaml
-  source_url: https://angels.wikidot.com/area:sunflower-plain
-- spawn_id: scrap-iron-village__turbo-robot
+  summary_source_id: by-area
+- record_id: by-area__t004__r0011
   name_raw: Turbo Robot
   level_raw: '23'
   level: 23
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: scrap-iron-village
   area_name_raw: Scrap Iron Village
-  source_file: data/bestiary/site/areas/scrap-iron-village.yaml
-  source_url: https://angels.wikidot.com/area:scrap-iron-village
-- spawn_id: bottomless-pit__ancient-elf
+  summary_source_id: by-area
+- record_id: by-area__t005__r0019
   name_raw: Ancient Elf
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: bottomless-pit
   area_name_raw: Bottomless Pit
-  source_file: data/bestiary/site/areas/bottomless-pit.yaml
-  source_url: https://angels.wikidot.com/area:bottomless-pit
-- spawn_id: cryptic-moon-swamp__crystal-crab
+  summary_source_id: by-area
+- record_id: by-area__t003__r0017
   name_raw: Crystal Crab
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cryptic-moon-swamp
   area_name_raw: Cryptic Moon Swamp
-  source_file: data/bestiary/site/areas/cryptic-moon-swamp.yaml
-  source_url: https://angels.wikidot.com/area:cryptic-moon-swamp
-- spawn_id: cactus-plain__farmongee
+  summary_source_id: by-area
+- record_id: by-area__t004__r0016
   name_raw: Farmongee
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cactus-plain
   area_name_raw: Cactus Plain
-  source_file: data/bestiary/site/areas/cactus-plain.yaml
-  source_url: https://angels.wikidot.com/area:cactus-plain
-- spawn_id: cryptic-moon-swamp__frog-lord-kuppa
+  summary_source_id: by-area
+- record_id: by-area__t003__r0016
   name_raw: Frog Lord Kuppa
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cryptic-moon-swamp
   area_name_raw: Cryptic Moon Swamp
-  source_file: data/bestiary/site/areas/cryptic-moon-swamp.yaml
-  source_url: https://angels.wikidot.com/area:cryptic-moon-swamp
-- spawn_id: dawn-harbor__golden-crab
+  summary_source_id: by-area
+- record_id: by-area__t002__r0019
   name_raw: Golden Crab
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dawn-harbor
   area_name_raw: Dawn Harbor
-  source_file: data/bestiary/site/areas/dawn-harbor.yaml
-  source_url: https://angels.wikidot.com/area:dawn-harbor
-- spawn_id: cactus-plain__lizard-lisad
+  summary_source_id: by-area
+- record_id: by-area__t004__r0017
   name_raw: Lizard Lisad
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cactus-plain
   area_name_raw: Cactus Plain
-  source_file: data/bestiary/site/areas/cactus-plain.yaml
-  source_url: https://angels.wikidot.com/area:cactus-plain
-- spawn_id: dawn-harbor__mousekin-mickey
+  summary_source_id: by-area
+- record_id: by-area__t002__r0018
   name_raw: Mousekin Mickey
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dawn-harbor
   area_name_raw: Dawn Harbor
-  source_file: data/bestiary/site/areas/dawn-harbor.yaml
-  source_url: https://angels.wikidot.com/area:dawn-harbor
-- spawn_id: bottomless-pit__stunt-lord-abbi
+  summary_source_id: by-area
+- record_id: by-area__t005__r0018
   name_raw: Stunt Lord Abbi
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: bottomless-pit
   area_name_raw: Bottomless Pit
-  source_file: data/bestiary/site/areas/bottomless-pit.yaml
-  source_url: https://angels.wikidot.com/area:bottomless-pit
-- spawn_id: riprap-coast__vice-head-pirate
+  summary_source_id: by-area
+- record_id: by-area__t002__r0024
   name_raw: Vice Head Pirate
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: riprap-coast
   area_name_raw: Riprap Coast
-  source_file: data/bestiary/site/areas/riprap-coast.yaml
-  source_url: https://angels.wikidot.com/area:riprap-coast
-- spawn_id: bottomless-pit__wizard-mord
+  summary_source_id: by-area
+- record_id: by-area__t005__r0017
   name_raw: Wizard Mord
   level_raw: '26'
   level: 26
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: bottomless-pit
   area_name_raw: Bottomless Pit
-  source_file: data/bestiary/site/areas/bottomless-pit.yaml
-  source_url: https://angels.wikidot.com/area:bottomless-pit
-- spawn_id: burning-desert__black-widow
+  summary_source_id: by-area
+- record_id: by-area__t004__r0023
   name_raw: Black Widow
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: burning-desert
   area_name_raw: Burning Desert
-  source_file: data/bestiary/site/areas/burning-desert.yaml
-  source_url: https://angels.wikidot.com/area:burning-desert
-- spawn_id: jade-vale__evil-moon-rabbit
+  summary_source_id: by-area
+- record_id: by-area__t003__r0022
   name_raw: Evil Moon Rabbit
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: jade-vale
   area_name_raw: Jade Vale
-  source_file: data/bestiary/site/areas/jade-vale.yaml
-  source_url: https://angels.wikidot.com/area:jade-vale
-- spawn_id: degula-maze__eye-bershala
+  summary_source_id: by-area
+- record_id: by-area__t005__r0024
   name_raw: Eye Bershala
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: degula-maze
   area_name_raw: Degula Maze
-  source_file: data/bestiary/site/areas/degula-maze.yaml
-  source_url: https://angels.wikidot.com/area:degula-maze
-- spawn_id: jade-vale__sealed-beast
+  summary_source_id: by-area
+- record_id: by-area__t003__r0023
   name_raw: Sealed Beast
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: jade-vale
   area_name_raw: Jade Vale
-  source_file: data/bestiary/site/areas/jade-vale.yaml
-  source_url: https://angels.wikidot.com/area:jade-vale
-- spawn_id: riprap-coast__sheep-music
+  summary_source_id: by-area
+- record_id: by-area__t002__r0025
   name_raw: Sheep Music
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: riprap-coast
   area_name_raw: Riprap Coast
-  source_file: data/bestiary/site/areas/riprap-coast.yaml
-  source_url: https://angels.wikidot.com/area:riprap-coast
-- spawn_id: burning-desert__undying-lord
+  summary_source_id: by-area
+- record_id: by-area__t004__r0022
   name_raw: Undying Lord
   level_raw: '29'
   level: 29
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: burning-desert
   area_name_raw: Burning Desert
-  source_file: data/bestiary/site/areas/burning-desert.yaml
-  source_url: https://angels.wikidot.com/area:burning-desert
-- spawn_id: degula-maze__bloody-pound
+  summary_source_id: by-area
+- record_id: by-area__t005__r0025
   name_raw: Bloody Pound
   level_raw: '32'
   level: 32
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: degula-maze
   area_name_raw: Degula Maze
-  source_file: data/bestiary/site/areas/degula-maze.yaml
-  source_url: https://angels.wikidot.com/area:degula-maze
-- spawn_id: cherry-village__evil-crab
+  summary_source_id: by-area
+- record_id: by-area__t002__r0030
   name_raw: Evil Crab
   level_raw: '32'
   level: 32
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cherry-village
   area_name_raw: Cherry Village
-  source_file: data/bestiary/site/areas/cherry-village.yaml
-  source_url: https://angels.wikidot.com/area:cherry-village
-- spawn_id: gebuer-vale__header-gaberna
+  summary_source_id: by-area
+- record_id: by-area__t004__r0029
+  name_raw: Giant Bird
+  level_raw: '32'
+  level: 32
+  boss: true
+  aggressive: true
+  area_id: gebuer-vale
+  area_name_raw: Gebuer Vale
+  summary_source_id: by-area
+- record_id: by-area__t004__r0028
   name_raw: Header Gaberna
   level_raw: '32'
   level: 32
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: gebuer-vale
   area_name_raw: Gebuer Vale
-  source_file: data/bestiary/site/areas/gebuer-vale.yaml
-  source_url: https://angels.wikidot.com/area:gebuer-vale
-- spawn_id: crashing-hillock__bloody-wolf
+  summary_source_id: by-area
+- record_id: by-area__t002__r0036
   name_raw: Bloody Wolf
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: crashing-hillock
   area_name_raw: Crashing Hillock
-  source_file: data/bestiary/site/areas/crashing-hillock.yaml
-  source_url: https://angels.wikidot.com/area:crashing-hillock
-- spawn_id: cherry-village__blue-potec
+  summary_source_id: by-area
+- record_id: by-area__t002__r0031
   name_raw: Blue Potec
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: cherry-village
   area_name_raw: Cherry Village
-  source_file: data/bestiary/site/areas/cherry-village.yaml
-  source_url: https://angels.wikidot.com/area:cherry-village
-- spawn_id: memory-cave__evil-cat-yese
+  summary_source_id: by-area
+- record_id: by-area__t005__r0031
   name_raw: Evil Cat Yese
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: memory-cave
   area_name_raw: Memory Cave
-  source_file: data/bestiary/site/areas/memory-cave.yaml
-  source_url: https://angels.wikidot.com/area:memory-cave
-- spawn_id: gebuer-vale__giant-bird
+  summary_source_id: by-area
+- record_id: gebuer-vale__giant-bird__t004r0006
   name_raw: Giant Bird
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: gebuer-vale
   area_name_raw: Gebuer Vale
-  source_file: data/bestiary/site/areas/gebuer-vale.yaml
-  source_url: https://angels.wikidot.com/area:gebuer-vale
-- spawn_id: megalith-plain__green-wolf-tusk
+  summary_source_id: area_page
+- record_id: by-area__t004__r0034
   name_raw: Green Wolf Tusk
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: megalith-plain
   area_name_raw: Megalith Plain
-  source_file: data/bestiary/site/areas/megalith-plain.yaml
-  source_url: https://angels.wikidot.com/area:megalith-plain
-- spawn_id: fungus-forest-north__hell-mouse
+  summary_source_id: by-area
+- record_id: by-area__t005__r0036
   name_raw: Hell Mouse
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fungus-forest-north
   area_name_raw: Fungus Forest North
-  source_file: data/bestiary/site/areas/fungus-forest-north.yaml
-  source_url: https://angels.wikidot.com/area:fungus-forest-north
-- spawn_id: mysterious-garden__queen-angela
+  summary_source_id: by-area
+- record_id: by-area__t003__r0028
   name_raw: Queen Angela
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mysterious-garden
   area_name_raw: Mysterious Garden
-  source_file: data/bestiary/site/areas/mysterious-garden.yaml
-  source_url: https://angels.wikidot.com/area:mysterious-garden
-- spawn_id: mysterious-garden__rage-elf
+  summary_source_id: by-area
+- record_id: by-area__t003__r0029
   name_raw: Rage Elf
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mysterious-garden
   area_name_raw: Mysterious Garden
-  source_file: data/bestiary/site/areas/mysterious-garden.yaml
-  source_url: https://angels.wikidot.com/area:mysterious-garden
-- spawn_id: memory-cave__rotten-wanda
+  summary_source_id: by-area
+- record_id: by-area__t005__r0030
   name_raw: Rotten Wanda
   level_raw: '35'
   level: 35
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: memory-cave
   area_name_raw: Memory Cave
-  source_file: data/bestiary/site/areas/memory-cave.yaml
-  source_url: https://angels.wikidot.com/area:memory-cave
-- spawn_id: crashing-hillock__giant-boar
+  summary_source_id: by-area
+- record_id: by-area__t002__r0037
   name_raw: Giant Boar
   level_raw: '38'
   level: 38
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: crashing-hillock
   area_name_raw: Crashing Hillock
-  source_file: data/bestiary/site/areas/crashing-hillock.yaml
-  source_url: https://angels.wikidot.com/area:crashing-hillock
-- spawn_id: megalith-plain__mount-saby
+  summary_source_id: by-area
+- record_id: by-area__t004__r0035
   name_raw: Mount Saby
   level_raw: '38'
   level: 38
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: megalith-plain
   area_name_raw: Megalith Plain
-  source_file: data/bestiary/site/areas/megalith-plain.yaml
-  source_url: https://angels.wikidot.com/area:megalith-plain
-- spawn_id: fungus-forest-north__mutant-mushroom
+  summary_source_id: by-area
+- record_id: by-area__t005__r0037
   name_raw: Mutant Mushroom
   level_raw: '38'
   level: 38
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fungus-forest-north
   area_name_raw: Fungus Forest North
-  source_file: data/bestiary/site/areas/fungus-forest-north.yaml
-  source_url: https://angels.wikidot.com/area:fungus-forest-north
-- spawn_id: quiet-vale__crazy-rosit
+  summary_source_id: by-area
+- record_id: by-area__t003__r0034
   name_raw: Crazy Rosit
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: quiet-vale
   area_name_raw: Quiet Vale
-  source_file: data/bestiary/site/areas/quiet-vale.yaml
-  source_url: https://angels.wikidot.com/area:quiet-vale
-- spawn_id: fungus-forest-north__elder-fungus
+  summary_source_id: by-area
+- record_id: by-area__t005__r0038
   name_raw: Elder Fungus
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fungus-forest-north
   area_name_raw: Fungus Forest North
-  source_file: data/bestiary/site/areas/fungus-forest-north.yaml
-  source_url: https://angels.wikidot.com/area:fungus-forest-north
-- spawn_id: crashing-hillock__evil-wolf
+  summary_source_id: by-area
+- record_id: by-area__t002__r0038
   name_raw: Evil Wolf
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: crashing-hillock
   area_name_raw: Crashing Hillock
-  source_file: data/bestiary/site/areas/crashing-hillock.yaml
-  source_url: https://angels.wikidot.com/area:crashing-hillock
-- spawn_id: foggy-forest__exiled-earl
-  name_raw: Exiled Earl
-  level_raw: '40'
-  level: 40
-  boss_raw: 'Yes'
-  boss: true
-  aggressive_raw: 'Yes'
-  area_id: foggy-forest
-  area_name_raw: Foggy Forest
-  source_file: data/bestiary/site/areas/foggy-forest.yaml
-  source_url: https://angels.wikidot.com/area:foggy-forest
-- spawn_id: megalith-plain__giant-chief
+  summary_source_id: by-area
+- record_id: by-area__t004__r0036
   name_raw: Giant Chief
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: megalith-plain
   area_name_raw: Megalith Plain
-  source_file: data/bestiary/site/areas/megalith-plain.yaml
-  source_url: https://angels.wikidot.com/area:megalith-plain
-- spawn_id: south-of-mirror-lake__gold-slarm
+  summary_source_id: by-area
+- record_id: by-area__t003__r0041
   name_raw: Gold Slarm
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: south-of-mirror-lake
-  area_name_raw: South Of Mirror Lake
-  source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:south-of-mirror-lake
-- spawn_id: foggy-forest__lizard-chief
+  area_name_raw: South of Mirror Lake
+  summary_source_id: by-area
+- record_id: by-area__t005__r0043
   name_raw: Lizard Chief
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: foggy-forest
   area_name_raw: Foggy Forest
-  source_file: data/bestiary/site/areas/foggy-forest.yaml
-  source_url: https://angels.wikidot.com/area:foggy-forest
-- spawn_id: foggy-forest__marquis-blute
+  summary_source_id: by-area
+- record_id: foggy-forest__marquis-blute__t003r0007
   name_raw: Marquis Blute
   level_raw: '40'
   level: 40
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: foggy-forest
   area_name_raw: Foggy Forest
-  source_file: data/bestiary/site/areas/foggy-forest.yaml
-  source_url: https://angels.wikidot.com/area:foggy-forest
-- spawn_id: foggy-forest__crazy-babi
+  summary_source_id: area_page
+- record_id: by-area__t005__r0044
   name_raw: Crazy Babi
   level_raw: '43'
   level: 43
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: foggy-forest
   area_name_raw: Foggy Forest
-  source_file: data/bestiary/site/areas/foggy-forest.yaml
-  source_url: https://angels.wikidot.com/area:foggy-forest
-- spawn_id: quiet-vale__iron-scale-allen
+  summary_source_id: by-area
+- record_id: by-area__t003__r0035
   name_raw: Iron Scale Allen
   level_raw: '43'
   level: 43
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: quiet-vale
   area_name_raw: Quiet Vale
-  source_file: data/bestiary/site/areas/quiet-vale.yaml
-  source_url: https://angels.wikidot.com/area:quiet-vale
-- spawn_id: south-of-mirror-lake__tree-elder
+  summary_source_id: by-area
+- record_id: by-area__t003__r0042
   name_raw: Tree Elder
   level_raw: '43'
   level: 43
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: south-of-mirror-lake
-  area_name_raw: South Of Mirror Lake
-  source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:south-of-mirror-lake
-- spawn_id: south-of-mirror-lake__circus-leader
+  area_name_raw: South of Mirror Lake
+  summary_source_id: by-area
+- record_id: by-area__t003__r0043
   name_raw: Circus Leader
   level_raw: '45'
   level: 45
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: south-of-mirror-lake
-  area_name_raw: South Of Mirror Lake
-  source_file: data/bestiary/site/areas/south-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:south-of-mirror-lake
-- spawn_id: north-of-mirror-lake__platina-slarm
+  area_name_raw: South of Mirror Lake
+  summary_source_id: by-area
+- record_id: by-area__t005__r0045
+  name_raw: Marquis Blute
+  level_raw: '45'
+  level: 45
+  boss: true
+  aggressive: true
+  area_id: foggy-forest
+  area_name_raw: Foggy Forest
+  summary_source_id: by-area
+- record_id: by-area__t003__r0048
   name_raw: Platina Slarm
   level_raw: '45'
   level: 45
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: north-of-mirror-lake
   area_name_raw: North of Mirror Lake
-  source_file: data/bestiary/site/areas/north-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:north-of-mirror-lake
-- spawn_id: mysterious-wetland__sexy-quli
+  summary_source_id: by-area
+- record_id: by-area__t005__r0050
   name_raw: Sexy Quli
   level_raw: '45'
   level: 45
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mysterious-wetland
   area_name_raw: Mysterious Wetland
-  source_file: data/bestiary/site/areas/mysterious-wetland.yaml
-  source_url: https://angels.wikidot.com/area:mysterious-wetland
-- spawn_id: dragon-graveyard__silent-hero
+  summary_source_id: by-area
+- record_id: by-area__t004__r0041
   name_raw: Silent Hero
   level_raw: '45'
   level: 45
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dragon-graveyard
   area_name_raw: Dragon Graveyard
-  source_file: data/bestiary/site/areas/dragon-graveyard.yaml
-  source_url: https://angels.wikidot.com/area:dragon-graveyard
-- spawn_id: quiet-vale__skeletal-bishop
+  summary_source_id: by-area
+- record_id: by-area__t003__r0036
   name_raw: Skeletal Bishop
   level_raw: '45'
   level: 45
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: quiet-vale
   area_name_raw: Quiet Vale
-  source_file: data/bestiary/site/areas/quiet-vale.yaml
-  source_url: https://angels.wikidot.com/area:quiet-vale
-- spawn_id: mysterious-wetland__black-tree
+  summary_source_id: by-area
+- record_id: by-area__t005__r0051
   name_raw: Black Tree
   level_raw: '48'
   level: 48
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mysterious-wetland
   area_name_raw: Mysterious Wetland
-  source_file: data/bestiary/site/areas/mysterious-wetland.yaml
-  source_url: https://angels.wikidot.com/area:mysterious-wetland
-- spawn_id: north-of-mirror-lake__elf-narice
+  summary_source_id: by-area
+- record_id: north-of-mirror-lake__elf-narice__t003r0006
   name_raw: Elf Narice
   level_raw: '48'
   level: 48
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: north-of-mirror-lake
   area_name_raw: North of Mirror Lake
-  source_file: data/bestiary/site/areas/north-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:north-of-mirror-lake
-- spawn_id: dragon-graveyard__death-cyclone
+  summary_source_id: area_page
+- record_id: by-area__t003__r0049
+  name_raw: Steel Clamp
+  level_raw: '48'
+  level: 48
+  boss: true
+  aggressive: true
+  area_id: north-of-mirror-lake
+  area_name_raw: North of Mirror Lake
+  summary_source_id: by-area
+- record_id: by-area__t004__r0042
   name_raw: Death Cyclone
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dragon-graveyard
   area_name_raw: Dragon Graveyard
-  source_file: data/bestiary/site/areas/dragon-graveyard.yaml
-  source_url: https://angels.wikidot.com/area:dragon-graveyard
-- spawn_id: sad-abyss__evil-tree
+  summary_source_id: by-area
+- record_id: by-area__t003__r0050
+  name_raw: Elf Narice
+  level_raw: '50'
+  level: 50
+  boss: true
+  aggressive: true
+  area_id: north-of-mirror-lake
+  area_name_raw: North of Mirror Lake
+  summary_source_id: by-area
+- record_id: by-area__t006__r0008
   name_raw: Evil Tree
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sad-abyss
   area_name_raw: Sad Abyss
-  source_file: data/bestiary/site/areas/sad-abyss.yaml
-  source_url: https://angels.wikidot.com/area:sad-abyss
-- spawn_id: thunder-ruins__fallen-archangel
+  summary_source_id: by-area
+- record_id: by-area__t002__r0043
   name_raw: Fallen Archangel
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thunder-ruins
   area_name_raw: Thunder Ruins
-  source_file: data/bestiary/site/areas/thunder-ruins.yaml
-  source_url: https://angels.wikidot.com/area:thunder-ruins
-- spawn_id: thorn-wasteland__savage-head
+  summary_source_id: by-area
+- record_id: by-area__t002__r0050
   name_raw: Savage Head
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thorn-wasteland
   area_name_raw: Thorn Wasteland
-  source_file: data/bestiary/site/areas/thorn-wasteland.yaml
-  source_url: https://angels.wikidot.com/area:thorn-wasteland
-- spawn_id: north-of-mirror-lake__steel-clamp
+  summary_source_id: by-area
+- record_id: north-of-mirror-lake__steel-clamp__t003r0007
   name_raw: Steel Clamp
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: north-of-mirror-lake
   area_name_raw: North of Mirror Lake
-  source_file: data/bestiary/site/areas/north-of-mirror-lake.yaml
-  source_url: https://angels.wikidot.com/area:north-of-mirror-lake
-- spawn_id: mysterious-wetland__wind-fairy-clair
+  summary_source_id: area_page
+- record_id: by-area__t005__r0052
   name_raw: Wind Fairy Clair
   level_raw: '50'
   level: 50
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: mysterious-wetland
   area_name_raw: Mysterious Wetland
-  source_file: data/bestiary/site/areas/mysterious-wetland.yaml
-  source_url: https://angels.wikidot.com/area:mysterious-wetland
-- spawn_id: thunder-ruins__black-fire-harr
+  summary_source_id: by-area
+- record_id: by-area__t002__r0044
   name_raw: Black Fire Harr
   level_raw: '53'
   level: 53
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thunder-ruins
   area_name_raw: Thunder Ruins
-  source_file: data/bestiary/site/areas/thunder-ruins.yaml
-  source_url: https://angels.wikidot.com/area:thunder-ruins
-- spawn_id: thorn-wasteland__savage-chief-apu
+  summary_source_id: by-area
+- record_id: by-area__t002__r0051
   name_raw: Savage Chief Apu
   level_raw: '53'
   level: 53
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thorn-wasteland
   area_name_raw: Thorn Wasteland
-  source_file: data/bestiary/site/areas/thorn-wasteland.yaml
-  source_url: https://angels.wikidot.com/area:thorn-wasteland
-- spawn_id: thunder-ruins__azraels-aide
+  summary_source_id: by-area
+- record_id: by-level__t006__r0008
+  name_raw: Savage Chief Apu
+  level_raw: '53'
+  level: 53
+  boss: true
+  aggressive: true
+  area_id: thorn-wasteland
+  area_name_raw: Thorn Wasteland
+  summary_source_id: by-level
+- record_id: by-area__t002__r0045
   name_raw: Azrael's Aide
   level_raw: '55'
   level: 55
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thunder-ruins
   area_name_raw: Thunder Ruins
-  source_file: data/bestiary/site/areas/thunder-ruins.yaml
-  source_url: https://angels.wikidot.com/area:thunder-ruins
-- spawn_id: thorn-wasteland__barft-laird
+  summary_source_id: by-area
+- record_id: by-area__t002__r0052
   name_raw: Barft Laird
   level_raw: '55'
   level: 55
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: thorn-wasteland
   area_name_raw: Thorn Wasteland
-  source_file: data/bestiary/site/areas/thorn-wasteland.yaml
-  source_url: https://angels.wikidot.com/area:thorn-wasteland
-- spawn_id: sad-abyss__fetor-fly
+  summary_source_id: by-area
+- record_id: by-area__t006__r0009
   name_raw: Fetor Fly
   level_raw: '60'
   level: 60
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sad-abyss
   area_name_raw: Sad Abyss
-  source_file: data/bestiary/site/areas/sad-abyss.yaml
-  source_url: https://angels.wikidot.com/area:sad-abyss
-- spawn_id: magic-kitchen-path__guard-fasit-summon
+  summary_source_id: by-area
+- record_id: by-area__t006__r0048
+  name_raw: Guard Fasit
+  level_raw: '60'
+  level: 60
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: by-level__t006__r0033
+  name_raw: Guard Fasit
+  level_raw: '60'
+  level: 60
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-level
+- record_id: magic-kitchen-path__guard-fasit-summon__t001r0004
   name_raw: Guard Fasit (Summon)
   level_raw: '60'
   level: 60
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: fiery-path__jail-warden
+  summary_source_id: area_page
+- record_id: by-area__t006__r0015
   name_raw: Jail Warden
   level_raw: '60'
   level: 60
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fiery-path
   area_name_raw: Fiery Path
-  source_file: data/bestiary/site/areas/fiery-path.yaml
-  source_url: https://angels.wikidot.com/area:fiery-path
-- spawn_id: golden-beach__pontiff-hululu
+  summary_source_id: by-area
+- record_id: by-area__t007__r0006
   name_raw: Pontiff Hululu
   level_raw: '60'
   level: 60
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: golden-beach
   area_name_raw: Golden Beach
-  source_file: data/bestiary/site/areas/golden-beach.yaml
-  source_url: https://angels.wikidot.com/area:golden-beach
-- spawn_id: deity-palace-ruins__fane-priest
+  summary_source_id: by-area
+- record_id: by-area__t004__r0048
   name_raw: Fane Priest
   level_raw: '61'
   level: 61
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: deity-palace-ruins
   area_name_raw: Deity Palace Ruins
-  source_file: data/bestiary/site/areas/deity-palace-ruins.yaml
-  source_url: https://angels.wikidot.com/area:deity-palace-ruins
-- spawn_id: magic-kitchen-path__guard-fire-barft-summon
+  summary_source_id: by-area
+- record_id: by-area__t006__r0052
+  name_raw: Guard Fire Barft
+  level_raw: '62'
+  level: 62
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: magic-kitchen-path__guard-fire-barft-summon__t001r0008
   name_raw: Guard Fire Barft (Summon)
   level_raw: '62'
   level: 62
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: deity-palace-ruins__fane-protector
+  summary_source_id: area_page
+- record_id: by-area__t004__r0049
   name_raw: Fane Protector
   level_raw: '63'
   level: 63
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: deity-palace-ruins
   area_name_raw: Deity Palace Ruins
-  source_file: data/bestiary/site/areas/deity-palace-ruins.yaml
-  source_url: https://angels.wikidot.com/area:deity-palace-ruins
-- spawn_id: lava-cave__flame-elf
+  summary_source_id: by-area
+- record_id: by-area__t006__r0022
   name_raw: Flame Elf
   level_raw: '65'
   level: 65
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: lava-cave
   area_name_raw: Lava Cave
-  source_file: data/bestiary/site/areas/lava-cave.yaml
-  source_url: https://angels.wikidot.com/area:lava-cave
-- spawn_id: magic-kitchen-path__soul-eater-slalin-boss
+  summary_source_id: by-area
+- record_id: by-area__t006__r0061
+  name_raw: Soul Slalin
+  level_raw: '65'
+  level: 65
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: magic-kitchen-path__soul-eater-slalin-boss__t001r0016
   name_raw: Soul-eater Slalin (Boss)
   level_raw: '65'
   level: 65
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: fiery-path__wanderer
+  summary_source_id: area_page
+- record_id: by-area__t006__r0016
   name_raw: Wanderer
   level_raw: '65'
   level: 65
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fiery-path
   area_name_raw: Fiery Path
-  source_file: data/bestiary/site/areas/fiery-path.yaml
-  source_url: https://angels.wikidot.com/area:fiery-path
-- spawn_id: fiery-path__bloody-flower
+  summary_source_id: by-area
+- record_id: by-area__t006__r0017
   name_raw: Bloody Flower
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: fiery-path
   area_name_raw: Fiery Path
-  source_file: data/bestiary/site/areas/fiery-path.yaml
-  source_url: https://angels.wikidot.com/area:fiery-path
-- spawn_id: shining-coast__coast-protector
+  summary_source_id: by-area
+- record_id: by-area__t007__r0017
   name_raw: Coast Protector
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: shining-coast
   area_name_raw: Shining Coast
-  source_file: data/bestiary/site/areas/shining-coast.yaml
-  source_url: https://angels.wikidot.com/area:shining-coast
-- spawn_id: lava-cave__giant-rotten-fly
+  summary_source_id: by-area
+- record_id: by-area__t006__r0023
   name_raw: Giant Rotten Fly
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: lava-cave
   area_name_raw: Lava Cave
-  source_file: data/bestiary/site/areas/lava-cave.yaml
-  source_url: https://angels.wikidot.com/area:lava-cave
-- spawn_id: flaming-door__miner-foreman
+  summary_source_id: by-area
+- record_id: by-area__t006__r0028
   name_raw: Miner Foreman
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: flaming-door
   area_name_raw: Flaming Door
-  source_file: data/bestiary/site/areas/flaming-door.yaml
-  source_url: https://angels.wikidot.com/area:flaming-door
-- spawn_id: magic-kitchen-path__rat-mosi-boss
+  summary_source_id: by-area
+- record_id: by-area__t006__r0056
+  name_raw: Rat Mosi
+  level_raw: '70'
+  level: 70
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: magic-kitchen-path__rat-mosi-boss__t001r0012
   name_raw: Rat Mosi (Boss)
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: sad-abyss__slave-driver
+  summary_source_id: area_page
+- record_id: by-area__t006__r0010
   name_raw: Slave Driver
   level_raw: '70'
   level: 70
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sad-abyss
   area_name_raw: Sad Abyss
-  source_file: data/bestiary/site/areas/sad-abyss.yaml
-  source_url: https://angels.wikidot.com/area:sad-abyss
-- spawn_id: lava-cave__cuss-fire-lord
+  summary_source_id: by-area
+- record_id: by-level__t007__r0033
+  name_raw: Slave Driver
+  level_raw: '70'
+  level: 70
+  boss: true
+  aggressive: true
+  area_id: sad-abyss
+  area_name_raw: Sad Abyss
+  summary_source_id: by-level
+- record_id: by-area__t006__r0035
+  name_raw: Charming Flower
+  level_raw: '75'
+  level: 75
+  boss: true
+  aggressive: true
+  area_id: underground-square
+  area_name_raw: Underground Square
+  summary_source_id: by-area
+- record_id: by-area__t006__r0024
   name_raw: Cuss Fire Lord
   level_raw: '75'
   level: 75
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: lava-cave
   area_name_raw: Lava Cave
-  source_file: data/bestiary/site/areas/lava-cave.yaml
-  source_url: https://angels.wikidot.com/area:lava-cave
-- spawn_id: magic-kitchen-path__rock-god-mendun-summon
+  summary_source_id: by-area
+- record_id: by-area__t006__r0065
+  name_raw: Rock God Mendun
+  level_raw: '75'
+  level: 75
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: by-level__t008__r0009
+  name_raw: Rock God Mendun
+  level_raw: '75'
+  level: 75
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-level
+- record_id: magic-kitchen-path__rock-god-mendun-summon__t001r0021
   name_raw: Rock God Mendun (Summon)
   level_raw: '75'
   level: 75
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: flaming-door__soul-wizard
+  summary_source_id: area_page
+- record_id: by-area__t006__r0029
   name_raw: Soul Wizard
   level_raw: '75'
   level: 75
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: flaming-door
   area_name_raw: Flaming Door
-  source_file: data/bestiary/site/areas/flaming-door.yaml
-  source_url: https://angels.wikidot.com/area:flaming-door
-- spawn_id: river-valley__crocodile-mr-ku
+  summary_source_id: by-area
+- record_id: by-area__t008__r0008
   name_raw: Crocodile Mr Ku
   level_raw: '80'
   level: 80
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: river-valley
   area_name_raw: River Valley
-  source_file: data/bestiary/site/areas/river-valley.yaml
-  source_url: https://angels.wikidot.com/area:river-valley
-- spawn_id: colorful-coral-reefs__sharp-shooter
+  summary_source_id: by-area
+- record_id: by-area__t006__r0036
+  name_raw: Enmity Deissy
+  level_raw: '80'
+  level: 80
+  boss: true
+  aggressive: true
+  area_id: underground-square
+  area_name_raw: Underground Square
+  summary_source_id: by-area
+- record_id: by-area__t006__r0041
+  name_raw: Sealed Elf Lord
+  level_raw: '80'
+  level: 80
+  boss: true
+  aggressive: true
+  area_id: hell-palace
+  area_name_raw: Hell Palace
+  summary_source_id: by-area
+- record_id: by-area__t007__r0020
   name_raw: Sharp-shooter
   level_raw: '80'
   level: 80
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: colorful-coral-reefs
   area_name_raw: Colorful Coral Reefs
-  source_file: data/bestiary/site/areas/colorful-coral-reefs.yaml
-  source_url: https://angels.wikidot.com/area:colorful-coral-reefs
-- spawn_id: flaming-door__soul-guide
+  summary_source_id: by-area
+- record_id: by-area__t006__r0030
   name_raw: Soul Guide
   level_raw: '80'
   level: 80
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: flaming-door
   area_name_raw: Flaming Door
-  source_file: data/bestiary/site/areas/flaming-door.yaml
-  source_url: https://angels.wikidot.com/area:flaming-door
-- spawn_id: magic-kitchen-path__evil-cook-boss
+  summary_source_id: by-area
+- record_id: by-area__t006__r0075
+  name_raw: Beelzebub
+  level_raw: '82'
+  level: 82
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: by-area__t006__r0076
+  name_raw: Beelzebub
+  level_raw: '82'
+  level: 82
+  boss: true
+  aggressive: true
+  area_id: magic-kitchen-path
+  area_name_raw: Magic Kitchen Path
+  summary_source_id: by-area
+- record_id: magic-kitchen-path__evil-cook-boss__t001r0030
   name_raw: Evil Cook (Boss)
   level_raw: '82'
   level: 82
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: magic-kitchen-path__evil-cook2-boss
+  summary_source_id: area_page
+- record_id: magic-kitchen-path__evil-cook2-boss__t001r0031
   name_raw: Evil Cook2 (Boss)
   level_raw: '82'
   level: 82
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: magic-kitchen-path
   area_name_raw: Magic Kitchen Path
-  source_file: data/bestiary/site/areas/magic-kitchen-path.yaml
-  source_url: https://angels.wikidot.com/area:magic-kitchen-path
-- spawn_id: river-valley__rage-orangutan-j
+  summary_source_id: area_page
+- record_id: by-area__t006__r0037
+  name_raw: Gluttonous Shape
+  level_raw: '83'
+  level: 83
+  boss: true
+  aggressive: true
+  area_id: underground-square
+  area_name_raw: Underground Square
+  summary_source_id: by-area
+- record_id: by-area__t006__r0042
+  name_raw: Injuried Angel
+  level_raw: '83'
+  level: 83
+  boss: true
+  aggressive: true
+  area_id: hell-palace
+  area_name_raw: Hell Palace
+  summary_source_id: by-area
+- record_id: by-area__t007__r0081
+  name_raw: Hicalu Machine
+  level_raw: '85'
+  level: 85
+  boss: true
+  aggressive: true
+  area_id: horrible-lost-region
+  area_name_raw: Horrible Lost Region
+  summary_source_id: by-area
+- record_id: by-area__t007__r0077
+  name_raw: Hicalu Machine
+  level_raw: '85'
+  level: 85
+  boss: true
+  aggressive: true
+  area_id: lost-region
+  area_name_raw: Lost Region
+  summary_source_id: by-area
+- record_id: by-area__t006__r0043
+  name_raw: Horn Dragon
+  level_raw: '85'
+  level: 85
+  boss: true
+  aggressive: true
+  area_id: hell-palace
+  area_name_raw: Hell Palace
+  summary_source_id: by-area
+- record_id: by-area__t008__r0009
   name_raw: Rage Orangutan J
   level_raw: '85'
   level: 85
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: river-valley
   area_name_raw: River Valley
-  source_file: data/bestiary/site/areas/river-valley.yaml
-  source_url: https://angels.wikidot.com/area:river-valley
-- spawn_id: secret-den__leech-mrs-dorsa
+  summary_source_id: by-area
+- record_id: by-area__t009__r0008
+  name_raw: Valley Worm Kenny
+  level_raw: '85'
+  level: 85
+  boss: true
+  aggressive: true
+  area_id: crescent-valley
+  area_name_raw: Crescent Valley
+  summary_source_id: by-area
+- record_id: by-area__t010__r0012
+  name_raw: Vampire Suki
+  level_raw: '85'
+  level: 85
+  boss: true
+  aggressive: true
+  area_id: dragon-field
+  area_name_raw: Dragon Field
+  summary_source_id: by-area
+- record_id: by-area__t009__r0010
+  name_raw: Cactus Fighter
+  level_raw: '88'
+  level: 88
+  boss: true
+  aggressive: true
+  area_id: crescent-valley
+  area_name_raw: Crescent Valley
+  summary_source_id: by-area
+- record_id: by-area__t013__r0011
+  name_raw: Crystal Spirit A
+  level_raw: '90'
+  level: 90
+  boss: true
+  aggressive: false
+  area_id: lost-cove
+  area_name_raw: Lost Cove
+  summary_source_id: by-area
+- record_id: by-area__t009__r0020
+  name_raw: Destroyer Wesley
+  level_raw: '90'
+  level: 90
+  boss: true
+  aggressive: true
+  area_id: desert-racetrack
+  area_name_raw: Desert Racetrack
+  summary_source_id: by-area
+- record_id: by-area__t010__r0011
+  name_raw: Dragon Knight
+  level_raw: '90'
+  level: 90
+  boss: true
+  aggressive: true
+  area_id: dragon-field
+  area_name_raw: Dragon Field
+  summary_source_id: by-area
+- record_id: by-area__t008__r0018
   name_raw: Leech Mrs Dorsa
   level_raw: '90'
   level: 90
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: secret-den
   area_name_raw: Secret Den
-  source_file: data/bestiary/site/areas/secret-den.yaml
-  source_url: https://angels.wikidot.com/area:secret-den
-- spawn_id: wave-harbor__sword-jellyfish
+  summary_source_id: by-area
+- record_id: by-area__t009__r0009
+  name_raw: Purple Scorpion Issac
+  level_raw: '90'
+  level: 90
+  boss: true
+  aggressive: true
+  area_id: crescent-valley
+  area_name_raw: Crescent Valley
+  summary_source_id: by-area
+- record_id: by-area__t007__r0027
   name_raw: Sword Jellyfish
   level_raw: '90'
   level: 90
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: wave-harbor
   area_name_raw: Wave Harbor
-  source_file: data/bestiary/site/areas/wave-harbor.yaml
-  source_url: https://angels.wikidot.com/area:wave-harbor
-- spawn_id: hermit-wetland__bitter-witch-doctor
+  summary_source_id: by-area
+- record_id: by-area__t013__r0012
+  name_raw: Crystal Spirit A
+  level_raw: '93'
+  level: 93
+  boss: true
+  aggressive: false
+  area_id: lost-cove
+  area_name_raw: Lost Cove
+  summary_source_id: by-area
+- record_id: by-area__t010__r0022
   name_raw: Bitter Witch Doctor
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: true
   area_id: hermit-wetland
   area_name_raw: Hermit Wetland
-  source_file: data/bestiary/site/areas/hermit-wetland.yaml
-  source_url: https://angels.wikidot.com/area:hermit-wetland
-- spawn_id: secret-den__grimace-doyle
+  summary_source_id: by-area
+- record_id: by-area__t011__r0052
+  name_raw: Crown Claudia
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: sky-pumice
+  area_name_raw: Sky Pumice
+  summary_source_id: by-area
+- record_id: by-area__t013__r0013
+  name_raw: Crystal Spirit A
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: false
+  area_id: lost-cove
+  area_name_raw: Lost Cove
+  summary_source_id: by-area
+- record_id: by-area__t010__r0013
+  name_raw: Dragon Captain Gordon
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: dragon-field
+  area_name_raw: Dragon Field
+  summary_source_id: by-area
+- record_id: by-area__t011__r0026
+  name_raw: Flapper Betta
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: roam-battlefield
+  area_name_raw: Roam Battlefield
+  summary_source_id: by-area
+- record_id: by-area__t008__r0019
   name_raw: Grimace Doyle
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: secret-den
   area_name_raw: Secret Den
-  source_file: data/bestiary/site/areas/secret-den.yaml
-  source_url: https://angels.wikidot.com/area:secret-den
-- spawn_id: lost-region__hicalu-machine
+  summary_source_id: by-area
+- record_id: by-area__t011__r0014
+  name_raw: Hermit Bob
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: vine-front
+  area_name_raw: Vine Front
+  summary_source_id: by-area
+- record_id: by-area__t008__r0028
+  name_raw: Hermit Hezon
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: waterfall-camp
+  area_name_raw: Waterfall Camp
+  summary_source_id: by-area
+- record_id: by-area__t007__r0082
   name_raw: Hicalu Machine
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
+  area_id: horrible-lost-region
+  area_name_raw: Horrible Lost Region
+  summary_source_id: by-area
+- record_id: by-area__t007__r0078
+  name_raw: Hicalu Machine
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
   area_id: lost-region
   area_name_raw: Lost Region
-  source_file: data/bestiary/site/areas/lost-region.yaml
-  source_url: https://angels.wikidot.com/area:lost-region
-- spawn_id: blue-sea__leader-nio
+  summary_source_id: by-area
+- record_id: by-area__t007__r0033
   name_raw: Leader Nio
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: blue-sea
   area_name_raw: Blue Sea
-  source_file: data/bestiary/site/areas/blue-sea.yaml
-  source_url: https://angels.wikidot.com/area:blue-sea
-- spawn_id: dream-ocean__leader-nio
+  summary_source_id: by-area
+- record_id: dream-ocean__leader-nio__t003r0009
   name_raw: Leader Nio
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dream-ocean
   area_name_raw: Dream Ocean
-  source_file: data/bestiary/site/areas/dream-ocean.yaml
-  source_url: https://angels.wikidot.com/area:dream-ocean
-- spawn_id: blue-sea__merman-hulio
+  summary_source_id: area_page
+- record_id: by-area__t009__r0012
+  name_raw: Lord Adrian
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: desert-racetrack
+  area_name_raw: Desert Racetrack
+  summary_source_id: by-area
+- record_id: by-area__t007__r0034
   name_raw: Merman Hulio
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: blue-sea
   area_name_raw: Blue Sea
-  source_file: data/bestiary/site/areas/blue-sea.yaml
-  source_url: https://angels.wikidot.com/area:blue-sea
-- spawn_id: dream-ocean__merman-hulio
+  summary_source_id: by-area
+- record_id: by-area__t007__r0034
   name_raw: Merman Hulio
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: dream-ocean
   area_name_raw: Dream Ocean
-  source_file: data/bestiary/site/areas/dream-ocean.yaml
-  source_url: https://angels.wikidot.com/area:dream-ocean
-- spawn_id: blue-ocean__octopus-oliss
+  summary_source_id: by-area
+- record_id: by-area__t007__r0042
   name_raw: Octopus Oliss
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: blue-ocean
   area_name_raw: Blue Ocean
-  source_file: data/bestiary/site/areas/blue-ocean.yaml
-  source_url: https://angels.wikidot.com/area:blue-ocean
-- spawn_id: raging-reefs__octopus-oliss
+  summary_source_id: by-area
+- record_id: by-area__t007__r0042
   name_raw: Octopus Oliss
   level_raw: '95'
   level: 95
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: raging-reefs
   area_name_raw: Raging Reefs
-  source_file: data/bestiary/site/areas/raging-reefs.yaml
-  source_url: https://angels.wikidot.com/area:raging-reefs
-- spawn_id: hermit-wetland__disaster-envoy
+  summary_source_id: by-area
+- record_id: by-area__t009__r0030
+  name_raw: Poisonous Snake
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: true
+  area_id: ghost-village
+  area_name_raw: Ghost Village
+  summary_source_id: by-area
+- record_id: by-area__t014__r0011
+  name_raw: Sand Scorpion King Sylarcat
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: false
+  area_id: karang-desert
+  area_name_raw: Karang Desert
+  summary_source_id: by-area
+- record_id: by-area__t012__r0010
+  name_raw: Village Guardian Litus
+  level_raw: '95'
+  level: 95
+  boss: true
+  aggressive: false
+  area_id: mushroom-village
+  area_name_raw: Mushroom Village
+  summary_source_id: by-area
+- record_id: by-area__t012__r0013
+  name_raw: Hell Envoy Disco
+  level_raw: '97'
+  level: 97
+  boss: true
+  aggressive: false
+  area_id: mushroom-village
+  area_name_raw: Mushroom Village
+  summary_source_id: by-area
+- record_id: by-area__t014__r0012
+  name_raw: Ivy King Gabrose
+  level_raw: '97'
+  level: 97
+  boss: true
+  aggressive: false
+  area_id: karang-desert
+  area_name_raw: Karang Desert
+  summary_source_id: by-area
+- record_id: by-area__t011__r0015
+  name_raw: Warder Milly
+  level_raw: '97'
+  level: 97
+  boss: true
+  aggressive: true
+  area_id: vine-front
+  area_name_raw: Vine Front
+  summary_source_id: by-area
+- record_id: by-area__t010__r0021
   name_raw: Disaster Envoy
   level_raw: '98'
   level: 98
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: true
   area_id: hermit-wetland
   area_name_raw: Hermit Wetland
-  source_file: data/bestiary/site/areas/hermit-wetland.yaml
-  source_url: https://angels.wikidot.com/area:hermit-wetland
-- spawn_id: evil-ship__asharl
+  summary_source_id: by-area
+- record_id: by-area__t009__r0031
+  name_raw: Thief Walter
+  level_raw: '98'
+  level: 98
+  boss: true
+  aggressive: true
+  area_id: ghost-village
+  area_name_raw: Ghost Village
+  summary_source_id: by-area
+- record_id: by-area__t008__r0038
+  name_raw: Ape King Thunder
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: noisy-rain-forest
+  area_name_raw: Noisy Rain Forest
+  summary_source_id: by-area
+- record_id: by-area__t007__r0093
   name_raw: Asharl
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: evil-ship
   area_name_raw: Evil Ship
-  source_file: data/bestiary/site/areas/evil-ship.yaml
-  source_url: https://angels.wikidot.com/area:evil-ship
-- spawn_id: quiet-ocean__captain-hack
+  summary_source_id: by-area
+- record_id: by-area__t012__r0007
+  name_raw: Big Chris
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: false
+  area_id: mushroom-village
+  area_name_raw: Mushroom Village
+  summary_source_id: by-area
+- record_id: by-area__t007__r0061
   name_raw: Captain Hack
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: quiet-ocean
   area_name_raw: Quiet Ocean
-  source_file: data/bestiary/site/areas/quiet-ocean.yaml
-  source_url: https://angels.wikidot.com/area:quiet-ocean
-- spawn_id: coral-vale__captain-mark
+  summary_source_id: by-area
+- record_id: by-area__t007__r0062
   name_raw: Captain Mark
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: coral-vale
   area_name_raw: Coral Vale
-  source_file: data/bestiary/site/areas/coral-vale.yaml
-  source_url: https://angels.wikidot.com/area:coral-vale
-- spawn_id: lost-region__hicalu-1
+  summary_source_id: by-area
+- record_id: by-area__t009__r0032
+  name_raw: Female Priest Grace
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: ghost-village
+  area_name_raw: Ghost Village
+  summary_source_id: by-area
+- record_id: by-area__t007__r0083
   name_raw: Hicalu 1
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
+  area_id: horrible-lost-region
+  area_name_raw: Horrible Lost Region
+  summary_source_id: by-area
+- record_id: by-area__t007__r0079
+  name_raw: Hicalu 1
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
   area_id: lost-region
   area_name_raw: Lost Region
-  source_file: data/bestiary/site/areas/lost-region.yaml
-  source_url: https://angels.wikidot.com/area:lost-region
-- spawn_id: sunken-ruins__knight-clarc
+  summary_source_id: by-area
+- record_id: by-area__t007__r0050
   name_raw: Knight Clarc
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: sunken-ruins
   area_name_raw: Sunken Ruins
-  source_file: data/bestiary/site/areas/sunken-ruins.yaml
-  source_url: https://angels.wikidot.com/area:sunken-ruins
-- spawn_id: evil-ship__mamen
+  summary_source_id: by-area
+- record_id: by-area__t014__r0013
+  name_raw: Lime Sand King Bitu
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: false
+  area_id: karang-desert
+  area_name_raw: Karang Desert
+  summary_source_id: by-area
+- record_id: by-area__t007__r0092
   name_raw: Mamen
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: evil-ship
   area_name_raw: Evil Ship
-  source_file: data/bestiary/site/areas/evil-ship.yaml
-  source_url: https://angels.wikidot.com/area:evil-ship
-- spawn_id: blue-ocean__rage-denio
+  summary_source_id: by-area
+- record_id: by-area__t011__r0013
+  name_raw: Oppressive Fernando
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: vine-front
+  area_name_raw: Vine Front
+  summary_source_id: by-area
+- record_id: blue-ocean__rage-denio__t004r0011
   name_raw: Rage Denio
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: blue-ocean
   area_name_raw: Blue Ocean
-  source_file: data/bestiary/site/areas/blue-ocean.yaml
-  source_url: https://angels.wikidot.com/area:blue-ocean
-- spawn_id: raging-reefs__rage-denio
+  summary_source_id: area_page
+- record_id: by-area__t007__r0054
   name_raw: Rage Denio
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: raging-reefs
   area_name_raw: Raging Reefs
-  source_file: data/bestiary/site/areas/raging-reefs.yaml
-  source_url: https://angels.wikidot.com/area:raging-reefs
-- spawn_id: evil-ship__sallen
+  summary_source_id: by-area
+- record_id: by-area__t008__r0029
+  name_raw: Rainforest Bee
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: waterfall-camp
+  area_name_raw: Waterfall Camp
+  summary_source_id: by-area
+- record_id: by-area__t007__r0094
   name_raw: Sallen
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: evil-ship
   area_name_raw: Evil Ship
-  source_file: data/bestiary/site/areas/evil-ship.yaml
-  source_url: https://angels.wikidot.com/area:evil-ship
-- spawn_id: coral-vale__sea-hunter-dipu
+  summary_source_id: by-area
+- record_id: by-area__t007__r0066
+  name_raw: Sea Explorer
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: quiet-ocean
+  area_name_raw: Quiet Ocean
+  summary_source_id: by-area
+- record_id: by-area__t007__r0067
   name_raw: Sea Hunter Dipu
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'Yes'
+  aggressive: true
   area_id: coral-vale
   area_name_raw: Coral Vale
-  source_file: data/bestiary/site/areas/coral-vale.yaml
-  source_url: https://angels.wikidot.com/area:coral-vale
-- spawn_id: hermit-wetland__tenacious-death-god
+  summary_source_id: by-area
+- record_id: by-area__t011__r0053
+  name_raw: Soul Spencer
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: sky-pumice
+  area_name_raw: Sky Pumice
+  summary_source_id: by-area
+- record_id: by-area__t010__r0023
   name_raw: Tenacious Death God
   level_raw: '100'
   level: 100
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: true
   area_id: hermit-wetland
   area_name_raw: Hermit Wetland
-  source_file: data/bestiary/site/areas/hermit-wetland.yaml
-  source_url: https://angels.wikidot.com/area:hermit-wetland
-- spawn_id: hoca-village__powerful-orangma
+  summary_source_id: by-area
+- record_id: by-area__t011__r0027
+  name_raw: Walker Gillian
+  level_raw: '100'
+  level: 100
+  boss: true
+  aggressive: true
+  area_id: roam-battlefield
+  area_name_raw: Roam Battlefield
+  summary_source_id: by-area
+- record_id: by-area__t010__r0035
+  name_raw: Flower Genie
+  level_raw: '103'
+  level: 103
+  boss: true
+  aggressive: true
+  area_id: flower-corridor
+  area_name_raw: Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t009__r0051
+  name_raw: Harold The Dragon
+  level_raw: '103'
+  level: 103
+  boss: true
+  aggressive: true
+  area_id: ancient-front
+  area_name_raw: Ancient Front
+  summary_source_id: by-area
+- record_id: by-area__t009__r0041
+  name_raw: Outpost Fighter
+  level_raw: '103'
+  level: 103
+  boss: true
+  aggressive: true
+  area_id: troop-outpost
+  area_name_raw: Troop Outpost
+  summary_source_id: by-area
+- record_id: by-area__t009__r0042
+  name_raw: Blind Worm Rory
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: troop-outpost
+  area_name_raw: Troop Outpost
+  summary_source_id: by-area
+- record_id: by-area__t011__r0039
+  name_raw: Blue Flower Envoy
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: winding-flower-corridor
+  area_name_raw: Winding Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t011__r0054
+  name_raw: Butcher Scott
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: sky-pumice
+  area_name_raw: Sky Pumice
+  summary_source_id: by-area
+- record_id: by-area__t011__r0028
+  name_raw: Dragon Flame Delila
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: roam-battlefield
+  area_name_raw: Roam Battlefield
+  summary_source_id: by-area
+- record_id: by-area__t008__r0039
+  name_raw: Dream Elf Terrossi
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: noisy-rain-forest
+  area_name_raw: Noisy Rain Forest
+  summary_source_id: by-area
+- record_id: by-area__t012__r0026
+  name_raw: Eyebasher Chiley
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: false
+  area_id: building-blocks-county
+  area_name_raw: Building Blocks County
+  summary_source_id: by-area
+- record_id: by-area__t008__r0049
+  name_raw: Naga Colonel Zic
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: true
+  area_id: ancient-glide-river
+  area_name_raw: Ancient Glide River
+  summary_source_id: by-area
+- record_id: by-area__t014__r0024
+  name_raw: Sand Worm Lord Sorbek
+  level_raw: '105'
+  level: 105
+  boss: true
+  aggressive: false
+  area_id: pharaoh-village
+  area_name_raw: Pharaoh Village
+  summary_source_id: by-area
+- record_id: by-area__t014__r0025
+  name_raw: Sand Queen Hebes
+  level_raw: '107'
+  level: 107
+  boss: true
+  aggressive: false
+  area_id: pharaoh-village
+  area_name_raw: Pharaoh Village
+  summary_source_id: by-area
+- record_id: by-area__t010__r0034
+  name_raw: Cat Lord Fay
+  level_raw: '108'
+  level: 108
+  boss: true
+  aggressive: true
+  area_id: flower-corridor
+  area_name_raw: Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t012__r0025
+  name_raw: Pig Leader Kohl
+  level_raw: '108'
+  level: 108
+  boss: true
+  aggressive: false
+  area_id: building-blocks-county
+  area_name_raw: Building Blocks County
+  summary_source_id: by-area
+- record_id: by-area__t009__r0052
+  name_raw: Savage Elite Leslie
+  level_raw: '108'
+  level: 108
+  boss: true
+  aggressive: true
+  area_id: ancient-front
+  area_name_raw: Ancient Front
+  summary_source_id: by-area
+- record_id: by-area__t014__r0026
+  name_raw: Blue Leaf Corn Bruno
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: false
+  area_id: pharaoh-village
+  area_name_raw: Pharaoh Village
+  summary_source_id: by-area
+- record_id: by-area__t009__r0062
+  name_raw: Bottle Liam
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: true
+  area_id: fantastic-sand-city
+  area_name_raw: Fantastic Sand City
+  summary_source_id: by-area
+- record_id: by-area__t011__r0041
+  name_raw: Envoy Susie
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: true
+  area_id: winding-flower-corridor
+  area_name_raw: Winding Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t012__r0022
+  name_raw: Magic Tutor Hicder
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: false
+  area_id: building-blocks-county
+  area_name_raw: Building Blocks County
+  summary_source_id: by-area
+- record_id: by-area__t013__r0039
   name_raw: Powerful Orangma
   level_raw: '110'
   level: 110
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: hoca-village
   area_name_raw: Hoca Village
-  source_file: data/bestiary/site/areas/hoca-village.yaml
-  source_url: https://angels.wikidot.com/area:hoca-village
-- spawn_id: hoca-village__demon-snail-olo
+  summary_source_id: by-area
+- record_id: by-area__t009__r0053
+  name_raw: Raging Stoneman
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: true
+  area_id: ancient-front
+  area_name_raw: Ancient Front
+  summary_source_id: by-area
+- record_id: by-area__t008__r0050
+  name_raw: Wardenry Barda
+  level_raw: '110'
+  level: 110
+  boss: true
+  aggressive: true
+  area_id: ancient-glide-river
+  area_name_raw: Ancient Glide River
+  summary_source_id: by-area
+- record_id: by-area__t010__r0033
+  name_raw: Dancing Angel Ray
+  level_raw: '112'
+  level: 112
+  boss: true
+  aggressive: true
+  area_id: flower-corridor
+  area_name_raw: Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t013__r0040
   name_raw: Demon Snail Olo
   level_raw: '113'
   level: 113
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: hoca-village
   area_name_raw: Hoca Village
-  source_file: data/bestiary/site/areas/hoca-village.yaml
-  source_url: https://angels.wikidot.com/area:hoca-village
-- spawn_id: hoca-village__umi-dragonrider
+  summary_source_id: by-area
+- record_id: by-area__t011__r0068
+  name_raw: Explorer Eleanor
+  level_raw: '114'
+  level: 114
+  boss: true
+  aggressive: true
+  area_id: airship-station
+  area_name_raw: Airship Station
+  summary_source_id: by-area
+- record_id: by-area__t011__r0067
+  name_raw: Soldier Murray
+  level_raw: '114'
+  level: 114
+  boss: true
+  aggressive: true
+  area_id: airship-station
+  area_name_raw: Airship Station
+  summary_source_id: by-area
+- record_id: by-area__t012__r0032
+  name_raw: Evil Spider Elinna
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: false
+  area_id: building-blocks-city
+  area_name_raw: Building Blocks City
+  summary_source_id: by-area
+- record_id: by-area__t010__r0048
+  name_raw: Fierce Knight William
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: true
+  area_id: sunshine-palace
+  area_name_raw: Sunshine Palace
+  summary_source_id: by-area
+- record_id: by-area__t011__r0040
+  name_raw: Godly Ted
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: true
+  area_id: winding-flower-corridor
+  area_name_raw: Winding Flower Corridor
+  summary_source_id: by-area
+- record_id: by-area__t011__r0069
+  name_raw: Skyman Carl
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: true
+  area_id: airship-station
+  area_name_raw: Airship Station
+  summary_source_id: by-area
+- record_id: by-area__t009__r0063
+  name_raw: Spearman Kente
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: true
+  area_id: fantastic-sand-city
+  area_name_raw: Fantastic Sand City
+  summary_source_id: by-area
+- record_id: by-area__t013__r0041
   name_raw: U'mi - Dragonrider
   level_raw: '115'
   level: 115
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: hoca-village
   area_name_raw: Hoca Village
-  source_file: data/bestiary/site/areas/hoca-village.yaml
-  source_url: https://angels.wikidot.com/area:hoca-village
-- spawn_id: rusty-pipe-lane__withered-nyth
+  summary_source_id: by-area
+- record_id: by-area__t014__r0037
+  name_raw: Wandering Statue Nulie
+  level_raw: '115'
+  level: 115
+  boss: true
+  aggressive: false
+  area_id: niro-river
+  area_name_raw: Niro River
+  summary_source_id: by-area
+- record_id: by-area__t014__r0038
+  name_raw: All Seeing Eye Philosphin
+  level_raw: '117'
+  level: 117
+  boss: true
+  aggressive: false
+  area_id: niro-river
+  area_name_raw: Niro River
+  summary_source_id: by-area
+- record_id: by-area__t011__r0080
+  name_raw: Crazy Lorna
+  level_raw: '118'
+  level: 118
+  boss: true
+  aggressive: true
+  area_id: bouleuterion
+  area_name_raw: Bouleuterion
+  summary_source_id: by-area
+- record_id: by-area__t012__r0037
+  name_raw: Mage Cathy
+  level_raw: '118'
+  level: 118
+  boss: true
+  aggressive: false
+  area_id: building-blocks-city
+  area_name_raw: Building Blocks City
+  summary_source_id: by-area
+- record_id: by-area__t009__r0084
+  name_raw: Confused Smoker Sid
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: true
+  area_id: leviathans-bedroom
+  area_name_raw: Leviathan’s Bedroom
+  summary_source_id: by-area
+- record_id: by-area__t013__r0053
+  name_raw: Flower Crab Midd
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: false
+  area_id: rex-point
+  area_name_raw: Rex Point
+  summary_source_id: by-area
+- record_id: by-area__t014__r0039
+  name_raw: Pyramid Dancer Natis
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: false
+  area_id: niro-river
+  area_name_raw: Niro River
+  summary_source_id: by-area
+- record_id: by-area__t010__r0047
+  name_raw: Sacrificial Linda
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: true
+  area_id: sunshine-palace
+  area_name_raw: Sunshine Palace
+  summary_source_id: by-area
+- record_id: by-area__t012__r0029
+  name_raw: Toy Chief Guardian Romso
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: false
+  area_id: building-blocks-city
+  area_name_raw: Building Blocks City
+  summary_source_id: by-area
+- record_id: by-area__t011__r0081
+  name_raw: Warrior Tatalo
+  level_raw: '120'
+  level: 120
+  boss: true
+  aggressive: true
+  area_id: bouleuterion
+  area_name_raw: Bouleuterion
+  summary_source_id: by-area
+- record_id: by-area__t011__r0092
+  name_raw: Season Coat
+  level_raw: '121'
+  level: 121
+  boss: true
+  aggressive: true
+  area_id: season-garden
+  area_name_raw: Season Garden
+  summary_source_id: by-area
+- record_id: by-area__t011__r0093
+  name_raw: Envoy Alice
+  level_raw: '123'
+  level: 123
+  boss: true
+  aggressive: true
+  area_id: season-garden
+  area_name_raw: Season Garden
+  summary_source_id: by-area
+- record_id: by-area__t011__r0082
+  name_raw: Pontiff Barry
+  level_raw: '123'
+  level: 123
+  boss: true
+  aggressive: true
+  area_id: bouleuterion
+  area_name_raw: Bouleuterion
+  summary_source_id: by-area
+- record_id: by-area__t013__r0054
+  name_raw: Turtle Dragon Ch
+  level_raw: '123'
+  level: 123
+  boss: true
+  aggressive: false
+  area_id: rex-point
+  area_name_raw: Rex Point
+  summary_source_id: by-area
+- record_id: by-area__t009__r0073
+  name_raw: Dancing Girl Bonnie
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: true
+  area_id: nightmare-palace
+  area_name_raw: Nightmare Palace
+  summary_source_id: by-area
+- record_id: by-area__t012__r0044
+  name_raw: Fruit Leader Bern
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: false
+  area_id: fruit-town
+  area_name_raw: Fruit Town
+  summary_source_id: by-area
+- record_id: by-area__t013__r0055
+  name_raw: Holala
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: false
+  area_id: rex-point
+  area_name_raw: Rex Point
+  summary_source_id: by-area
+- record_id: by-area__t011__r0094
+  name_raw: Mort the Claw
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: true
+  area_id: season-garden
+  area_name_raw: Season Garden
+  summary_source_id: by-area
+- record_id: by-area__t014__r0050
+  name_raw: Pharaoh's Wife Nefertina
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: false
+  area_id: dune-oasis
+  area_name_raw: Dune Oasis
+  summary_source_id: by-area
+- record_id: by-area__t009__r0086
+  name_raw: Scorp.Emperor Adrian
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: true
+  area_id: leviathans-bedroom
+  area_name_raw: Leviathan’s Bedroom
+  summary_source_id: by-area
+- record_id: by-area__t009__r0074
+  name_raw: Scorpion Nick
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: true
+  area_id: nightmare-palace
+  area_name_raw: Nightmare Palace
+  summary_source_id: by-area
+- record_id: by-area__t010__r0046
+  name_raw: Silver Lord Nelio
+  level_raw: '125'
+  level: 125
+  boss: true
+  aggressive: true
+  area_id: sunshine-palace
+  area_name_raw: Sunshine Palace
+  summary_source_id: by-area
+- record_id: by-area__t014__r0051
+  name_raw: Horus the Nile Naga Mage king
+  level_raw: '127'
+  level: 127
+  boss: true
+  aggressive: false
+  area_id: dune-oasis
+  area_name_raw: Dune Oasis
+  summary_source_id: by-area
+- record_id: by-area__t012__r0047
+  name_raw: Dark Tutor Aslander
+  level_raw: '128'
+  level: 128
+  boss: true
+  aggressive: false
+  area_id: fruit-town
+  area_name_raw: Fruit Town
+  summary_source_id: by-area
+- record_id: more-map__t004__r0016
+  name_raw: Flower Queen Peggy
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: false
+  area_id: samara-woods
+  area_name_raw: Samara Woods
+  summary_source_id: more-map
+- record_id: by-area__t014__r0052
+  name_raw: Hornet King Dumit
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: false
+  area_id: dune-oasis
+  area_name_raw: Dune Oasis
+  summary_source_id: by-area
+- record_id: by-area__t009__r0088
+  name_raw: Lantern Chacha
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: true
+  area_id: leviathans-bedroom
+  area_name_raw: Leviathan’s Bedroom
+  summary_source_id: by-area
+- record_id: by-area__t012__r0058
+  name_raw: Leader North
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: false
+  area_id: chocolate-village
+  area_name_raw: Chocolate Village
+  summary_source_id: by-area
+- record_id: by-area__t009__r0087
+  name_raw: Leviathan
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: true
+  area_id: leviathans-bedroom
+  area_name_raw: Leviathan’s Bedroom
+  summary_source_id: by-area
+- record_id: by-area__t012__r0052
+  name_raw: Love Fighter Lisa
+  level_raw: '130'
+  level: 130
+  boss: true
+  aggressive: false
+  area_id: fruit-town
+  area_name_raw: Fruit Town
+  summary_source_id: by-area
+- record_id: by-area__t011__r0108
+  name_raw: Charming Daphne
+  level_raw: '131'
+  level: 131
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t011__r0109
+  name_raw: Mystic Keith
+  level_raw: '131'
+  level: 131
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t012__r0057
+  name_raw: Sky Walker Silva
+  level_raw: '132'
+  level: 132
+  boss: true
+  aggressive: false
+  area_id: chocolate-village
+  area_name_raw: Chocolate Village
+  summary_source_id: by-area
+- record_id: by-area__t011__r0110
+  name_raw: Dancing Simon
+  level_raw: '133'
+  level: 133
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: more-map__t004__r0017
+  name_raw: Hedgehog Warrior Podgey
+  level_raw: '133'
+  level: 133
+  boss: true
+  aggressive: false
+  area_id: samara-woods
+  area_name_raw: Samara Woods
+  summary_source_id: more-map
+- record_id: by-area__t011__r0113
+  name_raw: Rayman
+  level_raw: '133'
+  level: 133
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t011__r0112
+  name_raw: Botti Warden
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t011__r0111
+  name_raw: Fallen Martin
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t012__r0086
+  name_raw: Gluttonous Chef Rolance
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: false
+  area_id: chocolate-forest
+  area_name_raw: Chocolate Forest
+  summary_source_id: by-area
+- record_id: by-area__t011__r0114
+  name_raw: Priest Terence
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: more-map__t004__r0018
+  name_raw: Riceballer Taiyomaru
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: false
+  area_id: samara-woods
+  area_name_raw: Samara Woods
+  summary_source_id: more-map
+- record_id: by-area__t012__r0065
+  name_raw: Sandwich Warrior Jasson
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: false
+  area_id: chocolate-village
+  area_name_raw: Chocolate Village
+  summary_source_id: by-area
+- record_id: by-area__t012__r0070
+  name_raw: Strawberry Guard Maya
+  level_raw: '135'
+  level: 135
+  boss: true
+  aggressive: false
+  area_id: strawberry-garden
+  area_name_raw: Strawberry Garden
+  summary_source_id: by-area
+- record_id: by-area__t012__r0078
+  name_raw: Chief Fruit Spearman
+  level_raw: '138'
+  level: 138
+  boss: true
+  aggressive: false
+  area_id: strawberry-garden
+  area_name_raw: Strawberry Garden
+  summary_source_id: by-area
+- record_id: by-area__t012__r0083
+  name_raw: Vanilla Krem
+  level_raw: '138'
+  level: 138
+  boss: true
+  aggressive: false
+  area_id: chocolate-forest
+  area_name_raw: Chocolate Forest
+  summary_source_id: by-area
+- record_id: by-area__t011__r0115
+  name_raw: Bloody Hoof
+  level_raw: '140'
+  level: 140
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: by-area__t012__r0077
+  name_raw: Chief Cheese Warrior
+  level_raw: '140'
+  level: 140
+  boss: true
+  aggressive: false
+  area_id: strawberry-garden
+  area_name_raw: Strawberry Garden
+  summary_source_id: by-area
+- record_id: by-area__t012__r0091
+  name_raw: Poker Leader Tilla
+  level_raw: '140'
+  level: 140
+  boss: true
+  aggressive: false
+  area_id: chocolate-forest
+  area_name_raw: Chocolate Forest
+  summary_source_id: by-area
+- record_id: by-area__t011__r0116
+  name_raw: Lilith
+  level_raw: '145'
+  level: 145
+  boss: true
+  aggressive: true
+  area_id: botti-palace
+  area_name_raw: Botti Palace
+  summary_source_id: by-area
+- record_id: more-map__t005__r0016
+  name_raw: Magical Harp
+  level_raw: '150'
+  level: 150
+  boss: true
+  aggressive: false
+  area_id: sweet-orchard
+  area_name_raw: Sweet Orchard
+  summary_source_id: more-map
+- record_id: more-map__t004__r0035
+  name_raw: Phantasm Reian
+  level_raw: '150'
+  level: 150
+  boss: true
+  aggressive: false
+  area_id: edo-city
+  area_name_raw: Edo City
+  summary_source_id: more-map
+- record_id: more-map__t005__r0017
+  name_raw: Bluegrass King Singa
+  level_raw: '153'
+  level: 153
+  boss: true
+  aggressive: false
+  area_id: sweet-orchard
+  area_name_raw: Sweet Orchard
+  summary_source_id: more-map
+- record_id: more-map__t004__r0036
+  name_raw: Centennial Storm
+  level_raw: '153'
+  level: 153
+  boss: true
+  aggressive: false
+  area_id: edo-city
+  area_name_raw: Edo City
+  summary_source_id: more-map
+- record_id: more-map__t005__r0018
+  name_raw: General Gerald
+  level_raw: '155'
+  level: 155
+  boss: true
+  aggressive: false
+  area_id: sweet-orchard
+  area_name_raw: Sweet Orchard
+  summary_source_id: more-map
+- record_id: more-map__t004__r0037
+  name_raw: Massive Duraga
+  level_raw: '155'
+  level: 155
+  boss: true
+  aggressive: false
+  area_id: edo-city
+  area_name_raw: Edo City
+  summary_source_id: more-map
+- record_id: more-map__t005__r0035
+  name_raw: Black Widow Bari
+  level_raw: '165'
+  level: 165
+  boss: true
+  aggressive: false
+  area_id: fruity-village
+  area_name_raw: Fruity Village
+  summary_source_id: more-map
+- record_id: more-map__t005__r0036
+  name_raw: Crab Gabe
+  level_raw: '168'
+  level: 168
+  boss: true
+  aggressive: false
+  area_id: fruity-village
+  area_name_raw: Fruity Village
+  summary_source_id: more-map
+- record_id: more-map__t004__r0054
+  name_raw: Purple Rice King
+  level_raw: '170'
+  level: 170
+  boss: true
+  aggressive: false
+  area_id: joy-festival
+  area_name_raw: Joy Festival
+  summary_source_id: more-map
+- record_id: more-map__t005__r0037
+  name_raw: Red Elf Poppy
+  level_raw: '170'
+  level: 170
+  boss: true
+  aggressive: false
+  area_id: fruity-village
+  area_name_raw: Fruity Village
+  summary_source_id: more-map
+- record_id: more-map__t004__r0055
+  name_raw: Charmabel Imp
+  level_raw: '173'
+  level: 173
+  boss: true
+  aggressive: false
+  area_id: joy-festival
+  area_name_raw: Joy Festival
+  summary_source_id: more-map
+- record_id: more-map__t004__r0056
+  name_raw: Kappa Jumon
+  level_raw: '175'
+  level: 175
+  boss: true
+  aggressive: false
+  area_id: joy-festival
+  area_name_raw: Joy Festival
+  summary_source_id: more-map
+- record_id: more-map__t004__r0073
+  name_raw: Flower Princess Ruri
+  level_raw: '180'
+  level: 180
+  boss: true
+  aggressive: false
+  area_id: sakura-valley
+  area_name_raw: Sakura Valley
+  summary_source_id: more-map
+- record_id: more-map__t005__r0054
+  name_raw: Mr Know-It-All
+  level_raw: '180'
+  level: 180
+  boss: true
+  aggressive: false
+  area_id: jade-garden
+  area_name_raw: Jade Garden
+  summary_source_id: more-map
+- record_id: more-map__t004__r0074
+  name_raw: Dancer Mizzy
+  level_raw: '183'
+  level: 183
+  boss: true
+  aggressive: false
+  area_id: sakura-valley
+  area_name_raw: Sakura Valley
+  summary_source_id: more-map
+- record_id: more-map__t005__r0055
+  name_raw: Officer Ryaon
+  level_raw: '183'
+  level: 183
+  boss: true
+  aggressive: false
+  area_id: jade-garden
+  area_name_raw: Jade Garden
+  summary_source_id: more-map
+- record_id: more-map__t005__r0056
+  name_raw: Diamond Wang
+  level_raw: '185'
+  level: 185
+  boss: true
+  aggressive: false
+  area_id: jade-garden
+  area_name_raw: Jade Garden
+  summary_source_id: more-map
+- record_id: more-map__t004__r0075
+  name_raw: Sumo Wrestler Kichisuke
+  level_raw: '185'
+  level: 185
+  boss: true
+  aggressive: false
+  area_id: sakura-valley
+  area_name_raw: Sakura Valley
+  summary_source_id: more-map
+- record_id: more-map__t004__r0092
+  name_raw: Evil Captain One-Eye
+  level_raw: '190'
+  level: 190
+  boss: true
+  aggressive: false
+  area_id: hot-spring-resort
+  area_name_raw: Hot Spring Resort
+  summary_source_id: more-map
+- record_id: more-map__t005__r0073
+  name_raw: Sirabin
+  level_raw: '190'
+  level: 190
+  boss: true
+  aggressive: false
+  area_id: luscious-grange
+  area_name_raw: Luscious Grange
+  summary_source_id: more-map
+- record_id: more-map__t006__r0016
+  name_raw: Treasure Pearl Carly
+  level_raw: '190'
+  level: 190
+  boss: true
+  aggressive: false
+  area_id: mariam-waterway
+  area_name_raw: Mariam Waterway
+  summary_source_id: more-map
+- record_id: more-map__t005__r0074
+  name_raw: Cacaou
+  level_raw: '193'
+  level: 193
+  boss: true
+  aggressive: false
+  area_id: luscious-grange
+  area_name_raw: Luscious Grange
+  summary_source_id: more-map
+- record_id: more-map__t004__r0093
+  name_raw: Monkey Lord Yoni
+  level_raw: '193'
+  level: 193
+  boss: true
+  aggressive: false
+  area_id: hot-spring-resort
+  area_name_raw: Hot Spring Resort
+  summary_source_id: more-map
+- record_id: more-map__t006__r0017
+  name_raw: Winged Bleak
+  level_raw: '193'
+  level: 193
+  boss: true
+  aggressive: false
+  area_id: mariam-waterway
+  area_name_raw: Mariam Waterway
+  summary_source_id: more-map
+- record_id: more-map__t005__r0075
+  name_raw: Dougard
+  level_raw: '195'
+  level: 195
+  boss: true
+  aggressive: false
+  area_id: luscious-grange
+  area_name_raw: Luscious Grange
+  summary_source_id: more-map
+- record_id: more-map__t004__r0094
+  name_raw: Foxy Bandit Bert
+  level_raw: '195'
+  level: 195
+  boss: true
+  aggressive: false
+  area_id: hot-spring-resort
+  area_name_raw: Hot Spring Resort
+  summary_source_id: more-map
+- record_id: more-map__t006__r0018
+  name_raw: King Raoa
+  level_raw: '195'
+  level: 195
+  boss: true
+  aggressive: false
+  area_id: mariam-waterway
+  area_name_raw: Mariam Waterway
+  summary_source_id: more-map
+- record_id: more-map__t006__r0035
+  name_raw: Captain Banjeowl
+  level_raw: '200'
+  level: 200
+  boss: true
+  aggressive: false
+  area_id: shuwa-market
+  area_name_raw: Shuwa Market
+  summary_source_id: more-map
+- record_id: more-map__t005__r0092
+  name_raw: King Merdell
+  level_raw: '200'
+  level: 200
+  boss: true
+  aggressive: false
+  area_id: branch-way
+  area_name_raw: Branch Way
+  summary_source_id: more-map
+- record_id: more-map__t004__r0111
+  name_raw: Mega Snail Mobley
+  level_raw: '200'
+  level: 200
+  boss: true
+  aggressive: false
+  area_id: fox-shrine
+  area_name_raw: Fox Shrine
+  summary_source_id: more-map
+- record_id: more-map__t004__r0112
+  name_raw: Hound Deity Sha
+  level_raw: '203'
+  level: 203
+  boss: true
+  aggressive: false
+  area_id: fox-shrine
+  area_name_raw: Fox Shrine
+  summary_source_id: more-map
+- record_id: more-map__t005__r0093
+  name_raw: Leader Ulala
+  level_raw: '203'
+  level: 203
+  boss: true
+  aggressive: false
+  area_id: branch-way
+  area_name_raw: Branch Way
+  summary_source_id: more-map
+- record_id: more-map__t006__r0036
+  name_raw: Sergeant Tremu
+  level_raw: '203'
+  level: 203
+  boss: true
+  aggressive: false
+  area_id: shuwa-market
+  area_name_raw: Shuwa Market
+  summary_source_id: more-map
+- record_id: more-map__t004__r0113
+  name_raw: Accursed Damon
+  level_raw: '205'
+  level: 205
+  boss: true
+  aggressive: false
+  area_id: fox-shrine
+  area_name_raw: Fox Shrine
+  summary_source_id: more-map
+- record_id: more-map__t005__r0094
+  name_raw: King Garuma
+  level_raw: '205'
+  level: 205
+  boss: true
+  aggressive: false
+  area_id: branch-way
+  area_name_raw: Branch Way
+  summary_source_id: more-map
+- record_id: more-map__t006__r0037
+  name_raw: Lifeguard Orklo
+  level_raw: '205'
+  level: 205
+  boss: true
+  aggressive: false
+  area_id: shuwa-market
+  area_name_raw: Shuwa Market
+  summary_source_id: more-map
+- record_id: more-map__t005__r0111
+  name_raw: Oliveback Croc Gulio
+  level_raw: '210'
+  level: 210
+  boss: true
+  aggressive: false
+  area_id: lost-trail
+  area_name_raw: Lost Trail
+  summary_source_id: more-map
+- record_id: more-map__t004__r0130
+  name_raw: Thunderdrake Raimu
+  level_raw: '210'
+  level: 210
+  boss: true
+  aggressive: false
+  area_id: ninja-land
+  area_name_raw: Ninja Land
+  summary_source_id: more-map
+- record_id: more-map__t007__r0016
+  name_raw: Tinker Becker
+  level_raw: '212'
+  level: 212
+  boss: true
+  aggressive: false
+  area_id: metal-scrapyard
+  area_name_raw: Metal Scrapyard
+  summary_source_id: more-map
+- record_id: more-map__t005__r0112
+  name_raw: Assassin Bamboo Cin
+  level_raw: '213'
+  level: 213
+  boss: true
+  aggressive: false
+  area_id: lost-trail
+  area_name_raw: Lost Trail
+  summary_source_id: more-map
+- record_id: more-map__t004__r0131
+  name_raw: Red General Fusho
+  level_raw: '213'
+  level: 213
+  boss: true
+  aggressive: false
+  area_id: ninja-land
+  area_name_raw: Ninja Land
+  summary_source_id: more-map
+- record_id: more-map__t007__r0017
+  name_raw: Lethal Nez
+  level_raw: '214'
+  level: 214
+  boss: true
+  aggressive: false
+  area_id: metal-scrapyard
+  area_name_raw: Metal Scrapyard
+  summary_source_id: more-map
+- record_id: more-map__t004__r0132
+  name_raw: Ghostly Sanosuke
+  level_raw: '215'
+  level: 215
+  boss: true
+  aggressive: false
+  area_id: ninja-land
+  area_name_raw: Ninja Land
+  summary_source_id: more-map
+- record_id: more-map__t005__r0113
+  name_raw: Pop Diva Camara
+  level_raw: '215'
+  level: 215
+  boss: true
+  aggressive: false
+  area_id: lost-trail
+  area_name_raw: Lost Trail
+  summary_source_id: more-map
+- record_id: more-map__t007__r0018
+  name_raw: Prickly Maus
+  level_raw: '215'
+  level: 215
+  boss: true
+  aggressive: false
+  area_id: metal-scrapyard
+  area_name_raw: Metal Scrapyard
+  summary_source_id: more-map
+- record_id: more-map__t006__r0054
+  name_raw: Seamstress Wella
+  level_raw: '215'
+  level: 215
+  boss: true
+  aggressive: false
+  area_id: bayan-village
+  area_name_raw: Bayan Village
+  summary_source_id: more-map
+- record_id: more-map__t006__r0055
+  name_raw: Magician Kas
+  level_raw: '218'
+  level: 218
+  boss: true
+  aggressive: false
+  area_id: bayan-village
+  area_name_raw: Bayan Village
+  summary_source_id: more-map
+- record_id: more-map__t006__r0056
+  name_raw: Cutter Meister
+  level_raw: '220'
+  level: 220
+  boss: true
+  aggressive: false
+  area_id: bayan-village
+  area_name_raw: Bayan Village
+  summary_source_id: more-map
+- record_id: more-map__t004__r0154
+  name_raw: Fox Spirit Tamamo
+  level_raw: '220'
+  level: 220
+  boss: true
+  aggressive: true
+  area_id: jade-tassel-city
+  area_name_raw: Jade Tassel City
+  summary_source_id: more-map
+- record_id: more-map__t004__r0155
+  name_raw: King Ashuro
+  level_raw: '220'
+  level: 220
+  boss: true
+  aggressive: true
+  area_id: jade-tassel-city
+  area_name_raw: Jade Tassel City
+  summary_source_id: more-map
+- record_id: more-map__t004__r0153
+  name_raw: King Oni
+  level_raw: '220'
+  level: 220
+  boss: true
+  aggressive: true
+  area_id: jade-tassel-city
+  area_name_raw: Jade Tassel City
+  summary_source_id: more-map
+- record_id: more-map__t007__r0035
   name_raw: Withered Nyth
   level_raw: '221'
   level: 221
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rusty-pipe-lane
   area_name_raw: Rusty Pipe Lane
-  source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
-  source_url: https://angels.wikidot.com/area:rusty-pipe-lane
-- spawn_id: rusty-pipe-lane__ancient-mosquito
+  summary_source_id: more-map
+- record_id: more-map__t007__r0036
   name_raw: Ancient Mosquito
   level_raw: '223'
   level: 223
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rusty-pipe-lane
   area_name_raw: Rusty Pipe Lane
-  source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
-  source_url: https://angels.wikidot.com/area:rusty-pipe-lane
-- spawn_id: rusty-pipe-lane__deadly-brach
+  summary_source_id: more-map
+- record_id: more-map__t007__r0037
   name_raw: Deadly Brach
   level_raw: '225'
   level: 225
-  boss_raw: 'Yes'
   boss: true
-  aggressive_raw: 'No'
+  aggressive: false
   area_id: rusty-pipe-lane
   area_name_raw: Rusty Pipe Lane
-  source_file: data/bestiary/site/areas/rusty-pipe-lane.yaml
-  source_url: https://angels.wikidot.com/area:rusty-pipe-lane
+  summary_source_id: more-map
+- record_id: more-map__t005__r0154
+  name_raw: Bug King Wartoz
+  level_raw: '230'
+  level: 230
+  boss: true
+  aggressive: true
+  area_id: queen-bee-hideout
+  area_name_raw: Queen Bee Hideout
+  summary_source_id: more-map
+- record_id: more-map__t005__r0153
+  name_raw: Queen Bee Femirse
+  level_raw: '230'
+  level: 230
+  boss: true
+  aggressive: true
+  area_id: queen-bee-hideout
+  area_name_raw: Queen Bee Hideout
+  summary_source_id: more-map
+- record_id: more-map__t005__r0152
+  name_raw: Wayrane
+  level_raw: '230'
+  level: 230
+  boss: true
+  aggressive: true
+  area_id: queen-bee-hideout
+  area_name_raw: Queen Bee Hideout
+  summary_source_id: more-map
+- record_id: more-map__t006__r0073
+  name_raw: Wolf Mazicka
+  level_raw: '230'
+  level: 230
+  boss: true
+  aggressive: false
+  area_id: deserted-ruins
+  area_name_raw: Deserted Ruins
+  summary_source_id: more-map
+- record_id: more-map__t007__r0054
+  name_raw: Cherubic Babe
+  level_raw: '232'
+  level: 232
+  boss: true
+  aggressive: false
+  area_id: joaquin
+  area_name_raw: Joaquin
+  summary_source_id: more-map
+- record_id: more-map__t006__r0074
+  name_raw: Elephant Buerobos
+  level_raw: '233'
+  level: 233
+  boss: true
+  aggressive: false
+  area_id: deserted-ruins
+  area_name_raw: Deserted Ruins
+  summary_source_id: more-map
+- record_id: more-map__t007__r0055
+  name_raw: Warrior Uriel
+  level_raw: '234'
+  level: 234
+  boss: true
+  aggressive: false
+  area_id: joaquin
+  area_name_raw: Joaquin
+  summary_source_id: more-map
+- record_id: more-map__t007__r0056
+  name_raw: Empress Geena
+  level_raw: '235'
+  level: 235
+  boss: true
+  aggressive: false
+  area_id: joaquin
+  area_name_raw: Joaquin
+  summary_source_id: more-map
+- record_id: more-map__t006__r0075
+  name_raw: Feline Boboro
+  level_raw: '235'
+  level: 235
+  boss: true
+  aggressive: false
+  area_id: deserted-ruins
+  area_name_raw: Deserted Ruins
+  summary_source_id: more-map
+- record_id: more-map__t006__r0092
+  name_raw: Seamtress Talia
+  level_raw: '240'
+  level: 240
+  boss: true
+  aggressive: true
+  area_id: siam-square
+  area_name_raw: Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t007__r0072
+  name_raw: Explosive Audrey
+  level_raw: '241'
+  level: 241
+  boss: true
+  aggressive: false
+  area_id: scrap-iron-works
+  area_name_raw: Scrap Iron Works
+  summary_source_id: more-map
+- record_id: more-map__t008__r0016
+  name_raw: Midorix
+  level_raw: '241'
+  level: 241
+  boss: true
+  aggressive: false
+  area_id: brilliant-boneyard
+  area_name_raw: Brilliant Boneyard
+  summary_source_id: more-map
+- record_id: more-map__t007__r0073
+  name_raw: Dragan the Guard
+  level_raw: '243'
+  level: 243
+  boss: true
+  aggressive: false
+  area_id: scrap-iron-works
+  area_name_raw: Scrap Iron Works
+  summary_source_id: more-map
+- record_id: more-map__t006__r0093
+  name_raw: Magician Foream
+  level_raw: '243'
+  level: 243
+  boss: true
+  aggressive: true
+  area_id: siam-square
+  area_name_raw: Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t008__r0017
+  name_raw: Nyan Knight
+  level_raw: '243'
+  level: 243
+  boss: true
+  aggressive: false
+  area_id: brilliant-boneyard
+  area_name_raw: Brilliant Boneyard
+  summary_source_id: more-map
+- record_id: more-map__t006__r0094
+  name_raw: Elf Rotush
+  level_raw: '245'
+  level: 245
+  boss: true
+  aggressive: true
+  area_id: siam-square
+  area_name_raw: Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t007__r0074
+  name_raw: Flamboyant Rupert
+  level_raw: '245'
+  level: 245
+  boss: true
+  aggressive: false
+  area_id: scrap-iron-works
+  area_name_raw: Scrap Iron Works
+  summary_source_id: more-map
+- record_id: more-map__t008__r0018
+  name_raw: Trentomel
+  level_raw: '245'
+  level: 245
+  boss: true
+  aggressive: false
+  area_id: brilliant-boneyard
+  area_name_raw: Brilliant Boneyard
+  summary_source_id: more-map
+- record_id: more-map__t006__r0106
+  name_raw: Hell - Seamtress Talia
+  level_raw: '250'
+  level: 250
+  boss: true
+  aggressive: true
+  area_id: hell-siam-square
+  area_name_raw: Hell Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t007__r0091
+  name_raw: Jelly Diane
+  level_raw: '251'
+  level: 251
+  boss: true
+  aggressive: false
+  area_id: sylvan-gardens
+  area_name_raw: Sylvan Gardens
+  summary_source_id: more-map
+- record_id: more-map__t008__r0035
+  name_raw: Maddi Brawler
+  level_raw: '251'
+  level: 251
+  boss: true
+  aggressive: false
+  area_id: ivory-forest
+  area_name_raw: Ivory Forest
+  summary_source_id: more-map
+- record_id: more-map__t009__r0016
+  name_raw: Wise Floofson
+  level_raw: '251'
+  level: 251
+  boss: true
+  aggressive: false
+  area_id: starglow-path
+  area_name_raw: Starglow Path
+  summary_source_id: more-map
+- record_id: more-map__t008__r0036
+  name_raw: Chainsaw Melono
+  level_raw: '253'
+  level: 253
+  boss: true
+  aggressive: false
+  area_id: ivory-forest
+  area_name_raw: Ivory Forest
+  summary_source_id: more-map
+- record_id: more-map__t009__r0017
+  name_raw: Chickaspark
+  level_raw: '253'
+  level: 253
+  boss: true
+  aggressive: false
+  area_id: starglow-path
+  area_name_raw: Starglow Path
+  summary_source_id: more-map
+- record_id: more-map__t007__r0092
+  name_raw: Gatling Morpheus
+  level_raw: '253'
+  level: 253
+  boss: true
+  aggressive: false
+  area_id: sylvan-gardens
+  area_name_raw: Sylvan Gardens
+  summary_source_id: more-map
+- record_id: more-map__t006__r0107
+  name_raw: Hell - Magician Foream
+  level_raw: '253'
+  level: 253
+  boss: true
+  aggressive: true
+  area_id: hell-siam-square
+  area_name_raw: Hell Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t006__r0108
+  name_raw: Hell - Elf Rotush
+  level_raw: '255'
+  level: 255
+  boss: true
+  aggressive: true
+  area_id: hell-siam-square
+  area_name_raw: Hell Siam Square
+  summary_source_id: more-map
+- record_id: more-map__t007__r0093
+  name_raw: Leafy Ellie
+  level_raw: '255'
+  level: 255
+  boss: true
+  aggressive: false
+  area_id: sylvan-gardens
+  area_name_raw: Sylvan Gardens
+  summary_source_id: more-map
+- record_id: more-map__t008__r0037
+  name_raw: Scarab Dixton
+  level_raw: '255'
+  level: 255
+  boss: true
+  aggressive: false
+  area_id: ivory-forest
+  area_name_raw: Ivory Forest
+  summary_source_id: more-map
+- record_id: more-map__t009__r0018
+  name_raw: Scout Syrena
+  level_raw: '255'
+  level: 255
+  boss: true
+  aggressive: false
+  area_id: starglow-path
+  area_name_raw: Starglow Path
+  summary_source_id: more-map
+- record_id: more-map__t006__r0133
+  name_raw: Beast Brahma
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: mahal-altar
+  area_name_raw: Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t006__r0131
+  name_raw: Guardian Yasha
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: mahal-altar
+  area_name_raw: Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t006__r0151
+  name_raw: Hell - Beast Brahma
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: hell-mahal-altar
+  area_name_raw: Hell Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t006__r0149
+  name_raw: Hell - Cuardian Yasha
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: hell-mahal-altar
+  area_name_raw: Hell Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t006__r0150
+  name_raw: Hell - King Lanka
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: hell-mahal-altar
+  area_name_raw: Hell Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t006__r0132
+  name_raw: King Lanka
+  level_raw: '260'
+  level: 260
+  boss: true
+  aggressive: true
+  area_id: mahal-altar
+  area_name_raw: Mahal Altar
+  summary_source_id: more-map
+- record_id: more-map__t009__r0035
+  name_raw: El Pearoll
+  level_raw: '261'
+  level: 261
+  boss: true
+  aggressive: false
+  area_id: academia-woods
+  area_name_raw: Academia Woods
+  summary_source_id: more-map
+- record_id: more-map__t008__r0054
+  name_raw: Stormy Owen
+  level_raw: '261'
+  level: 261
+  boss: true
+  aggressive: false
+  area_id: razorex-temple
+  area_name_raw: Razorex Temple
+  summary_source_id: more-map
+- record_id: more-map__t008__r0055
+  name_raw: Flowerpuff Marjorie
+  level_raw: '263'
+  level: 263
+  boss: true
+  aggressive: false
+  area_id: razorex-temple
+  area_name_raw: Razorex Temple
+  summary_source_id: more-map
+- record_id: more-map__t009__r0036
+  name_raw: Rafflesia
+  level_raw: '263'
+  level: 263
+  boss: true
+  aggressive: false
+  area_id: academia-woods
+  area_name_raw: Academia Woods
+  summary_source_id: more-map
+- record_id: more-map__t009__r0037
+  name_raw: Hunky Sebastian
+  level_raw: '265'
+  level: 265
+  boss: true
+  aggressive: false
+  area_id: academia-woods
+  area_name_raw: Academia Woods
+  summary_source_id: more-map
+- record_id: more-map__t008__r0056
+  name_raw: Ragey Kraver
+  level_raw: '265'
+  level: 265
+  boss: true
+  aggressive: false
+  area_id: razorex-temple
+  area_name_raw: Razorex Temple
+  summary_source_id: more-map
+- record_id: more-map__t007__r0110
+  name_raw: Fearless Ablo
+  level_raw: '266'
+  level: 266
+  boss: true
+  aggressive: false
+  area_id: paua-shell-harbor
+  area_name_raw: Paua Shell Harbor
+  summary_source_id: more-map
+- record_id: more-map__t007__r0111
+  name_raw: Sir Pitter Pan
+  level_raw: '268'
+  level: 268
+  boss: true
+  aggressive: false
+  area_id: paua-shell-harbor
+  area_name_raw: Paua Shell Harbor
+  summary_source_id: more-map
+- record_id: more-map__t007__r0112
+  name_raw: Passionate Rosie
+  level_raw: '270'
+  level: 270
+  boss: true
+  aggressive: false
+  area_id: paua-shell-harbor
+  area_name_raw: Paua Shell Harbor
+  summary_source_id: more-map
+- record_id: more-map__t008__r0073
+  name_raw: Monte Lucraz
+  level_raw: '271'
+  level: 271
+  boss: true
+  aggressive: false
+  area_id: whitefang-village
+  area_name_raw: Whitefang Village
+  summary_source_id: more-map
+- record_id: more-map__t010__r0016
+  name_raw: Patiboo
+  level_raw: '271'
+  level: 271
+  boss: true
+  aggressive: false
+  area_id: dial-desert
+  area_name_raw: Dial Desert
+  summary_source_id: more-map
+- record_id: more-map__t009__r0054
+  name_raw: Pegacorn
+  level_raw: '271'
+  level: 271
+  boss: true
+  aggressive: false
+  area_id: mana-ruins
+  area_name_raw: Mana Ruins
+  summary_source_id: more-map
+- record_id: more-map__t010__r0017
+  name_raw: Blotzie
+  level_raw: '273'
+  level: 273
+  boss: true
+  aggressive: false
+  area_id: dial-desert
+  area_name_raw: Dial Desert
+  summary_source_id: more-map
+- record_id: more-map__t009__r0055
+  name_raw: Savage Maxima
+  level_raw: '273'
+  level: 273
+  boss: true
+  aggressive: false
+  area_id: mana-ruins
+  area_name_raw: Mana Ruins
+  summary_source_id: more-map
+- record_id: more-map__t008__r0074
+  name_raw: Spellmaster Aiden
+  level_raw: '273'
+  level: 273
+  boss: true
+  aggressive: false
+  area_id: whitefang-village
+  area_name_raw: Whitefang Village
+  summary_source_id: more-map
+- record_id: more-map__t009__r0056
+  name_raw: Arcana Toridos
+  level_raw: '275'
+  level: 275
+  boss: true
+  aggressive: false
+  area_id: mana-ruins
+  area_name_raw: Mana Ruins
+  summary_source_id: more-map
+- record_id: more-map__t010__r0018
+  name_raw: Charatos
+  level_raw: '275'
+  level: 275
+  boss: true
+  aggressive: false
+  area_id: dial-desert
+  area_name_raw: Dial Desert
+  summary_source_id: more-map
+- record_id: more-map__t008__r0075
+  name_raw: Summer Rufus
+  level_raw: '275'
+  level: 275
+  boss: true
+  aggressive: false
+  area_id: whitefang-village
+  area_name_raw: Whitefang Village
+  summary_source_id: more-map
+- record_id: more-map__t007__r0129
+  name_raw: Empress Padine
+  level_raw: '276'
+  level: 276
+  boss: true
+  aggressive: false
+  area_id: drip-drop-passage
+  area_name_raw: Drip-drop Passage
+  summary_source_id: more-map
+- record_id: more-map__t007__r0130
+  name_raw: Berserker Brad
+  level_raw: '278'
+  level: 278
+  boss: true
+  aggressive: false
+  area_id: drip-drop-passage
+  area_name_raw: Drip-drop Passage
+  summary_source_id: more-map
+- record_id: more-map__t007__r0131
+  name_raw: Cryptic Vince
+  level_raw: '280'
+  level: 280
+  boss: true
+  aggressive: false
+  area_id: drip-drop-passage
+  area_name_raw: Drip-drop Passage
+  summary_source_id: more-map
+- record_id: more-map__t009__r0073
+  name_raw: Champion Bun
+  level_raw: '281'
+  level: 281
+  boss: true
+  aggressive: false
+  area_id: coo-village
+  area_name_raw: Coo Village
+  summary_source_id: more-map
+- record_id: more-map__t008__r0092
+  name_raw: Rubatub Chimp
+  level_raw: '281'
+  level: 281
+  boss: true
+  aggressive: false
+  area_id: sleepy-spring
+  area_name_raw: Sleepy Spring
+  summary_source_id: more-map
+- record_id: more-map__t010__r0035
+  name_raw: Tea Erin
+  level_raw: '281'
+  level: 281
+  boss: true
+  aggressive: false
+  area_id: greenfield
+  area_name_raw: Greenfield
+  summary_source_id: more-map
+- record_id: more-map__t010__r0036
+  name_raw: Bellarella
+  level_raw: '283'
+  level: 283
+  boss: true
+  aggressive: false
+  area_id: greenfield
+  area_name_raw: Greenfield
+  summary_source_id: more-map
+- record_id: more-map__t009__r0074
+  name_raw: Grand Assassin Lionel
+  level_raw: '283'
+  level: 283
+  boss: true
+  aggressive: false
+  area_id: coo-village
+  area_name_raw: Coo Village
+  summary_source_id: more-map
+- record_id: more-map__t008__r0093
+  name_raw: Nymphae Flore
+  level_raw: '283'
+  level: 283
+  boss: true
+  aggressive: false
+  area_id: sleepy-spring
+  area_name_raw: Sleepy Spring
+  summary_source_id: more-map
+- record_id: more-map__t008__r0094
+  name_raw: Captain Slashazard
+  level_raw: '285'
+  level: 285
+  boss: true
+  aggressive: false
+  area_id: sleepy-spring
+  area_name_raw: Sleepy Spring
+  summary_source_id: more-map
+- record_id: more-map__t009__r0075
+  name_raw: Gentleman Gary
+  level_raw: '285'
+  level: 285
+  boss: true
+  aggressive: false
+  area_id: coo-village
+  area_name_raw: Coo Village
+  summary_source_id: more-map
+- record_id: more-map__t010__r0037
+  name_raw: Paro Birb
+  level_raw: '285'
+  level: 285
+  boss: true
+  aggressive: false
+  area_id: greenfield
+  area_name_raw: Greenfield
+  summary_source_id: more-map
+- record_id: more-map__t007__r0151
+  name_raw: Earth Goddess Rhea
+  level_raw: '290'
+  level: 290
+  boss: true
+  aggressive: true
+  area_id: floral-palace
+  area_name_raw: Floral Palace
+  summary_source_id: more-map
+- record_id: more-map__t007__r0153
+  name_raw: Queen Franca
+  level_raw: '290'
+  level: 290
+  boss: true
+  aggressive: true
+  area_id: floral-palace
+  area_name_raw: Floral Palace
+  summary_source_id: more-map
+- record_id: more-map__t007__r0152
+  name_raw: Razor Jabberku
+  level_raw: '290'
+  level: 290
+  boss: true
+  aggressive: true
+  area_id: floral-palace
+  area_name_raw: Floral Palace
+  summary_source_id: more-map
+- record_id: more-map__t010__r0054
+  name_raw: Trendy Franca
+  level_raw: '291'
+  level: 291
+  boss: true
+  aggressive: false
+  area_id: rainbow-town
+  area_name_raw: Rainbow Town
+  summary_source_id: more-map
+- record_id: more-map__t009__r0092
+  name_raw: Steelhedge
+  level_raw: '292'
+  level: 292
+  boss: true
+  aggressive: false
+  area_id: ethereal-garden
+  area_name_raw: Ethereal Garden
+  summary_source_id: more-map
+- record_id: more-map__t010__r0055
+  name_raw: One-eye Gatos
+  level_raw: '293'
+  level: 293
+  boss: true
+  aggressive: false
+  area_id: rainbow-town
+  area_name_raw: Rainbow Town
+  summary_source_id: more-map
+- record_id: more-map__t009__r0093
+  name_raw: Peavender
+  level_raw: '293'
+  level: 293
+  boss: true
+  aggressive: false
+  area_id: ethereal-garden
+  area_name_raw: Ethereal Garden
+  summary_source_id: more-map
+- record_id: more-map__t010__r0056
+  name_raw: Circus Jester
+  level_raw: '295'
+  level: 295
+  boss: true
+  aggressive: false
+  area_id: rainbow-town
+  area_name_raw: Rainbow Town
+  summary_source_id: more-map
+- record_id: more-map__t009__r0094
+  name_raw: Strawflora
+  level_raw: '295'
+  level: 295
+  boss: true
+  aggressive: false
+  area_id: ethereal-garden
+  area_name_raw: Ethereal Garden
+  summary_source_id: more-map
+- record_id: more-map__t008__r0111
+  name_raw: Furious Khaza
+  level_raw: '296'
+  level: 296
+  boss: true
+  aggressive: false
+  area_id: transient-waters
+  area_name_raw: Transient Waters
+  summary_source_id: more-map
+- record_id: more-map__t008__r0112
+  name_raw: Ragafoe Hankel
+  level_raw: '298'
+  level: 298
+  boss: true
+  aggressive: false
+  area_id: transient-waters
+  area_name_raw: Transient Waters
+  summary_source_id: more-map
+- record_id: more-map__t008__r0113
+  name_raw: Salopil Spice
+  level_raw: '300'
+  level: 300
+  boss: true
+  aggressive: false
+  area_id: transient-waters
+  area_name_raw: Transient Waters
+  summary_source_id: more-map
+- record_id: more-map__t010__r0073
+  name_raw: Great Dustin
+  level_raw: '301'
+  level: 301
+  boss: true
+  aggressive: false
+  area_id: antler-mesa
+  area_name_raw: Antler Mesa
+  summary_source_id: more-map
+- record_id: more-map__t009__r0111
+  name_raw: Skull Shredder
+  level_raw: '301'
+  level: 301
+  boss: true
+  aggressive: false
+  area_id: daydream-library
+  area_name_raw: Daydream Library
+  summary_source_id: more-map
+- record_id: more-map__t009__r0112
+  name_raw: Chief Syreno
+  level_raw: '303'
+  level: 303
+  boss: true
+  aggressive: false
+  area_id: daydream-library
+  area_name_raw: Daydream Library
+  summary_source_id: more-map
+- record_id: more-map__t010__r0074
+  name_raw: Royal Meowna
+  level_raw: '303'
+  level: 303
+  boss: true
+  aggressive: false
+  area_id: antler-mesa
+  area_name_raw: Antler Mesa
+  summary_source_id: more-map
+- record_id: more-map__t010__r0075
+  name_raw: Ancient Anuxis
+  level_raw: '305'
+  level: 305
+  boss: true
+  aggressive: false
+  area_id: antler-mesa
+  area_name_raw: Antler Mesa
+  summary_source_id: more-map
+- record_id: more-map__t009__r0113
+  name_raw: Merlinhoot
+  level_raw: '305'
+  level: 305
+  boss: true
+  aggressive: false
+  area_id: daydream-library
+  area_name_raw: Daydream Library
+  summary_source_id: more-map
+- record_id: more-map__t008__r0130
+  name_raw: Halefire Baston
+  level_raw: '306'
+  level: 306
+  boss: true
+  aggressive: false
+  area_id: fragant-courtyard
+  area_name_raw: Fragant Courtyard
+  summary_source_id: more-map
+- record_id: more-map__t008__r0131
+  name_raw: Ghastly Moski
+  level_raw: '308'
+  level: 308
+  boss: true
+  aggressive: false
+  area_id: fragant-courtyard
+  area_name_raw: Fragant Courtyard
+  summary_source_id: more-map
+- record_id: more-map__t008__r0132
+  name_raw: Viva Tentawok
+  level_raw: '310'
+  level: 310
+  boss: true
+  aggressive: false
+  area_id: fragant-courtyard
+  area_name_raw: Fragant Courtyard
+  summary_source_id: more-map
+- record_id: more-map__t010__r0092
+  name_raw: Lady Carolyn
+  level_raw: '311'
+  level: 311
+  boss: true
+  aggressive: false
+  area_id: carrotiso
+  area_name_raw: Carrotiso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0093
+  name_raw: Sister Odelia
+  level_raw: '313'
+  level: 313
+  boss: true
+  aggressive: false
+  area_id: carrotiso
+  area_name_raw: Carrotiso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0094
+  name_raw: Steely Zato
+  level_raw: '315'
+  level: 315
+  boss: true
+  aggressive: false
+  area_id: carrotiso
+  area_name_raw: Carrotiso
+  summary_source_id: more-map
+- record_id: more-map__t008__r0149
+  name_raw: Crusadizard
+  level_raw: '316'
+  level: 316
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0130
+  name_raw: Trumpetoo
+  level_raw: '316'
+  level: 316
+  boss: true
+  aggressive: false
+  area_id: reminiscence-cloister
+  area_name_raw: Reminiscence Cloister
+  summary_source_id: more-map
+- record_id: more-map__t008__r0150
+  name_raw: Lunarix
+  level_raw: '318'
+  level: 318
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0131
+  name_raw: Matrix Punisher
+  level_raw: '318'
+  level: 318
+  boss: true
+  aggressive: false
+  area_id: reminiscence-cloister
+  area_name_raw: Reminiscence Cloister
+  summary_source_id: more-map
+- record_id: more-map__t008__r0151
+  name_raw: Taniel Wulfe
+  level_raw: '319'
+  level: 319
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t008__r0152
+  name_raw: Hellfire Razorex
+  level_raw: '320'
+  level: 320
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0132
+  name_raw: Indigo Colossus
+  level_raw: '320'
+  level: 320
+  boss: true
+  aggressive: false
+  area_id: reminiscence-cloister
+  area_name_raw: Reminiscence Cloister
+  summary_source_id: more-map
+- record_id: more-map__t008__r0153
+  name_raw: Infernal Lavamon
+  level_raw: '320'
+  level: 320
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t008__r0154
+  name_raw: Satrixia
+  level_raw: '320'
+  level: 320
+  boss: true
+  aggressive: true
+  area_id: flamefang-sanctum
+  area_name_raw: Flamefang Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t010__r0111
+  name_raw: Mage Alkon
+  level_raw: '321'
+  level: 321
+  boss: true
+  aggressive: false
+  area_id: cogsville
+  area_name_raw: Cogsville
+  summary_source_id: more-map
+- record_id: more-map__t010__r0112
+  name_raw: Ivy Sheela
+  level_raw: '323'
+  level: 323
+  boss: true
+  aggressive: false
+  area_id: cogsville
+  area_name_raw: Cogsville
+  summary_source_id: more-map
+- record_id: more-map__t010__r0113
+  name_raw: Tragic Sid
+  level_raw: '325'
+  level: 325
+  boss: true
+  aggressive: false
+  area_id: cogsville
+  area_name_raw: Cogsville
+  summary_source_id: more-map
+- record_id: more-map__t009__r0149
+  name_raw: Manahoot Girgil
+  level_raw: '326'
+  level: 326
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0150
+  name_raw: Ruby Firacorn
+  level_raw: '328'
+  level: 328
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0151
+  name_raw: Emerald Colossus
+  level_raw: '329'
+  level: 329
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0152
+  name_raw: Abyssal Drakos
+  level_raw: '330'
+  level: 330
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0153
+  name_raw: Arcane Kayote
+  level_raw: '330'
+  level: 330
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t009__r0154
+  name_raw: Devilish Datura
+  level_raw: '330'
+  level: 330
+  boss: true
+  aggressive: true
+  area_id: enchanted-sanctum
+  area_name_raw: Enchanted Sanctum
+  summary_source_id: more-map
+- record_id: more-map__t010__r0130
+  name_raw: Ragey Gardios
+  level_raw: '331'
+  level: 331
+  boss: true
+  aggressive: false
+  area_id: chrono-ruins
+  area_name_raw: Chrono Ruins
+  summary_source_id: more-map
+- record_id: more-map__t010__r0131
+  name_raw: Lady Eliza
+  level_raw: '333'
+  level: 333
+  boss: true
+  aggressive: false
+  area_id: chrono-ruins
+  area_name_raw: Chrono Ruins
+  summary_source_id: more-map
+- record_id: more-map__t010__r0132
+  name_raw: Oak Timer
+  level_raw: '335'
+  level: 335
+  boss: true
+  aggressive: false
+  area_id: chrono-ruins
+  area_name_raw: Chrono Ruins
+  summary_source_id: more-map
+- record_id: more-map__t010__r0149
+  name_raw: Angry Rabito
+  level_raw: '336'
+  level: 336
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0150
+  name_raw: Meister Soloma
+  level_raw: '338'
+  level: 338
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0151
+  name_raw: Oathbound Oscar
+  level_raw: '339'
+  level: 339
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0153
+  name_raw: Fallen Axialus
+  level_raw: '340'
+  level: 340
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0152
+  name_raw: King Lagus
+  level_raw: '340'
+  level: 340
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
+- record_id: more-map__t010__r0154
+  name_raw: Lady Angelika
+  level_raw: '340'
+  level: 340
+  boss: true
+  aggressive: true
+  area_id: apocalypso
+  area_name_raw: Apocalypso
+  summary_source_id: more-map
