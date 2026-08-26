@@ -3,10 +3,11 @@ purpose: canonical_historical_reference
 status: in_progress
 source_scope:
   primary_site: "https://angels.wikidot.com/"
+  bestiary_alphabetic: "https://angels.wikidot.com/bestiary:alphabetic"
   bestiary_by_area: "https://angels.wikidot.com/bestiary:by-area"
   bestiary_by_level: "https://angels.wikidot.com/bestiary:by-level"
   bestiary_more_map: "https://angels.wikidot.com/bestiary:more-map"
-  retrieval_mirror_pattern: "https://www.aowiki.uk/pages/area_<slug>.html"
+  retrieval_mirror_pattern: "https://www.aowiki.uk/pages/<legacy-page>.html"
   retrieval_mirror_rule: >-
     Use only when the mirrored page identifies its content as original angels.wikidot.com
     material. Record the mirror separately from source origin.
@@ -18,6 +19,9 @@ source_caveats:
   - >-
     Preserve historical drop values exactly, but keep client_confirmation pending until
     target-version PAK/DAT or runtime evidence verifies them.
+  - >-
+    The Alphabetic, By Area, By Level, and More Map views are independent historical
+    observations. Conflicts between them are preserved rather than silently reconciled.
   - >-
     Do not merge the newer AOWiki database into this historical snapshot without an
     explicit separate provenance layer.
