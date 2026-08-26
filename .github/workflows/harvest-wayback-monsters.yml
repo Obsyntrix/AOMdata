@@ -76,16 +76,46 @@ jobs:
             sed -n '1,160p' data/bestiary/audit.yaml
           fi
 
-      - name: Commit recovered preservation data
+      - name: Stage recovered source snapshots
         run: |
           git config user.name 'AOmega Preservation Bot'
           git config user.email 'actions@users.noreply.github.com'
           git add data/bestiary
           if git diff --cached --quiet; then
-            echo 'No preservation changes to commit.'
+            echo 'No preservation changes to stage.'
+            echo 'RECOVERY_COMMIT=' >> "$GITHUB_ENV"
+            exit 0
+          fi
+          git commit -m 'Stage recovered Angels Wiki bestiary pages'
+          echo "RECOVERY_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Publish recovery onto latest main
+        if: env.RECOVERY_COMMIT != ''
+        env:
+          AOMDATA_WAYBACK_AREA_DELAY: '0.35'
+          AOMDATA_WAYBACK_RETRIES: '4'
+          AOMDATA_WAYBACK_LOOKUP_WORKERS: '4'
+        run: |
+          # The archive lookup is the expensive part. Preserve those recovered monster
+          # snapshots, then rebuild all cheap/generated layers on top of the newest main.
+          # This avoids rebasing stale generated indexes when main moves during a long run.
+          git fetch origin main
+          git checkout -B preservation-publish origin/main
+
+          git checkout "$RECOVERY_COMMIT" -- data/bestiary/site/monster-pages
+          git checkout "$RECOVERY_COMMIT" -- data/bestiary/wayback-monster-report.yaml
+
+          # Recompute the inexpensive layers against current main instead of carrying
+          # stale generated files across the branch boundary.
+          python tools/capture_bestiary_alphabetic.py
+          python tools/harvest_wayback_areas.py
+          python tools/build_bestiary_indexes.py
+          python tools/audit_bestiary.py
+
+          git add data/bestiary
+          if git diff --cached --quiet; then
+            echo 'No preservation changes to publish.'
             exit 0
           fi
           git commit -m 'Recover archived Angels Wiki bestiary pages'
-          git fetch origin main
-          git rebase origin/main
           git push origin HEAD:main
