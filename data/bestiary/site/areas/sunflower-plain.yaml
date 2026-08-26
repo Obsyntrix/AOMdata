@@ -1,0 +1,138 @@
+area:
+  id: sunflower-plain
+  name_raw: "Sunflower Plain"
+  level_range_raw: "12-23"
+  source:
+    origin_url: "https://angels.wikidot.com/area:sunflower-plain"
+    bestiary_url: "https://angels.wikidot.com/bestiary:by-area"
+    retrieval_url: "https://www.aowiki.uk/pages/area_sunflower-plain.html"
+    source_kind: angels_wiki_area_mirror
+    mirror_declares_original_angels_wikidot_content: true
+  capture:
+    monsters: complete
+    zone_drops: complete
+  verification:
+    client_confirmation: pending
+  source_notes:
+    - "Monster table names Magic Pumpkinman; Zone Drops table names Magic Pumpkin. Preserved as written."
+
+monsters:
+  - spawn_id: sunflower-plain__egg-chick
+    name_raw: "Egg Chick"
+    level_raw: "12"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "egg-chick.gif", hp: "431", attack_type: "Short", attack: "79", defense: "91", spell_attack: "90", spell_defense: "51", aggression: "No", experience: "107", area: "Sunflower Plain"}
+    normalized: {level: 12, boss: false, aggressive: false}
+  - spawn_id: sunflower-plain__magic-pumpkinman
+    name_raw: "Magic Pumpkinman"
+    level_raw: "15"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "magic-pumpkinman.gif", hp: "516", attack_type: "Short Spell (Long)", attack: "95", defense: "131", spell_attack: "77", spell_defense: "63", aggression: "No", experience: "129", area: "Sunflower Plain"}
+    normalized: {level: 15, boss: false, aggressive: false}
+  - spawn_id: sunflower-plain__evil-slarm
+    name_raw: "Evil Slarm"
+    level_raw: "15"
+    boss_raw: "No"
+    aggressive_raw: "Yes"
+    summary_raw: {image: "evil-slarm.gif", hp: "516", attack_type: "Short", attack: "95", defense: "131", spell_attack: "110", spell_defense: "63", aggression: "Yes", experience: "129", area: "Sunflower Plain"}
+    normalized: {level: 15, boss: false, aggressive: true}
+  - spawn_id: sunflower-plain__tone-sheep
+    name_raw: "Tone Sheep"
+    level_raw: "18"
+    boss_raw: "No"
+    aggressive_raw: "No"
+    summary_raw: {image: "tone-sheep.gif", hp: "604", attack_type: "Short", attack: "132", defense: "132", spell_attack: "130", spell_defense: "74", aggression: "No", experience: "151", area: "Sunflower Plain"}
+    normalized: {level: 18, boss: false, aggressive: false}
+  - spawn_id: sunflower-plain__pumpkin-pluto
+    name_raw: "Pumpkin Pluto"
+    level_raw: "20"
+    boss_raw: "Yes"
+    aggressive_raw: "Yes"
+    summary_raw: {image: "pumpkin-pluto.gif", hp: "7482", attack_type: "Short Spell (Long R.AOE)", attack: "304", defense: "222", spell_attack: "148", spell_defense: "148", aggression: "Boss", experience: "498", area: "Sunflower Plain"}
+    normalized: {level: 20, boss: true, aggressive: true}
+  - spawn_id: sunflower-plain__sheep-beethoven
+    name_raw: "Sheep Beethoven"
+    level_raw: "23"
+    boss_raw: "Yes"
+    aggressive_raw: "Yes"
+    summary_raw: {image: "sheep-beethoven.gif", hp: "8466", attack_type: "Short Stance (Short S.AOE)", attack: "396", defense: "211", spell_attack: "170", spell_defense: "170", aggression: "Boss", experience: "569", area: "Sunflower Plain"}
+    normalized: {level: 23, boss: true, aggressive: true}
+
+drops:
+  - {monster_name_raw: "Egg Chick", spawn_id: sunflower-plain__egg-chick, item_name_raw: "Red Potion 1", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Egg Chick", spawn_id: sunflower-plain__egg-chick, item_name_raw: "Blue Potion 1", drop_share_raw: "2.0000%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Egg Chick", spawn_id: sunflower-plain__egg-chick, item_name_raw: "Map Piece", drop_share_raw: "1.8960%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Incantation Gown", drop_share_raw: "0.4986%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Heavy Armor", drop_share_raw: "0.4986%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Light Armor", drop_share_raw: "0.4986%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Savage Vest", drop_share_raw: "0.0083%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Savage Armor", drop_share_raw: "0.0083%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Angelos Gown", drop_share_raw: "0.0083%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Emerald Piece", drop_share_raw: "0.0249%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Sapphire Piece", drop_share_raw: "0.0249%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Purple Gem Piece", drop_share_raw: "0.0249%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Map Piece", drop_share_raw: "2.4930%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Red Potion 2", drop_share_raw: "43.4935%", quantity_raw: "2", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Evil Slarm", spawn_id: sunflower-plain__evil-slarm, item_name_raw: "Blue Potion 2", drop_share_raw: "43.4935%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Lvl 1 Robber Lord Map Piece", drop_share_raw: "57,47%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Basic Helmet", drop_share_raw: "11,49%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Basic Archer Hood", drop_share_raw: "11,49%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Basic Incantation Hood", drop_share_raw: "11,49%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Good Basic Helmet", drop_share_raw: "1,92%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Good Basic Archer Hood", drop_share_raw: "1,92%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Good Basic Incantation Hood", drop_share_raw: "1,92%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Ruby Piece", drop_share_raw: "0,57%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Orange Gem Piece", drop_share_raw: "0,57%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Yellow Gem Piece", drop_share_raw: "0,57%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Savage Iron Helmet", drop_share_raw: "0,19%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Savage Hood", drop_share_raw: "0,19%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Magic Pumpkin", item_name_raw: "Angelos Hood", drop_share_raw: "0,19%", quantity_raw: "1", rate_semantic: zone_drop_share, link_status: source_name_mismatch, possible_spawn_ids: [sunflower-plain__magic-pumpkinman]}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Archer Hood", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Helmet", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Incantation Hood", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Heavy Armor", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Light Armor", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Incantation Gown", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Mege's Straw Hat", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Pirate Flag", drop_share_raw: "2.8570%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Savage Vest", drop_share_raw: "0.8311%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Savage Armor", drop_share_raw: "0.8311%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Angelos Gown", drop_share_raw: "0.8311%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Emerald Piece", drop_share_raw: "2.4900%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Sapphire Piece", drop_share_raw: "2.4900%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Purple Gem Piece", drop_share_raw: "2.4900%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Target Potion", drop_share_raw: "18.0009%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Pumpkin Pluto", spawn_id: sunflower-plain__pumpkin-pluto, item_name_raw: "Map Piece", drop_share_raw: "20.7800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Sword", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Double-blade Axe", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Wooden Shield", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Hook", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Slingshot", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Staff", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Wool Cap", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Robber Flag", drop_share_raw: "3.6420%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Antique Rapier", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Silver Double-bladed Axe", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Silver Shield", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Curse Hook", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Raid Slingshot", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Holy Wood Staff", drop_share_raw: "0.5300%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Ruby Piece", drop_share_raw: "3.1800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Orange Gem Piece", drop_share_raw: "3.1800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Yellow Gem Piece", drop_share_raw: "3.1800%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Fruit of Hercules", drop_share_raw: "31.6540%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Sheep Beethoven", spawn_id: sunflower-plain__sheep-beethoven, item_name_raw: "Map Piece", drop_share_raw: "26.4900%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Light Sword", drop_share_raw: "0.6357%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Double-blade Axe", drop_share_raw: "0.6357%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Wood Shield", drop_share_raw: "0.6357%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Sword", drop_share_raw: "0.1059%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Wooden Shield", drop_share_raw: "0.1059%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Antique Rapier", drop_share_raw: "0.0105%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Silver Double-bladed Axe", drop_share_raw: "0.0105%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Silver Shield", drop_share_raw: "0.0105%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Ruby Piece", drop_share_raw: "0.0318%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Orange Gem Piece", drop_share_raw: "0.0318%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Yellow Gem Piece", drop_share_raw: "0.0318%", quantity_raw: "1", rate_semantic: zone_drop_share}
+  - {monster_name_raw: "Tone Sheep", spawn_id: sunflower-plain__tone-sheep, item_name_raw: "Map Piece", drop_share_raw: "3.1780%", quantity_raw: "1", rate_semantic: zone_drop_share}
