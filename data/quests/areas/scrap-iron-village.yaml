@@ -1,0 +1,49 @@
+schema_version: 1
+dataset: quests
+area: {id: scrap-iron-village, name: Scrap Iron Village, region: Iron Castle}
+research_status: researched
+retrieved_on: 2026-08-25
+sources:
+  area_page: https://angels.wikidot.com/area:scrap-iron-village
+  retrieval_mirror: https://www.aowiki.uk/pages/area_scrap-iron-village.html
+quests:
+  - {id: scrap-iron-village-breakdown-of-robot, name: Breakdown of Robot, repeatable: true, category: repeatable, giver: {npc: Engineer, area: Scrap Iron Village, coordinates: [157, 113]}, requirements: {factions: [Steel], level: {min: 10, max: 25}}, rewards: {experience: 390, credit: 20}, objectives: [{type: kill, target: Buccinal Robot, count: 20, area: Scrap Iron Village}], walkthrough: ["Speak with the Engineer at (157,113).", "Destroy 20 Buccinal Robots.", "Return to the Engineer."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: scrap-iron-village-disgusting-and-radiant-creature, name: Disgusting and Radiant Creature, repeatable: true, category: repeatable, giver: {npc: Worker, area: Scrap Iron Village, coordinates: [209, 116]}, requirements: {factions: [Steel], level: {min: 10, max: 25}}, rewards: {experience: 390, credit: 20}, objectives: [{type: collect_drop, target: Radiant Slarm, item: Radiant Slarm core, aliases: [germ], count: 10, area: Scrap Iron Village, drop_rate: null}], walkthrough: ["Speak with the Worker at (209,116).", "Defeat Radiant Slarms until you collect 10 cores/germs.", "Return to the Worker."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: scrap-iron-village-taking-construction-manual, name: Taking Construction Manual, repeatable: false, category: single, giver: {npc: Designer, area: Scrap Iron Village, coordinates: [176, 89]}, requirements: {factions: [Steel], level: {min: 10, max: null}}, rewards: {experience: 1150, credit: 50}, objectives: [{type: collect_drop, target: Fat Robot, item: Blueprint, count: 1, area: Scrap Iron Village, drop_rate: null}], walkthrough: ["Speak with the Designer at (176,89).", "Defeat Fat Robots until the stolen Blueprint is recovered.", "Return to the Designer."], verification: {status: web_documented, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - {id: scrap-iron-village-parts-collection, name: Parts Collection, repeatable: false, category: single, giver: {npc: Repair Worker, area: Scrap Iron Village, coordinates: [218, 70]}, requirements: {factions: [Steel], level: {min: 10, max: null}}, rewards: {gold: 350, experience: 1150, credit: 50}, objectives: [{type: collect_drop, target: Fat Robot, item: UME Frame, count: null, area: Scrap Iron Village, drop_rate: null}, {type: collect_drop, target: Fat Robot, item: Kerosene Tank, count: null, area: Scrap Iron Village, drop_rate: null}], walkthrough: ["Speak with the Repair Worker at (218,70).", "Defeat Fat Robots until the required UME Frame and Kerosene Tank are obtained.", "Return to the Repair Worker."], notes: ["The area table does not expose the item counts."], verification: {status: web_partial, client_confirmation: pending, conflicts: []}, source_refs: [area_page, retrieval_mirror]}
+  - id: scrap-iron-village-correlation-between-metal-and-water
+    name: Correlation Between Metal and Water
+    repeatable: false
+    category: series
+    series: {name: Edison experiment series, position: 1, total: 3, next: scrap-iron-village-power-source-for-experiment}
+    giver: {npc: Edison, area: Scrap Iron Village, coordinates: [198, 86]}
+    requirements: {factions: [Steel], level: {min: 10, max: null}}
+    rewards: {gold: 550, experience: 200, credit: 50}
+    objectives: [{type: talk, target: Einstein, area: Iron Castle, coordinates: null, item_delivery: report}]
+    walkthrough: ["Speak with Edison at (198,86).", "Take the report to scientist Einstein in Iron Castle.", "Continue the chain as directed."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: scrap-iron-village-power-source-for-experiment
+    name: Power Source for Experiment
+    repeatable: false
+    category: series
+    series: {name: Edison experiment series, position: 2, total: 3, previous: scrap-iron-village-correlation-between-metal-and-water, next: scrap-iron-village-medium-of-chemical-formula}
+    giver: {npc: Edison, area: Scrap Iron Village, coordinates: [198, 86]}
+    requirements: {factions: [Steel], level: {min: 10, max: null}, prerequisite_quests: [scrap-iron-village-correlation-between-metal-and-water]}
+    rewards: {experience: 1220, credit: 360, items: [{name: null}]}
+    objectives: [{type: kill, target: Turbo Robot, count: 1, area: Scrap Iron Village, boss: true}, {type: obtain, item: Cyclone Furnace, count: 1}]
+    walkthrough: ["Complete Correlation Between Metal and Water.", "Defeat Turbo Robot and obtain the Cyclone Furnace.", "Return to Edison."]
+    verification: {status: web_partial, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
+  - id: scrap-iron-village-medium-of-chemical-formula
+    name: Medium of Chemical Formula
+    repeatable: false
+    category: series
+    series: {name: Edison experiment series, position: 3, total: 3, previous: scrap-iron-village-power-source-for-experiment}
+    giver: {npc: Edison, area: Scrap Iron Village, coordinates: [198, 86]}
+    requirements: {factions: [Steel], level: {min: 15, max: null}, prerequisite_quests: [scrap-iron-village-power-source-for-experiment]}
+    rewards: {experience: 1100, credit: 20}
+    objectives: [{type: kill, target: Spear Lizardman, count: 20, area: Cactus Plain}]
+    walkthrough: ["Complete Power Source for Experiment.", "Travel to Cactus Plain and defeat 20 Spear Lizardmen.", "Return to Edison as directed."]
+    verification: {status: web_documented, client_confirmation: pending, conflicts: []}
+    source_refs: [area_page, retrieval_mirror]
