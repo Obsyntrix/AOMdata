@@ -1,0 +1,38 @@
+schema_version: 1
+dataset: quests
+preservation_role: Canonical normalized quest knowledge for AOmega
+last_updated: 2026-08-25
+primary_source: https://angels.wikidot.com/directory:areas
+areas:
+  - id: angel-lyceum
+    name: Angel Lyceum
+    region: Heaven
+    path: data/quests/areas/angel-lyceum.yaml
+    documented_quest_count: 21
+    status: researched
+research_queue:
+  - {region: Aurora City, status: next}
+  - {region: Breeze Woods, status: queued}
+  - {region: Iron Castle, status: queued}
+  - {region: Dark City, status: queued}
+  - {region: Dungeon, status: queued}
+  - {region: Atlantis, status: queued}
+  - {region: Forest, status: queued}
+  - {region: Desert, status: queued}
+  - {region: Lost World, status: queued}
+  - {region: Floating Island, status: queued}
+  - {region: Candyland, status: queued}
+  - {region: Jurassic, status: queued}
+  - {region: Pharaoh, status: queued}
+  - {region: Orient, status: queued}
+  - {region: Silversnow, status: queued}
+  - {region: Space Cowboy, status: queued}
+  - {region: Sakura Festival, status: queued}
+  - {region: Sequoia, status: queued}
+  - {region: Shuwa, status: queued}
+  - {region: Sylvan Chaos, status: queued}
+  - {region: Magma Flux, status: queued}
+  - {region: Arcana, status: queued}
+  - {region: Aeternia, status: queued}
+  - {region: Goldenia, status: queued}
+  - {region: Others, status: queued}
