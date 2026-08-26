@@ -13,16 +13,45 @@ Primary historical source:
 - `https://angels.wikidot.com/bestiary:by-area`
 - `https://angels.wikidot.com/bestiary:by-level`
 - `https://angels.wikidot.com/bestiary:more-map`
-- individual `monster:*` pages
-- individual area pages and their `Zone Drops` tables
+- `https://angels.wikidot.com/bestiary:alphabetic`
+- individual historical `monster:*` pages
+- individual historical `area:*` pages and their `Zone Drops` tables
 
-Because Wikidot currently redirects unreliably, `aowiki.uk/pages/area_<slug>.html` may be used as a retrieval mirror when the page explicitly identifies itself as original `angels.wikidot.com` content. In that case:
+The four summary views are independent historical observations. If two views disagree, preserve both observations and their source provenance. Do not choose a winner merely to make the derived data internally consistent.
 
-- `origin` remains `angels.wikidot.com`
+### Static historical mirror
+
+Because Wikidot currently redirects unreliably, static `aowiki.uk/pages/...` pages may be used as retrieval mirrors only when the fetched page identifies itself as original `angels.wikidot.com` material. In that case:
+
+- `origin_url` remains the original `angels.wikidot.com` page
 - the mirror URL is recorded separately as `retrieval_url`
 - mirrored values are not treated as a different game version
+- a mirror 404 or rate limit means the retrieval copy is unavailable; it is not evidence that the historical game data did not exist
 
-The newer AOWiki database is a separate evidence source and must not be silently merged into the historical Angels Wiki snapshot.
+### Internet Archive recovery
+
+When a historical page is missing from the static mirror, an Internet Archive snapshot of the original `angels.wikidot.com` page may fill the gap. Archive retrieval never changes source identity.
+
+Archived records use source kinds such as:
+
+- `angels_wiki_area_wayback`
+- `angels_wiki_monster_wayback`
+
+and retain, when available:
+
+- original Wikidot URL
+- exact Wayback retrieval URL
+- archive timestamp
+- archive snapshot URL
+- retrieval HTML SHA-256
+
+For archived monster pages, every rendered table row is retained in the preservation snapshot even when a field cannot yet be safely normalized. Recognizable grouped stat rows are additionally exposed through `fields_raw`.
+
+### 2026 AOWiki client database exclusion
+
+The current AOWiki monster database identifies itself as client-derived 2026 data. It is a separate evidence source and is **not** imported into the historical Angels Wiki layer, even when an old static bestiary page links to a current database monster page at the same path.
+
+If AOmega later uses the 2026 client-derived database, store it under a separate provenance layer and compare it explicitly against the historical snapshot and target-version client/runtime evidence.
 
 ## Core record shape
 
@@ -62,15 +91,13 @@ drops:
 
 ## Monster identity
 
-The historical wiki contains repeated names, reused monsters, and in some cases same-name monsters with different stat profiles. Therefore an area occurrence is always independently addressable by a stable `spawn_id`:
+The historical wiki contains repeated names, reused monsters, and in some cases same-name monsters with different stat profiles. Therefore an area occurrence is always independently addressable by a stable occurrence ID.
 
-`<area-slug>__<monster-slug>`
-
-A later canonical entity layer may relate two spawn records when evidence proves they are the same game entity. It must not merge them merely because their display names match.
+A later canonical entity layer may relate two occurrence records when evidence proves they are the same game entity. It must not merge them merely because their display names match.
 
 ## Bestiary summary rows
 
-The historical bestiary tables expose:
+The historical bestiary tables expose fields such as:
 
 - Image
 - Name
@@ -121,7 +148,7 @@ Store page values verbatim. Conflicts with bestiary summary rows are preserved a
 
 ## Drop semantics
 
-The site exposes more than one kind of percentage. They must never be collapsed.
+The historical site exposes more than one kind of percentage. They must never be collapsed.
 
 ### `zone_drop_share`
 
@@ -139,22 +166,25 @@ Do not multiply these percentages to create a new rate unless target game data p
 
 ## Reverse item lookup
 
-`data/bestiary/indexes/by-item.yaml` is derived from area drop rows and later monster-page rows. Each source entry identifies:
+`data/bestiary/indexes/by-item.yaml` is derived from area drop rows and historical monster-page rows. Each source observation must retain enough information to trace the item back to its evidence, including:
 
 - item name
-- monster/spawn
-- area
-- whether the source is a boss when known
+- monster name and resolved occurrence candidates
+- area when the source page establishes one
+- boss/aggression information when known from the resolved occurrence
 - displayed rate
 - rate semantic
 - quantity
-- source URL
+- source/origin URL
+- retrieval URL
+
+Where an individual monster page exposes both an overall item-drop chance and a per-item table share, both values remain independent source fields. An effective probability is not derived unless target-version evidence later proves the relationship.
 
 This permits future queries such as:
 
-`Wonder Gown -> Big Piggy -> Building Blocks County -> 48.1733%`
+`Wonder Gown -> Big Piggy -> Building Blocks County -> displayed historical drop observation`
 
-without losing the exact source row.
+without losing the exact source row or pretending an ambiguous same-name monster has already been resolved.
 
 ## Completeness and uncertainty
 
@@ -168,6 +198,10 @@ Recommended values:
 - `unavailable` — source could not be retrieved
 
 Question marks and dashes shown by the website remain literal raw values.
+
+`data/bestiary/audit.yaml` is the derived completeness check. It measures actual files committed to the repository, not just what a crawler saw transiently during a run. It tracks missing area pages, missing historical monster pages, item-source resolution, duplicate/reused names, and nonempty query indexes.
+
+A harvest is not described as complete merely because a workflow finished successfully. Source gaps remain explicit until recovered or documented as unavailable.
 
 ## Verification
 
