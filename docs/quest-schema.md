@@ -1,6 +1,6 @@
 # Quest data schema
 
-Per-area quest files live at `data/quests/areas/<area-slug>.yaml`.
+Per-area quest files live at `data/quests/areas/<area-slug>.yaml`. Cross-area/global chains live once under `data/quests/series/` and area bundles reference their stable quest IDs rather than duplicating canonical records.
 
 ## Area bundle
 
@@ -13,6 +13,7 @@ area:
 research_status: researched
 sources:
   area_page: https://...
+asmodeum_quest_refs: []
 quests: []
 ```
 
@@ -22,7 +23,7 @@ quests: []
 - id: stable-slug
   name: Exact display name
   repeatable: false
-  category: single | series | repeatable | training | weekly | special
+  category: single | series | repeatable | training | weekly | special | card
   series:
     name: optional series name
     position: 1
@@ -48,7 +49,7 @@ quests: []
     items: []
     choose_one_item: []
   objectives:
-    - type: kill | collect_drop | gather | produce | talk | visit | interact | choose_faction | obtain
+    - type: kill | kill_combined | collect_drop | gather | produce | talk | visit | interact | choose_faction | obtain | reach_progression
       target: optional target
       count: optional integer
       item: optional item
@@ -72,3 +73,11 @@ quests: []
 Fields with unknown values should be omitted or set to null. Never use an invented value merely to satisfy the shape.
 
 `walkthrough` is presentation-ready data for the future hub/wiki. `objectives` is the structured equivalent for filtering, cross-linking, and eventual runtime comparison.
+
+## Canonical ownership
+
+A quest has exactly one canonical record. If a global series crosses multiple areas, the series file owns the quest and area files contain references to it. This prevents contradictory duplicate copies when a later client-data correction is made.
+
+## Drop-rate rule inside quest objectives
+
+A quest objective may name a monster that drops an item. `drop_rate` remains `null` unless the percentage itself is documented by evidence. "Drops from X" must never be interpreted as 100% or any other rate.
