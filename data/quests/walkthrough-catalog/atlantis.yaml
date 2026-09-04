@@ -1,0 +1,3516 @@
+schema_version: 1
+dataset: aomega_walkthrough_catalog
+region: atlantis
+authority_policy:
+  historical_angels_wiki: primary
+  period_2012_community_guides: secondary_historical
+  current_booklet_client_database: secondary_cross_version_corroboration_only
+  aomega_target_client: final_verification_pending
+counts:
+  area_table_quest_records: 36
+  with_historical_dedicated_page: 35
+  with_period_guide_match: 8
+  with_current_client_match: 10
+  walkthrough_historical_dedicated: 20
+  walkthrough_period_guide: 5
+  walkthrough_existing_canonical: 0
+  walkthrough_area_minimal: 6
+  walkthrough_missing: 5
+  supplemental_historical_pages: 4
+  supplemental_period_guide_blocks: 68
+quests:
+- id: blue-ocean-beauty-and-the-beast
+  name: Beauty And the Beast
+  region: atlantis
+  area:
+    id: blue-ocean
+    name: Blue Ocean
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Beauty And the Beast
+      Repeat.: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/blue-ocean.yaml
+      origin_url: https://angels.wikidot.com/area:blue-ocean
+      retrieval_url: https://www.aowiki.uk/pages/area_blue-ocean.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 4233e11d584fc43a20d42ae9260cf457aae3046bef16d64e2db36a8ff88777c2
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Kill 30 Angel Fish and 30 Sharks.
+    - talk again with to Watt.
+  historical_dedicated_pages:
+  - title_raw: Beauty And The Beast
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Watt. Lightening Yes/No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 4000 84 - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Kill 30 Angel Fish and 30 Sharks. Step 2 talk again with to Watt.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_beauty-and-the-beast.yaml
+      origin_url: https://angels.wikidot.com/quest:beauty-and-the-beast
+      retrieval_url: https://www.aowiki.uk/pages/quest_beauty-and-the-beast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 2206b13edc7d29b02f7b2c105c2de41e2b6bb31935425920e1f9c5d2274d377c
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: coral-vale-quest-name
+  name: Quest Name
+  region: atlantis
+  area:
+    id: coral-vale
+    name: Coral Vale
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Quest Name
+      Repeat.: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/coral-vale.yaml
+      origin_url: https://angels.wikidot.com/area:coral-vale
+      retrieval_url: https://www.aowiki.uk/pages/area_coral-vale.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 62b67f41c39098d26000f539a097a51fba0e4ed226575c399a54b8daad450ab1
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id002 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+      origin_url: https://angels.wikidot.com/quest:quest-name
+      retrieval_url: https://web.archive.org/web/20100324065400id_/http://angels.wikidot.com:80/quest:quest-name
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100324065400'
+      source_html_sha256: 7b86973e3c76f563c19ded248b57725e0d661d97c845e42493f5e522e4c96f34
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: dream-ocean-mermaid-s-tears
+  name: Mermaid's Tears
+  region: atlantis
+  area:
+    id: dream-ocean
+    name: Dream Ocean
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Mermaid's Tears
+      Repeatable: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/dream-ocean.yaml
+      origin_url: https://angels.wikidot.com/area:dream-ocean
+      retrieval_url: https://www.aowiki.uk/pages/area_dream-ocean.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a341d846495fe755a921e3c8811d5ce97b290b6a8c210eba81d98d7fde292d7e
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages: []
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 752
+    name_raw: Mermaid's Tears
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 93
+      text_raw: ViewDream Ocean完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=93&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00752-mermaid-s-tears.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=752&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=752&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: ce940bc4d0acb687509fb3102abc6d8aa5a86b9d9d2351e4d60ecfc7ae221e32
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: false
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: dream-ocean-mermaid-s-trust
+  name: Mermaid's Trust
+  region: atlantis
+  area:
+    id: dream-ocean
+    name: Dream Ocean
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Mermaid's Trust
+      Repeatable: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/dream-ocean.yaml
+      origin_url: https://angels.wikidot.com/area:dream-ocean
+      retrieval_url: https://www.aowiki.uk/pages/area_dream-ocean.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a341d846495fe755a921e3c8811d5ce97b290b6a8c210eba81d98d7fde292d7e
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - After talk to Mermaid Guard, she ask you for help; kill 20 Ink Octopus and 20 Wood Octopus. back with Mermaid
+    - Kill Angel Fishs until you got a Angels Heart and bring it back to Mermaid.
+    - go and kill 40 Sharks .
+    - Talk again to Mermaid Guard.
+    - kill Captain Nio and Merman Hulio in Dream Ocean to get Evil Lyceum's Letter to Linberd.
+    - When got the Letter, give it to Merman Captain
+  historical_dedicated_pages:
+  - title_raw: Mermaid S Trust
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Mermaid Guard Yes/No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Merman''s Trust Card , Item Name'
+    walkthrough_raw: Step 1 After talk to Mermaid Guard, she ask you for help; kill 20 Ink Octopus and 20 Wood Octopus. back with Mermaid Step 2 Kill Angel Fishs until you got a Angels Heart and bring it
+      back to Mermaid. Step 3 go and kill 40 Sharks . Step 4 Talk again to Mermaid Guard. Step 5 kill Captain Nio and Merman Hulio in Dream Ocean to get Evil Lyceum's Letter to Linberd. Step 6 When got
+      the Letter, give it to Merman Captain
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_mermaid-s-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:mermaid-s-trust
+      retrieval_url: https://www.aowiki.uk/pages/quest_mermaid-s-trust.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 39f21a761285c513e0eeef7a275fb59531136ccaa51d251ca2ed6461e0106ea6
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: golden-beach-let-s-fight-1-of
+  name: Let's Fight 1 of ?
+  region: atlantis
+  area:
+    id: golden-beach
+    name: Golden Beach
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 50+
+    reward_raw: Exp+32500, Credit+250, Gold+16500
+    short_description_raw: Defeat 35 Puqi Turtles and 35 Color Crabs
+    row_raw:
+      Quest Name: Let's Fight 1 of ?
+      Repeat.: 'No'
+      Requirements: Character Lvl 50+
+      Reward: Exp+32500, Credit+250, Gold+16500
+      Short Description: Defeat 35 Puqi Turtles and 35 Color Crabs
+    source:
+      path: data/quests/research/walkthrough-intake/areas/golden-beach.yaml
+      origin_url: https://angels.wikidot.com/area:golden-beach
+      retrieval_url: https://www.aowiki.uk/pages/area_golden-beach.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: dcdc6c6389e3cc29110755e42cba2d2c73172f68b9c5d049762dfc9a5a050ead
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak with Traveler Landy.
+    - Defeat 35 Puqi Turtles .
+    - Speak with Traveler Landy.
+    - Defeat 35 Color Crabs .
+    - Speak with Traveler Landy. Receive Reward.
+  historical_dedicated_pages:
+  - title_raw: Let's Fight
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Traveler Landy No -
+
+      Previous Quest Next Quest - The Misbehaved Son'
+    requirements_raw: Faction Lvl Rank Skill Quest - 50+ - - -
+    reward_raw: Exp. Credit Gold 32 500 250 16 500 Items -
+    walkthrough_raw: Step 1 Speak with Traveler Landy. Step 2 Defeat 35 Puqi Turtles . Step 3 Speak with Traveler Landy. Step 4 Defeat 35 Color Crabs . Step 5 Speak with Traveler Landy. Receive Reward.
+    walkthrough_steps: &id001 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_let-s-fight.yaml
+      origin_url: https://angels.wikidot.com/quest:let-s-fight
+      retrieval_url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: e5332c96622b8aaa84ae79a3265b1b2082b6f5eb85a4f89563f11b606d3f95ad
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: golden-beach-the-misbehaved-son-2-of
+  name: The Misbehaved Son 2 of ?
+  region: atlantis
+  area:
+    id: golden-beach
+    name: Golden Beach
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Finished quest Let's Fight
+    reward_raw: Exp+6000, Credit+50, Gold+3500
+    short_description_raw: Talk to Lad Stany at the Shining Coast
+    row_raw:
+      Quest Name: The Misbehaved Son 2 of ?
+      Repeat.: 'No'
+      Requirements: Finished quest Let's Fight
+      Reward: Exp+6000, Credit+50, Gold+3500
+      Short Description: Talk to Lad Stany at the Shining Coast
+    source:
+      path: data/quests/research/walkthrough-intake/areas/golden-beach.yaml
+      origin_url: https://angels.wikidot.com/area:golden-beach
+      retrieval_url: https://www.aowiki.uk/pages/area_golden-beach.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: dcdc6c6389e3cc29110755e42cba2d2c73172f68b9c5d049762dfc9a5a050ead
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak with Traveler Landy.
+    - Defeat 35 Puqi Turtles .
+    - Speak with Traveler Landy.
+    - Defeat 35 Color Crabs .
+    - Speak with Traveler Landy. Receive Reward.
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id004 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-misbehaved-son.yaml
+      origin_url: https://angels.wikidot.com/quest:the-misbehaved-son
+      retrieval_url: https://web.archive.org/web/20091208212705id_/http://angels.wikidot.com:80/quest:the-misbehaved-son
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091208212705'
+      source_html_sha256: f711a7a29374b6877871aa1bed44cb13d0e6a85bee0ec73324f95e3272815747
+      authority_role: null
+  - title_raw: Let's Fight
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Traveler Landy No -
+
+      Previous Quest Next Quest - The Misbehaved Son'
+    requirements_raw: Faction Lvl Rank Skill Quest - 50+ - - -
+    reward_raw: Exp. Credit Gold 32 500 250 16 500 Items -
+    walkthrough_raw: Step 1 Speak with Traveler Landy. Step 2 Defeat 35 Puqi Turtles . Step 3 Speak with Traveler Landy. Step 4 Defeat 35 Color Crabs . Step 5 Speak with Traveler Landy. Receive Reward.
+    walkthrough_steps: *id001
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_let-s-fight.yaml
+      origin_url: https://angels.wikidot.com/quest:let-s-fight
+      retrieval_url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: e5332c96622b8aaa84ae79a3265b1b2082b6f5eb85a4f89563f11b606d3f95ad
+      authority_role: null
+  period_guide_matches:
+  - title_raw: The Misbehaved Son
+    section_raw: null
+    steps_raw:
+    - 1.Find Lad Stany(41,212) for Landy in Shining Coast.
+    fuzzy_match_score: 0.878
+    source:
+      path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: horrible-lost-region-quest-name
+  name: Quest Name
+  region: atlantis
+  area:
+    id: horrible-lost-region
+    name: Horrible Lost Region
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Quest Name
+      Repeat.: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/horrible-lost-region.yaml
+      origin_url: https://angels.wikidot.com/area:horrible-lost-region
+      retrieval_url: https://www.aowiki.uk/pages/area_horrible-lost-region.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: effdd9aecf5136c546904d2ba05de9ccadd6838fa5caf73f49daa21102b4abf1
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+      origin_url: https://angels.wikidot.com/quest:quest-name
+      retrieval_url: https://web.archive.org/web/20100324065400id_/http://angels.wikidot.com:80/quest:quest-name
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100324065400'
+      source_html_sha256: 7b86973e3c76f563c19ded248b57725e0d661d97c845e42493f5e522e4c96f34
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-purify
+  name: Purify
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: ???
+    reward_raw: '?'
+    short_description_raw: Collect 200 Pollutions from underwater resources
+    row_raw:
+      Quest Name: Purify
+      Repeat.: 'Yes'
+      Requirements: ???
+      Reward: '?'
+      Short Description: Collect 200 Pollutions from underwater resources
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Collect 200 Pollutions from underwater resources
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_purify.yaml
+      origin_url: https://angels.wikidot.com/quest:purify
+      retrieval_url: https://web.archive.org/web/20100406030600id_/http://angels.wikidot.com:80/quest:purify
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100406030600'
+      source_html_sha256: e4c0bf611bff949d54ff4dd75db50990a6f566c8cbb64374d5b3378e4ff33103
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-far-away-from-gravity
+  name: Far Away from Gravity
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: ???
+    reward_raw: Card
+    short_description_raw: Talk to Fatz at Flaming Door …
+    row_raw:
+      Quest Name: Far Away from Gravity
+      Repeat.: 'Yes'
+      Requirements: ???
+      Reward: Card
+      Short Description: Talk to Fatz at Flaming Door …
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Talk to Gravity Boffin which will send you to talk with Fatz at Flaming Door , take the item and deliver it to Gravity Boffin.
+    - 'You then require two elements: Hottest fire and ocean heart
+
+      "These two elements can only be reached in the hottest district and the bottom of the Blue Ocean respectively. The former one can be got from the Monster in the fervent channel Underground, whilst
+      the latter lies in the Quiet Ocean . But remember! Both will begin to fade away about 2 hours after leaving their resting places. "'
+    - Return elements to Gravity Boffin before time runs out for both elements. _
+    - 'Return materials to Gravity Boffin Note: Level 61 refined materials, from productors.'
+  historical_dedicated_pages:
+  - title_raw: Far Away From Gravity
+    summary_raw: 'Gives card "Gravity Boffin Card" for artisan set.
+
+      Artisan set prize = Weight seed; Improves your load permanently +1200'
+    information_raw: 'Quest Giver Repeatable Series Gravity Boffin No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: Exp. Credit Gold - - - Items
+    walkthrough_raw: 'Step 1 Talk to Gravity Boffin which will send you to talk with Fatz at Flaming Door , take the item and deliver it to Gravity Boffin. Step 2 You then require two elements: Hottest
+      fire and ocean heart
+
+      "These two elements can only be reached in the hottest district and the bottom of the Blue Ocean respectively. The former one can be got from the Monster in the fervent channel Underground, whilst
+      the latter lies in the Quiet Ocean . But remember! Both will begin to fade away about 2 hours after leaving their resting places. " Step 3 Return elements to Gravity Boffin before time runs out for
+      both elements. _
+
+      Step 4 Return materials to Gravity Boffin Note: Level 61 refined materials, from productors.'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_far-away-from-gravity.yaml
+      origin_url: https://angels.wikidot.com/quest:far-away-from-gravity
+      retrieval_url: https://www.aowiki.uk/pages/quest_far-away-from-gravity.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a20a436bd6004b914dd6ae7b3297aac1317f650c7af26284f84c688cc79ad4b9
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-andsen-s-test
+  name: Andsen's Test
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: none
+    reward_raw: Card
+    short_description_raw: Collect All materials lvl 61
+    row_raw:
+      Quest Name: Andsen's Test
+      Repeat.: 'Yes'
+      Requirements: none
+      Reward: Card
+      Short Description: Collect All materials lvl 61
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - 'Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot alga) And 10 Soft
+      Beat Meat (Lycos den)'
+  historical_dedicated_pages:
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: &id003 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-sharp-material
+  name: Sharp Material
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: 'Finished quest: Andsen''s Test'
+    reward_raw: Card
+    short_description_raw: Get a Horn from ?Death Soul? and Teeth from Horn Dragon
+    row_raw:
+      Quest Name: Sharp Material
+      Repeat.: 'Yes'
+      Requirements: 'Finished quest: Andsen''s Test'
+      Reward: Card
+      Short Description: Get a Horn from ?Death Soul? and Teeth from Horn Dragon
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Get a Horn from Death Soul Leader Soul Guide and Teeth from Horn Dragon
+  historical_dedicated_pages:
+  - title_raw: Sharp Material
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Disciple Andsen Yes
+
+      Previous Quest Next Quest Andsen''s test -'
+    requirements_raw: null
+    reward_raw: Items Sharp Material card
+    walkthrough_raw: Step 1 Get a Horn from Death Soul Leader Soul Guide and Teeth from Horn Dragon
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_sharp-material.yaml
+      origin_url: https://angels.wikidot.com/quest:sharp-material
+      retrieval_url: https://www.aowiki.uk/pages/quest_sharp-material.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 54f735bb1854770703748744c2ec5fdf3bfb19a767d5d8caaf4f45a2d00975ef
+      authority_role: null
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-heavy-material
+  name: Heavy Material
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: 'Finished quest: Andsen''s Test'
+    reward_raw: Card
+    short_description_raw: Get a Ball from Sealed Elf Lord and 10 Mystic Ores from Terra Miners
+    row_raw:
+      Quest Name: Heavy Material
+      Repeat.: 'Yes'
+      Requirements: 'Finished quest: Andsen''s Test'
+      Reward: Card
+      Short Description: Get a Ball from Sealed Elf Lord and 10 Mystic Ores from Terra Miners
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - 'Get rare materials from Sealed Elf Lord and Terra Miners : Got Selead Elf Lord''s Ball:0/1 Got Terra Miner''s Mistic Ore: 0/10'
+    - Take the materials to Disciple Andsen.
+    - Smelt Pestle, Absorb elite for 48 hours, then return it to anderson.
+    - ??? XD
+  historical_dedicated_pages:
+  - title_raw: Heavy Material
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes -
+
+      Previous Quest Next Quest Andsen''s Test -'
+    requirements_raw: null
+    reward_raw: Items Heavy Material Card
+    walkthrough_raw: 'Step 1 Get rare materials from Sealed Elf Lord and Terra Miners : Got Selead Elf Lord''s Ball:0/1 Got Terra Miner''s Mistic Ore: 0/10
+
+      Step 2 Take the materials to Disciple Andsen.
+
+      Step 3 Smelt Pestle, Absorb elite for 48 hours, then return it to anderson.
+
+      Step 4 ??? XD'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_heavy-material.yaml
+      origin_url: https://angels.wikidot.com/quest:heavy-material
+      retrieval_url: https://www.aowiki.uk/pages/quest_heavy-material.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 17d0143315052652360a56ad808cb646e3cc593134857410a75fa17ee49db4a3
+      authority_role: null
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-stiff-material
+  name: Stiff Material
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: 'Finished quest: Andsen''s Test'
+    reward_raw: Card
+    short_description_raw: Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+    row_raw:
+      Quest Name: Stiff Material
+      Repeat.: 'Yes'
+      Requirements: 'Finished quest: Andsen''s Test'
+      Reward: Card
+      Short Description: Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+  historical_dedicated_pages:
+  - title_raw: Stiff Material
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes -
+
+      Previous Quest Next Quest Andsen''s Test -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: Stiff Material card
+    walkthrough_raw: Step 1 Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_stiff-material.yaml
+      origin_url: https://angels.wikidot.com/quest:stiff-material
+      retrieval_url: https://www.aowiki.uk/pages/quest_stiff-material.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: e3a5978ff0f08a4befcab33c347c5ee72480ed6cc52e4c61b1a6c592fdbe2cd8
+      authority_role: null
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-curving-material
+  name: Curving Material
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: 'Finished quest: Andsen''s Test'
+    reward_raw: Card
+    short_description_raw: Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+    row_raw:
+      Quest Name: Curving Material
+      Repeat.: 'Yes'
+      Requirements: 'Finished quest: Andsen''s Test'
+      Reward: Card
+      Short Description: Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+  historical_dedicated_pages:
+  - title_raw: Curving Material
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes -
+
+      Previous Quest Next Quest Andsen''s Test -'
+    requirements_raw: null
+    reward_raw: Curving Material card
+    walkthrough_raw: Step 1 Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_curving-material.yaml
+      origin_url: https://angels.wikidot.com/quest:curving-material
+      retrieval_url: https://www.aowiki.uk/pages/quest_curving-material.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 03cca73c60da5d586d4bb92294f86de616bb5f9b30c42223cac80a1fc8f81af2
+      authority_role: null
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-transparent-material
+  name: Transparent Material
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: 'Finished quest: Andsen''s Test'
+    reward_raw: Card
+    short_description_raw: Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+    row_raw:
+      Quest Name: Transparent Material
+      Repeat.: 'Yes'
+      Requirements: 'Finished quest: Andsen''s Test'
+      Reward: Card
+      Short Description: Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+  historical_dedicated_pages:
+  - title_raw: Transparent Material
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes -
+
+      Previous Quest Next Quest Andsen''s Test -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: Transparent Material card
+    walkthrough_raw: Step 1 Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_transparent-material.yaml
+      origin_url: https://angels.wikidot.com/quest:transparent-material
+      retrieval_url: https://www.aowiki.uk/pages/quest_transparent-material.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 1c1d10cfb309ebbdbcb37fc9fabccce19dc3e2f3519cd4668ac9a868f21b3a44
+      authority_role: null
+  - title_raw: Andsen's Test
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Disciple Andsen Yes Yes
+
+      Previous Quest Next Quest - -'
+    requirements_raw: null
+    reward_raw: Items Disciple Andsen card Improved Magnifier
+    walkthrough_raw: 'Step 1 Collect level 61 materials: 10 Silver Ore Cristal (black silver crystal from Silica ), 10 Shy plant Bud (blood bamboo), 10 Primrose Bud (primrose), 10 Aberrant White fish (spot
+      alga) And 10 Soft Beat Meat (Lycos den)'
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+      origin_url: https://angels.wikidot.com/quest:andsen-s-test
+      retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: df43d8ea8a96e279c7e5c96cac243c2c09d1de78b22469e9723647c6453c3c5b
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-aborigines-threat
+  name: Aborigines Threat
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: ???
+    reward_raw: Exp+45000, Credit+350, Gold+30000
+    short_description_raw: Defeat 40 Puqi Locals , 35 Puqi Warriors and Pontiff Hululu (Boss)
+    row_raw:
+      Quest Name: Aborigines Threat
+      Repeat.: 'No'
+      Requirements: ???
+      Reward: Exp+45000, Credit+350, Gold+30000
+      Short Description: Defeat 40 Puqi Locals , 35 Puqi Warriors and Pontiff Hululu (Boss)
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat 40 Piqu Locals
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Aborigines' Threat
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series General Campbell No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Defeat 40 Piqu Locals Step 2 Details here.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aborigines-threat.yaml
+      origin_url: https://angels.wikidot.com/quest:aborigines-threat
+      retrieval_url: https://www.aowiki.uk/pages/quest_aborigines-threat.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: ac030a9b12f8b186d5898381e0c524ea1e5a3adec99e92e5b68f5dc74a08a11a
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Aborigines's Threat
+    section_raw: null
+    steps_raw:
+    - 1.Talk to General Campbell(186,98) at Palm Base
+    - 2.Defeat 40 Puqi Local(92,59) in Golden Beach
+    - 3.Report to General Campbell(186,98) at Palm Base
+    - 4.Defeat 35 Puqi Island Warrior(107,159) in Golden Beach
+    - 5.Defeat Commander Pontiff Hululu(122,161) in Golden Beach
+    fuzzy_match_score: 0.9444
+    source:
+      path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 727
+    name_raw: Aborigines' Threat
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 88
+      text_raw: ViewPalm Outpost完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=88&lang=eng
+    - map_id: 86
+      text_raw: ViewGolden Beach完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=86&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00727-aborigines-threat.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=727&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=727&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 1c223d4cf508a829aa042c912ab8edebea5fcf56502c879fff9b6a07b5a98fff
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: palm-base-octopus-the-robber
+  name: Octopus, the Robber
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 90+
+    reward_raw: '?'
+    short_description_raw: Defeat Blade Octopuses and collect 15 Robbed Goods at Evil Ship
+    row_raw:
+      Quest Name: Octopus, the Robber
+      Repeat.: 'No'
+      Requirements: Character Lvl 90+
+      Reward: '?'
+      Short Description: Defeat Blade Octopuses and collect 15 Robbed Goods at Evil Ship
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk to Merchant Kulepas(190,31) at Palm Base.
+    - 2.Reseize Good Robbed by 15 Blade Octopus in Evil Ship
+    - 3.Return to Merchant Kulepas(190,31) at Palm Base.
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_octopus-the-robber.yaml
+      origin_url: https://angels.wikidot.com/quest:octopus-the-robber
+      retrieval_url: https://web.archive.org/web/20100111183719id_/http://angels.wikidot.com:80/quest:octopus-the-robber
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100111183719'
+      source_html_sha256: b6b969f6e145a25635ff7f5c5d8640159054ea5f63aa1d38adcceb2ce314a1a4
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Octopus, the Robber
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Merchant Kulepas(190,31) at Palm Base.
+    - 2.Reseize Good Robbed by 15 Blade Octopus in Evil Ship
+    - 3.Return to Merchant Kulepas(190,31) at Palm Base.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: palm-base-the-ancient-yatiss-culture
+  name: The Ancient Yatiss Culture
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 90+
+    reward_raw: '?'
+    short_description_raw: Defeat Hicalu 1 (Boss) at Lost Region
+    row_raw:
+      Quest Name: The Ancient Yatiss Culture
+      Repeat.: 'No'
+      Requirements: Character Lvl 90+
+      Reward: '?'
+      Short Description: Defeat Hicalu 1 (Boss) at Lost Region
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk to Scholar Oxford(87,13) at Palm Base
+    - 2.Find the Crystal of Top Technique:Hacalu 1 in Lost Region. If it can still move and full of animus, just destroy it.
+    - 3.Talk to Scholar Oxford(87,13) at Palm Base again
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-ancient-yatiss-culture.yaml
+      origin_url: https://angels.wikidot.com/quest:the-ancient-yatiss-culture
+      retrieval_url: https://web.archive.org/web/20090101231440id_/http://angels.wikidot.com:80/quest:the-ancient-yatiss-culture
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101231440'
+      source_html_sha256: 97f798b816a41935cb3a2cd6fe52b9e2c3b0f656aafa78672f672426fca03dcd
+      authority_role: null
+  period_guide_matches:
+  - title_raw: The Ancient Yatiss Culture
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Scholar Oxford(87,13) at Palm Base
+    - 2.Find the Crystal of Top Technique:Hacalu 1 in Lost Region. If it can still move and full of animus, just destroy it.
+    - 3.Talk to Scholar Oxford(87,13) at Palm Base again
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 717
+    name_raw: The Ancient Yatiss Culture
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 88
+      text_raw: ViewPalm Outpost完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=88&lang=eng
+    - map_id: 90
+      text_raw: ViewBlue Ocean完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=90&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00717-the-ancient-yatiss-culture.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=717&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=717&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: beb5cefa41c119ea8d053848cb4db9a430b8fd4d35c092d3c4ec75f71b361173
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: palm-base-blockade-under-the-sea
+  name: Blockade under the Sea
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: '?'
+    reward_raw: '?'
+    short_description_raw: Defeat 35 Jelly fish at Wave Harbor
+    row_raw:
+      Quest Name: Blockade under the Sea
+      Repeat.: 'No'
+      Requirements: '?'
+      Reward: '?'
+      Short Description: Defeat 35 Jelly fish at Wave Harbor
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak with Trainer Noya .
+    - Go to Wave Harbor and speak with Explorer Binch .
+    - Defeat 35 jellyfish.
+  historical_dedicated_pages:
+  - title_raw: Blockade Under The Sea
+    summary_raw: Association has confirmed the position of the Yatiss Culture. Explorer Binch meets with some difficulties.
+    information_raw: 'Quest Giver Repeatable Series Trainer Noya No -
+
+      Previous Quest Next Quest Goal: Get Skin Dive License -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Speak with Trainer Noya . Step 2 Go to Wave Harbor and speak with Explorer Binch . Step 3 Defeat 35 jellyfish.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_blockade-under-the-sea.yaml
+      origin_url: https://angels.wikidot.com/quest:blockade-under-the-sea
+      retrieval_url: https://www.aowiki.uk/pages/quest_blockade-under-the-sea.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 5d94debdfa8a4705c6eb5408bd21aebac13ff1d12c1c06fb732189296d386fa2
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Blockade under the sea
+    section_raw: null
+    steps_raw:
+    - 1.Dive to seabed and find Explorer Binch(229,178) in Wave Harbor
+    - 2.Defeat various 35 Jellyfish(219,184) in wave Harbor
+    - 3.Tell Explorer Binch(229,178) task was completed
+    - 4.Defeat Scale Fish(90,225) in Wave Harbor
+    - 5.Tell Explorer Binch(229,178) task was completed
+    - 6.Prepare to go to blue water. Learn higher diving technique from Diving Coach Nira(233,43) at Golden Beach
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 705
+    name_raw: Blockade under the Sea
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 88
+      text_raw: ViewPalm Outpost完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=88&lang=eng
+    - map_id: 89
+      text_raw: ViewWave Harbor完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=89&lang=eng
+    - map_id: 86
+      text_raw: ViewGolden Beach完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=86&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00705-blockade-under-the-sea.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=705&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=705&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 222bf10d8f1c8fe1949373278135cd45a24c7a49472c1bc59b084308179d0cb0
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: palm-base-nature-calling-for-help
+  name: Nature Calling For Help
+  region: atlantis
+  area:
+    id: palm-base
+    name: Palm Base
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: '?'
+    reward_raw: '?'
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Nature Calling For Help
+      Repeat.: 'No'
+      Requirements: '?'
+      Reward: '?'
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/palm-base.yaml
+      origin_url: https://angels.wikidot.com/area:palm-base
+      retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - 'First Step
+
+      You begin it by talking to Villiersas in Palm Base (Atlantis) -Then head to Wave Harbor and kill 45 Angel Fish , 75 Stab Jellyfish , 60 Whelk Mage and 60 Whelk Swordsman . -Return & talk to Villiersas
+
+      Second Step
+
+      -Walk to the dungeon.( located in Dragon Graveyard) -Go to the Hell Palace and talk to Lorin . -Kill tonnes of Riddle Bishop until you have the required 80 black crystals. -Talk to Lorin
+
+      Third Step
+
+      -Go to the Waterfall Camp ( Jungle) -Talk to Stewart and kill numerous Earth Fairy until you have 10 elite cores. Tip : Put the fruits droped by them into your ab at 100% to auto open and save your
+      bag space -Once you''re done with that, go back to Villiersas and get ready to boss hunt.
+
+      Last Step
+
+      -You will need to kill the following bosses : Hermit Hezon - Found in the Waterfall Camp (Jungle) Leech Mrs. Dorsa - Found in the Secret Den (Jungle) Purple Scorpion Issac - Found in Crescent Valley
+      (Desert) Destroyer Wesley -Found in the Desert Racetrack (Desert) Sword Jellyfish - Found in Wave Harbor (Atlantis) -After you''ve killed all 5 of the bosses and gotten the stones droped from them(
+      100% chance of droping the stones) Return to Palm Base and talk to Villiersas and get your reward.'
+  historical_dedicated_pages:
+  - title_raw: 'Weekly Quest : Nature is Crying for Help'
+    summary_raw: Weekly Quest
+    information_raw: 'Quest Giver Repeatable Series Villiersas Yes -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 20,000,000 (lvl 70-79), 36,000,000 (lvl 80-89), 48,000,000 (lvl 90-94), 48,000,000 (lvl 95++) - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: 'First Step
+
+      You begin it by talking to Villiersas in Palm Base (Atlantis) -Then head to Wave Harbor and kill 45 Angel Fish , 75 Stab Jellyfish , 60 Whelk Mage and 60 Whelk Swordsman . -Return & talk to Villiersas
+
+      Second Step
+
+      -Walk to the dungeon.( located in Dragon Graveyard) -Go to the Hell Palace and talk to Lorin . -Kill tonnes of Riddle Bishop until you have the required 80 black crystals. -Talk to Lorin
+
+      Third Step
+
+      -Go to the Waterfall Camp ( Jungle) -Talk to Stewart and kill numerous Earth Fairy until you have 10 elite cores. Tip : Put the fruits droped by them into your ab at 100% to auto open and save your
+      bag space -Once you''re done with that, go back to Villiersas and get ready to boss hunt.
+
+      Last Step
+
+      -You will need to kill the following bosses : Hermit Hezon - Found in the Waterfall Camp (Jungle) Leech Mrs. Dorsa - Found in the Secret Den (Jungle) Purple Scorpion Issac - Found in Crescent Valley
+      (Desert) Destroyer Wesley -Found in the Desert Racetrack (Desert) Sword Jellyfish - Found in Wave Harbor (Atlantis) -After you''ve killed all 5 of the bosses and gotten the stones droped from them(
+      100% chance of droping the stones) Return to Palm Base and talk to Villiersas and get your reward.'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quests_weekly.yaml
+      origin_url: https://angels.wikidot.com/quests:weekly
+      retrieval_url: https://www.aowiki.uk/pages/quests_weekly.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f7ef8f5737ed8773cbcd2712f2bc7388de4ca653e0921d6baa32a388ddf96513
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: puqi-village-wandering-artist
+  name: Wandering Artist
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Gathering and facturing skills
+    reward_raw: Card
+    short_description_raw: Collect materials for Teny's handicrafts
+    row_raw:
+      Quest Name: Wandering Artist
+      Repeat.: 'Yes'
+      Requirements: Gathering and facturing skills
+      Reward: Card
+      Short Description: Collect materials for Teny's handicrafts
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Collect materials for Teny's handicrafts
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_wandering-artist.yaml
+      origin_url: https://angels.wikidot.com/quest:wandering-artist
+      retrieval_url: https://web.archive.org/web/20100405205813id_/http://angels.wikidot.com:80/quest:wandering-artist
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100405205813'
+      source_html_sha256: bea9daaa8da7707bed1d8711499372c1d7e6603d22ca1a3c58447552a57ce954
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: puqi-village-flora-s-wish
+  name: Flora's Wish
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: '-'
+    reward_raw: Card
+    short_description_raw: Collect flower seeds from various monsters
+    row_raw:
+      Quest Name: Flora's Wish
+      Repeat.: 'Yes'
+      Requirements: '-'
+      Reward: Card
+      Short Description: Collect flower seeds from various monsters
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - 'Collect: WARNING - This is a luck part you will not receive them every time you kill the following
+
+      20 Flame Rose seeds from Flaming Roses at Mysterious Garden 20 Charm Corpse Flower Seeds from Nepenthes at Mysterious Wetland 25 Evil Flower Seeds from Evil Flowers at Fiery Path, Lava Cave and Flaming
+      Door 25 Poison Evil Flower Seeds from Poison Flowers at Underground Square and Hell Palace 30 Flower Monster Seeds from Flower Monsters at Gulp Room 30 Fire Tree Bud Seeds from Fire Tree Buds at Gulp
+      Room'
+    - Talk to Flora.
+    - 'Collect:
+
+      Queen Angela Seed from Queen Angela at Mysterious Garden Sexy Quli Seed from Sexy Quli at Mysterious Wetland Sanguinary Flower Seed from Bloody Flower at Fiery Path Charming Flower Seed from Charming
+      Flower at Underground Square'
+    - Talk to Flora.
+    - Find Fragrant Soside and show it to Flora.
+  historical_dedicated_pages:
+  - title_raw: Flora's Wish
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable Flora none Yes
+
+      Summary Flora is dreaming of owning all the seeds for all the flowers in the Garden of Eden. Please help her realize her dream.
+
+      Reward Flora Card'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: 'Step 1 Collect: WARNING - This is a luck part you will not receive them every time you kill the following
+
+      20 Flame Rose seeds from Flaming Roses at Mysterious Garden 20 Charm Corpse Flower Seeds from Nepenthes at Mysterious Wetland 25 Evil Flower Seeds from Evil Flowers at Fiery Path, Lava Cave and Flaming
+      Door 25 Poison Evil Flower Seeds from Poison Flowers at Underground Square and Hell Palace 30 Flower Monster Seeds from Flower Monsters at Gulp Room 30 Fire Tree Bud Seeds from Fire Tree Buds at Gulp
+      Room
+
+      Step 2 Talk to Flora. Step 3 Collect:
+
+      Queen Angela Seed from Queen Angela at Mysterious Garden Sexy Quli Seed from Sexy Quli at Mysterious Wetland Sanguinary Flower Seed from Bloody Flower at Fiery Path Charming Flower Seed from Charming
+      Flower at Underground Square
+
+      Step 4 Talk to Flora. Step 5 Find Fragrant Soside and show it to Flora.'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_flora-s-wish.yaml
+      origin_url: https://angels.wikidot.com/quest:flora-s-wish
+      retrieval_url: https://www.aowiki.uk/pages/quest_flora-s-wish.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 62fdc62d834b4246e35bac7a4d9bc5c30db42c9c98efc099fd8b4e1647591762
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: puqi-village-feast-on-crabs
+  name: Feast on Crabs
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 50-55
+    reward_raw: Exp+1450, Credit+54
+    short_description_raw: Defeat Puqi Crabs or Color Crabs at Golden Beach and Collect 50 Tasty Crabs
+    row_raw:
+      Quest Name: Feast on Crabs
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 50-55
+      Reward: Exp+1450, Credit+54
+      Short Description: Defeat Puqi Crabs or Color Crabs at Golden Beach and Collect 50 Tasty Crabs
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak with Inn Keeper
+    - Defeat 50 Color Crabs.
+  historical_dedicated_pages:
+  - title_raw: Feast On Crabs
+    summary_raw: The Inn Keeper of Puqi Village plans to hold Crags Party. He asks you to help him prepare some food materials.
+    information_raw: 'Quest Giver Repeatable Series Inn Keeper Yes -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Speak with Inn Keeper Step 2 Defeat 50 Color Crabs.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_feast-on-crabs.yaml
+      origin_url: https://angels.wikidot.com/quest:feast-on-crabs
+      retrieval_url: https://www.aowiki.uk/pages/quest_feast-on-crabs.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 514c29be43f4696de884fe189a8038ceb3dd54b7436d7a4142423b8ae5746d9d
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 750
+    name_raw: Feast on Crabs
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 87
+      text_raw: ViewPuchi Village完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=87&lang=eng
+    - map_id: 86
+      text_raw: ViewGolden Beach完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=86&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00750-feast-on-crabs.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=750&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=750&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 4f342fe902736813085cf120aeb44851798b26a11e2a5e075b5114ac564633ec
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: puqi-village-depression-of-skin-dive
+  name: Depression of Skin Dive
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 60+
+    reward_raw: Exp+60000, Credit+500, Gold+35000
+    short_description_raw: 'Defeat: 35 Crab Generals , 35 Ink Octopuses and 35 Ball Jellyfish at Colorful Coral Reefs'
+    row_raw:
+      Quest Name: Depression of Skin Dive
+      Repeat.: 'No'
+      Requirements: Character Lvl 60+
+      Reward: Exp+60000, Credit+500, Gold+35000
+      Short Description: 'Defeat: 35 Crab Generals , 35 Ink Octopuses and 35 Ball Jellyfish at Colorful Coral Reefs'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk to Trainer Ceres(228,103) at Puqi Village
+    - 2.Kill 30 Color Crab General(34,149), 30 Ink Octopus(89,54)and 30 Beachball Jellyfish(204,37) at Colorful Coral Reef
+    - 3.Report to Trainer Ceres(228,103) at Puqi Village
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_depression-of-skin-dive.yaml
+      origin_url: https://angels.wikidot.com/quest:depression-of-skin-dive
+      retrieval_url: https://web.archive.org/web/20090101165037id_/http://angels.wikidot.com:80/quest:depression-of-skin-dive
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101165037'
+      source_html_sha256: 48a24997809688829b655c11102e026742466ce79629702050806f1b18bc766b
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Depression of Skin Dive
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Trainer Ceres(228,103) at Puqi Village
+    - 2.Kill 30 Color Crab General(34,149), 30 Ink Octopus(89,54)and 30 Beachball Jellyfish(204,37) at Colorful Coral Reef
+    - 3.Report to Trainer Ceres(228,103) at Puqi Village
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 728
+    name_raw: Depression of Skin Dive
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 87
+      text_raw: ViewPuchi Village完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=87&lang=eng
+    - map_id: 85
+      text_raw: ViewColorful Coral Reefs完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=85&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00728-depression-of-skin-dive.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=728&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=728&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 9981b9f46ab236e7cc0ffb6f3ead715fd9693435aba4714a2e0bcaf4b286756b
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: puqi-village-explore-blue-slat-crystal
+  name: Explore Blue Slat Crystal
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: '?'
+    requirements_raw: Character Lvl 70+; Gathering skills
+    reward_raw: '?'
+    short_description_raw: Collect Blue Slat Crystals at Wave Harbor
+    row_raw:
+      Quest Name: Explore Blue Slat Crystal
+      Repeat.: '?'
+      Requirements: Character Lvl 70+; Gathering skills
+      Reward: '?'
+      Short Description: Collect Blue Slat Crystals at Wave Harbor
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Collect Blue Slat Crystals at Wave Harbor
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_explore-blue-slat-crystal.yaml
+      origin_url: https://angels.wikidot.com/quest:explore-blue-slat-crystal
+      retrieval_url: https://web.archive.org/web/20090101163015id_/http://angels.wikidot.com:80/quest:explore-blue-slat-crystal
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101163015'
+      source_html_sha256: 80cfa652f38cae8e593cdc4d696dca0e985cd99bf629008dfd9400899a772b5f
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: puqi-village-the-melody-of-pirates-demise
+  name: The Melody of Pirates' demise
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: '?'
+    requirements_raw: Character Lvl 90+
+    reward_raw: '?'
+    short_description_raw: Defeat 15 Death Captains at Evil Ship
+    row_raw:
+      Quest Name: The Melody of Pirates' demise
+      Repeat.: '?'
+      Requirements: Character Lvl 90+
+      Reward: '?'
+      Short Description: Defeat 15 Death Captains at Evil Ship
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk Quiyam(17,17) at Puqi Village
+    - 2. Purify 15 Death Captain in Evil Ship
+    - 3.Death Souls have beeb purified, return to Quiyam(17,17) at Puqi Village
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-melody-of-pirates-demise.yaml
+      origin_url: https://angels.wikidot.com/quest:the-melody-of-pirates-demise
+      retrieval_url: https://web.archive.org/web/20090101163105id_/http://angels.wikidot.com:80/quest:the-melody-of-pirates-demise
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101163105'
+      source_html_sha256: cc7e8bf09b75c5f49bba47a898c6ce59224a4cc5b9780b20fc4dd0948d010281
+      authority_role: null
+  period_guide_matches:
+  - title_raw: The Molody of Pirates' demise
+    section_raw: null
+    steps_raw:
+    - 1.Talk Quiyam(17,17) at Puqi Village
+    - 2. Purify 15 Death Captain in Evil Ship
+    - 3.Death Souls have beeb purified, return to Quiyam(17,17) at Puqi Village
+    fuzzy_match_score: 0.9643
+    source:
+      path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: puqi-village-soft-shimmer-in-deep-sea
+  name: Soft Shimmer in Deep Sea
+  region: atlantis
+  area:
+    id: puqi-village
+    name: Puqi Village
+  historical_area_table:
+    repeatable_raw: '?'
+    requirements_raw: Character Lvl 90+
+    reward_raw: '?'
+    short_description_raw: Defeat Sea Lantern Fish at Quiet Ocean and collect 10 Lanterns
+    row_raw:
+      Quest Name: Soft Shimmer in Deep Sea
+      Repeat.: '?'
+      Requirements: Character Lvl 90+
+      Reward: '?'
+      Short Description: Defeat Sea Lantern Fish at Quiet Ocean and collect 10 Lanterns
+    source:
+      path: data/quests/research/walkthrough-intake/areas/puqi-village.yaml
+      origin_url: https://angels.wikidot.com/area:puqi-village
+      retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk to Diver Cobra(167,43) at Puqi Village
+    - 2.Get 10 Lantern from Sea Lantern Fish(277,22) at Quiet Ocean
+    - 3.Give Lanterns to Diver Cobra(167,43) at Puqi Village
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_soft-shimmer-in-deep-sea.yaml
+      origin_url: https://angels.wikidot.com/quest:soft-shimmer-in-deep-sea
+      retrieval_url: https://web.archive.org/web/20090101163050id_/http://angels.wikidot.com:80/quest:soft-shimmer-in-deep-sea
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101163050'
+      source_html_sha256: 5306fd3d9561df5c92efc50f37866b8ddeadf807f0577e8f4b0082fa26fe8a18
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Soft Shimmer in Deep Sea
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Diver Cobra(167,43) at Puqi Village
+    - 2.Get 10 Lantern from Sea Lantern Fish(277,22) at Quiet Ocean
+    - 3.Give Lanterns to Diver Cobra(167,43) at Puqi Village
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 734
+    name_raw: Soft Shimmer in Deep Sea
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 87
+      text_raw: ViewPuchi Village完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=87&lang=eng
+    - map_id: 95
+      text_raw: ViewQuiet Ocean完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=95&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00734-soft-shimmer-in-deep-sea.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=734&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=734&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 96dcadab35dcdf53bebddd561e1c31dea5594016124a3addae26ff1fb5d5b625
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: quiet-ocean-quest-name
+  name: Quest Name
+  region: atlantis
+  area:
+    id: quiet-ocean
+    name: Quiet Ocean
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Quest Name
+      Repeat.: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/quiet-ocean.yaml
+      origin_url: https://angels.wikidot.com/area:quiet-ocean
+      retrieval_url: https://www.aowiki.uk/pages/area_quiet-ocean.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 0bc38c7af76e3fa9b0ff35e3f90aa3e26ce8a47c27cb7a7af7873e1e0b5c5e3d
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+      origin_url: https://angels.wikidot.com/quest:quest-name
+      retrieval_url: https://web.archive.org/web/20100324065400id_/http://angels.wikidot.com:80/quest:quest-name
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100324065400'
+      source_html_sha256: 7b86973e3c76f563c19ded248b57725e0d661d97c845e42493f5e522e4c96f34
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: raging-reefs-quest-name
+  name: Quest Name
+  region: atlantis
+  area:
+    id: raging-reefs
+    name: Raging Reefs
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Quest Name
+      Repeat.: Yes/No
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/raging-reefs.yaml
+      origin_url: https://angels.wikidot.com/area:raging-reefs
+      retrieval_url: https://www.aowiki.uk/pages/area_raging-reefs.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7f827d5091587094fc42f54db3a1d40540341539b350af16c76dda6ae5f0bca6
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+      origin_url: https://angels.wikidot.com/quest:quest-name
+      retrieval_url: https://web.archive.org/web/20100324065400id_/http://angels.wikidot.com:80/quest:quest-name
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100324065400'
+      source_html_sha256: 7b86973e3c76f563c19ded248b57725e0d661d97c845e42493f5e522e4c96f34
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: shining-coast-boaster
+  name: Boaster
+  region: atlantis
+  area:
+    id: shining-coast
+    name: Shining Coast
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 55-60
+    reward_raw: Exp+1550, Credit+60
+    short_description_raw: Defeat 30 Color Crabs , and 30 Crab Generals
+    row_raw:
+      Quest Name: Boaster
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 55-60
+      Reward: Exp+1550, Credit+60
+      Short Description: Defeat 30 Color Crabs , and 30 Crab Generals
+    source:
+      path: data/quests/research/walkthrough-intake/areas/shining-coast.yaml
+      origin_url: https://angels.wikidot.com/area:shining-coast
+      retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Defeat 30 Color Crabs , and 30 Crab Generals
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_boaster.yaml
+      origin_url: https://angels.wikidot.com/quest:boaster
+      retrieval_url: https://web.archive.org/web/20100206184803id_/http://angels.wikidot.com:80/quest:boaster
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100206184803'
+      source_html_sha256: ca63f526df22245a1f597fe1babed0259a2f2b09084d1042dc4cbf66b9bf7e00
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 756
+    name_raw: Boaster
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 92
+      text_raw: ViewShining Coast完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=92&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00756-boaster.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=756&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=756&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 63c7f934fe269ae89631da51fbcf054ae9e2d4fc5bd5731db1a5f8e379731331
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: shining-coast-pupu-turtle-and-pup-crab
+  name: Pupu Turtle and Pup Crab
+  region: atlantis
+  area:
+    id: shining-coast
+    name: Shining Coast
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 60-65
+    reward_raw: Exp+1650, Credit+60
+    short_description_raw: Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
+    row_raw:
+      Quest Name: Pupu Turtle and Pup Crab
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 60-65
+      Reward: Exp+1650, Credit+60
+      Short Description: Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
+    source:
+      path: data/quests/research/walkthrough-intake/areas/shining-coast.yaml
+      origin_url: https://angels.wikidot.com/area:shining-coast
+      retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_pupu-turtle-and-pup-crab.yaml
+      origin_url: https://angels.wikidot.com/quest:pupu-turtle-and-pup-crab
+      retrieval_url: https://web.archive.org/web/20091217173937id_/http://angels.wikidot.com:80/quest:pupu-turtle-and-pup-crab
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091217173937'
+      source_html_sha256: a29fa24ba1ca830139a4435b3f229c395068aadae71b91e739d6a68193dc4e71
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: shining-coast-girl-s-wish
+  name: Girl's Wish
+  region: atlantis
+  area:
+    id: shining-coast
+    name: Shining Coast
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 50+
+    reward_raw: Card
+    short_description_raw: Talk to Shoreman at Golden Beach …
+    row_raw:
+      Quest Name: Girl's Wish
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 50+
+      Reward: Card
+      Short Description: Talk to Shoreman at Golden Beach …
+    source:
+      path: data/quests/research/walkthrough-intake/areas/shining-coast.yaml
+      origin_url: https://angels.wikidot.com/area:shining-coast
+      retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Ask Shoreman in Golden Beach about the beautiful shell
+    - Shoreman told you to look for 20 Color Crab , and 20 Color Whelk
+    - Shoreman can't discovery, so talk to Young Farmer in Shining Coast
+    - Young Farmer say to kill 20 Evil Puqi Turtle and 20 Puqi Isle Crab
+    - Talk to Lifeguard zhi in Golden Beach
+    - Talk to Mermaid Alice in Colorful Coral Reefs
+    - Get General Badge from Crab General and Whelk Sword from Whelk Swordsman
+    - Kill 30 Scale Fish
+    - Get 10 Whelk Shell - In this quest is 1-14 tasks
+  historical_dedicated_pages:
+  - title_raw: Girl S Wish
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Shell Girl Character Lvl 50+ No
+
+      Previous Quest Next Quest - -
+
+      Summary Since the little girl saw a beatiful shell, she has been obsessed with her. Help her to find one
+
+      Reward ? Gold, ? Experience Choose one of: Item Name or Item Name
+
+      Girl''s Wish ? ? Exp+XX, Credit+XX, Gold+XX, Item Talk to Shoreman in Golden Beach and kill Kill 20 Color Crab , and 20 Color Whelk'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Ask Shoreman in Golden Beach about the beautiful shell Step 2 Shoreman told you to look for 20 Color Crab , and 20 Color Whelk Step 3 Shoreman can't discovery, so talk to Young
+      Farmer in Shining Coast Step 4 Young Farmer say to kill 20 Evil Puqi Turtle and 20 Puqi Isle Crab Step 5 Talk to Lifeguard zhi in Golden Beach Step 6 Talk to Mermaid Alice in Colorful Coral Reefs
+      Step 7 Get General Badge from Crab General and Whelk Sword from Whelk Swordsman Step 8 Kill 30 Scale Fish Step 9 Get 10 Whelk Shell - In this quest is 1-14 tasks
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_girl-s-wish.yaml
+      origin_url: https://angels.wikidot.com/quest:girl-s-wish
+      retrieval_url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 5db416c9f8fd7cfaed9d8c47ef0c476ce8d58dc38feba0164fb6ac03df6fbc25
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: shining-coast-find-out-pollution-source
+  name: Find out Pollution Source
+  region: atlantis
+  area:
+    id: shining-coast
+    name: Shining Coast
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 55+
+    reward_raw: '?'
+    short_description_raw: Defeat 20 Color Crabs , and 20 Color Whelks | Get Coast Protector's Heart
+    row_raw:
+      Quest Name: Find out Pollution Source
+      Repeat.: 'No'
+      Requirements: Character Lvl 55+
+      Reward: '?'
+      Short Description: Defeat 20 Color Crabs , and 20 Color Whelks | Get Coast Protector's Heart
+    source:
+      path: data/quests/research/walkthrough-intake/areas/shining-coast.yaml
+      origin_url: https://angels.wikidot.com/area:shining-coast
+      retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Details here.
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Find Out Pollution Source
+    summary_raw: Help the old man find the source of the pollution
+    information_raw: 'Quest Giver Repeatable Series Dock Oldman Yes/No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Details here. Step 2 Details here.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_find-out-pollution-source.yaml
+      origin_url: https://angels.wikidot.com/quest:find-out-pollution-source
+      retrieval_url: https://www.aowiki.uk/pages/quest_find-out-pollution-source.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 574f7db5aa05426af1e9e168841d5f423e4dfad467e93b8ed50db37318efeeee
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: shining-coast-meeting-robbers-3-of
+  name: Meeting Robbers 3 of ?
+  region: atlantis
+  area:
+    id: shining-coast
+    name: Shining Coast
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 60+; Finished Quest The Misbehaved Son
+    reward_raw: '?'
+    short_description_raw: Defeat Puqi Pirates , and Puqi Pirate Leaders and collect Love Necklaces
+    row_raw:
+      Quest Name: Meeting Robbers 3 of ?
+      Repeat.: 'No'
+      Requirements: Character Lvl 60+; Finished Quest The Misbehaved Son
+      Reward: '?'
+      Short Description: Defeat Puqi Pirates , and Puqi Pirate Leaders and collect Love Necklaces
+    source:
+      path: data/quests/research/walkthrough-intake/areas/shining-coast.yaml
+      origin_url: https://angels.wikidot.com/area:shining-coast
+      retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat Puqi Pirate Leader and Puqi Pirate and get back Love Necklaces of Stany and Wendy
+  historical_dedicated_pages:
+  - title_raw: Meeting Robbers
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Lad Stany No -
+
+      Previous Quest Next Quest - A Cup of Icy Coffee'
+    requirements_raw: null
+    reward_raw: Exp. Credit Gold 45000 350 25000
+    walkthrough_raw: Step 1 Defeat Puqi Pirate Leader and Puqi Pirate and get back Love Necklaces of Stany and Wendy
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_meeting-robbers.yaml
+      origin_url: https://angels.wikidot.com/quest:meeting-robbers
+      retrieval_url: https://www.aowiki.uk/pages/quest_meeting-robbers.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 44f3a81a70a32dd17f43c7cb03b767a6f1eaf90c76651a3c0166a2998273bd9a
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id004
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-misbehaved-son.yaml
+      origin_url: https://angels.wikidot.com/quest:the-misbehaved-son
+      retrieval_url: https://web.archive.org/web/20091208212705id_/http://angels.wikidot.com:80/quest:the-misbehaved-son
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091208212705'
+      source_html_sha256: f711a7a29374b6877871aa1bed44cb13d0e6a85bee0ec73324f95e3272815747
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: sunken-ruins-disarm
+  name: Disarm
+  region: atlantis
+  area:
+    id: sunken-ruins
+    name: Sunken Ruins
+  historical_area_table:
+    repeatable_raw: Yes/No
+    requirements_raw: XXX Faction; _ Character lvl XX
+    reward_raw: Exp+XX, Credit+XX, Gold+XX, Item
+    short_description_raw: ''
+    row_raw:
+      Quest Name: Disarm
+      Repeat.: Yes/No
+      Requirements: XXX Faction; _ Character lvl XX
+      Reward: Exp+XX, Credit+XX, Gold+XX, Item
+      Short Description: ''
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sunken-ruins.yaml
+      origin_url: https://angels.wikidot.com/area:sunken-ruins
+      retrieval_url: https://www.aowiki.uk/pages/area_sunken-ruins.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 461631a9e8674472ddd52a5d8af955cebc9b9017849c635dda34f1f57eae1a39
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - 1. Disarmed 0/50 Rage Shark's equipments in Sunken Ruins
+    - Talk to Assoc. Elite
+  historical_dedicated_pages:
+  - title_raw: Disarm
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Assoc. Elite Yes -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - 90 - - -
+    reward_raw: 'Exp. Credit Gold 4800 90 - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 1. Disarmed 0/50 Rage Shark's equipments in Sunken Ruins Step 2 Talk to Assoc. Elite
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_disarm.yaml
+      origin_url: https://angels.wikidot.com/quest:disarm
+      retrieval_url: https://www.aowiki.uk/pages/quest_disarm.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: de5877398530aef852936957b22b4b6153b14ce7990c5310e8eb44b17e09e9a6
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 754
+    name_raw: Disarm
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 91
+      text_raw: ViewSunken Ruins完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=91&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00754-disarm.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=754&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=754&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 0fc0726d6c7250073b9609b4263870293dc627abba30138b52b939b538d64c4e
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: wave-harbor-big-eyes
+  name: Big Eyes
+  region: atlantis
+  area:
+    id: wave-harbor
+    name: Wave Harbor
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: XXX Faction; Character lvl XX
+    reward_raw: Exp+3250, Credit+72
+    short_description_raw: Get 30 Merman's Eye from Scale Fish
+    row_raw:
+      Quest Name: Big Eyes
+      Repeat.: 'Yes'
+      Requirements: XXX Faction; Character lvl XX
+      Reward: Exp+3250, Credit+72
+      Short Description: Get 30 Merman's Eye from Scale Fish
+    source:
+      path: data/quests/research/walkthrough-intake/areas/wave-harbor.yaml
+      origin_url: https://angels.wikidot.com/area:wave-harbor
+      retrieval_url: https://www.aowiki.uk/pages/area_wave-harbor.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 16ca3f47e77fd71bc82c4c09d126b529e6cfab191dddd0d2d00120e1cb13629c
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Get 30 Merman's Eye from Scale Fish
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_big-eyes.yaml
+      origin_url: https://angels.wikidot.com/quest:big-eyes
+      retrieval_url: https://web.archive.org/web/20090630084007id_/http://angels.wikidot.com:80/quest:big-eyes
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090630084007'
+      source_html_sha256: 2eba0673e04c15e732a0ac49c20e1ced20095befcabb138e3755ae71c196af47
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 749
+    name_raw: Big Eyes
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 89
+      text_raw: ViewWave Harbor完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=89&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00749-big-eyes.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=749&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=749&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 8fb5986ac76908371fb3647fdc8ecc574d30f9382e0e9625e263d3b3b92b48a6
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+supplemental_historical_quest_pages:
+- title_raw: A Cup Of Icy Coffee
+  summary_raw: null
+  requirements_raw: null
+  reward_raw: Exp. Credit Gold 6500 55 12000
+  walkthrough_steps:
+  - Find Kere for Puqi Village Standy
+  matched_target_areas:
+  - region: atlantis
+    area_id: puqi-village
+  - region: atlantis
+    area_id: shining-coast
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_a-cup-of-icy-coffee.yaml
+    origin_url: https://angels.wikidot.com/quest:a-cup-of-icy-coffee
+    retrieval_url: https://www.aowiki.uk/pages/quest_a-cup-of-icy-coffee.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 2f2f6b670f2c2e62ad47ac22415a5dbaacf9d37b5637e9e491e5ffd4fb08bdd6
+    authority_role: null
+- title_raw: Hope After Bad News
+  summary_raw: null
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+  reward_raw: 'Exp. ~ Credit ~ Gold 55000 500 110000 Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - Dive into Coral Vale to investigate any suspicious item. - (talk to Suspicious Pack ( , )) REWARD 1116 exp, 525 gold, item quest:Kateman's Letter
+  - Show Kere Katerman's Letter.
+  - Get reward from Kere.
+  matched_target_areas:
+  - region: atlantis
+    area_id: puqi-village
+  - region: atlantis
+    area_id: coral-vale
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_hope-after-bad-news.yaml
+    origin_url: https://angels.wikidot.com/quest:hope-after-bad-news
+    retrieval_url: https://www.aowiki.uk/pages/quest_hope-after-bad-news.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: e51306900476b40f5de1b52538dc0a8998b42fca46c9b8a6b0c6facd8a5b4072
+    authority_role: null
+- title_raw: Invaluable Rubbish
+  summary_raw: Attention was accidently thrown away with the garbage by a waiter working there.
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+  reward_raw: 'Exp. Credit Gold 52500 400 100000 Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - dive into Blue sea to find Kere's diamond ring from dustheap, (See Junk(270,125))
+  - Return the Ocean Heart to Kere.
+  - Get reward from Kere.
+  matched_target_areas:
+  - region: atlantis
+    area_id: puqi-village
+  - region: atlantis
+    area_id: blue-sea
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_invaluable-rubbish.yaml
+    origin_url: https://angels.wikidot.com/quest:invaluable-rubbish
+    retrieval_url: https://www.aowiki.uk/pages/quest_invaluable-rubbish.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 073de3fd48403f242c710f7116977719a6cab2f2459b13cbcb3ed4a3a092532b
+    authority_role: null
+- title_raw: Lost Friends
+  summary_raw: Hinding inside the Yahabosen, they plan to see Yatiss in person but suffered a shipwreck. Kere wants you to go down to the sea bottom and find them.
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+  reward_raw: 'Exp. Credit Gold 55000 500 110000 Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - (go to Raging Reefs ) FInd Remain of Habosen Ship - just talk to Kenny's R'??? at Raging Reefs and obtain Kenny's Diary.
+  - take Kenny's Diary and Return no Puqi VIllage to find Kere.
+  - 'get reward from Kere.
+
+    _'
+  matched_target_areas:
+  - region: atlantis
+    area_id: puqi-village
+  - region: atlantis
+    area_id: raging-reefs
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_lost-friends.yaml
+    origin_url: https://angels.wikidot.com/quest:lost-friends
+    retrieval_url: https://www.aowiki.uk/pages/quest_lost-friends.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: e7fbfd1fdeb73b1602a999a0b283475e954e00abe1337eb98ee09e42011dcd80
+    authority_role: null
+supplemental_period_guide_blocks:
+- title_raw: Go to the Sea
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (Sad Abyss;40,64)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (same npc that you started quest)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Report to Angel on Puqi Island
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (144,87)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (96,123)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (227,33)
+  section_raw: null
+  steps_raw:
+  - '4.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (105,59)
+  section_raw: null
+  steps_raw:
+  - '5.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (223,132)
+  section_raw: null
+  steps_raw:
+  - '6.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Test
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: join exploration team (Palm Base; 44,110)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: 0/50 (Golden Beach; 19,44)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: 'Goal: Get Skin Dive License'
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: ; 230,47)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: equipment (Shining Coast)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: 'Goal: Get Scuba Dive License'
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (119,43)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Sea; 78,24)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Puzzle of Yatiss
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: ; 195,171)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: in PB; 32,37)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Hell Palace and kill fire flys; 40,47)
+  section_raw: null
+  steps_raw:
+  - '4.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: controller (obtain a Yatiss High tech Radar)
+  section_raw: null
+  steps_raw:
+  - '5.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: talk to Scholar Lubo in Blue Ocean again, step 1)
+  section_raw: null
+  steps_raw:
+  - '6.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (Sunken Ruins; 19,78)
+  section_raw: null
+  steps_raw:
+  - '7.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: 1 and 5)
+  section_raw: null
+  steps_raw:
+  - '8.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Source of Energy Seaking
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: is a random drop just keep killing til u get all 30.
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Give Squama full of energy to Lubo (return to npc from step 1,5 and 7)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Unprecendented setback (Group)
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: need to pass by them so they can light and u can hit the boss.
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Ocean, step 2)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Dissappeared Yahabosen
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: d)Southwest Raging reefs 0/1 (45,16)
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (Report to npc Voyage officer, step 3 of unprecendented setback)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: e)Trapped Labor 0/1 (220,102)
+  section_raw: null
+  steps_raw:
+  - '4.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: that succors can get to work sucessfully (156,112)
+  section_raw: null
+  steps_raw:
+  - '5.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Vale to make sure that succors can get to work sucessfully (60,141)
+  section_raw: null
+  steps_raw:
+  - '6.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Tell Mafa your effort (report to Voyage officer in SC, step 2)
+  section_raw: null
+  steps_raw:
+  - '7.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: 'Go to map Evil Ship and:'
+  section_raw: null
+  steps_raw:
+  - '1.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: When Asharl hp is low it will auto-summon Mamen.
+  section_raw: null
+  steps_raw:
+  - '2.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: (249,105)
+  section_raw: null
+  steps_raw:
+  - '3.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: to click on the torch (47,84)
+  section_raw: null
+  steps_raw:
+  - '4.'
+  source:
+    path: data/quests/research/legacy-guides/atlantis/atlantis-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fe468285caee30a83dafce9ce4c85cdf2e78e69e4c57e6fdf1bbbeea5223830f
+    authority_role: secondary_historical_walkthrough
+- title_raw: Eye for eye, Tooth for tooth
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Kateman(102,25) at Evil Ship.
+  - 2.Defeat 45 Scale Soldiers
+  - 3.Tell Caterman the good news
+  - 4.Give Caterman 1 Angel Wings to leave here
+  source:
+    path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Leader of Radical Wing
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Merkaid Polu(71,93) at Blue Sea
+  - 2.Find out Kassispo from Linberd Knight and destroy him. Kassispo is hiding inside Evil Ship
+  - 3.Task completed, report to Merkaid Polu(71,93) at Blue Se
+  source:
+    path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+    authority_role: secondary_historical_walkthrough
+- title_raw: Revive
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Kateman(102,25) at Evil Ship and Find out does Merman village exist
+  - 2.Defeat Hicalu Test Machine at Lost Region to get back Red Shell
+  - 3.Take Red Shell to Mermaikd Scarlett(32,56) in Blue Sea.
+  - 4.Put Red Shell to Mermaid Altar(27,160) in Raging Reefs in 30 minutes.
+  - 5.Tell Childe Kere(132,39) in Puqi Village that Kenney relived
+  source:
+    path: data/quests/research/legacy-guides/atlantis/calm-souls-down.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 856b0c7d93f0c07feeaa2017f67d694f77dd1dd5cca73a9c9a8080af08f97fe0
+    authority_role: secondary_historical_walkthrough
+- title_raw: Go to the Sea
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Assoc. Captain in fraction Main City
+  - 2.Find 15 Flame Jade from Hell Slave(175,126) at Sad Abyss
+  - 3.Retun the main city of fraction and report to Assoc.Captain
+  - 4.Go to Cherry Village in northwest beach of Garden of Eden and then go to Puqi Island by boat.Talk to Puqi Shipper(25,81)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: Report to Angel on Puqi Island
+  section_raw: null
+  steps_raw:
+  - 1.Go to Palm Base and talk to Puqi Village Angel(144,87)
+  - 2.Visit Trade Director(92,119) in Palm Base
+  - 3.Visit Science Director(231,30) in Palm Base
+  - 4.Visit Prod. Director(107,55) in Palm Base
+  - 5.Visit Banking Director in Palm Base
+  - 6.Fimiliar with the environment, return to Puqi Village Angel(144,87)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: Test
+  section_raw: null
+  steps_raw:
+  - 1.Tell Trainer Noya(53,103) that you want to join Exploration Team
+  - 2. Kill 50 Color Whelk(234,75) at Golden Beach
+  - 3.Retun to Palm Base and report to Trainer Noya(53,103)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: 'Goal: Get Skin Dive Licence'
+  section_raw: null
+  steps_raw:
+  - 1.Go to Golden Beach to learn from Diving Coach Nira(233,43)
+  - 2.Defeat Puqi Pirate(227,63) at Shining Coast and get back 20
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: Diving Equipment for Nira
+  section_raw: null
+  steps_raw:
+  - 3.Tell Diving Coach Nira(233,43) that task was completed
+  - 4.Return Palm Base, show Trainer Noya(53,103) your effort and petition to join Exploration Team.
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: Goal:Get Scuba Dive Licence
+  section_raw: null
+  steps_raw:
+  - 1.Go to Blue Sea to learn from Dipsey Hunter(125,38)
+  - 2.Defeat Angel Fish(48,23) to get 15 Angel Fish Fin.
+  - 3.Give Angel Fish Fin to Dipsey Hunter(125,38)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/diving-training.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Puzzle of Yatiss
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Dipsey Hunter(125,38) in Blue Sea
+  - 2.Dive to Blue Ocean and meet Scholar Lubo(192,171) whom Yula(Dipsey Hunter) mentioned
+  - 3.Take Controller Remain to Palm Base and let Pyalu(29,34) identify it.
+  - 4.Collect form 20 Fire Fly(47,41) Corrosive Acid Pickle at Hell Palace
+  - 5.Take Acid Pickle to Pyalu(29,34) at Palm Base for washing the surface of the controller
+  - 6.Tell Scholar Lubo(192,171) at Blue Ocean to Identifying result
+  - 7.Take the Controller to Controller Dado(10,80) in Sunken Ruin to test it.
+  - 8.No Start-up energy, Scholar Lubo(192,171) at Blue Ocean may have some idea
+  - 9.Get reward from Scholar Lubo(192,171).
+  source:
+    path: data/quests/research/legacy-guides/atlantis/fantastic-voyage.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Source of Energy Seeking
+  section_raw: null
+  steps_raw:
+  - 1.Get 30 Squama from Winged Angel Fish(73,102) at Sunken Ruin.
+  - 2.Give Squama full of energy to Scholar Lubo(192,171) at Blue Ocean
+  source:
+    path: data/quests/research/legacy-guides/atlantis/fantastic-voyage.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+    authority_role: secondary_historical_walkthrough
+- title_raw: Unprecedented Setback(Group)
+  section_raw: null
+  steps_raw:
+  - 1.Destroy Hicalu 1 at Lost Region. Activate and kill first robot(60,38),second robot (118,174) and Hiculu(293,170).
+  - 2.Adam may have been murdered, inform Scholar Lubo(192,171) at Blue immediately
+  - 3.Ask Voyage Officer(133,32) at Shining Coast to send a boat to pick up Lubo
+  source:
+    path: data/quests/research/legacy-guides/atlantis/fantastic-voyage.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+    authority_role: secondary_historical_walkthrough
+- title_raw: Disappeared Yahabosen
+  section_raw: null
+  steps_raw:
+  - 1.Collect wreckage of the Habosen Ship North Raging Reef(141,175),North-east Raging Reefs(289,131), Southest Raging Reef(242,12) and Southwest(44,16) Raging Reefs.
+  - 2.Let Voyage Officer(133,32) at Shining Coast identify that whether Remain comes from Habosen Ship.
+  - '3.Return Palm Base to buy Aid Sirup from Charge Nurse(255,54) and then go to Quiet Ocean and Coral Vale to succor: Trapped Voyager(185,33), Trapped Surveyer(173,137) and Trapped Boffin(18,28) in Quiet
+    Ocean, Trapped Scholar(12,15) and Trapped Labor(219,103) in Coral Vale.'
+  - 4.Defeat 50 Evil Fish(104,104) in Quiet Ocean to make sure that succors can get to work successfully
+  - 5.Defeat 40 Death Sailor(61,142) in Coral Vale to make sure that succors an get to work successfully
+  - 6.Tell Voyage Officer(133,32) at Shining Coast your effort
+  source:
+    path: data/quests/research/legacy-guides/atlantis/fantastic-voyage.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+    authority_role: secondary_historical_walkthrough
+- title_raw: Fight under the Sea
+  section_raw: null
+  steps_raw:
+  - 1.Defeat Asharl in Evil Ship
+  - 2.Defeat Mamen
+  - 3.Defeat Sallens that try to Destroy Yatiss Cultural Relic in Habosen Ship
+  - 4.Return to Palm Base to meet Premier Shanell(232,148) and accept praise
+  source:
+    path: data/quests/research/legacy-guides/atlantis/fantastic-voyage.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+    authority_role: secondary_historical_walkthrough
+- title_raw: Let's Fight!
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Traveller Landy(34,66) in Golden Beach
+  - 2.Drive away 30 Puqi Turtle(11,36) in Golden Beach
+  - 3.Tell Traveller Landy(34,66) that Turtles have been driven away
+  - 4.Diven away 35 Color Crab (40,32)Soldier in Golden Beach
+  - 5.Tell Traveller Landy(34,66) that Color Crab have been driven away
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: Meeting Robbers
+  section_raw: null
+  steps_raw:
+  - 1.Defeat Puqi Pirate and Puqi Pirate Leader(164,160) and get back Love Necklaces of Stany and Wendy:Red Love Necklace and Blue Love Necklace.
+  - 2.Give Love Necklaces to Lad Stany(41,212)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: A Cup of Icy Coffee
+  section_raw: null
+  steps_raw:
+  - 1.Find Childe Kere(132,39) for Puqi Village Standy
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: Invaluable Rubbish
+  section_raw: null
+  steps_raw:
+  - 1.Dive into Blue Sea to find Childe Kere's diamond ring from dusthead. Go to See Junk(270,125)
+  - 2.Return Ocean Heart to Childe Kere(132,39)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: Lost Friends
+  section_raw: null
+  steps_raw:
+  - 1.Find Remain of Habosen Ship in Raging Reefs.Kenny's Reefs(282,161)
+  - 2.Return Puqi Village to find Childe Kere(132,39)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: Hope after Bad News
+  section_raw: null
+  steps_raw:
+  - 1.Dive into Coral Vale to investigate at suspicious Pack(192,161)
+  - 2.Show Childe Kere(132,39) Caterman's Letter
+  source:
+    path: data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9cc92040a986696a00dd69390706b424a86b9b7ada62bd5aed2a33ddf0c1d96e
+    authority_role: secondary_historical_walkthrough
+- title_raw: Mermaid Legend
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Merchant Corian(122,159)at Palm Base
+  - 2.Go to Have Harbor, 10 shear hair of Blue Merman(208,164)
+  - 3.Return Palm Base to exchange with Merchant Corian(122,159)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+    authority_role: secondary_historical_walkthrough
+- title_raw: Keep the Sea Clean
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Mermaid Lilian(18,115) at Blue Sea
+  - 2.Eliminate the 4 Junks in Blue Sea South Junk(118,13), Southeast Junk(281,17), Northeast Junk(280,134) and North Junk(140,167).
+  - 3.Report again to Mermaid Lilian(18,115)
+  source:
+    path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+    authority_role: secondary_historical_walkthrough
+- title_raw: Fight to Reclaim Survical
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Mermaid Ozzie(134,50) at Dream Ocean
+  - 2.Defeat Halobios Threatening Mermans 35 Stab Jellyfish(234,150) and 55 Wood Octopus
+  - 3.Tell to Mermaid Ozzie(134,50) the process
+  source:
+    path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+    authority_role: secondary_historical_walkthrough
+- title_raw: Natural Enemy
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Mermaid Ophelia(54,61) at Blue Sea
+  - 2.Defeat 40 Sea Shark(178,59) in Blue Ocean
+  - 3.Defeat 40 Rager Shark(178,59) in Blue Ocean
+  - 3.Report to Mermaid Ophelia at Blue Sea
+  source:
+    path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+    authority_role: secondary_historical_walkthrough
+- title_raw: Reseize the Robbed Goods
+  section_raw: null
+  steps_raw:
+  - 1.Talk to General Campbell(186,98) in Palm Base
+  - 2.Investigate the sunken material(76,14) in Coral Vale
+  - 3.Reseize Confidential 8 wooden crate from ghost in Coral Vale. Kill Death Sailor and Death Sail(167,117)
+  - 4.Report to General Campbell(186,98) in Palm Base
+  source:
+    path: data/quests/research/legacy-guides/atlantis/soldiers-on-sea.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 9d43f0534f7aef3b0130961463532c132c39078a4cbb55dbadaec741265da8a2
+    authority_role: secondary_historical_walkthrough

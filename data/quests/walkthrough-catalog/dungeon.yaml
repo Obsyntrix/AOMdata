@@ -1,0 +1,2735 @@
+schema_version: 1
+dataset: aomega_walkthrough_catalog
+region: dungeon
+authority_policy:
+  historical_angels_wiki: primary
+  period_2012_community_guides: secondary_historical
+  current_booklet_client_database: secondary_cross_version_corroboration_only
+  aomega_target_client: final_verification_pending
+counts:
+  area_table_quest_records: 25
+  with_historical_dedicated_page: 24
+  with_period_guide_match: 18
+  with_current_client_match: 16
+  walkthrough_historical_dedicated: 21
+  walkthrough_period_guide: 1
+  walkthrough_existing_canonical: 0
+  walkthrough_area_minimal: 2
+  walkthrough_missing: 1
+  supplemental_historical_pages: 8
+  supplemental_period_guide_blocks: 27
+quests:
+- id: fiery-path-the-first-appetizer
+  name: The First Appetizer
+  region: dungeon
+  area:
+    id: fiery-path
+    name: Fiery Path
+  historical_area_table:
+    repeatable_raw: '?'
+    requirements_raw: '?'
+    reward_raw: '?'
+    short_description_raw: '?'
+    row_raw:
+      Quest Name: The First Appetizer
+      Repeat.: '?'
+      Requirements: '?'
+      Reward: '?'
+      Short Description: '?'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/fiery-path.yaml
+      origin_url: https://angels.wikidot.com/area:fiery-path
+      retrieval_url: https://www.aowiki.uk/pages/area_fiery-path.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 26acd8482e6c9aa2271b21e44a03622be2bacfe79c2b27c01221f74db448e218
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat Heat Elf , Hell Slave and Evil Grass until all the ingredients are obtained.
+    - Go to Mayole and give him the ingredients.
+    - Go to Lava Cave and talk to Ugly Saladan .
+  historical_dedicated_pages:
+  - title_raw: The First Appetizer
+    summary_raw: Beelzebub's first test is to find the food material for one of his students called Mayole
+    information_raw: 'Quest Giver Repeatable Series Mayole No Dungeon
+
+      Previous Quest Next Quest Learning from Chef Boship The Second Appetizer'
+    requirements_raw: Faction Lvl Rank Skill Quest - - 30 - -
+    reward_raw: 'Exp. Credit Gold - - - Items
+
+      -'
+    walkthrough_raw: Step 1 Defeat Heat Elf , Hell Slave and Evil Grass until all the ingredients are obtained. Step 2 Go to Mayole and give him the ingredients. Step 3 Go to Lava Cave and talk to Ugly
+      Saladan .
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-first-appetizer.yaml
+      origin_url: https://angels.wikidot.com/quest:the-first-appetizer
+      retrieval_url: https://www.aowiki.uk/pages/quest_the-first-appetizer.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 05e01cf963e43d28d9290bfce3ab445dc9acc34987f459e406ae86989f348556
+      authority_role: null
+  period_guide_matches:
+  - title_raw: The First Appetizer
+    section_raw: null
+    steps_raw:
+    - 1. Talk with Mayloe (110,108) at Fiery Path
+    - '2. Collect food material for mayole Baked: 6 Black Sugar, 6 Dirt Fungus and 6 Crazy Whey from kill Heat Elf(50,160) at Sad Abyss, Hell Slave(185,120) and Evil Grass(140,70).'
+    - 3. Find the second Disciple of Beelzebub. Talk with Ugly Saladan(162,65) at Lava Cave
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+      authority_role: secondary_historical_walkthrough
+  - title_raw: The First Appetizer
+    section_raw: null
+    steps_raw:
+    - 1.collent the below items.
+    - (baked black sugar)/6
+    - (dirt fungus)/6
+    - (crazy whey)/6
+    - 2.find the second disciple Ugly Saladan at Lave Cave
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches:
+  - id: demon-kitchen-main-the-first-appetizer
+    path: data/quests/series/demon-kitchen-main.yaml
+    category: series
+    repeatable: false
+    giver:
+      npc: Mayole
+      area: Fiery Path
+      coordinates:
+      - 110
+      - 108
+    requirements:
+      level:
+        min: 30
+        max: null
+      prerequisite_quests:
+      - demon-kitchen-main-learning-from-chef-boship
+    rewards: {}
+    objectives:
+    - type: collect_drop
+      target: Heat Elf
+      item: Black Sugar
+      count: 6
+      drop_rate: null
+    - type: collect_drop
+      target: Hell Slave
+      item: Dirt Fungus
+      count: 6
+      drop_rate: null
+    - type: collect_drop
+      target: Evil Grass
+      item: Crazy Whey
+      count: 6
+      drop_rate: null
+    - type: talk
+      target: Ugly Saladan
+      area: Lava Cave
+      coordinates:
+      - 162
+      - 65
+    walkthrough:
+    - Speak with Mayole.
+    - Collect 6 Black Sugar, 6 Dirt Fungus, and 6 Crazy Whey from the documented monsters.
+    - Give Mayole the ingredients, then find Ugly Saladan in Lava Cave.
+    verification:
+      status: web_partial
+      client_confirmation: pending
+      conflicts: []
+  current_client_corroboration:
+  - quest_id: 607
+    name_raw: The First Appetizer
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 68
+      text_raw: ViewFiery Path完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+    - map_id: 67
+      text_raw: ViewWailing Abyss完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=67&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00607-the-first-appetizer.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=607&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=607&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: a9931e5113878b1618ff655db5772895d8c91865b6c99870a1009b23a88850a8
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: fiery-path-killing-rats-leader
+  name: Killing Rats Leader
+  region: dungeon
+  area:
+    id: fiery-path
+    name: Fiery Path
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: LVL 60
+    reward_raw: 18,000 exp, 250 credit, 10,000 gold
+    short_description_raw: Kill Rat Mosi
+    row_raw:
+      Quest Name: Killing Rats Leader
+      Repeat.: 'No'
+      Requirements: LVL 60
+      Reward: 18,000 exp, 250 credit, 10,000 gold
+      Short Description: Kill Rat Mosi
+    source:
+      path: data/quests/research/walkthrough-intake/areas/fiery-path.yaml
+      origin_url: https://angels.wikidot.com/area:fiery-path
+      retrieval_url: https://www.aowiki.uk/pages/area_fiery-path.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 26acd8482e6c9aa2271b21e44a03622be2bacfe79c2b27c01221f74db448e218
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Walk in the Magic Kitchen Path use the right side pass the magma floor will reach to Rat Mosi
+    - Talk back to Hunter Shinge to receive the reward.
+  historical_dedicated_pages:
+  - title_raw: Killing Rats Leader
+    summary_raw: Kill Rat Mosi
+    information_raw: 'Quest Giver Repeatable Series Hunter Shinge No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any Lvl 60 Any Any -
+    reward_raw: 'Exp. Credit Gold 18,000 250 10,000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Walk in the Magic Kitchen Path use the right side pass the magma floor will reach to Rat Mosi Step 2 Talk back to Hunter Shinge to receive the reward.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-rats-leader.yaml
+      origin_url: https://angels.wikidot.com/quest:killing-rats-leader
+      retrieval_url: https://www.aowiki.uk/pages/quest_killing-rats-leader.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 0f3802213d534c61a5baf9720f7506988d02759a93b1ba2c4b67b5640ebdaa4d
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Killing Rat's Leader
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Hunter Shinge(30,20) at Fiery Path.
+    - 2.Defeat Rat Mosil(240,45) at Magic Kitchen Path
+    - 3.Return to Hunter Shinge(30,20) at Fiery Path.
+    fuzzy_match_score: 0.9744
+    source:
+      path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 617
+    name_raw: Killing Rats' Leader
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 68
+      text_raw: ViewFiery Path完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00617-killing-rats-leader.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=617&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=617&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 5b5c15a0409627ae6924abf1fb3c3196dcdae74a44245d98a4ead98b8bb8f3db
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: fiery-path-searching-for-lost-receipe
+  name: Searching For Lost Receipe
+  region: dungeon
+  area:
+    id: fiery-path
+    name: Fiery Path
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: LVL 60
+    reward_raw: '?'
+    short_description_raw: Kill Soul Slalin and Earl Makice
+    row_raw:
+      Quest Name: Searching For Lost Receipe
+      Repeat.: 'No'
+      Requirements: LVL 60
+      Reward: '?'
+      Short Description: Kill Soul Slalin and Earl Makice
+    source:
+      path: data/quests/research/walkthrough-intake/areas/fiery-path.yaml
+      origin_url: https://angels.wikidot.com/area:fiery-path
+      retrieval_url: https://www.aowiki.uk/pages/area_fiery-path.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 26acd8482e6c9aa2271b21e44a03622be2bacfe79c2b27c01221f74db448e218
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat Soul Slalin at Magic Kitchen Path and find out First Half Volume of Cookbook. You must turn on all the torch in order to summon Soul Slalin
+    - Defeat Earl Makice at Gulp Room and find out Second Half Volume of Cookbook. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue,
+      Right Headless Statue, Left Gebuer Statue, Left Barft Statue, Right Wolf Statue to meet up with Earl Makice
+    - Go to Cook Betty for your reward
+  historical_dedicated_pages:
+  - title_raw: Searching For Lost Receipe
+    summary_raw: Kill Soul Slalin and Earl Makice
+    information_raw: 'Quest Giver Repeatable Series Cook Betty No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any Lvl 60 Any Any -
+    reward_raw: 'Exp. Credit Gold 27500 500 10000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Defeat Soul Slalin at Magic Kitchen Path and find out First Half Volume of Cookbook. You must turn on all the torch in order to summon Soul Slalin Step 2 Defeat Earl Makice at
+      Gulp Room and find out Second Half Volume of Cookbook. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless Statue,
+      Left Gebuer Statue, Left Barft Statue, Right Wolf Statue to meet up with Earl Makice Step 3 Go to Cook Betty for your reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_searching-for-lost-receipe.yaml
+      origin_url: https://angels.wikidot.com/quest:searching-for-lost-receipe
+      retrieval_url: https://www.aowiki.uk/pages/quest_searching-for-lost-receipe.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: dc72ca660640adf5460d18200b8ae346b2fc8e367d570b262fb5b20bdf9eff55
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Searching for Lost Receipe
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Cook Betty(152,19) at Fiery Path.
+    - 2.Defeat Soul Slalin(312,181) in Magic Kitchen Path and find out the First Half Volume of Cookbook.
+    - 3.Defeat Earl Makice in Gulp Room, and find out the Second Half Volume of Cookbook.Click Statue(348,183) until Earl Makice appear
+    - 4.Give the Cookbook to Betty(152,19) at Fiery Path.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 619
+    name_raw: Searching for Lost Receipe
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 68
+      text_raw: ViewFiery Path完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00619-searching-for-lost-receipe.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=619&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=619&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: fae27c1be82a379a88327ad078e121065c20ea06310e8682305b62d7d8abfbf4
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: flaming-door-rare-specimen-making
+  name: Rare Specimen Making
+  region: dungeon
+  area:
+    id: flaming-door
+    name: Flaming Door
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: 32000 exp, 550 credit, 15000 gold
+    short_description_raw: null
+    row_raw:
+      Quest Name: Rare Specimen Making
+      Requirements: none
+      Reward: 32000 exp, 550 credit, 15000 gold
+    source:
+      path: data/quests/research/walkthrough-intake/areas/flaming-door.yaml
+      origin_url: https://angels.wikidot.com/area:flaming-door
+      retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Fetch Beetle bone - 20 in Gulp Room . it will disapear with in 20min so you must walk in and out immediately
+    - Talk to Vilo 3 he will make it to Evil Beetle Sample. Usually u can only manage to collect 18 so you must do the trip twice..
+    - Once you it reach 20piece talk again to Vilo 3 to claim your reward _
+  historical_dedicated_pages:
+  - title_raw: Rare Specimen Making
+    summary_raw: You volunteer to help Vilo 3 to collect beetle specimen
+    information_raw: 'Quest Giver Repeatable Series Vilo 3 No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any ? - - -
+    reward_raw: 'Exp. Credit Gold 32000 550 15000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Fetch Beetle bone - 20 in Gulp Room . it will disapear with in 20min so you must walk in and out immediately Step 2 Talk to Vilo 3 he will make it to Evil Beetle Sample. Usually
+      u can only manage to collect 18 so you must do the trip twice.. Step 3 Once you it reach 20piece talk again to Vilo 3 to claim your reward _
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-specimen-making.yaml
+      origin_url: https://angels.wikidot.com/quest:rare-specimen-making
+      retrieval_url: https://www.aowiki.uk/pages/quest_rare-specimen-making.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 6b0cd8b62ee09257a108f73838ac4a217fe51287bf450fd723fb00a2299f0a07
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Rare Specimen Making
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Vilo 3(298,25) at Flaming Door.
+    - 2.Fetch 20 Beetle Bone(131,123) at Gulp Room to Vilo 3 to make sample. See Vilo 3(298,25) before 30 minute to convert Beetle Bone to Beetle Sample.
+    - 2. Give to Vilo 3(298,25) at Flaming Door
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/visit-demons-at-night.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 3daf566c65a90567f510ac02fab398886209b1151d5f9745918e66f28c3947ae
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 622
+    name_raw: Rare Specimen Making
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 70
+      text_raw: ViewFlame Gate完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=70&lang=eng
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00622-rare-specimen-making.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=622&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=622&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: e69ab99e4166c3be63e4dc6817417d4552a14425764329b238e80062b7291852
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: flaming-door-a-will-to-ask
+  name: A Will To Ask
+  region: dungeon
+  area:
+    id: flaming-door
+    name: Flaming Door
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: 30000 exp, 300 credit, 12000 gold
+    short_description_raw: null
+    row_raw:
+      Quest Name: A Will To Ask
+      Requirements: none
+      Reward: 30000 exp, 300 credit, 12000 gold
+    source:
+      path: data/quests/research/walkthrough-intake/areas/flaming-door.yaml
+      origin_url: https://angels.wikidot.com/area:flaming-door
+      retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Go to Breeze Woods to meet Doctor Cliss
+    - 'Collect these items: Fire Core of Imp Elf - 4 Anti-inflammatory Gel of Rock Slarm - 6 Cooling Oil of Terra Lampman - 1'
+    - Return to Breeze Woods and ask Doctor Cliss to make the medicine. You will be required to pay 5000 Gold.
+    - Bring the medicine to Gustav . Gustav will die. You will then you need to go to Angel Lyceum
+    - Find House Pickets to stop Gustav soul
+    - Gustav soul will ask you to find his backpack to be buried with him, but the backpack is stolen by Flame Mummy . Kill Flame Mummy until you find the backpack.
+    - Talk to Gustav
+    - 'Talk again to Gustav body. He will be revived then quest ends.
+
+      _'
+  historical_dedicated_pages:
+  - title_raw: A Will To Risk
+    summary_raw: '"Gustav is badly injured and is awaiting your treatment. His fate is in your hands." -Quest Log'
+    information_raw: 'Quest Giver Repeatable Series Gustav No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 30,000 300 12000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: 'Step 1 Go to Breeze Woods to meet Doctor Cliss Step 2 Collect these items: Fire Core of Imp Elf - 4 Anti-inflammatory Gel of Rock Slarm - 6 Cooling Oil of Terra Lampman - 1 Step 3
+      Return to Breeze Woods and ask Doctor Cliss to make the medicine. You will be required to pay 5000 Gold. Step 4 Bring the medicine to Gustav . Gustav will die. You will then you need to go to Angel
+      Lyceum Step 5 Find House Pickets to stop Gustav soul Step 6 Gustav soul will ask you to find his backpack to be buried with him, but the backpack is stolen by Flame Mummy . Kill Flame Mummy until
+      you find the backpack.
+
+      Step 7 Talk to Gustav
+
+      Step 8 Talk again to Gustav body. He will be revived then quest ends.
+
+      _'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_a-will-to-ask.yaml
+      origin_url: https://angels.wikidot.com/quest:a-will-to-ask
+      retrieval_url: https://www.aowiki.uk/pages/quest_a-will-to-ask.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d0d586d7536ad090001661260e7b2aafddf83612f9c7bb740b47ab4a4a0111db
+      authority_role: null
+  period_guide_matches:
+  - title_raw: A will to risk
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Gustav(325,92) at Flaming Door
+    - 2.Ask Doktor Cliss(328,20) at Breeze Woods to help and get Arcanum
+    - '3.Collect medicinal material Cliss need: 4 Fire Core of Imp Elf(185,76) at Sad Abyss,6 Anti-inflammatory Gel of Rock Slarm(96,142) at Flaming Door and 1 Cooling Oil of Terra Lampman (210,49)'
+    - 4.Request Doktor Cliss(328,20) at Breeze Woods make Arcanum and pay 5000
+    - 5.Take the Arcanum to Gustav(325,92) at Flaming Door immediately
+    - 6.Request anyone of House Pickets(213,77) at Angel Lyceum to stop soul of Gustav.
+    - 7.Defeat many Flame Mummies(132,43) at Flaming Door and get back the big bag of Gustav.
+    - 8.Bury Gustav's(325,92) body together with his big bag
+    fuzzy_match_score: 0.8889
+    source:
+      path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: flaming-door-devil-s-whispering
+  name: Devil's Whispering
+  region: dungeon
+  area:
+    id: flaming-door
+    name: Flaming Door
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: 22000 exp, 200 credit, 10000 gold
+    short_description_raw: null
+    row_raw:
+      Quest Name: Devil's Whispering
+      Requirements: none
+      Reward: 22000 exp, 200 credit, 10000 gold
+    source:
+      path: data/quests/research/walkthrough-intake/areas/flaming-door.yaml
+      origin_url: https://angels.wikidot.com/area:flaming-door
+      retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Destroy & kill Fire Ghost Kid - 40
+    - Return to visit flaming-door-sick-zapo
+    - Destroy and kill Poison Flower - 40
+    - Defeat Death Soul Leader _
+  historical_dedicated_pages:
+  - title_raw: Devil S Whispering
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series flaming-door-sick-zapo No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 22,000 200 10,000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: 'Step 1 Destroy & kill Fire Ghost Kid - 40 Step 2 Return to visit flaming-door-sick-zapo Step 3 Destroy and kill Poison Flower - 40 Step 4
+
+      Defeat Death Soul Leader _'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_devil-s-whispering.yaml
+      origin_url: https://angels.wikidot.com/quest:devil-s-whispering
+      retrieval_url: https://www.aowiki.uk/pages/quest_devil-s-whispering.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: abca91a9972e9cd68d944de2dafcbfa8a6ec243957ba4a6e36725b3737c0fffc
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Devil's Whispering
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Sick Zapo(237,143) at Flaming Door
+    - 2.Destroy the monsters whispering in his mind 40 Fire Ghost Kid(249,95)
+    - 3.Return to visit Sick Zapo(237,143) and Destroy the monsters whispering in his mind 40 Poison Flower(74,44)at Underground Square.
+    - 4.Return to visit Sick Zapo(237,143) and destroy the monsters whispering in his mind Soul Guide.
+    - 5.Return to visit Zapo.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 634
+    name_raw: Devil's Whispering
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 70
+      text_raw: ViewFlame Gate完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=70&lang=eng
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00634-devil-s-whispering.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=634&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=634&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 78690dc4a7af2b53cc8ac488b563e76287298429b9ad9cdeb9d869d5a1a36705
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: flaming-door-pest-control
+  name: Pest Control
+  region: dungeon
+  area:
+    id: flaming-door
+    name: Flaming Door
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: 28000 exp, 500 credit, 12500 gold
+    short_description_raw: null
+    row_raw:
+      Quest Name: Pest Control
+      Requirements: none
+      Reward: 28000 exp, 500 credit, 12500 gold
+    source:
+      path: data/quests/research/walkthrough-intake/areas/flaming-door.yaml
+      origin_url: https://angels.wikidot.com/area:flaming-door
+      retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Kill 30 Hungry Fly , 30 Flame Fly , and 20 Evil Fly at Magic Kitchen Path . Report back to Heavenly Officer
+    - Get 10 Egg Sample from Gold Fly in Gulp Room . Report back to Heavenly Officer to get your rewards
+  historical_dedicated_pages:
+  - title_raw: Pest Control
+    summary_raw: null
+    information_raw: 'Quest Giver Repeatable Series Heavenly Officer No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 28,000 500 12,500 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Kill 30 Hungry Fly , 30 Flame Fly , and 20 Evil Fly at Magic Kitchen Path . Report back to Heavenly Officer Step 2 Get 10 Egg Sample from Gold Fly in Gulp Room . Report back
+      to Heavenly Officer to get your rewards
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_pest-control.yaml
+      origin_url: https://angels.wikidot.com/quest:pest-control
+      retrieval_url: https://www.aowiki.uk/pages/quest_pest-control.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: bcd36bb8d7f8f756729a106e2262a7ee4ca61296fc56f75e1f1ecc4e0233a089
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 241
+    name_raw: Pest Control
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 3
+      text_raw: ViewAurora City完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=3&lang=eng
+    - map_id: 6
+      text_raw: ViewGrainsea Farm完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=6&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00241-pest-control.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=241&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=241&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 7905a020a0f0a33150ec13b5210ab64522b666bdd4c921b39461d23a40702958
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: flaming-door-pollution-control
+  name: Pollution Control
+  region: dungeon
+  area:
+    id: flaming-door
+    name: Flaming Door
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: '? exp, ? credit, ? gold'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Pollution Control
+      Requirements: none
+      Reward: '? exp, ? credit, ? gold'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/flaming-door.yaml
+      origin_url: https://angels.wikidot.com/area:flaming-door
+      retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Kill 60 of Soul-eating Worm diveded from Soul Slalin in Magic Kitchen Path
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Pollution Control
+    summary_raw: Heavenly Officer ask you to help him kill the Doped Up Elf
+    information_raw: 'Quest Giver Repeatable Series Heavenly Officer No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Kill 60 of Soul-eating Worm diveded from Soul Slalin in Magic Kitchen Path Step 2 Details here.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_pollution-control.yaml
+      origin_url: https://angels.wikidot.com/quest:pollution-control
+      retrieval_url: https://www.aowiki.uk/pages/quest_pollution-control.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 56138782fa5340d949adab1d0d37d2fa00a7be4ce54ac2d89fe0e01d24430348
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: gulp-room-last-survivor
+  name: Last Survivor
+  region: dungeon
+  area:
+    id: gulp-room
+    name: Gulp Room
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl ?
+    reward_raw: '?'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Last Survivor
+      Requirements: lvl ?
+      Reward: '?'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/gulp-room.yaml
+      origin_url: https://angels.wikidot.com/area:gulp-room
+      retrieval_url: https://www.aowiki.uk/pages/area_gulp-room.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 004277d20d9ccd58efda4c5aa7c8f4dfe4efa81091a91a41b762c4ca27a31399
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Get the tubes from 3 different monster Elite Fire Mummy , Bloody Demon , Dark Elite
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Last Survivor
+    summary_raw: Resize 3 test tube for hank
+    information_raw: 'Quest Giver Repeatable Series Hank No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Get the tubes from 3 different monster Elite Fire Mummy , Bloody Demon , Dark Elite Step 2 Details here.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_last-survivor.yaml
+      origin_url: https://angels.wikidot.com/quest:last-survivor
+      retrieval_url: https://www.aowiki.uk/pages/quest_last-survivor.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: fa56e7e109cd0d3a89a8569a878f716e428d36f39056ae6744959cd4bca9b677
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Last Survivor
+    section_raw: null
+    steps_raw:
+    - 1.Go monument (283,273) and enter.
+    - 2.Follow the ghost until find exit ghost
+    - 3.Talk to Hank(30,139)
+    - 4.Reseize tthe 3 Test Tibes Hank lost Dark Elite, Elite Fire Mummy and Bloody Demon.
+    - 5.Talk to Hank(30,139) and Reseize the Culture Vessel grabbed by Demon Kidace.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/visit-demons-at-night.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 3daf566c65a90567f510ac02fab398886209b1151d5f9745918e66f28c3947ae
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 625
+    name_raw: Last Survivor
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00625-last-survivor.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=625&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=625&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 4a104540cd3358c7bc74ade13c2d367cfb90a991cc50ccb33ca8f0540d09ef92
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: hell-palace-diary-collection
+  name: Diary Collection
+  region: dungeon
+  area:
+    id: hell-palace
+    name: Hell Palace
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: to get this quest need be Dead or Mode Angel
+    reward_raw: '?'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Diary Collection
+      Requirements: to get this quest need be Dead or Mode Angel
+      Reward: '?'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/hell-palace.yaml
+      origin_url: https://angels.wikidot.com/area:hell-palace
+      retrieval_url: https://www.aowiki.uk/pages/area_hell-palace.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 0577f9a47ef3b41f9125ccc743a55bc4588ac8bb9ba8884bc1dba7be677451cc
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - first, you need to be Dead or Mode Angel, then go and talk to Bone Remains
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Diary Collection
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Bone Remains Yes/No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: 'Step 1 first, you need to be Dead or Mode Angel, then go and talk to Bone Remains
+
+      Step 2 Details here.'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_diary-collection.yaml
+      origin_url: https://angels.wikidot.com/quest:diary-collection
+      retrieval_url: https://www.aowiki.uk/pages/quest_diary-collection.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: fb23fa9b839a076f9720dd152adf07ed1a1d74670fc6163e99bba3759d33ac17
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Diary Collection
+    section_raw: null
+    steps_raw:
+    - 1. The Character must Dead or Mode Angel, then go talk to Bone Remains(175,107)
+    - 2.Find Diary P1 Terra Miners(60,103),Diary P2 Rotten Slarms(28,112), Diary P3 Riddle Bishop(200,91) and P4 Injuried Angel(70,120) in Hell Palace may have it
+    - 3.investigate Hell Palace's skeleton-Bone Remains(175,107)
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 637
+    name_raw: Diary Collection
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 72
+      text_raw: ViewHell Palace完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=72&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00637-diary-collection.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=637&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=637&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: ca2677a92039541f013be67a9074c997f2a1a2a5f85439d1e527f092b14858aa
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: lava-cave-trick
+  name: Trick
+  region: dungeon
+  area:
+    id: lava-cave
+    name: Lava Cave
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: 25000 exp, 250 credit, 11000 gold
+    short_description_raw: null
+    row_raw:
+      Quest Name: Trick
+      Requirements: none
+      Reward: 25000 exp, 250 credit, 11000 gold
+    source:
+      path: data/quests/research/walkthrough-intake/areas/lava-cave.yaml
+      origin_url: https://angels.wikidot.com/area:lava-cave
+      retrieval_url: https://www.aowiki.uk/pages/area_lava-cave.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 51ccaf7e5e482e4659c0d76cc6fb0ea9e980a8b59dfbc710f8de706acb9b73ce
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Find all the stove in Magic Kitchen Path and destroy it
+    - Report back to Trouble Student to claim your reward
+  historical_dedicated_pages:
+  - title_raw: Trick
+    summary_raw: Student of Evil Lyceum exacting revenge upon Beelzebub
+    information_raw: 'Quest Giver Repeatable Series Trouble Student No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 25000 250 11000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Find all the stove in Magic Kitchen Path and destroy it Step 2 Report back to Trouble Student to claim your reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_trick.yaml
+      origin_url: https://angels.wikidot.com/quest:trick
+      retrieval_url: https://www.aowiki.uk/pages/quest_trick.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 42c79a248f5b25b4206135665f77085a5165901353a8121833cf4f4d6df13a4a
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Trick
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Trouble Student9271,133) at Lava Cave
+    - 2.Destroyed 5 Kitchenware(309,15),(294,156),(383,188),(257,49) and (117,58) at Magic Kitchen Path
+    - 3.Tell Trouble Student that task has been completed
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 615
+    name_raw: Trick
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00615-trick.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=615&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=615&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 81c79b1978146576bbe3538b0cbea38f39c133809fd3e2b37272ae4cd75e66b7
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: lava-cave-forge-ahead
+  name: Forge Ahead
+  region: dungeon
+  area:
+    id: lava-cave
+    name: Lava Cave
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: none
+    reward_raw: '? exp, ? credit, ? gold'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Forge Ahead
+      Requirements: none
+      Reward: '? exp, ? credit, ? gold'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/lava-cave.yaml
+      origin_url: https://angels.wikidot.com/area:lava-cave
+      retrieval_url: https://www.aowiki.uk/pages/area_lava-cave.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 51ccaf7e5e482e4659c0d76cc6fb0ea9e980a8b59dfbc710f8de706acb9b73ce
+      authority_role: null
+  walkthrough:
+    source_class: period_2012_community_guide
+    steps:
+    - 1.Talk to Jamier(266,29) at Lava Cave
+    - 2.Defeat 40 Theurgy Master(41,147)
+    - 3.Report to Jamier(266,29) and defeat 40 Evil Knight(40,150) at Flaming Door
+    - 4.Report to Jamier(266,29)
+  historical_dedicated_pages: []
+  period_guide_matches:
+  - title_raw: Forge ahead
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Jamier(266,29) at Lava Cave
+    - 2.Defeat 40 Theurgy Master(41,147)
+    - 3.Report to Jamier(266,29) and defeat 40 Evil Knight(40,150) at Flaming Door
+    - 4.Report to Jamier(266,29)
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 628
+    name_raw: Forge ahead
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    - map_id: 70
+      text_raw: ViewFlame Gate完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=70&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00628-forge-ahead.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=628&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=628&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 648ad75486bc44f85ce5498bea911ed80939b58cdfdb1d1b26d73bab9e57d9a4
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: false
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: sad-abyss-deep-into-the-earth-s-core
+  name: Deep Into The Earth‘s Core 1 of 2
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 50+
+    reward_raw: Gold+3000, Exp+8000, Credit+100
+    short_description_raw: Defeat 40 Flies and report to Jaloyd, then defeat 40 Evil Grass .
+    row_raw:
+      Quest Name: Deep Into The Earth‘s Core 1 of 2
+      Repeat.: 'No'
+      Requirements: Character Lvl 50+
+      Reward: Gold+3000, Exp+8000, Credit+100
+      Short Description: Defeat 40 Flies and report to Jaloyd, then defeat 40 Evil Grass .
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak to Jaylod
+    - Defeat 40 Flys.
+  historical_dedicated_pages:
+  - title_raw: Deep Into The Earth's Core
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series [[[npc:Jaloyd]] No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Speak to Jaylod Step 2 Defeat 40 Flys.
+    walkthrough_steps: &id001 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_deep-into-the-earth-s-core.yaml
+      origin_url: https://angels.wikidot.com/quest:deep-into-the-earth-s-core
+      retrieval_url: https://www.aowiki.uk/pages/quest_deep-into-the-earth-s-core.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 589e0d212930ca88b1bc7d17acbcd28fd0328d67aabc14b9baa947ccb412c4ac
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Deep into Earth's Core
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Jaloyd(28,179) at Sad Abyss
+    - 2.Eliminate 40 Fly(77,146)
+    - 3.Tell Jaloyd Silent Revenge accomplishment of the task
+    - 4.Eliminate 40 Evil Grass(120,100)
+    - 5.Report to Jaloyd(28,179)
+    fuzzy_match_score: 0.9167
+    source:
+      path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: sad-abyss-stride-ahead
+  name: Stride Ahead 2 of 2
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 50+; Completed quest Deep Into The Earth‘s Core
+    reward_raw: Gold+2000, Exp+3500, Credit+40
+    short_description_raw: Go to Lava Cave and take supplies to Jamier (?,?).
+    row_raw:
+      Quest Name: Stride Ahead 2 of 2
+      Repeat.: 'No'
+      Requirements: Character Lvl 50+; Completed quest Deep Into The Earth‘s Core
+      Reward: Gold+2000, Exp+3500, Credit+40
+      Short Description: Go to Lava Cave and take supplies to Jamier (?,?).
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Speak to Jaylod
+    - Defeat 40 Flys.
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_stride-ahead.yaml
+      origin_url: https://angels.wikidot.com/quest:stride-ahead
+      retrieval_url: https://web.archive.org/web/20100106220414id_/http://angels.wikidot.com:80/quest:stride-ahead
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100106220414'
+      source_html_sha256: 0ff8581ac2e6a287341c70ee3fd4c8c279f95b4eb6ee5bd37522c12e58ce7c59
+      authority_role: null
+  - title_raw: Deep Into The Earth's Core
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series [[[npc:Jaloyd]] No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Speak to Jaylod Step 2 Defeat 40 Flys.
+    walkthrough_steps: *id001
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_deep-into-the-earth-s-core.yaml
+      origin_url: https://angels.wikidot.com/quest:deep-into-the-earth-s-core
+      retrieval_url: https://www.aowiki.uk/pages/quest_deep-into-the-earth-s-core.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 589e0d212930ca88b1bc7d17acbcd28fd0328d67aabc14b9baa947ccb412c4ac
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Stride ahead
+    section_raw: null
+    steps_raw:
+    - 1.Take Material Supply to Jamier(266,29) at Lava Cave
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 627
+    name_raw: Stride ahead
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 67
+      text_raw: ViewWailing Abyss完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=67&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00627-stride-ahead.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=627&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=627&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 3dffd0b75c392ed47ea10b4ec22b33478ee4ca5717e40760a5f19f7e833303b4
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: sad-abyss-firm-faith-of
+  name: Firm Faith Part 1 of ?
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 50
+    reward_raw: Gold+4000, Exp+10000, Credit+100
+    short_description_raw: Defeat 50 Heat Elfs , 30 Evil Grass and 35 Hell Slaves .
+    row_raw:
+      Quest Name: Firm Faith Part 1 of ?
+      Repeat.: 'No'
+      Requirements: Character Lvl 50
+      Reward: Gold+4000, Exp+10000, Credit+100
+      Short Description: Defeat 50 Heat Elfs , 30 Evil Grass and 35 Hell Slaves .
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Details here.
+    - Details here.
+  historical_dedicated_pages:
+  - title_raw: Firm Faith
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series NPC Name Yes/No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Details here. Step 2 Details here.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_firm-faith.yaml
+      origin_url: https://angels.wikidot.com/quest:firm-faith
+      retrieval_url: https://www.aowiki.uk/pages/quest_firm-faith.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f0ac9d4ae41646dc0d6a0f1e4d99b8d86b680cb47086526c2c9047f3b1566d07
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Firm Faith
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Warrior Athor(161,93) at Sad Abyss
+    - 2.Defeat monsters besieging Athor such as 50 Heat Elf(72,158), 30 Evil Grass(157,84), and 35 Hell Slave(79,46).
+    - 3.Break through successfully ang let Warrior Athor(161,93) know.
+    fuzzy_match_score: 0.8696
+    source:
+      path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: sad-abyss-fight-for-right-and-friendship
+  name: Fight for Right and Friendship
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 50
+    reward_raw: Gold+4000, Exp+10000, Credit+100
+    short_description_raw: Defeat Rock God Mendun
+    row_raw:
+      Quest Name: Fight for Right and Friendship
+      Repeat.: 'No'
+      Requirements: Character Lvl 50
+      Reward: Gold+4000, Exp+10000, Credit+100
+      Short Description: Defeat Rock God Mendun
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Go to Magic Kitchen Path kill Rock God Mendun
+    - Spoke back to Warrior Athor to get your reward
+  historical_dedicated_pages:
+  - title_raw: Fight For Right And Friendship
+    summary_raw: kill Rock God Mendun
+    information_raw: 'Quest Giver Repeatable Series Warrior Athor No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any 55 Any Any Any
+    reward_raw: 'Exp. Credit Gold 22,500 220 10,000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Go to Magic Kitchen Path kill Rock God Mendun Step 2 Spoke back to Warrior Athor to get your reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_fight-for-right-and-friendship.yaml
+      origin_url: https://angels.wikidot.com/quest:fight-for-right-and-friendship
+      retrieval_url: https://www.aowiki.uk/pages/quest_fight-for-right-and-friendship.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 5a068a729d8d7e13087ab60512b2894340c79de87a69c5c471fd7d133feedd23
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Fight for right and friendship
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Warrior Athor(161,93) at Sad Abyss
+    - 2.Defeat Rock God Mendun(213,148) at Magic Kitchen Path
+    - 3.Tell Warrior Athor(161,93) at Sad Abyss that Mendun has been defeated.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 616
+    name_raw: Fight for Right and Friendship
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 67
+      text_raw: ViewWailing Abyss完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=67&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00616-fight-for-right-and-friendship.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=616&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=616&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 17dd8084045ed9b79fe286194a0e172be26c99065d4ce96d88d1fce253d9e86a
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: sad-abyss-association-member-s-demand
+  name: Association Member's Demand
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 60+
+    reward_raw: Exp+1500, Credit+55
+    short_description_raw: Defeat 40 Imp Elves
+    row_raw:
+      Quest Name: Association Member's Demand
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 60+
+      Reward: Exp+1500, Credit+55
+      Short Description: Defeat 40 Imp Elves
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Defeat 40 Imp Elves
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-association-members-demand.yaml
+      origin_url: https://angels.wikidot.com/quest:sad-abyss-association-members-demand
+      retrieval_url: https://web.archive.org/web/20091209043856id_/http://angels.wikidot.com:80/quest:sad-abyss-association-members-demand
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091209043856'
+      source_html_sha256: 02f34c30473ca50c93517753ee16a0df76674f1d8e5c2c3bd5b5ee77cefbef55
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: sad-abyss-labor-s-misery
+  name: Labor's Misery
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'Yes'
+    requirements_raw: Character Lvl 60+
+    reward_raw: Exp+1600, Credit+57
+    short_description_raw: Defeat Evil Knights and collect 10 Mine Tools
+    row_raw:
+      Quest Name: Labor's Misery
+      Repeat.: 'Yes'
+      Requirements: Character Lvl 60+
+      Reward: Exp+1600, Credit+57
+      Short Description: Defeat Evil Knights and collect 10 Mine Tools
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_area_table_minimal
+    steps:
+    - Defeat Evil Knights and collect 10 Mine Tools
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-labors-misery.yaml
+      origin_url: https://angels.wikidot.com/quest:sad-abyss-labors-misery
+      retrieval_url: https://web.archive.org/web/20091209181436id_/http://angels.wikidot.com:80/quest:sad-abyss-labors-misery
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091209181436'
+      source_html_sha256: 9ed915f78fd9d1f64ccd042900cdf162d97c7739c0c47f38a003ea5b9176ae67
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: sad-abyss-ruthless-cook
+  name: Ruthless Cook
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 60+
+    reward_raw: Exp 14000, Credit 160
+    short_description_raw: Defeat 40 Hell Slave and 30 Rotten Seeker in Magic Kitchen Path.
+    row_raw:
+      Quest Name: Ruthless Cook
+      Repeat.: 'No'
+      Requirements: Character Lvl 60+
+      Reward: Exp 14000, Credit 160
+      Short Description: Defeat 40 Hell Slave and 30 Rotten Seeker in Magic Kitchen Path.
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Go to Magic Kitchen Path kill 30 of Rotten Seeker & 40 of Hell Slave
+    - Spoke back to Aimless Harless to get your reward
+  historical_dedicated_pages:
+  - title_raw: Ruthless Cook
+    summary_raw: kill Rotten Seeker & Hell Slave
+    information_raw: 'Quest Giver Repeatable Series Aimless Harless No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any 55 Any Any -
+    reward_raw: 'Exp. Credit Gold 14,000 160 8,000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Go to Magic Kitchen Path kill 30 of Rotten Seeker & 40 of Hell Slave Step 2 Spoke back to Aimless Harless to get your reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_ruthless-cook.yaml
+      origin_url: https://angels.wikidot.com/quest:ruthless-cook
+      retrieval_url: https://www.aowiki.uk/pages/quest_ruthless-cook.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 2a5c0316295923a741bf5dd674c540181861bf3f66f21c5a5a35d7df30baba98
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Ruthless Cook
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Aimless Harless(257,49) at Say Abyss
+    - 2.Defeat servants in Magic Kitchen Path:40 Hell Slave and 30 Rotten Seeker. Both Hell Slave and Rotten Seeker available in Room 2,3 and 4.
+    - 3.Tell Aimless Harless(257,49) at Say Abyss how you did it.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 618
+    name_raw: Ruthless Cook
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 67
+      text_raw: ViewWailing Abyss完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=67&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00618-ruthless-cook.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=618&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=618&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 668afbcda268f57d096e2f384132097e87a04b91afe779015edf75cdf2765c8b
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: sad-abyss-devoted-spirit
+  name: Devoted Spirit
+  region: dungeon
+  area:
+    id: sad-abyss
+    name: Sad Abyss
+  historical_area_table:
+    repeatable_raw: 'No'
+    requirements_raw: Character Lvl 60+
+    reward_raw: Gold+6000, Exp+11000, Credit+150
+    short_description_raw: Search for Magma Slag in Fiery Path and Lava Cave .
+    row_raw:
+      Quest Name: Devoted Spirit
+      Repeat.: 'No'
+      Requirements: Character Lvl 60+
+      Reward: Gold+6000, Exp+11000, Credit+150
+      Short Description: Search for Magma Slag in Fiery Path and Lava Cave .
+    source:
+      path: data/quests/research/walkthrough-intake/areas/sad-abyss.yaml
+      origin_url: https://angels.wikidot.com/area:sad-abyss
+      retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Go to Fiery Path seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot)
+    - Go to Lava Cave seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot)
+    - Spoke to Scholar Hopkins
+  historical_dedicated_pages:
+  - title_raw: Devoted Spirit
+    summary_raw: Get Magma Slag
+    information_raw: 'Quest Giver Repeatable Series Scholar Hopkins No -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest Any - Lvl 60 Any -
+    reward_raw: Exp. Credit Gold 11,000 150 6,000
+    walkthrough_raw: Step 1 Go to Fiery Path seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step 2 Go to Lava
+      Cave seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step 3 Spoke to Scholar Hopkins
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_devoted-spirit.yaml
+      origin_url: https://angels.wikidot.com/quest:devoted-spirit
+      retrieval_url: https://www.aowiki.uk/pages/quest_devoted-spirit.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: be49c7b91276538623a8f3ff2c6cb941318bfc2687b6cd40c9f4b323727429ad
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Devoted Spirit
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Scholar Hopkins(161,29) at Sayd Abyss
+    - 2.Find in Fiery Path Magma Slag in the north of Chunnel(139,64),Magma Slag in the south of Chunnel(163,5)and in Lava Cave Magma Slag in the north of Cave(178,113) and Magma Slag in the south of Cave(96,11).
+    - 3.Talk them all to Scholar Hopkins(161,29) at Sayd Abyss
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 631
+    name_raw: Devoted Spirit
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 67
+      text_raw: ViewWailing Abyss完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=67&lang=eng
+    - map_id: 68
+      text_raw: ViewFiery Path完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00631-devoted-spirit.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=631&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=631&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 8f8f63f3002246cadeebafaef22338d821b9a9d86c7f7585b9ac471d602b5916
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: underground-square-scattered-will
+  name: Scattered Will
+  region: dungeon
+  area:
+    id: underground-square
+    name: Underground Square
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl 75 - ?
+    reward_raw: 'Exp : 2200 Credit : 65'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Scattered Will
+      Requirements: lvl 75 - ?
+      Reward: 'Exp : 2200 Credit : 65'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/underground-square.yaml
+      origin_url: https://angels.wikidot.com/area:underground-square
+      retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+      authority_role: null
+  walkthrough:
+    source_class: none
+    steps: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_scattered-will.yaml
+      origin_url: https://angels.wikidot.com/quest:scattered-will
+      retrieval_url: https://web.archive.org/web/20091209164458id_/http://angels.wikidot.com:80/quest:scattered-will
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20091209164458'
+      source_html_sha256: e091d23f7c76d21c7ad475b4ab87c0c87cb6f52ac11d9f3b2ed85ef6bd795f9d
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: underground-square-searching-for-antidote
+  name: Searching for Antidote
+  region: dungeon
+  area:
+    id: underground-square
+    name: Underground Square
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl 75 - ?
+    reward_raw: 'Exp : 2800 Credit : 68'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Searching for Antidote
+      Requirements: lvl 75 - ?
+      Reward: 'Exp : 2800 Credit : 68'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/underground-square.yaml
+      origin_url: https://angels.wikidot.com/area:underground-square
+      retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat Poison Flower to get Venom Sac
+  historical_dedicated_pages:
+  - title_raw: Searching For Antidote
+    summary_raw: ???
+    information_raw: 'Quest Giver Repeatable Series Purified Moppet Yes -
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Defeat Poison Flower to get Venom Sac
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_searching-for-antidote.yaml
+      origin_url: https://angels.wikidot.com/quest:searching-for-antidote
+      retrieval_url: https://www.aowiki.uk/pages/quest_searching-for-antidote.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 2f7ed4601b01a06dc7a62d85e8d3380ec91e86225ddb6ddd22182becf2a202bf
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: underground-square-follow-in-the-footsteps-of-hero
+  name: Follow in the Footsteps of Hero
+  region: dungeon
+  area:
+    id: underground-square
+    name: Underground Square
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl 75 - ?
+    reward_raw: 'Exp : ?? Credit : ??'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Follow in the Footsteps of Hero
+      Requirements: lvl 75 - ?
+      Reward: 'Exp : ?? Credit : ??'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/underground-square.yaml
+      origin_url: https://angels.wikidot.com/area:underground-square
+      retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Defeat Wanderer to get Broken Sword. Once done bring it back to Knight Statue
+    - Some more writing appear on statue. You now need to get Broken Shield by defeating Giant Rotten Fly . Once done bring it back to Knight Statue
+    - Some more writing appear on statue. You now need to get Broken Armour by defeating Soul Wizard . Once done bring it back to Knight Statue
+    - Some more writing appear on statue. You now need to get Broken Boot by defeating Enmity Deissy . Once done bring it back to Knight Statue
+    - Once done you receive your reward
+  historical_dedicated_pages:
+  - title_raw: Follow In The Footsteps Of Hero
+    summary_raw: Follow what once being done by a hero on a statue
+    information_raw: 'Quest Giver Repeatable Series Knight Statue No No
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+    reward_raw: 'Exp. Credit Gold 30000 350 16000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Defeat Wanderer to get Broken Sword. Once done bring it back to Knight Statue Step 2 Some more writing appear on statue. You now need to get Broken Shield by defeating Giant
+      Rotten Fly . Once done bring it back to Knight Statue Step 3 Some more writing appear on statue. You now need to get Broken Armour by defeating Soul Wizard . Once done bring it back to Knight Statue
+      Step 4 Some more writing appear on statue. You now need to get Broken Boot by defeating Enmity Deissy . Once done bring it back to Knight Statue Step 5 Once done you receive your reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_follow-in-the-footsteps-of-hero.yaml
+      origin_url: https://angels.wikidot.com/quest:follow-in-the-footsteps-of-hero
+      retrieval_url: https://www.aowiki.uk/pages/quest_follow-in-the-footsteps-of-hero.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 261b74bd1d43742f15dc0e970dc7a920c5b62c7c7d976dc6c3b84798cd95155c
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Follow in the Footsteps of Hero
+    section_raw: null
+    steps_raw:
+    - 1.Talk to Knight Statue(277,55) at Underground Square
+    - 2.Defeat Wanderer to get Broken Sword and then take it to Headless Knight Statue.
+    - 3.Defeat Giant Rotten Fly(70,87) at Lava Cave to get Broken Shield and then take it to Headless Knight Statue.
+    - 4.Defeat Soul Wizard (262,67) at Flaming Door to get Broken Armor and then take it to Headless Knight Statue.
+    - 5.Defeat Enmity Deissy(132,64)at Underground Square to get Broken Boots and then take it to Headless Knight Statue.
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 636
+    name_raw: Follow in the Footsteps of Hero
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    - map_id: 68
+      text_raw: ViewFiery Path完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+    - map_id: 69
+      text_raw: ViewLava Cave完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=69&lang=eng
+    - map_id: 70
+      text_raw: ViewFlame Gate完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=70&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00636-follow-in-the-footsteps-of-hero.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=636&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=636&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 3c3c24244308cf0f6f91abf9dff6c5342670374ed44870115f09f0dc2c86fae0
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+- id: underground-square-boni-s-wish
+  name: Boni's Wish
+  region: dungeon
+  area:
+    id: underground-square
+    name: Underground Square
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl 75 - ?
+    reward_raw: 'Exp : ?? Credit : ??'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Boni's Wish
+      Requirements: lvl 75 - ?
+      Reward: 'Exp : ?? Credit : ??'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/underground-square.yaml
+      origin_url: https://angels.wikidot.com/area:underground-square
+      retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Explore the Gulp room
+    - Explore further in the Gulp Room until a notification popup ask you to report back to Scientist Pony
+    - Defeat Earl Makice at Gulp Room and find Lusterless Energy Stone. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless
+      Statue, Left Gebuer Statue, Left Barft Statue, Right Wolf Statue to meet up with Earl Makice
+    - Defeat Demon Lord Underground _
+  historical_dedicated_pages:
+  - title_raw: Boni S Wish
+    summary_raw: Scientist Boni ask to find the reason Berssif is unable to stuff himself with food
+    information_raw: 'Quest Giver Repeatable Series Scientist Pony No No
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - 75 - -
+    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Explore the Gulp room Step 2 Explore further in the Gulp Room until a notification popup ask you to report back to Scientist Pony Step 3 Defeat Earl Makice at Gulp Room and find
+      Lusterless Energy Stone. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless Statue, Left Gebuer Statue, Left
+      Barft Statue, Right Wolf Statue to meet up with Earl Makice Step 4 Defeat Demon Lord Underground _
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_boni-s-wish.yaml
+      origin_url: https://angels.wikidot.com/quest:boni-s-wish
+      retrieval_url: https://www.aowiki.uk/pages/quest_boni-s-wish.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7b19346581a3428fdb61c3a7359a48bf815996f07f1b3fcd5822ba40c605c452
+      authority_role: null
+  period_guide_matches: []
+  existing_canonical_matches: []
+  current_client_corroboration: []
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: false
+    current_client_match_present: false
+    aomega_client_confirmation: pending
+- id: underground-square-virulent-hatred
+  name: Virulent Hatred
+  region: dungeon
+  area:
+    id: underground-square
+    name: Underground Square
+  historical_area_table:
+    repeatable_raw: null
+    requirements_raw: lvl 75 - ?
+    reward_raw: 'Exp : 35000, Credit 600, Gold 18000'
+    short_description_raw: null
+    row_raw:
+      Quest Name: Virulent Hatred
+      Requirements: lvl 75 - ?
+      Reward: 'Exp : 35000, Credit 600, Gold 18000'
+    source:
+      path: data/quests/research/walkthrough-intake/areas/underground-square.yaml
+      origin_url: https://angels.wikidot.com/area:underground-square
+      retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+      authority_role: null
+  walkthrough:
+    source_class: historical_dedicated_quest_page
+    steps:
+    - Destroy Lion Dragon and Evil Eye
+    - Meet up with Silent Revenge to claim reward
+  historical_dedicated_pages:
+  - title_raw: Virulent Hatred
+    summary_raw: Getting revenge for his fallen comrade in Gulp Room
+    information_raw: 'Quest Giver Repeatable Series Silent Revenge No No
+
+      Previous Quest Next Quest - -'
+    requirements_raw: Faction Lvl Rank Skill Quest - - 75 - -
+    reward_raw: 'Exp. Credit Gold 35000 600 18000 Items Choose one of: Item Name , Item Name'
+    walkthrough_raw: Step 1 Destroy Lion Dragon and Evil Eye Step 2 Meet up with Silent Revenge to claim reward
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_virulent-hatred.yaml
+      origin_url: https://angels.wikidot.com/quest:virulent-hatred
+      retrieval_url: https://www.aowiki.uk/pages/quest_virulent-hatred.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: b0c7db03ebcee69b4134536f9f797be5d2b972b38814e17e1e20e15e5963bbca
+      authority_role: null
+  period_guide_matches:
+  - title_raw: Virulent Hatred
+    section_raw: null
+    steps_raw:
+    - 1.Talk to silent Revenge(7,131) at Underground Square
+    - '2.Destroy Revenge''s target: Lion Dragon at monument(19,12) and Evil Eye(14,143) at Gulp Room.'
+    - 3.Talk to silent Revenge(7,131) at Underground Square
+    fuzzy_match_score: null
+    source:
+      path: data/quests/research/legacy-guides/dungeon/visit-demons-at-night.yaml
+      origin_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      retrieval_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+      source_kind: period_community_walkthrough_2012
+      archive_timestamp: null
+      source_html_sha256: 3daf566c65a90567f510ac02fab398886209b1151d5f9745918e66f28c3947ae
+      authority_role: secondary_historical_walkthrough
+  existing_canonical_matches: []
+  current_client_corroboration:
+  - quest_id: 623
+    name_raw: Virulent Hatred
+    basic_fields_raw: {}
+    quest_flow_rows_raw: []
+    quest_flow_text_raw: null
+    map_links:
+    - map_id: 71
+      text_raw: ViewUnderground Square完整Maps
+      url: https://aog.dvg.cn/map_info.php?id=71&lang=eng
+    source:
+      path: data/quests/research/current-booklet/quest-pages/00623-virulent-hatred.yaml
+      origin_url: https://aog.dvg.cn/quest_info.php?id=623&lang=eng
+      retrieval_url: https://aog.dvg.cn/quest_info.php?id=623&lang=eng
+      source_kind: aog_booklet_current_client_database
+      archive_timestamp: null
+      source_html_sha256: 31bcf0c3e6d6f0ee781c6ee013d8c29676e039d5638553a5634a6503b714b7fe
+      authority_role: secondary_cross_version_corroboration
+  verification:
+    historical_primary_present: true
+    dedicated_historical_page_present: true
+    period_guide_present: true
+    current_client_match_present: true
+    aomega_client_confirmation: pending
+supplemental_historical_quest_pages:
+- title_raw: Devil's Feast (Group)
+  summary_raw: You have passed all the tests and see Beelzebub. Group with your companions to defeat him.
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - Gorily Aperitif
+  reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - Approach the door of Devil Kitchen. It is required that a player must be in a group to enter to area.
+  - Try to find the key to Devil Kitchen. The key is in a chest in Gulp Room.
+  - Open the door of Devil Kitchen.
+  - Try your best to defeat Beelzebub!
+  matched_target_areas:
+  - region: dungeon
+    area_id: lava-cave
+  - region: dungeon
+    area_id: gulp-room
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_devils-feast.yaml
+    origin_url: https://angels.wikidot.com/quest:devils-feast
+    retrieval_url: https://www.aowiki.uk/pages/quest_devils-feast.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 8a442549efc2150cba925ee5f32703d98e3905c24264c5884975323eaa66a82d
+    authority_role: null
+- title_raw: Far Away From Gravity
+  summary_raw: 'Gives card "Gravity Boffin Card" for artisan set.
+
+    Artisan set prize = Weight seed; Improves your load permanently +1200'
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+  reward_raw: Exp. Credit Gold - - - Items
+  walkthrough_steps:
+  - Talk to Gravity Boffin which will send you to talk with Fatz at Flaming Door , take the item and deliver it to Gravity Boffin.
+  - 'You then require two elements: Hottest fire and ocean heart
+
+    "These two elements can only be reached in the hottest district and the bottom of the Blue Ocean respectively. The former one can be got from the Monster in the fervent channel Underground, whilst the
+    latter lies in the Quiet Ocean . But remember! Both will begin to fade away about 2 hours after leaving their resting places. "'
+  - Return elements to Gravity Boffin before time runs out for both elements. _
+  - 'Return materials to Gravity Boffin Note: Level 61 refined materials, from productors.'
+  matched_target_areas:
+  - region: dungeon
+    area_id: flaming-door
+  - region: atlantis
+    area_id: palm-base
+  - region: atlantis
+    area_id: blue-ocean
+  - region: atlantis
+    area_id: quiet-ocean
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_far-away-from-gravity.yaml
+    origin_url: https://angels.wikidot.com/quest:far-away-from-gravity
+    retrieval_url: https://www.aowiki.uk/pages/quest_far-away-from-gravity.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: a20a436bd6004b914dd6ae7b3297aac1317f650c7af26284f84c688cc79ad4b9
+    authority_role: null
+- title_raw: Flora's Wish
+  summary_raw: null
+  requirements_raw: null
+  reward_raw: null
+  walkthrough_steps:
+  - 'Collect: WARNING - This is a luck part you will not receive them every time you kill the following
+
+    20 Flame Rose seeds from Flaming Roses at Mysterious Garden 20 Charm Corpse Flower Seeds from Nepenthes at Mysterious Wetland 25 Evil Flower Seeds from Evil Flowers at Fiery Path, Lava Cave and Flaming
+    Door 25 Poison Evil Flower Seeds from Poison Flowers at Underground Square and Hell Palace 30 Flower Monster Seeds from Flower Monsters at Gulp Room 30 Fire Tree Bud Seeds from Fire Tree Buds at Gulp
+    Room'
+  - Talk to Flora.
+  - 'Collect:
+
+    Queen Angela Seed from Queen Angela at Mysterious Garden Sexy Quli Seed from Sexy Quli at Mysterious Wetland Sanguinary Flower Seed from Bloody Flower at Fiery Path Charming Flower Seed from Charming
+    Flower at Underground Square'
+  - Talk to Flora.
+  - Find Fragrant Soside and show it to Flora.
+  matched_target_areas:
+  - region: breeze
+    area_id: mysterious-garden
+  - region: dark
+    area_id: mysterious-wetland
+  - region: dungeon
+    area_id: fiery-path
+  - region: dungeon
+    area_id: lava-cave
+  - region: dungeon
+    area_id: flaming-door
+  - region: dungeon
+    area_id: underground-square
+  - region: dungeon
+    area_id: hell-palace
+  - region: dungeon
+    area_id: gulp-room
+  - region: atlantis
+    area_id: puqi-village
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_flora-s-wish.yaml
+    origin_url: https://angels.wikidot.com/quest:flora-s-wish
+    retrieval_url: https://www.aowiki.uk/pages/quest_flora-s-wish.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 62fdc62d834b4246e35bac7a4d9bc5c30db42c9c98efc099fd8b4e1647591762
+    authority_role: null
+- title_raw: Gorily Aperitif
+  summary_raw: The Annoying Clerk in the Devil Restaurant forces you to bring some human blood to make Aperitif.
+  requirements_raw: Faction Lvl Rank Skill Quest - 30 2 - -
+  reward_raw: Exp. Credit Gold 8,000 200 4,000 Items None
+  walkthrough_steps:
+  - You don't know what to do, so you decide to consult Healing Lecturer in Angel Lyceum
+  - Find and talk to Athlete Cliff in North of Mirror Lake.
+  - Return to Lava Cave and talk to Annoying Clerk.
+  matched_target_areas:
+  - region: breeze
+    area_id: north-of-mirror-lake
+  - region: dungeon
+    area_id: lava-cave
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_gorily-aperitif.yaml
+    origin_url: https://angels.wikidot.com/quest:gorily-aperitif
+    retrieval_url: https://www.aowiki.uk/pages/quest_gorily-aperitif.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: fdf8957b6463952f6045b31d0a57de149a02799e7eeba03b14d0926bf8fdc064
+    authority_role: null
+- title_raw: The Hidden Enemy Agent 1
+  summary_raw: ???
+  requirements_raw: Faction Lvl Rank Skill Quest ??? ??? ??? ??? ???
+  reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - Talk to Angel Agent
+  - 'Walk to the egg portal below the map
+
+    _'
+  - Talk back to Angel Agent
+  - 'Defeat Evil Knight to obtain sword
+
+    _'
+  - 'Go to the enterance at Dragon Graveyard (103,18). The door will break but you unable to enter
+
+    _'
+  - 'Go back to Angel Agent . It will ask to go to Magic Kitchen Path to collect 40 of Stool Distillate from Poo Poo Demon or Poo Poo Demon2
+
+    _'
+  - Pending Development
+  matched_target_areas:
+  - region: steel
+    area_id: dragon-graveyard
+  - region: dungeon
+    area_id: magic-kitchen-path
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_the-hidden-enemy-agent-1.yaml
+    origin_url: https://angels.wikidot.com/quest:the-hidden-enemy-agent-1
+    retrieval_url: https://www.aowiki.uk/pages/quest_the-hidden-enemy-agent-1.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 480f2b56fd239796beb82dd55eadffb944907fd86b6517fd78d3022ae2d2f2e4
+    authority_role: null
+- title_raw: The Second Appetizer
+  summary_raw: The second test of Beelzebub is finding food materials for one of his students called Ugly Saladan.
+  requirements_raw: Faction Lvl Rank Skill Quest - 30 - - The First Appetizer
+  reward_raw: Exp. Credit Gold 35,000 400 12,000 Items None
+  walkthrough_steps:
+  - Collect 9 Rotten Caudex from Primrose and 9 Acid Ketchup from Gold Fly in Lava Cave.
+  - Talk to Ugly Saladan.
+  - Go to Underground Square and talk to Luxious Ba.
+  matched_target_areas:
+  - region: dungeon
+    area_id: fiery-path
+  - region: dungeon
+    area_id: lava-cave
+  - region: dungeon
+    area_id: underground-square
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_the-second-appetizer.yaml
+    origin_url: https://angels.wikidot.com/quest:the-second-appetizer
+    retrieval_url: https://www.aowiki.uk/pages/quest_the-second-appetizer.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: 9792075604e4203880b5b2664459d5058d72d2f7aa4489f4c78887b722bcfb44
+    authority_role: null
+- title_raw: The Third Appetizer
+  summary_raw: Beelzebub's third test is to find the food material for one of his students called Luxious Ba.
+  requirements_raw: Faction Lvl Rank Skill Quest - 30 2 - The Second Appetizer
+  reward_raw: Exp. Credit Gold 40,000 500 15,000 Items None
+  walkthrough_steps:
+  - Talk to Luxious Ba
+  - Luxious Ba will give 5 Spell Storage Bag s. Purchase 25 more bags from Luxious Ba . The Spell Storage Bag has a 2-hour time limit if it is unused. If necessary, buy more bags. Each bag costs 95 Gold.
+  - Defeat 30 Rock Slarm , Terra Lampmen , Evil Flower , Flame Mummy , or Fire Flies until you have 30 Carrion-filled Storage Bag s.
+  - Talk to Luxious Ba .
+  - Find and talk to the Annoying Clerk in front of Magic Kitchen Path in Lava Cave
+  matched_target_areas:
+  - region: dungeon
+    area_id: lava-cave
+  - region: dungeon
+    area_id: underground-square
+  - region: dungeon
+    area_id: magic-kitchen-path
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quest_the-third-appetizer.yaml
+    origin_url: https://angels.wikidot.com/quest:the-third-appetizer
+    retrieval_url: https://www.aowiki.uk/pages/quest_the-third-appetizer.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: a4063ae735f856f1c9b701886c7af01e61437efcf26ae94cfe7d5f10ec246b0a
+    authority_role: null
+- title_raw: 'Weekly Quest : Nature is Crying for Help'
+  summary_raw: Weekly Quest
+  requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+  reward_raw: 'Exp. Credit Gold 20,000,000 (lvl 70-79), 36,000,000 (lvl 80-89), 48,000,000 (lvl 90-94), 48,000,000 (lvl 95++) - - Items Choose one of: Item Name , Item Name'
+  walkthrough_steps:
+  - 'First Step
+
+    You begin it by talking to Villiersas in Palm Base (Atlantis) -Then head to Wave Harbor and kill 45 Angel Fish , 75 Stab Jellyfish , 60 Whelk Mage and 60 Whelk Swordsman . -Return & talk to Villiersas
+
+    Second Step
+
+    -Walk to the dungeon.( located in Dragon Graveyard) -Go to the Hell Palace and talk to Lorin . -Kill tonnes of Riddle Bishop until you have the required 80 black crystals. -Talk to Lorin
+
+    Third Step
+
+    -Go to the Waterfall Camp ( Jungle) -Talk to Stewart and kill numerous Earth Fairy until you have 10 elite cores. Tip : Put the fruits droped by them into your ab at 100% to auto open and save your
+    bag space -Once you''re done with that, go back to Villiersas and get ready to boss hunt.
+
+    Last Step
+
+    -You will need to kill the following bosses : Hermit Hezon - Found in the Waterfall Camp (Jungle) Leech Mrs. Dorsa - Found in the Secret Den (Jungle) Purple Scorpion Issac - Found in Crescent Valley
+    (Desert) Destroyer Wesley -Found in the Desert Racetrack (Desert) Sword Jellyfish - Found in Wave Harbor (Atlantis) -After you''ve killed all 5 of the bosses and gotten the stones droped from them(
+    100% chance of droping the stones) Return to Palm Base and talk to Villiersas and get your reward.'
+  matched_target_areas:
+  - region: steel
+    area_id: dragon-graveyard
+  - region: dungeon
+    area_id: hell-palace
+  - region: atlantis
+    area_id: palm-base
+  - region: atlantis
+    area_id: wave-harbor
+  source:
+    path: data/quests/research/walkthrough-intake/quest-pages/quests_weekly.yaml
+    origin_url: https://angels.wikidot.com/quests:weekly
+    retrieval_url: https://www.aowiki.uk/pages/quests_weekly.html
+    source_kind: aowiki_static_legacy_mirror
+    archive_timestamp: null
+    source_html_sha256: f7ef8f5737ed8773cbcd2712f2bc7388de4ca653e0921d6baa32a388ddf96513
+    authority_role: null
+supplemental_period_guide_blocks:
+- title_raw: The Second Appetizer
+  section_raw: null
+  steps_raw:
+  - 1. Talk with Ugly Saladan(162,65) at Lava Cave
+  - 2. Collect food material for 9 Saladan Rotten Caudex(get from Tailor or Technician producer Skill Level 61.Collect Primrose Grass Root at Lava Cave or Flaming Door or Colorful Coral Reefs or River Valley)and
+    9 Acid Ketchup with kill Gold Fly(120,110) at Lava Cave
+  - 3.Talk with Ugly Saladan(162,65) at Lava Cave and find the first Disciple of Beezebub name Luxious Ba (117,70) at Underground Square
+  source:
+    path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Third Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Luxious Ba (117,70) and Collect food material for 30 Ba Caarrion-filled Storage Bag. Defeat the Rock Slarm, the Terra Lampman, the Evil Flower, the Flame Mummy and the Fire Fly and put Their
+    edible parts into the Spell Storage Bag. Bring back the bag to Luxious Ba (117,70).The bag can buy with Luxious Ba (117,70)
+  - 2.Find the Annoying Clerk(234,169) in the Lava Cave.
+  source:
+    path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+    authority_role: secondary_historical_walkthrough
+- title_raw: Gorily Aperitif
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Annoying Clerk(234,169) in the Lava Cave and see Healing Lecturer(94,108) in Angel Lyceum.
+  - 2.Find Athlete Cliff(138,128) in North of Mirror Lake
+  - 3.Give the blood to Annoying Clerk(234,169) in the Lava Cave
+  source:
+    path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+    authority_role: secondary_historical_walkthrough
+- title_raw: Devil's Feast (Group)
+  section_raw: null
+  steps_raw:
+  - 1.Approach to the door of Devil kitchen Path and kill Beelzebub.
+  - 2.To enter Portal(387,247),require Key keep in the chess(118,222) at Gulp Room
+  - 3.Open the portal(387,247) of Devil Kitchen Path
+  - 4.Defeat Beelzebub (226,146)
+  - 5.Report to Angel Inspector(52,159) at Megelith Plain that Beelzebub was defeated and escaped
+  source:
+    path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+    authority_role: secondary_historical_walkthrough
+- title_raw: Defeating Berssif
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Angel Inspector(52,159) at Megelith Plain
+  - 2.Find Beelzebub in Gulp Room and destroy him.
+  - 3.Report to Angel Inspector(52,159) at Megelith Plain
+  source:
+    path: data/quests/research/legacy-guides/dungeon/chef-is-wanted.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+    authority_role: secondary_historical_walkthrough
+- title_raw: Topic:Pest Control
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Heavently Officer(69,32) at Flaming Door
+  - '2.Destroy flies in Magic Kitchen Path: 30 Hungry Fly. 20 Evil Fly, 30 Flame Fly then report to Heavently Officer(69,32) at Flaming Door'
+  - 3.Get 30 Egg Sample from Gold Fly(60,117) in Gulp Room
+  - 4.Get Reward from Heavently Officer(69,32) at Flaming Door
+  source:
+    path: data/quests/research/legacy-guides/dungeon/clean-demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+    authority_role: secondary_historical_walkthrough
+- title_raw: New Scheme of Evil Lyceum
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Faction Angel such as Breeze Wood Angel (324,96)
+  - 2. Talk to Angel Inspector(47,157) at Megalith Plain
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Investigate Evil Food
+  section_raw: null
+  steps_raw:
+  - 1. Find someone suffering food poisoning in Iron Castle-Machel (332,52)
+  - 2. Find someone suffering food poisoning in Dark City-Romier (209,173)
+  - 3. Find someone suffering food poisoning in Breeze Woods-Michael(100,165)
+  - 4. Find someone suffering food poisoning in Aurora City-Nemize(284,206)
+  - 5. Report to Angel Inspector(47,157) at Megalith Plain
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Food Material Collection
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Angel Inspector(47,157) at Megalith Plain
+  - 2. Find Chef Boshid (159,17) at Dragon Graveyard and talk to him
+  - 3. Find 5 Poisonous Mashed Apple, 5 Smoky Pitch, 10 Excitement Drop, 10 Rotten Beast Meat with kill Cirtus Tyrant(227,106)at South of Mirror Lake, Tree Elf(54,114) at Mysterious Wetland, Water Goblin
+    (287,63) at North of Mirror Lake and Savage Dogface (71,14) at Thorn Wasteland
+  - 4.Talk to Chef Boshid (159,17) at Dragon Graveyard again
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Exposed Plot
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Angel Inspector(47,157)at Megalith Plain
+  - 2. Take the strange dishes to Healing Lecturer(94,106) at Angel Lyceum for assay
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Treatment for Food Poisoning
+  section_raw: null
+  steps_raw:
+  - 1. Collect antidote and material for 3 Healing Lecturer Evil Bolus, 5 Shrub Bark, 5 Nature Prime and 1 Pure Fire Crystal with kill Hook Barft (21,139) at Dragon Draveyard, Savege Priest(247,56) at Thorn
+    Wasteland, Marsh Wind Fairy(47,12) at Mysterious Wetland and Burning Monster (238,161) at Thunder Ruin.
+  - 2. Talk to Healing Lecturer(94,106) at Angel Lyceum
+  - 3. Talk to Angel Inspector(47,157) at Megalith Plain
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Learning from Chef Boship
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Chef Boshid (159,17) at Dragon Graveyard
+  - 2. Find Mayloe (110,108) at Fiery Path
+  source:
+    path: data/quests/research/legacy-guides/dungeon/demons-kitchen.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+    authority_role: secondary_historical_walkthrough
+- title_raw: Food Material Collection
+  section_raw: null
+  steps_raw:
+  - 1. find Chef Boship plz notice there a boss Death Cyclone on the lefe of him?
+  - 2. collect below items
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: rotten beast meat/10
+  section_raw: null
+  steps_raw:
+  - 3. find Chef Boship to answer the quest.
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Exposed Plot
+  section_raw: null
+  steps_raw:
+  - 1.find Angel Inspector again for next quest.
+  - 2.talk with Healing Lecturer.
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Treatment for Food Poisoning
+  section_raw: null
+  steps_raw:
+  - 1.collect the below items and hand them to Healing Leecturer
+  - (lecturer evil bolus)/3
+  - (shrub bark)/5
+  - (nature prime)/5
+  - (pure fire crystal)/1
+  - 2. speak to Healing Leecturer
+  - (it says Medicine Lecturer there )
+  - 3.tell that news to Angel Inspector
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Learning from chef boship
+  section_raw: null
+  steps_raw:
+  - 1. ask for learning from Chef Boship.
+  - 2. find his third disciple Mayloe at Fiery Path. (through the Sad Abyss)
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Second Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.collect the below items (low drop rate with them)
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Acid Ketchup/9
+  section_raw: null
+  steps_raw:
+  - 2. Find the first disciple Lxious Ba at Underground Square
+  - (Enter the below exit, through the Flaming Door)
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: The Third Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.collect items (he will give 5 spell storage bag, and you need to pay for more from him,
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: PS:all the monsters around him will drop this item, but the Fire Fly have the 100% rate
+  section_raw: null
+  steps_raw:
+  - 2.find the Annoying Clerk at Lava Cave.
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Gorily Aperitif
+  section_raw: null
+  steps_raw:
+  - 1. find Healing Lecturer. He will tell you how to do.
+  - 2. Speak to Athlete Cliff at North of Mirror Lake to obtain the blood
+  - 3. take back the blood to Annoying Clerk
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Devil’s feast(group)
+  section_raw: null
+  steps_raw:
+  - 1. Enter to the Devil Kitchen.(need to make a team to enter the Devil Kitchen)
+  source:
+    path: data/quests/research/legacy-guides/dungeon/dungeon-main-quest.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+    authority_role: secondary_historical_walkthrough
+- title_raw: Break into Lost City
+  section_raw: null
+  steps_raw:
+  - 1.Send Jamier's word to Shajier(26,86) at Underground Square
+  source:
+    path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+    authority_role: secondary_historical_walkthrough
+- title_raw: Fight against Devils
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Shajier(26,86) at Underground Square
+  - 2.Defeat those enemies wandering on the square.50 Poison Flower(166,56), 30 Fire Ghost Kid and 50 Fire Fly(83,96).
+  - 3.Talk completed, report to Shajier(26,86).
+  source:
+    path: data/quests/research/legacy-guides/dungeon/lantern-underground.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+    authority_role: secondary_historical_walkthrough
+- title_raw: Topic:Pollution Control
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Heavently Officer(69,32) at Flaming Door
+  - 2.Kill 60 Soul-eating Worm divided from Soul Slalin in Magic Kitchen Path
+  - 3.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+  - 4.Kill 5 Elite SoulEater in Gulp Room
+  - 5.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+  source:
+    path: data/quests/research/legacy-guides/dungeon/visit-demons-at-night.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: 3daf566c65a90567f510ac02fab398886209b1151d5f9745918e66f28c3947ae
+    authority_role: secondary_historical_walkthrough
+- title_raw: Ash to ash Dust to dust
+  section_raw: null
+  steps_raw:
+  - 1.Talk with Seer Fouger at Dark City
+  - '2.Take following materials to Seer Fouger to make Holy Hammer: 50 Black silver, 30 Bamboo Strip and 30 Primrose Thread.'
+  source:
+    path: data/quests/research/legacy-guides/dungeon/wander-around-city.yaml
+    origin_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+    retrieval_url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+    source_kind: period_community_walkthrough_2012
+    archive_timestamp: null
+    source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
+    authority_role: secondary_historical_walkthrough
