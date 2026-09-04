@@ -6,6 +6,8 @@ on:
       - 'data/quests/research/walkthrough-intake/areas/**'
       - 'data/quests/research/walkthrough-intake/quest-pages/**'
       - 'data/quests/research/walkthrough-intake/coverage.yaml'
+      - 'tools/audit_quest_walkthroughs.py'
+      - '.github/workflows/audit-quest-walkthroughs.yml'
   workflow_dispatch:
 
 permissions:
