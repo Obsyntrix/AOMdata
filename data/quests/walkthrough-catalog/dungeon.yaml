@@ -8,16 +8,16 @@ authority_policy:
   aomega_target_client: final_verification_pending
 counts:
   area_table_quest_records: 25
-  with_historical_dedicated_page: 24
+  with_historical_dedicated_page: 23
   with_period_guide_match: 18
   with_current_client_match: 16
-  walkthrough_historical_dedicated: 21
-  walkthrough_period_guide: 1
+  with_gap_corroboration: 1
+  walkthrough_historical_dedicated: 19
+  walkthrough_period_guide: 3
   walkthrough_existing_canonical: 0
   walkthrough_area_minimal: 2
-  walkthrough_missing: 1
-  supplemental_historical_pages: 8
-  supplemental_period_guide_blocks: 27
+  walkthrough_gap_corroboration: 1
+  walkthrough_missing: 0
 quests:
 - id: fiery-path-the-first-appetizer
   name: The First Appetizer
@@ -63,6 +63,7 @@ quests:
     walkthrough_raw: Step 1 Defeat Heat Elf , Hell Slave and Evil Grass until all the ingredients are obtained. Step 2 Go to Mayole and give him the ingredients. Step 3 Go to Lava Cave and talk to Ugly
       Saladan .
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-first-appetizer.yaml
       origin_url: https://angels.wikidot.com/quest:the-first-appetizer
@@ -182,6 +183,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: fiery-path-killing-rats-leader
   name: Killing Rats Leader
   region: dungeon
@@ -222,6 +224,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 18,000 250 10,000 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Walk in the Magic Kitchen Path use the right side pass the magma floor will reach to Rat Mosi Step 2 Talk back to Hunter Shinge to receive the reward.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-rats-leader.yaml
       origin_url: https://angels.wikidot.com/quest:killing-rats-leader
@@ -274,6 +277,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: fiery-path-searching-for-lost-receipe
   name: Searching For Lost Receipe
   region: dungeon
@@ -318,6 +322,7 @@ quests:
       Gulp Room and find out Second Half Volume of Cookbook. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless Statue,
       Left Gebuer Statue, Left Barft Statue, Right Wolf Statue to meet up with Earl Makice Step 3 Go to Cook Betty for your reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_searching-for-lost-receipe.yaml
       origin_url: https://angels.wikidot.com/quest:searching-for-lost-receipe
@@ -374,6 +379,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: flaming-door-rare-specimen-making
   name: Rare Specimen Making
   region: dungeon
@@ -414,6 +420,7 @@ quests:
     walkthrough_raw: Step 1 Fetch Beetle bone - 20 in Gulp Room . it will disapear with in 20min so you must walk in and out immediately Step 2 Talk to Vilo 3 he will make it to Evil Beetle Sample. Usually
       u can only manage to collect 18 so you must do the trip twice.. Step 3 Once you it reach 20piece talk again to Vilo 3 to claim your reward _
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-specimen-making.yaml
       origin_url: https://angels.wikidot.com/quest:rare-specimen-making
@@ -466,6 +473,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: flaming-door-a-will-to-ask
   name: A Will To Ask
   region: dungeon
@@ -521,6 +529,7 @@ quests:
 
       _'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_a-will-to-ask.yaml
       origin_url: https://angels.wikidot.com/quest:a-will-to-ask
@@ -558,6 +567,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: flaming-door-devil-s-whispering
   name: Devil's Whispering
   region: dungeon
@@ -600,6 +610,7 @@ quests:
 
       Defeat Death Soul Leader _'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_devil-s-whispering.yaml
       origin_url: https://angels.wikidot.com/quest:devil-s-whispering
@@ -654,6 +665,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: flaming-door-pest-control
   name: Pest Control
   region: dungeon
@@ -693,6 +705,7 @@ quests:
     walkthrough_raw: Step 1 Kill 30 Hungry Fly , 30 Flame Fly , and 20 Evil Fly at Magic Kitchen Path . Report back to Heavenly Officer Step 2 Get 10 Egg Sample from Gold Fly in Gulp Room . Report back
       to Heavenly Officer to get your rewards
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_pest-control.yaml
       origin_url: https://angels.wikidot.com/quest:pest-control
@@ -730,6 +743,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: flaming-door-pollution-control
   name: Pollution Control
   region: dungeon
@@ -768,6 +782,7 @@ quests:
     reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Kill 60 of Soul-eating Worm diveded from Soul Slalin in Magic Kitchen Path Step 2 Details here.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_pollution-control.yaml
       origin_url: https://angels.wikidot.com/quest:pollution-control
@@ -785,6 +800,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: gulp-room-last-survivor
   name: Last Survivor
   region: dungeon
@@ -823,6 +839,7 @@ quests:
     reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Get the tubes from 3 different monster Elite Fire Mummy , Bloody Demon , Dark Elite Step 2 Details here.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_last-survivor.yaml
       origin_url: https://angels.wikidot.com/quest:last-survivor
@@ -874,6 +891,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: hell-palace-diary-collection
   name: Diary Collection
   region: dungeon
@@ -914,6 +932,7 @@ quests:
 
       Step 2 Details here.'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_diary-collection.yaml
       origin_url: https://angels.wikidot.com/quest:diary-collection
@@ -963,6 +982,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: lava-cave-trick
   name: Trick
   region: dungeon
@@ -1001,6 +1021,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 25000 250 11000 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Find all the stove in Magic Kitchen Path and destroy it Step 2 Report back to Trouble Student to claim your reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_trick.yaml
       origin_url: https://angels.wikidot.com/quest:trick
@@ -1050,6 +1071,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: lava-cave-forge-ahead
   name: Forge Ahead
   region: dungeon
@@ -1126,6 +1148,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-deep-into-the-earth-s-core
   name: Deep Into The Earth‘s Core 1 of 2
   region: dungeon
@@ -1165,7 +1188,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest - - - - -
     reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Speak to Jaylod Step 2 Defeat 40 Flys.
-    walkthrough_steps: &id001 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_deep-into-the-earth-s-core.yaml
       origin_url: https://angels.wikidot.com/quest:deep-into-the-earth-s-core
@@ -1200,6 +1224,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-stride-ahead
   name: Stride Ahead 2 of 2
   region: dungeon
@@ -1226,10 +1251,9 @@ quests:
       source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
       authority_role: null
   walkthrough:
-    source_class: historical_dedicated_quest_page
+    source_class: period_2012_community_guide
     steps:
-    - Speak to Jaylod
-    - Defeat 40 Flys.
+    - 1.Take Material Supply to Jamier(266,29) at Lava Cave
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1238,6 +1262,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_stride-ahead.yaml
       origin_url: https://angels.wikidot.com/quest:stride-ahead
@@ -1245,23 +1270,6 @@ quests:
       source_kind: angels_wikidot_wayback
       archive_timestamp: '20100106220414'
       source_html_sha256: 0ff8581ac2e6a287341c70ee3fd4c8c279f95b4eb6ee5bd37522c12e58ce7c59
-      authority_role: null
-  - title_raw: Deep Into The Earth's Core
-    summary_raw: ???
-    information_raw: 'Quest Giver Repeatable Series [[[npc:Jaloyd]] No -
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
-    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
-    walkthrough_raw: Step 1 Speak to Jaylod Step 2 Defeat 40 Flys.
-    walkthrough_steps: *id001
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_deep-into-the-earth-s-core.yaml
-      origin_url: https://angels.wikidot.com/quest:deep-into-the-earth-s-core
-      retrieval_url: https://www.aowiki.uk/pages/quest_deep-into-the-earth-s-core.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 589e0d212930ca88b1bc7d17acbcd28fd0328d67aabc14b9baa947ccb412c4ac
       authority_role: null
   period_guide_matches:
   - title_raw: Stride ahead
@@ -1305,6 +1313,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-firm-faith-of
   name: Firm Faith Part 1 of ?
   region: dungeon
@@ -1331,28 +1340,12 @@ quests:
       source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
       authority_role: null
   walkthrough:
-    source_class: historical_dedicated_quest_page
+    source_class: period_2012_community_guide
     steps:
-    - Details here.
-    - Details here.
-  historical_dedicated_pages:
-  - title_raw: Firm Faith
-    summary_raw: ???
-    information_raw: 'Quest Giver Repeatable Series NPC Name Yes/No -
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Faction Lvl Rank Skill Quest - - - - -
-    reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
-    walkthrough_raw: Step 1 Details here. Step 2 Details here.
-    walkthrough_steps: []
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_firm-faith.yaml
-      origin_url: https://angels.wikidot.com/quest:firm-faith
-      retrieval_url: https://www.aowiki.uk/pages/quest_firm-faith.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: f0ac9d4ae41646dc0d6a0f1e4d99b8d86b680cb47086526c2c9047f3b1566d07
-      authority_role: null
+    - 1.Talk to Warrior Athor(161,93) at Sad Abyss
+    - 2.Defeat monsters besieging Athor such as 50 Heat Elf(72,158), 30 Evil Grass(157,84), and 35 Hell Slave(79,46).
+    - 3.Break through successfully ang let Warrior Athor(161,93) know.
+  historical_dedicated_pages: []
   period_guide_matches:
   - title_raw: Firm Faith
     section_raw: null
@@ -1373,10 +1366,11 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: true
+    dedicated_historical_page_present: false
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-fight-for-right-and-friendship
   name: Fight for Right and Friendship
   region: dungeon
@@ -1417,6 +1411,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 22,500 220 10,000 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Go to Magic Kitchen Path kill Rock God Mendun Step 2 Spoke back to Warrior Athor to get your reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fight-for-right-and-friendship.yaml
       origin_url: https://angels.wikidot.com/quest:fight-for-right-and-friendship
@@ -1469,6 +1464,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-association-member-s-demand
   name: Association Member's Demand
   region: dungeon
@@ -1506,6 +1502,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-association-members-demand.yaml
       origin_url: https://angels.wikidot.com/quest:sad-abyss-association-members-demand
@@ -1523,6 +1520,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-labor-s-misery
   name: Labor's Misery
   region: dungeon
@@ -1560,6 +1558,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-labors-misery.yaml
       origin_url: https://angels.wikidot.com/quest:sad-abyss-labors-misery
@@ -1577,6 +1576,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-ruthless-cook
   name: Ruthless Cook
   region: dungeon
@@ -1617,6 +1617,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 14,000 160 8,000 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Go to Magic Kitchen Path kill 30 of Rotten Seeker & 40 of Hell Slave Step 2 Spoke back to Aimless Harless to get your reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ruthless-cook.yaml
       origin_url: https://angels.wikidot.com/quest:ruthless-cook
@@ -1669,6 +1670,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sad-abyss-devoted-spirit
   name: Devoted Spirit
   region: dungeon
@@ -1711,6 +1713,7 @@ quests:
     walkthrough_raw: Step 1 Go to Fiery Path seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step 2 Go to Lava
       Cave seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step 3 Spoke to Scholar Hopkins
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_devoted-spirit.yaml
       origin_url: https://angels.wikidot.com/quest:devoted-spirit
@@ -1763,6 +1766,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: underground-square-scattered-will
   name: Scattered Will
   region: dungeon
@@ -1787,8 +1791,12 @@ quests:
       source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
       authority_role: null
   walkthrough:
-    source_class: none
-    steps: []
+    source_class: historical_japanese_corroboration
+    steps:
+    - Speak with Purified Moppet at (39,19) in Underground Square.
+    - Defeat 40 Flame Dolls.
+    - Return to Purified Moppet to complete the repeatable quest.
+    caveat: The English area page does not preserve the objective; the 40-Flame-Doll objective is supplied by the historical Japanese AngelLoveOnline wiki and remains pending AOmega target-client confirmation.
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1797,6 +1805,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_scattered-will.yaml
       origin_url: https://angels.wikidot.com/quest:scattered-will
@@ -1814,6 +1823,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: true
 - id: underground-square-searching-for-antidote
   name: Searching for Antidote
   region: dungeon
@@ -1851,6 +1861,7 @@ quests:
     reward_raw: 'Exp. Credit Gold - - - Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Defeat Poison Flower to get Venom Sac
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_searching-for-antidote.yaml
       origin_url: https://angels.wikidot.com/quest:searching-for-antidote
@@ -1868,6 +1879,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: underground-square-follow-in-the-footsteps-of-hero
   name: Follow in the Footsteps of Hero
   region: dungeon
@@ -1911,6 +1923,7 @@ quests:
       Rotten Fly . Once done bring it back to Knight Statue Step 3 Some more writing appear on statue. You now need to get Broken Armour by defeating Soul Wizard . Once done bring it back to Knight Statue
       Step 4 Some more writing appear on statue. You now need to get Broken Boot by defeating Enmity Deissy . Once done bring it back to Knight Statue Step 5 Once done you receive your reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_follow-in-the-footsteps-of-hero.yaml
       origin_url: https://angels.wikidot.com/quest:follow-in-the-footsteps-of-hero
@@ -1971,6 +1984,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: underground-square-boni-s-wish
   name: Boni's Wish
   region: dungeon
@@ -2014,6 +2028,7 @@ quests:
       Lusterless Energy Stone. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless Statue, Left Gebuer Statue, Left
       Barft Statue, Right Wolf Statue to meet up with Earl Makice Step 4 Defeat Demon Lord Underground _
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_boni-s-wish.yaml
       origin_url: https://angels.wikidot.com/quest:boni-s-wish
@@ -2031,6 +2046,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: underground-square-virulent-hatred
   name: Virulent Hatred
   region: dungeon
@@ -2069,6 +2085,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 35000 600 18000 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Destroy Lion Dragon and Evil Eye Step 2 Meet up with Silent Revenge to claim reward
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_virulent-hatred.yaml
       origin_url: https://angels.wikidot.com/quest:virulent-hatred
@@ -2118,6 +2135,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 supplemental_historical_quest_pages:
 - title_raw: Devil's Feast (Group)
   summary_raw: You have passed all the tests and see Beelzebub. Group with your companions to defeat him.
@@ -2733,3 +2751,6 @@ supplemental_period_guide_blocks:
     archive_timestamp: null
     source_html_sha256: ac6d8009f329ae771497bd785ed0405418d1323d5d1edcb01028a61f8a8138f6
     authority_role: secondary_historical_walkthrough
+sanitization:
+  policy: Exact area quest-link text or exact page-title joins only; same-area canonical joins only; template placeholders removed.
+  gap_corroboration_file: data/quests/research/gap-corroboration.yaml

@@ -11,13 +11,13 @@ counts:
   with_historical_dedicated_page: 77
   with_period_guide_match: 41
   with_current_client_match: 18
-  walkthrough_historical_dedicated: 64
+  with_gap_corroboration: 0
+  walkthrough_historical_dedicated: 63
   walkthrough_period_guide: 1
-  walkthrough_existing_canonical: 12
+  walkthrough_existing_canonical: 13
   walkthrough_area_minimal: 0
+  walkthrough_gap_corroboration: 0
   walkthrough_missing: 0
-  supplemental_historical_pages: 5
-  supplemental_period_guide_blocks: 6
 quests:
 - id: aurora-city-knowing-aurora-city
   name: Knowing Aurora City
@@ -45,10 +45,9 @@ quests:
       source_html_sha256: 9517403c841576419afdf751958a281dd140c4d964081fecf1ea413de0367905
       authority_role: null
   walkthrough:
-    source_class: historical_dedicated_quest_page
+    source_class: existing_canonical_aomega
     steps:
-    - Talk to City Angel (Aurora,Dark City,Breezewoods,Iron Castle)
-    - Register
+    - After registering with the Aurora City Angel, find and speak with Explorer Lim in Aurora City.
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -56,7 +55,8 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: null
-    walkthrough_steps: &id001 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-aurora-city.yaml
       origin_url: https://angels.wikidot.com/quest:knowing-aurora-city
@@ -64,23 +64,6 @@ quests:
       source_kind: angels_wikidot_wayback
       archive_timestamp: '20090727183330'
       source_html_sha256: ca0429457529d798472b939676571e99b91b110e1332edec0758b29f89636f65
-      authority_role: null
-  - title_raw: Angel Lyceum - Register At City Angel
-    summary_raw: ???
-    information_raw: 'Quest Giver Repeatable Series Director Wolay No -
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Any - - - - -
-    reward_raw: '- - - Choose one of:'
-    walkthrough_raw: Step 1 Talk to City Angel (Aurora,Dark City,Breezewoods,Iron Castle) Step 2 Register
-    walkthrough_steps: []
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_angel-lyceum-register-at-city-angel.yaml
-      origin_url: https://angels.wikidot.com/quest:angel-lyceum-register-at-city-angel
-      retrieval_url: https://www.aowiki.uk/pages/quest_angel-lyceum-register-at-city-angel.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 404c874f3387803699951b5f2c08cedc557eea38efbd639f123ee72119d6d218
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -130,6 +113,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-inexperience
   name: Inexperience
   region: aurora
@@ -168,6 +152,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
       origin_url: https://angels.wikidot.com/quest:inexperience
@@ -175,21 +160,6 @@ quests:
       source_kind: angels_wikidot_wayback
       archive_timestamp: '20090727203047'
       source_html_sha256: bd5fede4d9b97c500cd25935901ffa717d2f52f56794323685318bd5d1e45c61
-      authority_role: null
-  - title_raw: Angels Online Wiki
-    summary_raw: null
-    information_raw: null
-    requirements_raw: null
-    reward_raw: null
-    walkthrough_raw: null
-    walkthrough_steps: *id001
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-aurora-city.yaml
-      origin_url: https://angels.wikidot.com/quest:knowing-aurora-city
-      retrieval_url: https://web.archive.org/web/20090727183330id_/http://angels.wikidot.com:80/quest:knowing-aurora-city
-      source_kind: angels_wikidot_wayback
-      archive_timestamp: '20090727183330'
-      source_html_sha256: ca0429457529d798472b939676571e99b91b110e1332edec0758b29f89636f65
       authority_role: null
   period_guide_matches:
   - title_raw: Inexperience
@@ -239,6 +209,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-reaching-higher-level
   name: Reaching higher level 1 of 8
   region: aurora
@@ -278,7 +249,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - -
     reward_raw: Exp. Credit Gold 100 - - Items -
     walkthrough_raw: Step 1 Reach level 20, rank 2. Step 2 Go to Aurora City and speak to the Aurora Angel (61,161)
-    walkthrough_steps: &id002 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-reaching-higher-level.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-reaching-higher-level
@@ -286,21 +258,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: b6ed0e8eef836e3c391ba707840b8725e293cb75d3086922568eeb8e01d17e20
-      authority_role: null
-  - title_raw: Angels Online Wiki
-    summary_raw: null
-    information_raw: null
-    requirements_raw: null
-    reward_raw: null
-    walkthrough_raw: null
-    walkthrough_steps: []
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
-      origin_url: https://angels.wikidot.com/quest:register-at-city-angel
-      retrieval_url: https://web.archive.org/web/20090727201820id_/http://angels.wikidot.com:80/quest:register-at-city-angel
-      source_kind: angels_wikidot_wayback
-      archive_timestamp: '20090727201820'
-      source_html_sha256: 104334fe8b975e9722a713ad9888e9a8f6d92b513e1f98b1b8fb2d8a708c3f34
       authority_role: null
   period_guide_matches:
   - title_raw: Reaching higher level
@@ -392,6 +349,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-looking-for-spy-angel
   name: Looking for Spy Angel 2 of 8
   region: aurora
@@ -431,7 +389,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Reaching Higher Level
     reward_raw: Exp. Credit Gold 200 25 - Items -
     walkthrough_raw: Step 1 Go to Dawn Harbor . Step 2 Speak with the Spy Angel (70,177) and take the quest.
-    walkthrough_steps: &id011 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
@@ -439,23 +398,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 102083d8df12e66e9a46a355b715fbf057dd7e942d89ca861f029dcf4de75d16
-      authority_role: null
-  - title_raw: Aurora Reaching Higher Level
-    summary_raw: When you are strong enough, your first Heaven-Angel quest will begin. Visit the Aurora Angel once you are lvl 20, rank 2 to begin.
-    information_raw: 'Quest Giver Repeatable Series Aurora Angel No Yes (Asmode: 1 of 8)
-
-      Previous Quest Next Quest - Looking for Spy Angel'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - -
-    reward_raw: Exp. Credit Gold 100 - - Items -
-    walkthrough_raw: Step 1 Reach level 20, rank 2. Step 2 Go to Aurora City and speak to the Aurora Angel (61,161)
-    walkthrough_steps: *id002
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-reaching-higher-level.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-reaching-higher-level
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-reaching-higher-level.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: b6ed0e8eef836e3c391ba707840b8725e293cb75d3086922568eeb8e01d17e20
       authority_role: null
   period_guide_matches:
   - title_raw: Looking for Spy angel
@@ -499,6 +441,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-killing-mice
   name: Killing mice
   region: aurora
@@ -538,6 +481,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-mice.yaml
       origin_url: https://angels.wikidot.com/quest:killing-mice
@@ -588,6 +532,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-seizing-jackstraw-mige
   name: Seizing Jackstraw Mige
   region: aurora
@@ -627,6 +572,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-jackstraw-mige.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-jackstraw-mige
@@ -678,6 +624,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-seizing-pumpkin-banni
   name: Seizing Pumpkin Banni
   region: aurora
@@ -717,6 +664,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-pumpkin-banni.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-pumpkin-banni
@@ -768,6 +716,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-stopping-trick
   name: Stopping trick
   region: aurora
@@ -807,6 +756,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_stopping-trick.yaml
       origin_url: https://angels.wikidot.com/quest:stopping-trick
@@ -857,6 +807,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-riverside-clearance
   name: Riverside clearance
   region: aurora
@@ -898,6 +849,7 @@ quests:
     reward_raw: 'Exp. Credit Gold - - - Items Choose one of:'
     walkthrough_raw: Step 1 Speak with Aurora City Guard Captain Step 2 Defeat 30 Evil Slarms Step 3 Profit.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_riverside-clearance.yaml
       origin_url: https://angels.wikidot.com/quest:riverside-clearance
@@ -948,6 +900,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-evil-pluto
   name: Evil Pluto
   region: aurora
@@ -987,6 +940,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-pluto.yaml
       origin_url: https://angels.wikidot.com/quest:evil-pluto
@@ -1058,6 +1012,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-reason-for-being-dirty
   name: Reason for being dirty
   region: aurora
@@ -1097,6 +1052,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_reason-for-being-dirty.yaml
       origin_url: https://angels.wikidot.com/quest:reason-for-being-dirty
@@ -1147,6 +1103,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-ruffian-of-harbor
   name: Ruffian of harbor
   region: aurora
@@ -1186,6 +1143,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ruffian-of-harbor.yaml
       origin_url: https://angels.wikidot.com/quest:ruffian-of-harbor
@@ -1237,6 +1195,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-creature-from-golden-island
   name: Creature from Golden Island
   region: aurora
@@ -1276,6 +1235,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_creature-from-golden-island.yaml
       origin_url: https://angels.wikidot.com/quest:creature-from-golden-island
@@ -1327,6 +1287,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-seizing-riprap-pirate
   name: Seizing Riprap Pirate
   region: aurora
@@ -1366,6 +1327,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-riprap-pirate.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-riprap-pirate
@@ -1416,6 +1378,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-seizing-riprap-pirate-leader
   name: Seizing Riprap Pirate Leader
   region: aurora
@@ -1455,6 +1418,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-riprap-pirate-leader.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-riprap-pirate-leader
@@ -1505,6 +1469,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-seizing-sheep-music
   name: Seizing Sheep Music
   region: aurora
@@ -1544,6 +1509,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-sheep-music.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-sheep-music
@@ -1595,6 +1561,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-bloody-spine
   name: Bloody spine
   region: aurora
@@ -1634,6 +1601,7 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_bloody-spine.yaml
       origin_url: https://angels.wikidot.com/quest:bloody-spine
@@ -1684,6 +1652,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-coastal-devil
   name: Coastal devil
   region: aurora
@@ -1726,6 +1695,7 @@ quests:
 
       Step 2 Go to Cherry Village and defeat Evil Crab'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_coastal-devil.yaml
       origin_url: https://angels.wikidot.com/quest:coastal-devil
@@ -1790,6 +1760,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: aurora-city-giant
   name: Giant
   region: aurora
@@ -1832,6 +1803,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 1400 75 2160 Items Choose one of: Item Name , Item Name'
     walkthrough_raw: Step 1 Go and talk to Guard Captain Step 2 Go to cherry village and kill Blue Potec
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_giant.yaml
       origin_url: https://angels.wikidot.com/quest:giant
@@ -1883,6 +1855,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-militia-assignment-coast-clearance
   name: Militia Assignment-Coast Clearance
   region: aurora
@@ -1924,6 +1897,7 @@ quests:
     reward_raw: Exp. Credit Gold 670 35 - Items -
     walkthrough_raw: Step 1 Talk to Robust Yady (235,51). Step 2 Defeat 20 Cherry Crabs . Step 3 Report back to Robust Yady.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_militia-assignment-coast-clearance.yaml
       origin_url: https://angels.wikidot.com/quest:militia-assignment-coast-clearance
@@ -1931,23 +1905,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 890ceda43db92534cf84e93fc3e69560a2c8bfbcd1e134d95d2f2d7bbd3cbc18
-      authority_role: null
-  - title_raw: Recruiting Cherry Militia
-    summary_raw: Robust Yady invites you to join the militia and you accept, to prove yourself you must defeat 20 Spine Turtles .
-    information_raw: 'Quest Giver Repeatable Series Robust Yady No No
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
-    reward_raw: Exp. Credit Gold 1980 80 - Items -
-    walkthrough_raw: Step 1 Introduce yourself to Robust Yady (235,51). Step 2 Defeat 20 Spine Turtles . Step 3 Report your success to Robust Yady and join the Mlitia!
-    walkthrough_steps: &id003 []
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
-      origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
-      retrieval_url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 8cf47331b80df00b2ecf2598a6d36f08d003e494bd3e7ffaea70d22fb9f6fb2a
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -1992,6 +1949,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-militia-assignment-punishing-pirate
   name: Militia Assignment-Punishing Pirate
   region: aurora
@@ -2034,6 +1992,7 @@ quests:
     walkthrough_raw: Step 1 Talk to Robust Yady (235,51) and he will give you the Militia's Flag . Step 2 Take the Militia's Flag to the small island (bottom left of screen) in Cherry Village and place
       it in the Pirate's Camp (49,10) on the torch-like thing. Step 3 Return and report to Robust Yady.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_militia-assignment-punishing-pirate.yaml
       origin_url: https://angels.wikidot.com/quest:militia-assignment-punishing-pirate
@@ -2041,23 +2000,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 6264a880bb41770b2a5205c36512593355cda0ecbf5d2d2cd84a3b1020a0c42a
-      authority_role: null
-  - title_raw: Recruiting Cherry Militia
-    summary_raw: Robust Yady invites you to join the militia and you accept, to prove yourself you must defeat 20 Spine Turtles .
-    information_raw: 'Quest Giver Repeatable Series Robust Yady No No
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
-    reward_raw: Exp. Credit Gold 1980 80 - Items -
-    walkthrough_raw: Step 1 Introduce yourself to Robust Yady (235,51). Step 2 Defeat 20 Spine Turtles . Step 3 Report your success to Robust Yady and join the Mlitia!
-    walkthrough_steps: *id003
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
-      origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
-      retrieval_url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 8cf47331b80df00b2ecf2598a6d36f08d003e494bd3e7ffaea70d22fb9f6fb2a
       authority_role: null
   period_guide_matches:
   - title_raw: Militia assignment punishing
@@ -2117,6 +2059,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-militia-assignment-turtle-shell-armor
   name: Militia Assignment-Turtle Shell Armor
   region: aurora
@@ -2158,6 +2101,7 @@ quests:
     reward_raw: Exp. Credit Gold 740 35 - Items -
     walkthrough_raw: Step 1 Talk to Robust Yady (235,51). Step 2 Defeat Spine Turtles until you obtain 10 Complete Turtle Shells from them. Step 3 Give the Shells to Robust Yady.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_militia-assignment-turtle-shell-armor.yaml
       origin_url: https://angels.wikidot.com/quest:militia-assignment-turtle-shell-armor
@@ -2165,23 +2109,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 05846c7ad4cac48433c8ad9286165902ac75f9f3c47522bb0b7fc6d2452c0c42
-      authority_role: null
-  - title_raw: Recruiting Cherry Militia
-    summary_raw: Robust Yady invites you to join the militia and you accept, to prove yourself you must defeat 20 Spine Turtles .
-    information_raw: 'Quest Giver Repeatable Series Robust Yady No No
-
-      Previous Quest Next Quest - -'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
-    reward_raw: Exp. Credit Gold 1980 80 - Items -
-    walkthrough_raw: Step 1 Introduce yourself to Robust Yady (235,51). Step 2 Defeat 20 Spine Turtles . Step 3 Report your success to Robust Yady and join the Mlitia!
-    walkthrough_steps: *id003
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
-      origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
-      retrieval_url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 8cf47331b80df00b2ecf2598a6d36f08d003e494bd3e7ffaea70d22fb9f6fb2a
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -2228,6 +2155,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-citizen-s-plan-to-retake-property
   name: Citizen's Plan to Retake Property
   region: aurora
@@ -2274,6 +2202,7 @@ quests:
       invetory) Step 4 Go to the island to the far left of the map, and you will find a blue tresure chest (68,169) that is locked there.click on it to obtain a Bag of Pearls . Step 5 Go to Cherry Village
       . Step 6 Return the treasure to Cherry's Leader.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_citizen-s-plan-to-retake-property.yaml
       origin_url: https://angels.wikidot.com/quest:citizen-s-plan-to-retake-property
@@ -2342,6 +2271,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-recruiting-cherry-militia
   name: Recruiting Cherry Militia
   region: aurora
@@ -2382,7 +2312,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
     reward_raw: Exp. Credit Gold 1980 80 - Items -
     walkthrough_raw: Step 1 Introduce yourself to Robust Yady (235,51). Step 2 Defeat 20 Spine Turtles . Step 3 Report your success to Robust Yady and join the Mlitia!
-    walkthrough_steps: *id003
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
       origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
@@ -2446,6 +2377,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-cherry-crab-experiment
   name: Cherry Crab Experiment 1 of 4
   region: aurora
@@ -2486,7 +2418,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
     reward_raw: Exp. Credit Gold 1780 75 1100 Items -
     walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat Cherry Crabs until you have collected 4 Cherry Crab Shell . Step 3 Give the shells to Scholar Nilsson.
-    walkthrough_steps: &id004 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_cherry-crab-experiment.yaml
       origin_url: https://angels.wikidot.com/quest:cherry-crab-experiment
@@ -2570,6 +2503,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-vanilla
   name: Vanilla 2 of 4
   region: aurora
@@ -2610,7 +2544,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Cherry Crab Experiment
     reward_raw: Exp. Credit Gold 1780 75 1500 Items -
     walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat Spine Turtles until you obtain 5 Vanilla Residue samples. Step 3 Give the Vanilla to Scholar Nilsson.
-    walkthrough_steps: &id005 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_vanilla.yaml
       origin_url: https://angels.wikidot.com/quest:vanilla
@@ -2618,23 +2553,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 7b1647b98cd4eed648e1805459d7718f8f009ee10461fc8c8b7de783cb7257da
-      authority_role: null
-  - title_raw: Cherry Crab Experiment
-    summary_raw: Scholar Nilsson is doing an experiment and requires Cherry Crab shells.
-    information_raw: 'Quest Giver Repeatable Series Scholar Nilsson No Yes (1 of 4)
-
-      Previous Quest Next Quest - Vanilla'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
-    reward_raw: Exp. Credit Gold 1780 75 1100 Items -
-    walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat Cherry Crabs until you have collected 4 Cherry Crab Shell . Step 3 Give the shells to Scholar Nilsson.
-    walkthrough_steps: *id004
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_cherry-crab-experiment.yaml
-      origin_url: https://angels.wikidot.com/quest:cherry-crab-experiment
-      retrieval_url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 420c7a9fcc3a84a5aba9e03a9d78cd3c3106c3786040ac54c7594ca64674d025
       authority_role: null
   period_guide_matches:
   - title_raw: Vanilla
@@ -2693,6 +2611,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-potec-s-attack
   name: Potec's Attack 3 of 4
   region: aurora
@@ -2733,7 +2652,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Vanilla
     reward_raw: 'Exp. Credit Gold 2400 600 - Items Choose one of: Warrior Cuff , Shooter Gloves , or Jade Gloves'
     walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat the boss, Blue Potec and retrieve Scholar Nilsson's Notebook . Step 3 Return the book to Scholar Nilsson.
-    walkthrough_steps: &id006 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_potec-s-attack.yaml
       origin_url: https://angels.wikidot.com/quest:potec-s-attack
@@ -2741,23 +2661,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 825a534ffefdd6da5743ce291446163da3472335d008f45f597696148bdd9de7
-      authority_role: null
-  - title_raw: Vanilla
-    summary_raw: Scholar Nilsson is too busy with his own work to collect the Vanilla samples, he asks you for help.
-    information_raw: 'Quest Giver Repeatable Series Scholar Nilsson No Yes (2 of 4)
-
-      Previous Quest Next Quest Cherry Crab Experiment Potec''s Attack'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Cherry Crab Experiment
-    reward_raw: Exp. Credit Gold 1780 75 1500 Items -
-    walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat Spine Turtles until you obtain 5 Vanilla Residue samples. Step 3 Give the Vanilla to Scholar Nilsson.
-    walkthrough_steps: *id005
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_vanilla.yaml
-      origin_url: https://angels.wikidot.com/quest:vanilla
-      retrieval_url: https://www.aowiki.uk/pages/quest_vanilla.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 7b1647b98cd4eed648e1805459d7718f8f009ee10461fc8c8b7de783cb7257da
       authority_role: null
   period_guide_matches:
   - title_raw: Protec’s attack
@@ -2816,6 +2719,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-plant-research-report
   name: Plant Research Report 4 of 4
   region: aurora
@@ -2857,6 +2761,7 @@ quests:
     reward_raw: Exp. Credit Gold 800 30 - Items -
     walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). He will give you the completed Research Report . Step 2 Go to Crashing Hillock . Step 3 Give the Report to Scholar Yale.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_plant-research-report.yaml
       origin_url: https://angels.wikidot.com/quest:plant-research-report
@@ -2864,23 +2769,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: b5bedf9269ab3e1cb990871c2d8c74a9178451bae486a833890bf28e7dda032f
-      authority_role: null
-  - title_raw: Potec S Attack
-    summary_raw: Scholar Nilsson's notebook has gone missing, you must defeat the boss, Blue Potec and get it back so he can complete his research.
-    information_raw: 'Quest Giver Repeatable Series Scholar Nilsson No Yes (3 of 4)
-
-      Previous Quest Next Quest Vanilla Plant Research Report'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Vanilla
-    reward_raw: 'Exp. Credit Gold 2400 600 - Items Choose one of: Warrior Cuff , Shooter Gloves , or Jade Gloves'
-    walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat the boss, Blue Potec and retrieve Scholar Nilsson's Notebook . Step 3 Return the book to Scholar Nilsson.
-    walkthrough_steps: *id006
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_potec-s-attack.yaml
-      origin_url: https://angels.wikidot.com/quest:potec-s-attack
-      retrieval_url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 825a534ffefdd6da5743ce291446163da3472335d008f45f597696148bdd9de7
       authority_role: null
   period_guide_matches:
   - title_raw: Plant research report
@@ -2936,6 +2824,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-whether-husband-is-alive-or-dead
   name: Whether Husband Is Alive or Dead 2 of 3
   region: aurora
@@ -2979,7 +2868,8 @@ quests:
     reward_raw: Exp. Credit Gold 400 70 - Items -
     walkthrough_raw: Step 1 Speak with the Countrylady (186,74) Step 2 Go to Riprap Coast . Step 3 Click on the pile of bones (42,96) and find a Bloody Handkerchief . Step 4 Go back to Cherry Village .
       Step 5 Give the Hanky to the Countrylady, it is her Husband's.
-    walkthrough_steps: &id007 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_whether-husband-is-alive-or-dead.yaml
       origin_url: https://angels.wikidot.com/quest:whether-husband-is-alive-or-dead
@@ -2987,23 +2877,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: c3ab07d2540a95acf27265b8dd8e557b980d5f2f4490faa2186bc4cd8ff25f8a
-      authority_role: null
-  - title_raw: Unknown Brilliant Necklace
-    summary_raw: While fighting Piratekin you find a man's broken necklace with an inscription. Perhaps you should take it to the Countrylady and see if she recognizes it.
-    information_raw: 'Quest Giver Repeatable Series - No Yes (1 of 3)
-
-      Previous Quest Next Quest - Whether Husband is Alive or Dead'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora - - - -
-    reward_raw: Exp. Credit Gold 400 25 800 Items -
-    walkthrough_raw: Step 1 You find a Broken Necklace while fighting Piratekin . Step 2 Go to Cherry Village . Step 3 Give the Necklace to the Countrylady who is searching for her husband.
-    walkthrough_steps: &id014 []
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_unknown-brilliant-necklace.yaml
-      origin_url: https://angels.wikidot.com/quest:unknown-brilliant-necklace
-      retrieval_url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 25520caccf68e8ef01a2f598ade81287fb2113a3b165dcae56b93d62f05e47fe
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -3053,6 +2926,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: cherry-village-father-s-legacy
   name: Father's Legacy 3 of 3
   region: aurora
@@ -3094,6 +2968,7 @@ quests:
     reward_raw: Exp. Credit Gold 800 65 - Items -
     walkthrough_raw: Step 1 Speak with the Countrylady (186,74), she will give you a letter . Step 2 Go to Aurora City . Step 3 Give the letter to Newbie Timi (77,75).
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_father-s-legacy.yaml
       origin_url: https://angels.wikidot.com/quest:father-s-legacy
@@ -3101,24 +2976,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 670edfb7f97380d637c1c3c3a4a88e986e5efd089d10f97e00ed621ccc80151b
-      authority_role: null
-  - title_raw: Whether Husband Is Alive Or Dead
-    summary_raw: The Countrylady must know if her husband is still alive, she begs you to go and find another clue.
-    information_raw: 'Quest Giver Repeatable Series Countrylady No Yes (2 of 3)
-
-      Previous Quest Next Quest Unknown Brilliant Necklace Father''s Legacy'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora - - - Finished Unknown Brilliant Necklace
-    reward_raw: Exp. Credit Gold 400 70 - Items -
-    walkthrough_raw: Step 1 Speak with the Countrylady (186,74) Step 2 Go to Riprap Coast . Step 3 Click on the pile of bones (42,96) and find a Bloody Handkerchief . Step 4 Go back to Cherry Village .
-      Step 5 Give the Hanky to the Countrylady, it is her Husband's.
-    walkthrough_steps: *id007
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_whether-husband-is-alive-or-dead.yaml
-      origin_url: https://angels.wikidot.com/quest:whether-husband-is-alive-or-dead
-      retrieval_url: https://www.aowiki.uk/pages/quest_whether-husband-is-alive-or-dead.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: c3ab07d2540a95acf27265b8dd8e557b980d5f2f4490faa2186bc4cd8ff25f8a
       authority_role: null
   period_guide_matches:
   - title_raw: Father’s legacy
@@ -3197,6 +3054,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: crashing-hillock-drive-away-white-wolves
   name: Drive Away White Wolves
   region: aurora
@@ -3238,6 +3096,7 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 Speak with the Assoc. Director (120,127). Step 2 Defeat 40 White Wolves . Step 3 Report back to the Assoc. Director.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_drive-away-white-wolves.yaml
       origin_url: https://angels.wikidot.com/quest:drive-away-white-wolves
@@ -3255,6 +3114,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: crashing-hillock-collect-white-wolf-s-teeth
   name: Collect White Wolf's Teeth
   region: aurora
@@ -3296,6 +3156,7 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 Speak with the Assoc. Director (120,127). Step 2 Defeat White Wolves until you collect 5 of their teeth. Step 3 Report back to the Assoc. Director.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_collect-white-wolf-s-teeth.yaml
       origin_url: https://angels.wikidot.com/quest:collect-white-wolf-s-teeth
@@ -3313,6 +3174,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: crashing-hillock-maintain-exploration-s-safety
   name: Maintain Exploration's Safety
   region: aurora
@@ -3354,6 +3216,7 @@ quests:
     reward_raw: Exp. Credit Gold 700 37 - Items -
     walkthrough_raw: Step 1 Talk to the Security Officer (120,166). Step 2 Defeat 40 Green Wolves . Step 3 Report your success back to the Security Officer.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_maintain-exploration-s-safety.yaml
       origin_url: https://angels.wikidot.com/quest:maintain-exploration-s-safety
@@ -3371,6 +3234,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: crashing-hillock-miner-s-uniform
   name: Miner's Uniform
   region: aurora
@@ -3412,6 +3276,7 @@ quests:
     reward_raw: Exp. Credit Gold 700 37 - Items -
     walkthrough_raw: Step 1 Talk to the Security Officer (120,166). Step 2 Collect 5 Green Wolf's Coats by defeating Green Wolves . Step 3 Report back to the Security Officer.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_miner-s-uniform.yaml
       origin_url: https://angels.wikidot.com/quest:miner-s-uniform
@@ -3429,6 +3294,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-fetor-on-deck
   name: Fetor on Deck
   region: aurora
@@ -3470,6 +3336,7 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak to the Chef (138,161). Step 2 Defeat 20 Grey Mice . Step 3 Report back to the Chef.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fetor-on-deck.yaml
       origin_url: https://angels.wikidot.com/quest:fetor-on-deck
@@ -3533,6 +3400,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-side-dish-salted-crabmeat
   name: Side Dish-Salted Crabmeat
   region: aurora
@@ -3574,6 +3442,7 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak to the Chef (138,161). Step 2 Defeat Soldier Crabs until you collect 10 Fresh Crab Meat . Step 3 Give the meat to the Chef.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_side-dish-salted-crabmeat.yaml
       origin_url: https://angels.wikidot.com/quest:side-dish-salted-crabmeat
@@ -3639,6 +3508,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-side-dish-herb-tortoise-meat
   name: Side Dish-Herb Tortoise Meat
   region: aurora
@@ -3680,6 +3550,7 @@ quests:
     reward_raw: Exp. Credit Gold 450 25 - Items -
     walkthrough_raw: Step 1 Speak to the Chef (138,161). Step 2 Defeat Turtles until you obtain 4 Fresh Turtle Meat . Step 3 Give the meat to the Chef.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_side-dish-herb-tortoise-meat.yaml
       origin_url: https://angels.wikidot.com/quest:side-dish-herb-tortoise-meat
@@ -3745,6 +3616,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-control-plan-of-sheep-quantity
   name: Control Plan of Sheep Quantity
   region: aurora
@@ -3787,6 +3659,7 @@ quests:
     reward_raw: Exp. Credit Gold 580 30 - Items -
     walkthrough_raw: Step 1 Speak to the Fisherman (165,100). Step 2 Go to Riprap Coast . Step 3 Defeat 20 Harp Sheep . Step 4 Return to Dawn Harbor and report back to the Fisherman.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_control-plan-of-sheep-quantity.yaml
       origin_url: https://angels.wikidot.com/quest:control-plan-of-sheep-quantity
@@ -3850,6 +3723,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-defeating-evil-force
   name: Defeating Evil Force
   region: aurora
@@ -3893,6 +3767,7 @@ quests:
     walkthrough_raw: Step 1 Speak to the Policeman (193,28). Step 2 Go to Riprap Coast . Step 3 Defeat Riprap Pirates until you collect 5 Pirate necklaces . Step 4 Return to Dawn Harbor and give the necklaces
       to the Policeman.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_defeating-evil-force.yaml
       origin_url: https://angels.wikidot.com/quest:defeating-evil-force
@@ -3978,6 +3853,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-golden-island-legend
   name: Golden Island Legend
   region: aurora
@@ -4018,6 +3894,7 @@ quests:
     reward_raw: Exp. Credit Gold 600 25 - Items -
     walkthrough_raw: Step 1 Collect Map Pieces (one item) while defeating Turtles . Step 2 Take the pieces to the Retired Sailor (31,98) and have him tell you about the Golden Island.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_golden-island-legend.yaml
       origin_url: https://angels.wikidot.com/quest:golden-island-legend
@@ -4097,6 +3974,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-protecting-boss-s-right
   name: Protecting Boss's Right
   region: aurora
@@ -4139,6 +4017,7 @@ quests:
     reward_raw: Exp. Credit Gold 1580 70 600 Items -
     walkthrough_raw: Step 1 Speak to the Barkeeper (204,125). Step 2 Go to Riprap Coast . Step 3 Defeat 20 Riprap Pirates . Step 4 Return to Dawn Harbor and report to the Barkeeper.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_protecting-boss-s-right.yaml
       origin_url: https://angels.wikidot.com/quest:protecting-boss-s-right
@@ -4203,6 +4082,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-clearance-of-harbor
   name: Clearance of Harbor 1 of 4
   region: aurora
@@ -4243,7 +4123,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 15+ - - -
     reward_raw: Exp. Credit Gold 1400 55 1000 Items -
     walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156). Step 2 Defeat 20 creatures in the Harbor, it can be any of the monsters in Dawn Harbor . Step 3 Report your success to the Fishing Leader.
-    walkthrough_steps: &id008 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_clearance-of-harbor.yaml
       origin_url: https://angels.wikidot.com/quest:clearance-of-harbor
@@ -4311,6 +4192,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-request-for-military-aid
   name: Request for Military Aid 2 of 4
   region: aurora
@@ -4354,7 +4236,8 @@ quests:
     reward_raw: Exp. Credit Gold 400 30 - Items -
     walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156) and ask about the Riprap Pirates . He will give you the Chairman's Letter . Step 2 Take the letter to Aurora City . Step 3 Give it to the
       Deputy Colonel (103,85). Step 4 Go back to Dawn Harbor . Step 5 Tell the Fishing Leader that he won't be getting help yet, things must be approved by the King first.
-    walkthrough_steps: &id009 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_request-for-military-aid.yaml
       origin_url: https://angels.wikidot.com/quest:request-for-military-aid
@@ -4362,23 +4245,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 6211f60c458408035f8ae83540b577904d3128b498a4d34deda03cad28af4d52
-      authority_role: null
-  - title_raw: Clearance Of Harbor
-    summary_raw: The Fishing Lwader asks for your help in cleaning up the Harbor. Defeat 20 of the local creatures to do so.
-    information_raw: 'Quest Giver Repeatable Series Fishing Leader No Yes (1 of 4)
-
-      Previous Quest Next Quest - Request for Military Aid'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 15+ - - -
-    reward_raw: Exp. Credit Gold 1400 55 1000 Items -
-    walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156). Step 2 Defeat 20 creatures in the Harbor, it can be any of the monsters in Dawn Harbor . Step 3 Report your success to the Fishing Leader.
-    walkthrough_steps: *id008
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_clearance-of-harbor.yaml
-      origin_url: https://angels.wikidot.com/quest:clearance-of-harbor
-      retrieval_url: https://www.aowiki.uk/pages/quest_clearance-of-harbor.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: f190ceac639ce7ac8d27db9fbd728a79a7346fe34fba9f0f77ac95ee7fee00d8
       authority_role: null
   period_guide_matches:
   - title_raw: Request for military aid
@@ -4435,6 +4301,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-being-premptive
   name: Being Premptive 3 of 4
   region: aurora
@@ -4475,7 +4342,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 15+ - - Finished Request for Military Aid
     reward_raw: Exp. Credit Gold 2120 450 - Items 5 x Common Red Potion 1
     walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156). Step 2 Defeat the boss, Vice Head Pirate . Step 3 Return to the Fishing Leader.
-    walkthrough_steps: &id010 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_being-premptive.yaml
       origin_url: https://angels.wikidot.com/quest:being-premptive
@@ -4483,24 +4351,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 2b15ebfbcffc7c9930b97c5b5a16452c8d405e182cc9786d6a51ac6c85aec486
-      authority_role: null
-  - title_raw: Request For Military Aid
-    summary_raw: The Fishing Leader asks you to take a message to the Deputy Colonel in Aurora City asking for help in dealing with the pirates.
-    information_raw: 'Quest Giver Repeatable Series Fishing Leader No Yes (2 of 4)
-
-      Previous Quest Next Quest Clearance of Harbor Being Premptive'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 15+ - - Finished Clearance of Harbor
-    reward_raw: Exp. Credit Gold 400 30 - Items -
-    walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156) and ask about the Riprap Pirates . He will give you the Chairman's Letter . Step 2 Take the letter to Aurora City . Step 3 Give it to the
-      Deputy Colonel (103,85). Step 4 Go back to Dawn Harbor . Step 5 Tell the Fishing Leader that he won't be getting help yet, things must be approved by the King first.
-    walkthrough_steps: *id009
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_request-for-military-aid.yaml
-      origin_url: https://angels.wikidot.com/quest:request-for-military-aid
-      retrieval_url: https://www.aowiki.uk/pages/quest_request-for-military-aid.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 6211f60c458408035f8ae83540b577904d3128b498a4d34deda03cad28af4d52
       authority_role: null
   period_guide_matches:
   - title_raw: Being preemptive
@@ -4566,6 +4416,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-glory-of-dawn-harbor
   name: Glory of Dawn Harbor 4 of 4
   region: aurora
@@ -4606,6 +4457,7 @@ quests:
     reward_raw: 'Exp. Credit Gold 200 25 - Items Choose one of: Pink Piggy , Yellow Piggy , or Brown Piggy'
     walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156). Step 2 Go to Cherry Village and speak to Cherry's Leader (235,73).
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_glory-of-dawn-harbor.yaml
       origin_url: https://angels.wikidot.com/quest:glory-of-dawn-harbor
@@ -4613,23 +4465,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 81780ecc6e027fd253da0020a2e6b060da9d391dd247c9347bb889965726d6b5
-      authority_role: null
-  - title_raw: Being Premptive
-    summary_raw: The Fishing Leader believes that if you destroy the leader, the pirates will delay their attack on Dawn Harbor. The safety of the town is in your hands!
-    information_raw: 'Quest Giver Repeatable Series Fishing Leader No Yes (3 of 4)
-
-      Previous Quest Next Quest Request for Military Aid Glory of Dawn Harbor'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 15+ - - Finished Request for Military Aid
-    reward_raw: Exp. Credit Gold 2120 450 - Items 5 x Common Red Potion 1
-    walkthrough_raw: Step 1 Speak to the Fishing Leader (152,156). Step 2 Defeat the boss, Vice Head Pirate . Step 3 Return to the Fishing Leader.
-    walkthrough_steps: *id010
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_being-premptive.yaml
-      origin_url: https://angels.wikidot.com/quest:being-premptive
-      retrieval_url: https://www.aowiki.uk/pages/quest_being-premptive.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 2b15ebfbcffc7c9930b97c5b5a16452c8d405e182cc9786d6a51ac6c85aec486
       authority_role: null
   period_guide_matches:
   - title_raw: Glory of Dawn Harbor
@@ -4708,6 +4543,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-showing-speed-and-destroying-force
   name: Showing Speed and Destroying Force 3 of 8
   region: aurora
@@ -4748,7 +4584,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Looking for Spy Angel
     reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
     walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Defeat 50 Grey Mice Step 3 Report back to the Spy Angel
-    walkthrough_steps: &id012 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-showing-speed-and-destroying-force.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
@@ -4756,23 +4593,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 988bf4bca804e5943763a273173efcd0d969d1c91560f988dcf15ffa0dcd9e3d
-      authority_role: null
-  - title_raw: Looking For Spy Angel
-    summary_raw: You must find the Spy Angel to recieve instruction on your first assignment.
-    information_raw: 'Quest Giver Repeatable Series Aurora Angel No Yes (Asmode: 2 of 8)
-
-      Previous Quest Next Quest Reaching Higher Level Showing Speed and Destroying Force'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Reaching Higher Level
-    reward_raw: Exp. Credit Gold 200 25 - Items -
-    walkthrough_raw: Step 1 Go to Dawn Harbor . Step 2 Speak with the Spy Angel (70,177) and take the quest.
-    walkthrough_steps: *id011
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 102083d8df12e66e9a46a355b715fbf057dd7e942d89ca861f029dcf4de75d16
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
@@ -4783,6 +4603,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-disguise
   name: Disguise 4 of 8
   region: aurora
@@ -4824,7 +4645,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Showing Speed and Destroying Force
     reward_raw: Exp. Credit Gold 2000 80 500 Items -
     walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Go to Riprap Coast Step 3 Defeat Piratekin until you have obtained the Secret Badge. Step 4 Report back to the Spy Angel
-    walkthrough_steps: &id013 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-disguise.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-disguise
@@ -4832,23 +4654,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 46c0d10d334a4ecb7fd38dd1dfd08b4e0842ce6a6de51d2450388ad8f3a4ec53
-      authority_role: null
-  - title_raw: Showing Speed And Destroying Force
-    summary_raw: The Spy Angel asks you to prove your ability by defeating 50 Grey Mice .
-    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode:3 of 8)
-
-      Previous Quest Next Quest Looking for Spy Angel Disguise'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Looking for Spy Angel
-    reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
-    walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Defeat 50 Grey Mice Step 3 Report back to the Spy Angel
-    walkthrough_steps: *id012
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-showing-speed-and-destroying-force.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 988bf4bca804e5943763a273173efcd0d969d1c91560f988dcf15ffa0dcd9e3d
       authority_role: null
   period_guide_matches:
   - title_raw: Disguise
@@ -4953,6 +4758,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: dawn-harbor-obtaining-asmode-s-trust
   name: Obtaining Asmode's Trust 5 of 8
   region: aurora
@@ -4995,7 +4801,8 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Hand the Secret Badge to Asmode
-    walkthrough_steps: &id015 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-obtaining-asmodes-trust.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-obtaining-asmodes-trust
@@ -5003,23 +4810,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: b4499013cb106da8dcaf90d5404d8a46590144492a6b8ff6bb04c340eca5407a
-      authority_role: null
-  - title_raw: Disguise
-    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member of the Piratekin . Obtain their Secret Badge by defeating them.
-    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
-
-      Previous Quest Next Quest Showing Speed and Destroying Force Obtaining Asmode''s Trust'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Showing Speed and Destroying Force
-    reward_raw: Exp. Credit Gold 2000 80 500 Items -
-    walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Go to Riprap Coast Step 3 Defeat Piratekin until you have obtained the Secret Badge. Step 4 Report back to the Spy Angel
-    walkthrough_steps: *id013
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-disguise.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-disguise
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 46c0d10d334a4ecb7fd38dd1dfd08b4e0842ce6a6de51d2450388ad8f3a4ec53
       authority_role: null
   period_guide_matches:
   - title_raw: Obtaining Asmode’s trust
@@ -5083,6 +4873,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: riprap-coast-karter-s-planning-book
   name: Karter's Planning Book
   region: aurora
@@ -5126,6 +4917,7 @@ quests:
     walkthrough_raw: Step 1 You find a Proposal by clicking on the pile of books (189,36) by the pick-nic table in Riprap Coast . Step 2 Take the proposal to Sailor Bonny (257,111) in Dawn Harbor , he will
       give you the quest. Step 3 Then show the proposal to Sailor Karter (269,76) in Dawn Harbor .
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_karter-s-planning-book.yaml
       origin_url: https://angels.wikidot.com/quest:karter-s-planning-book
@@ -5199,6 +4991,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: riprap-coast-unknown-brilliant-necklace
   name: Unknown Brilliant Necklace 1 of 3
   region: aurora
@@ -5239,7 +5032,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora - - - -
     reward_raw: Exp. Credit Gold 400 25 800 Items -
     walkthrough_raw: Step 1 You find a Broken Necklace while fighting Piratekin . Step 2 Go to Cherry Village . Step 3 Give the Necklace to the Countrylady who is searching for her husband.
-    walkthrough_steps: *id014
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_unknown-brilliant-necklace.yaml
       origin_url: https://angels.wikidot.com/quest:unknown-brilliant-necklace
@@ -5308,6 +5102,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: riprap-coast-are-you-evil-enough
   name: Are You Evil Enough? 6 of 8
   region: aurora
@@ -5353,7 +5148,8 @@ quests:
       speak with the Spy Angel (70,177). Step 3 The Spy Angel tells you to go to Cherry Village . Step 4 In Cherry Village speak to Cherry''s Leader (235,73) and he will give you a bag of pearls. (Note:
       You must already have completed the quest Citizen''s Plan to Retake Property to get the pearls.) Step 5 Take the pearls back to Riprap Coast and hand them to Asmode (262,178). He will give you a Magic
       Stone (which will not appear in your inventory).'
-    walkthrough_steps: &id016 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-are-you-evil-enough.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-are-you-evil-enough
@@ -5361,27 +5157,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 5ab153a02f613d037ad7c10c3e312e12a04f7bd15f1f6ed465ddfc5b949870ea
-      authority_role: null
-  - title_raw: Obtaining Asmode's trust
-    summary_raw: null
-    information_raw: 'Quest Giver Requirements Repeatable? Spy Angel Aurora faction, completion of Disguise quest No
-
-      Previous Quest Next Quest Disguise Are You Evil Enough
-
-      Summary Quick Summary
-
-      Reward 400 experience, 35 credits'
-    requirements_raw: null
-    reward_raw: null
-    walkthrough_raw: Step 1 Hand the Secret Badge to Asmode
-    walkthrough_steps: *id015
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-obtaining-asmodes-trust.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-obtaining-asmodes-trust
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: b4499013cb106da8dcaf90d5404d8a46590144492a6b8ff6bb04c340eca5407a
       authority_role: null
   period_guide_matches:
   - title_raw: Are you evil enough?
@@ -5473,6 +5248,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: riprap-coast-magic-stone
   name: Magic Stone 7 of 8
   region: aurora
@@ -5516,6 +5292,7 @@ quests:
     walkthrough_raw: Step 1 Asmode (262,178) will give you a Magic stone. Step 2 Go to Cherry Village . Step 3 Find the statue of a monkey wearing a crown and holding an egg (30,31 - it's on the little
       island to the bottom left of the screen). Then place the stone against it. Step 4 You will be transported to Admode's Den.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-magic-stone.yaml
       origin_url: https://angels.wikidot.com/quest:aurora-magic-stone
@@ -5523,26 +5300,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 248d0dfcf8cafed1dc0343e1ab1ecc24af776197bb18040cb91bc201b857ab8e
-      authority_role: null
-  - title_raw: Are You Evil Enough
-    summary_raw: Asmode doesn't trust you, so he asks you to rob treasure from Cherry Village.
-    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
-
-      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Obtaining Asmode's Trust and Citizen's Plan to Retake Property
-    reward_raw: Exp. Credit Gold 500 25 - Items -
-    walkthrough_raw: 'Step 1 Speak with Asmode (262,178) in Riprap Coast , he will ask you to prove yourself because he isn''t sure you''re a Pirate. Step 2 Not sure what to do, you go to Dawn Harbor and
-      speak with the Spy Angel (70,177). Step 3 The Spy Angel tells you to go to Cherry Village . Step 4 In Cherry Village speak to Cherry''s Leader (235,73) and he will give you a bag of pearls. (Note:
-      You must already have completed the quest Citizen''s Plan to Retake Property to get the pearls.) Step 5 Take the pearls back to Riprap Coast and hand them to Asmode (262,178). He will give you a Magic
-      Stone (which will not appear in your inventory).'
-    walkthrough_steps: *id016
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-are-you-evil-enough.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-are-you-evil-enough
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 5ab153a02f613d037ad7c10c3e312e12a04f7bd15f1f6ed465ddfc5b949870ea
       authority_role: null
   period_guide_matches:
   - title_raw: Magic Stone
@@ -5646,6 +5403,7 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-delicious-pumpkin-pie
   name: Delicious Pumpkin Pie
   region: aurora
@@ -5687,6 +5445,7 @@ quests:
     reward_raw: Exp. Credit Gold 260 10 - Items -
     walkthrough_raw: Step 1 Talk to the Farm Cook (108,119) Step 2 Defeat Pumpkins until you obtain 10 pumpkins . Step 3 Give them to the Farm Cook.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_delicious-pumpkin-pie.yaml
       origin_url: https://angels.wikidot.com/quest:delicious-pumpkin-pie
@@ -5752,6 +5511,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-maintain-cleanness-of-surroundings
   name: Maintain Cleanness of Surroundings
   region: aurora
@@ -5793,6 +5553,7 @@ quests:
     reward_raw: Exp. Credit Gold 320 10 - Items -
     walkthrough_raw: Step 1 Talk to the Farm Cook (108,119) Step 2 Defeat 10 Field Mice . Step 3 Report back to the Farm Cook.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_maintain-cleanness-of-surroundings.yaml
       origin_url: https://angels.wikidot.com/quest:maintain-cleanness-of-surroundings
@@ -5856,6 +5617,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-roasted-sashimi
   name: Roasted Sashimi
   region: aurora
@@ -5897,6 +5659,7 @@ quests:
     reward_raw: Exp. Credit Gold 320 15 - Items -
     walkthrough_raw: Step 1 Talk to the Farm Cook (108,119) Step 2 Defeat Jackstraws until you obtain 10 bales of straw . Step 3 Take them to the Farm Cook.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_roasted-sashimi.yaml
       origin_url: https://angels.wikidot.com/quest:roasted-sashimi
@@ -5962,6 +5725,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-wanting-a-pet
   name: Wanting a Pet
   region: aurora
@@ -6005,6 +5769,7 @@ quests:
     walkthrough_raw: Step 1 Talk to the Farm Mistess (52,53). Step 2 Go to the Pet Expert and buy 10 Pet Cookies . The Closest is in Aurora City (295,46). Step 3 Return to Spike Farm . Step 4 Give the Pet
       Cookies to the Farm Mistress.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wanting-a-pet.yaml
       origin_url: https://angels.wikidot.com/quest:wanting-a-pet
@@ -6050,6 +5815,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-annihilating-mice
   name: Annihilating Mice 1 of 4
   region: aurora
@@ -6094,7 +5860,8 @@ quests:
       Field Mice
 
       Step 3'
-    walkthrough_steps: &id017 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_annihilating-mice.yaml
       origin_url: https://angels.wikidot.com/quest:annihilating-mice
@@ -6162,6 +5929,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-magic-trick
   name: Magic Trick 2 of 4
   region: aurora
@@ -6202,7 +5970,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Annihilating Mice
     reward_raw: Exp. Credit Gold 850 30 - Items 5x Low-Effect Red Potion 1
     walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Pumpkins . Step 3 Return and report to the Spike Farmer.
-    walkthrough_steps: &id018 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_magic-trick.yaml
       origin_url: https://angels.wikidot.com/quest:magic-trick
@@ -6210,29 +5979,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 2a12d66d8f8a7d8638f7f8fb10e2d23376898e72585c33f4338238189c9b0690
-      authority_role: null
-  - title_raw: Annihilating mice
-    summary_raw: The Spike Farmer has been disturbed by a Field Mice for a long time. He invites you to get rid of these annoying Field Mice to avoid having his crop devoured.
-    information_raw: 'Quest Giver Repeatable Series Spike Farmer No Yes (1 of 4)
-
-      Previous Quest Next Quest - Magic Trick'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - -
-    reward_raw: Exp. Credit Gold 800 30 150 Items -
-    walkthrough_raw: 'Step 1
-
-      Step 2
-
-      Field Mice
-
-      Step 3'
-    walkthrough_steps: *id017
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_annihilating-mice.yaml
-      origin_url: https://angels.wikidot.com/quest:annihilating-mice
-      retrieval_url: https://www.aowiki.uk/pages/quest_annihilating-mice.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: cb7c8522e666d45373acf191a0d8a91f37fa57050661814c40445961cfff91d3
       authority_role: null
   period_guide_matches:
   - title_raw: Magic trick
@@ -6292,6 +6038,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-the-jackstraw-s-protest
   name: The Jackstraw's Protest 3 of 4
   region: aurora
@@ -6332,7 +6079,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Magic Trick
     reward_raw: 'Exp. Credit Gold 860 160 - Items Choose one of: Traditional Armor , Traditional Vest , Traditional Magic Gown , or Hard Shield'
     walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Jackstraws . Step 3 Report back to the Spike Farmer.
-    walkthrough_steps: &id019 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-jackstraw-s-protest.yaml
       origin_url: https://angels.wikidot.com/quest:the-jackstraw-s-protest
@@ -6340,23 +6088,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 54f8cc62c58cc3510ca29ea9c7701f2339c6a4453839a30e67c65d3fad49ddc0
-      authority_role: null
-  - title_raw: Magic trick
-    summary_raw: A magician has enchanted the Pumpkins in the fields and they are attacking people. The Spike Farmer asks you to destroy 20 of these pumpkins.
-    information_raw: 'Quest Giver Repeatable Series Spike Farmer No Yes (2 of 4)
-
-      Previous Quest Next Quest Annihilating Mice The Jackstraw''s Protest'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Annihilating Mice
-    reward_raw: Exp. Credit Gold 850 30 - Items 5x Low-Effect Red Potion 1
-    walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Pumpkins . Step 3 Return and report to the Spike Farmer.
-    walkthrough_steps: *id018
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_magic-trick.yaml
-      origin_url: https://angels.wikidot.com/quest:magic-trick
-      retrieval_url: https://www.aowiki.uk/pages/quest_magic-trick.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 2a12d66d8f8a7d8638f7f8fb10e2d23376898e72585c33f4338238189c9b0690
       authority_role: null
   period_guide_matches:
   - title_raw: The Jackstraw’s protest
@@ -6416,6 +6147,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: spike-farm-sending-parcels
   name: Sending Parcels 4 of 4
   region: aurora
@@ -6463,6 +6195,7 @@ quests:
 
       Step 4'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sending-parcels.yaml
       origin_url: https://angels.wikidot.com/quest:sending-parcels
@@ -6470,23 +6203,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 7ade71f623c676f499446ab794bc77473314ea8645540dfae0eefbb36bafbf15
-      authority_role: null
-  - title_raw: The Jackstraw's protest
-    summary_raw: The Spike Farmer's troubles have increased, the Jackstraws won't do their work any more and are asking for more pay. The Spike Farmer begs you to help him.
-    information_raw: 'Quest Giver Repeatable Series Spike Farmer No Yes (3 of 4)
-
-      Previous Quest Next Quest Magic Trick Sending Parcels'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Magic Trick
-    reward_raw: 'Exp. Credit Gold 860 160 - Items Choose one of: Traditional Armor , Traditional Vest , Traditional Magic Gown , or Hard Shield'
-    walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Jackstraws . Step 3 Report back to the Spike Farmer.
-    walkthrough_steps: *id019
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-jackstraw-s-protest.yaml
-      origin_url: https://angels.wikidot.com/quest:the-jackstraw-s-protest
-      retrieval_url: https://www.aowiki.uk/pages/quest_the-jackstraw-s-protest.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 54f8cc62c58cc3510ca29ea9c7701f2339c6a4453839a30e67c65d3fad49ddc0
       authority_role: null
   period_guide_matches:
   - title_raw: Sending Parcels
@@ -6545,6 +6261,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-the-pumpkin-s-bad-deed
   name: The Pumpkin's Bad Deed
   region: aurora
@@ -6586,6 +6303,7 @@ quests:
     reward_raw: Exp. Credit Gold 390 20 - Items -
     walkthrough_raw: Step 1 Talk to the Clerk (134,171). Step 2 Defeat 20 Magic Pumpkinmen . Step 3 Report back to the Clerk.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-pumpkin-s-bad-deed.yaml
       origin_url: https://angels.wikidot.com/quest:the-pumpkin-s-bad-deed
@@ -6654,6 +6372,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-preparation-for-winter
   name: Preparation for Winter
   region: aurora
@@ -6695,6 +6414,7 @@ quests:
     reward_raw: Exp. Credit Gold 450 20 - Items -
     walkthrough_raw: Step 1 Talk to the Manor Keeper (99,150). Step 2 Defeat Tone Sheep until you obtain 5 Sheep's Woolly Curls . Step 3 Give the wool to the Manor Keeper.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_preparation-for-winter.yaml
       origin_url: https://angels.wikidot.com/quest:preparation-for-winter
@@ -6760,6 +6480,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-looking-for-fatman-s-ring
   name: Looking for Fatman's Ring
   region: aurora
@@ -6802,6 +6523,7 @@ quests:
     walkthrough_raw: Step 1 Talk to the Rich Fatman (227,132). Step 2 Defeat Evil Slarms until you find his stolen Ring of the Fatman . Step 3 Return the Ring to the Rich Fatman so he can continue to impress
       the ladies.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_looking-for-fatman-s-ring.yaml
       origin_url: https://angels.wikidot.com/quest:looking-for-fatman-s-ring
@@ -6868,6 +6590,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-noise-pollution
   name: Noise Pollution 1 of 4
   region: aurora
@@ -6908,7 +6631,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - -
     reward_raw: Exp. Credit Gold 1200 50 250 Items -
     walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 Defeat 20 Tone Sheep . Step 3 Report your success to the Gardener.
-    walkthrough_steps: &id020 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_noise-pollution.yaml
       origin_url: https://angels.wikidot.com/quest:noise-pollution
@@ -6959,6 +6683,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-awakening-a-love-of-music
   name: Awakening a Love of Music 2 of 4
   region: aurora
@@ -6999,7 +6724,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - Finished Noise Pollution
     reward_raw: Exp. Credit Gold 1300 55 350 Items -
     walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 Defeat Tone Sheep until you obtain one of their Magic Flutes . Step 3 Give the Flute to the Gardener.
-    walkthrough_steps: &id021 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_awakening-a-love-of-music.yaml
       origin_url: https://angels.wikidot.com/quest:awakening-a-love-of-music
@@ -7007,23 +6733,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 1708f0dc85a334a1541a6f92eafe2e5e1f5efba9f11ebb878da5deb216226f96
-      authority_role: null
-  - title_raw: Noise Pollution
-    summary_raw: The Gardener finds the Tone Sheep 's noise disruptive and asks you to silence the problem.
-    information_raw: 'Quest Giver Repeatable Series Gardener No Yes (1 of 4)
-
-      Previous Quest Next Quest - Awakening a Love of Music'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - -
-    reward_raw: Exp. Credit Gold 1200 50 250 Items -
-    walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 Defeat 20 Tone Sheep . Step 3 Report your success to the Gardener.
-    walkthrough_steps: *id020
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_noise-pollution.yaml
-      origin_url: https://angels.wikidot.com/quest:noise-pollution
-      retrieval_url: https://www.aowiki.uk/pages/quest_noise-pollution.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 0211f9019568cec88726008fd857b13cfebea198f192cfa20926eace4e56bdde
       authority_role: null
   period_guide_matches:
   - title_raw: Awakening a Love Music
@@ -7082,6 +6791,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-rare-sheep-score
   name: Rare Sheep Score 3 of 4
   region: aurora
@@ -7122,7 +6832,8 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - Finished awakening a Love of Music
     reward_raw: 'Exp. Credit Gold 1520 360 - Items Choose one of: Courage Helmet , Harmony Cap , or Wanderer''s Cap'
     walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 You must defeat the boss, Sheep Beethoven and get the Score from him. Step 3 Take the Score to the Gardener.
-    walkthrough_steps: &id022 []
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-sheep-score.yaml
       origin_url: https://angels.wikidot.com/quest:rare-sheep-score
@@ -7130,23 +6841,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 50c009779ad885cf244c58fdf5250120d6608f326680265bdc6086822938cc48
-      authority_role: null
-  - title_raw: Awakening A Love Of Music
-    summary_raw: The Gardener believes the sheep's music to be beautiful and wishes he could learn to play. He asks you to find him a Flute.
-    information_raw: 'Quest Giver Repeatable Series Gardener No Yes (2 of 4)
-
-      Previous Quest Next Quest Noise Pollution Rare Sheep Score'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - Finished Noise Pollution
-    reward_raw: Exp. Credit Gold 1300 55 350 Items -
-    walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 Defeat Tone Sheep until you obtain one of their Magic Flutes . Step 3 Give the Flute to the Gardener.
-    walkthrough_steps: *id021
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_awakening-a-love-of-music.yaml
-      origin_url: https://angels.wikidot.com/quest:awakening-a-love-of-music
-      retrieval_url: https://www.aowiki.uk/pages/quest_awakening-a-love-of-music.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 1708f0dc85a334a1541a6f92eafe2e5e1f5efba9f11ebb878da5deb216226f96
       authority_role: null
   period_guide_matches:
   - title_raw: Rare Sheep Score
@@ -7205,6 +6899,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: sunflower-plain-ardent-recommendation
   name: Ardent Recommendation 4 of 4
   region: aurora
@@ -7246,6 +6941,7 @@ quests:
     reward_raw: Exp. Credit Gold 1400 55 - Items -
     walkthrough_raw: Step 1 Speak with the Gardener (53,107). He will give you a letter of recommendation . Step 2 Go to Dawn Harbor . Step 3 Give the Letter to the Fishing Leader (252,156) there.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ardent-recommendation.yaml
       origin_url: https://angels.wikidot.com/quest:ardent-recommendation
@@ -7253,23 +6949,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 849a9091fd77ad5cdc51ec3a9c43a8ca3867d5504d92724fbeeedae6e06b2373
-      authority_role: null
-  - title_raw: Rare Sheep Score
-    summary_raw: The Gardener thinks the Tone Sheep can play so well because of the teachings of Sheep Beethoven and its magic score. He asks you to defeat the boss and bring him the score.
-    information_raw: 'Quest Giver Repeatable Series Gardener No Yes (3 of 4)
-
-      Previous Quest Next Quest Awakening a Love of Music Ardent Recommendation'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 10+ - - Finished awakening a Love of Music
-    reward_raw: 'Exp. Credit Gold 1520 360 - Items Choose one of: Courage Helmet , Harmony Cap , or Wanderer''s Cap'
-    walkthrough_raw: Step 1 Speak with the Gardener (53,107). Step 2 You must defeat the boss, Sheep Beethoven and get the Score from him. Step 3 Take the Score to the Gardener.
-    walkthrough_steps: *id022
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-sheep-score.yaml
-      origin_url: https://angels.wikidot.com/quest:rare-sheep-score
-      retrieval_url: https://www.aowiki.uk/pages/quest_rare-sheep-score.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 50c009779ad885cf244c58fdf5250120d6608f326680265bdc6086822938cc48
       authority_role: null
   period_guide_matches:
   - title_raw: Ardent recommendation
@@ -7331,6 +7010,7 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thorn-wasteland-fire-barft-killing
   name: Fire Barft Killing
   region: aurora
@@ -7372,6 +7052,7 @@ quests:
     reward_raw: Exp. Credit Gold 1300 50 - Items -
     walkthrough_raw: Step 1 Talk to the Iron Pioneer Captain (19,51). Step 2 Defeat 40 Fire Barfts . Step 3 Report back to the Iron Pioneer Captain.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fire-barft-killing.yaml
       origin_url: https://angels.wikidot.com/quest:fire-barft-killing
@@ -7419,6 +7100,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thorn-wasteland-magic-feather-clothes
   name: Magic Feather Clothes
   region: aurora
@@ -7460,6 +7142,7 @@ quests:
     reward_raw: Exp. Credit Gold 1300 50 - Items -
     walkthrough_raw: Step 1 Talk to the Iron Pioneer Captain (19,51). Step 2 Defeat Fire Barfts until you obtain 10 Barft's Coats. Step 3 Report back to the Captain.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_magic-feather-clothes.yaml
       origin_url: https://angels.wikidot.com/quest:magic-feather-clothes
@@ -7509,6 +7192,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thorn-wasteland-fight-against-savage-dogface
   name: Fight Against Savage Dogface
   region: aurora
@@ -7550,6 +7234,7 @@ quests:
     reward_raw: Exp. Credit Gold 1150 47 - Items -
     walkthrough_raw: Step 1 Talk to Mammonist Joan (161,82). Step 2 Defeat 40 Savage Dogface . Step 3 Report back to Joan.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fight-against-savage-dogface.yaml
       origin_url: https://angels.wikidot.com/quest:fight-against-savage-dogface
@@ -7597,6 +7282,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thorn-wasteland-reseize-joan-s-brand-handbag
   name: Reseize Joan's Brand Handbag
   region: aurora
@@ -7640,6 +7326,7 @@ quests:
 
       Step 3 Give the bags to Joan.'
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_reseize-joan-s-brand-handbag.yaml
       origin_url: https://angels.wikidot.com/quest:reseize-joan-s-brand-handbag
@@ -7689,6 +7376,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thorn-wasteland-hunting-activity
   name: Hunting Activity
   region: aurora
@@ -7737,6 +7425,7 @@ quests:
       Angels and collect 10 Degenerate Angel's Feathers. Step 5 In Thunder Ruins defeat Burning Monsters and collect 10 Fire Demon's Spears. Step 6 Return to Thorn Wasteland . Step 7 Meet up with Crazy
       Steve and show him your items.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_hunting-activity.yaml
       origin_url: https://angels.wikidot.com/quest:hunting-activity
@@ -7805,6 +7494,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thunder-ruins-death-god-hook
   name: Death God Hook
   region: aurora
@@ -7846,6 +7536,7 @@ quests:
     reward_raw: Exp. Credit Gold 1300 50 - Items -
     walkthrough_raw: Step 1 Talk to the Tearless Azrael (38,10). Step 2 Defeat Guilt Azrael until you obtain 10 Death God Hooks. Step 3 Take them back to the Tearless Azrael.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_death-god-hook.yaml
       origin_url: https://angels.wikidot.com/quest:death-god-hook
@@ -7880,6 +7571,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thunder-ruins-kill-purgatorial-azrael
   name: Kill Purgatorial Azrael
   region: aurora
@@ -7921,6 +7613,7 @@ quests:
     reward_raw: Exp. Credit Gold 1300 50 - Items -
     walkthrough_raw: Step 1 Talk to the Tearless Azrael (38,10). Step 2 Defeat 40 Guilt Azrael . Step 3 Report back to the Tearless Azrael.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_kill-purgatorial-azrael.yaml
       origin_url: https://angels.wikidot.com/quest:kill-purgatorial-azrael
@@ -7955,6 +7648,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thunder-ruins-re-education
   name: Re-education
   region: aurora
@@ -7996,6 +7690,7 @@ quests:
     reward_raw: Exp. Credit Gold 1150 47 - Items -
     walkthrough_raw: Step 1 Speak with Angel Pickets (280,9). Step 2 Defeat 40 Fallen Angels . Step 3 Report back to Angel Pickets.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_re-education.yaml
       origin_url: https://angels.wikidot.com/quest:re-education
@@ -8030,6 +7725,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thunder-ruins-non-campus-teaching
   name: non-campus teaching
   region: aurora
@@ -8071,6 +7767,7 @@ quests:
     reward_raw: Exp. Credit Gold 1210 48 - Items -
     walkthrough_raw: Step 1 Speak with Angel Pickets (280,9). Step 2 Defeat 40 Burning Monsters . Step 3 Report back to Angel Pickets.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_non-campus-teaching.yaml
       origin_url: https://angels.wikidot.com/quest:non-campus-teaching
@@ -8105,6 +7802,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 - id: thunder-ruins-top-grocery-competition
   name: Top Grocery Competition
   region: aurora
@@ -8153,6 +7851,7 @@ quests:
     walkthrough_raw: Step 1 Talk to the Gambler (). Step 2 Defeat Fallen Angels until you obtain the 13 Angel Cards Set. Step 3 Defeat Burning Monsters until you obtain the 13 Demon Cards Set. Step 4 Defeat
       Guilt Azrael until you obtain the 13 Azrael Cards Set. Step 5 Return to the Gambler and play the game. You may win big or gain nothing at all.
     walkthrough_steps: []
+    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_top-grocery-competition.yaml
       origin_url: https://angels.wikidot.com/quest:top-grocery-competition
@@ -8187,6 +7886,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
+    gap_corroboration_present: false
 supplemental_historical_quest_pages:
 - title_raw: Aurora Evil Student Union Leader
   summary_raw: Deafeat the boss, Asmodeus .
@@ -8387,3 +8087,6 @@ supplemental_period_guide_blocks:
     archive_timestamp: null
     source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
     authority_role: secondary_historical_walkthrough
+sanitization:
+  policy: Exact area quest-link text or exact page-title joins only; same-area canonical joins only; template placeholders removed.
+  gap_corroboration_file: data/quests/research/gap-corroboration.yaml

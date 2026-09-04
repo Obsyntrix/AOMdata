@@ -13,81 +13,99 @@ regions:
     with_historical_dedicated_page: 77
     with_period_guide_match: 41
     with_current_client_match: 18
-    walkthrough_historical_dedicated: 64
+    with_gap_corroboration: 0
+    walkthrough_historical_dedicated: 63
     walkthrough_period_guide: 1
-    walkthrough_existing_canonical: 12
+    walkthrough_existing_canonical: 13
     walkthrough_area_minimal: 0
+    walkthrough_gap_corroboration: 0
     walkthrough_missing: 0
-    supplemental_historical_pages: 5
-    supplemental_period_guide_blocks: 6
   breeze:
     area_table_quest_records: 78
-    with_historical_dedicated_page: 78
+    with_historical_dedicated_page: 72
     with_period_guide_match: 39
     with_current_client_match: 47
-    walkthrough_historical_dedicated: 48
-    walkthrough_period_guide: 7
+    with_gap_corroboration: 0
+    walkthrough_historical_dedicated: 46
+    walkthrough_period_guide: 9
     walkthrough_existing_canonical: 18
     walkthrough_area_minimal: 5
+    walkthrough_gap_corroboration: 0
     walkthrough_missing: 0
-    supplemental_historical_pages: 13
-    supplemental_period_guide_blocks: 10
   steel:
     area_table_quest_records: 78
-    with_historical_dedicated_page: 62
+    with_historical_dedicated_page: 55
     with_period_guide_match: 40
     with_current_client_match: 58
-    walkthrough_historical_dedicated: 57
-    walkthrough_period_guide: 2
+    with_gap_corroboration: 0
+    walkthrough_historical_dedicated: 52
+    walkthrough_period_guide: 3
     walkthrough_existing_canonical: 18
-    walkthrough_area_minimal: 1
+    walkthrough_area_minimal: 5
+    walkthrough_gap_corroboration: 0
     walkthrough_missing: 0
-    supplemental_historical_pages: 13
-    supplemental_period_guide_blocks: 6
   dark:
     area_table_quest_records: 82
-    with_historical_dedicated_page: 82
+    with_historical_dedicated_page: 81
     with_period_guide_match: 46
     with_current_client_match: 29
-    walkthrough_historical_dedicated: 63
-    walkthrough_period_guide: 0
-    walkthrough_existing_canonical: 1
-    walkthrough_area_minimal: 18
-    walkthrough_missing: 0
-    supplemental_historical_pages: 6
-    supplemental_period_guide_blocks: 5
-  dungeon:
-    area_table_quest_records: 25
-    with_historical_dedicated_page: 24
-    with_period_guide_match: 18
-    with_current_client_match: 16
-    walkthrough_historical_dedicated: 21
+    with_gap_corroboration: 0
+    walkthrough_historical_dedicated: 62
     walkthrough_period_guide: 1
     walkthrough_existing_canonical: 0
+    walkthrough_area_minimal: 19
+    walkthrough_gap_corroboration: 0
+    walkthrough_missing: 0
+  dungeon:
+    area_table_quest_records: 25
+    with_historical_dedicated_page: 23
+    with_period_guide_match: 18
+    with_current_client_match: 16
+    with_gap_corroboration: 1
+    walkthrough_historical_dedicated: 19
+    walkthrough_period_guide: 3
+    walkthrough_existing_canonical: 0
     walkthrough_area_minimal: 2
-    walkthrough_missing: 1
-    supplemental_historical_pages: 8
-    supplemental_period_guide_blocks: 27
+    walkthrough_gap_corroboration: 1
+    walkthrough_missing: 0
   atlantis:
-    area_table_quest_records: 36
-    with_historical_dedicated_page: 35
+    area_table_quest_records: 32
+    with_historical_dedicated_page: 28
     with_period_guide_match: 8
     with_current_client_match: 10
-    walkthrough_historical_dedicated: 20
-    walkthrough_period_guide: 5
+    with_gap_corroboration: 1
+    walkthrough_historical_dedicated: 17
+    walkthrough_period_guide: 6
     walkthrough_existing_canonical: 0
-    walkthrough_area_minimal: 6
-    walkthrough_missing: 5
-    supplemental_historical_pages: 4
-    supplemental_period_guide_blocks: 68
+    walkthrough_area_minimal: 8
+    walkthrough_gap_corroboration: 1
+    walkthrough_missing: 0
 totals:
-  area_table_quest_records: 376
-  historical_dedicated_walkthroughs_selected: 273
-  period_guide_walkthroughs_selected: 16
-  area_minimal_walkthroughs_selected: 32
-  yaml_parse_errors: 0
+  area_table_quest_records: 372
+  walkthrough_missing: 0
+  walkthrough_area_minimal: 39
+  gap_corroborated_walkthroughs: 2
+  removed_template_rows: 4
 yaml_parse_errors: []
 notes:
 - The catalog is a reconciliation/query layer, not permission to erase contradictory source observations.
 - A quest can appear in both an area table and a cross-area/faction series. Supplemental pages preserve those relationships until canonical series reconciliation is complete.
 - Current Booklet evidence never becomes historical truth solely because its structure is cleaner.
+sanitization:
+  applied: true
+  removed_template_rows:
+  - region: atlantis
+    area_id: coral-vale
+    name: Quest Name
+  - region: atlantis
+    area_id: horrible-lost-region
+    name: Quest Name
+  - region: atlantis
+    area_id: quiet-ocean
+    name: Quest Name
+  - region: atlantis
+    area_id: raging-reefs
+    name: Quest Name
+  historical_join_policy: exact area quest-link text or exact dedicated-page title
+  canonical_join_policy: same-area only for area records
+  gap_corroboration_file: data/quests/research/gap-corroboration.yaml
