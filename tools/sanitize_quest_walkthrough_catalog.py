@@ -40,9 +40,22 @@ def dump(path: Path, value: object) -> None:
 
 
 def norm(value: object) -> str:
+    """Loose identity used for area-row/link joins where sequence suffixes are metadata."""
     text = str(value or "").casefold().replace("’", "'").replace("&", " and ")
     text = re.sub(r"\b\d+\s+of\s+\d+\b", " ", text)
     text = re.sub(r"\b(?:part|step)\s*\d+\b", " ", text)
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def sequence_norm(value: object) -> str:
+    """Strict title identity. Convert equivalent sequence syntax instead of discarding it.
+
+    `Break Seal 3 of 4` and `Break Seal Part 3` become the same key; Part 2 stays distinct.
+    """
+    text = str(value or "").casefold().replace("’", "'").replace("&", " and ")
+    text = re.sub(r"\b(\d+)\s+of\s+\d+\b", r" part \1 ", text)
+    text = re.sub(r"\bstep\s+(\d+)\b", r" part \1 ", text)
     text = re.sub(r"[^a-z0-9]+", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -97,7 +110,7 @@ def load_historical_pages() -> tuple[dict[str, dict], dict[str, list[dict]]]:
         doc["_path"] = str(path.relative_to(ROOT))
         page_id = str(doc.get("page_id") or path.stem)
         by_id[page_id] = doc
-        title_key = norm(doc.get("title_raw"))
+        title_key = sequence_norm(doc.get("title_raw"))
         if title_key and title_key != "angels online wiki":
             by_title[title_key].append(doc)
     return by_id, by_title
@@ -138,12 +151,13 @@ def safe_historical_matches(*, area_id: str, quest_name: str, area_rows: dict, b
             matches.append(historical_page_payload(page, "exact_area_quest_link_text"))
             seen_paths.add(path)
 
-    # Fallback only when the dedicated page's own title exactly names this quest. Archived
-    # pages whose H1 collapsed to "Angels Online Wiki" cannot qualify through this route.
-    for page in by_title.get(qkey, []):
+    # Fallback only when sequence-aware titles match. This prevents `Break Seal 3 of 4`
+    # from inheriting `Break Seal Part 2` merely because both share a base title.
+    strict_key = sequence_norm(quest_name)
+    for page in by_title.get(strict_key, []):
         path = str(page.get("_path"))
         if path not in seen_paths:
-            matches.append(historical_page_payload(page, "exact_dedicated_page_title"))
+            matches.append(historical_page_payload(page, "exact_sequence_aware_page_title"))
             seen_paths.add(path)
     return matches
 
@@ -183,8 +197,6 @@ def choose_walkthrough(q: dict, historical: list[dict], canonical: list[dict], g
         if steps:
             return {"source_class": "historical_dedicated_quest_page", "steps": steps}
 
-    # Period guides were already matched conservatively by region/title or a high-threshold
-    # fuzzy title matcher. Keep them ahead of hand-curated/area fallback evidence.
     for guide in q.get("period_guide_matches", []) or []:
         steps = [str(x) for x in guide.get("steps_raw", []) or [] if str(x).strip()]
         if steps:
@@ -257,7 +269,7 @@ def main() -> None:
         }
         doc["counts"] = counts
         doc["sanitization"] = {
-            "policy": "Exact area quest-link text or exact page-title joins only; same-area canonical joins only; template placeholders removed.",
+            "policy": "Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.",
             "gap_corroboration_file": str(GAPS.relative_to(ROOT)),
         }
         region_counts[region] = counts
@@ -267,7 +279,7 @@ def main() -> None:
     manifest["sanitization"] = {
         "applied": True,
         "removed_template_rows": removed_templates,
-        "historical_join_policy": "exact area quest-link text or exact dedicated-page title",
+        "historical_join_policy": "exact area quest-link text or sequence-aware exact dedicated-page title",
         "canonical_join_policy": "same-area only for area records",
         "gap_corroboration_file": str(GAPS.relative_to(ROOT)),
     }
