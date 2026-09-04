@@ -1,0 +1,101 @@
+schema_version: 1
+dataset: quest_gap_corroboration
+purpose: Preserve cross-version evidence used to close walkthrough gaps where the historical English Angels Wiki is incomplete.
+authority_policy:
+  historical_english_angels_wiki: primary_when_complete
+  historical_japanese_angellove_wiki: cross_region_historical_corroboration
+  current_booklet_client_database: current_client_corroboration_only
+  aomega_target_client: final_verification_pending
+quests:
+  - id: underground-square-scattered-will
+    name: Scattered Will
+    region: dungeon
+    area: Underground Square
+    historical_english_evidence:
+      source_url: https://angels.wikidot.com/area:underground-square
+      npc: Purified Moppet
+      npc_coordinates: [39, 19]
+      requirements_raw: lvl 75 - ?
+      rewards:
+        experience: 2200
+        credit: 65
+      walkthrough_detail_status: missing_on_english_page
+    historical_japanese_corroboration:
+      source_url: https://wikiwiki.jp/angellove/QUEST/%E8%AC%8E%E3%81%AE%E5%9F%8E
+      section: 地底遺跡 / 浄化された人形
+      quest_title_raw: 意志
+      npc_translation: Purified Moppet
+      requirements:
+        level_min: 75
+        repeatable: true
+      rewards:
+        experience: 2200
+        credit: 65
+      objectives:
+        - type: kill
+          target_raw: フレイムドール
+          target_english: Flame Doll
+          count: 40
+      identity_basis:
+        - Same quest-area NPC role as the English Underground Square page: Purified Moppet.
+        - Exact reward match: 2200 EXP and 65 Credit.
+        - Same level/repeatable bracket.
+      confidence: high_cross_version_match
+    recovered_walkthrough:
+      source_class: historical_japanese_corroboration
+      steps:
+        - Speak with Purified Moppet at (39,19) in Underground Square.
+        - Defeat 40 Flame Dolls.
+        - Return to Purified Moppet to complete the repeatable quest.
+      caveat: The English area page does not preserve the objective; the 40-Flame-Doll objective is supplied by the historical Japanese AngelLoveOnline wiki and remains pending AOmega target-client confirmation.
+
+  - id: dream-ocean-mermaid-s-tears
+    name: Mermaid's Tears
+    region: atlantis
+    area: Dream Ocean
+    historical_english_evidence:
+      source_url: https://angels.wikidot.com/area:dream-ocean
+      npc: Crybaby Shin
+      npc_coordinates: null
+      page_state: template_incomplete
+      quest_name_present: true
+    historical_japanese_corroboration:
+      source_url: https://wikiwiki.jp/angellove/QUEST/%E7%A7%98%E6%B5%B7
+      section: 幻惑の海 / セン
+      quest_title_raw: 人魚の涙
+      requirements:
+        level_min: 80
+        repeatable: true
+      rewards:
+        experience: 3650
+        credit: 77
+      objectives:
+        - type: collect_or_break
+          target_raw: ジャグマーメイドの水瓶
+          target_english: Bottle/Jug Mermaid bottle
+          count: 30
+      confidence: high_cross_version_match
+    current_client_corroboration:
+      source_url: https://aog.dvg.cn/quest_info.php?id=752&lang=eng
+      quest_id: 752
+      type: repeatable
+      level_min: 80
+      level_max: 85
+      giver: Crybaby Shin
+      giver_coordinates: [126, 154]
+      rewards:
+        experience: 3650
+        credit: 77
+      objective_coordinates: [250, 96]
+      flow:
+        - Break/collect 30 bottles from Bottle Mermaid-type enemies in Dream Ocean.
+        - Return to Crybaby Shin at (126,154).
+        - Speak with Crybaby Shin again to finish.
+    recovered_walkthrough:
+      source_class: historical_japanese_plus_current_client_corroboration
+      steps:
+        - At level 80-85, speak with Crybaby Shin at (126,154) in Dream Ocean.
+        - Go to the Bottle/Jug Mermaid area around (250,96) and obtain/break 30 mermaid bottles.
+        - Return to Crybaby Shin at (126,154).
+        - Speak with Crybaby Shin again to complete the repeatable quest.
+      caveat: The historical English Dream Ocean page is unfinished. Objective/reward details are independently corroborated by the historical Japanese wiki and current client database; coordinates are current-client evidence pending AOmega target-client confirmation.
