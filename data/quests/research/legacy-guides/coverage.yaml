@@ -1,0 +1,101 @@
+schema_version: 1
+dataset: legacy_quest_guide_coverage
+counts:
+  guides_expected: 17
+  guides_captured: 17
+  guides_missing: 0
+  candidate_quest_blocks: 315
+per_region:
+  aurora:
+    guides_captured: 1
+    candidate_quest_blocks: 47
+  breeze:
+    guides_captured: 1
+    candidate_quest_blocks: 49
+  steel:
+    guides_captured: 1
+    candidate_quest_blocks: 46
+  dark:
+    guides_captured: 1
+    candidate_quest_blocks: 51
+  dungeon:
+    guides_captured: 7
+    candidate_quest_blocks: 46
+  atlantis:
+    guides_captured: 6
+    candidate_quest_blocks: 76
+captured:
+- region: aurora
+  guide_id: aurora-quests
+  candidate_blocks: 47
+  url: https://ao-q.blogspot.com/2012/06/aurora-quests.html
+- region: breeze
+  guide_id: beast-quests
+  candidate_blocks: 49
+  url: https://ao-q.blogspot.com/2012/07/beast-quests.html
+- region: steel
+  guide_id: steel-quests
+  candidate_blocks: 46
+  url: https://ao-q.blogspot.com/2012/06/steel-quests.html
+- region: dark
+  guide_id: shadow-quests
+  candidate_blocks: 51
+  url: https://ao-q.blogspot.com/2012/06/shadow-quests.html
+- region: dungeon
+  guide_id: dungeon-main-quest
+  candidate_blocks: 12
+  url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+- region: dungeon
+  guide_id: demons-kitchen
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+- region: dungeon
+  guide_id: chef-is-wanted
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+- region: dungeon
+  guide_id: lantern-underground
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+- region: dungeon
+  guide_id: wander-around-city
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/wander-around-city.html
+- region: dungeon
+  guide_id: clean-demons-kitchen
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+- region: dungeon
+  guide_id: visit-demons-at-night
+  candidate_blocks: 4
+  url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+- region: atlantis
+  guide_id: atlantis-main-quest
+  candidate_blocks: 43
+  url: https://ao-q.blogspot.com/2012/06/atlantis-main-quest.html
+- region: atlantis
+  guide_id: diving-training
+  candidate_blocks: 7
+  url: https://ao-q.blogspot.com/2012/07/diving-training.html
+- region: atlantis
+  guide_id: fantastic-voyage
+  candidate_blocks: 5
+  url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+- region: atlantis
+  guide_id: holiday-in-puqi-village
+  candidate_blocks: 8
+  url: https://ao-q.blogspot.com/2012/07/holiday-in-puqi-village.html
+- region: atlantis
+  guide_id: soldiers-on-sea
+  candidate_blocks: 7
+  url: https://ao-q.blogspot.com/2012/07/soldiers-on-sea.html
+- region: atlantis
+  guide_id: calm-souls-down
+  candidate_blocks: 6
+  url: https://ao-q.blogspot.com/2012/07/calm-souls-down.html
+missing: []
+retrieval_errors: []
+notes:
+- These guides are period community walkthroughs, not a replacement for original Angels Wiki pages.
+- Candidate blocks are heuristic parsing aids; body_lines_raw preserves the complete post body used for manual/automated reconciliation.
+- Coordinates and counts are retained exactly as written, including historical typos and disagreements.

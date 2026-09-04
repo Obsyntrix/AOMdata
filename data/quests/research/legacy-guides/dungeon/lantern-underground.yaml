@@ -1,0 +1,74 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: lantern-underground
+title_raw: Lantern Underground
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/lantern-underground.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: fcda96b035943dd919649db103126d63b46690b416531fe3eacfc857bf8980df
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- Deep into Earth's Core
+- 1.Talk to Jaloyd(28,179) at Sad Abyss
+- 2.Eliminate 40 Fly(77,146)
+- 3.Tell Jaloyd Silent Revenge accomplishment of the task
+- 4.Eliminate 40 Evil Grass(120,100)
+- 5.Report to Jaloyd(28,179)
+- Stride ahead
+- 1.Take Material Supply to Jamier(266,29) at Lava Cave
+- Forge ahead
+- 1.Talk to Jamier(266,29) at Lava Cave
+- 2.Defeat 40 Theurgy Master(41,147)
+- 3.Report to Jamier(266,29) and defeat 40 Evil Knight(40,150) at Flaming Door
+- 4.Report to Jamier(266,29)
+- Break into Lost City
+- 1.Send Jamier's word to Shajier(26,86) at Underground Square
+- Fight against Devils
+- 1.Talk to Shajier(26,86) at Underground Square
+- 2.Defeat those enemies wandering on the square.50 Poison Flower(166,56), 30 Fire Ghost Kid and 50 Fire Fly(83,96).
+- 3.Talk completed, report to Shajier(26,86).
+- Devoted Spirit
+- 1.Talk to Scholar Hopkins(161,29) at Sayd Abyss
+- 2.Find in Fiery Path Magma Slag in the north of Chunnel(139,64),Magma Slag in the south of Chunnel(163,5)and in Lava Cave Magma Slag in the north of Cave(178,113) and Magma Slag in
+  the south of Cave(96,11).
+- 3.Talk them all to Scholar Hopkins(161,29) at Sayd Abyss
+candidate_quest_blocks:
+- title_raw: Deep into Earth's Core
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Jaloyd(28,179) at Sad Abyss
+  - 2.Eliminate 40 Fly(77,146)
+  - 3.Tell Jaloyd Silent Revenge accomplishment of the task
+  - 4.Eliminate 40 Evil Grass(120,100)
+  - 5.Report to Jaloyd(28,179)
+- title_raw: Stride ahead
+  section_raw: null
+  steps_raw:
+  - 1.Take Material Supply to Jamier(266,29) at Lava Cave
+- title_raw: Forge ahead
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Jamier(266,29) at Lava Cave
+  - 2.Defeat 40 Theurgy Master(41,147)
+  - 3.Report to Jamier(266,29) and defeat 40 Evil Knight(40,150) at Flaming Door
+  - 4.Report to Jamier(266,29)
+- title_raw: Break into Lost City
+  section_raw: null
+  steps_raw:
+  - 1.Send Jamier's word to Shajier(26,86) at Underground Square
+- title_raw: Fight against Devils
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Shajier(26,86) at Underground Square
+  - 2.Defeat those enemies wandering on the square.50 Poison Flower(166,56), 30 Fire Ghost Kid and 50 Fire Fly(83,96).
+  - 3.Talk completed, report to Shajier(26,86).
+- title_raw: Devoted Spirit
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Scholar Hopkins(161,29) at Sayd Abyss
+  - 2.Find in Fiery Path Magma Slag in the north of Chunnel(139,64),Magma Slag in the south of Chunnel(163,5)and in Lava Cave Magma Slag in the north of Cave(178,113) and Magma Slag
+    in the south of Cave(96,11).
+  - 3.Talk them all to Scholar Hopkins(161,29) at Sayd Abyss

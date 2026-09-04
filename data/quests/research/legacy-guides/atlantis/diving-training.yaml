@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: atlantis
+guide_id: diving-training
+title_raw: Diving Training
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/diving-training.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: 2467f70ef0262cbd5d41aa0aebbb59209b5ce90a2e58a792f1c8d301b6a92bf3
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- Go to the Sea
+- 1.Talk to Assoc. Captain in fraction Main City
+- 2.Find 15 Flame Jade from Hell Slave(175,126) at Sad Abyss
+- 3.Retun the main city of fraction and report to Assoc.Captain
+- 4.Go to Cherry Village in northwest beach of Garden of Eden and then go to Puqi Island by boat.Talk to Puqi Shipper(25,81)
+- Report to Angel on Puqi Island
+- 1.Go to Palm Base and talk to Puqi Village Angel(144,87)
+- 2.Visit Trade Director(92,119) in Palm Base
+- 3.Visit Science Director(231,30) in Palm Base
+- 4.Visit Prod. Director(107,55) in Palm Base
+- 5.Visit Banking Director in Palm Base
+- 6.Fimiliar with the environment, return to Puqi Village Angel(144,87)
+- Test
+- 1.Tell Trainer Noya(53,103) that you want to join Exploration Team
+- 2. Kill 50 Color Whelk(234,75) at Golden Beach
+- 3.Retun to Palm Base and report to Trainer Noya(53,103)
+- 'Goal: Get Skin Dive Licence'
+- 1.Go to Golden Beach to learn from Diving Coach Nira(233,43)
+- 2.Defeat Puqi Pirate(227,63) at Shining Coast and get back 20
+- Diving Equipment for Nira
+- 3.Tell Diving Coach Nira(233,43) that task was completed
+- 4.Return Palm Base, show Trainer Noya(53,103) your effort and petition to join Exploration Team.
+- Blockade under the sea
+- 1.Dive to seabed and find Explorer Binch(229,178) in Wave Harbor
+- 2.Defeat various 35 Jellyfish(219,184) in wave Harbor
+- 3.Tell Explorer Binch(229,178) task was completed
+- 4.Defeat Scale Fish(90,225) in Wave Harbor
+- 5.Tell Explorer Binch(229,178) task was completed
+- 6.Prepare to go to blue water. Learn higher diving technique from Diving Coach Nira(233,43) at Golden Beach
+- Goal:Get Scuba Dive Licence
+- 1.Go to Blue Sea to learn from Dipsey Hunter(125,38)
+- 2.Defeat Angel Fish(48,23) to get 15 Angel Fish Fin.
+- 3.Give Angel Fish Fin to Dipsey Hunter(125,38)
+candidate_quest_blocks:
+- title_raw: Go to the Sea
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Assoc. Captain in fraction Main City
+  - 2.Find 15 Flame Jade from Hell Slave(175,126) at Sad Abyss
+  - 3.Retun the main city of fraction and report to Assoc.Captain
+  - 4.Go to Cherry Village in northwest beach of Garden of Eden and then go to Puqi Island by boat.Talk to Puqi Shipper(25,81)
+- title_raw: Report to Angel on Puqi Island
+  section_raw: null
+  steps_raw:
+  - 1.Go to Palm Base and talk to Puqi Village Angel(144,87)
+  - 2.Visit Trade Director(92,119) in Palm Base
+  - 3.Visit Science Director(231,30) in Palm Base
+  - 4.Visit Prod. Director(107,55) in Palm Base
+  - 5.Visit Banking Director in Palm Base
+  - 6.Fimiliar with the environment, return to Puqi Village Angel(144,87)
+- title_raw: Test
+  section_raw: null
+  steps_raw:
+  - 1.Tell Trainer Noya(53,103) that you want to join Exploration Team
+  - 2. Kill 50 Color Whelk(234,75) at Golden Beach
+  - 3.Retun to Palm Base and report to Trainer Noya(53,103)
+- title_raw: 'Goal: Get Skin Dive Licence'
+  section_raw: null
+  steps_raw:
+  - 1.Go to Golden Beach to learn from Diving Coach Nira(233,43)
+  - 2.Defeat Puqi Pirate(227,63) at Shining Coast and get back 20
+- title_raw: Diving Equipment for Nira
+  section_raw: null
+  steps_raw:
+  - 3.Tell Diving Coach Nira(233,43) that task was completed
+  - 4.Return Palm Base, show Trainer Noya(53,103) your effort and petition to join Exploration Team.
+- title_raw: Blockade under the sea
+  section_raw: null
+  steps_raw:
+  - 1.Dive to seabed and find Explorer Binch(229,178) in Wave Harbor
+  - 2.Defeat various 35 Jellyfish(219,184) in wave Harbor
+  - 3.Tell Explorer Binch(229,178) task was completed
+  - 4.Defeat Scale Fish(90,225) in Wave Harbor
+  - 5.Tell Explorer Binch(229,178) task was completed
+  - 6.Prepare to go to blue water. Learn higher diving technique from Diving Coach Nira(233,43) at Golden Beach
+- title_raw: Goal:Get Scuba Dive Licence
+  section_raw: null
+  steps_raw:
+  - 1.Go to Blue Sea to learn from Dipsey Hunter(125,38)
+  - 2.Defeat Angel Fish(48,23) to get 15 Angel Fish Fin.
+  - 3.Give Angel Fish Fin to Dipsey Hunter(125,38)

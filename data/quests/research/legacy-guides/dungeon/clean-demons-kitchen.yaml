@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: clean-demons-kitchen
+title_raw: Clean the Demon’s Kitchen
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/clean-demons-kitchen.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: 30e096644ec958ac2f8768f649d00196daf42aacf59f444ec5a659b70128b885
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- Trick
+- 1.Talk to Trouble Student9271,133) at Lava Cave
+- 2.Destroyed 5 Kitchenware(309,15),(294,156),(383,188),(257,49) and (117,58) at Magic Kitchen Path
+- 3.Tell Trouble Student that task has been completed
+- Fight for right and friendship
+- 1.Talk to Warrior Athor(161,93) at Sad Abyss
+- 2.Defeat Rock God Mendun(213,148) at Magic Kitchen Path
+- 3.Tell Warrior Athor(161,93) at Sad Abyss that Mendun has been defeated.
+- Killing Rat's Leader
+- 1.Talk to Hunter Shinge(30,20) at Fiery Path.
+- 2.Defeat Rat Mosil(240,45) at Magic Kitchen Path
+- 3.Return to Hunter Shinge(30,20) at Fiery Path.
+- Ruthless Cook
+- 1.Talk to Aimless Harless(257,49) at Say Abyss
+- 2.Defeat servants in Magic Kitchen Path:40 Hell Slave and 30 Rotten Seeker. Both Hell Slave and Rotten Seeker available in Room 2,3 and 4.
+- 3.Tell Aimless Harless(257,49) at Say Abyss how you did it.
+- Searching for Lost Receipe
+- 1.Talk to Cook Betty(152,19) at Fiery Path.
+- 2.Defeat Soul Slalin(312,181) in Magic Kitchen Path and find out the First Half Volume of Cookbook.
+- 3.Defeat Earl Makice in Gulp Room, and find out the Second Half Volume of Cookbook.Click Statue(348,183) until Earl Makice appear
+- 4.Give the Cookbook to Betty(152,19) at Fiery Path.
+- Topic:Pest Control
+- 1.Talk to Heavently Officer(69,32) at Flaming Door
+- '2.Destroy flies in Magic Kitchen Path: 30 Hungry Fly. 20 Evil Fly, 30 Flame Fly then report to Heavently Officer(69,32) at Flaming Door'
+- 3.Get 30 Egg Sample from Gold Fly(60,117) in Gulp Room
+- 4.Get Reward from Heavently Officer(69,32) at Flaming Door
+candidate_quest_blocks:
+- title_raw: Trick
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Trouble Student9271,133) at Lava Cave
+  - 2.Destroyed 5 Kitchenware(309,15),(294,156),(383,188),(257,49) and (117,58) at Magic Kitchen Path
+  - 3.Tell Trouble Student that task has been completed
+- title_raw: Fight for right and friendship
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Warrior Athor(161,93) at Sad Abyss
+  - 2.Defeat Rock God Mendun(213,148) at Magic Kitchen Path
+  - 3.Tell Warrior Athor(161,93) at Sad Abyss that Mendun has been defeated.
+- title_raw: Killing Rat's Leader
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Hunter Shinge(30,20) at Fiery Path.
+  - 2.Defeat Rat Mosil(240,45) at Magic Kitchen Path
+  - 3.Return to Hunter Shinge(30,20) at Fiery Path.
+- title_raw: Ruthless Cook
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Aimless Harless(257,49) at Say Abyss
+  - 2.Defeat servants in Magic Kitchen Path:40 Hell Slave and 30 Rotten Seeker. Both Hell Slave and Rotten Seeker available in Room 2,3 and 4.
+  - 3.Tell Aimless Harless(257,49) at Say Abyss how you did it.
+- title_raw: Searching for Lost Receipe
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Cook Betty(152,19) at Fiery Path.
+  - 2.Defeat Soul Slalin(312,181) in Magic Kitchen Path and find out the First Half Volume of Cookbook.
+  - 3.Defeat Earl Makice in Gulp Room, and find out the Second Half Volume of Cookbook.Click Statue(348,183) until Earl Makice appear
+  - 4.Give the Cookbook to Betty(152,19) at Fiery Path.
+- title_raw: Topic:Pest Control
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Heavently Officer(69,32) at Flaming Door
+  - '2.Destroy flies in Magic Kitchen Path: 30 Hungry Fly. 20 Evil Fly, 30 Flame Fly then report to Heavently Officer(69,32) at Flaming Door'
+  - 3.Get 30 Egg Sample from Gold Fly(60,117) in Gulp Room
+  - 4.Get Reward from Heavently Officer(69,32) at Flaming Door

@@ -1,0 +1,62 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: visit-demons-at-night
+title_raw: Visit Demons at Night
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/visit-demons-at-night.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: 3daf566c65a90567f510ac02fab398886209b1151d5f9745918e66f28c3947ae
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- Topic:Pollution Control
+- 1.Talk to Heavently Officer(69,32) at Flaming Door
+- 2.Kill 60 Soul-eating Worm divided from Soul Slalin in Magic Kitchen Path
+- 3.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+- 4.Kill 5 Elite SoulEater in Gulp Room
+- 5.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+- Rare Specimen Making
+- 1.Talk to Vilo 3(298,25) at Flaming Door.
+- 2.Fetch 20 Beetle Bone(131,123) at Gulp Room to Vilo 3 to make sample. See Vilo 3(298,25) before 30 minute to convert Beetle Bone to Beetle Sample.
+- 2. Give to Vilo 3(298,25) at Flaming Door
+- Virulent Hatred
+- 1.Talk to silent Revenge(7,131) at Underground Square
+- '2.Destroy Revenge''s target: Lion Dragon at monument(19,12) and Evil Eye(14,143) at Gulp Room.'
+- 3.Talk to silent Revenge(7,131) at Underground Square
+- Last Survivor
+- 1.Go monument (283,273) and enter.
+- 2.Follow the ghost until find exit ghost
+- 3.Talk to Hank(30,139)
+- 4.Reseize tthe 3 Test Tibes Hank lost Dark Elite, Elite Fire Mummy and Bloody Demon.
+- 5.Talk to Hank(30,139) and Reseize the Culture Vessel grabbed by Demon Kidace.
+candidate_quest_blocks:
+- title_raw: Topic:Pollution Control
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Heavently Officer(69,32) at Flaming Door
+  - 2.Kill 60 Soul-eating Worm divided from Soul Slalin in Magic Kitchen Path
+  - 3.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+  - 4.Kill 5 Elite SoulEater in Gulp Room
+  - 5.Report accomplishment of the task to Heavently Officer(69,32) at Flaming Door
+- title_raw: Rare Specimen Making
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Vilo 3(298,25) at Flaming Door.
+  - 2.Fetch 20 Beetle Bone(131,123) at Gulp Room to Vilo 3 to make sample. See Vilo 3(298,25) before 30 minute to convert Beetle Bone to Beetle Sample.
+  - 2. Give to Vilo 3(298,25) at Flaming Door
+- title_raw: Virulent Hatred
+  section_raw: null
+  steps_raw:
+  - 1.Talk to silent Revenge(7,131) at Underground Square
+  - '2.Destroy Revenge''s target: Lion Dragon at monument(19,12) and Evil Eye(14,143) at Gulp Room.'
+  - 3.Talk to silent Revenge(7,131) at Underground Square
+- title_raw: Last Survivor
+  section_raw: null
+  steps_raw:
+  - 1.Go monument (283,273) and enter.
+  - 2.Follow the ghost until find exit ghost
+  - 3.Talk to Hank(30,139)
+  - 4.Reseize tthe 3 Test Tibes Hank lost Dark Elite, Elite Fire Mummy and Bloody Demon.
+  - 5.Talk to Hank(30,139) and Reseize the Culture Vessel grabbed by Demon Kidace.

@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: demons-kitchen
+title_raw: Demon’s Kitchen
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/demons-kitchen.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: fb0babfffede9e70facb72c2a74ded603a152ede65ce35fdef708a36b9d91386
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- New Scheme of Evil Lyceum
+- 1. Talk to Faction Angel such as Breeze Wood Angel (324,96)
+- 2. Talk to Angel Inspector(47,157) at Megalith Plain
+- Investigate Evil Food
+- 1. Find someone suffering food poisoning in Iron Castle-Machel (332,52)
+- 2. Find someone suffering food poisoning in Dark City-Romier (209,173)
+- 3. Find someone suffering food poisoning in Breeze Woods-Michael(100,165)
+- 4. Find someone suffering food poisoning in Aurora City-Nemize(284,206)
+- 5. Report to Angel Inspector(47,157) at Megalith Plain
+- Food Material Collection
+- 1. Talk to Angel Inspector(47,157) at Megalith Plain
+- 2. Find Chef Boshid (159,17) at Dragon Graveyard and talk to him
+- 3. Find 5 Poisonous Mashed Apple, 5 Smoky Pitch, 10 Excitement Drop, 10 Rotten Beast Meat with kill Cirtus Tyrant(227,106)at South of Mirror Lake, Tree Elf(54,114) at Mysterious Wetland,
+  Water Goblin (287,63) at North of Mirror Lake and Savage Dogface (71,14) at Thorn Wasteland
+- 4.Talk to Chef Boshid (159,17) at Dragon Graveyard again
+- Exposed Plot
+- 1. Talk to Angel Inspector(47,157)at Megalith Plain
+- 2. Take the strange dishes to Healing Lecturer(94,106) at Angel Lyceum for assay
+- Treatment for Food Poisoning
+- 1. Collect antidote and material for 3 Healing Lecturer Evil Bolus, 5 Shrub Bark, 5 Nature Prime and 1 Pure Fire Crystal with kill Hook Barft (21,139) at Dragon Draveyard, Savege Priest(247,56)
+  at Thorn Wasteland, Marsh Wind Fairy(47,12) at Mysterious Wetland and Burning Monster (238,161) at Thunder Ruin.
+- 2. Talk to Healing Lecturer(94,106) at Angel Lyceum
+- 3. Talk to Angel Inspector(47,157) at Megalith Plain
+- Learning from Chef Boship
+- 1. Talk to Chef Boshid (159,17) at Dragon Graveyard
+- 2. Find Mayloe (110,108) at Fiery Path
+candidate_quest_blocks:
+- title_raw: New Scheme of Evil Lyceum
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Faction Angel such as Breeze Wood Angel (324,96)
+  - 2. Talk to Angel Inspector(47,157) at Megalith Plain
+- title_raw: Investigate Evil Food
+  section_raw: null
+  steps_raw:
+  - 1. Find someone suffering food poisoning in Iron Castle-Machel (332,52)
+  - 2. Find someone suffering food poisoning in Dark City-Romier (209,173)
+  - 3. Find someone suffering food poisoning in Breeze Woods-Michael(100,165)
+  - 4. Find someone suffering food poisoning in Aurora City-Nemize(284,206)
+  - 5. Report to Angel Inspector(47,157) at Megalith Plain
+- title_raw: Food Material Collection
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Angel Inspector(47,157) at Megalith Plain
+  - 2. Find Chef Boshid (159,17) at Dragon Graveyard and talk to him
+  - 3. Find 5 Poisonous Mashed Apple, 5 Smoky Pitch, 10 Excitement Drop, 10 Rotten Beast Meat with kill Cirtus Tyrant(227,106)at South of Mirror Lake, Tree Elf(54,114) at Mysterious
+    Wetland, Water Goblin (287,63) at North of Mirror Lake and Savage Dogface (71,14) at Thorn Wasteland
+  - 4.Talk to Chef Boshid (159,17) at Dragon Graveyard again
+- title_raw: Exposed Plot
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Angel Inspector(47,157)at Megalith Plain
+  - 2. Take the strange dishes to Healing Lecturer(94,106) at Angel Lyceum for assay
+- title_raw: Treatment for Food Poisoning
+  section_raw: null
+  steps_raw:
+  - 1. Collect antidote and material for 3 Healing Lecturer Evil Bolus, 5 Shrub Bark, 5 Nature Prime and 1 Pure Fire Crystal with kill Hook Barft (21,139) at Dragon Draveyard, Savege
+    Priest(247,56) at Thorn Wasteland, Marsh Wind Fairy(47,12) at Mysterious Wetland and Burning Monster (238,161) at Thunder Ruin.
+  - 2. Talk to Healing Lecturer(94,106) at Angel Lyceum
+  - 3. Talk to Angel Inspector(47,157) at Megalith Plain
+- title_raw: Learning from Chef Boship
+  section_raw: null
+  steps_raw:
+  - 1. Talk to Chef Boshid (159,17) at Dragon Graveyard
+  - 2. Find Mayloe (110,108) at Fiery Path

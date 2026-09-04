@@ -1,0 +1,84 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: atlantis
+guide_id: fantastic-voyage
+title_raw: Fantastic Voyage
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/fantastic-voyage.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: f5116830c4e9b97f870ab84dddbc7e383da94f9299fe573f78c18a47cfc26f93
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- The Puzzle of Yatiss
+- 1.Talk to Dipsey Hunter(125,38) in Blue Sea
+- 2.Dive to Blue Ocean and meet Scholar Lubo(192,171) whom Yula(Dipsey Hunter) mentioned
+- 3.Take Controller Remain to Palm Base and let Pyalu(29,34) identify it.
+- 4.Collect form 20 Fire Fly(47,41) Corrosive Acid Pickle at Hell Palace
+- 5.Take Acid Pickle to Pyalu(29,34) at Palm Base for washing the surface of the controller
+- 6.Tell Scholar Lubo(192,171) at Blue Ocean to Identifying result
+- 7.Take the Controller to Controller Dado(10,80) in Sunken Ruin to test it.
+- 8.No Start-up energy, Scholar Lubo(192,171) at Blue Ocean may have some idea
+- 9.Get reward from Scholar Lubo(192,171).
+- The Source of Energy Seeking
+- 1.Get 30 Squama from Winged Angel Fish(73,102) at Sunken Ruin.
+- 2.Give Squama full of energy to Scholar Lubo(192,171) at Blue Ocean
+- Unprecedented Setback(Group)
+- 1.Destroy Hicalu 1 at Lost Region. Activate and kill first robot(60,38),second robot (118,174) and Hiculu(293,170).
+- 2.Adam may have been murdered, inform Scholar Lubo(192,171) at Blue immediately
+- 3.Ask Voyage Officer(133,32) at Shining Coast to send a boat to pick up Lubo
+- Disappeared Yahabosen
+- 1.Collect wreckage of the Habosen Ship North Raging Reef(141,175),North-east Raging Reefs(289,131), Southest Raging Reef(242,12) and Southwest(44,16) Raging Reefs.
+- 2.Let Voyage Officer(133,32) at Shining Coast identify that whether Remain comes from Habosen Ship.
+- '3.Return Palm Base to buy Aid Sirup from Charge Nurse(255,54) and then go to Quiet Ocean and Coral Vale to succor: Trapped Voyager(185,33), Trapped Surveyer(173,137) and Trapped Boffin(18,28)
+  in Quiet Ocean, Trapped Scholar(12,15) and Trapped Labor(219,103) in Coral Vale.'
+- 4.Defeat 50 Evil Fish(104,104) in Quiet Ocean to make sure that succors can get to work successfully
+- 5.Defeat 40 Death Sailor(61,142) in Coral Vale to make sure that succors an get to work successfully
+- 6.Tell Voyage Officer(133,32) at Shining Coast your effort
+- Fight under the Sea
+- 1.Defeat Asharl in Evil Ship
+- 2.Defeat Mamen
+- 3.Defeat Sallens that try to Destroy Yatiss Cultural Relic in Habosen Ship
+- 4.Return to Palm Base to meet Premier Shanell(232,148) and accept praise
+candidate_quest_blocks:
+- title_raw: The Puzzle of Yatiss
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Dipsey Hunter(125,38) in Blue Sea
+  - 2.Dive to Blue Ocean and meet Scholar Lubo(192,171) whom Yula(Dipsey Hunter) mentioned
+  - 3.Take Controller Remain to Palm Base and let Pyalu(29,34) identify it.
+  - 4.Collect form 20 Fire Fly(47,41) Corrosive Acid Pickle at Hell Palace
+  - 5.Take Acid Pickle to Pyalu(29,34) at Palm Base for washing the surface of the controller
+  - 6.Tell Scholar Lubo(192,171) at Blue Ocean to Identifying result
+  - 7.Take the Controller to Controller Dado(10,80) in Sunken Ruin to test it.
+  - 8.No Start-up energy, Scholar Lubo(192,171) at Blue Ocean may have some idea
+  - 9.Get reward from Scholar Lubo(192,171).
+- title_raw: The Source of Energy Seeking
+  section_raw: null
+  steps_raw:
+  - 1.Get 30 Squama from Winged Angel Fish(73,102) at Sunken Ruin.
+  - 2.Give Squama full of energy to Scholar Lubo(192,171) at Blue Ocean
+- title_raw: Unprecedented Setback(Group)
+  section_raw: null
+  steps_raw:
+  - 1.Destroy Hicalu 1 at Lost Region. Activate and kill first robot(60,38),second robot (118,174) and Hiculu(293,170).
+  - 2.Adam may have been murdered, inform Scholar Lubo(192,171) at Blue immediately
+  - 3.Ask Voyage Officer(133,32) at Shining Coast to send a boat to pick up Lubo
+- title_raw: Disappeared Yahabosen
+  section_raw: null
+  steps_raw:
+  - 1.Collect wreckage of the Habosen Ship North Raging Reef(141,175),North-east Raging Reefs(289,131), Southest Raging Reef(242,12) and Southwest(44,16) Raging Reefs.
+  - 2.Let Voyage Officer(133,32) at Shining Coast identify that whether Remain comes from Habosen Ship.
+  - '3.Return Palm Base to buy Aid Sirup from Charge Nurse(255,54) and then go to Quiet Ocean and Coral Vale to succor: Trapped Voyager(185,33), Trapped Surveyer(173,137) and Trapped
+    Boffin(18,28) in Quiet Ocean, Trapped Scholar(12,15) and Trapped Labor(219,103) in Coral Vale.'
+  - 4.Defeat 50 Evil Fish(104,104) in Quiet Ocean to make sure that succors can get to work successfully
+  - 5.Defeat 40 Death Sailor(61,142) in Coral Vale to make sure that succors an get to work successfully
+  - 6.Tell Voyage Officer(133,32) at Shining Coast your effort
+- title_raw: Fight under the Sea
+  section_raw: null
+  steps_raw:
+  - 1.Defeat Asharl in Evil Ship
+  - 2.Defeat Mamen
+  - 3.Defeat Sallens that try to Destroy Yatiss Cultural Relic in Habosen Ship
+  - 4.Return to Palm Base to meet Premier Shanell(232,148) and accept praise

@@ -1,0 +1,80 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: chef-is-wanted
+title_raw: Chef is Wanted
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/chef-is-wanted.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: e34dd2beba661e7253d4988dd749289717a9480f9faf6c971ec2d561c59bc08d
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- The First Appetizer
+- 1. Talk with Mayloe (110,108) at Fiery Path
+- '2. Collect food material for mayole Baked: 6 Black Sugar, 6 Dirt Fungus and 6 Crazy Whey from kill Heat Elf(50,160) at Sad Abyss, Hell Slave(185,120) and Evil Grass(140,70).'
+- 3. Find the second Disciple of Beelzebub. Talk with Ugly Saladan(162,65) at Lava Cave
+- The Second Appetizer
+- 1. Talk with Ugly Saladan(162,65) at Lava Cave
+- 2. Collect food material for 9 Saladan Rotten Caudex(get from Tailor or Technician producer Skill Level 61.Collect Primrose Grass Root at Lava Cave or Flaming Door or Colorful Coral
+  Reefs or River Valley)and 9 Acid Ketchup with kill Gold Fly(120,110) at Lava Cave
+- 3.Talk with Ugly Saladan(162,65) at Lava Cave and find the first Disciple of Beezebub name Luxious Ba (117,70) at Underground Square
+- The Third Appetizer
+- 1.Talk to Luxious Ba (117,70) and Collect food material for 30 Ba Caarrion-filled Storage Bag. Defeat the Rock Slarm, the Terra Lampman, the Evil Flower, the Flame Mummy and the Fire
+  Fly and put Their edible parts into the Spell Storage Bag. Bring back the bag to Luxious Ba (117,70).The bag can buy with Luxious Ba (117,70)
+- 2.Find the Annoying Clerk(234,169) in the Lava Cave.
+- Gorily Aperitif
+- 1.Talk to Annoying Clerk(234,169) in the Lava Cave and see Healing Lecturer(94,108) in Angel Lyceum.
+- 2.Find Athlete Cliff(138,128) in North of Mirror Lake
+- 3.Give the blood to Annoying Clerk(234,169) in the Lava Cave
+- Devil's Feast (Group)
+- 1.Approach to the door of Devil kitchen Path and kill Beelzebub.
+- 2.To enter Portal(387,247),require Key keep in the chess(118,222) at Gulp Room
+- 3.Open the portal(387,247) of Devil Kitchen Path
+- 4.Defeat Beelzebub (226,146)
+- 5.Report to Angel Inspector(52,159) at Megelith Plain that Beelzebub was defeated and escaped
+- Defeating Berssif
+- 1.Talk to Angel Inspector(52,159) at Megelith Plain
+- 2.Find Beelzebub in Gulp Room and destroy him.
+- 3.Report to Angel Inspector(52,159) at Megelith Plain
+candidate_quest_blocks:
+- title_raw: The First Appetizer
+  section_raw: null
+  steps_raw:
+  - 1. Talk with Mayloe (110,108) at Fiery Path
+  - '2. Collect food material for mayole Baked: 6 Black Sugar, 6 Dirt Fungus and 6 Crazy Whey from kill Heat Elf(50,160) at Sad Abyss, Hell Slave(185,120) and Evil Grass(140,70).'
+  - 3. Find the second Disciple of Beelzebub. Talk with Ugly Saladan(162,65) at Lava Cave
+- title_raw: The Second Appetizer
+  section_raw: null
+  steps_raw:
+  - 1. Talk with Ugly Saladan(162,65) at Lava Cave
+  - 2. Collect food material for 9 Saladan Rotten Caudex(get from Tailor or Technician producer Skill Level 61.Collect Primrose Grass Root at Lava Cave or Flaming Door or Colorful Coral
+    Reefs or River Valley)and 9 Acid Ketchup with kill Gold Fly(120,110) at Lava Cave
+  - 3.Talk with Ugly Saladan(162,65) at Lava Cave and find the first Disciple of Beezebub name Luxious Ba (117,70) at Underground Square
+- title_raw: The Third Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Luxious Ba (117,70) and Collect food material for 30 Ba Caarrion-filled Storage Bag. Defeat the Rock Slarm, the Terra Lampman, the Evil Flower, the Flame Mummy and the
+    Fire Fly and put Their edible parts into the Spell Storage Bag. Bring back the bag to Luxious Ba (117,70).The bag can buy with Luxious Ba (117,70)
+  - 2.Find the Annoying Clerk(234,169) in the Lava Cave.
+- title_raw: Gorily Aperitif
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Annoying Clerk(234,169) in the Lava Cave and see Healing Lecturer(94,108) in Angel Lyceum.
+  - 2.Find Athlete Cliff(138,128) in North of Mirror Lake
+  - 3.Give the blood to Annoying Clerk(234,169) in the Lava Cave
+- title_raw: Devil's Feast (Group)
+  section_raw: null
+  steps_raw:
+  - 1.Approach to the door of Devil kitchen Path and kill Beelzebub.
+  - 2.To enter Portal(387,247),require Key keep in the chess(118,222) at Gulp Room
+  - 3.Open the portal(387,247) of Devil Kitchen Path
+  - 4.Defeat Beelzebub (226,146)
+  - 5.Report to Angel Inspector(52,159) at Megelith Plain that Beelzebub was defeated and escaped
+- title_raw: Defeating Berssif
+  section_raw: null
+  steps_raw:
+  - 1.Talk to Angel Inspector(52,159) at Megelith Plain
+  - 2.Find Beelzebub in Gulp Room and destroy him.
+  - 3.Report to Angel Inspector(52,159) at Megelith Plain

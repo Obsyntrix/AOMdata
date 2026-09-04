@@ -1,0 +1,138 @@
+schema_version: 1
+dataset: legacy_community_quest_guide
+region: dungeon
+guide_id: dungeon-main-quest
+title_raw: Dungeon Main Quest
+source:
+  origin_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+  retrieval_url: https://ao-q.blogspot.com/2012/07/dungeon-main-quest.html
+  source_kind: period_community_walkthrough_2012
+  source_html_sha256: 1f21f698ac2abfb78e394b039a3022d9c95edb37ccda4e3df9406d6d2751feb6
+  authority_role: secondary_historical_walkthrough
+  client_confirmation_for_aomega: pending
+body_lines_raw:
+- (After you finished the quest of Asmode, it ask for you talk to Angel Inspector at
+- Megalith Plain)
+- (you will get the next quest , it ask you to find 4 persons in 4 main city.)
+- Investigate Evil Food
+- 1 Speak with Machel at Iron Castle
+- 2 Speak with Romier at Dark City
+- 3 Speak with Michael at Breeze Woods
+- 4 Speak with Nemize at Aurora City
+- 5 Report to Angel Inspector
+- Food Material Collection
+- 1. find Chef Boship plz notice there a boss Death Cyclone on the lefe of him?
+- 2. collect below items
+- poisonous mashed apple/5
+- smoky patch/7
+- excitement/10
+- rotten beast meat/10
+- 3. find Chef Boship to answer the quest.
+- Exposed Plot
+- 1.find Angel Inspector again for next quest.
+- 2.talk with Healing Lecturer.
+- Treatment for Food Poisoning
+- 1.collect the below items and hand them to Healing Leecturer
+- (lecturer evil bolus)/3
+- (shrub bark)/5
+- (nature prime)/5
+- (pure fire crystal)/1
+- 2. speak to Healing Leecturer
+- (it says Medicine Lecturer there )
+- 3.tell that news to Angel Inspector
+- Learning from chef boship
+- 1. ask for learning from Chef Boship.
+- 2. find his third disciple Mayloe at Fiery Path. (through the Sad Abyss)
+- 'PS: (Need to be careful of the Imp Elf and Gold Fly around him.)'
+- The portal of Dungeon
+- The First Appetizer
+- 1.collent the below items.
+- (baked black sugar)/6
+- (dirt fungus)/6
+- (crazy whey)/6
+- 2.find the second disciple Ugly Saladan at Lave Cave
+- The Second Appetizer
+- 1.collect the below items (low drop rate with them)
+- Rotten caudex/9 (need collect spell lv 61)
+- Acid Ketchup/9
+- 2. Find the first disciple Lxious Ba at Underground Square
+- (Enter the below exit, through the Flaming Door)
+- The Third Appetizer
+- 1.collect items (he will give 5 spell storage bag, and you need to pay for more from him,
+- 100gold each. Those bags will disappear after 2 hours)
+- Carrion-filled Storage Bag /30
+- PS:all the monsters around him will drop this item, but the Fire Fly have the 100% rate
+- 2.find the Annoying Clerk at Lava Cave.
+- Gorily Aperitif
+- 1. find Healing Lecturer. He will tell you how to do.
+- 2. Speak to Athlete Cliff at North of Mirror Lake to obtain the blood
+- 3. take back the blood to Annoying Clerk
+- Devil’s feast(group)
+- 1. Enter to the Devil Kitchen.(need to make a team to enter the Devil Kitchen)
+- to be continue...
+candidate_quest_blocks:
+- title_raw: Food Material Collection
+  section_raw: null
+  steps_raw:
+  - 1. find Chef Boship plz notice there a boss Death Cyclone on the lefe of him?
+  - 2. collect below items
+- title_raw: rotten beast meat/10
+  section_raw: null
+  steps_raw:
+  - 3. find Chef Boship to answer the quest.
+- title_raw: Exposed Plot
+  section_raw: null
+  steps_raw:
+  - 1.find Angel Inspector again for next quest.
+  - 2.talk with Healing Lecturer.
+- title_raw: Treatment for Food Poisoning
+  section_raw: null
+  steps_raw:
+  - 1.collect the below items and hand them to Healing Leecturer
+  - (lecturer evil bolus)/3
+  - (shrub bark)/5
+  - (nature prime)/5
+  - (pure fire crystal)/1
+  - 2. speak to Healing Leecturer
+  - (it says Medicine Lecturer there )
+  - 3.tell that news to Angel Inspector
+- title_raw: Learning from chef boship
+  section_raw: null
+  steps_raw:
+  - 1. ask for learning from Chef Boship.
+  - 2. find his third disciple Mayloe at Fiery Path. (through the Sad Abyss)
+- title_raw: The First Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.collent the below items.
+  - (baked black sugar)/6
+  - (dirt fungus)/6
+  - (crazy whey)/6
+  - 2.find the second disciple Ugly Saladan at Lave Cave
+- title_raw: The Second Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.collect the below items (low drop rate with them)
+- title_raw: Acid Ketchup/9
+  section_raw: null
+  steps_raw:
+  - 2. Find the first disciple Lxious Ba at Underground Square
+  - (Enter the below exit, through the Flaming Door)
+- title_raw: The Third Appetizer
+  section_raw: null
+  steps_raw:
+  - 1.collect items (he will give 5 spell storage bag, and you need to pay for more from him,
+- title_raw: PS:all the monsters around him will drop this item, but the Fire Fly have the 100% rate
+  section_raw: null
+  steps_raw:
+  - 2.find the Annoying Clerk at Lava Cave.
+- title_raw: Gorily Aperitif
+  section_raw: null
+  steps_raw:
+  - 1. find Healing Lecturer. He will tell you how to do.
+  - 2. Speak to Athlete Cliff at North of Mirror Lake to obtain the blood
+  - 3. take back the blood to Annoying Clerk
+- title_raw: Devil’s feast(group)
+  section_raw: null
+  steps_raw:
+  - 1. Enter to the Devil Kitchen.(need to make a team to enter the Devil Kitchen)
