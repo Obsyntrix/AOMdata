@@ -1,0 +1,58 @@
+name: Harvest period quest guide evidence
+
+on:
+  push:
+    paths:
+      - 'tools/harvest_legacy_quest_guides.py'
+      - '.github/workflows/harvest-legacy-quest-guides.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aomega-legacy-quest-guide-harvest
+  cancel-in-progress: true
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 PyYAML
+      - name: Harvest period quest guides
+        env:
+          AOMDATA_GUIDE_DELAY: '0.4'
+          AOMDATA_GUIDE_RETRIES: '4'
+        run: python tools/harvest_legacy_quest_guides.py
+      - name: Show coverage
+        if: always()
+        run: |
+          if [ -f data/quests/research/legacy-guides/coverage.yaml ]; then
+            sed -n '1,220p' data/quests/research/legacy-guides/coverage.yaml
+          fi
+      - name: Publish guide evidence
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/quests/research/legacy-guides
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Harvest period quest walkthrough evidence'
+          git fetch origin main
+          if ! git rebase -X theirs origin/main; then
+            git rebase --abort
+            echo 'Unable to replay guide evidence on latest main.'
+            exit 1
+          fi
+          git push origin HEAD:main
