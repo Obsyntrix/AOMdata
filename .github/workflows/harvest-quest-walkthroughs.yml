@@ -1,0 +1,67 @@
+name: Harvest walkthrough-grade quest evidence
+
+on:
+  push:
+    paths:
+      - 'tools/harvest_quest_walkthroughs.py'
+      - '.github/workflows/harvest-quest-walkthroughs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aomega-quest-walkthrough-harvest
+  cancel-in-progress: true
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 PyYAML
+
+      - name: Harvest target-region quest evidence
+        env:
+          AOMDATA_QUEST_DELAY: '0.12'
+          AOMDATA_QUEST_RETRIES: '4'
+        run: python tools/harvest_quest_walkthroughs.py
+
+      - name: Show coverage
+        if: always()
+        run: |
+          if [ -f data/quests/research/walkthrough-intake/coverage.yaml ]; then
+            sed -n '1,240p' data/quests/research/walkthrough-intake/coverage.yaml
+          fi
+
+      - name: Publish recovered quest evidence
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/quests/research/walkthrough-intake
+          if git diff --cached --quiet; then
+            echo 'No quest research changes to publish.'
+            exit 0
+          fi
+          git commit -m 'Harvest detailed legacy quest walkthrough evidence'
+          # Preserve expensive harvested evidence, then replay it on the latest main. The
+          # source snapshot directory is harvest-owned, so preferring the harvest version
+          # there is safe; generated/canonical quest data is not touched by this workflow.
+          git fetch origin main
+          if ! git rebase -X theirs origin/main; then
+            git rebase --abort
+            echo 'Unable to rebase harvest cleanly; refusing to overwrite canonical data.'
+            exit 1
+          fi
+          git push origin HEAD:main
