@@ -1,0 +1,118 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: quiet-vale
+  name_raw: Quiet Vale
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:quiet-vale
+  retrieval_url: https://www.aowiki.uk/pages/area_quiet-vale.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: ffc2a5273afb389b4d8c940c10fc9dd30b964b1849a445823a19428ee29668fa
+npcs:
+- name_raw: Militia Pioneer
+  location_raw: (258,25)
+  description_raw: Gives quests Investigate Evil Force and Evil Force Invasion .
+  links:
+  - text_raw: Militia Pioneer
+    url: https://www.aowiki.uk/pages/npc_militia-pioneer.html
+- name_raw: Trainee Oree
+  location_raw: (42,118)
+  description_raw: Gives quests Drive Away Wild Lizardmen and Evil Nazarite From Dark City .
+  links:
+  - text_raw: Trainee Oree
+    url: https://www.aowiki.uk/pages/npc_trainee-oree.html
+- name_raw: Terra Keeper
+  location_raw: (46,83)
+  description_raw: Can transport you to your league's terra, or city
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+quest_rows:
+- row_id: quiet-vale__t002r0001
+  name_raw: Investigate Evil Force
+  row_raw:
+    Quest Name: Investigate Evil Force
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+950, Credit+40
+    Short Description: Defeat Evil Bishops and collect 5 evil diamonds from their hats.
+  quest_links:
+  - text_raw: Investigate Evil Force
+    url: https://www.aowiki.uk/pages/quest_investigate-evil-force.html
+- row_id: quiet-vale__t002r0002
+  name_raw: Evil Force Invasion
+  row_raw:
+    Quest Name: Evil Force Invasion
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+950, Credit+40
+    Short Description: Defeat 40 Evil Bishops .
+  quest_links:
+  - text_raw: Evil Force Invasion
+    url: https://www.aowiki.uk/pages/quest_evil-force-invasion.html
+- row_id: quiet-vale__t002r0003
+  name_raw: Evil Nazarite From Dark City
+  row_raw:
+    Quest Name: Evil Nazarite From Dark City
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat 40 Evil Nazarites .
+  quest_links:
+  - text_raw: Evil Nazarite From Dark City
+    url: https://www.aowiki.uk/pages/quest_evil-nazarite-from-dark-city.html
+- row_id: quiet-vale__t002r0004
+  name_raw: Drive Away Wild Lizardmen
+  row_raw:
+    Quest Name: Drive Away Wild Lizardmen
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+900, Credit+39
+    Short Description: Defeat 40 Wild Lizardmen .
+  quest_links:
+  - text_raw: Drive Away Wild Lizardmen
+    url: https://www.aowiki.uk/pages/quest_drive-away-wild-lizardmen.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 101
+discovered_quest_pages:
+- quest_drive-away-wild-lizardmen.html
+- quest_evil-force-invasion.html
+- quest_evil-nazarite-from-dark-city.html
+- quest_investigate-evil-force.html

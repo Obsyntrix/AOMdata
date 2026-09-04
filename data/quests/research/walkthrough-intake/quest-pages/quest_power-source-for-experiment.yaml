@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_power-source-for-experiment
+title_raw: Power Source For Experiment
+source:
+  origin_url: https://angels.wikidot.com/quest:power-source-for-experiment
+  retrieval_url: https://www.aowiki.uk/pages/quest_power-source-for-experiment.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: bf5cb3f3c0538663ab1bfd6738cd05861ec99fef612f43e2d46786b639983655
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Edison Steel Faction; Character Lvl 10+ Completed quest Correlation Between Metal and Water No
+
+  Previous Quest Next Quest Correlation Between Metal and Water Medium of Chemical Formula
+
+  Summary Obtain the Cyclone Furnace to power Edison''s experiment by defeating the boss, Turbo Robot .
+
+  Reward 1220 Experience, 360 Credit Choose one of: Courage Helmet , Harmony Cap or Wanderer''s Cap'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak to Edison (200, 85)) and he will make the request. Step 2 Defeat the boss, Turbo Robot .
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Correlation Between Metal and Water: Medium of Chemical Formula
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Edison
+    Requirements: Steel Faction; Character Lvl 10+ Completed quest Correlation Between Metal and Water
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Correlation Between Metal and Water
+    Next Quest: Medium of Chemical Formula
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Obtain the Cyclone Furnace to power Edison's experiment by defeating the boss, Turbo Robot .
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: '1220 Experience, 360 Credit Choose one of: Courage Helmet , Harmony Cap or Wanderer''s Cap'
+- table_index: 5
+  headers_raw:
+  - Step 1 Speak to Edison (200, 85)) and he will make the request. Step 2 Defeat the boss, Turbo Robot .
+  rows_raw: []
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Scrap Iron Village
+  url: https://www.aowiki.uk/pages/area_scrap-iron-village.html
+- text_raw: Correlation Between Metal and Water
+  url: https://www.aowiki.uk/pages/quest_correlation-between-metal-and-water.html
+- text_raw: Correlation Between Metal and Water
+  url: https://www.aowiki.uk/pages/quest_correlation-between-metal-and-water.html
+- text_raw: Medium of Chemical Formula
+  url: https://www.aowiki.uk/pages/quest_medium-of-chemical-formula.html
+- text_raw: Turbo Robot
+  url: https://www.aowiki.uk/pages/monster_turbo-robot.html
+- text_raw: Courage Helmet
+  url: https://www.aowiki.uk/pages/item_courage-helmet.html
+- text_raw: Harmony Cap
+  url: https://www.aowiki.uk/pages/item_harmony-cap.html
+- text_raw: Wanderer's Cap
+  url: https://www.aowiki.uk/pages/item_wanderer-s-cap.html
+- text_raw: Turbo Robot
+  url: https://www.aowiki.uk/pages/monster_turbo-robot.html
+matched_target_areas:
+- region: steel
+  area_id: scrap-iron-village
+verification:
+  client_confirmation: pending

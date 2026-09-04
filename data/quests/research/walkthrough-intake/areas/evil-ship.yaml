@@ -1,0 +1,43 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: evil-ship
+  name_raw: Evil Ship
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:evil-ship
+  retrieval_url: https://www.aowiki.uk/pages/area_evil-ship.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: caafc23acabd509a50f2072c0a1ba0d60549a9a0663f5fd2d3f9196b0dfb9479
+npcs:
+- name_raw: NPC Name
+  location_raw: (?,?)
+  description_raw: Why it is important.
+  links:
+  - text_raw: NPC Name
+    url: https://www.aowiki.uk/pages/npc_npc-name.html
+quest_rows: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 44
+discovered_quest_pages: []

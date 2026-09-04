@@ -1,0 +1,322 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: burning-desert
+  name_raw: Burning Desert
+  region: steel
+source:
+  origin_url: https://angels.wikidot.com/area:burning-desert
+  retrieval_url: https://www.aowiki.uk/pages/area_burning-desert.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
+npcs:
+- name_raw: Desert Merchant
+  location_raw: (26,147)
+  description_raw: Part of quest Ring of Caravan .
+  links:
+  - text_raw: Desert Merchant
+    url: https://www.aowiki.uk/pages/npc_bd-desert-merchant.html
+- name_raw: Pestal Aider
+  location_raw: (40,163)
+  description_raw: Gives quest Gebuer‘s Proposal .
+  links:
+  - text_raw: Pestal Aider
+    url: https://www.aowiki.uk/pages/npc_pestal-aider.html
+- name_raw: Myth Scholar
+  location_raw: (55,166)
+  description_raw: 'Gives quest series: Make Hormone Potion and Huge Rotten Bird .'
+  links:
+  - text_raw: Myth Scholar
+    url: https://www.aowiki.uk/pages/npc_myth-scholar.html
+- name_raw: General Allie
+  location_raw: (37,162)
+  description_raw: Gives quest Winning Achievement .
+  links:
+  - text_raw: General Allie
+    url: https://www.aowiki.uk/pages/npc_general-allie.html
+- name_raw: Dinot
+  location_raw: (145,135)
+  description_raw: 'Gives quest series: Missing Friend , Destroying Spider Eggs , Carrion‘s Temptation and Black Widow .'
+  links:
+  - text_raw: Dinot
+    url: https://www.aowiki.uk/pages/npc_dinot.html
+- name_raw: Surgeon
+  location_raw: (175,142)
+  description_raw: Gives quest Collecting Serum .
+  links:
+  - text_raw: Surgeon
+    url: https://www.aowiki.uk/pages/npc_surgeon.html
+- name_raw: Chief
+  location_raw: (166,152)
+  description_raw: Gives quests Spirit in War and Toxic Spider in Desert .
+  links:
+  - text_raw: Chief
+    url: https://www.aowiki.uk/pages/npc_bd-chief.html
+- name_raw: Spy Sungier
+  location_raw: (263,167)
+  description_raw: Gives quest Detecting Fountain .
+  links:
+  - text_raw: Spy Sungier
+    url: https://www.aowiki.uk/pages/npc_spy-sungier.html
+- name_raw: Asmode
+  location_raw: (285,22)
+  description_raw: 'Asmode series quests: Are you Evil Enough? and Magic Stone .'
+  links:
+  - text_raw: Asmode
+    url: https://www.aowiki.uk/pages/npc_steel-asmode.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (176,171)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Steel Totem
+  location_raw: (40,157)
+  description_raw: Revive here if of Steel Faction.
+  links:
+  - text_raw: Steel Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+quest_rows:
+- row_id: burning-desert__t002r0001
+  name_raw: Spirit in War
+  row_raw:
+    Quest Name: Spirit in War
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 20-35
+    Reward: Exp+600, Credit+30
+    Short Description: Defeat 20 Mummy Leaders .
+  quest_links:
+  - text_raw: Spirit in War
+    url: https://www.aowiki.uk/pages/quest_spirit-in-war.html
+- row_id: burning-desert__t002r0002
+  name_raw: Toxic Spider in Desert
+  row_raw:
+    Quest Name: Toxic Spider in Desert
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 20-35
+    Reward: Exp+600, Credit+30
+    Short Description: Defeat 20 Toxic Spiders .
+  quest_links:
+  - text_raw: Toxic Spider in Desert
+    url: https://www.aowiki.uk/pages/quest_toxic-spider-in-desert.html
+- row_id: burning-desert__t002r0003
+  name_raw: Collecting Serum
+  row_raw:
+    Quest Name: Collecting Serum
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 20+
+    Reward: Gold+1200, Exp+1600, Credit+45
+    Short Description: 'Defeat Toxic Spiders collect 5 Spider’s Venom Sacs. Note: Do before Asmode Quests.'
+  quest_links:
+  - text_raw: Collecting Serum
+    url: https://www.aowiki.uk/pages/quest_collecting-serum.html
+- row_id: burning-desert__t002r0004
+  name_raw: Blood Sacrifice
+  row_raw:
+    Quest Name: Blood Sacrifice
+    Repeat.: 'Yes'
+    Requirements: Steel Faction ?; Character lvl 20-35
+    Reward: Exp+1700, Credit+50
+    Short Description: Gravestone will ask you to go to Gebuer Vale and defeat Gebuer until you collect 5 vials of Gebuer Blood.
+  quest_links:
+  - text_raw: Blood Sacrifice
+    url: https://www.aowiki.uk/pages/quest_blood-sacrifice.html
+- row_id: burning-desert__t002r0005
+  name_raw: Winning Achievement
+  row_raw:
+    Quest Name: Winning Achievement
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 20-35
+    Reward: Exp+670, Credit+35
+    Short Description: Go to Gebuer Vale and defeat 20 of the Gebuer .
+  quest_links:
+  - text_raw: Winning Achievement
+    url: https://www.aowiki.uk/pages/quest_winning-achievement.html
+- row_id: burning-desert__t002r0006
+  name_raw: Detecting Fountain
+  row_raw:
+    Quest Name: Detecting Fountain
+    Repeat.: 'No'
+    Requirements: Steel Faction;
+    Reward: Exp+400, Credit+65
+    Short Description: Go to Gebuer Vale and speak with Spy Lude .
+  quest_links:
+  - text_raw: Detecting Fountain
+    url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+- row_id: burning-desert__t002r0007
+  name_raw: Gebuer‘s Proposal
+  row_raw:
+    Quest Name: Gebuer‘s Proposal
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character Lvl 25+; Completed quest Detecting Fountain
+    Reward: Gold+1500, Exp+2000, Credit+70
+    Short Description: Go to Gebuer Vale and defeat Gebuer Cadre until you obtain the Gebuer‘s Fighting Proposal.
+  quest_links:
+  - text_raw: Gebuer‘s Proposal
+    url: https://www.aowiki.uk/pages/quest_gebuer-s-proposal.html
+  - text_raw: Detecting Fountain
+    url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+- row_id: burning-desert__t002r0009
+  name_raw: Missing Friend 1 of 4
+  row_raw:
+    Quest Name: Missing Friend 1 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 20+
+    Reward: Exp+1600, Credit+50
+    Short Description: Obtain Takice's Bracer by defeating Toxic Spiders .
+  quest_links:
+  - text_raw: Missing Friend
+    url: https://www.aowiki.uk/pages/quest_missing-friend.html
+- row_id: burning-desert__t002r0010
+  name_raw: Destroying Spider Eggs 2 of 4
+  row_raw:
+    Quest Name: Destroying Spider Eggs 2 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 20+; Completed quest Missing Friend
+    Reward: Exp+400, Credit+45
+    Short Description: Destroy the eggs at the spider nests by clicking on them.
+  quest_links:
+  - text_raw: Destroying Spider Eggs
+    url: https://www.aowiki.uk/pages/quest_destroying-spider-eggs.html
+  - text_raw: Missing Friend
+    url: https://www.aowiki.uk/pages/quest_missing-friend.html
+- row_id: burning-desert__t002r0011
+  name_raw: Carrion‘s Temptation 3 of 4
+  row_raw:
+    Quest Name: Carrion‘s Temptation 3 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 20+; Completed quest Destroying Spider Eggs
+    Reward: Exp+1600, Credit+60, 5 common red potion
+    Short Description: Defeat Mummy Leaders and collect 3 Carrion.
+  quest_links:
+  - text_raw: Carrion‘s Temptation
+    url: https://www.aowiki.uk/pages/quest_carrion-s-temptation.html
+  - text_raw: Destroying Spider Eggs
+    url: https://www.aowiki.uk/pages/quest_destroying-spider-eggs.html
+- row_id: burning-desert__t002r0012
+  name_raw: Black Widow 4 of 4
+  row_raw:
+    Quest Name: Black Widow 4 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 20+; Completed quest Carrion‘s Temptation
+    Reward: Exp+2000, Credit+400, Item
+    Short Description: Defeat the boss, Black Widow by summoning it.
+  quest_links:
+  - text_raw: Black Widow
+    url: https://www.aowiki.uk/pages/quest_black-widow.html
+  - text_raw: Carrion‘s Temptation
+    url: https://www.aowiki.uk/pages/quest_carrion-s-temptation.html
+- row_id: burning-desert__t002r0014
+  name_raw: Make Hormone Potion 2 of 3
+  row_raw:
+    Quest Name: Make Hormone Potion 2 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 25+; Completed quest Strange Black Feather
+    Reward: Gold+1000, Exp+1200, Credit+75
+    Short Description: Go to Cactus Plain and collect 10 Lizardman‘s Tails by defeating Ball Lizardmen , and go to Gebuer Vale and collect 10 Gebuer’s Teeth by defeating Gebuer .
+  quest_links:
+  - text_raw: Make Hormone Potion
+    url: https://www.aowiki.uk/pages/quest_make-hormone-potion.html
+  - text_raw: Strange Black Feather
+    url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+- row_id: burning-desert__t002r0015
+  name_raw: Huge Rotten Bird 3 of 3
+  row_raw:
+    Quest Name: Huge Rotten Bird 3 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 25+; Completed quest Make Hormone Potion
+    Reward: Exp+2100, Credit+500, Item
+    Short Description: Go to Gebuer Vale and defeat the boss, Huge Rotten Bird .
+  quest_links:
+  - text_raw: Huge Rotten Bird
+    url: https://www.aowiki.uk/pages/quest_huge-rotten-bird.html
+  - text_raw: Make Hormone Potion
+    url: https://www.aowiki.uk/pages/quest_make-hormone-potion.html
+- row_id: burning-desert__t002r0017
+  name_raw: Are you Evil Enough? Asmode 6 of 8
+  row_raw:
+    Quest Name: Are you Evil Enough? Asmode 6 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Obtaining Asmode's Trust
+    Reward: Exp+500, Credit+25
+    Short Description: Go back to Cactus Plain and talk to the Spy Angel . You will then return to Burning Desert and talk to the Surgeon who will give you Dog Tags. Give this item to
+      Asmode .
+  quest_links:
+  - text_raw: Are you Evil Enough?
+    url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_steel-obtaining-asmodes-trust.html
+- row_id: burning-desert__t002r0018
+  name_raw: Magic Stone Asmode 7 of 8
+  row_raw:
+    Quest Name: Magic Stone Asmode 7 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Are you Evil Enough?
+    Reward: Exp+400, Credit+25
+    Short Description: Take the stone to Gebuer Vale and find the statue of a monkey holding a crowned egg (7,247). Click on it. This will transport you to the Den.
+  quest_links:
+  - text_raw: Magic Stone
+    url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+  - text_raw: Are you Evil Enough?
+    url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 12
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 18
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 2
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 59
+discovered_quest_pages:
+- quest_black-widow.html
+- quest_blood-sacrifice.html
+- quest_carrion-s-temptation.html
+- quest_collecting-serum.html
+- quest_destroying-spider-eggs.html
+- quest_detecting-fountain.html
+- quest_gebuer-s-proposal.html
+- quest_huge-rotten-bird.html
+- quest_make-hormone-potion.html
+- quest_missing-friend.html
+- quest_ring-of-caravan.html
+- quest_spirit-in-war.html
+- quest_steel-are-you-evil-enough.html
+- quest_steel-magic-stone.html
+- quest_steel-obtaining-asmodes-trust.html
+- quest_strange-black-feather.html
+- quest_toxic-spider-in-desert.html
+- quest_winning-achievement.html

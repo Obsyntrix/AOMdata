@@ -1,0 +1,190 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: puqi-village
+  name_raw: Puqi Village
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:puqi-village
+  retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+npcs:
+- name_raw: Flora
+  location_raw: (178,130)
+  description_raw: 'Gives quest: Flora''s Wish (repeatable)'
+  links:
+  - text_raw: Flora
+    url: https://www.aowiki.uk/pages/npc_flora.html
+- name_raw: Inn Keeper
+  location_raw: (207,42)
+  description_raw: 'Gives quest: Feast on Crabs (repeatable)'
+  links:
+  - text_raw: Inn Keeper
+    url: https://www.aowiki.uk/pages/npc_inn-keeper.html
+- name_raw: Trainer Ceres
+  location_raw: (229,104)
+  description_raw: 'Gives quest: Depression of Skin Dive'
+  links:
+  - text_raw: Trainer Ceres
+    url: https://www.aowiki.uk/pages/npc_trainer-ceres.html
+- name_raw: Mr.Howsufa
+  location_raw: (93,139)
+  description_raw: 'Gives quest: Explore Blue Slat Crystal (for producers)'
+  links:
+  - text_raw: Mr.Howsufa
+    url: https://www.aowiki.uk/pages/npc_mr-howsufa.html
+- name_raw: Quiyam
+  location_raw: (15,16)
+  description_raw: 'Gives quest: The Melody of Pirates'' demise'
+  links:
+  - text_raw: Quiyam
+    url: https://www.aowiki.uk/pages/npc_quiyam.html
+- name_raw: Diver Cobra
+  location_raw: (166,42)
+  description_raw: 'Gives quest: Soft Shimmer in Deep Sea'
+  links:
+  - text_raw: Diver Cobra
+    url: https://www.aowiki.uk/pages/npc_diver-cobra.html
+- name_raw: Teny
+  location_raw: (212,35)
+  description_raw: 'Gives quest: Wandering Artist (for producers)'
+  links:
+  - text_raw: Teny
+    url: https://www.aowiki.uk/pages/npc_teny.html
+- name_raw: Surfer Veifu
+  location_raw: (63,28)
+  description_raw: ''
+  links:
+  - text_raw: Surfer Veifu
+    url: https://www.aowiki.uk/pages/npc_surfer-veifu.html
+- name_raw: Hikaru
+  location_raw: (92,57)
+  description_raw: ''
+  links:
+  - text_raw: Hikaru
+    url: https://www.aowiki.uk/pages/npc_hikaru.html
+- name_raw: Childe Kere
+  location_raw: (132,40)
+  description_raw: 'Gives quest: Invaluable Rubbish , Lost Friends , Hope after Bad News'
+  links:
+  - text_raw: Childe Kere
+    url: https://www.aowiki.uk/pages/npc_childe-kere.html
+- name_raw: Artisan Anderlu
+  location_raw: (108,22)
+  description_raw: ''
+  links:
+  - text_raw: Artisan Anderlu
+    url: https://www.aowiki.uk/pages/npc_artisan-anderlu.html
+quest_rows:
+- row_id: puqi-village__t002r0001
+  name_raw: Wandering Artist
+  row_raw:
+    Quest Name: Wandering Artist
+    Repeat.: 'Yes'
+    Requirements: Gathering and facturing skills
+    Reward: Card
+    Short Description: Collect materials for Teny's handicrafts
+  quest_links:
+  - text_raw: Wandering Artist
+    url: https://www.aowiki.uk/pages/quest_wandering-artist.html
+- row_id: puqi-village__t002r0002
+  name_raw: Flora's Wish
+  row_raw:
+    Quest Name: Flora's Wish
+    Repeat.: 'Yes'
+    Requirements: '-'
+    Reward: Card
+    Short Description: Collect flower seeds from various monsters
+  quest_links:
+  - text_raw: Flora's Wish
+    url: https://www.aowiki.uk/pages/quest_flora-s-wish.html
+- row_id: puqi-village__t002r0003
+  name_raw: Feast on Crabs
+  row_raw:
+    Quest Name: Feast on Crabs
+    Repeat.: 'Yes'
+    Requirements: Character Lvl 50-55
+    Reward: Exp+1450, Credit+54
+    Short Description: Defeat Puqi Crabs or Color Crabs at Golden Beach and Collect 50 Tasty Crabs
+  quest_links:
+  - text_raw: Feast on Crabs
+    url: https://www.aowiki.uk/pages/quest_feast-on-crabs.html
+- row_id: puqi-village__t002r0004
+  name_raw: Depression of Skin Dive
+  row_raw:
+    Quest Name: Depression of Skin Dive
+    Repeat.: 'No'
+    Requirements: Character Lvl 60+
+    Reward: Exp+60000, Credit+500, Gold+35000
+    Short Description: 'Defeat: 35 Crab Generals , 35 Ink Octopuses and 35 Ball Jellyfish at Colorful Coral Reefs'
+  quest_links:
+  - text_raw: Depression of Skin Dive
+    url: https://www.aowiki.uk/pages/quest_depression-of-skin-dive.html
+- row_id: puqi-village__t002r0005
+  name_raw: Explore Blue Slat Crystal
+  row_raw:
+    Quest Name: Explore Blue Slat Crystal
+    Repeat.: '?'
+    Requirements: Character Lvl 70+; Gathering skills
+    Reward: '?'
+    Short Description: Collect Blue Slat Crystals at Wave Harbor
+  quest_links:
+  - text_raw: Explore Blue Slat Crystal
+    url: https://www.aowiki.uk/pages/quest_explore-blue-slat-crystal.html
+- row_id: puqi-village__t002r0006
+  name_raw: The Melody of Pirates' demise
+  row_raw:
+    Quest Name: The Melody of Pirates' demise
+    Repeat.: '?'
+    Requirements: Character Lvl 90+
+    Reward: '?'
+    Short Description: Defeat 15 Death Captains at Evil Ship
+  quest_links:
+  - text_raw: The Melody of Pirates' demise
+    url: https://www.aowiki.uk/pages/quest_the-melody-of-pirates-demise.html
+- row_id: puqi-village__t002r0007
+  name_raw: Soft Shimmer in Deep Sea
+  row_raw:
+    Quest Name: Soft Shimmer in Deep Sea
+    Repeat.: '?'
+    Requirements: Character Lvl 90+
+    Reward: '?'
+    Short Description: Defeat Sea Lantern Fish at Quiet Ocean and collect 10 Lanterns
+  quest_links:
+  - text_raw: Soft Shimmer in Deep Sea
+    url: https://www.aowiki.uk/pages/quest_soft-shimmer-in-deep-sea.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 7
+- table_index: 3
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 39
+discovered_quest_pages:
+- quest_depression-of-skin-dive.html
+- quest_explore-blue-slat-crystal.html
+- quest_feast-on-crabs.html
+- quest_flora-s-wish.html
+- quest_hope-after-bad-news.html
+- quest_invaluable-rubbish.html
+- quest_lost-friends.html
+- quest_soft-shimmer-in-deep-sea.html
+- quest_the-melody-of-pirates-demise.html
+- quest_wandering-artist.html

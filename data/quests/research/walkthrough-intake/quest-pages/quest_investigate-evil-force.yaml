@@ -1,0 +1,107 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_investigate-evil-force
+title_raw: Investigate Evil Force
+source:
+  origin_url: https://angels.wikidot.com/quest:investigate-evil-force
+  retrieval_url: https://www.aowiki.uk/pages/quest_investigate-evil-force.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 4ade6c0987cd57215dc36245be919357223f1587cb87bcd3509680d162e8a042
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Militia Pioneer Character Lvl 30 to 45 Yes
+
+  Previous Quest Next Quest - -
+
+  Summary Defeat Evil Bishops and collect 5 Evil Diamonds from their hats to investigate.
+
+  Reward 950 Experience, 40 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak with the Militia Pioneer. Step 2 Defeat Evil Bishops until you have collected enough diamonds. Step 3 Take the Evil Diamonds to the Militia Pioneer.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Militia Pioneer
+    Requirements: Character Lvl 30 to 45
+    Repeatable?: 'Yes'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Defeat Evil Bishops and collect 5 Evil Diamonds from their hats to investigate.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 950 Experience, 40 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Quiet Vale
+  url: https://www.aowiki.uk/pages/area_quiet-vale.html
+- text_raw: Militia Pioneer
+  url: https://www.aowiki.uk/pages/npc_militia-pioneer.html
+- text_raw: Evil Bishops
+  url: https://www.aowiki.uk/pages/monster_evil-bishop.html
+- text_raw: Evil Bishops
+  url: https://www.aowiki.uk/pages/monster_evil-bishop.html
+matched_target_areas:
+- region: breeze
+  area_id: quiet-vale
+verification:
+  client_confirmation: pending

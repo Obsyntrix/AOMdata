@@ -1,0 +1,159 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: megalith-plain
+  name_raw: Megalith Plain
+  region: steel
+source:
+  origin_url: https://angels.wikidot.com/area:megalith-plain
+  retrieval_url: https://www.aowiki.uk/pages/area_megalith-plain.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: d9a89ff9f304af9274214a294dc5fd8f1ae5a6343fe15770c08879db2741ee59
+npcs:
+- name_raw: Angel Inspector
+  location_raw: (52, 157)
+  description_raw: Gives quest Investigate Evil Food .
+  links:
+  - text_raw: Angel Inspector
+    url: https://www.aowiki.uk/pages/npc_angel-inspector.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Patrolman Wulfer
+  location_raw: (44, 25)
+  description_raw: Gives quests Plain Assault and Titan‘s Toy .
+  links:
+  - text_raw: Patrolman Wulfer
+    url: https://www.aowiki.uk/pages/npc_patrolman-wulfer.html
+- name_raw: Archeologist
+  location_raw: (267, 166)
+  description_raw: Gives quests Arduous Archeology Study and Shrewd Wolf Claw .
+  links:
+  - text_raw: Archeologist
+    url: https://www.aowiki.uk/pages/npc_archeologist.html
+- name_raw: Exploring Member
+  location_raw: (225, 176)
+  description_raw: Transports to Nightmare Cave .
+  links:
+  - text_raw: Exploring Member
+    url: https://www.aowiki.uk/pages/npc_exploring-member.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Master
+  location_raw: (127, 67)
+  description_raw: Exchanges 3 silver badges for a gift box.
+  links:
+  - text_raw: Badge Master
+    url: https://www.aowiki.uk/pages/npc_badge-master.html
+- name_raw: Terra Keeper
+  location_raw: (153, 101)
+  description_raw: Can transport you to your league's terra, or city.
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+quest_rows:
+- row_id: megalith-plain__t002r0001
+  name_raw: Arduous Archeology Study
+  row_raw:
+    Quest Name: Arduous Archeology Study
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Defeat 40 Green Wolves .
+  quest_links:
+  - text_raw: Arduous Archeology Study
+    url: https://www.aowiki.uk/pages/quest_arduous-archeology-study.html
+- row_id: megalith-plain__t002r0002
+  name_raw: Shrewd Wolf Claw
+  row_raw:
+    Quest Name: Shrewd Wolf Claw
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Collect 5 Green Wolf Claw by defeating Green Wolves .
+  quest_links:
+  - text_raw: Shrewd Wolf Claw
+    url: https://www.aowiki.uk/pages/quest_shrewd-wolf-claw.html
+- row_id: megalith-plain__t002r0003
+  name_raw: Plain Assault
+  row_raw:
+    Quest Name: Plain Assault
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat 40 Plain Titans .
+  quest_links:
+  - text_raw: Plain Assault
+    url: https://www.aowiki.uk/pages/quest_plain-assault.html
+- row_id: megalith-plain__t002r0004
+  name_raw: Titan‘s Toy
+  row_raw:
+    Quest Name: Titan‘s Toy
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Collect 5 Pieces of Rock by defeating Plain Titans .
+  quest_links:
+  - text_raw: Titan‘s Toy
+    url: https://www.aowiki.uk/pages/quest_titan-s-toy.html
+- row_id: megalith-plain__t002r0006
+  name_raw: Investigate Evil Food
+  row_raw:
+    Quest Name: Investigate Evil Food
+    Repeat.: 'No'
+    Requirements: Any Faction; Completed New Scheme of Evil Lyceum
+    Reward: Exp+??, Credit+??
+    Short Description: Description.
+  quest_links:
+  - text_raw: Investigate Evil Food
+    url: https://www.aowiki.uk/pages/quest_investigate-evil-food.html
+  - text_raw: New Scheme of Evil Lyceum
+    url: https://www.aowiki.uk/pages/quest_new-scheme-of-evil-lyceum.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 6
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 95
+discovered_quest_pages:
+- quest_arduous-archeology-study.html
+- quest_investigate-evil-food.html
+- quest_new-scheme-of-evil-lyceum.html
+- quest_plain-assault.html
+- quest_shrewd-wolf-claw.html
+- quest_titan-s-toy.html

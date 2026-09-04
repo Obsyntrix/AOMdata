@@ -1,0 +1,116 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_hungry-robber
+title_raw: Hungry Robber
+source:
+  origin_url: https://angels.wikidot.com/quest:hungry-robber
+  retrieval_url: https://www.aowiki.uk/pages/quest_hungry-robber.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 03e307373a6a46873f67220487d74bb51458d1f7c2ed58fcee9fd1313af0e2ac
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Robber Hork Beast Faction; Character level 10+ No
+
+  Previous Quest Next Quest - Ancient Books
+
+  Summary Defeat Red Mushrooms to collect mushroom pieces and Mane Boars to collect pork pieces for the Hork to eat.
+
+  Reward 1040 Experience, 50 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: 'Step 1 Speak to Robber Hork (36, 48). Step 2 Defeat Red Mushrooms until you have collected enough mushroom pieces. Step 3 Defeat Mane Boars until you have collected
+  pork pieces. _
+
+  Step 4 Give the food to Robber Hork.'
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': Ancient Books
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Robber Hork
+    Requirements: Beast Faction; Character level 10+
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: Ancient Books
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Defeat Red Mushrooms to collect mushroom pieces and Mane Boars to collect pork pieces for the Hork to eat.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 1040 Experience, 50 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Mushroom Forest
+  url: https://www.aowiki.uk/pages/area_mushroom-forest.html
+- text_raw: Robber Hork
+  url: https://www.aowiki.uk/pages/npc_robber-hork.html
+- text_raw: Ancient Books
+  url: https://www.aowiki.uk/pages/quest_ancient-books.html
+- text_raw: Red Mushrooms
+  url: https://www.aowiki.uk/pages/monster_red-mushroom.html
+- text_raw: Mane Boars
+  url: https://www.aowiki.uk/pages/monster_mane-boar.html
+- text_raw: Red Mushrooms
+  url: https://www.aowiki.uk/pages/monster_red-mushroom.html
+- text_raw: Mane Boars
+  url: https://www.aowiki.uk/pages/monster_mane-boar.html
+matched_target_areas:
+- region: breeze
+  area_id: mushroom-forest
+verification:
+  client_confirmation: pending

@@ -1,0 +1,112 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_angel-lyceum-register-at-city-angel
+title_raw: Angel Lyceum - Register At City Angel
+source:
+  origin_url: https://angels.wikidot.com/quest:angel-lyceum-register-at-city-angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_angel-lyceum-register-at-city-angel.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 404c874f3387803699951b5f2c08cedc557eea38efbd639f123ee72119d6d218
+breadcrumbs_raw: []
+summary_raw: ???
+information_raw: 'Quest Giver Repeatable Series Director Wolay No -
+
+  Previous Quest Next Quest - -'
+requirements_raw: Any - - - - -
+reward_raw: '- - - Choose one of:'
+walkthrough_raw: Step 1 Talk to City Angel (Aurora,Dark City,Breezewoods,Iron Castle) Step 2 Register
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Director Wolay
+    Repeatable: 'No'
+    Series: '-'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Any
+  - ''
+  - ''
+  - ''
+  - ''
+  rows_raw:
+  - Any: '-'
+    ? ''
+    : '-'
+- table_index: 4
+  headers_raw:
+  - ''
+  - ''
+  - ''
+  rows_raw:
+  - ? ''
+    : ''
+  - ? ''
+    : 'Choose one of:'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Angel Lyceum
+  url: https://www.aowiki.uk/pages/area_angel-lyceum.html
+- text_raw: Director Wolay
+  url: https://www.aowiki.uk/pages/npc_director-wolay.html
+matched_target_areas:
+- region: steel
+  area_id: iron-castle
+- region: dark
+  area_id: dark-city
+verification:
+  client_confirmation: pending

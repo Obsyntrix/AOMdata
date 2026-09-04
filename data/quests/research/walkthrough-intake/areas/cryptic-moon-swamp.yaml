@@ -1,0 +1,305 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: cryptic-moon-swamp
+  name_raw: Cryptic Moon Swamp
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:cryptic-moon-swamp
+  retrieval_url: https://www.aowiki.uk/pages/area_cryptic-moon-swamp.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 9e41099b4dada998d56f327e015e0ecaeb3e7e170c299a99765d74896717c583
+npcs:
+- name_raw: Adv. Plan Seller
+  location_raw: (220,26)
+  description_raw: null
+  links:
+  - text_raw: Adv. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_adv-plan-seller.html
+- name_raw: Assistant Breeze
+  location_raw: (64,144)
+  description_raw: Tells about the giants and beliefs of Breeze, gives quest Confirm Safety around Alter
+  links:
+  - text_raw: Assistant Breeze
+    url: https://www.aowiki.uk/pages/npc_assistant-breeze.html
+- name_raw: North Elder
+  location_raw: (216,146)
+  description_raw: Part of the quest, Confirm Safety around Alter
+  links:
+  - text_raw: North Elder
+    url: https://www.aowiki.uk/pages/npc_north-elder.html
+- name_raw: East Altar Elder
+  location_raw: (229,29)
+  description_raw: Part of the quest, Confirm Safety around Alter
+  links:
+  - text_raw: East Altar Elder
+    url: https://www.aowiki.uk/pages/npc_east-altar-elder.html
+- name_raw: Militia Soldier
+  location_raw: (41,149)
+  description_raw: 'Is here to clean up the swamp for rituals, gives the quests: Naughty Elf , Inundant Toad Eggs and Inundant Mud Crab'
+  links:
+  - text_raw: Militia Soldier
+    url: https://www.aowiki.uk/pages/npc_militia-soldier.html
+- name_raw: Fisher Stone
+  location_raw: (185,48)
+  description_raw: Gives the quest Fisher Stone's Distress
+  links:
+  - text_raw: Fisher Stone
+    url: https://www.aowiki.uk/pages/npc_fisher-stone.html
+- name_raw: Shiwand
+  location_raw: (202,141)
+  description_raw: 'Gives serial quests: Ritual Pollen , Sage''s Staff and Break Seal'
+  links:
+  - text_raw: Shiwand
+    url: https://www.aowiki.uk/pages/npc_shiwand.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Spy Angel
+  location_raw: (22,155)
+  description_raw: 'Gives Asmode series quests: Killing Marsh Frogs , Disguise , and Obtaining Asmode''s Trust'
+  links:
+  - text_raw: Spy Angel
+    url: https://www.aowiki.uk/pages/npc_breeze-spy-angel.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (57,154)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Beast Totem
+  location_raw: (209,143)
+  description_raw: Revives same faction member
+  links:
+  - text_raw: Beast Totem
+    url: https://www.aowiki.uk/pages/totem_beast.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Fan
+  location_raw: (225,8)
+  description_raw: Exchanges 1 silver badge
+  links:
+  - text_raw: Badge Fan
+    url: https://www.aowiki.uk/pages/shop_badge-fan.html
+quest_rows:
+- row_id: cryptic-moon-swamp__t003r0001
+  name_raw: Confirm Safety around Alter
+  row_raw:
+    Quest Name: Confirm Safety around Alter
+    Repeat.: 'No'
+    Requirements: Beast Faction;
+    Reward: Gold+600, Exp+400, Credit+45
+    Short Description: Bring a list of materials and confirm the schedule with the North Elder (216, 146) and East Elder(229, 29)
+  quest_links:
+  - text_raw: Confirm Safety around Alter
+    url: https://www.aowiki.uk/pages/quest_confirm-safety-around-alter.html
+- row_id: cryptic-moon-swamp__t003r0002
+  name_raw: Naughty Elf
+  row_raw:
+    Quest Name: Naughty Elf
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 15-30
+    Reward: Exp+450, Credit+25
+    Short Description: Defeat 20 Elves for the Militia Soldier
+  quest_links:
+  - text_raw: Naughty Elf
+    url: https://www.aowiki.uk/pages/quest_naughty-elf.html
+- row_id: cryptic-moon-swamp__t003r0003
+  name_raw: Inundant Toad Eggs
+  row_raw:
+    Quest Name: Inundant Toad Eggs
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 15-30
+    Reward: Exp+530, Credit+25
+    Short Description: Defeat 20 Marsh Frogs for the Militia Soldier
+  quest_links:
+  - text_raw: Inundant Toad Eggs
+    url: https://www.aowiki.uk/pages/quest_inundant-toad-eggs.html
+- row_id: cryptic-moon-swamp__t003r0004
+  name_raw: Inundant Mud Crab
+  row_raw:
+    Quest Name: Inundant Mud Crab
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 15-30
+    Reward: Exp+530, Credit+25
+    Short Description: Defeat 20 Mud Crabs for the Militia Soldier
+  quest_links:
+  - text_raw: Inundant Mud Crab
+    url: https://www.aowiki.uk/pages/quest_inundant-mud-crab.html
+- row_id: cryptic-moon-swamp__t003r0005
+  name_raw: Totem Destroyer
+  row_raw:
+    Quest Name: Totem Destroyer
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 15+
+    Reward: Exp+1400, Credit+50
+    Short Description: Defeat 10 Mud Crabs and 10 Marsh Frogs to clean up the totem (179, 6)
+  quest_links:
+  - text_raw: Totem Destroyer
+    url: https://www.aowiki.uk/pages/quest_totem-destroyer.html
+- row_id: cryptic-moon-swamp__t003r0006
+  name_raw: Fisher Stone's Distress
+  row_raw:
+    Quest Name: Fisher Stone's Distress
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 15+
+    Reward: Exp+1400, Credit+55
+    Short Description: Defeat 20 Mud Crabs to help him win a fishing contest
+  quest_links:
+  - text_raw: Fisher Stone's Distress
+    url: https://www.aowiki.uk/pages/quest_fisher-stone-s-distress.html
+- row_id: cryptic-moon-swamp__t003r0008
+  name_raw: Ritual Pollen 1 of 4
+  row_raw:
+    Quest Name: Ritual Pollen 1 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 15+
+    Reward: Exp+800, Credit+40
+    Short Description: Defeat Wild Lilies in Dense Forest until you have Collected 10 Pollen
+  quest_links:
+  - text_raw: Ritual Pollen
+    url: https://www.aowiki.uk/pages/quest_ritual-pollen.html
+- row_id: cryptic-moon-swamp__t003r0009
+  name_raw: Sage's Staff 2 of 4
+  row_raw:
+    Quest Name: Sage's Staff 2 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Ritual Pollen
+    Reward: Gold+800, Exp+400, Credit+35
+    Short Description: Ask Sharker (93,99), the Breeze Wood leader for the Sage's staff and bring it to Shiwand
+  quest_links:
+  - text_raw: Sage's Staff
+    url: https://www.aowiki.uk/pages/quest_sage-s-staff.html
+  - text_raw: Ritual Pollen
+    url: https://www.aowiki.uk/pages/quest_ritual-pollen.html
+- row_id: cryptic-moon-swamp__t003r0010
+  name_raw: Break Seal 3 of 4
+  row_raw:
+    Quest Name: Break Seal 3 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Sage's Staff
+    Reward: To take Part 2 of Break Seal
+    Short Description: Take a letter from Shiwand to the new leader Sharker asking him not to use the power of the ancestors
+  quest_links:
+  - text_raw: Break Seal
+    url: https://www.aowiki.uk/pages/quest_break-seal.html
+  - text_raw: Sage's Staff
+    url: https://www.aowiki.uk/pages/quest_sage-s-staff.html
+- row_id: cryptic-moon-swamp__t003r0011
+  name_raw: Break Seal Part 2 4 of 4
+  row_raw:
+    Quest Name: Break Seal Part 2 4 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Sage's Staff
+    Reward: Exp+1500, Credit+350, Item
+    Short Description: Defeat Elves , Mud Crabs and Marsh Frogs to collect Essence of Wind, Essence of Water and Essence of Sand for the spell preparations
+  quest_links:
+  - text_raw: Break Seal Part 2
+    url: https://www.aowiki.uk/pages/quest_break-seal-part-2.html
+  - text_raw: Sage's Staff
+    url: https://www.aowiki.uk/pages/quest_sage-s-staff.html
+- row_id: cryptic-moon-swamp__t003r0013
+  name_raw: Killing Marsh Frogs Asmode 3 of 8
+  row_raw:
+    Quest Name: Killing Marsh Frogs Asmode 3 of 8
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Looking for Spy Angel
+    Reward: Exp+1500, Credit+60, Item
+    Short Description: Defeat 50 Marsh Frogs to prove your ability to the Spy Angel
+  quest_links:
+  - text_raw: Killing Marsh Frogs
+    url: https://www.aowiki.uk/pages/quest_killing-marsh-frogs.html
+  - text_raw: Looking for Spy Angel
+    url: https://www.aowiki.uk/pages/quest_breeze-looking-for-spy-angel.html
+- row_id: cryptic-moon-swamp__t003r0014
+  name_raw: Disguise Asmode 4 of 8
+  row_raw:
+    Quest Name: Disguise Asmode 4 of 8
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Killing Marsh Frogs Frogs
+    Reward: Gold+500, Exp+2000, Credit+80
+    Short Description: Go to Jade Vale and defeat Magic Eye Members until you obtain the Robber Badge. Return with it to the Spy Angel.
+  quest_links:
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_breeze-disguise.html
+  - text_raw: Killing Marsh Frogs
+    url: https://www.aowiki.uk/pages/quest_killing-marsh-frogs.html
+- row_id: cryptic-moon-swamp__t003r0015
+  name_raw: Obtaining Asmode's Trust Asmode 5 of 8
+  row_raw:
+    Quest Name: Obtaining Asmode's Trust Asmode 5 of 8
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest Disguise
+    Reward: Exp+400, Credit+35
+    Short Description: Return to Jade vale and speak with Asmode .
+  quest_links:
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_breeze-obtaining-asmodes-trust.html
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_breeze-disguise.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 15
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 84
+discovered_quest_pages:
+- quest_break-seal-part-2.html
+- quest_break-seal.html
+- quest_breeze-disguise.html
+- quest_breeze-looking-for-spy-angel.html
+- quest_breeze-obtaining-asmodes-trust.html
+- quest_confirm-safety-around-alter.html
+- quest_fisher-stone-s-distress.html
+- quest_inundant-mud-crab.html
+- quest_inundant-toad-eggs.html
+- quest_killing-marsh-frogs.html
+- quest_naughty-elf.html
+- quest_ritual-pollen.html
+- quest_sage-s-staff.html
+- quest_totem-destroyer.html

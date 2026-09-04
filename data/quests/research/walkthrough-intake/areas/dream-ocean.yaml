@@ -1,0 +1,101 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: dream-ocean
+  name_raw: Dream Ocean
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:dream-ocean
+  retrieval_url: https://www.aowiki.uk/pages/area_dream-ocean.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a341d846495fe755a921e3c8811d5ce97b290b6a8c210eba81d98d7fde292d7e
+npcs:
+- name_raw: Mermaind Captain
+  location_raw: (?,?)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Mermaind Captain
+    url: https://www.aowiki.uk/pages/npc_area-name-npc-name.html
+- name_raw: Crybaby Shin
+  location_raw: (?,?)
+  description_raw: Give quest Mermain's Tears .
+  links:
+  - text_raw: Crybaby Shin
+    url: https://www.aowiki.uk/pages/npc_area-name-npc-name.html
+- name_raw: Mermaind Ozzie
+  location_raw: (?,?)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Mermaind Ozzie
+    url: https://www.aowiki.uk/pages/npc_area-name-npc-name.html
+- name_raw: Mermaind Guard
+  location_raw: (?,?)
+  description_raw: Give quest Mermaid's Trust .
+  links:
+  - text_raw: Mermaind Guard
+    url: https://www.aowiki.uk/pages/npc_area-name-npc-name.html
+quest_rows:
+- row_id: dream-ocean__t002r0001
+  name_raw: Mermaid's Tears
+  row_raw:
+    Quest Name: Mermaid's Tears
+    Repeatable: Yes/No
+    Requirements: XXX Faction; Character lvl XX
+    Reward: Exp+XX, Credit+XX, Gold+XX, Item
+    Short Description: ''
+  quest_links:
+  - text_raw: Mermaid's Tears
+    url: https://www.aowiki.uk/pages/quest_mermaid-s-tears.html
+- row_id: dream-ocean__t002r0002
+  name_raw: Mermaid's Trust
+  row_raw:
+    Quest Name: Mermaid's Trust
+    Repeatable: Yes/No
+    Requirements: XXX Faction; Character lvl XX
+    Reward: Exp+XX, Credit+XX, Gold+XX, Item
+    Short Description: ''
+  quest_links:
+  - text_raw: Mermaid's Trust
+    url: https://www.aowiki.uk/pages/quest_mermaid-s-trust.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 9
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 67
+discovered_quest_pages:
+- quest_mermaid-s-tears.html
+- quest_mermaid-s-trust.html
+- quest_mermain-s-tears.html

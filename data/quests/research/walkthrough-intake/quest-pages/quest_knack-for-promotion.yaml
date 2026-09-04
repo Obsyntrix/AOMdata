@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_knack-for-promotion
+title_raw: Knack For Promotion
+source:
+  origin_url: https://angels.wikidot.com/quest:knack-for-promotion
+  retrieval_url: https://www.aowiki.uk/pages/quest_knack-for-promotion.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a8a043209a8ea541a1fbbf0abbe723ed65e376b7c6e1212a87333ded84ec823d
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Sam Steel Faction; Character Lvl 15+ Completed quest Picking Cactus Fruit No
+
+  Previous Quest Next Quest Picking Cactus Fruit Reporting Achievement
+
+  Summary Sam wants a promotion but he is too afraid to fight the monsters, he asks you to defeat the boss, Lizard Lisad and bring its head to him.
+
+  Reward 200 Gold, 1200 Experience, 370 Credit Choose one of: Pink Piggy , Brown Piggy , or Yellow Piggy'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak to Sam. Step 2 Defeat the boss, Lizard Lisad . Step 3 Give the head to Sam.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Picking Cactus Fruit: Reporting Achievement
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Sam
+    Requirements: Steel Faction; Character Lvl 15+ Completed quest Picking Cactus Fruit
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Picking Cactus Fruit
+    Next Quest: Reporting Achievement
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Sam wants a promotion but he is too afraid to fight the monsters, he asks you to defeat the boss, Lizard Lisad and bring its head to him.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: '200 Gold, 1200 Experience, 370 Credit Choose one of: Pink Piggy , Brown Piggy , or Yellow Piggy'
+- table_index: 5
+  headers_raw:
+  - Step 1 Speak to Sam. Step 2 Defeat the boss, Lizard Lisad . Step 3 Give the head to Sam.
+  rows_raw: []
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Cactus Plain
+  url: https://www.aowiki.uk/pages/area_cactus-plain.html
+- text_raw: Picking Cactus Fruit
+  url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+- text_raw: Picking Cactus Fruit
+  url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+- text_raw: Reporting Achievement
+  url: https://www.aowiki.uk/pages/quest_reporting-achievement.html
+- text_raw: Lizard Lisad
+  url: https://www.aowiki.uk/pages/monster_lizard-lisad.html
+- text_raw: Pink Piggy
+  url: https://www.aowiki.uk/pages/item_pink-piggy.html
+- text_raw: Brown Piggy
+  url: https://www.aowiki.uk/pages/item_brown-piggy.html
+- text_raw: Yellow Piggy
+  url: https://www.aowiki.uk/pages/item_yellow-piggy.html
+- text_raw: Lizard Lisad
+  url: https://www.aowiki.uk/pages/monster_lizard-lisad.html
+matched_target_areas:
+- region: steel
+  area_id: cactus-plain
+verification:
+  client_confirmation: pending

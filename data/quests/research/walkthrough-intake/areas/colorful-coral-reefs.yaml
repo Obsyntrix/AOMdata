@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: colorful-coral-reefs
+  name_raw: Colorful Coral Reefs
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  retrieval_url: https://www.aowiki.uk/pages/area_colorful-coral-reefs.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 28ac7d88e138ef36746c9df2c96e35dc3c20612ca33e01b4941a81b9b3569f35
+npcs:
+- name_raw: Mermaind Alice
+  location_raw: (?,?)
+  description_raw: Part of the quest Girl's wish
+  links:
+  - text_raw: Mermaind Alice
+    url: https://www.aowiki.uk/pages/npc_mermaind-alice.html
+- name_raw: Pionner Member
+  location_raw: (?,?)
+  description_raw: Gives quest
+  links:
+  - text_raw: Pionner Member
+    url: https://www.aowiki.uk/pages/npc_pionner-member.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (?,?)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Aurora Totem
+  location_raw: (?,?)
+  description_raw: Aurora Faction revival place.
+  links:
+  - text_raw: Aurora Totem
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+- name_raw: Breeze Totem
+  location_raw: (?,?)
+  description_raw: Beast Faction revival place.
+  links:
+  - text_raw: Breeze Totem
+    url: https://www.aowiki.uk/pages/totem_beast.html
+- name_raw: Iron Totem
+  location_raw: (?,?)
+  description_raw: Steel Faction revival place.
+  links:
+  - text_raw: Iron Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+- name_raw: Dark City Totem
+  location_raw: (?,?)
+  description_raw: Shadow Faction revival place.
+  links:
+  - text_raw: Dark City Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 9
+- table_index: 3
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 51
+discovered_quest_pages:
+- quest_girl-s-wish.html

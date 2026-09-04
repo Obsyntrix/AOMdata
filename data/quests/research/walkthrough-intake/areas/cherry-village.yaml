@@ -1,0 +1,348 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: cherry-village
+  name_raw: Cherry Village
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:cherry-village
+  retrieval_url: https://www.aowiki.uk/pages/area_cherry-village.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 673b6ab11f37a984451f0d6b89d65c339c9fd475875d3d47dba74f89ab3c8655
+npcs:
+- name_raw: Sword Expert
+  location_raw: (180,56)
+  description_raw: null
+  links:
+  - text_raw: Sword Expert
+    url: https://www.aowiki.uk/pages/shop_sword-expert2.html
+- name_raw: Bow Expert
+  location_raw: (164,47)
+  description_raw: null
+  links:
+  - text_raw: Bow Expert
+    url: https://www.aowiki.uk/pages/shop_bow-expert2.html
+- name_raw: Axe Expert
+  location_raw: (176,51)
+  description_raw: null
+  links:
+  - text_raw: Axe Expert
+    url: https://www.aowiki.uk/pages/shop_axe-expert2.html
+- name_raw: Spear Expert
+  location_raw: (170,49)
+  description_raw: null
+  links:
+  - text_raw: Spear Expert
+    url: https://www.aowiki.uk/pages/shop_spear-expert2.html
+- name_raw: Armament Seller
+  location_raw: (191,49)
+  description_raw: null
+  links:
+  - text_raw: Armament Seller
+    url: https://www.aowiki.uk/pages/shop_armament-seller.html
+- name_raw: Bowset Seller
+  location_raw: (186,45)
+  description_raw: null
+  links:
+  - text_raw: Bowset Seller
+    url: https://www.aowiki.uk/pages/shop_bowset-seller.html
+- name_raw: Mage Gear Seller
+  location_raw: (180,40)
+  description_raw: null
+  links:
+  - text_raw: Mage Gear Seller
+    url: https://www.aowiki.uk/pages/shop_mage-gear-seller2.html
+- name_raw: Life Mage
+  location_raw: (219,29)
+  description_raw: null
+  links:
+  - text_raw: Life Mage
+    url: https://www.aowiki.uk/pages/shop_life-mage2.html
+- name_raw: Wraith Mage
+  location_raw: (213,22)
+  description_raw: null
+  links:
+  - text_raw: Wraith Mage
+    url: https://www.aowiki.uk/pages/shop_wraith-mage2.html
+- name_raw: Earth Mage
+  location_raw: (222,17)
+  description_raw: null
+  links:
+  - text_raw: Earth Mage
+    url: https://www.aowiki.uk/pages/shop_earth-mage2.html
+- name_raw: Chaos Mage
+  location_raw: (227,22)
+  description_raw: null
+  links:
+  - text_raw: Chaos Mage
+    url: https://www.aowiki.uk/pages/shop_chaos-mage2.html
+- name_raw: Senior Smith
+  location_raw: (153,51)
+  description_raw: null
+  links:
+  - text_raw: Senior Smith
+    url: https://www.aowiki.uk/pages/shop_senior-smith.html
+- name_raw: Senior Master
+  location_raw: (144,52)
+  description_raw: null
+  links:
+  - text_raw: Senior Master
+    url: https://www.aowiki.uk/pages/shop_senior-master.html
+- name_raw: Robust Yady
+  location_raw: (235,51)
+  description_raw: 'Gives quest: Recruiting Cherry Militia and Militia Assignment-Coast Clearance , Militia Assignment-Punishing Pirate , Militia Assignment-Turtle Shell Armor (repeatable).'
+  links:
+  - text_raw: Robust Yady
+    url: https://www.aowiki.uk/pages/npc_robust-yady.html
+- name_raw: Cherry's Leader
+  location_raw: (235,73)
+  description_raw: 'Part of quest: Glory of Dawn Harbor ; Gives quest: Citizen''s Plan to Retake Property'
+  links:
+  - text_raw: Cherry's Leader
+    url: https://www.aowiki.uk/pages/npc_cherry-s-leader.html
+- name_raw: Countrylady
+  location_raw: (186,74)
+  description_raw: 'Part of quest: Unknown Brilliant Necklace ; Gives quest series: Whether Husband Is Alive or Dead and Father''s Legacy'
+  links:
+  - text_raw: Countrylady
+    url: https://www.aowiki.uk/pages/npc_countrylady.html
+- name_raw: Scholar Nilsson
+  location_raw: (158,40)
+  description_raw: 'Gives quest series: Cherry Crab Experiment , Vanilla , Potec''s Attack , and Plant Research Report .'
+  links:
+  - text_raw: Scholar Nilsson
+    url: https://www.aowiki.uk/pages/npc_scholar-nilsson.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Expert
+  location_raw: (193,66)
+  description_raw: Exchange 2 Silver Monster Badges for a Secret Gift
+  links:
+  - text_raw: Badge Expert
+    url: https://www.aowiki.uk/pages/npc_badge-expert.html
+- name_raw: Repair Expert
+  location_raw: (188,34)
+  description_raw: Can repair your equips
+  links:
+  - text_raw: Repair Expert
+    url: https://www.aowiki.uk/pages/npc_repair-expert.html
+- name_raw: Bank Clerk
+  location_raw: (222,70)
+  description_raw: Use your own warehouse or corporation's warehouse.
+  links:
+  - text_raw: Bank Clerk
+    url: https://www.aowiki.uk/pages/npc_bank-clerk.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (212,64)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Aurora
+  location_raw: (?,?)
+  description_raw: Revive here if of Aurora Faction.
+  links:
+  - text_raw: Aurora
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+quest_rows:
+- row_id: cherry-village__t003r0001
+  name_raw: Militia Assignment-Coast Clearance
+  row_raw:
+    Quest Name: Militia Assignment-Coast Clearance
+    Repeat.: 'Yes'
+    Requirements: 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    Reward: Exp+670, Credit+35
+    Short Description: Defeat 20 Cherry Crabs
+  quest_links:
+  - text_raw: Militia Assignment-Coast Clearance
+    url: https://www.aowiki.uk/pages/quest_militia-assignment-coast-clearance.html
+  - text_raw: Recruiting Cherry Militia
+    url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+- row_id: cherry-village__t003r0002
+  name_raw: Militia Assignment-Punishing Pirate
+  row_raw:
+    Quest Name: Militia Assignment-Punishing Pirate
+    Repeat.: 'Yes'
+    Requirements: 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    Reward: Exp+100, Credit+10
+    Short Description: Insert the flag into the Pirate Camp
+  quest_links:
+  - text_raw: Militia Assignment-Punishing Pirate
+    url: https://www.aowiki.uk/pages/quest_militia-assignment-punishing-pirate.html
+  - text_raw: Recruiting Cherry Militia
+    url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+- row_id: cherry-village__t003r0003
+  name_raw: Militia Assignment-Turtle Shell Armor
+  row_raw:
+    Quest Name: Militia Assignment-Turtle Shell Armor
+    Repeat.: 'Yes'
+    Requirements: 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    Reward: Exp+740, Credit+35
+    Short Description: Collect 10 Spine Turtle shells
+  quest_links:
+  - text_raw: Militia Assignment-Turtle Shell Armor
+    url: https://www.aowiki.uk/pages/quest_militia-assignment-turtle-shell-armor.html
+  - text_raw: Recruiting Cherry Militia
+    url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+- row_id: cherry-village__t003r0005
+  name_raw: Citizen's Plan to Retake Property
+  row_raw:
+    Quest Name: Citizen's Plan to Retake Property
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Character lvl 22+
+    Reward: Exp+1390, Credit+75, Item
+    Short Description: Obtain A Copper, Silver and Golden Key from Piratekins and then take the treasure from the western island of Riprap Coast and return it to Cherry Leader.
+  quest_links:
+  - text_raw: Citizen's Plan to Retake Property
+    url: https://www.aowiki.uk/pages/quest_citizen-s-plan-to-retake-property.html
+- row_id: cherry-village__t003r0006
+  name_raw: Recruiting Cherry Militia
+  row_raw:
+    Quest Name: Recruiting Cherry Militia
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Character lvl 22+
+    Reward: Exp+1980, Credit+80
+    Short Description: Defeat 20 Spine Turtles
+  quest_links:
+  - text_raw: Recruiting Cherry Militia
+    url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+- row_id: cherry-village__t003r0008
+  name_raw: Cherry Crab Experiment 1 of 4
+  row_raw:
+    Quest Name: Cherry Crab Experiment 1 of 4
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Character lvl 22+
+    Reward: Exp+1780, Credit+75, Gold+1100
+    Short Description: 4 Cherry Crab shell
+  quest_links:
+  - text_raw: Cherry Crab Experiment
+    url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
+- row_id: cherry-village__t003r0009
+  name_raw: Vanilla 2 of 4
+  row_raw:
+    Quest Name: Vanilla 2 of 4
+    Repeat.: 'No'
+    Requirements: 'Aurora Faction; Finished quest: Cherry Crab Experiment'
+    Reward: Exp+1780, Credit+75, Gold+1500
+    Short Description: Collect 5 Vanilla Residue from Spine Turtles
+  quest_links:
+  - text_raw: Vanilla
+    url: https://www.aowiki.uk/pages/quest_vanilla.html
+  - text_raw: Cherry Crab Experiment
+    url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
+- row_id: cherry-village__t003r0010
+  name_raw: Potec's Attack 3 of 4
+  row_raw:
+    Quest Name: Potec's Attack 3 of 4
+    Repeat.: 'No'
+    Requirements: 'Aurora Faction; Finished quest: Vanilla'
+    Reward: Exp+2400, Credit+600, Item
+    Short Description: Defeat the Blue Potec (BOSS).
+  quest_links:
+  - text_raw: Potec's Attack
+    url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+  - text_raw: Vanilla
+    url: https://www.aowiki.uk/pages/quest_vanilla.html
+- row_id: cherry-village__t003r0011
+  name_raw: Plant Research Report 4 of 4
+  row_raw:
+    Quest Name: Plant Research Report 4 of 4
+    Repeat.: 'No'
+    Requirements: 'Aurora Faction; Finished quest: Potec''s Attack'
+    Reward: Exp+800, Credit+30
+    Short Description: Go to Crashing Hillock and give the research report to the Scholar Yale.
+  quest_links:
+  - text_raw: Plant Research Report
+    url: https://www.aowiki.uk/pages/quest_plant-research-report.html
+  - text_raw: Potec's Attack
+    url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+- row_id: cherry-village__t003r0013
+  name_raw: Whether Husband Is Alive or Dead 2 of 3
+  row_raw:
+    Quest Name: Whether Husband Is Alive or Dead 2 of 3
+    Repeat.: 'No'
+    Requirements: 'Aurora Faction; Finished quest: Unknown Brilliant Necklace'
+    Reward: Exp+400, Credit+70
+    Short Description: Find skeletons at Riprap Coast (42,96). Report what you find to Countrylady .
+  quest_links:
+  - text_raw: Whether Husband Is Alive or Dead
+    url: https://www.aowiki.uk/pages/quest_whether-husband-is-alive-or-dead.html
+  - text_raw: Unknown Brilliant Necklace
+    url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
+- row_id: cherry-village__t003r0014
+  name_raw: Father's Legacy 3 of 3
+  row_raw:
+    Quest Name: Father's Legacy 3 of 3
+    Repeat.: 'No'
+    Requirements: 'Aurora Faction; Finished quest: Whether Husband Is Alive or Dead'
+    Reward: Exp+800, Credit+65
+    Short Description: Take the bad news to Newbie Timi in Aurora City.
+  quest_links:
+  - text_raw: Father's Legacy
+    url: https://www.aowiki.uk/pages/quest_father-s-legacy.html
+  - text_raw: Whether Husband Is Alive or Dead
+    url: https://www.aowiki.uk/pages/quest_whether-husband-is-alive-or-dead.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 13
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 14
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 4
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 52
+discovered_quest_pages:
+- quest_cherry-crab-experiment.html
+- quest_citizen-s-plan-to-retake-property.html
+- quest_father-s-legacy.html
+- quest_glory-of-dawn-harbor.html
+- quest_militia-assignment-coast-clearance.html
+- quest_militia-assignment-punishing-pirate.html
+- quest_militia-assignment-turtle-shell-armor.html
+- quest_plant-research-report.html
+- quest_potec-s-attack.html
+- quest_recruiting-cherry-militia.html
+- quest_unknown-brilliant-necklace.html
+- quest_vanilla.html
+- quest_whether-husband-is-alive-or-dead.html

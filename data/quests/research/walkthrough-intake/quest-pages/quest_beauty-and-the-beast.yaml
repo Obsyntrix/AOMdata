@@ -1,0 +1,115 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_beauty-and-the-beast
+title_raw: Beauty And The Beast
+source:
+  origin_url: https://angels.wikidot.com/quest:beauty-and-the-beast
+  retrieval_url: https://www.aowiki.uk/pages/quest_beauty-and-the-beast.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 2206b13edc7d29b02f7b2c105c2de41e2b6bb31935425920e1f9c5d2274d377c
+breadcrumbs_raw: []
+summary_raw: ???
+information_raw: 'Quest Giver Repeatable Series Watt. Lightening Yes/No -
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+reward_raw: 'Exp. Credit Gold 4000 84 - Items Choose one of: Item Name , Item Name'
+walkthrough_raw: Step 1 Kill 30 Angel Fish and 30 Sharks. Step 2 talk again with to Watt.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Watt. Lightening
+    Repeatable: Yes/No
+    Series: '-'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '-'
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '4000'
+    Credit: '84'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Item Name , Item Name'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Area Name
+  url: https://www.aowiki.uk/pages/area_area-name.html
+- text_raw: Watt. Lightening
+  url: https://www.aowiki.uk/pages/npc_watt-lightening.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+matched_target_areas: []
+verification:
+  client_confirmation: pending

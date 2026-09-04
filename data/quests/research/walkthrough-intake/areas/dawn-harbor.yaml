@@ -1,0 +1,326 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: dawn-harbor
+  name_raw: Dawn Harbor
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:dawn-harbor
+  retrieval_url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 171f310d88431eb16b92fef94fca042a294b24e110acbca04d5df559eb7299e1
+npcs:
+- name_raw: Adv. Plan Seller
+  location_raw: (58,172)
+  description_raw: null
+  links:
+  - text_raw: Adv. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_dawn-harbor-adv-plan-seller.html
+- name_raw: Chef
+  location_raw: (138,161)
+  description_raw: 'Gives quests: Fetor on Deck , Side Dish-Salted Crabmeat , and Side Dish-Herb Tortoise Meat (repeatable).'
+  links:
+  - text_raw: Chef
+    url: https://www.aowiki.uk/pages/npc_chef.html
+- name_raw: Fisherman
+  location_raw: (165,100)
+  description_raw: 'Gives quest: Control Plan of Sheep Quantity (repeatable)'
+  links:
+  - text_raw: Fisherman
+    url: https://www.aowiki.uk/pages/npc_fisherman.html
+- name_raw: Policeman
+  location_raw: (193,28)
+  description_raw: 'Gives quest: Defeating Evil Force (repeatable)'
+  links:
+  - text_raw: Policeman
+    url: https://www.aowiki.uk/pages/npc_policeman.html
+- name_raw: Barkeeper
+  location_raw: (204,125)
+  description_raw: 'Gives quest: Protecting Boss''s Right'
+  links:
+  - text_raw: Barkeeper
+    url: https://www.aowiki.uk/pages/npc_barkeeper.html
+- name_raw: Fishing Leader
+  location_raw: (252,156)
+  description_raw: 'Gives quest series: Clearance of Harbor , Request for Military Aid , Being Premptive and Glory of Dawn Harbor'
+  links:
+  - text_raw: Fishing Leader
+    url: https://www.aowiki.uk/pages/npc_fishing-leader.html
+- name_raw: Retired Sailor
+  location_raw: (31,98)
+  description_raw: 'Part of quest: Golden Island Legend'
+  links:
+  - text_raw: Retired Sailor
+    url: https://www.aowiki.uk/pages/npc_retired-sailor.html
+- name_raw: Sailor Bonny
+  location_raw: (257,111)
+  description_raw: 'Part of quest: Karter''s Planning Book'
+  links:
+  - text_raw: Sailor Bonny
+    url: https://www.aowiki.uk/pages/npc_sailor-bonny.html
+- name_raw: Sailor Karter
+  location_raw: (269,76)
+  description_raw: 'Part of quest: Karter''s Planning Book'
+  links:
+  - text_raw: Sailor Karter
+    url: https://www.aowiki.uk/pages/npc_sailor-karter.html
+- name_raw: Spy Angel
+  location_raw: (70,177)
+  description_raw: Gives Asmode's quests.
+  links:
+  - text_raw: Spy Angel
+    url: https://www.aowiki.uk/pages/npc_aurora-spy-angel.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Fan
+  location_raw: (267,154)
+  description_raw: Exchange 1 Silver Monster Badge for a Secret Gift.
+  links:
+  - text_raw: Badge Fan
+    url: https://www.aowiki.uk/pages/npc_badge-fan.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (179,166)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Aurora Totem
+  location_raw: (67,177)
+  description_raw: Revive here if of Aurora faction.
+  links:
+  - text_raw: Aurora Totem
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+quest_rows:
+- row_id: dawn-harbor__t003r0001
+  name_raw: Fetor on Deck
+  row_raw:
+    Quest Name: Fetor on Deck
+    Repeat.: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Defeat 20 Grey Mice
+  quest_links:
+  - text_raw: Fetor on Deck
+    url: https://www.aowiki.uk/pages/quest_fetor-on-deck.html
+- row_id: dawn-harbor__t003r0002
+  name_raw: Side Dish-Salted Crabmeat
+  row_raw:
+    Quest Name: Side Dish-Salted Crabmeat
+    Repeat.: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Defeat Soldier Crabs and collect 10 Fresh Crab Meats
+  quest_links:
+  - text_raw: Side Dish-Salted Crabmeat
+    url: https://www.aowiki.uk/pages/quest_side-dish-salted-crabmeat.html
+- row_id: dawn-harbor__t003r0003
+  name_raw: Side Dish-Herb Tortoise Meat
+  row_raw:
+    Quest Name: Side Dish-Herb Tortoise Meat
+    Repeat.: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-30
+    Reward: Exp+450, Credit+25
+    Short Description: Defeat Turtles and collect 4 Fresh Turtle Meats
+  quest_links:
+  - text_raw: Side Dish-Herb Tortoise Meat
+    url: https://www.aowiki.uk/pages/quest_side-dish-herb-tortoise-meat.html
+- row_id: dawn-harbor__t003r0004
+  name_raw: Control Plan of Sheep Quantity
+  row_raw:
+    Quest Name: Control Plan of Sheep Quantity
+    Repeat.: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 20-35
+    Reward: Exp+580, Credit+30
+    Short Description: Defeat 20 Harp Sheep at Riprap Coast
+  quest_links:
+  - text_raw: Control Plan of Sheep Quantity
+    url: https://www.aowiki.uk/pages/quest_control-plan-of-sheep-quantity.html
+- row_id: dawn-harbor__t003r0005
+  name_raw: Defeating Evil Force
+  row_raw:
+    Quest Name: Defeating Evil Force
+    Repeat.: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 20-35
+    Reward: Exp+590, Credit+30
+    Short Description: Defeat Riprap Pirates and collect 5 Pirate's Necklaces
+  quest_links:
+  - text_raw: Defeating Evil Force
+    url: https://www.aowiki.uk/pages/quest_defeating-evil-force.html
+- row_id: dawn-harbor__t003r0007
+  name_raw: Golden Island Legend
+  row_raw:
+    Quest Name: Golden Island Legend
+    Repeat.: 'No'
+    Requirements: Aurora Faction
+    Reward: Exp+600, Credit+25
+    Short Description: Defeat Turtles and collect Map Pieces, then go find the Retired Sailor (31,98)
+  quest_links:
+  - text_raw: Golden Island Legend
+    url: https://www.aowiki.uk/pages/quest_golden-island-legend.html
+- row_id: dawn-harbor__t003r0008
+  name_raw: Protecting Boss's Right
+  row_raw:
+    Quest Name: Protecting Boss's Right
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Character Lvl 20+
+    Reward: Exp+1580, Credit+70, Gold+600
+    Short Description: Defeat 20 Riprap Pirates at Riprap Coast
+  quest_links:
+  - text_raw: Protecting Boss's Right
+    url: https://www.aowiki.uk/pages/quest_protecting-boss-s-right.html
+- row_id: dawn-harbor__t003r0010
+  name_raw: Clearance of Harbor 1 of 4
+  row_raw:
+    Quest Name: Clearance of Harbor 1 of 4
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Character Lvl 15+
+    Reward: Exp+1400, Credit+55, Gold+1000
+    Short Description: Defeat Turtles , Soldier Crabs and Grey Mice 20 in total.
+  quest_links:
+  - text_raw: Clearance of Harbor
+    url: https://www.aowiki.uk/pages/quest_clearance-of-harbor.html
+- row_id: dawn-harbor__t003r0011
+  name_raw: Request for Military Aid 2 of 4
+  row_raw:
+    Quest Name: Request for Military Aid 2 of 4
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Clearance of Harbor
+    Reward: Exp+400, Credit+30
+    Short Description: Give the call for help to the Deputy Colonel at Aurora City
+  quest_links:
+  - text_raw: Request for Military Aid
+    url: https://www.aowiki.uk/pages/quest_request-for-military-aid.html
+  - text_raw: Clearance of Harbor
+    url: https://www.aowiki.uk/pages/quest_clearance-of-harbor.html
+- row_id: dawn-harbor__t003r0012
+  name_raw: Being Premptive 3 of 4
+  row_raw:
+    Quest Name: Being Premptive 3 of 4
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Request for Military Aid
+    Reward: Exp+2120, Credit+450, Item
+    Short Description: Defeat Vice Head Pirate (Boss) at Riprap Coast
+  quest_links:
+  - text_raw: Being Premptive
+    url: https://www.aowiki.uk/pages/quest_being-premptive.html
+  - text_raw: Request for Military Aid
+    url: https://www.aowiki.uk/pages/quest_request-for-military-aid.html
+- row_id: dawn-harbor__t003r0013
+  name_raw: Glory of Dawn Harbor 4 of 4
+  row_raw:
+    Quest Name: Glory of Dawn Harbor 4 of 4
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Being Premptive
+    Reward: Exp+200, Credit+25, Item
+    Short Description: Find the Cherry Village Leader at Cherry Village
+  quest_links:
+  - text_raw: Glory of Dawn Harbor
+    url: https://www.aowiki.uk/pages/quest_glory-of-dawn-harbor.html
+  - text_raw: Being Premptive
+    url: https://www.aowiki.uk/pages/quest_being-premptive.html
+- row_id: dawn-harbor__t003r0015
+  name_raw: Showing Speed and Destroying Force 3 of 8
+  row_raw:
+    Quest Name: Showing Speed and Destroying Force 3 of 8
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Looking For Spy Angel
+    Reward: Exp+1500, Credit+60
+    Short Description: Defeat 50 Grey Mouse
+  quest_links:
+  - text_raw: Showing Speed and Destroying Force
+    url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+  - text_raw: Looking For Spy Angel
+    url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+- row_id: dawn-harbor__t003r0016
+  name_raw: Disguise 4 of 8
+  row_raw:
+    Quest Name: Disguise 4 of 8
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Showing Speed and Destroying Force
+    Reward: Exp+100, Credit+80, Gold+500
+    Short Description: Defeat Riprap Pirates at Riprap Coast and collect Secret Badge
+  quest_links:
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+  - text_raw: Showing Speed and Destroying Force
+    url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+- row_id: dawn-harbor__t003r0017
+  name_raw: Obtaining Asmode's Trust 5 of 8
+  row_raw:
+    Quest Name: Obtaining Asmode's Trust 5 of 8
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Disguise
+    Reward: Exp+200, Credit+35
+    Short Description: Find Asmode at Riprap Coast and talk to him.
+  quest_links:
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 14
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 17
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 86
+discovered_quest_pages:
+- quest_aurora-disguise.html
+- quest_aurora-looking-for-spy-angel.html
+- quest_aurora-obtaining-asmodes-trust.html
+- quest_aurora-showing-speed-and-destroying-force.html
+- quest_being-premptive.html
+- quest_clearance-of-harbor.html
+- quest_control-plan-of-sheep-quantity.html
+- quest_defeating-evil-force.html
+- quest_fetor-on-deck.html
+- quest_glory-of-dawn-harbor.html
+- quest_golden-island-legend.html
+- quest_karter-s-planning-book.html
+- quest_protecting-boss-s-right.html
+- quest_request-for-military-aid.html
+- quest_side-dish-herb-tortoise-meat.html
+- quest_side-dish-salted-crabmeat.html

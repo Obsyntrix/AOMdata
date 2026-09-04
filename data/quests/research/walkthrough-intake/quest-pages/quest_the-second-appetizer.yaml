@@ -1,0 +1,127 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_the-second-appetizer
+title_raw: The Second Appetizer
+source:
+  origin_url: https://angels.wikidot.com/quest:the-second-appetizer
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-second-appetizer.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 9792075604e4203880b5b2664459d5058d72d2f7aa4489f4c78887b722bcfb44
+breadcrumbs_raw: []
+summary_raw: The second test of Beelzebub is finding food materials for one of his students called Ugly Saladan.
+information_raw: 'Quest Giver Repeatable Series Ugly Saladan No Dungeon
+
+  Previous Quest Next Quest The First Appetizer The Third Appetizer'
+requirements_raw: Faction Lvl Rank Skill Quest - 30 - - The First Appetizer
+reward_raw: Exp. Credit Gold 35,000 400 12,000 Items None
+walkthrough_raw: 'Step 1 Collect 9 Rotten Caudex from Primrose and 9 Acid Ketchup from Gold Fly in Lava Cave.
+
+  Step 2 Talk to Ugly Saladan.
+
+  Step 3 Go to Underground Square and talk to Luxious Ba.'
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  The First Appetizer: The Third Appetizer
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Ugly Saladan
+    Repeatable: 'No'
+    Series: Dungeon
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: The First Appetizer
+    Next Quest: The Third Appetizer
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '30'
+    Rank: '-'
+    Skill: '-'
+    Quest: The First Appetizer
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: 35,000
+    Credit: '400'
+    Gold: 12,000
+  - Exp.: Items
+  - Exp.: None
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Fiery Path
+  url: https://www.aowiki.uk/pages/area_fiery-path.html
+- text_raw: Ugly Saladan
+  url: https://www.aowiki.uk/pages/npc_ugly-saladan.html
+- text_raw: The First Appetizer
+  url: https://www.aowiki.uk/pages/quest_the-first-appetizer.html
+- text_raw: The Third Appetizer
+  url: https://www.aowiki.uk/pages/quest_the-third-appetizer.html
+- text_raw: The First Appetizer
+  url: https://www.aowiki.uk/pages/quest_the-first-appetizer.html
+matched_target_areas:
+- region: dungeon
+  area_id: fiery-path
+- region: dungeon
+  area_id: lava-cave
+- region: dungeon
+  area_id: underground-square
+verification:
+  client_confirmation: pending

@@ -1,0 +1,125 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_magic-trick
+title_raw: Magic trick
+source:
+  origin_url: https://angels.wikidot.com/quest:magic-trick
+  retrieval_url: https://www.aowiki.uk/pages/quest_magic-trick.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 2a12d66d8f8a7d8638f7f8fb10e2d23376898e72585c33f4338238189c9b0690
+breadcrumbs_raw: []
+summary_raw: A magician has enchanted the Pumpkins in the fields and they are attacking people. The Spike Farmer asks you to destroy 20 of these pumpkins.
+information_raw: 'Quest Giver Repeatable Series Spike Farmer No Yes (2 of 4)
+
+  Previous Quest Next Quest Annihilating Mice The Jackstraw''s Protest'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Annihilating Mice
+reward_raw: Exp. Credit Gold 850 30 - Items 5x Low-Effect Red Potion 1
+walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Pumpkins . Step 3 Return and report to the Spike Farmer.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Annihilating Mice: The Jackstraw's Protest
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Spike Farmer
+    Repeatable: 'No'
+    Series: Yes (2 of 4)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Annihilating Mice
+    Next Quest: The Jackstraw's Protest
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: 6+
+    Rank: '-'
+    Skill: '-'
+    Quest: Finished Annihilating Mice
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '850'
+    Credit: '30'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 5x Low-Effect Red Potion 1
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Spike Farm
+  url: https://www.aowiki.uk/pages/area_spike-farm.html
+- text_raw: Pumpkins
+  url: https://www.aowiki.uk/pages/monster_pumpkin.html
+- text_raw: Spike Farmer
+  url: https://www.aowiki.uk/pages/npc_spike-farmer.html
+- text_raw: Annihilating Mice
+  url: https://www.aowiki.uk/pages/quest_annihilating-mice.html
+- text_raw: The Jackstraw's Protest
+  url: https://www.aowiki.uk/pages/quest_the-jackstraw-s-protest.html
+- text_raw: Annihilating Mice
+  url: https://www.aowiki.uk/pages/quest_annihilating-mice.html
+- text_raw: Low-Effect Red Potion 1
+  url: https://www.aowiki.uk/pages/item_low-effect-red-potion-1.html
+- text_raw: Pumpkins
+  url: https://www.aowiki.uk/pages/monster_pumpkin.html
+matched_target_areas:
+- region: aurora
+  area_id: spike-farm
+verification:
+  client_confirmation: pending

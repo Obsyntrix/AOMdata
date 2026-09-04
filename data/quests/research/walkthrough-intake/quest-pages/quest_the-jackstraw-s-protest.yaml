@@ -1,0 +1,131 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_the-jackstraw-s-protest
+title_raw: The Jackstraw's protest
+source:
+  origin_url: https://angels.wikidot.com/quest:the-jackstraw-s-protest
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-jackstraw-s-protest.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 54f8cc62c58cc3510ca29ea9c7701f2339c6a4453839a30e67c65d3fad49ddc0
+breadcrumbs_raw: []
+summary_raw: The Spike Farmer's troubles have increased, the Jackstraws won't do their work any more and are asking for more pay. The Spike Farmer begs you to help him.
+information_raw: 'Quest Giver Repeatable Series Spike Farmer No Yes (3 of 4)
+
+  Previous Quest Next Quest Magic Trick Sending Parcels'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 6+ - - Finished Magic Trick
+reward_raw: 'Exp. Credit Gold 860 160 - Items Choose one of: Traditional Armor , Traditional Vest , Traditional Magic Gown , or Hard Shield'
+walkthrough_raw: Step 1 Speak to the Spike Farmer (87,119). Step 2 Defeat 20 Jackstraws . Step 3 Report back to the Spike Farmer.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Magic Trick: Sending Parcels
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Spike Farmer
+    Repeatable: 'No'
+    Series: Yes (3 of 4)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Magic Trick
+    Next Quest: Sending Parcels
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: 6+
+    Rank: '-'
+    Skill: '-'
+    Quest: Finished Magic Trick
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '860'
+    Credit: '160'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Traditional Armor , Traditional Vest , Traditional Magic Gown , or Hard Shield'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Spike Farm
+  url: https://www.aowiki.uk/pages/area_spike-farm.html
+- text_raw: Jackstraws
+  url: https://www.aowiki.uk/pages/monster_jackstraw.html
+- text_raw: Spike Farmer
+  url: https://www.aowiki.uk/pages/npc_spike-farmer.html
+- text_raw: Magic Trick
+  url: https://www.aowiki.uk/pages/quest_magic-trick.html
+- text_raw: Sending Parcels
+  url: https://www.aowiki.uk/pages/quest_sending-parcels.html
+- text_raw: Magic Trick
+  url: https://www.aowiki.uk/pages/quest_magic-trick.html
+- text_raw: Traditional Armor
+  url: https://www.aowiki.uk/pages/item_traditional-armor.html
+- text_raw: Traditional Vest
+  url: https://www.aowiki.uk/pages/item_traditional-vest.html
+- text_raw: Traditional Magic Gown
+  url: https://www.aowiki.uk/pages/item_traditional-magic-gown.html
+- text_raw: Hard Shield
+  url: https://www.aowiki.uk/pages/item_hard-shield.html
+- text_raw: Jackstraws
+  url: https://www.aowiki.uk/pages/monster_jackstraw.html
+matched_target_areas:
+- region: aurora
+  area_id: spike-farm
+verification:
+  client_confirmation: pending

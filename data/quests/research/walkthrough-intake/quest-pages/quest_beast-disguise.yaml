@@ -1,0 +1,130 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_beast-disguise
+title_raw: Beast Disguise
+source:
+  origin_url: https://angels.wikidot.com/quest:beast-disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_beast-disguise.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 26f78b63ec4877e1cadd09c0f0882447ecbd83bfbaffd09f53f688eed95c6fb4
+breadcrumbs_raw: []
+summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member a magic-eye-member . Obtain their Secret Badge by defeating them.
+information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+  Previous Quest Next Quest Killing Marsh Frogs Obtaining Asmode''s Trust'
+requirements_raw: Faction Lvl Rank Skill Quest Beast 20 2 - Finished Killing Marsh Frogs
+reward_raw: Exp. Credit Gold 2000 80 500 Items -
+walkthrough_raw: Step 1 Speak with the Spy Angel (22,155) in Cryptic Moon Swamp Step 2 Go to Jade Vale Step 3 Defeat Magic Eye Members until you have obtained the Secret Badge. Step
+  4 Report back to the Spy Angel
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Killing Marsh Frogs: Obtaining Asmode's Trust
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Spy Angel
+    Repeatable: 'No'
+    Series: 'Yes (Asmode: 4 of 8)'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Killing Marsh Frogs
+    Next Quest: Obtaining Asmode's Trust
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Beast
+    Lvl: '20'
+    Rank: '2'
+    Skill: '-'
+    Quest: Finished Killing Marsh Frogs
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '2000'
+    Credit: '80'
+    Gold: '500'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Jade Vale
+  url: https://www.aowiki.uk/pages/area_jade-vale.html
+- text_raw: magic-eye-member
+  url: https://www.aowiki.uk/pages/monster_magic-eye-member.html
+- text_raw: Spy Angel
+  url: https://www.aowiki.uk/pages/npc_beast-spy-angel.html
+- text_raw: Killing Marsh Frogs
+  url: https://www.aowiki.uk/pages/quest_beast-killing-marsh-frogs.html
+- text_raw: Obtaining Asmode's Trust
+  url: https://www.aowiki.uk/pages/quest_beast-obtaining-asmode-s-trust.html
+- text_raw: Killing Marsh Frogs
+  url: https://www.aowiki.uk/pages/quest_beast-killing-marsh-frogs.html
+- text_raw: Cryptic Moon Swamp
+  url: https://www.aowiki.uk/pages/area_cryptic-moon-swamp.html
+- text_raw: Jade Vale
+  url: https://www.aowiki.uk/pages/area_jade-vale.html
+- text_raw: Magic Eye Members
+  url: https://www.aowiki.uk/pages/monster_magic-eye-member.html
+matched_target_areas:
+- region: breeze
+  area_id: cryptic-moon-swamp
+- region: breeze
+  area_id: jade-vale
+verification:
+  client_confirmation: pending

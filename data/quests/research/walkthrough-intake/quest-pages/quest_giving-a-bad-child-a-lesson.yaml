@@ -1,0 +1,115 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_giving-a-bad-child-a-lesson
+title_raw: Giving A Bad Child A Lesson
+source:
+  origin_url: https://angels.wikidot.com/quest:giving-a-bad-child-a-lesson
+  retrieval_url: https://www.aowiki.uk/pages/quest_giving-a-bad-child-a-lesson.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 6c1fda0b067fec3a9f5a6b7d7123a7cd5fe73a7dd6909fc9016181049a2dc866
+breadcrumbs_raw: []
+summary_raw: talk with Miss Diana Fungus Forest South (56,153)
+information_raw: 'Quest Giver Repeatable Series Miss Diana Yes card set
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest all factions all all all -
+reward_raw: Exp. Credit Gold - - - Items Miss Diana card
+walkthrough_raw: Step 1 talk with Miss Diana Fungus Forest South (56,153) Step 2 kill imp to get a imp card and change it for Miss Diana card
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Miss Diana
+    Repeatable: 'Yes'
+    Series: card set
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: all factions
+    Lvl: all
+    Rank: all
+    Skill: all
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '-'
+    Credit: '-'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: Miss Diana card
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Fungus Forest South
+  url: https://www.aowiki.uk/pages/area_fungus-forest-south.html
+- text_raw: Miss Diana
+  url: https://www.aowiki.uk/pages/npc_miss-diana.html
+- text_raw: Miss Diana card
+  url: https://www.aowiki.uk/pages/item_miss-diana-card.html
+matched_target_areas:
+- region: dark
+  area_id: fungus-forest-south
+verification:
+  client_confirmation: pending

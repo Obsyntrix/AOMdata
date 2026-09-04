@@ -1,0 +1,31 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: magic-kitchen-path
+  name_raw: Magic Kitchen Path
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:magic-kitchen-path
+  retrieval_url: https://www.aowiki.uk/pages/area_magic-kitchen-path.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 34bfd2957bb350abd8b378c6db1314408d3bdd1cfaa527958d98a065f60fcad5
+npcs: []
+quest_rows: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 31
+- table_index: 2
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 269
+discovered_quest_pages: []

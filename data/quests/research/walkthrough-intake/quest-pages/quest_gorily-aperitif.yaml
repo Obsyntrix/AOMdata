@@ -1,0 +1,120 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_gorily-aperitif
+title_raw: Gorily Aperitif
+source:
+  origin_url: https://angels.wikidot.com/quest:gorily-aperitif
+  retrieval_url: https://www.aowiki.uk/pages/quest_gorily-aperitif.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: fdf8957b6463952f6045b31d0a57de149a02799e7eeba03b14d0926bf8fdc064
+breadcrumbs_raw: []
+summary_raw: The Annoying Clerk in the Devil Restaurant forces you to bring some human blood to make Aperitif.
+information_raw: 'Quest Giver Repeatable Series Annoying Clerk No Dungeon
+
+  Previous Quest Next Quest The Third Appetizer Devil''s Feast (Group)'
+requirements_raw: Faction Lvl Rank Skill Quest - 30 2 - -
+reward_raw: Exp. Credit Gold 8,000 200 4,000 Items None
+walkthrough_raw: Step 1 You don't know what to do, so you decide to consult Healing Lecturer in Angel Lyceum Step 2 Find and talk to Athlete Cliff in North of Mirror Lake. Step 3 Return
+  to Lava Cave and talk to Annoying Clerk.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  The Third Appetizer: Devil's Feast (Group)
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Annoying Clerk
+    Repeatable: 'No'
+    Series: Dungeon
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: The Third Appetizer
+    Next Quest: Devil's Feast (Group)
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '30'
+    Rank: '2'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: 8,000
+    Credit: '200'
+    Gold: 4,000
+  - Exp.: Items
+  - Exp.: None
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Lava Cave
+  url: https://www.aowiki.uk/pages/area_lava-cave.html
+- text_raw: Annoying Clerk
+  url: https://www.aowiki.uk/pages/npc_annoying-clerk.html
+- text_raw: The Third Appetizer
+  url: https://www.aowiki.uk/pages/quest_the-third-appetizer.html
+- text_raw: Devil's Feast (Group)
+  url: https://www.aowiki.uk/pages/quest_devils-feast.html
+matched_target_areas:
+- region: breeze
+  area_id: north-of-mirror-lake
+- region: dungeon
+  area_id: lava-cave
+verification:
+  client_confirmation: pending

@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_plant-research-report
+title_raw: Plant Research Report
+source:
+  origin_url: https://angels.wikidot.com/quest:plant-research-report
+  retrieval_url: https://www.aowiki.uk/pages/quest_plant-research-report.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: b5bedf9269ab3e1cb990871c2d8c74a9178451bae486a833890bf28e7dda032f
+breadcrumbs_raw: []
+summary_raw: Scholar Nilsson asks you to take his research paper to Scholar Yale in Crashing Hillock.
+information_raw: 'Quest Giver Repeatable Series Scholar Nilsson No Yes (4 of 4)
+
+  Previous Quest Next Quest Potec''s Attack -'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Potec's Attack
+reward_raw: Exp. Credit Gold 800 30 - Items -
+walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). He will give you the completed Research Report . Step 2 Go to Crashing Hillock . Step 3 Give the Report to Scholar Yale.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Potec's Attack: '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Scholar Nilsson
+    Repeatable: 'No'
+    Series: Yes (4 of 4)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Potec's Attack
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: 22+
+    Rank: '-'
+    Skill: '-'
+    Quest: Finished Potec's Attack
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '800'
+    Credit: '30'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Cherry Village
+  url: https://www.aowiki.uk/pages/area_cherry-village.html
+- text_raw: Scholar Nilsson
+  url: https://www.aowiki.uk/pages/npc_scholar-nilsson.html
+- text_raw: Potec's Attack
+  url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+- text_raw: Potec's Attack
+  url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+- text_raw: Crashing Hillock
+  url: https://www.aowiki.uk/pages/area_crashing-hillock.html
+matched_target_areas:
+- region: aurora
+  area_id: cherry-village
+- region: aurora
+  area_id: crashing-hillock
+verification:
+  client_confirmation: pending

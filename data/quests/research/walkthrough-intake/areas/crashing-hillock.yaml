@@ -1,0 +1,141 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: crashing-hillock
+  name_raw: Crashing Hillock
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:crashing-hillock
+  retrieval_url: https://www.aowiki.uk/pages/area_crashing-hillock.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: e46fa3905a1280ad7f83ae124f0c7c3ea37fce6e5cf8e91e4650ed1c10c73554
+npcs:
+- name_raw: Scholar Yale
+  location_raw: (70,175)
+  description_raw: 'Part of quest: Plant Research Report .'
+  links:
+  - text_raw: Scholar Yale
+    url: https://www.aowiki.uk/pages/npc_scholar-yale.html
+- name_raw: Assoc. Director
+  location_raw: (120,127)
+  description_raw: 'Gives quests: Drive Away White Wolves and Collect White Wolf''s Teeth (repeatable).'
+  links:
+  - text_raw: Assoc. Director
+    url: https://www.aowiki.uk/pages/npc_assoc-director.html
+- name_raw: Security Officer
+  location_raw: (120,166)
+  description_raw: 'Gives quests: Miner''s Uniform and Maintain Exploration''s Safety (repeatable).'
+  links:
+  - text_raw: Security Officer
+    url: https://www.aowiki.uk/pages/npc_security-officer.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Exploring Member
+  location_raw: (272,176)
+  description_raw: Gives Access to Nightmare Cave .
+  links:
+  - text_raw: Exploring Member
+    url: https://www.aowiki.uk/pages/npc_exploring-member.html
+- name_raw: Badge Master
+  location_raw: (103,183)
+  description_raw: Exchange badges for a gift box.
+  links:
+  - text_raw: Badge Master
+    url: https://www.aowiki.uk/pages/npc_badge-master.html
+- name_raw: Terra Keeper
+  location_raw: (107,182)
+  description_raw: Transports the terra holder to main city or league terra.
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+quest_rows:
+- row_id: crashing-hillock__t002r0001
+  name_raw: Drive Away White Wolves
+  row_raw:
+    Quest Name: Drive Away White Wolves
+    Repeat.: 'Yes'
+    Requirements: Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat 40 White Wolves .
+  quest_links:
+  - text_raw: Drive Away White Wolves
+    url: https://www.aowiki.uk/pages/quest_drive-away-white-wolves.html
+- row_id: crashing-hillock__t002r0002
+  name_raw: Collect White Wolf's Teeth
+  row_raw:
+    Quest Name: Collect White Wolf's Teeth
+    Repeat.: 'Yes'
+    Requirements: Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat White Wolves and collect 5 White Wolf Teeth.
+  quest_links:
+  - text_raw: Collect White Wolf's Teeth
+    url: https://www.aowiki.uk/pages/quest_collect-white-wolf-s-teeth.html
+- row_id: crashing-hillock__t002r0003
+  name_raw: Maintain Exploration's Safety
+  row_raw:
+    Quest Name: Maintain Exploration's Safety
+    Repeat.: 'Yes'
+    Requirements: Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Defeat 40 Green Wolves .
+  quest_links:
+  - text_raw: Maintain Exploration's Safety
+    url: https://www.aowiki.uk/pages/quest_maintain-exploration-s-safety.html
+- row_id: crashing-hillock__t002r0004
+  name_raw: Miner's Uniform
+  row_raw:
+    Quest Name: Miner's Uniform
+    Repeat.: 'Yes'
+    Requirements: Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Defeat Green Wolves and collect 5 Green Wolf 's Coats.
+  quest_links:
+  - text_raw: Miner's Uniform
+    url: https://www.aowiki.uk/pages/quest_miner-s-uniform.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 7
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 96
+discovered_quest_pages:
+- quest_collect-white-wolf-s-teeth.html
+- quest_drive-away-white-wolves.html
+- quest_maintain-exploration-s-safety.html
+- quest_miner-s-uniform.html
+- quest_plant-research-report.html

@@ -1,0 +1,117 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_re-education
+title_raw: Re Education
+source:
+  origin_url: https://angels.wikidot.com/quest:re-education
+  retrieval_url: https://www.aowiki.uk/pages/quest_re-education.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 32d62b2ac55e30fc191865b7ac1b1084983587b42e9b16edf6aa8708f598966b
+breadcrumbs_raw: []
+summary_raw: Angel Pickets wants you to help him capture and reform the corrupted Fallen Angels .
+information_raw: 'Quest Giver Repeatable Series Angel Pickets Yes No
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest Any 40 to 55 - - -
+reward_raw: Exp. Credit Gold 1150 47 - Items -
+walkthrough_raw: Step 1 Speak with Angel Pickets (280,9). Step 2 Defeat 40 Fallen Angels . Step 3 Report back to Angel Pickets.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Angel Pickets
+    Repeatable: 'Yes'
+    Series: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Any
+    Lvl: 40 to 55
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '1150'
+    Credit: '47'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Thunder Ruins
+  url: https://www.aowiki.uk/pages/area_thunder-ruins.html
+- text_raw: Fallen Angels
+  url: https://www.aowiki.uk/pages/monster_fallen-angel.html
+- text_raw: Angel Pickets
+  url: https://www.aowiki.uk/pages/npc_angel-pickets.html
+- text_raw: Fallen Angels
+  url: https://www.aowiki.uk/pages/monster_fallen-angel.html
+matched_target_areas:
+- region: aurora
+  area_id: thunder-ruins
+verification:
+  client_confirmation: pending

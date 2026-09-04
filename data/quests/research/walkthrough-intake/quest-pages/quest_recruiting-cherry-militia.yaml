@@ -1,0 +1,117 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_recruiting-cherry-militia
+title_raw: Recruiting Cherry Militia
+source:
+  origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
+  retrieval_url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 8cf47331b80df00b2ecf2598a6d36f08d003e494bd3e7ffaea70d22fb9f6fb2a
+breadcrumbs_raw: []
+summary_raw: Robust Yady invites you to join the militia and you accept, to prove yourself you must defeat 20 Spine Turtles .
+information_raw: 'Quest Giver Repeatable Series Robust Yady No No
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - -
+reward_raw: Exp. Credit Gold 1980 80 - Items -
+walkthrough_raw: Step 1 Introduce yourself to Robust Yady (235,51). Step 2 Defeat 20 Spine Turtles . Step 3 Report your success to Robust Yady and join the Mlitia!
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Robust Yady
+    Repeatable: 'No'
+    Series: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: 22+
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '1980'
+    Credit: '80'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Cherry Village
+  url: https://www.aowiki.uk/pages/area_cherry-village.html
+- text_raw: Spine Turtles
+  url: https://www.aowiki.uk/pages/monster_spine-turtle.html
+- text_raw: Robust Yady
+  url: https://www.aowiki.uk/pages/npc_robust-yady.html
+- text_raw: Spine Turtles
+  url: https://www.aowiki.uk/pages/monster_spine-turtle.html
+matched_target_areas:
+- region: aurora
+  area_id: cherry-village
+verification:
+  client_confirmation: pending

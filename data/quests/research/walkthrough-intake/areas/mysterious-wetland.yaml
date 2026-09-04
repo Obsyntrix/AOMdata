@@ -1,0 +1,192 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: mysterious-wetland
+  name_raw: Mysterious Wetland
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:mysterious-wetland
+  retrieval_url: https://www.aowiki.uk/pages/area_mysterious-wetland.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 5b47bf846c7e4f91d6f1d8163b10f860508693fe1ed52f7cebe95d37ea6c14d4
+npcs:
+- name_raw: Super Smith
+  location_raw: (13,161)
+  description_raw: null
+  links:
+  - text_raw: Super Smith
+    url: https://www.aowiki.uk/pages/shop_super-smith.html
+- name_raw: Super Master
+  location_raw: (14,169)
+  description_raw: null
+  links:
+  - text_raw: Super Master
+    url: https://www.aowiki.uk/pages/shop_super-master.html
+- name_raw: Bow Expert
+  location_raw: (37,167)
+  description_raw: null
+  links:
+  - text_raw: Bow Expert
+    url: https://www.aowiki.uk/pages/shop_bow-expert.html
+- name_raw: Weapon Expert
+  location_raw: (46,161)
+  description_raw: null
+  links:
+  - text_raw: Weapon Expert
+    url: https://www.aowiki.uk/pages/shop_weapon-expert.html
+- name_raw: Earth Priest
+  location_raw: (13,151)
+  description_raw: null
+  links:
+  - text_raw: Earth Priest
+    url: https://www.aowiki.uk/pages/shop_earth-priest.html
+- name_raw: Wraith Priest
+  location_raw: (34,146)
+  description_raw: null
+  links:
+  - text_raw: Wraith Priest
+    url: https://www.aowiki.uk/pages/shop_wraith-priest.html
+- name_raw: Researcher Mary
+  location_raw: (271,10)
+  description_raw: Gives quests Fantastic Tree Elf and Green Hope .
+  links:
+  - text_raw: Researcher Mary
+    url: https://www.aowiki.uk/pages/npc_researcher-mary.html
+- name_raw: Explorer Peter
+  location_raw: (32,24)
+  description_raw: Gives quests Clear Charming Man-Eating Flower and Robbed Equipment .
+  links:
+  - text_raw: Explorer Peter
+    url: https://www.aowiki.uk/pages/npc_explorer-peter.html
+- name_raw: Warlock Ofer
+  location_raw: (214,139)
+  description_raw: Part of the quest Demon‘s Calling .
+  links:
+  - text_raw: Warlock Ofer
+    url: https://www.aowiki.uk/pages/npc_warlock-ofer.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Terra Keeper
+  location_raw: (149,165)
+  description_raw: Transports to league terra and to city of the faction.
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (30,163)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+quest_rows:
+- row_id: mysterious-wetland__t003r0001
+  name_raw: Clear Charming Man-Eating Flower
+  row_raw:
+    Quest Name: Clear Charming Man-Eating Flower
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 35-50
+    Reward: Exp+1000, Credit+42
+    Short Description: Defeat 45 Nepenthes .
+  quest_links:
+  - text_raw: Clear Charming Man-Eating Flower
+    url: https://www.aowiki.uk/pages/quest_clear-charming-man-eating-flower.html
+- row_id: mysterious-wetland__t003r0002
+  name_raw: Robbed Equipment
+  row_raw:
+    Quest Name: Robbed Equipment
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 35-50
+    Reward: Exp+1000, Credit+42
+    Short Description: Defeat Nepenthes and collect 9 of the stolen Adventure Equipment.
+  quest_links:
+  - text_raw: Robbed Equipment
+    url: https://www.aowiki.uk/pages/quest_robbed-equipment.html
+- row_id: mysterious-wetland__t003r0003
+  name_raw: Fantastic Tree Elf
+  row_raw:
+    Quest Name: Fantastic Tree Elf
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 35-50
+    Reward: Exp+1100, Credit+45
+    Short Description: Defeat 45 Tree Elves .
+  quest_links:
+  - text_raw: Fantastic Tree Elf
+    url: https://www.aowiki.uk/pages/quest_fantastic-tree-elf.html
+- row_id: mysterious-wetland__t003r0004
+  name_raw: Green Hope
+  row_raw:
+    Quest Name: Green Hope
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 35-50
+    Reward: Exp+1100, Credit+45
+    Short Description: Defeat Tree Elves and collect 5 Buds of Fantastic Tree.
+  quest_links:
+  - text_raw: Green Hope
+    url: https://www.aowiki.uk/pages/quest_green-hope.html
+- row_id: mysterious-wetland__t003r0005
+  name_raw: Demon‘s Calling
+  row_raw:
+    Quest Name: Demon‘s Calling
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl 35-50
+    Reward: Exp+550, Credit+30
+    Short Description: While fighting you find a Soul Core, take this to Warlock Offer and defeat the Tree Elves he summons.
+  quest_links:
+  - text_raw: Demon‘s Calling
+    url: https://www.aowiki.uk/pages/quest_demon-s-calling.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 7
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 91
+discovered_quest_pages:
+- quest_clear-charming-man-eating-flower.html
+- quest_demon-s-calling.html
+- quest_fantastic-tree-elf.html
+- quest_green-hope.html
+- quest_robbed-equipment.html

@@ -1,0 +1,107 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_reseize-captured-fish
+title_raw: Reseize Captured Fish
+source:
+  origin_url: https://angels.wikidot.com/quest:reseize-captured-fish
+  retrieval_url: https://www.aowiki.uk/pages/quest_reseize-captured-fish.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 0b130a838451ca99ee11fa33c09e9b6c96967fa5c2f386d5284d213dd4dc624d
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? South Villager Character Lvl 30 to 45 Yes
+
+  Previous Quest Next Quest - -
+
+  Summary Defeat Circus Tyrants and take back 5 of the fish they took from the fishermen.
+
+  Reward 950 Experience, 40 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak to the South Villager. Step 2 Defeat Circus Tyrants until you have recovered the Fresh Fish Stocks. Step 3 Return them to the South Villager.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: South Villager
+    Requirements: Character Lvl 30 to 45
+    Repeatable?: 'Yes'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Defeat Circus Tyrants and take back 5 of the fish they took from the fishermen.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 950 Experience, 40 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: South of Mirror Lake
+  url: https://www.aowiki.uk/pages/area_south-of-mirror-lake.html
+- text_raw: South Villager
+  url: https://www.aowiki.uk/pages/npc_south-villager.html
+- text_raw: Circus Tyrants
+  url: https://www.aowiki.uk/pages/monster_circue-tyrant.html
+- text_raw: Circus Tyrants
+  url: https://www.aowiki.uk/pages/monster_circue-tyrant.html
+matched_target_areas:
+- region: breeze
+  area_id: south-of-mirror-lake
+verification:
+  client_confirmation: pending

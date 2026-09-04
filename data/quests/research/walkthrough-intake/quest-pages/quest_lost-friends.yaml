@@ -1,0 +1,131 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_lost-friends
+title_raw: Lost Friends
+source:
+  origin_url: https://angels.wikidot.com/quest:lost-friends
+  retrieval_url: https://www.aowiki.uk/pages/quest_lost-friends.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: e7fbfd1fdeb73b1602a999a0b283475e954e00abe1337eb98ee09e42011dcd80
+breadcrumbs_raw: []
+summary_raw: Hinding inside the Yahabosen, they plan to see Yatiss in person but suffered a shipwreck. Kere wants you to go down to the sea bottom and find them.
+information_raw: 'Quest Giver Repeatable Series Childe Kere No -
+
+  Previous Quest Next Quest Invaluable Rubbish Hope after Bad News'
+requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+reward_raw: 'Exp. Credit Gold 55000 500 110000 Items Choose one of: Item Name , Item Name'
+walkthrough_raw: 'Step 1 (go to Raging Reefs ) FInd Remain of Habosen Ship - just talk to Kenny''s R''??? at Raging Reefs and obtain Kenny''s Diary.
+
+  Step 2 take Kenny''s Diary and Return no Puqi VIllage to find Kere.
+
+  Step 3 get reward from Kere.
+
+  _'
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Invaluable Rubbish: Hope after Bad News
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Childe Kere
+    Repeatable: 'No'
+    Series: '-'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Invaluable Rubbish
+    Next Quest: Hope after Bad News
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '-'
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '55000'
+    Credit: '500'
+    Gold: '110000'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Item Name , Item Name'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: puqi village
+  url: https://www.aowiki.uk/pages/area_puqi-village.html
+- text_raw: Childe Kere
+  url: https://www.aowiki.uk/pages/npc_childe-kere.html
+- text_raw: Invaluable Rubbish
+  url: https://www.aowiki.uk/pages/quest_invaluable-rubbish.html
+- text_raw: Hope after Bad News
+  url: https://www.aowiki.uk/pages/quest_hope-after-bad-news.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Raging Reefs
+  url: https://www.aowiki.uk/pages/area_raging-reefs.html
+matched_target_areas:
+- region: atlantis
+  area_id: puqi-village
+- region: atlantis
+  area_id: raging-reefs
+verification:
+  client_confirmation: pending

@@ -1,0 +1,198 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quests_weekly
+title_raw: 'Weekly Quest : Nature is Crying for Help'
+source:
+  origin_url: https://angels.wikidot.com/quests:weekly
+  retrieval_url: https://www.aowiki.uk/pages/quests_weekly.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: f7ef8f5737ed8773cbcd2712f2bc7388de4ca653e0921d6baa32a388ddf96513
+breadcrumbs_raw: []
+summary_raw: Weekly Quest
+information_raw: 'Quest Giver Repeatable Series Villiersas Yes -
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+reward_raw: 'Exp. Credit Gold 20,000,000 (lvl 70-79), 36,000,000 (lvl 80-89), 48,000,000 (lvl 90-94), 48,000,000 (lvl 95++) - - Items Choose one of: Item Name , Item Name'
+walkthrough_raw: 'First Step
+
+  You begin it by talking to Villiersas in Palm Base (Atlantis) -Then head to Wave Harbor and kill 45 Angel Fish , 75 Stab Jellyfish , 60 Whelk Mage and 60 Whelk Swordsman . -Return
+  & talk to Villiersas
+
+  Second Step
+
+  -Walk to the dungeon.( located in Dragon Graveyard) -Go to the Hell Palace and talk to Lorin . -Kill tonnes of Riddle Bishop until you have the required 80 black crystals. -Talk to
+  Lorin
+
+  Third Step
+
+  -Go to the Waterfall Camp ( Jungle) -Talk to Stewart and kill numerous Earth Fairy until you have 10 elite cores. Tip : Put the fruits droped by them into your ab at 100% to auto open
+  and save your bag space -Once you''re done with that, go back to Villiersas and get ready to boss hunt.
+
+  Last Step
+
+  -You will need to kill the following bosses : Hermit Hezon - Found in the Waterfall Camp (Jungle) Leech Mrs. Dorsa - Found in the Secret Den (Jungle) Purple Scorpion Issac - Found
+  in Crescent Valley (Desert) Destroyer Wesley -Found in the Desert Racetrack (Desert) Sword Jellyfish - Found in Wave Harbor (Atlantis) -After you''ve killed all 5 of the bosses and
+  gotten the stones droped from them( 100% chance of droping the stones) Return to Palm Base and talk to Villiersas and get your reward.'
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Villiersas
+    Repeatable: 'Yes'
+    Series: '-'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '-'
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: 20,000,000 (lvl 70-79), 36,000,000 (lvl 80-89), 48,000,000 (lvl 90-94), 48,000,000 (lvl 95++)
+    Credit: '-'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Item Name , Item Name'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/index.html#quests
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Palm Base
+  url: https://www.aowiki.uk/pages/area_palm-base.html
+- text_raw: Villiersas
+  url: https://www.aowiki.uk/pages/npc_villiersas.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Villiersas
+  url: https://www.aowiki.uk/pages/npc_villiersas.html
+- text_raw: Palm Base
+  url: https://www.aowiki.uk/pages/area_palm-base.html
+- text_raw: Wave Harbor
+  url: https://www.aowiki.uk/pages/area_wave-harbor.html
+- text_raw: Angel Fish
+  url: https://www.aowiki.uk/pages/monster_angel-fish.html
+- text_raw: Stab Jellyfish
+  url: https://www.aowiki.uk/pages/monster_stab-jellyfish.html
+- text_raw: Whelk Mage
+  url: https://www.aowiki.uk/pages/monster_whelk-mage.html
+- text_raw: Whelk Swordsman
+  url: https://www.aowiki.uk/pages/monster_whelk-swordsman.html
+- text_raw: Villiersas
+  url: https://www.aowiki.uk/pages/npc_villiersas.html
+- text_raw: Hell Palace
+  url: https://www.aowiki.uk/pages/area_hell-palace.html
+- text_raw: Lorin
+  url: https://www.aowiki.uk/pages/npc_lorin.html
+- text_raw: Riddle Bishop
+  url: https://www.aowiki.uk/pages/monster_riddle-bishop.html
+- text_raw: Lorin
+  url: https://www.aowiki.uk/pages/npc_lorin.html
+- text_raw: Waterfall Camp
+  url: https://www.aowiki.uk/pages/area_waterfall-camp.html
+- text_raw: Stewart
+  url: https://www.aowiki.uk/pages/npc_stewart.html
+- text_raw: Earth Fairy
+  url: https://www.aowiki.uk/pages/monster_earth-fairy.html
+- text_raw: Villiersas
+  url: https://www.aowiki.uk/pages/npc_villiersas.html
+- text_raw: Hermit Hezon
+  url: https://www.aowiki.uk/pages/monster_hermit-hezon.html
+- text_raw: Waterfall Camp
+  url: https://www.aowiki.uk/pages/area_waterfall-camp.html
+- text_raw: Leech Mrs. Dorsa
+  url: https://www.aowiki.uk/pages/monster_leech-mrs-dorsa.html
+- text_raw: Secret Den
+  url: https://www.aowiki.uk/pages/area_secret-den.html
+- text_raw: Purple Scorpion Issac
+  url: https://www.aowiki.uk/pages/monster_purple-scorpion-issac.html
+- text_raw: Crescent Valley
+  url: https://www.aowiki.uk/pages/area_crescent-valley.html
+- text_raw: Destroyer Wesley
+  url: https://www.aowiki.uk/pages/monster_destroyer-wesley.html
+- text_raw: Desert Racetrack
+  url: https://www.aowiki.uk/pages/area_desert-racetrack.html
+- text_raw: Sword Jellyfish
+  url: https://www.aowiki.uk/pages/monster_sword-jellyfish.html
+- text_raw: Wave Harbor
+  url: https://www.aowiki.uk/pages/area_wave-harbor.html
+- text_raw: Palm Base
+  url: https://www.aowiki.uk/pages/area_palm-base.html
+- text_raw: Villiersas
+  url: https://www.aowiki.uk/pages/npc_villiersas.html
+matched_target_areas:
+- region: steel
+  area_id: dragon-graveyard
+- region: dungeon
+  area_id: hell-palace
+- region: atlantis
+  area_id: palm-base
+- region: atlantis
+  area_id: wave-harbor
+verification:
+  client_confirmation: pending

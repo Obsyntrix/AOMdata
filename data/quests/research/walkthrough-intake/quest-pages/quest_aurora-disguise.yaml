@@ -1,0 +1,130 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_aurora-disguise
+title_raw: Disguise
+source:
+  origin_url: https://angels.wikidot.com/quest:aurora-disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 46c0d10d334a4ecb7fd38dd1dfd08b4e0842ce6a6de51d2450388ad8f3a4ec53
+breadcrumbs_raw: []
+summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member of the Piratekin . Obtain their Secret Badge by defeating them.
+information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+  Previous Quest Next Quest Showing Speed and Destroying Force Obtaining Asmode''s Trust'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Showing Speed and Destroying Force
+reward_raw: Exp. Credit Gold 2000 80 500 Items -
+walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Go to Riprap Coast Step 3 Defeat Piratekin until you have obtained the Secret Badge. Step 4 Report back
+  to the Spy Angel
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Showing Speed and Destroying Force: Obtaining Asmode's Trust
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Spy Angel
+    Repeatable: 'No'
+    Series: 'Yes (Asmode: 4 of 8)'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Showing Speed and Destroying Force
+    Next Quest: Obtaining Asmode's Trust
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: '20'
+    Rank: '2'
+    Skill: '-'
+    Quest: Finished Showing Speed and Destroying Force
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '2000'
+    Credit: '80'
+    Gold: '500'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Riprap Coast
+  url: https://www.aowiki.uk/pages/area_riprap-coast.html
+- text_raw: Piratekin
+  url: https://www.aowiki.uk/pages/monster_piratekin.html
+- text_raw: Spy Angel
+  url: https://www.aowiki.uk/pages/npc_aurora-spy-angel.html
+- text_raw: Showing Speed and Destroying Force
+  url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+- text_raw: Obtaining Asmode's Trust
+  url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmode-s-trust.html
+- text_raw: Showing Speed and Destroying Force
+  url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+- text_raw: Dawn Harbor
+  url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+- text_raw: Riprap Coast
+  url: https://www.aowiki.uk/pages/area_riprap-coast.html
+- text_raw: Piratekin
+  url: https://www.aowiki.uk/pages/monster_piratekin.html
+matched_target_areas:
+- region: aurora
+  area_id: dawn-harbor
+- region: aurora
+  area_id: riprap-coast
+verification:
+  client_confirmation: pending

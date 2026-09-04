@@ -1,0 +1,263 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: cactus-plain
+  name_raw: Cactus Plain
+  region: steel
+source:
+  origin_url: https://angels.wikidot.com/area:cactus-plain
+  retrieval_url: https://www.aowiki.uk/pages/area_cactus-plain.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
+npcs:
+- name_raw: Adv. Plan Seller
+  location_raw: (72,26)
+  description_raw: null
+  links:
+  - text_raw: Adv. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_adv-plan-seller.html
+- name_raw: Spy Angel
+  location_raw: (59,138)
+  description_raw: 'Gives Asmode series quests: Killing Plateau Monkey , Disguise and Obtaining Asmode''s Trust .'
+  links:
+  - text_raw: Spy Angel
+    url: https://www.aowiki.uk/pages/npc_steel-spy-angel.html
+- name_raw: Pestle Guard
+  location_raw: (53,140)
+  description_raw: Gives quest Missing Necklace .
+  links:
+  - text_raw: Pestle Guard
+    url: https://www.aowiki.uk/pages/npc_pestle-guard.html
+- name_raw: Chief
+  location_raw: (43,154)
+  description_raw: Gives quests Plateau Monkey and Lizardman‘s Constant Attack .
+  links:
+  - text_raw: Chief
+    url: https://www.aowiki.uk/pages/npc_chief.html
+- name_raw: Biologist
+  location_raw: (86,48)
+  description_raw: Gives quest Collecting Lizardman‘s Bone .
+  links:
+  - text_raw: Biologist
+    url: https://www.aowiki.uk/pages/npc_biologist.html
+- name_raw: Sam
+  location_raw: (96,44)
+  description_raw: 'Gives quest series: Picking Cactus Fruit , Knack for Promotion and Reporting Achievement .'
+  links:
+  - text_raw: Sam
+    url: https://www.aowiki.uk/pages/npc_sam.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Fan
+  location_raw: (71,18)
+  description_raw: Exchange 1 silver badge for gift box.
+  links:
+  - text_raw: Badge Fan
+    url: https://www.aowiki.uk/pages/npc_badge-fan.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (10,140)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Steel Totem
+  location_raw: (89,105)
+  description_raw: Revive here if of Steel Faction.
+  links:
+  - text_raw: Steel Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+quest_rows:
+- row_id: cactus-plain__t003r0001
+  name_raw: Plateau Monkey
+  row_raw:
+    Quest Name: Plateau Monkey
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 15-30
+    Reward: Exp+530, Credit+25
+    Short Description: Defeat 20 Plateau Monkeys .
+  quest_links:
+  - text_raw: Plateau Monkey
+    url: https://www.aowiki.uk/pages/quest_plateau-monkey.html
+- row_id: cactus-plain__t003r0002
+  name_raw: Lizardman‘s Constant Attack
+  row_raw:
+    Quest Name: Lizardman‘s Constant Attack
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 15-30
+    Reward: Exp+450, Credit+25
+    Short Description: Defeat 20 Spear Lizardmen .
+  quest_links:
+  - text_raw: Lizardman‘s Constant Attack
+    url: https://www.aowiki.uk/pages/quest_lizardman-s-constant-attack.html
+- row_id: cactus-plain__t003r0003
+  name_raw: Missing Necklace
+  row_raw:
+    Quest Name: Missing Necklace
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 15+
+    Reward: Gold+500, Exp+800, Credit+55
+    Short Description: Obtain the Love Necklace by defeating Plateau Monkeys .
+  quest_links:
+  - text_raw: Missing Necklace
+    url: https://www.aowiki.uk/pages/quest_missing-necklace.html
+- row_id: cactus-plain__t003r0004
+  name_raw: Collecting Lizardman‘s Bone
+  row_raw:
+    Quest Name: Collecting Lizardman‘s Bone
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 15+
+    Reward: Gold+600, Exp+1300, Credit+60
+    Short Description: Defeat Ball Lizardmen and obtain Complete Lizard‘s skull, rib, shank and arm bone.
+  quest_links:
+  - text_raw: Collecting Lizardman‘s Bone
+    url: https://www.aowiki.uk/pages/quest_collecting-lizardman-s-bone.html
+- row_id: cactus-plain__t003r0005
+  name_raw: Mysterious Pieces
+  row_raw:
+    Quest Name: Mysterious Pieces
+    Repeat.: 'No'
+    Requirements: Steel Faction;
+    Reward: Exp+400, Credit+35
+    Short Description: While defeating the Ball Lizardmen find the Mystic Piece, take it to Scholar Francise in Iron Castle .
+  quest_links:
+  - text_raw: Mysterious Pieces
+    url: https://www.aowiki.uk/pages/quest_mysterious-pieces.html
+- row_id: cactus-plain__t003r0007
+  name_raw: Picking Cactus Fruit 1 of 3
+  row_raw:
+    Quest Name: Picking Cactus Fruit 1 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 15+
+    Reward: Gold+200, Exp+1200, Credit+65
+    Short Description: Obtain 3 Cactus Fruits by defeating Plateau Monkeys .
+  quest_links:
+  - text_raw: Picking Cactus Fruit
+    url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+- row_id: cactus-plain__t003r0008
+  name_raw: Knack for Promotion 2 of 3
+  row_raw:
+    Quest Name: Knack for Promotion 2 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 15+ Completed quest Picking Cactus Fruit
+    Reward: Gold+200, Exp+1200, Credit+370, Item
+    Short Description: Defeat the boss, Lizard Lisad and bring its head to Sam.
+  quest_links:
+  - text_raw: Knack for Promotion
+    url: https://www.aowiki.uk/pages/quest_knack-for-promotion.html
+  - text_raw: Picking Cactus Fruit
+    url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+- row_id: cactus-plain__t003r0009
+  name_raw: Reporting Achievement 3 of 3
+  row_raw:
+    Quest Name: Reporting Achievement 3 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 15+ Completed quest Knack for Promotion
+    Reward: Exp+400, Credit+20
+    Short Description: Go to Burning Desert and report Sam‘s success to General Allie .
+  quest_links:
+  - text_raw: Reporting Achievement
+    url: https://www.aowiki.uk/pages/quest_reporting-achievement.html
+  - text_raw: Knack for Promotion
+    url: https://www.aowiki.uk/pages/quest_knack-for-promotion.html
+- row_id: cactus-plain__t003r0011
+  name_raw: Killing Plateau Monkey Asmode 3 of 8
+  row_raw:
+    Quest Name: Killing Plateau Monkey Asmode 3 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Searching for Spy Angel 3
+    Reward: Exp+1500, Credit+60, 10 Common Red Potion
+    Short Description: Defeat 50 Plateau Monkeys to prove your ability to the Spy Angel.
+  quest_links:
+  - text_raw: Killing Plateau Monkey
+    url: https://www.aowiki.uk/pages/quest_killing-plateau-monkey.html
+  - text_raw: Searching for Spy Angel 3
+    url: https://www.aowiki.uk/pages/quest_steel-searching-for-spy-angel-3.html
+- row_id: cactus-plain__t003r0012
+  name_raw: Disguise Asmode 4 of 8
+  row_raw:
+    Quest Name: Disguise Asmode 4 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Killing Plateau Monkey
+    Reward: Gold+500, Exp+2000, Credit+80
+    Short Description: Go to Gebuer Vale and defeat Gebuers until you obtain the Gebuer Army Badge. Return with it to the Spy Angel.
+  quest_links:
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+  - text_raw: Killing Plateau Monkey
+    url: https://www.aowiki.uk/pages/quest_killing-plateau-monkey.html
+- row_id: cactus-plain__t003r0013
+  name_raw: Obtaining Asmode's Trust Asmode 5 of 8
+  row_raw:
+    Quest Name: Obtaining Asmode's Trust Asmode 5 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Disguise
+    Reward: Exp+400, Credit+35
+    Short Description: Go to Burning Desert and speak with Asmode .
+  quest_links:
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_steel-obtaining-asmodes-trust.html
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 72
+discovered_quest_pages:
+- quest_collecting-lizardman-s-bone.html
+- quest_killing-plateau-monkey.html
+- quest_knack-for-promotion.html
+- quest_lizardman-s-constant-attack.html
+- quest_missing-necklace.html
+- quest_mysterious-pieces.html
+- quest_picking-cactus-fruit.html
+- quest_plateau-monkey.html
+- quest_reporting-achievement.html
+- quest_steel-disguise.html
+- quest_steel-obtaining-asmodes-trust.html
+- quest_steel-searching-for-spy-angel-3.html

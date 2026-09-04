@@ -1,0 +1,151 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: shining-coast
+  name_raw: Shining Coast
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:shining-coast
+  retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+npcs:
+- name_raw: Young Farmer
+  location_raw: (222,241)
+  description_raw: 'Gives quest: Pupu Turtle and Pup Crab'
+  links:
+  - text_raw: Young Farmer
+    url: https://www.aowiki.uk/pages/npc_young-farmer.html
+- name_raw: Mouther
+  location_raw: (108,164)
+  description_raw: 'Gives quest: Boaster'
+  links:
+  - text_raw: Mouther
+    url: https://www.aowiki.uk/pages/npc_mouther.html
+- name_raw: Lad Stany
+  location_raw: (39,213)
+  description_raw: 'Gives quest: Meeting Robbers'
+  links:
+  - text_raw: Lad Stany
+    url: https://www.aowiki.uk/pages/npc_lad-stany.html
+- name_raw: Dock Oldman
+  location_raw: (17,214)
+  description_raw: 'Gives quest: Find out Pollution Source'
+  links:
+  - text_raw: Dock Oldman
+    url: https://www.aowiki.uk/pages/npc_dock-oldman.html
+- name_raw: Sheel Girl
+  location_raw: (167,14)
+  description_raw: 'Gives quest: Girl''s Wish'
+  links:
+  - text_raw: Sheel Girl
+    url: https://www.aowiki.uk/pages/npc_sheel-girl.html
+- name_raw: Voyage Officer
+  location_raw: (132,33)
+  description_raw: ''
+  links:
+  - text_raw: Voyage Officer
+    url: https://www.aowiki.uk/pages/npc_voyage-officer.html
+quest_rows:
+- row_id: shining-coast__t002r0001
+  name_raw: Boaster
+  row_raw:
+    Quest Name: Boaster
+    Repeat.: 'Yes'
+    Requirements: Character Lvl 55-60
+    Reward: Exp+1550, Credit+60
+    Short Description: Defeat 30 Color Crabs , and 30 Crab Generals
+  quest_links:
+  - text_raw: Boaster
+    url: https://www.aowiki.uk/pages/quest_boaster.html
+- row_id: shining-coast__t002r0002
+  name_raw: Pupu Turtle and Pup Crab
+  row_raw:
+    Quest Name: Pupu Turtle and Pup Crab
+    Repeat.: 'Yes'
+    Requirements: Character Lvl 60-65
+    Reward: Exp+1650, Credit+60
+    Short Description: Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
+  quest_links:
+  - text_raw: Pupu Turtle and Pup Crab
+    url: https://www.aowiki.uk/pages/quest_pupu-turtle-and-pup-crab.html
+- row_id: shining-coast__t002r0003
+  name_raw: Girl's Wish
+  row_raw:
+    Quest Name: Girl's Wish
+    Repeat.: 'Yes'
+    Requirements: Character Lvl 50+
+    Reward: Card
+    Short Description: Talk to Shoreman at Golden Beach …
+  quest_links:
+  - text_raw: Girl's Wish
+    url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+- row_id: shining-coast__t002r0004
+  name_raw: Find out Pollution Source
+  row_raw:
+    Quest Name: Find out Pollution Source
+    Repeat.: 'No'
+    Requirements: Character Lvl 55+
+    Reward: '?'
+    Short Description: Defeat 20 Color Crabs , and 20 Color Whelks | Get Coast Protector's Heart
+  quest_links:
+  - text_raw: Find out Pollution Source
+    url: https://www.aowiki.uk/pages/quest_find-out-pollution-source.html
+- row_id: shining-coast__t002r0005
+  name_raw: Meeting Robbers 3 of ?
+  row_raw:
+    Quest Name: Meeting Robbers 3 of ?
+    Repeat.: 'No'
+    Requirements: Character Lvl 60+; Finished Quest The Misbehaved Son
+    Reward: '?'
+    Short Description: Defeat Puqi Pirates , and Puqi Pirate Leaders and collect Love Necklaces
+  quest_links:
+  - text_raw: Meeting Robbers
+    url: https://www.aowiki.uk/pages/quest_meeting-robbers.html
+  - text_raw: The Misbehaved Son
+    url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 54
+discovered_quest_pages:
+- quest_boaster.html
+- quest_find-out-pollution-source.html
+- quest_girl-s-wish.html
+- quest_meeting-robbers.html
+- quest_pupu-turtle-and-pup-crab.html
+- quest_the-misbehaved-son.html

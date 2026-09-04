@@ -1,0 +1,130 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_wife-s-present
+title_raw: Wife S Present
+source:
+  origin_url: https://angels.wikidot.com/quest:wife-s-present
+  retrieval_url: https://www.aowiki.uk/pages/quest_wife-s-present.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 312ac622b2b1b94f4d19d6d35feee543c215e1fd5e52358cc781f37acc5756c2
+breadcrumbs_raw: []
+summary_raw: From the Time Box the Executive Chief learns that his wife burried him a present in the graveyards of Memory Cave , he trusts you to go get it for him.
+information_raw: 'Quest Giver Repeatable Series Executive Chief No Yes (2 of 3)
+
+  Previous Quest Next Quest Young Age Forever Love'
+requirements_raw: Faction Lvl Rank Skill Quest Shadow 22+ - - Finished Young Age
+reward_raw: 'Exp. Credit Gold 2320 500 - Items Choose one of: Warrior Cuff , Shooter Gloves , or Jade Gloves'
+walkthrough_raw: Step 1 Talk to the Executive Chief's (301,171). Step 2 Go to (201,41) to dig up the present left to him by his wife. You discover that it has already been dug up! Step
+  3 When you click on the mound, the boss Rotten Wanda in summoned. You must defeat it to obtain the present. Step 4 Take the gift to the Executive Chief.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Young Age: Forever Love
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Executive Chief
+    Repeatable: 'No'
+    Series: Yes (2 of 3)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Young Age
+    Next Quest: Forever Love
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Shadow
+    Lvl: 22+
+    Rank: '-'
+    Skill: '-'
+    Quest: Finished Young Age
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '2320'
+    Credit: '500'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Warrior Cuff , Shooter Gloves , or Jade Gloves'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Memory Cave
+  url: https://www.aowiki.uk/pages/area_memory-cave.html
+- text_raw: Memory Cave
+  url: https://www.aowiki.uk/pages/area_memory-cave.html
+- text_raw: Executive Chief
+  url: https://www.aowiki.uk/pages/npc_executive-chief.html
+- text_raw: Young Age
+  url: https://www.aowiki.uk/pages/quest_young-age.html
+- text_raw: Forever Love
+  url: https://www.aowiki.uk/pages/quest_forever-love.html
+- text_raw: Young Age
+  url: https://www.aowiki.uk/pages/quest_young-age.html
+- text_raw: Warrior Cuff
+  url: https://www.aowiki.uk/pages/item_warrior-cuff.html
+- text_raw: Shooter Gloves
+  url: https://www.aowiki.uk/pages/item_shooter-gloves.html
+- text_raw: Jade Gloves
+  url: https://www.aowiki.uk/pages/item_jade-gloves.html
+- text_raw: Rotten Wanda
+  url: https://www.aowiki.uk/pages/monster_rotten-wanda.html
+matched_target_areas:
+- region: dark
+  area_id: memory-cave
+verification:
+  client_confirmation: pending

@@ -1,0 +1,208 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: mushroom-forest
+  name_raw: Mushroom Forest
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:mushroom-forest
+  retrieval_url: https://www.aowiki.uk/pages/area_mushroom-forest.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 05799c89bf9ba41a98b284fb65cb6fc1e3fe64ae79fe2b614bbe5f146dc9c537
+npcs:
+- name_raw: Botany Assistant
+  location_raw: (185,54)
+  description_raw: Gives the quest Good Spore Collection
+  links:
+  - text_raw: Botany Assistant
+    url: https://www.aowiki.uk/pages/npc_botany-assistant.html
+- name_raw: Newbie wizard
+  location_raw: (177,51)
+  description_raw: Gives the quest Venom Collection
+  links:
+  - text_raw: Newbie wizard
+    url: https://www.aowiki.uk/pages/npc_newbie-wizard.html
+- name_raw: Tailman Pan
+  location_raw: (211,24)
+  description_raw: Gives the serial quests Golden Matsuake , Disappeared Golden Matsuake , Boar Lord and Sacral Praise
+  links:
+  - text_raw: Tailman Pan
+    url: https://www.aowiki.uk/pages/npc_tailman-pan.html
+- name_raw: Tailman Fei
+  location_raw: (37,207)
+  description_raw: Part of the quest Golden Matsuake
+  links:
+  - text_raw: Tailman Fei
+    url: https://www.aowiki.uk/pages/npc_tailman-fei.html
+- name_raw: Tailman Hei
+  location_raw: (207,238)
+  description_raw: Part of the quest Golden Matsuake
+  links:
+  - text_raw: Tailman Hei
+    url: https://www.aowiki.uk/pages/npc_tailman-hei.html
+- name_raw: Robber Hork
+  location_raw: (36,48)
+  description_raw: Gives the quests Hungry Robber and Ancient Books
+  links:
+  - text_raw: Robber Hork
+    url: https://www.aowiki.uk/pages/npc_robber-hork.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Breeze Totem
+  location_raw: (144,190)
+  description_raw: Beast Faction revival place.
+  links:
+  - text_raw: Breeze Totem
+    url: https://www.aowiki.uk/pages/totem_beast.html
+- name_raw: Cupid
+  location_raw: (173,46)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+quest_rows:
+- row_id: mushroom-forest__t002r0001
+  name_raw: Good Spore Collection
+  row_raw:
+    Quest Name: Good Spore Collection
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 10-25
+    Reward: Exp+390, Credit+20
+    Short Description: Defeat Red Mushrooms and collect 10 Good Spores
+  quest_links:
+  - text_raw: Good Spore Collection
+    url: https://www.aowiki.uk/pages/quest_good-spore-collection.html
+- row_id: mushroom-forest__t002r0002
+  name_raw: Venom Collection
+  row_raw:
+    Quest Name: Venom Collection
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 10-25
+    Reward: Exp+450, Credit+20
+    Short Description: Defeat Purple Mushrooms and collect 10 Purple Mushroom Venom
+  quest_links:
+  - text_raw: Venom Collection
+    url: https://www.aowiki.uk/pages/quest_venom-collection.html
+- row_id: mushroom-forest__t002r0004
+  name_raw: Golden Matsuake 1 of 4
+  row_raw:
+    Quest Name: Golden Matsuake 1 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction;
+    Reward: Gold+300, Exp+200, Credit+45
+    Short Description: Go to Tailman Hei and Tailman Fei and ask about the Golden Matsuake
+  quest_links:
+  - text_raw: Golden Matsuake
+    url: https://www.aowiki.uk/pages/quest_golden-matsuake.html
+- row_id: mushroom-forest__t002r0005
+  name_raw: Disappeared Golden Matsuake 2 of 4
+  row_raw:
+    Quest Name: Disappeared Golden Matsuake 2 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 10+; Completed quest Golden Matsuake
+    Reward: Gold+600, Exp+1040, Credit+50
+    Short Description: Defeat Mane Boars to find out if they ate the mushrooms
+  quest_links:
+  - text_raw: Disappeared Golden Matsuake
+    url: https://www.aowiki.uk/pages/quest_disappeared-golden-matsuake.html
+  - text_raw: Golden Matsuake
+    url: https://www.aowiki.uk/pages/quest_golden-matsuake.html
+- row_id: mushroom-forest__t002r0006
+  name_raw: Boar Lord 3 of 4
+  row_raw:
+    Quest Name: Boar Lord 3 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed quest the Disappeared Golden Matsuake
+    Reward: Exp+1520, Credit+360, Item
+    Short Description: Defeat the boss Iron Mane Blaic to get back the mushrooms for Pan
+  quest_links:
+  - text_raw: Boar Lord
+    url: https://www.aowiki.uk/pages/quest_boar-lord.html
+  - text_raw: Disappeared Golden Matsuake
+    url: https://www.aowiki.uk/pages/quest_disappeared-golden-matsuake.html
+- row_id: mushroom-forest__t002r0007
+  name_raw: Sacral Praise 4 of 4
+  row_raw:
+    Quest Name: Sacral Praise 4 of 4
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed the quest Boar Lord
+    Reward: Exp+400, Credit+25
+    Short Description: Deliver an invitation to Shiwand in Cryptic Moon Swamp
+  quest_links:
+  - text_raw: Sacral Praise
+    url: https://www.aowiki.uk/pages/quest_sacral-praise.html
+  - text_raw: Boar Lord
+    url: https://www.aowiki.uk/pages/quest_boar-lord.html
+- row_id: mushroom-forest__t002r0009
+  name_raw: Hungry Robber 1 of 2
+  row_raw:
+    Quest Name: Hungry Robber 1 of 2
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 10+
+    Reward: Exp+1040, Credit+50
+    Short Description: Defeat Red Mushrooms to collect mushroom pieces and Mane Boars to collect pork pieces for the Hork to eat
+  quest_links:
+  - text_raw: Hungry Robber
+    url: https://www.aowiki.uk/pages/quest_hungry-robber.html
+- row_id: mushroom-forest__t002r0010
+  name_raw: Ancient Books 2 of 2
+  row_raw:
+    Quest Name: Ancient Books 2 of 2
+    Repeat.: 'No'
+    Requirements: Beast Faction; Completed the quest Hungry Robber
+    Reward: Exp+400, Credit+20
+    Short Description: Go to Breeze Woods and steal an ancient book (Abyssal Saddness) from the library shelf (18,122)
+  quest_links:
+  - text_raw: Ancient Books
+    url: https://www.aowiki.uk/pages/quest_ancient-books.html
+  - text_raw: Hungry Robber
+    url: https://www.aowiki.uk/pages/quest_hungry-robber.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 10
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 71
+discovered_quest_pages:
+- quest_ancient-books.html
+- quest_boar-lord.html
+- quest_disappeared-golden-matsuake.html
+- quest_golden-matsuake.html
+- quest_good-spore-collection.html
+- quest_hungry-robber.html
+- quest_sacral-praise.html
+- quest_venom-collection.html

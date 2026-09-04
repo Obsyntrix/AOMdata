@@ -1,0 +1,119 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_experiment-of-desert-animals
+title_raw: Experiment Of Desert Animals
+source:
+  origin_url: https://angels.wikidot.com/quest:experiment-of-desert-animals
+  retrieval_url: https://www.aowiki.uk/pages/quest_experiment-of-desert-animals.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: c18691e032aa9296ddb231c373000e80ac6d31d6939fd79c640d4433283301d5
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Researcher Kente Steel Faction; Character Lvl 6+; Completed quest Testing Apparatus of Water Resource No
+
+  Previous Quest Next Quest Testing Apparatus of Water Resource Strange Robot
+
+  Summary Researcher Kente needs to study the animals who have been drinking the polluted water. Get him 10 toad boddies by defeating Ocher Toads and 10 lizard bodies by defeating Desert
+  Lizards
+
+  Reward 850 Experience, 40 Credit 5 Red Potion'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Details here. Step 2 Details here.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Testing Apparatus of Water Resource: Strange Robot
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Researcher Kente
+    Requirements: Steel Faction; Character Lvl 6+; Completed quest Testing Apparatus of Water Resource
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Testing Apparatus of Water Resource
+    Next Quest: Strange Robot
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Researcher Kente needs to study the animals who have been drinking the polluted water. Get him 10 toad boddies by defeating Ocher Toads and 10 lizard bodies by defeating
+      Desert Lizards
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 850 Experience, 40 Credit 5 Red Potion
+- table_index: 5
+  headers_raw:
+  - Step 1 Details here. Step 2 Details here.
+  rows_raw: []
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Wishing Tear
+  url: https://www.aowiki.uk/pages/area_wishing-tear.html
+- text_raw: Testing Apparatus of Water Resource
+  url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+- text_raw: Testing Apparatus of Water Resource
+  url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+- text_raw: Strange Robot
+  url: https://www.aowiki.uk/pages/quest_strange-robot.html
+- text_raw: Ocher Toads
+  url: https://www.aowiki.uk/pages/monster_ocher-toad.html
+- text_raw: Desert Lizards
+  url: https://www.aowiki.uk/pages/monster_desert-lizard.html
+- text_raw: Red Potion
+  url: https://www.aowiki.uk/pages/item_red-potion.html
+matched_target_areas:
+- region: steel
+  area_id: wishing-tear
+verification:
+  client_confirmation: pending

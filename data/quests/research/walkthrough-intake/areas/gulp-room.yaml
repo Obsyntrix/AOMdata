@@ -1,0 +1,59 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: gulp-room
+  name_raw: Gulp Room
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:gulp-room
+  retrieval_url: https://www.aowiki.uk/pages/area_gulp-room.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 004277d20d9ccd58efda4c5aa7c8f4dfe4efa81091a91a41b762c4ca27a31399
+npcs:
+- name_raw: Hank
+  location_raw: (30,140)
+  description_raw: Quest Giver
+  links:
+  - text_raw: Hank
+    url: https://www.aowiki.uk/pages/npc_hank.html
+quest_rows:
+- row_id: gulp-room__t002r0001
+  name_raw: Last Survivor
+  row_raw:
+    Quest Name: Last Survivor
+    Requirements: lvl ?
+    Reward: '?'
+  quest_links:
+  - text_raw: Last Survivor
+    url: https://www.aowiki.uk/pages/quest_last-survivor.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 42
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 227
+discovered_quest_pages:
+- quest_last-survivor.html

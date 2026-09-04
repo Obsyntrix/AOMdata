@@ -1,0 +1,212 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: fungus-forest-south
+  name_raw: Fungus Forest South
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:fungus-forest-south
+  retrieval_url: https://www.aowiki.uk/pages/area_fungus-forest-south.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a04d82fd5589d2ca93e03136e9e46748bd38a1ad8df51b32ba46a4f08a5657c5
+npcs:
+- name_raw: Merchant Pierce
+  location_raw: (?,?)
+  description_raw: Gives quest Mischievous Imp .
+  links:
+  - text_raw: Merchant Pierce
+    url: https://www.aowiki.uk/pages/npc_merchant-pierce.html
+- name_raw: Sleepless Nick
+  location_raw: (?,?)
+  description_raw: Gives quest Worry of Insomnia .
+  links:
+  - text_raw: Sleepless Nick
+    url: https://www.aowiki.uk/pages/npc_sleepless-nick.html
+- name_raw: Miss Diana
+  location_raw: (?,?)
+  description_raw: Gives quests Teacher's Difficulty and Giving a Bad Child a Lesson .
+  links:
+  - text_raw: Miss Diana
+    url: https://www.aowiki.uk/pages/npc_miss-diana.html
+- name_raw: Symbol Master
+  location_raw: (?,?)
+  description_raw: Gives quest Paopao's Dew .
+  links:
+  - text_raw: Symbol Master
+    url: https://www.aowiki.uk/pages/npc_symbol-master.html
+- name_raw: Nazarite
+  location_raw: (?,?)
+  description_raw: 'Gives quest series: Trainer‘s Curiosity , Crybaby‘s Knack , Misunderstanding and Kinship Between Father and Son .'
+  links:
+  - text_raw: Nazarite
+    url: https://www.aowiki.uk/pages/npc_nazarite.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Dark City Totem
+  location_raw: (?,?)
+  description_raw: Shadow Faction revival place.
+  links:
+  - text_raw: Dark City Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+- name_raw: Cupid
+  location_raw: (?,?)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+quest_rows:
+- row_id: fungus-forest-south__t002r0001
+  name_raw: Mischievous Imp
+  row_raw:
+    Quest Name: Mischievous Imp
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Character Lvl 10+
+    Reward: Exp+850, Credit+35
+    Short Description: Defeat 20 Imps .
+  quest_links:
+  - text_raw: Mischievous Imp
+    url: https://www.aowiki.uk/pages/quest_mischievous-imp.html
+- row_id: fungus-forest-south__t002r0002
+  name_raw: Teacher's Difficulty
+  row_raw:
+    Quest Name: Teacher's Difficulty
+    Repeat.: 'Yes'
+    Requirements: Shadow Faction; Character lvl 10-25
+    Reward: Exp+390, Credit+20
+    Short Description: Defeat 20 Imps .
+  quest_links:
+  - text_raw: Teacher's Difficulty
+    url: https://www.aowiki.uk/pages/quest_teacher-s-difficulty.html
+- row_id: fungus-forest-south__t002r0003
+  name_raw: Worry of Insomnia
+  row_raw:
+    Quest Name: Worry of Insomnia
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Character lvl 10+
+    Reward: Exp+950, Credit+35
+    Short Description: Defeat 20 Crybabies .
+  quest_links:
+  - text_raw: Worry of Insomnia
+    url: https://www.aowiki.uk/pages/quest_worry-of-insomnia.html
+- row_id: fungus-forest-south__t002r0004
+  name_raw: Paopao's Dew
+  row_raw:
+    Quest Name: Paopao's Dew
+    Repeat.: 'Yes'
+    Requirements: Shadow Faction; Character lvl 10-25
+    Reward: Exp+390, Credit+20
+    Short Description: Defeat Paopao and collect 10 drops of Dew.
+  quest_links:
+  - text_raw: Paopao's Dew
+    url: https://www.aowiki.uk/pages/quest_paopao-s-dew.html
+- row_id: fungus-forest-south__t002r0006
+  name_raw: Giving a Bad Child a Lesson
+  row_raw:
+    Quest Name: Giving a Bad Child a Lesson
+    Repeat.: 'Yes'
+    Requirements: Shadow Faction; Character lvl 20+
+    Reward: Card
+    Short Description: Defeat Imps and collect 1 Teaching Certificate (Imp Card).
+  quest_links:
+  - text_raw: Giving a Bad Child a Lesson
+    url: https://www.aowiki.uk/pages/quest_giving-a-bad-child-a-lesson.html
+- row_id: fungus-forest-south__t002r0008
+  name_raw: Trainer‘s Curiosity 1 of 4
+  row_raw:
+    Quest Name: Trainer‘s Curiosity 1 of 4
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Character lvl 10+
+    Reward: Exp+1000, Credit+50
+    Short Description: Defeat Crybabies until you have obtained Wrinkled Paper clue.
+  quest_links:
+  - text_raw: Trainer‘s Curiosity
+    url: https://www.aowiki.uk/pages/quest_trainer-s-curiosity.html
+- row_id: fungus-forest-south__t002r0009
+  name_raw: Crybaby‘s Knack 2 of 4
+  row_raw:
+    Quest Name: Crybaby‘s Knack 2 of 4
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Finished quest Trainer‘s Curiosity
+    Reward: Exp+1000, Credit+50, Gold+600
+    Short Description: Defeat Crybabies until you have obtained three books of the Spirit Secret.
+  quest_links:
+  - text_raw: Crybaby‘s Knack
+    url: https://www.aowiki.uk/pages/quest_crybaby-s-knack.html
+  - text_raw: Trainer‘s Curiosity
+    url: https://www.aowiki.uk/pages/quest_trainer-s-curiosity.html
+- row_id: fungus-forest-south__t002r0010
+  name_raw: Misunderstanding 3 of 4
+  row_raw:
+    Quest Name: Misunderstanding 3 of 4
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Finished quest Crybaby‘s Knack
+    Reward: Exp+1520, Credit+300, Item
+    Short Description: Defeat Rage Fire Elf summoned by the Nazarite.
+  quest_links:
+  - text_raw: Misunderstanding
+    url: https://www.aowiki.uk/pages/quest_misunderstanding.html
+  - text_raw: Crybaby‘s Knack
+    url: https://www.aowiki.uk/pages/quest_crybaby-s-knack.html
+- row_id: fungus-forest-south__t002r0011
+  name_raw: Kinship Between Father and Son 4 of 4
+  row_raw:
+    Quest Name: Kinship Between Father and Son 4 of 4
+    Repeat.: 'No'
+    Requirements: Shadow Faction; Finished quest Misunderstanding
+    Reward: Exp+200, Credit+20
+    Short Description: Take a letter to the Nazarite‘s father (Chief Esmat) in Bottomless Pit .
+  quest_links:
+  - text_raw: Kinship Between Father and Son
+    url: https://www.aowiki.uk/pages/quest_kinship-between-father-and-son.html
+  - text_raw: Misunderstanding
+    url: https://www.aowiki.uk/pages/quest_misunderstanding.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 51
+discovered_quest_pages:
+- quest_crybaby-s-knack.html
+- quest_giving-a-bad-child-a-lesson.html
+- quest_kinship-between-father-and-son.html
+- quest_mischievous-imp.html
+- quest_misunderstanding.html
+- quest_paopao-s-dew.html
+- quest_teacher-s-difficulty.html
+- quest_trainer-s-curiosity.html
+- quest_worry-of-insomnia.html

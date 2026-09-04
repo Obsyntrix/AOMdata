@@ -1,0 +1,117 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_collect-cuss-ball
+title_raw: Collect Cuss Ball
+source:
+  origin_url: https://angels.wikidot.com/quest:collect-cuss-ball
+  retrieval_url: https://www.aowiki.uk/pages/quest_collect-cuss-ball.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 233bee57cde9c2d6beff2ec46a81ebbf24dccd443da8e0b774c48b2062f39fc9
+breadcrumbs_raw: []
+summary_raw: The Fog Lizards have a potent weapon and the Night Merchant asks you to retrieve 10 of them so that he can study the magic.
+information_raw: 'Quest Giver Repeatable Series Night Merchant Yes No
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest Any 30 to 45 - - -
+reward_raw: Exp. Credit Gold 810 38 - Items -
+walkthrough_raw: Step 1 Speak to the Night Merchant (). Step 2 Defeat Fog Lizards until you obtain 10 Cuss Balls. Step 3 Give them to the Night Merchant. _
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Night Merchant
+    Repeatable: 'Yes'
+    Series: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Any
+    Lvl: 30 to 45
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '810'
+    Credit: '38'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Foggy Forest
+  url: https://www.aowiki.uk/pages/area_foggy-forest.html
+- text_raw: Fog Lizards
+  url: https://www.aowiki.uk/pages/monster_fog-lizard.html
+- text_raw: Night Merchant
+  url: https://www.aowiki.uk/pages/npc_night-merchant.html
+- text_raw: Fog Lizards
+  url: https://www.aowiki.uk/pages/monster_fog-lizard.html
+matched_target_areas:
+- region: dark
+  area_id: foggy-forest
+verification:
+  client_confirmation: pending

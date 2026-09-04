@@ -1,0 +1,238 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: gebuer-vale
+  name_raw: Gebuer Vale
+  region: steel
+source:
+  origin_url: https://angels.wikidot.com/area:gebuer-vale
+  retrieval_url: https://www.aowiki.uk/pages/area_gebuer-vale.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a39fb41e425c6a671b2ee48e43fcff71aa8570d687a34e153f4aa964d4e826ac
+npcs:
+- name_raw: Sword Expert
+  location_raw: (92,35)
+  description_raw: null
+  links:
+  - text_raw: Sword Expert
+    url: https://www.aowiki.uk/pages/shop_sword-expert2.html
+- name_raw: Bow Expert
+  location_raw: (130,36)
+  description_raw: null
+  links:
+  - text_raw: Bow Expert
+    url: https://www.aowiki.uk/pages/shop_bow-expert2.html
+- name_raw: Axe Expert
+  location_raw: (85,32)
+  description_raw: null
+  links:
+  - text_raw: Axe Expert
+    url: https://www.aowiki.uk/pages/shop_axe-expert2.html
+- name_raw: Spear Expert
+  location_raw: (76,30)
+  description_raw: null
+  links:
+  - text_raw: Spear Expert
+    url: https://www.aowiki.uk/pages/shop_spear-expert2.html
+- name_raw: Armament Seller
+  location_raw: (99,40)
+  description_raw: null
+  links:
+  - text_raw: Armament Seller
+    url: https://www.aowiki.uk/pages/shop_armament-seller.html
+- name_raw: Bowset Seller
+  location_raw: (126,39)
+  description_raw: null
+  links:
+  - text_raw: Bowset Seller
+    url: https://www.aowiki.uk/pages/shop_bowset-seller.html
+- name_raw: Mage Gear Seller
+  location_raw: (119,21)
+  description_raw: null
+  links:
+  - text_raw: Mage Gear Seller
+    url: https://www.aowiki.uk/pages/shop_mage-gear-seller2.html
+- name_raw: Life Mage
+  location_raw: (125,23)
+  description_raw: null
+  links:
+  - text_raw: Life Mage
+    url: https://www.aowiki.uk/pages/shop_life-mage2.html
+- name_raw: Wraith Mage
+  location_raw: (129,13)
+  description_raw: null
+  links:
+  - text_raw: Wraith Mage
+    url: https://www.aowiki.uk/pages/shop_wraith-mage2.html
+- name_raw: Earth Mage
+  location_raw: (119,8)
+  description_raw: null
+  links:
+  - text_raw: Earth Mage
+    url: https://www.aowiki.uk/pages/shop_earth-mage2.html
+- name_raw: Chaos Mage
+  location_raw: (123,13)
+  description_raw: null
+  links:
+  - text_raw: Chaos Mage
+    url: https://www.aowiki.uk/pages/shop_chaos-mage2.html
+- name_raw: Senior Smith
+  location_raw: (100,13)
+  description_raw: null
+  links:
+  - text_raw: Senior Smith
+    url: https://www.aowiki.uk/pages/shop_senior-smith.html
+- name_raw: Senior Master
+  location_raw: (106,8)
+  description_raw: null
+  links:
+  - text_raw: Senior Master
+    url: https://www.aowiki.uk/pages/shop_senior-master.html
+- name_raw: Technitian
+  location_raw: (86,16)
+  description_raw: null
+  links:
+  - text_raw: Technitian
+    url: https://www.aowiki.uk/pages/shop_technitian.html
+- name_raw: Bank Clerk
+  location_raw: (114,41)
+  description_raw: null
+  links:
+  - text_raw: Bank Clerk
+    url: https://www.aowiki.uk/pages/shop_bank-clerk.html
+- name_raw: Spy Lude
+  location_raw: (82,262)
+  description_raw: Part of Detecting Fountain quest, gives quest Eternal Glory .
+  links:
+  - text_raw: Spy Lude
+    url: https://www.aowiki.uk/pages/npc_spy-lude.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Expert
+  location_raw: (28,215)
+  description_raw: Exchange Monster Badges.
+  links:
+  - text_raw: Badge Expert
+    url: https://www.aowiki.uk/pages/npc_badge-expert.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Steel Totem
+  location_raw: (102,26)
+  description_raw: Revive here if of Steel Faction.
+  links:
+  - text_raw: Steel Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+quest_rows:
+- row_id: gebuer-vale__t003r0001
+  name_raw: Rotten Bird‘s Feather
+  row_raw:
+    Quest Name: Rotten Bird‘s Feather
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 22-35
+    Reward: Exp+750, Credit+35
+    Short Description: Click on the old totem (115, 45) then defeat Rotten Birds to obtain 10 Rotten Bird‘s Feathers.
+  quest_links:
+  - text_raw: Rotten Bird‘s Feather
+    url: https://www.aowiki.uk/pages/quest_rotten-bird-s-feather.html
+- row_id: gebuer-vale__t003r0002
+  name_raw: Ring of Caravan
+  row_raw:
+    Quest Name: Ring of Caravan
+    Repeat.: 'No'
+    Requirements: Steel Faction;
+    Reward: Exp+480, Credit+45
+    Short Description: While defeating Gebuer obtain an Unclaimed Ring, take it to Burning Desert and speak to the Desert Merchant .
+  quest_links:
+  - text_raw: Ring of Caravan
+    url: https://www.aowiki.uk/pages/quest_ring-of-caravan.html
+- row_id: gebuer-vale__t003r0004
+  name_raw: Eternal Glory
+  row_raw:
+    Quest Name: Eternal Glory
+    Repeat.: 'Yes'
+    Requirements: Any Faction; Character lvl ?
+    Reward: Spy Lude Card
+    Short Description: Give him a Copper Monster Badge.
+  quest_links:
+  - text_raw: Eternal Glory
+    url: https://www.aowiki.uk/pages/quest_eternal-glory.html
+- row_id: gebuer-vale__t003r0006
+  name_raw: Strange Black Feather 1 of 3
+  row_raw:
+    Quest Name: Strange Black Feather 1 of 3
+    Repeat.: 'No'
+    Requirements: Steel Faction;
+    Reward: Exp+400, Credit+30
+    Short Description: Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it, take this to Burning Desert and speak with the Myth Scholar .
+  quest_links:
+  - text_raw: Strange Black Feather
+    url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+- row_id: gebuer-vale__t003r0008
+  name_raw: Evil Student Leader Asmode 8 of 8
+  row_raw:
+    Quest Name: Evil Student Leader Asmode 8 of 8
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Magic Stone
+    Reward: Exp+5000, Credit+850, Item
+    Short Description: Find Asmode's Den and defeat Asmodeus (boss).
+  quest_links:
+  - text_raw: Evil Student Leader
+    url: https://www.aowiki.uk/pages/quest_steel-evil-student-leader.html
+  - text_raw: Magic Stone
+    url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 15
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 45
+discovered_quest_pages:
+- quest_detecting-fountain.html
+- quest_eternal-glory.html
+- quest_ring-of-caravan.html
+- quest_rotten-bird-s-feather.html
+- quest_steel-evil-student-leader.html
+- quest_steel-magic-stone.html
+- quest_strange-black-feather.html

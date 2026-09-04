@@ -1,0 +1,123 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_unknown-brilliant-necklace
+title_raw: Unknown Brilliant Necklace
+source:
+  origin_url: https://angels.wikidot.com/quest:unknown-brilliant-necklace
+  retrieval_url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 25520caccf68e8ef01a2f598ade81287fb2113a3b165dcae56b93d62f05e47fe
+breadcrumbs_raw: []
+summary_raw: While fighting Piratekin you find a man's broken necklace with an inscription. Perhaps you should take it to the Countrylady and see if she recognizes it.
+information_raw: 'Quest Giver Repeatable Series - No Yes (1 of 3)
+
+  Previous Quest Next Quest - Whether Husband is Alive or Dead'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora - - - -
+reward_raw: Exp. Credit Gold 400 25 800 Items -
+walkthrough_raw: Step 1 You find a Broken Necklace while fighting Piratekin . Step 2 Go to Cherry Village . Step 3 Give the Necklace to the Countrylady who is searching for her husband.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': Whether Husband is Alive or Dead
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: '-'
+    Repeatable: 'No'
+    Series: Yes (1 of 3)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: Whether Husband is Alive or Dead
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: '-'
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '400'
+    Credit: '25'
+    Gold: '800'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Riprap Coast
+  url: https://www.aowiki.uk/pages/area_riprap-coast.html
+- text_raw: Piratekin
+  url: https://www.aowiki.uk/pages/monster_piratekin.html
+- text_raw: '-'
+  url: https://www.aowiki.uk/pages/npc.html
+- text_raw: Whether Husband is Alive or Dead
+  url: https://www.aowiki.uk/pages/quest_whether-husband-is-alive-or-dead.html
+- text_raw: Piratekin
+  url: https://www.aowiki.uk/pages/monster_piratekin.html
+- text_raw: Cherry Village
+  url: https://www.aowiki.uk/pages/area_cherry-village.html
+matched_target_areas:
+- region: aurora
+  area_id: riprap-coast
+- region: aurora
+  area_id: cherry-village
+verification:
+  client_confirmation: pending

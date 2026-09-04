@@ -1,0 +1,118 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_let-s-fight
+title_raw: Let's Fight
+source:
+  origin_url: https://angels.wikidot.com/quest:let-s-fight
+  retrieval_url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: e5332c96622b8aaa84ae79a3265b1b2082b6f5eb85a4f89563f11b606d3f95ad
+breadcrumbs_raw: []
+summary_raw: ???
+information_raw: 'Quest Giver Repeatable Series Traveler Landy No -
+
+  Previous Quest Next Quest - The Misbehaved Son'
+requirements_raw: Faction Lvl Rank Skill Quest - 50+ - - -
+reward_raw: Exp. Credit Gold 32 500 250 16 500 Items -
+walkthrough_raw: Step 1 Speak with Traveler Landy. Step 2 Defeat 35 Puqi Turtles . Step 3 Speak with Traveler Landy. Step 4 Defeat 35 Color Crabs . Step 5 Speak with Traveler Landy.
+  Receive Reward.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': The Misbehaved Son
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Traveler Landy
+    Repeatable: 'No'
+    Series: '-'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: The Misbehaved Son
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: 50+
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: 32 500
+    Credit: '250'
+    Gold: 16 500
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Area Name
+  url: https://www.aowiki.uk/pages/area_area-name.html
+- text_raw: Traveler Landy
+  url: https://www.aowiki.uk/pages/npc_traveler-landy.html
+- text_raw: The Misbehaved Son
+  url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+- text_raw: Puqi Turtles
+  url: https://www.aowiki.uk/pages/monster_puqi-turtle.html
+- text_raw: Color Crabs
+  url: https://www.aowiki.uk/pages/monster_color-crab.html
+matched_target_areas: []
+verification:
+  client_confirmation: pending

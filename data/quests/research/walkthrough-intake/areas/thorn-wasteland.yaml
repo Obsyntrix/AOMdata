@@ -1,0 +1,131 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: thorn-wasteland
+  name_raw: Thorn Wasteland
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:thorn-wasteland
+  retrieval_url: https://www.aowiki.uk/pages/area_thorn-wasteland.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: d1cfe490e353eda55568dbb6b735e43df772c0eed2ed805f3cf72343aa7bcf06
+npcs:
+- name_raw: Pioneer Captain
+  location_raw: (19,51)
+  description_raw: 'Give quests: Fire Barft Killing , Magic Feather Clothes (repeatable)'
+  links:
+  - text_raw: Pioneer Captain
+    url: https://www.aowiki.uk/pages/npc_pioneer-captain.html
+- name_raw: Mammonist Joan
+  location_raw: (161,82)
+  description_raw: 'Give quests: Fight Against Savage Dogface , Reseize Joan''s Brand Handbag (repeatable)'
+  links:
+  - text_raw: Mammonist Joan
+    url: https://www.aowiki.uk/pages/npc_mammonist-joan.html
+- name_raw: Crazy Steve
+  location_raw: (142,121)
+  description_raw: Give quest Hunting Activity
+  links:
+  - text_raw: Crazy Steve
+    url: https://www.aowiki.uk/pages/npc_crazy-steve.html
+quest_rows:
+- row_id: thorn-wasteland__t002r0001
+  name_raw: Fire Barft Killing
+  row_raw:
+    Quest Name: Fire Barft Killing
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1300, Credit+50
+    Short Description: Defeat 40 Fire Barfts
+  quest_links:
+  - text_raw: Fire Barft Killing
+    url: https://www.aowiki.uk/pages/quest_fire-barft-killing.html
+- row_id: thorn-wasteland__t002r0002
+  name_raw: Magic Feather Clothes
+  row_raw:
+    Quest Name: Magic Feather Clothes
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1300, Credit+50
+    Short Description: Defeat Fire Barfts until you obtain 10 Barft's Coats.
+  quest_links:
+  - text_raw: Magic Feather Clothes
+    url: https://www.aowiki.uk/pages/quest_magic-feather-clothes.html
+- row_id: thorn-wasteland__t002r0003
+  name_raw: Fight Against Savage Dogface
+  row_raw:
+    Quest Name: Fight Against Savage Dogface
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1150, Credit+47
+    Short Description: Defeat 40 Savage Dogface
+  quest_links:
+  - text_raw: Fight Against Savage Dogface
+    url: https://www.aowiki.uk/pages/quest_fight-against-savage-dogface.html
+- row_id: thorn-wasteland__t002r0004
+  name_raw: Reseize Joan's Brand Handbag
+  row_raw:
+    Quest Name: Reseize Joan's Brand Handbag
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1210, Credit+48
+    Short Description: Defeat Savage Priests until you obtain 5 bags
+  quest_links:
+  - text_raw: Reseize Joan's Brand Handbag
+    url: https://www.aowiki.uk/pages/quest_reseize-joan-s-brand-handbag.html
+- row_id: thorn-wasteland__t002r0005
+  name_raw: Hunting Activity
+  row_raw:
+    Quest Name: Hunting Activity
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1450, Credit+55
+    Short Description: Defeat Fire Barfts , Savage Priests , Fallen Angels and Burning Monsters - collect 10 Barft Eyeballs, 10 Cursed Masks, 10 Fallen Angel's Feathers and 10 Fire Demon's
+      Spears.
+  quest_links:
+  - text_raw: Hunting Activity
+    url: https://www.aowiki.uk/pages/quest_hunting-activity.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 121
+discovered_quest_pages:
+- quest_fight-against-savage-dogface.html
+- quest_fire-barft-killing.html
+- quest_hunting-activity.html
+- quest_magic-feather-clothes.html
+- quest_reseize-joan-s-brand-handbag.html

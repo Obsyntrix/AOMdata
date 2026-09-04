@@ -1,0 +1,136 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_follow-in-the-footsteps-of-hero
+title_raw: Follow In The Footsteps Of Hero
+source:
+  origin_url: https://angels.wikidot.com/quest:follow-in-the-footsteps-of-hero
+  retrieval_url: https://www.aowiki.uk/pages/quest_follow-in-the-footsteps-of-hero.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 261b74bd1d43742f15dc0e970dc7a920c5b62c7c7d976dc6c3b84798cd95155c
+breadcrumbs_raw: []
+summary_raw: Follow what once being done by a hero on a statue
+information_raw: 'Quest Giver Repeatable Series Knight Statue No No
+
+  Previous Quest Next Quest - -'
+requirements_raw: Faction Lvl Rank Skill Quest - - - - -
+reward_raw: 'Exp. Credit Gold 30000 350 16000 Items Choose one of: Item Name , Item Name'
+walkthrough_raw: Step 1 Defeat Wanderer to get Broken Sword. Once done bring it back to Knight Statue Step 2 Some more writing appear on statue. You now need to get Broken Shield by
+  defeating Giant Rotten Fly . Once done bring it back to Knight Statue Step 3 Some more writing appear on statue. You now need to get Broken Armour by defeating Soul Wizard . Once done
+  bring it back to Knight Statue Step 4 Some more writing appear on statue. You now need to get Broken Boot by defeating Enmity Deissy . Once done bring it back to Knight Statue Step
+  5 Once done you receive your reward
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Knight Statue
+    Repeatable: 'No'
+    Series: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: '-'
+    Lvl: '-'
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '30000'
+    Credit: '350'
+    Gold: '16000'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Item Name , Item Name'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Underground Square
+  url: https://www.aowiki.uk/pages/area_underground-square.html
+- text_raw: Knight Statue
+  url: https://www.aowiki.uk/pages/npc_knight-statue.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Item Name
+  url: https://www.aowiki.uk/pages/item_item-name.html
+- text_raw: Wanderer
+  url: https://www.aowiki.uk/pages/monster_wanderer.html
+- text_raw: Knight Statue
+  url: https://www.aowiki.uk/pages/npc_knight-statue.html
+- text_raw: Giant Rotten Fly
+  url: https://www.aowiki.uk/pages/monster_giant-rotten-fly.html
+- text_raw: Knight Statue
+  url: https://www.aowiki.uk/pages/npc_knight-statue.html
+- text_raw: Soul Wizard
+  url: https://www.aowiki.uk/pages/monster_soul-wizard.html
+- text_raw: Knight Statue
+  url: https://www.aowiki.uk/pages/npc_knight-statue.html
+- text_raw: Enmity Deissy
+  url: https://www.aowiki.uk/pages/monster_enmity-deissy.html
+- text_raw: Knight Statue
+  url: https://www.aowiki.uk/pages/npc_knight-statue.html
+matched_target_areas:
+- region: dungeon
+  area_id: underground-square
+verification:
+  client_confirmation: pending

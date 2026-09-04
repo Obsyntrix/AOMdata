@@ -1,0 +1,244 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: degula-maze
+  name_raw: Degula Maze
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:degula-maze
+  retrieval_url: https://www.aowiki.uk/pages/area_degula-maze.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 701302b5b879fe6bd733bf118446e08ff74f31f0d1bd2630965f8a04a95fabc1
+npcs:
+- name_raw: Asmode
+  location_raw: (54,15)
+  description_raw: Evil Student Leader, gives the Asmode series quests.
+  links:
+  - text_raw: Asmode
+    url: https://www.aowiki.uk/pages/npc_shadow-asmode.html
+- name_raw: Melonland Worker
+  location_raw: (38,46)
+  description_raw: Gives the quest Confirmation of picking Pumpkin .
+  links:
+  - text_raw: Melonland Worker
+    url: https://www.aowiki.uk/pages/npc_melonland-worker.html
+- name_raw: Executive Order
+  location_raw: (84,58)
+  description_raw: Gives the quest Robbed Archive .
+  links:
+  - text_raw: Executive Order
+    url: https://www.aowiki.uk/pages/npc_executive-order.html
+- name_raw: Manager Pandora
+  location_raw: (47, 165)
+  description_raw: Gives the quests Annoying Bat and Graveyard destroyer .
+  links:
+  - text_raw: Manager Pandora
+    url: https://www.aowiki.uk/pages/npc_manager-pandora.html
+- name_raw: Degula Duke
+  location_raw: (21,175)
+  description_raw: Gives the quest series Medicine for teeth pain , Bershala and Duke's Invitation
+  links:
+  - text_raw: Degula Duke
+    url: https://www.aowiki.uk/pages/npc_degula-duke.html
+- name_raw: E. Field Helper
+  location_raw: (213,32)
+  description_raw: Part of Confirmation of picking Pumpkin quest; gives the quest Protecting Pumpkin .
+  links:
+  - text_raw: E. Field Helper
+    url: https://www.aowiki.uk/pages/npc_e-field-helper.html
+- name_raw: N. Field Helper
+  location_raw: (215,168)
+  description_raw: Part of Confirmation of picking Pumpkin quest
+  links:
+  - text_raw: N. Field Helper
+    url: https://www.aowiki.uk/pages/npc_n-field-helper.html
+- name_raw: Shadow Totem
+  location_raw: (17, 173)
+  description_raw: Revive here if of Shadow faction
+  links:
+  - text_raw: Shadow Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows:
+- row_id: degula-maze__t002r0001
+  name_raw: Annoying Bat
+  row_raw:
+    Quest Name: Annoying Bat
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 20-35
+    Reward: Exp+590,Credit+30
+    Short Description: Defeat 20 Little Eyes
+  quest_links:
+  - text_raw: Annoying Bat
+    url: https://www.aowiki.uk/pages/quest_annoying-bat.html
+- row_id: degula-maze__t002r0002
+  name_raw: Graveyard Destroyer
+  row_raw:
+    Quest Name: Graveyard Destroyer
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 20-35
+    Reward: Exp+666,Credit+30
+    Short Description: Defeat 20 Evil Leeches
+  quest_links:
+  - text_raw: Graveyard Destroyer
+    url: https://www.aowiki.uk/pages/quest_graveyard-destroyer.html
+- row_id: degula-maze__t002r0003
+  name_raw: Confirmation of Picking Pumpkin
+  row_raw:
+    Quest Name: Confirmation of Picking Pumpkin
+    Repeatable: 'No'
+    Requirements: Shadow Faction;
+    Reward: Exp+200, Credit+35
+    Short Description: 'Collect the reports from the two helpers: E. Field Helper and N. Field Helper .'
+  quest_links:
+  - text_raw: Confirmation of Picking Pumpkin
+    url: https://www.aowiki.uk/pages/quest_confirmation-of-picking-pumpkin.html
+- row_id: degula-maze__t002r0004
+  name_raw: Protecting Pumpkin
+  row_raw:
+    Quest Name: Protecting Pumpkin
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 20+
+    Reward: Exp+800, Credit+65
+    Short Description: Defeat 20 One Eyed Bats .
+  quest_links:
+  - text_raw: Protecting Pumpkin
+    url: https://www.aowiki.uk/pages/quest_protecting-pumpkin.html
+- row_id: degula-maze__t002r0005
+  name_raw: Robbed Archive
+  row_raw:
+    Quest Name: Robbed Archive
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 20+
+    Reward: Exp+1320, Credit+70
+    Short Description: Obtain 1 archive from Evil Leech .
+  quest_links:
+  - text_raw: Robbed Archive
+    url: https://www.aowiki.uk/pages/quest_robbed-archive.html
+- row_id: degula-maze__t002r0007
+  name_raw: Medicine for Teeth Pain 1 of 3
+  row_raw:
+    Quest Name: Medicine for Teeth Pain 1 of 3
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 20+
+    Reward: Gold+1000, Exp+1600, Credit+70, 5 Common Red Potion
+    Short Description: Collect 10 tails from the Little Eye and 10 wings from the One Eyed Bat .
+  quest_links:
+  - text_raw: Medicine for Teeth Pain
+    url: https://www.aowiki.uk/pages/quest_medicine-for-teeth-pain.html
+- row_id: degula-maze__t002r0008
+  name_raw: Bershala 2 of 3
+  row_raw:
+    Quest Name: Bershala 2 of 3
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Medicine for teeth pain
+    Reward: Exp+1920, Credit+350, item
+    Short Description: Defeat 1 Eye Bershala .
+  quest_links:
+  - text_raw: Bershala
+    url: https://www.aowiki.uk/pages/quest_bershala.html
+  - text_raw: Medicine for teeth pain
+    url: https://www.aowiki.uk/pages/quest_medicine-for-teeth-pain.html
+- row_id: degula-maze__t002r0009
+  name_raw: Duke's Invitation 3 of 3
+  row_raw:
+    Quest Name: Duke's Invitation 3 of 3
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Bershala
+    Reward: Exp+400,Credit+30
+    Short Description: Deliver the invitation to Executive Chief of Memory Cave .
+  quest_links:
+  - text_raw: Duke's Invitation
+    url: https://www.aowiki.uk/pages/quest_duke-s-invitation.html
+  - text_raw: Bershala
+    url: https://www.aowiki.uk/pages/quest_bershala.html
+- row_id: degula-maze__t002r0011
+  name_raw: Obtaining Asmode's Trust 5 of 8
+  row_raw:
+    Quest Name: Obtaining Asmode's Trust 5 of 8
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Disguise
+    Reward: Exp+400,Credit+35
+    Short Description: Give the bat badge to Asmode
+  quest_links:
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_shadow-obtaining-asmode-s-trust.html
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+- row_id: degula-maze__t002r0012
+  name_raw: Are you evil enough? 6 of 8
+  row_raw:
+    Quest Name: Are you evil enough? 6 of 8
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Obtaining Asmode's Trust
+    Reward: Exp+500,Credit+25
+    Short Description: Talk to the Spy Angel , and ask the woman in Memory Cave for help.
+  quest_links:
+  - text_raw: Are you evil enough?
+    url: https://www.aowiki.uk/pages/quest_shadow-are-you-evil-enough.html
+  - text_raw: Obtaining Asmode's Trust
+    url: https://www.aowiki.uk/pages/quest_shadow-obtaining-asmodes-trust.html
+- row_id: degula-maze__t002r0013
+  name_raw: Magic Stone 7 of 8
+  row_raw:
+    Quest Name: Magic Stone 7 of 8
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Are you evil enough?
+    Reward: Exp+400,Credit+25
+    Short Description: Go to the secret base in Memory Cave (84,148).
+  quest_links:
+  - text_raw: Magic Stone
+    url: https://www.aowiki.uk/pages/quest_shadow-magic-stone.html
+  - text_raw: Are you evil enough?
+    url: https://www.aowiki.uk/pages/quest_shadow-are-you-evil-enough.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 57
+discovered_quest_pages:
+- quest_annoying-bat.html
+- quest_bershala.html
+- quest_confirmation-of-picking-pumpkin.html
+- quest_duke-s-invitation.html
+- quest_graveyard-destroyer.html
+- quest_medicine-for-teeth-pain.html
+- quest_protecting-pumpkin.html
+- quest_robbed-archive.html
+- quest_shadow-are-you-evil-enough.html
+- quest_shadow-disguise.html
+- quest_shadow-magic-stone.html
+- quest_shadow-obtaining-asmode-s-trust.html
+- quest_shadow-obtaining-asmodes-trust.html

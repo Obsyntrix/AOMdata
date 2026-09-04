@@ -1,0 +1,499 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: aurora-city
+  name_raw: Aurora City
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:aurora-city
+  retrieval_url: https://www.aowiki.uk/pages/area_aurora-city.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 9517403c841576419afdf751958a281dd140c4d964081fecf1ea413de0367905
+npcs:
+- name_raw: Life Mage
+  location_raw: (161,13)
+  description_raw: null
+  links:
+  - text_raw: Life Mage
+    url: https://www.aowiki.uk/pages/shop_life-mage.html
+- name_raw: Chaos Mage
+  location_raw: (155,19)
+  description_raw: null
+  links:
+  - text_raw: Chaos Mage
+    url: https://www.aowiki.uk/pages/shop_chaos-mage.html
+- name_raw: Earth Mage
+  location_raw: (164,25)
+  description_raw: null
+  links:
+  - text_raw: Earth Mage
+    url: https://www.aowiki.uk/pages/shop_earth-mage.html
+- name_raw: Wraith Mage
+  location_raw: (176,19)
+  description_raw: null
+  links:
+  - text_raw: Wraith Mage
+    url: https://www.aowiki.uk/pages/shop_wraith-mage.html
+- name_raw: Pet Expert
+  location_raw: (295,46)
+  description_raw: null
+  links:
+  - text_raw: Pet Expert
+    url: https://www.aowiki.uk/pages/shop_pet-expert.html
+- name_raw: Borg Seller A
+  location_raw: (192,82)
+  description_raw: null
+  links:
+  - text_raw: Borg Seller A
+    url: https://www.aowiki.uk/pages/shop_borg-seller-a.html
+- name_raw: Borg Seller B
+  location_raw: (199,86)
+  description_raw: null
+  links:
+  - text_raw: Borg Seller B
+    url: https://www.aowiki.uk/pages/shop_borg-seller-b.html
+- name_raw: Ride Seller
+  location_raw: (216,93)
+  description_raw: null
+  links:
+  - text_raw: Ride Seller
+    url: https://www.aowiki.uk/pages/shop_aurora-city-ride-seller.html
+- name_raw: Ride Seller C
+  location_raw: (223,97)
+  description_raw: null
+  links:
+  - text_raw: Ride Seller C
+    url: https://www.aowiki.uk/pages/shop_aurora-city-ride-seller-c.html
+- name_raw: W. Plan Seller
+  location_raw: (294,91)
+  description_raw: null
+  links:
+  - text_raw: W. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_w-plan-seller.html
+- name_raw: A. Plan Seller
+  location_raw: (284,88)
+  description_raw: null
+  links:
+  - text_raw: A. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_a-plan-seller.html
+- name_raw: D. Plan Seller
+  location_raw: (211,133)
+  description_raw: null
+  links:
+  - text_raw: D. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_d-plan-seller.html
+- name_raw: C. Plan Seller
+  location_raw: (299,97)
+  description_raw: null
+  links:
+  - text_raw: C. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_c-plan-seller.html
+- name_raw: F. Plan Seller
+  location_raw: (267,155)
+  description_raw: null
+  links:
+  - text_raw: F. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_f-plan-seller.html
+- name_raw: Material Seller
+  location_raw: (241,120)
+  description_raw: null
+  links:
+  - text_raw: Material Seller
+    url: https://www.aowiki.uk/pages/shop_material-seller.html
+- name_raw: Defense Bookman
+  location_raw: (295,141)
+  description_raw: null
+  links:
+  - text_raw: Defense Bookman
+    url: https://www.aowiki.uk/pages/shop_defense-bookman.html
+- name_raw: Sword Expert
+  location_raw: (229,26)
+  description_raw: null
+  links:
+  - text_raw: Sword Expert
+    url: https://www.aowiki.uk/pages/shop_sword-expert.html
+- name_raw: Axe Expert
+  location_raw: (215,47)
+  description_raw: null
+  links:
+  - text_raw: Axe Expert
+    url: https://www.aowiki.uk/pages/shop_axe-expert.html
+- name_raw: Spear Expert
+  location_raw: (211,38)
+  description_raw: null
+  links:
+  - text_raw: Spear Expert
+    url: https://www.aowiki.uk/pages/shop_spear-expert.html
+- name_raw: Bow Expert
+  location_raw: (245,24)
+  description_raw: null
+  links:
+  - text_raw: Bow Expert
+    url: https://www.aowiki.uk/pages/shop_bow-expert.html
+- name_raw: Bow Seller
+  location_raw: (252,21)
+  description_raw: null
+  links:
+  - text_raw: Bow Seller
+    url: https://www.aowiki.uk/pages/shop_bow-seller.html
+- name_raw: Weaponsmith
+  location_raw: (222,43)
+  description_raw: null
+  links:
+  - text_raw: Weaponsmith
+    url: https://www.aowiki.uk/pages/shop_weaponsmith.html
+- name_raw: Lightgear Seller
+  location_raw: (253,27)
+  description_raw: null
+  links:
+  - text_raw: Lightgear Seller
+    url: https://www.aowiki.uk/pages/shop_lightgear-seller.html
+- name_raw: Heavygear Seller
+  location_raw: (227,50)
+  description_raw: null
+  links:
+  - text_raw: Heavygear Seller
+    url: https://www.aowiki.uk/pages/shop_heavygear-seller.html
+- name_raw: Mage Gear Seller
+  location_raw: (174,30)
+  description_raw: null
+  links:
+  - text_raw: Mage Gear Seller
+    url: https://www.aowiki.uk/pages/shop_mage-gear-seller.html
+- name_raw: Healer
+  location_raw: (271,32)
+  description_raw: null
+  links:
+  - text_raw: Healer
+    url: https://www.aowiki.uk/pages/shop_healer.html
+- name_raw: Guard Captain
+  location_raw: (156,114)
+  description_raw: Gives repeatable quests
+  links:
+  - text_raw: Guard Captain
+    url: https://www.aowiki.uk/pages/npc_guard-captain.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Aurora Angel
+  location_raw: (63,161)
+  description_raw: Teleports you to Angel Lyceum.
+  links:
+  - text_raw: Aurora Angel
+    url: https://www.aowiki.uk/pages/npc_aurora-angel.html
+- name_raw: Skill Angel
+  location_raw: (164,165)
+  description_raw: Change your skills. Under level 20 it's free.
+  links:
+  - text_raw: Skill Angel
+    url: https://www.aowiki.uk/pages/npc_skill-angel.html
+- name_raw: Bank Clerk
+  location_raw: (311,148)
+  description_raw: Use your own warehouse or corporation's warehouse.
+  links:
+  - text_raw: Bank Clerk
+    url: https://www.aowiki.uk/pages/npc_bank-clerk.html
+- name_raw: Exploration Head
+  location_raw: (132,36)
+  description_raw: Sells pass for Nightmare cave
+  links:
+  - text_raw: Exploration Head
+    url: https://www.aowiki.uk/pages/npc_exploration-head.html
+- name_raw: Heaven General
+  location_raw: (117,39)
+  description_raw: Sells badge
+  links:
+  - text_raw: Heaven General
+    url: https://www.aowiki.uk/pages/npc_heaven-general.html
+- name_raw: Repair Expert
+  location_raw: (310,61)
+  description_raw: Repairs equipments
+  links:
+  - text_raw: Repair Expert
+    url: https://www.aowiki.uk/pages/npc_repair-expert.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (204,174)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Aurora Totem
+  location_raw: (?,?)
+  description_raw: Aurora Faction revival place.
+  links:
+  - text_raw: Aurora Totem
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+quest_rows:
+- row_id: aurora-city__t003r0001
+  name_raw: Knowing Aurora City
+  row_raw:
+    Quest Name: Knowing Aurora City
+    Repetable: 'No'
+    Requirements: Finished quest Register at Aurora City Angel
+    Reward: Exp+100, Credit+5
+    Short Description: Talk to the Explorer Lim (?,?)
+  quest_links:
+  - text_raw: Knowing Aurora City
+    url: https://www.aowiki.uk/pages/quest_knowing-aurora-city.html
+  - text_raw: Register at Aurora City Angel
+    url: https://www.aowiki.uk/pages/quest_angel-lyceum-register-at-city-angel.html
+- row_id: aurora-city__t003r0002
+  name_raw: Inexperience
+  row_raw:
+    Quest Name: Inexperience
+    Repetable: 'No'
+    Requirements: Finished quest Knowing Aurora City
+    Reward: Exp+100, Credit+5
+    Short Description: Talk to the Guard Captain (156,114)
+  quest_links:
+  - text_raw: Inexperience
+    url: https://www.aowiki.uk/pages/quest_inexperience.html
+  - text_raw: Knowing Aurora City
+    url: https://www.aowiki.uk/pages/quest_knowing-aurora-city.html
+- row_id: aurora-city__t003r0004
+  name_raw: Reaching higher level 1 of 8
+  row_raw:
+    Quest Name: Reaching higher level 1 of 8
+    Repetable: 'No'
+    Requirements: Finished quest Register at Aurora City Angel
+    Reward: Exp+100, Credit+5
+    Short Description: Reach lvl 20 and Rank 2
+  quest_links:
+  - text_raw: Reaching higher level
+    url: https://www.aowiki.uk/pages/quest_aurora-reaching-higher-level.html
+  - text_raw: Register at Aurora City Angel
+    url: https://www.aowiki.uk/pages/quest_register-at-city-angel.html
+- row_id: aurora-city__t003r0005
+  name_raw: Looking for Spy Angel 2 of 8
+  row_raw:
+    Quest Name: Looking for Spy Angel 2 of 8
+    Repetable: 'No'
+    Requirements: Finished quest Reaching higher level
+    Reward: Exp+200, Credit+25
+    Short Description: Go to Dawn Harbor Swamp and speak to the Spy Angel (?,?)
+  quest_links:
+  - text_raw: Looking for Spy Angel
+    url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+  - text_raw: Reaching higher level
+    url: https://www.aowiki.uk/pages/quest_aurora-reaching-higher-level.html
+- row_id: aurora-city__t003r0007
+  name_raw: Killing mice
+  row_raw:
+    Quest Name: Killing mice
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 10-14
+    Reward: Exp+600, Credit+10, Gold+200
+    Short Description: Defeat 30 Field Mice at Spike Farm
+  quest_links:
+  - text_raw: Killing mice
+    url: https://www.aowiki.uk/pages/quest_killing-mice.html
+- row_id: aurora-city__t003r0008
+  name_raw: Seizing Jackstraw Mige
+  row_raw:
+    Quest Name: Seizing Jackstraw Mige
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 10-14
+    Reward: Exp+1200, Credit+30, Gold+800
+    Short Description: Defeat Jackstraw Mige (Boss) at Spike Farm
+  quest_links:
+  - text_raw: Seizing Jackstraw Mige
+    url: https://www.aowiki.uk/pages/quest_seizing-jackstraw-mige.html
+- row_id: aurora-city__t003r0009
+  name_raw: Seizing Pumpkin Banni
+  row_raw:
+    Quest Name: Seizing Pumpkin Banni
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 10-14
+    Reward: Exp+1200, Credit+30, Gold+800
+    Short Description: Defeat Pumpkin Banni (Boss) at Spike Farm
+  quest_links:
+  - text_raw: Seizing Pumpkin Banni
+    url: https://www.aowiki.uk/pages/quest_seizing-pumpkin-banni.html
+- row_id: aurora-city__t003r0010
+  name_raw: Stopping trick
+  row_raw:
+    Quest Name: Stopping trick
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-19
+    Reward: Exp+700, Credit+15, Gold+250
+    Short Description: Defeat 30 Magic Pumpkinmen at Sunflower Plain
+  quest_links:
+  - text_raw: Stopping trick
+    url: https://www.aowiki.uk/pages/quest_stopping-trick.html
+- row_id: aurora-city__t003r0011
+  name_raw: Riverside clearance
+  row_raw:
+    Quest Name: Riverside clearance
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-19
+    Reward: Exp+700, Credit+15, Gold+250
+    Short Description: Defeat 30 Evil Slarms at Sunflower Plain
+  quest_links:
+  - text_raw: Riverside clearance
+    url: https://www.aowiki.uk/pages/quest_riverside-clearance.html
+- row_id: aurora-city__t003r0012
+  name_raw: Evil Pluto
+  row_raw:
+    Quest Name: Evil Pluto
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 15-19
+    Reward: Exp+1400, Credit+45, Gold+910
+    Short Description: Defeat Pumpkin Pluto (Boss) at Sunflower Plain
+  quest_links:
+  - text_raw: Evil Pluto
+    url: https://www.aowiki.uk/pages/quest_evil-pluto.html
+- row_id: aurora-city__t003r0013
+  name_raw: Reason for being dirty
+  row_raw:
+    Quest Name: Reason for being dirty
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 20-24
+    Reward: Exp+850, Credit+18, Gold+270
+    Short Description: Defeat 30 Grey Mice at Dawn Harbor
+  quest_links:
+  - text_raw: Reason for being dirty
+    url: https://www.aowiki.uk/pages/quest_reason-for-being-dirty.html
+- row_id: aurora-city__t003r0014
+  name_raw: Ruffian of harbor
+  row_raw:
+    Quest Name: Ruffian of harbor
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 20-24
+    Reward: Exp+1700, Credit+55, Gold+1100
+    Short Description: Defeat Mousekin Mickey (Boss) at Dawn Harbor
+  quest_links:
+  - text_raw: Ruffian of harbor
+    url: https://www.aowiki.uk/pages/quest_ruffian-of-harbor.html
+- row_id: aurora-city__t003r0015
+  name_raw: Creature from Golden Island
+  row_raw:
+    Quest Name: Creature from Golden Island
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 20-24
+    Reward: Exp+1700, Credit+55, Gold+1100
+    Short Description: Defeat Golden Crab (Boss) at Dawn Harbor
+  quest_links:
+  - text_raw: Creature from Golden Island
+    url: https://www.aowiki.uk/pages/quest_creature-from-golden-island.html
+- row_id: aurora-city__t003r0016
+  name_raw: Seizing Riprap Pirate
+  row_raw:
+    Quest Name: Seizing Riprap Pirate
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 25-29
+    Reward: Exp+950, Credit+20, Gold+310
+    Short Description: Defeat 30 Riprap Pirates at Riprap Coast
+  quest_links:
+  - text_raw: Seizing Riprap Pirate
+    url: https://www.aowiki.uk/pages/quest_seizing-riprap-pirate.html
+- row_id: aurora-city__t003r0017
+  name_raw: Seizing Riprap Pirate Leader
+  row_raw:
+    Quest Name: Seizing Riprap Pirate Leader
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 25-29
+    Reward: Exp+950, Credit+20, Gold+310
+    Short Description: Defeat 30 Piratekins at Riprap Coast
+  quest_links:
+  - text_raw: Seizing Riprap Pirate Leader
+    url: https://www.aowiki.uk/pages/quest_seizing-riprap-pirate-leader.html
+- row_id: aurora-city__t003r0018
+  name_raw: Seizing Sheep Music
+  row_raw:
+    Quest Name: Seizing Sheep Music
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 25-29
+    Reward: Exp+1900, Credit+65, Gold+1240
+    Short Description: Defeat Sheep Music (Boss) at Riprap Coast
+  quest_links:
+  - text_raw: Seizing Sheep Music
+    url: https://www.aowiki.uk/pages/quest_seizing-sheep-music.html
+- row_id: aurora-city__t003r0019
+  name_raw: Bloody spine
+  row_raw:
+    Quest Name: Bloody spine
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 30+
+    Reward: Exp+1080, Credit+25, Gold+350
+    Short Description: Defeat 30 Spine Turtles at Cherry Village
+  quest_links:
+  - text_raw: Bloody spine
+    url: https://www.aowiki.uk/pages/quest_bloody-spine.html
+- row_id: aurora-city__t003r0020
+  name_raw: Coastal devil
+  row_raw:
+    Quest Name: Coastal devil
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 30+
+    Reward: Exp+1400, Credit+75, Gold+2160
+    Short Description: Defeat Evil Crab (Boss) at Cherry Village
+  quest_links:
+  - text_raw: Coastal devil
+    url: https://www.aowiki.uk/pages/quest_coastal-devil.html
+- row_id: aurora-city__t003r0021
+  name_raw: Giant
+  row_raw:
+    Quest Name: Giant
+    Repetable: 'Yes'
+    Requirements: Aurora Faction; Character Lvl 30+
+    Reward: Exp+1400, Credit+75, Gold+2160
+    Short Description: Defeat Blue Potec (Boss) at Cherry Village
+  quest_links:
+  - text_raw: Giant
+    url: https://www.aowiki.uk/pages/quest_giant.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 26
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repetable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 21
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 183
+discovered_quest_pages:
+- quest_angel-lyceum-register-at-city-angel.html
+- quest_aurora-looking-for-spy-angel.html
+- quest_aurora-reaching-higher-level.html
+- quest_bloody-spine.html
+- quest_coastal-devil.html
+- quest_creature-from-golden-island.html
+- quest_evil-pluto.html
+- quest_giant.html
+- quest_inexperience.html
+- quest_killing-mice.html
+- quest_knowing-aurora-city.html
+- quest_reason-for-being-dirty.html
+- quest_register-at-city-angel.html
+- quest_riverside-clearance.html
+- quest_ruffian-of-harbor.html
+- quest_seizing-jackstraw-mige.html
+- quest_seizing-pumpkin-banni.html
+- quest_seizing-riprap-pirate-leader.html
+- quest_seizing-riprap-pirate.html
+- quest_seizing-sheep-music.html
+- quest_stopping-trick.html

@@ -1,0 +1,240 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: shadowy-path
+  name_raw: Shadowy Path
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:shadowy-path
+  retrieval_url: https://www.aowiki.uk/pages/area_shadowy-path.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 1fa0d8d0d941053350b40383794ab6b623892a177dd5e3f1d56f79e6e7d6a3b9
+npcs:
+- name_raw: Sickle Soldier
+  location_raw: (213,143)
+  description_raw: Gives quests Evil Cat's Attack , Hurting Others with Covert Attack and Railway Guard .
+  links:
+  - text_raw: Sickle Soldier
+    url: https://www.aowiki.uk/pages/npc_sickle-soldier.html
+- name_raw: Symbol Merchant
+  location_raw: (228,137)
+  description_raw: Gives quest Drug of Cat Tail .
+  links:
+  - text_raw: Symbol Merchant
+    url: https://www.aowiki.uk/pages/npc_symbol-merchant.html
+- name_raw: Railway Boss
+  location_raw: (224,105)
+  description_raw: 'Gives the series of quests: Railway Boss'' Worry , Missing Key , Annoying Tone and Confirmation of Order for Project Material .'
+  links:
+  - text_raw: Railway Boss
+    url: https://www.aowiki.uk/pages/npc_railway-boss.html
+- name_raw: Worker
+  location_raw: (231,95)
+  description_raw: Gives quest Stolen Gun Powder .
+  links:
+  - text_raw: Worker
+    url: https://www.aowiki.uk/pages/npc_sp-worker.html
+- name_raw: Foreman
+  location_raw: (230,104)
+  description_raw: Gives quest Confirmation of Project Progress .
+  links:
+  - text_raw: Foreman
+    url: https://www.aowiki.uk/pages/npc_foreman.html
+- name_raw: Engineer
+  location_raw: (134,75)
+  description_raw: Part of quest Confirmation of Project Progress .
+  links:
+  - text_raw: Engineer
+    url: https://www.aowiki.uk/pages/npc_sp-engineer.html
+- name_raw: Engineer2
+  location_raw: (213,196)
+  description_raw: Part of quest Confirmation of Project Progress .
+  links:
+  - text_raw: Engineer2
+    url: https://www.aowiki.uk/pages/npc_engineer2.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Collector
+  location_raw: (225,195)
+  description_raw: Exchange 2 Copper Badges.
+  links:
+  - text_raw: Badge Collector
+    url: https://www.aowiki.uk/pages/npc_badge-collector.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Dark City Totem
+  location_raw: (169,124)
+  description_raw: Shadow Faction revival place.
+  links:
+  - text_raw: Dark City Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows:
+- row_id: shadowy-path__t002r0001
+  name_raw: Evil Cat's Attack
+  row_raw:
+    Quest Name: Evil Cat's Attack
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Defeat 20 Evil Cats .
+  quest_links:
+  - text_raw: Evil Cat's Attack
+    url: https://www.aowiki.uk/pages/quest_evil-cat-s-attack.html
+- row_id: shadowy-path__t002r0002
+  name_raw: Hurting Others with Covert Attack
+  row_raw:
+    Quest Name: Hurting Others with Covert Attack
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Defeat 20 Skeletal Snipers .
+  quest_links:
+  - text_raw: Hurting Others with Covert Attack
+    url: https://www.aowiki.uk/pages/quest_hurting-others-with-covert-attack.html
+- row_id: shadowy-path__t002r0004
+  name_raw: Railway Guard
+  row_raw:
+    Quest Name: Railway Guard
+    Repeatable: 'Yes'
+    Requirements: Any Faction; Character lvl 20+
+    Reward: Sickle Soldier Card
+    Short Description: Sickle Soldier needs a better weapon, buy him a 1-star Piercing Hammer.
+  quest_links:
+  - text_raw: Railway Guard
+    url: https://www.aowiki.uk/pages/quest_railway-guard.html
+- row_id: shadowy-path__t002r0006
+  name_raw: Confirmation of Project Progress
+  row_raw:
+    Quest Name: Confirmation of Project Progress
+    Repeatable: 'No'
+    Requirements: Shadow Faction;
+    Reward: Exp+100, Credit+15
+    Short Description: Visit the Engineer and Engineer2 to see their progress, then report back to the Foreman .
+  quest_links:
+  - text_raw: Confirmation of Project Progress
+    url: https://www.aowiki.uk/pages/quest_confirmation-of-project-progress.html
+- row_id: shadowy-path__t002r0007
+  name_raw: Drug of Cat Tail
+  row_raw:
+    Quest Name: Drug of Cat Tail
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 6+
+    Reward: Exp+700, Credit+25
+    Short Description: Defeat Evil Cats and collect 10 of their tails.
+  quest_links:
+  - text_raw: Drug of Cat Tail
+    url: https://www.aowiki.uk/pages/quest_drug-of-cat-tail.html
+- row_id: shadowy-path__t002r0008
+  name_raw: Stolen Gun Powder
+  row_raw:
+    Quest Name: Stolen Gun Powder
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 6+
+    Reward: Exp+600, Credit+25, Gold+150
+    Short Description: Defeat Red-cloth Skulls to obtain the stolen dynamite.
+  quest_links:
+  - text_raw: Stolen Gun Powder
+    url: https://www.aowiki.uk/pages/quest_stolen-gun-powder.html
+- row_id: shadowy-path__t002r0010
+  name_raw: Railway Boss' Worry 1 of 4
+  row_raw:
+    Quest Name: Railway Boss' Worry 1 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 6+
+    Reward: Exp+700, Credit+30
+    Short Description: Defeat 20 Red Cloth Skulls .
+  quest_links:
+  - text_raw: Railway Boss' Worry
+    url: https://www.aowiki.uk/pages/quest_railway-boss-worry.html
+- row_id: shadowy-path__t002r0011
+  name_raw: Missing Key 2 of 4
+  row_raw:
+    Quest Name: Missing Key 2 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Completed Quest Railway Boss' Worry
+    Reward: Exp+600, Credit+25, Gold+200, 5 Red Potions
+    Short Description: Defeat Evil Cats to obtain the safe's key.
+  quest_links:
+  - text_raw: Missing Key
+    url: https://www.aowiki.uk/pages/quest_missing-key.html
+  - text_raw: Railway Boss' Worry
+    url: https://www.aowiki.uk/pages/quest_railway-boss-worry.html
+- row_id: shadowy-path__t002r0012
+  name_raw: Annoying Tone 3 of 4
+  row_raw:
+    Quest Name: Annoying Tone 3 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Completed Quest Missing Key
+    Reward: Exp+1140, Credit+160, Item
+    Short Description: Defeat the boss Giant Cat Cinlo to take its bell.
+  quest_links:
+  - text_raw: Annoying Tone
+    url: https://www.aowiki.uk/pages/quest_annoying-tone.html
+  - text_raw: Missing Key
+    url: https://www.aowiki.uk/pages/quest_missing-key.html
+- row_id: shadowy-path__t002r0013
+  name_raw: Confirmation of Order for Project Material 4 of 4
+  row_raw:
+    Quest Name: Confirmation of Order for Project Material 4 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Completed Quest Annoying Tone
+    Reward: Exp+200, Credit+30
+    Short Description: Take an order to Merchant Pierce in Fungus Forest South .
+  quest_links:
+  - text_raw: Confirmation of Order for Project Material
+    url: https://www.aowiki.uk/pages/quest_confirmation-of-order-for-project-material.html
+  - text_raw: Annoying Tone
+    url: https://www.aowiki.uk/pages/quest_annoying-tone.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 60
+discovered_quest_pages:
+- quest_annoying-tone.html
+- quest_confirmation-of-order-for-project-material.html
+- quest_confirmation-of-project-progress.html
+- quest_drug-of-cat-tail.html
+- quest_evil-cat-s-attack.html
+- quest_hurting-others-with-covert-attack.html
+- quest_missing-key.html
+- quest_railway-boss-worry.html
+- quest_railway-guard.html
+- quest_stolen-gun-powder.html

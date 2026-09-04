@@ -1,0 +1,127 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_aurora-showing-speed-and-destroying-force
+title_raw: Showing Speed And Destroying Force
+source:
+  origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 988bf4bca804e5943763a273173efcd0d969d1c91560f988dcf15ffa0dcd9e3d
+breadcrumbs_raw: []
+summary_raw: The Spy Angel asks you to prove your ability by defeating 50 Grey Mice .
+information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode:3 of 8)
+
+  Previous Quest Next Quest Looking for Spy Angel Disguise'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Looking for Spy Angel
+reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
+walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Defeat 50 Grey Mice Step 3 Report back to the Spy Angel
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Looking for Spy Angel: Disguise
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Spy Angel
+    Repeatable: 'No'
+    Series: Yes (Asmode:3 of 8)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Looking for Spy Angel
+    Next Quest: Disguise
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: '20'
+    Rank: '2'
+    Skill: '-'
+    Quest: Finished Looking for Spy Angel
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '1500'
+    Credit: '60'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 10 Commmon Red Potion 1
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Dawn Harbor
+  url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+- text_raw: Grey Mice
+  url: https://www.aowiki.uk/pages/monster_grey-mouse.html
+- text_raw: Spy Angel
+  url: https://www.aowiki.uk/pages/npc_aurora-spy-angel.html
+- text_raw: Looking for Spy Angel
+  url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+- text_raw: Disguise
+  url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+- text_raw: Looking for Spy Angel
+  url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+- text_raw: Commmon Red Potion 1
+  url: https://www.aowiki.uk/pages/item_commmon-red-potion-1.html
+- text_raw: Dawn Harbor
+  url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+- text_raw: Grey Mice
+  url: https://www.aowiki.uk/pages/monster_grey-mouse.html
+matched_target_areas:
+- region: aurora
+  area_id: dawn-harbor
+verification:
+  client_confirmation: pending

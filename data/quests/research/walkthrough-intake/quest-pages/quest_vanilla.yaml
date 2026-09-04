@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_vanilla
+title_raw: Vanilla
+source:
+  origin_url: https://angels.wikidot.com/quest:vanilla
+  retrieval_url: https://www.aowiki.uk/pages/quest_vanilla.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 7b1647b98cd4eed648e1805459d7718f8f009ee10461fc8c8b7de783cb7257da
+breadcrumbs_raw: []
+summary_raw: Scholar Nilsson is too busy with his own work to collect the Vanilla samples, he asks you for help.
+information_raw: 'Quest Giver Repeatable Series Scholar Nilsson No Yes (2 of 4)
+
+  Previous Quest Next Quest Cherry Crab Experiment Potec''s Attack'
+requirements_raw: Faction Lvl Rank Skill Quest Aurora 22+ - - Finished Cherry Crab Experiment
+reward_raw: Exp. Credit Gold 1780 75 1500 Items -
+walkthrough_raw: Step 1 Speak with Scholar Nilsson (158,40). Step 2 Defeat Spine Turtles until you obtain 5 Vanilla Residue samples. Step 3 Give the Vanilla to Scholar Nilsson.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Cherry Crab Experiment: Potec's Attack
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Scholar Nilsson
+    Repeatable: 'No'
+    Series: Yes (2 of 4)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Cherry Crab Experiment
+    Next Quest: Potec's Attack
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Aurora
+    Lvl: 22+
+    Rank: '-'
+    Skill: '-'
+    Quest: Finished Cherry Crab Experiment
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '1780'
+    Credit: '75'
+    Gold: '1500'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Cherry Village
+  url: https://www.aowiki.uk/pages/area_cherry-village.html
+- text_raw: Scholar Nilsson
+  url: https://www.aowiki.uk/pages/npc_scholar-nilsson.html
+- text_raw: Cherry Crab Experiment
+  url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
+- text_raw: Potec's Attack
+  url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+- text_raw: Cherry Crab Experiment
+  url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
+- text_raw: Spine Turtles
+  url: https://www.aowiki.uk/pages/monster_spine-turtle.html
+matched_target_areas:
+- region: aurora
+  area_id: cherry-village
+verification:
+  client_confirmation: pending

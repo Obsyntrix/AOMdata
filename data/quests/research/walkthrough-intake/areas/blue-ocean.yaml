@@ -1,0 +1,82 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: blue-ocean
+  name_raw: Blue Ocean
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:blue-ocean
+  retrieval_url: https://www.aowiki.uk/pages/area_blue-ocean.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 4233e11d584fc43a20d42ae9260cf457aae3046bef16d64e2db36a8ff88777c2
+npcs:
+- name_raw: Shop Name
+  location_raw: (?,?)
+  description_raw: null
+  links:
+  - text_raw: Shop Name
+    url: https://www.aowiki.uk/pages/shop_shop-name.html
+- name_raw: Watt. Lightening
+  location_raw: (44,95)
+  description_raw: Give quest Beauty And the Beast .
+  links:
+  - text_raw: Watt. Lightening
+    url: https://www.aowiki.uk/pages/npc_watt-lightening.html
+quest_rows:
+- row_id: blue-ocean__t003r0001
+  name_raw: Beauty And the Beast
+  row_raw:
+    Quest Name: Beauty And the Beast
+    Repeat.: Yes/No
+    Requirements: XXX Faction; Character lvl XX
+    Reward: Exp+XX, Credit+XX, Gold+XX, Item
+    Short Description: ''
+  quest_links:
+  - text_raw: Beauty And the Beast
+    url: https://www.aowiki.uk/pages/quest_beauty-and-the-beast.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 1
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 11
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 1
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 64
+discovered_quest_pages:
+- quest_beauty-and-the-beast.html

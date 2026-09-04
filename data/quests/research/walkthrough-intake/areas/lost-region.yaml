@@ -1,0 +1,31 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: lost-region
+  name_raw: Lost Region
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:lost-region
+  retrieval_url: https://www.aowiki.uk/pages/area_lost-region.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 019b0d42e8d4944996ee18041069cddb457f8179db6f82ff959873e2796cfe5f
+npcs: []
+quest_rows: []
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 10
+- table_index: 2
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 71
+discovered_quest_pages: []

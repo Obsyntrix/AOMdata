@@ -1,0 +1,127 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_steel-evil-student-union-leader
+title_raw: Steel Evil Student Union Leader
+source:
+  origin_url: https://angels.wikidot.com/quest:steel-evil-student-union-leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-evil-student-union-leader.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 6476fa47f46423000bbb3bc7c6abb9a4e6aeebc9488983f7640a5e55aac691cb
+breadcrumbs_raw: []
+summary_raw: Deafeat the boss, Asmodeus .
+information_raw: 'Quest Giver Repeatable Series After touching the Statue No Yes (Asmode: 8 of 8)
+
+  Previous Quest Next Quest Magic Stone -'
+requirements_raw: Faction Lvl Rank Skill Quest Steel 20+ 2 - Finished Magic Stone
+reward_raw: 'Exp. Credit Gold 5000 850 - Items Choose one of: Vein Wand , Vein Axe , Vein Sword , Vein Bow or Vein Spear'
+walkthrough_raw: Step 1 Defeat Asmodeum. This is not easy and will require some help.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Magic Stone: '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: After touching the Statue
+    Repeatable: 'No'
+    Series: 'Yes (Asmode: 8 of 8)'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Magic Stone
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Steel
+    Lvl: 20+
+    Rank: '2'
+    Skill: '-'
+    Quest: Finished Magic Stone
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '5000'
+    Credit: '850'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: 'Choose one of: Vein Wand , Vein Axe , Vein Sword , Vein Bow or Vein Spear'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Gebuer Vale
+  url: https://www.aowiki.uk/pages/area_gebuer-vale.html
+- text_raw: Asmodeus
+  url: https://www.aowiki.uk/pages/monster_asmodeus.html
+- text_raw: Magic Stone
+  url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+- text_raw: Magic Stone
+  url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+- text_raw: Vein Wand
+  url: https://www.aowiki.uk/pages/item_vein-wand.html
+- text_raw: Vein Axe
+  url: https://www.aowiki.uk/pages/item_vein-axe.html
+- text_raw: Vein Sword
+  url: https://www.aowiki.uk/pages/item_vein-sword.html
+- text_raw: Vein Bow
+  url: https://www.aowiki.uk/pages/item_vein-bow.html
+- text_raw: Vein Spear
+  url: https://www.aowiki.uk/pages/item_vein-spear.html
+matched_target_areas:
+- region: steel
+  area_id: gebuer-vale
+verification:
+  client_confirmation: pending

@@ -1,0 +1,111 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_barft-s-curse
+title_raw: Barft S Curse
+source:
+  origin_url: https://angels.wikidot.com/quest:barft-s-curse
+  retrieval_url: https://www.aowiki.uk/pages/quest_barft-s-curse.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: eb5a5ef13a7a020688bc59d0e54e8d1b126295465747b5c5075c8e4a156230e4
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Warrior Gegen Character lvl 35 to 50 Yes
+
+  Previous Quest Next Quest - -
+
+  Summary Warrior Gegen asks you to get 5 Horns of Barft while defeating Hook Barfts for an antidote to their evil spells.
+
+  Reward 1150 Experience, 45 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Talk to Warrior Gegen . Step 2 Defeat Hook Barfts until you collect 5 Horns of Barft. Step 3 Give them to Warrior Gegen .
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Warrior Gegen
+    Requirements: Character lvl 35 to 50
+    Repeatable?: 'Yes'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Warrior Gegen asks you to get 5 Horns of Barft while defeating Hook Barfts for an antidote to their evil spells.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 1150 Experience, 45 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Dragon Graveyard
+  url: https://www.aowiki.uk/pages/area_dragon-graveyard.html
+- text_raw: Warrior Gegen
+  url: https://www.aowiki.uk/pages/npc_warrior-gegen.html
+- text_raw: Hook Barfts
+  url: https://www.aowiki.uk/pages/monster_hook-barft.html
+- text_raw: Warrior Gegen
+  url: https://www.aowiki.uk/pages/npc_warrior-gegen.html
+- text_raw: Hook Barfts
+  url: https://www.aowiki.uk/pages/monster_hook-barft.html
+- text_raw: Warrior Gegen
+  url: https://www.aowiki.uk/pages/npc_warrior-gegen.html
+matched_target_areas:
+- region: steel
+  area_id: dragon-graveyard
+verification:
+  client_confirmation: pending

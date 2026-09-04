@@ -1,0 +1,113 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: golden-beach
+  name_raw: Golden Beach
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:golden-beach
+  retrieval_url: https://www.aowiki.uk/pages/area_golden-beach.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: dcdc6c6389e3cc29110755e42cba2d2c73172f68b9c5d049762dfc9a5a050ead
+npcs:
+- name_raw: Traveler Landy
+  location_raw: (35,66)
+  description_raw: 'Gives series of quests starting from: Let''s Fight'
+  links:
+  - text_raw: Traveler Landy
+    url: https://www.aowiki.uk/pages/npc_traveler-landy.html
+- name_raw: Lifeguard zhi
+  location_raw: (211,34)
+  description_raw: ''
+  links:
+  - text_raw: Lifeguard zhi
+    url: https://www.aowiki.uk/pages/npc_lifeguard-zhi.html
+- name_raw: Shoreman
+  location_raw: (105,36)
+  description_raw: Part of Girl's Wish quest
+  links:
+  - text_raw: Shoreman
+    url: https://www.aowiki.uk/pages/npc_shoreman.html
+- name_raw: Roger
+  location_raw: (126,34)
+  description_raw: ''
+  links:
+  - text_raw: Roger
+    url: https://www.aowiki.uk/pages/npc_roger.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: DivingCoach Nira
+  location_raw: (232,42)
+  description_raw: Teaches shallow sea diving.
+  links:
+  - text_raw: DivingCoach Nira
+    url: https://www.aowiki.uk/pages/npc_divingcoach-nira.html
+quest_rows:
+- row_id: golden-beach__t002r0001
+  name_raw: Let's Fight 1 of ?
+  row_raw:
+    Quest Name: Let's Fight 1 of ?
+    Repeat.: 'No'
+    Requirements: Character Lvl 50+
+    Reward: Exp+32500, Credit+250, Gold+16500
+    Short Description: Defeat 35 Puqi Turtles and 35 Color Crabs
+  quest_links:
+  - text_raw: Let's Fight
+    url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+- row_id: golden-beach__t002r0002
+  name_raw: The Misbehaved Son 2 of ?
+  row_raw:
+    Quest Name: The Misbehaved Son 2 of ?
+    Repeat.: 'No'
+    Requirements: Finished quest Let's Fight
+    Reward: Exp+6000, Credit+50, Gold+3500
+    Short Description: Talk to Lad Stany at the Shining Coast
+  quest_links:
+  - text_raw: The Misbehaved Son
+    url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+  - text_raw: Let's Fight
+    url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 2
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 8
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 44
+discovered_quest_pages:
+- quest_girl-s-wish.html
+- quest_let-s-fight.html
+- quest_the-misbehaved-son.html

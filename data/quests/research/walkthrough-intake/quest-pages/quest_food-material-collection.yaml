@@ -1,0 +1,129 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_food-material-collection
+title_raw: Food Material Collection
+source:
+  origin_url: https://angels.wikidot.com/quest:food-material-collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_food-material-collection.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 2324be88f575e7c807e4988dade7ee40c1cd427744a200ae2a2508e3f3a397ba
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Chef Boship Finished Quest Investigate Evil Food No
+
+  Previous Quest Next Quest Investigate Evil Food Exposed Plot
+
+  Summary It is said that a Chef is teaching travelers the recipe to a strange dish at the Dragon Graveyard. The Angel Inspector wants you to investigate him.'
+requirements_raw: null
+reward_raw: Exp. Credit Gold - - -
+walkthrough_raw: Step 1 Find Boship and Talk to him. Step 2 Battle Circus Tyrants until you obtain 5/5 Mashed Apples. Battle Tree Elves until you obtain 7/7 Smoky Pitches. Battle Water
+  Goblins until you obtain 10/10 Excitement Drop. Battle Savage Dogfaces until you obtain 10/10 Rotten Beast Meat. (These items will appear in your quest log, not your inventory) Step
+  3 Go with Chef Boship again and answer the quest.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Investigate Evil Food: Exposed Plot
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Chef Boship
+    Requirements: Finished Quest Investigate Evil Food
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Investigate Evil Food
+    Next Quest: Exposed Plot
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: It is said that a Chef is teaching travelers the recipe to a strange dish at the Dragon Graveyard. The Angel Inspector wants you to investigate him.
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '-'
+    Credit: '-'
+    Gold: '-'
+- table_index: 5
+  headers_raw:
+  - Step 1 Find Boship and Talk to him. Step 2 Battle Circus Tyrants until you obtain 5/5 Mashed Apples. Battle Tree Elves until you obtain 7/7 Smoky Pitches. Battle Water Goblins until
+    you obtain 10/10 Excitement Drop. Battle Savage Dogfaces until you obtain 10/10 Rotten Beast Meat. (These items will appear in your quest log, not your inventory) Step 3 Go with
+    Chef Boship again and answer the quest.
+  rows_raw: []
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Dragon Graveyard
+  url: https://www.aowiki.uk/pages/area_dragon-graveyard.html
+- text_raw: Chef Boship
+  url: https://www.aowiki.uk/pages/npc_chef-boship.html
+- text_raw: Investigate Evil Food
+  url: https://www.aowiki.uk/pages/quest_investigate-evil-food.html
+- text_raw: Investigate Evil Food
+  url: https://www.aowiki.uk/pages/quest_investigate-evil-food.html
+- text_raw: Exposed Plot
+  url: https://www.aowiki.uk/pages/quest_exposed-plot.html
+- text_raw: Circus Tyrants
+  url: https://www.aowiki.uk/pages/monster_circus-tyrant.html
+- text_raw: Tree Elves
+  url: https://www.aowiki.uk/pages/monster_tree-elf.html
+- text_raw: Water Goblins
+  url: https://www.aowiki.uk/pages/monster_water-goblin.html
+- text_raw: Savage Dogfaces
+  url: https://www.aowiki.uk/pages/monster_savage-dogface.html
+- text_raw: Chef Boship
+  url: https://www.aowiki.uk/pages/npc_chef-boship.html
+matched_target_areas:
+- region: steel
+  area_id: dragon-graveyard
+verification:
+  client_confirmation: pending

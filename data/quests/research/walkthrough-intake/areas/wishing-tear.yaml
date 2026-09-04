@@ -1,0 +1,228 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: wishing-tear
+  name_raw: Wishing Tear
+  region: steel
+source:
+  origin_url: https://angels.wikidot.com/area:wishing-tear
+  retrieval_url: https://www.aowiki.uk/pages/area_wishing-tear.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 34ca006ebba7960c21b3e03772394e8b7ad52303343efec6ed2c178e0a7b6d0e
+npcs:
+- name_raw: Desert Trip
+  location_raw: (83,105)
+  description_raw: Gives quests Rare Lizard's Skin , and Rare Toad's Skin .
+  links:
+  - text_raw: Desert Trip
+    url: https://www.aowiki.uk/pages/npc_desert-trip.html
+- name_raw: Desert Merchant
+  location_raw: (134,71)
+  description_raw: Gives quest Traveler's Worry .
+  links:
+  - text_raw: Desert Merchant
+    url: https://www.aowiki.uk/pages/npc_desert-merchant.html
+- name_raw: Scrap Collector
+  location_raw: (23,43)
+  description_raw: Gives quest Parts and Desert Mouse .
+  links:
+  - text_raw: Scrap Collector
+    url: https://www.aowiki.uk/pages/npc_scrap-collector.html
+- name_raw: Glutton
+  location_raw: (178,103)
+  description_raw: Gives quests Wild Flavor and Hunting .
+  links:
+  - text_raw: Glutton
+    url: https://www.aowiki.uk/pages/npc_glutton.html
+- name_raw: Researcher Kente
+  location_raw: (148,69)
+  description_raw: 'Gives the serial quests: Testing Apparatus of Water Resource , Experiment of Desert Animals , Strange Robot , and Genius scientist .'
+  links:
+  - text_raw: Researcher Kente
+    url: https://www.aowiki.uk/pages/npc_researcher-kente.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Collector
+  location_raw: (27,144)
+  description_raw: Exchange two Copper Monster Badges for a Secret Gift.
+  links:
+  - text_raw: Badge Collector
+    url: https://www.aowiki.uk/pages/npc_badge-collector.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Iron Totem
+  location_raw: (173,79)
+  description_raw: Steel Faction revival place.
+  links:
+  - text_raw: Iron Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+quest_rows:
+- row_id: wishing-tear__t002r0001
+  name_raw: Rare Lizard's Skin
+  row_raw:
+    Quest Name: Rare Lizard's Skin
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Collect 10 Lizard Skins by defeating Desert Lizards .
+  quest_links:
+  - text_raw: Rare Lizard's Skin
+    url: https://www.aowiki.uk/pages/quest_rare-lizard-s-skin.html
+- row_id: wishing-tear__t002r0002
+  name_raw: Rare Toad's Skin
+  row_raw:
+    Quest Name: Rare Toad's Skin
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Collect 10 Toad Skins by defeating Ocher Toads .
+  quest_links:
+  - text_raw: Rare Toad's Skin
+    url: https://www.aowiki.uk/pages/quest_rare-toad-s-skin.html
+- row_id: wishing-tear__t002r0003
+  name_raw: Parts and Desert Mouse
+  row_raw:
+    Quest Name: Parts and Desert Mouse
+    Repeat.: 'Yes'
+    Requirements: Steel Faction; Character lvl 6+
+    Reward: Exp+270, Credit+10
+    Short Description: Collect 10 Deserted parts by defeating Desert Mice .
+  quest_links:
+  - text_raw: Parts and Desert Mouse
+    url: https://www.aowiki.uk/pages/quest_parts-and-desert-mouse.html
+- row_id: wishing-tear__t002r0005
+  name_raw: Hunting
+  row_raw:
+    Quest Name: Hunting
+    Repeat.: 'Yes'
+    Requirements: none
+    Reward: Card
+    Short Description: Buy Newbie Bow from Bow Seller or Shopkeeper
+  quest_links:
+  - text_raw: Hunting
+    url: https://www.aowiki.uk/pages/quest_hunting.html
+- row_id: wishing-tear__t002r0007
+  name_raw: Traveler's Worry
+  row_raw:
+    Quest Name: Traveler's Worry
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 6+
+    Reward: Gold+150, Exp+650, Credit+30
+    Short Description: Defeat 20 Desert Mice to save the Merchant‘s wares.
+  quest_links:
+  - text_raw: Traveler's Worry
+    url: https://www.aowiki.uk/pages/quest_traveler-s-worry.html
+- row_id: wishing-tear__t002r0008
+  name_raw: Wild Flavor
+  row_raw:
+    Quest Name: Wild Flavor
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 6+
+    Reward: Exp+800, Credit+35
+    Short Description: Defeat 20 Desert Lizards for their meat.
+  quest_links:
+  - text_raw: Wild Flavor
+    url: https://www.aowiki.uk/pages/quest_wild-flavor.html
+- row_id: wishing-tear__t002r0010
+  name_raw: Testing Apparatus of Water Resource 1 of 4
+  row_raw:
+    Quest Name: Testing Apparatus of Water Resource 1 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction;
+    Reward: Gold+250, exp+200, Credit+20
+    Short Description: Go back to Iron Castle to get a gear from Researcher Along .
+  quest_links:
+  - text_raw: Testing Apparatus of Water Resource
+    url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+- row_id: wishing-tear__t002r0011
+  name_raw: Experiment of Desert Animals 2 of 4
+  row_raw:
+    Quest Name: Experiment of Desert Animals 2 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Character lvl 6+; Completed quest Testing Apparatus of Water Resource
+    Reward: Exp+850, Credit+40, 5 Red potion
+    Short Description: Defeat 10 Ocher Toad and 10 Desert Lizard to collect their bodies.
+  quest_links:
+  - text_raw: Experiment of Desert Animals
+    url: https://www.aowiki.uk/pages/quest_experiment-of-desert-animals.html
+  - text_raw: Testing Apparatus of Water Resource
+    url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+- row_id: wishing-tear__t002r0012
+  name_raw: Strange Robot 3 of 4
+  row_raw:
+    Quest Name: Strange Robot 3 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Experiment of Desert Animals
+    Reward: Exp+1150, Credit+160, Item
+    Short Description: Defeat the boss, Stained Robot
+  quest_links:
+  - text_raw: Strange Robot
+    url: https://www.aowiki.uk/pages/quest_strange-robot.html
+  - text_raw: Experiment of Desert Animals
+    url: https://www.aowiki.uk/pages/quest_experiment-of-desert-animals.html
+- row_id: wishing-tear__t002r0013
+  name_raw: Genius scientist 4 of 4
+  row_raw:
+    Quest Name: Genius scientist 4 of 4
+    Repeat.: 'No'
+    Requirements: Steel Faction; Completed quest Strange Robot
+    Reward: Exp+400, Credit+20
+    Short Description: Take the pollution results to the Edison in Scrap Iron Village .
+  quest_links:
+  - text_raw: Genius scientist
+    url: https://www.aowiki.uk/pages/quest_genius-scientist.html
+  - text_raw: Strange Robot
+    url: https://www.aowiki.uk/pages/quest_strange-robot.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 13
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 41
+discovered_quest_pages:
+- quest_experiment-of-desert-animals.html
+- quest_genius-scientist.html
+- quest_hunting.html
+- quest_parts-and-desert-mouse.html
+- quest_rare-lizard-s-skin.html
+- quest_rare-toad-s-skin.html
+- quest_strange-robot.html
+- quest_testing-apparatus-of-water-resource.html
+- quest_traveler-s-worry.html
+- quest_wild-flavor.html

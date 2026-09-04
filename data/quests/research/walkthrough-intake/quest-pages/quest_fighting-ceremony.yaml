@@ -1,0 +1,108 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_fighting-ceremony
+title_raw: Fighting Ceremony
+source:
+  origin_url: https://angels.wikidot.com/quest:fighting-ceremony
+  retrieval_url: https://www.aowiki.uk/pages/quest_fighting-ceremony.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: e9ec6ee5cb5ab15080c11a95e6272cf56c88b5e74ec2c4436475ba1b54b1fe1b
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Jungle Priest Beast Faction; Character Lvl 6 to 20 Yes
+
+  Previous Quest Next Quest - -
+
+  Summary The Jungle priest needs you to help get materials to preform a ceremony, defeat Forest Monkeys and collect 10 Monkey Hairs from them.
+
+  Reward 320 Experience, 10 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak with the Jungle Priest, he will randomly assign you a quest. Step 2 Kill Forest Monkeys until you have obtained 10 Monkey Hairs. . Step 3 Take them to the
+  Jungle Priest.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Jungle Priest
+    Requirements: Beast Faction; Character Lvl 6 to 20
+    Repeatable?: 'Yes'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: The Jungle priest needs you to help get materials to preform a ceremony, defeat Forest Monkeys and collect 10 Monkey Hairs from them.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 320 Experience, 10 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Dense Forest
+  url: https://www.aowiki.uk/pages/area_dense-forest.html
+- text_raw: Jungle Priest
+  url: https://www.aowiki.uk/pages/npc_jungle-priest.html
+- text_raw: Forest Monkeys
+  url: https://www.aowiki.uk/pages/monster_forest-monkey.html
+- text_raw: Forest Monkeys
+  url: https://www.aowiki.uk/pages/monster_forest-monkey.html
+matched_target_areas:
+- region: breeze
+  area_id: dense-forest
+verification:
+  client_confirmation: pending

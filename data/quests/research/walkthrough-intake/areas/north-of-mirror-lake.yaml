@@ -1,0 +1,141 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: north-of-mirror-lake
+  name_raw: North of Mirror Lake
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:north-of-mirror-lake
+  retrieval_url: https://www.aowiki.uk/pages/area_north-of-mirror-lake.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 0a3d04cc221005ba29c33e09e9dd9c1a8cbeb3ded45d1e5b460e6f7553857fa7
+npcs:
+- name_raw: Athlete Cliff
+  location_raw: (139,130)
+  description_raw: Gives quests Unexpected Income and Revive Fishing Industry and Lost Fishing Rod
+  links:
+  - text_raw: Athlete Cliff
+    url: https://www.aowiki.uk/pages/npc_athlete-cliff.html
+- name_raw: Priest Gufu
+  location_raw: (226,3)
+  description_raw: Gives quests Spirit Sample Analyze and Elf‘s Agony
+  links:
+  - text_raw: Priest Gufu
+    url: https://www.aowiki.uk/pages/npc_priest-gufu.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (90,136)
+  description_raw: You can set your revival point here.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Terra Keeper
+  location_raw: (289,117)
+  description_raw: Can transport you to your league's terra, or city
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+quest_rows:
+- row_id: north-of-mirror-lake__t002r0001
+  name_raw: Unexpected Income
+  row_raw:
+    Quest Name: Unexpected Income
+    Repeat.: 'Yes'
+    Requirements: Character lvl 35-50
+    Reward: Exp+1100, Credit+45
+    Short Description: Defeat the Iron Crabs and collect 9 Milky Pearls.
+  quest_links:
+  - text_raw: Unexpected Income
+    url: https://www.aowiki.uk/pages/quest_unexpected-income.html
+- row_id: north-of-mirror-lake__t002r0002
+  name_raw: Revive Fishing Industry
+  row_raw:
+    Quest Name: Revive Fishing Industry
+    Repeat.: 'Yes'
+    Requirements: Character lvl 35-50
+    Reward: Exp+1100, Credit+45
+    Short Description: Defeat 45 Iron Crabs to help Cliff fish.
+  quest_links:
+  - text_raw: Revive Fishing Industry
+    url: https://www.aowiki.uk/pages/quest_revive-fishing-industry.html
+- row_id: north-of-mirror-lake__t002r0003
+  name_raw: Spirit Sample Analyze
+  row_raw:
+    Quest Name: Spirit Sample Analyze
+    Repeat.: 'Yes'
+    Requirements: Character lvl 35-50
+    Reward: Exp+1150, Credit+45
+    Short Description: Defeat Water Goblins to collect 5 Spirit Pieces from them for Analysis.
+  quest_links:
+  - text_raw: Spirit Sample Analyze
+    url: https://www.aowiki.uk/pages/quest_spirit-sample-analyze.html
+- row_id: north-of-mirror-lake__t002r0004
+  name_raw: Elf‘s Agony
+  row_raw:
+    Quest Name: Elf‘s Agony
+    Repeat.: 'Yes'
+    Requirements: Character lvl 35-50
+    Reward: Exp+1150, Credit+45
+    Short Description: Defeat 45 Water Goblins to drive them away.
+  quest_links:
+  - text_raw: Elf‘s Agony
+    url: https://www.aowiki.uk/pages/quest_elf-s-agony.html
+- row_id: north-of-mirror-lake__t002r0005
+  name_raw: Unidentified Treasure Map
+  row_raw:
+    Quest Name: Unidentified Treasure Map
+    Repeat.: 'Yes'
+    Requirements: Character lvl 35-50
+    Reward: Gold+1000, Exp+1650
+    Short Description: ''
+  quest_links:
+  - text_raw: Unidentified Treasure Map
+    url: https://www.aowiki.uk/pages/quest_unidentified-treasure-map.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 90
+discovered_quest_pages:
+- quest_elf-s-agony.html
+- quest_lost-fishing-rod.html
+- quest_revive-fishing-industry.html
+- quest_spirit-sample-analyze.html
+- quest_unexpected-income.html
+- quest_unidentified-treasure-map.html

@@ -1,0 +1,269 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: bottomless-pit
+  name_raw: Bottomless Pit
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:bottomless-pit
+  retrieval_url: https://www.aowiki.uk/pages/area_bottomless-pit.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: ab90b0df465b6099953ce5bcea29871bf10323bbb28b0c0e8c312d724a9024cd
+npcs:
+- name_raw: Adv. Plan Seller
+  location_raw: (157,89)
+  description_raw: null
+  links:
+  - text_raw: Adv. Plan Seller
+    url: https://www.aowiki.uk/pages/shop_adv-plan-seller.html
+- name_raw: Chief Esmat
+  location_raw: (194,89)
+  description_raw: 'Gives quest series: Secret Stamp , The Half of Stamp , Robbed Stamp , and Ancient Mausoleum Gate'
+  links:
+  - text_raw: Chief Esmat
+    url: https://www.aowiki.uk/pages/npc_chief-esmat.html
+- name_raw: Researcher (female)
+  location_raw: (210,82)
+  description_raw: Gives quest Buffoon Coin .
+  links:
+  - text_raw: Researcher
+    url: https://www.aowiki.uk/pages/npc_bp-researcher1.html
+- name_raw: Researcher (male)
+  location_raw: (199,79)
+  description_raw: Gives quest Wizard, Terrorist .
+  links:
+  - text_raw: Researcher
+    url: https://www.aowiki.uk/pages/npc_bp-researcher2.html
+- name_raw: Sickle Soldier
+  location_raw: (220,76)
+  description_raw: Gives quests Wizard, Terrorist and Seizing Fire Mimic .
+  links:
+  - text_raw: Sickle Soldier
+    url: https://www.aowiki.uk/pages/npc_bp-sickle-soldier.html
+- name_raw: Analyst
+  location_raw: (206,69)
+  description_raw: Gives quest Ointment for Scald .
+  links:
+  - text_raw: Analyst
+    url: https://www.aowiki.uk/pages/npc_bp-analyst.html
+- name_raw: Spy Angel
+  location_raw: (314,37)
+  description_raw: 'Gives Asmode series quests: Showing speed and destroying force , Disguise'
+  links:
+  - text_raw: Spy Angel
+    url: https://www.aowiki.uk/pages/npc_shadow-spy-angel.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Fan
+  location_raw: (93,184)
+  description_raw: Exchange 1 silver monster badge for gift box.
+  links:
+  - text_raw: Badge Fan
+    url: https://www.aowiki.uk/pages/npc_badge-fan.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (171,95)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Shadow Totem
+  location_raw: (144,90)
+  description_raw: Revive here if of Shadow Faction.
+  links:
+  - text_raw: Shadow Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows:
+- row_id: bottomless-pit__t003r0001
+  name_raw: Wizard, Terrorist
+  row_raw:
+    Quest Name: Wizard, Terrorist
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Defeat 20 Frantic Wizards
+  quest_links:
+  - text_raw: Wizard, Terrorist
+    url: https://www.aowiki.uk/pages/quest_wizard-terrorist-2.html
+- row_id: bottomless-pit__t003r0002
+  name_raw: Seizing Fire Mimic
+  row_raw:
+    Quest Name: Seizing Fire Mimic
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Defeat 20 Fire Mimics
+  quest_links:
+  - text_raw: Seizing Fire Mimic
+    url: https://www.aowiki.uk/pages/quest_seizing-fire-mimic.html
+- row_id: bottomless-pit__t003r0003
+  name_raw: Ointment for Scald
+  row_raw:
+    Quest Name: Ointment for Scald
+    Repeatable: 'No'
+    Requirements: Shadow Faction; Character lvl 15+
+    Reward: Gold+600, Exp+1360, Credit+55
+    Short Description: Obtain 10 Raven’s Feather by defeating Crow Wizards and 10 Black Agar by defeating Frantic Wizards
+  quest_links:
+  - text_raw: Ointment for Scald
+    url: https://www.aowiki.uk/pages/quest_ointment-for-scald.html
+- row_id: bottomless-pit__t003r0004
+  name_raw: Buffoon Coin
+  row_raw:
+    Quest Name: Buffoon Coin
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Obtain 10 Clown’s Coins by defeating Fire Mimics
+  quest_links:
+  - text_raw: Buffoon Coin
+    url: https://www.aowiki.uk/pages/quest_buffoon-coin.html
+- row_id: bottomless-pit__t003r0005
+  name_raw: Wizard, Terrorist
+  row_raw:
+    Quest Name: Wizard, Terrorist
+    Repeatable: 'Yes'
+    Requirements: Shadow Faction; Character Lvl 15-30
+    Reward: Exp+510, Credit+25
+    Short Description: Defeat 20 Crow Wizards
+  quest_links:
+  - text_raw: Wizard, Terrorist
+    url: https://www.aowiki.uk/pages/quest_wizard-terrorist.html
+- row_id: bottomless-pit__t003r0007
+  name_raw: Secret Stamp 1 of 4
+  row_raw:
+    Quest Name: Secret Stamp 1 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction;
+    Reward: Exp+680, Credit+35
+    Short Description: Obtain 1 Red Seal's Pieces from Frantic Wizards , and show it to Chief Esmat (194,89)
+  quest_links:
+  - text_raw: Secret Stamp
+    url: https://www.aowiki.uk/pages/quest_secret-stamp.html
+- row_id: bottomless-pit__t003r0008
+  name_raw: The Half of Stamp 2 of 4
+  row_raw:
+    Quest Name: The Half of Stamp 2 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Secret Stamp
+    Reward: Gold+800, Exp+400, Credit+60
+    Short Description: 1.Bring Esmat's Letter to Central Official(200,93) in Dark City. 2. Bring the other half of the stamp back to Esmat.
+  quest_links:
+  - text_raw: The Half of Stamp
+    url: https://www.aowiki.uk/pages/quest_the-half-of-stamp.html
+  - text_raw: Secret Stamp
+    url: https://www.aowiki.uk/pages/quest_secret-stamp.html
+- row_id: bottomless-pit__t003r0009
+  name_raw: Robbed Stamp 3 of 4
+  row_raw:
+    Quest Name: Robbed Stamp 3 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest The Half of Stamp
+    Reward: Exp+1360,Credit+25
+    Short Description: Obtain the stolen stamp piece by defeating Fire Mimics
+  quest_links:
+  - text_raw: Robbed Stamp
+    url: https://www.aowiki.uk/pages/quest_robbed-stamp.html
+  - text_raw: The Half of Stamp
+    url: https://www.aowiki.uk/pages/quest_the-half-of-stamp.html
+- row_id: bottomless-pit__t003r0010
+  name_raw: Ancient Mausoleum Gate 4 of 4
+  row_raw:
+    Quest Name: Ancient Mausoleum Gate 4 of 4
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Robbed Stamp
+    Reward: Exp+1680,Credit+320,choose either the pink, brown or yellow Piggy
+    Short Description: 1.Bring the Ancient Key to the northern ancient mausoleum(44,174) 2.Defeat the Giant Grave Elf 3.Take the Gold Seal back to Esmat.
+  quest_links:
+  - text_raw: Ancient Mausoleum Gate
+    url: https://www.aowiki.uk/pages/quest_ancient-mausoleum-gate.html
+  - text_raw: Robbed Stamp
+    url: https://www.aowiki.uk/pages/quest_robbed-stamp.html
+- row_id: bottomless-pit__t003r0012
+  name_raw: Showing speed and destroying force 3 of 8
+  row_raw:
+    Quest Name: Showing speed and destroying force 3 of 8
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Looking for Spy Angel
+    Reward: Exp+1500,Credit+60, 10 Common Red Potion
+    Short Description: Defeat 50 Fire Mimics .
+  quest_links:
+  - text_raw: Showing speed and destroying force
+    url: https://www.aowiki.uk/pages/quest_shadow-showing-speed-and-destroying-force.html
+  - text_raw: Looking for Spy Angel
+    url: https://www.aowiki.uk/pages/quest_shadow-looking-for-spy-angel.html
+- row_id: bottomless-pit__t003r0013
+  name_raw: Disguise 4 of 8
+  row_raw:
+    Quest Name: Disguise 4 of 8
+    Repeatable: 'No'
+    Requirements: Shadow Faction; finished quest Showing speed and destroying force
+    Reward: Exp+1500,Credit+60, 10 Common Red Potion
+    Short Description: Obtain 1 Bat Badge from Evil Leech in Degula Maze .
+  quest_links:
+  - text_raw: Disguise
+    url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+  - text_raw: Showing speed and destroying force
+    url: https://www.aowiki.uk/pages/quest_shadow-showing-speed-and-destroying-force.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 14
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 71
+discovered_quest_pages:
+- quest_ancient-mausoleum-gate.html
+- quest_buffoon-coin.html
+- quest_ointment-for-scald.html
+- quest_robbed-stamp.html
+- quest_secret-stamp.html
+- quest_seizing-fire-mimic.html
+- quest_shadow-disguise.html
+- quest_shadow-looking-for-spy-angel.html
+- quest_shadow-showing-speed-and-destroying-force.html
+- quest_the-half-of-stamp.html
+- quest_wizard-terrorist-2.html
+- quest_wizard-terrorist.html

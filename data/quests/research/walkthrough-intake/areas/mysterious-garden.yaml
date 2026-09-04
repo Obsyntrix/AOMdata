@@ -1,0 +1,275 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: mysterious-garden
+  name_raw: Mysterious Garden
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:mysterious-garden
+  retrieval_url: https://www.aowiki.uk/pages/area_mysterious-garden.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: e6fb48f77287a39c4b6c785e88894b5d954d5196a79e073666fdc41cbd613f76
+npcs:
+- name_raw: Sword Expert
+  location_raw: (10,63)
+  description_raw: null
+  links:
+  - text_raw: Sword Expert
+    url: https://www.aowiki.uk/pages/shop_sword-expert2.html
+- name_raw: Bow Expert
+  location_raw: (16,57)
+  description_raw: null
+  links:
+  - text_raw: Bow Expert
+    url: https://www.aowiki.uk/pages/shop_bow-expert2.html
+- name_raw: Axe Expert
+  location_raw: (24,64)
+  description_raw: null
+  links:
+  - text_raw: Axe Expert
+    url: https://www.aowiki.uk/pages/shop_axe-expert2.html
+- name_raw: Spear Expert
+  location_raw: (18,69)
+  description_raw: null
+  links:
+  - text_raw: Spear Expert
+    url: https://www.aowiki.uk/pages/shop_spear-expert2.html
+- name_raw: Armament Seller
+  location_raw: (7,74)
+  description_raw: null
+  links:
+  - text_raw: Armament Seller
+    url: https://www.aowiki.uk/pages/shop_armament-seller.html
+- name_raw: Bowset Seller
+  location_raw: (13,73)
+  description_raw: null
+  links:
+  - text_raw: Bowset Seller
+    url: https://www.aowiki.uk/pages/shop_bowset-seller.html
+- name_raw: Mage Gear Seller
+  location_raw: (8,66)
+  description_raw: null
+  links:
+  - text_raw: Mage Gear Seller
+    url: https://www.aowiki.uk/pages/shop_mage-gear-seller2.html
+- name_raw: Life Mage
+  location_raw: (28,58)
+  description_raw: null
+  links:
+  - text_raw: Life Mage
+    url: https://www.aowiki.uk/pages/shop_life-mage2.html
+- name_raw: Wraith Mage
+  location_raw: (21,49)
+  description_raw: null
+  links:
+  - text_raw: Wraith Mage
+    url: https://www.aowiki.uk/pages/shop_wraith-mage2.html
+- name_raw: Earth Mage
+  location_raw: (29,43)
+  description_raw: null
+  links:
+  - text_raw: Earth Mage
+    url: https://www.aowiki.uk/pages/shop_earth-mage2.html
+- name_raw: Chaos Mage
+  location_raw: (38,52)
+  description_raw: null
+  links:
+  - text_raw: Chaos Mage
+    url: https://www.aowiki.uk/pages/shop_chaos-mage2.html
+- name_raw: Senior Smith
+  location_raw: (46,39)
+  description_raw: null
+  links:
+  - text_raw: Senior Smith
+    url: https://www.aowiki.uk/pages/shop_senior-smith.html
+- name_raw: Senior Master
+  location_raw: (43,44)
+  description_raw: null
+  links:
+  - text_raw: Senior Master
+    url: https://www.aowiki.uk/pages/shop_senior-master.html
+- name_raw: Badge Expert
+  location_raw: (144,120)
+  description_raw: Can exchange 2 silver badges
+  links:
+  - text_raw: Badge Expert
+    url: https://www.aowiki.uk/pages/npc_badge-expert.html
+- name_raw: Household Hark
+  location_raw: (153,102)
+  description_raw: Gives quest Sleeping Spirit
+  links:
+  - text_raw: Household Hark
+    url: https://www.aowiki.uk/pages/npc_household-hark.html
+- name_raw: Garden Labor
+  location_raw: (266,110) and (79,140)
+  description_raw: Part of Sleeping Spirit quest
+  links:
+  - text_raw: Garden Labor
+    url: https://www.aowiki.uk/pages/npc_garden-labor.html
+- name_raw: Mistress Marlin
+  location_raw: (182,111)
+  description_raw: 'Gives Marlin serial quests: Gaze‘s Grave , Marlin‘s Bone and Reunion'
+  links:
+  - text_raw: Mistress Marlin
+    url: https://www.aowiki.uk/pages/npc_mistress-marlin.html
+- name_raw: Dewy Flower
+  location_raw: (272,73)
+  description_raw: Part of the female marriage quest (see lyceum church)
+  links:
+  - text_raw: Dewy Flower
+    url: https://www.aowiki.uk/pages/npc_dewy-flower.html
+- name_raw: Terra Keeper
+  location_raw: (169,96)
+  description_raw: Can transport you to your league's terra, or city
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+- name_raw: Repair Expert
+  location_raw: (70,43)
+  description_raw: Repairs damaged Equipment
+  links:
+  - text_raw: Repair Expert
+    url: https://www.aowiki.uk/pages/npc_repair-expert.html
+- name_raw: Bank Clerk
+  location_raw: (66,41)
+  description_raw: Use your own warehouse or corporation's warehouse.
+  links:
+  - text_raw: Bank Clerk
+    url: https://www.aowiki.uk/pages/npc_bank-clerk.html
+quest_rows:
+- row_id: mysterious-garden__t003r0001
+  name_raw: Magic Pool
+  row_raw:
+    Quest Name: Magic Pool
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 20-35
+    Reward: Exp+670, Credit+35
+    Short Description: Defeat Garden Elves and collect 10 Star Dusts.
+  quest_links:
+  - text_raw: Magic Pool
+    url: https://www.aowiki.uk/pages/quest_magic-pool.html
+- row_id: mysterious-garden__t003r0003
+  name_raw: Sleeping Spirit
+  row_raw:
+    Quest Name: Sleeping Spirit
+    Repeat.: 'No'
+    Requirements: Beast Faction;
+    Reward: Gold+1000, Exp+800, Credit+50
+    Short Description: Find two sleeping servents.
+  quest_links:
+  - text_raw: Sleeping Spirit
+    url: https://www.aowiki.uk/pages/quest_sleeping-spirit.html
+- row_id: mysterious-garden__t003r0004
+  name_raw: Save Garden
+  row_raw:
+    Quest Name: Save Garden
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 22+
+    Reward: Exp+1800, Credit+65
+    Short Description: Defeat 20 Flaming Roses .
+  quest_links:
+  - text_raw: Save Garden
+    url: https://www.aowiki.uk/pages/quest_save-garden.html
+- row_id: mysterious-garden__t003r0006
+  name_raw: Gaze‘s Grave 1 of 3
+  row_raw:
+    Quest Name: Gaze‘s Grave 1 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction;
+    Reward: Gold+600, Exp+800, Credit+45
+    Short Description: Find the grave of Mistress Marlin's husband.
+  quest_links:
+  - text_raw: Gaze‘s Grave
+    url: https://www.aowiki.uk/pages/quest_gaze-s-grave.html
+- row_id: mysterious-garden__t003r0007
+  name_raw: Marlin‘s Bone 2 of 3
+  row_raw:
+    Quest Name: Marlin‘s Bone 2 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 20+ Finished quest Gaze‘s Grave
+    Reward: Gold+1200, Exp+2000, Credit+75
+    Short Description: Defeat Thunder Rabbits and collect missing bone.
+  quest_links:
+  - text_raw: Marlin‘s Bone
+    url: https://www.aowiki.uk/pages/quest_marlin-s-bone.html
+  - text_raw: Gaze‘s Grave
+    url: https://www.aowiki.uk/pages/quest_gaze-s-grave.html
+- row_id: mysterious-garden__t003r0008
+  name_raw: Reunion 3 of 3
+  row_raw:
+    Quest Name: Reunion 3 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction; Finished quest Marlin‘s Bone
+    Reward: Exp+2300, Credit+550, Item
+    Short Description: Defeat the Rage Elf (boss).
+  quest_links:
+  - text_raw: Reunion
+    url: https://www.aowiki.uk/pages/quest_reunion.html
+  - text_raw: Marlin‘s Bone
+    url: https://www.aowiki.uk/pages/quest_marlin-s-bone.html
+- row_id: mysterious-garden__t003r0010
+  name_raw: Evil Student Leader Asmode 8 of 8
+  row_raw:
+    Quest Name: Evil Student Leader Asmode 8 of 8
+    Repeat.: 'No'
+    Requirements: Beast Faction; Finished quest Magic Stone
+    Reward: Exp+5000, Credit+850, Item
+    Short Description: Find Asmode's Den and defeat Asmodeus (boss).
+  quest_links:
+  - text_raw: Evil Student Leader
+    url: https://www.aowiki.uk/pages/quest_breeze-evil-student-leader.html
+  - text_raw: Magic Stone
+    url: https://www.aowiki.uk/pages/quest_breeze-magic-stone.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 13
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 8
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 44
+discovered_quest_pages:
+- quest_breeze-evil-student-leader.html
+- quest_breeze-magic-stone.html
+- quest_gaze-s-grave.html
+- quest_magic-pool.html
+- quest_marlin-s-bone.html
+- quest_reunion.html
+- quest_save-garden.html
+- quest_sleeping-spirit.html

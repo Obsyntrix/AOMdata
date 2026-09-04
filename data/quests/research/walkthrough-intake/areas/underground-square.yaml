@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: underground-square
+  name_raw: Underground Square
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:underground-square
+  retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+npcs:
+- name_raw: Purified Moppet
+  location_raw: (39,19)
+  description_raw: Repeatable quest
+  links:
+  - text_raw: Purified Moppet
+    url: https://www.aowiki.uk/pages/npc_purified-moppet.html
+- name_raw: Shajier
+  location_raw: (26,87)
+  description_raw: Quest giver
+  links:
+  - text_raw: Shajier
+    url: https://www.aowiki.uk/pages/npc_shajier.html
+- name_raw: Silent Revenge
+  location_raw: (8,131)
+  description_raw: Quest giver
+  links:
+  - text_raw: Silent Revenge
+    url: https://www.aowiki.uk/pages/npc_silent-revenge.html
+- name_raw: Luxious Ba
+  location_raw: (119,68)
+  description_raw: Quest giver
+  links:
+  - text_raw: Luxious Ba
+    url: https://www.aowiki.uk/pages/npc_luxious-ba.html
+- name_raw: Scientist Pony
+  location_raw: (263,23)
+  description_raw: Quest giver
+  links:
+  - text_raw: Scientist Pony
+    url: https://www.aowiki.uk/pages/npc_scientist-pony.html
+quest_rows:
+- row_id: underground-square__t002r0001
+  name_raw: Scattered Will
+  row_raw:
+    Quest Name: Scattered Will
+    Requirements: lvl 75 - ?
+    Reward: 'Exp : 2200 Credit : 65'
+  quest_links:
+  - text_raw: Scattered Will
+    url: https://www.aowiki.uk/pages/quest_scattered-will.html
+- row_id: underground-square__t002r0002
+  name_raw: Searching for Antidote
+  row_raw:
+    Quest Name: Searching for Antidote
+    Requirements: lvl 75 - ?
+    Reward: 'Exp : 2800 Credit : 68'
+  quest_links:
+  - text_raw: Searching for Antidote
+    url: https://www.aowiki.uk/pages/quest_searching-for-antidote.html
+- row_id: underground-square__t002r0003
+  name_raw: Follow in the Footsteps of Hero
+  row_raw:
+    Quest Name: Follow in the Footsteps of Hero
+    Requirements: lvl 75 - ?
+    Reward: 'Exp : ?? Credit : ??'
+  quest_links:
+  - text_raw: Follow in the Footsteps of Hero
+    url: https://www.aowiki.uk/pages/quest_follow-in-the-footsteps-of-hero.html
+- row_id: underground-square__t002r0004
+  name_raw: Boni's Wish
+  row_raw:
+    Quest Name: Boni's Wish
+    Requirements: lvl 75 - ?
+    Reward: 'Exp : ?? Credit : ??'
+  quest_links:
+  - text_raw: Boni's Wish
+    url: https://www.aowiki.uk/pages/quest_boni-s-wish.html
+- row_id: underground-square__t002r0005
+  name_raw: Virulent Hatred
+  row_raw:
+    Quest Name: Virulent Hatred
+    Requirements: lvl 75 - ?
+    Reward: 'Exp : 35000, Credit 600, Gold 18000'
+  quest_links:
+  - text_raw: Virulent Hatred
+    url: https://www.aowiki.uk/pages/quest_virulent-hatred.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 60
+discovered_quest_pages:
+- quest_boni-s-wish.html
+- quest_follow-in-the-footsteps-of-hero.html
+- quest_scattered-will.html
+- quest_searching-for-antidote.html
+- quest_virulent-hatred.html

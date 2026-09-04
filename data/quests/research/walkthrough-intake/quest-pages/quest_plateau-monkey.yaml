@@ -1,0 +1,111 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_plateau-monkey
+title_raw: Plateau Monkey
+source:
+  origin_url: https://angels.wikidot.com/quest:plateau-monkey
+  retrieval_url: https://www.aowiki.uk/pages/quest_plateau-monkey.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 8fbae6eea3a091d100e78e18b6ffb04f1afad6e68eb17bdec963e45e2bef57fa
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Chief Steel Faction; Character lvl 15 to 30 Yes
+
+  Previous Quest Next Quest Lizardman''s Constant Attack Missing Necklace
+
+  Summary The monkeys keep stealing supplies, the Chief asks you to deal with them. Defeat 20 Plateau Monkeys .
+
+  Reward 530 Experience, 25 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Plateau Monkeys . Step 3 Report to the Chief.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Lizardman's Constant Attack: Missing Necklace
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Chief
+    Requirements: Steel Faction; Character lvl 15 to 30
+    Repeatable?: 'Yes'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Lizardman's Constant Attack
+    Next Quest: Missing Necklace
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: The monkeys keep stealing supplies, the Chief asks you to deal with them. Defeat 20 Plateau Monkeys .
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 530 Experience, 25 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Cactus Plain
+  url: https://www.aowiki.uk/pages/area_cactus-plain.html
+- text_raw: Chief
+  url: https://www.aowiki.uk/pages/npc_chief.html
+- text_raw: Lizardman's Constant Attack
+  url: https://www.aowiki.uk/pages/quest_lizardman-s-constant-attack.html
+- text_raw: Missing Necklace
+  url: https://www.aowiki.uk/pages/quest_missing-necklace.html
+- text_raw: Plateau Monkeys
+  url: https://www.aowiki.uk/pages/monster_plateau-monkey.html
+- text_raw: Plateau Monkeys
+  url: https://www.aowiki.uk/pages/monster_plateau-monkey.html
+matched_target_areas:
+- region: steel
+  area_id: cactus-plain
+verification:
+  client_confirmation: pending

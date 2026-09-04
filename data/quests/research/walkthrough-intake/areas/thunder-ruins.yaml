@@ -1,0 +1,140 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: thunder-ruins
+  name_raw: Thunder Ruins
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:thunder-ruins
+  retrieval_url: https://www.aowiki.uk/pages/area_thunder-ruins.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: acd4aca9992c728245ef09e8b7f0d60a5d05cd86ca67cd2fc96194c936185c71
+npcs:
+- name_raw: Tearless Azrael
+  location_raw: (38,10)
+  description_raw: 'Gives quests: Death God Hook , Kill Purgatorial Azrael (repeatable)'
+  links:
+  - text_raw: Tearless Azrael
+    url: https://www.aowiki.uk/pages/npc_tearless-azrael.html
+- name_raw: Angel Pickets
+  location_raw: (280,9)
+  description_raw: 'Gives quests: Re-education , Non-campus Teaching (repeatable)'
+  links:
+  - text_raw: Angel Pickets
+    url: https://www.aowiki.uk/pages/npc_angel-pickets.html
+- name_raw: Gambler
+  location_raw: (?,?)
+  description_raw: 'Gives quest: Top Grocery Competition (repeatable)'
+  links:
+  - text_raw: Gambler
+    url: https://www.aowiki.uk/pages/npc_gambler.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Terra Keeper
+  location_raw: (?,?)
+  description_raw: Transports terra holder to terra or main city of faction
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+quest_rows:
+- row_id: thunder-ruins__t002r0001
+  name_raw: Death God Hook
+  row_raw:
+    Quest Name: Death God Hook
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1300, Credit+50
+    Short Description: Defeat Guilt Azrael until you obtain 10 Death God Hooks
+  quest_links:
+  - text_raw: Death God Hook
+    url: https://www.aowiki.uk/pages/quest_death-god-hook.html
+- row_id: thunder-ruins__t002r0002
+  name_raw: Kill Purgatorial Azrael
+  row_raw:
+    Quest Name: Kill Purgatorial Azrael
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1300, Credit+50
+    Short Description: Defeat 40 Guilt Azrael
+  quest_links:
+  - text_raw: Kill Purgatorial Azrael
+    url: https://www.aowiki.uk/pages/quest_kill-purgatorial-azrael.html
+- row_id: thunder-ruins__t002r0003
+  name_raw: Re-education
+  row_raw:
+    Quest Name: Re-education
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1150, Credit+47
+    Short Description: Defeat 40 Fallen Angels
+  quest_links:
+  - text_raw: Re-education
+    url: https://www.aowiki.uk/pages/quest_re-education.html
+- row_id: thunder-ruins__t002r0004
+  name_raw: non-campus teaching
+  row_raw:
+    Quest Name: non-campus teaching
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+1210, Credit+48
+    Short Description: Defeat 40 Burning Monsters
+  quest_links:
+  - text_raw: non-campus teaching
+    url: https://www.aowiki.uk/pages/quest_non-campus-teaching.html
+- row_id: thunder-ruins__t002r0005
+  name_raw: Top Grocery Competition
+  row_raw:
+    Quest Name: Top Grocery Competition
+    Repeat.: 'Yes'
+    Requirements: Character lvl 40-55
+    Reward: Exp+?, Credit+?
+    Short Description: ''
+  quest_links:
+  - text_raw: Top Grocery Competition
+    url: https://www.aowiki.uk/pages/quest_top-grocery-competition.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 5
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 3
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 107
+discovered_quest_pages:
+- quest_death-god-hook.html
+- quest_kill-purgatorial-azrael.html
+- quest_non-campus-teaching.html
+- quest_re-education.html
+- quest_top-grocery-competition.html

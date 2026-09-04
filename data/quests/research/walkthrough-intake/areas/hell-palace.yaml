@@ -1,0 +1,57 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: hell-palace
+  name_raw: Hell Palace
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:hell-palace
+  retrieval_url: https://www.aowiki.uk/pages/area_hell-palace.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 0577f9a47ef3b41f9125ccc743a55bc4588ac8bb9ba8884bc1dba7be677451cc
+npcs:
+- name_raw: Bone Remains
+  location_raw: (? - ?)
+  description_raw: Quest Giver Diary Collection .
+  links:
+  - text_raw: Bone Remains
+    url: https://www.aowiki.uk/pages/npc_bone-remains.html
+quest_rows:
+- row_id: hell-palace__t002r0001
+  name_raw: Diary Collection
+  row_raw:
+    Quest Name: Diary Collection
+    Requirements: to get this quest need be Dead or Mode Angel
+    Reward: '?'
+  quest_links:
+  - text_raw: Diary Collection
+    url: https://www.aowiki.uk/pages/quest_diary-collection.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 1
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 1
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  row_count: 10
+- table_index: 4
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 56
+discovered_quest_pages:
+- quest_diary-collection.html

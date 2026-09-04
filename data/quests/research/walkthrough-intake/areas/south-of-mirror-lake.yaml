@@ -1,0 +1,146 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: south-of-mirror-lake
+  name_raw: South Of Mirror Lake
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:south-of-mirror-lake
+  retrieval_url: https://www.aowiki.uk/pages/area_south-of-mirror-lake.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a42a9ee9589226075608bd98e3413238c7780fbc403b009ecd4702da2987e360
+npcs:
+- name_raw: Timberjacker
+  location_raw: (102,53)
+  description_raw: Give Quests Cursed Wood and Rebuilding Material
+  links:
+  - text_raw: Timberjacker
+    url: https://www.aowiki.uk/pages/npc_timberjacker.html
+- name_raw: South Villager
+  location_raw: (172,64)
+  description_raw: Give Quests Circus Tyrant and Reseize Captured Fish
+  links:
+  - text_raw: South Villager
+    url: https://www.aowiki.uk/pages/npc_south-villager.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Exploring Member
+  location_raw: (174,166)
+  description_raw: Can enter in Nightmare Cave
+  links:
+  - text_raw: Exploring Member
+    url: https://www.aowiki.uk/pages/npc_exploring-member.html
+- name_raw: Terra Keeper
+  location_raw: (154,105)
+  description_raw: Can transport you to your league's terra, or city
+  links:
+  - text_raw: Terra Keeper
+    url: https://www.aowiki.uk/pages/npc_terra-keeper.html
+- name_raw: Badge Master
+  location_raw: (182,120)
+  description_raw: Exchange 3 silver badges
+  links:
+  - text_raw: Badge Master
+    url: https://www.aowiki.uk/pages/npc_badge-master.html
+quest_rows:
+- row_id: south-of-mirror-lake__t002r0001
+  name_raw: Circus Tyrant
+  row_raw:
+    Quest Name: Circus Tyrant
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+950, Credit+40
+    Short Description: Drive away 40 Circus Tyrants
+  quest_links:
+  - text_raw: Circus Tyrant
+    url: https://www.aowiki.uk/pages/quest_circus-tyrant.html
+- row_id: south-of-mirror-lake__t002r0002
+  name_raw: Reseize Captured Fish
+  row_raw:
+    Quest Name: Reseize Captured Fish
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+950, Credit+40
+    Short Description: Defeat Circus Tyrants to take back 5 Fresh Fish stock for the fishermen.
+  quest_links:
+  - text_raw: Reseize Captured Fish
+    url: https://www.aowiki.uk/pages/quest_reseize-captured-fish.html
+- row_id: south-of-mirror-lake__t002r0003
+  name_raw: Cursed Wood
+  row_raw:
+    Quest Name: Cursed Wood
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+900, Credit+39
+    Short Description: Defeat 40 Lake Deathwoods
+  quest_links:
+  - text_raw: Cursed Wood
+    url: https://www.aowiki.uk/pages/quest_cursed-wood.html
+- row_id: south-of-mirror-lake__t002r0004
+  name_raw: Rebuilding Material
+  row_raw:
+    Quest Name: Rebuilding Material
+    Repeat.: 'Yes'
+    Requirements: Character lvl 30-45
+    Reward: Exp+900, Credit+39
+    Short Description: Defeat Lake Deathwoods to obtain 5 of the Top-Quality Lumber from them.
+  quest_links:
+  - text_raw: Rebuilding Material
+    url: https://www.aowiki.uk/pages/quest_rebuilding-material.html
+- row_id: south-of-mirror-lake__t002r0005
+  name_raw: Finding an Axe
+  row_raw:
+    Quest Name: Finding an Axe
+    Repeat.: 'Yes'
+    Requirements: '-'
+    Reward: Timberjacker Card
+    Short Description: Go to Angel Lyceum to find Timberjackeraxe
+  quest_links:
+  - text_raw: Finding an Axe
+    url: https://www.aowiki.uk/pages/quest_finding-an-axe.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 6
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 4
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 116
+discovered_quest_pages:
+- quest_circus-tyrant.html
+- quest_cursed-wood.html
+- quest_finding-an-axe.html
+- quest_rebuilding-material.html
+- quest_reseize-captured-fish.html

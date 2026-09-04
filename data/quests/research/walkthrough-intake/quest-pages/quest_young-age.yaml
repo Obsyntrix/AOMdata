@@ -1,0 +1,125 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_young-age
+title_raw: Young Age
+source:
+  origin_url: https://angels.wikidot.com/quest:young-age
+  retrieval_url: https://www.aowiki.uk/pages/quest_young-age.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: a7664fc04cc5c0057d8d175796bc573cc510754362958e2badeaee087d767768
+breadcrumbs_raw: []
+summary_raw: The Executive Chief and his wife each made a box to open up 30 years ago when they were first wed. Unfortunately, while the Executive Chief was away training for his new
+  job, his wife began ill and she died those many years ago. The time is ready for him to open the box, and he asks you to go retrieve it for him in Degula Maze .
+information_raw: 'Quest Giver Repeatable Series Executive Chief No Yes (1 of 3)
+
+  Previous Quest Next Quest - Wife''s Present'
+requirements_raw: Faction Lvl Rank Skill Quest Shadow 22+ - - -
+reward_raw: Exp. Credit Gold 800 65 - Items -
+walkthrough_raw: Step 1 Learn of the Executive Chief's great love by talking with him (301,171). Step 2 Go to Degula Maze Step 3 Dig up the Time Box (145,94 - it's by the tree in the
+  courtyard in front of the Degula Duke's). Step 4 Return the Time Box back to the Executive Chief in Memory Cave .
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  '-': Wife's Present
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Repeatable
+  - Series
+  rows_raw:
+  - Quest Giver: Executive Chief
+    Repeatable: 'No'
+    Series: Yes (1 of 3)
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: '-'
+    Next Quest: Wife's Present
+- table_index: 3
+  headers_raw:
+  - Faction
+  - Lvl
+  - Rank
+  - Skill
+  - Quest
+  rows_raw:
+  - Faction: Shadow
+    Lvl: 22+
+    Rank: '-'
+    Skill: '-'
+    Quest: '-'
+- table_index: 4
+  headers_raw:
+  - Exp.
+  - Credit
+  - Gold
+  rows_raw:
+  - Exp.: '800'
+    Credit: '65'
+    Gold: '-'
+  - Exp.: Items
+  - Exp.: '-'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Memory Cave
+  url: https://www.aowiki.uk/pages/area_memory-cave.html
+- text_raw: Degula Maze
+  url: https://www.aowiki.uk/pages/area_degula-maze.html
+- text_raw: Executive Chief
+  url: https://www.aowiki.uk/pages/npc_executive-chief.html
+- text_raw: Wife's Present
+  url: https://www.aowiki.uk/pages/quest_wife-s-present.html
+- text_raw: Degula Maze
+  url: https://www.aowiki.uk/pages/area_degula-maze.html
+- text_raw: Memory Cave
+  url: https://www.aowiki.uk/pages/area_memory-cave.html
+matched_target_areas:
+- region: dark
+  area_id: degula-maze
+- region: dark
+  area_id: memory-cave
+verification:
+  client_confirmation: pending

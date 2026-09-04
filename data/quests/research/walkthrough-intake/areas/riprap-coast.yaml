@@ -1,0 +1,121 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: riprap-coast
+  name_raw: Riprap Coast
+  region: aurora
+source:
+  origin_url: https://angels.wikidot.com/area:riprap-coast
+  retrieval_url: https://www.aowiki.uk/pages/area_riprap-coast.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 40449aa6372ff94911941bf56e0a98c157dccec689995aaecdd9730fafd38834
+npcs:
+- name_raw: Asmode
+  location_raw: (262,178)
+  description_raw: Gives Asmode's quests.
+  links:
+  - text_raw: Asmode
+    url: https://www.aowiki.uk/pages/npc_aurora-asmode.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Aurora Totem
+  location_raw: (180,122)
+  description_raw: Aurora Faction revival place.
+  links:
+  - text_raw: Aurora Totem
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+quest_rows:
+- row_id: riprap-coast__t002r0001
+  name_raw: Karter's Planning Book
+  row_raw:
+    Quest Name: Karter's Planning Book
+    Repeat.: 'No'
+    Requirements: Aurora Faction
+    Reward: Exp+800, Credit+60
+    Short Description: Find the Planning Book (189,36). Hand it to Sailor Bonny at Dawn Harbor and then give it back to Sailor Karter.
+  quest_links:
+  - text_raw: Karter's Planning Book
+    url: https://www.aowiki.uk/pages/quest_karter-s-planning-book.html
+- row_id: riprap-coast__t002r0002
+  name_raw: Unknown Brilliant Necklace 1 of 3
+  row_raw:
+    Quest Name: Unknown Brilliant Necklace 1 of 3
+    Repeat.: 'No'
+    Requirements: Aurora Faction
+    Reward: Exp+400, Credit+25, Gold+800
+    Short Description: Find Unknown Brilliant Necklace while killing pirates, then go find the Countrylady in Cherry Village
+  quest_links:
+  - text_raw: Unknown Brilliant Necklace
+    url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
+- row_id: riprap-coast__t002r0004
+  name_raw: Are You Evil Enough? 6 of 8
+  row_raw:
+    Quest Name: Are You Evil Enough? 6 of 8
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Obtaining Asmode’s Trust
+    Reward: Exp+500, Credit+25
+    Short Description: Talk to the Spy Angel and ask the Cherry Village Leader for the necessary items.
+  quest_links:
+  - text_raw: Are You Evil Enough?
+    url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
+  - text_raw: Obtaining Asmode’s Trust
+    url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
+- row_id: riprap-coast__t002r0005
+  name_raw: Magic Stone 7 of 8
+  row_raw:
+    Quest Name: Magic Stone 7 of 8
+    Repeat.: 'No'
+    Requirements: Aurora Faction; Finished quest Are You Evil Enough?
+    Reward: Exp+400, Credit+25
+    Short Description: Find the statue holding an egg (?,?) in Cherry Village
+  quest_links:
+  - text_raw: Magic Stone
+    url: https://www.aowiki.uk/pages/quest_aurora-magic-stone.html
+  - text_raw: Are You Evil Enough?
+    url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 5
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 52
+discovered_quest_pages:
+- quest_aurora-are-you-evil-enough.html
+- quest_aurora-magic-stone.html
+- quest_aurora-obtaining-asmodes-trust.html
+- quest_karter-s-planning-book.html
+- quest_unknown-brilliant-necklace.html

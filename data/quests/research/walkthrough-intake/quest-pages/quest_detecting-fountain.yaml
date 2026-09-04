@@ -1,0 +1,117 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_detecting-fountain
+title_raw: Detecting Fountain
+source:
+  origin_url: https://angels.wikidot.com/quest:detecting-fountain
+  retrieval_url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: fe40a21f20ca2649d74e5b70abfeffd32fe8e49acf0af6923a9afbcacfa4359d
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Spy Sungier Steel Faction No
+
+  Previous Quest Next Quest Ring Of Caravan Gebuer''s Proposal
+
+  Summary Spy Sungier has broken his leg and needs you to go to Gebuer Vale and speak with Spy Lude for him.
+
+  Reward 400 Experience, 65 Credit'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Talk to Spy Sungier. Step 2 Go to Gebuer Vale and speak with Spy Lude (?,?).
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Ring Of Caravan: Gebuer's Proposal
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Spy Sungier
+    Requirements: Steel Faction
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Ring Of Caravan
+    Next Quest: Gebuer's Proposal
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Spy Sungier has broken his leg and needs you to go to Gebuer Vale and speak with Spy Lude for him.
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: 400 Experience, 65 Credit
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Burning Desert
+  url: https://www.aowiki.uk/pages/area_burning-desert.html
+- text_raw: Spy Sungier
+  url: https://www.aowiki.uk/pages/npc_spy-sungier.html
+- text_raw: Ring Of Caravan
+  url: https://www.aowiki.uk/pages/quest_ring-of-caravan.html
+- text_raw: Gebuer's Proposal
+  url: https://www.aowiki.uk/pages/quest_gebuer-s-proposal.html
+- text_raw: Gebuer Vale
+  url: https://www.aowiki.uk/pages/area_gebuer-vale.html
+- text_raw: Spy Lude
+  url: https://www.aowiki.uk/pages/npc_spy-lude.html
+- text_raw: Gebuer Vale
+  url: https://www.aowiki.uk/pages/area_gebuer-vale.html
+- text_raw: Spy Lude
+  url: https://www.aowiki.uk/pages/npc_spy-lude.html
+matched_target_areas:
+- region: steel
+  area_id: burning-desert
+- region: steel
+  area_id: gebuer-vale
+verification:
+  client_confirmation: pending

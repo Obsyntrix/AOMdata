@@ -1,0 +1,218 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: dense-forest
+  name_raw: Dense Forest
+  region: breeze
+source:
+  origin_url: https://angels.wikidot.com/area:dense-forest
+  retrieval_url: https://www.aowiki.uk/pages/area_dense-forest.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 246fe6b29d605bbebd740d336c737c14fa0dc8d25dd0e4be95a09688276c01a8
+npcs:
+- name_raw: Militia Chief
+  location_raw: (224,111)
+  description_raw: Gives the quest Inspection Tour and information about Magic Eye
+  links:
+  - text_raw: Militia Chief
+    url: https://www.aowiki.uk/pages/npc_militia-chief2.html
+- name_raw: Jungle Sentinel
+  location_raw: (22,138)
+  description_raw: Part of the Inspection Tour quest.
+  links:
+  - text_raw: Jungle Sentinel
+    url: https://www.aowiki.uk/pages/npc_jungle-sentinel.html
+- name_raw: Bog Sentinel
+  location_raw: (234,47)
+  description_raw: Part of the Inspection Tour quest.
+  links:
+  - text_raw: Bog Sentinel
+    url: https://www.aowiki.uk/pages/npc_bog-sentinel.html
+- name_raw: Merchant Wushor
+  location_raw: (210,119)
+  description_raw: Gives the quest Man-eating Flower Masque
+  links:
+  - text_raw: Merchant Wushor
+    url: https://www.aowiki.uk/pages/npc_merchant-wushor.html
+- name_raw: Jungle Priest
+  location_raw: (210,109)
+  description_raw: Gives the quests; Fighting Ceremony , Guardian Ceremony , Ceremony of Praying for Rain and Lost Little Frog
+  links:
+  - text_raw: Jungle Priest
+    url: https://www.aowiki.uk/pages/npc_jungle-priest.html
+- name_raw: Herbalist Hebu
+  location_raw: (127,72)
+  description_raw: Gives the serial quests The Reivers , Fiery Bud and Inquire for Spore Collection
+  links:
+  - text_raw: Herbalist Hebu
+    url: https://www.aowiki.uk/pages/npc_herbalist-hebu.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Badge Collector
+  location_raw: (30, 73)
+  description_raw: Exchange 2 copper badges
+  links:
+  - text_raw: Badge Collector
+    url: https://www.aowiki.uk/pages/npc_badge-collector.html
+- name_raw: Breeze Totem
+  location_raw: (127, 63)
+  description_raw: Allows Beast faction members to revive
+  links:
+  - text_raw: Breeze Totem
+    url: https://www.aowiki.uk/pages/totem_beast.html
+quest_rows:
+- row_id: dense-forest__t002r0001
+  name_raw: Inspection Tour
+  row_raw:
+    Quest Name: Inspection Tour
+    Repeat.: 'No'
+    Requirements: Beast Faction
+    Reward: Exp+200, Credit+20
+    Short Description: Take a letter to the Jungle Sentinel and to the Bog Sentinel
+  quest_links:
+  - text_raw: Inspection Tour
+    url: https://www.aowiki.uk/pages/quest_inspection-tour.html
+- row_id: dense-forest__t002r0002
+  name_raw: Man-eating Flower Masque
+  row_raw:
+    Quest Name: Man-eating Flower Masque
+    Repeat.: 'No'
+    Requirements: Beast Faction; Character lvl 6+
+    Reward: Gold+250, Exp+850, Credit+25
+    Short Description: Defeat Wild Lillies and collect 10 of the wild lilly petals
+  quest_links:
+  - text_raw: Man-eating Flower Masque
+    url: https://www.aowiki.uk/pages/quest_man-eating-flower-masque.html
+- row_id: dense-forest__t002r0003
+  name_raw: Fighting Ceremony
+  row_raw:
+    Quest Name: Fighting Ceremony
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Defeat Forest Monkeys and collect 10 Monkey Hairs
+  quest_links:
+  - text_raw: Fighting Ceremony
+    url: https://www.aowiki.uk/pages/quest_fighting-ceremony.html
+- row_id: dense-forest__t002r0004
+  name_raw: Guardian Ceremony
+  row_raw:
+    Quest Name: Guardian Ceremony
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 6-20
+    Reward: Exp+260, Credit+10
+    Short Description: Defeat Nest Tree Elves and collect 10 Wind Leaves
+  quest_links:
+  - text_raw: Guardian Ceremony
+    url: https://www.aowiki.uk/pages/quest_guardian-ceremony.html
+- row_id: dense-forest__t002r0005
+  name_raw: Ceremony of Praying for Rain
+  row_raw:
+    Quest Name: Ceremony of Praying for Rain
+    Repeat.: 'Yes'
+    Requirements: Beast Faction; Character lvl 6-20
+    Reward: Exp+320, Credit+10
+    Short Description: Defeat Wild Lillies and collect 10 Icy Petals
+  quest_links:
+  - text_raw: Ceremony of Praying for Rain
+    url: https://www.aowiki.uk/pages/quest_ceremony-of-praying-for-rain.html
+- row_id: dense-forest__t002r0007
+  name_raw: Lost Little Frog
+  row_raw:
+    Quest Name: Lost Little Frog
+    Repeat.: 'Yes'
+    Requirements: Character lvl 20+
+    Reward: Jungle Priest Card
+    Short Description: Defeat Flame Lily to find the pet frog.
+  quest_links:
+  - text_raw: Lost Little Frog
+    url: https://www.aowiki.uk/pages/quest_lost-little-frog.html
+- row_id: dense-forest__t002r0009
+  name_raw: The Reivers 1 of 3
+  row_raw:
+    Quest Name: The Reivers 1 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction
+    Reward: Gold+150, Exp+850, Credit+30, red potion *5
+    Short Description: Defeat Nest Tree Elves and obtain precious mushrooms
+  quest_links:
+  - text_raw: The Reivers
+    url: https://www.aowiki.uk/pages/quest_the-reivers.html
+- row_id: dense-forest__t002r0010
+  name_raw: Fiery Bud 2 of 3
+  row_raw:
+    Quest Name: Fiery Bud 2 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction; completed the quest The Reivers
+    Reward: Exp+1120, Credit+160, Item
+    Short Description: Defeat Flame Lily and obtain its fiery bud
+  quest_links:
+  - text_raw: Fiery Bud
+    url: https://www.aowiki.uk/pages/quest_firey-bud.html
+  - text_raw: The Reivers
+    url: https://www.aowiki.uk/pages/quest_the-reivers.html
+- row_id: dense-forest__t002r0011
+  name_raw: Inquire for Spore Collection 3 of 3
+  row_raw:
+    Quest Name: Inquire for Spore Collection 3 of 3
+    Repeat.: 'No'
+    Requirements: Beast Faction; completed the quest Fiery Bud
+    Reward: Exp+850, Credit+25
+    Short Description: Take a letter to the Botany Assistant in Mushroom Forest to ask about his progress
+  quest_links:
+  - text_raw: Inquire for Spore Collection
+    url: https://www.aowiki.uk/pages/quest_inquire-for-spore-collection.html
+  - text_raw: Fiery Bud
+    url: https://www.aowiki.uk/pages/quest_firey-bud.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 11
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss
+  - Aggressive
+  - Card
+  - ''
+  row_count: 6
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 58
+discovered_quest_pages:
+- quest_ceremony-of-praying-for-rain.html
+- quest_fiery-bud.html
+- quest_fighting-ceremony.html
+- quest_firey-bud.html
+- quest_guardian-ceremony.html
+- quest_inquire-for-spore-collection.html
+- quest_inspection-tour.html
+- quest_lost-little-frog.html
+- quest_man-eating-flower-masque.html
+- quest_the-reivers.html

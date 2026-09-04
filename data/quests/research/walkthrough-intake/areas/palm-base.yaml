@@ -1,0 +1,255 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: palm-base
+  name_raw: Palm Base
+  region: atlantis
+source:
+  origin_url: https://angels.wikidot.com/area:palm-base
+  retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+npcs:
+- name_raw: Villiersas
+  location_raw: (???,???)
+  description_raw: 'Gives quest: Nature Calling For Help'
+  links:
+  - text_raw: Villiersas
+    url: https://www.aowiki.uk/pages/npc_villiersas.html
+- name_raw: General Campbell
+  location_raw: (185,99)
+  description_raw: 'Gives quest: Aborigines'' Threat'
+  links:
+  - text_raw: General Campbell
+    url: https://www.aowiki.uk/pages/npc_general-campbell.html
+- name_raw: Ocean Scholar
+  location_raw: (287,135)
+  description_raw: 'Gives quest: Purify'
+  links:
+  - text_raw: Ocean Scholar
+    url: https://www.aowiki.uk/pages/npc_ocean-scholar.html
+- name_raw: Disciple Andsen
+  location_raw: (151,151)
+  description_raw: 'Gives quest: Andsen''s Test and material quests for cards'
+  links:
+  - text_raw: Disciple Andsen
+    url: https://www.aowiki.uk/pages/npc_disciple-andsen.html
+- name_raw: Gravity Boffin
+  location_raw: (178,122)
+  description_raw: 'Gives quest: Far Away from Gravity'
+  links:
+  - text_raw: Gravity Boffin
+    url: https://www.aowiki.uk/pages/npc_gravity-boffin.html
+- name_raw: Merchant Kulepas
+  location_raw: (190,33)
+  description_raw: 'Gives quest: Octopus, the Robber'
+  links:
+  - text_raw: Merchant Kulepas
+    url: https://www.aowiki.uk/pages/npc_merchant-kulepas.html
+- name_raw: Scholar Oxford
+  location_raw: (86,15)
+  description_raw: 'Gives quest: The Ancient Yatiss Culture'
+  links:
+  - text_raw: Scholar Oxford
+    url: https://www.aowiki.uk/pages/npc_scholar-oxford.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Cupid
+  location_raw: (157,76)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+quest_rows:
+- row_id: palm-base__t002r0001
+  name_raw: Purify
+  row_raw:
+    Quest Name: Purify
+    Repeat.: 'Yes'
+    Requirements: ???
+    Reward: '?'
+    Short Description: Collect 200 Pollutions from underwater resources
+  quest_links:
+  - text_raw: Purify
+    url: https://www.aowiki.uk/pages/quest_purify.html
+- row_id: palm-base__t002r0003
+  name_raw: Far Away from Gravity
+  row_raw:
+    Quest Name: Far Away from Gravity
+    Repeat.: 'Yes'
+    Requirements: ???
+    Reward: Card
+    Short Description: Talk to Fatz at Flaming Door …
+  quest_links:
+  - text_raw: Far Away from Gravity
+    url: https://www.aowiki.uk/pages/quest_far-away-from-gravity.html
+- row_id: palm-base__t002r0005
+  name_raw: Andsen's Test
+  row_raw:
+    Quest Name: Andsen's Test
+    Repeat.: 'Yes'
+    Requirements: none
+    Reward: Card
+    Short Description: Collect All materials lvl 61
+  quest_links:
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0006
+  name_raw: Sharp Material
+  row_raw:
+    Quest Name: Sharp Material
+    Repeat.: 'Yes'
+    Requirements: 'Finished quest: Andsen''s Test'
+    Reward: Card
+    Short Description: Get a Horn from ?Death Soul? and Teeth from Horn Dragon
+  quest_links:
+  - text_raw: Sharp Material
+    url: https://www.aowiki.uk/pages/quest_sharp-material.html
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0007
+  name_raw: Heavy Material
+  row_raw:
+    Quest Name: Heavy Material
+    Repeat.: 'Yes'
+    Requirements: 'Finished quest: Andsen''s Test'
+    Reward: Card
+    Short Description: Get a Ball from Sealed Elf Lord and 10 Mystic Ores from Terra Miners
+  quest_links:
+  - text_raw: Heavy Material
+    url: https://www.aowiki.uk/pages/quest_heavy-material.html
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0008
+  name_raw: Stiff Material
+  row_raw:
+    Quest Name: Stiff Material
+    Repeat.: 'Yes'
+    Requirements: 'Finished quest: Andsen''s Test'
+    Reward: Card
+    Short Description: Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+  quest_links:
+  - text_raw: Stiff Material
+    url: https://www.aowiki.uk/pages/quest_stiff-material.html
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0009
+  name_raw: Curving Material
+  row_raw:
+    Quest Name: Curving Material
+    Repeat.: 'Yes'
+    Requirements: 'Finished quest: Andsen''s Test'
+    Reward: Card
+    Short Description: Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+  quest_links:
+  - text_raw: Curving Material
+    url: https://www.aowiki.uk/pages/quest_curving-material.html
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0010
+  name_raw: Transparent Material
+  row_raw:
+    Quest Name: Transparent Material
+    Repeat.: 'Yes'
+    Requirements: 'Finished quest: Andsen''s Test'
+    Reward: Card
+    Short Description: Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+  quest_links:
+  - text_raw: Transparent Material
+    url: https://www.aowiki.uk/pages/quest_transparent-material.html
+  - text_raw: Andsen's Test
+    url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+- row_id: palm-base__t002r0012
+  name_raw: Aborigines Threat
+  row_raw:
+    Quest Name: Aborigines Threat
+    Repeat.: 'No'
+    Requirements: ???
+    Reward: Exp+45000, Credit+350, Gold+30000
+    Short Description: Defeat 40 Puqi Locals , 35 Puqi Warriors and Pontiff Hululu (Boss)
+  quest_links:
+  - text_raw: Aborigines Threat
+    url: https://www.aowiki.uk/pages/quest_aborigines-threat.html
+- row_id: palm-base__t002r0013
+  name_raw: Octopus, the Robber
+  row_raw:
+    Quest Name: Octopus, the Robber
+    Repeat.: 'No'
+    Requirements: Character Lvl 90+
+    Reward: '?'
+    Short Description: Defeat Blade Octopuses and collect 15 Robbed Goods at Evil Ship
+  quest_links:
+  - text_raw: Octopus, the Robber
+    url: https://www.aowiki.uk/pages/quest_octopus-the-robber.html
+- row_id: palm-base__t002r0014
+  name_raw: The Ancient Yatiss Culture
+  row_raw:
+    Quest Name: The Ancient Yatiss Culture
+    Repeat.: 'No'
+    Requirements: Character Lvl 90+
+    Reward: '?'
+    Short Description: Defeat Hicalu 1 (Boss) at Lost Region
+  quest_links:
+  - text_raw: The Ancient Yatiss Culture
+    url: https://www.aowiki.uk/pages/quest_the-ancient-yatiss-culture.html
+- row_id: palm-base__t002r0015
+  name_raw: Blockade under the Sea
+  row_raw:
+    Quest Name: Blockade under the Sea
+    Repeat.: 'No'
+    Requirements: '?'
+    Reward: '?'
+    Short Description: Defeat 35 Jelly fish at Wave Harbor
+  quest_links:
+  - text_raw: Blockade under the Sea
+    url: https://www.aowiki.uk/pages/quest_blockade-under-the-sea.html
+- row_id: palm-base__t002r0016
+  name_raw: Nature Calling For Help
+  row_raw:
+    Quest Name: Nature Calling For Help
+    Repeat.: 'No'
+    Requirements: '?'
+    Reward: '?'
+    Short Description: ''
+  quest_links:
+  - text_raw: Nature Calling For Help
+    url: https://www.aowiki.uk/pages/quests_weekly.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 9
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeat.
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 16
+- table_index: 3
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 112
+discovered_quest_pages:
+- quest_aborigines-threat.html
+- quest_andsen-s-test.html
+- quest_blockade-under-the-sea.html
+- quest_curving-material.html
+- quest_far-away-from-gravity.html
+- quest_heavy-material.html
+- quest_octopus-the-robber.html
+- quest_purify.html
+- quest_sharp-material.html
+- quest_stiff-material.html
+- quest_the-ancient-yatiss-culture.html
+- quest_transparent-material.html
+- quests_weekly.html

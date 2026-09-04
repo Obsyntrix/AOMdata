@@ -1,0 +1,194 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: flaming-door
+  name_raw: Flaming Door
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:flaming-door
+  retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+npcs:
+- name_raw: Weapon Boffin
+  location_raw: (21,45)
+  description_raw: null
+  links:
+  - text_raw: Weapon Boffin
+    url: https://www.aowiki.uk/pages/shop_weapon-boffin.html
+- name_raw: Bow Resercher
+  location_raw: (221,9)
+  description_raw: null
+  links:
+  - text_raw: Bow Resercher
+    url: https://www.aowiki.uk/pages/shop_bow-resercher.html
+- name_raw: Rock Master
+  location_raw: (24,47)
+  description_raw: null
+  links:
+  - text_raw: Rock Master
+    url: https://www.aowiki.uk/pages/shop_rock-master.html
+- name_raw: Cupid
+  location_raw: (5,16)
+  description_raw: Make this your revival place.
+  links:
+  - text_raw: Cupid
+    url: https://www.aowiki.uk/pages/npc_cupid.html
+- name_raw: Little Childe
+  location_raw: (11,30)
+  description_raw: '-'
+  links:
+  - text_raw: Little Childe
+    url: https://www.aowiki.uk/pages/npc_flaming-door-little-childe.html
+- name_raw: Chef Fatz
+  location_raw: (19,20)
+  description_raw: '-'
+  links:
+  - text_raw: Chef Fatz
+    url: https://www.aowiki.uk/pages/npc_flaming-door-chef-fatz.html
+- name_raw: Heavenly Officer
+  location_raw: (66,37)
+  description_raw: Give quest Pest Control , Pollution Control
+  links:
+  - text_raw: Heavenly Officer
+    url: https://www.aowiki.uk/pages/npc_flaming-door-heavenly-officer.html
+- name_raw: Sick Zapo
+  location_raw: (?,?)
+  description_raw: Give quest Devil's Whispering
+  links:
+  - text_raw: Sick Zapo
+    url: https://www.aowiki.uk/pages/npc_flaming-door-sick-zapo.html
+- name_raw: Gustav
+  location_raw: (324,92)
+  description_raw: Give quest A Will To Ask
+  links:
+  - text_raw: Gustav
+    url: https://www.aowiki.uk/pages/npc_flaming-door-gustav.html
+- name_raw: Vilo 3
+  location_raw: (300,26)
+  description_raw: Give quest Rare Specimen Making
+  links:
+  - text_raw: Vilo 3
+    url: https://www.aowiki.uk/pages/npc_flaming-door-vilo-3.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Aurora Totem
+  location_raw: (30,36)
+  description_raw: Aurora Faction revival place.
+  links:
+  - text_raw: Aurora Totem
+    url: https://www.aowiki.uk/pages/totem_aurora.html
+- name_raw: Breeze Totem
+  location_raw: (42,24)
+  description_raw: Beast Faction revival place.
+  links:
+  - text_raw: Breeze Totem
+    url: https://www.aowiki.uk/pages/totem_beast.html
+- name_raw: Iron Totem
+  location_raw: (18,36)
+  description_raw: Steel Faction revival place.
+  links:
+  - text_raw: Iron Totem
+    url: https://www.aowiki.uk/pages/totem_steel.html
+- name_raw: Dark City Totem
+  location_raw: (27,20)
+  description_raw: Shadow Faction revival place.
+  links:
+  - text_raw: Dark City Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows:
+- row_id: flaming-door__t003r0001
+  name_raw: Rare Specimen Making
+  row_raw:
+    Quest Name: Rare Specimen Making
+    Requirements: none
+    Reward: 32000 exp, 550 credit, 15000 gold
+  quest_links:
+  - text_raw: Rare Specimen Making
+    url: https://www.aowiki.uk/pages/quest_rare-specimen-making.html
+- row_id: flaming-door__t003r0002
+  name_raw: A Will To Ask
+  row_raw:
+    Quest Name: A Will To Ask
+    Requirements: none
+    Reward: 30000 exp, 300 credit, 12000 gold
+  quest_links:
+  - text_raw: A Will To Ask
+    url: https://www.aowiki.uk/pages/quest_a-will-to-ask.html
+- row_id: flaming-door__t003r0003
+  name_raw: Devil's Whispering
+  row_raw:
+    Quest Name: Devil's Whispering
+    Requirements: none
+    Reward: 22000 exp, 200 credit, 10000 gold
+  quest_links:
+  - text_raw: Devil's Whispering
+    url: https://www.aowiki.uk/pages/quest_devil-s-whispering.html
+- row_id: flaming-door__t003r0004
+  name_raw: Pest Control
+  row_raw:
+    Quest Name: Pest Control
+    Requirements: none
+    Reward: 28000 exp, 500 credit, 12500 gold
+  quest_links:
+  - text_raw: Pest Control
+    url: https://www.aowiki.uk/pages/quest_pest-control.html
+- row_id: flaming-door__t003r0005
+  name_raw: Pollution Control
+  row_raw:
+    Quest Name: Pollution Control
+    Requirements: none
+    Reward: '? exp, ? credit, ? gold'
+  quest_links:
+  - text_raw: Pollution Control
+    url: https://www.aowiki.uk/pages/quest_pollution-control.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 12
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 5
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 11
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 83
+discovered_quest_pages:
+- quest_a-will-to-ask.html
+- quest_devil-s-whispering.html
+- quest_pest-control.html
+- quest_pollution-control.html
+- quest_rare-specimen-making.html

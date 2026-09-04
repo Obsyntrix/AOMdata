@@ -1,0 +1,138 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: fungus-forest-north
+  name_raw: Fungus Forest North
+  region: dark
+source:
+  origin_url: https://angels.wikidot.com/area:fungus-forest-north
+  retrieval_url: https://www.aowiki.uk/pages/area_fungus-forest-north.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: fe3defb35863b13722fb4b8b3df5ca691e3dad2322bbb2c7bf901647e3dcc2b7
+npcs:
+- name_raw: Big Mouth Anglu
+  location_raw: (127,61)
+  description_raw: Gives quests Defeat Giant Mouse and Collect Mouse Tails .
+  links:
+  - text_raw: Big Mouth Anglu
+    url: https://www.aowiki.uk/pages/npc_big-mouth-anglu.html
+- name_raw: Project Leader
+  location_raw: (287,77)
+  description_raw: Gives quests Blockade to Realizing Dream and Robbed Parts .
+  links:
+  - text_raw: Project Leader
+    url: https://www.aowiki.uk/pages/npc_project-leader.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Exploring Member
+  location_raw: (297,154)
+  description_raw: Transports to Nightmare Cave .
+  links:
+  - text_raw: Exploring Member
+    url: https://www.aowiki.uk/pages/npc_exploring-member.html
+- name_raw: Badge Master
+  location_raw: (271,73)
+  description_raw: Exchange 3 Silver Badges for a gift box.
+  links:
+  - text_raw: Badge Master
+    url: https://www.aowiki.uk/pages/npc_badge-master.html
+- name_raw: ''
+  location_raw: null
+  description_raw: null
+  links: []
+- name_raw: Shadow Totem
+  location_raw: (175,100)
+  description_raw: Revive here if of Shadow Faction.
+  links:
+  - text_raw: Shadow Totem
+    url: https://www.aowiki.uk/pages/totem_shadow.html
+quest_rows:
+- row_id: fungus-forest-north__t002r0001
+  name_raw: Defeat Giant Mouse
+  row_raw:
+    Quest Name: Defeat Giant Mouse
+    Repeatable: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Defeat 40 Giant Mice
+  quest_links:
+  - text_raw: Defeat Giant Mouse
+    url: https://www.aowiki.uk/pages/quest_defeat-giant-mouse.html
+- row_id: fungus-forest-north__t002r0002
+  name_raw: Collect Mouse Tails
+  row_raw:
+    Quest Name: Collect Mouse Tails
+    Repeatable: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+700, Credit+37
+    Short Description: Defeat Giant Mice and collect 10 of the Giant Mouse’s Tails.
+  quest_links:
+  - text_raw: Collect Mouse Tails
+    url: https://www.aowiki.uk/pages/quest_collect-mouse-tails.html
+- row_id: fungus-forest-north__t002r0003
+  name_raw: Blockade to Realizing Dream
+  row_raw:
+    Quest Name: Blockade to Realizing Dream
+    Repeatable: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat 40 Dark Fungi
+  quest_links:
+  - text_raw: Blockade to Realizing Dream
+    url: https://www.aowiki.uk/pages/quest_blockade-to-realizing-dream.html
+- row_id: fungus-forest-north__t002r0004
+  name_raw: Robbed Parts
+  row_raw:
+    Quest Name: Robbed Parts
+    Repeatable: 'Yes'
+    Requirements: Any Faction; Character lvl 27-40
+    Reward: Exp+810, Credit+38
+    Short Description: Defeat Dark Fungi and collect 10 stolen Snails.
+  quest_links:
+  - text_raw: Robbed Parts
+    url: https://www.aowiki.uk/pages/quest_robbed-parts.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 7
+- table_index: 2
+  headers_raw:
+  - Quest Name
+  - Repeatable
+  - Requirements
+  - Reward
+  - Short Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 7
+- table_index: 4
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 4
+- table_index: 5
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 96
+discovered_quest_pages:
+- quest_blockade-to-realizing-dream.html
+- quest_collect-mouse-tails.html
+- quest_defeat-giant-mouse.html
+- quest_robbed-parts.html

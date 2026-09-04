@@ -1,0 +1,120 @@
+schema_version: 1
+dataset: quest_walkthrough_source
+page_id: quest_verify-ability
+title_raw: Verify Ability
+source:
+  origin_url: https://angels.wikidot.com/quest:verify-ability
+  retrieval_url: https://www.aowiki.uk/pages/quest_verify-ability.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 52ef65c70f2050e2f038423b9151507df2fc5cb968320a9ecce0ce202cddf58e
+breadcrumbs_raw: []
+summary_raw: null
+information_raw: 'Quest Giver Requirements Repeatable? Training Priest Beast Faction; Completed quest Mystic Words No
+
+  Previous Quest Next Quest Mystic Words -
+
+  Summary Defeat the boss, Sealed Beast .
+
+  Reward 2100 Experience, 380 Credit Choose one of: Courage Talisman , Intelligence Talisman , Body Talisman or Spell Talisman'
+requirements_raw: null
+reward_raw: null
+walkthrough_raw: Step 1 Speak with the Training Priest, you will obtain a Mysterious Incantation Stone. Step 2 Take this stone to the Relic (244, 168) and place the stone in the slot..
+  Step 3 It will summon the boss, Sealed Beast which you must defeat. Step 4 Speak once more to the Training Priest.
+walkthrough_steps: []
+fields_raw:
+  Previous Quest: Next Quest
+  Mystic Words: '-'
+source_tables:
+- table_index: 1
+  headers_raw:
+  - Quest Giver
+  - Requirements
+  - Repeatable?
+  rows_raw:
+  - Quest Giver: Training Priest
+    Requirements: Beast Faction; Completed quest Mystic Words
+    Repeatable?: 'No'
+- table_index: 2
+  headers_raw:
+  - Previous Quest
+  - Next Quest
+  rows_raw:
+  - Previous Quest: Mystic Words
+    Next Quest: '-'
+- table_index: 3
+  headers_raw:
+  - Summary
+  rows_raw:
+  - Summary: Defeat the boss, Sealed Beast .
+- table_index: 4
+  headers_raw:
+  - Reward
+  rows_raw:
+  - Reward: '2100 Experience, 380 Credit Choose one of: Courage Talisman , Intelligence Talisman , Body Talisman or Spell Talisman'
+links:
+- text_raw: ⚔️ Angels Online Wiki
+  url: https://www.aowiki.uk/index.html
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: ⚔️ Monster 1267
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🗺️ Area 182
+  url: https://www.aowiki.uk/zones.html
+- text_raw: 🧙 NPC 68
+  url: https://www.aowiki.uk/npcs.html
+- text_raw: 📜 Quest 358
+  url: https://www.aowiki.uk/quests.html
+- text_raw: 🎒 Items 30
+  url: https://www.aowiki.uk/items.html
+- text_raw: ⚗️ Recipes 7
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🔨 Production 51
+  url: https://www.aowiki.uk/crafting.html
+- text_raw: 🐾 Pet 59
+  url: https://www.aowiki.uk/pets.html
+- text_raw: 💫 Stances 17
+  url: https://www.aowiki.uk/stances.html
+- text_raw: 🃏 Cards 66
+  url: https://www.aowiki.uk/cards.html
+- text_raw: 📂 Directory 39
+  url: https://www.aowiki.uk/index.html#directory
+- text_raw: 📖 Bestiary 5
+  url: https://www.aowiki.uk/monsters.html
+- text_raw: 🏷️ Category 1
+  url: https://www.aowiki.uk/index.html#category
+- text_raw: 👥 Community 33
+  url: https://www.aowiki.uk/index.html#community
+- text_raw: Home
+  url: https://www.aowiki.uk/index.html
+- text_raw: 📜 Quest
+  url: https://www.aowiki.uk/quests.html
+- text_raw: Home
+  url: https://www.aowiki.uk/pages/admin_home.html
+- text_raw: Areas
+  url: https://www.aowiki.uk/pages/directory_areas.html
+- text_raw: Jade Vale
+  url: https://www.aowiki.uk/pages/area_jade-vale.html
+- text_raw: Training Priest
+  url: https://www.aowiki.uk/pages/npc_training-priest.html
+- text_raw: Mystic Words
+  url: https://www.aowiki.uk/pages/quest_mystic-words.html
+- text_raw: Mystic Words
+  url: https://www.aowiki.uk/pages/quest_mystic-words.html
+- text_raw: Sealed Beast
+  url: https://www.aowiki.uk/pages/monster_sealed-beast.html
+- text_raw: Courage Talisman
+  url: https://www.aowiki.uk/pages/item_courage-talisman.html
+- text_raw: Intelligence Talisman
+  url: https://www.aowiki.uk/pages/item_intelligence-talisman.html
+- text_raw: Body Talisman
+  url: https://www.aowiki.uk/pages/item_body-talisman.html
+- text_raw: Spell Talisman
+  url: https://www.aowiki.uk/pages/item_spell-talisman.html
+- text_raw: Sealed Beast
+  url: https://www.aowiki.uk/pages/monster_sealed-beast.html
+matched_target_areas:
+- region: breeze
+  area_id: jade-vale
+verification:
+  client_confirmation: pending

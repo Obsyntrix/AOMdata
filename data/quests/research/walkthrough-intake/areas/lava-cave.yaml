@@ -1,0 +1,118 @@
+schema_version: 1
+dataset: quest_source_research
+area:
+  id: lava-cave
+  name_raw: Lava Cave
+  region: dungeon
+source:
+  origin_url: https://angels.wikidot.com/area:lava-cave
+  retrieval_url: https://www.aowiki.uk/pages/area_lava-cave.html
+  source_kind: aowiki_static_legacy_mirror
+  archive_timestamp: null
+  source_html_sha256: 51ccaf7e5e482e4659c0d76cc6fb0ea9e980a8b59dfbc710f8de706acb9b73ce
+npcs:
+- name_raw: Rock Smith
+  location_raw: (275,27)
+  description_raw: null
+  links:
+  - text_raw: Rock Smith
+    url: https://www.aowiki.uk/pages/shop_rock-smith.html
+- name_raw: Earth&Life Mage
+  location_raw: (188,98)
+  description_raw: null
+  links:
+  - text_raw: Earth&Life Mage
+    url: https://www.aowiki.uk/pages/shop_earth-life-mage.html
+- name_raw: ChaosWraith Mage
+  location_raw: (167,10)
+  description_raw: null
+  links:
+  - text_raw: ChaosWraith Mage
+    url: https://www.aowiki.uk/pages/shop_chaos-wraith-mage.html
+- name_raw: Jamier
+  location_raw: (266,30)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Jamier
+    url: https://www.aowiki.uk/pages/npc_jamier.html
+- name_raw: Ugly Saladan
+  location_raw: (162,65)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Ugly Saladan
+    url: https://www.aowiki.uk/pages/npc_ugly-saladan.html
+- name_raw: Trouble Student
+  location_raw: (271,133)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Trouble Student
+    url: https://www.aowiki.uk/pages/npc_trouble-student.html
+- name_raw: Annoying Clerk
+  location_raw: (236,170)
+  description_raw: Why it is important.
+  links:
+  - text_raw: Annoying Clerk
+    url: https://www.aowiki.uk/pages/npc_annoying-clerk.html
+quest_rows:
+- row_id: lava-cave__t003r0001
+  name_raw: Trick
+  row_raw:
+    Quest Name: Trick
+    Requirements: none
+    Reward: 25000 exp, 250 credit, 11000 gold
+  quest_links:
+  - text_raw: Trick
+    url: https://www.aowiki.uk/pages/quest_trick.html
+- row_id: lava-cave__t003r0002
+  name_raw: Forge Ahead
+  row_raw:
+    Quest Name: Forge Ahead
+    Requirements: none
+    Reward: '? exp, ? credit, ? gold'
+  quest_links:
+  - text_raw: Forge Ahead
+    url: https://www.aowiki.uk/pages/quest_forge-ahead.html
+source_tables:
+- table_index: 1
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description of goods
+  row_count: 3
+- table_index: 2
+  headers_raw:
+  - NPC Name
+  - Location
+  - Description
+  row_count: 4
+- table_index: 3
+  headers_raw:
+  - Quest Name
+  - Requirements
+  - Reward
+  row_count: 2
+- table_index: 4
+  headers_raw:
+  - Monster Name
+  - Level
+  - Boss?
+  - Aggressive?
+  - ''
+  row_count: 10
+- table_index: 5
+  headers_raw:
+  - Resource Name
+  - Location
+  - Required Skill
+  - ''
+  row_count: 5
+- table_index: 6
+  headers_raw:
+  - Monster
+  - Item
+  - Drop Share
+  - Qty
+  row_count: 90
+discovered_quest_pages:
+- quest_forge-ahead.html
+- quest_trick.html
