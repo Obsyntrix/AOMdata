@@ -1,0 +1,53 @@
+name: Sanitize quest walkthrough catalog
+
+on:
+  push:
+    paths:
+      - 'data/quests/walkthrough-catalog/aurora.yaml'
+      - 'data/quests/walkthrough-catalog/breeze.yaml'
+      - 'data/quests/walkthrough-catalog/steel.yaml'
+      - 'data/quests/walkthrough-catalog/dark.yaml'
+      - 'data/quests/walkthrough-catalog/dungeon.yaml'
+      - 'data/quests/walkthrough-catalog/atlantis.yaml'
+      - 'data/quests/walkthrough-catalog/manifest.yaml'
+      - 'data/quests/research/gap-corroboration.yaml'
+      - 'tools/sanitize_quest_walkthrough_catalog.py'
+      - '.github/workflows/sanitize-quest-walkthrough-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aomega-quest-walkthrough-sanitize
+  cancel-in-progress: true
+
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check PyYAML
+      - name: Sanitize catalog joins and true gaps
+        run: python tools/sanitize_quest_walkthrough_catalog.py
+      - name: Show sanitized manifest
+        run: cat data/quests/walkthrough-catalog/manifest.yaml
+      - name: Publish sanitized catalog
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/quests/walkthrough-catalog
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Sanitize quest walkthrough catalog joins and gaps'
+          git fetch origin main
+          if ! git rebase -X theirs origin/main; then
+            git rebase --abort
+            echo 'Unable to replay sanitized catalog on latest main.'
+            exit 1
+          fi
+          git push origin HEAD:main
