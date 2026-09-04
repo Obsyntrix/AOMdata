@@ -19,6 +19,7 @@ RESEARCH = QUEST_ROOT / "research" / "walkthrough-intake"
 AREA_RESEARCH = RESEARCH / "areas"
 PAGE_RESEARCH = RESEARCH / "quest-pages"
 OUT = RESEARCH / "audit.yaml"
+PARSE_ERRORS: list[dict[str, str]] = []
 
 REGIONS: dict[str, list[str]] = {
     "aurora": ["aurora-city", "spike-farm", "sunflower-plain", "dawn-harbor", "riprap-coast", "cherry-village", "crashing-hillock", "thunder-ruins", "thorn-wasteland"],
@@ -33,7 +34,11 @@ REGIONS: dict[str, list[str]] = {
 def load(path: Path) -> dict:
     if not path.exists():
         return {}
-    value = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    try:
+        value = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except Exception as exc:  # noqa: BLE001 - malformed canonical files must be surfaced
+        PARSE_ERRORS.append({"path": str(path.relative_to(ROOT)), "error": type(exc).__name__, "detail": str(exc)})
+        return {}
     return value if isinstance(value, dict) else {}
 
 
@@ -111,17 +116,17 @@ def main() -> None:
                 canonical_by_area_name[(area_id, name_key)].append(quest)
 
     pages_by_title: dict[str, list[dict[str, object]]] = defaultdict(list)
+    pages_by_id: dict[str, dict[str, object]] = {}
     for page in pages:
         if page["title_key"]:
             pages_by_title[str(page["title_key"])].append(page)
+        pages_by_id[str(page.get("page_id") or "")] = page
 
     region_for_area = {area: region for region, areas in REGIONS.items() for area in areas}
     detailed: list[dict[str, object]] = []
     status_counts: dict[str, int] = defaultdict(int)
     per_region: dict[str, dict[str, int]] = {region: defaultdict(int) for region in REGIONS}  # type: ignore[assignment]
 
-    # The area-table rows are the discovery spine. Classify each visible quest row against
-    # canonical data and dedicated-page evidence.
     seen_area_name: set[tuple[str, str]] = set()
     for row in area_rows:
         area_id = str(row.get("area_id") or "")
@@ -134,11 +139,14 @@ def main() -> None:
         seen_area_name.add(pair)
 
         canonical_matches = canonical_by_area_name.get(pair, []) or canonical_by_name.get(name_key, [])
-        page_matches = pages_by_title.get(name_key, [])
-        # A quest-table row may link directly to a dedicated page whose title differs slightly.
-        linked_page_ids = {Path(str(x.get("url") or "")).stem for x in row.get("quest_links", []) or [] if isinstance(x, dict)}
-        if linked_page_ids:
-            page_matches = list({p["path"]: p for p in [*page_matches, *[p for p in pages if Path(str(p["path"])).stem in linked_page_ids or str(p["page_id"]) in linked_page_ids]]}.values())
+        page_matches = list(pages_by_title.get(name_key, []))
+        for link in row.get("quest_links", []) or []:
+            if not isinstance(link, dict):
+                continue
+            filename = Path(str(link.get("url") or "")).stem
+            candidate = pages_by_id.get(filename)
+            if candidate is not None and candidate not in page_matches:
+                page_matches.append(candidate)
 
         if any(p.get("has_numbered_steps") for p in page_matches):
             status = "dedicated_numbered_walkthrough"
@@ -162,12 +170,10 @@ def main() -> None:
             "quest_name_raw": name_raw,
             "status": status,
             "canonical_ids": [q.get("id") for q in canonical_matches],
-            "dedicated_pages": [{"path": p.get("path"), "numbered_step_count": p.get("numbered_step_count"), "source": p.get("source")} for p in page_matches],
+            "dedicated_pages": [{"path": p.get("path"), "numbered_step_count": p.get("numbered_step_count"), "has_walkthrough_prose": p.get("has_walkthrough_prose"), "source": p.get("source")} for p in page_matches],
             "source_path": row.get("source_path"),
         })
 
-    # Canonical quests not represented by an area table still matter: faction chains,
-    # cross-area series and recovered quests from incomplete area pages.
     orphan_canonical: list[dict[str, object]] = []
     seen_name_keys = {name for _, name in seen_area_name}
     for quest in canonical:
@@ -191,8 +197,6 @@ def main() -> None:
             if not (AREA_RESEARCH / f"{area}.yaml").exists():
                 missing_area_snapshots.append({"region": region, "area_id": area})
 
-    # Pages with numbered walkthroughs that do not match an area-table row should be surfaced,
-    # not discarded; these often expose cross-area series or quests from stub area pages.
     table_title_keys = {norm(x.get("quest_name_raw")) for x in detailed}
     unlinked_detailed_pages = [
         {"title_raw": p.get("title_raw"), "path": p.get("path"), "matched_target_areas": p.get("matched_target_areas"), "numbered_step_count": p.get("numbered_step_count")}
@@ -211,14 +215,17 @@ def main() -> None:
             "dedicated_quest_pages_preserved": len(pages),
             "dedicated_pages_with_numbered_steps": sum(1 for p in pages if p.get("has_numbered_steps")),
             "missing_area_snapshots": len(missing_area_snapshots),
+            "yaml_parse_errors": len(PARSE_ERRORS),
             "status_counts": dict(sorted(status_counts.items())),
         },
         "per_region": {region: dict(sorted(values.items())) for region, values in per_region.items()},
+        "yaml_parse_errors": PARSE_ERRORS,
         "missing_area_snapshots": missing_area_snapshots,
         "quest_readiness": detailed,
         "canonical_records_not_seen_in_area_tables": orphan_canonical,
         "numbered_walkthrough_pages_not_linked_to_area_table_rows": unlinked_detailed_pages,
         "pass_conditions": {
+            "canonical_yaml_all_parseable": not PARSE_ERRORS,
             "all_target_area_pages_preserved": not missing_area_snapshots,
             "no_area_table_quest_missing_from_canonical": status_counts.get("missing_from_canonical", 0) == 0,
             "all_area_table_quests_have_dedicated_walkthrough": all(x.get("status") in {"dedicated_numbered_walkthrough", "dedicated_walkthrough_prose"} for x in detailed),
@@ -227,13 +234,14 @@ def main() -> None:
             "Area-table-derived walkthroughs are useful but are not labeled equivalent to a dedicated quest page.",
             "A dedicated page with explicit numbered steps is the strongest web walkthrough evidence in this audit.",
             "Cross-area and faction series may not appear in a local area table and are surfaced separately.",
+            "Malformed canonical YAML is reported as a preservation defect instead of aborting the audit.",
             "Source contradictions and target-client verification remain separate from this completeness classification.",
         ],
     }
-    dump = yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=180)
+    output = yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=180)
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(dump, encoding="utf-8")
-    print(yaml.safe_dump({"counts": payload["counts"], "per_region": payload["per_region"], "pass_conditions": payload["pass_conditions"]}, sort_keys=False, allow_unicode=True, width=180), end="")
+    OUT.write_text(output, encoding="utf-8")
+    print(yaml.safe_dump({"counts": payload["counts"], "per_region": payload["per_region"], "yaml_parse_errors": PARSE_ERRORS, "pass_conditions": payload["pass_conditions"]}, sort_keys=False, allow_unicode=True, width=180), end="")
 
 
 if __name__ == "__main__":
