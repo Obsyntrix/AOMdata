@@ -1,0 +1,30 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 25
+name_raw: Fungus Forest North
+canonical_target_name: Fungus Forest North
+region: dark
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=25&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=25&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 1de6e87641dc96a83615e088ca53239c02c64e3e00eb0ab7db32e68121ec8c3c
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 805
+  name_raw: Defeat Giant Mouse 接取坐标 127, 59
+  url: https://aog.dvg.cn/quest_info.php?id=805&lang=eng
+- quest_id: 806
+  name_raw: Collect Mouse Tails 接取坐标 127, 59
+  url: https://aog.dvg.cn/quest_info.php?id=806&lang=eng
+- quest_id: 807
+  name_raw: Blockade to Realizing Dream 接取坐标 286, 76
+  url: https://aog.dvg.cn/quest_info.php?id=807&lang=eng
+- quest_id: 808
+  name_raw: Robbed Parts 接取坐标 286, 76
+  url: https://aog.dvg.cn/quest_info.php?id=808&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

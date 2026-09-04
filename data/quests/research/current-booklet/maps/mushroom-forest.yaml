@@ -1,0 +1,54 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 18
+name_raw: Mushroom Forest
+canonical_target_name: Mushroom Forest
+region: breeze
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=18&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=18&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 66ea4ccfa93cab28d3a373c353068d7a955415b32dd30109b5fc50f2f2cf3e8a
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 504
+  name_raw: Inquire for Spore Collection 步骤 1 · 坐标 185, 53
+  url: https://aog.dvg.cn/quest_info.php?id=504&lang=eng
+- quest_id: 510
+  name_raw: Good Spore Collection 接取坐标 185, 53
+  url: https://aog.dvg.cn/quest_info.php?id=510&lang=eng
+- quest_id: 511
+  name_raw: Golden Matsuake 接取坐标 212, 22
+  url: https://aog.dvg.cn/quest_info.php?id=511&lang=eng
+- quest_id: 512
+  name_raw: Disappeared Golden Matsuake 接取坐标 212, 22
+  url: https://aog.dvg.cn/quest_info.php?id=512&lang=eng
+- quest_id: 513
+  name_raw: Boar Lord 接取坐标 212, 22
+  url: https://aog.dvg.cn/quest_info.php?id=513&lang=eng
+- quest_id: 514
+  name_raw: Sacral Praise 接取坐标 212, 22
+  url: https://aog.dvg.cn/quest_info.php?id=514&lang=eng
+- quest_id: 515
+  name_raw: Venom Collection 接取坐标 177, 51
+  url: https://aog.dvg.cn/quest_info.php?id=515&lang=eng
+- quest_id: 516
+  name_raw: Hungry Robber 接取坐标 36, 49
+  url: https://aog.dvg.cn/quest_info.php?id=516&lang=eng
+- quest_id: 517
+  name_raw: Ancient Books 接取坐标 36, 49
+  url: https://aog.dvg.cn/quest_info.php?id=517&lang=eng
+- quest_id: 545
+  name_raw: Defeat Yellow Mushroom 步骤 1 · 坐标 11, 236
+  url: https://aog.dvg.cn/quest_info.php?id=545&lang=eng
+- quest_id: 546
+  name_raw: Blaic's Soar 步骤 1 · 坐标 11, 236
+  url: https://aog.dvg.cn/quest_info.php?id=546&lang=eng
+- quest_id: 547
+  name_raw: Poison Gas Spreading 步骤 1 · 坐标 60, 160
+  url: https://aog.dvg.cn/quest_info.php?id=547&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

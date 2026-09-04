@@ -1,0 +1,54 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 22
+name_raw: Mysterious Garden
+canonical_target_name: Mysterious Garden
+region: breeze
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=22&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=22&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 1cf31bc55a0fc9914f058a8a5495229f96f36d6a207925baf645919d314b13c2
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 536
+  name_raw: Save Garden 接取坐标 32, 14
+  url: https://aog.dvg.cn/quest_info.php?id=536&lang=eng
+- quest_id: 537
+  name_raw: Sleeping Spirit 接取坐标 153, 102
+  url: https://aog.dvg.cn/quest_info.php?id=537&lang=eng
+- quest_id: 538
+  name_raw: Magic Pool 接取坐标 32, 14
+  url: https://aog.dvg.cn/quest_info.php?id=538&lang=eng
+- quest_id: 539
+  name_raw: Searching for Gaze's Grave 接取坐标 180, 112
+  url: https://aog.dvg.cn/quest_info.php?id=539&lang=eng
+- quest_id: 540
+  name_raw: Marlin's Bone 接取坐标 180, 112
+  url: https://aog.dvg.cn/quest_info.php?id=540&lang=eng
+- quest_id: 541
+  name_raw: Reunion 接取坐标 180, 112
+  url: https://aog.dvg.cn/quest_info.php?id=541&lang=eng
+- quest_id: 554
+  name_raw: Queen Angela 步骤 1 · 坐标 32, 14
+  url: https://aog.dvg.cn/quest_info.php?id=554&lang=eng
+- quest_id: 555
+  name_raw: Defeat Thunder Rabbit 步骤 1 · 坐标 81, 117
+  url: https://aog.dvg.cn/quest_info.php?id=555&lang=eng
+- quest_id: 556
+  name_raw: Naughty Garden Elf 步骤 1 · 坐标 213, 78
+  url: https://aog.dvg.cn/quest_info.php?id=556&lang=eng
+- quest_id: 563
+  name_raw: Magic Stone 步骤 1 · 坐标 32, 14
+  url: https://aog.dvg.cn/quest_info.php?id=563&lang=eng
+- quest_id: 564
+  name_raw: Evil Student Union Leader 接取坐标 32, 14
+  url: https://aog.dvg.cn/quest_info.php?id=564&lang=eng
+- quest_id: 614
+  name_raw: Ephemeral Tears 步骤 1 · 坐标 272, 72
+  url: https://aog.dvg.cn/quest_info.php?id=614&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

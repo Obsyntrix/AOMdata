@@ -1,0 +1,27 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 91
+name_raw: Sunken Ruins
+canonical_target_name: Sunken Ruins
+region: atlantis
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=91&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=91&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 317ee3dee41a06e73788dcac1f04366e4bd2c2915fcdd6ba649570de0dc214ef
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 707
+  name_raw: The Puzzle of Yatiss 步骤 6 · 坐标 18, 81
+  url: https://aog.dvg.cn/quest_info.php?id=707&lang=eng
+- quest_id: 708
+  name_raw: the Source of Energy Seeking 步骤 1 · 坐标 39, 84
+  url: https://aog.dvg.cn/quest_info.php?id=708&lang=eng
+- quest_id: 754
+  name_raw: Disarm 接取坐标 248, 164
+  url: https://aog.dvg.cn/quest_info.php?id=754&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

@@ -1,0 +1,30 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 20
+name_raw: Foggy Forest
+canonical_target_name: Foggy Forest
+region: dark
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=20&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=20&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 013823d19dcfc48bbbc17df16f83377360f438685aca9a9781d93b791f48b703
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 813
+  name_raw: Drive away Lizardmen 接取坐标 257, 165
+  url: https://aog.dvg.cn/quest_info.php?id=813&lang=eng
+- quest_id: 814
+  name_raw: Collect Cuss Ball 接取坐标 257, 165
+  url: https://aog.dvg.cn/quest_info.php?id=814&lang=eng
+- quest_id: 815
+  name_raw: Repel Exiled Earl 接取坐标 22, 18
+  url: https://aog.dvg.cn/quest_info.php?id=815&lang=eng
+- quest_id: 816
+  name_raw: Evil Tooth 接取坐标 22, 18
+  url: https://aog.dvg.cn/quest_info.php?id=816&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

@@ -1,0 +1,36 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 72
+name_raw: Hell Palace
+canonical_target_name: Hell Palace
+region: dungeon
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=72&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=72&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: a476312cb2e25f876da3cc811f4565ff7798c663855484e8880e59696bd5cb26
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 637
+  name_raw: Diary Collection 接取坐标 177, 107
+  url: https://aog.dvg.cn/quest_info.php?id=637&lang=eng
+- quest_id: 648
+  name_raw: Serious Loss of Life 接取坐标 112, 12
+  url: https://aog.dvg.cn/quest_info.php?id=648&lang=eng
+- quest_id: 649
+  name_raw: Peace to Their Souls 接取坐标 112, 12
+  url: https://aog.dvg.cn/quest_info.php?id=649&lang=eng
+- quest_id: 707
+  name_raw: The Puzzle of Yatiss 步骤 3 · 坐标 63, 34
+  url: https://aog.dvg.cn/quest_info.php?id=707&lang=eng
+- quest_id: 976
+  name_raw: Nature is Crying for Help 步骤 3 · 坐标 42, 92
+  url: https://aog.dvg.cn/quest_info.php?id=976&lang=eng
+- quest_id: 977
+  name_raw: Nature is Crying for Help 步骤 3 · 坐标 42, 92
+  url: https://aog.dvg.cn/quest_info.php?id=977&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

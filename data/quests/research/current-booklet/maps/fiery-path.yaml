@@ -1,0 +1,39 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 68
+name_raw: Fiery Path
+canonical_target_name: Fiery Path
+region: dungeon
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=68&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 3d6cfe6ad6442007d2e31dca38cde4d51c85be900a354947ca5b643621beff80
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 606
+  name_raw: Learning from Chef Boship 步骤 2 · 坐标 120, 108
+  url: https://aog.dvg.cn/quest_info.php?id=606&lang=eng
+- quest_id: 607
+  name_raw: The First Appetizer 接取坐标 120, 108
+  url: https://aog.dvg.cn/quest_info.php?id=607&lang=eng
+- quest_id: 609
+  name_raw: The Third Appetizer 步骤 1 · 坐标 253, 112
+  url: https://aog.dvg.cn/quest_info.php?id=609&lang=eng
+- quest_id: 617
+  name_raw: Killing Rats' Leader 接取坐标 31, 20
+  url: https://aog.dvg.cn/quest_info.php?id=617&lang=eng
+- quest_id: 619
+  name_raw: Searching for Lost Receipe 接取坐标 152, 19
+  url: https://aog.dvg.cn/quest_info.php?id=619&lang=eng
+- quest_id: 631
+  name_raw: Devoted Spirit 步骤 1 · 坐标 136, 66
+  url: https://aog.dvg.cn/quest_info.php?id=631&lang=eng
+- quest_id: 636
+  name_raw: Follow in the Footsteps of Hero 步骤 1 · 坐标 19, 127
+  url: https://aog.dvg.cn/quest_info.php?id=636&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

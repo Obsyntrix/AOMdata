@@ -1,0 +1,42 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 86
+name_raw: Golden Beach
+canonical_target_name: Golden Beach
+region: atlantis
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=86&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=86&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 21d25a24730b17919f36d81441ccf2ba59738d8b00656ab8f0d6f7df335cf33d
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 703
+  name_raw: Test 步骤 2 · 坐标 205, 85
+  url: https://aog.dvg.cn/quest_info.php?id=703&lang=eng
+- quest_id: 704
+  name_raw: 'Goal: Get Skin Dive License 步骤 1 · 坐标 231, 43'
+  url: https://aog.dvg.cn/quest_info.php?id=704&lang=eng
+- quest_id: 705
+  name_raw: Blockade under the Sea 步骤 6 · 坐标 231, 43
+  url: https://aog.dvg.cn/quest_info.php?id=705&lang=eng
+- quest_id: 706
+  name_raw: 'Goal: Get Scuba Dive License 接取坐标 231, 43'
+  url: https://aog.dvg.cn/quest_info.php?id=706&lang=eng
+- quest_id: 720
+  name_raw: Let's Fight! 接取坐标 33, 67
+  url: https://aog.dvg.cn/quest_info.php?id=720&lang=eng
+- quest_id: 721
+  name_raw: The Misbehaved Son 接取坐标 33, 67
+  url: https://aog.dvg.cn/quest_info.php?id=721&lang=eng
+- quest_id: 727
+  name_raw: Aborigines' Threat 步骤 1 · 坐标 85, 72
+  url: https://aog.dvg.cn/quest_info.php?id=727&lang=eng
+- quest_id: 750
+  name_raw: Feast on Crabs 步骤 1 · 坐标 231, 61
+  url: https://aog.dvg.cn/quest_info.php?id=750&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

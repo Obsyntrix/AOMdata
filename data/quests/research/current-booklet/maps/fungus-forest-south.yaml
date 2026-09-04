@@ -1,0 +1,54 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 19
+name_raw: Fungus Forest South
+canonical_target_name: Fungus Forest South
+region: dark
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=19&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=19&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: ce8b7769c81cee48db083e80e29c9e40494295287214f4aa544cae8630e4b57e
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 309
+  name_raw: Supply Order Check 步骤 1 · 坐标 255, 23
+  url: https://aog.dvg.cn/quest_info.php?id=309&lang=eng
+- quest_id: 310
+  name_raw: Mischief Maker 接取坐标 255, 23
+  url: https://aog.dvg.cn/quest_info.php?id=310&lang=eng
+- quest_id: 311
+  name_raw: Sleepless Nights 接取坐标 242, 21
+  url: https://aog.dvg.cn/quest_info.php?id=311&lang=eng
+- quest_id: 312
+  name_raw: Whisper's Dew 接取坐标 175, 71
+  url: https://aog.dvg.cn/quest_info.php?id=312&lang=eng
+- quest_id: 313
+  name_raw: A Teacher's Burden 接取坐标 58, 151
+  url: https://aog.dvg.cn/quest_info.php?id=313&lang=eng
+- quest_id: 314
+  name_raw: Trainee's Curiosity 接取坐标 246, 47
+  url: https://aog.dvg.cn/quest_info.php?id=314&lang=eng
+- quest_id: 315
+  name_raw: Crybaby's Trick 接取坐标 246, 47
+  url: https://aog.dvg.cn/quest_info.php?id=315&lang=eng
+- quest_id: 316
+  name_raw: Misunderstanding 接取坐标 246, 47
+  url: https://aog.dvg.cn/quest_info.php?id=316&lang=eng
+- quest_id: 317
+  name_raw: Father and Son 接取坐标 246, 47
+  url: https://aog.dvg.cn/quest_info.php?id=317&lang=eng
+- quest_id: 346
+  name_raw: King of Whisper 步骤 1 · 坐标 263, 158
+  url: https://aog.dvg.cn/quest_info.php?id=346&lang=eng
+- quest_id: 347
+  name_raw: Noise Maker 步骤 1 · 坐标 263, 158
+  url: https://aog.dvg.cn/quest_info.php?id=347&lang=eng
+- quest_id: 348
+  name_raw: Wandering Spirit 步骤 1 · 坐标 88, 31
+  url: https://aog.dvg.cn/quest_info.php?id=348&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

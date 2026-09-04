@@ -1,0 +1,54 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 37
+name_raw: Wishing Tear
+canonical_target_name: Wishing Tear
+region: steel
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=37&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=37&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 6c7d9e1bd5cb87701585b817e7bd2753867a0f5b826cb7b8f898e9efc263df9e
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 401
+  name_raw: Rare Lizard's skin 接取坐标 82, 105
+  url: https://aog.dvg.cn/quest_info.php?id=401&lang=eng
+- quest_id: 402
+  name_raw: Rare Toad's skin 接取坐标 82, 105
+  url: https://aog.dvg.cn/quest_info.php?id=402&lang=eng
+- quest_id: 403
+  name_raw: Traveler's worry 接取坐标 133, 71
+  url: https://aog.dvg.cn/quest_info.php?id=403&lang=eng
+- quest_id: 404
+  name_raw: Parts and Desert Mouse 接取坐标 23, 44
+  url: https://aog.dvg.cn/quest_info.php?id=404&lang=eng
+- quest_id: 405
+  name_raw: Wild flavor 接取坐标 178, 101
+  url: https://aog.dvg.cn/quest_info.php?id=405&lang=eng
+- quest_id: 406
+  name_raw: Testing apparatus of water resource 接取坐标 148, 70
+  url: https://aog.dvg.cn/quest_info.php?id=406&lang=eng
+- quest_id: 407
+  name_raw: Experiment of desert animals 接取坐标 148, 70
+  url: https://aog.dvg.cn/quest_info.php?id=407&lang=eng
+- quest_id: 408
+  name_raw: Strange Robot 接取坐标 148, 70
+  url: https://aog.dvg.cn/quest_info.php?id=408&lang=eng
+- quest_id: 409
+  name_raw: Genius scientist 接取坐标 148, 70
+  url: https://aog.dvg.cn/quest_info.php?id=409&lang=eng
+- quest_id: 443
+  name_raw: Evil Oasis Crystal 步骤 1 · 坐标 180, 35
+  url: https://aog.dvg.cn/quest_info.php?id=443&lang=eng
+- quest_id: 444
+  name_raw: Unrest in the Desert 步骤 1 · 坐标 46, 68
+  url: https://aog.dvg.cn/quest_info.php?id=444&lang=eng
+- quest_id: 445
+  name_raw: Caravan's Safety Confirming 步骤 1 · 坐标 180, 35
+  url: https://aog.dvg.cn/quest_info.php?id=445&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''

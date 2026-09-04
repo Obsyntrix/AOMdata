@@ -1,0 +1,236 @@
+schema_version: 1
+dataset: current_client_quest_corroboration_coverage
+authority_role: secondary_cross_version_corroboration
+warning: This source reflects a current client database. It may corroborate or expose gaps in historical Angels Wiki data, but it must not silently replace historical values for AOmega.
+map_id_scan:
+  first: 1
+  last: 220
+per_region:
+  aurora:
+    expected_maps: 9
+    captured_maps: 4
+    missing_maps: 5
+  breeze:
+    expected_maps: 9
+    captured_maps: 5
+    missing_maps: 4
+  steel:
+    expected_maps: 9
+    captured_maps: 6
+    missing_maps: 3
+  dark:
+    expected_maps: 9
+    captured_maps: 7
+    missing_maps: 2
+  dungeon:
+    expected_maps: 8
+    captured_maps: 5
+    missing_maps: 3
+  atlantis:
+    expected_maps: 16
+    captured_maps: 11
+    missing_maps: 5
+counts:
+  target_maps_expected: 60
+  target_maps_captured: 38
+  quest_ids_discovered: 332
+  quest_pages_captured: 332
+captured_maps:
+- map_id: 90
+  name_raw: Blue Ocean
+  canonical_target_name: Blue Ocean
+  region: atlantis
+- map_id: 84
+  name_raw: Blue Sea
+  canonical_target_name: Blue Sea
+  region: atlantis
+- map_id: 85
+  name_raw: Colorful Coral Reefs
+  canonical_target_name: Colorful Coral Reefs
+  region: atlantis
+- map_id: 93
+  name_raw: Dream Ocean
+  canonical_target_name: Dream Ocean
+  region: atlantis
+- map_id: 86
+  name_raw: Golden Beach
+  canonical_target_name: Golden Beach
+  region: atlantis
+- map_id: 98
+  name_raw: Lost Region
+  canonical_target_name: Lost Region
+  region: atlantis
+- map_id: 95
+  name_raw: Quiet Ocean
+  canonical_target_name: Quiet Ocean
+  region: atlantis
+- map_id: 94
+  name_raw: Raging Reefs
+  canonical_target_name: Raging Reefs
+  region: atlantis
+- map_id: 92
+  name_raw: Shining Coast
+  canonical_target_name: Shining Coast
+  region: atlantis
+- map_id: 91
+  name_raw: Sunken Ruins
+  canonical_target_name: Sunken Ruins
+  region: atlantis
+- map_id: 89
+  name_raw: Wave Harbor
+  canonical_target_name: Wave Harbor
+  region: atlantis
+- map_id: 3
+  name_raw: Aurora City
+  canonical_target_name: Aurora City
+  region: aurora
+- map_id: 5
+  name_raw: Cherry Village
+  canonical_target_name: Cherry Village
+  region: aurora
+- map_id: 4
+  name_raw: Dawn Harbor
+  canonical_target_name: Dawn Harbor
+  region: aurora
+- map_id: 11
+  name_raw: Thunder Ruins
+  canonical_target_name: Thunder Ruins
+  region: aurora
+- map_id: 29
+  name_raw: Breeze Woods
+  canonical_target_name: Breeze Woods
+  region: breeze
+- map_id: 30
+  name_raw: Cryptic Moon Swamp
+  canonical_target_name: Cryptic Moon Swamp
+  region: breeze
+- map_id: 23
+  name_raw: Dense Forest
+  canonical_target_name: Dense Forest
+  region: breeze
+- map_id: 18
+  name_raw: Mushroom Forest
+  canonical_target_name: Mushroom Forest
+  region: breeze
+- map_id: 22
+  name_raw: Mysterious Garden
+  canonical_target_name: Mysterious Garden
+  region: breeze
+- map_id: 31
+  name_raw: Bottomless Pit
+  canonical_target_name: Bottomless Pit
+  region: dark
+- map_id: 26
+  name_raw: Dark City
+  canonical_target_name: Dark City
+  region: dark
+- map_id: 20
+  name_raw: Foggy Forest
+  canonical_target_name: Foggy Forest
+  region: dark
+- map_id: 25
+  name_raw: Fungus Forest North
+  canonical_target_name: Fungus Forest North
+  region: dark
+- map_id: 19
+  name_raw: Fungus Forest South
+  canonical_target_name: Fungus Forest South
+  region: dark
+- map_id: 35
+  name_raw: Memory Cave
+  canonical_target_name: Memory Cave
+  region: dark
+- map_id: 15
+  name_raw: Mysterious Wetland
+  canonical_target_name: Mysterious Wetland
+  region: dark
+- map_id: 68
+  name_raw: Fiery Path
+  canonical_target_name: Fiery Path
+  region: dungeon
+- map_id: 72
+  name_raw: Hell Palace
+  canonical_target_name: Hell Palace
+  region: dungeon
+- map_id: 69
+  name_raw: Lava Cave
+  canonical_target_name: Lava Cave
+  region: dungeon
+- map_id: 75
+  name_raw: Magic Kitchen Path
+  canonical_target_name: Magic Kitchen Path
+  region: dungeon
+- map_id: 71
+  name_raw: Underground Square
+  canonical_target_name: Underground Square
+  region: dungeon
+- map_id: 33
+  name_raw: Burning Desert
+  canonical_target_name: Burning Desert
+  region: steel
+- map_id: 39
+  name_raw: Cactus Plains
+  canonical_target_name: Cactus Plain
+  region: steel
+- map_id: 21
+  name_raw: Dragon Graveyard
+  canonical_target_name: Dragon Graveyard
+  region: steel
+- map_id: 38
+  name_raw: Iron Castle
+  canonical_target_name: Iron Castle
+  region: steel
+- map_id: 34
+  name_raw: Scrap Iron Village
+  canonical_target_name: Scrap Iron Village
+  region: steel
+- map_id: 37
+  name_raw: Wishing Tear
+  canonical_target_name: Wishing Tear
+  region: steel
+missing_target_maps:
+- region: aurora
+  canonical_target_name: Spike Farm
+- region: aurora
+  canonical_target_name: Sunflower Plain
+- region: aurora
+  canonical_target_name: Riprap Coast
+- region: aurora
+  canonical_target_name: Crashing Hillock
+- region: aurora
+  canonical_target_name: Thorn Wasteland
+- region: breeze
+  canonical_target_name: Jade Vale
+- region: breeze
+  canonical_target_name: Quiet Vale
+- region: breeze
+  canonical_target_name: South of Mirror Lake
+- region: breeze
+  canonical_target_name: North of Mirror Lake
+- region: steel
+  canonical_target_name: Gebuer Vale
+- region: steel
+  canonical_target_name: Megalith Plain
+- region: steel
+  canonical_target_name: Deity Palace Ruins
+- region: dark
+  canonical_target_name: Shadowy Path
+- region: dark
+  canonical_target_name: Degula Maze
+- region: dungeon
+  canonical_target_name: Sad Abyss
+- region: dungeon
+  canonical_target_name: Flaming Door
+- region: dungeon
+  canonical_target_name: Gulp Room
+- region: atlantis
+  canonical_target_name: Puqi Village
+- region: atlantis
+  canonical_target_name: Palm Base
+- region: atlantis
+  canonical_target_name: Horrible Lost Region
+- region: atlantis
+  canonical_target_name: Coral Vale
+- region: atlantis
+  canonical_target_name: Evil Ship
+retrieval_errors: []

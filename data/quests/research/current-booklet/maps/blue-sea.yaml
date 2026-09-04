@@ -1,0 +1,42 @@
+schema_version: 1
+dataset: current_client_quest_map_evidence
+map_id: 84
+name_raw: Blue Sea
+canonical_target_name: Blue Sea
+region: atlantis
+source:
+  origin_url: https://aog.dvg.cn/map_info.php?id=84&lang=eng
+  retrieval_url: https://aog.dvg.cn/map_info.php?id=84&lang=eng
+  source_kind: aog_booklet_current_client_database
+  source_html_sha256: 1f9c09f90d295b55069d932305a7ec34eb826ac7cc2ef98be57cbc574b443d6f
+  authority_role: secondary_cross_version_corroboration
+  historical_authority: false
+  client_confirmation_for_aomega: pending
+quest_links:
+- quest_id: 706
+  name_raw: 'Goal: Get Scuba Dive License 步骤 1 · 坐标 124, 37'
+  url: https://aog.dvg.cn/quest_info.php?id=706&lang=eng
+- quest_id: 707
+  name_raw: The Puzzle of Yatiss 接取坐标 124, 37
+  url: https://aog.dvg.cn/quest_info.php?id=707&lang=eng
+- quest_id: 714
+  name_raw: The Leader of Radical Wing 接取坐标 71, 93
+  url: https://aog.dvg.cn/quest_info.php?id=714&lang=eng
+- quest_id: 716
+  name_raw: Revive 步骤 1 · 坐标 32, 58
+  url: https://aog.dvg.cn/quest_info.php?id=716&lang=eng
+- quest_id: 724
+  name_raw: Invaluable Rubbish 步骤 1 · 坐标 21, 165
+  url: https://aog.dvg.cn/quest_info.php?id=724&lang=eng
+- quest_id: 731
+  name_raw: Keep the Sea Clean 接取坐标 18, 113
+  url: https://aog.dvg.cn/quest_info.php?id=731&lang=eng
+- quest_id: 733
+  name_raw: Natural Enemy 接取坐标 55, 61
+  url: https://aog.dvg.cn/quest_info.php?id=733&lang=eng
+- quest_id: 751
+  name_raw: Angry Mermaid Vivian 接取坐标 18, 113
+  url: https://aog.dvg.cn/quest_info.php?id=751&lang=eng
+quest_section_text_raw:
+  accepted: ''
+  coordinates_and_steps: ''
