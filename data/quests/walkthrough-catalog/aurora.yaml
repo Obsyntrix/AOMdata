@@ -3493,7 +3493,39 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-fetor-on-deck
+    path: data/quests/areas/dawn-harbor.yaml
+    category: repeatable
+    repeatable: true
+    giver:
+      npc: Chef
+      area: Dawn Harbor
+      coordinates:
+      - 138
+      - 161
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 15
+        max: 30
+    rewards:
+      experience: 510
+      credit: 25
+    objectives:
+    - type: kill
+      target: Grey Mouse
+      count: 20
+      area: Dawn Harbor
+    walkthrough:
+    - Speak with the Chef at (138,161).
+    - Defeat 20 Grey Mice in Dawn Harbor.
+    - Return to the Chef.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -3565,7 +3597,41 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-side-dish-salted-crabmeat
+    path: data/quests/areas/dawn-harbor.yaml
+    category: repeatable
+    repeatable: true
+    giver:
+      npc: Chef
+      area: Dawn Harbor
+      coordinates:
+      - 138
+      - 161
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 15
+        max: 30
+    rewards:
+      experience: 510
+      credit: 25
+    objectives:
+    - type: collect_drop
+      target: Soldier Crab
+      item: Fresh Crab Meat
+      count: 10
+      area: Dawn Harbor
+      drop_rate: null
+    walkthrough:
+    - Speak with the Chef.
+    - Defeat Soldier Crabs until you collect 10 Fresh Crab Meats.
+    - Return to the Chef.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -3637,7 +3703,41 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-side-dish-herb-tortoise-meat
+    path: data/quests/areas/dawn-harbor.yaml
+    category: repeatable
+    repeatable: true
+    giver:
+      npc: Chef
+      area: Dawn Harbor
+      coordinates:
+      - 138
+      - 161
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 15
+        max: 30
+    rewards:
+      experience: 450
+      credit: 25
+    objectives:
+    - type: collect_drop
+      target: Turtle
+      item: Fresh Turtle Meat
+      count: 4
+      area: Dawn Harbor
+      drop_rate: null
+    walkthrough:
+    - Speak with the Chef.
+    - Defeat Turtles until you collect 4 Fresh Turtle Meats.
+    - Return to the Chef.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -3710,7 +3810,39 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-control-plan-of-sheep-quantity
+    path: data/quests/areas/dawn-harbor.yaml
+    category: repeatable
+    repeatable: true
+    giver:
+      npc: Fisherman
+      area: Dawn Harbor
+      coordinates:
+      - 165
+      - 100
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 20
+        max: 35
+    rewards:
+      experience: 580
+      credit: 30
+    objectives:
+    - type: kill
+      target: Harp Sheep
+      count: 20
+      area: Riprap Coast
+    walkthrough:
+    - Speak with the Fisherman at (165,100).
+    - Travel to Riprap Coast and defeat 20 Harp Sheep.
+    - Return to the Fisherman.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -3784,7 +3916,41 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-defeating-evil-force
+    path: data/quests/areas/dawn-harbor.yaml
+    category: repeatable
+    repeatable: true
+    giver:
+      npc: Policeman
+      area: Dawn Harbor
+      coordinates:
+      - 193
+      - 28
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 20
+        max: 35
+    rewards:
+      experience: 590
+      credit: 30
+    objectives:
+    - type: collect_drop
+      target: Riprap Pirate
+      item: Pirate's Necklace
+      count: 5
+      area: Riprap Coast
+      drop_rate: null
+    walkthrough:
+    - Speak with the Policeman at (193,28).
+    - Defeat Riprap Pirates at Riprap Coast until you collect 5 Pirate's Necklaces.
+    - Return to the Policeman.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration:
   - quest_id: 227
     name_raw: Defeating Evil Force
@@ -3875,7 +4041,38 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-golden-island-legend
+    path: data/quests/areas/dawn-harbor.yaml
+    category: single
+    repeatable: false
+    giver: null
+    requirements:
+      factions:
+      - Aurora
+    rewards:
+      experience: 600
+      credit: 25
+    objectives:
+    - type: collect_drop
+      target: Turtle
+      item: Map Piece
+      count: null
+      area: Dawn Harbor
+      drop_rate: null
+    - type: talk
+      target: Retired Sailor
+      area: Dawn Harbor
+      coordinates:
+      - 31
+      - 98
+    walkthrough:
+    - Defeat Turtles and collect the required Map Pieces.
+    - Find the Retired Sailor at (31,98) in Dawn Harbor.
+    verification:
+      status: web_partial
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration:
   - quest_id: 220
     name_raw: Golden Island Legend
@@ -3965,7 +4162,40 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-protecting-bosss-right
+    path: data/quests/areas/dawn-harbor.yaml
+    category: single
+    repeatable: false
+    giver:
+      npc: Barkeeper
+      area: Dawn Harbor
+      coordinates:
+      - 204
+      - 125
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 20
+        max: null
+    rewards:
+      experience: 1580
+      credit: 70
+      gold: 600
+    objectives:
+    - type: kill
+      target: Riprap Pirate
+      count: 20
+      area: Riprap Coast
+    walkthrough:
+    - Speak with the Barkeeper at (204,125).
+    - Travel to Riprap Coast and defeat 20 Riprap Pirates.
+    - Return to the Barkeeper.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -4037,7 +4267,43 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-clearance-of-harbor
+    path: data/quests/areas/dawn-harbor.yaml
+    category: series
+    repeatable: false
+    giver:
+      npc: Fishing Leader
+      area: Dawn Harbor
+      coordinates:
+      - 252
+      - 156
+    requirements:
+      factions:
+      - Aurora
+      level:
+        min: 15
+        max: null
+    rewards:
+      experience: 1400
+      credit: 55
+      gold: 1000
+    objectives:
+    - type: kill_combined
+      targets:
+      - Turtle
+      - Soldier Crab
+      - Grey Mouse
+      total_count: 20
+      area: Dawn Harbor
+    walkthrough:
+    - Speak with the Fishing Leader at (252,156).
+    - Defeat a total of 20 Turtles, Soldier Crabs, and Grey Mice in Dawn Harbor.
+    - Return to the Fishing Leader.
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -4130,7 +4396,38 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-request-for-military-aid
+    path: data/quests/areas/dawn-harbor.yaml
+    category: series
+    repeatable: false
+    giver:
+      npc: Fishing Leader
+      area: Dawn Harbor
+      coordinates:
+      - 252
+      - 156
+    requirements:
+      factions:
+      - Aurora
+      prerequisite_quests:
+      - dawn-harbor-clearance-of-harbor
+    rewards:
+      experience: 400
+      credit: 30
+    objectives:
+    - type: talk
+      target: Deputy Colonel
+      area: Aurora City
+      coordinates: null
+      item_delivery: call for help
+    walkthrough:
+    - Complete Clearance of Harbor and speak with the Fishing Leader.
+    - Take the call for help to the Deputy Colonel in Aurora City.
+    verification:
+      status: web_partial
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -4220,7 +4517,48 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-being-premptive
+    path: data/quests/areas/dawn-harbor.yaml
+    category: series
+    repeatable: false
+    giver:
+      npc: Fishing Leader
+      area: Dawn Harbor
+      coordinates:
+      - 252
+      - 156
+    requirements:
+      factions:
+      - Aurora
+      prerequisite_quests:
+      - dawn-harbor-request-for-military-aid
+    rewards:
+      experience: 2120
+      credit: 450
+      items:
+      - name: null
+    objectives:
+    - type: kill
+      target: Vice Head Pirate
+      count: 1
+      area: Riprap Coast
+      boss: true
+    walkthrough:
+    - Complete Request for Military Aid.
+    - Defeat Vice Head Pirate at Riprap Coast.
+    - Return to the Fishing Leader in Dawn Harbor.
+    verification:
+      status: web_conflict
+      client_confirmation: pending
+      conflicts:
+      - field: giver.coordinates
+        values:
+        - - 252
+          - 156
+        - - 152
+          - 156
+        reason: Dawn Harbor area page and dedicated quest page disagree; area NPC table supports [252,156].
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -4308,7 +4646,41 @@ quests:
       archive_timestamp: null
       source_html_sha256: 2e98decc0d3c7578da6d40166228f52027217a9dcb294497aa9660725f965945
       authority_role: secondary_historical_walkthrough
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: dawn-harbor-glory-of-dawn-harbor
+    path: data/quests/areas/dawn-harbor.yaml
+    category: series
+    repeatable: false
+    giver:
+      npc: Fishing Leader
+      area: Dawn Harbor
+      coordinates:
+      - 252
+      - 156
+    requirements:
+      factions:
+      - Aurora
+      prerequisite_quests:
+      - dawn-harbor-being-premptive
+    rewards:
+      experience: 200
+      credit: 25
+      items:
+      - name: null
+    objectives:
+    - type: talk
+      target: Cherry's Leader
+      area: Cherry Village
+      coordinates:
+      - 235
+      - 73
+    walkthrough:
+    - Complete Being Premptive and speak with the Fishing Leader.
+    - Travel to Cherry Village and find Cherry's Leader at (235,73).
+    verification:
+      status: web_partial
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration:
   - quest_id: 226
     name_raw: Glory of Dawn Harbor
