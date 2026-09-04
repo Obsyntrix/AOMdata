@@ -1,0 +1,46 @@
+name: Audit walkthrough catalog gaps
+
+on:
+  push:
+    paths:
+      - 'data/quests/walkthrough-catalog/aurora.yaml'
+      - 'data/quests/walkthrough-catalog/breeze.yaml'
+      - 'data/quests/walkthrough-catalog/steel.yaml'
+      - 'data/quests/walkthrough-catalog/dark.yaml'
+      - 'data/quests/walkthrough-catalog/dungeon.yaml'
+      - 'data/quests/walkthrough-catalog/atlantis.yaml'
+      - 'tools/audit_walkthrough_catalog.py'
+      - '.github/workflows/audit-walkthrough-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aomega-walkthrough-catalog-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check PyYAML
+      - name: Audit catalog
+        run: python tools/audit_walkthrough_catalog.py
+      - name: Show gaps
+        run: sed -n '1,260p' data/quests/walkthrough-catalog/gaps.yaml
+      - name: Publish audit
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/quests/walkthrough-catalog/gaps.yaml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Audit walkthrough catalog gaps and linkage'
+          git pull --rebase origin main
+          git push origin HEAD:main
