@@ -129,7 +129,7 @@ quests:
       status: web_conflict
       client_confirmation: pending
       conflicts:
-        - {field: giver.coordinates, values: [[252, 156], [152, 156]], reason: Dawn Harbor area page and dedicated quest page disagree; area NPC table supports [252,156].}
+        - {field: giver.coordinates, values: [[252, 156], [152, 156]], reason: "Dawn Harbor area page and dedicated quest page disagree; area NPC table supports [252,156]."}
     source_refs: [area_page]
   - id: dawn-harbor-glory-of-dawn-harbor
     name: Glory of Dawn Harbor
