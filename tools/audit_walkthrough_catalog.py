@@ -27,13 +27,14 @@ def norm(value: object) -> str:
 def main() -> None:
     missing = []
     minimal = []
+    corroborated = []
     mismatched_historical_pages = []
     suspicious_canonical_cross_area = []
     per_region = {}
 
     for region in REGIONS:
         doc = load(CAT / f"{region}.yaml")
-        stats = {"quests": 0, "missing": 0, "minimal": 0, "mismatched_historical_page_links": 0, "suspicious_canonical_cross_area": 0}
+        stats = {"quests": 0, "missing": 0, "minimal": 0, "gap_corroborated": 0, "mismatched_historical_page_links": 0, "suspicious_canonical_cross_area": 0}
         for q in doc.get("quests", []) or []:
             if not isinstance(q, dict):
                 continue
@@ -41,22 +42,29 @@ def main() -> None:
             area = q.get("area") or {}
             area_id = str(area.get("id") or "")
             name = q.get("name")
-            source_class = ((q.get("walkthrough") or {}).get("source_class"))
+            walkthrough = q.get("walkthrough") or {}
+            source_class = str(walkthrough.get("source_class") or "none")
             if source_class == "none":
                 stats["missing"] += 1
                 missing.append({"region": region, "area_id": area_id, "id": q.get("id"), "name": name, "short_description_raw": ((q.get("historical_area_table") or {}).get("short_description_raw"))})
             elif source_class == "historical_area_table_minimal":
                 stats["minimal"] += 1
-                minimal.append({"region": region, "area_id": area_id, "id": q.get("id"), "name": name, "steps": ((q.get("walkthrough") or {}).get("steps"))})
+                minimal.append({"region": region, "area_id": area_id, "id": q.get("id"), "name": name, "steps": walkthrough.get("steps")})
+            if "corroboration" in source_class:
+                stats["gap_corroborated"] += 1
+                corroborated.append({"region": region, "area_id": area_id, "id": q.get("id"), "name": name, "source_class": source_class, "steps": walkthrough.get("steps"), "caveat": walkthrough.get("caveat")})
 
             qkey = norm(name)
             for page in q.get("historical_dedicated_pages", []) or []:
                 if not isinstance(page, dict):
                     continue
+                matched_via = str(page.get("matched_via") or "")
+                if matched_via == "exact_area_quest_link_text":
+                    continue
                 pkey = norm(page.get("title_raw"))
                 if pkey and qkey and pkey != qkey:
                     stats["mismatched_historical_page_links"] += 1
-                    mismatched_historical_pages.append({"region": region, "area_id": area_id, "quest": name, "page_title": page.get("title_raw"), "page_source": (page.get("source") or {}).get("path")})
+                    mismatched_historical_pages.append({"region": region, "area_id": area_id, "quest": name, "page_title": page.get("title_raw"), "matched_via": matched_via, "page_source": (page.get("source") or {}).get("path")})
 
             for c in q.get("existing_canonical_matches", []) or []:
                 if not isinstance(c, dict):
@@ -74,11 +82,13 @@ def main() -> None:
         "totals": {
             "missing_walkthroughs": len(missing),
             "area_minimal_walkthroughs": len(minimal),
+            "gap_corroborated_walkthroughs": len(corroborated),
             "mismatched_historical_page_links": len(mismatched_historical_pages),
             "suspicious_canonical_cross_area_links": len(suspicious_canonical_cross_area),
         },
         "missing_walkthroughs": missing,
         "area_minimal_walkthroughs": minimal,
+        "gap_corroborated_walkthroughs": corroborated,
         "mismatched_historical_page_links": mismatched_historical_pages,
         "suspicious_canonical_cross_area_links": suspicious_canonical_cross_area,
         "pass_conditions": {
