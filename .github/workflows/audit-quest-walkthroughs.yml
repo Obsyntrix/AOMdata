@@ -1,0 +1,46 @@
+name: Audit quest walkthrough readiness
+
+on:
+  push:
+    paths:
+      - 'data/quests/research/walkthrough-intake/areas/**'
+      - 'data/quests/research/walkthrough-intake/quest-pages/**'
+      - 'data/quests/research/walkthrough-intake/coverage.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aomega-quest-walkthrough-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install YAML dependency
+        run: python -m pip install --disable-pip-version-check PyYAML
+      - name: Audit walkthrough readiness
+        run: python tools/audit_quest_walkthroughs.py
+      - name: Show audit summary
+        run: sed -n '1,180p' data/quests/research/walkthrough-intake/audit.yaml
+      - name: Publish audit
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/quests/research/walkthrough-intake/audit.yaml
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Audit quest walkthrough readiness'
+          git pull --rebase origin main
+          git push origin HEAD:main
