@@ -85,7 +85,7 @@ totals:
   walkthrough_missing: 0
   walkthrough_area_minimal: 39
   gap_corroborated_walkthroughs: 2
-  removed_template_rows: 4
+  removed_template_rows: 0
 yaml_parse_errors: []
 notes:
 - The catalog is a reconciliation/query layer, not permission to erase contradictory source observations.
@@ -93,19 +93,7 @@ notes:
 - Current Booklet evidence never becomes historical truth solely because its structure is cleaner.
 sanitization:
   applied: true
-  removed_template_rows:
-  - region: atlantis
-    area_id: coral-vale
-    name: Quest Name
-  - region: atlantis
-    area_id: horrible-lost-region
-    name: Quest Name
-  - region: atlantis
-    area_id: quiet-ocean
-    name: Quest Name
-  - region: atlantis
-    area_id: raging-reefs
-    name: Quest Name
-  historical_join_policy: exact area quest-link text or exact dedicated-page title
+  removed_template_rows: []
+  historical_join_policy: exact area quest-link text or sequence-aware exact dedicated-page title
   canonical_join_policy: same-area only for area records
   gap_corroboration_file: data/quests/research/gap-corroboration.yaml

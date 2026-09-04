@@ -8938,5 +8938,5 @@ supplemental_period_guide_blocks:
     source_html_sha256: 6c7043082fbdec845470ba73ff4f45553a9db20c434db8a59941c7a241ca0515
     authority_role: secondary_historical_walkthrough
 sanitization:
-  policy: Exact area quest-link text or exact page-title joins only; same-area canonical joins only; template placeholders removed.
+  policy: Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.
   gap_corroboration_file: data/quests/research/gap-corroboration.yaml

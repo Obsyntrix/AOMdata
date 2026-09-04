@@ -299,24 +299,6 @@ quests:
       archive_timestamp: null
       source_html_sha256: 5b85dad7195f095c7e7ed4a2abf7295e09140441b5787f05582a8ed0237a9fd3
       authority_role: null
-  - title_raw: Looking For Spy Angel
-    summary_raw: You must find the Spy Angel to recieve instruction on your first assignment.
-    information_raw: 'Quest Giver Repeatable Series Aurora Angel No Yes (Asmode: 2 of 8)
-
-      Previous Quest Next Quest Reaching Higher Level Showing Speed and Destroying Force'
-    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Reaching Higher Level
-    reward_raw: Exp. Credit Gold 200 25 - Items -
-    walkthrough_raw: Step 1 Go to Dawn Harbor . Step 2 Speak with the Spy Angel (70,177) and take the quest.
-    walkthrough_steps: []
-    matched_via: exact_dedicated_page_title
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
-      origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
-      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 102083d8df12e66e9a46a355b715fbf057dd7e942d89ca861f029dcf4de75d16
-      authority_role: null
   period_guide_matches:
   - title_raw: Looking for Spy Angel
     section_raw: Executive Newbie - Beast
@@ -3119,32 +3101,6 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: a1d32a66b07640029894c2def49fd2ce54b0e278d325be930b25f25748603be2
-      authority_role: null
-  - title_raw: Break Seal Part 2
-    summary_raw: null
-    information_raw: 'Quest Giver Requirements Repeatable? Shiwand Beast Faction; Completed quest Sage''s Staff No
-
-      Previous Quest Next Quest Break Seal -
-
-      Summary Sharker assures you that he knows what he is doing, but he still needs ingredients to help with the ritual. Defeat Elves , Mud Crabs and Marsh Frogs to collect Essence of Wind, Essence of
-      Water and Essence of Sand for the spell preparations.
-
-      Reward 1500 Experience, 350 Credit Choose one of: Pink Piggy , Brown Piggy or Yellow Piggy'
-    requirements_raw: null
-    reward_raw: null
-    walkthrough_raw: 'Step 1 Speak with Sharker in Breeze Woods . Step 2 Go to Cryptic Moon Swamp . Step 3 Defeat Elves , Mud Crabs and Marsh Frogs until the Essence of Wind, Essence of Water and Essence
-      of Sand is collected. (Essences in the same order as the monsters that drop them.)
-
-      Step 4 Return to Breeze Woods and give the items to Sharker.'
-    walkthrough_steps: []
-    matched_via: exact_dedicated_page_title
-    source:
-      path: data/quests/research/walkthrough-intake/quest-pages/quest_break-seal-part-2.yaml
-      origin_url: https://angels.wikidot.com/quest:break-seal-part-2
-      retrieval_url: https://www.aowiki.uk/pages/quest_break-seal-part-2.html
-      source_kind: aowiki_static_legacy_mirror
-      archive_timestamp: null
-      source_html_sha256: 377a0736ed04851e081d9a568c812b6656f1840a29cedbe4edc2f31eaeb077ce
       authority_role: null
   period_guide_matches:
   - title_raw: Break Seal
@@ -8955,5 +8911,5 @@ supplemental_period_guide_blocks:
     source_html_sha256: aebf1828b66a65a822860b2a3c928aba67f46be76e3d71a145fbd2cfd95607b7
     authority_role: secondary_historical_walkthrough
 sanitization:
-  policy: Exact area quest-link text or exact page-title joins only; same-area canonical joins only; template placeholders removed.
+  policy: Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.
   gap_corroboration_file: data/quests/research/gap-corroboration.yaml
