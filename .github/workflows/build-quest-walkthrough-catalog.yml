@@ -12,6 +12,7 @@ on:
       - 'data/quests/series/**'
       - 'tools/build_quest_walkthrough_catalog.py'
       - 'tools/sanitize_quest_walkthrough_catalog.py'
+      - 'tools/repair_asmode_historical_links.py'
       - 'tools/repair_placeholder_walkthroughs.py'
       - 'tools/apply_walkthrough_enrichments.py'
       - 'tools/audit_walkthrough_catalog.py'
@@ -43,6 +44,8 @@ jobs:
         run: python tools/build_quest_walkthrough_catalog.py
       - name: Sanitize quest/page joins and apply explicit gap corroboration
         run: python tools/sanitize_quest_walkthrough_catalog.py
+      - name: Recover Asmode dedicated pages hidden by row suffixes
+        run: python tools/repair_asmode_historical_links.py
       - name: Reject placeholder walkthrough bodies
         run: python tools/repair_placeholder_walkthroughs.py
       - name: Apply researched walkthrough enrichments
@@ -54,6 +57,9 @@ jobs:
         run: |
           if [ -f data/quests/walkthrough-catalog/manifest.yaml ]; then
             cat data/quests/walkthrough-catalog/manifest.yaml
+          fi
+          if [ -f data/quests/walkthrough-catalog/asmode-link-repair.yaml ]; then
+            cat data/quests/walkthrough-catalog/asmode-link-repair.yaml
           fi
           if [ -f data/quests/walkthrough-catalog/placeholder-repair.yaml ]; then
             cat data/quests/walkthrough-catalog/placeholder-repair.yaml
