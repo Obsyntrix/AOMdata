@@ -5321,10 +5321,28 @@ quests:
       source_html_sha256: 556e74c73b632e8c1068194c19b429518bd34c9be3d9d353c4e9cdc48653d1cd
       authority_role: null
   walkthrough:
-    source_class: period_2012_community_guide
+    source_class: historical_dedicated_quest_page
     steps:
-    - 1. Talk with Spy Angel(314,38)
-  historical_dedicated_pages: []
+    - Defeat Asmodeum. This is not easy and will require some help.
+  historical_dedicated_pages:
+  - title_raw: Shadow Evil Student Union Leader
+    summary_raw: Deafeat the boss, Asmodeus .
+    information_raw: 'Quest Giver Repeatable Series After touching the Statue No Yes (Asmode: 8 of 8)
+
+      Previous Quest Next Quest Magic Stone -'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20+ 2 - Finished Magic Stone
+    reward_raw: 'Exp. Credit Gold 5000 850 - Items Choose one of: Vein Wand , Vein Axe , Vein Sword , Vein Bow or Vein Spear'
+    walkthrough_raw: Step 1 Defeat Asmodeum. This is not easy and will require some help.
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text_asmode_suffix
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-evil-student-union-leader.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-evil-student-union-leader
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-evil-student-union-leader.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: fc434c333ce45a6b9bee9e17ec9207d5b2d6ad57ef5f1ce78bcf6b4df5d2574a
+      authority_role: null
   period_guide_matches:
   - title_raw: Evil Student Union Leader
     section_raw: Executive Asistant - shadow
@@ -5343,7 +5361,7 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending

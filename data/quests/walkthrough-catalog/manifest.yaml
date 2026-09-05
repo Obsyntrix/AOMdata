@@ -46,7 +46,7 @@ regions:
     walkthrough_area_minimal: 0
     walkthrough_gap_corroboration: 0
     walkthrough_missing: 0
-    walkthrough_researched_enrichment: 5
+    walkthrough_researched_enrichment: 2
   dark:
     area_table_quest_records: 82
     with_historical_dedicated_page: 81
@@ -92,7 +92,7 @@ totals:
   walkthrough_area_minimal: 0
   gap_corroborated_walkthroughs: 2
   removed_template_rows: 4
-  researched_enriched_walkthroughs: 39
+  researched_enriched_walkthroughs: 36
 yaml_parse_errors: []
 notes:
 - The catalog is a reconciliation/query layer, not permission to erase contradictory source observations.
@@ -119,14 +119,17 @@ sanitization:
 enrichment:
   applied: true
   source: data/quests/research/walkthrough-enrichments.yaml
-  applied_records: 39
+  applied_records: 36
   per_region:
     aurora: 0
     breeze: 5
-    steel: 5
+    steel: 2
     dark: 19
     dungeon: 2
     atlantis: 8
-  skipped_because_stronger_walkthrough_exists: []
+  skipped_because_stronger_walkthrough_exists:
+  - burning-desert-are-you-evil-enough-asmode
+  - burning-desert-magic-stone-asmode
+  - cactus-plain-disguise-asmode
   enrichment_ids_not_found_in_catalog: []
   policy: Only none/minimal fallbacks are overlaid; stronger historical/period/canonical walkthroughs win.

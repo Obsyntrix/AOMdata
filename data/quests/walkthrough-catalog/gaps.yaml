@@ -20,14 +20,14 @@ per_region:
     missing: 0
     minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 0
+    mismatched_historical_page_links: 3
     suspicious_canonical_cross_area: 0
   dark:
     quests: 82
     missing: 0
     minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 0
+    mismatched_historical_page_links: 1
     suspicious_canonical_cross_area: 0
   dungeon:
     quests: 25
@@ -47,7 +47,7 @@ totals:
   missing_walkthroughs: 0
   area_minimal_walkthroughs: 0
   gap_corroborated_walkthroughs: 2
-  mismatched_historical_page_links: 0
+  mismatched_historical_page_links: 4
   suspicious_canonical_cross_area_links: 0
 missing_walkthroughs: []
 area_minimal_walkthroughs: []
@@ -75,9 +75,33 @@ gap_corroborated_walkthroughs:
   - Speak with Crybaby Shin again to complete the repeatable quest.
   caveat: The historical English Dream Ocean page is unfinished. Objective/reward details are independently corroborated by the historical Japanese wiki and current client database;
     coordinates are current-client evidence pending AOmega target-client confirmation.
-mismatched_historical_page_links: []
+mismatched_historical_page_links:
+- region: steel
+  area_id: burning-desert
+  quest: Are you Evil Enough? Asmode 6 of 8
+  page_title: Steel Are You Evil Enough
+  matched_via: exact_area_quest_link_text_asmode_suffix
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Magic Stone Asmode 7 of 8
+  page_title: Steel Magic Stone
+  matched_via: exact_area_quest_link_text_asmode_suffix
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Disguise Asmode 4 of 8
+  page_title: Steel Disguise
+  matched_via: exact_area_quest_link_text_asmode_suffix
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+- region: dark
+  area_id: memory-cave
+  quest: Evil Student Union Leader Asmode 8 of 8
+  page_title: Shadow Evil Student Union Leader
+  matched_via: exact_area_quest_link_text_asmode_suffix
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-evil-student-union-leader.yaml
 suspicious_canonical_cross_area_links: []
 pass_conditions:
   no_missing_walkthroughs: true
-  no_mismatched_historical_page_links: true
+  no_mismatched_historical_page_links: false
   no_cross_area_canonical_links: true

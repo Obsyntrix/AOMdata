@@ -1711,31 +1711,45 @@ quests:
       source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
       authority_role: null
   walkthrough:
-    source_class: researched_historical_enrichment
+    source_class: historical_dedicated_quest_page
     steps:
-    - Speak with Asmode in Burning Desert at approximately (285,22).
-    - Return to the Steel Spy Angel at (59,138) in Cactus Plain.
-    - Go back to Burning Desert and speak with the Surgeon at approximately (175,142).
-    - Complete the required serum-related task if it has not already been completed and obtain the Dog Tags from the Surgeon.
-    - Give the Dog Tags to Asmode at approximately (285,22).
-    caveat: null
-    conflicts: []
-    evidence_paths:
-    - data/quests/research/walkthrough-intake/areas/burning-desert.yaml
-    - data/quests/research/legacy-guides/steel/steel-quests.yaml
-    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
-  historical_dedicated_pages: []
+    - Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn't sure you're a Gebuer.
+    - Not sure what to do, you go to Cactus Plain and speak with the Spy Angel (59,138).
+    - The Spy Angel tells you to go back to Burning Desert .
+    - 'Speak to the Surgeon (175,142) and he will give you dog tags of fallen soldiers. (Note: You must already have completed the quest Collecting Serum to get the tags.)'
+    - Take the tags back to Asmode (285,22) in Burning Desert and hand them to him. He will give you a Magic Stone (which will not appear in your inventory).
+  historical_dedicated_pages:
+  - title_raw: Steel Are You Evil Enough
+    summary_raw: Asmode doesn't trust you, so he asks you to prove yourself in Burning Desert .
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
+
+      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Obtaining Asmode's Trust and Collecting Serum
+    reward_raw: Exp. Credit Gold 500 25 - Items -
+    walkthrough_raw: 'Step 1 Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn''t sure you''re a Gebuer. Step 2 Not sure what to do, you go to Cactus Plain
+      and speak with the Spy Angel (59,138). Step 3 The Spy Angel tells you to go back to Burning Desert . Step 4 Speak to the Surgeon (175,142) and he will give you dog tags of fallen soldiers. (Note:
+      You must already have completed the quest Collecting Serum to get the tags.) Step 5 Take the tags back to Asmode (285,22) in Burning Desert and hand them to him. He will give you a Magic Stone (which
+      will not appear in your inventory).'
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text_asmode_suffix
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-are-you-evil-enough
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 521588055c14e0d8a6f24c1e790d9590b8c94f4a9a6c7087abc08f07d747a42b
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
     gap_corroboration_present: false
-    researched_enrichment_present: true
 - id: burning-desert-magic-stone-asmode
   name: Magic Stone Asmode 7 of 8
   region: steel
@@ -1762,30 +1776,42 @@ quests:
       source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
       authority_role: null
   walkthrough:
-    source_class: researched_historical_enrichment
+    source_class: historical_dedicated_quest_page
     steps:
-    - Speak with Asmode in Burning Desert after completing Are you Evil Enough?.
-    - Travel to Gebuer Vale.
-    - Activate the monkey statue holding a crowned egg at (7,247).
-    - The statue transports you to Asmode's Den; continue the chain there.
-    caveat: null
-    conflicts: []
-    evidence_paths:
-    - data/quests/research/walkthrough-intake/areas/burning-desert.yaml
-    - data/quests/research/walkthrough-intake/areas/gebuer-vale.yaml
-    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
-  historical_dedicated_pages: []
+    - Asmode (285,22) will give you a Magic stone.
+    - Go to Gebuer Vale .
+    - Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of the screen). Then place the stone against it.
+    - You will be transported to Admode's Den.
+  historical_dedicated_pages:
+  - title_raw: Steel Magic Stone
+    summary_raw: Find the gateway to Asmodeus 's den.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 7 of 8)
+
+      Previous Quest Next Quest Are you Evil Enough? Evil Student Union Leader'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Are you Evil Enough?
+    reward_raw: Exp. Credit Gold 400 25 - Items -
+    walkthrough_raw: Step 1 Asmode (285,22) will give you a Magic stone. Step 2 Go to Gebuer Vale . Step 3 Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of
+      the screen). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text_asmode_suffix
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-magic-stone
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 4da01f7a67fdeec0a0a09302aa449624a27e9aff0ad0d806ed6066cebb44322a
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
     gap_corroboration_present: false
-    researched_enrichment_present: true
 - id: cactus-plain-plateau-monkey
   name: Plateau Monkey
   region: steel
@@ -2899,30 +2925,42 @@ quests:
       source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
       authority_role: null
   walkthrough:
-    source_class: researched_historical_enrichment
+    source_class: historical_dedicated_quest_page
     steps:
-    - Speak with the Steel Spy Angel at (59,138) in Cactus Plain after the preceding Asmode task.
-    - Travel to Gebuer Vale.
-    - Defeat Gebuer Cadres until the required Secret Badge / Gebuer Army Badge drops.
-    - Return the badge to the Spy Angel at (59,138) in Cactus Plain.
-    caveat: Historical sources use both Secret Badge and Gebuer Army Badge for the quest item.
-    conflicts: []
-    evidence_paths:
-    - data/quests/research/walkthrough-intake/areas/cactus-plain.yaml
-    - data/quests/research/legacy-guides/steel/steel-quests.yaml
-    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
-  historical_dedicated_pages: []
+    - Speak with the Spy Angel (59,138) in Cactus Plain
+    - Go to Gebuer Vale
+    - Defeat Gebuer Cadres until you have obtained the Secret Badge.
+    - Report back to the Spy Angel
+  historical_dedicated_pages:
+  - title_raw: Steel Disguise
+    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a Geubuer . Obtain their Secret Badge by defeating them.
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+      Previous Quest Next Quest Killing Plateau Monkey Obtaining Asmode''s Trust'
+    requirements_raw: Faction Lvl Rank Skill Quest steel 20 2 - Finished Killing Plateau Monkey
+    reward_raw: Exp. Credit Gold 2000 80 500 Items -
+    walkthrough_raw: Step 1 Speak with the Spy Angel (59,138) in Cactus Plain Step 2 Go to Gebuer Vale Step 3 Defeat Gebuer Cadres until you have obtained the Secret Badge. Step 4 Report back to the Spy
+      Angel
+    walkthrough_steps: []
+    matched_via: exact_area_quest_link_text_asmode_suffix
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-disguise
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f8e26fed93081f1b4c9bd7116cd1faefdd6c367d09b38336f48a1729f7af5c74
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
     gap_corroboration_present: false
-    researched_enrichment_present: true
 - id: cactus-plain-obtaining-asmode-s-trust-asmode
   name: Obtaining Asmode's Trust Asmode 5 of 8
   region: steel
