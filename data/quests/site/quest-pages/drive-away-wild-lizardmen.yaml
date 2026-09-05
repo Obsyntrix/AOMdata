@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: drive-away-wild-lizardmen
+name_raw: Drive Away Wild Lizardmen
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- quiet-vale
+source:
+  origin_url: https://angels.wikidot.com/quest:drive-away-wild-lizardmen
+  retrieval_url: https://www.aowiki.uk/pages/quest_drive-away-wild-lizardmen.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 55be9b3d15c352d75896ea5b6d78393d0c22e35d84cd13063a995a0fdfcabd33
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Trainee Oree
+    - Character lvl 30 to 45
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Drive away 40 Wild Lizardmen which are harassing Oree.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 900 Experience, 39 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Drive Away Wild Lizardmen'
+- section: Drive Away Wild Lizardmen
+  text_raw: Home » Areas » Quiet Vale » Drive Away Wild Lizardmen
+- section: Walkthrough
+  text_raw: Step 1 Speak with Trainee Oree. Step 2 Defeat 40 40 Wild Lizardmen . Step 3 Report back to Trainee Oree.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

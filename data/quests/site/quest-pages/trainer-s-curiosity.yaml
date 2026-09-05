@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: trainer-s-curiosity
+name_raw: Trainer S Curiosity
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-south
+source:
+  origin_url: https://angels.wikidot.com/quest:trainer-s-curiosity
+  retrieval_url: https://www.aowiki.uk/pages/quest_trainer-s-curiosity.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 311729ff2d3ae0752a39cb5bca522f55dc9feaf5fbbadc5f7d940af4b5496291
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Nazarite
+    - 'No'
+    - Yes (1 of 4)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Crybaby's Knack
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - 10+
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1000'
+    - '50'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Trainer S Curiosity'
+- section: Trainer S Curiosity
+  text_raw: Home » Areas » Fungus Forest South » Trainer's Curiosity
+- section: Summary
+  text_raw: The Nazarite is in training, and he is curious of the Crybabies' strong will. He asks you to find a clue to how they succeed.
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Nazarite. Step 2 Defeat Crybabies until you obtain a Wrinkled Paper. Step 3 Give it to the Nazarite.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

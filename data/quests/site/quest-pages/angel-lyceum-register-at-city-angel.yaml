@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: angel-lyceum-register-at-city-angel
+name_raw: Angel Lyceum - Register At City Angel
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- aurora-city
+source:
+  origin_url: https://angels.wikidot.com/quest:angel-lyceum-register-at-city-angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_angel-lyceum-register-at-city-angel.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 404c874f3387803699951b5f2c08cedc557eea38efbd639f123ee72119d6d218
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Director Wolay
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Any
+    - ''
+    - ''
+    - ''
+    - ''
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - ''
+    - ''
+    - ''
+  - - '-'
+    - '-'
+    - '-'
+  - - ''
+  - - 'Choose one of:'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Angel Lyceum - Register At City Angel'
+- section: Angel Lyceum - Register At City Angel
+  text_raw: Home » Areas » Angel Lyceum » Angel Lyceum - Register at City Angel
+- section: Summary
+  text_raw: ???
+- section: Walkthrough
+  text_raw: Step 1 Talk to City Angel (Aurora,Dark City,Breezewoods,Iron Castle) Step 2 Register
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: confirm-safety-around-alter
+name_raw: Confirm Safety Around Alter
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- cryptic-moon-swamp
+source:
+  origin_url: https://angels.wikidot.com/quest:confirm-safety-around-alter
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirm-safety-around-alter.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 85b99628ea07731377e4c13900fa5d5b2de25190ed14ee3161eaa5fe2e2c5942
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Assistant Breeze
+    - Beast Faction
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Bring a list of materials and confirm the schedule with the North Elder (216, 146) and East Elder (229, 29).
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 600 Gold, 400 Experience, 45 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Confirm Safety Around Alter'
+- section: Confirm Safety Around Alter
+  text_raw: Home » Areas » Cryptic Moon Swamp » Confirm Safety Around Alter
+- section: Walkthrough
+  text_raw: Step 1 Speak with Assistant Breeze. Step 2 Check with the North Elder (216, 146). Step 3 Then go and check with the East Elder (229, 29). Step 4 Hand the results to Assistant
+    Breeze.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

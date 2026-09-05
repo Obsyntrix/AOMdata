@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: ancient-book-rubbing
+name_raw: Ancient Book Rubbing
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- jade-vale
+source:
+  origin_url: https://angels.wikidot.com/quest:ancient-book-rubbing
+  retrieval_url: https://www.aowiki.uk/pages/quest_ancient-book-rubbing.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: e3282554e33a218e4a0af7ac84923f1172c40ae24f547ec2c5ea601ae1cf6b40
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Have to touch the Relic (255,168)
+    - Beast Faction
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Mystic Words
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Get a Rubbing of the letters on the ancient relic of the Sage, and get them translated.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 500 Experience, 30 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Ancient Book Rubbing'
+- section: Ancient Book Rubbing
+  text_raw: Home » Areas » Jade Vale » Ancient Book Rubbing
+- section: Walkthrough
+  text_raw: Step 1 Vist the Relic (255,168). Step 2 Go to the Librarian (11,122) in Breeze Woods to buy paper and ink (200 gold). Step 3 Take the paper and ink back to the Relic and
+    make a rubbing. You will get 'Copy Incantation Drawing'. Step 4 Take the 'Copy Incantation Drawing' to the Training Priest.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

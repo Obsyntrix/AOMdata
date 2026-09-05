@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: parts-collection
+name_raw: Parts Collection
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- scrap-iron-village
+source:
+  origin_url: https://angels.wikidot.com/quest:parts-collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_parts-collection.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 990034ca969e3f768c6ebcbc9421ed1568fd1c9c3d236e74846c92297f6d5977
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Repair Worker
+    - Steel Faction; Character lvl 10+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Disgusting And Radiant Creature
+    - Taking Construction Manual
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Repair Worker needs to make repairs but doesn't have the parts. Obtain the UME Frame and Kerosene Tank by defeating Fat Robots .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 350 Gold, 1150 Experience, 50 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Parts Collection'
+- section: Parts Collection
+  text_raw: Home » Areas » Scrap Iron Village » Parts Collection
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Repair Worker. Step 2 Destroy Fat Robots until you recover the two parts. Step 3 Give the parts to the Repair Worker.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

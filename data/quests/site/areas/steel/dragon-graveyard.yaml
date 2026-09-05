@@ -1,0 +1,518 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: dragon-graveyard
+  name_raw: Dragon Graveyard
+source:
+  origin_url: https://angels.wikidot.com/area:dragon-graveyard
+  retrieval_url: https://www.aowiki.uk/pages/area_dragon-graveyard.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ed448d0debd6e779dd78c8fc00972b96390aa2299dfcf2d84397a3e704b9ff86
+quest_links:
+- slug: barft-s-curse
+  name_raw: Barft's Curse
+  retrieval_url: https://www.aowiki.uk/pages/quest_barft-s-curse.html
+  origin_url: https://angels.wikidot.com/quest:barft-s-curse
+- slug: barft-s-threat
+  name_raw: Barft's Threat
+  retrieval_url: https://www.aowiki.uk/pages/quest_barft-s-threat.html
+  origin_url: https://angels.wikidot.com/quest:barft-s-threat
+- slug: bury
+  name_raw: Bury
+  retrieval_url: https://www.aowiki.uk/pages/quest_bury.html
+  origin_url: https://angels.wikidot.com/quest:bury
+- slug: food-material-collection
+  name_raw: Food Material Collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_food-material-collection.html
+  origin_url: https://angels.wikidot.com/quest:food-material-collection
+- slug: helpless-choice
+  name_raw: Helpless Choice
+  retrieval_url: https://www.aowiki.uk/pages/quest_helpless-choice.html
+  origin_url: https://angels.wikidot.com/quest:helpless-choice
+- slug: the-hidden-enemy-agent-1
+  name_raw: The Hidden Enemy Agent 1
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-hidden-enemy-agent-1.html
+  origin_url: https://angels.wikidot.com/quest:the-hidden-enemy-agent-1
+- slug: the-hunt-for-cooer
+  name_raw: The Hunt for Cooer
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-hunt-for-cooer.html
+  origin_url: https://angels.wikidot.com/quest:the-hunt-for-cooer
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Earth Priest
+    - (244,180)
+    - 42-60 level Life and Earth scrolls.
+  - - Wraith Priest
+    - (229,166)
+    - 42-60 level Chaos and Wraith scrolls.
+  - - Weapon Expert
+    - (240,138)
+    - 42-60 level Sword, Axe, Spear stances.
+  - - Bow Expert
+    - (241,151)
+    - 42-60 level Bow stances.
+  - - Super Smith
+    - (274,163)
+    - 41-55 level Weapon and Armor plans.
+  - - Super Master
+    - (265,147)
+    - 41-55 level Sewing, Cooking and Technics plans.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Paladin Gerison
+    - (39,173)
+    - 'Gives quest: Helpless Choice and Bury (repeatable)'
+  - - Warrior Gegen
+    - (290,170)
+    - 'Gives quest: Barft''s Curse and Barft''s Threat (repeatable)'
+  - - Mad Mike
+    - (244,14)
+    - 'Gives quest: The Hunt for Cooer (repeatable)'
+  - - Chef Boship
+    - (158,16)
+    - 'Gives quest: Food Material Collection'
+  - - ''
+  - - Cupid
+    - (255,183)
+    - Make this your revival place.
+  - - ''
+  - - Angel Agent
+    - (???,???)
+    - 'Give quest: [[[quest:The Hidden Enemy Agent 1.'
+  - - Terra Keeper
+    - (152,111)
+    - Can transport you to your league's terra, or city.
+  - - League Totem
+    - (152,106)
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Helpless Choice
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1000, Credit+42
+    - Defeat 45 Ancient Soldiers
+  - - Bury
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1000, Credit+42
+    - Defeat Ancient Soldiers and collect 10 Complete Skeletons
+  - - Barft's Curse
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1150, Credit+45
+    - Defeat Hook Barfts and collect 5 Horns of Barft
+  - - Barft's Threat
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1150, Credit+45
+    - Defeat 45 Hook Barfts
+  - - The Hunt for Cooer
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp +405-1215, Credit +16-50
+    - Defeat Desert Cooers and collect lost jewelry.
+  - - The Hidden Enemy Agent 1
+    - 'No'
+    - Any Faction; Character lvl ??
+    - Exp ??, Credit ??
+    - Talk to Angels Agent for mission
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Ancient Soldier
+    - '40'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Desert Cooer
+    - '43'
+    - 'No'
+    - 'No'
+    - ''
+  - - Hook Barft
+    - '45'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Silent Hero
+    - '45'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Death Cyclone
+    - '50'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Steel
+    - (47,18)
+    - Dig level 41
+    - ''
+  - - Beastkin Den
+    - (208,144)
+    - Collect level 41
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Ancient Soldier
+    - Spear
+    - 0.1174%
+    - '1'
+  - - Ancient Soldier
+    - Round Shield
+    - 0.1174%
+    - '1'
+  - - Ancient Soldier
+    - Spear of Earth
+    - 0.0020%
+    - '1'
+  - - Ancient Soldier
+    - Turtle Round Shield
+    - 0.0020%
+    - '1'
+  - - Ancient Soldier
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Ancient Soldier
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Ancient Soldier
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Ancient Soldier
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Ancient Soldier
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Ancient Soldier
+    - Flawed Sapphire
+    - 0.0059%
+    - '1'
+  - - Ancient Soldier
+    - Flawed Purple Gem
+    - 0.0059%
+    - '1'
+  - - Ancient Soldier
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Ancient Soldier
+    - Ancient Soldier card
+    - 0.0600%
+    - '1'
+  - - Death Cyclone
+    - Light Cuff
+    - 0.5255%
+    - '1'
+  - - Death Cyclone
+    - Rabbi's Gloves
+    - 0.5255%
+    - '1'
+  - - Death Cyclone
+    - Golden Chain Cuff
+    - 0.0550%
+    - '1'
+  - - Death Cyclone
+    - Gloves of the Flame God
+    - 0.0550%
+    - '1'
+  - - Death Cyclone
+    - Pearl Refining
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Fighting Wings
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Sapphire
+    - 0.0300%
+    - '1'
+  - - Death Cyclone
+    - Purple Gem
+    - 0.0300%
+    - '1'
+  - - Death Cyclone
+    - Ruby
+    - 0.0300%
+    - '1'
+  - - Death Cyclone
+    - Weary Curse V
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Summon Mummy V
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Black Knight's Cuff
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Code Gloves
+    - 0.2828%
+    - '1'
+  - - Death Cyclone
+    - Rare Agility Potion
+    - 25.2222%
+    - '1'
+  - - Death Cyclone
+    - Rare Magic Potion
+    - 25.2222%
+    - '1'
+  - - Death Cyclone
+    - Map Piece
+    - 1.4700%
+    - '1'
+  - - Death Cyclone
+    - Pestle
+    - 0.1101%
+    - '1'
+  - - Death Cyclone
+    - Death cyclone card
+    - 5.5556%
+    - '1'
+  - - Desert Cooer
+    - Light Cuff
+    - 0.0301%
+    - '1'
+  - - Desert Cooer
+    - Rabbi's Gloves
+    - 0.0301%
+    - '1'
+  - - Desert Cooer
+    - Golden Chain Cuff
+    - 0.0005%
+    - '1'
+  - - Desert Cooer
+    - Gloves of the Flame God
+    - 0.0005%
+    - '1'
+  - - Desert Cooer
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Desert Cooer
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Desert Cooer
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Desert Cooer
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Desert Cooer
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Desert Cooer
+    - Yellow Gem
+    - 0.0004%
+    - '1'
+  - - Desert Cooer
+    - Emerald
+    - 0.0004%
+    - '1'
+  - - Desert Cooer
+    - Pestle
+    - 0.0012%
+    - '1'
+  - - Hook Barft
+    - Light Boots
+    - 0.0330%
+    - '1'
+  - - Hook Barft
+    - Iron Boots
+    - 0.0330%
+    - '1'
+  - - Hook Barft
+    - Eagle Boots
+    - 0.0006%
+    - '1'
+  - - Hook Barft
+    - Golden Chain Boots
+    - 0.0006%
+    - '1'
+  - - Hook Barft
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Hook Barft
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Hook Barft
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Hook Barft
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Hook Barft
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Hook Barft
+    - Sapphire
+    - 0.0003%
+    - '1'
+  - - Hook Barft
+    - Purple Gem
+    - 0.0003%
+    - '1'
+  - - Hook Barft
+    - Ruby
+    - 0.0003%
+    - '1'
+  - - Hook Barft
+    - Pestle
+    - 0.0013%
+    - '1'
+  - - Hook Barft
+    - Hook Barft card
+    - 0.0600%
+    - '1'
+  - - Silent Hero
+    - Spear
+    - 1.6325%
+    - '1'
+  - - Silent Hero
+    - Round Shield
+    - 1.6325%
+    - '1'
+  - - Silent Hero
+    - Spear of Earth
+    - 0.1956%
+    - '1'
+  - - Silent Hero
+    - Turtle Round Shield
+    - 0.1956%
+    - '1'
+  - - Silent Hero
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Silent Hero
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Silent Hero
+    - Flawed Sapphire
+    - 0.5900%
+    - '1'
+  - - Silent Hero
+    - Flawed Purple Gem
+    - 0.5900%
+    - '1'
+  - - Silent Hero
+    - Magic Bomb V
+    - 0.8789%
+    - '1'
+  - - Silent Hero
+    - Exhaustion Curse V
+    - 0.8789%
+    - '1'
+  - - Silent Hero
+    - Fruit of Hercules
+    - 19.8572%
+    - '1'
+  - - Silent Hero
+    - Fruit of Mars
+    - 19.8572%
+    - '1'
+  - - Silent Hero
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Silent Hero
+    - Pestle
+    - 0.1054%
+    - '1'
+  - - Silent Hero
+    - Silent Hero card
+    - 5.5556%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Dragon Graveyard'
+- section: Dragon Graveyard
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Thorn Wasteland , Quiet Vale , Megalith Plain , Deity Palace Ruins , Sad Abyss , Lost Cove
+- section: Description
+  text_raw: The famed Dragon Graveyard, no living dragons here, just their remains. The creatures that hinder the travelers here range in level from 40 to 50. This land is perfect for
+    levelling and ranking. That poor Mike, I wish he’d stop falling asleep and losing his stones. The entrance to the Dungeon also awaits among the bleached bones of this sacred spot.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

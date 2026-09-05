@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: medicine-for-teeth-pain
+name_raw: Medicine For Teeth Pain
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- degula-maze
+source:
+  origin_url: https://angels.wikidot.com/quest:medicine-for-teeth-pain
+  retrieval_url: https://www.aowiki.uk/pages/quest_medicine-for-teeth-pain.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: d1b58110cb9b579ab1653260bd4d80a17151bb60567c5fff541b99eb97545049
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Degula Duke
+    - 'No'
+    - Yes (1 of 3)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Bershala
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - 20+
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1600'
+    - '70'
+    - '1000'
+  - - Items
+  - - 5 Common Red Potion 1
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Medicine For Teeth Pain'
+- section: Medicine For Teeth Pain
+  text_raw: Home » Areas » Degula Maze » Medicine for Teeth Pain
+- section: Summary
+  text_raw: The Degula Duke has a horrific tooth ache. He asks you to bring him some ingredients so he can use them to make a remedy.
+- section: Walkthrough
+  text_raw: 'Step 1 Talk to the Degula Duke (21,175). Step 2 Kill the Little Eye Bats until you obtain 10 tails. Step 3
+
+    Kill the One-Eyed Bat s until you obtain 10 wings. Step 4 Take them to the Duke.'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

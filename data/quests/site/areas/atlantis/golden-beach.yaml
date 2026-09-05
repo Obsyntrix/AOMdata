@@ -1,0 +1,359 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: golden-beach
+  name_raw: Golden Beach
+source:
+  origin_url: https://angels.wikidot.com/area:golden-beach
+  retrieval_url: https://www.aowiki.uk/pages/area_golden-beach.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: dcdc6c6389e3cc29110755e42cba2d2c73172f68b9c5d049762dfc9a5a050ead
+quest_links:
+- slug: girl-s-wish
+  name_raw: Girl's Wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+  origin_url: https://angels.wikidot.com/quest:girl-s-wish
+- slug: let-s-fight
+  name_raw: Let's Fight
+  retrieval_url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+  origin_url: https://angels.wikidot.com/quest:let-s-fight
+- slug: the-misbehaved-son
+  name_raw: The Misbehaved Son
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+  origin_url: https://angels.wikidot.com/quest:the-misbehaved-son
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Traveler Landy
+    - (35,66)
+    - 'Gives series of quests starting from: Let''s Fight'
+  - - Lifeguard zhi
+    - (211,34)
+    - ''
+  - - Shoreman
+    - (105,36)
+    - Part of Girl's Wish quest
+  - - Roger
+    - (126,34)
+    - ''
+  - - ''
+  - - DivingCoach Nira
+    - (232,42)
+    - Teaches shallow sea diving.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Let's Fight 1 of ?
+    - 'No'
+    - Character Lvl 50+
+    - Exp+32500, Credit+250, Gold+16500
+    - Defeat 35 Puqi Turtles and 35 Color Crabs
+  - - The Misbehaved Son 2 of ?
+    - 'No'
+    - Finished quest Let's Fight
+    - Exp+6000, Credit+50, Gold+3500
+    - Talk to Lad Stany at the Shining Coast
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Puqi Crab
+    - '48'
+    - 'No'
+    - 'No'
+    - ''
+  - - Puqi Turtle
+    - '50'
+    - 'No'
+    - 'No'
+    - ''
+  - - Puqi Local
+    - '52'
+    - 'No'
+    - 'No'
+    - ''
+  - - Puqi Warrior
+    - '53'
+    - 'No'
+    - 'No'
+    - ''
+  - - Color Crab
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Color Whelk
+    - '56'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Pontiff Hululu
+    - '60'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Crystal
+    - (15,175) (237,166)
+    - Dig level 41
+    - ''
+  - - Beastkin Den
+    - (50,50) (230,115)
+    - Collect level 41
+    - ''
+  - - Leafy Bush
+    - (188,35) (290,111)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (50,50) (220,160)
+    - Lumber level 41
+    - ''
+  - - Bright Alga
+    - (70,130) (165,67)
+    - Fishing level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Color Crab
+    - Tight Leather Gloves
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Magic Boots
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Scale Shell
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Slarm's Boots
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Emerald
+    - 0.0014%
+    - '1'
+  - - Color Whelk
+    - Heavy Cap
+    - 0.0147%
+    - '1'
+  - - Color Whelk
+    - Iron Gloves
+    - 0.0147%
+    - '1'
+  - - Color Whelk
+    - Scale Cap
+    - 0.0002%
+    - '1'
+  - - Color Whelk
+    - Knight Gloves
+    - 0.0002%
+    - '1'
+  - - Color Whelk
+    - Orange Gem
+    - 0.0015%
+    - '1'
+  - - Color Whelk
+    - Whelk Shell
+    - 1.0000%
+    - '1'
+  - - Pontiff Hululu
+    - Fire Guard Armor
+    - 1.7950%
+    - '1'
+  - - Pontiff Hululu
+    - Energy Gown
+    - 1.7950%
+    - '1'
+  - - Pontiff Hululu
+    - Knight Armor
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - Sound Gown
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - Clean Purple Gem
+    - 0.1800%
+    - '1'
+  - - Pontiff Hululu
+    - Pestle
+    - 0.2393%
+    - '1'
+  - - Pontiff Hululu
+    - Medium Mighty Fruit
+    - 46.9340%
+    - '1'
+  - - Pontiff Hululu
+    - Medium Target Potion
+    - 42.6260%
+    - '1'
+  - - Pontiff Hululu
+    - Pontiff Hululu Card
+    - 0.9259%
+    - '1'
+  - - Pontiff Hululu
+    - 'Assassin Skill: Poisoned Dagger V'
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - 'Assassin Skill: Skilled Stab V'
+    - 0.0299%
+    - '1'
+  - - Puqi Crab
+    - Light Boots
+    - 0.0378%
+    - '1'
+  - - Puqi Crab
+    - Light Cuff
+    - 0.0378%
+    - '1'
+  - - Puqi Crab
+    - Eagle Boots
+    - 0.0006%
+    - '1'
+  - - Puqi Crab
+    - Golden Chain Cuff
+    - 0.0006%
+    - '1'
+  - - Puqi Crab
+    - Flawed Emerald
+    - 0.0010%
+    - '1'
+  - - Puqi Crab
+    - Puqi Crab Card
+    - 0.0139%
+    - '1'
+  - - Puqi Local
+    - Heavy Cap
+    - 0.0129%
+    - '1'
+  - - Puqi Local
+    - Iron Gloves
+    - 0.0129%
+    - '1'
+  - - Puqi Local
+    - Scale Cap
+    - 0.0002%
+    - '1'
+  - - Puqi Local
+    - Knight Gloves
+    - 0.0002%
+    - '1'
+  - - Puqi Local
+    - Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Puqi Turtle
+    - Thick-soled Boots
+    - 0.0413%
+    - '1'
+  - - Puqi Turtle
+    - Magic Gloves
+    - 0.0413%
+    - '1'
+  - - Puqi Turtle
+    - Scale Boots
+    - 0.0007%
+    - '1'
+  - - Puqi Turtle
+    - Slarm's Gloves
+    - 0.0007%
+    - '1'
+  - - Puqi Turtle
+    - Sapphire
+    - 0.0012%
+    - '1'
+  - - Puqi Turtle
+    - Puqi Turtle Card
+    - 0.0139%
+    - '1'
+  - - Puqi Warrior
+    - Tight Leather Gloves
+    - 0.0135%
+    - '1'
+  - - Puqi Warrior
+    - Magic Boots
+    - 0.0135%
+    - '1'
+  - - Puqi Warrior
+    - Scale Shell
+    - 0.0002%
+    - '1'
+  - - Puqi Warrior
+    - Slarm's Boots
+    - 0.0002%
+    - '1'
+  - - Puqi Warrior
+    - Ruby
+    - 0.0013%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Golden Beach'
+- section: Golden Beach
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Puqi Village , Palm Base , Colorful Coral Reefs
+- section: Descrription
+  text_raw: The Golden Beach features itself with its shinning golden scenery. There are many bushes and tall palms on the beach. Of course, many snails and crabs are active here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

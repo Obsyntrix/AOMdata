@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: unexpected-income
+name_raw: Unexpected Income
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- north-of-mirror-lake
+source:
+  origin_url: https://angels.wikidot.com/quest:unexpected-income
+  retrieval_url: https://www.aowiki.uk/pages/quest_unexpected-income.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ffa92206ea0d167c21ca32dbc0ab6bb379f352ed8541acd76ed294744f48f569
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Athlete Cliff
+    - Character lvl 35 to 50
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Athlete Cliff realizes he can make a lot of money selling the Milky Pearls, he asks for your help. Defeat the Iron Crabs and collect 9 Milky Pearls.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1100 Experience, 45 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Unexpected Income'
+- section: Unexpected Income
+  text_raw: Home » Areas » North of Mirror Lake » Unexpected Income
+- section: Walkthrough
+  text_raw: Step 1 Talk to Athlete Cliff. Step 2 Defeat the Iron Crabs and until you collect 9 Milky Pearls. Step 3 Take them to Athlete Cliff.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

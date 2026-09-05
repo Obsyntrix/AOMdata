@@ -1,0 +1,96 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: steel-are-you-evil-enough
+name_raw: Steel Are You Evil Enough
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- burning-desert
+source:
+  origin_url: https://angels.wikidot.com/quest:steel-are-you-evil-enough
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 521588055c14e0d8a6f24c1e790d9590b8c94f4a9a6c7087abc08f07d747a42b
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Asmode
+    - 'No'
+    - 'Yes (Asmode: 6 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Obtaining Asmode's Trust
+    - Magic Stone
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Steel
+    - '20'
+    - '2'
+    - '-'
+    - Finished Obtaining Asmode's Trust and Collecting Serum
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '500'
+    - '25'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Steel Are You Evil Enough'
+- section: Steel Are You Evil Enough
+  text_raw: Home » Areas » Burning Desert » Are you Evil Enough?
+- section: Summary
+  text_raw: Asmode doesn't trust you, so he asks you to prove yourself in Burning Desert .
+- section: Walkthrough
+  text_raw: 'Step 1 Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn''t sure you''re a Gebuer. Step 2 Not sure what to do, you go to Cactus
+    Plain and speak with the Spy Angel (59,138). Step 3 The Spy Angel tells you to go back to Burning Desert . Step 4 Speak to the Surgeon (175,142) and he will give you dog tags of
+    fallen soldiers. (Note: You must already have completed the quest Collecting Serum to get the tags.) Step 5 Take the tags back to Asmode (285,22) in Burning Desert and hand them
+    to him. He will give you a Magic Stone (which will not appear in your inventory).'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

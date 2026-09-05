@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: devoted-spirit
+name_raw: Devoted Spirit
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- sad-abyss
+source:
+  origin_url: https://angels.wikidot.com/quest:devoted-spirit
+  retrieval_url: https://www.aowiki.uk/pages/quest_devoted-spirit.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: be49c7b91276538623a8f3ff2c6cb941318bfc2687b6cd40c9f4b323727429ad
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Scholar Hopkins
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - '-'
+    - Lvl 60
+    - Any
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - 11,000
+    - '150'
+    - 6,000
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Devoted Spirit'
+- section: Devoted Spirit
+  text_raw: Home » Areas » Sad Abyss » Devoted Spirit
+- section: Summary
+  text_raw: Get Magma Slag
+- section: Walkthrough
+  text_raw: Step 1 Go to Fiery Path seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step
+    2 Go to Lava Cave seach for south & north Infall (in map u can only find 1 of the 2 wake around the magma area to find another look at mini map for blue spot) Step 3 Spoke to Scholar
+    Hopkins
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

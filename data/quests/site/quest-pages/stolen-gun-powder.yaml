@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: stolen-gun-powder
+name_raw: Stolen Gun Powder
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- shadowy-path
+source:
+  origin_url: https://angels.wikidot.com/quest:stolen-gun-powder
+  retrieval_url: https://www.aowiki.uk/pages/quest_stolen-gun-powder.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b45da183829e429b5ebca5eabcb24e9f00d1c419c1ca0cc6db9e8304c2456c01
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Worker
+    - Shadow Faction; Character lvl 6+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Worker lost his Gun Powder, he asks that you retrieve it from the Red Cloth Skulls .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 150 Gold, 600 Experience, 25 Credit
+- table_index: 5
+  rows_raw:
+  - - Step 1 Speak with the Worker. Step 2 Defeat Red Cloth Skulls until you obtain the stolen dynamite. Step 3 Return it to the Worker.
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Stolen Gun Powder'
+- section: Stolen Gun Powder
+  text_raw: Home » Areas » Shadowy Path » Stolen Gun Powder
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: green-hope
+name_raw: Green Hope
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- mysterious-wetland
+source:
+  origin_url: https://angels.wikidot.com/quest:green-hope
+  retrieval_url: https://www.aowiki.uk/pages/quest_green-hope.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 9d39375255b1b4c15835d8502b78a0ad948ee8de6855496906ee54b174c1146b
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Researcher Mary
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 35 to 50
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1100'
+    - '45'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Green Hope'
+- section: Green Hope
+  text_raw: Home » Areas » Mysterious Wetland » Green Hope
+- section: Summary
+  text_raw: Researcher Mary asks you to gather 5 Buds of the Tree Elves to use in her research to re-green the desert.
+- section: Walkthrough
+  text_raw: Step 1 Speak to Researcher Mary (). Step 2 Defeat Tree Elves until you obtain 5 buds of the Fantatic Tree Elf. Step 3 Hand them to Researcher Mary.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

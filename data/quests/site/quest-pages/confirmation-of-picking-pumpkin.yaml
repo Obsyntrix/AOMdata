@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: confirmation-of-picking-pumpkin
+name_raw: Confirmation Of Picking Pumpkin
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- degula-maze
+source:
+  origin_url: https://angels.wikidot.com/quest:confirmation-of-picking-pumpkin
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirmation-of-picking-pumpkin.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 4250e29d59191ebc1135d5f7903a9ef1772291013415a6103b6e523c128efeed
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Melonland Worker
+    - 'No'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '200'
+    - '35'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Confirmation Of Picking Pumpkin'
+- section: Confirmation Of Picking Pumpkin
+  text_raw: Home » Areas » Degula Maze » Confirmation of Picking Pumpkin
+- section: Summary
+  text_raw: The gardener asks you to gather the reports on how the darkness pumpkins are in the other patches. Visit each to see.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Melonland Worker (38,46). Step 2 Go and get a report from the E. Field Helper (213,32). Step 3 Then get the report from the N. Field Helper (215,168).
+    Step 4 Return and tell the Melonland worker your findings.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: top-grocery-competition
+name_raw: Top Grocery Competition
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- thunder-ruins
+source:
+  origin_url: https://angels.wikidot.com/quest:top-grocery-competition
+  retrieval_url: https://www.aowiki.uk/pages/quest_top-grocery-competition.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: aba51f9d8ac456c1fdc34eb71ae40fc40085f8be0575a5d776ec752bec237704
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Gambler
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 40 to 55
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+- table_index: 5
+  rows_raw:
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Top Grocery Competition'
+- section: Top Grocery Competition
+  text_raw: Home » Areas » Thunder Ruins » Top Grocery Competiton
+- section: Summary
+  text_raw: The Gambler has an ultimate card game for you to play. But, first you need to collect the 3 divine card sets of 13.
+- section: Reward
+  text_raw: Win || 2500 || 100 || 500 || Draw || 1250 || 50 || 250 || Lose || 0 || 0 || 0 ||
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Gambler (). Step 2 Defeat Fallen Angels until you obtain the 13 Angel Cards Set. Step 3 Defeat Burning Monsters until you obtain the 13 Demon Cards Set.
+    Step 4 Defeat Guilt Azrael until you obtain the 13 Azrael Cards Set. Step 5 Return to the Gambler and play the game. You may win big or gain nothing at all.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

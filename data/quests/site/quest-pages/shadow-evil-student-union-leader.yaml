@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: shadow-evil-student-union-leader
+name_raw: Shadow Evil Student Union Leader
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- memory-cave
+source:
+  origin_url: https://angels.wikidot.com/quest:shadow-evil-student-union-leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-evil-student-union-leader.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: fc434c333ce45a6b9bee9e17ec9207d5b2d6ad57ef5f1ce78bcf6b4df5d2574a
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - After touching the Statue
+    - 'No'
+    - 'Yes (Asmode: 8 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Magic Stone
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - 20+
+    - '2'
+    - '-'
+    - Finished Magic Stone
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '5000'
+    - '850'
+    - '-'
+  - - Items
+  - - 'Choose one of: Vein Wand , Vein Axe , Vein Sword , Vein Bow or Vein Spear'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Shadow Evil Student Union Leader'
+- section: Shadow Evil Student Union Leader
+  text_raw: Home » Areas » Memory Cave » Evil Student Union Leader
+- section: Summary
+  text_raw: Deafeat the boss, Asmodeus .
+- section: Walkthrough
+  text_raw: Step 1 Defeat Asmodeum. This is not easy and will require some help.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

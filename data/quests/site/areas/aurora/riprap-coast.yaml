@@ -1,0 +1,395 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: riprap-coast
+  name_raw: Riprap Coast
+source:
+  origin_url: https://angels.wikidot.com/area:riprap-coast
+  retrieval_url: https://www.aowiki.uk/pages/area_riprap-coast.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 40449aa6372ff94911941bf56e0a98c157dccec689995aaecdd9730fafd38834
+quest_links:
+- slug: aurora-are-you-evil-enough
+  name_raw: Are You Evil Enough?
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
+  origin_url: https://angels.wikidot.com/quest:aurora-are-you-evil-enough
+- slug: aurora-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:aurora-magic-stone
+- slug: aurora-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode’s Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:aurora-obtaining-asmodes-trust
+- slug: karter-s-planning-book
+  name_raw: Karter's Planning Book
+  retrieval_url: https://www.aowiki.uk/pages/quest_karter-s-planning-book.html
+  origin_url: https://angels.wikidot.com/quest:karter-s-planning-book
+- slug: unknown-brilliant-necklace
+  name_raw: Unknown Brilliant Necklace
+  retrieval_url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
+  origin_url: https://angels.wikidot.com/quest:unknown-brilliant-necklace
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Asmode
+    - (262,178)
+    - Gives Asmode's quests.
+  - - ''
+  - - Aurora Totem
+    - (180,122)
+    - Aurora Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Karter's Planning Book
+    - 'No'
+    - Aurora Faction
+    - Exp+800, Credit+60
+    - Find the Planning Book (189,36). Hand it to Sailor Bonny at Dawn Harbor and then give it back to Sailor Karter.
+  - - Unknown Brilliant Necklace 1 of 3
+    - 'No'
+    - Aurora Faction
+    - Exp+400, Credit+25, Gold+800
+    - Find Unknown Brilliant Necklace while killing pirates, then go find the Countrylady in Cherry Village
+  - - ''
+  - - Are You Evil Enough? 6 of 8
+    - 'No'
+    - Aurora Faction; Finished quest Obtaining Asmode’s Trust
+    - Exp+500, Credit+25
+    - Talk to the Spy Angel and ask the Cherry Village Leader for the necessary items.
+  - - Magic Stone 7 of 8
+    - 'No'
+    - Aurora Faction; Finished quest Are You Evil Enough?
+    - Exp+400, Credit+25
+    - Find the statue holding an egg (?,?) in Cherry Village
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Harp Sheep
+    - '24'
+    - 'No'
+    - 'No'
+    - ''
+  - - Riprap Pirate
+    - '24'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Piratekin
+    - '27'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Vice Head Pirate
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Sheep Music
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (165,102)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (208,174)
+    - Collect level 21
+    - ''
+  - - Rainbow Bush
+    - (127,122)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (186,156)
+    - Lumber level 21
+    - ''
+  - - Crystal Alga
+    - (108,64)
+    - Fishing level 21
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Harp Sheep
+    - Rabbi's Cap
+    - 0.5211%
+    - '1'
+  - - Harp Sheep
+    - Protector's Cap
+    - 0.0086%
+    - '1'
+  - - Harp Sheep
+    - Flawed Ruby
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Defective Orange Gem
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Flawed Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Piratekin
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Piratekin
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Piratekin
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Piratekin
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Piratekin
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Piratekin
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Piratekin
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Piratekin
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Riprap Pirate
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - Riprap Pirate
+    - Shade
+    - 0.2605%
+    - '1'
+  - - Riprap Pirate
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Riprap Pirate
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Sheep Music
+    - Rabbi's Cap
+    - 1.9108%
+    - '1'
+  - - Sheep Music
+    - Hard-leather Cap
+    - 1.9108%
+    - '1'
+  - - Sheep Music
+    - Shade
+    - 1.9108%
+    - '1'
+  - - Sheep Music
+    - Protector's Cap
+    - 0.2895%
+    - '1'
+  - - Sheep Music
+    - Hard Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Sheep Music
+    - Heavy Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Sheep Music
+    - Turtle Shell Bag
+    - 1.9108%
+    - '1'
+  - - Sheep Music
+    - Ring of Envoy
+    - 1.9108%
+    - '1'
+  - - Sheep Music
+    - Flawed Emerald
+    - 0.1300%
+    - '1'
+  - - Sheep Music
+    - Flawed Sapphire
+    - 0.1300%
+    - '1'
+  - - Sheep Music
+    - Flawed Purple Gem
+    - 0.1300%
+    - '1'
+  - - Sheep Music
+    - Shock Wave 5
+    - 1.2738%
+    - '1'
+  - - Sheep Music
+    - Poison Hit V
+    - 1.2738%
+    - '1'
+  - - Sheep Music
+    - Flying Dart V
+    - 1.2738%
+    - '1'
+  - - Sheep Music
+    - Magic Fruit
+    - 18.0000%
+    - '1'
+  - - Sheep Music
+    - Fruit of the Devil
+    - 18.0000%
+    - '1'
+  - - Sheep Music
+    - Map Piece
+    - 8.6900%
+    - '1'
+  - - Vice Head Pirate
+    - Iron Wristlet
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Long Gloves
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Heavy Bone Wristlet
+    - 0.3550%
+    - '1'
+  - - Vice Head Pirate
+    - Bone Wristlet
+    - 0.3550%
+    - '1'
+  - - Vice Head Pirate
+    - Turtle Shell Bag
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Ring of Envoy
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Defective Orange Gem
+    - 0.1200%
+    - '1'
+  - - Vice Head Pirate
+    - Flawed Purple Gem
+    - 0.1200%
+    - '1'
+  - - Vice Head Pirate
+    - Cure Spell 5
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Summon Skeleton V
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Fruit of Hercules
+    - 24.1169%
+    - '1'
+  - - Vice Head Pirate
+    - Target Potion
+    - 24.1169%
+    - '1'
+  - - Vice Head Pirate
+    - Map Piece
+    - 7.1000%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Riprap Coast'
+- section: Riprap Coast
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Dawn Harbor , Cherry Village
+- section: Description
+  text_raw: Riprap Coast is one of the main honeymoon destinations in Eden. The breathtaking beauty of its sun-kissed beaches and clear ocean waters is a sight to behold for certain!
+    Lovers are often spotted hand in hand here gazing out to the glistening waves and Atlantis beyond. Sadly, the level 24 to 29 Pirates are roaming the shores looking for treasure and
+    a pretty lass to capture. So, watch outI Ladies you should also avoid that scurvy fellow Asmode, he’s eyeing more than your purse.
+- section: Resources
+  text_raw: '[[div]]'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

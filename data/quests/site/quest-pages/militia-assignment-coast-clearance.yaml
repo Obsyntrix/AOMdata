@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: militia-assignment-coast-clearance
+name_raw: Militia Assignment Coast Clearance
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- cherry-village
+source:
+  origin_url: https://angels.wikidot.com/quest:militia-assignment-coast-clearance
+  retrieval_url: https://www.aowiki.uk/pages/quest_militia-assignment-coast-clearance.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 890ceda43db92534cf84e93fc3e69560a2c8bfbcd1e134d95d2f2d7bbd3cbc18
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Robust Yady
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 20 to 35
+    - '-'
+    - '-'
+    - Finished Recruiting Cherry Militia
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '670'
+    - '35'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Militia Assignment Coast Clearance'
+- section: Militia Assignment Coast Clearance
+  text_raw: Home » Areas » Cherry Village » Militia Assignment - Coast Clearance
+- section: Summary
+  text_raw: Robust Yady asks you to help clear out the harbor.
+- section: Walkthrough
+  text_raw: Step 1 Talk to Robust Yady (235,51). Step 2 Defeat 20 Cherry Crabs . Step 3 Report back to Robust Yady.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

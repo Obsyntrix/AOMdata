@@ -1,0 +1,549 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: scrap-iron-village
+  name_raw: Scrap Iron Village
+source:
+  origin_url: https://angels.wikidot.com/area:scrap-iron-village
+  retrieval_url: https://www.aowiki.uk/pages/area_scrap-iron-village.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b5b52b5156e790affc9e0cf8c96561253a44fa30626ad469c2d51b32db2d65cc
+quest_links:
+- slug: breakdown-of-robot
+  name_raw: Breakdown of Robot
+  retrieval_url: https://www.aowiki.uk/pages/quest_breakdown-of-robot.html
+  origin_url: https://angels.wikidot.com/quest:breakdown-of-robot
+- slug: correlation-between-metal-and-water
+  name_raw: Correlation Between Metal and Water
+  retrieval_url: https://www.aowiki.uk/pages/quest_correlation-between-metal-and-water.html
+  origin_url: https://angels.wikidot.com/quest:correlation-between-metal-and-water
+- slug: disgusting-and-radiant-creature
+  name_raw: Disgusting and Radiant Creature
+  retrieval_url: https://www.aowiki.uk/pages/quest_disgusting-and-radiant-creature.html
+  origin_url: https://angels.wikidot.com/quest:disgusting-and-radiant-creature
+- slug: medium-of-chemical-formula
+  name_raw: Medium of Chemical Formula
+  retrieval_url: https://www.aowiki.uk/pages/quest_medium-of-chemical-formula.html
+  origin_url: https://angels.wikidot.com/quest:medium-of-chemical-formula
+- slug: parts-collection
+  name_raw: Parts Collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_parts-collection.html
+  origin_url: https://angels.wikidot.com/quest:parts-collection
+- slug: power-source-for-experiment
+  name_raw: Power Source for Experiment
+  retrieval_url: https://www.aowiki.uk/pages/quest_power-source-for-experiment.html
+  origin_url: https://angels.wikidot.com/quest:power-source-for-experiment
+- slug: taking-construction-manual
+  name_raw: Taking Construction Manual
+  retrieval_url: https://www.aowiki.uk/pages/quest_taking-construction-manual.html
+  origin_url: https://angels.wikidot.com/quest:taking-construction-manual
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Edison
+    - (198,86)
+    - 'Gives quest series: Correlation Between Metal and Water , Power Source for Experiment and Power Source for Experiment .'
+  - - Designer
+    - (176,89)
+    - Gives quest Taking Construction Manual .
+  - - Engineer
+    - (157,113)
+    - Gives quest Breakdown of Robot .
+  - - Worker
+    - (209,116)
+    - Gives quest Disgusting and Radiant Creature .
+  - - Repair Worker
+    - (218,70)
+    - Gives quest Parts Collection .
+  - - ''
+  - - Cupid
+    - (178,107)
+    - Make this your revival place.
+  - - Iron Totem
+    - (229,65)
+    - Revive here if of Steel Faction.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Breakdown of Robot
+    - 'Yes'
+    - Steel Faction; Character lvl 10-25
+    - Exp+390, Credit+20
+    - Destroy 20 Buccinal Robot
+  - - Disgusting and Radiant Creature
+    - 'Yes'
+    - Steel Faction; Character lvl 10- 25
+    - Exp+390, Credit+20
+    - Collect 10 radiant slarm cores (germs) by killing Radiant Slarm
+  - - Taking Construction Manual
+    - 'No'
+    - Steel Faction; Character lvl 10+
+    - Exp+1150, Credit+50
+    - Find the stolen Blueprint by defeating Fat Robot
+  - - Parts Collection
+    - 'No'
+    - Steel Faction; Character lvl 10+
+    - Gold+350, Exp+1150, Credit+50
+    - Obtain the UME Frame and Kerosene Tank by defeating Fat Robot
+  - - ''
+  - - Correlation Between Metal and Water 1 of 3
+    - 'No'
+    - Steel Faction; Character lvl 10+
+    - Gold+550, Exp+200, Credit+50
+    - Take a report to the scientist Einstein in Iron Castle .
+  - - Power Source for Experiment 2 of 3
+    - 'No'
+    - Steel Faction; Character lvl 10+ Completed quest Correlation Between Metal and Water
+    - Exp+1220, Credit+360, Item
+    - Obtain cyclone furnace by defeating the boss, Turbo Robot .
+  - - Medium of Chemical Formula 3 of 3
+    - 'No'
+    - Steel Faction; Character lvl 15+ Completed quest Power Source for Experiment
+    - Exp+1100, Credit+20
+    - Defeat 20 Spear Lizardmen in Cactus Plain .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Radiant Slarm
+    - '15'
+    - 'No'
+    - 'No'
+    - ''
+  - - Buccinal Robot
+    - '15'
+    - 'No'
+    - 'No'
+    - ''
+  - - Fat Robot
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Metal Robot
+    - '20'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Turbo Robot
+    - '23'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Tin
+    - (82,887)
+    - Dig level 11
+    - ''
+  - - Lavender
+    - (38,180)
+    - Collect level 11
+    - ''
+  - - Monster Den
+    - (128,45)
+    - Collect level 11
+    - ''
+  - - Grapefruit
+    - (40,129)
+    - Lumber level 11
+    - ''
+  - - White Alga
+    - (275,155)
+    - Fishing level 11
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Buccinal Robot
+    - Incantation Gown
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Heavy Armor
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Light Armor
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Savage Vest
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Savage Armor
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Angelos Gown
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Emerald Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Sapphire Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Purple Gem Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Buccinal Robot
+    - Buccinal Robot card
+    - 0.0800%
+    - '1'
+  - - Fat Robot
+    - Light Sword
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Double-blade Axe
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Wood Shield
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Sword
+    - 0.1059%
+    - '1'
+  - - Fat Robot
+    - Wooden Shield
+    - 0.1059%
+    - '1'
+  - - Fat Robot
+    - Antique Rapier
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Silver Double-bladed Axe
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Silver Shield
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Ruby Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Orange Gem Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Yellow Gem Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Fat Robot
+    - Fat Robot card
+    - 0.0800%
+    - '1'
+  - - Metal Robot
+    - Archer Hood
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Helmet
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Incantation Hood
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Heavy Armor
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Light Armor
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Incantation Gown
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Crystal Foreman Hat
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Pirate Flag
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Savage Vest
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Savage Armor
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Angelos Gown
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Emerald Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Sapphire Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Purple Gem Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Target Potion
+    - 18.0009%
+    - '1'
+  - - Metal Robot
+    - Map Piece
+    - 20.7800%
+    - '1'
+  - - Radiant Slarm
+    - Archer Hood
+    - 0.4986%
+    - '1'
+  - - Radiant Slarm
+    - Helmet
+    - 0.4986%
+    - '1'
+  - - Radiant Slarm
+    - Incantation Hood
+    - 0.4986%
+    - '1'
+  - - Radiant Slarm
+    - Savage Hood
+    - 0.0083%
+    - '1'
+  - - Radiant Slarm
+    - Savage Iron Helmet
+    - 0.0083%
+    - '1'
+  - - Radiant Slarm
+    - Angelos Hood
+    - 0.0083%
+    - '1'
+  - - Radiant Slarm
+    - Ruby Piece
+    - 0.0249%
+    - '1'
+  - - Radiant Slarm
+    - Orange Gem Piece
+    - 0.0249%
+    - '1'
+  - - Radiant Slarm
+    - Yellow Gem Piece
+    - 0.0249%
+    - '1'
+  - - Radiant Slarm
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Spear Lizardman
+    - Hook
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Catapult
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Staff
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Slingshot
+    - 0.1059%
+    - '1'
+  - - Spear Lizardman
+    - Curse Hook
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Raid Slingshot
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Holy Wood Staff
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Emerald Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Sapphire Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Purple Gem Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Turbo Robot
+    - Sword
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Double-blade Axe
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Wooden Shield
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Hook
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Slingshot
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Staff
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Iron Hat
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Robber Flag
+    - 3.6420%
+    - '1'
+  - - Turbo Robot
+    - Antique Rapier
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Silver Double-bladed Axe
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Silver Shield
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Curse Hook
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Raid Slingshot
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Holy Wood Staff
+    - 0.5300%
+    - '1'
+  - - Turbo Robot
+    - Ruby Piece
+    - 3.1800%
+    - '1'
+  - - Turbo Robot
+    - Orange Gem Piece
+    - 3.1800%
+    - '1'
+  - - Turbo Robot
+    - Yellow Gem Piece
+    - 3.1800%
+    - '1'
+  - - Turbo Robot
+    - Fruit of Hercules
+    - 20.5429%
+    - '1'
+  - - Turbo Robot
+    - Map Piece
+    - 26.4900%
+    - '1'
+  - - Turbo Robot
+    - Turbo Robot card
+    - 11.1111%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Scrap Iron Village'
+- section: Scrap Iron Village
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Wishing Tear , Megalith Plain
+- section: Description
+  text_raw: Looking from a distance and can’t tell if this area in the rolling desert sands is a heap of scrap iron or a village? Well it‘s both, welcome to Scrap Iron Village! Enjoy
+    a discussion with the famed genius Edison. But, be mindful of the level 15 to 23 robots, who all seem to be running amuck. It may also be a wise idea to avoid the radioactive slarms
+    for more sanitary reasons. They’ve been playing in the sewers again…
+- section: Resources
+  text_raw: '[[div]]'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

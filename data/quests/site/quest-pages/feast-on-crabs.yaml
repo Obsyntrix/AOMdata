@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: feast-on-crabs
+name_raw: Feast On Crabs
+discovered_from_regions:
+- atlantis
+discovered_from_areas:
+- puqi-village
+source:
+  origin_url: https://angels.wikidot.com/quest:feast-on-crabs
+  retrieval_url: https://www.aowiki.uk/pages/quest_feast-on-crabs.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 514c29be43f4696de884fe189a8038ceb3dd54b7436d7a4142423b8ae5746d9d
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Inn Keeper
+    - 'Yes'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Feast On Crabs'
+- section: Feast On Crabs
+  text_raw: Home » Areas » Puqi Village » Feast on Crabs
+- section: Summary
+  text_raw: The Inn Keeper of Puqi Village plans to hold Crags Party. He asks you to help him prepare some food materials.
+- section: Walkthrough
+  text_raw: Step 1 Speak with Inn Keeper Step 2 Defeat 50 Color Crabs.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

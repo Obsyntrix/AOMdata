@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: rare-sheep-score
+name_raw: Rare Sheep Score
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- sunflower-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:rare-sheep-score
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-sheep-score.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 50c009779ad885cf244c58fdf5250120d6608f326680265bdc6086822938cc48
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Gardener
+    - 'No'
+    - Yes (3 of 4)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Awakening a Love of Music
+    - Ardent Recommendation
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 10+
+    - '-'
+    - '-'
+    - Finished awakening a Love of Music
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1520'
+    - '360'
+    - '-'
+  - - Items
+  - - 'Choose one of: Courage Helmet , Harmony Cap , or Wanderer''s Cap'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Rare Sheep Score'
+- section: Rare Sheep Score
+  text_raw: Home » Areas » Sunflower Plain » Rare Sheep Score
+- section: Summary
+  text_raw: The Gardener thinks the Tone Sheep can play so well because of the teachings of Sheep Beethoven and its magic score. He asks you to defeat the boss and bring him the score.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Gardener (53,107). Step 2 You must defeat the boss, Sheep Beethoven and get the Score from him. Step 3 Take the Score to the Gardener.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,456 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: dream-ocean
+  name_raw: Dream Ocean
+source:
+  origin_url: https://angels.wikidot.com/area:dream-ocean
+  retrieval_url: https://www.aowiki.uk/pages/area_dream-ocean.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: a341d846495fe755a921e3c8811d5ce97b290b6a8c210eba81d98d7fde292d7e
+quest_links:
+- slug: mermaid-s-tears
+  name_raw: Mermaid's Tears
+  retrieval_url: https://www.aowiki.uk/pages/quest_mermaid-s-tears.html
+  origin_url: https://angels.wikidot.com/quest:mermaid-s-tears
+- slug: mermaid-s-trust
+  name_raw: Mermaid's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_mermaid-s-trust.html
+  origin_url: https://angels.wikidot.com/quest:mermaid-s-trust
+- slug: mermain-s-tears
+  name_raw: Mermain's Tears
+  retrieval_url: https://www.aowiki.uk/pages/quest_mermain-s-tears.html
+  origin_url: https://angels.wikidot.com/quest:mermain-s-tears
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Mermaind Captain
+    - (?,?)
+    - Why it is important.
+  - - Crybaby Shin
+    - (?,?)
+    - Give quest Mermain's Tears .
+  - - Mermaind Ozzie
+    - (?,?)
+    - Why it is important.
+  - - Mermaind Guard
+    - (?,?)
+    - Give quest Mermaid's Trust .
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeatable
+    - Requirements
+    - Reward
+    - Short Description
+  - - Mermaid's Tears
+    - Yes/No
+    - XXX Faction; Character lvl XX
+    - Exp+XX, Credit+XX, Gold+XX, Item
+    - ''
+  - - Mermaid's Trust
+    - Yes/No
+    - XXX Faction; Character lvl XX
+    - Exp+XX, Credit+XX, Gold+XX, Item
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Ink Octopus
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Wood Octopus
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Stab Jellyfish
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Angel Fish
+    - '82'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Blue Merman
+    - '84'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Bottle Mermaid
+    - '87'
+    - 'No'
+    - 'No'
+    - ''
+  - - Sea Shark
+    - '90'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Merman Hulio
+    - '95'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Leader Nio
+    - '95'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Aerolite
+    - (?,?)
+    - Dig level 81
+    - ''
+  - - Bone Den
+    - (?,?)
+    - Collect level 81
+    - ''
+  - - Thyme Bush
+    - (?,?)
+    - Collect level 81
+    - ''
+  - - Tropic Fish
+    - (?,?)
+    - Fishing level 81
+    - ''
+  - - Beech
+    - (?,?)
+    - Lumber level 81
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Angel Fish
+    - Coral Ring
+    - 0.0769%
+    - '1'
+  - - Angel Fish
+    - Seagod's Handloop
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Sapphire
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Chief Cuffs
+    - 0.0913%
+    - '1'
+  - - Angel Fish
+    - Fane Cuffs
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Fish Haversack
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Feather Angel Fish Card
+    - 0.0139%
+    - '1'
+  - - Blue Merman
+    - Luck Bracers
+    - 0.0824%
+    - '1'
+  - - Blue Merman
+    - Lucky Jack Bracers
+    - 0.0001%
+    - '1'
+  - - Blue Merman
+    - Flawless Yellow Gem
+    - 0.0004%
+    - '1'
+  - - Blue Merman
+    - Blue Merman Card
+    - 0.0139%
+    - '1'
+  - - Bottle Mermaid
+    - Swiftness Boots
+    - 0.0913%
+    - '1'
+  - - Bottle Mermaid
+    - Walker Boots
+    - 0.0001%
+    - '1'
+  - - Bottle Mermaid
+    - Jelly Fish
+    - 0.0002%
+    - '1'
+  - - Bottle Mermaid
+    - Swift Boots
+    - 0.0008%
+    - '1'
+  - - Bottle Mermaid
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Energy Hood
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Energy Boots
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Sound Hood
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Sound Boots
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Ink Octopus
+    - Octopus Brush Card
+    - 0.0139%
+    - '1'
+  - - Leader Nio
+    - Crystal Spear
+    - 6.2000%
+    - '1'
+  - - Leader Nio
+    - Luck Bracers
+    - 6.2000%
+    - '1'
+  - - Leader Nio
+    - Shaer's Will
+    - 0.0062%
+    - '1'
+  - - Leader Nio
+    - Lucky Jack Bracers
+    - 0.0062%
+    - '1'
+  - - Leader Nio
+    - Natural Antibody V
+    - 0.0020%
+    - '1'
+  - - Leader Nio
+    - Aurora Trap V
+    - 0.0020%
+    - '1'
+  - - Leader Nio
+    - Jelly Fish
+    - 0.0118%
+    - '1'
+  - - Leader Nio
+    - Flawless Emerald
+    - 0.0589%
+    - '1'
+  - - Leader Nio
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Leader Nio
+    - Effective Target Potion
+    - 83.1835%
+    - '1'
+  - - Leader Nio
+    - Captain Nio Card
+    - 0.9259%
+    - '1'
+  - - Merman Hulio
+    - Spider Teeth
+    - 6.2000%
+    - '1'
+  - - Merman Hulio
+    - Swiftness Boots
+    - 6.2000%
+    - '1'
+  - - Merman Hulio
+    - Minaca Attacker
+    - 0.0062%
+    - '1'
+  - - Merman Hulio
+    - Walker Boots
+    - 0.0062%
+    - '1'
+  - - Merman Hulio
+    - Hell Erosion V
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Protection Spell 5
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Cracking Beat V
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Shark Armor
+    - 0.0118%
+    - '1'
+  - - Merman Hulio
+    - Swift Boots
+    - 0.0354%
+    - '1'
+  - - Merman Hulio
+    - Flawless Sapphire
+    - 0.0589%
+    - '1'
+  - - Merman Hulio
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Merman Hulio
+    - Effective Agility Potion
+    - 83.6464%
+    - '1'
+  - - Merman Hulio
+    - Merman Hulio Card
+    - 0.4630%
+    - '1'
+  - - Sea Shark
+    - Ancient Bow
+    - 0.0505%
+    - '1'
+  - - Sea Shark
+    - Flood Shield
+    - 0.0505%
+    - '1'
+  - - Sea Shark
+    - Xilios's Soul
+    - 0.0001%
+    - '1'
+  - - Sea Shark
+    - Ancient Wings Shield
+    - 0.0001%
+    - '1'
+  - - Sea Shark
+    - Flawless Purple Gem
+    - 0.0005%
+    - '1'
+  - - Sea Shark
+    - Sea Shark Card
+    - 0.0139%
+    - '1'
+  - - Sea Shark
+    - Symbol Shield
+    - 0.0472%
+    - '1'
+  - - Sea Shark
+    - Seagod's Eye
+    - 0.0001%
+    - '1'
+  - - Stab Jellyfish
+    - Mage Hood
+    - 0.0569%
+    - '1'
+  - - Stab Jellyfish
+    - Mage Boots
+    - 0.0569%
+    - '1'
+  - - Stab Jellyfish
+    - Spring Hood
+    - 0.0001%
+    - '1'
+  - - Stab Jellyfish
+    - Spring Boots
+    - 0.0001%
+    - '1'
+  - - Stab Jellyfish
+    - Clean Orange Gem
+    - 0.0019%
+    - '1'
+  - - Stab Jellyfish
+    - Stab Jellyfish Card
+    - 0.0139%
+    - '1'
+  - - Wood Octopus
+    - Fire Guard Helmet
+    - 0.0391%
+    - '1'
+  - - Wood Octopus
+    - Fire Guard Boots
+    - 0.0391%
+    - '1'
+  - - Wood Octopus
+    - Knight Helmet
+    - 0.0004%
+    - '1'
+  - - Wood Octopus
+    - Knight Boots
+    - 0.0004%
+    - '1'
+  - - Wood Octopus
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Wood Octopus
+    - Octopus Mallet Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Dream Ocean'
+- section: Dream Ocean
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Shining Coast , Raging Reefs , Quiet Ocean
+- section: Description
+  text_raw: Description here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

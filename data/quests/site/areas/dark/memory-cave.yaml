@@ -1,0 +1,452 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: memory-cave
+  name_raw: Memory Cave
+source:
+  origin_url: https://angels.wikidot.com/area:memory-cave
+  retrieval_url: https://www.aowiki.uk/pages/area_memory-cave.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 556e74c73b632e8c1068194c19b429518bd34c9be3d9d353c4e9cdc48653d1cd
+quest_links:
+- slug: desecrater-s-disturbance
+  name_raw: Desecrater‘s Disturbance
+  retrieval_url: https://www.aowiki.uk/pages/quest_desecrater-s-disturbance.html
+  origin_url: https://angels.wikidot.com/quest:desecrater-s-disturbance
+- slug: fetor-of-rot
+  name_raw: Fetor of Rot
+  retrieval_url: https://www.aowiki.uk/pages/quest_fetor-of-rot.html
+  origin_url: https://angels.wikidot.com/quest:fetor-of-rot
+- slug: forever-love
+  name_raw: Forever Love
+  retrieval_url: https://www.aowiki.uk/pages/quest_forever-love.html
+  origin_url: https://angels.wikidot.com/quest:forever-love
+- slug: husband-s-skull
+  name_raw: Husband‘s Skull
+  retrieval_url: https://www.aowiki.uk/pages/quest_husband-s-skull.html
+  origin_url: https://angels.wikidot.com/quest:husband-s-skull
+- slug: scratched-tombstone
+  name_raw: Scratched Tombstone
+  retrieval_url: https://www.aowiki.uk/pages/quest_scratched-tombstone.html
+  origin_url: https://angels.wikidot.com/quest:scratched-tombstone
+- slug: shadow-evil-student-union-leader
+  name_raw: Evil Student Union Leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-evil-student-union-leader.html
+  origin_url: https://angels.wikidot.com/quest:shadow-evil-student-union-leader
+- slug: shadow-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:shadow-magic-stone
+- slug: toy-in-stomach
+  name_raw: Toy in Stomach
+  retrieval_url: https://www.aowiki.uk/pages/quest_toy-in-stomach.html
+  origin_url: https://angels.wikidot.com/quest:toy-in-stomach
+- slug: wife-s-present
+  name_raw: Wife‘s Present
+  retrieval_url: https://www.aowiki.uk/pages/quest_wife-s-present.html
+  origin_url: https://angels.wikidot.com/quest:wife-s-present
+- slug: wifes-present
+  name_raw: Wife’s Present
+  retrieval_url: https://www.aowiki.uk/pages/quest_wifes-present.html
+  origin_url: https://angels.wikidot.com/quest:wifes-present
+- slug: young-age
+  name_raw: Young Age
+  retrieval_url: https://www.aowiki.uk/pages/quest_young-age.html
+  origin_url: https://angels.wikidot.com/quest:young-age
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Sword Expert
+    - (204,127)
+    - Medium level combat techniques (Sword).
+  - - Bow Expert
+    - (195,122)
+    - Medium level combat techniques (Bow)
+  - - Axe Expert
+    - (201,125)
+    - Medium level combat techniques (Axe)
+  - - Spear Expert
+    - (199,123)
+    - Medium level combat techniques(Spear)
+  - - Armament Seller
+    - (213,120)
+    - Medium level Garment and Shield equipment.
+  - - Bowset Seller
+    - (209,117)
+    - Medium level Mantle equipment
+  - - Mage Gear Seller
+    - (250,150)
+    - Medium level Vestment equipment.
+  - - Life Mage
+    - (230,141)
+    - Medium level spell scrolls.
+  - - Wraith Mage
+    - (239,134)
+    - Medium level spell scrolls.
+  - - Earth Mage
+    - (255,141)
+    - Medium level spell scrolls.
+  - - Chaos Mage
+    - (243,148)
+    - Medium level spell scrolls.
+  - - Senior Smith
+    - (226,128)
+    - Medium level recipes
+  - - Senior Master
+    - (230,131)
+    - Medium level recipes
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Lady
+    - (78,85)
+    - Gives quest Husband‘s Skull .
+  - - Sad Father
+    - (211,94)
+    - Part of quest Toy in Stomach .
+  - - Graveyard Worker
+    - (295,163)
+    - Gives quests Desecrater‘s Disturbance and Fetor of Rot .
+  - - Executive Clerk
+    - (282,166)
+    - Gives quest Scratched Tombstone .
+  - - Executive Chief
+    - (301,171)
+    - 'Gives quest series: Young Age , Wife‘s Present and Forever Love .'
+  - - ''
+  - - Repair Slave
+    - (270,149)
+    - Repairs worn equipment.
+  - - Bank Clerk
+    - (302,174), (260,156)
+    - Gives access to warehouse.
+  - - Badge Expert
+    - (270,174)
+    - Exchanges 2 Silver Badges for a gift box.
+  - - ''
+  - - Cupid
+    - (306,160)
+    - Make this your revival place.
+  - - Shadow Totem
+    - (278,175)
+    - Revive here if of Shadow Faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Toy in Stomach
+    - 'No'
+    - Shadow Faction;
+    - Exp+500, Credit+75
+    - Find a child’s toy while fighting Porky Men , bring it to the Sad Father.
+  - - Fetor of Rot
+    - 'Yes'
+    - Shadow Faction; Character lvl 22-35
+    - Exp+700, Credit+35
+    - Defeat 20 Porky Men .
+  - - Desecrater‘s Disturbance
+    - 'Yes'
+    - Shadow Faction; Character lvl 22-35
+    - Exp+700, Credit+35
+    - Defeat 20 Decrusaders .
+  - - Husband‘s Skull
+    - 'No'
+    - Shadow Faction; Character lvl 22+
+    - Gold+1100, Exp+1200, Credit+70
+    - 'Defeat Magic Cats to find the stolen Skull. Note: Do this quest before the Asmode series.'
+  - - Scratched Tombstone
+    - 'No'
+    - Shadow Faction; Character lvl 22+
+    - Exp+1200, Credit+70
+    - Defeat 20 Magic Cats .
+  - - ''
+  - - Young Age 1 of 3
+    - 'No'
+    - Shadow Faction; Character lvl 22+
+    - Exp+800, Credit+65
+    - Go to Degula Maze and dig up the time box. (145, 94).
+  - - Wife‘s Present 2 of 3
+    - 'No'
+    - Shadow Faction; Character lvl 22+ Completed quest Young Age
+    - Exp+2320, Credit+500, Item
+    - Go to (201,41) to get the present. Clicking on the mound will summon the boss Rotten Wanda .
+  - - Forever Love 3 of 3
+    - 'No'
+    - Shadow Faction; Character lvl 22+ Completed quest Wife’s Present
+    - Exp+800, Credit+30, Gold+1500
+    - Give the music box to the Executive Chief .
+  - - ''
+  - - Evil Student Union Leader Asmode 8 of 8
+    - 'No'
+    - Shadow Faction; Completed quest Magic Stone
+    - Exp+5000, Credit+850, Item
+    - Defeat Asmode .
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Decrusader
+    - '27'
+    - 'No'
+    - 'No'
+    - ''
+  - - Magic Cat
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Porky Man
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Rotten Wanda
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Evil Cat Yese
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Obsidian
+    - (136,133)
+    - Dig level 31
+    - ''
+  - - Bright Bush
+    - (22,69)
+    - Collect level 31
+    - ''
+  - - Meteor Alga
+    - (144,106)
+    - Fishing level 31
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Decrusader
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Decrusader
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Decrusader
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Decrusader
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Decrusader
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Decrusader
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Decrusader
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Decrusader
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Evil Cat Yese
+    - Thick Armor
+    - 4.1194%
+    - '1'
+  - - Evil Cat Yese
+    - Leather Vest
+    - 4.1194%
+    - '1'
+  - - Evil Cat Yese
+    - Heavy Leather Armor
+    - 0.6240%
+    - '1'
+  - - Evil Cat Yese
+    - Light Leather Armor
+    - 0.6240%
+    - '1'
+  - - Evil Cat Yese
+    - Ring of High Clerist
+    - 2.7456%
+    - '1'
+  - - Evil Cat Yese
+    - Golden Shell Bag
+    - 2.7456%
+    - '1'
+  - - Evil Cat Yese
+    - Flawed Ruby
+    - 0.6800%
+    - '1'
+  - - Evil Cat Yese
+    - Basic Beating V
+    - 1.8304%
+    - '1'
+  - - Evil Cat Yese
+    - Basic Attack V
+    - 1.8304%
+    - '1'
+  - - Evil Cat Yese
+    - Basic Shot V
+    - 1.8304%
+    - '1'
+  - - Evil Cat Yese
+    - Target Potion
+    - 15.1504%
+    - '1'
+  - - Evil Cat Yese
+    - Agility Potion
+    - 15.1504%
+    - '1'
+  - - Evil Cat Yese
+    - Map Piece
+    - 12.4800%
+    - '1'
+  - - Evil Cat Yese
+    - Pestle
+    - 0.0700%
+    - '1'
+  - - Magic Cat
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Magic Cat
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Magic Cat
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Magic Cat
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Magic Cat
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Magic Cat
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Magic Cat
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Magic Cat
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Magic Cat
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+  - - Porky Man
+    - Iron Slingshot
+    - 0.3744%
+    - '1'
+  - - Porky Man
+    - Token
+    - 0.3744%
+    - '1'
+  - - Porky Man
+    - Puppet Electrical Bow
+    - 0.0062%
+    - '1'
+  - - Porky Man
+    - White Token
+    - 0.0062%
+    - '1'
+  - - Porky Man
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Porky Man
+    - Flawed Ruby
+    - 0.0023%
+    - '1'
+  - - Porky Man
+    - Defective Orange Gem
+    - 0.0023%
+    - '1'
+  - - Porky Man
+    - Flawed Yellow Gem
+    - 0.0023%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Memory Cave'
+- section: Memory Cave
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Degula Maze , Feather Leaf Forest
+- section: Description
+  text_raw: Memory Cave is the home of forgotten lives. It is the respected resting place of ended bodies and the place where memory settles in dust as sorrow and joy. Walk through the
+    gravestones and uncover things hidden by time. Pay your respects in the gift shop and visit with the Executive Chief. His tale of love will inspire a heart beat in this silent realm
+    amid the level 27 to 35 creatures. The Porky Men can be smelled a mile away, it’s best not to touch them, they‘re vile.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

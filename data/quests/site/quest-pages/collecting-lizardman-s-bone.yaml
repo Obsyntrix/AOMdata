@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: collecting-lizardman-s-bone
+name_raw: Collecting Lizardman S Bone
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- cactus-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:collecting-lizardman-s-bone
+  retrieval_url: https://www.aowiki.uk/pages/quest_collecting-lizardman-s-bone.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b104eb41fb4d38a0fc270127fb0f56d05c7b2c464ea822fc1af2b2c7168843a8
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Biologist
+    - Steel Faction; Character lvl 15+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Mysterious Pieces
+    - Picking Cactus Fruit
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Biologist needs to study the Lizardmen. Defeat Ball Lizardmen and obtain Complete Lizard‘s skull, rib, shank and arm bone.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 600 Gold, 1300 Experience, 60 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Collecting Lizardman S Bone'
+- section: Collecting Lizardman S Bone
+  text_raw: Home » Areas » Cactus Plain » Collecting Lizardman's Bone
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Biologist. Step 2 Defeat Ball Lizardmen and until you obtain a Complete Lizard‘s skull, rib, shank and arm bone. Step 3 Take them to the Biologist.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

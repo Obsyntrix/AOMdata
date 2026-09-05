@@ -1,0 +1,576 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: flaming-door
+  name_raw: Flaming Door
+source:
+  origin_url: https://angels.wikidot.com/area:flaming-door
+  retrieval_url: https://www.aowiki.uk/pages/area_flaming-door.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 217973311b6d5091cc0ef2e2c5956ecb420870088f5c3fe49d5c2110606cf571
+quest_links:
+- slug: a-will-to-ask
+  name_raw: A Will To Ask
+  retrieval_url: https://www.aowiki.uk/pages/quest_a-will-to-ask.html
+  origin_url: https://angels.wikidot.com/quest:a-will-to-ask
+- slug: devil-s-whispering
+  name_raw: Devil's Whispering
+  retrieval_url: https://www.aowiki.uk/pages/quest_devil-s-whispering.html
+  origin_url: https://angels.wikidot.com/quest:devil-s-whispering
+- slug: pest-control
+  name_raw: Pest Control
+  retrieval_url: https://www.aowiki.uk/pages/quest_pest-control.html
+  origin_url: https://angels.wikidot.com/quest:pest-control
+- slug: pollution-control
+  name_raw: Pollution Control
+  retrieval_url: https://www.aowiki.uk/pages/quest_pollution-control.html
+  origin_url: https://angels.wikidot.com/quest:pollution-control
+- slug: rare-specimen-making
+  name_raw: Rare Specimen Making
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-specimen-making.html
+  origin_url: https://angels.wikidot.com/quest:rare-specimen-making
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Weapon Boffin
+    - (21,45)
+    - 62-80 level Sword, Axe, Spear stances.
+  - - Bow Resercher
+    - (221,9)
+    - 62-80 level Bow stances.
+  - - Rock Master
+    - (24,47)
+    - 61-75 level Sewing, Cooking, Technics recipes.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Cupid
+    - (5,16)
+    - Make this your revival place.
+  - - Little Childe
+    - (11,30)
+    - '-'
+  - - Chef Fatz
+    - (19,20)
+    - '-'
+  - - Heavenly Officer
+    - (66,37)
+    - Give quest Pest Control , Pollution Control
+  - - Sick Zapo
+    - (?,?)
+    - Give quest Devil's Whispering
+  - - Gustav
+    - (324,92)
+    - Give quest A Will To Ask
+  - - Vilo 3
+    - (300,26)
+    - Give quest Rare Specimen Making
+  - - ''
+  - - Aurora Totem
+    - (30,36)
+    - Aurora Faction revival place.
+  - - Breeze Totem
+    - (42,24)
+    - Beast Faction revival place.
+  - - Iron Totem
+    - (18,36)
+    - Steel Faction revival place.
+  - - Dark City Totem
+    - (27,20)
+    - Shadow Faction revival place.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Requirements
+    - Reward
+  - - Rare Specimen Making
+    - none
+    - 32000 exp, 550 credit, 15000 gold
+  - - A Will To Ask
+    - none
+    - 30000 exp, 300 credit, 12000 gold
+  - - Devil's Whispering
+    - none
+    - 22000 exp, 200 credit, 10000 gold
+  - - Pest Control
+    - none
+    - 28000 exp, 500 credit, 12500 gold
+  - - Pollution Control
+    - none
+    - '? exp, ? credit, ? gold'
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Evil Knight
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Slarm
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Lampman
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Flower
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Flame Mummy
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fire Fly
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fire Ghost Kid
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Miner
+    - '78'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Miner Foreman
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Soul Wizard
+    - '75'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Soul Guide
+    - '80'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Silica
+    - (?,?)
+    - Dig level 61.
+    - ''
+  - - Lycosa Den
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Primrose
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Blood Bamboo
+    - (?,?)
+    - Lumber level 61
+    - ''
+  - - Spot Alga
+    - (?,?)
+    - Fishing level 61
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Evil Flower
+    - Energy Cuffs
+    - 0.0291%
+    - '1'
+  - - Evil Flower
+    - Sound Gloves
+    - 0.0002%
+    - '1'
+  - - Evil Flower
+    - Dida Cayman Robot
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Hermit Boots
+    - 0.0008%
+    - '1'
+  - - Evil Flower
+    - Clean Sapphire
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Map Piece
+    - 0.0242%
+    - '1'
+  - - Evil Flower
+    - Anchoret Boots
+    - 0.0006%
+    - '1'
+  - - Evil Flower
+    - Thunder Spear
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Benison Ring
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Heart Hit 5
+    - 0.0006%
+    - '1'
+  - - Evil Knight
+    - Hermit Cuffs
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Power Shield
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Anchoret Cuffs
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Flight Shield
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Fire Fly
+    - Hunter Cuffs
+    - 0.0118%
+    - '1'
+  - - Fire Fly
+    - Forest Cuffs
+    - 0.0000%
+    - '1'
+  - - Fire Fly
+    - Map Piece
+    - 0.0049%
+    - '1'
+  - - Fire Fly
+    - Fire Fly Card
+    - 0.0139%
+    - '1'
+  - - Fire Ghost Kid
+    - Fire Scale Boots
+    - 0.0127%
+    - '1'
+  - - Fire Ghost Kid
+    - Embrace Boots
+    - 0.0001%
+    - '1'
+  - - Fire Ghost Kid
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Fire Ghost Kid
+    - Ghost Kid Card
+    - 0.0208%
+    - '1'
+  - - Flame Mummy
+    - Fire Guard Cuffs
+    - 0.0313%
+    - '1'
+  - - Flame Mummy
+    - Knight Cuffs
+    - 0.0003%
+    - '1'
+  - - Flame Mummy
+    - Stiff Beetle
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Hermit Boots
+    - 0.0009%
+    - '1'
+  - - Flame Mummy
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Miner Foreman
+    - Energy Hood
+    - 3.1300%
+    - '1'
+  - - Miner Foreman
+    - Sound Hood
+    - 0.0261%
+    - '1'
+  - - Miner Foreman
+    - Earth Bestow V
+    - 0.0130%
+    - '1'
+  - - Miner Foreman
+    - Advance Chop V
+    - 0.0130%
+    - '1'
+  - - Miner Foreman
+    - Stiff Beetle
+    - 0.0130%
+    - '1'
+  - - Miner Foreman
+    - Hermit Helmet
+    - 0.0783%
+    - '1'
+  - - Miner Foreman
+    - Benison Ring
+    - 0.0783%
+    - '1'
+  - - Miner Foreman
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Miner Foreman
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Miner Foreman
+    - Medium Evil Fruit
+    - 47.4828%
+    - '1'
+  - - Miner Foreman
+    - Medium Magic Potion
+    - 45.6036%
+    - '1'
+  - - Miner Foreman
+    - Miner foreman Card
+    - 0.4629%
+    - '1'
+  - - Rock Slarm
+    - Hermit Armor
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Anchoret Armor
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Circus Elephant
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Hermit Helmet
+    - 0.0007%
+    - '1'
+  - - Rock Slarm
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Rock Slarm
+    - Light Necklace
+    - 0.0127%
+    - '1'
+  - - Rock Slarm
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Rock Slarm Card
+    - 0.0208%
+    - '1'
+  - - Rock Slarm
+    - Fire Guard Boots
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Knight Boots
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Hermit Cuffs
+    - 0.0003%
+    - '1'
+  - - Soul Guide
+    - Fire Scale Boots
+    - 1.5200%
+    - '1'
+  - - Soul Guide
+    - Embrace Boots
+    - 0.0063%
+    - '1'
+  - - Soul Guide
+    - Bear Shift V
+    - 0.0032%
+    - '1'
+  - - Soul Guide
+    - Endless Energy V
+    - 0.0032%
+    - '1'
+  - - Soul Guide
+    - Mage Cuffs
+    - 0.0190%
+    - '1'
+  - - Soul Guide
+    - Light Necklace
+    - 0.0190%
+    - '1'
+  - - Soul Guide
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Soul Guide
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Soul Guide
+    - Great Target Potion
+    - 48.8422%
+    - '1'
+  - - Soul Guide
+    - Great Evil Fruit
+    - 48.3871%
+    - '1'
+  - - Soul Wizard
+    - Fool Staff
+    - 0.6350%
+    - '1'
+  - - Soul Wizard
+    - Power Shield
+    - 0.6350%
+    - '1'
+  - - Soul Wizard
+    - Mage Staff
+    - 0.0026%
+    - '1'
+  - - Soul Wizard
+    - Flight Shield
+    - 0.0026%
+    - '1'
+  - - Soul Wizard
+    - Charming Blessing V
+    - 0.0053%
+    - '1'
+  - - Soul Wizard
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Soul Wizard
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Soul Wizard
+    - Medium Magic Potion
+    - 48.6705%
+    - '1'
+  - - Soul Wizard
+    - Medium Mighty Fruit
+    - 49.0514%
+    - '1'
+  - - Terra Lampman
+    - Hermit Boots
+    - 0.0259%
+    - '1'
+  - - Terra Lampman
+    - Anchoret Boots
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Heart Hit 5
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Thunder Spear
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Benison Ring
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Terra Miner
+    - Hunter Boots
+    - 0.0141%
+    - '1'
+  - - Terra Miner
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Terra Miner
+    - Cutter's Axe
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Wind Wings
+    - 0.0001%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Flaming Door'
+- section: Flaming Door
+  text_raw: Information
+- section: 'Adjacent Areas:'
+  text_raw: Lava Cave , Underground Square
+- section: Description
+  text_raw: It can be called one of the ten most peculiar places in the Garden of Eden. It is unbelievable to find such a huge palace in the underground world. Who could have lived here?
+    Where are they now? Maybe only the hopping monster knows.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

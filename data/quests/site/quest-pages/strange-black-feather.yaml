@@ -1,0 +1,79 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: strange-black-feather
+name_raw: Strange Black Feather
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- burning-desert
+- gebuer-vale
+source:
+  origin_url: https://angels.wikidot.com/quest:strange-black-feather
+  retrieval_url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 3696c64b23cb13a9be6a4966ce0f513745bdf7495d64fe5260bd936ea4463dab
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - '-'
+    - Steel Faction
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Gebuer's Proposal
+    - Collecting Herbs
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it, take this to Burning Desert and speak with the Myth Scholar.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 400 Experience, 30 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Strange Black Feather'
+- section: Strange Black Feather
+  text_raw: Home » Areas » Gebuer Vale » Strange Black Feather
+- section: Walkthrough
+  text_raw: Step 1 Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it by clicking. Step 2 Take this feather to Burning Desert and speak with the Myth Scholar for
+    more information.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: shadow-magic-stone
+name_raw: Shadow Magic Stone
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- degula-maze
+- memory-cave
+source:
+  origin_url: https://angels.wikidot.com/quest:shadow-magic-stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-magic-stone.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ca3ea215fa5b799159d6f3987a2d5247c5a2f9944e699877d0ab08abb099cf22
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Asmode
+    - 'No'
+    - 'Yes (Asmode: 7 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Are you Evil Enough?
+    - Evil Student Union Leader
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - '20'
+    - '2'
+    - '-'
+    - Finished Are you Evil Enough?
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '400'
+    - '25'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Shadow Magic Stone'
+- section: Shadow Magic Stone
+  text_raw: Home » Areas » Degula Maze » Magic Stone
+- section: Summary
+  text_raw: Find the gateway to Asmodeus 's den.
+- section: Walkthrough
+  text_raw: Step 1 Asmode (54,15) will give you a Magic stone. Step 2 Go to Memory Cave . Step 3 Find the statue of a monkey wearing a crown and holding an egg (84,148 - it's in the
+    top of the graveyard on the left on the screen, past the Lady). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

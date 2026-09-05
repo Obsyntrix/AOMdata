@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: teacher-s-difficulty
+name_raw: Teacher S Difficulty
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-south
+source:
+  origin_url: https://angels.wikidot.com/quest:teacher-s-difficulty
+  retrieval_url: https://www.aowiki.uk/pages/quest_teacher-s-difficulty.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 427f3a38ca1852ad7703212c418d19e4745669ea009a9e10bd8bb4a196663061
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Miss Diana
+    - Shadow Faction; Character lvl 10-25
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The naughty Imps are causing trouble. Miss Diana asks you to drive them away.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 390 Experience, 20 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Teacher S Difficulty'
+- section: Teacher S Difficulty
+  text_raw: Home » Areas » Fungus Forest South » Teacher's Difficulty
+- section: Walkthrough
+  text_raw: Step 1 Speak with Miss Diana. Step 2 Defeat 20 Imps . Step 3 Report back to Miss Diana.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

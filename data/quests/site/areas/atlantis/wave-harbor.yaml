@@ -1,0 +1,376 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: wave-harbor
+  name_raw: Wave Harbor
+source:
+  origin_url: https://angels.wikidot.com/area:wave-harbor
+  retrieval_url: https://www.aowiki.uk/pages/area_wave-harbor.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 16ca3f47e77fd71bc82c4c09d126b529e6cfab191dddd0d2d00120e1cb13629c
+quest_links:
+- slug: big-eyes
+  name_raw: Big Eyes
+  retrieval_url: https://www.aowiki.uk/pages/quest_big-eyes.html
+  origin_url: https://angels.wikidot.com/quest:big-eyes
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Eye Eric
+    - (?,?)
+    - Give quest. Repeatable
+  - - Explorer Binch
+    - (?,?)
+    - '?'
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Big Eyes
+    - 'Yes'
+    - XXX Faction; Character lvl XX
+    - Exp+3250, Credit+72
+    - Get 30 Merman's Eye from Scale Fish
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Ball Jellyfish
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Whelk Swordsman
+    - '74'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Whelk Mage
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Stab Jellyfish
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Scale Fish
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Angel Fish
+    - '82'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Blue Merman
+    - '84'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Sword Jellyfish
+    - '90'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Gold
+    - (?,?)
+    - Dig level 71
+    - ''
+  - - Wanderer Den
+    - (?,?)
+    - Collect level 71
+    - ''
+  - - Flame Bush
+    - (?,?)
+    - Collect level 71
+    - ''
+  - - Bloody Alga
+    - (?,?)
+    - Fishing level 71
+    - ''
+  - - Birch
+    - (?,?)
+    - Lumber level 71
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Angel Fish
+    - Coral Ring
+    - 0.0769%
+    - '1'
+  - - Angel Fish
+    - Seagod's Handloop
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Sapphire
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Chief Cuffs
+    - 0.0913%
+    - '1'
+  - - Angel Fish
+    - Fane Cuffs
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Fish Haversack
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Feather Angel Fish Card
+    - 0.0139%
+    - '1'
+  - - Ball Jellyfish
+    - Mage Cuffs
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Light Necklace
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Clean Emerald
+    - 0.0015%
+    - '1'
+  - - Ball Jellyfish
+    - Beachball Jellyfish Card
+    - 0.0208%
+    - '1'
+  - - Blue Merman
+    - Luck Bracers
+    - 0.0824%
+    - '1'
+  - - Blue Merman
+    - Lucky Jack Bracers
+    - 0.0001%
+    - '1'
+  - - Blue Merman
+    - Flawless Yellow Gem
+    - 0.0004%
+    - '1'
+  - - Blue Merman
+    - Blue Merman Card
+    - 0.0139%
+    - '1'
+  - - Scale Fish
+    - Hunter Cuffs
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Hunter Boots
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Forest Cuffs
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Clean Purple Gem
+    - 0.0017%
+    - '1'
+  - - Scale Fish
+    - Scale Fish Card
+    - 0.0139%
+    - '1'
+  - - Stab Jellyfish
+    - Mage Hood
+    - 0.0569%
+    - '1'
+  - - Stab Jellyfish
+    - Mage Boots
+    - 0.0569%
+    - '1'
+  - - Stab Jellyfish
+    - Spring Hood
+    - 0.0001%
+    - '1'
+  - - Stab Jellyfish
+    - Spring Boots
+    - 0.0001%
+    - '1'
+  - - Stab Jellyfish
+    - Clean Orange Gem
+    - 0.0019%
+    - '1'
+  - - Stab Jellyfish
+    - Stab Jellyfish Card
+    - 0.0139%
+    - '1'
+  - - Sword Jellyfish
+    - Swiftness Armguards
+    - 5.0550%
+    - '1'
+  - - Sword Jellyfish
+    - Chief Cuffs
+    - 5.0550%
+    - '1'
+  - - Sword Jellyfish
+    - Walker Armguards
+    - 0.0034%
+    - '1'
+  - - Sword Jellyfish
+    - Fane Cuffs
+    - 0.0034%
+    - '1'
+  - - Sword Jellyfish
+    - Fish Haversack
+    - 0.0034%
+    - '1'
+  - - Sword Jellyfish
+    - Swift Armguards
+    - 0.0758%
+    - '1'
+  - - Sword Jellyfish
+    - Flawless Yellow Gem
+    - 0.0496%
+    - '1'
+  - - Sword Jellyfish
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Sword Jellyfish
+    - Effective Healing Potion
+    - 85.9369%
+    - '1'
+  - - Sword Jellyfish
+    - Sword Jellyfish Card
+    - 0.9259%
+    - '1'
+  - - Whelk Mage
+    - Hunter Helmet
+    - 0.0477%
+    - '1'
+  - - Whelk Mage
+    - Rotten Shield
+    - 0.0477%
+    - '1'
+  - - Whelk Mage
+    - Forest Helmet
+    - 0.0001%
+    - '1'
+  - - Whelk Mage
+    - Holy Shield
+    - 0.0001%
+    - '1'
+  - - Whelk Mage
+    - Clean Yellow Gem
+    - 0.0016%
+    - '1'
+  - - Whelk Mage
+    - Whelk Shell
+    - 2.0000%
+    - '1'
+  - - Whelk Mage
+    - Whelk Wand Card
+    - 0.0139%
+    - '1'
+  - - Whelk Swordsman
+    - Fire Scale Cuffs
+    - 0.0460%
+    - '1'
+  - - Whelk Swordsman
+    - Wind Wings
+    - 0.0460%
+    - '1'
+  - - Whelk Swordsman
+    - Embrace Cuffs
+    - 0.0001%
+    - '1'
+  - - Whelk Swordsman
+    - Clean Sapphire
+    - 0.0015%
+    - '1'
+  - - Whelk Swordsman
+    - Whelk Shell
+    - 2.0000%
+    - '1'
+  - - Whelk Swordsman
+    - Whelk Sword Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Wave Harbor'
+- section: Wave Harbor
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Palm Base , Blue Ocean
+- section: Description
+  text_raw: Description here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

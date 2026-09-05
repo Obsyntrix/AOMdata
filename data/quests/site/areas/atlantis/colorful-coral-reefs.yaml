@@ -1,0 +1,375 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: colorful-coral-reefs
+  name_raw: Colorful Coral Reefs
+source:
+  origin_url: https://angels.wikidot.com/area:colorful-coral-reefs
+  retrieval_url: https://www.aowiki.uk/pages/area_colorful-coral-reefs.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 28ac7d88e138ef36746c9df2c96e35dc3c20612ca33e01b4941a81b9b3569f35
+quest_links:
+- slug: girl-s-wish
+  name_raw: Girl's wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+  origin_url: https://angels.wikidot.com/quest:girl-s-wish
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Mermaind Alice
+    - (?,?)
+    - Part of the quest Girl's wish
+  - - Pionner Member
+    - (?,?)
+    - Gives quest
+  - - ''
+  - - Cupid
+    - (?,?)
+    - Make this your revival place.
+  - - ''
+  - - Aurora Totem
+    - (?,?)
+    - Aurora Faction revival place.
+  - - Breeze Totem
+    - (?,?)
+    - Beast Faction revival place.
+  - - Iron Totem
+    - (?,?)
+    - Steel Faction revival place.
+  - - Dark City Totem
+    - (?,?)
+    - Shadow Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Crab General
+    - '66'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Ink Octopus
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Wood Octopus
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Ball Jellyfish
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Whelk Swordsman
+    - '74'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Whelk Mage
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Scale Fish
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Sharp-shooter
+    - '80'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Silica
+    - (?,?)
+    - Dig level 61
+    - ''
+  - - Lycosa Den
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Primrose
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Blood Bamboo
+    - (?,?)
+    - Lumber level 61
+    - ''
+  - - Spot Alga
+    - (?,?)
+    - Fishing level 61
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Ball Jellyfish
+    - Mage Cuffs
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Light Necklace
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Clean Emerald
+    - 0.0015%
+    - '1'
+  - - Ball Jellyfish
+    - Beachball Jellyfish Card
+    - 0.0208%
+    - '1'
+  - - Crab General
+    - Hermit Cuffs
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Hermit Boots
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Anchoret Cuffs
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Anchoret Boots
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Crab General
+    - Crab General Card
+    - 0.0139%
+    - '1'
+  - - Ink Octopus
+    - Energy Hood
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Energy Boots
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Sound Hood
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Sound Boots
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Ink Octopus
+    - Octopus Brush Card
+    - 0.0139%
+    - '1'
+  - - Scale Fish
+    - Hunter Cuffs
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Hunter Boots
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Forest Cuffs
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Clean Purple Gem
+    - 0.0017%
+    - '1'
+  - - Scale Fish
+    - Scale Fish Card
+    - 0.0139%
+    - '1'
+  - - Sharp-shooter
+    - Coral Ring
+    - 5.6950%
+    - '1'
+  - - Sharp-shooter
+    - Wave Manteau
+    - 5.6950%
+    - '1'
+  - - Sharp-shooter
+    - Seagod's Handloop
+    - 0.0095%
+    - '1'
+  - - Sharp-shooter
+    - Sea Lord Manteau
+    - 0.0095%
+    - '1'
+  - - Sharp-shooter
+    - Flawless Yellow Gem
+    - 0.1898%
+    - '1'
+  - - Sharp-shooter
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Sharp-shooter
+    - Effective Magic Potion
+    - 83.2897%
+    - '1'
+  - - Sharp-shooter
+    - Sharpshooter Cathie Card
+    - 0.9259%
+    - '1'
+  - - Whelk Mage
+    - Hunter Helmet
+    - 0.0477%
+    - '1'
+  - - Whelk Mage
+    - Rotten Shield
+    - 0.0477%
+    - '1'
+  - - Whelk Mage
+    - Forest Helmet
+    - 0.0001%
+    - '1'
+  - - Whelk Mage
+    - Holy Shield
+    - 0.0001%
+    - '1'
+  - - Whelk Mage
+    - Clean Yellow Gem
+    - 0.0016%
+    - '1'
+  - - Whelk Mage
+    - Whelk Shell
+    - 2.0000%
+    - '1'
+  - - Whelk Mage
+    - Whelk Wand Card
+    - 0.0139%
+    - '1'
+  - - Whelk Swordsman
+    - Fire Scale Cuffs
+    - 0.0460%
+    - '1'
+  - - Whelk Swordsman
+    - Wind Wings
+    - 0.0460%
+    - '1'
+  - - Whelk Swordsman
+    - Embrace Cuffs
+    - 0.0001%
+    - '1'
+  - - Whelk Swordsman
+    - Clean Sapphire
+    - 0.0015%
+    - '1'
+  - - Whelk Swordsman
+    - Whelk Shell
+    - 2.0000%
+    - '1'
+  - - Whelk Swordsman
+    - Whelk Sword Card
+    - 0.0139%
+    - '1'
+  - - Wood Octopus
+    - Fire Guard Helmet
+    - 0.0391%
+    - '1'
+  - - Wood Octopus
+    - Fire Guard Boots
+    - 0.0391%
+    - '1'
+  - - Wood Octopus
+    - Knight Helmet
+    - 0.0004%
+    - '1'
+  - - Wood Octopus
+    - Knight Boots
+    - 0.0004%
+    - '1'
+  - - Wood Octopus
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Wood Octopus
+    - Octopus Mallet Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Colorful Coral Reefs'
+- section: Colorful Coral Reefs
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Golden Beach , Blue Sea
+- section: Description
+  text_raw: With shinning ripples, it is really a colorful underwater world. Because of the warm ocean current, a great deal of fish gather here. Abundant fish materials have attracted
+    many collectors. It is an outstanding training place for beginning divers.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

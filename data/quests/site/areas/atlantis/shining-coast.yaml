@@ -1,0 +1,432 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: shining-coast
+  name_raw: Shining Coast
+source:
+  origin_url: https://angels.wikidot.com/area:shining-coast
+  retrieval_url: https://www.aowiki.uk/pages/area_shining-coast.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 80b11fc4a7261afc77cfad0d56999140074cae2588f88049517f374365179892
+quest_links:
+- slug: boaster
+  name_raw: Boaster
+  retrieval_url: https://www.aowiki.uk/pages/quest_boaster.html
+  origin_url: https://angels.wikidot.com/quest:boaster
+- slug: find-out-pollution-source
+  name_raw: Find out Pollution Source
+  retrieval_url: https://www.aowiki.uk/pages/quest_find-out-pollution-source.html
+  origin_url: https://angels.wikidot.com/quest:find-out-pollution-source
+- slug: girl-s-wish
+  name_raw: Girl's Wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+  origin_url: https://angels.wikidot.com/quest:girl-s-wish
+- slug: meeting-robbers
+  name_raw: Meeting Robbers
+  retrieval_url: https://www.aowiki.uk/pages/quest_meeting-robbers.html
+  origin_url: https://angels.wikidot.com/quest:meeting-robbers
+- slug: pupu-turtle-and-pup-crab
+  name_raw: Pupu Turtle and Pup Crab
+  retrieval_url: https://www.aowiki.uk/pages/quest_pupu-turtle-and-pup-crab.html
+  origin_url: https://angels.wikidot.com/quest:pupu-turtle-and-pup-crab
+- slug: the-misbehaved-son
+  name_raw: The Misbehaved Son
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+  origin_url: https://angels.wikidot.com/quest:the-misbehaved-son
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Young Farmer
+    - (222,241)
+    - 'Gives quest: Pupu Turtle and Pup Crab'
+  - - Mouther
+    - (108,164)
+    - 'Gives quest: Boaster'
+  - - Lad Stany
+    - (39,213)
+    - 'Gives quest: Meeting Robbers'
+  - - Dock Oldman
+    - (17,214)
+    - 'Gives quest: Find out Pollution Source'
+  - - Sheel Girl
+    - (167,14)
+    - 'Gives quest: Girl''s Wish'
+  - - Voyage Officer
+    - (132,33)
+    - ''
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Boaster
+    - 'Yes'
+    - Character Lvl 55-60
+    - Exp+1550, Credit+60
+    - Defeat 30 Color Crabs , and 30 Crab Generals
+  - - Pupu Turtle and Pup Crab
+    - 'Yes'
+    - Character Lvl 60-65
+    - Exp+1650, Credit+60
+    - Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
+  - - Girl's Wish
+    - 'Yes'
+    - Character Lvl 50+
+    - Card
+    - Talk to Shoreman at Golden Beach …
+  - - Find out Pollution Source
+    - 'No'
+    - Character Lvl 55+
+    - '?'
+    - Defeat 20 Color Crabs , and 20 Color Whelks | Get Coast Protector's Heart
+  - - Meeting Robbers 3 of ?
+    - 'No'
+    - Character Lvl 60+; Finished Quest The Misbehaved Son
+    - '?'
+    - Defeat Puqi Pirates , and Puqi Pirate Leaders and collect Love Necklaces
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Color Crab
+    - '54'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Color Whelk
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Puqi Isle Crab
+    - '59'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Puqi Turtle
+    - '61'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Puqi Pirate
+    - '62'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Puqi Pirate Leader
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Crab General
+    - '66'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Coast Protector
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Bauxite
+    - (?,?)
+    - Dig level 51
+    - ''
+  - - Devil Den
+    - (?,?)
+    - Collect level 51
+    - ''
+  - - Angel Bush
+    - (?,?)
+    - Collect level 51
+    - ''
+  - - Violet
+    - (?,?)
+    - Lumber level 51
+    - ''
+  - - Fire Alga
+    - (?,?)
+    - Fishing level 51
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Coast Protector
+    - Fire Scale Armor
+    - 3.9150%
+    - '1'
+  - - Coast Protector
+    - Mage Gown
+    - 3.9150%
+    - '1'
+  - - Coast Protector
+    - Embrace Armor
+    - 0.0391%
+    - '1'
+  - - Coast Protector
+    - Spring Gown
+    - 0.0391%
+    - '1'
+  - - Coast Protector
+    - Clean Purple Gem
+    - 0.0132%
+    - '1'
+  - - Coast Protector
+    - Pestle
+    - 0.3600%
+    - '1'
+  - - Coast Protector
+    - Great Mars' Fruit
+    - 44.6916%
+    - '1'
+  - - Coast Protector
+    - Great Agility Potion
+    - 44.6916%
+    - '1'
+  - - Coast Protector
+    - Seacoast Guard Card
+    - 0.9259%
+    - '1'
+  - - Color Crab
+    - Tight Leather Gloves
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Magic Boots
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Scale Shell
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Slarm's Boots
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Emerald
+    - 0.0014%
+    - '1'
+  - - Color Whelk
+    - Heavy Cap
+    - 0.0147%
+    - '1'
+  - - Color Whelk
+    - Iron Gloves
+    - 0.0147%
+    - '1'
+  - - Color Whelk
+    - Scale Cap
+    - 0.0002%
+    - '1'
+  - - Color Whelk
+    - Knight Gloves
+    - 0.0002%
+    - '1'
+  - - Color Whelk
+    - Orange Gem
+    - 0.0015%
+    - '1'
+  - - Color Whelk
+    - Whelk Shell
+    - 1.0000%
+    - '1'
+  - - Crab General
+    - Hermit Cuffs
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Hermit Boots
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Anchoret Cuffs
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Anchoret Boots
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Crab General
+    - Crab General Card
+    - 0.0139%
+    - '1'
+  - - Evil Puqi Turtle
+    - Energy Cuffs
+    - 0.0555%
+    - '1'
+  - - Evil Puqi Turtle
+    - Sound Gloves
+    - 0.0006%
+    - '1'
+  - - Evil Puqi Turtle
+    - Clean Sapphire
+    - 0.0001%
+    - '1'
+  - - Puqi Isle Crab
+    - Thick-soled Boots
+    - 0.0173%
+    - '1'
+  - - Puqi Isle Crab
+    - Magic Gloves
+    - 0.0173%
+    - '1'
+  - - Puqi Isle Crab
+    - Scale Boots
+    - 0.0003%
+    - '1'
+  - - Puqi Isle Crab
+    - Slarm's Gloves
+    - 0.0003%
+    - '1'
+  - - Puqi Isle Crab
+    - Purple Gem
+    - 0.0017%
+    - '1'
+  - - Puqi Pirate
+    - Benison Ring
+    - 0.0289%
+    - '1'
+  - - Puqi Pirate
+    - Fire Guard Cuffs
+    - 0.0289%
+    - '1'
+  - - Puqi Pirate
+    - Knight Cuffs
+    - 0.0003%
+    - '1'
+  - - Puqi Pirate
+    - Angel's Blessing
+    - 0.0003%
+    - '1'
+  - - Puqi Pirate
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Puqi Pirate
+    - Puqi Pirate Card
+    - 0.0139%
+    - '1'
+  - - Puqi Pirate
+    - Hermit Helmet
+    - 0.0300%
+    - '1'
+  - - Puqi Pirate
+    - Holy Manteau
+    - 0.0300%
+    - '1'
+  - - Puqi Pirate
+    - Anchoret Helmet
+    - 0.0003%
+    - '1'
+  - - Puqi Pirate
+    - Hope Mantle
+    - 0.0003%
+    - '1'
+  - - Puqi Pirate
+    - Clean Orange Gem
+    - 0.0001%
+    - '1'
+  - - Puqi Pirate
+    - Puqi Pirate Leader Card
+    - 0.0139%
+    - '1'
+  - - Puqi Pirate Leader
+    - Hermit Helmet
+    - 37,23%
+    - '1'
+  - - Puqi Pirate Leader
+    - Holy Manteau
+    - 37,23%
+    - '1'
+  - - Puqi Pirate Leader
+    - Puqi Pirate Leader Card
+    - 17,23%
+    - '1'
+  - - Puqi Pirate Leader
+    - Good Hermit Helmet
+    - 3,72%
+    - '1'
+  - - Puqi Pirate Leader
+    - Good Holy Manteau
+    - 3,72%
+    - '1'
+  - - Puqi Pirate Leader
+    - Anchoret Helmet
+    - 0,37%
+    - '1'
+  - - Puqi Pirate Leader
+    - Hope Mantle
+    - 0,37%
+    - '1'
+  - - Puqi Pirate Leader
+    - Clean Orange Gem
+    - 0,12%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Shining Coast'
+- section: Shining Coast
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Palm Base , Dream Ocean
+- section: Description
+  text_raw: Description here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

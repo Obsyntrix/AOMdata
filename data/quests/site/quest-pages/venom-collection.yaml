@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: venom-collection
+name_raw: Venom Collection
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- mushroom-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:venom-collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_venom-collection.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 407bc6f2e7e28a3486737d8100e8e7fb01bdbf7c8defe1d7034ae916d88c974a
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Newbie Wizard
+    - Beast Faction; Character level 10 to 25
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Newbie Wizard asks to defeat Purple Mushrooms and collect 10 Purple Mushroom Venom for use in her potion making.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 450 Experience, 20 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Venom Collection'
+- section: Venom Collection
+  text_raw: Home » Areas » Mushroom Forest » Venom Collection
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Newbie Wizard. Step 2 Kill Purple Mushrooms untill you have enough venom. Step 3 Give the Purple Mushroom Venom to the Newbie Wizard.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

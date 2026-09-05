@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: medium-of-chemical-formula
+name_raw: Medium Of Chemical Formula
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- scrap-iron-village
+source:
+  origin_url: https://angels.wikidot.com/quest:medium-of-chemical-formula
+  retrieval_url: https://www.aowiki.uk/pages/quest_medium-of-chemical-formula.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 13eda6e5eeb2180e3f78c9c7155a7e6c14414791cbcc6a6c936fdf4f94a3dfcf
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Edison
+    - Steel Faction; Character Lvl 15+ Completed quest Power Source for Experiment
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Power Source for Experiment
+    - Lizardman's Constant Attack
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Edison needs Lizardman's Scales (squama) to complete his formula, defeat 20 Spear Lizardmen in Cactus Plain to obtain them.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1000 Experience, 20 Credit
+- table_index: 5
+  rows_raw:
+  - - Step 1 Talk to Edison. Step 2 Go to Cactus Plain and defeat 20 Spear Lizardmen . Step 3 Return to Scrap Iron Village and report to Edison.
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Medium Of Chemical Formula'
+- section: Medium Of Chemical Formula
+  text_raw: Home » Areas » Scrap Iron Village » Medium of Chemical Formula
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

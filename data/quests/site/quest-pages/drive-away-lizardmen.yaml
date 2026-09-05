@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: drive-away-lizardmen
+name_raw: Drive Away Lizardmen
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- foggy-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:drive-away-lizardmen
+  retrieval_url: https://www.aowiki.uk/pages/quest_drive-away-lizardmen.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: f317122db99822a142705eba0edf0563b830b2b7b032934230388d92000e895d
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Night Merchant
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 30 to 45
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '810'
+    - '38'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Drive Away Lizardmen'
+- section: Drive Away Lizardmen
+  text_raw: Home » Areas » Foggy Forest » Drive Away Lizardmen
+- section: Summary
+  text_raw: The Night Merchant is having trouble collecting things because of the Fog Lizards . He asks for your help in clearing a path.
+- section: Walkthrough
+  text_raw: Step 1 Speak to the Night Merchant (). Step 2 Defeat 40 Fog Lizards . Step 3 Report back to the Night Merchant. _
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

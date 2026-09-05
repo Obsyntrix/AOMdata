@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: barft-s-curse
+name_raw: Barft S Curse
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- dragon-graveyard
+source:
+  origin_url: https://angels.wikidot.com/quest:barft-s-curse
+  retrieval_url: https://www.aowiki.uk/pages/quest_barft-s-curse.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: eb5a5ef13a7a020688bc59d0e54e8d1b126295465747b5c5075c8e4a156230e4
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Warrior Gegen
+    - Character lvl 35 to 50
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Warrior Gegen asks you to get 5 Horns of Barft while defeating Hook Barfts for an antidote to their evil spells.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1150 Experience, 45 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Barft S Curse'
+- section: Barft S Curse
+  text_raw: Home » Areas » Dragon Graveyard » Barft's Curse
+- section: Walkthrough
+  text_raw: Step 1 Talk to Warrior Gegen . Step 2 Defeat Hook Barfts until you collect 5 Horns of Barft. Step 3 Give them to Warrior Gegen .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

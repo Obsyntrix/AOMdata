@@ -1,0 +1,1205 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: gulp-room
+  name_raw: Gulp Room
+source:
+  origin_url: https://angels.wikidot.com/area:gulp-room
+  retrieval_url: https://www.aowiki.uk/pages/area_gulp-room.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 004277d20d9ccd58efda4c5aa7c8f4dfe4efa81091a91a41b762c4ca27a31399
+quest_links:
+- slug: last-survivor
+  name_raw: Last Survivor
+  retrieval_url: https://www.aowiki.uk/pages/quest_last-survivor.html
+  origin_url: https://angels.wikidot.com/quest:last-survivor
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Hank
+    - (30,140)
+    - Quest Giver
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Requirements
+    - Reward
+  - - Last Survivor
+    - lvl ?
+    - '?'
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Fire Mummy
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Fire Mummy
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Dark Protector
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Dark Protector
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Earl Makice
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Earl Makice
+    - '77'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Poo Poo Demon 3
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Poo Poo Demon
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Gold Fly 2
+    - '72'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Gold Fly
+    - '72'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Beetle
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Evil Beetle
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Overlord Legte (Boss)
+    - '80'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Powder Pail
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Lion Dragon (Boss)
+    - '78'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Flamen Tomomy (Boss)
+    - '82'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Hell Slave 3
+    - '72'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Bloody Demon
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Trapped Shar (Boss)
+    - '83'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Soul-eating Worm 2
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Soul-eating Worm
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Miner 2
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Terra Miner
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Slarm 2
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Rock Slarm
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Demon
+    - '80'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Elite Rock Demon
+    - '80'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Crystal 1
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Big Crystal 1
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Crystal 2
+    - '75'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Big Crystal 7
+    - '85'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Eye (Boss)
+    - '85'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Evil Fly 2
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Hungry Fly 2
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fetor Slarm
+    - '79'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Brute Demon
+    - '79'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Heat Elf 2
+    - '80'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Demon Kidace (Boss)
+    - '86'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Hell Wolf
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Demon
+    - '80'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Glutton (Boss)
+    - '88'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Demon Bazac (Boss)
+    - '90'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Bloody Demon
+    - Cyclone Spear
+    - 0.0001%
+    - '1'
+  - - Bloody Demon
+    - Hunter Cuffs
+    - 0.0001%
+    - '1'
+  - - Bloody Demon
+    - Map Piece
+    - 0.0049%
+    - '1'
+  - - Brute Demon
+    - Mue Duck Robot
+    - 0.0000%
+    - '1'
+  - - Brute Demon
+    - Winter Sword
+    - 0.0001%
+    - '1'
+  - - Brute Demon
+    - Mage Boots
+    - 0.0001%
+    - '1'
+  - - Brute Demon
+    - Map Piece
+    - 0.0061%
+    - '1'
+  - - Dark Protector
+    - Thunder Spear
+    - 0.0313%
+    - '1'
+  - - Dark Protector
+    - Thunder King
+    - 0.0003%
+    - '1'
+  - - Dark Protector
+    - Dida Cayman Robot
+    - 0.0001%
+    - '1'
+  - - Dark Protector
+    - Energy Gown
+    - 0.0009%
+    - '1'
+  - - Dark Protector
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Dark Protector
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Demon Kidace
+    - Fire Scale Armor
+    - 1.9400%
+    - '1'
+  - - Demon Kidace
+    - Embrace Armor
+    - 0.0081%
+    - '1'
+  - - Demon Kidace
+    - Noble Elephant
+    - 0.0040%
+    - '1'
+  - - Demon Kidace
+    - Mage Hood
+    - 0.0484%
+    - '1'
+  - - Demon Kidace
+    - Clean Sapphire
+    - 0.0242%
+    - '1'
+  - - Demon Kidace
+    - Pestle
+    - 0.6916%
+    - '1'
+  - - Demon Kidace
+    - Hat Shards
+    - 2.5000%
+    - '1'
+  - - Demon Kidace
+    - Energy Crystal
+    - 57.7500%
+    - '15'
+  - - Demon Kidace
+    - Rabbi's Gloves
+    - 9.2097%
+    - '1'
+  - - Demon Kidace
+    - Code Cap
+    - 9.2097%
+    - '1'
+  - - Demon Kidace
+    - Knight Helmet
+    - 9.2097%
+    - '1'
+  - - Demon Kidace
+    - Demon Kidace Card
+    - 9.2593%
+    - '1'
+  - - Earl Makice
+    - Mage Gown
+    - 1.3600%
+    - '1'
+  - - Earl Makice
+    - Spring Gown
+    - 0.0057%
+    - '1'
+  - - Earl Makice
+    - Summon Lich V
+    - 0.0057%
+    - '1'
+  - - Earl Makice
+    - Cutter's Axe
+    - 0.0170%
+    - '1'
+  - - Earl Makice
+    - Wind Wings
+    - 0.0170%
+    - '1'
+  - - Earl Makice
+    - Pestle
+    - 0.4789%
+    - '1'
+  - - Earl Makice
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Earl Makice
+    - Gear Shards
+    - 1.5000%
+    - '1'
+  - - Earl Makice
+    - Energy Crystal
+    - 53.1610%
+    - '4'
+  - - Earl Makice
+    - Light Cuff
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Faquir Mirror
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Thick-soled Boots
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Earl Makice Card
+    - 0.6944%
+    - '1'
+  - - Earl Makice
+    - Kaz Cayman Robot
+    - 0.0000%
+    - '1'
+  - - Earl Makice
+    - Hunter Helmet
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Noble Elephant
+    - 0.0000%
+    - '1'
+  - - Earl Makice
+    - Wit Staff
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Fire Scale Armor
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Fire Scale Helmet
+    - 0.0114%
+    - '1'
+  - - Earl Makice
+    - Embrace Helmet
+    - 0.0000%
+    - '1'
+  - - Elite Dark Protector
+    - Fire Guard Helmet
+    - 50,70%
+    - '1'
+  - - Elite Dark Protector
+    - Lvl 6 Robber Lord Map Piece
+    - 42,25%
+    - '1'
+  - - Elite Dark Protector
+    - Good Fire Guard Helmet
+    - 4,22%
+    - '1'
+  - - Elite Dark Protector
+    - D.Plan2:Energy Hood
+    - 1,41%
+    - '1'
+  - - Elite Dark Protector
+    - Green Circus Elephant
+    - 0,84%
+    - '1'
+  - - Elite Dark Protector
+    - Knight Helmet
+    - 0,42%
+    - '1'
+  - - Elite Dark Protector
+    - Clean Orange Gem
+    - 0,16%
+    - '1'
+  - - Elite Fire Mummy
+    - Reborn Sword
+    - 0.0157%
+    - '1'
+  - - Elite Fire Mummy
+    - Holy Manteau
+    - 0.0157%
+    - '1'
+  - - Elite Fire Mummy
+    - Secret Sword
+    - 0.0001%
+    - '1'
+  - - Elite Fire Mummy
+    - Hope Mantle
+    - 0.0001%
+    - '1'
+  - - Elite Fire Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Elite Gold Fly
+    - Fire Scale Armor
+    - 0.0114%
+    - '1'
+  - - Elite Gold Fly
+    - Embrace Armor
+    - 0.0000%
+    - '1'
+  - - Elite Gold Fly
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Elite Gold Fly
+    - Map Piece
+    - 0.0047%
+    - '1'
+  - - Elite Poo Poo Demon
+    - Fool Staff
+    - 51,13%
+    - '1'
+  - - Elite Poo Poo Demon
+    - Lvl 6 Robber Lord Map Piece
+    - 42,61%
+    - '1'
+  - - Elite Poo Poo Demon
+    - Good Fool Staff
+    - 4,26%
+    - '1'
+  - - Elite Poo Poo Demon
+    - 'W.Plan2: Reborn Sword'
+    - 0,70%
+    - '1'
+  - - Elite Poo Poo Demon
+    - A.Plan2:Fire Guard Helmet
+    - 0,70%
+    - '1'
+  - - Elite Poo Poo Demon
+    - Mage Staff
+    - 0,42%
+    - '1'
+  - - Elite Poo Poo Demon
+    - Clean Ruby
+    - 0.16%
+    - '1'
+  - - Elite Rock Demon
+    - Awakening Sword
+    - 0.0152%
+    - '1'
+  - - Elite Rock Demon
+    - Adam's Power
+    - 0.0001%
+    - '1'
+  - - Elite Rock Demon
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Elite Rock Slarm
+    - Winter Sword
+    - 0.0127%
+    - '1'
+  - - Elite Rock Slarm
+    - Jiabli's Nail
+    - 0.0001%
+    - '1'
+  - - Elite Rock Slarm
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Evil Beetle
+    - Mage Hood
+    - 0.0118%
+    - '1'
+  - - Evil Beetle
+    - Spring Hood
+    - 0.0000%
+    - '1'
+  - - Evil Beetle
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Evil Beetle
+    - Map Piece
+    - 0.0049%
+    - '1'
+  - - Evil Beetle
+    - Noble Elephant
+    - 0.0000%
+    - '1'
+  - - Evil Beetle
+    - Fire Scale Helmet
+    - 0.0001%
+    - '1'
+  - - Evil Beetle
+    - Fire Scale Boots
+    - 0.0001%
+    - '1'
+  - - Evil Eye
+    - Mage Hood
+    - 1.8600%
+    - '1'
+  - - Evil Eye
+    - Spring Hood
+    - 0.0077%
+    - '1'
+  - - Evil Eye
+    - Cyclone Spear
+    - 0.0232%
+    - '1'
+  - - Evil Eye
+    - Fire Scale Armor
+    - 0.0232%
+    - '1'
+  - - Evil Eye
+    - Clean Purple Gem
+    - 0.0232%
+    - '1'
+  - - Evil Eye
+    - Pestle
+    - 0.6639%
+    - '1'
+  - - Evil Eye
+    - Gear Shards
+    - 2.0000%
+    - '1'
+  - - Evil Eye
+    - Energy Crystal
+    - 58.9072%
+    - '8'
+  - - Evil Eye
+    - Rabbi's Boots
+    - 10.8017%
+    - '1'
+  - - Evil Eye
+    - Code Boots
+    - 10.8017%
+    - '1'
+  - - Evil Eye
+    - Heavy Cap
+    - 10.8017%
+    - '1'
+  - - Evil Eye
+    - Evil Eye Card
+    - 3.9468%
+    - '1'
+  - - Evil Eye
+    - Lvl 90 Weapon Box
+    - 0.5000%
+    - '1'
+  - - Evil Eye
+    - Lvl 80 Weapon Box
+    - 2.3300%
+    - '1'
+  - - Evil Eye
+    - Awakening Sword
+    - 1.6760%
+    - '1'
+  - - Evil Eye
+    - Cutter's Axe
+    - 1.6760%
+    - '1'
+  - - Evil Eye
+    - Winter Sword
+    - 1.6760%
+    - '1'
+  - - Evil Eye
+    - Wit Staff
+    - 1.6760%
+    - '1'
+  - - Evil Eye
+    - Flawless Purple Gem
+    - 1.2120%
+    - '1'
+  - - Evil Eye
+    - Flawless Orange Gem
+    - 1.2120%
+    - '1'
+  - - Evil Eye
+    - Eight-star Lucky Enhanced Pestle
+    - 1.6245%
+    - '1'
+  - - Evil Eye
+    - Eight-star Lucky Piercing Hammer
+    - 1.6245%
+    - '1'
+  - - Evil Eye
+    - Lvl 8 Lucky Ride Feed
+    - 1.6245%
+    - '1'
+  - - Evil Eye
+    - Escape Potion
+    - 20.0000%
+    - '10'
+  - - Evil Eye
+    - Spacious Iron Room
+    - 15.0000%
+    - '5'
+  - - Evil Eye
+    - Spacious Bank
+    - 15.0000%
+    - '5'
+  - - Evil Eye
+    - Heart Stab V
+    - 0.0138%
+    - '1'
+  - - Evil Eye
+    - Shaer's Will
+    - 0.0044%
+    - '1'
+  - - Evil Eye
+    - Fane Armor
+    - 0.0047%
+    - '1'
+  - - Evil Eye
+    - Lucky Jack Hood
+    - 0.0047%
+    - '1'
+  - - Evil Eye
+    - Crystal Spear
+    - 0.0519%
+    - '1'
+  - - Evil Eye
+    - Chief Armor
+    - 0.0519%
+    - '1'
+  - - Evil Eye
+    - Coral Ring
+    - 0.0519%
+    - '1'
+  - - Evil Eye
+    - Luna Wand
+    - 0.0519%
+    - '1'
+  - - Evil Eye
+    - Seabed Steed
+    - 0.0276%
+    - '1'
+  - - Evil Eye
+    - Clean Orange Gem
+    - 0.0644%
+    - '1'
+  - - Evil Eye
+    - Luck Hood
+    - 0.2077%
+    - '1'
+  - - Evil Eye
+    - Great Healing Potion
+    - 42.3328%
+    - '1'
+  - - Evil Eye
+    - Great Mighty Fruit
+    - 42.3329%
+    - '1'
+  - - Fetor Slarm
+    - Energy Cuffs
+    - 0.0259%
+    - '1'
+  - - Fetor Slarm
+    - Sound Gloves
+    - 0.0002%
+    - '1'
+  - - Fetor Slarm
+    - Stiff Beetle
+    - 0.0001%
+    - '1'
+  - - Fetor Slarm
+    - Hermit Armor
+    - 0.0007%
+    - '1'
+  - - Fetor Slarm
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Fetor Slarm
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Fetor Slarm
+    - Hunter Armor
+    - 0.0146%
+    - '1'
+  - - Fetor Slarm
+    - Forest Armor
+    - 0.0001%
+    - '1'
+  - - Fire Mummy
+    - Energy Hood
+    - 0.0313%
+    - '1'
+  - - Fire Mummy
+    - Sound Hood
+    - 0.0003%
+    - '1'
+  - - Fire Mummy
+    - Shake Axe
+    - 0.0004%
+    - '1'
+  - - Fire Mummy
+    - Fire Guard Cuffs
+    - 0.0004%
+    - '1'
+  - - Fire Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Fire Mummy
+    - Fire Mummy Card
+    - 0.0069%
+    - '1'
+  - - Flamen Tomomy
+    - Winter Sword
+    - 1.6500%
+    - '1'
+  - - Flamen Tomomy
+    - Jiabli's Nail
+    - 0.0069%
+    - '1'
+  - - Flamen Tomomy
+    - Sage Blessing V
+    - 0.0034%
+    - '1'
+  - - Flamen Tomomy
+    - 'Assassin Skill: Stunning Dagger V'
+    - 0.0034%
+    - '1'
+  - - Flamen Tomomy
+    - Kaz Cayman Robot
+    - 0.0034%
+    - '1'
+  - - Flamen Tomomy
+    - Hunter Armor
+    - 0.0411%
+    - '1'
+  - - Flamen Tomomy
+    - Pestle
+    - 0.5874%
+    - '1'
+  - - Flamen Tomomy
+    - Gloves Shards
+    - 2.0000%
+    - '1'
+  - - Flamen Tomomy
+    - Energy Crystal
+    - 50.5220%
+    - '6'
+  - - Flamen Tomomy
+    - Light Boots
+    - 14.6799%
+    - '1'
+  - - Flamen Tomomy
+    - Faquir Armor
+    - 14.6799%
+    - '1'
+  - - Flamen Tomomy
+    - Iron Gloves
+    - 14.6799%
+    - '1'
+  - - Flamen Tomomy
+    - Flamen Tomomy Card
+    - 1.0192%
+    - '1'
+  - - Glutton
+    - Energy Crystal x 30
+    - 46,99%
+    - '1'
+  - - Glutton
+    - Advanced Magic Gown
+    - 15,66%
+    - '1'
+  - - Glutton
+    - Code Gown
+    - 15,66%
+    - '1'
+  - - Glutton
+    - Royal Alchemic Cap
+    - 15,66%
+    - '1'
+  - - Glutton
+    - Torn Armor Shards
+    - 3%
+    - '1'
+  - - Glutton
+    - Pestle
+    - 0.75%
+    - '1'
+  - - Glutton
+    - Fire Scale Helmet
+    - 1,05%
+    - '1'
+  - - Glutton
+    - Awakening Sword
+    - 1,05%
+    - '1'
+  - - Glutton
+    - Good Fire Scale Helmet
+    - 0,08%
+    - '1'
+  - - Glutton
+    - Good Awakening Sword
+    - 0,08%
+    - '1'
+  - - Glutton
+    - Embrace Helmet
+    - '?'
+    - '1'
+  - - Glutton
+    - Adam's Power
+    - '?'
+    - '1'
+  - - Hell Slave
+    - Heavy Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knight Helmet
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Alchemic Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Bard
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Breastplate
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Magic Gown
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knights Helmet
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Weighted Breastplate
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Map Piece
+    - 0.0449%
+    - '1'
+  - - Hell Slave
+    - Rotten Shield
+    - 0.0114%
+    - '1'
+  - - Hell Slave
+    - Holy Shield
+    - 0.0000%
+    - '1'
+  - - Hell Slave
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Crusader's Sword
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - War Axe
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Crusader's Shield
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Rose Sword
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Fish Axe
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Vein Shield
+    - 0.0001%
+    - '1'
+  - - Hell Wolf
+    - Cutter's Axe
+    - 0.0136%
+    - '1'
+  - - Hell Wolf
+    - Elar's Leaf
+    - 0.0001%
+    - '1'
+  - - Hell Wolf
+    - Map Piece
+    - 0.0057%
+    - '1'
+  - - Lion Dragon
+    - Hunter Armor
+    - 1.4100%
+    - '1'
+  - - Lion Dragon
+    - Forest Armor
+    - 0.0059%
+    - '1'
+  - - Lion Dragon
+    - Dawn Shield 5
+    - 0.0059%
+    - '1'
+  - - Lion Dragon
+    - Scarab
+    - 0.0029%
+    - '1'
+  - - Lion Dragon
+    - Fire Scale Boots
+    - 0.0353%
+    - '1'
+  - - Lion Dragon
+    - Pestle
+    - 0.4989%
+    - '1'
+  - - Lion Dragon
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Lion Dragon
+    - Shoes Shards
+    - 2.0000%
+    - '1'
+  - - Lion Dragon
+    - Energy Crystal
+    - 52.3015%
+    - '6'
+  - - Lion Dragon
+    - Chain Armor
+    - 12.8633%
+    - '1'
+  - - Lion Dragon
+    - Black Knights Helmet
+    - 12.8633%
+    - '1'
+  - - Lion Dragon
+    - Magic Boots
+    - 12.8633%
+    - '1'
+  - - Lion Dragon
+    - Lion Dragon Card
+    - 4.9537%
+    - '1'
+  - - Overlord Legte
+    - Cutter's Axe
+    - 1.5200%
+    - '1'
+  - - Overlord Legte
+    - Elar's Leaf
+    - 0.0063%
+    - '1'
+  - - Overlord Legte
+    - Recovery Shield V
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - Tendril Entangle V
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - 'Illusion Skill: Amazing Avatar V'
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - Winter Sword
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Mage Gown
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Clean Emerald
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Overlord Legte
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Overlord Legte
+    - Shoes Shards
+    - 2.0000%
+    - '1'
+  - - Overlord Legte
+    - Energy Crystal
+    - 61.5347%
+    - '6'
+  - - Overlord Legte
+    - Short Tight Gloves
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Black Knights Armor
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Tight Leather Gloves
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Overlord Legte Card
+    - 0.5346%
+    - '1'
+  - - Rock Demon
+    - Scarab
+    - 0.0000%
+    - '1'
+  - - Rock Demon
+    - Awakening Sword
+    - 0.0001%
+    - '1'
+  - - Rock Demon
+    - Mage Cuffs
+    - 0.0001%
+    - '1'
+  - - Rock Demon
+    - Clean Sapphire
+    - 0.0002%
+    - '1'
+  - - Rock Demon
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Trapped Shar
+    - Hunter Helmet
+    - 1.7100%
+    - '1'
+  - - Trapped Shar
+    - Forest Helmet
+    - 0.0071%
+    - '1'
+  - - Trapped Shar
+    - Fighting Shield V
+    - 0.0036%
+    - '1'
+  - - Trapped Shar
+    - 'Assassin Skill: Dark Dagger V'
+    - 0.0036%
+    - '1'
+  - - Trapped Shar
+    - Awakening Sword
+    - 0.0214%
+    - '1'
+  - - Trapped Shar
+    - Fire Scale Helmet
+    - 0.0214%
+    - '1'
+  - - Trapped Shar
+    - Pestle
+    - 0.6119%
+    - '1'
+  - - Trapped Shar
+    - Gloves Shards
+    - 2.0000%
+    - '1'
+  - - Trapped Shar
+    - Energy Crystal
+    - 71.8498%
+    - '8'
+  - - Trapped Shar
+    - Light Breastplate
+    - 7.1848%
+    - '1'
+  - - Trapped Shar
+    - Code Gloves
+    - 7.1848%
+    - '1'
+  - - Trapped Shar
+    - Magic Gloves
+    - 7.1848%
+    - '1'
+  - - Trapped Shar
+    - Trapped Shar Card
+    - 2.0883%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Gulp Room'
+- section: 'Adjacent Areas:'
+  text_raw: Underground Square
+- section: Description
+  text_raw: Description here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

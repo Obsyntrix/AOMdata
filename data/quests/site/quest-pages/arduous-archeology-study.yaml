@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: arduous-archeology-study
+name_raw: Arduous Archeology Study
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- megalith-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:arduous-archeology-study
+  retrieval_url: https://www.aowiki.uk/pages/quest_arduous-archeology-study.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 52c56447eebc60c62acc8f4d5a9672573109906789592a41d0e86d0a62a5dbb8
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Archeologist
+    - Character lvl 27 to 40
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The wolves are making work difficult, please drive away 40 Green Wolves .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 700 Experience, 37 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Arduous Archeology Study'
+- section: Arduous Archeology Study
+  text_raw: Home » Areas » Megalith Plain » Arduous Archeology Study
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Archeologist . Step 2 Defeat 40 Green Wolves . Step 3 Report back to the Archeologist .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: aurora-showing-speed-and-destroying-force
+name_raw: Showing Speed And Destroying Force
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- dawn-harbor
+source:
+  origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 988bf4bca804e5943763a273173efcd0d969d1c91560f988dcf15ffa0dcd9e3d
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Spy Angel
+    - 'No'
+    - Yes (Asmode:3 of 8)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Looking for Spy Angel
+    - Disguise
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - '20'
+    - '2'
+    - '-'
+    - Finished Looking for Spy Angel
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1500'
+    - '60'
+    - '-'
+  - - Items
+  - - 10 Commmon Red Potion 1
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Showing Speed And Destroying Force'
+- section: Showing Speed And Destroying Force
+  text_raw: Home » Areas » Dawn Harbor » Showing Speed and Destroying Force
+- section: Summary
+  text_raw: The Spy Angel asks you to prove your ability by defeating 50 Grey Mice .
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Defeat 50 Grey Mice Step 3 Report back to the Spy Angel
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

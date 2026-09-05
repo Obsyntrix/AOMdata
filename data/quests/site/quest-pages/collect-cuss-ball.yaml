@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: collect-cuss-ball
+name_raw: Collect Cuss Ball
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- foggy-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:collect-cuss-ball
+  retrieval_url: https://www.aowiki.uk/pages/quest_collect-cuss-ball.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 233bee57cde9c2d6beff2ec46a81ebbf24dccd443da8e0b774c48b2062f39fc9
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Night Merchant
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 30 to 45
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '810'
+    - '38'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Collect Cuss Ball'
+- section: Collect Cuss Ball
+  text_raw: Home » Areas » Foggy Forest » Collect Cuss Ball
+- section: Summary
+  text_raw: The Fog Lizards have a potent weapon and the Night Merchant asks you to retrieve 10 of them so that he can study the magic.
+- section: Walkthrough
+  text_raw: Step 1 Speak to the Night Merchant (). Step 2 Defeat Fog Lizards until you obtain 10 Cuss Balls. Step 3 Give them to the Night Merchant. _
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

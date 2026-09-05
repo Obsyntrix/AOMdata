@@ -1,0 +1,713 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: sad-abyss
+  name_raw: Sad Abyss
+source:
+  origin_url: https://angels.wikidot.com/area:sad-abyss
+  retrieval_url: https://www.aowiki.uk/pages/area_sad-abyss.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 7d2214fa4133883c69b79a1f836e5ee5925fba0589a4fd4f453cac0b74a96315
+quest_links:
+- slug: deep-into-the-earth-s-core
+  name_raw: Deep Into The Earth‘s Core
+  retrieval_url: https://www.aowiki.uk/pages/quest_deep-into-the-earth-s-core.html
+  origin_url: https://angels.wikidot.com/quest:deep-into-the-earth-s-core
+- slug: devoted-spirit
+  name_raw: Devoted Spirit
+  retrieval_url: https://www.aowiki.uk/pages/quest_devoted-spirit.html
+  origin_url: https://angels.wikidot.com/quest:devoted-spirit
+- slug: fight-for-right-and-friendship
+  name_raw: Fight for Right and Friendship
+  retrieval_url: https://www.aowiki.uk/pages/quest_fight-for-right-and-friendship.html
+  origin_url: https://angels.wikidot.com/quest:fight-for-right-and-friendship
+- slug: firm-faith
+  name_raw: Firm Faith
+  retrieval_url: https://www.aowiki.uk/pages/quest_firm-faith.html
+  origin_url: https://angels.wikidot.com/quest:firm-faith
+- slug: ruthless-cook
+  name_raw: Ruthless Cook
+  retrieval_url: https://www.aowiki.uk/pages/quest_ruthless-cook.html
+  origin_url: https://angels.wikidot.com/quest:ruthless-cook
+- slug: sad-abyss-association-members-demand
+  name_raw: Association Member's Demand
+  retrieval_url: https://www.aowiki.uk/pages/quest_sad-abyss-association-members-demand.html
+  origin_url: https://angels.wikidot.com/quest:sad-abyss-association-members-demand
+- slug: sad-abyss-labors-misery
+  name_raw: Labor's Misery
+  retrieval_url: https://www.aowiki.uk/pages/quest_sad-abyss-labors-misery.html
+  origin_url: https://angels.wikidot.com/quest:sad-abyss-labors-misery
+- slug: stride-ahead
+  name_raw: Stride Ahead
+  retrieval_url: https://www.aowiki.uk/pages/quest_stride-ahead.html
+  origin_url: https://angels.wikidot.com/quest:stride-ahead
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Jaloyd
+    - (27,180)
+    - 'Gives quest series: Deep Into The Earth‘s Core and Stride Ahead'
+  - - Warrior Athor
+    - (162,93)
+    - Gives quest Firm Faith and Fight for Right and Friendship
+  - - Root Member
+    - (159,22)
+    - Gives quest Labor's Misery
+  - - Scholar Hopkins
+    - (162,28)
+    - Gives quest Devoted Spirit
+  - - Aimless Harless
+    - (258,50)
+    - Gives quest Ruthless Cook
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Deep Into The Earth‘s Core 1 of 2
+    - 'No'
+    - Character Lvl 50+
+    - Gold+3000, Exp+8000, Credit+100
+    - Defeat 40 Flies and report to Jaloyd, then defeat 40 Evil Grass .
+  - - Stride Ahead 2 of 2
+    - 'No'
+    - Character Lvl 50+; Completed quest Deep Into The Earth‘s Core
+    - Gold+2000, Exp+3500, Credit+40
+    - Go to Lava Cave and take supplies to Jamier (?,?).
+  - - Firm Faith Part 1 of ?
+    - 'No'
+    - Character Lvl 50
+    - Gold+4000, Exp+10000, Credit+100
+    - Defeat 50 Heat Elfs , 30 Evil Grass and 35 Hell Slaves .
+  - - Fight for Right and Friendship
+    - 'No'
+    - Character Lvl 50
+    - Gold+4000, Exp+10000, Credit+100
+    - Defeat Rock God Mendun
+  - - Association Member's Demand
+    - 'Yes'
+    - Character Lvl 60+
+    - Exp+1500, Credit+55
+    - Defeat 40 Imp Elves
+  - - Labor's Misery
+    - 'Yes'
+    - Character Lvl 60+
+    - Exp+1600, Credit+57
+    - Defeat Evil Knights and collect 10 Mine Tools
+  - - Ruthless Cook
+    - 'No'
+    - Character Lvl 60+
+    - Exp 14000, Credit 160
+    - Defeat 40 Hell Slave and 30 Rotten Seeker in Magic Kitchen Path.
+  - - Devoted Spirit
+    - 'No'
+    - Character Lvl 60+
+    - Gold+6000, Exp+11000, Credit+150
+    - Search for Magma Slag in Fiery Path and Lava Cave .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Heat Elf
+    - '45'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fly
+    - '48'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Grass
+    - '50'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Hell Slave
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Imp Elf
+    - '58'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Gold Fly
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Knight
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Tree
+    - '50'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Fetor Fly
+    - '60'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Slave Driver
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Steel
+    - (?,?)
+    - Dig level 41
+    - ''
+  - - Beastkin Den
+    - (?,?)
+    - Collect level 41
+    - ''
+  - - Leafy Bush
+    - (?,?)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (?,?)
+    - Lumber level 41
+    - ''
+  - - Bright Alga
+    - (?,?)
+    - Fishing level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Evil Grass
+    - Trident
+    - 0.0275%
+    - '1'
+  - - Evil Grass
+    - Spinning Slingshot
+    - 0.0275%
+    - '1'
+  - - Evil Grass
+    - Staff
+    - 0.0275%
+    - '1'
+  - - Evil Grass
+    - Magic Stick
+    - 0.0046%
+    - '1'
+  - - Evil Grass
+    - Dragon Blade
+    - 0.0046%
+    - '1'
+  - - Evil Grass
+    - Map Piece
+    - 0.1376%
+    - '1'
+  - - Evil Knight
+    - Hermit Cuffs
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Power Shield
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Anchoret Cuffs
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Flight Shield
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Evil Tree
+    - Energy Boots
+    - 8.2500%
+    - '1'
+  - - Evil Tree
+    - Sound Boots
+    - 0.1376%
+    - '1'
+  - - Evil Tree
+    - Strong Acid Rain V
+    - 0.0688%
+    - '1'
+  - - Evil Tree
+    - Lull Thorn V
+    - 0.0688%
+    - '1'
+  - - Evil Tree
+    - Thunder Spear
+    - 0.3669%
+    - '1'
+  - - Evil Tree
+    - Hermit Cuffs
+    - 0.3669%
+    - '1'
+  - - Evil Tree
+    - Pestle
+    - 0.1585%
+    - '1'
+  - - Evil Tree
+    - Map Piece
+    - 1.8300%
+    - '1'
+  - - Evil Tree
+    - Medium Mighty Fruit
+    - 34.2398%
+    - '1'
+  - - Evil Tree
+    - Medium Magic Potion
+    - 43.0443%
+    - '1'
+  - - Evil Tree
+    - Evil Tree Card
+    - 0.4629%
+    - '1'
+  - - Fetor Fly
+    - Hermit Boots
+    - 3.5900%
+    - '1'
+  - - Fetor Fly
+    - Anchoret Boots
+    - 0.0598%
+    - '1'
+  - - Fetor Fly
+    - Butterfly Trap V
+    - 0.0299%
+    - '1'
+  - - Fetor Fly
+    - Strong Beat V
+    - 0.0299%
+    - '1'
+  - - Fetor Fly
+    - Shake Axe
+    - 0.1794%
+    - '1'
+  - - Fetor Fly
+    - Fire Guard Boots
+    - 0.1794%
+    - '1'
+  - - Fetor Fly
+    - Clean Ruby
+    - 0.1800%
+    - '1'
+  - - Fetor Fly
+    - Pestle
+    - 0.2393%
+    - '1'
+  - - Fetor Fly
+    - Map Piece
+    - 0.9000%
+    - '1'
+  - - Fetor Fly
+    - Medium Mars' Fruit
+    - 46.7378%
+    - '1'
+  - - Fetor Fly
+    - Medium Agility Potion
+    - 42.4309%
+    - '1'
+  - - Fetor Fly
+    - 'Assassin Skill: Assassination V'
+    - 0.0598%
+    - '1'
+  - - Fly
+    - Magic Gown
+    - 0.0378%
+    - '1'
+  - - Fly
+    - Knights Shield
+    - 0.0378%
+    - '1'
+  - - Fly
+    - Magic Gown of Flame God
+    - 0.0006%
+    - '1'
+  - - Fly
+    - Angel Knights Shield
+    - 0.0006%
+    - '1'
+  - - Fly
+    - Map Piece
+    - 0.1260%
+    - '1'
+  - - Gold Fly
+    - Giant Bow
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Staff
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Silver-Edged Javelin
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Elf Wings
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Angel's Blessing
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Saw Spear
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Map Piece
+    - 0.0598%
+    - '1'
+  - - Gold Fly
+    - Gold Fly Card
+    - 0.0208%
+    - '1'
+  - - Gold Fly
+    - Mue Duck Robot
+    - 0.0000%
+    - '1'
+  - - Gold Fly
+    - Fire Scale Cuffs
+    - 0.0001%
+    - '1'
+  - - Gold Fly
+    - Hunter Boots
+    - 0.0001%
+    - '1'
+  - - Heat Elf
+    - Hard-leather Cap
+    - 0.0331%
+    - '1'
+  - - Heat Elf
+    - Round Iron Helmet
+    - 0.0331%
+    - '1'
+  - - Heat Elf
+    - Defensive Cap
+    - 0.0055%
+    - '1'
+  - - Heat Elf
+    - Full-face Helmet
+    - 0.0055%
+    - '1'
+  - - Heat Elf
+    - Eagle Hood
+    - 0.0006%
+    - '1'
+  - - Heat Elf
+    - Golden Full-face Helmet
+    - 0.0006%
+    - '1'
+  - - Heat Elf
+    - Map Piece
+    - 0.1102%
+    - '1'
+  - - Heat Elf
+    - Wit Staff
+    - 0.0152%
+    - '1'
+  - - Heat Elf
+    - Libelice's Torture
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Heavy Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knight Helmet
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Alchemic Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Bard
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Breastplate
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Magic Gown
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knights Helmet
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Weighted Breastplate
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Map Piece
+    - 0.0449%
+    - '1'
+  - - Hell Slave
+    - Rotten Shield
+    - 0.0114%
+    - '1'
+  - - Hell Slave
+    - Holy Shield
+    - 0.0000%
+    - '1'
+  - - Hell Slave
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Crusader's Sword
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - War Axe
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Crusader's Shield
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Rose Sword
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Fish Axe
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Vein Shield
+    - 0.0001%
+    - '1'
+  - - Imp Elf
+    - Light Cuff
+    - 0.0166%
+    - '1'
+  - - Imp Elf
+    - Short Tight Gloves
+    - 0.0166%
+    - '1'
+  - - Imp Elf
+    - Pearl Refining
+    - 0.0014%
+    - '1'
+  - - Imp Elf
+    - Fighting Wings
+    - 0.0014%
+    - '1'
+  - - Imp Elf
+    - Golden Chain Cuff
+    - 0.0003%
+    - '1'
+  - - Imp Elf
+    - Eagle Wristlet
+    - 0.0003%
+    - '1'
+  - - Imp Elf
+    - Map Piece
+    - 0.0552%
+    - '1'
+  - - Rock God Mendun
+    - Cyclone Spear
+    - 1.2700%
+    - '1'
+  - - Rock God Mendun
+    - Namila's Soul
+    - 0.0053%
+    - '1'
+  - - Rock God Mendun
+    - Dawn Shield 5
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Intelligence Weaken V
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Mue Duck Robot
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Hunter Helmet
+    - 0.0317%
+    - '1'
+  - - Rock God Mendun
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Rock God Mendun
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Rock God Mendun
+    - Gear Shards
+    - 1.5000%
+    - '1'
+  - - Rock God Mendun
+    - Energy Crystal
+    - 53.9050%
+    - '3'
+  - - Rock God Mendun
+    - Short Tight Gloves
+    - 14.2211%
+    - '1'
+  - - Rock God Mendun
+    - Faquir Mirror
+    - 14.2211%
+    - '1'
+  - - Rock God Mendun
+    - Thick-soled Boots
+    - 14.2211%
+    - '1'
+  - - Rotten Seeker
+    - Trident
+    - 0.0146%
+    - '1'
+  - - Rotten Seeker
+    - Spinning Slingshot
+    - 0.0146%
+    - '1'
+  - - Rotten Seeker
+    - Magic Stick
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Curse Refining
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Devil Wings
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Spear of Yugo
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Splash Slingshot
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Fiery Staff
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Map Piece
+    - 0.0488%
+    - '1'
+  - - Slave Driver
+    - Energy Gown
+    - 3.1300%
+    - '1'
+  - - Slave Driver
+    - Sound Gown
+    - 0.0261%
+    - '1'
+  - - Slave Driver
+    - Cross Chop V
+    - 0.0130%
+    - '1'
+  - - Slave Driver
+    - Advanced Shot V
+    - 0.0130%
+    - '1'
+  - - Slave Driver
+    - Stiff Beetle
+    - 0.0130%
+    - '1'
+  - - Slave Driver
+    - Clean Orange Gem
+    - 0.0132%
+    - '1'
+  - - Slave Driver
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Slave Driver
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Slave Driver
+    - Medium Magic Fruit
+    - 47.4762%
+    - '1'
+  - - Slave Driver
+    - Medium Target Potion
+    - 45.5970%
+    - '1'
+  - - Slave Driver
+    - Slave Driver Card
+    - 0.4629%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Sad Abyss'
+- section: Sad Abbys
+  text_raw: Information
+- section: 'Adjacent Areas:'
+  text_raw: Dragon Graveyard , Fiery Path
+- section: Description
+  text_raw: The sad and thorny calls echo around the dark gorge anytime and anywhere. Some people said it was formed by the haunting wind, but also some people said if you go deep enough
+    into the gorge, the voice becomes louder and more grievous, so people rarely venture into the depths of the Sad Abyss.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

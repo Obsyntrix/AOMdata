@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: defeat-giant-mouse
+name_raw: Defeat Giant Mouse
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-north
+source:
+  origin_url: https://angels.wikidot.com/quest:defeat-giant-mouse
+  retrieval_url: https://www.aowiki.uk/pages/quest_defeat-giant-mouse.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 8b18576e40593a93833ab0bf47983dd18a8a852b183fbe14adf5d817d848e993
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Big Mouth Anglu
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 27 to 40
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '700'
+    - '35'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Defeat Giant Mouse'
+- section: Defeat Giant Mouse
+  text_raw: Home » Areas » Fungus Forest North » Defeat Giant Mouse
+- section: Summary
+  text_raw: Big Mouth Anglu doesn't think you can kill 40 Giant Mice .
+- section: Walkthrough
+  text_raw: Step 1 Listen to Big Mouth Anglu (). Step 2 Kill 40 Giant Mice . Step 3 Go back and listen to Big Mouth Anglu.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

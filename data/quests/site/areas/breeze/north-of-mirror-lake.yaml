@@ -1,0 +1,555 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: north-of-mirror-lake
+  name_raw: North of Mirror Lake
+source:
+  origin_url: https://angels.wikidot.com/area:north-of-mirror-lake
+  retrieval_url: https://www.aowiki.uk/pages/area_north-of-mirror-lake.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0a3d04cc221005ba29c33e09e9dd9c1a8cbeb3ded45d1e5b460e6f7553857fa7
+quest_links:
+- slug: elf-s-agony
+  name_raw: Elf‘s Agony
+  retrieval_url: https://www.aowiki.uk/pages/quest_elf-s-agony.html
+  origin_url: https://angels.wikidot.com/quest:elf-s-agony
+- slug: lost-fishing-rod
+  name_raw: Lost Fishing Rod
+  retrieval_url: https://www.aowiki.uk/pages/quest_lost-fishing-rod.html
+  origin_url: https://angels.wikidot.com/quest:lost-fishing-rod
+- slug: revive-fishing-industry
+  name_raw: Revive Fishing Industry
+  retrieval_url: https://www.aowiki.uk/pages/quest_revive-fishing-industry.html
+  origin_url: https://angels.wikidot.com/quest:revive-fishing-industry
+- slug: spirit-sample-analyze
+  name_raw: Spirit Sample Analyze
+  retrieval_url: https://www.aowiki.uk/pages/quest_spirit-sample-analyze.html
+  origin_url: https://angels.wikidot.com/quest:spirit-sample-analyze
+- slug: unexpected-income
+  name_raw: Unexpected Income
+  retrieval_url: https://www.aowiki.uk/pages/quest_unexpected-income.html
+  origin_url: https://angels.wikidot.com/quest:unexpected-income
+- slug: unidentified-treasure-map
+  name_raw: Unidentified Treasure Map
+  retrieval_url: https://www.aowiki.uk/pages/quest_unidentified-treasure-map.html
+  origin_url: https://angels.wikidot.com/quest:unidentified-treasure-map
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Athlete Cliff
+    - (139,130)
+    - Gives quests Unexpected Income and Revive Fishing Industry and Lost Fishing Rod
+  - - Priest Gufu
+    - (226,3)
+    - Gives quests Spirit Sample Analyze and Elf‘s Agony
+  - - ''
+  - - Cupid
+    - (90,136)
+    - You can set your revival point here.
+  - - Terra Keeper
+    - (289,117)
+    - Can transport you to your league's terra, or city
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Unexpected Income
+    - 'Yes'
+    - Character lvl 35-50
+    - Exp+1100, Credit+45
+    - Defeat the Iron Crabs and collect 9 Milky Pearls.
+  - - Revive Fishing Industry
+    - 'Yes'
+    - Character lvl 35-50
+    - Exp+1100, Credit+45
+    - Defeat 45 Iron Crabs to help Cliff fish.
+  - - Spirit Sample Analyze
+    - 'Yes'
+    - Character lvl 35-50
+    - Exp+1150, Credit+45
+    - Defeat Water Goblins to collect 5 Spirit Pieces from them for Analysis.
+  - - Elf‘s Agony
+    - 'Yes'
+    - Character lvl 35-50
+    - Exp+1150, Credit+45
+    - Defeat 45 Water Goblins to drive them away.
+  - - Unidentified Treasure Map
+    - 'Yes'
+    - Character lvl 35-50
+    - Gold+1000, Exp+1650
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - North Lake Slarm
+    - '35'
+    - 'No'
+    - 'No'
+    - ''
+  - - Iron Crab
+    - '43'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Water Goblin
+    - '45'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Platina Slarm
+    - '45'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Elf Narice
+    - '48'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Steel Clamp
+    - '50'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Leafy Bush
+    - (160,153)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (11,164)
+    - Lumber level 41
+    - ''
+  - - Bright Alga
+    - (172,47)
+    - Fishing level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Elf Narice
+    - Short Tight Gloves
+    - 0.5255%
+    - '1'
+  - - Elf Narice
+    - Rabbi's Gloves
+    - 0.5255%
+    - '1'
+  - - Elf Narice
+    - Eagle Wristlet
+    - 0.0550%
+    - '1'
+  - - Elf Narice
+    - Gloves of the Flame God
+    - 0.0550%
+    - '1'
+  - - Elf Narice
+    - Pearl Refining
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Fighting Wings
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Orange Gem
+    - 0.0300%
+    - '1'
+  - - Elf Narice
+    - Yellow Gem
+    - 0.0300%
+    - '1'
+  - - Elf Narice
+    - Emerald
+    - 0.0300%
+    - '1'
+  - - Elf Narice
+    - Corrosion Claw V
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Energy Flower V
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Faquir Gloves
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Code Gloves
+    - 0.2828%
+    - '1'
+  - - Elf Narice
+    - Rare Agility Potion
+    - 27.5371%
+    - '1'
+  - - Elf Narice
+    - Rare Magic Potion
+    - 28.0000%
+    - '1'
+  - - Elf Narice
+    - Map Piece
+    - 1.4700%
+    - '1'
+  - - Elf Narice
+    - Pestle
+    - 0.1101%
+    - '1'
+  - - Elf Narice
+    - Elf Narice Card
+    - 0.4629%
+    - '1'
+  - - Iron Crab
+    - Short Tight Gloves
+    - 0.0301%
+    - '1'
+  - - Iron Crab
+    - Rabbi's Gloves
+    - 0.0301%
+    - '1'
+  - - Iron Crab
+    - Eagle Wristlet
+    - 0.0005%
+    - '1'
+  - - Iron Crab
+    - Gloves of the Flame God
+    - 0.0005%
+    - '1'
+  - - Iron Crab
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Iron Crab
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Iron Crab
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Iron Crab
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Iron Crab
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Iron Crab
+    - Ruby
+    - 0.0004%
+    - '1'
+  - - Iron Crab
+    - Orange Gem
+    - 0.0004%
+    - '1'
+  - - Iron Crab
+    - Pestle
+    - 0.0012%
+    - '1'
+  - - North Lake Slarm
+    - Long sword
+    - 0.1174%
+    - '1'
+  - - North Lake Slarm
+    - Iron Axe
+    - 0.1174%
+    - '1'
+  - - North Lake Slarm
+    - Broad Sword
+    - 0.0195%
+    - '1'
+  - - North Lake Slarm
+    - Sword of Goddess
+    - 0.0020%
+    - '1'
+  - - North Lake Slarm
+    - Blood Axe of Beast God
+    - 0.0020%
+    - '1'
+  - - North Lake Slarm
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - North Lake Slarm
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - North Lake Slarm
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - North Lake Slarm
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - North Lake Slarm
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - North Lake Slarm
+    - Flawed Yellow Gem
+    - 0.0059%
+    - '1'
+  - - North Lake Slarm
+    - Flawed Emerald
+    - 0.0059%
+    - '1'
+  - - North Lake Slarm
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Platina Slarm
+    - Broad Sword
+    - 1.6325%
+    - '1'
+  - - Platina Slarm
+    - Iron Axe
+    - 1.6325%
+    - '1'
+  - - Platina Slarm
+    - Sword of Goddess
+    - 0.1956%
+    - '1'
+  - - Platina Slarm
+    - Blood Axe of Beast God
+    - 0.1956%
+    - '1'
+  - - Platina Slarm
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Platina Slarm
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Platina Slarm
+    - Long sword
+    - 20.8514%
+    - '1'
+  - - Platina Slarm
+    - Flawed Yellow Gem
+    - 0.5900%
+    - '1'
+  - - Platina Slarm
+    - Flawed Emerald
+    - 0.5900%
+    - '1'
+  - - Platina Slarm
+    - Soul Entangle V
+    - 0.8789%
+    - '1'
+  - - Platina Slarm
+    - Hurt Transfer V
+    - 0.8789%
+    - '1'
+  - - Platina Slarm
+    - Healing Potion
+    - 22.7071%
+    - '1'
+  - - Platina Slarm
+    - Magic Potion
+    - 22.1000%
+    - '1'
+  - - Platina Slarm
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Platina Slarm
+    - Pestle
+    - 0.1054%
+    - '1'
+  - - Platina Slarm
+    - Platina Slarm Card
+    - 0.4629%
+    - '1'
+  - - Steel Clamp
+    - Iron Boots
+    - 0.4789%
+    - '1'
+  - - Steel Clamp
+    - Rabbi's Boots
+    - 0.4789%
+    - '1'
+  - - Steel Clamp
+    - Golden Chain Boots
+    - 0.0505%
+    - '1'
+  - - Steel Clamp
+    - Fiery Boots
+    - 0.0505%
+    - '1'
+  - - Steel Clamp
+    - Pearl Refining
+    - 0.2578%
+    - '1'
+  - - Steel Clamp
+    - Red Beetle Bag
+    - 0.2578%
+    - '1'
+  - - Steel Clamp
+    - Ruby
+    - 0.0400%
+    - '1'
+  - - Steel Clamp
+    - Orange Gem
+    - 0.0400%
+    - '1'
+  - - Steel Clamp
+    - Pierced Beat V
+    - 0.2579%
+    - '1'
+  - - Steel Clamp
+    - Heavy Attack V
+    - 0.2579%
+    - '1'
+  - - Steel Clamp
+    - Black Knight's Boots
+    - 0.2579%
+    - '1'
+  - - Steel Clamp
+    - Code Boots
+    - 0.2579%
+    - '1'
+  - - Steel Clamp
+    - Rare Fruit of Hercules
+    - 26.6112%
+    - '1'
+  - - Steel Clamp
+    - Rare Fruit of Mars
+    - 28.0000%
+    - '1'
+  - - Steel Clamp
+    - Map Piece
+    - 1.3400%
+    - '1'
+  - - Steel Clamp
+    - Pestle
+    - 0.1191%
+    - '1'
+  - - Steel Clamp
+    - Steel Clamp Card
+    - 1.3889%
+    - '1'
+  - - Water Goblin
+    - Iron Boots
+    - 0.0330%
+    - '1'
+  - - Water Goblin
+    - Rabbi's Boots
+    - 0.0330%
+    - '1'
+  - - Water Goblin
+    - Golden Chain Boots
+    - 0.0006%
+    - '1'
+  - - Water Goblin
+    - Fiery Boots
+    - 0.0006%
+    - '1'
+  - - Water Goblin
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Water Goblin
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Water Goblin
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Water Goblin
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Water Goblin
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Water Goblin
+    - Orange Gem
+    - 0.0003%
+    - '1'
+  - - Water Goblin
+    - Yellow Gem
+    - 0.0003%
+    - '1'
+  - - Water Goblin
+    - Emerald
+    - 0.0003%
+    - '1'
+  - - Water Goblin
+    - Pestle
+    - 0.0013%
+    - '1'
+  - - Water Goblin
+    - Water Goblin Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › North of Mirror Lake'
+- section: North of Mirror Lake
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: South of Mirror Lake , Thorn Wasteland
+- section: Description
+  text_raw: More woes for the fishermen in North of Mirror with all this level 35 to 50 wildlife running amuck. You can dip your toes off the dock or admire the lake shore as you try
+    to outrun the crank crabs in this picturesque setting.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

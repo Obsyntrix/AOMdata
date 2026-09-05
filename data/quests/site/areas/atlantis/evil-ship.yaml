@@ -1,0 +1,280 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: evil-ship
+  name_raw: Evil Ship
+source:
+  origin_url: https://angels.wikidot.com/area:evil-ship
+  retrieval_url: https://www.aowiki.uk/pages/area_evil-ship.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: caafc23acabd509a50f2072c0a1ba0d60549a9a0663f5fd2d3f9196b0dfb9479
+quest_links: []
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - NPC Name
+    - (?,?)
+    - Why it is important.
+- table_index: 2
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Scale Soldier
+    - '94'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Linberd Elder
+    - '96'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Sallen
+    - '100'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Asharl
+    - '100'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Mamen
+    - '100'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Asharl
+    - Whale Falchion
+    - 5.0550%
+    - '1'
+  - - Asharl
+    - Espial Gown
+    - 5.0550%
+    - '1'
+  - - Asharl
+    - Solu Guard
+    - 0.0072%
+    - '1'
+  - - Asharl
+    - Magnetic Gown
+    - 0.0072%
+    - '1'
+  - - Asharl
+    - 'Assassin Skill: Savage Blades V'
+    - 0.0036%
+    - '1'
+  - - Asharl
+    - Scorpion Snipe V
+    - 0.0036%
+    - '1'
+  - - Asharl
+    - Energy Light V
+    - 0.0036%
+    - '1'
+  - - Asharl
+    - Defence Wall V
+    - 0.0036%
+    - '1'
+  - - Asharl
+    - Spot Seal
+    - 0.0289%
+    - '1'
+  - - Asharl
+    - Flawless Ruby
+    - 0.1444%
+    - '1'
+  - - Asharl
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Asharl
+    - Effective Healing Potion
+    - 88.1884%
+    - '1'
+  - - Asharl
+    - Asharl Card
+    - 0.2646%
+    - '1'
+  - - Linberd Elder
+    - Espial Hood
+    - 0.0487%
+    - '1'
+  - - Linberd Elder
+    - Magnetic Hat
+    - 0.0001%
+    - '1'
+  - - Linberd Elder
+    - Flawless Emerald
+    - 0.0006%
+    - '1'
+  - - Linberd Elder
+    - Linberd Elder Card
+    - 0.0139%
+    - '1'
+  - - Mamen
+    - Life Wand
+    - 5.0550%
+    - '1'
+  - - Mamen
+    - Wind Armor
+    - 5.0550%
+    - '1'
+  - - Mamen
+    - Laduna's Claw
+    - 0.0072%
+    - '1'
+  - - Mamen
+    - Storm Armor
+    - 0.0072%
+    - '1'
+  - - Mamen
+    - Blood Absorbing Spell V
+    - 0.0048%
+    - '1'
+  - - Mamen
+    - Wolf Bellowing V
+    - 0.0048%
+    - '1'
+  - - Mamen
+    - Demon Surge V
+    - 0.0048%
+    - '1'
+  - - Mamen
+    - Fast Seahorse
+    - 0.0289%
+    - '1'
+  - - Mamen
+    - Flawless Orange Gem
+    - 0.1444%
+    - '1'
+  - - Mamen
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Mamen
+    - Effective Magic Fruit
+    - 88.4375%
+    - '1'
+  - - Mamen
+    - Mamen Card
+    - 0.0154%
+    - '1'
+  - - Sallen
+    - Evil Hammer
+    - 7.6050%
+    - '1'
+  - - Sallen
+    - Saint Armor
+    - 7.6050%
+    - '1'
+  - - Sallen
+    - Aries Judge
+    - 0.0109%
+    - '1'
+  - - Sallen
+    - Holy Guard Armor
+    - 0.0109%
+    - '1'
+  - - Sallen
+    - 'Assassin Skill: Disabling Ambush V'
+    - 0.0054%
+    - '1'
+  - - Sallen
+    - Dream Slaughter V
+    - 0.0054%
+    - '1'
+  - - Sallen
+    - Icy Storm V
+    - 0.0054%
+    - '1'
+  - - Sallen
+    - Summon Azrael V
+    - 0.0054%
+    - '1'
+  - - Sallen
+    - Flawless Purple Gem
+    - 0.2173%
+    - '1'
+  - - Sallen
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Sallen
+    - Effective Mighty Fruit
+    - 82.9119%
+    - '1'
+  - - Sallen
+    - Sallen Card
+    - 0.0331%
+    - '1'
+  - - Scale Soldier
+    - Coral Manteau
+    - 0.0456%
+    - '1'
+  - - Scale Soldier
+    - Blue Wings
+    - 0.0001%
+    - '1'
+  - - Scale Soldier
+    - Flawless Sapphire
+    - 0.0006%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Evil Ship'
+- section: Evil Ship
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Area Name , Area Name
+- section: Description
+  text_raw: An old sunken ship inhabited by all manner of dangerous creatures - home to the infamous Sallen. (Page Under Construction)
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

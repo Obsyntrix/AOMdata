@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: disappeared-golden-matsuake
+name_raw: Disappeared Golden Matsuake
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- mushroom-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:disappeared-golden-matsuake
+  retrieval_url: https://www.aowiki.uk/pages/quest_disappeared-golden-matsuake.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ed68846f50a4adb91d9a216f94b08e125a110482d2ff538cd0e9744151e52976
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Tailman Pan
+    - Beast Faction; Character level 10+; Completed quest Golden Matsuake
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Golden Matsuake
+    - Boar Lord
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat Mane Boars to find out if they ate the mushrooms.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 600 Gold, 1040 Experience, 50 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Disappeared Golden Matsuake'
+- section: Disappeared Golden Matsuake
+  text_raw: Home » Areas » Mushroom Forest » Disappeared Golden Matsuake
+- section: Walkthrough
+  text_raw: Step 1 Talk to Tailman Pan. Step 2 Defeat Mane Boars until you collect evidence of the golden matsuake. Step 3 Take it to Tailman Pan.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

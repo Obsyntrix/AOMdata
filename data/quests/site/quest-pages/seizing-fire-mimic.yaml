@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: seizing-fire-mimic
+name_raw: Seizing Fire Mimic
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- bottomless-pit
+source:
+  origin_url: https://angels.wikidot.com/quest:seizing-fire-mimic
+  retrieval_url: https://www.aowiki.uk/pages/quest_seizing-fire-mimic.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 75f6367c7c39182b1d39af4c773390209a8f753777c5a8b2cd76bbecec85e104
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Sickle Soldier
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - 15 to 30
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '510'
+    - '25'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Seizing Fire Mimic'
+- section: Seizing Fire Mimic
+  text_raw: Home » Areas » Bottomless Pit » Seizing Fire Mimic
+- section: Summary
+  text_raw: The Fire Mimics are causing trouble, the Sickle Soldiers ask to help rid the pit of 20 of the pesky things.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Sickle Soldier (220, 76) Step 2 Defeat 20 Fire Mimics . Step 3 Report back to the Sickle Soldier
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

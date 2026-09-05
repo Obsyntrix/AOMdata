@@ -1,0 +1,80 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: destroying-spider-eggs
+name_raw: Destroying Spider Eggs
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- burning-desert
+source:
+  origin_url: https://angels.wikidot.com/quest:destroying-spider-eggs
+  retrieval_url: https://www.aowiki.uk/pages/quest_destroying-spider-eggs.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 65d1042ba54d8f1b34169eb9e7306561736cd9355f2887cdc44fbd9c250f399a
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Dinot
+    - Steel Facton; Character lvl 20+; Completed quest Missing Friend
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Missing Friend
+    - Carrion‘s Temptation
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Dinot wants revenge for his friend, he wants to kill the Queen Spider, the best way to draw her out is to destroy the spider nests. Destroy the eggs at the spider nests by clicking
+      on them.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 400 Experience, 45 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Destroying Spider Eggs'
+- section: Destroying Spider Eggs
+  text_raw: Home » Areas » Burning Desert » Destroying Spider Eggs
+- section: Walkthrough
+  text_raw: Step 1 Talk to Dinot. Step 2 Destroy the eggs at the northern nest (288, 60) by clicking on the pile of bones. Step 3 Destroy the eggs at the southeast nest (293, 95) by
+    clicking on the pile of bones. Step 4 Destroy the eggs at the entrance nest (287, 131) by clicking on the pile of bones. Step 5 Destroy the eggs at the western nest (230, 92) by
+    clicking on the pile of bones. Step 6 The Black Widow doesn't appear, go back and talk to Dinot.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,79 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: correlation-between-metal-and-water
+name_raw: Correlation Between Metal And Water
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- scrap-iron-village
+source:
+  origin_url: https://angels.wikidot.com/quest:correlation-between-metal-and-water
+  retrieval_url: https://www.aowiki.uk/pages/quest_correlation-between-metal-and-water.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 565ffd18f224b39d83bd113ce86ae55251fceb30e81a1a0c97db871285f008e4
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Edison
+    - Steel Faction; Character Lvl 10+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Taking Construction Manual
+    - Power Source for Experiment
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Edison asks you to take a report to the scientist Einstein in Iron Castle to help him get materials for his project of turning metal to water.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 550 Gold, 200 Experience, 50 Credit
+- table_index: 5
+  rows_raw:
+  - - Step 1 Speak with Edison to get the letter. Step 2 Give the letter to Einstien (75, 83) in Iron castle . Step 3 Return to Edison (200, 85) in Scrap Iron Village and hand him the
+      metal distallate.
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Correlation Between Metal And Water'
+- section: Correlation Between Metal And Water
+  text_raw: Home » Areas » Scrap Iron Village » Correlation Between Metal and Water
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

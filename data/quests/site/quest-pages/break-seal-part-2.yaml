@@ -1,0 +1,81 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: break-seal-part-2
+name_raw: Break Seal Part 2
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- cryptic-moon-swamp
+source:
+  origin_url: https://angels.wikidot.com/quest:break-seal-part-2
+  retrieval_url: https://www.aowiki.uk/pages/quest_break-seal-part-2.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 377a0736ed04851e081d9a568c812b6656f1840a29cedbe4edc2f31eaeb077ce
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Shiwand
+    - Beast Faction; Completed quest Sage's Staff
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Break Seal
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Sharker assures you that he knows what he is doing, but he still needs ingredients to help with the ritual. Defeat Elves , Mud Crabs and Marsh Frogs to collect Essence of Wind,
+      Essence of Water and Essence of Sand for the spell preparations.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - '1500 Experience, 350 Credit Choose one of: Pink Piggy , Brown Piggy or Yellow Piggy'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Break Seal Part 2'
+- section: Break Seal Part 2
+  text_raw: Home » Areas » Cryptic Moon Swamp » Break Seal Part 2
+- section: Walkthrough
+  text_raw: 'Step 1 Speak with Sharker in Breeze Woods . Step 2 Go to Cryptic Moon Swamp . Step 3 Defeat Elves , Mud Crabs and Marsh Frogs until the Essence of Wind, Essence of Water
+    and Essence of Sand is collected. (Essences in the same order as the monsters that drop them.)
+
+    Step 4 Return to Breeze Woods and give the items to Sharker.'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

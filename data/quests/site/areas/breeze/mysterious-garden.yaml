@@ -1,0 +1,440 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: mysterious-garden
+  name_raw: Mysterious Garden
+source:
+  origin_url: https://angels.wikidot.com/area:mysterious-garden
+  retrieval_url: https://www.aowiki.uk/pages/area_mysterious-garden.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: e6fb48f77287a39c4b6c785e88894b5d954d5196a79e073666fdc41cbd613f76
+quest_links:
+- slug: breeze-evil-student-leader
+  name_raw: Evil Student Leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-evil-student-leader.html
+  origin_url: https://angels.wikidot.com/quest:breeze-evil-student-leader
+- slug: breeze-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:breeze-magic-stone
+- slug: gaze-s-grave
+  name_raw: Gaze‘s Grave
+  retrieval_url: https://www.aowiki.uk/pages/quest_gaze-s-grave.html
+  origin_url: https://angels.wikidot.com/quest:gaze-s-grave
+- slug: magic-pool
+  name_raw: Magic Pool
+  retrieval_url: https://www.aowiki.uk/pages/quest_magic-pool.html
+  origin_url: https://angels.wikidot.com/quest:magic-pool
+- slug: marlin-s-bone
+  name_raw: Marlin‘s Bone
+  retrieval_url: https://www.aowiki.uk/pages/quest_marlin-s-bone.html
+  origin_url: https://angels.wikidot.com/quest:marlin-s-bone
+- slug: reunion
+  name_raw: Reunion
+  retrieval_url: https://www.aowiki.uk/pages/quest_reunion.html
+  origin_url: https://angels.wikidot.com/quest:reunion
+- slug: save-garden
+  name_raw: Save Garden
+  retrieval_url: https://www.aowiki.uk/pages/quest_save-garden.html
+  origin_url: https://angels.wikidot.com/quest:save-garden
+- slug: sleeping-spirit
+  name_raw: Sleeping Spirit
+  retrieval_url: https://www.aowiki.uk/pages/quest_sleeping-spirit.html
+  origin_url: https://angels.wikidot.com/quest:sleeping-spirit
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Sword Expert
+    - (10,63)
+    - Medium level combat techniques (Sword).
+  - - Bow Expert
+    - (16,57)
+    - Medium level combat techniques (Bow)
+  - - Axe Expert
+    - (24,64)
+    - Medium level combat techniques (Axe)
+  - - Spear Expert
+    - (18,69)
+    - Medium level combat techniques(Spear)
+  - - Armament Seller
+    - (7,74)
+    - Medium level Garment and Shield equipment.
+  - - Bowset Seller
+    - (13,73)
+    - Medium level Mantle equipment
+  - - Mage Gear Seller
+    - (8,66)
+    - Medium level Vestment equipment.
+  - - Life Mage
+    - (28,58)
+    - Medium level spell scrolls.
+  - - Wraith Mage
+    - (21,49)
+    - Medium level spell scrolls.
+  - - Earth Mage
+    - (29,43)
+    - Medium level spell scrolls.
+  - - Chaos Mage
+    - (38,52)
+    - Medium level spell scrolls.
+  - - Senior Smith
+    - (46,39)
+    - Medium level recipes
+  - - Senior Master
+    - (43,44)
+    - Medium level recipes
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Badge Expert
+    - (144,120)
+    - Can exchange 2 silver badges
+  - - Household Hark
+    - (153,102)
+    - Gives quest Sleeping Spirit
+  - - Garden Labor
+    - (266,110) and (79,140)
+    - Part of Sleeping Spirit quest
+  - - Mistress Marlin
+    - (182,111)
+    - 'Gives Marlin serial quests: Gaze‘s Grave , Marlin‘s Bone and Reunion'
+  - - Dewy Flower
+    - (272,73)
+    - Part of the female marriage quest (see lyceum church)
+  - - Terra Keeper
+    - (169,96)
+    - Can transport you to your league's terra, or city
+  - - Repair Expert
+    - (70,43)
+    - Repairs damaged Equipment
+  - - Bank Clerk
+    - (66,41)
+    - Use your own warehouse or corporation's warehouse.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Magic Pool
+    - 'Yes'
+    - Beast Faction; Character lvl 20-35
+    - Exp+670, Credit+35
+    - Defeat Garden Elves and collect 10 Star Dusts.
+  - - ''
+  - - Sleeping Spirit
+    - 'No'
+    - Beast Faction;
+    - Gold+1000, Exp+800, Credit+50
+    - Find two sleeping servents.
+  - - Save Garden
+    - 'No'
+    - Beast Faction; Character lvl 22+
+    - Exp+1800, Credit+65
+    - Defeat 20 Flaming Roses .
+  - - ''
+  - - Gaze‘s Grave 1 of 3
+    - 'No'
+    - Beast Faction;
+    - Gold+600, Exp+800, Credit+45
+    - Find the grave of Mistress Marlin's husband.
+  - - Marlin‘s Bone 2 of 3
+    - 'No'
+    - Beast Faction; Character lvl 20+ Finished quest Gaze‘s Grave
+    - Gold+1200, Exp+2000, Credit+75
+    - Defeat Thunder Rabbits and collect missing bone.
+  - - Reunion 3 of 3
+    - 'No'
+    - Beast Faction; Finished quest Marlin‘s Bone
+    - Exp+2300, Credit+550, Item
+    - Defeat the Rage Elf (boss).
+  - - ''
+  - - Evil Student Leader Asmode 8 of 8
+    - 'No'
+    - Beast Faction; Finished quest Magic Stone
+    - Exp+5000, Credit+850, Item
+    - Find Asmode's Den and defeat Asmodeus (boss).
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Garden Elf
+    - '27'
+    - 'No'
+    - 'No'
+    - ''
+  - - Thunder Rabbit
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Flaming Rose
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rage Elf
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Queen Angela
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Bright Bush
+    - (275,44)
+    - Collect level 31
+    - ''
+  - - Viburnum
+    - (279,171)
+    - Lumber level 31
+    - ''
+  - - Meteor Alga
+    - (271,125)
+    - Fishing level 31
+    - ''
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Flaming Rose
+    - Iron Slingshot
+    - 0.3744%
+    - '1'
+  - - Flaming Rose
+    - Token
+    - 0.3744%
+    - '1'
+  - - Flaming Rose
+    - Puppet Electrical Bow
+    - 0.0062%
+    - '1'
+  - - Flaming Rose
+    - White Token
+    - 0.0062%
+    - '1'
+  - - Flaming Rose
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Flaming Rose
+    - Flawed Ruby
+    - 0.0023%
+    - '1'
+  - - Flaming Rose
+    - Defective Orange Gem
+    - 0.0023%
+    - '1'
+  - - Flaming Rose
+    - Flawed Yellow Gem
+    - 0.0023%
+    - '1'
+  - - Garden Elf
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Garden Elf
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Garden Elf
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Garden Elf
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Garden Elf
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Garden Elf
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Garden Elf
+    - Garden Elf Card
+    - 0.0069%
+    - '1'
+  - - Queen Angela
+    - Gown
+    - 2.7456%
+    - '1'
+  - - Queen Angela
+    - Thick Armor
+    - 2.7456%
+    - '1'
+  - - Queen Angela
+    - Leather Vest
+    - 2.7456%
+    - '1'
+  - - Queen Angela
+    - Protector's Gown
+    - 0.3490%
+    - '1'
+  - - Queen Angela
+    - Heavy Leather Armor
+    - 0.3490%
+    - '1'
+  - - Queen Angela
+    - Light Leather Armor
+    - 0.3490%
+    - '1'
+  - - Queen Angela
+    - Queen Angela Card
+    - 2.7778%
+    - '1'
+  - - Queen Angela
+    - Ring of High Clerist
+    - 4.1023%
+    - '1'
+  - - Queen Angela
+    - Flawed Ruby
+    - 0.2300%
+    - '1'
+  - - Queen Angela
+    - Defective Orange Gem
+    - 0.2300%
+    - '1'
+  - - Queen Angela
+    - Flawed Yellow Gem
+    - 0.2300%
+    - '1'
+  - - Queen Angela
+    - Basic Attack V
+    - 2.7456%
+    - '1'
+  - - Queen Angela
+    - Basic Shot V
+    - 2.7456%
+    - '1'
+  - - Queen Angela
+    - Target Potion
+    - 15.2509%
+    - '1'
+  - - Queen Angela
+    - Agility Potion
+    - 13.8620%
+    - '1'
+  - - Queen Angela
+    - Map Piece
+    - 12.4800%
+    - '1'
+  - - Queen Angela
+    - Pestle
+    - 0.0620%
+    - '1'
+  - - Thunder Rabbit
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Thunder Rabbit
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Thunder Rabbit
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Thunder Rabbit
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Thunder Rabbit
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Thunder Rabbit
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Thunder Rabbit
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Thunder Rabbit
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Thunder Rabbit
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+  - - Thunder Rabbit
+    - Woods Boots
+    - 0.0583%
+    - '1'
+  - - Thunder Rabbit
+    - Conqueror Boots
+    - 0.0001%
+    - '1'
+  - - Thunder Rabbit
+    - Yellow Light Rune Piece
+    - 0.0004%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Mysterious Garden'
+- section: Mysterious Garden
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Mysterious Garden is a beautiful maze of intrigue. Don’t be afraid to speak with the ghosts or to investigate the corners and dead-ends. There are secrets and love to be
+    found here. Just be careful not to smell the roses or you may be kissed to death. Love and loss linger here entwined amid the level 27 to 35 creatures.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

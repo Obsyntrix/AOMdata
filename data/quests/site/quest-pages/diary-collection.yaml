@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: diary-collection
+name_raw: Diary Collection
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- hell-palace
+source:
+  origin_url: https://angels.wikidot.com/quest:diary-collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_diary-collection.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: fb23fa9b839a076f9720dd152adf07ed1a1d74670fc6163e99bba3759d33ac17
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Bone Remains
+    - Yes/No
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Diary Collection'
+- section: Diary Collection
+  text_raw: Home » Areas » Hell Palace » Diary Collection
+- section: Summary
+  text_raw: ???
+- section: Walkthrough
+  text_raw: 'Step 1 first, you need to be Dead or Mode Angel, then go and talk to Bone Remains
+
+    Step 2 Details here.'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

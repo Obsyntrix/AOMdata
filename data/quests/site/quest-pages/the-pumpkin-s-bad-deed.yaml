@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: the-pumpkin-s-bad-deed
+name_raw: The Pumpkin S Bad Deed
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- sunflower-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:the-pumpkin-s-bad-deed
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-pumpkin-s-bad-deed.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0b4208db715e55ce4fdb484f0492b7ce957c7d8551ed1ed890682913285f462f
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Clerk
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 10 to 25
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '390'
+    - '20'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › The Pumpkin S Bad Deed'
+- section: The Pumpkin S Bad Deed
+  text_raw: Home » Areas » Sunflower Plain » The Pumpkin's Bad Deed
+- section: Summary
+  text_raw: The Magic Pumpkinmen are destroying the gardens, the Clerk asks you to help him deal with them.
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Clerk (134,171). Step 2 Defeat 20 Magic Pumpkinmen . Step 3 Report back to the Clerk.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

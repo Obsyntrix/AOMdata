@@ -1,0 +1,580 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: mysterious-wetland
+  name_raw: Mysterious Wetland
+source:
+  origin_url: https://angels.wikidot.com/area:mysterious-wetland
+  retrieval_url: https://www.aowiki.uk/pages/area_mysterious-wetland.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5b47bf846c7e4f91d6f1d8163b10f860508693fe1ed52f7cebe95d37ea6c14d4
+quest_links:
+- slug: clear-charming-man-eating-flower
+  name_raw: Clear Charming Man-Eating Flower
+  retrieval_url: https://www.aowiki.uk/pages/quest_clear-charming-man-eating-flower.html
+  origin_url: https://angels.wikidot.com/quest:clear-charming-man-eating-flower
+- slug: demon-s-calling
+  name_raw: Demon‘s Calling
+  retrieval_url: https://www.aowiki.uk/pages/quest_demon-s-calling.html
+  origin_url: https://angels.wikidot.com/quest:demon-s-calling
+- slug: fantastic-tree-elf
+  name_raw: Fantastic Tree Elf
+  retrieval_url: https://www.aowiki.uk/pages/quest_fantastic-tree-elf.html
+  origin_url: https://angels.wikidot.com/quest:fantastic-tree-elf
+- slug: green-hope
+  name_raw: Green Hope
+  retrieval_url: https://www.aowiki.uk/pages/quest_green-hope.html
+  origin_url: https://angels.wikidot.com/quest:green-hope
+- slug: robbed-equipment
+  name_raw: Robbed Equipment
+  retrieval_url: https://www.aowiki.uk/pages/quest_robbed-equipment.html
+  origin_url: https://angels.wikidot.com/quest:robbed-equipment
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Super Smith
+    - (13,161)
+    - 41-55 level Weapon and Armor plans.
+  - - Super Master
+    - (14,169)
+    - 41-55 level Sewing, Cooking and Technics plans.
+  - - Bow Expert
+    - (37,167)
+    - 42-60 level Bow stances.
+  - - Weapon Expert
+    - (46,161)
+    - 42-60 level Sword, Axe, Spear stances.
+  - - Earth Priest
+    - (13,151)
+    - 42-60 level Life and Earth scrolls.
+  - - Wraith Priest
+    - (34,146)
+    - 42-60 level Chaos and Wraith scrolls.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Researcher Mary
+    - (271,10)
+    - Gives quests Fantastic Tree Elf and Green Hope .
+  - - Explorer Peter
+    - (32,24)
+    - Gives quests Clear Charming Man-Eating Flower and Robbed Equipment .
+  - - Warlock Ofer
+    - (214,139)
+    - Part of the quest Demon‘s Calling .
+  - - ''
+  - - Terra Keeper
+    - (149,165)
+    - Transports to league terra and to city of the faction.
+  - - ''
+  - - Cupid
+    - (30,163)
+    - Make this your revival place.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Clear Charming Man-Eating Flower
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1000, Credit+42
+    - Defeat 45 Nepenthes .
+  - - Robbed Equipment
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1000, Credit+42
+    - Defeat Nepenthes and collect 9 of the stolen Adventure Equipment.
+  - - Fantastic Tree Elf
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1100, Credit+45
+    - Defeat 45 Tree Elves .
+  - - Green Hope
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+1100, Credit+45
+    - Defeat Tree Elves and collect 5 Buds of Fantastic Tree.
+  - - Demon‘s Calling
+    - 'Yes'
+    - Any Faction; Character lvl 35-50
+    - Exp+550, Credit+30
+    - While fighting you find a Soul Core, take this to Warlock Offer and defeat the Tree Elves he summons.
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Nepenthes
+    - '40'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Tree Elf
+    - '43'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Marsh Wind Fairy
+    - '45'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Sexy Quli
+    - '45'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Black Tree
+    - '48'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Wind Fairy Clair
+    - '50'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Leafy Bush
+    - (229,92)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (143,116)
+    - Lumber level 41
+    - ''
+  - - Bright Alga
+    - (251,15)
+    - Fishing level 41
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Black Tree
+    - Light Boots
+    - 0.4789%
+    - '1'
+  - - Black Tree
+    - Rabbi's Boots
+    - 0.4789%
+    - '1'
+  - - Black Tree
+    - Eagle Boots
+    - 0.0505%
+    - '1'
+  - - Black Tree
+    - Fiery Boots
+    - 0.0505%
+    - '1'
+  - - Black Tree
+    - Pearl Refining
+    - 0.2578%
+    - '1'
+  - - Black Tree
+    - Red Beetle Bag
+    - 0.2578%
+    - '1'
+  - - Black Tree
+    - Sapphire
+    - 0.0400%
+    - '1'
+  - - Black Tree
+    - Purple Gem
+    - 0.0400%
+    - '1'
+  - - Black Tree
+    - Tendon Chop V
+    - 0.2579%
+    - '1'
+  - - Black Tree
+    - Crazy Roar V
+    - 0.2579%
+    - '1'
+  - - Black Tree
+    - Faquir Boots
+    - 0.2579%
+    - '1'
+  - - Black Tree
+    - Code Boots
+    - 0.2579%
+    - '1'
+  - - Black Tree
+    - Rare Fruit of Hercules
+    - 28.0001%
+    - '1'
+  - - Black Tree
+    - Rare Fruit of Mars
+    - 28.0000%
+    - '1'
+  - - Black Tree
+    - Map Piece
+    - 1.3400%
+    - '1'
+  - - Black Tree
+    - Pestle
+    - 0.1191%
+    - '1'
+  - - Marsh Wind Fairy
+    - Light Boots
+    - 0.0330%
+    - '1'
+  - - Marsh Wind Fairy
+    - Rabbi's Boots
+    - 0.0330%
+    - '1'
+  - - Marsh Wind Fairy
+    - Eagle Boots
+    - 0.0006%
+    - '1'
+  - - Marsh Wind Fairy
+    - Fiery Boots
+    - 0.0006%
+    - '1'
+  - - Marsh Wind Fairy
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Marsh Wind Fairy
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Marsh Wind Fairy
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Marsh Wind Fairy
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Marsh Wind Fairy
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Marsh Wind Fairy
+    - Sapphire
+    - 0.0003%
+    - '1'
+  - - Marsh Wind Fairy
+    - Purple Gem
+    - 0.0003%
+    - '1'
+  - - Marsh Wind Fairy
+    - Ruby
+    - 0.0003%
+    - '1'
+  - - Marsh Wind Fairy
+    - Pestle
+    - 0.0013%
+    - '1'
+  - - Marsh Wind Fairy
+    - Wind Goblin Card
+    - 0.0139%
+    - '1'
+  - - Nepenthes
+    - Curved Bow
+    - 0.1174%
+    - '1'
+  - - Nepenthes
+    - Staff
+    - 0.1174%
+    - '1'
+  - - Nepenthes
+    - Magic Stick
+    - 0.0195%
+    - '1'
+  - - Nepenthes
+    - Ice Bow
+    - 0.0020%
+    - '1'
+  - - Nepenthes
+    - Evil Cat's Staff
+    - 0.0020%
+    - '1'
+  - - Nepenthes
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Nepenthes
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Nepenthes
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Nepenthes
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Nepenthes
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Nepenthes
+    - Flawed Ruby
+    - 0.0059%
+    - '1'
+  - - Nepenthes
+    - Defective Orange Gem
+    - 0.0059%
+    - '1'
+  - - Nepenthes
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Sexy Quli
+    - Curved Bow
+    - 1.6325%
+    - '1'
+  - - Sexy Quli
+    - Magic Stick
+    - 1.6325%
+    - '1'
+  - - Sexy Quli
+    - Ice Bow
+    - 0.1956%
+    - '1'
+  - - Sexy Quli
+    - Evil Cat's Staff
+    - 0.1956%
+    - '1'
+  - - Sexy Quli
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Sexy Quli
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Sexy Quli
+    - Staff
+    - 20.8514%
+    - '1'
+  - - Sexy Quli
+    - Flawed Ruby
+    - 0.5900%
+    - '1'
+  - - Sexy Quli
+    - Defective Orange Gem
+    - 0.5900%
+    - '1'
+  - - Sexy Quli
+    - Earth Blessing V
+    - 0.8789%
+    - '1'
+  - - Sexy Quli
+    - Exhaustion Curse V
+    - 0.8789%
+    - '1'
+  - - Sexy Quli
+    - Magic Fruit
+    - 21.7811%
+    - '1'
+  - - Sexy Quli
+    - Fruit of the Devil
+    - 22.1000%
+    - '1'
+  - - Sexy Quli
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Sexy Quli
+    - Pestle
+    - 0.1054%
+    - '1'
+  - - Sexy Quli
+    - Sexy Quli
+    - 1.3889%
+    - '1'
+  - - Tree Elf
+    - Light Cuff
+    - 0.0301%
+    - '1'
+  - - Tree Elf
+    - Short Tight Gloves
+    - 0.0301%
+    - '1'
+  - - Tree Elf
+    - Golden Chain Cuff
+    - 0.0005%
+    - '1'
+  - - Tree Elf
+    - Eagle Wristlet
+    - 0.0005%
+    - '1'
+  - - Tree Elf
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Tree Elf
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Tree Elf
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Tree Elf
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Tree Elf
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Tree Elf
+    - Sapphire
+    - 0.0004%
+    - '1'
+  - - Tree Elf
+    - Purple Gem
+    - 0.0004%
+    - '1'
+  - - Tree Elf
+    - Pestle
+    - 0.0012%
+    - '1'
+  - - Tree Elf
+    - Red Potion 2
+    - 49.4402%
+    - '3'
+  - - Tree Elf
+    - Blue Potion 2
+    - 49.4402%
+    - '3'
+  - - Wind Fairy Clair
+    - Light Cuff
+    - 0.5255%
+    - '1'
+  - - Wind Fairy Clair
+    - Short Tight Gloves
+    - 0.5255%
+    - '1'
+  - - Wind Fairy Clair
+    - Golden Chain Cuff
+    - 0.0550%
+    - '1'
+  - - Wind Fairy Clair
+    - Eagle Wristlet
+    - 0.0550%
+    - '1'
+  - - Wind Fairy Clair
+    - Pearl Refining
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Fighting Wings
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Sapphire
+    - 0.0300%
+    - '1'
+  - - Wind Fairy Clair
+    - Purple Gem
+    - 0.0300%
+    - '1'
+  - - Wind Fairy Clair
+    - Ruby
+    - 0.0300%
+    - '1'
+  - - Wind Fairy Clair
+    - Halo Strike 5
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Rebound Spell V
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Faquir Gloves
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Black Knight's Cuff
+    - 0.2828%
+    - '1'
+  - - Wind Fairy Clair
+    - Rare Magic Fruit
+    - 27.5371%
+    - '1'
+  - - Wind Fairy Clair
+    - Rare Fruit of the Devil
+    - 28.0000%
+    - '1'
+  - - Wind Fairy Clair
+    - Map Piece
+    - 1.4700%
+    - '1'
+  - - Wind Fairy Clair
+    - Pestle
+    - 0.1101%
+    - '1'
+  - - Wind Fairy Clair
+    - Wind Goblin Claya Card
+    - 0.4629%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Mysterious Wetland'
+- section: Mysterious Wetland
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Welcome to the hushed discretion of the Mysterious Wetlands. What secrets are concealed by the reedy water have been silenced. There is a strange atmosphere among the level
+    40 to 50 creatures who stealthily float through these lands. But the atmosphere is not as strange as Warlock Offer.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

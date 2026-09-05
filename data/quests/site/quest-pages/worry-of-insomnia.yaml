@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: worry-of-insomnia
+name_raw: Worry Of Insomnia
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-south
+source:
+  origin_url: https://angels.wikidot.com/quest:worry-of-insomnia
+  retrieval_url: https://www.aowiki.uk/pages/quest_worry-of-insomnia.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5a3a4467463c8296784984fa72c50e83327ea63b88ed8735c4a806897c8b540c
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Sleepless Nick
+    - Shadow Faction; Character lvl 10+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The constant sobbing of the Crybabies is keeping Nick awake. He asks you to drive them away.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 950 Experience, 35 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Worry Of Insomnia'
+- section: Worry Of Insomnia
+  text_raw: Home » Areas » Fungus Forest South » Worry Of Insomnia
+- section: Walkthrough
+  text_raw: Step 1 Speak with Sleepless Nick. Step 2 Defeat 20 Crybabies . Step 3 Report to Sleepless Nick.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

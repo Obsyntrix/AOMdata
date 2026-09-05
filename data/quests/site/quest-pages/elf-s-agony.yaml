@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: elf-s-agony
+name_raw: Elf S Agony
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- north-of-mirror-lake
+source:
+  origin_url: https://angels.wikidot.com/quest:elf-s-agony
+  retrieval_url: https://www.aowiki.uk/pages/quest_elf-s-agony.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: fd5ddd6cb2b8d8f4790e8b67e461a0c6ff41e7a3f19229f11c8f59b9aad263f5
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Priest Gufu
+    - Character lvl 35 to 50
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Priest Gufu needs help dealing with the Water Goblins who are attacking passers-by. Defeat 45 Water Goblins to drive them away.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1150 Experience, 45 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Elf S Agony'
+- section: Elf S Agony
+  text_raw: Home » Areas » North of Mirror Lake » Elf's Agony
+- section: Walkthrough
+  text_raw: Step 1 Talk to Priest Gufu. Step 2 Defeat 45 Water Goblins . Step 3 Report back to Priest Gufu.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

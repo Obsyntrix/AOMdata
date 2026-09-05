@@ -1,0 +1,339 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: puqi-village
+  name_raw: Puqi Village
+source:
+  origin_url: https://angels.wikidot.com/area:puqi-village
+  retrieval_url: https://www.aowiki.uk/pages/area_puqi-village.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: c007cf48e86825a1e411aa4b89262cdb11af5898d4ce310b884b01025329fac4
+quest_links:
+- slug: depression-of-skin-dive
+  name_raw: Depression of Skin Dive
+  retrieval_url: https://www.aowiki.uk/pages/quest_depression-of-skin-dive.html
+  origin_url: https://angels.wikidot.com/quest:depression-of-skin-dive
+- slug: explore-blue-slat-crystal
+  name_raw: Explore Blue Slat Crystal
+  retrieval_url: https://www.aowiki.uk/pages/quest_explore-blue-slat-crystal.html
+  origin_url: https://angels.wikidot.com/quest:explore-blue-slat-crystal
+- slug: feast-on-crabs
+  name_raw: Feast on Crabs
+  retrieval_url: https://www.aowiki.uk/pages/quest_feast-on-crabs.html
+  origin_url: https://angels.wikidot.com/quest:feast-on-crabs
+- slug: flora-s-wish
+  name_raw: Flora's Wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_flora-s-wish.html
+  origin_url: https://angels.wikidot.com/quest:flora-s-wish
+- slug: hope-after-bad-news
+  name_raw: Hope after Bad News
+  retrieval_url: https://www.aowiki.uk/pages/quest_hope-after-bad-news.html
+  origin_url: https://angels.wikidot.com/quest:hope-after-bad-news
+- slug: invaluable-rubbish
+  name_raw: Invaluable Rubbish
+  retrieval_url: https://www.aowiki.uk/pages/quest_invaluable-rubbish.html
+  origin_url: https://angels.wikidot.com/quest:invaluable-rubbish
+- slug: lost-friends
+  name_raw: Lost Friends
+  retrieval_url: https://www.aowiki.uk/pages/quest_lost-friends.html
+  origin_url: https://angels.wikidot.com/quest:lost-friends
+- slug: soft-shimmer-in-deep-sea
+  name_raw: Soft Shimmer in Deep Sea
+  retrieval_url: https://www.aowiki.uk/pages/quest_soft-shimmer-in-deep-sea.html
+  origin_url: https://angels.wikidot.com/quest:soft-shimmer-in-deep-sea
+- slug: the-melody-of-pirates-demise
+  name_raw: The Melody of Pirates' demise
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-melody-of-pirates-demise.html
+  origin_url: https://angels.wikidot.com/quest:the-melody-of-pirates-demise
+- slug: wandering-artist
+  name_raw: Wandering Artist
+  retrieval_url: https://www.aowiki.uk/pages/quest_wandering-artist.html
+  origin_url: https://angels.wikidot.com/quest:wandering-artist
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Flora
+    - (178,130)
+    - 'Gives quest: Flora''s Wish (repeatable)'
+  - - Inn Keeper
+    - (207,42)
+    - 'Gives quest: Feast on Crabs (repeatable)'
+  - - Trainer Ceres
+    - (229,104)
+    - 'Gives quest: Depression of Skin Dive'
+  - - Mr.Howsufa
+    - (93,139)
+    - 'Gives quest: Explore Blue Slat Crystal (for producers)'
+  - - Quiyam
+    - (15,16)
+    - 'Gives quest: The Melody of Pirates'' demise'
+  - - Diver Cobra
+    - (166,42)
+    - 'Gives quest: Soft Shimmer in Deep Sea'
+  - - Teny
+    - (212,35)
+    - 'Gives quest: Wandering Artist (for producers)'
+  - - Surfer Veifu
+    - (63,28)
+    - ''
+  - - Hikaru
+    - (92,57)
+    - ''
+  - - Childe Kere
+    - (132,40)
+    - 'Gives quest: Invaluable Rubbish , Lost Friends , Hope after Bad News'
+  - - Artisan Anderlu
+    - (108,22)
+    - ''
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Wandering Artist
+    - 'Yes'
+    - Gathering and facturing skills
+    - Card
+    - Collect materials for Teny's handicrafts
+  - - Flora's Wish
+    - 'Yes'
+    - '-'
+    - Card
+    - Collect flower seeds from various monsters
+  - - Feast on Crabs
+    - 'Yes'
+    - Character Lvl 50-55
+    - Exp+1450, Credit+54
+    - Defeat Puqi Crabs or Color Crabs at Golden Beach and Collect 50 Tasty Crabs
+  - - Depression of Skin Dive
+    - 'No'
+    - Character Lvl 60+
+    - Exp+60000, Credit+500, Gold+35000
+    - 'Defeat: 35 Crab Generals , 35 Ink Octopuses and 35 Ball Jellyfish at Colorful Coral Reefs'
+  - - Explore Blue Slat Crystal
+    - '?'
+    - Character Lvl 70+; Gathering skills
+    - '?'
+    - Collect Blue Slat Crystals at Wave Harbor
+  - - The Melody of Pirates' demise
+    - '?'
+    - Character Lvl 90+
+    - '?'
+    - Defeat 15 Death Captains at Evil Ship
+  - - Soft Shimmer in Deep Sea
+    - '?'
+    - Character Lvl 90+
+    - '?'
+    - Defeat Sea Lantern Fish at Quiet Ocean and collect 10 Lanterns
+- table_index: 3
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Ball Jellyfish
+    - Mage Cuffs
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Light Necklace
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Clean Emerald
+    - 0.0015%
+    - '1'
+  - - Ball Jellyfish
+    - Beachball Jellyfish Card
+    - 0.0208%
+    - '1'
+  - - Color Crab
+    - Tight Leather Gloves
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Magic Boots
+    - 0.0141%
+    - '1'
+  - - Color Crab
+    - Scale Shell
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Slarm's Boots
+    - 0.0002%
+    - '1'
+  - - Color Crab
+    - Emerald
+    - 0.0014%
+    - '1'
+  - - Crab General
+    - Hermit Cuffs
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Hermit Boots
+    - 0.0337%
+    - '1'
+  - - Crab General
+    - Anchoret Cuffs
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Anchoret Boots
+    - 0.0003%
+    - '1'
+  - - Crab General
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Crab General
+    - Crab General Card
+    - 0.0139%
+    - '1'
+  - - Death Captain
+    - Evil Hammer
+    - 0.0336%
+    - '1'
+  - - Death Captain
+    - Saint Helmet
+    - 0.0336%
+    - '1'
+  - - Death Captain
+    - Aries Judge
+    - 0.0000%
+    - '1'
+  - - Death Captain
+    - Holy Guard Helmet
+    - 0.0000%
+    - '1'
+  - - Death Captain
+    - Flawless Purple Gem
+    - 0.0010%
+    - '1'
+  - - Ink Octopus
+    - Energy Hood
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Energy Boots
+    - 0.0363%
+    - '1'
+  - - Ink Octopus
+    - Sound Hood
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Sound Boots
+    - 0.0004%
+    - '1'
+  - - Ink Octopus
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Ink Octopus
+    - Octopus Brush Card
+    - 0.0139%
+    - '1'
+  - - Puqi Crab
+    - Light Boots
+    - 0.0378%
+    - '1'
+  - - Puqi Crab
+    - Light Cuff
+    - 0.0378%
+    - '1'
+  - - Puqi Crab
+    - Eagle Boots
+    - 0.0006%
+    - '1'
+  - - Puqi Crab
+    - Golden Chain Cuff
+    - 0.0006%
+    - '1'
+  - - Puqi Crab
+    - Flawed Emerald
+    - 0.0010%
+    - '1'
+  - - Puqi Crab
+    - Puqi Crab Card
+    - 0.0139%
+    - '1'
+  - - Sea Lantern Fish
+    - Rage Lance
+    - 0.0487%
+    - '1'
+  - - Sea Lantern Fish
+    - Poseidon Attacker
+    - 0.0000%
+    - '1'
+  - - Sea Lantern Fish
+    - Starfish Backpack
+    - 0.0000%
+    - '1'
+  - - Sea Lantern Fish
+    - Jellyfish Armor
+    - 0.0001%
+    - '1'
+  - - Sea Lantern Fish
+    - Flawless Sapphire
+    - 0.0006%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Puqi Village'
+- section: Puqi Village
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: It is one of the most comfortable places for vacation. Houses and bowers are built by palm leaves and grass. A Cafe was built near the beach where players can enjoy parties.
+    It is a quiet place without monsters. Players can enjoy games or enjoy the sunshine there.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

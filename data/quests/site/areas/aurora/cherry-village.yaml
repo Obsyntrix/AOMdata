@@ -1,0 +1,523 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: cherry-village
+  name_raw: Cherry Village
+source:
+  origin_url: https://angels.wikidot.com/area:cherry-village
+  retrieval_url: https://www.aowiki.uk/pages/area_cherry-village.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 673b6ab11f37a984451f0d6b89d65c339c9fd475875d3d47dba74f89ab3c8655
+quest_links:
+- slug: cherry-crab-experiment
+  name_raw: Cherry Crab Experiment
+  retrieval_url: https://www.aowiki.uk/pages/quest_cherry-crab-experiment.html
+  origin_url: https://angels.wikidot.com/quest:cherry-crab-experiment
+- slug: citizen-s-plan-to-retake-property
+  name_raw: Citizen's Plan to Retake Property
+  retrieval_url: https://www.aowiki.uk/pages/quest_citizen-s-plan-to-retake-property.html
+  origin_url: https://angels.wikidot.com/quest:citizen-s-plan-to-retake-property
+- slug: father-s-legacy
+  name_raw: Father's Legacy
+  retrieval_url: https://www.aowiki.uk/pages/quest_father-s-legacy.html
+  origin_url: https://angels.wikidot.com/quest:father-s-legacy
+- slug: glory-of-dawn-harbor
+  name_raw: Glory of Dawn Harbor
+  retrieval_url: https://www.aowiki.uk/pages/quest_glory-of-dawn-harbor.html
+  origin_url: https://angels.wikidot.com/quest:glory-of-dawn-harbor
+- slug: militia-assignment-coast-clearance
+  name_raw: Militia Assignment-Coast Clearance
+  retrieval_url: https://www.aowiki.uk/pages/quest_militia-assignment-coast-clearance.html
+  origin_url: https://angels.wikidot.com/quest:militia-assignment-coast-clearance
+- slug: militia-assignment-punishing-pirate
+  name_raw: Militia Assignment-Punishing Pirate
+  retrieval_url: https://www.aowiki.uk/pages/quest_militia-assignment-punishing-pirate.html
+  origin_url: https://angels.wikidot.com/quest:militia-assignment-punishing-pirate
+- slug: militia-assignment-turtle-shell-armor
+  name_raw: Militia Assignment-Turtle Shell Armor
+  retrieval_url: https://www.aowiki.uk/pages/quest_militia-assignment-turtle-shell-armor.html
+  origin_url: https://angels.wikidot.com/quest:militia-assignment-turtle-shell-armor
+- slug: plant-research-report
+  name_raw: Plant Research Report
+  retrieval_url: https://www.aowiki.uk/pages/quest_plant-research-report.html
+  origin_url: https://angels.wikidot.com/quest:plant-research-report
+- slug: potec-s-attack
+  name_raw: Potec's Attack
+  retrieval_url: https://www.aowiki.uk/pages/quest_potec-s-attack.html
+  origin_url: https://angels.wikidot.com/quest:potec-s-attack
+- slug: recruiting-cherry-militia
+  name_raw: Recruiting Cherry Militia
+  retrieval_url: https://www.aowiki.uk/pages/quest_recruiting-cherry-militia.html
+  origin_url: https://angels.wikidot.com/quest:recruiting-cherry-militia
+- slug: unknown-brilliant-necklace
+  name_raw: Unknown Brilliant Necklace
+  retrieval_url: https://www.aowiki.uk/pages/quest_unknown-brilliant-necklace.html
+  origin_url: https://angels.wikidot.com/quest:unknown-brilliant-necklace
+- slug: vanilla
+  name_raw: Vanilla
+  retrieval_url: https://www.aowiki.uk/pages/quest_vanilla.html
+  origin_url: https://angels.wikidot.com/quest:vanilla
+- slug: whether-husband-is-alive-or-dead
+  name_raw: Whether Husband Is Alive or Dead
+  retrieval_url: https://www.aowiki.uk/pages/quest_whether-husband-is-alive-or-dead.html
+  origin_url: https://angels.wikidot.com/quest:whether-husband-is-alive-or-dead
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Sword Expert
+    - (180,56)
+    - Medium level combat techniques (Sword).
+  - - Bow Expert
+    - (164,47)
+    - Medium level combat techniques (Bow)
+  - - Axe Expert
+    - (176,51)
+    - Medium level combat techniques (Axe)
+  - - Spear Expert
+    - (170,49)
+    - Medium level combat techniques(Spear)
+  - - Armament Seller
+    - (191,49)
+    - Medium level Garment and Shield equipment.
+  - - Bowset Seller
+    - (186,45)
+    - Medium level Mantle equipment
+  - - Mage Gear Seller
+    - (180,40)
+    - Medium level Vestment equipment.
+  - - Life Mage
+    - (219,29)
+    - Medium level spell scrolls.
+  - - Wraith Mage
+    - (213,22)
+    - Medium level spell scrolls.
+  - - Earth Mage
+    - (222,17)
+    - Medium level spell scrolls.
+  - - Chaos Mage
+    - (227,22)
+    - Medium level spell scrolls.
+  - - Senior Smith
+    - (153,51)
+    - Medium level recipes
+  - - Senior Master
+    - (144,52)
+    - Medium level recipes
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Robust Yady
+    - (235,51)
+    - 'Gives quest: Recruiting Cherry Militia and Militia Assignment-Coast Clearance , Militia Assignment-Punishing Pirate , Militia Assignment-Turtle Shell Armor (repeatable).'
+  - - Cherry's Leader
+    - (235,73)
+    - 'Part of quest: Glory of Dawn Harbor ; Gives quest: Citizen''s Plan to Retake Property'
+  - - Countrylady
+    - (186,74)
+    - 'Part of quest: Unknown Brilliant Necklace ; Gives quest series: Whether Husband Is Alive or Dead and Father''s Legacy'
+  - - Scholar Nilsson
+    - (158,40)
+    - 'Gives quest series: Cherry Crab Experiment , Vanilla , Potec''s Attack , and Plant Research Report .'
+  - - ''
+  - - Badge Expert
+    - (193,66)
+    - Exchange 2 Silver Monster Badges for a Secret Gift
+  - - Repair Expert
+    - (188,34)
+    - Can repair your equips
+  - - Bank Clerk
+    - (222,70)
+    - Use your own warehouse or corporation's warehouse.
+  - - ''
+  - - Cupid
+    - (212,64)
+    - Make this your revival place.
+  - - Aurora
+    - (?,?)
+    - Revive here if of Aurora Faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Militia Assignment-Coast Clearance
+    - 'Yes'
+    - 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    - Exp+670, Credit+35
+    - Defeat 20 Cherry Crabs
+  - - Militia Assignment-Punishing Pirate
+    - 'Yes'
+    - 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    - Exp+100, Credit+10
+    - Insert the flag into the Pirate Camp
+  - - Militia Assignment-Turtle Shell Armor
+    - 'Yes'
+    - 'Aurora Faction; Character lvl 20-35; Finished quest: Recruiting Cherry Militia'
+    - Exp+740, Credit+35
+    - Collect 10 Spine Turtle shells
+  - - ''
+  - - Citizen's Plan to Retake Property
+    - 'No'
+    - Aurora Faction; Character lvl 22+
+    - Exp+1390, Credit+75, Item
+    - Obtain A Copper, Silver and Golden Key from Piratekins and then take the treasure from the western island of Riprap Coast and return it to Cherry Leader.
+  - - Recruiting Cherry Militia
+    - 'No'
+    - Aurora Faction; Character lvl 22+
+    - Exp+1980, Credit+80
+    - Defeat 20 Spine Turtles
+  - - ''
+  - - Cherry Crab Experiment 1 of 4
+    - 'No'
+    - Aurora Faction; Character lvl 22+
+    - Exp+1780, Credit+75, Gold+1100
+    - 4 Cherry Crab shell
+  - - Vanilla 2 of 4
+    - 'No'
+    - 'Aurora Faction; Finished quest: Cherry Crab Experiment'
+    - Exp+1780, Credit+75, Gold+1500
+    - Collect 5 Vanilla Residue from Spine Turtles
+  - - Potec's Attack 3 of 4
+    - 'No'
+    - 'Aurora Faction; Finished quest: Vanilla'
+    - Exp+2400, Credit+600, Item
+    - Defeat the Blue Potec (BOSS).
+  - - Plant Research Report 4 of 4
+    - 'No'
+    - 'Aurora Faction; Finished quest: Potec''s Attack'
+    - Exp+800, Credit+30
+    - Go to Crashing Hillock and give the research report to the Scholar Yale.
+  - - ''
+  - - Whether Husband Is Alive or Dead 2 of 3
+    - 'No'
+    - 'Aurora Faction; Finished quest: Unknown Brilliant Necklace'
+    - Exp+400, Credit+70
+    - Find skeletons at Riprap Coast (42,96). Report what you find to Countrylady .
+  - - Father's Legacy 3 of 3
+    - 'No'
+    - 'Aurora Faction; Finished quest: Whether Husband Is Alive or Dead'
+    - Exp+800, Credit+65
+    - Take the bad news to Newbie Timi in Aurora City.
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Cherry Crab
+    - '24'
+    - 'No'
+    - 'No'
+    - ''
+  - - Spine Turtle
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Vice Piratekin
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Evil Crab
+    - '32'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Blue Potec
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Bright Bush
+    - (224,141)
+    - Collect level 31
+    - ''
+  - - Bandit Den
+    - (135,123)
+    - Collect level 31
+    - ''
+  - - Viburnum
+    - (24,129)
+    - Lumber level 31
+    - ''
+  - - Meteor Alga
+    - (79,48)
+    - Fishing level 31
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Blue Potec
+    - Thick Armor
+    - 4.1194%
+    - '1'
+  - - Blue Potec
+    - Leather Vest
+    - 4.1194%
+    - '1'
+  - - Blue Potec
+    - Heavy Leather Armor
+    - 0.6240%
+    - '1'
+  - - Blue Potec
+    - Light Leather Armor
+    - 0.6240%
+    - '1'
+  - - Blue Potec
+    - Ring of High Clerist
+    - 2.7456%
+    - '1'
+  - - Blue Potec
+    - Golden Shell Bag
+    - 2.7456%
+    - '1'
+  - - Blue Potec
+    - Flawed Ruby
+    - 0.6800%
+    - '1'
+  - - Blue Potec
+    - Basic Beating V
+    - 1.8304%
+    - '1'
+  - - Blue Potec
+    - Basic Attack V
+    - 1.8304%
+    - '1'
+  - - Blue Potec
+    - Basic Shot V
+    - 1.8304%
+    - '1'
+  - - Blue Potec
+    - Target Potion
+    - 15.1504%
+    - '1'
+  - - Blue Potec
+    - Agility Potion
+    - 15.1504%
+    - '1'
+  - - Blue Potec
+    - Map Piece
+    - 12.4800%
+    - '1'
+  - - Blue Potec
+    - Pestle
+    - 0.0700%
+    - '1'
+  - - Cherry Crab
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Cherry Crab
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Cherry Crab
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Cherry Crab
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Cherry Crab
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Cherry Crab
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Evil Crab
+    - Gown
+    - 6.9114%
+    - '1'
+  - - Evil Crab
+    - Protector's Gown
+    - 1.0470%
+    - '1'
+  - - Evil Crab
+    - Golden Shell Bag
+    - 2.3038%
+    - '1'
+  - - Evil Crab
+    - Ring of High Clerist
+    - 2.3038%
+    - '1'
+  - - Evil Crab
+    - Thick Armor
+    - 11.9181%
+    - '1'
+  - - Evil Crab
+    - Leather Vest
+    - 11.9181%
+    - '1'
+  - - Evil Crab
+    - Defective Orange Gem
+    - 0.2700%
+    - '1'
+  - - Evil Crab
+    - Flawed Yellow Gem
+    - 0.2700%
+    - '1'
+  - - Evil Crab
+    - Basic Beating V
+    - 1.5358%
+    - '1'
+  - - Evil Crab
+    - Basic Attack V
+    - 1.5358%
+    - '1'
+  - - Evil Crab
+    - Basic Shot V
+    - 1.5358%
+    - '1'
+  - - Evil Crab
+    - Target Potion
+    - 18.0001%
+    - '1'
+  - - Evil Crab
+    - Agility Potion
+    - 18.0001%
+    - '1'
+  - - Evil Crab
+    - Map Piece
+    - 10.4700%
+    - '1'
+  - - Evil Crab
+    - Pestle
+    - 0.0620%
+    - '1'
+  - - Spine Turtle
+    - Iron Slingshot
+    - 0.3744%
+    - '1'
+  - - Spine Turtle
+    - Token
+    - 0.3744%
+    - '1'
+  - - Spine Turtle
+    - Puppet Electrical Bow
+    - 0.0062%
+    - '1'
+  - - Spine Turtle
+    - White Token
+    - 0.0062%
+    - '1'
+  - - Spine Turtle
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Spine Turtle
+    - Flawed Ruby
+    - 0.0023%
+    - '1'
+  - - Spine Turtle
+    - Defective Orange Gem
+    - 0.0023%
+    - '1'
+  - - Spine Turtle
+    - Flawed Yellow Gem
+    - 0.0023%
+    - '1'
+  - - Vice Piratekin
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Vice Piratekin
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Vice Piratekin
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Vice Piratekin
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Vice Piratekin
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Vice Piratekin
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Vice Piratekin
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Vice Piratekin
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Vice Piratekin
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Cherry Village'
+- section: Cherry Village
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Cherry Village is a warm and friendly place to visit. You can admire the beach scenery as you stroll through the medium level NPC shops and run with the level 24 to 35 creatures.
+    There is much to do in this serene little village. You can visit with Cherry’s Leader to find out the latest happenings. If you’re the adventurous sort, then perhaps you’d like to
+    join up to the Cherry Militia with Robust Yady. If the scholarly approach is more up your alley, then make sure to visit Scholar Nilsson and ask about his research. Maybe you could
+    even try to ease the pain of saddest person in Cherry Village, the Countrylady.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

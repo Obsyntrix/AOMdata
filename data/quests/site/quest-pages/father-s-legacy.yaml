@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: father-s-legacy
+name_raw: Father S Legacy
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- cherry-village
+source:
+  origin_url: https://angels.wikidot.com/quest:father-s-legacy
+  retrieval_url: https://www.aowiki.uk/pages/quest_father-s-legacy.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 670edfb7f97380d637c1c3c3a4a88e986e5efd089d10f97e00ed621ccc80151b
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Countrylady
+    - 'No'
+    - Yes (3 of 3)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Whether Husband is Alive or Dead
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - '-'
+    - '-'
+    - '-'
+    - Finished Whether Husband is Alive or Dead
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '800'
+    - '65'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Father S Legacy'
+- section: Father S Legacy
+  text_raw: Home » Areas » Cherry Village » Father's Legacy
+- section: Summary
+  text_raw: The Countrylady is overcome with grief learning of her husband's death by pirates. She asks you to give a letter to their only child, Newbie Timi, who is studying to be in
+    the Aurora Guard,
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Countrylady (186,74), she will give you a letter . Step 2 Go to Aurora City . Step 3 Give the letter to Newbie Timi (77,75).
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

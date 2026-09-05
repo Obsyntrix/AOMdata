@@ -1,0 +1,79 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: confirmation-of-project-progress
+name_raw: Confirmation Of Project Progress
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- shadowy-path
+source:
+  origin_url: https://angels.wikidot.com/quest:confirmation-of-project-progress
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirmation-of-project-progress.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 6deac7f2f3b30aea8e2980999c5bd8eb4f9288ef8b2c1b3c8b6881508dcab7af
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Forman
+    - Shadow faction;
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Visit the Engineer and Engineer2 to see their progress, then report back to the Foreman who is too afraid to make the trip himself.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 100 Experience, 15 Credit
+- table_index: 5
+  rows_raw:
+  - - Step 1 Speak with the Forman. Step 2 Go to Engineer2 (214, 197) at the northern end of the map and get his schedule. Step 3 Go to Engineer (142, 75) at the southern end of the
+      map and get his schedule. Step 4 Return to Foreman and give him the progress schedules.
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Confirmation Of Project Progress'
+- section: Confirmation Of Project Progress
+  text_raw: Home » Areas » Shadowy Path » Confirmation of Project Progress
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

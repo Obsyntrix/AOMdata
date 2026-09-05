@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: golden-island-legend
+name_raw: Golden Island Legend
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- dawn-harbor
+source:
+  origin_url: https://angels.wikidot.com/quest:golden-island-legend
+  retrieval_url: https://www.aowiki.uk/pages/quest_golden-island-legend.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 3d3e66081fa2a758335c14ec9ca494320f0ca014d055204d8d7df9ad43a72b02
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Retired Sailor
+    - 'No'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '600'
+    - '25'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Golden Island Legend'
+- section: Golden Island Legend
+  text_raw: Home » Areas » Dawn Harbor » Golden Island Legend
+- section: Summary
+  text_raw: While fighting Turtles you find map pieces, perhaps the Retired Sailor knows what it's about?
+- section: Walkthrough
+  text_raw: Step 1 Collect Map Pieces (one item) while defeating Turtles . Step 2 Take the pieces to the Retired Sailor (31,98) and have him tell you about the Golden Island.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

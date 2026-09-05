@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: let-s-fight
+name_raw: Let's Fight
+discovered_from_regions:
+- atlantis
+discovered_from_areas:
+- golden-beach
+source:
+  origin_url: https://angels.wikidot.com/quest:let-s-fight
+  retrieval_url: https://www.aowiki.uk/pages/quest_let-s-fight.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: e5332c96622b8aaa84ae79a3265b1b2082b6f5eb85a4f89563f11b606d3f95ad
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Traveler Landy
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - The Misbehaved Son
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - 50+
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - 32 500
+    - '250'
+    - 16 500
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Let''s Fight'
+- section: Let's Fight
+  text_raw: Home » Areas » Area Name » Let's Fight
+- section: Summary
+  text_raw: ???
+- section: Walkthrough
+  text_raw: Step 1 Speak with Traveler Landy. Step 2 Defeat 35 Puqi Turtles . Step 3 Speak with Traveler Landy. Step 4 Defeat 35 Color Crabs . Step 5 Speak with Traveler Landy. Receive
+    Reward.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

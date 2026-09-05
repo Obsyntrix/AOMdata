@@ -1,0 +1,503 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: shadowy-path
+  name_raw: Shadowy Path
+source:
+  origin_url: https://angels.wikidot.com/area:shadowy-path
+  retrieval_url: https://www.aowiki.uk/pages/area_shadowy-path.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 1fa0d8d0d941053350b40383794ab6b623892a177dd5e3f1d56f79e6e7d6a3b9
+quest_links:
+- slug: annoying-tone
+  name_raw: Annoying Tone
+  retrieval_url: https://www.aowiki.uk/pages/quest_annoying-tone.html
+  origin_url: https://angels.wikidot.com/quest:annoying-tone
+- slug: confirmation-of-order-for-project-material
+  name_raw: Confirmation of Order for Project Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirmation-of-order-for-project-material.html
+  origin_url: https://angels.wikidot.com/quest:confirmation-of-order-for-project-material
+- slug: confirmation-of-project-progress
+  name_raw: Confirmation of Project Progress
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirmation-of-project-progress.html
+  origin_url: https://angels.wikidot.com/quest:confirmation-of-project-progress
+- slug: drug-of-cat-tail
+  name_raw: Drug of Cat Tail
+  retrieval_url: https://www.aowiki.uk/pages/quest_drug-of-cat-tail.html
+  origin_url: https://angels.wikidot.com/quest:drug-of-cat-tail
+- slug: evil-cat-s-attack
+  name_raw: Evil Cat's Attack
+  retrieval_url: https://www.aowiki.uk/pages/quest_evil-cat-s-attack.html
+  origin_url: https://angels.wikidot.com/quest:evil-cat-s-attack
+- slug: hurting-others-with-covert-attack
+  name_raw: Hurting Others with Covert Attack
+  retrieval_url: https://www.aowiki.uk/pages/quest_hurting-others-with-covert-attack.html
+  origin_url: https://angels.wikidot.com/quest:hurting-others-with-covert-attack
+- slug: missing-key
+  name_raw: Missing Key
+  retrieval_url: https://www.aowiki.uk/pages/quest_missing-key.html
+  origin_url: https://angels.wikidot.com/quest:missing-key
+- slug: railway-boss-worry
+  name_raw: Railway Boss' Worry
+  retrieval_url: https://www.aowiki.uk/pages/quest_railway-boss-worry.html
+  origin_url: https://angels.wikidot.com/quest:railway-boss-worry
+- slug: railway-guard
+  name_raw: Railway Guard
+  retrieval_url: https://www.aowiki.uk/pages/quest_railway-guard.html
+  origin_url: https://angels.wikidot.com/quest:railway-guard
+- slug: stolen-gun-powder
+  name_raw: Stolen Gun Powder
+  retrieval_url: https://www.aowiki.uk/pages/quest_stolen-gun-powder.html
+  origin_url: https://angels.wikidot.com/quest:stolen-gun-powder
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Sickle Soldier
+    - (213,143)
+    - Gives quests Evil Cat's Attack , Hurting Others with Covert Attack and Railway Guard .
+  - - Symbol Merchant
+    - (228,137)
+    - Gives quest Drug of Cat Tail .
+  - - Railway Boss
+    - (224,105)
+    - 'Gives the series of quests: Railway Boss'' Worry , Missing Key , Annoying Tone and Confirmation of Order for Project Material .'
+  - - Worker
+    - (231,95)
+    - Gives quest Stolen Gun Powder .
+  - - Foreman
+    - (230,104)
+    - Gives quest Confirmation of Project Progress .
+  - - Engineer
+    - (134,75)
+    - Part of quest Confirmation of Project Progress .
+  - - Engineer2
+    - (213,196)
+    - Part of quest Confirmation of Project Progress .
+  - - ''
+  - - Badge Collector
+    - (225,195)
+    - Exchange 2 Copper Badges.
+  - - ''
+  - - Dark City Totem
+    - (169,124)
+    - Shadow Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeatable
+    - Requirements
+    - Reward
+    - Short Description
+  - - Evil Cat's Attack
+    - 'Yes'
+    - Shadow Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Defeat 20 Evil Cats .
+  - - Hurting Others with Covert Attack
+    - 'Yes'
+    - Shadow Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Defeat 20 Skeletal Snipers .
+  - - ''
+  - - Railway Guard
+    - 'Yes'
+    - Any Faction; Character lvl 20+
+    - Sickle Soldier Card
+    - Sickle Soldier needs a better weapon, buy him a 1-star Piercing Hammer.
+  - - ''
+  - - Confirmation of Project Progress
+    - 'No'
+    - Shadow Faction;
+    - Exp+100, Credit+15
+    - Visit the Engineer and Engineer2 to see their progress, then report back to the Foreman .
+  - - Drug of Cat Tail
+    - 'No'
+    - Shadow Faction; Character lvl 6+
+    - Exp+700, Credit+25
+    - Defeat Evil Cats and collect 10 of their tails.
+  - - Stolen Gun Powder
+    - 'No'
+    - Shadow Faction; Character lvl 6+
+    - Exp+600, Credit+25, Gold+150
+    - Defeat Red-cloth Skulls to obtain the stolen dynamite.
+  - - ''
+  - - Railway Boss' Worry 1 of 4
+    - 'No'
+    - Shadow Faction; Character lvl 6+
+    - Exp+700, Credit+30
+    - Defeat 20 Red Cloth Skulls .
+  - - Missing Key 2 of 4
+    - 'No'
+    - Shadow Faction; Completed Quest Railway Boss' Worry
+    - Exp+600, Credit+25, Gold+200, 5 Red Potions
+    - Defeat Evil Cats to obtain the safe's key.
+  - - Annoying Tone 3 of 4
+    - 'No'
+    - Shadow Faction; Completed Quest Missing Key
+    - Exp+1140, Credit+160, Item
+    - Defeat the boss Giant Cat Cinlo to take its bell.
+  - - Confirmation of Order for Project Material 4 of 4
+    - 'No'
+    - Shadow Faction; Completed Quest Annoying Tone
+    - Exp+200, Credit+30
+    - Take an order to Merchant Pierce in Fungus Forest South .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Skeletal Rogue
+    - '9'
+    - 'No'
+    - 'No'
+    - ''
+  - - Skeletal Sniper
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Red-cloth Skull
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Evil Cat
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Skull Leader
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Giant Cat Cinlo
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Copper
+    - (130,130)
+    - Dig level 1
+    - ''
+  - - Poplar
+    - (220,20)
+    - Lumber level 1
+    - ''
+  - - Horseradish
+    - (173,33)
+    - Collect level 1
+    - ''
+  - - Wild Alga
+    - (290,75)
+    - Fishing level 1
+    - ''
+  - - Beast Den
+    - (90,100)
+    - Collect level 1
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Evil Cat
+    - Red Potion 1
+    - 2.0000%
+    - '1'
+  - - Evil Cat
+    - Blue Potion 1
+    - 2.0000%
+    - '1'
+  - - Evil Cat
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Giant Cat Cinlo
+    - Heavy Wristlet
+    - 3.4763%
+    - '1'
+  - - Giant Cat Cinlo
+    - Light Gloves
+    - 3.4763%
+    - '1'
+  - - Giant Cat Cinlo
+    - Jute Gloves
+    - 3.4763%
+    - '1'
+  - - Giant Cat Cinlo
+    - Savage Gloves
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Savage Cuff
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Angelos Gloves
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Savage Hood
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Savage Iron Helmet
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Angelos Hood
+    - 0.3159%
+    - '1'
+  - - Giant Cat Cinlo
+    - Crystal Foreman Hat
+    - 3.4761%
+    - '1'
+  - - Giant Cat Cinlo
+    - Pirate Flag
+    - 3.4761%
+    - '1'
+  - - Giant Cat Cinlo
+    - Emerald Piece
+    - 1.9000%
+    - '1'
+  - - Giant Cat Cinlo
+    - Sapphire Piece
+    - 1.9000%
+    - '1'
+  - - Giant Cat Cinlo
+    - Purple Gem Piece
+    - 1.9000%
+    - '1'
+  - - Giant Cat Cinlo
+    - Magic Fruit
+    - 18.0002%
+    - '1'
+  - - Giant Cat Cinlo
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Red-cloth Skull
+    - Jute Gloves
+    - 0.3792%
+    - '1'
+  - - Red-cloth Skull
+    - Heavy Wristlet
+    - 0.3792%
+    - '1'
+  - - Red-cloth Skull
+    - Light Gloves
+    - 0.3792%
+    - '1'
+  - - Red-cloth Skull
+    - Savage Gloves
+    - 0.0063%
+    - '1'
+  - - Red-cloth Skull
+    - Savage Cuff
+    - 0.0063%
+    - '1'
+  - - Red-cloth Skull
+    - Angelos Gloves
+    - 0.0063%
+    - '1'
+  - - Red-cloth Skull
+    - Emerald Piece
+    - 0.0190%
+    - '1'
+  - - Red-cloth Skull
+    - Sapphire Piece
+    - 0.0190%
+    - '1'
+  - - Red-cloth Skull
+    - Purple Gem Piece
+    - 0.0190%
+    - '1'
+  - - Red-cloth Skull
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Red-cloth Skull
+    - Red-cloth Skull card
+    - 0.0800%
+    - '1'
+  - - Skeletal Rogue
+    - Biscuits
+    - 2.0000%
+    - '1'
+  - - Skeletal Rogue
+    - Magic Grass
+    - 2.0000%
+    - '1'
+  - - Skeletal Rogue
+    - Skeletal Rogue card
+    - 0.0800%
+    - '1'
+  - - Skeletal Sniper
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Skeletal Sniper
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Skeletal Sniper
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Skeletal Sniper
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Skeletal Sniper
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Skeletal Sniper
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Skeletal Sniper
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Skeletal Sniper
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Skeletal Sniper
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Skeletal Sniper
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Skeletal Sniper
+    - Skeletal Sniper card
+    - 0.0800%
+    - '1'
+  - - Skull Leader
+    - Heavy Boots
+    - 3.4763%
+    - '1'
+  - - Skull Leader
+    - Legwrap Sandals
+    - 3.4763%
+    - '1'
+  - - Skull Leader
+    - Sandals
+    - 3.4763%
+    - '1'
+  - - Skull Leader
+    - Savage Sandle
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Savage Boots
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Angelos Sandals
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Savage Hood
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Savage Iron Helmet
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Angelos Hood
+    - 0.3159%
+    - '1'
+  - - Skull Leader
+    - Crystal Foreman Hat
+    - 3.4761%
+    - '1'
+  - - Skull Leader
+    - Pirate Flag
+    - 3.4761%
+    - '1'
+  - - Skull Leader
+    - Ruby Piece
+    - 1.9000%
+    - '1'
+  - - Skull Leader
+    - Orange Gem Piece
+    - 1.9000%
+    - '1'
+  - - Skull Leader
+    - Yellow Gem Piece
+    - 1.9000%
+    - '1'
+  - - Skull Leader
+    - Fruit of Hercules
+    - 18.0002%
+    - '1'
+  - - Skull Leader
+    - Map Piece
+    - 15.8000%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Shadowy Path'
+- section: Shadowy Path
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Dark City , Bottomless Pit , Fungus Forest South
+- section: Description
+  text_raw: The Railway project is being held up in Shadowy Path by the level 9 to 17 monsters. The locals here need help dealing with them. Be sure to check out the Symbol Merchant’s
+    most sought after spell. And remember to wear ear plugs, the sound of the cat’s bell might leave you dumbstruck.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

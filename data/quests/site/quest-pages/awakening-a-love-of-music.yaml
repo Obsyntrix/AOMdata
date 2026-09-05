@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: awakening-a-love-of-music
+name_raw: Awakening A Love Of Music
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- sunflower-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:awakening-a-love-of-music
+  retrieval_url: https://www.aowiki.uk/pages/quest_awakening-a-love-of-music.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 1708f0dc85a334a1541a6f92eafe2e5e1f5efba9f11ebb878da5deb216226f96
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Gardener
+    - 'No'
+    - Yes (2 of 4)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Noise Pollution
+    - Rare Sheep Score
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 10+
+    - '-'
+    - '-'
+    - Finished Noise Pollution
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1300'
+    - '55'
+    - '350'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Awakening A Love Of Music'
+- section: Awakening A Love Of Music
+  text_raw: Home » Areas » Sunflower Plain » Awakening a Love of Music
+- section: Summary
+  text_raw: The Gardener believes the sheep's music to be beautiful and wishes he could learn to play. He asks you to find him a Flute.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Gardener (53,107). Step 2 Defeat Tone Sheep until you obtain one of their Magic Flutes . Step 3 Give the Flute to the Gardener.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: fantastic-tree-elf
+name_raw: Fantastic Tree Elf
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- mysterious-wetland
+source:
+  origin_url: https://angels.wikidot.com/quest:fantastic-tree-elf
+  retrieval_url: https://www.aowiki.uk/pages/quest_fantastic-tree-elf.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 91149c29ebde52efc071dd3b8c9963df9a809a353398977ac4d1c5d75986bb69
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Researcher Mary
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 35 to 50
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1100'
+    - '45'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Fantastic Tree Elf'
+- section: Fantastic Tree Elf
+  text_raw: Home » Areas » Mysterious Wetland » Fantastic Tree Elf
+- section: Summary
+  text_raw: Researcher Mary can't get into the wetlands to study them because of the Tree Elves , she asks for your help.
+- section: Walkthrough
+  text_raw: Step 1 Speak to Researcher Mary (). Step 2 Defeat 45 Tree Elves . Step 3 Report back to Researcher Mary.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

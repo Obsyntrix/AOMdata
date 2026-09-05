@@ -1,0 +1,82 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: investigate-evil-food
+name_raw: Investigate Evil Food
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- megalith-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:investigate-evil-food
+  retrieval_url: https://www.aowiki.uk/pages/quest_investigate-evil-food.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: aad3060802c4377773a05fbfe812801ebee4613eed879714495618a93573949b
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Angel Inspector
+    - Finished Battle with Asmode
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Food Material Collection
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - People is getting mad everywhere. Angel Inspector wants you to find out whats making them crazy.
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Investigate Evil Food'
+- section: Investigate Evil Food
+  text_raw: Home » Areas » Megalith Plain » Investigate Evil Food
+- section: Walkthrough
+  text_raw: Step 1 Talk to Machel in Iron Castle. Step 2 Talk to Romier in Dark City. Step 3 Talk to Michael in Breeze Woods. Step 4 Talk to Nemize in Aurora City. Step 5 Report to Angel
+    Inspector .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

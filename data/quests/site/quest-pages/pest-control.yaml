@@ -1,0 +1,92 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: pest-control
+name_raw: Pest Control
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- flaming-door
+source:
+  origin_url: https://angels.wikidot.com/quest:pest-control
+  retrieval_url: https://www.aowiki.uk/pages/quest_pest-control.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: bcd36bb8d7f8f756729a106e2262a7ee4ca61296fc56f75e1f1ecc4e0233a089
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Heavenly Officer
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - 28,000
+    - '500'
+    - 12,500
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Pest Control'
+- section: Pest Control
+  text_raw: Home » Areas » Flaming Door » Pest Control
+- section: Walkthrough
+  text_raw: Step 1 Kill 30 Hungry Fly , 30 Flame Fly , and 20 Evil Fly at Magic Kitchen Path . Report back to Heavenly Officer Step 2 Get 10 Egg Sample from Gold Fly in Gulp Room . Report
+    back to Heavenly Officer to get your rewards
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

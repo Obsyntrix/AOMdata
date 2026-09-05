@@ -1,0 +1,96 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: aurora-are-you-evil-enough
+name_raw: Are You Evil Enough
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- riprap-coast
+source:
+  origin_url: https://angels.wikidot.com/quest:aurora-are-you-evil-enough
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5ab153a02f613d037ad7c10c3e312e12a04f7bd15f1f6ed465ddfc5b949870ea
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Asmode
+    - 'No'
+    - 'Yes (Asmode: 6 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Obtaining Asmode's Trust
+    - Magic Stone
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - '20'
+    - '2'
+    - '-'
+    - Finished Obtaining Asmode's Trust and Citizen's Plan to Retake Property
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '500'
+    - '25'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Are You Evil Enough'
+- section: Are You Evil Enough
+  text_raw: Home » Areas » Cherry Village » Are you Evil Enough?
+- section: Summary
+  text_raw: Asmode doesn't trust you, so he asks you to rob treasure from Cherry Village.
+- section: Walkthrough
+  text_raw: 'Step 1 Speak with Asmode (262,178) in Riprap Coast , he will ask you to prove yourself because he isn''t sure you''re a Pirate. Step 2 Not sure what to do, you go to Dawn
+    Harbor and speak with the Spy Angel (70,177). Step 3 The Spy Angel tells you to go to Cherry Village . Step 4 In Cherry Village speak to Cherry''s Leader (235,73) and he will give
+    you a bag of pearls. (Note: You must already have completed the quest Citizen''s Plan to Retake Property to get the pearls.) Step 5 Take the pearls back to Riprap Coast and hand
+    them to Asmode (262,178). He will give you a Magic Stone (which will not appear in your inventory).'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

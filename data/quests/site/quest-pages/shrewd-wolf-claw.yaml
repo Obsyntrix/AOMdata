@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: shrewd-wolf-claw
+name_raw: Shrewd Wolf Claw
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- megalith-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:shrewd-wolf-claw
+  retrieval_url: https://www.aowiki.uk/pages/quest_shrewd-wolf-claw.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0dca70f1676bb9435f30cad3d46a22db5cb09d59da0bcbf2dcb1ad6c189e960e
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Archeologist
+    - Character lvl 27 to 40
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Archeologist Kuber is interested in the use of the wolf claws, please collect 5 Green Wolf Claws by defeating Green Wolves .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 700 Experience, 37 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Shrewd Wolf Claw'
+- section: Shrewd Wolf Claw
+  text_raw: Home » Areas » Megalith Plain » Shrewd Wolf Claw
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Archeologist . Step 2 Defeat Green Wolves until you have collected 5 claws. Step 3 Give them to the Archeologist .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

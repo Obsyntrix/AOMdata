@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: bury
+name_raw: Bury
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- dragon-graveyard
+source:
+  origin_url: https://angels.wikidot.com/quest:bury
+  retrieval_url: https://www.aowiki.uk/pages/quest_bury.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 411f712cc63ef2f8010f42306f502f58e855ec65ceb3635e3565a764202ee45a
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Paladin Gerison
+    - Character lvl 35 to 50
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Gerison asks you to defeat Ancient Soldiers and collect 10 Complete Skeletons to bury them in Aurora City where they belong.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1000 Experience, 42 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Bury'
+- section: Bury
+  text_raw: Home » Areas » Dragon Graveyard » Bury
+- section: Walkthrough
+  text_raw: Step 1 Speak with Paladin Gerison . Step 2 Defeat Ancient Soldiers until you collect 10 Corpses. Step 3 Bring them to Paladin Gerison .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

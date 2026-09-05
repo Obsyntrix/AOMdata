@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: rare-lizard-s-skin
+name_raw: Rare Lizards Skin
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- wishing-tear
+source:
+  origin_url: https://angels.wikidot.com/quest:rare-lizard-s-skin
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-lizard-s-skin.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b9abeb5f5b2de384560a66b728feacb9c4c8289147be67938ec4d116b81a70a5
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Desert Trip
+    - Character of Steel Faction with Lvl between 6 and 20
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Evil Student Union Leader
+    - Rare Toad's Skin
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Collect 10 [Lizard's skin] from the Desert Lizards . A random quest given by Desert Trip, repeatable.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - EXP+320,Honor+10
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Rare Lizards Skin'
+- section: Rare Lizards Skin
+  text_raw: Home » Areas » Wishing Teaar » Rare Lizards Skin
+- section: Walkthrough
+  text_raw: Step 1 Talk to Desert Trip. Step 2 Collect 10 [Lizard's skin] from the Desert Lizards . Step 3 Talk to Desert Trip again.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

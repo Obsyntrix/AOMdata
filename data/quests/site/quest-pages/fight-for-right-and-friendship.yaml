@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: fight-for-right-and-friendship
+name_raw: Fight For Right And Friendship
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- sad-abyss
+source:
+  origin_url: https://angels.wikidot.com/quest:fight-for-right-and-friendship
+  retrieval_url: https://www.aowiki.uk/pages/quest_fight-for-right-and-friendship.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5a068a729d8d7e13087ab60512b2894340c79de87a69c5c471fd7d133feedd23
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Warrior Athor
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - '55'
+    - Any
+    - Any
+    - Any
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - 22,500
+    - '220'
+    - 10,000
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Fight For Right And Friendship'
+- section: Fight For Right And Friendship
+  text_raw: Home » Areas » Sad Abyss » Fight For Right And Friendship
+- section: Summary
+  text_raw: kill Rock God Mendun
+- section: Walkthrough
+  text_raw: Step 1 Go to Magic Kitchen Path kill Rock God Mendun Step 2 Spoke back to Warrior Athor to get your reward
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

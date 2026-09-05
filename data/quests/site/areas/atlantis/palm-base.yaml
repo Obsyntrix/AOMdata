@@ -1,0 +1,664 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: palm-base
+  name_raw: Palm Base
+source:
+  origin_url: https://angels.wikidot.com/area:palm-base
+  retrieval_url: https://www.aowiki.uk/pages/area_palm-base.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: d6c33e2c49f0cdc62481f12718268bc52c4bdad7080856532f1abc216fcdb05f
+quest_links:
+- slug: aborigines-threat
+  name_raw: Aborigines Threat
+  retrieval_url: https://www.aowiki.uk/pages/quest_aborigines-threat.html
+  origin_url: https://angels.wikidot.com/quest:aborigines-threat
+- slug: andsen-s-test
+  name_raw: Andsen's Test
+  retrieval_url: https://www.aowiki.uk/pages/quest_andsen-s-test.html
+  origin_url: https://angels.wikidot.com/quest:andsen-s-test
+- slug: blockade-under-the-sea
+  name_raw: Blockade under the Sea
+  retrieval_url: https://www.aowiki.uk/pages/quest_blockade-under-the-sea.html
+  origin_url: https://angels.wikidot.com/quest:blockade-under-the-sea
+- slug: curving-material
+  name_raw: Curving Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_curving-material.html
+  origin_url: https://angels.wikidot.com/quest:curving-material
+- slug: far-away-from-gravity
+  name_raw: Far Away from Gravity
+  retrieval_url: https://www.aowiki.uk/pages/quest_far-away-from-gravity.html
+  origin_url: https://angels.wikidot.com/quest:far-away-from-gravity
+- slug: heavy-material
+  name_raw: Heavy Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_heavy-material.html
+  origin_url: https://angels.wikidot.com/quest:heavy-material
+- slug: octopus-the-robber
+  name_raw: Octopus, the Robber
+  retrieval_url: https://www.aowiki.uk/pages/quest_octopus-the-robber.html
+  origin_url: https://angels.wikidot.com/quest:octopus-the-robber
+- slug: purify
+  name_raw: Purify
+  retrieval_url: https://www.aowiki.uk/pages/quest_purify.html
+  origin_url: https://angels.wikidot.com/quest:purify
+- slug: sharp-material
+  name_raw: Sharp Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_sharp-material.html
+  origin_url: https://angels.wikidot.com/quest:sharp-material
+- slug: stiff-material
+  name_raw: Stiff Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_stiff-material.html
+  origin_url: https://angels.wikidot.com/quest:stiff-material
+- slug: the-ancient-yatiss-culture
+  name_raw: The Ancient Yatiss Culture
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-ancient-yatiss-culture.html
+  origin_url: https://angels.wikidot.com/quest:the-ancient-yatiss-culture
+- slug: transparent-material
+  name_raw: Transparent Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_transparent-material.html
+  origin_url: https://angels.wikidot.com/quest:transparent-material
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Villiersas
+    - (???,???)
+    - 'Gives quest: Nature Calling For Help'
+  - - General Campbell
+    - (185,99)
+    - 'Gives quest: Aborigines'' Threat'
+  - - Ocean Scholar
+    - (287,135)
+    - 'Gives quest: Purify'
+  - - Disciple Andsen
+    - (151,151)
+    - 'Gives quest: Andsen''s Test and material quests for cards'
+  - - Gravity Boffin
+    - (178,122)
+    - 'Gives quest: Far Away from Gravity'
+  - - Merchant Kulepas
+    - (190,33)
+    - 'Gives quest: Octopus, the Robber'
+  - - Scholar Oxford
+    - (86,15)
+    - 'Gives quest: The Ancient Yatiss Culture'
+  - - ''
+  - - Cupid
+    - (157,76)
+    - Make this your revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Purify
+    - 'Yes'
+    - ???
+    - '?'
+    - Collect 200 Pollutions from underwater resources
+  - - ''
+  - - Far Away from Gravity
+    - 'Yes'
+    - ???
+    - Card
+    - Talk to Fatz at Flaming Door …
+  - - ''
+  - - Andsen's Test
+    - 'Yes'
+    - none
+    - Card
+    - Collect All materials lvl 61
+  - - Sharp Material
+    - 'Yes'
+    - 'Finished quest: Andsen''s Test'
+    - Card
+    - Get a Horn from ?Death Soul? and Teeth from Horn Dragon
+  - - Heavy Material
+    - 'Yes'
+    - 'Finished quest: Andsen''s Test'
+    - Card
+    - Get a Ball from Sealed Elf Lord and 10 Mystic Ores from Terra Miners
+  - - Stiff Material
+    - 'Yes'
+    - 'Finished quest: Andsen''s Test'
+    - Card
+    - Get 10 Cores from Rock Slarms and a Skin from Overlord Legte
+  - - Curving Material
+    - 'Yes'
+    - 'Finished quest: Andsen''s Test'
+    - Card
+    - Get a Spine from Horn Dragon and 20 bandages from Fire Mummy's
+  - - Transparent Material
+    - 'Yes'
+    - 'Finished quest: Andsen''s Test'
+    - Card
+    - Get a Staff Crystal from Riddle Bishop and 20 wings from Heat Elves
+  - - ''
+  - - Aborigines Threat
+    - 'No'
+    - ???
+    - Exp+45000, Credit+350, Gold+30000
+    - Defeat 40 Puqi Locals , 35 Puqi Warriors and Pontiff Hululu (Boss)
+  - - Octopus, the Robber
+    - 'No'
+    - Character Lvl 90+
+    - '?'
+    - Defeat Blade Octopuses and collect 15 Robbed Goods at Evil Ship
+  - - The Ancient Yatiss Culture
+    - 'No'
+    - Character Lvl 90+
+    - '?'
+    - Defeat Hicalu 1 (Boss) at Lost Region
+  - - Blockade under the Sea
+    - 'No'
+    - '?'
+    - '?'
+    - Defeat 35 Jelly fish at Wave Harbor
+  - - Nature Calling For Help
+    - 'No'
+    - '?'
+    - '?'
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Blade Octopus
+    - Whale Falchion
+    - 0.0297%
+    - '1'
+  - - Blade Octopus
+    - Espial Gown
+    - 0.0297%
+    - '1'
+  - - Blade Octopus
+    - Solu Guard
+    - 0.0000%
+    - '1'
+  - - Blade Octopus
+    - Magnetic Gown
+    - 0.0000%
+    - '1'
+  - - Blade Octopus
+    - Flawless Ruby
+    - 0.0008%
+    - '1'
+  - - Fire Mummy
+    - Energy Hood
+    - 0.0313%
+    - '1'
+  - - Fire Mummy
+    - Sound Hood
+    - 0.0003%
+    - '1'
+  - - Fire Mummy
+    - Shake Axe
+    - 0.0004%
+    - '1'
+  - - Fire Mummy
+    - Fire Guard Cuffs
+    - 0.0004%
+    - '1'
+  - - Fire Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Fire Mummy
+    - Fire Mummy Card
+    - 0.0069%
+    - '1'
+  - - Heat Elf
+    - Hard-leather Cap
+    - 0.0331%
+    - '1'
+  - - Heat Elf
+    - Round Iron Helmet
+    - 0.0331%
+    - '1'
+  - - Heat Elf
+    - Defensive Cap
+    - 0.0055%
+    - '1'
+  - - Heat Elf
+    - Full-face Helmet
+    - 0.0055%
+    - '1'
+  - - Heat Elf
+    - Eagle Hood
+    - 0.0006%
+    - '1'
+  - - Heat Elf
+    - Golden Full-face Helmet
+    - 0.0006%
+    - '1'
+  - - Heat Elf
+    - Map Piece
+    - 0.1102%
+    - '1'
+  - - Heat Elf
+    - Wit Staff
+    - 0.0152%
+    - '1'
+  - - Heat Elf
+    - Libelice's Torture
+    - 0.0001%
+    - '1'
+  - - Hicalu 1
+    - Skeleton Hammer
+    - 7.6233%
+    - '1'
+  - - Hicalu 1
+    - Chief Helmet
+    - 7.6233%
+    - '1'
+  - - Hicalu 1
+    - Chief Armor
+    - 7.6233%
+    - '1'
+  - - Hicalu 1
+    - Shalio's Bone
+    - 0.0076%
+    - '1'
+  - - Hicalu 1
+    - Fane Helmet
+    - 0.0076%
+    - '1'
+  - - Hicalu 1
+    - Fane Armor
+    - 0.0076%
+    - '1'
+  - - Hicalu 1
+    - 'Assassin Skill: Skilled Assassination V'
+    - 0.0057%
+    - '1'
+  - - Hicalu 1
+    - Fury Attack V
+    - 0.0057%
+    - '1'
+  - - Hicalu 1
+    - Demon Sealed V
+    - 0.0057%
+    - '1'
+  - - Hicalu 1
+    - Silence V
+    - 0.0057%
+    - '1'
+  - - Hicalu 1
+    - Flawless Purple Gem
+    - 0.1178%
+    - '1'
+  - - Hicalu 1
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Hicalu 1
+    - Effective Mighty Fruit
+    - 74.5931%
+    - '1'
+  - - Hicalu 1
+    - Hicalu Ship 1 Card
+    - 0.6614%
+    - '1'
+  - - Hicalu 1
+    - Undying Energy
+    - 5.0000%
+    - '3'
+  - - Horn Dragon
+    - Hunter Cuffs
+    - 0.9300%
+    - '1'
+  - - Horn Dragon
+    - Light Necklace
+    - 0.9300%
+    - '1'
+  - - Horn Dragon
+    - Forest Cuffs
+    - 0.0039%
+    - '1'
+  - - Horn Dragon
+    - Heaven Light
+    - 0.0039%
+    - '1'
+  - - Horn Dragon
+    - Rushing V
+    - 0.0077%
+    - '1'
+  - - Horn Dragon
+    - Pestle
+    - 0.6639%
+    - '1'
+  - - Horn Dragon
+    - Great Magic Fruit
+    - 48.1975%
+    - '1'
+  - - Horn Dragon
+    - Great Agility Potion
+    - 47.6394%
+    - '1'
+  - - Horn Dragon
+    - Horn Dragon Card
+    - 0.9260%
+    - '1'
+  - - Overlord Legte
+    - Cutter's Axe
+    - 1.5200%
+    - '1'
+  - - Overlord Legte
+    - Elar's Leaf
+    - 0.0063%
+    - '1'
+  - - Overlord Legte
+    - Recovery Shield V
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - Tendril Entangle V
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - 'Illusion Skill: Amazing Avatar V'
+    - 0.0021%
+    - '1'
+  - - Overlord Legte
+    - Winter Sword
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Mage Gown
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Clean Emerald
+    - 0.0190%
+    - '1'
+  - - Overlord Legte
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Overlord Legte
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Overlord Legte
+    - Shoes Shards
+    - 2.0000%
+    - '1'
+  - - Overlord Legte
+    - Energy Crystal
+    - 61.5347%
+    - '6'
+  - - Overlord Legte
+    - Short Tight Gloves
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Black Knights Armor
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Tight Leather Gloves
+    - 11.1987%
+    - '1'
+  - - Overlord Legte
+    - Overlord Legte Card
+    - 0.5346%
+    - '1'
+  - - Pontiff Hululu
+    - Fire Guard Armor
+    - 1.7950%
+    - '1'
+  - - Pontiff Hululu
+    - Energy Gown
+    - 1.7950%
+    - '1'
+  - - Pontiff Hululu
+    - Knight Armor
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - Sound Gown
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - Clean Purple Gem
+    - 0.1800%
+    - '1'
+  - - Pontiff Hululu
+    - Pestle
+    - 0.2393%
+    - '1'
+  - - Pontiff Hululu
+    - Medium Mighty Fruit
+    - 46.9340%
+    - '1'
+  - - Pontiff Hululu
+    - Medium Target Potion
+    - 42.6260%
+    - '1'
+  - - Pontiff Hululu
+    - Pontiff Hululu Card
+    - 0.9259%
+    - '1'
+  - - Pontiff Hululu
+    - 'Assassin Skill: Poisoned Dagger V'
+    - 0.0299%
+    - '1'
+  - - Pontiff Hululu
+    - 'Assassin Skill: Skilled Stab V'
+    - 0.0299%
+    - '1'
+  - - Puqi Local
+    - Heavy Cap
+    - 0.0129%
+    - '1'
+  - - Puqi Local
+    - Iron Gloves
+    - 0.0129%
+    - '1'
+  - - Puqi Local
+    - Scale Cap
+    - 0.0002%
+    - '1'
+  - - Puqi Local
+    - Knight Gloves
+    - 0.0002%
+    - '1'
+  - - Puqi Local
+    - Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Puqi Warrior
+    - Tight Leather Gloves
+    - 0.0135%
+    - '1'
+  - - Puqi Warrior
+    - Magic Boots
+    - 0.0135%
+    - '1'
+  - - Puqi Warrior
+    - Scale Shell
+    - 0.0002%
+    - '1'
+  - - Puqi Warrior
+    - Slarm's Boots
+    - 0.0002%
+    - '1'
+  - - Puqi Warrior
+    - Ruby
+    - 0.0013%
+    - '1'
+  - - Riddle Bishop
+    - Mage Cuffs
+    - 0.0152%
+    - '1'
+  - - Riddle Bishop
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Riddle Bishop
+    - Clean Purple Gem
+    - 0.0002%
+    - '1'
+  - - Riddle Bishop
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Rock Slarm
+    - Hermit Armor
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Anchoret Armor
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Circus Elephant
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Hermit Helmet
+    - 0.0007%
+    - '1'
+  - - Rock Slarm
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Rock Slarm
+    - Light Necklace
+    - 0.0127%
+    - '1'
+  - - Rock Slarm
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Rock Slarm Card
+    - 0.0208%
+    - '1'
+  - - Rock Slarm
+    - Fire Guard Boots
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Knight Boots
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Hermit Cuffs
+    - 0.0003%
+    - '1'
+  - - Sealed Elf Lord
+    - Hunter Boots
+    - 1.5200%
+    - '1'
+  - - Sealed Elf Lord
+    - Forest Boots
+    - 0.0063%
+    - '1'
+  - - Sealed Elf Lord
+    - Fireproof Trap V
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Dodge Step V
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Mue Duck Robot
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Hunter Cuffs
+    - 0.0379%
+    - '1'
+  - - Sealed Elf Lord
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Sealed Elf Lord
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Sealed Elf Lord
+    - Great Magic Fruit
+    - 48.3855%
+    - '1'
+  - - Sealed Elf Lord
+    - Great Healing Potion
+    - 48.8406%
+    - '1'
+  - - Terra Miner
+    - Hunter Boots
+    - 0.0141%
+    - '1'
+  - - Terra Miner
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Terra Miner
+    - Cutter's Axe
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Wind Wings
+    - 0.0001%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Palm Base'
+- section: Palm Base
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Located in the middle and southern part of Puqi Island, it is a new base built by Iron Castle. It is divided into 5 parts, including four special parts for the four factions
+    around the base and a part for commerce and sightseeing in the middle. Many Angels come from great distances to gather here and prepare for their underwater exploration.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

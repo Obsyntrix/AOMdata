@@ -1,0 +1,1301 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: magic-kitchen-path
+  name_raw: Magic Kitchen Path
+source:
+  origin_url: https://angels.wikidot.com/area:magic-kitchen-path
+  retrieval_url: https://www.aowiki.uk/pages/area_magic-kitchen-path.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 34bfd2957bb350abd8b378c6db1314408d3bdd1cfaa527958d98a065f60fcad5
+quest_links: []
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Poo Poo Demon1
+    - '56'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Hungry Fly
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Mud Lord (Summon)
+    - '50'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Guard Fasit (Summon)
+    - '60'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Hell Slave2
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+    - ''
+  - - Evil Fly
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rotten Seeker
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+    - ''
+  - - Guard Fire Barft (Summon)
+    - '62'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Poo Poo Demon2
+    - '56'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fossa Rat
+    - '58'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Tail Rotten Rat
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rat Mosi (Boss)
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Doped Up Elf
+    - '58'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Soul-eating Worm (Summon)
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Soul-eating Demon (Summon)
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Soul-eater Slalin (Boss)
+    - '65'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Flame Fly
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Hot Wildfire
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Air Hole
+    - '62'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Slarm 2
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock God Mendun (Summon)
+    - '75'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Hungry Eater
+    - '62'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Charming Flower 2
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Miner 2
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Azrael Hook
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fetor Slarm
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Blood Pillar
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Iron Guard
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Blaze Fly
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Cook (Boss)
+    - '82'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Evil Cook2 (Boss)
+    - '82'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 2
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Azrael Hook
+    - Shake Axe
+    - 0.0240%
+    - '1'
+  - - Azrael Hook
+    - Nemesis Axe
+    - 0.0002%
+    - '1'
+  - - Azrael Hook
+    - Dida Cayman Robot
+    - 0.0001%
+    - '1'
+  - - Azrael Hook
+    - Energy Cuffs
+    - 0.0007%
+    - '1'
+  - - Azrael Hook
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Azrael Hook
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Wind Wings
+    - 0.8250%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Rotten Shield
+    - 0.8250%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Holy Shield
+    - 0.0034%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Pestle
+    - 0.5874%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Hat Shards
+    - 2.0000%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Energy Crystal
+    - 59.7092%
+    - '10'
+  - - Beelzebub (Evil Cook)
+    - Light Breastplate
+    - 11.9744%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Black Knights Helmet
+    - 11.9744%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Magic Boots
+    - 11.9744%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Wit Staff
+    - 1.6500%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Libelice's Torture
+    - 0.0069%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Noble Elephant
+    - 0.0034%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Clean Purple Gem
+    - 0.0206%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Magic Gown
+    - 11.6730%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Code Cap
+    - 11.6730%
+    - '1'
+  - - Beelzebub (Evil Cook)
+    - Iron Gloves
+    - 11.6730%
+    - '1'
+  - - Charming Flower
+    - Fire Guard Helmet
+    - 1.2700%
+    - '1'
+  - - Charming Flower
+    - Knight Helmet
+    - 0.0053%
+    - '1'
+  - - Charming Flower
+    - Injury Cure V
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - 'Tactics Skill: Ghostly Tactics V'
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - Circus Elephant
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - Hermit Armor
+    - 0.0159%
+    - '1'
+  - - Charming Flower
+    - Holy Manteau
+    - 0.0159%
+    - '1'
+  - - Charming Flower
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Charming Flower
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Charming Flower
+    - Medium Healing Potion
+    - 48.5712%
+    - '1'
+  - - Charming Flower
+    - Medium Evil Fruit
+    - 46.2859%
+    - '1'
+  - - Charming Flower
+    - Charming Flower Card
+    - 0.9260%
+    - '1'
+  - - Doped Up Elf
+    - Army Knife
+    - 0.0166%
+    - '1'
+  - - Doped Up Elf
+    - Huge Axe
+    - 0.0166%
+    - '1'
+  - - Doped Up Elf
+    - War Axe
+    - 0.0014%
+    - '1'
+  - - Doped Up Elf
+    - Curse Refining
+    - 0.0014%
+    - '1'
+  - - Doped Up Elf
+    - Devil Wings
+    - 0.0014%
+    - '1'
+  - - Doped Up Elf
+    - Adas's Blade
+    - 0.0003%
+    - '1'
+  - - Doped Up Elf
+    - Rainbow Axe
+    - 0.0003%
+    - '1'
+  - - Doped Up Elf
+    - Map Piece
+    - 0.0552%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Energy Crystal x 10
+    - 47,82%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Advanced Magic Gown
+    - 15,93%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Code Cap
+    - 15,93%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Royal Iron Gloves
+    - 15,93%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Torn Hat Shards
+    - 2.00%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Wit Staff
+    - 1.65%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Pestle
+    - 0.59%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Good Wit Staff
+    - 0.12%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - A.Plan 2:Wit Staff
+    - 0.04%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Clean Purple Gem
+    - 0.02%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Libelice's Torture
+    - 0.01%
+    - '1'
+  - - Evil Cook Beelzebub 2
+    - Blue Noble Elephant
+    - 0.01%
+    - '1'
+  - - Evil Fly
+    - Iron Gloves
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Tight Leather Gloves
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Magic Gloves
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Weighty Iron Boots
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Thick-soled Boots
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Magic Boots
+    - 0.0045%
+    - '1'
+  - - Evil Fly
+    - Map Piece
+    - 0.0449%
+    - '1'
+  - - Fetor Slarm
+    - Energy Cuffs
+    - 0.0259%
+    - '1'
+  - - Fetor Slarm
+    - Sound Gloves
+    - 0.0002%
+    - '1'
+  - - Fetor Slarm
+    - Stiff Beetle
+    - 0.0001%
+    - '1'
+  - - Fetor Slarm
+    - Hermit Armor
+    - 0.0007%
+    - '1'
+  - - Fetor Slarm
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Fetor Slarm
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Fetor Slarm
+    - Hunter Armor
+    - 0.0146%
+    - '1'
+  - - Fetor Slarm
+    - Forest Armor
+    - 0.0001%
+    - '1'
+  - - Flame Fly
+    - Crusader's Sword
+    - 0.0120%
+    - '1'
+  - - Flame Fly
+    - War Axe
+    - 0.0120%
+    - '1'
+  - - Flame Fly
+    - Crusader's Shield
+    - 0.0120%
+    - '1'
+  - - Flame Fly
+    - Rose Sword
+    - 0.0002%
+    - '1'
+  - - Flame Fly
+    - Fish Axe
+    - 0.0002%
+    - '1'
+  - - Flame Fly
+    - Vein Shield
+    - 0.0002%
+    - '1'
+  - - Flame Fly
+    - Map Piece
+    - 0.0598%
+    - '1'
+  - - Fossa Rat
+    - Trident
+    - 0.0166%
+    - '1'
+  - - Fossa Rat
+    - Spinning Slingshot
+    - 0.0166%
+    - '1'
+  - - Fossa Rat
+    - Magic Stick
+    - 0.0011%
+    - '1'
+  - - Fossa Rat
+    - Curse Refining
+    - 0.0011%
+    - '1'
+  - - Fossa Rat
+    - Devil Wings
+    - 0.0011%
+    - '1'
+  - - Fossa Rat
+    - Spear of Yugo
+    - 0.0002%
+    - '1'
+  - - Fossa Rat
+    - Splash Slingshot
+    - 0.0002%
+    - '1'
+  - - Fossa Rat
+    - Fiery Staff
+    - 0.0002%
+    - '1'
+  - - Fossa Rat
+    - Map Piece
+    - 0.0552%
+    - '1'
+  - - Guard Fasit
+    - Fire Guard Armor
+    - 3.5900%
+    - '1'
+  - - Guard Fasit
+    - Knight Armor
+    - 0.0598%
+    - '1'
+  - - Guard Fasit
+    - Fireball Hit V
+    - 0.0299%
+    - '1'
+  - - Guard Fasit
+    - Double Shot V
+    - 0.0299%
+    - '1'
+  - - Guard Fasit
+    - Repair Duck Robot
+    - 0.0299%
+    - '1'
+  - - Guard Fasit
+    - Energy Hood
+    - 0.1794%
+    - '1'
+  - - Guard Fasit
+    - Power Shield
+    - 0.1794%
+    - '1'
+  - - Guard Fasit
+    - Pestle
+    - 0.2393%
+    - '1'
+  - - Guard Fasit
+    - Map Piece
+    - 0.9000%
+    - '1'
+  - - Guard Fasit
+    - Energy Crystal
+    - 45.9234%
+    - '1'
+  - - Guard Fasit
+    - Iron Boots
+    - 14.9948%
+    - '1'
+  - - Guard Fasit
+    - Faquir Gloves
+    - 14.9948%
+    - '1'
+  - - Guard Fasit
+    - Weighty Bard
+    - 14.9948%
+    - '1'
+  - - Guard Fasit
+    - Guard Fasit Card
+    - 2.7778%
+    - '1'
+  - - Guard Fire Barft
+    - Hermit Helmet
+    - 2.3100%
+    - '1'
+  - - Guard Fire Barft
+    - Anchoret Helmet
+    - 0.0192%
+    - '1'
+  - - Guard Fire Barft
+    - Swiftness Song V
+    - 0.0096%
+    - '1'
+  - - Guard Fire Barft
+    - Advanced Beat V
+    - 0.0096%
+    - '1'
+  - - Guard Fire Barft
+    - Circus Elephant
+    - 0.0096%
+    - '1'
+  - - Guard Fire Barft
+    - Fire Guard Helmet
+    - 0.1154%
+    - '1'
+  - - Guard Fire Barft
+    - Clean Yellow Gem
+    - 0.0095%
+    - '1'
+  - - Guard Fire Barft
+    - Pestle
+    - 0.2596%
+    - '1'
+  - - Guard Fire Barft
+    - Map Piece
+    - 0.2900%
+    - '1'
+  - - Guard Fire Barft
+    - Energy Crystal
+    - 44.2016%
+    - '1'
+  - - Guard Fire Barft
+    - Light Cuff
+    - 17.4731%
+    - '1'
+  - - Guard Fire Barft
+    - Black Knights Cuff
+    - 17.4731%
+    - '1'
+  - - Guard Fire Barft
+    - Weighty Breastplate
+    - 17.4731%
+    - '1'
+  - - Hell Slave
+    - Heavy Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knight Helmet
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Alchemic Cap
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Bard
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Weighty Breastplate
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Magic Gown
+    - 0.0045%
+    - '1'
+  - - Hell Slave
+    - Knights Helmet
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Weighted Breastplate
+    - 0.0007%
+    - '1'
+  - - Hell Slave
+    - Map Piece
+    - 0.0449%
+    - '1'
+  - - Hell Slave
+    - Rotten Shield
+    - 0.0114%
+    - '1'
+  - - Hell Slave
+    - Holy Shield
+    - 0.0000%
+    - '1'
+  - - Hell Slave
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Crusader's Sword
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - War Axe
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Crusader's Shield
+    - 0.0090%
+    - '1'
+  - - Hell Slave
+    - Rose Sword
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Fish Axe
+    - 0.0001%
+    - '1'
+  - - Hell Slave
+    - Vein Shield
+    - 0.0001%
+    - '1'
+  - - Hot Wildfire
+    - Alchemic Cap
+    - 0.0120%
+    - '1'
+  - - Hot Wildfire
+    - Hard-leather Cap
+    - 0.0120%
+    - '1'
+  - - Hot Wildfire
+    - Round Iron Helmet
+    - 0.0120%
+    - '1'
+  - - Hot Wildfire
+    - Pearl Refining
+    - 0.0020%
+    - '1'
+  - - Hot Wildfire
+    - Fighting Wings
+    - 0.0020%
+    - '1'
+  - - Hot Wildfire
+    - Holy Alchemic Cap
+    - 0.0006%
+    - '1'
+  - - Hot Wildfire
+    - Map Piece
+    - 0.0598%
+    - '1'
+  - - Hungry Fly
+    - Army Knife
+    - 0.0135%
+    - '1'
+  - - Hungry Fly
+    - Huge Axe
+    - 0.0135%
+    - '1'
+  - - Hungry Fly
+    - War Axe
+    - 0.0022%
+    - '1'
+  - - Hungry Fly
+    - Adas's Blade
+    - 0.0002%
+    - '1'
+  - - Hungry Fly
+    - Rainbow Axe
+    - 0.0002%
+    - '1'
+  - - Hungry Fly
+    - Lion Shield
+    - 0.0007%
+    - '1'
+  - - Hungry Fly
+    - Golden Hammer
+    - 0.0007%
+    - '1'
+  - - Hungry Fly
+    - Map Piece
+    - 0.0449%
+    - '1'
+  - - Iron Guard
+    - Heaven Bow
+    - 0.0130%
+    - '1'
+  - - Iron Guard
+    - Benison Ring
+    - 0.0130%
+    - '1'
+  - - Iron Guard
+    - Fire Tooth
+    - 0.0001%
+    - '1'
+  - - Iron Guard
+    - Angel's Blessing
+    - 0.0001%
+    - '1'
+  - - Iron Guard
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Mud Lord
+    - Magic Gown
+    - 0.0413%
+    - '1'
+  - - Mud Lord
+    - Knights Shield
+    - 0.0413%
+    - '1'
+  - - Mud Lord
+    - Magic Gown of Flame God
+    - 0.0007%
+    - '1'
+  - - Mud Lord
+    - Angel Knights Shield
+    - 0.0007%
+    - '1'
+  - - Mud Lord
+    - Golden Hammer
+    - 0.0023%
+    - '1'
+  - - Mud Lord
+    - Dragon Blade
+    - 0.0023%
+    - '1'
+  - - Mud Lord
+    - Map Piece
+    - 0.1376%
+    - '1'
+  - - Poo Poo Demon
+    - Magic Gown
+    - 0.0153%
+    - '1'
+  - - Poo Poo Demon
+    - Knights Shield
+    - 0.0153%
+    - '1'
+  - - Poo Poo Demon
+    - Curse Refining
+    - 0.0013%
+    - '1'
+  - - Poo Poo Demon
+    - Green Beetle Bag
+    - 0.0013%
+    - '1'
+  - - Poo Poo Demon
+    - Magic Gown of Flame God
+    - 0.0003%
+    - '1'
+  - - Poo Poo Demon
+    - Angel Knights Shield
+    - 0.0003%
+    - '1'
+  - - Poo Poo Demon
+    - Crystal Sword
+    - 0.0017%
+    - '1'
+  - - Poo Poo Demon
+    - Map Piece
+    - 0.0509%
+    - '1'
+  - - Poo Poo Demon
+    - Poo Poo Demon Card
+    - 0.0080%
+    - '1'
+  - - Poo Poo Demon
+    - Fool Staff
+    - 0.0313%
+    - '1'
+  - - Poo Poo Demon
+    - Mage Staff
+    - 0.0003%
+    - '1'
+  - - Poo Poo Demon
+    - Reborn Sword
+    - 0.0004%
+    - '1'
+  - - Poo Poo Demon
+    - Fire Guard Helmet
+    - 0.0004%
+    - '1'
+  - - Poo Poo Demon
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Poo Poo Demon
+    - Energy Gown
+    - 0.0313%
+    - '1'
+  - - Poo Poo Demon
+    - Sound Gown
+    - 0.0003%
+    - '1'
+  - - Poo Poo Demon
+    - Heaven Bow
+    - 0.0004%
+    - '1'
+  - - Poo Poo Demon
+    - Holy Manteau
+    - 0.0004%
+    - '1'
+  - - Poo Poo Demon
+    - Clean Orange Gem
+    - 0.0001%
+    - '1'
+  - - Poo Poo Demon
+    - Army Knife
+    - 0.0135%
+    - '1'
+  - - Poo Poo Demon
+    - Huge Axe
+    - 0.0135%
+    - '1'
+  - - Poo Poo Demon
+    - War Axe
+    - 0.0022%
+    - '1'
+  - - Poo Poo Demon
+    - Adas's Blade
+    - 0.0002%
+    - '1'
+  - - Poo Poo Demon
+    - Rainbow Axe
+    - 0.0002%
+    - '1'
+  - - Poo Poo Demon
+    - Lion Shield
+    - 0.0007%
+    - '1'
+  - - Poo Poo Demon
+    - Golden Hammer
+    - 0.0007%
+    - '1'
+  - - Poo Poo Demon 2
+    - Energy Gown
+    - 45,96%
+    - '1'
+  - - Poo Poo Demon 2
+    - Lvl 6 Robber Lord Map Piece
+    - 38,3%
+    - '1'
+  - - Poo Poo Demon 2
+    - Poo Poo Demon Card
+    - 10,12%
+    - '1'
+  - - Poo Poo Demon 2
+    - Good Energy Gown
+    - 3,83%
+    - '1'
+  - - Poo Poo Demon 2
+    - W.Plan2:Heaven Bow
+    - 0,63%
+    - '1'
+  - - Poo Poo Demon 2
+    - D.Plan2:Holy Manteau
+    - 0,63%
+    - '1'
+  - - Poo Poo Demon 2
+    - Sound Gown
+    - 0,38%
+    - '1'
+  - - Poo Poo Demon 2
+    - Clean Orange Gem
+    - 0,15%
+    - '1'
+  - - Rat Mosi
+    - Reborn Sword
+    - 1.5650%
+    - '1'
+  - - Rat Mosi
+    - Fire Guard Boots
+    - 1.5650%
+    - '1'
+  - - Rat Mosi
+    - Secret Sword
+    - 0.0130%
+    - '1'
+  - - Rat Mosi
+    - Knight Boots
+    - 0.0130%
+    - '1'
+  - - Rat Mosi
+    - Sword Trap V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Dancing Stab V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Thunder Trap V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Rat Mosi
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Rat Mosi
+    - Gloves Shards
+    - 1.2000%
+    - '1'
+  - - Rat Mosi
+    - Energy Crystal
+    - 44.3386%
+    - '2'
+  - - Rat Mosi
+    - Medium Magic Potion
+    - 5.0000%
+    - '1'
+  - - Rat Mosi
+    - Medium Evil Fruit
+    - 5.0000%
+    - '1'
+  - - Rat Mosi
+    - Light Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Faquir Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Weighty Iron Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Rat Mosi Card
+    - 1.8287%
+    - '1'
+  - - Rock God Mendun
+    - Cyclone Spear
+    - 1.2700%
+    - '1'
+  - - Rock God Mendun
+    - Namila's Soul
+    - 0.0053%
+    - '1'
+  - - Rock God Mendun
+    - Dawn Shield 5
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Intelligence Weaken V
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Mue Duck Robot
+    - 0.0026%
+    - '1'
+  - - Rock God Mendun
+    - Hunter Helmet
+    - 0.0317%
+    - '1'
+  - - Rock God Mendun
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Rock God Mendun
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Rock God Mendun
+    - Gear Shards
+    - 1.5000%
+    - '1'
+  - - Rock God Mendun
+    - Energy Crystal
+    - 53.9050%
+    - '3'
+  - - Rock God Mendun
+    - Short Tight Gloves
+    - 14.2211%
+    - '1'
+  - - Rock God Mendun
+    - Faquir Mirror
+    - 14.2211%
+    - '1'
+  - - Rock God Mendun
+    - Thick-soled Boots
+    - 14.2211%
+    - '1'
+  - - Rock Slarm
+    - Hermit Armor
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Anchoret Armor
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Circus Elephant
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Hermit Helmet
+    - 0.0007%
+    - '1'
+  - - Rock Slarm
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Rock Slarm
+    - Light Necklace
+    - 0.0127%
+    - '1'
+  - - Rock Slarm
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Rock Slarm Card
+    - 0.0208%
+    - '1'
+  - - Rock Slarm
+    - Fire Guard Boots
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Knight Boots
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Hermit Cuffs
+    - 0.0003%
+    - '1'
+  - - Rotten Seeker
+    - Trident
+    - 0.0146%
+    - '1'
+  - - Rotten Seeker
+    - Spinning Slingshot
+    - 0.0146%
+    - '1'
+  - - Rotten Seeker
+    - Magic Stick
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Curse Refining
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Devil Wings
+    - 0.0010%
+    - '1'
+  - - Rotten Seeker
+    - Spear of Yugo
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Splash Slingshot
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Fiery Staff
+    - 0.0002%
+    - '1'
+  - - Rotten Seeker
+    - Map Piece
+    - 0.0488%
+    - '1'
+  - - Soul Slalin
+    - Heaven Bow
+    - 1.2950%
+    - '1'
+  - - Soul Slalin
+    - Holy Manteau
+    - 1.2950%
+    - '1'
+  - - Soul Slalin
+    - Fire Tooth
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Hope Mantle
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Heart Hit 5
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Advanced Attack V
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Pestle
+    - 0.2934%
+    - '1'
+  - - Soul Slalin
+    - Map Piece
+    - 0.3200%
+    - '1'
+  - - Soul Slalin
+    - Shoes Shards
+    - 1.0000%
+    - '1'
+  - - Soul Slalin
+    - Energy Crystal
+    - 56.1849%
+    - '2'
+  - - Soul Slalin
+    - Chain Armor
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Black Knights Boots
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Magic Gown
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Soul-eater Slalin Card
+    - 0.6099%
+    - '1'
+  - - Soul-eating Demon
+    - Hermit Helmet
+    - 0.0259%
+    - '1'
+  - - Soul-eating Demon
+    - Anchoret Helmet
+    - 0.0002%
+    - '1'
+  - - Soul-eating Demon
+    - Repair Duck Robot
+    - 0.0001%
+    - '1'
+  - - Soul-eating Demon
+    - Power Shield
+    - 0.0007%
+    - '1'
+  - - Soul-eating Demon
+    - Clean Emerald
+    - 0.0001%
+    - '1'
+  - - Soul-eating Demon
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Soul-eating Demon
+    - Fire Guard Armor
+    - 0.0259%
+    - '1'
+  - - Soul-eating Demon
+    - Knight Armor
+    - 0.0002%
+    - '1'
+  - - Soul-eating Demon
+    - Fool Staff
+    - 0.0004%
+    - '1'
+  - - Soul-eating Demon
+    - Clean Ruby
+    - 0.0001%
+    - '1'
+  - - Soul-eating Worm
+    - Mage Hood
+    - 0.0001%
+    - '1'
+  - - Soul-eating Worm
+    - Rotten Shield
+    - 0.0001%
+    - '1'
+  - - Soul-eating Worm
+    - Map Piece
+    - 0.0049%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Magic Kitchen Path'
+- section: 'Adjacent Areas:'
+  text_raw: Lava Cave
+- section: Description
+  text_raw: This is a completely differently area, first don't show a map, second have puzzles to can go away. In order to go inside you will need to be in a team. If you leave the team,
+    then you will be sent to your revival point. You will need a robot to collect 20 Flint to turn on the candle.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

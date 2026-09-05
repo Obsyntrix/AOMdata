@@ -1,0 +1,561 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: cactus-plain
+  name_raw: Cactus Plain
+source:
+  origin_url: https://angels.wikidot.com/area:cactus-plain
+  retrieval_url: https://www.aowiki.uk/pages/area_cactus-plain.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
+quest_links:
+- slug: collecting-lizardman-s-bone
+  name_raw: Collecting Lizardman‘s Bone
+  retrieval_url: https://www.aowiki.uk/pages/quest_collecting-lizardman-s-bone.html
+  origin_url: https://angels.wikidot.com/quest:collecting-lizardman-s-bone
+- slug: killing-plateau-monkey
+  name_raw: Killing Plateau Monkey
+  retrieval_url: https://www.aowiki.uk/pages/quest_killing-plateau-monkey.html
+  origin_url: https://angels.wikidot.com/quest:killing-plateau-monkey
+- slug: knack-for-promotion
+  name_raw: Knack for Promotion
+  retrieval_url: https://www.aowiki.uk/pages/quest_knack-for-promotion.html
+  origin_url: https://angels.wikidot.com/quest:knack-for-promotion
+- slug: lizardman-s-constant-attack
+  name_raw: Lizardman‘s Constant Attack
+  retrieval_url: https://www.aowiki.uk/pages/quest_lizardman-s-constant-attack.html
+  origin_url: https://angels.wikidot.com/quest:lizardman-s-constant-attack
+- slug: missing-necklace
+  name_raw: Missing Necklace
+  retrieval_url: https://www.aowiki.uk/pages/quest_missing-necklace.html
+  origin_url: https://angels.wikidot.com/quest:missing-necklace
+- slug: mysterious-pieces
+  name_raw: Mysterious Pieces
+  retrieval_url: https://www.aowiki.uk/pages/quest_mysterious-pieces.html
+  origin_url: https://angels.wikidot.com/quest:mysterious-pieces
+- slug: picking-cactus-fruit
+  name_raw: Picking Cactus Fruit
+  retrieval_url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+  origin_url: https://angels.wikidot.com/quest:picking-cactus-fruit
+- slug: plateau-monkey
+  name_raw: Plateau Monkey
+  retrieval_url: https://www.aowiki.uk/pages/quest_plateau-monkey.html
+  origin_url: https://angels.wikidot.com/quest:plateau-monkey
+- slug: reporting-achievement
+  name_raw: Reporting Achievement
+  retrieval_url: https://www.aowiki.uk/pages/quest_reporting-achievement.html
+  origin_url: https://angels.wikidot.com/quest:reporting-achievement
+- slug: steel-disguise
+  name_raw: Disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+  origin_url: https://angels.wikidot.com/quest:steel-disguise
+- slug: steel-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:steel-obtaining-asmodes-trust
+- slug: steel-searching-for-spy-angel-3
+  name_raw: Searching for Spy Angel 3
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-searching-for-spy-angel-3.html
+  origin_url: https://angels.wikidot.com/quest:steel-searching-for-spy-angel-3
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Adv. Plan Seller
+    - (72,26)
+    - Description of Goods.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Spy Angel
+    - (59,138)
+    - 'Gives Asmode series quests: Killing Plateau Monkey , Disguise and Obtaining Asmode''s Trust .'
+  - - Pestle Guard
+    - (53,140)
+    - Gives quest Missing Necklace .
+  - - Chief
+    - (43,154)
+    - Gives quests Plateau Monkey and Lizardman‘s Constant Attack .
+  - - Biologist
+    - (86,48)
+    - Gives quest Collecting Lizardman‘s Bone .
+  - - Sam
+    - (96,44)
+    - 'Gives quest series: Picking Cactus Fruit , Knack for Promotion and Reporting Achievement .'
+  - - ''
+  - - Badge Fan
+    - (71,18)
+    - Exchange 1 silver badge for gift box.
+  - - ''
+  - - Cupid
+    - (10,140)
+    - Make this your revival place.
+  - - Steel Totem
+    - (89,105)
+    - Revive here if of Steel Faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Plateau Monkey
+    - 'Yes'
+    - Steel Faction; Character lvl 15-30
+    - Exp+530, Credit+25
+    - Defeat 20 Plateau Monkeys .
+  - - Lizardman‘s Constant Attack
+    - 'Yes'
+    - Steel Faction; Character lvl 15-30
+    - Exp+450, Credit+25
+    - Defeat 20 Spear Lizardmen .
+  - - Missing Necklace
+    - 'No'
+    - Steel Faction; Character lvl 15+
+    - Gold+500, Exp+800, Credit+55
+    - Obtain the Love Necklace by defeating Plateau Monkeys .
+  - - Collecting Lizardman‘s Bone
+    - 'No'
+    - Steel Faction; Character lvl 15+
+    - Gold+600, Exp+1300, Credit+60
+    - Defeat Ball Lizardmen and obtain Complete Lizard‘s skull, rib, shank and arm bone.
+  - - Mysterious Pieces
+    - 'No'
+    - Steel Faction;
+    - Exp+400, Credit+35
+    - While defeating the Ball Lizardmen find the Mystic Piece, take it to Scholar Francise in Iron Castle .
+  - - ''
+  - - Picking Cactus Fruit 1 of 3
+    - 'No'
+    - Steel Faction; Character lvl 15+
+    - Gold+200, Exp+1200, Credit+65
+    - Obtain 3 Cactus Fruits by defeating Plateau Monkeys .
+  - - Knack for Promotion 2 of 3
+    - 'No'
+    - Steel Faction; Character lvl 15+ Completed quest Picking Cactus Fruit
+    - Gold+200, Exp+1200, Credit+370, Item
+    - Defeat the boss, Lizard Lisad and bring its head to Sam.
+  - - Reporting Achievement 3 of 3
+    - 'No'
+    - Steel Faction; Character lvl 15+ Completed quest Knack for Promotion
+    - Exp+400, Credit+20
+    - Go to Burning Desert and report Sam‘s success to General Allie .
+  - - ''
+  - - Killing Plateau Monkey Asmode 3 of 8
+    - 'No'
+    - Steel Faction; Completed quest Searching for Spy Angel 3
+    - Exp+1500, Credit+60, 10 Common Red Potion
+    - Defeat 50 Plateau Monkeys to prove your ability to the Spy Angel.
+  - - Disguise Asmode 4 of 8
+    - 'No'
+    - Steel Faction; Completed quest Killing Plateau Monkey
+    - Gold+500, Exp+2000, Credit+80
+    - Go to Gebuer Vale and defeat Gebuers until you obtain the Gebuer Army Badge. Return with it to the Spy Angel.
+  - - Obtaining Asmode's Trust Asmode 5 of 8
+    - 'No'
+    - Steel Faction; Completed quest Disguise
+    - Exp+400, Credit+35
+    - Go to Burning Desert and speak with Asmode .
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Spear Lizardman
+    - '18'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Plateau Monkey
+    - '21'
+    - 'No'
+    - 'No'
+    - ''
+  - - Ball Lizardman
+    - '21'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Farmongee
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Lizard Lisad
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (121,28)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (268,128)
+    - Collect level 21
+    - ''
+  - - Rainbow Bush
+    - (165,141)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (50,93)
+    - Lumber level 21
+    - ''
+  - - Crystal Alga
+    - (35,30)
+    - Fishing level 21
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Ball Lizardman
+    - Iron Wristlet
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Long Gloves
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Linen Gloves
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Heavy Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Protector's Gloves
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Flawed Ruby
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Defective Orange Gem
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Flawed Yellow Gem
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Farmongee
+    - Iron Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Thick-soled Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Cotton Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Heavy Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Light Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Protector's Magic Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Flawed Emerald
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Flawed Sapphire
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Flawed Purple Gem
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Cure Spell 5
+    - 1.5622%
+    - '1'
+  - - Farmongee
+    - Summon Skeleton V
+    - 1.5622%
+    - '1'
+  - - Farmongee
+    - Fruit of Hercules
+    - 18.0077%
+    - '1'
+  - - Farmongee
+    - Target Potion
+    - 18.0077%
+    - '1'
+  - - Farmongee
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Gebuer
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Lizard Lisad
+    - Iron Wristlet
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Long Gloves
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Linen Gloves
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Heavy Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Protector's Gloves
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Flawed Ruby
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Defective Orange Gem
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Flawed Yellow Gem
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Slicing Hit V
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - Basic Beating V
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - 'Assassin Skill: Stab V'
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - Fruit of Mars
+    - 18.0077%
+    - '1'
+  - - Lizard Lisad
+    - Agility Potion
+    - 18.0077%
+    - '1'
+  - - Lizard Lisad
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Plateau Monkey
+    - Iron Shoes
+    - 0.1420%
+    - '1'
+  - - Plateau Monkey
+    - Thick-soled Shoes
+    - 0.1420%
+    - '1'
+  - - Plateau Monkey
+    - Cotton Shoes
+    - 0.1420%
+    - '1'
+  - - Plateau Monkey
+    - Heavy Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Plateau Monkey
+    - Light Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Plateau Monkey
+    - Protector's Magic Shoes
+    - 0.0023%
+    - '1'
+  - - Plateau Monkey
+    - Flawed Emerald
+    - 0.0008%
+    - '1'
+  - - Plateau Monkey
+    - Flawed Sapphire
+    - 0.0008%
+    - '1'
+  - - Plateau Monkey
+    - Flawed Purple Gem
+    - 0.0008%
+    - '1'
+  - - Plateau Monkey
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Spear Lizardman
+    - Hook
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Catapult
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Staff
+    - 0.6357%
+    - '1'
+  - - Spear Lizardman
+    - Slingshot
+    - 0.1059%
+    - '1'
+  - - Spear Lizardman
+    - Curse Hook
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Raid Slingshot
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Holy Wood Staff
+    - 0.0105%
+    - '1'
+  - - Spear Lizardman
+    - Emerald Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Sapphire Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Purple Gem Piece
+    - 0.0318%
+    - '1'
+  - - Spear Lizardman
+    - Map Piece
+    - 3.1780%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Cactus Plain'
+- section: Cactus Plain
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Cactus Plain is full of tasty cactus fruit and the annoying monkeys who steal it. See what missions the Chief can send you on to deal with these level 18 to 26 creatures.
+    There might be a few lost treasures along the way including whispers of the Gebuers' sealed Decadence City. Also, be certain to acknowledge the Spy Angel while you’re here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

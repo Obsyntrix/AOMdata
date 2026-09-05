@@ -1,0 +1,96 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: hunting-activity
+name_raw: Hunting Activity
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- thorn-wasteland
+source:
+  origin_url: https://angels.wikidot.com/quest:hunting-activity
+  retrieval_url: https://www.aowiki.uk/pages/quest_hunting-activity.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: d67ca575b7ecf3189dfb4e220b557f7256127c0f3d20b1b18783de00930edb78
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Crazy Steve
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 40 to 55
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1450'
+    - '55'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Hunting Activity'
+- section: Hunting Activity
+  text_raw: Home » Areas » Thorn Wasteland » Hunting Activity
+- section: Summary
+  text_raw: Crazy Steve is a nutbar and asks you to have a killing competition with him. You will need to kill monsters in Thorn Wasteland and Thunder Ruins for this quest. That is,
+    if you're up for the competition.
+- section: Walkthrough
+  text_raw: Step 1 Talk to Crazy Steve (142,121). Step 2 Defeat Fire Barft and collect 10 Barft's Eye. Step 3 Defeat Savage Priests and collect 10 Cursed Masks. Step 4 In Thunder Ruins
+    defeat Fallen Angels and collect 10 Degenerate Angel's Feathers. Step 5 In Thunder Ruins defeat Burning Monsters and collect 10 Fire Demon's Spears. Step 6 Return to Thorn Wasteland
+    . Step 7 Meet up with Crazy Steve and show him your items.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

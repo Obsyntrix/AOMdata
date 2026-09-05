@@ -1,0 +1,466 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: quiet-ocean
+  name_raw: Quiet Ocean
+source:
+  origin_url: https://angels.wikidot.com/area:quiet-ocean
+  retrieval_url: https://www.aowiki.uk/pages/area_quiet-ocean.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0bc38c7af76e3fa9b0ff35e3f90aa3e26ce8a47c27cb7a7af7873e1e0b5c5e3d
+quest_links:
+- slug: quest-name
+  name_raw: Quest Name
+  retrieval_url: https://www.aowiki.uk/pages/quest_quest-name.html
+  origin_url: https://angels.wikidot.com/quest:quest-name
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Shop Name
+    - (?,?)
+    - Description of Goods.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Pioneer Member
+    - (175,155)
+    - Gives quest lvl 90+
+  - - Trapped Surveyer
+    - (174,140)
+    - ''
+  - - Aurora Totem
+    - (96,154)
+    - Can revive players from Aurora
+  - - Breeze Totem
+    - (95,132)
+    - Can revive players from Beasts
+  - - Dark City Totem
+    - (79,159)
+    - Can revive players from Shadow
+  - - Iron Totem
+    - (68,142)
+    - Can revive players from Steel
+  - - ??????
+    - (84,166)
+    - Gives quest lvl 90+
+  - - Trapped Boffin
+    - (?,?)
+    - ''
+  - - Trapped Voyager
+    - (?,?)
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Quest Name
+    - Yes/No
+    - XXX Faction; Character lvl XX
+    - Exp+XX, Credit+XX, Gold+XX, Item
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Angel Fish
+    - '82'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Fish
+    - '91'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Poison Evil Fish
+    - '93'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Death Sailor
+    - '93'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Winged Fish
+    - '94'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Death Sail
+    - '95'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Sea Lantern Fish
+    - '96'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Red Lantern Fish
+    - '98'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Captain Hack
+    - '100'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Blue Water Fish
+    - (?,?)
+    - Fishing level 91
+    - ''
+  - - Cypress Wood
+    - (?,?)
+    - Lumber level 91
+    - ''
+  - - Mambo Grass Root
+    - (?,?)
+    - Collect level 91
+    - ''
+  - - Thunder Den
+    - (?,?)
+    - Collect level 91
+    - ''
+  - - Violetnut Mine
+    - (?,?)
+    - Dig level 91
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Angel Fish
+    - Coral Ring
+    - 0.0769%
+    - '1'
+  - - Angel Fish
+    - Seagod's Handloop
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Sapphire
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Chief Cuffs
+    - 0.0913%
+    - '1'
+  - - Angel Fish
+    - Fane Cuffs
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Fish Haversack
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Feather Angel Fish Card
+    - 0.0139%
+    - '1'
+  - - Captain Hack
+    - Rage Lance
+    - 3.3600%
+    - '1'
+  - - Captain Hack
+    - Espial Boots
+    - 3.3600%
+    - '1'
+  - - Captain Hack
+    - Poseidon Attacker
+    - 0.0048%
+    - '1'
+  - - Captain Hack
+    - Magnetic Boots
+    - 0.0048%
+    - '1'
+  - - Captain Hack
+    - Swift Cut V
+    - 0.0032%
+    - '1'
+  - - Captain Hack
+    - Great Chop V
+    - 0.0032%
+    - '1'
+  - - Captain Hack
+    - Revival 5
+    - 0.0032%
+    - '1'
+  - - Captain Hack
+    - Flawless Sapphire
+    - 0.0960%
+    - '1'
+  - - Captain Hack
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Captain Hack
+    - Effective Target Potion
+    - 90.3165%
+    - '1'
+  - - Captain Hack
+    - Captain Hack Card
+    - 0.4630%
+    - '1'
+  - - Captain Hack
+    - Cracking Beat V
+    - 0.0039%
+    - '1'
+  - - Captain Hack
+    - Great Beat V
+    - 0.0039%
+    - '1'
+  - - Captain Hack
+    - Aries Judge
+    - 0.0018%
+    - '1'
+  - - Captain Hack
+    - Storm Helmet
+    - 0.0020%
+    - '1'
+  - - Captain Hack
+    - Holy Guard Boots
+    - 0.0020%
+    - '1'
+  - - Captain Hack
+    - Seagod's Eye
+    - 0.0020%
+    - '1'
+  - - Captain Hack
+    - Wind Armor
+    - 0.0940%
+    - '1'
+  - - Captain Hack
+    - Shark-hunting Armor
+    - 0.0156%
+    - '1'
+  - - Captain Hack
+    - Flawless Orange Gem
+    - 0.0783%
+    - '1'
+  - - Captain Hack
+    - Evil Hammer
+    - 0.0658%
+    - '1'
+  - - Captain Hack
+    - Wind Helmet
+    - 0.0720%
+    - '1'
+  - - Captain Hack
+    - Saint Boots
+    - 0.0720%
+    - '1'
+  - - Captain Hack
+    - Symbol Shield
+    - 0.0720%
+    - '1'
+  - - Captain Hack
+    - Effective Mars' Fruit
+    - 46.7466%
+    - '1'
+  - - Captain Hack
+    - Effective Evil Fruit
+    - 46.7467%
+    - '1'
+  - - Death Sail
+    - Symbol Shield
+    - 0.0472%
+    - '1'
+  - - Death Sail
+    - Seagod's Eye
+    - 0.0001%
+    - '1'
+  - - Death Sail
+    - Shark-hunting Armor
+    - 0.0001%
+    - '1'
+  - - Death Sail
+    - Flawless Emerald
+    - 0.0006%
+    - '1'
+  - - Death Sail
+    - Death Sail Card
+    - 0.0139%
+    - '1'
+  - - Death Sailor
+    - Wind Boots
+    - 0.0442%
+    - '1'
+  - - Death Sailor
+    - Storm Boots
+    - 0.0001%
+    - '1'
+  - - Death Sailor
+    - Flawless Orange Gem
+    - 0.0006%
+    - '1'
+  - - Death Sailor
+    - Death Sailor Card
+    - 0.0139%
+    - '1'
+  - - Evil Fish
+    - Espial Bracers
+    - 0.0413%
+    - '1'
+  - - Evil Fish
+    - Magnetic Bracers
+    - 0.0001%
+    - '1'
+  - - Evil Fish
+    - Shark Armor
+    - 0.0001%
+    - '1'
+  - - Evil Fish
+    - Flawless Sapphire
+    - 0.0005%
+    - '1'
+  - - Evil Fish
+    - Evil Fish Card
+    - 0.0139%
+    - '1'
+  - - Poison Evil Fish
+    - Wind Armguards
+    - 0.0442%
+    - '1'
+  - - Poison Evil Fish
+    - Storm Armguards
+    - 0.0001%
+    - '1'
+  - - Poison Evil Fish
+    - Flawless Emerald
+    - 0.0006%
+    - '1'
+  - - Poison Evil Fish
+    - Poison Evil Fish Card
+    - 0.0139%
+    - '1'
+  - - Red Lantern Fish
+    - Symbol Bow
+    - 0.0260%
+    - '1'
+  - - Red Lantern Fish
+    - Crusader's Brooch
+    - 0.0260%
+    - '1'
+  - - Red Lantern Fish
+    - Hermes' Breath
+    - 0.0000%
+    - '1'
+  - - Red Lantern Fish
+    - The Call of the Sea
+    - 0.0000%
+    - '1'
+  - - Red Lantern Fish
+    - Flawless Purple Gem
+    - 0.0006%
+    - '1'
+  - - Red Lantern Fish
+    - Red Lantern Fish Card
+    - 0.0139%
+    - '1'
+  - - Sea Lantern Fish
+    - Rage Lance
+    - 0.0487%
+    - '1'
+  - - Sea Lantern Fish
+    - Poseidon Attacker
+    - 0.0000%
+    - '1'
+  - - Sea Lantern Fish
+    - Starfish Backpack
+    - 0.0000%
+    - '1'
+  - - Sea Lantern Fish
+    - Jellyfish Armor
+    - 0.0001%
+    - '1'
+  - - Sea Lantern Fish
+    - Flawless Sapphire
+    - 0.0006%
+    - '1'
+  - - Winged Fish
+    - Espial Boots
+    - 0.0456%
+    - '1'
+  - - Winged Fish
+    - Magnetic Boots
+    - 0.0001%
+    - '1'
+  - - Winged Fish
+    - Flawless Yellow Gem
+    - 0.0006%
+    - '1'
+  - - Winged Fish
+    - Winged Fish Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Quiet Ocean'
+- section: Quiet Ocean
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Dream Ocean , Coral Vale
+- section: Description
+  text_raw: Description here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

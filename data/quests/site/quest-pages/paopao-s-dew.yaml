@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: paopao-s-dew
+name_raw: Paopao S Dew
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-south
+source:
+  origin_url: https://angels.wikidot.com/quest:paopao-s-dew
+  retrieval_url: https://www.aowiki.uk/pages/quest_paopao-s-dew.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0d4e5e5dc64af82e908b97e793c0d943529fbe3fca0812de2edf7dc1a0bfdb96
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Symbol Master
+    - Shadow Faction; Character lvl 10-25
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Symbol Master needs you to collect 10 drops of Dew from Paopao for magic.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 390 Experience, 20 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Paopao S Dew'
+- section: Paopao S Dew
+  text_raw: Home » Areas » Fungus Forest South » Paopao's Dew
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Symbol Master. Step 2 Defeat Paopao until you have collected 10 Dew and Fog. Step 3 Give them to the Symbol Master.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

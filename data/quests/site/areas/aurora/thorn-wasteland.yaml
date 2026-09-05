@@ -1,0 +1,671 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: thorn-wasteland
+  name_raw: Thorn Wasteland
+source:
+  origin_url: https://angels.wikidot.com/area:thorn-wasteland
+  retrieval_url: https://www.aowiki.uk/pages/area_thorn-wasteland.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: d1cfe490e353eda55568dbb6b735e43df772c0eed2ed805f3cf72343aa7bcf06
+quest_links:
+- slug: fight-against-savage-dogface
+  name_raw: Fight Against Savage Dogface
+  retrieval_url: https://www.aowiki.uk/pages/quest_fight-against-savage-dogface.html
+  origin_url: https://angels.wikidot.com/quest:fight-against-savage-dogface
+- slug: fire-barft-killing
+  name_raw: Fire Barft Killing
+  retrieval_url: https://www.aowiki.uk/pages/quest_fire-barft-killing.html
+  origin_url: https://angels.wikidot.com/quest:fire-barft-killing
+- slug: hunting-activity
+  name_raw: Hunting Activity
+  retrieval_url: https://www.aowiki.uk/pages/quest_hunting-activity.html
+  origin_url: https://angels.wikidot.com/quest:hunting-activity
+- slug: magic-feather-clothes
+  name_raw: Magic Feather Clothes
+  retrieval_url: https://www.aowiki.uk/pages/quest_magic-feather-clothes.html
+  origin_url: https://angels.wikidot.com/quest:magic-feather-clothes
+- slug: reseize-joan-s-brand-handbag
+  name_raw: Reseize Joan's Brand Handbag
+  retrieval_url: https://www.aowiki.uk/pages/quest_reseize-joan-s-brand-handbag.html
+  origin_url: https://angels.wikidot.com/quest:reseize-joan-s-brand-handbag
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Pioneer Captain
+    - (19,51)
+    - 'Give quests: Fire Barft Killing , Magic Feather Clothes (repeatable)'
+  - - Mammonist Joan
+    - (161,82)
+    - 'Give quests: Fight Against Savage Dogface , Reseize Joan''s Brand Handbag (repeatable)'
+  - - Crazy Steve
+    - (142,121)
+    - Give quest Hunting Activity
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Fire Barft Killing
+    - 'Yes'
+    - Character lvl 40-55
+    - Exp+1300, Credit+50
+    - Defeat 40 Fire Barfts
+  - - Magic Feather Clothes
+    - 'Yes'
+    - Character lvl 40-55
+    - Exp+1300, Credit+50
+    - Defeat Fire Barfts until you obtain 10 Barft's Coats.
+  - - Fight Against Savage Dogface
+    - 'Yes'
+    - Character lvl 40-55
+    - Exp+1150, Credit+47
+    - Defeat 40 Savage Dogface
+  - - Reseize Joan's Brand Handbag
+    - 'Yes'
+    - Character lvl 40-55
+    - Exp+1210, Credit+48
+    - Defeat Savage Priests until you obtain 5 bags
+  - - Hunting Activity
+    - 'Yes'
+    - Character lvl 40-55
+    - Exp+1450, Credit+55
+    - Defeat Fire Barfts , Savage Priests , Fallen Angels and Burning Monsters - collect 10 Barft Eyeballs, 10 Cursed Masks, 10 Fallen Angel's Feathers and 10 Fire Demon's Spears.
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Savage Dogface
+    - '45'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Savage Priest
+    - '48'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fire Barft
+    - '50'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Savage Head
+    - '50'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Savage Chief Apu
+    - '53'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Barft Laird
+    - '55'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Bauxite (Big)
+    - (70,80)
+    - Dig level 51
+    - ''
+  - - Bauxite (Medium)
+    - (71,69)
+    - Dig level 51
+    - ''
+  - - Devil Den
+    - (?,?)
+    - Collect level 51
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Barft Laird
+    - Army Knife
+    - 0.7474%
+    - '1'
+  - - Barft Laird
+    - War Axe
+    - 0.7474%
+    - '1'
+  - - Barft Laird
+    - Adas's Blade
+    - 0.0687%
+    - '1'
+  - - Barft Laird
+    - Rainbow Axe
+    - 0.0687%
+    - '1'
+  - - Barft Laird
+    - Curse Refining
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Devil Wings
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Huge Axe
+    - 20.0000%
+    - '1'
+  - - Barft Laird
+    - Purple Gem
+    - 0.1200%
+    - '1'
+  - - Barft Laird
+    - Weary Curse V
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Summon Mummy V
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Angel Helmet
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Paladin Helmet
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Paladin Cuff
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Angel Cuff
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Notice Gloves
+    - 0.3531%
+    - '1'
+  - - Barft Laird
+    - Rare Healing Potion
+    - 53.0326%
+    - '1'
+  - - Barft Laird
+    - Map Piece
+    - 1.8300%
+    - '1'
+  - - Barft Laird
+    - Pestle
+    - 0.1584%
+    - '1'
+  - - Barft Laird
+    - Blind Curse V
+    - 0.0488%
+    - '1'
+  - - Burning Monster
+    - Light Breastplate
+    - 0.0378%
+    - '1'
+  - - Burning Monster
+    - Chain Armor
+    - 0.0378%
+    - '1'
+  - - Burning Monster
+    - Eagle Breastplate
+    - 0.0006%
+    - '1'
+  - - Burning Monster
+    - Golden Chain Armor
+    - 0.0006%
+    - '1'
+  - - Burning Monster
+    - Map Piece
+    - 0.1200%
+    - '1'
+  - - Burning Monster
+    - Sapphire
+    - 0.0003%
+    - '1'
+  - - Burning Monster
+    - Purple Gem
+    - 0.0003%
+    - '1'
+  - - Burning Monster
+    - Ruby
+    - 0.0003%
+    - '1'
+  - - Burning Monster
+    - Pestle
+    - 0.0015%
+    - '1'
+  - - Burning Monster
+    - Burning Monster Card
+    - 0.0139%
+    - '1'
+  - - Fallen Angel
+    - Alchemic Cap
+    - 0.0661%
+    - '1'
+  - - Fallen Angel
+    - Holy Alchemic Cap
+    - 0.0011%
+    - '1'
+  - - Fallen Angel
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Fallen Angel
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Fallen Angel
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Fallen Angel
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Fallen Angel
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Fallen Angel
+    - Orange Gem
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Yellow Gem
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Emerald
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Sapphire
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Purple Gem
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Ruby
+    - 0.0002%
+    - '1'
+  - - Fallen Angel
+    - Pestle
+    - 0.0013%
+    - '1'
+  - - Fallen Angel
+    - Degenerate Angel Card
+    - 0.0139%
+    - '1'
+  - - Fallen Angel
+    - Hunter Armor
+    - 0.0006%
+    - '1'
+  - - Fallen Angel
+    - Light Necklace
+    - 0.0006%
+    - '1'
+  - - Fire Barft
+    - Army Knife
+    - 0.0412%
+    - '1'
+  - - Fire Barft
+    - Huge Axe
+    - 0.0412%
+    - '1'
+  - - Fire Barft
+    - War Axe
+    - 0.0068%
+    - '1'
+  - - Fire Barft
+    - Adas's Blade
+    - 0.0007%
+    - '1'
+  - - Fire Barft
+    - Rainbow Axe
+    - 0.0007%
+    - '1'
+  - - Fire Barft
+    - Map Piece
+    - 0.1300%
+    - '1'
+  - - Fire Barft
+    - Sapphire
+    - 0.0004%
+    - '1'
+  - - Fire Barft
+    - Purple Gem
+    - 0.0004%
+    - '1'
+  - - Fire Barft
+    - Ruby
+    - 0.0004%
+    - '1'
+  - - Fire Barft
+    - Pestle
+    - 0.0016%
+    - '1'
+  - - Savage Chief Apu
+    - Magic Gown
+    - 0.6009%
+    - '1'
+  - - Savage Chief Apu
+    - Knights Shield
+    - 0.6009%
+    - '1'
+  - - Savage Chief Apu
+    - Magic Gown of Flame God
+    - 0.0630%
+    - '1'
+  - - Savage Chief Apu
+    - Angel Knights Shield
+    - 0.0630%
+    - '1'
+  - - Savage Chief Apu
+    - Curse Refining
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Green Beetle Bag
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Orange Gem
+    - 0.0500%
+    - '1'
+  - - Savage Chief Apu
+    - Emerald
+    - 0.0500%
+    - '1'
+  - - Savage Chief Apu
+    - Crystal Sword
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Crystal Axe
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Black Knights Armor
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Crusader's Shield
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Oracle
+    - 0.3235%
+    - '1'
+  - - Savage Chief Apu
+    - Rare Fruit of Mars
+    - 48.9543%
+    - '1'
+  - - Savage Chief Apu
+    - Map Piece
+    - 1.6800%
+    - '1'
+  - - Savage Chief Apu
+    - Pestle
+    - 0.1460%
+    - '1'
+  - - Savage Chief Apu
+    - Beast's Egg
+    - 6.0100%
+    - '1'
+  - - Savage Chief Apu
+    - Holy Heal 5
+    - 0.0449%
+    - '1'
+  - - Savage Dogface
+    - Hard-leather Cap
+    - 0.0330%
+    - '1'
+  - - Savage Dogface
+    - Round Iron Helmet
+    - 0.0330%
+    - '1'
+  - - Savage Dogface
+    - Defensive Cap
+    - 0.0055%
+    - '1'
+  - - Savage Dogface
+    - Full-face Helmet
+    - 0.0055%
+    - '1'
+  - - Savage Dogface
+    - Eagle Hood
+    - 0.0006%
+    - '1'
+  - - Savage Dogface
+    - Golden Full-face Helmet
+    - 0.0006%
+    - '1'
+  - - Savage Dogface
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Savage Dogface
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Savage Dogface
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Savage Dogface
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Savage Dogface
+    - Map Piece
+    - 0.1000%
+    - '1'
+  - - Savage Dogface
+    - Orange Gem
+    - 0.0003%
+    - '1'
+  - - Savage Dogface
+    - Yellow Gem
+    - 0.0003%
+    - '1'
+  - - Savage Dogface
+    - Emerald
+    - 0.0003%
+    - '1'
+  - - Savage Dogface
+    - Pestle
+    - 0.0013%
+    - '1'
+  - - Savage Dogface
+    - Savage Dogface Card
+    - 0.0139%
+    - '1'
+  - - Savage Head
+    - Defensive Cap
+    - 0.5255%
+    - '1'
+  - - Savage Head
+    - Full-face Helmet
+    - 0.5255%
+    - '1'
+  - - Savage Head
+    - Eagle Hood
+    - 0.0550%
+    - '1'
+  - - Savage Head
+    - Golden Full-face Helmet
+    - 0.0550%
+    - '1'
+  - - Savage Head
+    - Pearl Refining
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Red Beetle Bag
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Hard-leather Cap
+    - 19.7362%
+    - '1'
+  - - Savage Head
+    - Round Iron Helmet
+    - 19.7362%
+    - '1'
+  - - Savage Head
+    - Orange Gem
+    - 0.0300%
+    - '1'
+  - - Savage Head
+    - Yellow Gem
+    - 0.0300%
+    - '1'
+  - - Savage Head
+    - Emerald
+    - 0.0300%
+    - '1'
+  - - Savage Head
+    - Tendon Chop V
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Pierced Beat V
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Black Knights Helmet
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Faquir Mirror
+    - 0.2828%
+    - '1'
+  - - Savage Head
+    - Rare Target Potion
+    - 22.7400%
+    - '1'
+  - - Savage Head
+    - Rare Agility Potion
+    - 28.0000%
+    - '1'
+  - - Savage Head
+    - Map Piece
+    - 1.4700%
+    - '1'
+  - - Savage Head
+    - Pestle
+    - 0.1101%
+    - '1'
+  - - Savage Head
+    - Beast's Egg
+    - 5.2600%
+    - '1'
+  - - Savage Priest
+    - Magic Gown
+    - 0.0378%
+    - '1'
+  - - Savage Priest
+    - Knights Shield
+    - 0.0378%
+    - '1'
+  - - Savage Priest
+    - Magic Gown of Flame God
+    - 0.0006%
+    - '1'
+  - - Savage Priest
+    - Angel Knights Shield
+    - 0.0006%
+    - '1'
+  - - Savage Priest
+    - Map Piece
+    - 0.1200%
+    - '1'
+  - - Savage Priest
+    - Orange Gem
+    - 0.0003%
+    - '1'
+  - - Savage Priest
+    - Yellow Gem
+    - 0.0003%
+    - '1'
+  - - Savage Priest
+    - Emerald
+    - 0.0003%
+    - '1'
+  - - Savage Priest
+    - Pestle
+    - 0.0015%
+    - '1'
+  - - Savage Priest
+    - Red Potion 2
+    - 49.6822%
+    - '4'
+  - - Savage Priest
+    - Blue Potion 2
+    - 49.6822%
+    - '3'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Thorn Wasteland'
+- section: Thorn Wasteland
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Thunder Ruins , Dragon Graveyard , North of Mirror Lake , Foggy Forest
+- section: Description
+  text_raw: Thorn Wasteland is as its name suggests. A land with little growth but for the maze of hungry thorns through it. The sun is hot here and the nights are cold. Try not to get
+    stuck dealing with the level 45 to 55 locals as they are not friendly. Whatever you do, don’t go into a cave for shelter! There seems to be a poor Lady in distress over a handbag,
+    and a pioneer in need of assistance. If you are feeling truly brave, you should try to engage Crazy Steve in a bit of friendly competition.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

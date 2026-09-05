@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: annoying-bat
+name_raw: Annoying Bat
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- degula-maze
+source:
+  origin_url: https://angels.wikidot.com/quest:annoying-bat
+  retrieval_url: https://www.aowiki.uk/pages/quest_annoying-bat.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5dc0422ff8a29c21a88d04fbc7506f6cd53c13eb2c4685ac9989223b4e89f84b
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Manager Pandora
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - 20 to 35
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '590'
+    - '30'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Annoying Bat'
+- section: Annoying Bat
+  text_raw: Home » Areas » Degula Maze » Annoying Bat
+- section: Summary
+  text_raw: Bats are running amuck, help Manager Pandora by scaring a few off.
+- section: Walkthrough
+  text_raw: Step 1 Speak with Manager Pandora (47,165). Step 2 Defeat 20 Little Eyes . Step 3 Report back to Manager Pandora.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

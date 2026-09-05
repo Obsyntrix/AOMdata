@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: defeating-evil-force
+name_raw: Defeating Evil Force
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- dawn-harbor
+source:
+  origin_url: https://angels.wikidot.com/quest:defeating-evil-force
+  retrieval_url: https://www.aowiki.uk/pages/quest_defeating-evil-force.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 4c0a640259497ef3fc04ca444c61952fe74fa238de78d9531ca52af00bd23e36
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Policeman
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 20 to 35
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '590'
+    - '30'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Defeating Evil Force'
+- section: Defeating Evil Force
+  text_raw: Home » Areas » Dawn Harbor » Defeating Evil Force
+- section: Summary
+  text_raw: The Policeman is tired of the pirates causing trouble, he asks you to colelct 5 Pirate Necklaces to prove your ability.
+- section: Walkthrough
+  text_raw: Step 1 Speak to the Policeman (193,28). Step 2 Go to Riprap Coast . Step 3 Defeat Riprap Pirates until you collect 5 Pirate necklaces . Step 4 Return to Dawn Harbor and give
+    the necklaces to the Policeman.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

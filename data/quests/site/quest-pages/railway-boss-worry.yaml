@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: railway-boss-worry
+name_raw: Railway Boss Worry
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- shadowy-path
+source:
+  origin_url: https://angels.wikidot.com/quest:railway-boss-worry
+  retrieval_url: https://www.aowiki.uk/pages/quest_railway-boss-worry.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 34874ae462bd5362caf8bd731642c8fd0b734f5b8ccc31190e2a14cc2772643c
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Railway Boss
+    - Shadow Faction; Character Lvl 6+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Missing Key
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat 20 Red Cloth Skulls who are disrupting the building of the railway.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 700 Experience, 30 Credit
+- table_index: 5
+  rows_raw:
+  - - Step 1 Speak with the Railway Boss . Step 2 Defeat 20 Red Cloth Skulls . Step 3 Speak with the Railway Boss .
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Railway Boss Worry'
+- section: Railway Boss Worry
+  text_raw: Home » Areas » Shadowy Path » Railway Boss' Worry
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

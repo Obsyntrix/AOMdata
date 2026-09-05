@@ -1,0 +1,578 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: foggy-forest
+  name_raw: Foggy Forest
+source:
+  origin_url: https://angels.wikidot.com/area:foggy-forest
+  retrieval_url: https://www.aowiki.uk/pages/area_foggy-forest.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 585bc4e2044962c0ba6bb176d6731d9f1f96f97ce2a175f2a022aef9b36fda0d
+quest_links:
+- slug: collect-cuss-ball
+  name_raw: Collect Cuss Ball
+  retrieval_url: https://www.aowiki.uk/pages/quest_collect-cuss-ball.html
+  origin_url: https://angels.wikidot.com/quest:collect-cuss-ball
+- slug: drive-away-lizardmen
+  name_raw: Drive Away Lizardmen
+  retrieval_url: https://www.aowiki.uk/pages/quest_drive-away-lizardmen.html
+  origin_url: https://angels.wikidot.com/quest:drive-away-lizardmen
+- slug: evil-tooth
+  name_raw: Evil Tooth
+  retrieval_url: https://www.aowiki.uk/pages/quest_evil-tooth.html
+  origin_url: https://angels.wikidot.com/quest:evil-tooth
+- slug: repel-exiled-earl
+  name_raw: Repel Exiled Earl
+  retrieval_url: https://www.aowiki.uk/pages/quest_repel-exiled-earl.html
+  origin_url: https://angels.wikidot.com/quest:repel-exiled-earl
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Collector Taless
+    - (22,20)
+    - Gives quests Repel Exiled Earl and Evil Tooth .
+  - - Night Merchant
+    - (258,167)
+    - Gives quests Drive Away Lizardmen and Collect Cuss Ball .
+  - - Terra Keeper
+    - (202,66)
+    - Transports to league terra or city of faction.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Drive Away Lizardmen
+    - 'Yes'
+    - Any Faction; Character lvl 30-45
+    - Exp+810, Credit+38
+    - Defeat 40 Fog Lizards
+  - - Collect Cuss Ball
+    - 'Yes'
+    - Any Faction; Character lvl 30-45
+    - Exp+810, Credit+38
+    - Defeat Fog Lizards and collect 10 of the Cuss Balls.
+  - - Repel Exiled Earl
+    - 'Yes'
+    - Any Faction; Character lvl 30-45
+    - Exp+950, Credit+40
+    - Defeat 40 Exiled Earls .
+  - - Evil Tooth
+    - 'Yes'
+    - Any Faction; Character lvl 30-45
+    - Exp+950, Credit+40
+    - Defeat Exiled Earls and collect 10 Evil Teeth.
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Fog Lizard
+    - '35'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Cursed Ghost Kid
+    - '38'
+    - 'No'
+    - 'No'
+    - ''
+  - - Exiled Earl
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Lizard Chief
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Crazy Babi
+    - '43'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Marquis Blute
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Steel
+    - (292,145)
+    - Dig level 41
+    - ''
+  - - Beastkin Den
+    - (155,44)
+    - Collect level 41
+    - ''
+  - - Leafy Bush
+    - (137,46)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (103,70)
+    - Lumber level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crazy Babi
+    - Weighty Armor
+    - 1.0925%
+    - '1'
+  - - Crazy Babi
+    - Thick Vest
+    - 1.0925%
+    - '1'
+  - - Crazy Babi
+    - Alchemic Gown
+    - 1.0925%
+    - '1'
+  - - Crazy Babi
+    - Beastman Leather Armor
+    - 0.1182%
+    - '1'
+  - - Crazy Babi
+    - Ice Stone Armor
+    - 0.1182%
+    - '1'
+  - - Crazy Babi
+    - Magic Alchemic Gown
+    - 0.1182%
+    - '1'
+  - - Crazy Babi
+    - Angel Wings
+    - 0.6373%
+    - '1'
+  - - Crazy Babi
+    - Ring of Goddess
+    - 0.6373%
+    - '1'
+  - - Crazy Babi
+    - Heavy Armor
+    - 17.0461%
+    - '1'
+  - - Crazy Babi
+    - Leather Armor
+    - 17.0461%
+    - '1'
+  - - Crazy Babi
+    - Flawed Ruby
+    - 0.5300%
+    - '1'
+  - - Crazy Babi
+    - Flawed Sapphire
+    - 0.5300%
+    - '1'
+  - - Crazy Babi
+    - Soul Entangle V
+    - 0.6373%
+    - '1'
+  - - Crazy Babi
+    - Hurt Transfer V
+    - 0.6373%
+    - '1'
+  - - Crazy Babi
+    - Agility Potion
+    - 18.6915%
+    - '1'
+  - - Crazy Babi
+    - Magic Potion
+    - 18.6915%
+    - '1'
+  - - Crazy Babi
+    - Map Piece
+    - 4.1400%
+    - '1'
+  - - Crazy Babi
+    - Pestle
+    - 0.0971%
+    - '1'
+  - - Cursed Ghost Kid
+    - Heavy Armor
+    - 0.0709%
+    - '1'
+  - - Cursed Ghost Kid
+    - Leather Armor
+    - 0.0709%
+    - '1'
+  - - Cursed Ghost Kid
+    - Alchemic Gown
+    - 0.0709%
+    - '1'
+  - - Cursed Ghost Kid
+    - Weighty Armor
+    - 0.0118%
+    - '1'
+  - - Cursed Ghost Kid
+    - Thick Vest
+    - 0.0118%
+    - '1'
+  - - Cursed Ghost Kid
+    - Beastman Leather Armor
+    - 0.0012%
+    - '1'
+  - - Cursed Ghost Kid
+    - Ice Stone Armor
+    - 0.0012%
+    - '1'
+  - - Cursed Ghost Kid
+    - Magic Alchemic Gown
+    - 0.0012%
+    - '1'
+  - - Cursed Ghost Kid
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Cursed Ghost Kid
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Cursed Ghost Kid
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Cursed Ghost Kid
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Cursed Ghost Kid
+    - Map Piece
+    - 0.3500%
+    - '1'
+  - - Cursed Ghost Kid
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Cursed Ghost Kid
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Cursed Ghost Kid
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Cursed Ghost Kid
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Cursed Ghost Kid
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Cursed Ghost Kid
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Exiled Earl
+    - Earl Ring
+    - 0.0782%
+    - '1'
+  - - Exiled Earl
+    - Earl Mantle
+    - 0.0782%
+    - '1'
+  - - Exiled Earl
+    - Blood Ring
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Moonnight Mantle
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Exiled Earl
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Exiled Earl
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Exiled Earl
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Exiled Earl
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Exiled Earl
+    - Flawed Ruby
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Defective Orange Gem
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Flawed Yellow Gem
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Flawed Emerald
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Flawed Sapphire
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Flawed Purple Gem
+    - 0.0020%
+    - '1'
+  - - Exiled Earl
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Exiled Earl
+    - Exiled Earl Card
+    - 0.0417%
+    - '1'
+  - - Fog Lizard
+    - Hard-leather Cap
+    - 0.0608%
+    - '1'
+  - - Fog Lizard
+    - Round Iron Helmet
+    - 0.0608%
+    - '1'
+  - - Fog Lizard
+    - Alchemic Cap
+    - 0.0608%
+    - '1'
+  - - Fog Lizard
+    - Icy Hard-Leather Cap
+    - 0.0010%
+    - '1'
+  - - Fog Lizard
+    - Beastman Viking Cap
+    - 0.0010%
+    - '1'
+  - - Fog Lizard
+    - Magic Alchemic Cap
+    - 0.0010%
+    - '1'
+  - - Fog Lizard
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Fog Lizard
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Fog Lizard
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Fog Lizard
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Fog Lizard
+    - Map Piece
+    - 0.3000%
+    - '1'
+  - - Fog Lizard
+    - Flawed Emerald
+    - 0.0030%
+    - '1'
+  - - Fog Lizard
+    - Flawed Sapphire
+    - 0.0030%
+    - '1'
+  - - Fog Lizard
+    - Flawed Purple Gem
+    - 0.0030%
+    - '1'
+  - - Lizard Chief
+    - Hard-leather Cap
+    - 0.9378%
+    - '1'
+  - - Lizard Chief
+    - Round Iron Helmet
+    - 0.9378%
+    - '1'
+  - - Lizard Chief
+    - Alchemic Cap
+    - 0.9378%
+    - '1'
+  - - Lizard Chief
+    - Icy Hard-Leather Cap
+    - 0.1015%
+    - '1'
+  - - Lizard Chief
+    - Beastman Viking Cap
+    - 0.1015%
+    - '1'
+  - - Lizard Chief
+    - Magic Alchemic Cap
+    - 0.1015%
+    - '1'
+  - - Lizard Chief
+    - Angel Wings
+    - 0.5471%
+    - '1'
+  - - Lizard Chief
+    - Ring of Goddess
+    - 0.5471%
+    - '1'
+  - - Lizard Chief
+    - Flawed Yellow Gem
+    - 0.4600%
+    - '1'
+  - - Lizard Chief
+    - Flawed Emerald
+    - 0.4600%
+    - '1'
+  - - Lizard Chief
+    - Magic Bomb V
+    - 0.5471%
+    - '1'
+  - - Lizard Chief
+    - Earth Blessing V
+    - 0.5471%
+    - '1'
+  - - Lizard Chief
+    - Fruit of Hercules
+    - 19.4998%
+    - '1'
+  - - Lizard Chief
+    - Target Potion
+    - 19.4998%
+    - '1'
+  - - Lizard Chief
+    - Map Piece
+    - 3.5500%
+    - '1'
+  - - Lizard Chief
+    - Pestle
+    - 0.0859%
+    - '1'
+  - - Marquis Blute
+    - Earl Ring
+    - 1.6325%
+    - '1'
+  - - Marquis Blute
+    - Earl Mantle
+    - 1.6325%
+    - '1'
+  - - Marquis Blute
+    - Blood Ring
+    - 0.1955%
+    - '1'
+  - - Marquis Blute
+    - Moonnight Mantle
+    - 0.1955%
+    - '1'
+  - - Marquis Blute
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Marquis Blute
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Marquis Blute
+    - Defective Orange Gem
+    - 0.5900%
+    - '1'
+  - - Marquis Blute
+    - Flawed Purple Gem
+    - 0.5900%
+    - '1'
+  - - Marquis Blute
+    - Soul Entangle V
+    - 0.8789%
+    - '1'
+  - - Marquis Blute
+    - Hurt Transfer V
+    - 0.8789%
+    - '1'
+  - - Marquis Blute
+    - Exhaustion Curse V
+    - 0.8789%
+    - '1'
+  - - Marquis Blute
+    - Magic Fruit
+    - 22.6350%
+    - '1'
+  - - Marquis Blute
+    - Fruit of the Devil
+    - 22.6350%
+    - '1'
+  - - Marquis Blute
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Marquis Blute
+    - Pestle
+    - 0.1054%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Foggy Forest'
+- section: Foggy Forest
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Fungus Forest South , Thorn Wasteland , Mysterious Wetland
+- section: Description
+  text_raw: Foggy Forest is rich in vegetation and monsters from level 35 to 45. Enjoy the wooded scenery and visit with the fellow explorers here. Just remember, these Earls are more
+    hungry than their cousins lost in the Maze, and these dolls would rather run with knives than be changed.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

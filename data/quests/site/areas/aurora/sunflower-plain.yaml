@@ -1,0 +1,535 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: sunflower-plain
+  name_raw: Sunflower Plain
+source:
+  origin_url: https://angels.wikidot.com/area:sunflower-plain
+  retrieval_url: https://www.aowiki.uk/pages/area_sunflower-plain.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5d1f699bc305e21a57efb900503c94a53c21df6d24e9c64eeb6e96c728c15d30
+quest_links:
+- slug: ardent-recommendation
+  name_raw: Ardent Recommendation
+  retrieval_url: https://www.aowiki.uk/pages/quest_ardent-recommendation.html
+  origin_url: https://angels.wikidot.com/quest:ardent-recommendation
+- slug: awakening-a-love-of-music
+  name_raw: Awakening a Love of Music
+  retrieval_url: https://www.aowiki.uk/pages/quest_awakening-a-love-of-music.html
+  origin_url: https://angels.wikidot.com/quest:awakening-a-love-of-music
+- slug: looking-for-fatman-s-ring
+  name_raw: Looking for Fatman's Ring
+  retrieval_url: https://www.aowiki.uk/pages/quest_looking-for-fatman-s-ring.html
+  origin_url: https://angels.wikidot.com/quest:looking-for-fatman-s-ring
+- slug: noise-pollution
+  name_raw: Noise Pollution
+  retrieval_url: https://www.aowiki.uk/pages/quest_noise-pollution.html
+  origin_url: https://angels.wikidot.com/quest:noise-pollution
+- slug: preparation-for-winter
+  name_raw: Preparation for Winter
+  retrieval_url: https://www.aowiki.uk/pages/quest_preparation-for-winter.html
+  origin_url: https://angels.wikidot.com/quest:preparation-for-winter
+- slug: rare-sheep-score
+  name_raw: Rare Sheep Score
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-sheep-score.html
+  origin_url: https://angels.wikidot.com/quest:rare-sheep-score
+- slug: the-pumpkin-s-bad-deed
+  name_raw: The Pumpkin's Bad Deed
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-pumpkin-s-bad-deed.html
+  origin_url: https://angels.wikidot.com/quest:the-pumpkin-s-bad-deed
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Clerk
+    - (134,171)
+    - 'Gives quest: The Pumpkin''s Bad Deed (repeatable)'
+  - - Manor Keeper
+    - (99,150)
+    - 'Gives quest: Preparation for Winter (repeatable)'
+  - - Gardener
+    - (53,107)
+    - 'Gives quest series: Noise Pollution , Awakening a Love of Music , Rare Sheep Score , and Ardent Recommendation'
+  - - Rich Fatman
+    - (227,132)
+    - 'Gives quest: Looking for Fatman''s Ring'
+  - - Douglas
+    - (99,160)
+    - '?'
+  - - ''
+  - - Terra Keeper
+    - (225,48)
+    - Can transport you to your league's terra, or city.
+  - - League Totem
+    - (215,46)
+    - ''
+  - - ''
+  - - Cupid
+    - (80,176)
+    - Make this your revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - The Pumpkin's Bad Deed
+    - 'Yes'
+    - Aurora Faction; Character Lvl 10-25
+    - Exp+390, Credit+20
+    - Defeat 20 Pumpkinman
+  - - Preparation for Winter
+    - 'Yes'
+    - Aurora Faction; Character Lvl 10-25
+    - Exp+450, Credit+20
+    - Defeat Tone Sheep and collect 5 Sheep's Wolly Curls
+  - - ''
+  - - Looking for Fatman's Ring
+    - 'No'
+    - Aurora Faction; Character Lvl 10+
+    - Exp+1040, Credit+55, Gold+550
+    - Defeat Evil Slarms and collect Ring of the Fatman
+  - - ''
+  - - Noise Pollution 1 of 4
+    - 'No'
+    - Aurora Faction; Character Lvl 10+
+    - Exp+1200, Credit+50, Gold+250
+    - Defeat 20 Tone Sheep
+  - - Awakening a Love of Music 2 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Noise Pollution
+    - Exp+1300, Credit+55, Gold+350
+    - Defeat Tone Sheep and collect Magic Flute
+  - - Rare Sheep Score 3 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Awakening a Love of Music
+    - Exp+1520, Credit+360, Item
+    - Defeat the Sheep Beethoven (Boss)
+  - - Ardent Recommendation 4 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Rare Sheep Score
+    - Exp+1400, Credit+55
+    - Find the Fishing Leader at Dawn Harbor
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Egg Chick
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Magic Pumpkinman
+    - '15'
+    - 'No'
+    - 'No'
+    - ''
+  - - Evil Slarm
+    - '15'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Tone Sheep
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Pumpkin Pluto
+    - '20'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Sheep Beethoven
+    - '23'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Tin
+    - (280,123)
+    - Dig level 11
+    - ''
+  - - Lavender
+    - (37,77)
+    - Collect level 11
+    - ''
+  - - Monster Den
+    - (279,159)
+    - Collect level 11
+    - ''
+  - - Grapefruit
+    - (20,24)
+    - Lumber level 11
+    - ''
+  - - White Alga
+    - (256,51)
+    - Fishing level 11
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Egg Chick
+    - Red Potion 1
+    - 2.0000%
+    - '1'
+  - - Egg Chick
+    - Blue Potion 1
+    - 2.0000%
+    - '1'
+  - - Egg Chick
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Evil Slarm
+    - Incantation Gown
+    - 0.4986%
+    - '1'
+  - - Evil Slarm
+    - Heavy Armor
+    - 0.4986%
+    - '1'
+  - - Evil Slarm
+    - Light Armor
+    - 0.4986%
+    - '1'
+  - - Evil Slarm
+    - Savage Vest
+    - 0.0083%
+    - '1'
+  - - Evil Slarm
+    - Savage Armor
+    - 0.0083%
+    - '1'
+  - - Evil Slarm
+    - Angelos Gown
+    - 0.0083%
+    - '1'
+  - - Evil Slarm
+    - Emerald Piece
+    - 0.0249%
+    - '1'
+  - - Evil Slarm
+    - Sapphire Piece
+    - 0.0249%
+    - '1'
+  - - Evil Slarm
+    - Purple Gem Piece
+    - 0.0249%
+    - '1'
+  - - Evil Slarm
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Evil Slarm
+    - Red Potion 2
+    - 43.4935%
+    - '2'
+  - - Evil Slarm
+    - Blue Potion 2
+    - 43.4935%
+    - '1'
+  - - Magic Pumpkin
+    - Lvl 1 Robber Lord Map Piece
+    - 57,47%
+    - '1'
+  - - Magic Pumpkin
+    - Basic Helmet
+    - 11,49%
+    - '1'
+  - - Magic Pumpkin
+    - Basic Archer Hood
+    - 11,49%
+    - '1'
+  - - Magic Pumpkin
+    - Basic Incantation Hood
+    - 11,49%
+    - '1'
+  - - Magic Pumpkin
+    - Good Basic Helmet
+    - 1,92%
+    - '1'
+  - - Magic Pumpkin
+    - Good Basic Archer Hood
+    - 1,92%
+    - '1'
+  - - Magic Pumpkin
+    - Good Basic Incantation Hood
+    - 1,92%
+    - '1'
+  - - Magic Pumpkin
+    - Ruby Piece
+    - 0,57%
+    - '1'
+  - - Magic Pumpkin
+    - Orange Gem Piece
+    - 0,57%
+    - '1'
+  - - Magic Pumpkin
+    - Yellow Gem Piece
+    - 0,57%
+    - '1'
+  - - Magic Pumpkin
+    - Savage Iron Helmet
+    - 0,19%
+    - '1'
+  - - Magic Pumpkin
+    - Savage Hood
+    - 0,19%
+    - '1'
+  - - Magic Pumpkin
+    - Angelos Hood
+    - 0,19%
+    - '1'
+  - - Pumpkin Pluto
+    - Archer Hood
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Helmet
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Incantation Hood
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Heavy Armor
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Light Armor
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Incantation Gown
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Mege's Straw Hat
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Pirate Flag
+    - 2.8570%
+    - '1'
+  - - Pumpkin Pluto
+    - Savage Vest
+    - 0.8311%
+    - '1'
+  - - Pumpkin Pluto
+    - Savage Armor
+    - 0.8311%
+    - '1'
+  - - Pumpkin Pluto
+    - Angelos Gown
+    - 0.8311%
+    - '1'
+  - - Pumpkin Pluto
+    - Emerald Piece
+    - 2.4900%
+    - '1'
+  - - Pumpkin Pluto
+    - Sapphire Piece
+    - 2.4900%
+    - '1'
+  - - Pumpkin Pluto
+    - Purple Gem Piece
+    - 2.4900%
+    - '1'
+  - - Pumpkin Pluto
+    - Target Potion
+    - 18.0009%
+    - '1'
+  - - Pumpkin Pluto
+    - Map Piece
+    - 20.7800%
+    - '1'
+  - - Sheep Beethoven
+    - Sword
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Double-blade Axe
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Wooden Shield
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Hook
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Slingshot
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Staff
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Wool Cap
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Robber Flag
+    - 3.6420%
+    - '1'
+  - - Sheep Beethoven
+    - Antique Rapier
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Silver Double-bladed Axe
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Silver Shield
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Curse Hook
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Raid Slingshot
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Holy Wood Staff
+    - 0.5300%
+    - '1'
+  - - Sheep Beethoven
+    - Ruby Piece
+    - 3.1800%
+    - '1'
+  - - Sheep Beethoven
+    - Orange Gem Piece
+    - 3.1800%
+    - '1'
+  - - Sheep Beethoven
+    - Yellow Gem Piece
+    - 3.1800%
+    - '1'
+  - - Sheep Beethoven
+    - Fruit of Hercules
+    - 31.6540%
+    - '1'
+  - - Sheep Beethoven
+    - Map Piece
+    - 26.4900%
+    - '1'
+  - - Tone Sheep
+    - Light Sword
+    - 0.6357%
+    - '1'
+  - - Tone Sheep
+    - Double-blade Axe
+    - 0.6357%
+    - '1'
+  - - Tone Sheep
+    - Wood Shield
+    - 0.6357%
+    - '1'
+  - - Tone Sheep
+    - Sword
+    - 0.1059%
+    - '1'
+  - - Tone Sheep
+    - Wooden Shield
+    - 0.1059%
+    - '1'
+  - - Tone Sheep
+    - Antique Rapier
+    - 0.0105%
+    - '1'
+  - - Tone Sheep
+    - Silver Double-bladed Axe
+    - 0.0105%
+    - '1'
+  - - Tone Sheep
+    - Silver Shield
+    - 0.0105%
+    - '1'
+  - - Tone Sheep
+    - Ruby Piece
+    - 0.0318%
+    - '1'
+  - - Tone Sheep
+    - Orange Gem Piece
+    - 0.0318%
+    - '1'
+  - - Tone Sheep
+    - Yellow Gem Piece
+    - 0.0318%
+    - '1'
+  - - Tone Sheep
+    - Map Piece
+    - 3.1780%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Sunflower Plain'
+- section: Sunflower Plain
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Spike Farm , Crashing Hillock , South of Mirror Lake , Training Area
+- section: Description
+  text_raw: Welcome to Sunflower Plain! Where Sheep are the maestros, and where pumpkins are up to no good. This fruitful landscape is dominated by the manor of Sir Douglas and a perfect
+    spot to take a leisurely stroll. If you’re lucky, Sheep Beethoven may even serenade you to a concert amid the level 12 to 23 creatures. Then again, you might be better off avoiding
+    such a performance.
+- section: Resources
+  text_raw: '[[div]]'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

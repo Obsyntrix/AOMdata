@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: collect-white-wolf-s-teeth
+name_raw: Collect White Wolf S Teeth
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- crashing-hillock
+source:
+  origin_url: https://angels.wikidot.com/quest:collect-white-wolf-s-teeth
+  retrieval_url: https://www.aowiki.uk/pages/quest_collect-white-wolf-s-teeth.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 526d0b91dff891bba73971f390290a0077149d76a01f52311e2d48c361b4acfb
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Assoc. Director
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 27 to 40
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '810'
+    - '38'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Collect White Wolf S Teeth'
+- section: Collect White Wolf S Teeth
+  text_raw: Home » Areas » Crashing Hillock » Collect White Wolf's Teeth
+- section: Summary
+  text_raw: The teeth of the White Wolves makes a very sharp tool. The Assoc. Director asks you to get him some.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Assoc. Director (120,127). Step 2 Defeat White Wolves until you collect 5 of their teeth. Step 3 Report back to the Assoc. Director.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,490 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: degula-maze
+  name_raw: Degula Maze
+source:
+  origin_url: https://angels.wikidot.com/area:degula-maze
+  retrieval_url: https://www.aowiki.uk/pages/area_degula-maze.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 701302b5b879fe6bd733bf118446e08ff74f31f0d1bd2630965f8a04a95fabc1
+quest_links:
+- slug: annoying-bat
+  name_raw: Annoying Bat
+  retrieval_url: https://www.aowiki.uk/pages/quest_annoying-bat.html
+  origin_url: https://angels.wikidot.com/quest:annoying-bat
+- slug: bershala
+  name_raw: Bershala
+  retrieval_url: https://www.aowiki.uk/pages/quest_bershala.html
+  origin_url: https://angels.wikidot.com/quest:bershala
+- slug: confirmation-of-picking-pumpkin
+  name_raw: Confirmation of Picking Pumpkin
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirmation-of-picking-pumpkin.html
+  origin_url: https://angels.wikidot.com/quest:confirmation-of-picking-pumpkin
+- slug: duke-s-invitation
+  name_raw: Duke's Invitation
+  retrieval_url: https://www.aowiki.uk/pages/quest_duke-s-invitation.html
+  origin_url: https://angels.wikidot.com/quest:duke-s-invitation
+- slug: graveyard-destroyer
+  name_raw: Graveyard Destroyer
+  retrieval_url: https://www.aowiki.uk/pages/quest_graveyard-destroyer.html
+  origin_url: https://angels.wikidot.com/quest:graveyard-destroyer
+- slug: medicine-for-teeth-pain
+  name_raw: Medicine for teeth pain
+  retrieval_url: https://www.aowiki.uk/pages/quest_medicine-for-teeth-pain.html
+  origin_url: https://angels.wikidot.com/quest:medicine-for-teeth-pain
+- slug: protecting-pumpkin
+  name_raw: Protecting Pumpkin
+  retrieval_url: https://www.aowiki.uk/pages/quest_protecting-pumpkin.html
+  origin_url: https://angels.wikidot.com/quest:protecting-pumpkin
+- slug: robbed-archive
+  name_raw: Robbed Archive
+  retrieval_url: https://www.aowiki.uk/pages/quest_robbed-archive.html
+  origin_url: https://angels.wikidot.com/quest:robbed-archive
+- slug: shadow-are-you-evil-enough
+  name_raw: Are you evil enough?
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-are-you-evil-enough.html
+  origin_url: https://angels.wikidot.com/quest:shadow-are-you-evil-enough
+- slug: shadow-disguise
+  name_raw: Disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+  origin_url: https://angels.wikidot.com/quest:shadow-disguise
+- slug: shadow-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:shadow-magic-stone
+- slug: shadow-obtaining-asmode-s-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-obtaining-asmode-s-trust.html
+  origin_url: https://angels.wikidot.com/quest:shadow-obtaining-asmode-s-trust
+- slug: shadow-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:shadow-obtaining-asmodes-trust
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Asmode
+    - (54,15)
+    - Evil Student Leader, gives the Asmode series quests.
+  - - Melonland Worker
+    - (38,46)
+    - Gives the quest Confirmation of picking Pumpkin .
+  - - Executive Order
+    - (84,58)
+    - Gives the quest Robbed Archive .
+  - - Manager Pandora
+    - (47, 165)
+    - Gives the quests Annoying Bat and Graveyard destroyer .
+  - - Degula Duke
+    - (21,175)
+    - Gives the quest series Medicine for teeth pain , Bershala and Duke's Invitation
+  - - E. Field Helper
+    - (213,32)
+    - Part of Confirmation of picking Pumpkin quest; gives the quest Protecting Pumpkin .
+  - - N. Field Helper
+    - (215,168)
+    - Part of Confirmation of picking Pumpkin quest
+  - - Shadow Totem
+    - (17, 173)
+    - Revive here if of Shadow faction
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeatable
+    - Requirements
+    - Reward
+    - Short Description
+  - - Annoying Bat
+    - 'Yes'
+    - Shadow Faction; Character lvl 20-35
+    - Exp+590,Credit+30
+    - Defeat 20 Little Eyes
+  - - Graveyard Destroyer
+    - 'Yes'
+    - Shadow Faction; Character lvl 20-35
+    - Exp+666,Credit+30
+    - Defeat 20 Evil Leeches
+  - - Confirmation of Picking Pumpkin
+    - 'No'
+    - Shadow Faction;
+    - Exp+200, Credit+35
+    - 'Collect the reports from the two helpers: E. Field Helper and N. Field Helper .'
+  - - Protecting Pumpkin
+    - 'No'
+    - Shadow Faction; Character lvl 20+
+    - Exp+800, Credit+65
+    - Defeat 20 One Eyed Bats .
+  - - Robbed Archive
+    - 'No'
+    - Shadow Faction; Character lvl 20+
+    - Exp+1320, Credit+70
+    - Obtain 1 archive from Evil Leech .
+  - - ''
+  - - Medicine for Teeth Pain 1 of 3
+    - 'No'
+    - Shadow Faction; Character lvl 20+
+    - Gold+1000, Exp+1600, Credit+70, 5 Common Red Potion
+    - Collect 10 tails from the Little Eye and 10 wings from the One Eyed Bat .
+  - - Bershala 2 of 3
+    - 'No'
+    - Shadow Faction; finished quest Medicine for teeth pain
+    - Exp+1920, Credit+350, item
+    - Defeat 1 Eye Bershala .
+  - - Duke's Invitation 3 of 3
+    - 'No'
+    - Shadow Faction; finished quest Bershala
+    - Exp+400,Credit+30
+    - Deliver the invitation to Executive Chief of Memory Cave .
+  - - ''
+  - - Obtaining Asmode's Trust 5 of 8
+    - 'No'
+    - Shadow Faction; finished quest Disguise
+    - Exp+400,Credit+35
+    - Give the bat badge to Asmode
+  - - Are you evil enough? 6 of 8
+    - 'No'
+    - Shadow Faction; finished quest Obtaining Asmode's Trust
+    - Exp+500,Credit+25
+    - Talk to the Spy Angel , and ask the woman in Memory Cave for help.
+  - - Magic Stone 7 of 8
+    - 'No'
+    - Shadow Faction; finished quest Are you evil enough?
+    - Exp+400,Credit+25
+    - Go to the secret base in Memory Cave (84,148).
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Little Eye
+    - '24'
+    - 'No'
+    - 'No'
+    - ''
+  - - One-eyed Bat
+    - '24'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Leech
+    - '27'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Eye Bershala
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Bloody Pound
+    - '32'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Old Beast Den
+    - (80,34)
+    - Collect level 21
+    - ''
+  - - Rainbow Bush
+    - (276,144)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (34,34)
+    - Lumber level 21
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Bloody Pound
+    - Gown
+    - 6.9114%
+    - '1'
+  - - Bloody Pound
+    - Protector's Gown
+    - 1.0470%
+    - '1'
+  - - Bloody Pound
+    - Golden Shell Bag
+    - 2.3038%
+    - '1'
+  - - Bloody Pound
+    - Ring of High Clerist
+    - 2.3038%
+    - '1'
+  - - Bloody Pound
+    - Thick Armor
+    - 11.9181%
+    - '1'
+  - - Bloody Pound
+    - Leather Vest
+    - 11.9181%
+    - '1'
+  - - Bloody Pound
+    - Defective Orange Gem
+    - 0.2700%
+    - '1'
+  - - Bloody Pound
+    - Flawed Yellow Gem
+    - 0.2700%
+    - '1'
+  - - Bloody Pound
+    - Basic Beating V
+    - 1.5358%
+    - '1'
+  - - Bloody Pound
+    - Basic Attack V
+    - 1.5358%
+    - '1'
+  - - Bloody Pound
+    - Basic Shot V
+    - 1.5358%
+    - '1'
+  - - Bloody Pound
+    - Target Potion
+    - 18.0001%
+    - '1'
+  - - Bloody Pound
+    - Agility Potion
+    - 18.0001%
+    - '1'
+  - - Bloody Pound
+    - Map Piece
+    - 10.4700%
+    - '1'
+  - - Bloody Pound
+    - Pestle
+    - 0.0620%
+    - '1'
+  - - Evil Leech
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Evil Leech
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Evil Leech
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Evil Leech
+    - Evil Leech card
+    - 0.0800%
+    - '1'
+  - - Eye Bershala
+    - Rabbi's Cap
+    - 1.9108%
+    - '1'
+  - - Eye Bershala
+    - Hard-leather Cap
+    - 1.9108%
+    - '1'
+  - - Eye Bershala
+    - Shade
+    - 1.9108%
+    - '1'
+  - - Eye Bershala
+    - Protector's Cap
+    - 0.2895%
+    - '1'
+  - - Eye Bershala
+    - Hard Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Eye Bershala
+    - Heavy Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Eye Bershala
+    - Turtle Shell Bag
+    - 1.9108%
+    - '1'
+  - - Eye Bershala
+    - Ring of Envoy
+    - 1.9108%
+    - '1'
+  - - Eye Bershala
+    - Flawed Emerald
+    - 0.1300%
+    - '1'
+  - - Eye Bershala
+    - Flawed Sapphire
+    - 0.1300%
+    - '1'
+  - - Eye Bershala
+    - Flawed Purple Gem
+    - 0.1300%
+    - '1'
+  - - Eye Bershala
+    - Shock Wave 5
+    - 1.2738%
+    - '1'
+  - - Eye Bershala
+    - Poison Hit V
+    - 1.2738%
+    - '1'
+  - - Eye Bershala
+    - Flying Dart V
+    - 1.2738%
+    - '1'
+  - - Eye Bershala
+    - Magic Fruit
+    - 24.8889%
+    - '1'
+  - - Eye Bershala
+    - Evil Eye Bershala card
+    - 11.1111%
+    - '1'
+  - - Eye Bershala
+    - Map Piece
+    - 8.6900%
+    - '1'
+  - - Little Eye
+    - Rabbi's Cap
+    - 0.5211%
+    - '1'
+  - - Little Eye
+    - Protector's Cap
+    - 0.0086%
+    - '1'
+  - - Little Eye
+    - Flawed Ruby
+    - 0.0013%
+    - '1'
+  - - Little Eye
+    - Defective Orange Gem
+    - 0.0013%
+    - '1'
+  - - Little Eye
+    - Flawed Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Little Eye
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Little Eye
+    - Little Eye card
+    - 0.0800%
+    - '1'
+  - - One-eyed Bat
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - One-eyed Bat
+    - Shade
+    - 0.2605%
+    - '1'
+  - - One-eyed Bat
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - One-eyed Bat
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - One-eyed Bat
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - One-eyed Bat
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - One-eyed Bat
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - One-eyed Bat
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - One-eyed Bat
+    - One-eyed Bat card
+    - 0.0800%
+    - '1'
+  - - One-eyed Bat
+    - Red Potion 2
+    - 47.7675%
+    - '2'
+  - - One-eyed Bat
+    - Blue Potion 2
+    - 47.7675%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Degula Maze'
+- section: Degula Maze
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Bottomless Pit , Memory Cave
+- section: Description
+  text_raw: Pumpkins are all the rage in Degula Maze, but it would seem not all the leeches like what’s on the new menu. You may wish to talk to Duke Degula about it. His level 24 to
+    32 friends and pet bats might make an impression on you. Perhaps, since it is getting late down here in this maze, you will want to stay and join them…for dinner. As you pass through,
+    keep a keen eye on that suspicious gardener, Asmode. His plans are beyond the desires of these leeches.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

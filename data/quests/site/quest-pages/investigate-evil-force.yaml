@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: investigate-evil-force
+name_raw: Investigate Evil Force
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- quiet-vale
+source:
+  origin_url: https://angels.wikidot.com/quest:investigate-evil-force
+  retrieval_url: https://www.aowiki.uk/pages/quest_investigate-evil-force.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 4ade6c0987cd57215dc36245be919357223f1587cb87bcd3509680d162e8a042
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Militia Pioneer
+    - Character Lvl 30 to 45
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat Evil Bishops and collect 5 Evil Diamonds from their hats to investigate.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 950 Experience, 40 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Investigate Evil Force'
+- section: Investigate Evil Force
+  text_raw: Home » Areas » Quiet Vale » Investigate Evil Force
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Militia Pioneer. Step 2 Defeat Evil Bishops until you have collected enough diamonds. Step 3 Take the Evil Diamonds to the Militia Pioneer.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

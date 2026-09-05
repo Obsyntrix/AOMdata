@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: hope-after-bad-news
+name_raw: Hope After Bad News
+discovered_from_regions:
+- atlantis
+discovered_from_areas:
+- puqi-village
+source:
+  origin_url: https://angels.wikidot.com/quest:hope-after-bad-news
+  retrieval_url: https://www.aowiki.uk/pages/quest_hope-after-bad-news.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: e51306900476b40f5de1b52538dc0a8998b42fca46c9b8a6b0c6facd8a5b4072
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Childe Kere
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Lost Friends
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - ~ Credit
+    - ~ Gold
+  - - '55000'
+    - '500'
+    - '110000'
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Hope After Bad News'
+- section: Hope After Bad News
+  text_raw: Home » Areas » puqi village » Hope after Bad News
+- section: Walkthrough
+  text_raw: 'Step 1 Dive into Coral Vale to investigate any suspicious item. - (talk to Suspicious Pack ( , )) REWARD 1116 exp, 525 gold, item quest:Kateman''s Letter Step 2 Show Kere
+    Katerman''s Letter.
+
+    Step 3 Get reward from Kere.'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

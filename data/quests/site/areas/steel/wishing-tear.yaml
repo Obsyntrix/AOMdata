@@ -1,0 +1,417 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: wishing-tear
+  name_raw: Wishing Tear
+source:
+  origin_url: https://angels.wikidot.com/area:wishing-tear
+  retrieval_url: https://www.aowiki.uk/pages/area_wishing-tear.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 34ca006ebba7960c21b3e03772394e8b7ad52303343efec6ed2c178e0a7b6d0e
+quest_links:
+- slug: experiment-of-desert-animals
+  name_raw: Experiment of Desert Animals
+  retrieval_url: https://www.aowiki.uk/pages/quest_experiment-of-desert-animals.html
+  origin_url: https://angels.wikidot.com/quest:experiment-of-desert-animals
+- slug: genius-scientist
+  name_raw: Genius scientist
+  retrieval_url: https://www.aowiki.uk/pages/quest_genius-scientist.html
+  origin_url: https://angels.wikidot.com/quest:genius-scientist
+- slug: hunting
+  name_raw: Hunting
+  retrieval_url: https://www.aowiki.uk/pages/quest_hunting.html
+  origin_url: https://angels.wikidot.com/quest:hunting
+- slug: parts-and-desert-mouse
+  name_raw: Parts and Desert Mouse
+  retrieval_url: https://www.aowiki.uk/pages/quest_parts-and-desert-mouse.html
+  origin_url: https://angels.wikidot.com/quest:parts-and-desert-mouse
+- slug: rare-lizard-s-skin
+  name_raw: Rare Lizard's Skin
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-lizard-s-skin.html
+  origin_url: https://angels.wikidot.com/quest:rare-lizard-s-skin
+- slug: rare-toad-s-skin
+  name_raw: Rare Toad's Skin
+  retrieval_url: https://www.aowiki.uk/pages/quest_rare-toad-s-skin.html
+  origin_url: https://angels.wikidot.com/quest:rare-toad-s-skin
+- slug: strange-robot
+  name_raw: Strange Robot
+  retrieval_url: https://www.aowiki.uk/pages/quest_strange-robot.html
+  origin_url: https://angels.wikidot.com/quest:strange-robot
+- slug: testing-apparatus-of-water-resource
+  name_raw: Testing Apparatus of Water Resource
+  retrieval_url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+  origin_url: https://angels.wikidot.com/quest:testing-apparatus-of-water-resource
+- slug: traveler-s-worry
+  name_raw: Traveler's Worry
+  retrieval_url: https://www.aowiki.uk/pages/quest_traveler-s-worry.html
+  origin_url: https://angels.wikidot.com/quest:traveler-s-worry
+- slug: wild-flavor
+  name_raw: Wild Flavor
+  retrieval_url: https://www.aowiki.uk/pages/quest_wild-flavor.html
+  origin_url: https://angels.wikidot.com/quest:wild-flavor
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Desert Trip
+    - (83,105)
+    - Gives quests Rare Lizard's Skin , and Rare Toad's Skin .
+  - - Desert Merchant
+    - (134,71)
+    - Gives quest Traveler's Worry .
+  - - Scrap Collector
+    - (23,43)
+    - Gives quest Parts and Desert Mouse .
+  - - Glutton
+    - (178,103)
+    - Gives quests Wild Flavor and Hunting .
+  - - Researcher Kente
+    - (148,69)
+    - 'Gives the serial quests: Testing Apparatus of Water Resource , Experiment of Desert Animals , Strange Robot , and Genius scientist .'
+  - - ''
+  - - Badge Collector
+    - (27,144)
+    - Exchange two Copper Monster Badges for a Secret Gift.
+  - - ''
+  - - Iron Totem
+    - (173,79)
+    - Steel Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Rare Lizard's Skin
+    - 'Yes'
+    - Steel Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Collect 10 Lizard Skins by defeating Desert Lizards .
+  - - Rare Toad's Skin
+    - 'Yes'
+    - Steel Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Collect 10 Toad Skins by defeating Ocher Toads .
+  - - Parts and Desert Mouse
+    - 'Yes'
+    - Steel Faction; Character lvl 6+
+    - Exp+270, Credit+10
+    - Collect 10 Deserted parts by defeating Desert Mice .
+  - - ''
+  - - Hunting
+    - 'Yes'
+    - none
+    - Card
+    - Buy Newbie Bow from Bow Seller or Shopkeeper
+  - - ''
+  - - Traveler's Worry
+    - 'No'
+    - Steel Faction; Character lvl 6+
+    - Gold+150, Exp+650, Credit+30
+    - Defeat 20 Desert Mice to save the Merchant‘s wares.
+  - - Wild Flavor
+    - 'No'
+    - Steel Faction; Character lvl 6+
+    - Exp+800, Credit+35
+    - Defeat 20 Desert Lizards for their meat.
+  - - ''
+  - - Testing Apparatus of Water Resource 1 of 4
+    - 'No'
+    - Steel Faction;
+    - Gold+250, exp+200, Credit+20
+    - Go back to Iron Castle to get a gear from Researcher Along .
+  - - Experiment of Desert Animals 2 of 4
+    - 'No'
+    - Steel Faction; Character lvl 6+; Completed quest Testing Apparatus of Water Resource
+    - Exp+850, Credit+40, 5 Red potion
+    - Defeat 10 Ocher Toad and 10 Desert Lizard to collect their bodies.
+  - - Strange Robot 3 of 4
+    - 'No'
+    - Steel Faction; Completed quest Experiment of Desert Animals
+    - Exp+1150, Credit+160, Item
+    - Defeat the boss, Stained Robot
+  - - Genius scientist 4 of 4
+    - 'No'
+    - Steel Faction; Completed quest Strange Robot
+    - Exp+400, Credit+20
+    - Take the pollution results to the Edison in Scrap Iron Village .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Desert Mouse
+    - '9'
+    - 'No'
+    - 'No'
+    - ''
+  - - Desert Lizard
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Ocher Toad
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Crystal Lizard
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Stained Robot
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - Summoned
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Copper
+    - (14,114)
+    - Dig level 1
+    - ''
+  - - Poplar
+    - (100,75)
+    - Lumber level 1
+    - ''
+  - - Horseradish
+    - (115,110)
+    - Collect level 1
+    - ''
+  - - Wild Alga
+    - (157,91)
+    - Fishing level 1
+    - ''
+  - - Beast Den
+    - (220,14)
+    - Collect level 1
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crystal Lizard
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Crystal Foreman Hat
+    - 2.1727%
+    - '1'
+  - - Crystal Lizard
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Crystal Lizard
+    - Ruby Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Orange Gem Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Yellow Gem Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Fruit of Hercules
+    - 17.9997%
+    - '1'
+  - - Crystal Lizard
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Desert Lizard
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Desert Lizard
+    - Desert Lizard card
+    - 0.0800%
+    - '1'
+  - - Desert Mouse
+    - Biscuits
+    - 2.0000%
+    - '1'
+  - - Desert Mouse
+    - Magic Grass
+    - 2.0000%
+    - '1'
+  - - Desert Mouse
+    - Desert Mouse card
+    - 0.0800%
+    - '1'
+  - - Ocher Toad
+    - Jute Gloves
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Heavy Wristlet
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Light Gloves
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Savage Gloves
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Savage Cuff
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Angelos Gloves
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Emerald Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Sapphire Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Purple Gem Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Ocher Toad
+    - Ocher Toad card
+    - 0.0800%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Wishing Tear'
+- section: Wishing Tear
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Iron Castle , Scrap Iron Village , Cactus Plain , Burning Desert
+- section: Description
+  text_raw: Wishing Tear is named such because of the tear shaped oasis in its midst. What could be more precious in a desert than clean water? Unfortunately, it would seem some of these
+    level 9 to 17 monsters wish to muck up this wondrous treasure. The local scientists welcome aide. Be sure to check out some of the merchant’s wares and sample the local lizard meat
+    while passing by.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

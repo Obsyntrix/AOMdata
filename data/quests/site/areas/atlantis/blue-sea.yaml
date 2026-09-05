@@ -1,0 +1,396 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: atlantis
+area:
+  id: blue-sea
+  name_raw: Blue Sea
+source:
+  origin_url: https://angels.wikidot.com/area:blue-sea
+  retrieval_url: https://www.aowiki.uk/pages/area_blue-sea.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ce4bbbe28c859c495acc6e1fc4b51c3dbfaf4bdeaec7b5026e919f39c42c9e2b
+quest_links: []
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Dipsey Hunter
+    - (124,38)
+    - Teaches deep see diving
+- table_index: 2
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Ball Jellyfish
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Scale Fish
+    - '77'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Angel Fish
+    - '82'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Octopus Scholar
+    - '83'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Giant Octopus
+    - '85'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Blue Merman
+    - '84'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Bottle Mermaid
+    - '87'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Leader Nio
+    - '95'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Merman Hulio
+    - '95'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Aerolite
+    - (210,160) (170,50)
+    - Dig level 81
+    - ''
+  - - Beech
+    - (120,57) (80,170)
+    - Lumber level 81
+    - ''
+  - - Thyme Bush
+    - (208,90) (94,10)
+    - Collect level 81
+    - ''
+  - - Tropic Fish
+    - (116,96) (6,161)
+    - Fishing level 81
+    - ''
+  - - Bone Den
+    - (184,23) (112,116)
+    - Collect level 81
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Angel Fish
+    - Coral Ring
+    - 0.0769%
+    - '1'
+  - - Angel Fish
+    - Seagod's Handloop
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Sapphire
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Chief Cuffs
+    - 0.0913%
+    - '1'
+  - - Angel Fish
+    - Fane Cuffs
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Fish Haversack
+    - 0.0001%
+    - '1'
+  - - Angel Fish
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Angel Fish
+    - Feather Angel Fish Card
+    - 0.0139%
+    - '1'
+  - - Ball Jellyfish
+    - Mage Cuffs
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Light Necklace
+    - 0.0443%
+    - '1'
+  - - Ball Jellyfish
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Ball Jellyfish
+    - Clean Emerald
+    - 0.0015%
+    - '1'
+  - - Ball Jellyfish
+    - Beachball Jellyfish Card
+    - 0.0208%
+    - '1'
+  - - Blue Merman
+    - Luck Bracers
+    - 0.0824%
+    - '1'
+  - - Blue Merman
+    - Lucky Jack Bracers
+    - 0.0001%
+    - '1'
+  - - Blue Merman
+    - Flawless Yellow Gem
+    - 0.0004%
+    - '1'
+  - - Blue Merman
+    - Blue Merman Card
+    - 0.0139%
+    - '1'
+  - - Bottle Mermaid
+    - Swiftness Boots
+    - 0.0913%
+    - '1'
+  - - Bottle Mermaid
+    - Walker Boots
+    - 0.0001%
+    - '1'
+  - - Bottle Mermaid
+    - Jelly Fish
+    - 0.0002%
+    - '1'
+  - - Bottle Mermaid
+    - Swift Boots
+    - 0.0008%
+    - '1'
+  - - Bottle Mermaid
+    - Flawless Ruby
+    - 0.0004%
+    - '1'
+  - - Giant Octopus
+    - Swiftness Helmet
+    - 0.0853%
+    - '1'
+  - - Giant Octopus
+    - Walker Helmet
+    - 0.0001%
+    - '1'
+  - - Giant Octopus
+    - Swift Helmet
+    - 0.0007%
+    - '1'
+  - - Giant Octopus
+    - Flawless Yellow Gem
+    - 0.0004%
+    - '1'
+  - - Leader Nio
+    - Crystal Spear
+    - 6.2000%
+    - '1'
+  - - Leader Nio
+    - Luck Bracers
+    - 6.2000%
+    - '1'
+  - - Leader Nio
+    - Shaer's Will
+    - 0.0062%
+    - '1'
+  - - Leader Nio
+    - Lucky Jack Bracers
+    - 0.0062%
+    - '1'
+  - - Leader Nio
+    - Natural Antibody V
+    - 0.0020%
+    - '1'
+  - - Leader Nio
+    - Aurora Trap V
+    - 0.0020%
+    - '1'
+  - - Leader Nio
+    - Jelly Fish
+    - 0.0118%
+    - '1'
+  - - Leader Nio
+    - Flawless Emerald
+    - 0.0589%
+    - '1'
+  - - Leader Nio
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Leader Nio
+    - Effective Target Potion
+    - 83.1835%
+    - '1'
+  - - Leader Nio
+    - Captain Nio Card
+    - 0.9259%
+    - '1'
+  - - Merman Hulio
+    - Spider Teeth
+    - 6.2000%
+    - '1'
+  - - Merman Hulio
+    - Swiftness Boots
+    - 6.2000%
+    - '1'
+  - - Merman Hulio
+    - Minaca Attacker
+    - 0.0062%
+    - '1'
+  - - Merman Hulio
+    - Walker Boots
+    - 0.0062%
+    - '1'
+  - - Merman Hulio
+    - Hell Erosion V
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Protection Spell 5
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Cracking Beat V
+    - 0.0020%
+    - '1'
+  - - Merman Hulio
+    - Shark Armor
+    - 0.0118%
+    - '1'
+  - - Merman Hulio
+    - Swift Boots
+    - 0.0354%
+    - '1'
+  - - Merman Hulio
+    - Flawless Sapphire
+    - 0.0589%
+    - '1'
+  - - Merman Hulio
+    - Pestle
+    - 0.5415%
+    - '1'
+  - - Merman Hulio
+    - Effective Agility Potion
+    - 83.6464%
+    - '1'
+  - - Merman Hulio
+    - Merman Hulio Card
+    - 0.4630%
+    - '1'
+  - - Octopus Scholar
+    - Swiftness Armguards
+    - 0.0796%
+    - '1'
+  - - Octopus Scholar
+    - Walker Armguards
+    - 0.0001%
+    - '1'
+  - - Octopus Scholar
+    - Swift Armguards
+    - 0.0007%
+    - '1'
+  - - Octopus Scholar
+    - Flawless Emerald
+    - 0.0004%
+    - '1'
+  - - Scale Fish
+    - Hunter Cuffs
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Hunter Boots
+    - 0.0512%
+    - '1'
+  - - Scale Fish
+    - Forest Cuffs
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Scale Fish
+    - Clean Purple Gem
+    - 0.0017%
+    - '1'
+  - - Scale Fish
+    - Scale Fish Card
+    - 0.0139%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Blue Sea'
+- section: Blue Sea
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Colorful Coral Reefs
+- section: Description
+  text_raw: Players can enjoy the bright shallow sea scenery here. It contains abundant materials. Mermen, Octopuses, Scale Fishes and other races inhabit here. However, castoffs such
+    as ruined robots and empty bottles from Eden have polluted the sea to a certain extent.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

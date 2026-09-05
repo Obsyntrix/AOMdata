@@ -1,0 +1,90 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: girl-s-wish
+name_raw: Girl S Wish
+discovered_from_regions:
+- atlantis
+discovered_from_areas:
+- colorful-coral-reefs
+- golden-beach
+- shining-coast
+source:
+  origin_url: https://angels.wikidot.com/quest:girl-s-wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_girl-s-wish.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5db416c9f8fd7cfaed9d8c47ef0c476ce8d58dc38feba0164fb6ac03df6fbc25
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Shell Girl
+    - Character Lvl 50+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Since the little girl saw a beatiful shell, she has been obsessed with her. Help her to find one
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - '? Gold, ? Experience Choose one of: Item Name or Item Name'
+- table_index: 5
+  rows_raw:
+  - - Girl's Wish
+    - '?'
+    - '?'
+    - Exp+XX, Credit+XX, Gold+XX, Item
+    - Talk to Shoreman in Golden Beach and kill Kill 20 Color Crab , and 20 Color Whelk
+- table_index: 6
+  rows_raw:
+  - - Step 1 Ask Shoreman in Golden Beach about the beautiful shell Step 2 Shoreman told you to look for 20 Color Crab , and 20 Color Whelk Step 3 Shoreman can't discovery, so talk to
+      Young Farmer in Shining Coast Step 4 Young Farmer say to kill 20 Evil Puqi Turtle and 20 Puqi Isle Crab Step 5 Talk to Lifeguard zhi in Golden Beach Step 6 Talk to Mermaid Alice
+      in Colorful Coral Reefs Step 7 Get General Badge from Crab General and Whelk Sword from Whelk Swordsman Step 8 Kill 30 Scale Fish Step 9 Get 10 Whelk Shell - In this quest is 1-14
+      tasks
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Girl S Wish'
+- section: Girl S Wish
+  text_raw: Home » Areas » Shining Coast » Girl's Wish
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

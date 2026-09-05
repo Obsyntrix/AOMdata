@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: break-seal
+name_raw: Break Seal
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- cryptic-moon-swamp
+source:
+  origin_url: https://angels.wikidot.com/quest:break-seal
+  retrieval_url: https://www.aowiki.uk/pages/quest_break-seal.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: a1d32a66b07640029894c2def49fd2ce54b0e278d325be930b25f25748603be2
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Shiwand
+    - Beast Faction; Completed quest Sage's Staff
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Sage's Staff
+    - Break Seal Part 2
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Shiwand is distressed to learn Sharker's intent. Take a letter from Shiwand to the new leader Sharker asking him not to use the power of the ancestors.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Break Seal'
+- section: Break Seal
+  text_raw: Home » Areas » Cryptic Moon Swamp » Break Seal
+- section: Walkthrough
+  text_raw: Step 1 Talk to Shiwand. Step 2 Go to Breeze Woods and give the letter to Sharker (93, 99).
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

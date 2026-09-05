@@ -1,0 +1,431 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: gebuer-vale
+  name_raw: Gebuer Vale
+source:
+  origin_url: https://angels.wikidot.com/area:gebuer-vale
+  retrieval_url: https://www.aowiki.uk/pages/area_gebuer-vale.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: a39fb41e425c6a671b2ee48e43fcff71aa8570d687a34e153f4aa964d4e826ac
+quest_links:
+- slug: detecting-fountain
+  name_raw: Detecting Fountain
+  retrieval_url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+  origin_url: https://angels.wikidot.com/quest:detecting-fountain
+- slug: eternal-glory
+  name_raw: Eternal Glory
+  retrieval_url: https://www.aowiki.uk/pages/quest_eternal-glory.html
+  origin_url: https://angels.wikidot.com/quest:eternal-glory
+- slug: ring-of-caravan
+  name_raw: Ring of Caravan
+  retrieval_url: https://www.aowiki.uk/pages/quest_ring-of-caravan.html
+  origin_url: https://angels.wikidot.com/quest:ring-of-caravan
+- slug: rotten-bird-s-feather
+  name_raw: Rotten Bird‘s Feather
+  retrieval_url: https://www.aowiki.uk/pages/quest_rotten-bird-s-feather.html
+  origin_url: https://angels.wikidot.com/quest:rotten-bird-s-feather
+- slug: steel-evil-student-leader
+  name_raw: Evil Student Leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-evil-student-leader.html
+  origin_url: https://angels.wikidot.com/quest:steel-evil-student-leader
+- slug: steel-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:steel-magic-stone
+- slug: strange-black-feather
+  name_raw: Strange Black Feather
+  retrieval_url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+  origin_url: https://angels.wikidot.com/quest:strange-black-feather
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Sword Expert
+    - (92,35)
+    - Medium level combat techniques (Sword).
+  - - Bow Expert
+    - (130,36)
+    - Medium level combat techniques (Bow).
+  - - Axe Expert
+    - (85,32)
+    - Medium level combat techniques (Axe).
+  - - Spear Expert
+    - (76,30)
+    - Medium level combat techniques(Spear).
+  - - Armament Seller
+    - (99,40)
+    - Medium level Garment and Shield equipment.
+  - - Bowset Seller
+    - (126,39)
+    - Medium level Mantle equipment.
+  - - Mage Gear Seller
+    - (119,21)
+    - Medium level Vestment equipment.
+  - - Life Mage
+    - (125,23)
+    - Medium level spell scrolls.
+  - - Wraith Mage
+    - (129,13)
+    - Medium level spell scrolls.
+  - - Earth Mage
+    - (119,8)
+    - Medium level spell scrolls.
+  - - Chaos Mage
+    - (123,13)
+    - Medium level spell scrolls.
+  - - Senior Smith
+    - (100,13)
+    - Medium level recipes.
+  - - Senior Master
+    - (106,8)
+    - Medium level recipes.
+  - - Technitian
+    - (86,16)
+    - Repairs equipment.
+  - - Bank Clerk
+    - (114,41)
+    - Accsess to wearhouse.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Spy Lude
+    - (82,262)
+    - Part of Detecting Fountain quest, gives quest Eternal Glory .
+  - - ''
+  - - Badge Expert
+    - (28,215)
+    - Exchange Monster Badges.
+  - - ''
+  - - Steel Totem
+    - (102,26)
+    - Revive here if of Steel Faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Rotten Bird‘s Feather
+    - 'Yes'
+    - Steel Faction; Character lvl 22-35
+    - Exp+750, Credit+35
+    - Click on the old totem (115, 45) then defeat Rotten Birds to obtain 10 Rotten Bird‘s Feathers.
+  - - Ring of Caravan
+    - 'No'
+    - Steel Faction;
+    - Exp+480, Credit+45
+    - While defeating Gebuer obtain an Unclaimed Ring, take it to Burning Desert and speak to the Desert Merchant .
+  - - ''
+  - - Eternal Glory
+    - 'Yes'
+    - Any Faction; Character lvl ?
+    - Spy Lude Card
+    - Give him a Copper Monster Badge.
+  - - ''
+  - - Strange Black Feather 1 of 3
+    - 'No'
+    - Steel Faction;
+    - Exp+400, Credit+30
+    - Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it, take this to Burning Desert and speak with the Myth Scholar .
+  - - ''
+  - - Evil Student Leader Asmode 8 of 8
+    - 'No'
+    - Steel Faction; Completed quest Magic Stone
+    - Exp+5000, Credit+850, Item
+    - Find Asmode's Den and defeat Asmodeus (boss).
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Gebuer
+    - '27'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Gebuer Cadre
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rotten Bird
+    - '30'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Header Gaberna
+    - '32'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Giant Bird
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - Summoned
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Obsidian
+    - (65,105)
+    - Dig level 31
+    - ''
+  - - Bandit Den
+    - (209,26)
+    - Collect level 31
+    - ''
+  - - Bright Bush
+    - (24,39)
+    - Collect level 31
+    - ''
+  - - Viburnum
+    - (32,117)
+    - Lumber level 31
+    - ''
+  - - Meteor Alga
+    - (104,242)
+    - Fishing level 31
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Gebuer
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Gebuer Cadre
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Gebuer Cadre
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Gebuer cadre card
+    - 0.0800%
+    - '1'
+  - - Gebuer Cadre
+    - Riddle Piece
+    - 100.0000%
+    - '2'
+  - - Header Gaberna
+    - Gown
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Thick Armor
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Leather Vest
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Protector's Gown
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Heavy Leather Armor
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Light Leather Armor
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Golden Shell Bag
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Ring of High Clerist
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Flawed Ruby
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Defective Orange Gem
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Flawed Yellow Gem
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Basic Attack V
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Basic Shot V
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Target Potion
+    - 18.0000%
+    - '1'
+  - - Header Gaberna
+    - Agility Potion
+    - 18.0000%
+    - '1'
+  - - Header Gaberna
+    - Map Piece
+    - 10.4700%
+    - '1'
+  - - Header Gaberna
+    - Pestle
+    - 0.0620%
+    - '1'
+  - - Rotten Bird
+    - Iron Slingshot
+    - 0.3744%
+    - '1'
+  - - Rotten Bird
+    - Token
+    - 0.3744%
+    - '1'
+  - - Rotten Bird
+    - Puppet Electrical Bow
+    - 0.0062%
+    - '1'
+  - - Rotten Bird
+    - White Token
+    - 0.0062%
+    - '1'
+  - - Rotten Bird
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Rotten Bird
+    - Flawed Ruby
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Defective Orange Gem
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Flawed Yellow Gem
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Rotten Bird card
+    - 0.0800%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Gebuer Vale'
+- section: Gebuer Vale
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Geubers…I mean Gebuers, everywhere! Gebuer Vale is crawling with these level 27 to 35 guys. They don’t seem to mind the smell of the Rotten Birds either. There are a lot
+    of shops here to browse in and upgrade your skills. Explore the scenery and you just may find something interesting to investigate.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

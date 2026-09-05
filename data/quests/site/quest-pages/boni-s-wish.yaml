@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: boni-s-wish
+name_raw: Boni S Wish
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- underground-square
+source:
+  origin_url: https://angels.wikidot.com/quest:boni-s-wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_boni-s-wish.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 7b19346581a3428fdb61c3a7359a48bf815996f07f1b3fcd5822ba40c605c452
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Scientist Pony
+    - 'No'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '75'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Boni S Wish'
+- section: Boni S Wish
+  text_raw: Home » Areas » Underground Square » Boni's Wish
+- section: Summary
+  text_raw: Scientist Boni ask to find the reason Berssif is unable to stuff himself with food
+- section: Walkthrough
+  text_raw: Step 1 Explore the Gulp room Step 2 Explore further in the Gulp Room until a notification popup ask you to report back to Scientist Pony Step 3 Defeat Earl Makice at Gulp
+    Room and find Lusterless Energy Stone. You must click the 8 statue in this order Right Barft Statue, Left Headless Statue, Left Wolf Statue, Right Gebuer Statue, Right Headless Statue,
+    Left Gebuer Statue, Left Barft Statue, Right Wolf Statue to meet up with Earl Makice Step 4 Defeat Demon Lord Underground _
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

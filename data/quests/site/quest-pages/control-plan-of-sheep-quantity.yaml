@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: control-plan-of-sheep-quantity
+name_raw: Control Plan Of Sheep Quantity
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- dawn-harbor
+source:
+  origin_url: https://angels.wikidot.com/quest:control-plan-of-sheep-quantity
+  retrieval_url: https://www.aowiki.uk/pages/quest_control-plan-of-sheep-quantity.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: c3cfe2a0855bfd97f47c4563a0dd56ca2a1d7b991f0fba103062be8b49a77408
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Fisherman
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 20 to 30
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '580'
+    - '30'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Control Plan Of Sheep Quantity'
+- section: Control Plan Of Sheep Quantity
+  text_raw: Home » Areas » Dawn Harbor » Control Plan of Sheep Quantity
+- section: Summary
+  text_raw: The Harp Sheep are distrupting the fish in Riprap Coast . The fisherman asks you to drive the Sheep away so the fish can return.
+- section: Walkthrough
+  text_raw: Step 1 Speak to the Fisherman (165,100). Step 2 Go to Riprap Coast . Step 3 Defeat 20 Harp Sheep . Step 4 Return to Dawn Harbor and report back to the Fisherman.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

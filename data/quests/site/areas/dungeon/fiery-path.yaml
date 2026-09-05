@@ -1,0 +1,763 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: fiery-path
+  name_raw: Fiery Path
+source:
+  origin_url: https://angels.wikidot.com/area:fiery-path
+  retrieval_url: https://www.aowiki.uk/pages/area_fiery-path.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 26acd8482e6c9aa2271b21e44a03622be2bacfe79c2b27c01221f74db448e218
+quest_links:
+- slug: killing-rats-leader
+  name_raw: Killing Rats Leader
+  retrieval_url: https://www.aowiki.uk/pages/quest_killing-rats-leader.html
+  origin_url: https://angels.wikidot.com/quest:killing-rats-leader
+- slug: searching-for-lost-receipe
+  name_raw: Searching For Lost Receipe
+  retrieval_url: https://www.aowiki.uk/pages/quest_searching-for-lost-receipe.html
+  origin_url: https://angels.wikidot.com/quest:searching-for-lost-receipe
+- slug: the-first-appetizer
+  name_raw: The First Appetizer
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-first-appetizer.html
+  origin_url: https://angels.wikidot.com/quest:the-first-appetizer
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Mayole
+    - (121,109)
+    - Why it is important.
+  - - Motor Seller Pam
+    - (19,15)
+    - Why it is important.
+  - - Hunter Shinge
+    - (30,21)
+    - Why it is important.
+  - - Cook Betty
+    - (? - ?)
+    - Why it is important.
+  - - ''
+  - - South Infall
+    - (? - ?)
+    - Why it is important.
+  - - ''
+  - - Cupid
+    - (? - ?)
+    - Make this your revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - The First Appetizer
+    - '?'
+    - '?'
+    - '?'
+    - '?'
+  - - Killing Rats Leader
+    - 'No'
+    - LVL 60
+    - 18,000 exp, 250 credit, 10,000 gold
+    - Kill Rat Mosi
+  - - Searching For Lost Receipe
+    - 'No'
+    - LVL 60
+    - '?'
+    - Kill Soul Slalin and Earl Makice
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Fly
+    - '48'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Theurgy Master
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Imp Elf
+    - '58'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Gold Fly
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Knight
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Lampman
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Flower
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Jail Warden
+    - '60'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Wanderer
+    - '65'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Bloody Flower
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Bauxite
+    - (?,?)
+    - Dig level 51
+    - ''
+  - - Violet
+    - (?,?)
+    - Lumber level 51
+    - ''
+  - - Angel Bush
+    - (?,?)
+    - Collect level 51
+    - ''
+  - - Fire Alga
+    - (?,?)
+    - Fishing level 51
+    - ''
+  - - Devil Den
+    - (?,?)
+    - Collect level 51
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Bloody Flower
+    - Energy Boots
+    - 3.1300%
+    - '1'
+  - - Bloody Flower
+    - Sound Boots
+    - 0.0261%
+    - '1'
+  - - Bloody Flower
+    - Ferocious Song V
+    - 0.0130%
+    - '1'
+  - - Bloody Flower
+    - Bomb Snipe V
+    - 0.0130%
+    - '1'
+  - - Bloody Flower
+    - Repair Duck Robot
+    - 0.0130%
+    - '1'
+  - - Bloody Flower
+    - Clean Ruby
+    - 0.0132%
+    - '1'
+  - - Bloody Flower
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Bloody Flower
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Bloody Flower
+    - Medium Mars' Fruit
+    - 47.4762%
+    - '1'
+  - - Bloody Flower
+    - Medium Target Potion
+    - 45.5970%
+    - '1'
+  - - Bloody Flower
+    - Sanguinary Flower Card
+    - 0.4629%
+    - '1'
+  - - Earl Makice
+    - Mage Gown
+    - 1.3600%
+    - '1'
+  - - Earl Makice
+    - Spring Gown
+    - 0.0057%
+    - '1'
+  - - Earl Makice
+    - Summon Lich V
+    - 0.0057%
+    - '1'
+  - - Earl Makice
+    - Cutter's Axe
+    - 0.0170%
+    - '1'
+  - - Earl Makice
+    - Wind Wings
+    - 0.0170%
+    - '1'
+  - - Earl Makice
+    - Pestle
+    - 0.4789%
+    - '1'
+  - - Earl Makice
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Earl Makice
+    - Gear Shards
+    - 1.5000%
+    - '1'
+  - - Earl Makice
+    - Energy Crystal
+    - 53.1610%
+    - '4'
+  - - Earl Makice
+    - Light Cuff
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Faquir Mirror
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Thick-soled Boots
+    - 14.1893%
+    - '1'
+  - - Earl Makice
+    - Earl Makice Card
+    - 0.6944%
+    - '1'
+  - - Earl Makice
+    - Kaz Cayman Robot
+    - 0.0000%
+    - '1'
+  - - Earl Makice
+    - Hunter Helmet
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Noble Elephant
+    - 0.0000%
+    - '1'
+  - - Earl Makice
+    - Wit Staff
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Fire Scale Armor
+    - 0.0001%
+    - '1'
+  - - Earl Makice
+    - Fire Scale Helmet
+    - 0.0114%
+    - '1'
+  - - Earl Makice
+    - Embrace Helmet
+    - 0.0000%
+    - '1'
+  - - Evil Flower
+    - Energy Cuffs
+    - 0.0291%
+    - '1'
+  - - Evil Flower
+    - Sound Gloves
+    - 0.0002%
+    - '1'
+  - - Evil Flower
+    - Dida Cayman Robot
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Hermit Boots
+    - 0.0008%
+    - '1'
+  - - Evil Flower
+    - Clean Sapphire
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Map Piece
+    - 0.0242%
+    - '1'
+  - - Evil Flower
+    - Anchoret Boots
+    - 0.0006%
+    - '1'
+  - - Evil Flower
+    - Thunder Spear
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Benison Ring
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Heart Hit 5
+    - 0.0006%
+    - '1'
+  - - Evil Knight
+    - Hermit Cuffs
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Power Shield
+    - 0.0120%
+    - '1'
+  - - Evil Knight
+    - Anchoret Cuffs
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Flight Shield
+    - 0.0001%
+    - '1'
+  - - Evil Knight
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Fly
+    - Magic Gown
+    - 0.0378%
+    - '1'
+  - - Fly
+    - Knights Shield
+    - 0.0378%
+    - '1'
+  - - Fly
+    - Magic Gown of Flame God
+    - 0.0006%
+    - '1'
+  - - Fly
+    - Angel Knights Shield
+    - 0.0006%
+    - '1'
+  - - Fly
+    - Map Piece
+    - 0.1260%
+    - '1'
+  - - Gold Fly
+    - Giant Bow
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Staff
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Silver-Edged Javelin
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Elf Wings
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Angel's Blessing
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Saw Spear
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Map Piece
+    - 0.0598%
+    - '1'
+  - - Gold Fly
+    - Gold Fly Card
+    - 0.0208%
+    - '1'
+  - - Gold Fly
+    - Mue Duck Robot
+    - 0.0000%
+    - '1'
+  - - Gold Fly
+    - Fire Scale Cuffs
+    - 0.0001%
+    - '1'
+  - - Gold Fly
+    - Hunter Boots
+    - 0.0001%
+    - '1'
+  - - Imp Elf
+    - Light Cuff
+    - 0.0166%
+    - '1'
+  - - Imp Elf
+    - Short Tight Gloves
+    - 0.0166%
+    - '1'
+  - - Imp Elf
+    - Pearl Refining
+    - 0.0014%
+    - '1'
+  - - Imp Elf
+    - Fighting Wings
+    - 0.0014%
+    - '1'
+  - - Imp Elf
+    - Golden Chain Cuff
+    - 0.0003%
+    - '1'
+  - - Imp Elf
+    - Eagle Wristlet
+    - 0.0003%
+    - '1'
+  - - Imp Elf
+    - Map Piece
+    - 0.0552%
+    - '1'
+  - - Jail Warden
+    - Hermit Armor
+    - 3.5900%
+    - '1'
+  - - Jail Warden
+    - Anchoret Armor
+    - 0.0598%
+    - '1'
+  - - Jail Warden
+    - Thunder Scope V
+    - 0.0299%
+    - '1'
+  - - Jail Warden
+    - Quick Stab V
+    - 0.0299%
+    - '1'
+  - - Jail Warden
+    - Heaven Bow
+    - 0.1794%
+    - '1'
+  - - Jail Warden
+    - Fire Guard Cuffs
+    - 0.1794%
+    - '1'
+  - - Jail Warden
+    - Clean Yellow Gem
+    - 0.1800%
+    - '1'
+  - - Jail Warden
+    - Pestle
+    - 0.2393%
+    - '1'
+  - - Jail Warden
+    - Map Piece
+    - 0.9000%
+    - '1'
+  - - Jail Warden
+    - Medium Evil Fruit
+    - 42.2294%
+    - '1'
+  - - Jail Warden
+    - Medium Healing Potion
+    - 46.5363%
+    - '1'
+  - - Jail Warden
+    - Jail Warden's Card
+    - 0.4629%
+    - '1'
+  - - Rat Mosi
+    - Reborn Sword
+    - 1.5650%
+    - '1'
+  - - Rat Mosi
+    - Fire Guard Boots
+    - 1.5650%
+    - '1'
+  - - Rat Mosi
+    - Secret Sword
+    - 0.0130%
+    - '1'
+  - - Rat Mosi
+    - Knight Boots
+    - 0.0130%
+    - '1'
+  - - Rat Mosi
+    - Sword Trap V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Dancing Stab V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Thunder Trap V
+    - 0.0087%
+    - '1'
+  - - Rat Mosi
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Rat Mosi
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Rat Mosi
+    - Gloves Shards
+    - 1.2000%
+    - '1'
+  - - Rat Mosi
+    - Energy Crystal
+    - 44.3386%
+    - '2'
+  - - Rat Mosi
+    - Medium Magic Potion
+    - 5.0000%
+    - '1'
+  - - Rat Mosi
+    - Medium Evil Fruit
+    - 5.0000%
+    - '1'
+  - - Rat Mosi
+    - Light Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Faquir Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Weighty Iron Boots
+    - 12.7436%
+    - '1'
+  - - Rat Mosi
+    - Rat Mosi Card
+    - 1.8287%
+    - '1'
+  - - Soul Slalin
+    - Heaven Bow
+    - 1.2950%
+    - '1'
+  - - Soul Slalin
+    - Holy Manteau
+    - 1.2950%
+    - '1'
+  - - Soul Slalin
+    - Fire Tooth
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Hope Mantle
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Heart Hit 5
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Advanced Attack V
+    - 0.0108%
+    - '1'
+  - - Soul Slalin
+    - Pestle
+    - 0.2934%
+    - '1'
+  - - Soul Slalin
+    - Map Piece
+    - 0.3200%
+    - '1'
+  - - Soul Slalin
+    - Shoes Shards
+    - 1.0000%
+    - '1'
+  - - Soul Slalin
+    - Energy Crystal
+    - 56.1849%
+    - '2'
+  - - Soul Slalin
+    - Chain Armor
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Black Knights Boots
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Magic Gown
+    - 12.8565%
+    - '1'
+  - - Soul Slalin
+    - Soul-eater Slalin Card
+    - 0.6099%
+    - '1'
+  - - Terra Lampman
+    - Hermit Boots
+    - 0.0259%
+    - '1'
+  - - Terra Lampman
+    - Anchoret Boots
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Heart Hit 5
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Thunder Spear
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Benison Ring
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Theurgy Master
+    - Alchemic Cap
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Hard-leather Cap
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Round Iron Helmet
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Pearl Refining
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Fighting Wings
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Holy Alchemic Cap
+    - 0.0005%
+    - '1'
+  - - Theurgy Master
+    - Lion Shield
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Map Piece
+    - 0.0488%
+    - '1'
+  - - Theurgy Master
+    - Theurgy Master Card
+    - 0.0208%
+    - '1'
+  - - Wanderer
+    - Hermit Cuffs
+    - 2.5900%
+    - '1'
+  - - Wanderer
+    - Anchoret Cuffs
+    - 0.0216%
+    - '1'
+  - - Wanderer
+    - Angel's Light 5
+    - 0.0072%
+    - '1'
+  - - Wanderer
+    - Bloody Song V
+    - 0.0072%
+    - '1'
+  - - Wanderer
+    - Energy Souce V
+    - 0.0072%
+    - '1'
+  - - Wanderer
+    - Fool Staff
+    - 0.0648%
+    - '1'
+  - - Wanderer
+    - Fire Guard Armor
+    - 0.0648%
+    - '1'
+  - - Wanderer
+    - Pestle
+    - 0.2934%
+    - '1'
+  - - Wanderer
+    - Map Piece
+    - 0.3200%
+    - '1'
+  - - Wanderer
+    - Medium Magic Fruit
+    - 47.8858%
+    - '1'
+  - - Wanderer
+    - Medium Healing Potion
+    - 46.3296%
+    - '1'
+  - - Wanderer
+    - Wanderer Card
+    - 0.4629%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Fiery Path'
+- section: Fiery Path
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Sad Abyss , Lava Cave
+- section: Description
+  text_raw: Hot…very hot, that is the first feeling when you arrive here. Endless sweat and sweltering air will cause you to start shedding gear as soon as possible. Around the crimson
+    lava paths, beside the huge rocks and sharp lumps, all you can see is a boiling, underground lava lake.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,590 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: quiet-vale
+  name_raw: Quiet Vale
+source:
+  origin_url: https://angels.wikidot.com/area:quiet-vale
+  retrieval_url: https://www.aowiki.uk/pages/area_quiet-vale.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ffc2a5273afb389b4d8c940c10fc9dd30b964b1849a445823a19428ee29668fa
+quest_links:
+- slug: drive-away-wild-lizardmen
+  name_raw: Drive Away Wild Lizardmen
+  retrieval_url: https://www.aowiki.uk/pages/quest_drive-away-wild-lizardmen.html
+  origin_url: https://angels.wikidot.com/quest:drive-away-wild-lizardmen
+- slug: evil-force-invasion
+  name_raw: Evil Force Invasion
+  retrieval_url: https://www.aowiki.uk/pages/quest_evil-force-invasion.html
+  origin_url: https://angels.wikidot.com/quest:evil-force-invasion
+- slug: evil-nazarite-from-dark-city
+  name_raw: Evil Nazarite From Dark City
+  retrieval_url: https://www.aowiki.uk/pages/quest_evil-nazarite-from-dark-city.html
+  origin_url: https://angels.wikidot.com/quest:evil-nazarite-from-dark-city
+- slug: investigate-evil-force
+  name_raw: Investigate Evil Force
+  retrieval_url: https://www.aowiki.uk/pages/quest_investigate-evil-force.html
+  origin_url: https://angels.wikidot.com/quest:investigate-evil-force
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Militia Pioneer
+    - (258,25)
+    - Gives quests Investigate Evil Force and Evil Force Invasion .
+  - - Trainee Oree
+    - (42,118)
+    - Gives quests Drive Away Wild Lizardmen and Evil Nazarite From Dark City .
+  - - Terra Keeper
+    - (46,83)
+    - Can transport you to your league's terra, or city
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Investigate Evil Force
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+950, Credit+40
+    - Defeat Evil Bishops and collect 5 evil diamonds from their hats.
+  - - Evil Force Invasion
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+950, Credit+40
+    - Defeat 40 Evil Bishops .
+  - - Evil Nazarite From Dark City
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+810, Credit+38
+    - Defeat 40 Evil Nazarites .
+  - - Drive Away Wild Lizardmen
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+900, Credit+39
+    - Defeat 40 Wild Lizardmen .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Evil Nazarite
+    - '35'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Wild Lizardman
+    - '38'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Bishop
+    - '40'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Crazy Rosit
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Iron Scale Allen
+    - '43'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Skeletal Bishop
+    - '45'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Crystal
+    - (276,153)
+    - Dig level 41
+    - ''
+  - - Beastkin Den
+    - (38,100)
+    - Collect level 41
+    - ''
+  - - Leafy Bush
+    - (159,165)
+    - Collect level 41
+    - ''
+  - - Melaleuca
+    - (163,46)
+    - Lumber level 41
+    - ''
+  - - Bright Alga
+    - (98,76)
+    - Fishing level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crazy Rosit
+    - Hard-leather Cap
+    - 0.9378%
+    - '1'
+  - - Crazy Rosit
+    - Round Iron Helmet
+    - 0.9378%
+    - '1'
+  - - Crazy Rosit
+    - Alchemic Cap
+    - 0.9378%
+    - '1'
+  - - Crazy Rosit
+    - Icy Hard-Leather Cap
+    - 0.1015%
+    - '1'
+  - - Crazy Rosit
+    - Beastman Viking Cap
+    - 0.1015%
+    - '1'
+  - - Crazy Rosit
+    - Magic Alchemic Cap
+    - 0.1015%
+    - '1'
+  - - Crazy Rosit
+    - Angel Wings
+    - 0.5471%
+    - '1'
+  - - Crazy Rosit
+    - Ring of Goddess
+    - 0.5471%
+    - '1'
+  - - Crazy Rosit
+    - Flawed Yellow Gem
+    - 0.4600%
+    - '1'
+  - - Crazy Rosit
+    - Flawed Emerald
+    - 0.4600%
+    - '1'
+  - - Crazy Rosit
+    - Magic Bomb V
+    - 0.5471%
+    - '1'
+  - - Crazy Rosit
+    - Earth Blessing V
+    - 0.5471%
+    - '1'
+  - - Crazy Rosit
+    - Fruit of Hercules
+    - 19.3455%
+    - '1'
+  - - Crazy Rosit
+    - Target Potion
+    - 18.7281%
+    - '1'
+  - - Crazy Rosit
+    - Map Piece
+    - 3.5500%
+    - '1'
+  - - Crazy Rosit
+    - Pestle
+    - 0.0859%
+    - '1'
+  - - Crazy Rosit
+    - Crazy Rosit Card
+    - 0.9260%
+    - '1'
+  - - Evil Bishop
+    - Earl Ring
+    - 0.0782%
+    - '1'
+  - - Evil Bishop
+    - Earl Mantle
+    - 0.0782%
+    - '1'
+  - - Evil Bishop
+    - Blood Ring
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Moonnight Mantle
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Evil Bishop
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Evil Bishop
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Evil Bishop
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Evil Bishop
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Evil Bishop
+    - Flawed Ruby
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Defective Orange Gem
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Flawed Yellow Gem
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Flawed Emerald
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Flawed Sapphire
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Flawed Purple Gem
+    - 0.0020%
+    - '1'
+  - - Evil Bishop
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Evil Nazarite
+    - Hard-leather Cap
+    - 0.0608%
+    - '1'
+  - - Evil Nazarite
+    - Round Iron Helmet
+    - 0.0608%
+    - '1'
+  - - Evil Nazarite
+    - Alchemic Cap
+    - 0.0608%
+    - '1'
+  - - Evil Nazarite
+    - Icy Hard-Leather Cap
+    - 0.0010%
+    - '1'
+  - - Evil Nazarite
+    - Beastman Viking Cap
+    - 0.0010%
+    - '1'
+  - - Evil Nazarite
+    - Magic Alchemic Cap
+    - 0.0010%
+    - '1'
+  - - Evil Nazarite
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Evil Nazarite
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Evil Nazarite
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Evil Nazarite
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Evil Nazarite
+    - Map Piece
+    - 0.3000%
+    - '1'
+  - - Evil Nazarite
+    - Flawed Emerald
+    - 0.0030%
+    - '1'
+  - - Evil Nazarite
+    - Flawed Sapphire
+    - 0.0030%
+    - '1'
+  - - Evil Nazarite
+    - Flawed Purple Gem
+    - 0.0030%
+    - '1'
+  - - Iron Scale Allen
+    - Weighty Armor
+    - 1.0925%
+    - '1'
+  - - Iron Scale Allen
+    - Thick Vest
+    - 1.0925%
+    - '1'
+  - - Iron Scale Allen
+    - Alchemic Gown
+    - 1.0925%
+    - '1'
+  - - Iron Scale Allen
+    - Beastman Leather Armor
+    - 0.1182%
+    - '1'
+  - - Iron Scale Allen
+    - Ice Stone Armor
+    - 0.1182%
+    - '1'
+  - - Iron Scale Allen
+    - Magic Alchemic Gown
+    - 0.1182%
+    - '1'
+  - - Iron Scale Allen
+    - Angel Wings
+    - 0.6373%
+    - '1'
+  - - Iron Scale Allen
+    - Ring of Goddess
+    - 0.6373%
+    - '1'
+  - - Iron Scale Allen
+    - Heavy Armor
+    - 17.0461%
+    - '1'
+  - - Iron Scale Allen
+    - Leather Armor
+    - 17.0461%
+    - '1'
+  - - Iron Scale Allen
+    - Flawed Ruby
+    - 0.5300%
+    - '1'
+  - - Iron Scale Allen
+    - Flawed Sapphire
+    - 0.5300%
+    - '1'
+  - - Iron Scale Allen
+    - Soul Entangle V
+    - 0.6373%
+    - '1'
+  - - Iron Scale Allen
+    - Hurt Transfer V
+    - 0.6373%
+    - '1'
+  - - Iron Scale Allen
+    - Agility Potion
+    - 18.6915%
+    - '1'
+  - - Iron Scale Allen
+    - Magic Potion
+    - 18.6915%
+    - '1'
+  - - Iron Scale Allen
+    - Map Piece
+    - 4.1400%
+    - '1'
+  - - Iron Scale Allen
+    - Pestle
+    - 0.0971%
+    - '1'
+  - - Skeletal Bishop
+    - Earl Ring
+    - 1.6325%
+    - '1'
+  - - Skeletal Bishop
+    - Earl Mantle
+    - 1.6325%
+    - '1'
+  - - Skeletal Bishop
+    - Blood Ring
+    - 0.1955%
+    - '1'
+  - - Skeletal Bishop
+    - Moonnight Mantle
+    - 0.1955%
+    - '1'
+  - - Skeletal Bishop
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Skeletal Bishop
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Skeletal Bishop
+    - Defective Orange Gem
+    - 0.5900%
+    - '1'
+  - - Skeletal Bishop
+    - Flawed Purple Gem
+    - 0.5900%
+    - '1'
+  - - Skeletal Bishop
+    - Soul Entangle V
+    - 0.8789%
+    - '1'
+  - - Skeletal Bishop
+    - Hurt Transfer V
+    - 0.8789%
+    - '1'
+  - - Skeletal Bishop
+    - Exhaustion Curse V
+    - 0.8789%
+    - '1'
+  - - Skeletal Bishop
+    - Magic Fruit
+    - 22.6350%
+    - '1'
+  - - Skeletal Bishop
+    - Fruit of the Devil
+    - 22.6350%
+    - '1'
+  - - Skeletal Bishop
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Skeletal Bishop
+    - Pestle
+    - 0.1054%
+    - '1'
+  - - Wild Lizardman
+    - Heavy Armor
+    - 0.0709%
+    - '1'
+  - - Wild Lizardman
+    - Leather Armor
+    - 0.0709%
+    - '1'
+  - - Wild Lizardman
+    - Alchemic Gown
+    - 0.0709%
+    - '1'
+  - - Wild Lizardman
+    - Weighty Armor
+    - 0.0118%
+    - '1'
+  - - Wild Lizardman
+    - Thick Vest
+    - 0.0118%
+    - '1'
+  - - Wild Lizardman
+    - Beastman Leather Armor
+    - 0.0012%
+    - '1'
+  - - Wild Lizardman
+    - Ice Stone Armor
+    - 0.0012%
+    - '1'
+  - - Wild Lizardman
+    - Magic Alchemic Gown
+    - 0.0012%
+    - '1'
+  - - Wild Lizardman
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Wild Lizardman
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Wild Lizardman
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Wild Lizardman
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Wild Lizardman
+    - Map Piece
+    - 0.3500%
+    - '1'
+  - - Wild Lizardman
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Wild Lizardman
+    - Red Potion 2
+    - 48.7867%
+    - '2'
+  - - Wild Lizardman
+    - Blue Potion 2
+    - 48.7867%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Quiet Vale'
+- section: Quiet Vale
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Mysterious Garden , Dragon Graveyard
+- section: Description
+  text_raw: Serene tranquility is what Quiet Vale is known for. At least it was until the level 35 to 45 monsters invaded it and now disrupt its peace. Be careful exploring the paths,
+    they are lined with an aggressive Nazarite mine field.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

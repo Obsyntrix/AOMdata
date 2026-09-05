@@ -1,0 +1,558 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: lava-cave
+  name_raw: Lava Cave
+source:
+  origin_url: https://angels.wikidot.com/area:lava-cave
+  retrieval_url: https://www.aowiki.uk/pages/area_lava-cave.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 51ccaf7e5e482e4659c0d76cc6fb0ea9e980a8b59dfbc710f8de706acb9b73ce
+quest_links:
+- slug: forge-ahead
+  name_raw: Forge Ahead
+  retrieval_url: https://www.aowiki.uk/pages/quest_forge-ahead.html
+  origin_url: https://angels.wikidot.com/quest:forge-ahead
+- slug: trick
+  name_raw: Trick
+  retrieval_url: https://www.aowiki.uk/pages/quest_trick.html
+  origin_url: https://angels.wikidot.com/quest:trick
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Rock Smith
+    - (275,27)
+    - 61-75 level Weapon, Armor recipes.
+  - - Earth&Life Mage
+    - (188,98)
+    - 62-80 level Earth, Life scrolls.
+  - - ChaosWraith Mage
+    - (167,10)
+    - 62-80 level Chaos, Wraith scrolls.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Jamier
+    - (266,30)
+    - Why it is important.
+  - - Ugly Saladan
+    - (162,65)
+    - Why it is important.
+  - - Trouble Student
+    - (271,133)
+    - Why it is important.
+  - - Annoying Clerk
+    - (236,170)
+    - Why it is important.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Requirements
+    - Reward
+  - - Trick
+    - none
+    - 25000 exp, 250 credit, 11000 gold
+  - - Forge Ahead
+    - none
+    - '? exp, ? credit, ? gold'
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Theurgy Master
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Gold Fly
+    - '60'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Rock Slarm
+    - '63'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Terra Lampman
+    - '65'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Flower
+    - '68'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Flame Mummy
+    - '70'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fire Fly
+    - '73'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Flame Elf
+    - '65'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Giant Rotten Fly
+    - '70'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Cuss Fire Lord
+    - '75'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Black Silver
+    - (?,?)
+    - Dig level 61.
+    - ''
+  - - Lycosa Den
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Primrose
+    - (?,?)
+    - Collect level 61
+    - ''
+  - - Blood Bamboo
+    - (?,?)
+    - Lumber level 61
+    - ''
+  - - Spot Alga
+    - (?,?)
+    - Fishing level 61
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Cuss Fire Lord
+    - Thunder Spear
+    - 1.2700%
+    - '1'
+  - - Cuss Fire Lord
+    - Thunder King
+    - 0.0053%
+    - '1'
+  - - Cuss Fire Lord
+    - Shining Charm V
+    - 0.0053%
+    - '1'
+  - - Cuss Fire Lord
+    - Dida Cayman Robot
+    - 0.0026%
+    - '1'
+  - - Cuss Fire Lord
+    - Reborn Sword
+    - 0.0159%
+    - '1'
+  - - Cuss Fire Lord
+    - Energy Boots
+    - 0.0159%
+    - '1'
+  - - Cuss Fire Lord
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Cuss Fire Lord
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Cuss Fire Lord
+    - Medium Agility Potion
+    - 48.6533%
+    - '1'
+  - - Cuss Fire Lord
+    - Medium Mars' Fruit
+    - 49.0342%
+    - '1'
+  - - Evil Flower
+    - Energy Cuffs
+    - 0.0291%
+    - '1'
+  - - Evil Flower
+    - Sound Gloves
+    - 0.0002%
+    - '1'
+  - - Evil Flower
+    - Dida Cayman Robot
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Hermit Boots
+    - 0.0008%
+    - '1'
+  - - Evil Flower
+    - Clean Sapphire
+    - 0.0001%
+    - '1'
+  - - Evil Flower
+    - Map Piece
+    - 0.0242%
+    - '1'
+  - - Evil Flower
+    - Anchoret Boots
+    - 0.0006%
+    - '1'
+  - - Evil Flower
+    - Thunder Spear
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Benison Ring
+    - 0.0011%
+    - '1'
+  - - Evil Flower
+    - Heart Hit 5
+    - 0.0006%
+    - '1'
+  - - Fire Fly
+    - Hunter Cuffs
+    - 0.0118%
+    - '1'
+  - - Fire Fly
+    - Forest Cuffs
+    - 0.0000%
+    - '1'
+  - - Fire Fly
+    - Map Piece
+    - 0.0049%
+    - '1'
+  - - Fire Fly
+    - Fire Fly Card
+    - 0.0139%
+    - '1'
+  - - Flame Elf
+    - Fire Guard Cuffs
+    - 2.5900%
+    - '1'
+  - - Flame Elf
+    - Knight Cuffs
+    - 0.0216%
+    - '1'
+  - - Flame Elf
+    - Frozen Trap V
+    - 0.0108%
+    - '1'
+  - - Flame Elf
+    - Accurate Song V
+    - 0.0108%
+    - '1'
+  - - Flame Elf
+    - Repair Duck Robot
+    - 0.0108%
+    - '1'
+  - - Flame Elf
+    - Energy Cuffs
+    - 0.1297%
+    - '1'
+  - - Flame Elf
+    - Clean Ruby
+    - 0.0107%
+    - '1'
+  - - Flame Elf
+    - Pestle
+    - 0.2934%
+    - '1'
+  - - Flame Elf
+    - Map Piece
+    - 0.3200%
+    - '1'
+  - - Flame Elf
+    - Medium Mighty Fruit
+    - 47.8751%
+    - '1'
+  - - Flame Elf
+    - Medium Agility Potion
+    - 46.3189%
+    - '1'
+  - - Flame Elf
+    - Flame Elf Card
+    - 0.4629%
+    - '1'
+  - - Flame Mummy
+    - Fire Guard Cuffs
+    - 0.0313%
+    - '1'
+  - - Flame Mummy
+    - Knight Cuffs
+    - 0.0003%
+    - '1'
+  - - Flame Mummy
+    - Stiff Beetle
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Hermit Boots
+    - 0.0009%
+    - '1'
+  - - Flame Mummy
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Giant Rotten Fly
+    - Shake Axe
+    - 1.5650%
+    - '1'
+  - - Giant Rotten Fly
+    - Benison Ring
+    - 1.5650%
+    - '1'
+  - - Giant Rotten Fly
+    - Nemesis Axe
+    - 0.0130%
+    - '1'
+  - - Giant Rotten Fly
+    - Angel's Blessing
+    - 0.0130%
+    - '1'
+  - - Giant Rotten Fly
+    - Silver Shield 5
+    - 0.0130%
+    - '1'
+  - - Giant Rotten Fly
+    - Shaking Beat V
+    - 0.0130%
+    - '1'
+  - - Giant Rotten Fly
+    - Pestle
+    - 0.3599%
+    - '1'
+  - - Giant Rotten Fly
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Giant Rotten Fly
+    - Medium Target Potion
+    - 47.7991%
+    - '1'
+  - - Giant Rotten Fly
+    - Medium Mars' Fruit
+    - 47.7991%
+    - '1'
+  - - Gold Fly
+    - Giant Bow
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Staff
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Silver-Edged Javelin
+    - 0.0120%
+    - '1'
+  - - Gold Fly
+    - Elf Wings
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Angel's Blessing
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Saw Spear
+    - 0.0002%
+    - '1'
+  - - Gold Fly
+    - Map Piece
+    - 0.0598%
+    - '1'
+  - - Gold Fly
+    - Gold Fly Card
+    - 0.0208%
+    - '1'
+  - - Gold Fly
+    - Mue Duck Robot
+    - 0.0000%
+    - '1'
+  - - Gold Fly
+    - Fire Scale Cuffs
+    - 0.0001%
+    - '1'
+  - - Gold Fly
+    - Hunter Boots
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Hermit Armor
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Anchoret Armor
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Circus Elephant
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Hermit Helmet
+    - 0.0007%
+    - '1'
+  - - Rock Slarm
+    - Clean Yellow Gem
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Map Piece
+    - 0.0200%
+    - '1'
+  - - Rock Slarm
+    - Light Necklace
+    - 0.0127%
+    - '1'
+  - - Rock Slarm
+    - Heaven Light
+    - 0.0001%
+    - '1'
+  - - Rock Slarm
+    - Rock Slarm Card
+    - 0.0208%
+    - '1'
+  - - Rock Slarm
+    - Fire Guard Boots
+    - 0.0240%
+    - '1'
+  - - Rock Slarm
+    - Knight Boots
+    - 0.0002%
+    - '1'
+  - - Rock Slarm
+    - Hermit Cuffs
+    - 0.0003%
+    - '1'
+  - - Terra Lampman
+    - Hermit Boots
+    - 0.0259%
+    - '1'
+  - - Terra Lampman
+    - Anchoret Boots
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Heart Hit 5
+    - 0.0002%
+    - '1'
+  - - Terra Lampman
+    - Thunder Spear
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Benison Ring
+    - 0.0004%
+    - '1'
+  - - Terra Lampman
+    - Map Piece
+    - 0.0216%
+    - '1'
+  - - Theurgy Master
+    - Alchemic Cap
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Hard-leather Cap
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Round Iron Helmet
+    - 0.0098%
+    - '1'
+  - - Theurgy Master
+    - Pearl Refining
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Fighting Wings
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Holy Alchemic Cap
+    - 0.0005%
+    - '1'
+  - - Theurgy Master
+    - Lion Shield
+    - 0.0016%
+    - '1'
+  - - Theurgy Master
+    - Map Piece
+    - 0.0488%
+    - '1'
+  - - Theurgy Master
+    - Theurgy Master Card
+    - 0.0208%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Lava Cave'
+- section: Lava Cave
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Fiery Path , Flaming Door , Magic Kitchen Path
+- section: Description
+  text_raw: Deeper into the caverns reveals older, more unstable lave flows boiling just below the scorched, brittle rock that's the only safe path. However inhospitable, there are ruins
+    down here, indicating that at some point someone or something lived down here, but ….what?
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

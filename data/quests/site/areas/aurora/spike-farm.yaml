@@ -1,0 +1,466 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: spike-farm
+  name_raw: Spike Farm
+source:
+  origin_url: https://angels.wikidot.com/area:spike-farm
+  retrieval_url: https://www.aowiki.uk/pages/area_spike-farm.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 9cad40d5e387b914929d3d94dc1d5f823baae17d4aef27e346165da420b70b8c
+quest_links:
+- slug: annihilating-mice
+  name_raw: Annihilating Mice
+  retrieval_url: https://www.aowiki.uk/pages/quest_annihilating-mice.html
+  origin_url: https://angels.wikidot.com/quest:annihilating-mice
+- slug: delicious-pumpkin-pie
+  name_raw: Delicious Pumpkin Pie
+  retrieval_url: https://www.aowiki.uk/pages/quest_delicious-pumpkin-pie.html
+  origin_url: https://angels.wikidot.com/quest:delicious-pumpkin-pie
+- slug: magic-trick
+  name_raw: Magic Trick
+  retrieval_url: https://www.aowiki.uk/pages/quest_magic-trick.html
+  origin_url: https://angels.wikidot.com/quest:magic-trick
+- slug: maintain-cleanness-of-surroundings
+  name_raw: Maintain Cleanness of Surroundings
+  retrieval_url: https://www.aowiki.uk/pages/quest_maintain-cleanness-of-surroundings.html
+  origin_url: https://angels.wikidot.com/quest:maintain-cleanness-of-surroundings
+- slug: roasted-sashimi
+  name_raw: Roasted Sashimi
+  retrieval_url: https://www.aowiki.uk/pages/quest_roasted-sashimi.html
+  origin_url: https://angels.wikidot.com/quest:roasted-sashimi
+- slug: sending-parcels
+  name_raw: Sending Parcels
+  retrieval_url: https://www.aowiki.uk/pages/quest_sending-parcels.html
+  origin_url: https://angels.wikidot.com/quest:sending-parcels
+- slug: the-jackstraw-s-protest
+  name_raw: The Jackstraw's Protest
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-jackstraw-s-protest.html
+  origin_url: https://angels.wikidot.com/quest:the-jackstraw-s-protest
+- slug: wanting-a-pet
+  name_raw: Wanting a Pet
+  retrieval_url: https://www.aowiki.uk/pages/quest_wanting-a-pet.html
+  origin_url: https://angels.wikidot.com/quest:wanting-a-pet
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Farm Cook
+    - (108,119)
+    - 'Gives quests: Delicious Pumpkin Pie , Maintain Cleanness of Surroundings and Roasted Sashimi .'
+  - - Spike Farmer
+    - (87,119)
+    - 'Gives quest series: Annihilating Mice , Magic Trick , The Jackstraw''s Protest and Sending Parcels .'
+  - - Farm Mistress
+    - (52,53)
+    - 'Part of the Sending Parcels quest and gives quest: Wanting a Pet .'
+  - - ''
+  - - Badge Collector
+    - (231,172)
+    - Exchange 2 Copper Monster Badges.
+  - - ''
+  - - Aurora Totem
+    - (252,142)
+    - Aurora Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Delicious Pumpkin Pie
+    - 'Yes'
+    - Aurora Faction; Character Lvl 6-20
+    - Exp+260, Credit+10
+    - Defeat Pumpkins and collect 10 pumpkins
+  - - Maintain Cleanness of Surroundings
+    - 'Yes'
+    - Aurora Faction; Character Lvl 6-20
+    - Exp+320, Credit+10
+    - Defeat 20 Field Mice
+  - - Roasted Sashimi
+    - 'Yes'
+    - Aurora Faction; Character Lvl 6-20
+    - Exp+320, Credit+15
+    - Defeat Jackstaws and collect 10 straws
+  - - ''
+  - - Wanting a Pet
+    - 'Yes'
+    - none
+    - Card
+    - Buy 10 Pet Cookies from Pet expert
+  - - ''
+  - - Annihilating Mice 1 of 4
+    - 'No'
+    - Aurora Faction; Character Lvl 6+
+    - Exp+800, Credit+30, Gold+150, Achievement
+    - Defeat Field Mice and collect 10 of their tails
+  - - Magic Trick 2 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Annihilating Mice
+    - Exp+850, Credit+30, Item, Achievement
+    - Defeat 20 Pumpkins
+  - - The Jackstraw's Protest 3 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Magic Trick
+    - Exp+860, Credit+160, Item, Achievement
+    - Defeat 20 Jackstraws
+  - - Sending Parcels 4 of 4
+    - 'No'
+    - Aurora Faction; Finished quest The Jackstraw's Protest
+    - Exp+200, Credit+30, Achievement
+    - Give parcels to the Manor Keeper at Sunflower Plain
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Eggshell Chick
+    - '6'
+    - 'No'
+    - 'No'
+    - ''
+  - - Field Mouse
+    - '9'
+    - 'No'
+    - 'No'
+    - ''
+  - - Pumpkin
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Jackstraw
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Pumpkin Banni
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Jackstraw Mige
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Copper
+    - (152,172)
+    - Dig level 1
+    - ''
+  - - Poplar
+    - (280,150)
+    - Lumber level 1
+    - ''
+  - - Horseradish
+    - (12,80)
+    - Collect level 1
+    - ''
+  - - Wild Alga
+    - (95,168)
+    - Fishing level 1
+    - ''
+  - - Beast Den
+    - (290,117)
+    - Collect level 1
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Eggshell Chick
+    - Biscuits
+    - 2.0000%
+    - '1'
+  - - Eggshell Chick
+    - Magic Grass
+    - 2.0000%
+    - '1'
+  - - Eggshell Chick
+    - Eggshell chick card
+    - 0.0800%
+    - '1'
+  - - Field Mouse
+    - Biscuits
+    - 2.0000%
+    - '1'
+  - - Field Mouse
+    - Magic Grass
+    - 2.0000%
+    - '1'
+  - - Jackstraw
+    - Jute Gloves
+    - 0.3792%
+    - '1'
+  - - Jackstraw
+    - Heavy Wristlet
+    - 0.3792%
+    - '1'
+  - - Jackstraw
+    - Light Gloves
+    - 0.3792%
+    - '1'
+  - - Jackstraw
+    - Savage Gloves
+    - 0.0063%
+    - '1'
+  - - Jackstraw
+    - Savage Cuff
+    - 0.0063%
+    - '1'
+  - - Jackstraw
+    - Angelos Gloves
+    - 0.0063%
+    - '1'
+  - - Jackstraw
+    - Emerald Piece
+    - 0.0190%
+    - '1'
+  - - Jackstraw
+    - Sapphire Piece
+    - 0.0190%
+    - '1'
+  - - Jackstraw
+    - Purple Gem Piece
+    - 0.0190%
+    - '1'
+  - - Jackstraw
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Jackstraw
+    - Jackstraw card
+    - 0.0800%
+    - '1'
+  - - Jackstraw Mige
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Jackstraw Mige
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Jackstraw Mige
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Jackstraw Mige
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Jackstraw Mige
+    - Mege's Straw Hat
+    - 2.1727%
+    - '1'
+  - - Jackstraw Mige
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Jackstraw Mige
+    - Ruby Piece
+    - 1.9000%
+    - '1'
+  - - Jackstraw Mige
+    - Orange Gem Piece
+    - 1.9000%
+    - '1'
+  - - Jackstraw Mige
+    - Yellow Gem Piece
+    - 1.9000%
+    - '1'
+  - - Jackstraw Mige
+    - Fruit of Hercules
+    - 17.9997%
+    - '1'
+  - - Jackstraw Mige
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Pumpkin
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Pumpkin
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Pumpkin
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Pumpkin
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Pumpkin
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Pumpkin
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Pumpkin
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Pumpkin
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Pumpkin
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Pumpkin
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Pumpkin
+    - Pumpkin card
+    - 0.0800%
+    - '1'
+  - - Pumpkin Banni
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Pumpkin Banni
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Pumpkin Banni
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Pumpkin Banni
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Pumpkin Banni
+    - Mege's Straw Hat
+    - 2.1727%
+    - '1'
+  - - Pumpkin Banni
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Pumpkin Banni
+    - Emerald Piece
+    - 1.9000%
+    - '1'
+  - - Pumpkin Banni
+    - Sapphire Piece
+    - 1.9000%
+    - '1'
+  - - Pumpkin Banni
+    - Purple Gem Piece
+    - 1.9000%
+    - '1'
+  - - Pumpkin Banni
+    - Magic Fruit
+    - 17.9997%
+    - '1'
+  - - Pumpkin Banni
+    - Map Piece
+    - 15.8000%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Spike Farm'
+- section: Spike Farm
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Spike Farm is owned by the Spike Farmer but ruled by the level 6 to 12 creatures that cause this Farmer grief. The country air is good for the soul and the warm, hardworking
+    farmer folk here are a friendly bunch. Take your time as you stroll through the fields and watch the crops grow…if you can stop the mice from eating them long enough!
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

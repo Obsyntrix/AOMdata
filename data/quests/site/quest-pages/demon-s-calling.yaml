@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: demon-s-calling
+name_raw: Demon S Calling
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- mysterious-wetland
+source:
+  origin_url: https://angels.wikidot.com/quest:demon-s-calling
+  retrieval_url: https://www.aowiki.uk/pages/quest_demon-s-calling.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 3b4714e6a6843bd3d3403a6003ed071f91c2df108ccf93dba193b954f33f067d
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Warlock Ofer
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 35 to 50
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '550'
+    - '30'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Demon S Calling'
+- section: Demon S Calling
+  text_raw: Home » Areas » Mysterious Wetland » Demon's Calling
+- section: Summary
+  text_raw: You find a Soul Core while fighting, who would be interested in such a thing. Perhaps the odd Warlock Ofer?
+- section: Walkthrough
+  text_raw: Step 1 Find a Soul Core while fighting. Step 2 Give the Soul Core to Warlock Ofer, he will summon Tree Elves . Step 3 Defeat the summoned Tree Elves . Step 4 Speak again
+    to Warlock Ofer.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

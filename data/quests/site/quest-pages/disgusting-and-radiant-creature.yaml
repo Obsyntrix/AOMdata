@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: disgusting-and-radiant-creature
+name_raw: Disgusting And Radiant Creature
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- scrap-iron-village
+source:
+  origin_url: https://angels.wikidot.com/quest:disgusting-and-radiant-creature
+  retrieval_url: https://www.aowiki.uk/pages/quest_disgusting-and-radiant-creature.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 681f698e5dded9eabe6d5b539f3d77c77d4c94defb8d3f83254b455ad56077c8
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Worker
+    - Steel Faction; Character lvl 10 to 25
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Breakdown of Robot
+    - Parts Collection
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Worker doesn't believe you can kill the slarm who are radiant from the sewer spill. Collect 10 radiant slarm cores (germs) by killing Radiant Slarm to prove you can.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 390 Experience, 20 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Disgusting And Radiant Creature'
+- section: Disgusting And Radiant Creature
+  text_raw: Home » Areas » Scrap Iron Village » Disgusting And Radiant Creature
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Worker. Step 2 Destroy Radiant Slarm until you collect the 10 Cores. Step 3 Take the cores to the Worker.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: repel-exiled-earl
+name_raw: Repel Exiled Earl
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- foggy-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:repel-exiled-earl
+  retrieval_url: https://www.aowiki.uk/pages/quest_repel-exiled-earl.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 5f19a33319e8b03a7e51efa8538ea7c3bcf95fe3e76be6e8d6f734be2308de68
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Collector Taless
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - 30 to 45
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '950'
+    - '40'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Repel Exiled Earl'
+- section: Repel Exiled Earl
+  text_raw: Home » Areas » Foggy Forest » Repel Exiled Earl
+- section: Summary
+  text_raw: Collector Taless asks you for help to drive away the Exiled Earls so she can pass safely.
+- section: Walkthrough
+  text_raw: Step 1 Speak to Collector Taless (). Step 2 Drive away 40 Exiled Earls . Step 3 Report back to Collector Taless. _
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

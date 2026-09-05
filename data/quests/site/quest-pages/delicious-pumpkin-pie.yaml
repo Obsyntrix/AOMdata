@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: delicious-pumpkin-pie
+name_raw: Delicious Pumpkin Pie
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- spike-farm
+source:
+  origin_url: https://angels.wikidot.com/quest:delicious-pumpkin-pie
+  retrieval_url: https://www.aowiki.uk/pages/quest_delicious-pumpkin-pie.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 565dfb45644e7df0070d061c58a34cbd53202f5ddd740f76c1d72f4c1690e926
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Farm Cook
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 6 to 20
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '260'
+    - '10'
+    - '-'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Delicious Pumpkin Pie'
+- section: Delicious Pumpkin Pie
+  text_raw: Home » Areas » Spike Farm » Delicious Pumpkin Pie
+- section: Summary
+  text_raw: The Farm Cook asks you to collect 10 pumpkins for him to make pie.
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Farm Cook (108,119) Step 2 Defeat Pumpkins until you obtain 10 pumpkins . Step 3 Give them to the Farm Cook.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

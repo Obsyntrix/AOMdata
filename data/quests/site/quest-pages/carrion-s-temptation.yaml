@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: carrion-s-temptation
+name_raw: Carrion S Temptation
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- burning-desert
+source:
+  origin_url: https://angels.wikidot.com/quest:carrion-s-temptation
+  retrieval_url: https://www.aowiki.uk/pages/quest_carrion-s-temptation.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ca254d480a75aad1f4356b91df0d0911d91fed7dbcbe63cc5eee0e97cb2bfce9
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Dinot
+    - Steel Faction; Character lvl 20+; Completed quest Destroying Spider Eggs
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Destroying Spider Eggs
+    - Black Widow
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Dinot believes you need to temp the Black Widow from its lair by offering it food. Defeat Mummy Leaders and collect 3 Carrion to temp it.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1600 Experience, 60 Credit 5 Common Red Potion 1
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Carrion S Temptation'
+- section: Carrion S Temptation
+  text_raw: Home » Areas » Burning Desert » Carrion's Temptation
+- section: Walkthrough
+  text_raw: Step 1 Talk to Dinot. Step 2 Defeat Mummy Leaders and collect 3 Carrion. Step 3 Bring it to Dinot.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

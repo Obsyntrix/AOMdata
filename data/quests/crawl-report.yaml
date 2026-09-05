@@ -1,0 +1,498 @@
+schema_version: 1
+dataset: legacy_angels_wiki_quest_evidence
+target_regions:
+- aurora
+- breeze
+- steel
+- dark
+- dungeon
+- atlantis
+counts:
+  target_area_pages: 60
+  captured_area_pages: 60
+  discovered_dedicated_quest_pages: 389
+  captured_dedicated_quest_pages: 282
+  missing_area_pages: 0
+  missing_quest_pages: 107
+by_region:
+  aurora:
+    expected_area_pages: 9
+    captured_area_pages: 9
+    discovered_dedicated_quest_pages: 79
+    captured_dedicated_quest_pages: 64
+  breeze:
+    expected_area_pages: 9
+    captured_area_pages: 9
+    discovered_dedicated_quest_pages: 86
+    captured_dedicated_quest_pages: 56
+  steel:
+    expected_area_pages: 9
+    captured_area_pages: 9
+    discovered_dedicated_quest_pages: 82
+    captured_dedicated_quest_pages: 56
+  dark:
+    expected_area_pages: 9
+    captured_area_pages: 9
+    discovered_dedicated_quest_pages: 85
+    captured_dedicated_quest_pages: 64
+  dungeon:
+    expected_area_pages: 8
+    captured_area_pages: 8
+    discovered_dedicated_quest_pages: 25
+    captured_dedicated_quest_pages: 20
+  atlantis:
+    expected_area_pages: 16
+    captured_area_pages: 16
+    discovered_dedicated_quest_pages: 36
+    captured_dedicated_quest_pages: 22
+missing_areas: []
+missing_quests:
+- a-stab-in-the-back
+- abtruse-evil-eye
+- agitated-spirit
+- beast-reaching-higher-levels
+- belief-dominator
+- big-eyes
+- blaic-s-soar
+- blazing-and-dazzling
+- blood-hammer
+- bloody-gent
+- bloody-spine
+- boaster
+- breeze-are-you-evil-enough
+- breeze-disguise
+- breeze-evil-student-leader
+- breeze-looking-for-spy-angel
+- breeze-magic-stone
+- breeze-obtaining-asmodes-trust
+- capture-outlaws
+- caravan-s-safety-confirming
+- chaotic-immortality
+- creature-from-golden-island
+- cryptic-moon-swamp-break-seal
+- cryptic-moon-swamp-obtaining-asmodes-trust
+- custered-wood
+- dark-bell
+- decayed-feather
+- defeat-moon-evil-rabbit
+- defeat-thunder-rabbit
+- defeat-yellow-mushroom
+- defeating-header-gaberna
+- delusive-fire
+- depression-of-skin-dive
+- eternal-glory
+- evil-and-bloody-deed
+- evil-cat-yese
+- evil-oasis-crystal
+- evil-pluto
+- explore-blue-slat-crystal
+- fetor-maker
+- fiery-bud
+- fire-operator
+- fish-amount-preserving
+- forge-ahead
+- inexperience
+- inexperience-3
+- island-dispossessor
+- jade-vale-ancient-book-rubbing
+- jade-vale-s-emerald
+- killing-elite
+- killing-marsh-frogs
+- killing-mice
+- killing-plateau-monkey
+- knowing-aurora-city
+- knowing-breeze-woods
+- knowing-dark-city
+- knowing-iron-castle
+- mermaid-s-tears
+- monkey-nassi-lord
+- mummy-head
+- naughty-garden-elf
+- new-scheme-of-evil-lyceum
+- noise-cancellation
+- noise-maker
+- octopus-the-robber
+- originators-of-an-evil-practice
+- paopao
+- poison-gas-spreading
+- pupu-turtle-and-pup-crab
+- purify
+- queen-angela
+- quest-name
+- railway-guard
+- reaching-higher-level-2
+- reason-for-being-dirty
+- register-at-city-angel
+- rotten-cross
+- ruffian-of-harbor
+- sad-abyss-association-members-demand
+- sad-abyss-labors-misery
+- scattered-will
+- scrap-iron-village-s-nightmare
+- seizing-jackstraw-mige
+- seizing-pumpkin-banni
+- seizing-riprap-pirate
+- seizing-riprap-pirate-leader
+- seizing-sheep-music
+- shadow-in-cactus-plain
+- shadow-obtaining-asmodes-trust
+- soft-shimmer-in-deep-sea
+- steel-evil-student-leader
+- steel-inexperience-3
+- steel-obtaining-asmodes-trust
+- steel-searching-for-spy-angel
+- steel-searching-for-spy-angel-3
+- stopping-trick
+- stride-ahead
+- suppress-a-disturbance
+- tentical-in-shadow
+- the-ancient-yatiss-culture
+- the-melody-of-pirates-demise
+- the-misbehaved-son
+- tyrant-of-cactus-plain
+- unrest-in-the-desert
+- wandering-artist
+- wandering-spirit
+- wifes-present
+errors:
+- url: https://www.aowiki.uk/pages/quest_a-stab-in-the-back.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_abtruse-evil-eye.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_agitated-spirit.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_beast-reaching-higher-levels.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_belief-dominator.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_big-eyes.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_blaic-s-soar.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_blazing-and-dazzling.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_blood-hammer.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_blood-sacrifice.html
+  attempt: 1
+  status: 429
+- url: https://www.aowiki.uk/pages/quest_bloody-gent.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_bloody-spine.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_boaster.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-are-you-evil-enough.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-disguise.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-evil-student-leader.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-looking-for-spy-angel.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-magic-stone.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_breeze-obtaining-asmodes-trust.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_capture-outlaws.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_caravan-s-safety-confirming.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_chaotic-immortality.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_creature-from-golden-island.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_cryptic-moon-swamp-break-seal.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_cryptic-moon-swamp-obtaining-asmodes-trust.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_custered-wood.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_dark-bell.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_decayed-feather.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_defeat-moon-evil-rabbit.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_defeat-thunder-rabbit.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_defeat-yellow-mushroom.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_defeating-header-gaberna.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_delusive-fire.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_depression-of-skin-dive.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_duke-s-invitation.html
+  attempt: 1
+  status: 429
+- url: https://www.aowiki.uk/pages/quest_eternal-glory.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_evil-and-bloody-deed.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_evil-cat-yese.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_evil-oasis-crystal.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_evil-pluto.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_explore-blue-slat-crystal.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_fetor-maker.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_fiery-bud.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_fire-operator.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_fish-amount-preserving.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_forge-ahead.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_inexperience.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_inexperience-3.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_investigate-evil-force.html
+  attempt: 1
+  status: 429
+- url: https://www.aowiki.uk/pages/quest_island-dispossessor.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_jade-vale-ancient-book-rubbing.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_jade-vale-s-emerald.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_killing-elite.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_killing-marsh-frogs.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_killing-mice.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_killing-plateau-monkey.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_knowing-aurora-city.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_knowing-breeze-woods.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_knowing-dark-city.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_knowing-iron-castle.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_mermaid-s-tears.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_monkey-nassi-lord.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_mummy-head.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_naughty-garden-elf.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_new-scheme-of-evil-lyceum.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_noise-cancellation.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_noise-maker.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_octopus-the-robber.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_originators-of-an-evil-practice.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_paopao.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_poison-gas-spreading.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_pupu-turtle-and-pup-crab.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_purify.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_queen-angela.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_quest-name.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_railway-guard.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_reaching-higher-level-2.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_reason-for-being-dirty.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_register-at-city-angel.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_revive-fishing-industry.html
+  attempt: 1
+  status: 429
+- url: https://www.aowiki.uk/pages/quest_rotten-cross.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_ruffian-of-harbor.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_sad-abyss-association-members-demand.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_sad-abyss-labors-misery.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_scattered-will.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_scrap-iron-village-s-nightmare.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_seizing-jackstraw-mige.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_seizing-pumpkin-banni.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_seizing-riprap-pirate.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_seizing-riprap-pirate-leader.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_seizing-sheep-music.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_shadow-in-cactus-plain.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_shadow-obtaining-asmodes-trust.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_soft-shimmer-in-deep-sea.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_steel-evil-student-leader.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_steel-inexperience-3.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_steel-obtaining-asmodes-trust.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_steel-searching-for-spy-angel.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_steel-searching-for-spy-angel-3.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_stopping-trick.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_stride-ahead.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_suppress-a-disturbance.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_tentical-in-shadow.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_the-ancient-yatiss-culture.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_the-hunt-for-cooer.html
+  attempt: 1
+  status: 429
+- url: https://www.aowiki.uk/pages/quest_the-melody-of-pirates-demise.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_the-misbehaved-son.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_tyrant-of-cactus-plain.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_unrest-in-the-desert.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_wandering-artist.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_wandering-spirit.html
+  attempt: 1
+  status: 404
+- url: https://www.aowiki.uk/pages/quest_wifes-present.html
+  attempt: 1
+  status: 404
+notes:
+- Area pages preserve quest-table observations even when no dedicated quest page exists.
+- Dedicated quest pages are captured whenever linked from a target area page.
+- Missing pages remain explicit evidence gaps; they are not interpreted as no quest.
+- Source strings are historical observations pending AOmega target-client verification.

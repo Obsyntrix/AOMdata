@@ -1,0 +1,398 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: underground-square
+  name_raw: Underground Square
+source:
+  origin_url: https://angels.wikidot.com/area:underground-square
+  retrieval_url: https://www.aowiki.uk/pages/area_underground-square.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: d031ddccbae9c53bc9dfe2bc56f8911506ad7ab773c3737229208ba086494dee
+quest_links:
+- slug: boni-s-wish
+  name_raw: Boni's Wish
+  retrieval_url: https://www.aowiki.uk/pages/quest_boni-s-wish.html
+  origin_url: https://angels.wikidot.com/quest:boni-s-wish
+- slug: follow-in-the-footsteps-of-hero
+  name_raw: Follow in the Footsteps of Hero
+  retrieval_url: https://www.aowiki.uk/pages/quest_follow-in-the-footsteps-of-hero.html
+  origin_url: https://angels.wikidot.com/quest:follow-in-the-footsteps-of-hero
+- slug: scattered-will
+  name_raw: Scattered Will
+  retrieval_url: https://www.aowiki.uk/pages/quest_scattered-will.html
+  origin_url: https://angels.wikidot.com/quest:scattered-will
+- slug: searching-for-antidote
+  name_raw: Searching for Antidote
+  retrieval_url: https://www.aowiki.uk/pages/quest_searching-for-antidote.html
+  origin_url: https://angels.wikidot.com/quest:searching-for-antidote
+- slug: virulent-hatred
+  name_raw: Virulent Hatred
+  retrieval_url: https://www.aowiki.uk/pages/quest_virulent-hatred.html
+  origin_url: https://angels.wikidot.com/quest:virulent-hatred
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Purified Moppet
+    - (39,19)
+    - Repeatable quest
+  - - Shajier
+    - (26,87)
+    - Quest giver
+  - - Silent Revenge
+    - (8,131)
+    - Quest giver
+  - - Luxious Ba
+    - (119,68)
+    - Quest giver
+  - - Scientist Pony
+    - (263,23)
+    - Quest giver
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Requirements
+    - Reward
+  - - Scattered Will
+    - lvl 75 - ?
+    - 'Exp : 2200 Credit : 65'
+  - - Searching for Antidote
+    - lvl 75 - ?
+    - 'Exp : 2800 Credit : 68'
+  - - Follow in the Footsteps of Hero
+    - lvl 75 - ?
+    - 'Exp : ?? Credit : ??'
+  - - Boni's Wish
+    - lvl 75 - ?
+    - 'Exp : ?? Credit : ??'
+  - - Virulent Hatred
+    - lvl 75 - ?
+    - 'Exp : 35000, Credit 600, Gold 18000'
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+  - - Flame Mummy
+    - '70'
+    - 'No'
+  - - Fire Fly
+    - '73'
+    - 'No'
+  - - Poison Flower
+    - '75'
+    - 'No'
+  - - Fire Ghost Kid
+    - '75'
+    - 'No'
+  - - Terra Miner
+    - '78'
+    - 'No'
+  - - Rotten Slarm
+    - '78'
+    - 'No'
+  - - Gluttonous Angel
+    - '80'
+    - 'No'
+  - - Charming Flower
+    - '75'
+    - 'Yes'
+  - - Enmity Deissy
+    - '80'
+    - 'Yes'
+  - - Gluttonous Shape
+    - '83'
+    - 'Yes'
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Charming Flower
+    - Fire Guard Helmet
+    - 1.2700%
+    - '1'
+  - - Charming Flower
+    - Knight Helmet
+    - 0.0053%
+    - '1'
+  - - Charming Flower
+    - Injury Cure V
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - 'Tactics Skill: Ghostly Tactics V'
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - Circus Elephant
+    - 0.0026%
+    - '1'
+  - - Charming Flower
+    - Hermit Armor
+    - 0.0159%
+    - '1'
+  - - Charming Flower
+    - Holy Manteau
+    - 0.0159%
+    - '1'
+  - - Charming Flower
+    - Pestle
+    - 0.4414%
+    - '1'
+  - - Charming Flower
+    - Map Piece
+    - 0.0800%
+    - '1'
+  - - Charming Flower
+    - Medium Healing Potion
+    - 48.5712%
+    - '1'
+  - - Charming Flower
+    - Medium Evil Fruit
+    - 46.2859%
+    - '1'
+  - - Charming Flower
+    - Charming Flower Card
+    - 0.9260%
+    - '1'
+  - - Enmity Deissy
+    - Mage Boots
+    - 1.5200%
+    - '1'
+  - - Enmity Deissy
+    - Spring Boots
+    - 0.0063%
+    - '1'
+  - - Enmity Deissy
+    - Holy Eyes 5
+    - 0.0021%
+    - '1'
+  - - Enmity Deissy
+    - 'Assassin Skill: Nimble V'
+    - 0.0021%
+    - '1'
+  - - Enmity Deissy
+    - Recovery Shield V
+    - 0.0021%
+    - '1'
+  - - Enmity Deissy
+    - Fire Scale Cuffs
+    - 0.0190%
+    - '1'
+  - - Enmity Deissy
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Enmity Deissy
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Enmity Deissy
+    - Great Mars' Fruit
+    - 48.3871%
+    - '1'
+  - - Enmity Deissy
+    - Great Agility Potion
+    - 48.8422%
+    - '1'
+  - - Fire Fly
+    - Hunter Cuffs
+    - 0.0118%
+    - '1'
+  - - Fire Fly
+    - Forest Cuffs
+    - 0.0000%
+    - '1'
+  - - Fire Fly
+    - Map Piece
+    - 0.0049%
+    - '1'
+  - - Fire Fly
+    - Fire Fly Card
+    - 0.0139%
+    - '1'
+  - - Fire Ghost Kid
+    - Fire Scale Boots
+    - 0.0127%
+    - '1'
+  - - Fire Ghost Kid
+    - Embrace Boots
+    - 0.0001%
+    - '1'
+  - - Fire Ghost Kid
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Fire Ghost Kid
+    - Ghost Kid Card
+    - 0.0208%
+    - '1'
+  - - Flame Mummy
+    - Fire Guard Cuffs
+    - 0.0313%
+    - '1'
+  - - Flame Mummy
+    - Knight Cuffs
+    - 0.0003%
+    - '1'
+  - - Flame Mummy
+    - Stiff Beetle
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Hermit Boots
+    - 0.0009%
+    - '1'
+  - - Flame Mummy
+    - Clean Purple Gem
+    - 0.0001%
+    - '1'
+  - - Flame Mummy
+    - Map Piece
+    - 0.0261%
+    - '1'
+  - - Gluttonous Angel
+    - Hunter Armor
+    - 0.0001%
+    - '1'
+  - - Gluttonous Angel
+    - Light Necklace
+    - 0.0001%
+    - '1'
+  - - Gluttonous Angel
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Gluttonous Angel
+    - Gluttonous Angel Card
+    - 0.0208%
+    - '1'
+  - - Gluttonous Shape
+    - Mage Cuffs
+    - 1.7100%
+    - '1'
+  - - Gluttonous Shape
+    - Spring Cuffs
+    - 0.0071%
+    - '1'
+  - - Gluttonous Shape
+    - Slow Curse V
+    - 0.0071%
+    - '1'
+  - - Gluttonous Shape
+    - Kaz Cayman Robot
+    - 0.0036%
+    - '1'
+  - - Gluttonous Shape
+    - Rotten Shield
+    - 0.0429%
+    - '1'
+  - - Gluttonous Shape
+    - Clean Emerald
+    - 0.0214%
+    - '1'
+  - - Gluttonous Shape
+    - Pestle
+    - 0.6119%
+    - '1'
+  - - Gluttonous Shape
+    - Great Healing Potion
+    - 48.7337%
+    - '1'
+  - - Gluttonous Shape
+    - Great Mighty Fruit
+    - 48.2193%
+    - '1'
+  - - Poison Flower
+    - Mage Boots
+    - 0.0127%
+    - '1'
+  - - Poison Flower
+    - Spring Boots
+    - 0.0001%
+    - '1'
+  - - Poison Flower
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Rotten Slarm
+    - Fire Scale Cuffs
+    - 0.0141%
+    - '1'
+  - - Rotten Slarm
+    - Embrace Cuffs
+    - 0.0001%
+    - '1'
+  - - Rotten Slarm
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Terra Miner
+    - Hunter Boots
+    - 0.0141%
+    - '1'
+  - - Terra Miner
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Terra Miner
+    - Cutter's Axe
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Wind Wings
+    - 0.0001%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Underground Square'
+- section: Underground Square
+  text_raw: Information
+- section: 'Adjacent Areas:'
+  text_raw: Flaming Door , Hell Palace , Gulp Room
+- section: Description
+  text_raw: Go ahead through the huge door, and a big open plaza with awful sculptures opens before you. Its huge size would scare you into walking with small, careful footsteps. Everyone
+    who has been here has had the same feeling, that the owner is not an ordinary person.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

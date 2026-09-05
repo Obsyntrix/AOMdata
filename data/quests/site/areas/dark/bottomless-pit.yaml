@@ -1,0 +1,561 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: bottomless-pit
+  name_raw: Bottomless Pit
+source:
+  origin_url: https://angels.wikidot.com/area:bottomless-pit
+  retrieval_url: https://www.aowiki.uk/pages/area_bottomless-pit.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ab90b0df465b6099953ce5bcea29871bf10323bbb28b0c0e8c312d724a9024cd
+quest_links:
+- slug: ancient-mausoleum-gate
+  name_raw: Ancient Mausoleum Gate
+  retrieval_url: https://www.aowiki.uk/pages/quest_ancient-mausoleum-gate.html
+  origin_url: https://angels.wikidot.com/quest:ancient-mausoleum-gate
+- slug: buffoon-coin
+  name_raw: Buffoon Coin
+  retrieval_url: https://www.aowiki.uk/pages/quest_buffoon-coin.html
+  origin_url: https://angels.wikidot.com/quest:buffoon-coin
+- slug: ointment-for-scald
+  name_raw: Ointment for Scald
+  retrieval_url: https://www.aowiki.uk/pages/quest_ointment-for-scald.html
+  origin_url: https://angels.wikidot.com/quest:ointment-for-scald
+- slug: robbed-stamp
+  name_raw: Robbed Stamp
+  retrieval_url: https://www.aowiki.uk/pages/quest_robbed-stamp.html
+  origin_url: https://angels.wikidot.com/quest:robbed-stamp
+- slug: secret-stamp
+  name_raw: Secret Stamp
+  retrieval_url: https://www.aowiki.uk/pages/quest_secret-stamp.html
+  origin_url: https://angels.wikidot.com/quest:secret-stamp
+- slug: seizing-fire-mimic
+  name_raw: Seizing Fire Mimic
+  retrieval_url: https://www.aowiki.uk/pages/quest_seizing-fire-mimic.html
+  origin_url: https://angels.wikidot.com/quest:seizing-fire-mimic
+- slug: shadow-disguise
+  name_raw: Disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+  origin_url: https://angels.wikidot.com/quest:shadow-disguise
+- slug: shadow-looking-for-spy-angel
+  name_raw: Looking for Spy Angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-looking-for-spy-angel.html
+  origin_url: https://angels.wikidot.com/quest:shadow-looking-for-spy-angel
+- slug: shadow-showing-speed-and-destroying-force
+  name_raw: Showing speed and destroying force
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-showing-speed-and-destroying-force.html
+  origin_url: https://angels.wikidot.com/quest:shadow-showing-speed-and-destroying-force
+- slug: the-half-of-stamp
+  name_raw: The Half of Stamp
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-half-of-stamp.html
+  origin_url: https://angels.wikidot.com/quest:the-half-of-stamp
+- slug: wizard-terrorist
+  name_raw: Wizard, Terrorist
+  retrieval_url: https://www.aowiki.uk/pages/quest_wizard-terrorist.html
+  origin_url: https://angels.wikidot.com/quest:wizard-terrorist
+- slug: wizard-terrorist-2
+  name_raw: Wizard, Terrorist
+  retrieval_url: https://www.aowiki.uk/pages/quest_wizard-terrorist-2.html
+  origin_url: https://angels.wikidot.com/quest:wizard-terrorist-2
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Adv. Plan Seller
+    - (157,89)
+    - Sells recipes for producers' skill lvl 21-25
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Chief Esmat
+    - (194,89)
+    - 'Gives quest series: Secret Stamp , The Half of Stamp , Robbed Stamp , and Ancient Mausoleum Gate'
+  - - Researcher (female)
+    - (210,82)
+    - Gives quest Buffoon Coin .
+  - - Researcher (male)
+    - (199,79)
+    - Gives quest Wizard, Terrorist .
+  - - Sickle Soldier
+    - (220,76)
+    - Gives quests Wizard, Terrorist and Seizing Fire Mimic .
+  - - Analyst
+    - (206,69)
+    - Gives quest Ointment for Scald .
+  - - Spy Angel
+    - (314,37)
+    - 'Gives Asmode series quests: Showing speed and destroying force , Disguise'
+  - - ''
+  - - Badge Fan
+    - (93,184)
+    - Exchange 1 silver monster badge for gift box.
+  - - ''
+  - - Cupid
+    - (171,95)
+    - Make this your revival place.
+  - - Shadow Totem
+    - (144,90)
+    - Revive here if of Shadow Faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeatable
+    - Requirements
+    - Reward
+    - Short Description
+  - - Wizard, Terrorist
+    - 'Yes'
+    - Shadow Faction; Character lvl 15-30
+    - Exp+510, Credit+25
+    - Defeat 20 Frantic Wizards
+  - - Seizing Fire Mimic
+    - 'Yes'
+    - Shadow Faction; Character lvl 15-30
+    - Exp+510, Credit+25
+    - Defeat 20 Fire Mimics
+  - - Ointment for Scald
+    - 'No'
+    - Shadow Faction; Character lvl 15+
+    - Gold+600, Exp+1360, Credit+55
+    - Obtain 10 Raven’s Feather by defeating Crow Wizards and 10 Black Agar by defeating Frantic Wizards
+  - - Buffoon Coin
+    - 'Yes'
+    - Shadow Faction; Character lvl 15-30
+    - Exp+510, Credit+25
+    - Obtain 10 Clown’s Coins by defeating Fire Mimics
+  - - Wizard, Terrorist
+    - 'Yes'
+    - Shadow Faction; Character Lvl 15-30
+    - Exp+510, Credit+25
+    - Defeat 20 Crow Wizards
+  - - ''
+  - - Secret Stamp 1 of 4
+    - 'No'
+    - Shadow Faction;
+    - Exp+680, Credit+35
+    - Obtain 1 Red Seal's Pieces from Frantic Wizards , and show it to Chief Esmat (194,89)
+  - - The Half of Stamp 2 of 4
+    - 'No'
+    - Shadow Faction; finished quest Secret Stamp
+    - Gold+800, Exp+400, Credit+60
+    - 1.Bring Esmat's Letter to Central Official(200,93) in Dark City. 2. Bring the other half of the stamp back to Esmat.
+  - - Robbed Stamp 3 of 4
+    - 'No'
+    - Shadow Faction; finished quest The Half of Stamp
+    - Exp+1360,Credit+25
+    - Obtain the stolen stamp piece by defeating Fire Mimics
+  - - Ancient Mausoleum Gate 4 of 4
+    - 'No'
+    - Shadow Faction; finished quest Robbed Stamp
+    - Exp+1680,Credit+320,choose either the pink, brown or yellow Piggy
+    - 1.Bring the Ancient Key to the northern ancient mausoleum(44,174) 2.Defeat the Giant Grave Elf 3.Take the Gold Seal back to Esmat.
+  - - ''
+  - - Showing speed and destroying force 3 of 8
+    - 'No'
+    - Shadow Faction; finished quest Looking for Spy Angel
+    - Exp+1500,Credit+60, 10 Common Red Potion
+    - Defeat 50 Fire Mimics .
+  - - Disguise 4 of 8
+    - 'No'
+    - Shadow Faction; finished quest Showing speed and destroying force
+    - Exp+1500,Credit+60, 10 Common Red Potion
+    - Obtain 1 Bat Badge from Evil Leech in Degula Maze .
+  - - ''
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Crow Wizard
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - Frantic Wizard
+    - '21'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Fire Mimic
+    - '21'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Wizard Mord
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Stunt Lord Abbi
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Ancient Elf
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - Summoned
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (43,123)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (317,75)
+    - Collect level 21
+    - ''
+  - - Crystal Alga
+    - (259,33)
+    - Fishing level 21
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crow Wizard
+    - Hook
+    - 0.6357%
+    - '1'
+  - - Crow Wizard
+    - Catapult
+    - 0.6357%
+    - '1'
+  - - Crow Wizard
+    - Staff
+    - 0.6357%
+    - '1'
+  - - Crow Wizard
+    - Slingshot
+    - 0.1059%
+    - '1'
+  - - Crow Wizard
+    - Curse Hook
+    - 0.0105%
+    - '1'
+  - - Crow Wizard
+    - Raid Slingshot
+    - 0.0105%
+    - '1'
+  - - Crow Wizard
+    - Holy Wood Staff
+    - 0.0105%
+    - '1'
+  - - Crow Wizard
+    - Emerald Piece
+    - 0.0318%
+    - '1'
+  - - Crow Wizard
+    - Sapphire Piece
+    - 0.0318%
+    - '1'
+  - - Crow Wizard
+    - Purple Gem Piece
+    - 0.0318%
+    - '1'
+  - - Crow Wizard
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Evil Leech
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Evil Leech
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Evil Leech
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Evil Leech
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Evil Leech
+    - Evil Leech card
+    - 0.0800%
+    - '1'
+  - - Fire Mimic
+    - Iron Wristlet
+    - 0.1420%
+    - '1'
+  - - Fire Mimic
+    - Long Gloves
+    - 0.1420%
+    - '1'
+  - - Fire Mimic
+    - Linen Gloves
+    - 0.1420%
+    - '1'
+  - - Fire Mimic
+    - Heavy Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Fire Mimic
+    - Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Fire Mimic
+    - Protector's Gloves
+    - 0.0023%
+    - '1'
+  - - Fire Mimic
+    - Flawed Ruby
+    - 0.0008%
+    - '1'
+  - - Fire Mimic
+    - Defective Orange Gem
+    - 0.0008%
+    - '1'
+  - - Fire Mimic
+    - Flawed Yellow Gem
+    - 0.0008%
+    - '1'
+  - - Fire Mimic
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Frantic Wizard
+    - Iron Shoes
+    - 0.1420%
+    - '1'
+  - - Frantic Wizard
+    - Thick-soled Shoes
+    - 0.1420%
+    - '1'
+  - - Frantic Wizard
+    - Cotton Shoes
+    - 0.1420%
+    - '1'
+  - - Frantic Wizard
+    - Heavy Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Frantic Wizard
+    - Light Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Frantic Wizard
+    - Protector's Magic Shoes
+    - 0.0023%
+    - '1'
+  - - Frantic Wizard
+    - Flawed Emerald
+    - 0.0008%
+    - '1'
+  - - Frantic Wizard
+    - Flawed Sapphire
+    - 0.0008%
+    - '1'
+  - - Frantic Wizard
+    - Flawed Purple Gem
+    - 0.0008%
+    - '1'
+  - - Frantic Wizard
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Stunt Lord Abbi
+    - Iron Wristlet
+    - 1.5621%
+    - '1'
+  - - Stunt Lord Abbi
+    - Long Gloves
+    - 1.5621%
+    - '1'
+  - - Stunt Lord Abbi
+    - Linen Gloves
+    - 1.5621%
+    - '1'
+  - - Stunt Lord Abbi
+    - Heavy Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Stunt Lord Abbi
+    - Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Stunt Lord Abbi
+    - Protector's Gloves
+    - 0.2366%
+    - '1'
+  - - Stunt Lord Abbi
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Stunt Lord Abbi
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Stunt Lord Abbi
+    - Flawed Ruby
+    - 0.0800%
+    - '1'
+  - - Stunt Lord Abbi
+    - Defective Orange Gem
+    - 0.0800%
+    - '1'
+  - - Stunt Lord Abbi
+    - Flawed Yellow Gem
+    - 0.0800%
+    - '1'
+  - - Stunt Lord Abbi
+    - Slicing Hit V
+    - 1.0415%
+    - '1'
+  - - Stunt Lord Abbi
+    - Basic Beating V
+    - 1.0415%
+    - '1'
+  - - Stunt Lord Abbi
+    - 'Assassin Skill: Stab V'
+    - 1.0415%
+    - '1'
+  - - Stunt Lord Abbi
+    - Fruit of Mars
+    - 18.0077%
+    - '1'
+  - - Stunt Lord Abbi
+    - Agility Potion
+    - 18.0077%
+    - '1'
+  - - Stunt Lord Abbi
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Wizard Mord
+    - Iron Shoes
+    - 1.5621%
+    - '1'
+  - - Wizard Mord
+    - Thick-soled Shoes
+    - 1.5621%
+    - '1'
+  - - Wizard Mord
+    - Cotton Shoes
+    - 1.5621%
+    - '1'
+  - - Wizard Mord
+    - Heavy Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Wizard Mord
+    - Light Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Wizard Mord
+    - Protector's Magic Shoes
+    - 0.2366%
+    - '1'
+  - - Wizard Mord
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Wizard Mord
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Wizard Mord
+    - Flawed Emerald
+    - 0.0800%
+    - '1'
+  - - Wizard Mord
+    - Flawed Sapphire
+    - 0.0800%
+    - '1'
+  - - Wizard Mord
+    - Flawed Purple Gem
+    - 0.0800%
+    - '1'
+  - - Wizard Mord
+    - Cure Spell 5
+    - 1.5622%
+    - '1'
+  - - Wizard Mord
+    - Summon Skeleton V
+    - 1.5622%
+    - '1'
+  - - Wizard Mord
+    - Fruit of Hercules
+    - 18.0077%
+    - '1'
+  - - Wizard Mord
+    - Target Potion
+    - 18.0077%
+    - '1'
+  - - Wizard Mord
+    - Map Piece
+    - 7.1000%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Bottomless Pit'
+- section: Bottomless Pit
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Shadowy Path , Degula Maze , Vine Front
+- section: Description
+  text_raw: What secrets of the shadow origins lay in the fathomless depth of the Bottomless Pit? The members of the research center have made it their task to find out. While you’re
+    here you might as well visit and see what help you can give these researchers. Who knows what secrets they may yet uncover in the sealed temple, or the unknown depths of the Pit?
+    Be mindful of the level 18 to 26 creatures here that are standing in the way of the researchers and their quest for knowledge. These monsters like to throw things. Duck!
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

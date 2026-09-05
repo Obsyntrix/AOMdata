@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: inquire-for-spore-collection
+name_raw: Inquire For Spore Collection
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- dense-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:inquire-for-spore-collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_inquire-for-spore-collection.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 6759ad1a1cfe5c3eaeca1d6f699bd41be80219629a5d914ed69490b70f0885a4
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Herbalist Hebu
+    - Beast Faction; Completed quest Fiery Bud
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Fiery Bud
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Herbalist Hebu still requires some ingredients, take a letter to the Botany Assistant in Mushroom Forest to ask about his progress in getting spores.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 850 Experience, 25 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Inquire For Spore Collection'
+- section: Inquire For Spore Collection
+  text_raw: Home » Areas » Dense Forest » Inquire for Spore Collection
+- section: Walkthrough
+  text_raw: Step 1 Speak with Herbalist Hebu. Step 2 Go to Mushroom Forest . Step 3 Speak with the Botany Assistant (185, 54)
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

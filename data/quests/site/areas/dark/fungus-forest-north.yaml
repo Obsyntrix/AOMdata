@@ -1,0 +1,574 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: fungus-forest-north
+  name_raw: Fungus Forest North
+source:
+  origin_url: https://angels.wikidot.com/area:fungus-forest-north
+  retrieval_url: https://www.aowiki.uk/pages/area_fungus-forest-north.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: fe3defb35863b13722fb4b8b3df5ca691e3dad2322bbb2c7bf901647e3dcc2b7
+quest_links:
+- slug: blockade-to-realizing-dream
+  name_raw: Blockade to Realizing Dream
+  retrieval_url: https://www.aowiki.uk/pages/quest_blockade-to-realizing-dream.html
+  origin_url: https://angels.wikidot.com/quest:blockade-to-realizing-dream
+- slug: collect-mouse-tails
+  name_raw: Collect Mouse Tails
+  retrieval_url: https://www.aowiki.uk/pages/quest_collect-mouse-tails.html
+  origin_url: https://angels.wikidot.com/quest:collect-mouse-tails
+- slug: defeat-giant-mouse
+  name_raw: Defeat Giant Mouse
+  retrieval_url: https://www.aowiki.uk/pages/quest_defeat-giant-mouse.html
+  origin_url: https://angels.wikidot.com/quest:defeat-giant-mouse
+- slug: robbed-parts
+  name_raw: Robbed Parts
+  retrieval_url: https://www.aowiki.uk/pages/quest_robbed-parts.html
+  origin_url: https://angels.wikidot.com/quest:robbed-parts
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Big Mouth Anglu
+    - (127,61)
+    - Gives quests Defeat Giant Mouse and Collect Mouse Tails .
+  - - Project Leader
+    - (287,77)
+    - Gives quests Blockade to Realizing Dream and Robbed Parts .
+  - - ''
+  - - Exploring Member
+    - (297,154)
+    - Transports to Nightmare Cave .
+  - - Badge Master
+    - (271,73)
+    - Exchange 3 Silver Badges for a gift box.
+  - - ''
+  - - Shadow Totem
+    - (175,100)
+    - Revive here if of Shadow Faction.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeatable
+    - Requirements
+    - Reward
+    - Short Description
+  - - Defeat Giant Mouse
+    - 'Yes'
+    - Any Faction; Character lvl 27-40
+    - Exp+700, Credit+37
+    - Defeat 40 Giant Mice
+  - - Collect Mouse Tails
+    - 'Yes'
+    - Any Faction; Character lvl 27-40
+    - Exp+700, Credit+37
+    - Defeat Giant Mice and collect 10 of the Giant Mouse’s Tails.
+  - - Blockade to Realizing Dream
+    - 'Yes'
+    - Any Faction; Character lvl 27-40
+    - Exp+810, Credit+38
+    - Defeat 40 Dark Fungi
+  - - Robbed Parts
+    - 'Yes'
+    - Any Faction; Character lvl 27-40
+    - Exp+810, Credit+38
+    - Defeat Dark Fungi and collect 10 stolen Snails.
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Giant Mouse
+    - '30'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Orange Mushroom
+    - '33'
+    - 'No'
+    - 'No'
+    - ''
+  - - Dark Fungus
+    - '35'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Hell Mouse
+    - '35'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Mutant Mushroom
+    - '38'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Elder Fungus
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Obsidian
+    - (206,19)
+    - Dig level 31
+    - ''
+  - - Bandit Den
+    - (35,106)
+    - Collect level 31
+    - ''
+  - - Bright Bush
+    - (50,53)
+    - Collect level 31
+    - ''
+  - - Viburnum
+    - (44,19)
+    - Lumber level 31
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Dark Fungus
+    - Heavy Iron Shoes
+    - 0.0608%
+    - '1'
+  - - Dark Fungus
+    - Leather Boots
+    - 0.0608%
+    - '1'
+  - - Dark Fungus
+    - Rabbi's Shoes
+    - 0.0608%
+    - '1'
+  - - Dark Fungus
+    - Beastman's Iron Shoes
+    - 0.0010%
+    - '1'
+  - - Dark Fungus
+    - Ice Boots
+    - 0.0010%
+    - '1'
+  - - Dark Fungus
+    - Magic Rabbi's Shoes
+    - 0.0010%
+    - '1'
+  - - Dark Fungus
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Dark Fungus
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Dark Fungus
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Dark Fungus
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Dark Fungus
+    - Map Piece
+    - 0.3000%
+    - '1'
+  - - Dark Fungus
+    - Flawed Ruby
+    - 0.0030%
+    - '1'
+  - - Dark Fungus
+    - Defective Orange Gem
+    - 0.0030%
+    - '1'
+  - - Dark Fungus
+    - Flawed Yellow Gem
+    - 0.0030%
+    - '1'
+  - - Dark Fungus
+    - Red Potion 2
+    - 48.9129%
+    - '2'
+  - - Dark Fungus
+    - Blue Potion 2
+    - 48.9129%
+    - '1'
+  - - Elder Fungus
+    - Weighty Wristlet
+    - 0.9378%
+    - '1'
+  - - Elder Fungus
+    - Thick Gloves
+    - 0.9378%
+    - '1'
+  - - Elder Fungus
+    - Cotton Gloves
+    - 0.9378%
+    - '1'
+  - - Elder Fungus
+    - Beastman Wristlet
+    - 0.1015%
+    - '1'
+  - - Elder Fungus
+    - Ice Gloves
+    - 0.1015%
+    - '1'
+  - - Elder Fungus
+    - Magic Gloves
+    - 0.1015%
+    - '1'
+  - - Elder Fungus
+    - Angel Wings
+    - 0.5471%
+    - '1'
+  - - Elder Fungus
+    - Ring of Goddess
+    - 0.5471%
+    - '1'
+  - - Elder Fungus
+    - Heavy Wristlet
+    - 17.0461%
+    - '1'
+  - - Elder Fungus
+    - Flawed Emerald
+    - 0.3000%
+    - '1'
+  - - Elder Fungus
+    - Flawed Sapphire
+    - 0.3000%
+    - '1'
+  - - Elder Fungus
+    - Flawed Purple Gem
+    - 0.3000%
+    - '1'
+  - - Elder Fungus
+    - Soul Entangle V
+    - 0.5471%
+    - '1'
+  - - Elder Fungus
+    - Hurt Transfer V
+    - 0.5471%
+    - '1'
+  - - Elder Fungus
+    - Fruit of Mars
+    - 19.5098%
+    - '1'
+  - - Elder Fungus
+    - Agility Potion
+    - 19.5098%
+    - '1'
+  - - Elder Fungus
+    - Map Piece
+    - 3.5500%
+    - '1'
+  - - Elder Fungus
+    - Pestle
+    - 0.0859%
+    - '1'
+  - - Giant Mouse
+    - Iron Javelin
+    - 0.3744%
+    - '1'
+  - - Giant Mouse
+    - Stone Crusher
+    - 0.3744%
+    - '1'
+  - - Giant Mouse
+    - Soldier Javelin
+    - 0.0062%
+    - '1'
+  - - Giant Mouse
+    - Wolf-teeth Mace
+    - 0.0062%
+    - '1'
+  - - Giant Mouse
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Giant Mouse
+    - Flawed Ruby
+    - 0.0011%
+    - '1'
+  - - Giant Mouse
+    - Defective Orange Gem
+    - 0.0011%
+    - '1'
+  - - Giant Mouse
+    - Flawed Yellow Gem
+    - 0.0011%
+    - '1'
+  - - Giant Mouse
+    - Flawed Emerald
+    - 0.0011%
+    - '1'
+  - - Giant Mouse
+    - Flawed Sapphire
+    - 0.0011%
+    - '1'
+  - - Giant Mouse
+    - Flawed Purple Gem
+    - 0.0011%
+    - '1'
+  - - Hell Mouse
+    - Long Sword
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Stone Crusher
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Iron Javelin
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Iron Slingshot
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Token
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Long Shield
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Beast Bone Balde
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - Wolf-teeth Mace
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - Soldier Javelin
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - Puppet Electrical Bow
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - White Token
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - Soldier's Long Shield
+    - 0.2080%
+    - '1'
+  - - Hell Mouse
+    - Golden Shell Bag
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Ring of High Clerist
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Magic Bomb V
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Earth Blessing V
+    - 1.7161%
+    - '1'
+  - - Hell Mouse
+    - Healing Potion
+    - 34.5205%
+    - '1'
+  - - Hell Mouse
+    - Magic Potion
+    - 34.5205%
+    - '1'
+  - - Hell Mouse
+    - Map Piece
+    - 12.4800%
+    - '1'
+  - - Hell Mouse
+    - Pestle
+    - 0.0700%
+    - '1'
+  - - Mutant Mushroom
+    - Heavy Iron Shoes
+    - 0.8436%
+    - '1'
+  - - Mutant Mushroom
+    - Leather Boots
+    - 0.8436%
+    - '1'
+  - - Mutant Mushroom
+    - Rabbi's Shoes
+    - 0.8436%
+    - '1'
+  - - Mutant Mushroom
+    - Beastman's Iron Shoes
+    - 0.0912%
+    - '1'
+  - - Mutant Mushroom
+    - Ice Boots
+    - 0.0912%
+    - '1'
+  - - Mutant Mushroom
+    - Magic Rabbi's Shoes
+    - 0.0912%
+    - '1'
+  - - Mutant Mushroom
+    - Angel Wings
+    - 0.4920%
+    - '1'
+  - - Mutant Mushroom
+    - Ring of Goddess
+    - 0.4920%
+    - '1'
+  - - Mutant Mushroom
+    - Flawed Ruby
+    - 0.2700%
+    - '1'
+  - - Mutant Mushroom
+    - Defective Orange Gem
+    - 0.2700%
+    - '1'
+  - - Mutant Mushroom
+    - Flawed Yellow Gem
+    - 0.2700%
+    - '1'
+  - - Mutant Mushroom
+    - Magic Bomb V
+    - 0.4920%
+    - '1'
+  - - Mutant Mushroom
+    - Earth Blessing V
+    - 0.4920%
+    - '1'
+  - - Mutant Mushroom
+    - Healing Potion
+    - 20.0000%
+    - '1'
+  - - Mutant Mushroom
+    - Target Potion
+    - 20.0000%
+    - '1'
+  - - Mutant Mushroom
+    - Map Piece
+    - 3.2000%
+    - '1'
+  - - Mutant Mushroom
+    - Pestle
+    - 0.0792%
+    - '1'
+  - - Orange Mushroom
+    - Heavy Wristlet
+    - 0.0547%
+    - '1'
+  - - Orange Mushroom
+    - Thick Gloves
+    - 0.0547%
+    - '1'
+  - - Orange Mushroom
+    - Cotton Gloves
+    - 0.0547%
+    - '1'
+  - - Orange Mushroom
+    - Weighty Wristlet
+    - 0.0091%
+    - '1'
+  - - Orange Mushroom
+    - Beastman Wristlet
+    - 0.0009%
+    - '1'
+  - - Orange Mushroom
+    - Ice Gloves
+    - 0.0009%
+    - '1'
+  - - Orange Mushroom
+    - Magic Gloves
+    - 0.0009%
+    - '1'
+  - - Orange Mushroom
+    - Map Piece
+    - 0.2700%
+    - '1'
+  - - Orange Mushroom
+    - Flawed Ruby
+    - 0.0014%
+    - '1'
+  - - Orange Mushroom
+    - Defective Orange Gem
+    - 0.0014%
+    - '1'
+  - - Orange Mushroom
+    - Flawed Yellow Gem
+    - 0.0014%
+    - '1'
+  - - Orange Mushroom
+    - Flawed Emerald
+    - 0.0014%
+    - '1'
+  - - Orange Mushroom
+    - Flawed Sapphire
+    - 0.0014%
+    - '1'
+  - - Orange Mushroom
+    - Flawed Purple Gem
+    - 0.0014%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Fungus Forest North'
+- section: Fungus Forest North
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Fungus Forest South , Gebuer Vale
+- section: Description
+  text_raw: Another forest of savoury fungus in this land under the mountains. Only in Fungus Forest North, the fungus tends to bite back. The creatures here range from level 30 to 40
+    and like to give chase. Visit with the Project Leader to see how the Railway work is progressing. You can try to help Big Mouth Anglu - if you can stand to listen to him.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

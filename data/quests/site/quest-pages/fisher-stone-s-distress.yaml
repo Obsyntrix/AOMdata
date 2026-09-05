@@ -1,0 +1,80 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: fisher-stone-s-distress
+name_raw: Fisher Stone S Distress
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- cryptic-moon-swamp
+source:
+  origin_url: https://angels.wikidot.com/quest:fisher-stone-s-distress
+  retrieval_url: https://www.aowiki.uk/pages/quest_fisher-stone-s-distress.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 640d31e3b25021bab7fb4513a917249f03ff0f421caed13f45d2d9297d7a812c
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Fisher Stone
+    - Beast Faction; Character lvl 15+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Fisher Stone is having a fishing contest with his friend (Fisher Chark) in Jade Vale, but the Mud Crabs are eating all the fish. Please defeat 20 Mud Crabs to help him win the
+      fishing contest.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 1400 Experience, 55 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Fisher Stone S Distress'
+- section: Fisher Stone S Distress
+  text_raw: Home » Areas » Cryptic Moon Swamp » Fisher Stone's Distress
+- section: Walkthrough
+  text_raw: 'Step 1 Talk to Fisher Stone. Step 2 Defeat 20 Mud Crabs . Step 3 Talk to Fisher Stone.
+
+    _'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

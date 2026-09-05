@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: ancient-mausoleum-gate
+name_raw: Ancient Mausoleum Gate
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- bottomless-pit
+source:
+  origin_url: https://angels.wikidot.com/quest:ancient-mausoleum-gate
+  retrieval_url: https://www.aowiki.uk/pages/quest_ancient-mausoleum-gate.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 162d9d3ccf8417ebde02f788a47137eef14b807a7b76023b0b17895bb3f8443e
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Chief Esmat
+    - 'No'
+    - Yes (4 of 4)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Robbed Stamp
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - '-'
+    - '-'
+    - '-'
+    - Finished Robbed Stamp
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1680'
+    - '320'
+    - '-'
+  - - Items
+  - - 'Choose one of: Pink Piggy , Brown Piggy , or Yellow Piggy'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Ancient Mausoleum Gate'
+- section: Ancient Mausoleum Gate
+  text_raw: Home » Areas » Bottomless Pit » Ancient Mausoleum Gate
+- section: Summary
+  text_raw: The two pieces of the seal are a key, take them to the locked Mausoleum Gate and defeat the summoned beast.
+- section: Walkthrough
+  text_raw: Step 1 Speak with Chief Esmat (194,89). Step 2 Take the two pieces of the seal (key) and place them on the Mausoleum Gate (43, 174). Be careful, it summons a monster! Step
+    3 Defeat the boss, Ancient Elf and obtain the Gold Seal. Step 4 Give the Gold Seal to Chief Esmat.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

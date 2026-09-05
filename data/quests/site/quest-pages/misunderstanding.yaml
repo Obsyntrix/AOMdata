@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: misunderstanding
+name_raw: Misunderstanding
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- fungus-forest-south
+source:
+  origin_url: https://angels.wikidot.com/quest:misunderstanding
+  retrieval_url: https://www.aowiki.uk/pages/quest_misunderstanding.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 566d3a37177c2ed862a993f5afe8cb131812342b574e56bfac09e4d0358182c9
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Nazarite
+    - 'No'
+    - Yes (3 of 4)
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Crybaby's Knack
+    - Kinship Between Father and Son
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - '-'
+    - '-'
+    - '-'
+    - Finished Crybaby's Knack
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1520'
+    - '300'
+    - '-'
+  - - Items
+  - - 'Choose one of: Courage Helmet , Wanderer''s Cap , and Harmony Cap'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Misunderstanding'
+- section: Misunderstanding
+  text_raw: Home » Areas » Fungus Forest South » Misunderstanding
+- section: Summary
+  text_raw: The Nazarite believes you have decieved him, so he decides to teach you a lesson by summoning the Rage Fire Elf.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Nazarite. Step 2 Defeat the boss, Rage Fire Elf . Step 3 Speak with the Nazarite again.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

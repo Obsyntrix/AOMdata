@@ -1,0 +1,75 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: man-eating-flower-masque
+name_raw: Dense Forest Man Eating Flower Masque
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- dense-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:man-eating-flower-masque
+  retrieval_url: https://www.aowiki.uk/pages/quest_man-eating-flower-masque.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: dadab349e14c5b1d1423c483453efdad6fc6dc8a91da0bf81512c7f351d36254
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Merchant Wushor
+    - Beast Faction; Character Lvl 6+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat Wild Lillies and collect 10 of the wild lilly petals
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - Gold+250, Exp+850, Credit+25
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Dense Forest Man Eating Flower Masque'
+- section: Dense Forest Man Eating Flower Masque
+  text_raw: Home » Areas » Dense Forest » Man-Eating Flower Masque
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

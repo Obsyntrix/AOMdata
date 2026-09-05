@@ -1,0 +1,526 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: deity-palace-ruins
+  name_raw: Deity Palace Ruins
+source:
+  origin_url: https://angels.wikidot.com/area:deity-palace-ruins
+  retrieval_url: https://www.aowiki.uk/pages/area_deity-palace-ruins.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: c47a7c378d9458c70250bf845ece66b435d35ed98c2821234c6d5c9e90c656d9
+quest_links: []
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Iron Totem
+    - (230,141)
+    - Steel Faction revival place.
+- table_index: 2
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Evil Fire Elf
+    - '50'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Wind Elf
+    - '53'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Evil Earth Elf
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Mirror Elf
+    - '55'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Fane Priest
+    - '61'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Fane Protector
+    - '63'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 3
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Angel Bush
+    - (68,6)
+    - Collect level 51
+    - ''
+  - - Bauxite
+    - (21,73)
+    - Dig level 51
+    - ''
+  - - Devil Den
+    - (311,31)
+    - Collect level 51
+    - ''
+  - - Wisteria
+    - (234,173)
+    - Lumber level 51
+    - ''
+  - - Fire Alga
+    - (94,24)
+    - Fishing level 51
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Evil Earth Elf
+    - Crusader's Sword
+    - 0.0097%
+    - '1'
+  - - Evil Earth Elf
+    - War Axe
+    - 0.0097%
+    - '1'
+  - - Evil Earth Elf
+    - Crusader's Shield
+    - 0.0097%
+    - '1'
+  - - Evil Earth Elf
+    - Rose Sword
+    - 0.0002%
+    - '1'
+  - - Evil Earth Elf
+    - Fish Axe
+    - 0.0002%
+    - '1'
+  - - Evil Earth Elf
+    - Vein Shield
+    - 0.0002%
+    - '1'
+  - - Evil Earth Elf
+    - Map Piece
+    - 0.0480%
+    - '1'
+  - - Evil Earth Elf
+    - Sapphire
+    - 0.0005%
+    - '1'
+  - - Evil Earth Elf
+    - Purple Gem
+    - 0.0005%
+    - '1'
+  - - Evil Earth Elf
+    - Ruby
+    - 0.0005%
+    - '1'
+  - - Evil Earth Elf
+    - Pestle
+    - 0.0020%
+    - '1'
+  - - Evil Earth Elf
+    - Earth Demon Card
+    - 0.0139%
+    - '1'
+  - - Evil Fire Elf
+    - Iron Gloves
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Tight Leather Gloves
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Magic Gloves
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Weighty Iron Boots
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Thick-soled Boots
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Magic Boots
+    - 0.0041%
+    - '1'
+  - - Evil Fire Elf
+    - Knight Gloves
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Scale Shell
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Slarm's Gloves
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Knight Boots
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Scale Boots
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Slarm's Boots
+    - 0.0001%
+    - '1'
+  - - Evil Fire Elf
+    - Map Piece
+    - 0.0400%
+    - '1'
+  - - Evil Fire Elf
+    - Pestle
+    - 0.0017%
+    - '1'
+  - - Evil Wind Elf
+    - Heavy Cap
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Knight Helmet
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Alchemic Cap
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Weighty Bard
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Weighty Breastplate
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Magic Gown
+    - 0.0044%
+    - '1'
+  - - Evil Wind Elf
+    - Knights Helmet
+    - 0.0008%
+    - '1'
+  - - Evil Wind Elf
+    - Weighted Breastplate
+    - 0.0008%
+    - '1'
+  - - Evil Wind Elf
+    - Scale Cap
+    - 0.0001%
+    - '1'
+  - - Evil Wind Elf
+    - Slarm's Cap
+    - 0.0001%
+    - '1'
+  - - Evil Wind Elf
+    - Knight Armor
+    - 0.0001%
+    - '1'
+  - - Evil Wind Elf
+    - Scale Shell
+    - 0.0001%
+    - '1'
+  - - Evil Wind Elf
+    - Slarm's Gown
+    - 0.0001%
+    - '1'
+  - - Evil Wind Elf
+    - Map Piece
+    - 0.0450%
+    - '1'
+  - - Evil Wind Elf
+    - Pestle
+    - 0.0018%
+    - '1'
+  - - Evil Wind Elf
+    - Red Potion 2
+    - 49.8960%
+    - '4'
+  - - Evil Wind Elf
+    - Blue Potion 2
+    - 49.8960%
+    - '3'
+  - - Fane Priest
+    - Weighty Bard
+    - 0.2199%
+    - '1'
+  - - Fane Priest
+    - Weighted Breastplate
+    - 0.2199%
+    - '1'
+  - - Fane Priest
+    - Magic Gown
+    - 0.2199%
+    - '1'
+  - - Fane Priest
+    - Knight Armor
+    - 0.0170%
+    - '1'
+  - - Fane Priest
+    - Scale Shell
+    - 0.0170%
+    - '1'
+  - - Fane Priest
+    - Slarm's Gown
+    - 0.0170%
+    - '1'
+  - - Fane Priest
+    - Mummy's Bag
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Necklace of High Clerist
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Yellow Gem
+    - 0.1500%
+    - '1'
+  - - Fane Priest
+    - Life Blessing 5
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Corruption Trap V
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Panther Killing V
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Angel Armor
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Paladin Armor
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Notice Gown
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Angel Code
+    - 0.1283%
+    - '1'
+  - - Fane Priest
+    - Rare Magic Potion
+    - 96.4060%
+    - '5'
+  - - Fane Priest
+    - Pestle
+    - 0.2036%
+    - '1'
+  - - Fane Priest
+    - Nature's Egg
+    - 1.3200%
+    - '1'
+  - - Fane Priest
+    - Icy Trap V
+    - 0.0555%
+    - '1'
+  - - Fane Protector
+    - Giant Bow
+    - 0.2387%
+    - '1'
+  - - Fane Protector
+    - Staff
+    - 0.2387%
+    - '1'
+  - - Fane Protector
+    - Silver-Edged Javelin
+    - 0.2387%
+    - '1'
+  - - Fane Protector
+    - Elf Wings
+    - 0.0184%
+    - '1'
+  - - Fane Protector
+    - Angel's Blessing
+    - 0.0184%
+    - '1'
+  - - Fane Protector
+    - Saw Spear
+    - 0.0184%
+    - '1'
+  - - Fane Protector
+    - Sage Mantle
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Necklace of Goddess
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Ruby
+    - 0.1700%
+    - '1'
+  - - Fane Protector
+    - Freezing Snipe V
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Binding 5
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Frozen Spell V
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Star Bow
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - God Spear
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Judge Mantle
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Purple Staff
+    - 0.1391%
+    - '1'
+  - - Fane Protector
+    - Rare Fruit of the Devil
+    - 96.2060%
+    - '5'
+  - - Fane Protector
+    - Pestle
+    - 0.2208%
+    - '1'
+  - - Fane Protector
+    - Nature's Egg
+    - 1.3200%
+    - '1'
+  - - Fane Protector
+    - Weak Curse V
+    - 0.0600%
+    - '1'
+  - - Mirror Elf
+    - Giant Bow
+    - 0.0097%
+    - '1'
+  - - Mirror Elf
+    - Staff
+    - 0.0097%
+    - '1'
+  - - Mirror Elf
+    - Silver-Edged Javelin
+    - 0.0097%
+    - '1'
+  - - Mirror Elf
+    - Elf Wings
+    - 0.0002%
+    - '1'
+  - - Mirror Elf
+    - Angel's Blessing
+    - 0.0002%
+    - '1'
+  - - Mirror Elf
+    - Saw Spear
+    - 0.0002%
+    - '1'
+  - - Mirror Elf
+    - Map Piece
+    - 0.0480%
+    - '1'
+  - - Mirror Elf
+    - Orange Gem
+    - 0.0005%
+    - '1'
+  - - Mirror Elf
+    - Yellow Gem
+    - 0.0005%
+    - '1'
+  - - Mirror Elf
+    - Emerald
+    - 0.0005%
+    - '1'
+  - - Mirror Elf
+    - Pestle
+    - 0.0020%
+    - '1'
+  - - Mirror Elf
+    - Mirror Elf Card
+    - 0.0139%
+    - '1'
+  - - Mirror Elf
+    - Red Potion 2
+    - 49.8712%
+    - '5'
+  - - Mirror Elf
+    - Blue Potion 2
+    - 49.8712%
+    - '5'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Deity Palace Ruins'
+- section: Deity Palace Ruins
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Dragon Graveyard , Dragon Field
+- section: Description
+  text_raw: Deity Palace Ruins must have been a grand building before it was destroyed. The sheer mass! The splendorous gardens that now infringe on what was once beautiful architecture.
+    Now the Ruins are haunted by creatures levelling 50 to 63. The elves are not related to your pets, they angrily scour the shadows of the ruins for stragglers. The Fane also dwells
+    here, carrying with them the much sought after PK5 drop. You can be sure to camp overnight here with many a friend.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

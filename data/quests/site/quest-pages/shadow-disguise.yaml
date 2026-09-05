@@ -1,0 +1,95 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: shadow-disguise
+name_raw: Shadow Disguise
+discovered_from_regions:
+- dark
+discovered_from_areas:
+- bottomless-pit
+- degula-maze
+source:
+  origin_url: https://angels.wikidot.com/quest:shadow-disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 18897df6a0f2330b68d0dec5bda580e58021688af8256027bf8da6948b28ac33
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Spy Angel
+    - 'No'
+    - 'Yes (Asmode: 4 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Showing Speed and Destroying Force
+    - Obtaining Asmode's Trust
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Shadow
+    - '20'
+    - '2'
+    - '-'
+    - Finished Showing Speed and Destroying Force
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '2000'
+    - '80'
+    - '500'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Shadow Disguise'
+- section: Shadow Disguise
+  text_raw: Home » Areas » Bottomless Pit » Disguise
+- section: Summary
+  text_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member of the Evil Leeches . Obtain their Secret Badge by defeating them.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit Step 2 Go to Degula Maze Step 3 Defeat Evil Leeches until you have obtained the Secret Badge. Step 4 Report back
+    to the Spy Angel
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

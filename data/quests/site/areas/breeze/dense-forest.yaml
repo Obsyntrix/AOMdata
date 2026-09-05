@@ -1,0 +1,479 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: dense-forest
+  name_raw: Dense Forest
+source:
+  origin_url: https://angels.wikidot.com/area:dense-forest
+  retrieval_url: https://www.aowiki.uk/pages/area_dense-forest.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 246fe6b29d605bbebd740d336c737c14fa0dc8d25dd0e4be95a09688276c01a8
+quest_links:
+- slug: ceremony-of-praying-for-rain
+  name_raw: Ceremony of Praying for Rain
+  retrieval_url: https://www.aowiki.uk/pages/quest_ceremony-of-praying-for-rain.html
+  origin_url: https://angels.wikidot.com/quest:ceremony-of-praying-for-rain
+- slug: fiery-bud
+  name_raw: Fiery Bud
+  retrieval_url: https://www.aowiki.uk/pages/quest_fiery-bud.html
+  origin_url: https://angels.wikidot.com/quest:fiery-bud
+- slug: fighting-ceremony
+  name_raw: Fighting Ceremony
+  retrieval_url: https://www.aowiki.uk/pages/quest_fighting-ceremony.html
+  origin_url: https://angels.wikidot.com/quest:fighting-ceremony
+- slug: firey-bud
+  name_raw: Fiery Bud
+  retrieval_url: https://www.aowiki.uk/pages/quest_firey-bud.html
+  origin_url: https://angels.wikidot.com/quest:firey-bud
+- slug: guardian-ceremony
+  name_raw: Guardian Ceremony
+  retrieval_url: https://www.aowiki.uk/pages/quest_guardian-ceremony.html
+  origin_url: https://angels.wikidot.com/quest:guardian-ceremony
+- slug: inquire-for-spore-collection
+  name_raw: Inquire for Spore Collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_inquire-for-spore-collection.html
+  origin_url: https://angels.wikidot.com/quest:inquire-for-spore-collection
+- slug: inspection-tour
+  name_raw: Inspection Tour
+  retrieval_url: https://www.aowiki.uk/pages/quest_inspection-tour.html
+  origin_url: https://angels.wikidot.com/quest:inspection-tour
+- slug: lost-little-frog
+  name_raw: Lost Little Frog
+  retrieval_url: https://www.aowiki.uk/pages/quest_lost-little-frog.html
+  origin_url: https://angels.wikidot.com/quest:lost-little-frog
+- slug: man-eating-flower-masque
+  name_raw: Man-eating Flower Masque
+  retrieval_url: https://www.aowiki.uk/pages/quest_man-eating-flower-masque.html
+  origin_url: https://angels.wikidot.com/quest:man-eating-flower-masque
+- slug: the-reivers
+  name_raw: The Reivers
+  retrieval_url: https://www.aowiki.uk/pages/quest_the-reivers.html
+  origin_url: https://angels.wikidot.com/quest:the-reivers
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Militia Chief
+    - (224,111)
+    - Gives the quest Inspection Tour and information about Magic Eye
+  - - Jungle Sentinel
+    - (22,138)
+    - Part of the Inspection Tour quest.
+  - - Bog Sentinel
+    - (234,47)
+    - Part of the Inspection Tour quest.
+  - - Merchant Wushor
+    - (210,119)
+    - Gives the quest Man-eating Flower Masque
+  - - Jungle Priest
+    - (210,109)
+    - Gives the quests; Fighting Ceremony , Guardian Ceremony , Ceremony of Praying for Rain and Lost Little Frog
+  - - Herbalist Hebu
+    - (127,72)
+    - Gives the serial quests The Reivers , Fiery Bud and Inquire for Spore Collection
+  - - ''
+  - - Badge Collector
+    - (30, 73)
+    - Exchange 2 copper badges
+  - - Breeze Totem
+    - (127, 63)
+    - Allows Beast faction members to revive
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Inspection Tour
+    - 'No'
+    - Beast Faction
+    - Exp+200, Credit+20
+    - Take a letter to the Jungle Sentinel and to the Bog Sentinel
+  - - Man-eating Flower Masque
+    - 'No'
+    - Beast Faction; Character lvl 6+
+    - Gold+250, Exp+850, Credit+25
+    - Defeat Wild Lillies and collect 10 of the wild lilly petals
+  - - Fighting Ceremony
+    - 'Yes'
+    - Beast Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Defeat Forest Monkeys and collect 10 Monkey Hairs
+  - - Guardian Ceremony
+    - 'Yes'
+    - Beast Faction; Character lvl 6-20
+    - Exp+260, Credit+10
+    - Defeat Nest Tree Elves and collect 10 Wind Leaves
+  - - Ceremony of Praying for Rain
+    - 'Yes'
+    - Beast Faction; Character lvl 6-20
+    - Exp+320, Credit+10
+    - Defeat Wild Lillies and collect 10 Icy Petals
+  - - ''
+  - - Lost Little Frog
+    - 'Yes'
+    - Character lvl 20+
+    - Jungle Priest Card
+    - Defeat Flame Lily to find the pet frog.
+  - - ''
+  - - The Reivers 1 of 3
+    - 'No'
+    - Beast Faction
+    - Gold+150, Exp+850, Credit+30, red potion *5
+    - Defeat Nest Tree Elves and obtain precious mushrooms
+  - - Fiery Bud 2 of 3
+    - 'No'
+    - Beast Faction; completed the quest The Reivers
+    - Exp+1120, Credit+160, Item
+    - Defeat Flame Lily and obtain its fiery bud
+  - - Inquire for Spore Collection 3 of 3
+    - 'No'
+    - Beast Faction; completed the quest Fiery Bud
+    - Exp+850, Credit+25
+    - Take a letter to the Botany Assistant in Mushroom Forest to ask about his progress
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - Card
+    - ''
+  - - Forest Monkey
+    - '9'
+    - 'No'
+    - 'No'
+    - ''
+  - - Nest Tree Elf
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - Wild Lily
+    - '12'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Monkey Nassi
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Flame Lily
+    - '17'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Copper
+    - (179,106)
+    - Dig level 1
+    - ''
+  - - Poplar
+    - (131,20)
+    - Lumber level 1
+    - ''
+  - - Horseradish
+    - (75,36)
+    - Collect level 1
+    - ''
+  - - Wild Alga
+    - (18,63)
+    - Fishing level 1
+    - ''
+  - - Beast Den
+    - (46,100)
+    - Collect level 1
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Flame Lily
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Flame Lily
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Flame Lily
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Flame Lily
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Flame Lily
+    - Mege's Straw Hat
+    - 2.1727%
+    - '1'
+  - - Flame Lily
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Flame Lily
+    - Emerald Piece
+    - 1.9000%
+    - '1'
+  - - Flame Lily
+    - Sapphire Piece
+    - 1.9000%
+    - '1'
+  - - Flame Lily
+    - Purple Gem Piece
+    - 1.9000%
+    - '1'
+  - - Flame Lily
+    - Magic Fruit
+    - 15.2219%
+    - '1'
+  - - Flame Lily
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Flame Lily
+    - Flame Lily Card
+    - 2.7778%
+    - '1'
+  - - Forest Monkey
+    - Biscuits
+    - 2.0000%
+    - '1'
+  - - Forest Monkey
+    - Magic Grass
+    - 2.0000%
+    - '1'
+  - - Forest Monkey
+    - Forest Monkey card
+    - 0.0800%
+    - '1'
+  - - Monkey Nassi
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Monkey Nassi
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Monkey Nassi
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Monkey Nassi
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Monkey Nassi
+    - Mege's Straw Hat
+    - 2.1727%
+    - '1'
+  - - Monkey Nassi
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Monkey Nassi
+    - Ruby Piece
+    - 1.9000%
+    - '1'
+  - - Monkey Nassi
+    - Orange Gem Piece
+    - 1.9000%
+    - '1'
+  - - Monkey Nassi
+    - Yellow Gem Piece
+    - 1.9000%
+    - '1'
+  - - Monkey Nassi
+    - Fruit of Hercules
+    - 17.9997%
+    - '1'
+  - - Monkey Nassi
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Nest Tree Elf
+    - Jute Gloves
+    - 0.3792%
+    - '1'
+  - - Nest Tree Elf
+    - Heavy Wristlet
+    - 0.3792%
+    - '1'
+  - - Nest Tree Elf
+    - Light Gloves
+    - 0.3792%
+    - '1'
+  - - Nest Tree Elf
+    - Savage Gloves
+    - 0.0063%
+    - '1'
+  - - Nest Tree Elf
+    - Savage Cuff
+    - 0.0063%
+    - '1'
+  - - Nest Tree Elf
+    - Angelos Gloves
+    - 0.0063%
+    - '1'
+  - - Nest Tree Elf
+    - Emerald Piece
+    - 0.0190%
+    - '1'
+  - - Nest Tree Elf
+    - Sapphire Piece
+    - 0.0190%
+    - '1'
+  - - Nest Tree Elf
+    - Purple Gem Piece
+    - 0.0190%
+    - '1'
+  - - Nest Tree Elf
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Nest Tree Elf
+    - Nest Tree Elf card
+    - 0.0800%
+    - '1'
+  - - Wild Lily
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Wild Lily
+    - Wild Lily card
+    - 0.0800%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Dense Forest'
+- section: Dense Forest
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Welcome to Dense Forest, a lovely wooded retreat with passive creatures roaming about in the level 8 to 17 category just outside of the Breeze Woods capital. Enjoy the relaxing
+    forest atmosphere or work on your skills and farming here. Make sure to have a chat with the local herbalist and be mindful of the Flame Lily — it has a nasty temper.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

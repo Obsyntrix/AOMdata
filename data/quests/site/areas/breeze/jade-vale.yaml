@@ -1,0 +1,411 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: jade-vale
+  name_raw: Jade Vale
+source:
+  origin_url: https://angels.wikidot.com/area:jade-vale
+  retrieval_url: https://www.aowiki.uk/pages/area_jade-vale.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 130e72eb58d32141b55f0a0c13e412603f92f8f7c987ea7b510d41a847d4af83
+quest_links:
+- slug: ancient-book-rubbing
+  name_raw: Ancient Book Rubbing
+  retrieval_url: https://www.aowiki.uk/pages/quest_ancient-book-rubbing.html
+  origin_url: https://angels.wikidot.com/quest:ancient-book-rubbing
+- slug: breeze-are-you-evil-enough
+  name_raw: Are you Evil Enough?
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-are-you-evil-enough.html
+  origin_url: https://angels.wikidot.com/quest:breeze-are-you-evil-enough
+- slug: breeze-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:breeze-magic-stone
+- slug: cryptic-moon-swamp-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_cryptic-moon-swamp-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:cryptic-moon-swamp-obtaining-asmodes-trust
+- slug: damnable-green-lizard
+  name_raw: Damnable Green Lizard
+  retrieval_url: https://www.aowiki.uk/pages/quest_damnable-green-lizard.html
+  origin_url: https://angels.wikidot.com/quest:damnable-green-lizard
+- slug: delaying-of-ruins-study
+  name_raw: Delaying of Ruins Study
+  retrieval_url: https://www.aowiki.uk/pages/quest_delaying-of-ruins-study.html
+  origin_url: https://angels.wikidot.com/quest:delaying-of-ruins-study
+- slug: fight-for-ruins
+  name_raw: Fight for Ruins
+  retrieval_url: https://www.aowiki.uk/pages/quest_fight-for-ruins.html
+  origin_url: https://angels.wikidot.com/quest:fight-for-ruins
+- slug: greedy-green-lizard
+  name_raw: Greedy Green Lizard
+  retrieval_url: https://www.aowiki.uk/pages/quest_greedy-green-lizard.html
+  origin_url: https://angels.wikidot.com/quest:greedy-green-lizard
+- slug: mystic-words
+  name_raw: Mystic Words
+  retrieval_url: https://www.aowiki.uk/pages/quest_mystic-words.html
+  origin_url: https://angels.wikidot.com/quest:mystic-words
+- slug: verify-ability
+  name_raw: Verify Ability
+  retrieval_url: https://www.aowiki.uk/pages/quest_verify-ability.html
+  origin_url: https://angels.wikidot.com/quest:verify-ability
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Fisher Chark
+    - (174,34)
+    - Gives the quest Damnable Green Lizard
+  - - Archaeologist
+    - (80,11)
+    - Gives the quest Delaying of Ruins Study
+  - - Militia Soldier
+    - (282,56)
+    - Mentions the Great Wiser Relic of the Sage, Gives quest Fight for Ruins
+  - - Training Priest
+    - (292,76)
+    - 'Part of Wiser serial quest, gives the quests: Mystic Words and Verify Ability'
+  - - Asmode
+    - (301,72)
+    - Evil Student Leader, gives the Asmode series quests Are you Evil Enough? and Magic Stone
+  - - ''
+  - - Beast Totem
+    - (137,115)
+    - Revive here if of Beast faction
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Damnable Green Lizard
+    - 'Yes'
+    - Beast Faction; Character lvl 20-35
+    - Exp+600, Credit+30
+    - Defeat 20 Green Lizards to help Chark win the bet with his friend
+  - - Delaying of Ruins Study
+    - 'No'
+    - Beast Faction;
+    - Gold+800, Exp+1600, Credit+60
+    - 'Defeat Unicorn Rabbits until you obtain the Archeology Scoll that was stolen. Note: Do this quest before taking the Asmode quest'
+  - - Fight for Ruins
+    - 'Yes'
+    - Beast Faction; Character lvl 20-35
+    - Exp+670, Credit+30
+    - Defeat 20 Magic Eye Members who are causing trouble.
+  - - ''
+  - - Greedy Green Lizard
+    - 'Yes'
+    - none
+    - Card
+    - Defeat Green Lizards and collect a Scale.
+  - - ''
+  - - Ancient Book Rubbing 1 of 3
+    - 'No'
+    - Beast Faction;
+    - Exp+500, Credit+30
+    - Get a Rubbing of the letters on the ancient relic of the Sage, and get them translated.
+  - - Mystic Words 2 of 3
+    - 'No'
+    - Beast Faction; Completed quest Ancient Book Rubbing
+    - Exp+400, Credit+25, 5 Common Red Potion
+    - Defeat Unicorn Rabbits and Green Lizards to collect 10 unicorn rabbit horns and 10 green lizard scales for the Training Priest.
+  - - Verify Ability 3 of 3
+    - 'No'
+    - Beast Faction; Completed quest Mystic Words
+    - Exp+2100, Credit+380, Item
+    - Defeat the boss Sealed Beast .
+  - - ''
+  - - Are you Evil Enough? Asmode 6 of 8
+    - 'No'
+    - Beast Faction; Completed quest Obtaining Asmode's Trust
+    - Exp+500, Credit+25
+    - Go back to Cryptic Moon Swamp and talk to the Spy Angel . You will then return to Jade Vale and talk to the Archaeologist who will give you Cultural Relics (an antique). Give this
+      item to Asmode.
+  - - Magic Stone Asmode 7 of 8
+    - 'No'
+    - Beast Faction; Completed quest Are you Evil Enough?
+    - Exp+400, Credit+25
+    - Take the stone to Mysterious Garden and find the statue of a minkey holding a crowned egg (257, 26). Click on it. This will transport you to the Den.
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Unicorn Rabbit
+    - '24'
+    - 'No'
+    - 'No'
+    - ''
+  - - Green Lizard
+    - '24'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Magic Eye Member
+    - '27'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Evil Moon Rabbit
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Sealed Beast
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (138,170)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (300,157)
+    - Collect level 21
+    - ''
+  - - Rainbow Bush
+    - (178,74)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (16,48)
+    - Lumber level 21
+    - ''
+  - - Crystal Alga
+    - (159,42)
+    - Fishing level 21
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Evil Moon Rabbit
+    - Rabbi's Cap
+    - 1.9108%
+    - '1'
+  - - Evil Moon Rabbit
+    - Hard-leather Cap
+    - 1.9108%
+    - '1'
+  - - Evil Moon Rabbit
+    - Shade
+    - 1.9108%
+    - '1'
+  - - Evil Moon Rabbit
+    - Protector's Cap
+    - 0.2895%
+    - '1'
+  - - Evil Moon Rabbit
+    - Hard Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Evil Moon Rabbit
+    - Heavy Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Evil Moon Rabbit
+    - Turtle Shell Bag
+    - 1.9108%
+    - '1'
+  - - Evil Moon Rabbit
+    - Ring of Envoy
+    - 1.9108%
+    - '1'
+  - - Evil Moon Rabbit
+    - Flawed Emerald
+    - 0.1300%
+    - '1'
+  - - Evil Moon Rabbit
+    - Flawed Sapphire
+    - 0.1300%
+    - '1'
+  - - Evil Moon Rabbit
+    - Flawed Purple Gem
+    - 0.1300%
+    - '1'
+  - - Evil Moon Rabbit
+    - Shock Wave 5
+    - 1.2738%
+    - '1'
+  - - Evil Moon Rabbit
+    - Poison Hit V
+    - 1.2738%
+    - '1'
+  - - Evil Moon Rabbit
+    - Flying Dart V
+    - 1.2738%
+    - '1'
+  - - Evil Moon Rabbit
+    - Magic Fruit
+    - 18.0000%
+    - '1'
+  - - Evil Moon Rabbit
+    - Fruit of the Devil
+    - 18.0000%
+    - '1'
+  - - Evil Moon Rabbit
+    - Map Piece
+    - 8.6900%
+    - '1'
+  - - Green Lizard
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - Green Lizard
+    - Shade
+    - 0.2605%
+    - '1'
+  - - Green Lizard
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Green Lizard
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Green Lizard
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - Green Lizard
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - Green Lizard
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - Green Lizard
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Green Lizard
+    - Green Lizard card
+    - 0.0800%
+    - '1'
+  - - Magic Eye Member
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Magic Eye Member
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Magic Eye Member
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Magic Eye Member
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Magic Eye Member
+    - Magic Eye Member card
+    - 0.0800%
+    - '1'
+  - - Unicorn Rabbit
+    - Rabbi's Cap
+    - 0.5211%
+    - '1'
+  - - Unicorn Rabbit
+    - Protector's Cap
+    - 0.0086%
+    - '1'
+  - - Unicorn Rabbit
+    - Flawed Ruby
+    - 0.0013%
+    - '1'
+  - - Unicorn Rabbit
+    - Defective Orange Gem
+    - 0.0013%
+    - '1'
+  - - Unicorn Rabbit
+    - Flawed Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Unicorn Rabbit
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Unicorn Rabbit
+    - Unicorn Rabbit card
+    - 0.0800%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Jade Vale'
+- section: Jade Vale
+  text_raw: 'Information
+
+    Map'
+- section: Description
+  text_raw: Jade Vale is a scenic place that has been used for training, and is now used by the Magic Eye as a hide-out. Keep an eye out for these aggressive robbers or they will steal
+    your life. Though, they seem to be very interested in that relic up north. Be sure to check in on the fishing industry, and the archaeology study of the area. There’s a sly fellow
+    named Asmode by the entrance that likes his women and has a secret agenda.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

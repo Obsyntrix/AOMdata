@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: plain-assault
+name_raw: Plain Assault
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- megalith-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:plain-assault
+  retrieval_url: https://www.aowiki.uk/pages/quest_plain-assault.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 955525d32ae3c375d4c5d80fda53a35f44a925a24f05dfa7641a27f0e8330af0
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Patrolman Wulfer
+    - Character lvl 27 to 40
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Patrolman Wulfer asks you to defeat 40 Plain Titans and teach them a lesson.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 810 Experience, 38 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Plain Assault'
+- section: Plain Assault
+  text_raw: Home » Areas » Megalith Plain » Plain Assault
+- section: Walkthrough
+  text_raw: Step 1 Talk to Patrolman Wulfer . Step 2 Defeat 40 Plain Titans . Step 3 Report to Patrolman Wulfer .
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

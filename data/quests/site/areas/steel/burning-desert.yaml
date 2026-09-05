@@ -1,0 +1,547 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: burning-desert
+  name_raw: Burning Desert
+source:
+  origin_url: https://angels.wikidot.com/area:burning-desert
+  retrieval_url: https://www.aowiki.uk/pages/area_burning-desert.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
+quest_links:
+- slug: black-widow
+  name_raw: Black Widow
+  retrieval_url: https://www.aowiki.uk/pages/quest_black-widow.html
+  origin_url: https://angels.wikidot.com/quest:black-widow
+- slug: blood-sacrifice
+  name_raw: Blood Sacrifice
+  retrieval_url: https://www.aowiki.uk/pages/quest_blood-sacrifice.html
+  origin_url: https://angels.wikidot.com/quest:blood-sacrifice
+- slug: carrion-s-temptation
+  name_raw: Carrion‘s Temptation
+  retrieval_url: https://www.aowiki.uk/pages/quest_carrion-s-temptation.html
+  origin_url: https://angels.wikidot.com/quest:carrion-s-temptation
+- slug: collecting-serum
+  name_raw: Collecting Serum
+  retrieval_url: https://www.aowiki.uk/pages/quest_collecting-serum.html
+  origin_url: https://angels.wikidot.com/quest:collecting-serum
+- slug: destroying-spider-eggs
+  name_raw: Destroying Spider Eggs
+  retrieval_url: https://www.aowiki.uk/pages/quest_destroying-spider-eggs.html
+  origin_url: https://angels.wikidot.com/quest:destroying-spider-eggs
+- slug: detecting-fountain
+  name_raw: Detecting Fountain
+  retrieval_url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+  origin_url: https://angels.wikidot.com/quest:detecting-fountain
+- slug: gebuer-s-proposal
+  name_raw: Gebuer‘s Proposal
+  retrieval_url: https://www.aowiki.uk/pages/quest_gebuer-s-proposal.html
+  origin_url: https://angels.wikidot.com/quest:gebuer-s-proposal
+- slug: huge-rotten-bird
+  name_raw: Huge Rotten Bird
+  retrieval_url: https://www.aowiki.uk/pages/quest_huge-rotten-bird.html
+  origin_url: https://angels.wikidot.com/quest:huge-rotten-bird
+- slug: make-hormone-potion
+  name_raw: Make Hormone Potion
+  retrieval_url: https://www.aowiki.uk/pages/quest_make-hormone-potion.html
+  origin_url: https://angels.wikidot.com/quest:make-hormone-potion
+- slug: missing-friend
+  name_raw: Missing Friend
+  retrieval_url: https://www.aowiki.uk/pages/quest_missing-friend.html
+  origin_url: https://angels.wikidot.com/quest:missing-friend
+- slug: ring-of-caravan
+  name_raw: Ring of Caravan
+  retrieval_url: https://www.aowiki.uk/pages/quest_ring-of-caravan.html
+  origin_url: https://angels.wikidot.com/quest:ring-of-caravan
+- slug: spirit-in-war
+  name_raw: Spirit in War
+  retrieval_url: https://www.aowiki.uk/pages/quest_spirit-in-war.html
+  origin_url: https://angels.wikidot.com/quest:spirit-in-war
+- slug: steel-are-you-evil-enough
+  name_raw: Are you Evil Enough?
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+  origin_url: https://angels.wikidot.com/quest:steel-are-you-evil-enough
+- slug: steel-magic-stone
+  name_raw: Magic Stone
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+  origin_url: https://angels.wikidot.com/quest:steel-magic-stone
+- slug: steel-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:steel-obtaining-asmodes-trust
+- slug: strange-black-feather
+  name_raw: Strange Black Feather
+  retrieval_url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+  origin_url: https://angels.wikidot.com/quest:strange-black-feather
+- slug: toxic-spider-in-desert
+  name_raw: Toxic Spider in Desert
+  retrieval_url: https://www.aowiki.uk/pages/quest_toxic-spider-in-desert.html
+  origin_url: https://angels.wikidot.com/quest:toxic-spider-in-desert
+- slug: winning-achievement
+  name_raw: Winning Achievement
+  retrieval_url: https://www.aowiki.uk/pages/quest_winning-achievement.html
+  origin_url: https://angels.wikidot.com/quest:winning-achievement
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Desert Merchant
+    - (26,147)
+    - Part of quest Ring of Caravan .
+  - - Pestal Aider
+    - (40,163)
+    - Gives quest Gebuer‘s Proposal .
+  - - Myth Scholar
+    - (55,166)
+    - 'Gives quest series: Make Hormone Potion and Huge Rotten Bird .'
+  - - General Allie
+    - (37,162)
+    - Gives quest Winning Achievement .
+  - - Dinot
+    - (145,135)
+    - 'Gives quest series: Missing Friend , Destroying Spider Eggs , Carrion‘s Temptation and Black Widow .'
+  - - Surgeon
+    - (175,142)
+    - Gives quest Collecting Serum .
+  - - Chief
+    - (166,152)
+    - Gives quests Spirit in War and Toxic Spider in Desert .
+  - - Spy Sungier
+    - (263,167)
+    - Gives quest Detecting Fountain .
+  - - Asmode
+    - (285,22)
+    - 'Asmode series quests: Are you Evil Enough? and Magic Stone .'
+  - - ''
+  - - Cupid
+    - (176,171)
+    - Make this your revival place.
+  - - Steel Totem
+    - (40,157)
+    - Revive here if of Steel Faction.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Spirit in War
+    - 'Yes'
+    - Steel Faction; Character lvl 20-35
+    - Exp+600, Credit+30
+    - Defeat 20 Mummy Leaders .
+  - - Toxic Spider in Desert
+    - 'Yes'
+    - Steel Faction; Character lvl 20-35
+    - Exp+600, Credit+30
+    - Defeat 20 Toxic Spiders .
+  - - Collecting Serum
+    - 'No'
+    - Steel Faction; Character lvl 20+
+    - Gold+1200, Exp+1600, Credit+45
+    - 'Defeat Toxic Spiders collect 5 Spider’s Venom Sacs. Note: Do before Asmode Quests.'
+  - - Blood Sacrifice
+    - 'Yes'
+    - Steel Faction ?; Character lvl 20-35
+    - Exp+1700, Credit+50
+    - Gravestone will ask you to go to Gebuer Vale and defeat Gebuer until you collect 5 vials of Gebuer Blood.
+  - - Winning Achievement
+    - 'Yes'
+    - Steel Faction; Character lvl 20-35
+    - Exp+670, Credit+35
+    - Go to Gebuer Vale and defeat 20 of the Gebuer .
+  - - Detecting Fountain
+    - 'No'
+    - Steel Faction;
+    - Exp+400, Credit+65
+    - Go to Gebuer Vale and speak with Spy Lude .
+  - - Gebuer‘s Proposal
+    - 'No'
+    - Steel Faction; Character Lvl 25+; Completed quest Detecting Fountain
+    - Gold+1500, Exp+2000, Credit+70
+    - Go to Gebuer Vale and defeat Gebuer Cadre until you obtain the Gebuer‘s Fighting Proposal.
+  - - ''
+  - - Missing Friend 1 of 4
+    - 'No'
+    - Steel Faction; Character lvl 20+
+    - Exp+1600, Credit+50
+    - Obtain Takice's Bracer by defeating Toxic Spiders .
+  - - Destroying Spider Eggs 2 of 4
+    - 'No'
+    - Steel Faction; Character lvl 20+; Completed quest Missing Friend
+    - Exp+400, Credit+45
+    - Destroy the eggs at the spider nests by clicking on them.
+  - - Carrion‘s Temptation 3 of 4
+    - 'No'
+    - Steel Faction; Character lvl 20+; Completed quest Destroying Spider Eggs
+    - Exp+1600, Credit+60, 5 common red potion
+    - Defeat Mummy Leaders and collect 3 Carrion.
+  - - Black Widow 4 of 4
+    - 'No'
+    - Steel Faction; Character lvl 20+; Completed quest Carrion‘s Temptation
+    - Exp+2000, Credit+400, Item
+    - Defeat the boss, Black Widow by summoning it.
+  - - ''
+  - - Make Hormone Potion 2 of 3
+    - 'No'
+    - Steel Faction; Character lvl 25+; Completed quest Strange Black Feather
+    - Gold+1000, Exp+1200, Credit+75
+    - Go to Cactus Plain and collect 10 Lizardman‘s Tails by defeating Ball Lizardmen , and go to Gebuer Vale and collect 10 Gebuer’s Teeth by defeating Gebuer .
+  - - Huge Rotten Bird 3 of 3
+    - 'No'
+    - Steel Faction; Character lvl 25+; Completed quest Make Hormone Potion
+    - Exp+2100, Credit+500, Item
+    - Go to Gebuer Vale and defeat the boss, Huge Rotten Bird .
+  - - ''
+  - - Are you Evil Enough? Asmode 6 of 8
+    - 'No'
+    - Steel Faction; Completed quest Obtaining Asmode's Trust
+    - Exp+500, Credit+25
+    - Go back to Cactus Plain and talk to the Spy Angel . You will then return to Burning Desert and talk to the Surgeon who will give you Dog Tags. Give this item to Asmode .
+  - - Magic Stone Asmode 7 of 8
+    - 'No'
+    - Steel Faction; Completed quest Are you Evil Enough?
+    - Exp+400, Credit+25
+    - Take the stone to Gebuer Vale and find the statue of a monkey holding a crowned egg (7,247). Click on it. This will transport you to the Den.
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Toxic Spider
+    - '24'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Mummy
+    - '24'
+    - 'No'
+    - 'No'
+    - ''
+  - - Mummy Leader
+    - '27'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Undying Lord
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Black Widow
+    - '29'
+    - 'Yes'
+    - 'Yes'
+    - Summoned
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (110,168)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (7,22)
+    - Collect level 21
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Gebuer
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Gebuer
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Gebuer
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Gebuer
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Gebuer Cadre
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Gebuer Cadre
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Gebuer cadre card
+    - 0.0800%
+    - '1'
+  - - Gebuer Cadre
+    - Riddle Piece
+    - 100.0000%
+    - '2'
+  - - Mummy
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - Mummy
+    - Shade
+    - 0.2605%
+    - '1'
+  - - Mummy
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Mummy
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Mummy
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Mummy
+    - Mummy card
+    - 0.0800%
+    - '1'
+  - - Mummy Leader
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Mummy Leader
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Mummy Leader
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Mummy Leader
+    - Mummy Leader card
+    - 0.0800%
+    - '1'
+  - - Toxic Spider
+    - Rabbi's Cap
+    - 0.5211%
+    - '1'
+  - - Toxic Spider
+    - Protector's Cap
+    - 0.0086%
+    - '1'
+  - - Toxic Spider
+    - Flawed Ruby
+    - 0.0013%
+    - '1'
+  - - Toxic Spider
+    - Defective Orange Gem
+    - 0.0013%
+    - '1'
+  - - Toxic Spider
+    - Flawed Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Toxic Spider
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Toxic Spider
+    - Toxic Spider card
+    - 0.0800%
+    - '1'
+  - - Undying Lord
+    - Rabbi's Cap
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Hard-leather Cap
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Shade
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Protector's Cap
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Hard Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Heavy Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Turtle Shell Bag
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Ring of Envoy
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Flawed Emerald
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Flawed Sapphire
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Flawed Purple Gem
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Shock Wave 5
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Poison Hit V
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Flying Dart V
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Magic Fruit
+    - 18.0000%
+    - '1'
+  - - Undying Lord
+    - Fruit of the Devil
+    - 18.0000%
+    - '1'
+  - - Undying Lord
+    - Map Piece
+    - 8.6900%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Burning Desert'
+- section: Burning Desert
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Wishing Tear , Gebuer Vale
+- section: Description
+  text_raw: If you love Mummies (and who doesn’t?), then the rolling dunes and scorching heat of Burning Desert is for you. Wander in awe of the ancient mummified creatures here from
+    level 24 to 29 and take a rest by General Alexander and listen to Dinot’s tale of woe. The stench of he mummies tends to bring out the hungry toxic spiders in the noon day sun, by
+    wary of their bite! Also, you may want to keep an eye on that sly fellow, Asmode, by the southern portal…he’s up to something sinister.
+- section: Resources
+  text_raw: '[[div]]'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

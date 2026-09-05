@@ -1,0 +1,656 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: aurora
+area:
+  id: dawn-harbor
+  name_raw: Dawn Harbor
+source:
+  origin_url: https://angels.wikidot.com/area:dawn-harbor
+  retrieval_url: https://www.aowiki.uk/pages/area_dawn-harbor.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 171f310d88431eb16b92fef94fca042a294b24e110acbca04d5df559eb7299e1
+quest_links:
+- slug: aurora-disguise
+  name_raw: Disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+  origin_url: https://angels.wikidot.com/quest:aurora-disguise
+- slug: aurora-looking-for-spy-angel
+  name_raw: Looking For Spy Angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+  origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
+- slug: aurora-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:aurora-obtaining-asmodes-trust
+- slug: aurora-showing-speed-and-destroying-force
+  name_raw: Showing Speed and Destroying Force
+  retrieval_url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+  origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
+- slug: being-premptive
+  name_raw: Being Premptive
+  retrieval_url: https://www.aowiki.uk/pages/quest_being-premptive.html
+  origin_url: https://angels.wikidot.com/quest:being-premptive
+- slug: clearance-of-harbor
+  name_raw: Clearance of Harbor
+  retrieval_url: https://www.aowiki.uk/pages/quest_clearance-of-harbor.html
+  origin_url: https://angels.wikidot.com/quest:clearance-of-harbor
+- slug: control-plan-of-sheep-quantity
+  name_raw: Control Plan of Sheep Quantity
+  retrieval_url: https://www.aowiki.uk/pages/quest_control-plan-of-sheep-quantity.html
+  origin_url: https://angels.wikidot.com/quest:control-plan-of-sheep-quantity
+- slug: defeating-evil-force
+  name_raw: Defeating Evil Force
+  retrieval_url: https://www.aowiki.uk/pages/quest_defeating-evil-force.html
+  origin_url: https://angels.wikidot.com/quest:defeating-evil-force
+- slug: fetor-on-deck
+  name_raw: Fetor on Deck
+  retrieval_url: https://www.aowiki.uk/pages/quest_fetor-on-deck.html
+  origin_url: https://angels.wikidot.com/quest:fetor-on-deck
+- slug: glory-of-dawn-harbor
+  name_raw: Glory of Dawn Harbor
+  retrieval_url: https://www.aowiki.uk/pages/quest_glory-of-dawn-harbor.html
+  origin_url: https://angels.wikidot.com/quest:glory-of-dawn-harbor
+- slug: golden-island-legend
+  name_raw: Golden Island Legend
+  retrieval_url: https://www.aowiki.uk/pages/quest_golden-island-legend.html
+  origin_url: https://angels.wikidot.com/quest:golden-island-legend
+- slug: karter-s-planning-book
+  name_raw: Karter's Planning Book
+  retrieval_url: https://www.aowiki.uk/pages/quest_karter-s-planning-book.html
+  origin_url: https://angels.wikidot.com/quest:karter-s-planning-book
+- slug: protecting-boss-s-right
+  name_raw: Protecting Boss's Right
+  retrieval_url: https://www.aowiki.uk/pages/quest_protecting-boss-s-right.html
+  origin_url: https://angels.wikidot.com/quest:protecting-boss-s-right
+- slug: request-for-military-aid
+  name_raw: Request for Military Aid
+  retrieval_url: https://www.aowiki.uk/pages/quest_request-for-military-aid.html
+  origin_url: https://angels.wikidot.com/quest:request-for-military-aid
+- slug: side-dish-herb-tortoise-meat
+  name_raw: Side Dish-Herb Tortoise Meat
+  retrieval_url: https://www.aowiki.uk/pages/quest_side-dish-herb-tortoise-meat.html
+  origin_url: https://angels.wikidot.com/quest:side-dish-herb-tortoise-meat
+- slug: side-dish-salted-crabmeat
+  name_raw: Side Dish-Salted Crabmeat
+  retrieval_url: https://www.aowiki.uk/pages/quest_side-dish-salted-crabmeat.html
+  origin_url: https://angels.wikidot.com/quest:side-dish-salted-crabmeat
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Adv. Plan Seller
+    - (58,172)
+    - Sell recipes lvl 21-25
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Chef
+    - (138,161)
+    - 'Gives quests: Fetor on Deck , Side Dish-Salted Crabmeat , and Side Dish-Herb Tortoise Meat (repeatable).'
+  - - Fisherman
+    - (165,100)
+    - 'Gives quest: Control Plan of Sheep Quantity (repeatable)'
+  - - Policeman
+    - (193,28)
+    - 'Gives quest: Defeating Evil Force (repeatable)'
+  - - Barkeeper
+    - (204,125)
+    - 'Gives quest: Protecting Boss''s Right'
+  - - Fishing Leader
+    - (252,156)
+    - 'Gives quest series: Clearance of Harbor , Request for Military Aid , Being Premptive and Glory of Dawn Harbor'
+  - - Retired Sailor
+    - (31,98)
+    - 'Part of quest: Golden Island Legend'
+  - - Sailor Bonny
+    - (257,111)
+    - 'Part of quest: Karter''s Planning Book'
+  - - Sailor Karter
+    - (269,76)
+    - 'Part of quest: Karter''s Planning Book'
+  - - Spy Angel
+    - (70,177)
+    - Gives Asmode's quests.
+  - - ''
+  - - Badge Fan
+    - (267,154)
+    - Exchange 1 Silver Monster Badge for a Secret Gift.
+  - - ''
+  - - Cupid
+    - (179,166)
+    - Make this your revival place.
+  - - Aurora Totem
+    - (67,177)
+    - Revive here if of Aurora faction.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Fetor on Deck
+    - 'Yes'
+    - Aurora Faction; Character Lvl 15-30
+    - Exp+510, Credit+25
+    - Defeat 20 Grey Mice
+  - - Side Dish-Salted Crabmeat
+    - 'Yes'
+    - Aurora Faction; Character Lvl 15-30
+    - Exp+510, Credit+25
+    - Defeat Soldier Crabs and collect 10 Fresh Crab Meats
+  - - Side Dish-Herb Tortoise Meat
+    - 'Yes'
+    - Aurora Faction; Character Lvl 15-30
+    - Exp+450, Credit+25
+    - Defeat Turtles and collect 4 Fresh Turtle Meats
+  - - Control Plan of Sheep Quantity
+    - 'Yes'
+    - Aurora Faction; Character Lvl 20-35
+    - Exp+580, Credit+30
+    - Defeat 20 Harp Sheep at Riprap Coast
+  - - Defeating Evil Force
+    - 'Yes'
+    - Aurora Faction; Character Lvl 20-35
+    - Exp+590, Credit+30
+    - Defeat Riprap Pirates and collect 5 Pirate's Necklaces
+  - - ''
+  - - Golden Island Legend
+    - 'No'
+    - Aurora Faction
+    - Exp+600, Credit+25
+    - Defeat Turtles and collect Map Pieces, then go find the Retired Sailor (31,98)
+  - - Protecting Boss's Right
+    - 'No'
+    - Aurora Faction; Character Lvl 20+
+    - Exp+1580, Credit+70, Gold+600
+    - Defeat 20 Riprap Pirates at Riprap Coast
+  - - ''
+  - - Clearance of Harbor 1 of 4
+    - 'No'
+    - Aurora Faction; Character Lvl 15+
+    - Exp+1400, Credit+55, Gold+1000
+    - Defeat Turtles , Soldier Crabs and Grey Mice 20 in total.
+  - - Request for Military Aid 2 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Clearance of Harbor
+    - Exp+400, Credit+30
+    - Give the call for help to the Deputy Colonel at Aurora City
+  - - Being Premptive 3 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Request for Military Aid
+    - Exp+2120, Credit+450, Item
+    - Defeat Vice Head Pirate (Boss) at Riprap Coast
+  - - Glory of Dawn Harbor 4 of 4
+    - 'No'
+    - Aurora Faction; Finished quest Being Premptive
+    - Exp+200, Credit+25, Item
+    - Find the Cherry Village Leader at Cherry Village
+  - - ''
+  - - Showing Speed and Destroying Force 3 of 8
+    - 'No'
+    - Aurora Faction; Finished quest Looking For Spy Angel
+    - Exp+1500, Credit+60
+    - Defeat 50 Grey Mouse
+  - - Disguise 4 of 8
+    - 'No'
+    - Aurora Faction; Finished quest Showing Speed and Destroying Force
+    - Exp+100, Credit+80, Gold+500
+    - Defeat Riprap Pirates at Riprap Coast and collect Secret Badge
+  - - Obtaining Asmode's Trust 5 of 8
+    - 'No'
+    - Aurora Faction; Finished quest Disguise
+    - Exp+200, Credit+35
+    - Find Asmode at Riprap Coast and talk to him.
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Turtle
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - Grey Mouse
+    - '21'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Soldier Crab
+    - '21'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Mousekin Mickey
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Golden Crab
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Rainbow Bush
+    - (26,174)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (246,19)
+    - Lumber level 21
+    - ''
+  - - Crystal Alga
+    - (53,74)
+    - Fishing level 21
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Golden Crab
+    - Iron Shoes
+    - 1.9527%
+    - '1'
+  - - Golden Crab
+    - Linen Gloves
+    - 1.9527%
+    - '1'
+  - - Golden Crab
+    - Heavy Leather Shoes
+    - 0.3550%
+    - '1'
+  - - Golden Crab
+    - Protector's Gloves
+    - 0.3550%
+    - '1'
+  - - Golden Crab
+    - Turtle Shell Bag
+    - 1.9527%
+    - '1'
+  - - Golden Crab
+    - Ring of Envoy
+    - 1.9527%
+    - '1'
+  - - Golden Crab
+    - Iron Wristlet
+    - 16.0000%
+    - '1'
+  - - Golden Crab
+    - Flawed Emerald
+    - 0.1200%
+    - '1'
+  - - Golden Crab
+    - Flawed Sapphire
+    - 0.1200%
+    - '1'
+  - - Golden Crab
+    - Slicing Hit V
+    - 1.3018%
+    - '1'
+  - - Golden Crab
+    - Basic Beating V
+    - 1.3018%
+    - '1'
+  - - Golden Crab
+    - 'Assassin Skill: Stab V'
+    - 1.3018%
+    - '1'
+  - - Golden Crab
+    - Fruit of Mars
+    - 24.1169%
+    - '1'
+  - - Golden Crab
+    - Agility Potion
+    - 24.1169%
+    - '1'
+  - - Golden Crab
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Grey Mouse
+    - Iron Shoes
+    - 0.1420%
+    - '1'
+  - - Grey Mouse
+    - Thick-soled Shoes
+    - 0.1420%
+    - '1'
+  - - Grey Mouse
+    - Cotton Shoes
+    - 0.1420%
+    - '1'
+  - - Grey Mouse
+    - Heavy Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Grey Mouse
+    - Light Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Grey Mouse
+    - Protector's Magic Shoes
+    - 0.0023%
+    - '1'
+  - - Grey Mouse
+    - Flawed Emerald
+    - 0.0008%
+    - '1'
+  - - Grey Mouse
+    - Flawed Sapphire
+    - 0.0008%
+    - '1'
+  - - Grey Mouse
+    - Flawed Purple Gem
+    - 0.0008%
+    - '1'
+  - - Grey Mouse
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Harp Sheep
+    - Rabbi's Cap
+    - 0.5211%
+    - '1'
+  - - Harp Sheep
+    - Protector's Cap
+    - 0.0086%
+    - '1'
+  - - Harp Sheep
+    - Flawed Ruby
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Defective Orange Gem
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Flawed Yellow Gem
+    - 0.0013%
+    - '1'
+  - - Harp Sheep
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Mousekin Mickey
+    - Thick-soled Shoes
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Cotton Shoes
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Light Leather Shoes
+    - 0.3550%
+    - '1'
+  - - Mousekin Mickey
+    - Protector's Magic Shoes
+    - 0.3550%
+    - '1'
+  - - Mousekin Mickey
+    - Turtle Shell Bag
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Ring of Envoy
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Flawed Ruby
+    - 0.1200%
+    - '1'
+  - - Mousekin Mickey
+    - Flawed Yellow Gem
+    - 0.1200%
+    - '1'
+  - - Mousekin Mickey
+    - Cure Spell 5
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Summon Skeleton V
+    - 1.9527%
+    - '1'
+  - - Mousekin Mickey
+    - Fruit of Hercules
+    - 24.1169%
+    - '1'
+  - - Mousekin Mickey
+    - Target Potion
+    - 24.1169%
+    - '1'
+  - - Mousekin Mickey
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Riprap Pirate
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - Riprap Pirate
+    - Shade
+    - 0.2605%
+    - '1'
+  - - Riprap Pirate
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Riprap Pirate
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - Riprap Pirate
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Soldier Crab
+    - Iron Wristlet
+    - 0.1420%
+    - '1'
+  - - Soldier Crab
+    - Long Gloves
+    - 0.1420%
+    - '1'
+  - - Soldier Crab
+    - Linen Gloves
+    - 0.1420%
+    - '1'
+  - - Soldier Crab
+    - Heavy Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Soldier Crab
+    - Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Soldier Crab
+    - Protector's Gloves
+    - 0.0023%
+    - '1'
+  - - Soldier Crab
+    - Flawed Ruby
+    - 0.0008%
+    - '1'
+  - - Soldier Crab
+    - Defective Orange Gem
+    - 0.0008%
+    - '1'
+  - - Soldier Crab
+    - Flawed Yellow Gem
+    - 0.0008%
+    - '1'
+  - - Soldier Crab
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Turtle
+    - Hook
+    - 0.6357%
+    - '1'
+  - - Turtle
+    - Catapult
+    - 0.6357%
+    - '1'
+  - - Turtle
+    - Staff
+    - 0.6357%
+    - '1'
+  - - Turtle
+    - Slingshot
+    - 0.1059%
+    - '1'
+  - - Turtle
+    - Curse Hook
+    - 0.0105%
+    - '1'
+  - - Turtle
+    - Raid Slingshot
+    - 0.0105%
+    - '1'
+  - - Turtle
+    - Holy Wood Staff
+    - 0.0105%
+    - '1'
+  - - Turtle
+    - Emerald Piece
+    - 0.0318%
+    - '1'
+  - - Turtle
+    - Sapphire Piece
+    - 0.0318%
+    - '1'
+  - - Turtle
+    - Purple Gem Piece
+    - 0.0318%
+    - '1'
+  - - Turtle
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Vice Head Pirate
+    - Iron Wristlet
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Long Gloves
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Heavy Bone Wristlet
+    - 0.3550%
+    - '1'
+  - - Vice Head Pirate
+    - Bone Wristlet
+    - 0.3550%
+    - '1'
+  - - Vice Head Pirate
+    - Turtle Shell Bag
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Ring of Envoy
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Defective Orange Gem
+    - 0.1200%
+    - '1'
+  - - Vice Head Pirate
+    - Flawed Purple Gem
+    - 0.1200%
+    - '1'
+  - - Vice Head Pirate
+    - Cure Spell 5
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Summon Skeleton V
+    - 1.9527%
+    - '1'
+  - - Vice Head Pirate
+    - Fruit of Hercules
+    - 24.1169%
+    - '1'
+  - - Vice Head Pirate
+    - Target Potion
+    - 24.1169%
+    - '1'
+  - - Vice Head Pirate
+    - Map Piece
+    - 7.1000%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Dawn Harbor'
+- section: Dawn Harbor
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Spike Farm , Riprap Coast , Port Cherube
+- section: Description
+  text_raw: Dawn Harbor is the heartland of the fishing industry in Aurora. Stroll along the boardwalk and sample the Chef’s fine cuisine. Enjoy a refreshing drink from the Barkeeper
+    and maybe you can help out the Fishing Leader with his Pirate problems. Those scallywags are everywhere these days. As you enjoy the salty air of the ocean and the busy harbor life,
+    be mindful of the level 18 to 26 creatures that run about. Especially those filthy mice!
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

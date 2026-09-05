@@ -1,0 +1,637 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: cryptic-moon-swamp
+  name_raw: Cryptic Moon Swamp
+source:
+  origin_url: https://angels.wikidot.com/area:cryptic-moon-swamp
+  retrieval_url: https://www.aowiki.uk/pages/area_cryptic-moon-swamp.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 9e41099b4dada998d56f327e015e0ecaeb3e7e170c299a99765d74896717c583
+quest_links:
+- slug: break-seal
+  name_raw: Break Seal
+  retrieval_url: https://www.aowiki.uk/pages/quest_break-seal.html
+  origin_url: https://angels.wikidot.com/quest:break-seal
+- slug: break-seal-part-2
+  name_raw: Break Seal Part 2
+  retrieval_url: https://www.aowiki.uk/pages/quest_break-seal-part-2.html
+  origin_url: https://angels.wikidot.com/quest:break-seal-part-2
+- slug: breeze-disguise
+  name_raw: Disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-disguise.html
+  origin_url: https://angels.wikidot.com/quest:breeze-disguise
+- slug: breeze-looking-for-spy-angel
+  name_raw: Looking for Spy Angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-looking-for-spy-angel.html
+  origin_url: https://angels.wikidot.com/quest:breeze-looking-for-spy-angel
+- slug: breeze-obtaining-asmodes-trust
+  name_raw: Obtaining Asmode's Trust
+  retrieval_url: https://www.aowiki.uk/pages/quest_breeze-obtaining-asmodes-trust.html
+  origin_url: https://angels.wikidot.com/quest:breeze-obtaining-asmodes-trust
+- slug: confirm-safety-around-alter
+  name_raw: Confirm Safety around Alter
+  retrieval_url: https://www.aowiki.uk/pages/quest_confirm-safety-around-alter.html
+  origin_url: https://angels.wikidot.com/quest:confirm-safety-around-alter
+- slug: fisher-stone-s-distress
+  name_raw: Fisher Stone's Distress
+  retrieval_url: https://www.aowiki.uk/pages/quest_fisher-stone-s-distress.html
+  origin_url: https://angels.wikidot.com/quest:fisher-stone-s-distress
+- slug: inundant-mud-crab
+  name_raw: Inundant Mud Crab
+  retrieval_url: https://www.aowiki.uk/pages/quest_inundant-mud-crab.html
+  origin_url: https://angels.wikidot.com/quest:inundant-mud-crab
+- slug: inundant-toad-eggs
+  name_raw: Inundant Toad Eggs
+  retrieval_url: https://www.aowiki.uk/pages/quest_inundant-toad-eggs.html
+  origin_url: https://angels.wikidot.com/quest:inundant-toad-eggs
+- slug: killing-marsh-frogs
+  name_raw: Killing Marsh Frogs
+  retrieval_url: https://www.aowiki.uk/pages/quest_killing-marsh-frogs.html
+  origin_url: https://angels.wikidot.com/quest:killing-marsh-frogs
+- slug: naughty-elf
+  name_raw: Naughty Elf
+  retrieval_url: https://www.aowiki.uk/pages/quest_naughty-elf.html
+  origin_url: https://angels.wikidot.com/quest:naughty-elf
+- slug: ritual-pollen
+  name_raw: Ritual Pollen
+  retrieval_url: https://www.aowiki.uk/pages/quest_ritual-pollen.html
+  origin_url: https://angels.wikidot.com/quest:ritual-pollen
+- slug: sage-s-staff
+  name_raw: Sage's Staff
+  retrieval_url: https://www.aowiki.uk/pages/quest_sage-s-staff.html
+  origin_url: https://angels.wikidot.com/quest:sage-s-staff
+- slug: totem-destroyer
+  name_raw: Totem Destroyer
+  retrieval_url: https://www.aowiki.uk/pages/quest_totem-destroyer.html
+  origin_url: https://angels.wikidot.com/quest:totem-destroyer
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Adv. Plan Seller
+    - (220,26)
+    - Sells recipes for producers' skill lvl 21-25
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Assistant Breeze
+    - (64,144)
+    - Tells about the giants and beliefs of Breeze, gives quest Confirm Safety around Alter
+  - - North Elder
+    - (216,146)
+    - Part of the quest, Confirm Safety around Alter
+  - - East Altar Elder
+    - (229,29)
+    - Part of the quest, Confirm Safety around Alter
+  - - Militia Soldier
+    - (41,149)
+    - 'Is here to clean up the swamp for rituals, gives the quests: Naughty Elf , Inundant Toad Eggs and Inundant Mud Crab'
+  - - Fisher Stone
+    - (185,48)
+    - Gives the quest Fisher Stone's Distress
+  - - Shiwand
+    - (202,141)
+    - 'Gives serial quests: Ritual Pollen , Sage''s Staff and Break Seal'
+  - - ''
+  - - Spy Angel
+    - (22,155)
+    - 'Gives Asmode series quests: Killing Marsh Frogs , Disguise , and Obtaining Asmode''s Trust'
+  - - ''
+  - - Cupid
+    - (57,154)
+    - Make this your revival place.
+  - - Beast Totem
+    - (209,143)
+    - Revives same faction member
+  - - ''
+  - - Badge Fan
+    - (225,8)
+    - Exchanges 1 silver badge
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Confirm Safety around Alter
+    - 'No'
+    - Beast Faction;
+    - Gold+600, Exp+400, Credit+45
+    - Bring a list of materials and confirm the schedule with the North Elder (216, 146) and East Elder(229, 29)
+  - - Naughty Elf
+    - 'Yes'
+    - Beast Faction; Character lvl 15-30
+    - Exp+450, Credit+25
+    - Defeat 20 Elves for the Militia Soldier
+  - - Inundant Toad Eggs
+    - 'Yes'
+    - Beast Faction; Character lvl 15-30
+    - Exp+530, Credit+25
+    - Defeat 20 Marsh Frogs for the Militia Soldier
+  - - Inundant Mud Crab
+    - 'Yes'
+    - Beast Faction; Character lvl 15-30
+    - Exp+530, Credit+25
+    - Defeat 20 Mud Crabs for the Militia Soldier
+  - - Totem Destroyer
+    - 'No'
+    - Beast Faction; Character lvl 15+
+    - Exp+1400, Credit+50
+    - Defeat 10 Mud Crabs and 10 Marsh Frogs to clean up the totem (179, 6)
+  - - Fisher Stone's Distress
+    - 'No'
+    - Beast Faction; Character lvl 15+
+    - Exp+1400, Credit+55
+    - Defeat 20 Mud Crabs to help him win a fishing contest
+  - - ''
+  - - Ritual Pollen 1 of 4
+    - 'No'
+    - Beast Faction; Character lvl 15+
+    - Exp+800, Credit+40
+    - Defeat Wild Lilies in Dense Forest until you have Collected 10 Pollen
+  - - Sage's Staff 2 of 4
+    - 'No'
+    - Beast Faction; Completed quest Ritual Pollen
+    - Gold+800, Exp+400, Credit+35
+    - Ask Sharker (93,99), the Breeze Wood leader for the Sage's staff and bring it to Shiwand
+  - - Break Seal 3 of 4
+    - 'No'
+    - Beast Faction; Completed quest Sage's Staff
+    - To take Part 2 of Break Seal
+    - Take a letter from Shiwand to the new leader Sharker asking him not to use the power of the ancestors
+  - - Break Seal Part 2 4 of 4
+    - 'No'
+    - Beast Faction; Completed quest Sage's Staff
+    - Exp+1500, Credit+350, Item
+    - Defeat Elves , Mud Crabs and Marsh Frogs to collect Essence of Wind, Essence of Water and Essence of Sand for the spell preparations
+  - - ''
+  - - Killing Marsh Frogs Asmode 3 of 8
+    - 'No'
+    - Beast Faction; Completed quest Looking for Spy Angel
+    - Exp+1500, Credit+60, Item
+    - Defeat 50 Marsh Frogs to prove your ability to the Spy Angel
+  - - Disguise Asmode 4 of 8
+    - 'No'
+    - Beast Faction; Completed quest Killing Marsh Frogs Frogs
+    - Gold+500, Exp+2000, Credit+80
+    - Go to Jade Vale and defeat Magic Eye Members until you obtain the Robber Badge. Return with it to the Spy Angel.
+  - - Obtaining Asmode's Trust Asmode 5 of 8
+    - 'No'
+    - Beast Faction; Completed quest Disguise
+    - Exp+400, Credit+35
+    - Return to Jade vale and speak with Asmode .
+- table_index: 4
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Elf
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - Marsh Frog
+    - '21'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Mud Crab
+    - '21'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Frog Lord Kuppa
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Crystal Crab
+    - '26'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Iron
+    - (47,63)
+    - Dig level 21
+    - ''
+  - - Old Beast Den
+    - (176,102)
+    - Collect level 21
+    - ''
+  - - Rainbow Bush
+    - (103,108)
+    - Collect level 21
+    - ''
+  - - Walnut
+    - (137,35)
+    - Lumber level 21
+    - ''
+  - - Crystal Alga
+    - (192,50)
+    - Fishing level 21
+    - ''
+- table_index: 6
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crystal Crab
+    - Iron Wristlet
+    - 1.5621%
+    - '1'
+  - - Crystal Crab
+    - Long Gloves
+    - 1.5621%
+    - '1'
+  - - Crystal Crab
+    - Linen Gloves
+    - 1.5621%
+    - '1'
+  - - Crystal Crab
+    - Heavy Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Crystal Crab
+    - Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Crystal Crab
+    - Protector's Gloves
+    - 0.2366%
+    - '1'
+  - - Crystal Crab
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Crystal Crab
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Crystal Crab
+    - Flawed Ruby
+    - 0.0800%
+    - '1'
+  - - Crystal Crab
+    - Defective Orange Gem
+    - 0.0800%
+    - '1'
+  - - Crystal Crab
+    - Flawed Yellow Gem
+    - 0.0800%
+    - '1'
+  - - Crystal Crab
+    - Slicing Hit V
+    - 1.0415%
+    - '1'
+  - - Crystal Crab
+    - Basic Beating V
+    - 1.0415%
+    - '1'
+  - - Crystal Crab
+    - 'Assassin Skill: Stab V'
+    - 1.0415%
+    - '1'
+  - - Crystal Crab
+    - Fruit of Mars
+    - 18.0077%
+    - '1'
+  - - Crystal Crab
+    - Agility Potion
+    - 18.0077%
+    - '1'
+  - - Crystal Crab
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Elf
+    - Hook
+    - 0.6357%
+    - '1'
+  - - Elf
+    - Catapult
+    - 0.6357%
+    - '1'
+  - - Elf
+    - Staff
+    - 0.6357%
+    - '1'
+  - - Elf
+    - Slingshot
+    - 0.1059%
+    - '1'
+  - - Elf
+    - Curse Hook
+    - 0.0105%
+    - '1'
+  - - Elf
+    - Raid Slingshot
+    - 0.0105%
+    - '1'
+  - - Elf
+    - Holy Wood Staff
+    - 0.0105%
+    - '1'
+  - - Elf
+    - Emerald Piece
+    - 0.0318%
+    - '1'
+  - - Elf
+    - Sapphire Piece
+    - 0.0318%
+    - '1'
+  - - Elf
+    - Purple Gem Piece
+    - 0.0318%
+    - '1'
+  - - Elf
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Frog Lord Kuppa
+    - Iron Shoes
+    - 1.5621%
+    - '1'
+  - - Frog Lord Kuppa
+    - Thick-soled Shoes
+    - 1.5621%
+    - '1'
+  - - Frog Lord Kuppa
+    - Cotton Shoes
+    - 1.5621%
+    - '1'
+  - - Frog Lord Kuppa
+    - Heavy Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Frog Lord Kuppa
+    - Light Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Frog Lord Kuppa
+    - Protector's Magic Shoes
+    - 0.2366%
+    - '1'
+  - - Frog Lord Kuppa
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Frog Lord Kuppa
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Frog Lord Kuppa
+    - Flawed Emerald
+    - 0.0800%
+    - '1'
+  - - Frog Lord Kuppa
+    - Flawed Sapphire
+    - 0.0800%
+    - '1'
+  - - Frog Lord Kuppa
+    - Flawed Purple Gem
+    - 0.0800%
+    - '1'
+  - - Frog Lord Kuppa
+    - Cure Spell 5
+    - 1.5622%
+    - '1'
+  - - Frog Lord Kuppa
+    - Summon Skeleton V
+    - 1.5622%
+    - '1'
+  - - Frog Lord Kuppa
+    - Fruit of Hercules
+    - 18.0077%
+    - '1'
+  - - Frog Lord Kuppa
+    - Target Potion
+    - 18.0077%
+    - '1'
+  - - Frog Lord Kuppa
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Magic Eye Member
+    - Thick Armor
+    - 0.3141%
+    - '1'
+  - - Magic Eye Member
+    - Leather Vest
+    - 0.3141%
+    - '1'
+  - - Magic Eye Member
+    - Heavy Leather Armor
+    - 0.0052%
+    - '1'
+  - - Magic Eye Member
+    - Light Leather Armor
+    - 0.0052%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Magic Eye Member
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Magic Eye Member
+    - Magic Eye Member card
+    - 0.0800%
+    - '1'
+  - - Marsh Frog
+    - Iron Shoes
+    - 0.1420%
+    - '1'
+  - - Marsh Frog
+    - Thick-soled Shoes
+    - 0.1420%
+    - '1'
+  - - Marsh Frog
+    - Cotton Shoes
+    - 0.1420%
+    - '1'
+  - - Marsh Frog
+    - Heavy Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Marsh Frog
+    - Light Leather Shoes
+    - 0.0023%
+    - '1'
+  - - Marsh Frog
+    - Protector's Magic Shoes
+    - 0.0023%
+    - '1'
+  - - Marsh Frog
+    - Flawed Ruby
+    - 0.0008%
+    - '1'
+  - - Marsh Frog
+    - Defective Orange Gem
+    - 0.0008%
+    - '1'
+  - - Marsh Frog
+    - Flawed Yellow Gem
+    - 0.0008%
+    - '1'
+  - - Marsh Frog
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Mud Crab
+    - Iron Wristlet
+    - 0.1420%
+    - '1'
+  - - Mud Crab
+    - Long Gloves
+    - 0.1420%
+    - '1'
+  - - Mud Crab
+    - Linen Gloves
+    - 0.1420%
+    - '1'
+  - - Mud Crab
+    - Heavy Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Mud Crab
+    - Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Mud Crab
+    - Protector's Gloves
+    - 0.0023%
+    - '1'
+  - - Mud Crab
+    - Flawed Emerald
+    - 0.0008%
+    - '1'
+  - - Mud Crab
+    - Flawed Sapphire
+    - 0.0008%
+    - '1'
+  - - Mud Crab
+    - Flawed Purple Gem
+    - 0.0008%
+    - '1'
+  - - Mud Crab
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Wild Lily
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Wild Lily
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Wild Lily
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Wild Lily
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Wild Lily
+    - Wild Lily card
+    - 0.0800%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Cryptic Moon Swamp'
+- section: Cryptic Moon Swamp
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Dense Forest , River Valley
+- section: Description
+  text_raw: The dank and dark Cryptic Moon Swamp is filled with secrets whispering through the reeds. Watch your step on the rickety boards over the bog as well as the elves that like
+    to push people in. If you fall into the swamp you will sink into the lush weeds and never be seen again. Perhaps the ghost of your voice will join the chorus of the marsh frogs.
+    The spirits of the ancestors keep vigil from these old trees amid the level 18 to 26 creatures. Do they know the secret of the Sage and the portal to the Faded Jungle?
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

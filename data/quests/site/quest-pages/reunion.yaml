@@ -1,0 +1,76 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: reunion
+name_raw: Reunion
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- mysterious-garden
+source:
+  origin_url: https://angels.wikidot.com/quest:reunion
+  retrieval_url: https://www.aowiki.uk/pages/quest_reunion.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b7001691dacb4264a01b7816ccdf069185ededcafdfce60ea944431457ebdb38
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Mistress Marlin
+    - Beast Faction; Completed quest Marlin‘s Bone
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Marlin‘s Bone
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Mistress Marlin asks you to take her bones to bury them next to Gaze. Go to the grave (61, 131) and place her bones there. Gaze will appear and you must defeat the Rage Elf boss.
+      Once it is done, return to the house and open the trunk (188, 117) for your reward.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 'Exp +2300, Credit +550 Choose one of: Warrior Cuff , Shooter Gloves or Jade Gloves'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Reunion'
+- section: Reunion
+  text_raw: Home » Areas » Mysterious Garden » Reunion
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: ceremony-of-praying-for-rain
+name_raw: Ceremony Of Praying For Rain
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- dense-forest
+source:
+  origin_url: https://angels.wikidot.com/quest:ceremony-of-praying-for-rain
+  retrieval_url: https://www.aowiki.uk/pages/quest_ceremony-of-praying-for-rain.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: c181fd7186537667701bd9fed0d328ba25403d2bcb9afc86bdf3010cd9ec0597
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Jungle Priest
+    - Beast Faction; Character Lvl 6 to 20
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Jungle priest needs you to help get materials to preform a ceremony, defeat Wild Lillies and collect 10 Icy Petals from them.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 310 Experience, 10 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Ceremony Of Praying For Rain'
+- section: Ceremony Of Praying For Rain
+  text_raw: Home » Areas » Dense Forest » Ceremony of Praying for Rain
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Jungle Priest, he will randomly assign you a quest. Step 2 Kill Wild Lillies until you have obtained 10 Icy Petals. Step 3 Take them to the Jungle Priest.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

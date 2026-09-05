@@ -1,0 +1,343 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dungeon
+area:
+  id: hell-palace
+  name_raw: Hell Palace
+source:
+  origin_url: https://angels.wikidot.com/area:hell-palace
+  retrieval_url: https://www.aowiki.uk/pages/area_hell-palace.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 0577f9a47ef3b41f9125ccc743a55bc4588ac8bb9ba8884bc1dba7be677451cc
+quest_links:
+- slug: diary-collection
+  name_raw: Diary Collection
+  retrieval_url: https://www.aowiki.uk/pages/quest_diary-collection.html
+  origin_url: https://angels.wikidot.com/quest:diary-collection
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Bone Remains
+    - (? - ?)
+    - Quest Giver Diary Collection .
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Requirements
+    - Reward
+  - - Diary Collection
+    - to get this quest need be Dead or Mode Angel
+    - '?'
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+  - - Poison Flower
+    - '75'
+    - 'No'
+  - - Fire Ghost Kid
+    - '75'
+    - 'No'
+  - - Terra Miner
+    - '78'
+    - 'No'
+  - - Rotten Slarm
+    - '78'
+    - 'No'
+  - - Gluttonous Angel
+    - '80'
+    - 'No'
+  - - Riddle Bishop
+    - '80'
+    - 'No'
+  - - Declined Angel
+    - '83'
+    - 'No'
+  - - Sealed Elf Lord
+    - '80'
+    - 'Yes'
+  - - Injuried Angel
+    - '83'
+    - 'Yes'
+  - - Horn Dragon
+    - '85'
+    - 'Yes'
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Declined Angel
+    - Mage Gown
+    - 0.0171%
+    - '1'
+  - - Declined Angel
+    - Spring Gown
+    - 0.0001%
+    - '1'
+  - - Declined Angel
+    - Kaz Cayman Robot
+    - 0.0000%
+    - '1'
+  - - Fire Ghost Kid
+    - Fire Scale Boots
+    - 0.0127%
+    - '1'
+  - - Fire Ghost Kid
+    - Embrace Boots
+    - 0.0001%
+    - '1'
+  - - Fire Ghost Kid
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Fire Ghost Kid
+    - Ghost Kid Card
+    - 0.0208%
+    - '1'
+  - - Gluttonous Angel
+    - Hunter Armor
+    - 0.0001%
+    - '1'
+  - - Gluttonous Angel
+    - Light Necklace
+    - 0.0001%
+    - '1'
+  - - Gluttonous Angel
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Gluttonous Angel
+    - Gluttonous Angel Card
+    - 0.0208%
+    - '1'
+  - - Horn Dragon
+    - Hunter Cuffs
+    - 0.9300%
+    - '1'
+  - - Horn Dragon
+    - Light Necklace
+    - 0.9300%
+    - '1'
+  - - Horn Dragon
+    - Forest Cuffs
+    - 0.0039%
+    - '1'
+  - - Horn Dragon
+    - Heaven Light
+    - 0.0039%
+    - '1'
+  - - Horn Dragon
+    - Rushing V
+    - 0.0077%
+    - '1'
+  - - Horn Dragon
+    - Pestle
+    - 0.6639%
+    - '1'
+  - - Horn Dragon
+    - Great Magic Fruit
+    - 48.1975%
+    - '1'
+  - - Horn Dragon
+    - Great Agility Potion
+    - 47.6394%
+    - '1'
+  - - Horn Dragon
+    - Horn Dragon Card
+    - 0.9260%
+    - '1'
+  - - Injuried Angel
+    - Fire Scale Cuffs
+    - 1.7100%
+    - '1'
+  - - Injuried Angel
+    - Embrace Cuffs
+    - 0.0071%
+    - '1'
+  - - Injuried Angel
+    - Bloody Storm V
+    - 0.0036%
+    - '1'
+  - - Injuried Angel
+    - Wolf Shift V
+    - 0.0036%
+    - '1'
+  - - Injuried Angel
+    - Scarab
+    - 0.0036%
+    - '1'
+  - - Injuried Angel
+    - Hunter Boots
+    - 0.0429%
+    - '1'
+  - - Injuried Angel
+    - Clean Sapphire
+    - 0.0214%
+    - '1'
+  - - Injuried Angel
+    - Pestle
+    - 0.6119%
+    - '1'
+  - - Injuried Angel
+    - Great Magic Potion
+    - 48.0392%
+    - '1'
+  - - Injuried Angel
+    - Great Mars' Fruit
+    - 47.5249%
+    - '1'
+  - - Injuried Angel
+    - Blood Winged Angel Card
+    - 1.3889%
+    - '1'
+  - - Poison Flower
+    - Mage Boots
+    - 0.0127%
+    - '1'
+  - - Poison Flower
+    - Spring Boots
+    - 0.0001%
+    - '1'
+  - - Poison Flower
+    - Map Piece
+    - 0.0053%
+    - '1'
+  - - Riddle Bishop
+    - Mage Cuffs
+    - 0.0152%
+    - '1'
+  - - Riddle Bishop
+    - Spring Cuffs
+    - 0.0001%
+    - '1'
+  - - Riddle Bishop
+    - Clean Purple Gem
+    - 0.0002%
+    - '1'
+  - - Riddle Bishop
+    - Map Piece
+    - 0.0063%
+    - '1'
+  - - Rotten Slarm
+    - Fire Scale Cuffs
+    - 0.0141%
+    - '1'
+  - - Rotten Slarm
+    - Embrace Cuffs
+    - 0.0001%
+    - '1'
+  - - Rotten Slarm
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Sealed Elf Lord
+    - Hunter Boots
+    - 1.5200%
+    - '1'
+  - - Sealed Elf Lord
+    - Forest Boots
+    - 0.0063%
+    - '1'
+  - - Sealed Elf Lord
+    - Fireproof Trap V
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Dodge Step V
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Mue Duck Robot
+    - 0.0032%
+    - '1'
+  - - Sealed Elf Lord
+    - Hunter Cuffs
+    - 0.0379%
+    - '1'
+  - - Sealed Elf Lord
+    - Pestle
+    - 0.5413%
+    - '1'
+  - - Sealed Elf Lord
+    - Map Piece
+    - 0.0900%
+    - '1'
+  - - Sealed Elf Lord
+    - Great Magic Fruit
+    - 48.3855%
+    - '1'
+  - - Sealed Elf Lord
+    - Great Healing Potion
+    - 48.8406%
+    - '1'
+  - - Terra Miner
+    - Hunter Boots
+    - 0.0141%
+    - '1'
+  - - Terra Miner
+    - Forest Boots
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Map Piece
+    - 0.0059%
+    - '1'
+  - - Terra Miner
+    - Cutter's Axe
+    - 0.0001%
+    - '1'
+  - - Terra Miner
+    - Wind Wings
+    - 0.0001%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Hell Palace'
+- section: Hell Palace
+  text_raw: Information
+- section: 'Adjacent Areas:'
+  text_raw: Underground Square
+- section: Description
+  text_raw: Although the hall of Hell Palace is so rotted out it is literally falling apart in some places, you can still feel the aura of pain and death persisting. Under the main path
+    there is a locked door. The Angel Pickets tried every means to open it but failed. The magical power inside is so powerful that it even comes out of the door sometimes, so we know
+    the secrets hidden in this relic are still undisturbed.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

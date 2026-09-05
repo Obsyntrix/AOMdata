@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: lizardman-s-constant-attack
+name_raw: Lizardman S Constant Attack
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- cactus-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:lizardman-s-constant-attack
+  retrieval_url: https://www.aowiki.uk/pages/quest_lizardman-s-constant-attack.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 28e4b89f7dc4e5fce5bc8c0fd88f2a25f469dc9dd500abe87f9e3d19f3a778e8
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Chief
+    - Steel Faction; Character lvl 15 to 30
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Medium of Chemical Formula
+    - Plateau Monkey
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Lizardmen keep attacking the Pestle Soldiers and the Chief asks for help. Defeat 20 Spear Lizardmen .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 450 Experience, 25 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Lizardman S Constant Attack'
+- section: Lizardman S Constant Attack
+  text_raw: Home » Areas » Cactus Plain » Lizardman's Constant Attack
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Spear Lizardmen . Step 3 Report to the Chief.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

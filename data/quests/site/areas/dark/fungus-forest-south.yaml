@@ -1,0 +1,446 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: dark
+area:
+  id: fungus-forest-south
+  name_raw: Fungus Forest South
+source:
+  origin_url: https://angels.wikidot.com/area:fungus-forest-south
+  retrieval_url: https://www.aowiki.uk/pages/area_fungus-forest-south.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: a04d82fd5589d2ca93e03136e9e46748bd38a1ad8df51b32ba46a4f08a5657c5
+quest_links:
+- slug: crybaby-s-knack
+  name_raw: Crybaby‘s Knack
+  retrieval_url: https://www.aowiki.uk/pages/quest_crybaby-s-knack.html
+  origin_url: https://angels.wikidot.com/quest:crybaby-s-knack
+- slug: giving-a-bad-child-a-lesson
+  name_raw: Giving a Bad Child a Lesson
+  retrieval_url: https://www.aowiki.uk/pages/quest_giving-a-bad-child-a-lesson.html
+  origin_url: https://angels.wikidot.com/quest:giving-a-bad-child-a-lesson
+- slug: kinship-between-father-and-son
+  name_raw: Kinship Between Father and Son
+  retrieval_url: https://www.aowiki.uk/pages/quest_kinship-between-father-and-son.html
+  origin_url: https://angels.wikidot.com/quest:kinship-between-father-and-son
+- slug: mischievous-imp
+  name_raw: Mischievous Imp
+  retrieval_url: https://www.aowiki.uk/pages/quest_mischievous-imp.html
+  origin_url: https://angels.wikidot.com/quest:mischievous-imp
+- slug: misunderstanding
+  name_raw: Misunderstanding
+  retrieval_url: https://www.aowiki.uk/pages/quest_misunderstanding.html
+  origin_url: https://angels.wikidot.com/quest:misunderstanding
+- slug: paopao-s-dew
+  name_raw: Paopao's Dew
+  retrieval_url: https://www.aowiki.uk/pages/quest_paopao-s-dew.html
+  origin_url: https://angels.wikidot.com/quest:paopao-s-dew
+- slug: teacher-s-difficulty
+  name_raw: Teacher's Difficulty
+  retrieval_url: https://www.aowiki.uk/pages/quest_teacher-s-difficulty.html
+  origin_url: https://angels.wikidot.com/quest:teacher-s-difficulty
+- slug: trainer-s-curiosity
+  name_raw: Trainer‘s Curiosity
+  retrieval_url: https://www.aowiki.uk/pages/quest_trainer-s-curiosity.html
+  origin_url: https://angels.wikidot.com/quest:trainer-s-curiosity
+- slug: worry-of-insomnia
+  name_raw: Worry of Insomnia
+  retrieval_url: https://www.aowiki.uk/pages/quest_worry-of-insomnia.html
+  origin_url: https://angels.wikidot.com/quest:worry-of-insomnia
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Merchant Pierce
+    - (?,?)
+    - Gives quest Mischievous Imp .
+  - - Sleepless Nick
+    - (?,?)
+    - Gives quest Worry of Insomnia .
+  - - Miss Diana
+    - (?,?)
+    - Gives quests Teacher's Difficulty and Giving a Bad Child a Lesson .
+  - - Symbol Master
+    - (?,?)
+    - Gives quest Paopao's Dew .
+  - - Nazarite
+    - (?,?)
+    - 'Gives quest series: Trainer‘s Curiosity , Crybaby‘s Knack , Misunderstanding and Kinship Between Father and Son .'
+  - - ''
+  - - Dark City Totem
+    - (?,?)
+    - Shadow Faction revival place.
+  - - Cupid
+    - (?,?)
+    - Make this your revival place.
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Mischievous Imp
+    - 'No'
+    - Shadow Faction; Character Lvl 10+
+    - Exp+850, Credit+35
+    - Defeat 20 Imps .
+  - - Teacher's Difficulty
+    - 'Yes'
+    - Shadow Faction; Character lvl 10-25
+    - Exp+390, Credit+20
+    - Defeat 20 Imps .
+  - - Worry of Insomnia
+    - 'No'
+    - Shadow Faction; Character lvl 10+
+    - Exp+950, Credit+35
+    - Defeat 20 Crybabies .
+  - - Paopao's Dew
+    - 'Yes'
+    - Shadow Faction; Character lvl 10-25
+    - Exp+390, Credit+20
+    - Defeat Paopao and collect 10 drops of Dew.
+  - - ''
+  - - Giving a Bad Child a Lesson
+    - 'Yes'
+    - Shadow Faction; Character lvl 20+
+    - Card
+    - Defeat Imps and collect 1 Teaching Certificate (Imp Card).
+  - - ''
+  - - Trainer‘s Curiosity 1 of 4
+    - 'No'
+    - Shadow Faction; Character lvl 10+
+    - Exp+1000, Credit+50
+    - Defeat Crybabies until you have obtained Wrinkled Paper clue.
+  - - Crybaby‘s Knack 2 of 4
+    - 'No'
+    - Shadow Faction; Finished quest Trainer‘s Curiosity
+    - Exp+1000, Credit+50, Gold+600
+    - Defeat Crybabies until you have obtained three books of the Spirit Secret.
+  - - Misunderstanding 3 of 4
+    - 'No'
+    - Shadow Faction; Finished quest Crybaby‘s Knack
+    - Exp+1520, Credit+300, Item
+    - Defeat Rage Fire Elf summoned by the Nazarite.
+  - - Kinship Between Father and Son 4 of 4
+    - 'No'
+    - Shadow Faction; Finished quest Misunderstanding
+    - Exp+200, Credit+20
+    - Take a letter to the Nazarite‘s father (Chief Esmat) in Bottomless Pit .
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss?
+    - Aggressive?
+    - ''
+  - - Paopao
+    - '15'
+    - 'No'
+    - 'No'
+    - ''
+  - - Imp
+    - '15'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Crybaby
+    - '18'
+    - 'No'
+    - 'No'
+    - ''
+  - - ''
+  - - Dream Paopao
+    - '20'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Rage Fire Elf
+    - '23'
+    - 'Yes'
+    - 'Yes'
+    - Summoned
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Tin
+    - (?,?)
+    - Dig level 11
+    - ''
+  - - Monster Den
+    - (?,?)
+    - Collect level 11
+    - ''
+  - - Lavender
+    - (?,?)
+    - Collect level 11
+    - ''
+  - - Grapefruit
+    - (?,?)
+    - Lumber level 11
+    - ''
+  - - White Alga
+    - (?,?)
+    - Fishing level 11
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Crybaby
+    - Light Sword
+    - 0.6357%
+    - '1'
+  - - Crybaby
+    - Double-blade Axe
+    - 0.6357%
+    - '1'
+  - - Crybaby
+    - Wood Shield
+    - 0.6357%
+    - '1'
+  - - Crybaby
+    - Sword
+    - 0.1059%
+    - '1'
+  - - Crybaby
+    - Wooden Shield
+    - 0.1059%
+    - '1'
+  - - Crybaby
+    - Antique Rapier
+    - 0.0105%
+    - '1'
+  - - Crybaby
+    - Silver Double-bladed Axe
+    - 0.0105%
+    - '1'
+  - - Crybaby
+    - Silver Shield
+    - 0.0105%
+    - '1'
+  - - Crybaby
+    - Ruby Piece
+    - 0.0318%
+    - '1'
+  - - Crybaby
+    - Orange Gem Piece
+    - 0.0318%
+    - '1'
+  - - Crybaby
+    - Yellow Gem Piece
+    - 0.0318%
+    - '1'
+  - - Crybaby
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Dream Paopao
+    - Archer Hood
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Helmet
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Incantation Hood
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Heavy Armor
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Light Armor
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Incantation Gown
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Crystal Foreman Hat
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Pirate Flag
+    - 2.8570%
+    - '1'
+  - - Dream Paopao
+    - Savage Vest
+    - 0.8311%
+    - '1'
+  - - Dream Paopao
+    - Savage Armor
+    - 0.8311%
+    - '1'
+  - - Dream Paopao
+    - Angelos Gown
+    - 0.8311%
+    - '1'
+  - - Dream Paopao
+    - Emerald Piece
+    - 2.4900%
+    - '1'
+  - - Dream Paopao
+    - Sapphire Piece
+    - 2.4900%
+    - '1'
+  - - Dream Paopao
+    - Purple Gem Piece
+    - 2.4900%
+    - '1'
+  - - Dream Paopao
+    - Target Potion
+    - 12.4453%
+    - '1'
+  - - Dream Paopao
+    - Map Piece
+    - 20.7800%
+    - '1'
+  - - Dream Paopao
+    - Dreaming Paopao card
+    - 5.5556%
+    - '1'
+  - - Imp
+    - Incantation Gown
+    - 0.4986%
+    - '1'
+  - - Imp
+    - Heavy Armor
+    - 0.4986%
+    - '1'
+  - - Imp
+    - Light Armor
+    - 0.4986%
+    - '1'
+  - - Imp
+    - Savage Vest
+    - 0.0083%
+    - '1'
+  - - Imp
+    - Savage Armor
+    - 0.0083%
+    - '1'
+  - - Imp
+    - Angelos Gown
+    - 0.0083%
+    - '1'
+  - - Imp
+    - Emerald Piece
+    - 0.0249%
+    - '1'
+  - - Imp
+    - Sapphire Piece
+    - 0.0249%
+    - '1'
+  - - Imp
+    - Purple Gem Piece
+    - 0.0249%
+    - '1'
+  - - Imp
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Imp
+    - Imp card
+    - 0.0600%
+    - '1'
+  - - Paopao
+    - Archer Hood
+    - 0.4986%
+    - '1'
+  - - Paopao
+    - Helmet
+    - 0.4986%
+    - '1'
+  - - Paopao
+    - Incantation Hood
+    - 0.4986%
+    - '1'
+  - - Paopao
+    - Savage Hood
+    - 0.0083%
+    - '1'
+  - - Paopao
+    - Savage Iron Helmet
+    - 0.0083%
+    - '1'
+  - - Paopao
+    - Angelos Hood
+    - 0.0083%
+    - '1'
+  - - Paopao
+    - Ruby Piece
+    - 0.0249%
+    - '1'
+  - - Paopao
+    - Orange Gem Piece
+    - 0.0249%
+    - '1'
+  - - Paopao
+    - Yellow Gem Piece
+    - 0.0249%
+    - '1'
+  - - Paopao
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Paopao
+    - Paopao card
+    - 0.0600%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Fungus Forest South'
+- section: Fungus Forest South
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: Shadowy Path , Fungus Forest North , Foggy Forest
+- section: Description
+  text_raw: An underground forest of fungus? Welcome to Fungus Forest South. The caverns are filled with the haunted cries of the local ghosts levelling from 15 to 23. Watch out for
+    the annoying Imps who will mob at any chance they can get! Poor Miss Diana, trying to teach these mischievous creatures all on her own. There is a certain eerie calm around the Nazarite
+    to the south here, but his calm can’t subdue the stubborn learning of the mournful apparitions in the dark.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

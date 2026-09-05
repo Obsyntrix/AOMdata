@@ -1,0 +1,662 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: breeze
+area:
+  id: south-of-mirror-lake
+  name_raw: South Of Mirror Lake
+source:
+  origin_url: https://angels.wikidot.com/area:south-of-mirror-lake
+  retrieval_url: https://www.aowiki.uk/pages/area_south-of-mirror-lake.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: a42a9ee9589226075608bd98e3413238c7780fbc403b009ecd4702da2987e360
+quest_links:
+- slug: circus-tyrant
+  name_raw: Circus Tyrant
+  retrieval_url: https://www.aowiki.uk/pages/quest_circus-tyrant.html
+  origin_url: https://angels.wikidot.com/quest:circus-tyrant
+- slug: cursed-wood
+  name_raw: Cursed Wood
+  retrieval_url: https://www.aowiki.uk/pages/quest_cursed-wood.html
+  origin_url: https://angels.wikidot.com/quest:cursed-wood
+- slug: finding-an-axe
+  name_raw: Finding an Axe
+  retrieval_url: https://www.aowiki.uk/pages/quest_finding-an-axe.html
+  origin_url: https://angels.wikidot.com/quest:finding-an-axe
+- slug: rebuilding-material
+  name_raw: Rebuilding Material
+  retrieval_url: https://www.aowiki.uk/pages/quest_rebuilding-material.html
+  origin_url: https://angels.wikidot.com/quest:rebuilding-material
+- slug: reseize-captured-fish
+  name_raw: Reseize Captured Fish
+  retrieval_url: https://www.aowiki.uk/pages/quest_reseize-captured-fish.html
+  origin_url: https://angels.wikidot.com/quest:reseize-captured-fish
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Timberjacker
+    - (102,53)
+    - Give Quests Cursed Wood and Rebuilding Material
+  - - South Villager
+    - (172,64)
+    - Give Quests Circus Tyrant and Reseize Captured Fish
+  - - ''
+  - - Exploring Member
+    - (174,166)
+    - Can enter in Nightmare Cave
+  - - Terra Keeper
+    - (154,105)
+    - Can transport you to your league's terra, or city
+  - - Badge Master
+    - (182,120)
+    - Exchange 3 silver badges
+- table_index: 2
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Circus Tyrant
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+950, Credit+40
+    - Drive away 40 Circus Tyrants
+  - - Reseize Captured Fish
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+950, Credit+40
+    - Defeat Circus Tyrants to take back 5 Fresh Fish stock for the fishermen.
+  - - Cursed Wood
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+900, Credit+39
+    - Defeat 40 Lake Deathwoods
+  - - Rebuilding Material
+    - 'Yes'
+    - Character lvl 30-45
+    - Exp+900, Credit+39
+    - Defeat Lake Deathwoods to obtain 5 of the Top-Quality Lumber from them.
+  - - Finding an Axe
+    - 'Yes'
+    - '-'
+    - Timberjacker Card
+    - Go to Angel Lyceum to find Timberjackeraxe
+- table_index: 3
+  rows_raw:
+  - - Monster Name
+    - Level
+    - Boss
+    - Aggressive
+    - ''
+  - - Lake Slarm
+    - '35'
+    - 'No'
+    - 'No'
+    - ''
+  - - Lake DeathWood
+    - '38'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - Circus Tyrant
+    - '40'
+    - 'No'
+    - 'Yes'
+    - ''
+  - - ''
+  - - Circus Leader
+    - '45'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Gold Slarm
+    - '40'
+    - 'Yes'
+    - 'Yes'
+    - ''
+  - - Tree Elder
+    - '43'
+    - 'Yes'
+    - 'Yes'
+    - ''
+- table_index: 4
+  rows_raw:
+  - - Resource Name
+    - Location
+    - Required Skill
+    - ''
+  - - Beastkin Den
+    - (36,171)
+    - Collect level 41
+    - ''
+  - - Steel
+    - (9,49)
+    - Dig level 41
+    - ''
+  - - Bright Alga
+    - (157,75)
+    - Fishing level 41
+    - ''
+  - - Leafy Bush
+    - (287,19)
+    - Collect level 41
+    - ''
+- table_index: 5
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Circus Leader
+    - Earl Ring
+    - 1.6325%
+    - '1'
+  - - Circus Leader
+    - Earl Mantle
+    - 1.6325%
+    - '1'
+  - - Circus Leader
+    - Blood Ring
+    - 0.1955%
+    - '1'
+  - - Circus Leader
+    - Moonnight Mantle
+    - 0.1955%
+    - '1'
+  - - Circus Leader
+    - Bat Wings
+    - 0.8789%
+    - '1'
+  - - Circus Leader
+    - Ring of Devil
+    - 0.8789%
+    - '1'
+  - - Circus Leader
+    - Defective Orange Gem
+    - 0.5900%
+    - '1'
+  - - Circus Leader
+    - Flawed Purple Gem
+    - 0.5900%
+    - '1'
+  - - Circus Leader
+    - Soul Entangle V
+    - 0.8789%
+    - '1'
+  - - Circus Leader
+    - Hurt Transfer V
+    - 0.8789%
+    - '1'
+  - - Circus Leader
+    - Exhaustion Curse V
+    - 0.8789%
+    - '1'
+  - - Circus Leader
+    - Magic Fruit
+    - 19.8572%
+    - '1'
+  - - Circus Leader
+    - Fruit of the Devil
+    - 19.8572%
+    - '1'
+  - - Circus Leader
+    - Map Piece
+    - 4.5700%
+    - '1'
+  - - Circus Leader
+    - Pestle
+    - 0.1054%
+    - '1'
+  - - Circus Leader
+    - circus Leader card
+    - 5.5556%
+    - '1'
+  - - Circus Tyrant
+    - Earl Ring
+    - 0.0782%
+    - '1'
+  - - Circus Tyrant
+    - Earl Mantle
+    - 0.0782%
+    - '1'
+  - - Circus Tyrant
+    - Blood Ring
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Moonnight Mantle
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Circus Tyrant
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Circus Tyrant
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Circus Tyrant
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Circus Tyrant
+    - Map Piece
+    - 0.3900%
+    - '1'
+  - - Circus Tyrant
+    - Flawed Ruby
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Defective Orange Gem
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Flawed Yellow Gem
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Flawed Emerald
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Flawed Sapphire
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Flawed Purple Gem
+    - 0.0020%
+    - '1'
+  - - Circus Tyrant
+    - Pestle
+    - 0.0011%
+    - '1'
+  - - Circus Tyrant
+    - Circus Tyrant Card
+    - 0.0208%
+    - '1'
+  - - Gold Slarm
+    - Hard-leather Cap
+    - 0.9378%
+    - '1'
+  - - Gold Slarm
+    - Round Iron Helmet
+    - 0.9378%
+    - '1'
+  - - Gold Slarm
+    - Alchemic Cap
+    - 0.9378%
+    - '1'
+  - - Gold Slarm
+    - Icy Hard-Leather Cap
+    - 0.1015%
+    - '1'
+  - - Gold Slarm
+    - Beastman Viking Cap
+    - 0.1015%
+    - '1'
+  - - Gold Slarm
+    - Magic Alchemic Cap
+    - 0.1015%
+    - '1'
+  - - Gold Slarm
+    - Angel Wings
+    - 0.5471%
+    - '1'
+  - - Gold Slarm
+    - Ring of Goddess
+    - 0.5471%
+    - '1'
+  - - Gold Slarm
+    - Flawed Yellow Gem
+    - 0.4600%
+    - '1'
+  - - Gold Slarm
+    - Flawed Emerald
+    - 0.4600%
+    - '1'
+  - - Gold Slarm
+    - Magic Bomb V
+    - 0.5471%
+    - '1'
+  - - Gold Slarm
+    - Earth Blessing V
+    - 0.5471%
+    - '1'
+  - - Gold Slarm
+    - Fruit of Hercules
+    - 19.4998%
+    - '1'
+  - - Gold Slarm
+    - Target Potion
+    - 19.4998%
+    - '1'
+  - - Gold Slarm
+    - Map Piece
+    - 3.5500%
+    - '1'
+  - - Gold Slarm
+    - Pestle
+    - 0.0859%
+    - '1'
+  - - Lake Deathwood
+    - Heavy Armor
+    - 0.0709%
+    - '1'
+  - - Lake Deathwood
+    - Leather Armor
+    - 0.0709%
+    - '1'
+  - - Lake Deathwood
+    - Alchemic Gown
+    - 0.0709%
+    - '1'
+  - - Lake Deathwood
+    - Weighty Armor
+    - 0.0118%
+    - '1'
+  - - Lake Deathwood
+    - Thick Vest
+    - 0.0118%
+    - '1'
+  - - Lake Deathwood
+    - Beastman Leather Armor
+    - 0.0012%
+    - '1'
+  - - Lake Deathwood
+    - Ice Stone Armor
+    - 0.0012%
+    - '1'
+  - - Lake Deathwood
+    - Magic Alchemic Gown
+    - 0.0012%
+    - '1'
+  - - Lake Deathwood
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Lake Deathwood
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Lake Deathwood
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Lake Deathwood
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Lake Deathwood
+    - Map Piece
+    - 0.3500%
+    - '1'
+  - - Lake Deathwood
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Lake Deathwood
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Lake Deathwood
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Lake Deathwood
+    - Flawed Emerald
+    - 0.0018%
+    - '1'
+  - - Lake Deathwood
+    - Flawed Sapphire
+    - 0.0018%
+    - '1'
+  - - Lake Deathwood
+    - Flawed Purple Gem
+    - 0.0018%
+    - '1'
+  - - Lake Slarm
+    - Hard-leather Cap
+    - 0.0608%
+    - '1'
+  - - Lake Slarm
+    - Round Iron Helmet
+    - 0.0608%
+    - '1'
+  - - Lake Slarm
+    - Alchemic Cap
+    - 0.0608%
+    - '1'
+  - - Lake Slarm
+    - Icy Hard-Leather Cap
+    - 0.0010%
+    - '1'
+  - - Lake Slarm
+    - Beastman Viking Cap
+    - 0.0010%
+    - '1'
+  - - Lake Slarm
+    - Magic Alchemic Cap
+    - 0.0010%
+    - '1'
+  - - Lake Slarm
+    - Blue Stone
+    - 0.0500%
+    - '1'
+  - - Lake Slarm
+    - Red Stone
+    - 0.0500%
+    - '1'
+  - - Lake Slarm
+    - Green Stone
+    - 0.0500%
+    - '1'
+  - - Lake Slarm
+    - Yellow Stone
+    - 0.0500%
+    - '1'
+  - - Lake Slarm
+    - Map Piece
+    - 0.3000%
+    - '1'
+  - - Lake Slarm
+    - Flawed Emerald
+    - 0.0030%
+    - '1'
+  - - Lake Slarm
+    - Flawed Sapphire
+    - 0.0030%
+    - '1'
+  - - Lake Slarm
+    - Flawed Purple Gem
+    - 0.0030%
+    - '1'
+  - - Lake Slarm
+    - Lake Slarm card
+    - 0.0600%
+    - '1'
+  - - Tree Elder
+    - Weighty Armor
+    - 1.0925%
+    - '1'
+  - - Tree Elder
+    - Thick Vest
+    - 1.0925%
+    - '1'
+  - - Tree Elder
+    - Alchemic Gown
+    - 1.0925%
+    - '1'
+  - - Tree Elder
+    - Beastman Leather Armor
+    - 0.1182%
+    - '1'
+  - - Tree Elder
+    - Ice Stone Armor
+    - 0.1182%
+    - '1'
+  - - Tree Elder
+    - Magic Alchemic Gown
+    - 0.1182%
+    - '1'
+  - - Tree Elder
+    - Angel Wings
+    - 0.6373%
+    - '1'
+  - - Tree Elder
+    - Ring of Goddess
+    - 0.6373%
+    - '1'
+  - - Tree Elder
+    - Heavy Armor
+    - 17.0461%
+    - '1'
+  - - Tree Elder
+    - Leather Armor
+    - 17.0461%
+    - '1'
+  - - Tree Elder
+    - Flawed Ruby
+    - 0.5300%
+    - '1'
+  - - Tree Elder
+    - Flawed Sapphire
+    - 0.5300%
+    - '1'
+  - - Tree Elder
+    - Soul Entangle V
+    - 0.6373%
+    - '1'
+  - - Tree Elder
+    - Hurt Transfer V
+    - 0.6373%
+    - '1'
+  - - Tree Elder
+    - Agility Potion
+    - 18.6915%
+    - '1'
+  - - Tree Elder
+    - Magic Potion
+    - 18.6915%
+    - '1'
+  - - Tree Elder
+    - Map Piece
+    - 4.1400%
+    - '1'
+  - - Tree Elder
+    - Pestle
+    - 0.0971%
+    - '1'
+  - - Tree Elder
+    - Basic Shot V
+    - 0.1376%
+    - '1'
+  - - Tree Elder
+    - Splash Slingshot
+    - 0.0456%
+    - '1'
+  - - Tree Elder
+    - Eagle Wristlet
+    - 0.0460%
+    - '1'
+  - - Tree Elder
+    - Golden Full-face Helmet
+    - 0.0460%
+    - '1'
+  - - Tree Elder
+    - Cupid's Bow
+    - 0.1833%
+    - '1'
+  - - Tree Elder
+    - Code Gown
+    - 0.1834%
+    - '1'
+  - - Tree Elder
+    - Crystal Axe
+    - 0.1835%
+    - '1'
+  - - Tree Elder
+    - Crusader's Shield
+    - 0.1835%
+    - '1'
+  - - Tree Elder
+    - Flawed Purple Gem
+    - 0.1200%
+    - '1'
+  - - Tree Elder
+    - Spinning Slingshot
+    - 0.7337%
+    - '1'
+  - - Tree Elder
+    - Short Tight Gloves
+    - 0.7337%
+    - '1'
+  - - Tree Elder
+    - Full-face Helmet
+    - 0.7337%
+    - '1'
+  - - Tree Elder
+    - Round Iron Helmet
+    - 2.7514%
+    - '1'
+  - - Tree Elder
+    - Rare Target Potion
+    - 44.1287%
+    - '1'
+  - - Tree Elder
+    - Rare Agility Potion
+    - 44.1288%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › South Of Mirror Lake'
+- section: South Of Mirror Lake
+  text_raw: 'Information
+
+    Map'
+- section: 'Adjacent Areas:'
+  text_raw: North of Mirror Lake , Jade Vale , Sunflower Plain
+- section: Description
+  text_raw: South of Mirror Lake, once a fishing village, now rampant with crazy clowns. Make certain not to hide behind a tree or it might prove to be your last great idea. The creatures
+    here are level 35 to 45 and quite keen to be a problem. If you’re feeling more adventurous, go visit the nightmare cave in the north-west.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

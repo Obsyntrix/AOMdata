@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: protecting-boss-s-right
+name_raw: Protecting Boss S Right
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- dawn-harbor
+source:
+  origin_url: https://angels.wikidot.com/quest:protecting-boss-s-right
+  retrieval_url: https://www.aowiki.uk/pages/quest_protecting-boss-s-right.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 97e9f8df09e3f999001da17cd8f4a05ac5b9d800000dc142c59cfa28580fd611
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Barkeeper
+    - 'No'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Aurora
+    - 20+
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '1580'
+    - '70'
+    - '600'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Protecting Boss S Right'
+- section: Protecting Boss S Right
+  text_raw: Home » Areas » Dawn Harbor » Protecting Boss's Right
+- section: Summary
+  text_raw: The Riprap Pirates won't pay for their drink and food. The Barkeeper asks you to help him.
+- section: Walkthrough
+  text_raw: Step 1 Speak to the Barkeeper (204,125). Step 2 Go to Riprap Coast . Step 3 Defeat 20 Riprap Pirates . Step 4 Return to Dawn Harbor and report to the Barkeeper.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

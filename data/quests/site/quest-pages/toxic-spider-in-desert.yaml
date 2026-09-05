@@ -1,0 +1,77 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: toxic-spider-in-desert
+name_raw: Toxic Spider In Desert
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- burning-desert
+source:
+  origin_url: https://angels.wikidot.com/quest:toxic-spider-in-desert
+  retrieval_url: https://www.aowiki.uk/pages/quest_toxic-spider-in-desert.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: b3e16e4ca616221235456f2c5ac8e7572594faa2042b3806d27b8217ad146d23
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Chief
+    - Steel Faction; Character lvl 20 to 35
+    - 'Yes'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Spirit In War
+    - Collecting Serum
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - The Chief asks you to get rid of the spiders that harm the soldiers. Defeat 20 Toxic Spiders .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 600 Experience, 30 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Toxic Spider In Desert'
+- section: Toxic Spider In Desert
+  text_raw: Home » Areas » Burning Desert » Toxic Spider In Desert
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Defeat 20 Toxic Spiders . Step 3 Report to the Chief.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,1114 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: area
+region: steel
+area:
+  id: iron-castle
+  name_raw: Iron Castle
+source:
+  origin_url: https://angels.wikidot.com/area:iron-castle
+  retrieval_url: https://www.aowiki.uk/pages/area_iron-castle.html
+  source_kind: angels_wiki_area_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 64df48e075712af8e037cc37e80f42ba355ee4350c9dce9b2a8b1ca2c4180a08
+quest_links:
+- slug: agitated-spirit
+  name_raw: Agitated Spirit
+  retrieval_url: https://www.aowiki.uk/pages/quest_agitated-spirit.html
+  origin_url: https://angels.wikidot.com/quest:agitated-spirit
+- slug: blood-hammer
+  name_raw: Blood Hammer
+  retrieval_url: https://www.aowiki.uk/pages/quest_blood-hammer.html
+  origin_url: https://angels.wikidot.com/quest:blood-hammer
+- slug: caravan-s-safety-confirming
+  name_raw: Caravan‘s Safety Confirming
+  retrieval_url: https://www.aowiki.uk/pages/quest_caravan-s-safety-confirming.html
+  origin_url: https://angels.wikidot.com/quest:caravan-s-safety-confirming
+- slug: chaotic-immortality
+  name_raw: Chaotic Immortality
+  retrieval_url: https://www.aowiki.uk/pages/quest_chaotic-immortality.html
+  origin_url: https://angels.wikidot.com/quest:chaotic-immortality
+- slug: decayed-feather
+  name_raw: Decayed Feather
+  retrieval_url: https://www.aowiki.uk/pages/quest_decayed-feather.html
+  origin_url: https://angels.wikidot.com/quest:decayed-feather
+- slug: defeating-header-gaberna
+  name_raw: Defeating Header Gaberna
+  retrieval_url: https://www.aowiki.uk/pages/quest_defeating-header-gaberna.html
+  origin_url: https://angels.wikidot.com/quest:defeating-header-gaberna
+- slug: evil-oasis-crystal
+  name_raw: Evil Oasis Crystal
+  retrieval_url: https://www.aowiki.uk/pages/quest_evil-oasis-crystal.html
+  origin_url: https://angels.wikidot.com/quest:evil-oasis-crystal
+- slug: inexperience-3
+  name_raw: Inexperience 3
+  retrieval_url: https://www.aowiki.uk/pages/quest_inexperience-3.html
+  origin_url: https://angels.wikidot.com/quest:inexperience-3
+- slug: killing-elite
+  name_raw: Killing Elite
+  retrieval_url: https://www.aowiki.uk/pages/quest_killing-elite.html
+  origin_url: https://angels.wikidot.com/quest:killing-elite
+- slug: knowing-iron-castle
+  name_raw: Knowing Iron Castle
+  retrieval_url: https://www.aowiki.uk/pages/quest_knowing-iron-castle.html
+  origin_url: https://angels.wikidot.com/quest:knowing-iron-castle
+- slug: mummy-head
+  name_raw: Mummy Head
+  retrieval_url: https://www.aowiki.uk/pages/quest_mummy-head.html
+  origin_url: https://angels.wikidot.com/quest:mummy-head
+- slug: noise-cancellation
+  name_raw: Noise Cancellation
+  retrieval_url: https://www.aowiki.uk/pages/quest_noise-cancellation.html
+  origin_url: https://angels.wikidot.com/quest:noise-cancellation
+- slug: reaching-higher-level-2
+  name_raw: Reaching higher level 2
+  retrieval_url: https://www.aowiki.uk/pages/quest_reaching-higher-level-2.html
+  origin_url: https://angels.wikidot.com/quest:reaching-higher-level-2
+- slug: scrap-iron-village-s-nightmare
+  name_raw: Scrap Iron Village's Nightmare
+  retrieval_url: https://www.aowiki.uk/pages/quest_scrap-iron-village-s-nightmare.html
+  origin_url: https://angels.wikidot.com/quest:scrap-iron-village-s-nightmare
+- slug: shadow-in-cactus-plain
+  name_raw: Shadow in Cactus Plain
+  retrieval_url: https://www.aowiki.uk/pages/quest_shadow-in-cactus-plain.html
+  origin_url: https://angels.wikidot.com/quest:shadow-in-cactus-plain
+- slug: steel-inexperience-3
+  name_raw: Inexperience 3
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-inexperience-3.html
+  origin_url: https://angels.wikidot.com/quest:steel-inexperience-3
+- slug: steel-searching-for-spy-angel
+  name_raw: Searching for Spy Angel
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-searching-for-spy-angel.html
+  origin_url: https://angels.wikidot.com/quest:steel-searching-for-spy-angel
+- slug: suppress-a-disturbance
+  name_raw: Suppress a Disturbance
+  retrieval_url: https://www.aowiki.uk/pages/quest_suppress-a-disturbance.html
+  origin_url: https://angels.wikidot.com/quest:suppress-a-disturbance
+- slug: tyrant-of-cactus-plain
+  name_raw: Tyrant of Cactus Plain
+  retrieval_url: https://www.aowiki.uk/pages/quest_tyrant-of-cactus-plain.html
+  origin_url: https://angels.wikidot.com/quest:tyrant-of-cactus-plain
+- slug: unrest-in-the-desert
+  name_raw: Unrest in the Desert
+  retrieval_url: https://www.aowiki.uk/pages/quest_unrest-in-the-desert.html
+  origin_url: https://angels.wikidot.com/quest:unrest-in-the-desert
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description of goods
+  - - Life Mage
+    - (13,92)
+    - Low and medium level spell scrolls.
+  - - Chaos Mage
+    - (21,104)
+    - Low and medium level spell scrolls.
+  - - Earth Mage
+    - (12,104)
+    - Low and medium level spell scrolls.
+  - - Wraith Mage
+    - (2,97)
+    - Low and medium level spell scrolls.
+  - - Pet Expert
+    - (101,103)
+    - Pets eggs and supplies.
+  - - Borg Seller A
+    - (135,44)
+    - Low Level robots.
+  - - Borg Seller B
+    - (139,39)
+    - High level robots.
+  - - Ride Seller
+    - (190,117)
+    - Low level rides.
+  - - Ride Seller C
+    - (174,115)
+    - High level rides.
+  - - C. Plan Seller
+    - (224,139)
+    - Low level recipes (Technic).
+  - - W. Plan Seller
+    - (228,144)
+    - Low level recipes (Weapon).
+  - - A. Plan Seller
+    - (240,140)
+    - Low level recipes (Armor).
+  - - D. Plan Seller
+    - (285,110)
+    - Low level recipes (Sew).
+  - - F.Plan Seller
+    - (286,82)
+    - Low level recipes (Cook).
+  - - Material Seller
+    - (240,85)
+    - Sundries for producers.
+  - - Defense Bookman
+    - (255,99)
+    - High level defense techniques.
+  - - Bow Expert
+    - (161,95)
+    - Low level combat techniques (Bow).
+  - - Sword Expert
+    - (299,50)
+    - Low level combat techniques (Sword).
+  - - Axe Expert
+    - (303,38)
+    - Low level combat techniques (Axe).
+  - - Spear Expert
+    - (291,32)
+    - Low level combat techniques (Spear).
+  - - Bow Seller
+    - (151,98)
+    - Low level weapons (Bow).
+  - - Weaponsmith
+    - (324,46)
+    - Low level weapons (Sword).
+  - - Lightgear Seller
+    - (149,103)
+    - Low level Mantle equipment.
+  - - Heavygear Seller
+    - (310,54)
+    - Low level Garment and Shield equipment.
+  - - Mage Gear Seller
+    - (21,87)
+    - Low level Vestment equipment.
+- table_index: 2
+  rows_raw:
+  - - NPC Name
+    - Location
+    - Description
+  - - Cupid
+    - (73,150)
+    - Make this your revival place.
+  - - Technician
+    - (?,?)
+    - Repairs equipment.
+  - - Skill Angel
+    - (130,140)
+    - Change your skills. Under level 20 it's free.
+  - - Iron Castle Angel
+    - (63,161)
+    - 'Teleport you to Angel Lyceum. Gives quests: Knowing Iron Castle ; Reaching higher level 2 ; Searching for Spy Angel 3'
+  - - Bank Clerk
+    - (154,147) (154,142) (147,152) (140,150)
+    - Use your own warehouse or corporation's warehouse.
+  - - Heaven General
+    - (?,?)
+    - ??
+  - - Pioneer Ocadon
+    - (?,?)
+    - Gives Inexperience 3 quest.
+- table_index: 3
+  rows_raw:
+  - - Quest Name
+    - Repeat.
+    - Requirements
+    - Reward
+    - Short Description
+  - - Knowing Iron Castle
+    - 'No'
+    - Completed [Register at IronCastle Angel]
+    - Exp+100, Credit+5
+    - ''
+  - - Reaching higher level 2
+    - 'No'
+    - Completed Knowing Iron Castle
+    - Exp+100, Credit+5
+    - ''
+  - - ''
+  - - Inexperience 3 Asmode 1 of 8
+    - 'No'
+    - Steel Faction; lvl 20, Rank 2
+    - Exp+100, Credit+5
+    - Speak to IronCastle Angel when you have reached Level 20, Rank 2
+  - - Searching for Spy Angel Asmode 2 of 8
+    - 'No'
+    - Steel Faction; Completed quest Inexperience 3 .
+    - Exp+200, Credit+25
+    - Speak to the Spy Angel in Cactus Plain .
+  - - ''
+  - - Unrest in the Desert
+    - 'Yes'
+    - In Steel City Faction; Character lvl 10-14
+    - Gold+200, Exp+600, Credit+10
+    - The Chief Assistant asks you to defeat 30 Ocher Toad in Wishing Tear .
+  - - Caravan‘s Safety Confirming
+    - 'Yes'
+    - In Steel City Faction; Character lvl 10-14
+    - Gold+200, Exp+600, Credit+10
+    - The Chief Assistant asks you to defeat 30 Desert Lizard in Wishing Tear .
+  - - Evil Oasis Crystal
+    - 'Yes'
+    - In Steel City Faction; Character lvl 10-14
+    - Gold+800, Exp+1200, Credit+30
+    - The Chief Assistant asks you to defeat the Crystal Lizard boss in Wishing Tear .
+  - - Noise Cancellation
+    - 'Yes'
+    - In Steel City Faction; Character lvl 15-19
+    - Gold+250, Exp+700, Credit+15
+    - The Chief Assistant asks you to defeat 30 Buccinal Robots in Scrap Iron Village .
+  - - Suppress a Disturbance
+    - 'Yes'
+    - In Steel City Faction; Character lvl 15-19
+    - Gold+250, Exp+700, Credit+15
+    - The Chief Assistant asks you to defeat 30 Fat Robots in Scrap Iron Village .
+  - - Scrap Iron Village's Nightmare
+    - 'Yes'
+    - In Steel City Faction; Character lvl 15-19
+    - Gold+900, Exp+1400, Credit+45
+    - The Chief Assistant asks you to defeat the boss, Metal Robot in Scrap Iron Village .
+  - - Blood Hammer
+    - 'Yes'
+    - In Steel City Faction; Character lvl 20-24
+    - Gold+270, Exp+850, Credit+18
+    - The Chief Assistant asks you to defeat 30 Ball Lizardman in Cactus Plain .
+  - - Shadow in Cactus Plain
+    - 'Yes'
+    - In Steel City Faction; Character lvl 20-24
+    - Gold+1110, Exp+1700, Credit+55
+    - The Chief Assistant asks you to defeat the Farmongee boss, in Cactus Plain .
+  - - Tyrant of Cactus Plain
+    - 'Yes'
+    - In Steel City Faction; Character lvl 20-24
+    - Gold+1110, Exp+1700, Credit+55
+    - The Chief Assistant asks you to defeat the Lizard Lisad boss, in Cactus Plain .
+  - - Agitated Spirit
+    - 'Yes'
+    - In Steel City Faction; Character lvl 25-29
+    - Gold+310, Exp+950, Credit+35
+    - The Chief Assistant asks you to defeat 30 Mummy in Burning Desert .
+  - - Mummy Head
+    - 'Yes'
+    - In Steel City Faction; Character lvl 25-29
+    - Gold+310, Exp+950, Credit+35
+    - The Chief Assistant asks you to defeat 30 Mummy Leader in Burning Desert .
+  - - Chaotic Immortality
+    - 'Yes'
+    - In Steel City Faction; Character lvl 25-29
+    - Gold+1240, Exp+1900, Credit+65
+    - The Chief Assistant asks you to defeat the Undying Lord boss, in Burning Desert .
+  - - Killing Elite
+    - 'Yes'
+    - In Steel City Faction; Character lvl 30+
+    - Gold+350, Exp+1080, Credit+25
+    - The Chief Assistant asks you to defeat 30 Gebuer Cadre in Gebuer Vale .
+  - - Decayed Feather
+    - 'Yes'
+    - In Steel City Faction; Character lvl 30+
+    - Gold+350, Exp+1080, Credit+25
+    - The Chief Assistant asks you to defeat 30 Rotten Bird in Gebuer Vale .
+  - - Defeating Header Gaberna
+    - 'Yes'
+    - In Steel City Faction; Character lvl 30+
+    - Gold+1400, Exp+2160, Credit+75
+    - The Chief Assistant asks you to defeat the Header Gaberna boss, in Gebuer Vale .
+- table_index: 4
+  rows_raw:
+  - - Monster
+    - Item
+    - Drop Share
+    - Qty
+  - - Ball Lizardman
+    - Iron Wristlet
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Long Gloves
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Linen Gloves
+    - 0.1420%
+    - '1'
+  - - Ball Lizardman
+    - Heavy Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Bone Wristlet
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Protector's Gloves
+    - 0.0023%
+    - '1'
+  - - Ball Lizardman
+    - Flawed Ruby
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Defective Orange Gem
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Flawed Yellow Gem
+    - 0.0008%
+    - '1'
+  - - Ball Lizardman
+    - Map Piece
+    - 0.7100%
+    - '1'
+  - - Buccinal Robot
+    - Incantation Gown
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Heavy Armor
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Light Armor
+    - 0.4986%
+    - '1'
+  - - Buccinal Robot
+    - Savage Vest
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Savage Armor
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Angelos Gown
+    - 0.0083%
+    - '1'
+  - - Buccinal Robot
+    - Emerald Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Sapphire Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Purple Gem Piece
+    - 0.0249%
+    - '1'
+  - - Buccinal Robot
+    - Map Piece
+    - 2.4930%
+    - '1'
+  - - Buccinal Robot
+    - Buccinal Robot card
+    - 0.0800%
+    - '1'
+  - - Crystal Lizard
+    - Heavy Boots
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Legwrap Sandals
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Sandals
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Heavy Wristlet
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Light Gloves
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Jute Gloves
+    - 2.1725%
+    - '1'
+  - - Crystal Lizard
+    - Savage Hood
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Savage Iron Helmet
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Angelos Hood
+    - 0.6321%
+    - '1'
+  - - Crystal Lizard
+    - Crystal Foreman Hat
+    - 2.1727%
+    - '1'
+  - - Crystal Lizard
+    - Pirate Flag
+    - 2.1727%
+    - '1'
+  - - Crystal Lizard
+    - Ruby Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Orange Gem Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Yellow Gem Piece
+    - 1.9000%
+    - '1'
+  - - Crystal Lizard
+    - Fruit of Hercules
+    - 17.9997%
+    - '1'
+  - - Crystal Lizard
+    - Map Piece
+    - 15.8000%
+    - '1'
+  - - Desert Lizard
+    - Sandals
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Heavy Boots
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Legwrap Sandals
+    - 0.3792%
+    - '1'
+  - - Desert Lizard
+    - Savage Sandle
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Savage Boots
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Angelos Sandals
+    - 0.0063%
+    - '1'
+  - - Desert Lizard
+    - Ruby Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Orange Gem Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Yellow Gem Piece
+    - 0.0190%
+    - '1'
+  - - Desert Lizard
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Desert Lizard
+    - Desert Lizard card
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Iron Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Thick-soled Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Cotton Shoes
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Heavy Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Light Leather Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Protector's Magic Shoes
+    - 0.2366%
+    - '1'
+  - - Farmongee
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Farmongee
+    - Flawed Emerald
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Flawed Sapphire
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Flawed Purple Gem
+    - 0.0800%
+    - '1'
+  - - Farmongee
+    - Cure Spell 5
+    - 1.5622%
+    - '1'
+  - - Farmongee
+    - Summon Skeleton V
+    - 1.5622%
+    - '1'
+  - - Farmongee
+    - Fruit of Hercules
+    - 18.0077%
+    - '1'
+  - - Farmongee
+    - Target Potion
+    - 18.0077%
+    - '1'
+  - - Farmongee
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Fat Robot
+    - Light Sword
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Double-blade Axe
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Wood Shield
+    - 0.6357%
+    - '1'
+  - - Fat Robot
+    - Sword
+    - 0.1059%
+    - '1'
+  - - Fat Robot
+    - Wooden Shield
+    - 0.1059%
+    - '1'
+  - - Fat Robot
+    - Antique Rapier
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Silver Double-bladed Axe
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Silver Shield
+    - 0.0105%
+    - '1'
+  - - Fat Robot
+    - Ruby Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Orange Gem Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Yellow Gem Piece
+    - 0.0318%
+    - '1'
+  - - Fat Robot
+    - Map Piece
+    - 3.1780%
+    - '1'
+  - - Fat Robot
+    - Fat Robot card
+    - 0.0800%
+    - '1'
+  - - Gebuer Cadre
+    - Sword
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Shield
+    - 0.3744%
+    - '1'
+  - - Gebuer Cadre
+    - Long Sword
+    - 0.0624%
+    - '1'
+  - - Gebuer Cadre
+    - Beast Bone Balde
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Soldier's Long Shield
+    - 0.0062%
+    - '1'
+  - - Gebuer Cadre
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Emerald
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Sapphire
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Flawed Purple Gem
+    - 0.0023%
+    - '1'
+  - - Gebuer Cadre
+    - Gebuer cadre card
+    - 0.0800%
+    - '1'
+  - - Gebuer Cadre
+    - Riddle Piece
+    - 100.0000%
+    - '2'
+  - - Header Gaberna
+    - Gown
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Thick Armor
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Leather Vest
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Protector's Gown
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Heavy Leather Armor
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Light Leather Armor
+    - 0.3490%
+    - '1'
+  - - Header Gaberna
+    - Golden Shell Bag
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Ring of High Clerist
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Flawed Ruby
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Defective Orange Gem
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Flawed Yellow Gem
+    - 0.1800%
+    - '1'
+  - - Header Gaberna
+    - Basic Attack V
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Basic Shot V
+    - 2.3038%
+    - '1'
+  - - Header Gaberna
+    - Target Potion
+    - 18.0000%
+    - '1'
+  - - Header Gaberna
+    - Agility Potion
+    - 18.0000%
+    - '1'
+  - - Header Gaberna
+    - Map Piece
+    - 10.4700%
+    - '1'
+  - - Header Gaberna
+    - Pestle
+    - 0.0620%
+    - '1'
+  - - Lizard Lisad
+    - Iron Wristlet
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Long Gloves
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Linen Gloves
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Heavy Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Bone Wristlet
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Protector's Gloves
+    - 0.2366%
+    - '1'
+  - - Lizard Lisad
+    - Turtle Shell Bag
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Ring of Envoy
+    - 1.5621%
+    - '1'
+  - - Lizard Lisad
+    - Flawed Ruby
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Defective Orange Gem
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Flawed Yellow Gem
+    - 0.0800%
+    - '1'
+  - - Lizard Lisad
+    - Slicing Hit V
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - Basic Beating V
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - 'Assassin Skill: Stab V'
+    - 1.0415%
+    - '1'
+  - - Lizard Lisad
+    - Fruit of Mars
+    - 18.0077%
+    - '1'
+  - - Lizard Lisad
+    - Agility Potion
+    - 18.0077%
+    - '1'
+  - - Lizard Lisad
+    - Map Piece
+    - 7.1000%
+    - '1'
+  - - Metal Robot
+    - Archer Hood
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Helmet
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Incantation Hood
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Heavy Armor
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Light Armor
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Incantation Gown
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Crystal Foreman Hat
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Pirate Flag
+    - 2.8570%
+    - '1'
+  - - Metal Robot
+    - Savage Vest
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Savage Armor
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Angelos Gown
+    - 0.8311%
+    - '1'
+  - - Metal Robot
+    - Emerald Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Sapphire Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Purple Gem Piece
+    - 2.4900%
+    - '1'
+  - - Metal Robot
+    - Target Potion
+    - 18.0009%
+    - '1'
+  - - Metal Robot
+    - Map Piece
+    - 20.7800%
+    - '1'
+  - - Mummy
+    - Hard-leather Cap
+    - 0.2605%
+    - '1'
+  - - Mummy
+    - Shade
+    - 0.2605%
+    - '1'
+  - - Mummy
+    - Hard Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Mummy
+    - Heavy Leather Helmet
+    - 0.0043%
+    - '1'
+  - - Mummy
+    - Flawed Emerald
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Flawed Sapphire
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Flawed Purple Gem
+    - 0.0013%
+    - '1'
+  - - Mummy
+    - Map Piece
+    - 0.8680%
+    - '1'
+  - - Mummy
+    - Mummy card
+    - 0.0800%
+    - '1'
+  - - Mummy Leader
+    - Gown
+    - 0.6283%
+    - '1'
+  - - Mummy Leader
+    - Protector's Gown
+    - 0.0104%
+    - '1'
+  - - Mummy Leader
+    - Flawed Ruby
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Defective Orange Gem
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Flawed Yellow Gem
+    - 0.0018%
+    - '1'
+  - - Mummy Leader
+    - Map Piece
+    - 1.0470%
+    - '1'
+  - - Mummy Leader
+    - Mummy Leader card
+    - 0.0800%
+    - '1'
+  - - Ocher Toad
+    - Jute Gloves
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Heavy Wristlet
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Light Gloves
+    - 0.3792%
+    - '1'
+  - - Ocher Toad
+    - Savage Gloves
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Savage Cuff
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Angelos Gloves
+    - 0.0063%
+    - '1'
+  - - Ocher Toad
+    - Emerald Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Sapphire Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Purple Gem Piece
+    - 0.0190%
+    - '1'
+  - - Ocher Toad
+    - Map Piece
+    - 1.8960%
+    - '1'
+  - - Ocher Toad
+    - Ocher Toad card
+    - 0.0800%
+    - '1'
+  - - Rotten Bird
+    - Iron Slingshot
+    - 0.3744%
+    - '1'
+  - - Rotten Bird
+    - Token
+    - 0.3744%
+    - '1'
+  - - Rotten Bird
+    - Puppet Electrical Bow
+    - 0.0062%
+    - '1'
+  - - Rotten Bird
+    - White Token
+    - 0.0062%
+    - '1'
+  - - Rotten Bird
+    - Map Piece
+    - 0.2000%
+    - '1'
+  - - Rotten Bird
+    - Flawed Ruby
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Defective Orange Gem
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Flawed Yellow Gem
+    - 0.0023%
+    - '1'
+  - - Rotten Bird
+    - Rotten Bird card
+    - 0.0800%
+    - '1'
+  - - Undying Lord
+    - Rabbi's Cap
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Hard-leather Cap
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Shade
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Protector's Cap
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Hard Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Heavy Leather Helmet
+    - 0.2895%
+    - '1'
+  - - Undying Lord
+    - Turtle Shell Bag
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Ring of Envoy
+    - 1.9108%
+    - '1'
+  - - Undying Lord
+    - Flawed Emerald
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Flawed Sapphire
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Flawed Purple Gem
+    - 0.1300%
+    - '1'
+  - - Undying Lord
+    - Shock Wave 5
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Poison Hit V
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Flying Dart V
+    - 1.2738%
+    - '1'
+  - - Undying Lord
+    - Magic Fruit
+    - 18.0000%
+    - '1'
+  - - Undying Lord
+    - Fruit of the Devil
+    - 18.0000%
+    - '1'
+  - - Undying Lord
+    - Map Piece
+    - 8.6900%
+    - '1'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 🗺️ Area › Iron Castle'
+- section: Iron Castle
+  text_raw: 'Information
+
+    Map'
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

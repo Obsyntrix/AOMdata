@@ -1,0 +1,93 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: last-survivor
+name_raw: Last Survivor
+discovered_from_regions:
+- dungeon
+discovered_from_areas:
+- gulp-room
+source:
+  origin_url: https://angels.wikidot.com/quest:last-survivor
+  retrieval_url: https://www.aowiki.uk/pages/quest_last-survivor.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: fa56e7e109cd0d3a89a8569a878f716e428d36f39056ae6744959cd4bca9b677
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Hank
+    - 'No'
+    - '-'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+  - - Items
+  - - 'Choose one of: Item Name , Item Name'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Last Survivor'
+- section: Last Survivor
+  text_raw: Home » Areas » Gulp Room » Last Survivor
+- section: Summary
+  text_raw: Resize 3 test tube for hank
+- section: Walkthrough
+  text_raw: Step 1 Get the tubes from 3 different monster Elite Fire Mummy , Bloody Demon , Dark Elite Step 2 Details here.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: steel-disguise
+name_raw: Steel Disguise
+discovered_from_regions:
+- steel
+discovered_from_areas:
+- cactus-plain
+source:
+  origin_url: https://angels.wikidot.com/quest:steel-disguise
+  retrieval_url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: f8e26fed93081f1b4c9bd7116cd1faefdd6c367d09b38336f48a1729f7af5c74
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Spy Angel
+    - 'No'
+    - 'Yes (Asmode: 4 of 8)'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Killing Plateau Monkey
+    - Obtaining Asmode's Trust
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - steel
+    - '20'
+    - '2'
+    - '-'
+    - Finished Killing Plateau Monkey
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '2000'
+    - '80'
+    - '500'
+  - - Items
+  - - '-'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Steel Disguise'
+- section: Steel Disguise
+  text_raw: Home » Areas » Cactus Plain » Disguise
+- section: Summary
+  text_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a Geubuer . Obtain their Secret Badge by defeating them.
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Spy Angel (59,138) in Cactus Plain Step 2 Go to Gebuer Vale Step 3 Defeat Gebuer Cadres until you have obtained the Secret Badge. Step 4 Report back
+    to the Spy Angel
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

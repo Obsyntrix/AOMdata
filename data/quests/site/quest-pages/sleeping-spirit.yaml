@@ -1,0 +1,69 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: sleeping-spirit
+name_raw: Sleeping Spirit
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- mysterious-garden
+source:
+  origin_url: https://angels.wikidot.com/quest:sleeping-spirit
+  retrieval_url: https://www.aowiki.uk/pages/quest_sleeping-spirit.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: ee16fe74b423782dc70916a7e71a7660beee6186f67bfb20f674d74e2a8efa8f
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Household Hark
+    - Beast Faction
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Summary
+  - - The Household Hark asks you to wake up the other sleeping servents. Visit them at (266, 110) near the fishing pond and (79, 140) by the west entrance. Return to Household Hark.
+- table_index: 3
+  rows_raw:
+  - - Reward
+  - - Exp +1800, Credit +65
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Sleeping Spirit'
+- section: Sleeping Spirit
+  text_raw: Home » Areas » Mysterious Garden » Sleeping Spirit
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

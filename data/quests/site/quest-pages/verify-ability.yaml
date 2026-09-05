@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: verify-ability
+name_raw: Verify Ability
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- jade-vale
+source:
+  origin_url: https://angels.wikidot.com/quest:verify-ability
+  retrieval_url: https://www.aowiki.uk/pages/quest_verify-ability.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 52ef65c70f2050e2f038423b9151507df2fc5cb968320a9ecce0ce202cddf58e
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Training Priest
+    - Beast Faction; Completed quest Mystic Words
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - Mystic Words
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat the boss, Sealed Beast .
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - '2100 Experience, 380 Credit Choose one of: Courage Talisman , Intelligence Talisman , Body Talisman or Spell Talisman'
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Verify Ability'
+- section: Verify Ability
+  text_raw: Home » Areas » Jade Vale » Verify Ability
+- section: Walkthrough
+  text_raw: Step 1 Speak with the Training Priest, you will obtain a Mysterious Incantation Stone. Step 2 Take this stone to the Relic (244, 168) and place the stone in the slot.. Step
+    3 It will summon the boss, Sealed Beast which you must defeat. Step 4 Speak once more to the Training Priest.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

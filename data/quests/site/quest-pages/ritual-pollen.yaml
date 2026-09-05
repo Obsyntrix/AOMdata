@@ -1,0 +1,78 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: ritual-pollen
+name_raw: Ritual Pollen
+discovered_from_regions:
+- breeze
+discovered_from_areas:
+- cryptic-moon-swamp
+source:
+  origin_url: https://angels.wikidot.com/quest:ritual-pollen
+  retrieval_url: https://www.aowiki.uk/pages/quest_ritual-pollen.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 8480c38102928b9b8d409661fb63b43fdcdb69ede2ab66f545508c265e75cb16
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Requirements
+    - Repeatable?
+  - - Shiwand
+    - Beast Faction; Character lvl 15+
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - Sage's Staff
+- table_index: 3
+  rows_raw:
+  - - Summary
+  - - Defeat Wild Lilies in Dense Forest until you have Collected 10 Pollen, which Shiwand needs to help complete the ritual.
+- table_index: 4
+  rows_raw:
+  - - Reward
+  - - 800 Experience, 40 Credit
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Ritual Pollen'
+- section: Ritual Pollen
+  text_raw: Home » Areas » Cryptic Moon Swamp » Ritual Pollen
+- section: Walkthrough
+  text_raw: Step 1 Speak with Shiwand. Step 2 Go to Dense Forest . Step 3 Defeat Wild Lilies until you have obtained 10 Pollen. Step 4 Return to Cryptic Moon Swamp and give the Pollen
+    to Shiwand.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending

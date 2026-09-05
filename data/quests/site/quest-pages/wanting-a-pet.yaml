@@ -1,0 +1,94 @@
+schema_version: 1
+dataset: quest_source_snapshot
+page_kind: quest
+id: wanting-a-pet
+name_raw: Wanting a pet!
+discovered_from_regions:
+- aurora
+discovered_from_areas:
+- spike-farm
+source:
+  origin_url: https://angels.wikidot.com/quest:wanting-a-pet
+  retrieval_url: https://www.aowiki.uk/pages/quest_wanting-a-pet.html
+  source_kind: angels_wiki_quest_mirror
+  mirror_declares_original_angels_wikidot_content: true
+  source_html_sha256: 402ffcdd65f263bf7cf8adcec14c7cd960e45030befb54d9bfafee370d4c2dea
+tables_raw:
+- table_index: 1
+  rows_raw:
+  - - Quest Giver
+    - Repeatable
+    - Series
+  - - Farm Mistress
+    - 'Yes'
+    - 'No'
+- table_index: 2
+  rows_raw:
+  - - Previous Quest
+    - Next Quest
+  - - '-'
+    - '-'
+- table_index: 3
+  rows_raw:
+  - - Faction
+    - Lvl
+    - Rank
+    - Skill
+    - Quest
+  - - Any
+    - '-'
+    - '-'
+    - '-'
+    - Finished Sending Parcels if in Aurora Faction
+- table_index: 4
+  rows_raw:
+  - - Exp.
+    - Credit
+    - Gold
+  - - '-'
+    - '-'
+    - '-'
+  - - Items
+  - - Farm Mistress Card
+sections_raw:
+- section: Categories
+  text_raw: '⚔️ Monster 1267
+
+    🗺️ Area 182
+
+    🧙 NPC 68
+
+    📜 Quest 358
+
+    🎒 Items 30
+
+    ⚗️ Recipes 7
+
+    🔨 Production 51
+
+    🐾 Pet 59
+
+    💫 Stances 17
+
+    🃏 Cards 66
+
+    📂 Directory 39
+
+    📖 Bestiary 5
+
+    🏷️ Category 1
+
+    👥 Community 33
+
+    Home › 📜 Quest › Wanting a pet!'
+- section: Wanting a pet!
+  text_raw: Home » Areas » Spike Farm » Wanting a Pet
+- section: Summary
+  text_raw: The Farm Mistress loves the Eggshell Chicks and wants one as a pet, she asks you to help get her some food.
+- section: Walkthrough
+  text_raw: Step 1 Talk to the Farm Mistess (52,53). Step 2 Go to the Pet Expert and buy 10 Pet Cookies . The Closest is in Aurora City (295,46). Step 3 Return to Spike Farm . Step 4
+    Give the Pet Cookies to the Farm Mistress.
+capture:
+  status: captured
+verification:
+  client_confirmation: pending
