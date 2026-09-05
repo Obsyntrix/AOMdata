@@ -6,11 +6,14 @@ on:
       - 'data/quests/research/walkthrough-intake/**'
       - 'data/quests/research/legacy-guides/**'
       - 'data/quests/research/current-booklet/**'
+      - 'data/quests/research/gap-corroboration.yaml'
       - 'data/quests/research/walkthrough-enrichments.yaml'
       - 'data/quests/areas/**'
       - 'data/quests/series/**'
       - 'tools/build_quest_walkthrough_catalog.py'
+      - 'tools/sanitize_quest_walkthrough_catalog.py'
       - 'tools/apply_walkthrough_enrichments.py'
+      - 'tools/audit_walkthrough_catalog.py'
       - '.github/workflows/build-quest-walkthrough-catalog.yml'
   workflow_dispatch:
 
@@ -35,11 +38,13 @@ jobs:
           python-version: '3.12'
       - name: Install YAML dependency
         run: python -m pip install --disable-pip-version-check PyYAML
-      - name: Build catalog
+      - name: Build broad evidence catalog
         run: python tools/build_quest_walkthrough_catalog.py
+      - name: Sanitize quest/page joins and apply explicit gap corroboration
+        run: python tools/sanitize_quest_walkthrough_catalog.py
       - name: Apply researched walkthrough enrichments
         run: python tools/apply_walkthrough_enrichments.py
-      - name: Audit enriched catalog
+      - name: Audit final catalog
         run: python tools/audit_walkthrough_catalog.py
       - name: Show manifest and gap audit
         if: always()
@@ -48,7 +53,7 @@ jobs:
             cat data/quests/walkthrough-catalog/manifest.yaml
           fi
           if [ -f data/quests/walkthrough-catalog/gaps.yaml ]; then
-            sed -n '1,260p' data/quests/walkthrough-catalog/gaps.yaml
+            sed -n '1,320p' data/quests/walkthrough-catalog/gaps.yaml
           fi
       - name: Publish catalog
         run: |
@@ -58,7 +63,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'Build enriched six-region quest walkthrough catalog'
+          git commit -m 'Build sanitized enriched six-region quest walkthrough catalog'
           git fetch origin main
           if ! git rebase -X theirs origin/main; then
             git rebase --abort
