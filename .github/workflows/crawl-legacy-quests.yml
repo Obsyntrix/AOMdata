@@ -1,0 +1,65 @@
+name: Capture legacy quest evidence
+
+on:
+  push:
+    paths:
+      - 'tools/crawl_legacy_quests.py'
+      - '.github/workflows/crawl-legacy-quests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legacy-quest-evidence-crawl
+  cancel-in-progress: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install preservation dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 PyYAML
+
+      - name: Capture target quest evidence
+        env:
+          AOMDATA_QUEST_DELAY: '0.20'
+          AOMDATA_QUEST_RETRIES: '4'
+        run: python tools/crawl_legacy_quests.py
+
+      - name: Show coverage report
+        run: sed -n '1,220p' data/quests/crawl-report.yaml
+
+      - name: Publish captured source snapshots safely
+        run: |
+          git config user.name 'AOmega Preservation Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          mkdir -p /tmp/aomega-quest-capture
+          cp -a data/quests/site /tmp/aomega-quest-capture/site
+          cp data/quests/crawl-report.yaml /tmp/aomega-quest-capture/crawl-report.yaml
+
+          git fetch origin main
+          git reset --hard origin/main
+          rm -rf data/quests/site
+          mkdir -p data/quests
+          cp -a /tmp/aomega-quest-capture/site data/quests/site
+          cp /tmp/aomega-quest-capture/crawl-report.yaml data/quests/crawl-report.yaml
+
+          git add data/quests/site data/quests/crawl-report.yaml
+          if git diff --cached --quiet; then
+            echo 'No quest evidence changes to publish.'
+            exit 0
+          fi
+          git commit -m 'Capture legacy Angels Wiki quest evidence'
+          git push origin HEAD:main
