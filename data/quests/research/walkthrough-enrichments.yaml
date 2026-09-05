@@ -1,0 +1,313 @@
+schema_version: 1
+dataset: quest_walkthrough_enrichments
+purpose: >-
+  Upgrade historically valid but one-line area-table fallbacks into player-usable walkthroughs without
+  altering the underlying source observations. Every entry is constrained to documented historical
+  evidence or explicitly labelled cross-version corroboration; unresolved values stay unresolved.
+authority_policy:
+  historical_english_angels_wiki: primary
+  period_2012_community_guides: secondary_historical
+  historical_other_region_wikis: cross_version_corroboration
+  current_booklet_client_database: corroboration_only
+  aomega_target_client: final_verification_pending
+quests:
+  # Breeze / Beast Asmode chain
+  cryptic-moon-swamp-killing-marsh-frogs-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with the Spy Angel at (22,155) in Cryptic Moon Swamp after completing Looking for Spy Angel.
+      - Defeat 50 Marsh Frogs in Cryptic Moon Swamp.
+      - Return to the Spy Angel at (22,155) to report.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/cryptic-moon-swamp.yaml, data/quests/research/legacy-guides/breeze/beast-quests.yaml]
+  cryptic-moon-swamp-disguise-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with the Spy Angel at (22,155) in Cryptic Moon Swamp after Killing Marsh Frogs.
+      - Travel to Jade Vale and defeat Magic Eye Members until the required robber/secret badge drops.
+      - Return the badge to the Spy Angel at (22,155).
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/cryptic-moon-swamp.yaml, data/quests/research/legacy-guides/breeze/beast-quests.yaml]
+    caveat: Historical sources alternate between the English labels Robber Badge and Secret Badge; preserve both as aliases until target-client confirmation.
+  jade-vale-are-you-evil-enough-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with Asmode in Jade Vale at approximately (300,72).
+      - Return to the Spy Angel at (22,155) in Cryptic Moon Swamp as instructed.
+      - Go back to Jade Vale and speak with the Archaeologist around (80,10).
+      - Complete the Archaeologist's required relic task and obtain the Cultural Relics.
+      - Give the Cultural Relics to Asmode in Jade Vale.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/jade-vale.yaml, data/quests/research/legacy-guides/breeze/beast-quests.yaml]
+  jade-vale-magic-stone-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with Asmode in Jade Vale after completing Are you Evil Enough?.
+      - Travel to Mysterious Garden.
+      - Find the monkey statue holding a crowned egg at (257,26) and activate it.
+      - The statue transports you to Asmode's Den; continue the chain there.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/jade-vale.yaml, data/quests/research/walkthrough-intake/areas/mysterious-garden.yaml]
+    conflicts:
+      - A 2012 community guide places the statue at (258,56); the historical dedicated English quest evidence places it at (257,26), which is preferred here.
+  mysterious-garden-evil-student-leader-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Use the Magic Stone/statue route in Mysterious Garden to enter Asmode's Den.
+      - Defeat Asmodeus in the den.
+      - Return to the Breeze Spy Angel at (22,155) in Cryptic Moon Swamp to finish the Asmode chain.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/mysterious-garden.yaml, data/quests/research/legacy-guides/breeze/beast-quests.yaml]
+
+  # Steel Asmode chain
+  iron-castle-inexperience-3-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Reach character level 20 and Rank 2 as a Steel-faction character.
+      - Speak with the Iron Castle Angel at approximately (63,161) to begin the Steel Asmode progression.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/iron-castle.yaml, data/quests/research/legacy-guides/steel/steel-quests.yaml]
+    caveat: Historical sources disagree whether the displayed reward is EXP or Credit; the walkthrough does not resolve that conflict.
+  cactus-plain-disguise-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with the Steel Spy Angel at (59,138) in Cactus Plain after the preceding Asmode task.
+      - Travel to Gebuer Vale.
+      - Defeat Gebuer Cadres until the required Secret Badge / Gebuer Army Badge drops.
+      - Return the badge to the Spy Angel at (59,138) in Cactus Plain.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/cactus-plain.yaml, data/quests/research/legacy-guides/steel/steel-quests.yaml]
+    caveat: Historical sources use both Secret Badge and Gebuer Army Badge for the quest item.
+  burning-desert-are-you-evil-enough-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with Asmode in Burning Desert at approximately (285,22).
+      - Return to the Steel Spy Angel at (59,138) in Cactus Plain.
+      - Go back to Burning Desert and speak with the Surgeon at approximately (175,142).
+      - Complete the required serum-related task if it has not already been completed and obtain the Dog Tags from the Surgeon.
+      - Give the Dog Tags to Asmode at approximately (285,22).
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/burning-desert.yaml, data/quests/research/legacy-guides/steel/steel-quests.yaml]
+  burning-desert-magic-stone-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with Asmode in Burning Desert after completing Are you Evil Enough?.
+      - Travel to Gebuer Vale.
+      - Activate the monkey statue holding a crowned egg at (7,247).
+      - The statue transports you to Asmode's Den; continue the chain there.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/burning-desert.yaml, data/quests/research/walkthrough-intake/areas/gebuer-vale.yaml]
+  gebuer-vale-evil-student-leader-asmode:
+    source_class: researched_historical_enrichment
+    steps:
+      - Use the Gebuer Vale statue at (7,247) to enter Asmode's Den.
+      - Defeat Asmodeus in the den.
+      - Return to the Steel Spy Angel at (59,138) in Cactus Plain to finish the Steel Asmode chain.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/gebuer-vale.yaml, data/quests/research/legacy-guides/steel/steel-quests.yaml]
+
+  # Dark City progression and repeatable board
+  dark-city-register-at-dark-city-angel:
+    source_class: researched_historical_enrichment
+    steps:
+      - As a Dark/Shadow-faction character, speak with the Dark City Angel at (313,70) in Dark City and complete the registration/report dialogue.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-knowing-dark-city:
+    source_class: researched_historical_enrichment
+    steps:
+      - After registering in Dark City, find Risker Zalfer at approximately (298,62).
+      - Speak with Risker Zalfer to complete the city-introduction step.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml, data/quests/research/legacy-guides/dark/shadow-quests.yaml]
+  dark-city-inexperience:
+    source_class: researched_historical_enrichment
+    steps:
+      - Complete the preceding Dark City introduction.
+      - Speak with Executive Puyi at (181,83) in Dark City to complete Inexperience and unlock the faction repeatable progression.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml, data/quests/research/legacy-guides/dark/shadow-quests.yaml]
+  dark-city-a-stab-in-the-back:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 10-14, take the repeatable quest from Executive Puyi at (181,83) in Dark City.
+      - Travel to Shadowy Path and defeat 30 Skeletal Snipers.
+      - Return to Executive Puyi at (181,83) to turn in the quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-tentical-in-shadow:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 10-14, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Shadowy Path and defeat the boss Red-Hooded Skull Header.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-dark-bell:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 10-14, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Shadowy Path and defeat the boss Giant Cat Cinlo.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-noise-maker:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Fungus Forest South and defeat 30 Crybabies.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-wandering-spirit:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Fungus Forest South and defeat 30 Paopao.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-paopao:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Fungus Forest South and defeat the boss Dream Paopao.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-delusive-fire:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Bottomless Pit and defeat 30 Fire Mimics.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-belief-dominator:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Bottomless Pit and defeat the boss Wizard Mord.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-fire-operator:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Bottomless Pit and defeat the boss Stunt Lord Abbi.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-evil-and-bloody-deed:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Degula Maze and defeat 30 Evil Leeches.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-abtruse-evil-eye:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Degula Maze and defeat the boss Evil Eye Bershala.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-bloody-gent:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Degula Maze and defeat the boss Bloody Pound.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-fetor-maker:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Memory Cave and defeat 30 Porky Men.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-rotten-cross:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Memory Cave and defeat 30 Decrusaders.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  dark-city-evil-cat-yese:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+      - Travel to Memory Cave and defeat the boss Evil Cat Yese.
+      - Return to Executive Puyi in Dark City.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/dark-city.yaml]
+  shadowy-path-railway-guard:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 20+, speak with the Sickle Soldier at (213,143) in Shadowy Path.
+      - Obtain a 1-star Piercing Hammer as requested; the historical quest text says to buy/bring one rather than farm a specific monster.
+      - Return to the Sickle Soldier at (213,143) to complete Railway Guard.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/shadowy-path.yaml]
+
+  # Dungeon / Demon Kitchen
+  sad-abyss-association-member-s-demand:
+    source_class: researched_historical_enrichment_with_explicit_gap
+    steps:
+      - At level 60+, accept Association Member's Demand in Sad Abyss from its issuing NPC.
+      - Defeat 40 Imp Elves in Sad Abyss.
+      - Return to the issuing NPC to complete the repeatable quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/sad-abyss.yaml]
+    caveat: The surviving English Sad Abyss page preserves the quest, level, objective and reward but does not identify which NPC issues it. No giver is inferred.
+  sad-abyss-labor-s-misery:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 60+, speak with the Root Member at (159,22) in Sad Abyss.
+      - Defeat Evil Knights until you collect 10 Mine Tools.
+      - Return the 10 Mine Tools to the Root Member at (159,22).
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/sad-abyss.yaml]
+
+  # Lost Atlantis
+  golden-beach-let-s-fight-1-of:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 50+, speak with Traveler Landy at (35,66) in Golden Beach.
+      - Defeat Puqi Turtles in Golden Beach; the primary area table requires 35, while a 2012 period guide says 30 before reporting back.
+      - Report to Traveler Landy.
+      - Defeat 35 Color Crabs in Golden Beach.
+      - Return to Traveler Landy to complete the quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/golden-beach.yaml, data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml]
+    conflicts:
+      - Primary historical area table says 35 Puqi Turtles; 2012 walkthrough says 30. Preserve the disagreement pending target-client verification.
+  palm-base-purify:
+    source_class: researched_historical_enrichment
+    steps:
+      - Speak with the Ocean Scholar at (287,135) in Palm Base.
+      - Gather 200 Pollutions from underwater resource nodes.
+      - Return to the Ocean Scholar after collecting all 200.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/palm-base.yaml]
+    caveat: The English historical page does not preserve the required gathering level or reward; those values must remain unknown until independently verified.
+  puqi-village-wandering-artist:
+    source_class: researched_cross_version_enrichment
+    steps:
+      - Speak with Teny at (212,35) in Puqi Village; this is a producer/gatherer repeatable quest.
+      - Obtain the Whelk Shell component used by Wandering Artist and the production materials for the handicraft option Teny requests.
+      - Cross-version historical evidence indicates four craft branches, each requiring 10 shell components plus 200 of its matching producer material.
+      - Return the requested materials to Teny to receive the corresponding Teny card reward.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/puqi-village.yaml]
+    caveat: Exact English branch-material names/counts beyond the 10-shell/200-material pattern come from non-English historical AngelLove evidence and remain pending AOmega target-client confirmation.
+  puqi-village-explore-blue-slat-crystal:
+    source_class: researched_historical_enrichment_with_explicit_gap
+    steps:
+      - At level 70+ with a gathering skill, speak with Mr.Howsufa at (93,139) in Puqi Village.
+      - Travel to Wave Harbor and gather Blue Slat Crystals.
+      - Return to Mr.Howsufa with the required crystals to complete the quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/puqi-village.yaml]
+    caveat: The surviving English historical area page does not preserve the required quantity, repeatability, or reward; these are deliberately not guessed.
+  shining-coast-boaster:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 55-60, speak with Mouther at (108,164) in Shining Coast.
+      - Defeat 30 Color Crabs and 30 Crab Generals.
+      - Return to Mouther at (108,164) to complete the repeatable quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/shining-coast.yaml]
+  shining-coast-pupu-turtle-and-pup-crab:
+    source_class: researched_historical_enrichment
+    steps:
+      - At level 60-65, speak with the Young Farmer at (222,241) in Shining Coast.
+      - Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles.
+      - Return to the Young Farmer at (222,241) to complete the repeatable quest.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/shining-coast.yaml]
+  shining-coast-meeting-robbers-3-of:
+    source_class: researched_historical_enrichment
+    steps:
+      - After completing The Misbehaved Son and reaching level 60+, speak with Lad Stany at (39,213) in Shining Coast.
+      - Defeat Puqi Pirates and Puqi Pirate Leaders around the pirate area; a 2012 guide places them around (164,160).
+      - Recover Stany and Wendy's Red Love Necklace and Blue Love Necklace.
+      - Give both Love Necklaces to Lad Stany at approximately (39,213).
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/shining-coast.yaml, data/quests/research/legacy-guides/atlantis/holiday-in-puqi-village.yaml]
+  wave-harbor-big-eyes:
+    source_class: researched_historical_enrichment_with_explicit_gap
+    steps:
+      - Accept the repeatable Big Eyes quest from Eye Eric in Wave Harbor; the historical page does not preserve his coordinates.
+      - Defeat Scale Fish in Wave Harbor until you obtain 30 Merman's Eyes.
+      - Return the 30 Merman's Eyes to Eye Eric.
+    evidence_paths: [data/quests/research/walkthrough-intake/areas/wave-harbor.yaml]
+    caveat: The English historical page contains placeholder text for the faction/level requirement and Eye Eric's coordinates, so those values remain unresolved.
