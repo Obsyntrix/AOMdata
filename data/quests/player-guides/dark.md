@@ -227,10 +227,12 @@ Canonical quest records: **82**
 - **Repeatable:** Yes
 - **Requirements:** Shadow Faction; Character lvl 6-20
 - **Reward:** Exp+320, Credit+10
-- **Walkthrough evidence:** `historical_dedicated_quest_page`
+- **Walkthrough evidence:** `period_2012_community_guide_placeholder_recovery`
 
-1. Details here.
-2. Details here.
+1. 1. Talk to Sickle Solder(214,144)
+2. 2. Kill 20 Evil Cat (195,45)
+
+**Evidence caveat:** The dedicated historical quest page contains only placeholder walkthrough text; a period community guide supplies the playable steps.
 
 ### 22. Hurting Others with Covert Attack
 
@@ -768,9 +770,9 @@ Canonical quest records: **82**
 - **Repeatable:** No
 - **Requirements:** Shadow Faction; Completed quest Magic Stone
 - **Reward:** Exp+5000, Credit+850, Item
-- **Walkthrough evidence:** `period_2012_community_guide`
+- **Walkthrough evidence:** `historical_dedicated_quest_page`
 
-1. 1. Talk with Spy Angel(314,38)
+1. Defeat Asmodeum. This is not easy and will require some help.
 
 ## Fungus Forest North
 
