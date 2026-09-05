@@ -8,16 +8,16 @@ authority_policy:
   aomega_target_client: final_verification_pending
 counts:
   area_table_quest_records: 78
-  with_historical_dedicated_page: 55
+  with_historical_dedicated_page: 62
   with_period_guide_match: 40
   with_current_client_match: 58
-  with_gap_corroboration: 0
-  walkthrough_historical_dedicated: 52
-  walkthrough_period_guide: 3
+  walkthrough_historical_dedicated: 57
+  walkthrough_period_guide: 2
   walkthrough_existing_canonical: 18
-  walkthrough_area_minimal: 5
-  walkthrough_gap_corroboration: 0
+  walkthrough_area_minimal: 1
   walkthrough_missing: 0
+  supplemental_historical_pages: 13
+  supplemental_period_guide_blocks: 6
 quests:
 - id: burning-desert-spirit-in-war
   name: Spirit in War
@@ -64,7 +64,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Mummy Leaders . Step 3 Report to the Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_spirit-in-war.yaml
       origin_url: https://angels.wikidot.com/quest:spirit-in-war
@@ -145,7 +144,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-toxic-spider-in-desert
   name: Toxic Spider in Desert
   region: steel
@@ -191,7 +189,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Defeat 20 Toxic Spiders . Step 3 Report to the Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_toxic-spider-in-desert.yaml
       origin_url: https://angels.wikidot.com/quest:toxic-spider-in-desert
@@ -272,7 +269,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-collecting-serum
   name: Collecting Serum
   region: steel
@@ -318,7 +314,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Surgeon. Step 2 Defeat Toxic Spiders until you have collected 5 Spider’s Venom Sacs. Step 3 Give them to the Surgeon.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_collecting-serum.yaml
       origin_url: https://angels.wikidot.com/quest:collecting-serum
@@ -388,7 +383,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-blood-sacrifice
   name: Blood Sacrifice
   region: steel
@@ -434,7 +428,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Click on the gravestone (50, 72). Step 2 Go to Gebuer Vale and defeat Gebuer until you collect 5 vials of Gebuer Blood. Step 3 Return and pour it on the gravestone (50, 72).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_blood-sacrifice.yaml
       origin_url: https://angels.wikidot.com/quest:blood-sacrifice
@@ -520,7 +513,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-winning-achievement
   name: Winning Achievement
   region: steel
@@ -566,7 +558,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to General Allie. Step 2 Go to Gebuer Vale and defeat 20 Gebuer . Step 3 Return and report to General Allie.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_winning-achievement.yaml
       origin_url: https://angels.wikidot.com/quest:winning-achievement
@@ -651,7 +642,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-detecting-fountain
   name: Detecting Fountain
   region: steel
@@ -695,8 +685,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Spy Sungier. Step 2 Go to Gebuer Vale and speak with Spy Lude (?,?).
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id001 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_detecting-fountain.yaml
       origin_url: https://angels.wikidot.com/quest:detecting-fountain
@@ -759,7 +748,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-gebuer-s-proposal
   name: Gebuer‘s Proposal
   region: steel
@@ -806,7 +794,6 @@ quests:
     walkthrough_raw: Step 1 Talk to Pestal Aider. Step 2 Go to Gebuer Vale and defeat Gebuer Cadre until you obtain the Gebuer‘s Fighting Proposal. Step 3 Bring it back to Pestal Aider in Burning Desert
       .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_gebuer-s-proposal.yaml
       origin_url: https://angels.wikidot.com/quest:gebuer-s-proposal
@@ -814,6 +801,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 48955aaf919bed50221fdb04f478f6c80e0b7bd1a05154dc5ae210baecd7b862
+      authority_role: null
+  - title_raw: Detecting Fountain
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Spy Sungier Steel Faction No
+
+      Previous Quest Next Quest Ring Of Caravan Gebuer''s Proposal
+
+      Summary Spy Sungier has broken his leg and needs you to go to Gebuer Vale and speak with Spy Lude for him.
+
+      Reward 400 Experience, 65 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Spy Sungier. Step 2 Go to Gebuer Vale and speak with Spy Lude (?,?).
+    walkthrough_steps: *id001
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_detecting-fountain.yaml
+      origin_url: https://angels.wikidot.com/quest:detecting-fountain
+      retrieval_url: https://www.aowiki.uk/pages/quest_detecting-fountain.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: fe40a21f20ca2649d74e5b70abfeffd32fe8e49acf0af6923a9afbcacfa4359d
       authority_role: null
   period_guide_matches:
   - title_raw: Gebuer’s Proposal
@@ -896,7 +904,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-missing-friend
   name: Missing Friend 1 of 4
   region: steel
@@ -941,8 +948,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Dinot. Step 2 Defeat Toxic Spiders until you find Takice's Bracer. Step 3 Give the Bracer to Dinot and tell him the bad news.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id002 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_missing-friend.yaml
       origin_url: https://angels.wikidot.com/quest:missing-friend
@@ -1025,7 +1031,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-destroying-spider-eggs
   name: Destroying Spider Eggs 2 of 4
   region: steel
@@ -1075,8 +1080,7 @@ quests:
     walkthrough_raw: Step 1 Talk to Dinot. Step 2 Destroy the eggs at the northern nest (288, 60) by clicking on the pile of bones. Step 3 Destroy the eggs at the southeast nest (293, 95) by clicking on
       the pile of bones. Step 4 Destroy the eggs at the entrance nest (287, 131) by clicking on the pile of bones. Step 5 Destroy the eggs at the western nest (230, 92) by clicking on the pile of bones.
       Step 6 The Black Widow doesn't appear, go back and talk to Dinot.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id003 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_destroying-spider-eggs.yaml
       origin_url: https://angels.wikidot.com/quest:destroying-spider-eggs
@@ -1084,6 +1088,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 65d1042ba54d8f1b34169eb9e7306561736cd9355f2887cdc44fbd9c250f399a
+      authority_role: null
+  - title_raw: Missing Friend
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Dinot Steel Facton; Character lvl 20+ No
+
+      Previous Quest Next Quest Blood Sacrifice Destroying Spider Eggs
+
+      Summary Dinot''s friend has been missing for a while, he asks you to try and find him, or any trace of him. Find Takice''s Bracer while killing Toxic Spiders .
+
+      Reward 1600 Experience, 50 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Dinot. Step 2 Defeat Toxic Spiders until you find Takice's Bracer. Step 3 Give the Bracer to Dinot and tell him the bad news.
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_missing-friend.yaml
+      origin_url: https://angels.wikidot.com/quest:missing-friend
+      retrieval_url: https://www.aowiki.uk/pages/quest_missing-friend.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 2feaef9e2b914c7bfc1b8753a5efff9d0c02561f6a5e397de15d716bb8791759
       authority_role: null
   period_guide_matches:
   - title_raw: Destroying spider eggs
@@ -1160,7 +1185,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-carrion-s-temptation
   name: Carrion‘s Temptation 3 of 4
   region: steel
@@ -1205,8 +1229,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Dinot. Step 2 Defeat Mummy Leaders and collect 3 Carrion. Step 3 Bring it to Dinot.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id004 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_carrion-s-temptation.yaml
       origin_url: https://angels.wikidot.com/quest:carrion-s-temptation
@@ -1214,6 +1237,29 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: ca254d480a75aad1f4356b91df0d0911d91fed7dbcbe63cc5eee0e97cb2bfce9
+      authority_role: null
+  - title_raw: Destroying Spider Eggs
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Dinot Steel Facton; Character lvl 20+; Completed quest Missing Friend No
+
+      Previous Quest Next Quest Missing Friend Carrion‘s Temptation
+
+      Summary Dinot wants revenge for his friend, he wants to kill the Queen Spider, the best way to draw her out is to destroy the spider nests. Destroy the eggs at the spider nests by clicking on them.
+
+      Reward 400 Experience, 45 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Dinot. Step 2 Destroy the eggs at the northern nest (288, 60) by clicking on the pile of bones. Step 3 Destroy the eggs at the southeast nest (293, 95) by clicking on
+      the pile of bones. Step 4 Destroy the eggs at the entrance nest (287, 131) by clicking on the pile of bones. Step 5 Destroy the eggs at the western nest (230, 92) by clicking on the pile of bones.
+      Step 6 The Black Widow doesn't appear, go back and talk to Dinot.
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_destroying-spider-eggs.yaml
+      origin_url: https://angels.wikidot.com/quest:destroying-spider-eggs
+      retrieval_url: https://www.aowiki.uk/pages/quest_destroying-spider-eggs.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 65d1042ba54d8f1b34169eb9e7306561736cd9355f2887cdc44fbd9c250f399a
       authority_role: null
   period_guide_matches:
   - title_raw: Carrigh’s temptation
@@ -1294,7 +1340,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-black-widow
   name: Black Widow 4 of 4
   region: steel
@@ -1342,7 +1387,6 @@ quests:
     walkthrough_raw: 'Step 1 Talk to Dinot. Step 2 Put the Carrion on the stone in front of the Widow''s Cave (289, 101) to summon it. Defeat the boss, Black Widow . (Tip: there are a lot of toxic spiders
       areound here, try to clean up the area before you summon the boss. She''s huge!) Step 3 Report your succuss to Dinot.'
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_black-widow.yaml
       origin_url: https://angels.wikidot.com/quest:black-widow
@@ -1350,6 +1394,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 4856a7759fea9b6da183899b2d7979316e0818c16d67bfe85cb1723ba21530c0
+      authority_role: null
+  - title_raw: Carrion S Temptation
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Dinot Steel Faction; Character lvl 20+; Completed quest Destroying Spider Eggs No
+
+      Previous Quest Next Quest Destroying Spider Eggs Black Widow
+
+      Summary Dinot believes you need to temp the Black Widow from its lair by offering it food. Defeat Mummy Leaders and collect 3 Carrion to temp it.
+
+      Reward 1600 Experience, 60 Credit 5 Common Red Potion 1'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Dinot. Step 2 Defeat Mummy Leaders and collect 3 Carrion. Step 3 Bring it to Dinot.
+    walkthrough_steps: *id004
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_carrion-s-temptation.yaml
+      origin_url: https://angels.wikidot.com/quest:carrion-s-temptation
+      retrieval_url: https://www.aowiki.uk/pages/quest_carrion-s-temptation.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: ca254d480a75aad1f4356b91df0d0911d91fed7dbcbe63cc5eee0e97cb2bfce9
       authority_role: null
   period_guide_matches:
   - title_raw: Black Widow
@@ -1430,7 +1495,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-make-hormone-potion
   name: Make Hormone Potion 2 of 3
   region: steel
@@ -1478,8 +1542,7 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Myth Scholar. Step 2 Go to Cactus Plain and collect 10 Lizardman‘s Tails by defeating Ball Lizardmen . Step 3 Go to Gebuer Vale and collect 10 Gebuer’s Teeth by defeating
       Gebuer . Step 4 Take the materials to the Myth Scholar.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id005 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_make-hormone-potion.yaml
       origin_url: https://angels.wikidot.com/quest:make-hormone-potion
@@ -1487,6 +1550,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 6b2d974ee8e497bd7f4a2c7f679dbe0fcc3170e0e0350a0d4a9bb97fd840f115
+      authority_role: null
+  - title_raw: Strange Black Feather
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? - Steel Faction No
+
+      Previous Quest Next Quest Gebuer''s Proposal Collecting Herbs
+
+      Summary Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it, take this to Burning Desert and speak with the Myth Scholar.
+
+      Reward 400 Experience, 30 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it by clicking. Step 2 Take this feather to Burning Desert and speak with the Myth Scholar for more information.
+    walkthrough_steps: &id012 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_strange-black-feather.yaml
+      origin_url: https://angels.wikidot.com/quest:strange-black-feather
+      retrieval_url: https://www.aowiki.uk/pages/quest_strange-black-feather.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 3696c64b23cb13a9be6a4966ce0f513745bdf7495d64fe5260bd936ea4463dab
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -1546,7 +1630,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-huge-rotten-bird
   name: Huge Rotten Bird 3 of 3
   region: steel
@@ -1592,7 +1675,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Myth Scholar. Step 2 Go to Gebuer Vale and defeat the boss, Giant Bird . Step 3 Report back to the Myth Scholar in Burning Desert .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_huge-rotten-bird.yaml
       origin_url: https://angels.wikidot.com/quest:huge-rotten-bird
@@ -1600,6 +1682,29 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 7e964e4df301104efbf44317778472720d86571a22087151ae7bf35e9054b471
+      authority_role: null
+  - title_raw: Make Hormone Potion
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Myth Scholar Steel Faction; Character lvl 25+; Completed quest Strange Black Feather No
+
+      Previous Quest Next Quest Strange Black Feather Huge Rotten Bird
+
+      Summary The Myth Scholar wants to make a hormone potion to attract the Giant Bird. Go to Cactus Plain and collect 10 Lizardman‘s Tails by defeating Ball Lizardmen , and go to Gebuer Vale and collect
+      10 Gebuer’s Teeth by defeating Gebuer .
+
+      Reward 1000 Gold, 1200 Experience, 75 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to the Myth Scholar. Step 2 Go to Cactus Plain and collect 10 Lizardman‘s Tails by defeating Ball Lizardmen . Step 3 Go to Gebuer Vale and collect 10 Gebuer’s Teeth by defeating
+      Gebuer . Step 4 Take the materials to the Myth Scholar.
+    walkthrough_steps: *id005
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_make-hormone-potion.yaml
+      origin_url: https://angels.wikidot.com/quest:make-hormone-potion
+      retrieval_url: https://www.aowiki.uk/pages/quest_make-hormone-potion.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 6b2d974ee8e497bd7f4a2c7f679dbe0fcc3170e0e0350a0d4a9bb97fd840f115
       authority_role: null
   period_guide_matches:
   - title_raw: Huge Rotten Bird
@@ -1684,7 +1789,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-are-you-evil-enough-asmode
   name: Are you Evil Enough? Asmode 6 of 8
   region: steel
@@ -1711,20 +1815,58 @@ quests:
       source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: historical_dedicated_quest_page
     steps:
-    - Go back to Cactus Plain and talk to the Spy Angel . You will then return to Burning Desert and talk to the Surgeon who will give you Dog Tags. Give this item to Asmode .
-  historical_dedicated_pages: []
+    - Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn't sure you're a Gebuer.
+    - Not sure what to do, you go to Cactus Plain and speak with the Spy Angel (59,138).
+    - The Spy Angel tells you to go back to Burning Desert .
+    - 'Speak to the Surgeon (175,142) and he will give you dog tags of fallen soldiers. (Note: You must already have completed the quest Collecting Serum to get the tags.)'
+    - Take the tags back to Asmode (285,22) in Burning Desert and hand them to him. He will give you a Magic Stone (which will not appear in your inventory).
+  historical_dedicated_pages:
+  - title_raw: Steel Are You Evil Enough
+    summary_raw: Asmode doesn't trust you, so he asks you to prove yourself in Burning Desert .
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
+
+      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Obtaining Asmode's Trust and Collecting Serum
+    reward_raw: Exp. Credit Gold 500 25 - Items -
+    walkthrough_raw: 'Step 1 Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn''t sure you''re a Gebuer. Step 2 Not sure what to do, you go to Cactus Plain
+      and speak with the Spy Angel (59,138). Step 3 The Spy Angel tells you to go back to Burning Desert . Step 4 Speak to the Surgeon (175,142) and he will give you dog tags of fallen soldiers. (Note:
+      You must already have completed the quest Collecting Serum to get the tags.) Step 5 Take the tags back to Asmode (285,22) in Burning Desert and hand them to him. He will give you a Magic Stone (which
+      will not appear in your inventory).'
+    walkthrough_steps: &id006 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-are-you-evil-enough
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 521588055c14e0d8a6f24c1e790d9590b8c94f4a9a6c7087abc08f07d747a42b
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id010 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-obtaining-asmodes-trust
+      retrieval_url: https://web.archive.org/web/20100315235150id_/http://angels.wikidot.com:80/quest:steel-obtaining-asmodes-trust
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100315235150'
+      source_html_sha256: 143733a57260ffad7bf712cc6457a2704e9c56fe8f6622a3ead8dd6fe4d11aa7
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: burning-desert-magic-stone-asmode
   name: Magic Stone Asmode 7 of 8
   region: steel
@@ -1751,20 +1893,60 @@ quests:
       source_html_sha256: b46917a933cad816756ba4bf9ac0e49e272ebd0da25962456d8dfd018cdd774d
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: historical_dedicated_quest_page
     steps:
-    - Take the stone to Gebuer Vale and find the statue of a monkey holding a crowned egg (7,247). Click on it. This will transport you to the Den.
-  historical_dedicated_pages: []
+    - Asmode (285,22) will give you a Magic stone.
+    - Go to Gebuer Vale .
+    - Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of the screen). Then place the stone against it.
+    - You will be transported to Admode's Den.
+  historical_dedicated_pages:
+  - title_raw: Steel Magic Stone
+    summary_raw: Find the gateway to Asmodeus 's den.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 7 of 8)
+
+      Previous Quest Next Quest Are you Evil Enough? Evil Student Union Leader'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Are you Evil Enough?
+    reward_raw: Exp. Credit Gold 400 25 - Items -
+    walkthrough_raw: Step 1 Asmode (285,22) will give you a Magic stone. Step 2 Go to Gebuer Vale . Step 3 Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of
+      the screen). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+    walkthrough_steps: &id013 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-magic-stone
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 4da01f7a67fdeec0a0a09302aa449624a27e9aff0ad0d806ed6066cebb44322a
+      authority_role: null
+  - title_raw: Steel Are You Evil Enough
+    summary_raw: Asmode doesn't trust you, so he asks you to prove yourself in Burning Desert .
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
+
+      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Obtaining Asmode's Trust and Collecting Serum
+    reward_raw: Exp. Credit Gold 500 25 - Items -
+    walkthrough_raw: 'Step 1 Speak with Asmode (285,22) in Burning Desert , he will ask you to prove yourself because he isn''t sure you''re a Gebuer. Step 2 Not sure what to do, you go to Cactus Plain
+      and speak with the Spy Angel (59,138). Step 3 The Spy Angel tells you to go back to Burning Desert . Step 4 Speak to the Surgeon (175,142) and he will give you dog tags of fallen soldiers. (Note:
+      You must already have completed the quest Collecting Serum to get the tags.) Step 5 Take the tags back to Asmode (285,22) in Burning Desert and hand them to him. He will give you a Magic Stone (which
+      will not appear in your inventory).'
+    walkthrough_steps: *id006
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-are-you-evil-enough
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-are-you-evil-enough.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 521588055c14e0d8a6f24c1e790d9590b8c94f4a9a6c7087abc08f07d747a42b
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-plateau-monkey
   name: Plateau Monkey
   region: steel
@@ -1810,7 +1992,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Plateau Monkeys . Step 3 Report to the Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_plateau-monkey.yaml
       origin_url: https://angels.wikidot.com/quest:plateau-monkey
@@ -1891,7 +2072,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-lizardman-s-constant-attack
   name: Lizardman‘s Constant Attack
   region: steel
@@ -1937,7 +2117,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Chief. Step 2 Defeat 20 Spear Lizardmen . Step 3 Report to the Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_lizardman-s-constant-attack.yaml
       origin_url: https://angels.wikidot.com/quest:lizardman-s-constant-attack
@@ -2018,7 +2197,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-missing-necklace
   name: Missing Necklace
   region: steel
@@ -2064,7 +2242,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Sam. Step 2 Defeat Plateau Monkeys until you obtain the Love Necklace. Step 3 Return it to Sam.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_missing-necklace.yaml
       origin_url: https://angels.wikidot.com/quest:missing-necklace
@@ -2148,7 +2325,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-collecting-lizardman-s-bone
   name: Collecting Lizardman‘s Bone
   region: steel
@@ -2194,7 +2370,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Biologist. Step 2 Defeat Ball Lizardmen and until you obtain a Complete Lizard‘s skull, rib, shank and arm bone. Step 3 Take them to the Biologist.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_collecting-lizardman-s-bone.yaml
       origin_url: https://angels.wikidot.com/quest:collecting-lizardman-s-bone
@@ -2285,7 +2460,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-mysterious-pieces
   name: Mysterious Pieces
   region: steel
@@ -2332,7 +2506,6 @@ quests:
     walkthrough_raw: 'Step 1 Find the Mystic Piece. Step 2 Take it to Iron Castle and give it to Scholar Francise. Note: Scholar Francise says that the Geuber sealed up their city, and the key was shattered.
       There are ruins in Geuber on this peice…could it be part of the key?'
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_mysterious-pieces.yaml
       origin_url: https://angels.wikidot.com/quest:mysterious-pieces
@@ -2414,7 +2587,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-picking-cactus-fruit
   name: Picking Cactus Fruit 1 of 3
   region: steel
@@ -2459,8 +2631,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Sam. Step 2 Defeat Plateau Monkeys until you obtain 3 Cactus Fruit. Step 3 Give them to Sam.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id007 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_picking-cactus-fruit.yaml
       origin_url: https://angels.wikidot.com/quest:picking-cactus-fruit
@@ -2544,7 +2715,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-knack-for-promotion
   name: Knack for Promotion 2 of 3
   region: steel
@@ -2589,8 +2759,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak to Sam. Step 2 Defeat the boss, Lizard Lisad . Step 3 Give the head to Sam.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id008 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_knack-for-promotion.yaml
       origin_url: https://angels.wikidot.com/quest:knack-for-promotion
@@ -2598,6 +2767,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: a8a043209a8ea541a1fbbf0abbe723ed65e376b7c6e1212a87333ded84ec823d
+      authority_role: null
+  - title_raw: Picking Cactus Fruit
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Sam Steel Faction; Character Lvl 15+ No
+
+      Previous Quest Next Quest Collecting Lizardman''s Bone Knack for Promotion
+
+      Summary Sam loves cactus juice, he asks you to Obtain 3 Cactus Fruits by defeating Plateau Monkeys .
+
+      Reward 200 Gold, 1200 Experience, 65 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Sam. Step 2 Defeat Plateau Monkeys until you obtain 3 Cactus Fruit. Step 3 Give them to Sam.
+    walkthrough_steps: *id007
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_picking-cactus-fruit.yaml
+      origin_url: https://angels.wikidot.com/quest:picking-cactus-fruit
+      retrieval_url: https://www.aowiki.uk/pages/quest_picking-cactus-fruit.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 40dc57d9e0b17208c03ddfa9ab68ba7bd99ae3c941858eb5a8a32a56769b4177
       authority_role: null
   period_guide_matches:
   - title_raw: Knack of promotion
@@ -2664,7 +2854,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-reporting-achievement
   name: Reporting Achievement 3 of 3
   region: steel
@@ -2709,7 +2898,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Sam. Step 2 Speak with General Allie () in Burning Desert .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_reporting-achievement.yaml
       origin_url: https://angels.wikidot.com/quest:reporting-achievement
@@ -2717,6 +2905,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 869d47e167458a1757afb1e7badf0bbff55aa7c21056c0cc8f22661b97accb69
+      authority_role: null
+  - title_raw: Knack For Promotion
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Sam Steel Faction; Character Lvl 15+ Completed quest Picking Cactus Fruit No
+
+      Previous Quest Next Quest Picking Cactus Fruit Reporting Achievement
+
+      Summary Sam wants a promotion but he is too afraid to fight the monsters, he asks you to defeat the boss, Lizard Lisad and bring its head to him.
+
+      Reward 200 Gold, 1200 Experience, 370 Credit Choose one of: Pink Piggy , Brown Piggy , or Yellow Piggy'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak to Sam. Step 2 Defeat the boss, Lizard Lisad . Step 3 Give the head to Sam.
+    walkthrough_steps: *id008
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_knack-for-promotion.yaml
+      origin_url: https://angels.wikidot.com/quest:knack-for-promotion
+      retrieval_url: https://www.aowiki.uk/pages/quest_knack-for-promotion.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a8a043209a8ea541a1fbbf0abbe723ed65e376b7c6e1212a87333ded84ec823d
       authority_role: null
   period_guide_matches:
   - title_raw: Reporting achievement
@@ -2796,7 +3005,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-killing-plateau-monkey-asmode
   name: Killing Plateau Monkey Asmode 3 of 8
   region: steel
@@ -2827,7 +3035,37 @@ quests:
     steps:
     - 1. Killing 50 Plateau Monkey (135,168).
     - 2. Report to Spy Angel
-  historical_dedicated_pages: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id009 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-plateau-monkey.yaml
+      origin_url: https://angels.wikidot.com/quest:killing-plateau-monkey
+      retrieval_url: https://web.archive.org/web/20090101145144id_/http://angels.wikidot.com:80/quest:killing-plateau-monkey
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101145144'
+      source_html_sha256: 686053cdf9313ec7dec3e7919a32bc26c12188b76aaed6a89495e563f989b548
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-searching-for-spy-angel-3.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-searching-for-spy-angel-3
+      retrieval_url: https://web.archive.org/web/20090101163055id_/http://angels.wikidot.com:80/quest:steel-searching-for-spy-angel-3
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101163055'
+      source_html_sha256: db422404010a1545523976a159d7ea0f44eb9b1d36c3713a6f46f3165daed8ba
+      authority_role: null
   period_guide_matches:
   - title_raw: Killing Plateau Monkey
     section_raw: Executive Newbie - Steel
@@ -2847,11 +3085,10 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-disguise-asmode
   name: Disguise Asmode 4 of 8
   region: steel
@@ -2878,20 +3115,55 @@ quests:
       source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: historical_dedicated_quest_page
     steps:
-    - Go to Gebuer Vale and defeat Gebuers until you obtain the Gebuer Army Badge. Return with it to the Spy Angel.
-  historical_dedicated_pages: []
+    - Speak with the Spy Angel (59,138) in Cactus Plain
+    - Go to Gebuer Vale
+    - Defeat Gebuer Cadres until you have obtained the Secret Badge.
+    - Report back to the Spy Angel
+  historical_dedicated_pages:
+  - title_raw: Steel Disguise
+    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a Geubuer . Obtain their Secret Badge by defeating them.
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+      Previous Quest Next Quest Killing Plateau Monkey Obtaining Asmode''s Trust'
+    requirements_raw: Faction Lvl Rank Skill Quest steel 20 2 - Finished Killing Plateau Monkey
+    reward_raw: Exp. Credit Gold 2000 80 500 Items -
+    walkthrough_raw: Step 1 Speak with the Spy Angel (59,138) in Cactus Plain Step 2 Go to Gebuer Vale Step 3 Defeat Gebuer Cadres until you have obtained the Secret Badge. Step 4 Report back to the Spy
+      Angel
+    walkthrough_steps: &id011 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-disguise
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f8e26fed93081f1b4c9bd7116cd1faefdd6c367d09b38336f48a1729f7af5c74
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id009
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-plateau-monkey.yaml
+      origin_url: https://angels.wikidot.com/quest:killing-plateau-monkey
+      retrieval_url: https://web.archive.org/web/20090101145144id_/http://angels.wikidot.com:80/quest:killing-plateau-monkey
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101145144'
+      source_html_sha256: 686053cdf9313ec7dec3e7919a32bc26c12188b76aaed6a89495e563f989b548
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cactus-plain-obtaining-asmode-s-trust-asmode
   name: Obtaining Asmode's Trust Asmode 5 of 8
   region: steel
@@ -2918,10 +3190,46 @@ quests:
       source_html_sha256: efcdbbd4caa91d509487dd239ece11b2537e2a09461edf940ad7f91765166364
       authority_role: null
   walkthrough:
-    source_class: period_2012_community_guide
+    source_class: historical_dedicated_quest_page
     steps:
-    - 1. Talk to Asmode (286,21) at Burning Desert
-  historical_dedicated_pages: []
+    - Speak with the Spy Angel (59,138) in Cactus Plain
+    - Go to Gebuer Vale
+    - Defeat Gebuer Cadres until you have obtained the Secret Badge.
+    - Report back to the Spy Angel
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id010
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-obtaining-asmodes-trust
+      retrieval_url: https://web.archive.org/web/20100315235150id_/http://angels.wikidot.com:80/quest:steel-obtaining-asmodes-trust
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100315235150'
+      source_html_sha256: 143733a57260ffad7bf712cc6457a2704e9c56fe8f6622a3ead8dd6fe4d11aa7
+      authority_role: null
+  - title_raw: Steel Disguise
+    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a Geubuer . Obtain their Secret Badge by defeating them.
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+      Previous Quest Next Quest Killing Plateau Monkey Obtaining Asmode''s Trust'
+    requirements_raw: Faction Lvl Rank Skill Quest steel 20 2 - Finished Killing Plateau Monkey
+    reward_raw: Exp. Credit Gold 2000 80 500 Items -
+    walkthrough_raw: Step 1 Speak with the Spy Angel (59,138) in Cactus Plain Step 2 Go to Gebuer Vale Step 3 Defeat Gebuer Cadres until you have obtained the Secret Badge. Step 4 Report back to the Spy
+      Angel
+    walkthrough_steps: *id011
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-disguise
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-disguise.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f8e26fed93081f1b4c9bd7116cd1faefdd6c367d09b38336f48a1729f7af5c74
+      authority_role: null
   period_guide_matches:
   - title_raw: Obtaining Asmode’s trust
     section_raw: Executive Asistant – Steel
@@ -2940,11 +3248,10 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-helpless-choice
   name: Helpless Choice
   region: steel
@@ -2990,7 +3297,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Paladin Gerison . Step 2 Defeat 45 Ancient Soldiers . Step 3 report to Paladin Gerison .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_helpless-choice.yaml
       origin_url: https://angels.wikidot.com/quest:helpless-choice
@@ -3057,7 +3363,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-bury
   name: Bury
   region: steel
@@ -3103,7 +3408,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Paladin Gerison . Step 2 Defeat Ancient Soldiers until you collect 10 Corpses. Step 3 Bring them to Paladin Gerison .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_bury.yaml
       origin_url: https://angels.wikidot.com/quest:bury
@@ -3172,7 +3476,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-barft-s-curse
   name: Barft's Curse
   region: steel
@@ -3218,7 +3521,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Warrior Gegen . Step 2 Defeat Hook Barfts until you collect 5 Horns of Barft. Step 3 Give them to Warrior Gegen .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_barft-s-curse.yaml
       origin_url: https://angels.wikidot.com/quest:barft-s-curse
@@ -3287,7 +3589,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-barft-s-threat
   name: Barft's Threat
   region: steel
@@ -3333,7 +3634,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Warrior Gegen . Step 2 Defeat 45 Hook Barfts . Step 3 Report to Warrior Gegen .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_barft-s-threat.yaml
       origin_url: https://angels.wikidot.com/quest:barft-s-threat
@@ -3400,7 +3700,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-the-hunt-for-cooer
   name: The Hunt for Cooer
   region: steel
@@ -3444,7 +3743,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Mad Mike. Step 2 Defeat Desert Cooers until you obtain a lost stone. (It will appear in your quest log, not your inventory) Step 2 Take the stone to Mad Mike.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-hunt-for-cooer.yaml
       origin_url: https://angels.wikidot.com/quest:the-hunt-for-cooer
@@ -3517,7 +3815,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dragon-graveyard-the-hidden-enemy-agent-1
   name: The Hidden Enemy Agent 1
   region: steel
@@ -3587,7 +3884,6 @@ quests:
 
       Step 7 Pending Development'
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-hidden-enemy-agent-1.yaml
       origin_url: https://angels.wikidot.com/quest:the-hidden-enemy-agent-1
@@ -3660,7 +3956,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: gebuer-vale-rotten-bird-s-feather
   name: Rotten Bird‘s Feather
   region: steel
@@ -3706,7 +4001,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Click on the old totem (115, 45). Step 2 Defeat Rotten Birds until you obtain 10 Rotten Bird‘s Feathers. Step 3 Click on the old totem (115, 45) again.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rotten-bird-s-feather.yaml
       origin_url: https://angels.wikidot.com/quest:rotten-bird-s-feather
@@ -3788,7 +4082,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: gebuer-vale-ring-of-caravan
   name: Ring of Caravan
   region: steel
@@ -3834,7 +4127,6 @@ quests:
     walkthrough_raw: Step 1 While defeating Gebuer obtain an Unclaimed Ring. Step 2 Take it to Burning Desert and speak to the Desert Merchant there. It will turn out to be his. He gave it to a Gebuer who
       saved him.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ring-of-caravan.yaml
       origin_url: https://angels.wikidot.com/quest:ring-of-caravan
@@ -3926,7 +4218,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: gebuer-vale-eternal-glory
   name: Eternal Glory
   region: steel
@@ -3964,7 +4255,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_eternal-glory.yaml
       origin_url: https://angels.wikidot.com/quest:eternal-glory
@@ -4015,7 +4305,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: gebuer-vale-strange-black-feather
   name: Strange Black Feather 1 of 3
   region: steel
@@ -4059,8 +4348,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Go to the Rotten Bird Nest (188, 80) and collect a Black Feather from it by clicking. Step 2 Take this feather to Burning Desert and speak with the Myth Scholar for more information.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: *id012
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_strange-black-feather.yaml
       origin_url: https://angels.wikidot.com/quest:strange-black-feather
@@ -4150,7 +4438,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: gebuer-vale-evil-student-leader-asmode
   name: Evil Student Leader Asmode 8 of 8
   region: steel
@@ -4177,20 +4464,55 @@ quests:
       source_html_sha256: a39fb41e425c6a671b2ee48e43fcff71aa8570d687a34e153f4aa964d4e826ac
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: historical_dedicated_quest_page
     steps:
-    - Find Asmode's Den and defeat Asmodeus (boss).
-  historical_dedicated_pages: []
+    - Asmode (285,22) will give you a Magic stone.
+    - Go to Gebuer Vale .
+    - Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of the screen). Then place the stone against it.
+    - You will be transported to Admode's Den.
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-evil-student-leader.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-evil-student-leader
+      retrieval_url: https://web.archive.org/web/20090101160621id_/http://angels.wikidot.com:80/quest:steel-evil-student-leader
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101160621'
+      source_html_sha256: 560a2aecbedfbc7de2f553528e7aafddeb360ddc91fb0b1308d8ff33da14dd2a
+      authority_role: null
+  - title_raw: Steel Magic Stone
+    summary_raw: Find the gateway to Asmodeus 's den.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 7 of 8)
+
+      Previous Quest Next Quest Are you Evil Enough? Evil Student Union Leader'
+    requirements_raw: Faction Lvl Rank Skill Quest Steel 20 2 - Finished Are you Evil Enough?
+    reward_raw: Exp. Credit Gold 400 25 - Items -
+    walkthrough_raw: Step 1 Asmode (285,22) will give you a Magic stone. Step 2 Go to Gebuer Vale . Step 3 Find the statue of a monkey wearing a crown and holding an egg (7,247 - it's at the top left of
+      the screen). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+    walkthrough_steps: *id013
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+      origin_url: https://angels.wikidot.com/quest:steel-magic-stone
+      retrieval_url: https://www.aowiki.uk/pages/quest_steel-magic-stone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 4da01f7a67fdeec0a0a09302aa449624a27e9aff0ad0d806ed6066cebb44322a
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-knowing-iron-castle
   name: Knowing Iron Castle
   region: steel
@@ -4227,8 +4549,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: null
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id014 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-iron-castle.yaml
       origin_url: https://angels.wikidot.com/quest:knowing-iron-castle
@@ -4286,7 +4607,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-reaching-higher-level-2
   name: Reaching higher level 2
   region: steel
@@ -4316,7 +4636,22 @@ quests:
     source_class: existing_canonical_aomega
     steps:
     - Complete Knowing Iron Castle and continue the Iron Castle Angel progression quest.
-  historical_dedicated_pages: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id014
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-iron-castle.yaml
+      origin_url: https://angels.wikidot.com/quest:knowing-iron-castle
+      retrieval_url: https://web.archive.org/web/20090414114656id_/http://angels.wikidot.com:80/quest:knowing-iron-castle
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090414114656'
+      source_html_sha256: 47547d70e55a9bb35f58f6fe16d967d020a878c45008c0bc4bcdf9795637e479
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
   - id: iron-castle-reaching-higher-level-2
@@ -4345,11 +4680,10 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-inexperience-3-asmode
   name: Inexperience 3 Asmode 1 of 8
   region: steel
@@ -4376,9 +4710,16 @@ quests:
       source_html_sha256: 64df48e075712af8e037cc37e80f42ba355ee4350c9dce9b2a8b1ca2c4180a08
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Speak to IronCastle Angel when you have reached Level 20, Rank 2
+    - Reach character level 20 and Rank 2 as a Steel-faction character.
+    - Speak with the Iron Castle Angel at approximately (63,161) to begin the Steel Asmode progression.
+    caveat: Historical sources disagree whether the displayed reward is EXP or Credit; the walkthrough does not resolve that conflict.
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/iron-castle.yaml
+    - data/quests/research/legacy-guides/steel/steel-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages: []
   period_guide_matches: []
   existing_canonical_matches: []
@@ -4389,7 +4730,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: iron-castle-searching-for-spy-angel-asmode
   name: Searching for Spy Angel Asmode 2 of 8
   region: steel
@@ -4444,7 +4785,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-unrest-in-the-desert
   name: Unrest in the Desert
   region: steel
@@ -4537,7 +4877,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-caravan-s-safety-confirming
   name: Caravan‘s Safety Confirming
   region: steel
@@ -4577,7 +4916,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_caravan-s-safety-confirming.yaml
       origin_url: https://angels.wikidot.com/quest:caravan-s-safety-confirming
@@ -4646,7 +4984,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-evil-oasis-crystal
   name: Evil Oasis Crystal
   region: steel
@@ -4740,7 +5077,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-noise-cancellation
   name: Noise Cancellation
   region: steel
@@ -4833,7 +5169,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-suppress-a-disturbance
   name: Suppress a Disturbance
   region: steel
@@ -4926,7 +5261,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-scrap-iron-village-s-nightmare
   name: Scrap Iron Village's Nightmare
   region: steel
@@ -5020,7 +5354,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-blood-hammer
   name: Blood Hammer
   region: steel
@@ -5113,7 +5446,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-shadow-in-cactus-plain
   name: Shadow in Cactus Plain
   region: steel
@@ -5207,7 +5539,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-tyrant-of-cactus-plain
   name: Tyrant of Cactus Plain
   region: steel
@@ -5301,7 +5632,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-agitated-spirit
   name: Agitated Spirit
   region: steel
@@ -5394,7 +5724,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-mummy-head
   name: Mummy Head
   region: steel
@@ -5487,7 +5816,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-chaotic-immortality
   name: Chaotic Immortality
   region: steel
@@ -5581,7 +5909,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-killing-elite
   name: Killing Elite
   region: steel
@@ -5674,7 +6001,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-decayed-feather
   name: Decayed Feather
   region: steel
@@ -5767,7 +6093,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: iron-castle-defeating-header-gaberna
   name: Defeating Header Gaberna
   region: steel
@@ -5861,7 +6186,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: megalith-plain-arduous-archeology-study
   name: Arduous Archeology Study
   region: steel
@@ -5907,7 +6231,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Archeologist . Step 2 Defeat 40 Green Wolves . Step 3 Report back to the Archeologist .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_arduous-archeology-study.yaml
       origin_url: https://angels.wikidot.com/quest:arduous-archeology-study
@@ -5957,7 +6280,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: megalith-plain-shrewd-wolf-claw
   name: Shrewd Wolf Claw
   region: steel
@@ -6003,7 +6325,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Archeologist . Step 2 Defeat Green Wolves until you have collected 5 claws. Step 3 Give them to the Archeologist .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shrewd-wolf-claw.yaml
       origin_url: https://angels.wikidot.com/quest:shrewd-wolf-claw
@@ -6055,7 +6376,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: megalith-plain-plain-assault
   name: Plain Assault
   region: steel
@@ -6101,7 +6421,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Patrolman Wulfer . Step 2 Defeat 40 Plain Titans . Step 3 Report to Patrolman Wulfer .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_plain-assault.yaml
       origin_url: https://angels.wikidot.com/quest:plain-assault
@@ -6151,7 +6470,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: megalith-plain-titan-s-toy
   name: Titan‘s Toy
   region: steel
@@ -6197,7 +6515,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Patrolman Wulfer . Step 2 Defeat Plain Titans until you have collected 5 stones. Step 3 Give them to the Patrolman Wulfer .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_titan-s-toy.yaml
       origin_url: https://angels.wikidot.com/quest:titan-s-toy
@@ -6249,7 +6566,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: megalith-plain-investigate-evil-food
   name: Investigate Evil Food
   region: steel
@@ -6296,7 +6612,6 @@ quests:
     walkthrough_raw: Step 1 Talk to Machel in Iron Castle. Step 2 Talk to Romier in Dark City. Step 3 Talk to Michael in Breeze Woods. Step 4 Talk to Nemize in Aurora City. Step 5 Report to Angel Inspector
       .
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_investigate-evil-food.yaml
       origin_url: https://angels.wikidot.com/quest:investigate-evil-food
@@ -6386,7 +6701,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-breakdown-of-robot
   name: Breakdown of Robot
   region: steel
@@ -6432,7 +6746,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Engineer. Step 2 Destroy 20 Buccinal Robots . Step 3 Report to the Engineer.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_breakdown-of-robot.yaml
       origin_url: https://angels.wikidot.com/quest:breakdown-of-robot
@@ -6514,7 +6827,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-disgusting-and-radiant-creature
   name: Disgusting and Radiant Creature
   region: steel
@@ -6560,7 +6872,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Worker. Step 2 Destroy Radiant Slarm until you collect the 10 Cores. Step 3 Take the cores to the Worker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_disgusting-and-radiant-creature.yaml
       origin_url: https://angels.wikidot.com/quest:disgusting-and-radiant-creature
@@ -6645,7 +6956,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-taking-construction-manual
   name: Taking Construction Manual
   region: steel
@@ -6691,7 +7001,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Designer. Step 2 Destroy Fat Robots until you recover the Blueprint. Step 3 Bring the Blueprint to the Designer.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_taking-construction-manual.yaml
       origin_url: https://angels.wikidot.com/quest:taking-construction-manual
@@ -6774,7 +7083,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-parts-collection
   name: Parts Collection
   region: steel
@@ -6820,7 +7128,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Repair Worker. Step 2 Destroy Fat Robots until you recover the two parts. Step 3 Give the parts to the Repair Worker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_parts-collection.yaml
       origin_url: https://angels.wikidot.com/quest:parts-collection
@@ -6910,7 +7217,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-correlation-between-metal-and-water
   name: Correlation Between Metal and Water 1 of 3
   region: steel
@@ -6956,8 +7262,7 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Edison to get the letter. Step 2 Give the letter to Einstien (75, 83) in Iron castle . Step 3 Return to Edison (200, 85) in Scrap Iron Village and hand him the metal
       distallate.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id015 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_correlation-between-metal-and-water.yaml
       origin_url: https://angels.wikidot.com/quest:correlation-between-metal-and-water
@@ -7029,7 +7334,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-power-source-for-experiment
   name: Power Source for Experiment 2 of 3
   region: steel
@@ -7073,8 +7377,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak to Edison (200, 85)) and he will make the request. Step 2 Defeat the boss, Turbo Robot .
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id016 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_power-source-for-experiment.yaml
       origin_url: https://angels.wikidot.com/quest:power-source-for-experiment
@@ -7082,6 +7385,28 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: bf5cb3f3c0538663ab1bfd6738cd05861ec99fef612f43e2d46786b639983655
+      authority_role: null
+  - title_raw: Correlation Between Metal And Water
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Edison Steel Faction; Character Lvl 10+ No
+
+      Previous Quest Next Quest Taking Construction Manual Power Source for Experiment
+
+      Summary Edison asks you to take a report to the scientist Einstein in Iron Castle to help him get materials for his project of turning metal to water.
+
+      Reward 550 Gold, 200 Experience, 50 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Edison to get the letter. Step 2 Give the letter to Einstien (75, 83) in Iron castle . Step 3 Return to Edison (200, 85) in Scrap Iron Village and hand him the metal
+      distallate.
+    walkthrough_steps: *id015
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_correlation-between-metal-and-water.yaml
+      origin_url: https://angels.wikidot.com/quest:correlation-between-metal-and-water
+      retrieval_url: https://www.aowiki.uk/pages/quest_correlation-between-metal-and-water.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 565ffd18f224b39d83bd113ce86ae55251fceb30e81a1a0c97db871285f008e4
       authority_role: null
   period_guide_matches:
   - title_raw: Power source for experiment
@@ -7163,7 +7488,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: scrap-iron-village-medium-of-chemical-formula
   name: Medium of Chemical Formula 3 of 3
   region: steel
@@ -7209,7 +7533,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Edison. Step 2 Go to Cactus Plain and defeat 20 Spear Lizardmen . Step 3 Return to Scrap Iron Village and report to Edison.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_medium-of-chemical-formula.yaml
       origin_url: https://angels.wikidot.com/quest:medium-of-chemical-formula
@@ -7217,6 +7540,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 13eda6e5eeb2180e3f78c9c7155a7e6c14414791cbcc6a6c936fdf4f94a3dfcf
+      authority_role: null
+  - title_raw: Power Source For Experiment
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Edison Steel Faction; Character Lvl 10+ Completed quest Correlation Between Metal and Water No
+
+      Previous Quest Next Quest Correlation Between Metal and Water Medium of Chemical Formula
+
+      Summary Obtain the Cyclone Furnace to power Edison''s experiment by defeating the boss, Turbo Robot .
+
+      Reward 1220 Experience, 360 Credit Choose one of: Courage Helmet , Harmony Cap or Wanderer''s Cap'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak to Edison (200, 85)) and he will make the request. Step 2 Defeat the boss, Turbo Robot .
+    walkthrough_steps: *id016
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_power-source-for-experiment.yaml
+      origin_url: https://angels.wikidot.com/quest:power-source-for-experiment
+      retrieval_url: https://www.aowiki.uk/pages/quest_power-source-for-experiment.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: bf5cb3f3c0538663ab1bfd6738cd05861ec99fef612f43e2d46786b639983655
       authority_role: null
   period_guide_matches:
   - title_raw: Medium of chemical formula
@@ -7295,7 +7639,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-rare-lizard-s-skin
   name: Rare Lizard's Skin
   region: steel
@@ -7341,7 +7684,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Desert Trip. Step 2 Collect 10 [Lizard's skin] from the Desert Lizards . Step 3 Talk to Desert Trip again.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-lizard-s-skin.yaml
       origin_url: https://angels.wikidot.com/quest:rare-lizard-s-skin
@@ -7425,7 +7767,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-rare-toad-s-skin
   name: Rare Toad's Skin
   region: steel
@@ -7471,7 +7812,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Desert Trip. Step 2 Collect 10 [Ocher Toad's skin] from the Ocher Toads . Step 3 Talk to Desert Trip again.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rare-toad-s-skin.yaml
       origin_url: https://angels.wikidot.com/quest:rare-toad-s-skin
@@ -7554,7 +7894,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-parts-and-desert-mouse
   name: Parts and Desert Mouse
   region: steel
@@ -7600,7 +7939,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Scrap Collector. Step 2 Collect 10 [Abandoned Parts] by defeating Desert Mice Step 3 Talk to Scrap Collector.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_parts-and-desert-mouse.yaml
       origin_url: https://angels.wikidot.com/quest:parts-and-desert-mouse
@@ -7683,7 +8021,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-hunting
   name: Hunting
   region: steel
@@ -7726,7 +8063,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 You must go to Angel Lyceum and buy a Newbie Bow from Shopkeeper Step 2 Return with Glutton and give him the bow.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_hunting.yaml
       origin_url: https://angels.wikidot.com/quest:hunting
@@ -7771,7 +8107,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-traveler-s-worry
   name: Traveler's Worry
   region: steel
@@ -7817,7 +8152,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Desert Merchant. Step 2 Defeat 20 Desert Mouse . Step 3 Talk to Desert Merchant again.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_traveler-s-worry.yaml
       origin_url: https://angels.wikidot.com/quest:traveler-s-worry
@@ -7899,7 +8233,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-wild-flavor
   name: Wild Flavor
   region: steel
@@ -7945,7 +8278,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Glutton. Step 2 Defeat 20 Desert Lizard . Step 3 Talk to Glutton again.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wild-flavor.yaml
       origin_url: https://angels.wikidot.com/quest:wild-flavor
@@ -8026,7 +8358,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-testing-apparatus-of-water-resource
   name: Testing Apparatus of Water Resource 1 of 4
   region: steel
@@ -8072,8 +8403,7 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Researcher Kente in Wishing Tear. Step 2 Go back to Iron Castle and speak to Researcher Along (77, 79) who will give you the gear. Step 3 Return the TX-116 gear to
       Researcher Kente (147, 68) in Wishing Tear.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id017 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_testing-apparatus-of-water-resource.yaml
       origin_url: https://angels.wikidot.com/quest:testing-apparatus-of-water-resource
@@ -8157,7 +8487,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-experiment-of-desert-animals
   name: Experiment of Desert Animals 2 of 4
   region: steel
@@ -8201,8 +8530,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Details here. Step 2 Details here.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id018 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_experiment-of-desert-animals.yaml
       origin_url: https://angels.wikidot.com/quest:experiment-of-desert-animals
@@ -8210,6 +8538,28 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: c18691e032aa9296ddb231c373000e80ac6d31d6939fd79c640d4433283301d5
+      authority_role: null
+  - title_raw: Testing Apparatus Of Water Resource
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Researcher Kente Steel Faction No
+
+      Previous Quest Next Quest Wild Flavor Experiment of Desert Animals
+
+      Summary Researcher Kente is investigating the pollution of the wishinmg tear but he forgot some materials. Go back to the Research center and get them for him.
+
+      Reward 250 Gold, 200 Experience, 20 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Researcher Kente in Wishing Tear. Step 2 Go back to Iron Castle and speak to Researcher Along (77, 79) who will give you the gear. Step 3 Return the TX-116 gear to
+      Researcher Kente (147, 68) in Wishing Tear.
+    walkthrough_steps: *id017
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_testing-apparatus-of-water-resource.yaml
+      origin_url: https://angels.wikidot.com/quest:testing-apparatus-of-water-resource
+      retrieval_url: https://www.aowiki.uk/pages/quest_testing-apparatus-of-water-resource.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: b346fddb2628fc7f962176a67bf2f274a9c2a07a1cc93f0a9f07d0f1056eb658
       authority_role: null
   period_guide_matches:
   - title_raw: Experiment of desert animal
@@ -8295,7 +8645,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-strange-robot
   name: Strange Robot 3 of 4
   region: steel
@@ -8344,8 +8693,7 @@ quests:
       Step 3
 
       Step 1'
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id019 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_strange-robot.yaml
       origin_url: https://angels.wikidot.com/quest:strange-robot
@@ -8353,6 +8701,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 57b5a83b7badedefa938a42072eaa6b055439226b92686a821ef822cdd178c9e
+      authority_role: null
+  - title_raw: Experiment Of Desert Animals
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Researcher Kente Steel Faction; Character Lvl 6+; Completed quest Testing Apparatus of Water Resource No
+
+      Previous Quest Next Quest Testing Apparatus of Water Resource Strange Robot
+
+      Summary Researcher Kente needs to study the animals who have been drinking the polluted water. Get him 10 toad boddies by defeating Ocher Toads and 10 lizard bodies by defeating Desert Lizards
+
+      Reward 850 Experience, 40 Credit 5 Red Potion'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Details here. Step 2 Details here.
+    walkthrough_steps: *id018
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_experiment-of-desert-animals.yaml
+      origin_url: https://angels.wikidot.com/quest:experiment-of-desert-animals
+      retrieval_url: https://www.aowiki.uk/pages/quest_experiment-of-desert-animals.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c18691e032aa9296ddb231c373000e80ac6d31d6939fd79c640d4433283301d5
       authority_role: null
   period_guide_matches:
   - title_raw: Strange Robot
@@ -8435,7 +8804,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: wishing-tear-genius-scientist
   name: Genius scientist 4 of 4
   region: steel
@@ -8480,7 +8848,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Researcher Kente. Step 2 Go to Scrap Iron Village and speak with Edison (200, 85).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_genius-scientist.yaml
       origin_url: https://angels.wikidot.com/quest:genius-scientist
@@ -8488,6 +8855,32 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 7d59da35fa101bce9694e39edbc5de55d41f79d2d439c27093196289e41c7702
+      authority_role: null
+  - title_raw: Strange Robot
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Researcher Kente Steel Faction; Completed quest Experiment of Desert Animals No
+
+      Previous Quest Next Quest Experiment of Desert Animals Genius scientist
+
+      Summary Researcher Kente saw a shadow while he was taking samples, he wishes for you to investigate it. You must defeat the Stained Robot boss.
+
+      Reward 1150 Experience, 160 Credit Choose one of: Traditional Armor , Traditional Vest , Traditional Magic Gown or Hard Shield'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: 'Step 1 Speak with Researcher Kente. Step 2 Go to the scrap pile at the bottom left corner of the map. Click on the metal at (27,10) to summon the Stained Robot boss. It will appear
+      right beside you.
+
+      Step 3
+
+      Step 1'
+    walkthrough_steps: *id019
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_strange-robot.yaml
+      origin_url: https://angels.wikidot.com/quest:strange-robot
+      retrieval_url: https://www.aowiki.uk/pages/quest_strange-robot.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 57b5a83b7badedefa938a42072eaa6b055439226b92686a821ef822cdd178c9e
       authority_role: null
   period_guide_matches:
   - title_raw: Genius scientist
@@ -8565,7 +8958,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 supplemental_historical_quest_pages:
 - title_raw: Angel Lyceum - Register At City Angel
   summary_raw: ???
@@ -8937,6 +9329,3 @@ supplemental_period_guide_blocks:
     archive_timestamp: null
     source_html_sha256: 6c7043082fbdec845470ba73ff4f45553a9db20c434db8a59941c7a241ca0515
     authority_role: secondary_historical_walkthrough
-sanitization:
-  policy: Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.
-  gap_corroboration_file: data/quests/research/gap-corroboration.yaml

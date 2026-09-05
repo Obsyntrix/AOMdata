@@ -8,16 +8,16 @@ authority_policy:
   aomega_target_client: final_verification_pending
 counts:
   area_table_quest_records: 78
-  with_historical_dedicated_page: 72
+  with_historical_dedicated_page: 78
   with_period_guide_match: 39
   with_current_client_match: 47
-  with_gap_corroboration: 0
-  walkthrough_historical_dedicated: 46
-  walkthrough_period_guide: 9
+  walkthrough_historical_dedicated: 48
+  walkthrough_period_guide: 7
   walkthrough_existing_canonical: 18
   walkthrough_area_minimal: 5
-  walkthrough_gap_corroboration: 0
   walkthrough_missing: 0
+  supplemental_historical_pages: 13
+  supplemental_period_guide_blocks: 10
 quests:
 - id: breeze-woods-knowing-breeze-woods
   name: Knowing Breeze Woods
@@ -55,8 +55,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: null
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id001 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-breeze-woods.yaml
       origin_url: https://angels.wikidot.com/quest:knowing-breeze-woods
@@ -64,6 +63,21 @@ quests:
       source_kind: angels_wikidot_wayback
       archive_timestamp: '20090101223504'
       source_html_sha256: 33afa035018c7532ccaf67aecf8c1025a56b146866ba3e555d38142e5cd90444
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
+      origin_url: https://angels.wikidot.com/quest:register-at-city-angel
+      retrieval_url: https://web.archive.org/web/20090727201820id_/http://angels.wikidot.com:80/quest:register-at-city-angel
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090727201820'
+      source_html_sha256: 104334fe8b975e9722a713ad9888e9a8f6d92b513e1f98b1b8fb2d8a708c3f34
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -98,7 +112,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-inexperience
   name: Inexperience
   region: breeze
@@ -136,7 +149,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
       origin_url: https://angels.wikidot.com/quest:inexperience
@@ -144,6 +156,21 @@ quests:
       source_kind: angels_wikidot_wayback
       archive_timestamp: '20090727203047'
       source_html_sha256: bd5fede4d9b97c500cd25935901ffa717d2f52f56794323685318bd5d1e45c61
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id001
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-breeze-woods.yaml
+      origin_url: https://angels.wikidot.com/quest:knowing-breeze-woods
+      retrieval_url: https://web.archive.org/web/20090101223504id_/http://angels.wikidot.com:80/quest:knowing-breeze-woods
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101223504'
+      source_html_sha256: 33afa035018c7532ccaf67aecf8c1025a56b146866ba3e555d38142e5cd90444
       authority_role: null
   period_guide_matches: []
   existing_canonical_matches:
@@ -178,7 +205,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-reaching-higher-levels
   name: Reaching higher Levels 1 of 8
   region: breeze
@@ -216,8 +242,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: null
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id002 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_beast-reaching-higher-levels.yaml
       origin_url: https://angels.wikidot.com/quest:beast-reaching-higher-levels
@@ -249,7 +274,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-looking-for-spy-angel
   name: Looking for Spy Angel 2 of 8
   region: breeze
@@ -290,7 +314,6 @@ quests:
     reward_raw: Exp. Credit Gold 200 25 - Items -
     walkthrough_raw: Step 1 Go to Cryptic Moon Swamp . Step 2 Speak with the Spy Angel (22,155) and take the quest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_beast-looking-for-spy-angel.yaml
       origin_url: https://angels.wikidot.com/quest:beast-looking-for-spy-angel
@@ -298,6 +321,38 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 5b85dad7195f095c7e7ed4a2abf7295e09140441b5787f05582a8ed0237a9fd3
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_beast-reaching-higher-levels.yaml
+      origin_url: https://angels.wikidot.com/quest:beast-reaching-higher-levels
+      retrieval_url: https://web.archive.org/web/20090101231424id_/http://angels.wikidot.com:80/quest:beast-reaching-higher-levels
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090101231424'
+      source_html_sha256: 820bb3a631fddf3a2b1d8a598906f97098ba7d3bed25bddb6191032507dccc90
+      authority_role: null
+  - title_raw: Looking For Spy Angel
+    summary_raw: You must find the Spy Angel to recieve instruction on your first assignment.
+    information_raw: 'Quest Giver Repeatable Series Aurora Angel No Yes (Asmode: 2 of 8)
+
+      Previous Quest Next Quest Reaching Higher Level Showing Speed and Destroying Force'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Reaching Higher Level
+    reward_raw: Exp. Credit Gold 200 25 - Items -
+    walkthrough_raw: Step 1 Go to Dawn Harbor . Step 2 Speak with the Spy Angel (70,177) and take the quest.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 102083d8df12e66e9a46a355b715fbf057dd7e942d89ca861f029dcf4de75d16
       authority_role: null
   period_guide_matches:
   - title_raw: Looking for Spy Angel
@@ -342,7 +397,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-monkey-nassi-lord
   name: Monkey Nassi(Lord)
   region: breeze
@@ -382,7 +436,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_monkey-nassi-lord.yaml
       origin_url: https://angels.wikidot.com/quest:monkey-nassi-lord
@@ -453,7 +506,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-blazing-and-dazzling
   name: Blazing and Dazzling
   region: breeze
@@ -493,7 +545,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_blazing-and-dazzling.yaml
       origin_url: https://angels.wikidot.com/quest:blazing-and-dazzling
@@ -564,7 +615,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-custered-wood
   name: Custered Wood
   region: breeze
@@ -604,7 +654,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_custered-wood.yaml
       origin_url: https://angels.wikidot.com/quest:custered-wood
@@ -674,7 +723,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-blaic-s-soar
   name: Blaic's Soar
   region: breeze
@@ -714,7 +762,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_blaic-s-soar.yaml
       origin_url: https://angels.wikidot.com/quest:blaic-s-soar
@@ -785,7 +832,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-defeat-yellow-mushroom
   name: Defeat Yellow Mushroom
   region: breeze
@@ -825,7 +871,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-yellow-mushroom.yaml
       origin_url: https://angels.wikidot.com/quest:defeat-yellow-mushroom
@@ -896,7 +941,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-poison-gas-spreading
   name: Poison Gas Spreading
   region: breeze
@@ -936,7 +980,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_poison-gas-spreading.yaml
       origin_url: https://angels.wikidot.com/quest:poison-gas-spreading
@@ -1006,7 +1049,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-fish-amount-preserving
   name: Fish Amount Preserving
   region: breeze
@@ -1046,7 +1088,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fish-amount-preserving.yaml
       origin_url: https://angels.wikidot.com/quest:fish-amount-preserving
@@ -1117,7 +1158,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-island-dispossessor
   name: Island Dispossessor
   region: breeze
@@ -1157,7 +1197,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_island-dispossessor.yaml
       origin_url: https://angels.wikidot.com/quest:island-dispossessor
@@ -1227,7 +1266,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-originators-of-an-evil-practice
   name: Originators of an Evil Practice
   region: breeze
@@ -1267,7 +1305,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_originators-of-an-evil-practice.yaml
       origin_url: https://angels.wikidot.com/quest:originators-of-an-evil-practice
@@ -1338,7 +1375,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-defeat-moon-evil-rabbit
   name: Defeat Moon Evil Rabbit
   region: breeze
@@ -1378,7 +1414,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-moon-evil-rabbit.yaml
       origin_url: https://angels.wikidot.com/quest:defeat-moon-evil-rabbit
@@ -1449,7 +1484,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-jade-vale-s-emerald
   name: Jade Vale's Emerald
   region: breeze
@@ -1489,7 +1523,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_jade-vale-s-emerald.yaml
       origin_url: https://angels.wikidot.com/quest:jade-vale-s-emerald
@@ -1559,7 +1592,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-capture-outlaws
   name: Capture Outlaws
   region: breeze
@@ -1599,7 +1631,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_capture-outlaws.yaml
       origin_url: https://angels.wikidot.com/quest:capture-outlaws
@@ -1669,7 +1700,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-queen-angela
   name: Queen Angela
   region: breeze
@@ -1709,7 +1739,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_queen-angela.yaml
       origin_url: https://angels.wikidot.com/quest:queen-angela
@@ -1780,7 +1809,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-defeat-thunder-rabbit
   name: Defeat Thunder Rabbit
   region: breeze
@@ -1820,7 +1848,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-thunder-rabbit.yaml
       origin_url: https://angels.wikidot.com/quest:defeat-thunder-rabbit
@@ -1890,7 +1917,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: breeze-woods-naughty-garden-elf
   name: Naughty Garden Elf
   region: breeze
@@ -1930,7 +1956,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_naughty-garden-elf.yaml
       origin_url: https://angels.wikidot.com/quest:naughty-garden-elf
@@ -2000,7 +2025,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-confirm-safety-around-alter
   name: Confirm Safety around Alter
   region: breeze
@@ -2047,7 +2071,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Assistant Breeze. Step 2 Check with the North Elder (216, 146). Step 3 Then go and check with the East Elder (229, 29). Step 4 Hand the results to Assistant Breeze.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_confirm-safety-around-alter.yaml
       origin_url: https://angels.wikidot.com/quest:confirm-safety-around-alter
@@ -2118,7 +2141,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-naughty-elf
   name: Naughty Elf
   region: breeze
@@ -2164,7 +2186,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Soldier, he will give you a random quest. Step 2 Defeat 20 Elves . Step 3 Speak with the Militia Soldier.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_naughty-elf.yaml
       origin_url: https://angels.wikidot.com/quest:naughty-elf
@@ -2245,7 +2266,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-inundant-toad-eggs
   name: Inundant Toad Eggs
   region: breeze
@@ -2291,7 +2311,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Soldier, he will give you a random quest. Step 2 Defeat 20 Marsh Frogs . Step 3 Speak with the Militia Soldier.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inundant-toad-eggs.yaml
       origin_url: https://angels.wikidot.com/quest:inundant-toad-eggs
@@ -2372,7 +2391,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-inundant-mud-crab
   name: Inundant Mud Crab
   region: breeze
@@ -2418,7 +2436,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Soldier, he will give you a random quest. Step 2 Defeat 20 Mud Crabs . Step 3 Speak with the Militia Soldier.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inundant-mud-crab.yaml
       origin_url: https://angels.wikidot.com/quest:inundant-mud-crab
@@ -2499,7 +2516,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-totem-destroyer
   name: Totem Destroyer
   region: breeze
@@ -2545,7 +2561,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Click on the old totem at (179, 6). Step 2 Defeat 10 Mud Crabs and 10 Marsh Frogs . Step 3 Return and click on the old totem at (179, 6).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_totem-destroyer.yaml
       origin_url: https://angels.wikidot.com/quest:totem-destroyer
@@ -2643,7 +2658,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-fisher-stone-s-distress
   name: Fisher Stone's Distress
   region: breeze
@@ -2693,7 +2707,6 @@ quests:
 
       _'
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fisher-stone-s-distress.yaml
       origin_url: https://angels.wikidot.com/quest:fisher-stone-s-distress
@@ -2774,7 +2787,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-ritual-pollen
   name: Ritual Pollen 1 of 4
   region: breeze
@@ -2820,8 +2832,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Shiwand. Step 2 Go to Dense Forest . Step 3 Defeat Wild Lilies until you have obtained 10 Pollen. Step 4 Return to Cryptic Moon Swamp and give the Pollen to Shiwand.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id003 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ritual-pollen.yaml
       origin_url: https://angels.wikidot.com/quest:ritual-pollen
@@ -2907,7 +2918,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-sage-s-staff
   name: Sage's Staff 2 of 4
   region: breeze
@@ -2953,8 +2963,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak to Shiwand. Step 2 Go to Breeze Woods . Step 3 Speak to Sharker (39, 99) and get the Sage's Staff. Step 4 Return to Cryptic Moon Swamp and give the staff to Shiwand.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id004 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sage-s-staff.yaml
       origin_url: https://angels.wikidot.com/quest:sage-s-staff
@@ -2962,6 +2971,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: a901480fc747e2c4d2ba8cd5de16b2a8eea1b28cfe21395df8a74aa30417f54f
+      authority_role: null
+  - title_raw: Ritual Pollen
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Shiwand Beast Faction; Character lvl 15+ No
+
+      Previous Quest Next Quest - Sage''s Staff
+
+      Summary Defeat Wild Lilies in Dense Forest until you have Collected 10 Pollen, which Shiwand needs to help complete the ritual.
+
+      Reward 800 Experience, 40 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Shiwand. Step 2 Go to Dense Forest . Step 3 Defeat Wild Lilies until you have obtained 10 Pollen. Step 4 Return to Cryptic Moon Swamp and give the Pollen to Shiwand.
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_ritual-pollen.yaml
+      origin_url: https://angels.wikidot.com/quest:ritual-pollen
+      retrieval_url: https://www.aowiki.uk/pages/quest_ritual-pollen.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 8480c38102928b9b8d409661fb63b43fdcdb69ede2ab66f545508c265e75cb16
       authority_role: null
   period_guide_matches:
   - title_raw: Sage's Staff
@@ -3048,7 +3078,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-break-seal
   name: Break Seal 3 of 4
   region: breeze
@@ -3093,7 +3122,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Shiwand. Step 2 Go to Breeze Woods and give the letter to Sharker (93, 99).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_break-seal.yaml
       origin_url: https://angels.wikidot.com/quest:break-seal
@@ -3101,6 +3129,52 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: a1d32a66b07640029894c2def49fd2ce54b0e278d325be930b25f25748603be2
+      authority_role: null
+  - title_raw: Sage S Staff
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Shiwand Beast Faction; Completed quest Ritual Pollen No
+
+      Previous Quest Next Quest Ritual Pollen Break Seal
+
+      Summary Ask Sharker (93, 99), the Breeze Woods leader, for the Sage''s staff and bring it to Shiwand for the ancestral ceremony.
+
+      Reward 800 Gold, 400 Experience, 35 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak to Shiwand. Step 2 Go to Breeze Woods . Step 3 Speak to Sharker (39, 99) and get the Sage's Staff. Step 4 Return to Cryptic Moon Swamp and give the staff to Shiwand.
+    walkthrough_steps: *id004
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_sage-s-staff.yaml
+      origin_url: https://angels.wikidot.com/quest:sage-s-staff
+      retrieval_url: https://www.aowiki.uk/pages/quest_sage-s-staff.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a901480fc747e2c4d2ba8cd5de16b2a8eea1b28cfe21395df8a74aa30417f54f
+      authority_role: null
+  - title_raw: Break Seal Part 2
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Shiwand Beast Faction; Completed quest Sage''s Staff No
+
+      Previous Quest Next Quest Break Seal -
+
+      Summary Sharker assures you that he knows what he is doing, but he still needs ingredients to help with the ritual. Defeat Elves , Mud Crabs and Marsh Frogs to collect Essence of Wind, Essence of
+      Water and Essence of Sand for the spell preparations.
+
+      Reward 1500 Experience, 350 Credit Choose one of: Pink Piggy , Brown Piggy or Yellow Piggy'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: 'Step 1 Speak with Sharker in Breeze Woods . Step 2 Go to Cryptic Moon Swamp . Step 3 Defeat Elves , Mud Crabs and Marsh Frogs until the Essence of Wind, Essence of Water and Essence
+      of Sand is collected. (Essences in the same order as the monsters that drop them.)
+
+      Step 4 Return to Breeze Woods and give the items to Sharker.'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_break-seal-part-2.yaml
+      origin_url: https://angels.wikidot.com/quest:break-seal-part-2
+      retrieval_url: https://www.aowiki.uk/pages/quest_break-seal-part-2.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 377a0736ed04851e081d9a568c812b6656f1840a29cedbe4edc2f31eaeb077ce
       authority_role: null
   period_guide_matches:
   - title_raw: Break Seal
@@ -3241,7 +3315,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: cryptic-moon-swamp-killing-marsh-frogs-asmode
   name: Killing Marsh Frogs Asmode 3 of 8
   region: breeze
@@ -3268,20 +3341,58 @@ quests:
       source_html_sha256: 9e41099b4dada998d56f327e015e0ecaeb3e7e170c299a99765d74896717c583
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Defeat 50 Marsh Frogs to prove your ability to the Spy Angel
-  historical_dedicated_pages: []
+    - Speak with the Spy Angel at (22,155) in Cryptic Moon Swamp after completing Looking for Spy Angel.
+    - Defeat 50 Marsh Frogs in Cryptic Moon Swamp.
+    - Return to the Spy Angel at (22,155) to report.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/cryptic-moon-swamp.yaml
+    - data/quests/research/legacy-guides/breeze/beast-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id005 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-marsh-frogs.yaml
+      origin_url: https://angels.wikidot.com/quest:killing-marsh-frogs
+      retrieval_url: https://web.archive.org/web/20090108144205id_/http://angels.wikidot.com:80/quest:killing-marsh-frogs
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090108144205'
+      source_html_sha256: 2c4ccd31b34d94e5593283b18c3eeea472d8a94de8c02bdb99c693b7a5ee7e68
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-looking-for-spy-angel.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-looking-for-spy-angel
+      retrieval_url: https://web.archive.org/web/20090109015121id_/http://angels.wikidot.com:80/quest:breeze-looking-for-spy-angel
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090109015121'
+      source_html_sha256: fad3bb28606e347e4d74d71c5f2c79f6391d3255be2c849f8e555711b4728b9d
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: cryptic-moon-swamp-disguise-asmode
   name: Disguise Asmode 4 of 8
   region: breeze
@@ -3308,20 +3419,58 @@ quests:
       source_html_sha256: 9e41099b4dada998d56f327e015e0ecaeb3e7e170c299a99765d74896717c583
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Go to Jade Vale and defeat Magic Eye Members until you obtain the Robber Badge. Return with it to the Spy Angel.
-  historical_dedicated_pages: []
+    - Speak with the Spy Angel at (22,155) in Cryptic Moon Swamp after Killing Marsh Frogs.
+    - Travel to Jade Vale and defeat Magic Eye Members until the required robber/secret badge drops.
+    - Return the badge to the Spy Angel at (22,155).
+    caveat: Historical sources alternate between the English labels Robber Badge and Secret Badge; preserve both as aliases until target-client confirmation.
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/cryptic-moon-swamp.yaml
+    - data/quests/research/legacy-guides/breeze/beast-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id006 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-disguise
+      retrieval_url: https://web.archive.org/web/20100107142342id_/http://angels.wikidot.com:80/quest:breeze-disguise
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100107142342'
+      source_html_sha256: 97c93e337114ac127d538d807479fa487a2cc9d79e6c6c049dcad490a9881c2c
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id005
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_killing-marsh-frogs.yaml
+      origin_url: https://angels.wikidot.com/quest:killing-marsh-frogs
+      retrieval_url: https://web.archive.org/web/20090108144205id_/http://angels.wikidot.com:80/quest:killing-marsh-frogs
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090108144205'
+      source_html_sha256: 2c4ccd31b34d94e5593283b18c3eeea472d8a94de8c02bdb99c693b7a5ee7e68
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: cryptic-moon-swamp-obtaining-asmode-s-trust-asmode
   name: Obtaining Asmode's Trust Asmode 5 of 8
   region: breeze
@@ -3352,7 +3501,37 @@ quests:
     steps:
     - 1. Talk to Spy Angel(22,155)
     - 2. Find Asmode(300,72) and talk to him at Jade Vale
-  historical_dedicated_pages: []
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-obtaining-asmodes-trust
+      retrieval_url: https://web.archive.org/web/20090108171044id_/http://angels.wikidot.com:80/quest:breeze-obtaining-asmodes-trust
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090108171044'
+      source_html_sha256: 0df7c8c608820517506c2a618ea571858eebc2ca74b981b70986e6277e3da28f
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id006
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-disguise
+      retrieval_url: https://web.archive.org/web/20100107142342id_/http://angels.wikidot.com:80/quest:breeze-disguise
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20100107142342'
+      source_html_sha256: 97c93e337114ac127d538d807479fa487a2cc9d79e6c6c049dcad490a9881c2c
+      authority_role: null
   period_guide_matches:
   - title_raw: Obtaining Asmode's trust
     section_raw: Executive Assistent - Beast
@@ -3372,11 +3551,10 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-inspection-tour
   name: Inspection Tour
   region: breeze
@@ -3422,7 +3600,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inspection-tour.yaml
       origin_url: https://angels.wikidot.com/quest:inspection-tour
@@ -3511,7 +3688,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-man-eating-flower-masque
   name: Man-eating Flower Masque
   region: breeze
@@ -3556,7 +3732,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_man-eating-flower-masque.yaml
       origin_url: https://angels.wikidot.com/quest:man-eating-flower-masque
@@ -3640,7 +3815,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-fighting-ceremony
   name: Fighting Ceremony
   region: breeze
@@ -3686,7 +3860,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Jungle Priest, he will randomly assign you a quest. Step 2 Kill Forest Monkeys until you have obtained 10 Monkey Hairs. . Step 3 Take them to the Jungle Priest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fighting-ceremony.yaml
       origin_url: https://angels.wikidot.com/quest:fighting-ceremony
@@ -3769,7 +3942,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-guardian-ceremony
   name: Guardian Ceremony
   region: breeze
@@ -3815,7 +3987,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Jungle Priest, he will randomly assign you a quest. Step 2 Kill Nest Tree Elves until you have obtained 10 Wind Leaves. Step 3 Take them to the Jungle Priest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_guardian-ceremony.yaml
       origin_url: https://angels.wikidot.com/quest:guardian-ceremony
@@ -3898,7 +4069,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-ceremony-of-praying-for-rain
   name: Ceremony of Praying for Rain
   region: breeze
@@ -3944,7 +4114,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Jungle Priest, he will randomly assign you a quest. Step 2 Kill Wild Lillies until you have obtained 10 Icy Petals. Step 3 Take them to the Jungle Priest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ceremony-of-praying-for-rain.yaml
       origin_url: https://angels.wikidot.com/quest:ceremony-of-praying-for-rain
@@ -4027,7 +4196,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-lost-little-frog
   name: Lost Little Frog
   region: breeze
@@ -4073,7 +4241,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Jungle Priest. Step 2 Defeat the Flame Lily . Step 3 Take it to the Jungle Priest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_lost-little-frog.yaml
       origin_url: https://angels.wikidot.com/quest:lost-little-frog
@@ -4124,7 +4291,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-the-reivers
   name: The Reivers 1 of 3
   region: breeze
@@ -4169,8 +4335,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Herbalist Hebu. Step 2 Kill Nest Tree Elves until the mushroom is retrieved. Step 3 Speak with Herbalist Hebu.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id007 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-reivers.yaml
       origin_url: https://angels.wikidot.com/quest:the-reivers
@@ -4254,7 +4419,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-fiery-bud
   name: Fiery Bud 2 of 3
   region: breeze
@@ -4299,8 +4463,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak to Herbalist Hebu. Step 2 Defeat the boss, Flame Lily , be careful, it's tough and it does jump. Step 3 Speak to Herbalist Hebu.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id008 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_firey-bud.yaml
       origin_url: https://angels.wikidot.com/quest:firey-bud
@@ -4308,6 +4471,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 65a189115fe7e39a56effd8ebb0468b29452c948b5fd505119e709f9ee6eca36
+      authority_role: null
+  - title_raw: The Reivers
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Herbalist Hebu Beast Faction No
+
+      Previous Quest Next Quest - Fiery Bud
+
+      Summary Herbalist Hebu''s garden has been raided, please defeat Nest Tree Elves and obtain the stolen precious Mushrooms.
+
+      Reward 150 Gold, 850 Experience, 30 Credit 5 Low-effect Red Potion 1'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Herbalist Hebu. Step 2 Kill Nest Tree Elves until the mushroom is retrieved. Step 3 Speak with Herbalist Hebu.
+    walkthrough_steps: *id007
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-reivers.yaml
+      origin_url: https://angels.wikidot.com/quest:the-reivers
+      retrieval_url: https://www.aowiki.uk/pages/quest_the-reivers.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: b40a9e27d318dde73e43f1516c2ec18762700bfb0941fc951efe4c379829688b
       authority_role: null
   period_guide_matches:
   - title_raw: Fiery Bud
@@ -4384,7 +4568,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dense-forest-inquire-for-spore-collection
   name: Inquire for Spore Collection 3 of 3
   region: breeze
@@ -4430,7 +4613,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Herbalist Hebu. Step 2 Go to Mushroom Forest . Step 3 Speak with the Botany Assistant (185, 54)
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inquire-for-spore-collection.yaml
       origin_url: https://angels.wikidot.com/quest:inquire-for-spore-collection
@@ -4438,6 +4620,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 6759ad1a1cfe5c3eaeca1d6f699bd41be80219629a5d914ed69490b70f0885a4
+      authority_role: null
+  - title_raw: Fiery Bud
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Herbalist Hebu Beast Faction; Completed quest The Reivers No
+
+      Previous Quest Next Quest The Reivers Inquire for Spore Collection
+
+      Summary Defeat Flame Lily and obtain its fiery bud for Herbalist Hebu''s potions.
+
+      Reward 1120 Experience, 160 Credit Choose one of: Traditional Armor , Traditional Magic Gown , Traditional Vest or Hard Shield'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak to Herbalist Hebu. Step 2 Defeat the boss, Flame Lily , be careful, it's tough and it does jump. Step 3 Speak to Herbalist Hebu.
+    walkthrough_steps: *id008
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_firey-bud.yaml
+      origin_url: https://angels.wikidot.com/quest:firey-bud
+      retrieval_url: https://www.aowiki.uk/pages/quest_firey-bud.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 65a189115fe7e39a56effd8ebb0468b29452c948b5fd505119e709f9ee6eca36
       authority_role: null
   period_guide_matches:
   - title_raw: Inquire for Spore Collection
@@ -4515,7 +4718,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-damnable-green-lizard
   name: Damnable Green Lizard
   region: breeze
@@ -4561,7 +4763,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Fisher Chark. Step 2 Defeat 20 Green Lizards . Step 3 Speak again with Fisher Chark.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_damnable-green-lizard.yaml
       origin_url: https://angels.wikidot.com/quest:damnable-green-lizard
@@ -4625,7 +4826,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-delaying-of-ruins-study
   name: Delaying of Ruins Study
   region: breeze
@@ -4671,7 +4871,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Archaeologist. Step 2 Defeat Unicorn Rabbits until you obtain the Archeology Scoll. Step 3 Return the scroll to the Archaeologist.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_delaying-of-ruins-study.yaml
       origin_url: https://angels.wikidot.com/quest:delaying-of-ruins-study
@@ -4734,7 +4933,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-fight-for-ruins
   name: Fight for Ruins
   region: breeze
@@ -4780,7 +4978,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Soldier. Step 2 Defeat 20 Magic Eye Members . Step 3 Speak with the Militia Soldier.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fight-for-ruins.yaml
       origin_url: https://angels.wikidot.com/quest:fight-for-ruins
@@ -4844,7 +5041,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-greedy-green-lizard
   name: Greedy Green Lizard
   region: breeze
@@ -4886,7 +5082,6 @@ quests:
     reward_raw: Exp. Credit Gold - - - Items [[[item:Fisher Chark Card
     walkthrough_raw: Step 1 Talk with Fisher Chark Step 2 Kill Green Lizard to obtain 1 Scales of Green Lizard. Step 3 Talk again with Fisher Chark.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_greedy-green-lizard.yaml
       origin_url: https://angels.wikidot.com/quest:greedy-green-lizard
@@ -4933,7 +5128,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-ancient-book-rubbing
   name: Ancient Book Rubbing 1 of 3
   region: breeze
@@ -4980,8 +5174,7 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Vist the Relic (255,168). Step 2 Go to the Librarian (11,122) in Breeze Woods to buy paper and ink (200 gold). Step 3 Take the paper and ink back to the Relic and make a rubbing.
       You will get 'Copy Incantation Drawing'. Step 4 Take the 'Copy Incantation Drawing' to the Training Priest.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id009 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-book-rubbing.yaml
       origin_url: https://angels.wikidot.com/quest:ancient-book-rubbing
@@ -5055,7 +5248,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-mystic-words
   name: Mystic Words 2 of 3
   region: breeze
@@ -5100,8 +5292,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Training Priest. Step 2 Kill Unicorn Rabbits and Green Lizards untill you collect 10 unicorn rabbit horns and 10 green lizard scales . Step 3 Speak with Training Priest.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id010 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_mystic-words.yaml
       origin_url: https://angels.wikidot.com/quest:mystic-words
@@ -5109,6 +5300,28 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: a0e9fe9150c1bd21ca0beeac431e6ca71e9cff50e6dadda098305f9a30ef2ddc
+      authority_role: null
+  - title_raw: Ancient Book Rubbing
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Have to touch the Relic (255,168) Beast Faction No
+
+      Previous Quest Next Quest - Mystic Words
+
+      Summary Get a Rubbing of the letters on the ancient relic of the Sage, and get them translated.
+
+      Reward 500 Experience, 30 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Vist the Relic (255,168). Step 2 Go to the Librarian (11,122) in Breeze Woods to buy paper and ink (200 gold). Step 3 Take the paper and ink back to the Relic and make a rubbing.
+      You will get 'Copy Incantation Drawing'. Step 4 Take the 'Copy Incantation Drawing' to the Training Priest.
+    walkthrough_steps: *id009
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-book-rubbing.yaml
+      origin_url: https://angels.wikidot.com/quest:ancient-book-rubbing
+      retrieval_url: https://www.aowiki.uk/pages/quest_ancient-book-rubbing.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: e3282554e33a218e4a0af7ac84923f1172c40ae24f547ec2c5ea601ae1cf6b40
       authority_role: null
   period_guide_matches:
   - title_raw: Mastic Words
@@ -5181,7 +5394,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-verify-ability
   name: Verify Ability 3 of 3
   region: breeze
@@ -5229,7 +5441,6 @@ quests:
     walkthrough_raw: Step 1 Speak with the Training Priest, you will obtain a Mysterious Incantation Stone. Step 2 Take this stone to the Relic (244, 168) and place the stone in the slot.. Step 3 It will
       summon the boss, Sealed Beast which you must defeat. Step 4 Speak once more to the Training Priest.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_verify-ability.yaml
       origin_url: https://angels.wikidot.com/quest:verify-ability
@@ -5237,6 +5448,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 52ef65c70f2050e2f038423b9151507df2fc5cb968320a9ecce0ce202cddf58e
+      authority_role: null
+  - title_raw: Mystic Words
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Training Priest Beast Faction; Completed quest Ancient Book Rubbing No
+
+      Previous Quest Next Quest Ancient Book Rubbing Verify Ability
+
+      Summary Defeat Unicorn Rabbits and Green Lizards to collect 10 unicorn rabbit horns and 10 green lizard scales for the Training Priest''s potion to translate the ancient letters.
+
+      Reward 400 Experience, 25 Credit 5 Common Red Potion'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Training Priest. Step 2 Kill Unicorn Rabbits and Green Lizards untill you collect 10 unicorn rabbit horns and 10 green lizard scales . Step 3 Speak with Training Priest.
+    walkthrough_steps: *id010
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_mystic-words.yaml
+      origin_url: https://angels.wikidot.com/quest:mystic-words
+      retrieval_url: https://www.aowiki.uk/pages/quest_mystic-words.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a0e9fe9150c1bd21ca0beeac431e6ca71e9cff50e6dadda098305f9a30ef2ddc
       authority_role: null
   period_guide_matches:
   - title_raw: Verify Ability
@@ -5317,7 +5549,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: jade-vale-are-you-evil-enough-asmode
   name: Are you Evil Enough? Asmode 6 of 8
   region: breeze
@@ -5346,20 +5577,60 @@ quests:
       source_html_sha256: 130e72eb58d32141b55f0a0c13e412603f92f8f7c987ea7b510d41a847d4af83
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Go back to Cryptic Moon Swamp and talk to the Spy Angel . You will then return to Jade Vale and talk to the Archaeologist who will give you Cultural Relics (an antique). Give this item to Asmode.
-  historical_dedicated_pages: []
+    - Speak with Asmode in Jade Vale at approximately (300,72).
+    - Return to the Spy Angel at (22,155) in Cryptic Moon Swamp as instructed.
+    - Go back to Jade Vale and speak with the Archaeologist around (80,10).
+    - Complete the Archaeologist's required relic task and obtain the Cultural Relics.
+    - Give the Cultural Relics to Asmode in Jade Vale.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/jade-vale.yaml
+    - data/quests/research/legacy-guides/breeze/beast-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: &id011 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-are-you-evil-enough
+      retrieval_url: https://web.archive.org/web/20090417005544id_/http://angels.wikidot.com:80/quest:breeze-are-you-evil-enough
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090417005544'
+      source_html_sha256: 2e270c83587ab5693d85108083da6bc19281d13583f6cfa19b3004613de2ed97
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_cryptic-moon-swamp-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:cryptic-moon-swamp-obtaining-asmodes-trust
+      retrieval_url: https://web.archive.org/web/20090417125645id_/http://angels.wikidot.com:80/quest:cryptic-moon-swamp-obtaining-asmodes-trust
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090417125645'
+      source_html_sha256: 81f439059010053d00bbd320a365a6f2b66f9ce89830b0c9cf5eb65075f10f54
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: jade-vale-magic-stone-asmode
   name: Magic Stone Asmode 7 of 8
   region: breeze
@@ -5386,20 +5657,45 @@ quests:
       source_html_sha256: 130e72eb58d32141b55f0a0c13e412603f92f8f7c987ea7b510d41a847d4af83
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Take the stone to Mysterious Garden and find the statue of a minkey holding a crowned egg (257, 26). Click on it. This will transport you to the Den.
-  historical_dedicated_pages: []
+    - Speak with Asmode in Jade Vale after completing Are you Evil Enough?.
+    - Travel to Mysterious Garden.
+    - Find the monkey statue holding a crowned egg at (257,26) and activate it.
+    - The statue transports you to Asmode's Den; continue the chain there.
+    caveat: null
+    conflicts:
+    - A 2012 community guide places the statue at (258,56); the historical dedicated English quest evidence places it at (257,26), which is preferred here.
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/jade-vale.yaml
+    - data/quests/research/walkthrough-intake/areas/mysterious-garden.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id011
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-are-you-evil-enough
+      retrieval_url: https://web.archive.org/web/20090417005544id_/http://angels.wikidot.com:80/quest:breeze-are-you-evil-enough
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20090417005544'
+      source_html_sha256: 2e270c83587ab5693d85108083da6bc19281d13583f6cfa19b3004613de2ed97
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: mushroom-forest-good-spore-collection
   name: Good Spore Collection
   region: breeze
@@ -5444,7 +5740,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Kill red mushrooms and get "Good Spores" from them. Step 2 Return to the Bottany Assistant to collect rewards.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_good-spore-collection.yaml
       origin_url: https://angels.wikidot.com/quest:good-spore-collection
@@ -5527,7 +5822,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-venom-collection
   name: Venom Collection
   region: breeze
@@ -5573,7 +5867,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Newbie Wizard. Step 2 Kill Purple Mushrooms untill you have enough venom. Step 3 Give the Purple Mushroom Venom to the Newbie Wizard.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_venom-collection.yaml
       origin_url: https://angels.wikidot.com/quest:venom-collection
@@ -5656,7 +5949,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-golden-matsuake
   name: Golden Matsuake 1 of 4
   region: breeze
@@ -5702,8 +5994,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Tailman Pan. Step 2 Talk to Tailman Hei (207, 238). Step 3 Talk to Tailman Fei (37, 207). Step 4 Return to Tailman Pan.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id012 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_golden-matsuake.yaml
       origin_url: https://angels.wikidot.com/quest:golden-matsuake
@@ -5790,7 +6081,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-disappeared-golden-matsuake
   name: Disappeared Golden Matsuake 2 of 4
   region: breeze
@@ -5835,8 +6125,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Tailman Pan. Step 2 Defeat Mane Boars until you collect evidence of the golden matsuake. Step 3 Take it to Tailman Pan.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id013 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_disappeared-golden-matsuake.yaml
       origin_url: https://angels.wikidot.com/quest:disappeared-golden-matsuake
@@ -5844,6 +6133,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: ed68846f50a4adb91d9a216f94b08e125a110482d2ff538cd0e9744151e52976
+      authority_role: null
+  - title_raw: Golden Matsuake
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Tailman Pan Beast Faction No
+
+      Previous Quest Next Quest - Disappeared Golden Matsuake
+
+      Summary Go to Tailman Hei and Tailman Fei and ask about their progress in finding the Golden Matsuake.
+
+      Reward 300 Gold, 200 Experience, 45 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Tailman Pan. Step 2 Talk to Tailman Hei (207, 238). Step 3 Talk to Tailman Fei (37, 207). Step 4 Return to Tailman Pan.
+    walkthrough_steps: *id012
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_golden-matsuake.yaml
+      origin_url: https://angels.wikidot.com/quest:golden-matsuake
+      retrieval_url: https://www.aowiki.uk/pages/quest_golden-matsuake.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 15a475a401b7cf272dfd403250410fa9eea4ca928f6820d5c81ebf586bc4f270
       authority_role: null
   period_guide_matches:
   - title_raw: Disappeared Golden Matsuake
@@ -5923,7 +6233,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-boar-lord
   name: Boar Lord 3 of 4
   region: breeze
@@ -5950,10 +6259,11 @@ quests:
       source_html_sha256: 05799c89bf9ba41a98b284fb65cb6fc1e3fe64ae79fe2b614bbe5f146dc9c537
       authority_role: null
   walkthrough:
-    source_class: period_2012_community_guide
+    source_class: historical_dedicated_quest_page
     steps:
-    - 1. Talk to Tailman Pan(212,21)
-    - 2. Defeat Iron Mane Blaic (89,225)
+    - Talk to Tailman Pan.
+    - Defeat Mane Boars until you collect evidence of the golden matsuake.
+    - Take it to Tailman Pan.
   historical_dedicated_pages:
   - title_raw: Mushroom Forest Boar Lord
     summary_raw: null
@@ -5967,8 +6277,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: null
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id014 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_boar-lord.yaml
       origin_url: https://angels.wikidot.com/quest:boar-lord
@@ -5976,6 +6285,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: deb89d0b8de8ce30c8da9f1e8af784c7912cc5d6f2ec438ecd1ec40d47fa009a
+      authority_role: null
+  - title_raw: Disappeared Golden Matsuake
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Tailman Pan Beast Faction; Character level 10+; Completed quest Golden Matsuake No
+
+      Previous Quest Next Quest Golden Matsuake Boar Lord
+
+      Summary Defeat Mane Boars to find out if they ate the mushrooms.
+
+      Reward 600 Gold, 1040 Experience, 50 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to Tailman Pan. Step 2 Defeat Mane Boars until you collect evidence of the golden matsuake. Step 3 Take it to Tailman Pan.
+    walkthrough_steps: *id013
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_disappeared-golden-matsuake.yaml
+      origin_url: https://angels.wikidot.com/quest:disappeared-golden-matsuake
+      retrieval_url: https://www.aowiki.uk/pages/quest_disappeared-golden-matsuake.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: ed68846f50a4adb91d9a216f94b08e125a110482d2ff538cd0e9744151e52976
       authority_role: null
   period_guide_matches:
   - title_raw: Boar Lord
@@ -6051,7 +6381,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-sacral-praise
   name: Sacral Praise 4 of 4
   region: breeze
@@ -6097,7 +6426,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Tailman Pan. Step 2 Go to Cryptic Moon Swamp . Step 2 Give the invitation to Shiwand (202, 141).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sacral-praise.yaml
       origin_url: https://angels.wikidot.com/quest:sacral-praise
@@ -6105,6 +6433,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 56db73dcbe76e844b4ac66b2d787bde5e986e00edec40b80a700960d615d0fae
+      authority_role: null
+  - title_raw: Mushroom Forest Boar Lord
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Tailman Pan Beast Faction, Completed quest Disappeared Golden Matsuake No
+
+      Previous Quest Next Quest Disappeared Golden Matsuake Sacral Praise
+
+      Summary Defeat the boss Iron Mane Blaic to get back the mushroom for Pan.
+
+      Reward 1520 Experience, 360 Credit Choose one of: Courage Helmet , Harmony Cap or Wanderer''s Cap'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: *id014
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_boar-lord.yaml
+      origin_url: https://angels.wikidot.com/quest:boar-lord
+      retrieval_url: https://www.aowiki.uk/pages/quest_boar-lord.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: deb89d0b8de8ce30c8da9f1e8af784c7912cc5d6f2ec438ecd1ec40d47fa009a
       authority_role: null
   period_guide_matches:
   - title_raw: Sacral Praise
@@ -6183,7 +6532,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-hungry-robber
   name: Hungry Robber 1 of 2
   region: breeze
@@ -6231,8 +6579,7 @@ quests:
     walkthrough_raw: 'Step 1 Speak to Robber Hork (36, 48). Step 2 Defeat Red Mushrooms until you have collected enough mushroom pieces. Step 3 Defeat Mane Boars until you have collected pork pieces. _
 
       Step 4 Give the food to Robber Hork.'
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id015 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_hungry-robber.yaml
       origin_url: https://angels.wikidot.com/quest:hungry-robber
@@ -6321,7 +6668,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mushroom-forest-ancient-books
   name: Ancient Books 2 of 2
   region: breeze
@@ -6366,7 +6712,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Details here. Step 2 Details here.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-books.yaml
       origin_url: https://angels.wikidot.com/quest:ancient-books
@@ -6374,6 +6719,29 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: fb56e1b1560175f2a2d83ff8c12de1a37c3d7b88d1a0125c15039fbfdc061ee4
+      authority_role: null
+  - title_raw: Hungry Robber
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Robber Hork Beast Faction; Character level 10+ No
+
+      Previous Quest Next Quest - Ancient Books
+
+      Summary Defeat Red Mushrooms to collect mushroom pieces and Mane Boars to collect pork pieces for the Hork to eat.
+
+      Reward 1040 Experience, 50 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: 'Step 1 Speak to Robber Hork (36, 48). Step 2 Defeat Red Mushrooms until you have collected enough mushroom pieces. Step 3 Defeat Mane Boars until you have collected pork pieces. _
+
+      Step 4 Give the food to Robber Hork.'
+    walkthrough_steps: *id015
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_hungry-robber.yaml
+      origin_url: https://angels.wikidot.com/quest:hungry-robber
+      retrieval_url: https://www.aowiki.uk/pages/quest_hungry-robber.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 03e307373a6a46873f67220487d74bb51458d1f7c2ed58fcee9fd1313af0e2ac
       authority_role: null
   period_guide_matches:
   - title_raw: Ancient Books
@@ -6453,7 +6821,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-magic-pool
   name: Magic Pool
   region: breeze
@@ -6496,7 +6863,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_magic-pool.yaml
       origin_url: https://angels.wikidot.com/quest:magic-pool
@@ -6580,7 +6946,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-sleeping-spirit
   name: Sleeping Spirit
   region: breeze
@@ -6623,7 +6988,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_sleeping-spirit.yaml
       origin_url: https://angels.wikidot.com/quest:sleeping-spirit
@@ -6717,7 +7081,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-save-garden
   name: Save Garden
   region: breeze
@@ -6760,7 +7123,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_save-garden.yaml
       origin_url: https://angels.wikidot.com/quest:save-garden
@@ -6842,7 +7204,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-gaze-s-grave
   name: Gaze‘s Grave 1 of 3
   region: breeze
@@ -6888,8 +7249,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Mistress Marlin. Step 2 Locate the grave (61, 131) and click on it. Step 3 Return and tell Mistress Marlin.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id016 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_gaze-s-grave.yaml
       origin_url: https://angels.wikidot.com/quest:gaze-s-grave
@@ -6945,7 +7305,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-marlin-s-bone
   name: Marlin‘s Bone 2 of 3
   region: breeze
@@ -6990,8 +7349,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Mistress Marlin. Step 2 Defeat Thunder Rabbits until you obtain the bone. Step 3 Take the bone to Mistress Marlin.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id017 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_marlin-s-bone.yaml
       origin_url: https://angels.wikidot.com/quest:marlin-s-bone
@@ -6999,6 +7357,28 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 898c5caa21d4f7791d2829661b178dfb96f14f9ed3a2af293e029678e2bd22ee
+      authority_role: null
+  - title_raw: Gaze S Grave
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Mistress Marlin Beast Faction No
+
+      Previous Quest Next Quest - Marlin‘s Bone
+
+      Summary Speak to Mistress Marlin in the house, she wishes to know where her husband‘s grave is so that they might be together. Find it and click on it to read the stone at (61, 131) by the building
+      at the west of the map, then return to Marlin.
+
+      Reward 600 Gold, 800 Experience, 45 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Mistress Marlin. Step 2 Locate the grave (61, 131) and click on it. Step 3 Return and tell Mistress Marlin.
+    walkthrough_steps: *id016
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_gaze-s-grave.yaml
+      origin_url: https://angels.wikidot.com/quest:gaze-s-grave
+      retrieval_url: https://www.aowiki.uk/pages/quest_gaze-s-grave.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f8aaf68959aeebb70b4e63ca494a19a9354824b5505d2e0638da3db53fd2671a
       authority_role: null
   period_guide_matches:
   - title_raw: Marlin's Bone
@@ -7077,7 +7457,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-reunion
   name: Reunion 3 of 3
   region: breeze
@@ -7104,13 +7483,11 @@ quests:
       source_html_sha256: e6fb48f77287a39c4b6c785e88894b5d954d5196a79e073666fdc41cbd613f76
       authority_role: null
   walkthrough:
-    source_class: period_2012_community_guide
+    source_class: historical_dedicated_quest_page
     steps:
-    - 1. Talk to Mistress Marlin (180,110)
-    - 2. Bring Marlin's Bone to Gaze's Grave (62,131)
-    - 3. Talk to Magnet Gaze (57,130)
-    - 4. Kill Rage Elf
-    - 5. Talk to Magnet Gaze (57,130) again
+    - Speak with Mistress Marlin.
+    - Defeat Thunder Rabbits until you obtain the bone.
+    - Take the bone to Mistress Marlin.
   historical_dedicated_pages:
   - title_raw: Reunion
     summary_raw: null
@@ -7126,7 +7503,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_reunion.yaml
       origin_url: https://angels.wikidot.com/quest:reunion
@@ -7134,6 +7510,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: b7001691dacb4264a01b7816ccdf069185ededcafdfce60ea944431457ebdb38
+      authority_role: null
+  - title_raw: Marlin S Bone
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Mistress Marlin Beast Faction; Character lvl 20+ Finished quest Gaze‘s Grave No
+
+      Previous Quest Next Quest Gaze‘s Grave Reunion
+
+      Summary Mistress Marlin asks you to find her missing bone so she can be buried with her husband defeat Thunder Rabbits to obtain it then return to Marlin.
+
+      Reward 1200 Gold, 2000 Experience, 75 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with Mistress Marlin. Step 2 Defeat Thunder Rabbits until you obtain the bone. Step 3 Take the bone to Mistress Marlin.
+    walkthrough_steps: *id017
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_marlin-s-bone.yaml
+      origin_url: https://angels.wikidot.com/quest:marlin-s-bone
+      retrieval_url: https://www.aowiki.uk/pages/quest_marlin-s-bone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 898c5caa21d4f7791d2829661b178dfb96f14f9ed3a2af293e029678e2bd22ee
       authority_role: null
   period_guide_matches:
   - title_raw: Reunion
@@ -7232,7 +7629,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-garden-evil-student-leader-asmode
   name: Evil Student Leader Asmode 8 of 8
   region: breeze
@@ -7259,20 +7655,43 @@ quests:
       source_html_sha256: e6fb48f77287a39c4b6c785e88894b5d954d5196a79e073666fdc41cbd613f76
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Find Asmode's Den and defeat Asmodeus (boss).
-  historical_dedicated_pages: []
+    - Use the Magic Stone/statue route in Mysterious Garden to enter Asmode's Den.
+    - Defeat Asmodeus in the den.
+    - Return to the Breeze Spy Angel at (22,155) in Cryptic Moon Swamp to finish the Asmode chain.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/mysterious-garden.yaml
+    - data/quests/research/legacy-guides/breeze/beast-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
+  historical_dedicated_pages:
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-evil-student-leader.yaml
+      origin_url: https://angels.wikidot.com/quest:breeze-evil-student-leader
+      retrieval_url: https://web.archive.org/web/20081221150633id_/http://angels.wikidot.com:80/quest:breeze-evil-student-leader
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20081221150633'
+      source_html_sha256: 83a57fa3ae9be9c391495a81d1eec4c5cddd3ade29c7018bf97dedb7343e390d
+      authority_role: null
   period_guide_matches: []
   existing_canonical_matches: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: north-of-mirror-lake-unexpected-income
   name: Unexpected Income
   region: breeze
@@ -7318,7 +7737,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Athlete Cliff. Step 2 Defeat the Iron Crabs and until you collect 9 Milky Pearls. Step 3 Take them to Athlete Cliff.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_unexpected-income.yaml
       origin_url: https://angels.wikidot.com/quest:unexpected-income
@@ -7336,7 +7754,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: north-of-mirror-lake-revive-fishing-industry
   name: Revive Fishing Industry
   region: breeze
@@ -7382,7 +7799,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Athlete Cliff. Step 2 Defeat the 45 Iron Crabs . Step 3 Report back to Athlete Cliff.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_revive-fishing-industry.yaml
       origin_url: https://angels.wikidot.com/quest:revive-fishing-industry
@@ -7400,7 +7816,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: north-of-mirror-lake-spirit-sample-analyze
   name: Spirit Sample Analyze
   region: breeze
@@ -7446,7 +7861,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Defeat Water Goblins until you collect 5 Spirit Pieces from them for Analysis. Step 2 Defeat 45 Water Goblins . Step 3 Take them to Priest Gufu.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_spirit-sample-analyze.yaml
       origin_url: https://angels.wikidot.com/quest:spirit-sample-analyze
@@ -7464,7 +7878,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: north-of-mirror-lake-elf-s-agony
   name: Elf‘s Agony
   region: breeze
@@ -7510,7 +7923,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to Priest Gufu. Step 2 Defeat 45 Water Goblins . Step 3 Report back to Priest Gufu.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_elf-s-agony.yaml
       origin_url: https://angels.wikidot.com/quest:elf-s-agony
@@ -7528,7 +7940,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: north-of-mirror-lake-unidentified-treasure-map
   name: Unidentified Treasure Map
   region: breeze
@@ -7579,7 +7990,6 @@ quests:
       Step 4 Continue on to the third City, Iron Castle and the Antique Expert () will still not be completely certain. Step 5 Go to the last city, Dark City and the Antique Expert () will know what it
       is you have, and offer to buy it.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_unidentified-treasure-map.yaml
       origin_url: https://angels.wikidot.com/quest:unidentified-treasure-map
@@ -7626,7 +8036,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: quiet-vale-investigate-evil-force
   name: Investigate Evil Force
   region: breeze
@@ -7672,7 +8081,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Pioneer. Step 2 Defeat Evil Bishops until you have collected enough diamonds. Step 3 Take the Evil Diamonds to the Militia Pioneer.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_investigate-evil-force.yaml
       origin_url: https://angels.wikidot.com/quest:investigate-evil-force
@@ -7722,7 +8130,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: quiet-vale-evil-force-invasion
   name: Evil Force Invasion
   region: breeze
@@ -7768,7 +8175,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Militia Pioneer. Step 2 Defeat 40 Evil Bishops . Step 3 Return to the Militia Pioneer.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-force-invasion.yaml
       origin_url: https://angels.wikidot.com/quest:evil-force-invasion
@@ -7816,7 +8222,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: quiet-vale-evil-nazarite-from-dark-city
   name: Evil Nazarite From Dark City
   region: breeze
@@ -7862,7 +8267,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Trainee Oree. Step 2 Defeat 40 Evil Nazarites . Step 3 Report back to Trainee Oree.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-nazarite-from-dark-city.yaml
       origin_url: https://angels.wikidot.com/quest:evil-nazarite-from-dark-city
@@ -7910,7 +8314,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: quiet-vale-drive-away-wild-lizardmen
   name: Drive Away Wild Lizardmen
   region: breeze
@@ -7956,7 +8359,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Trainee Oree. Step 2 Defeat 40 40 Wild Lizardmen . Step 3 Report back to Trainee Oree.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_drive-away-wild-lizardmen.yaml
       origin_url: https://angels.wikidot.com/quest:drive-away-wild-lizardmen
@@ -8004,7 +8406,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: south-of-mirror-lake-circus-tyrant
   name: Circus Tyrant
   region: breeze
@@ -8050,7 +8451,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak to the South Villager. Step 2 Defeat 40 Circus Tyrants . Step 3 Report to the South Villager.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_circus-tyrant.yaml
       origin_url: https://angels.wikidot.com/quest:circus-tyrant
@@ -8098,7 +8498,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: south-of-mirror-lake-reseize-captured-fish
   name: Reseize Captured Fish
   region: breeze
@@ -8144,7 +8543,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak to the South Villager. Step 2 Defeat Circus Tyrants until you have recovered the Fresh Fish Stocks. Step 3 Return them to the South Villager.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_reseize-captured-fish.yaml
       origin_url: https://angels.wikidot.com/quest:reseize-captured-fish
@@ -8194,7 +8592,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: south-of-mirror-lake-cursed-wood
   name: Cursed Wood
   region: breeze
@@ -8240,7 +8637,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak to the Timberjacker. Step 2 Defeat 40 Lake Deathwoods . Step 3 Report to the Timberjacker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_cursed-wood.yaml
       origin_url: https://angels.wikidot.com/quest:cursed-wood
@@ -8288,7 +8684,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: south-of-mirror-lake-rebuilding-material
   name: Rebuilding Material
   region: breeze
@@ -8334,7 +8729,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak to the Timberjacker. Step 2 Defeat Lake Deathwoods until you have obtained enough Top-Quality Lumber from them. Step 3 Take them to the Timberjacker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rebuilding-material.yaml
       origin_url: https://angels.wikidot.com/quest:rebuilding-material
@@ -8384,7 +8778,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: south-of-mirror-lake-finding-an-axe
   name: Finding an Axe
   region: breeze
@@ -8426,7 +8819,6 @@ quests:
     reward_raw: Exp. Credit Gold - - - Items
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_finding-an-axe.yaml
       origin_url: https://angels.wikidot.com/quest:finding-an-axe
@@ -8471,7 +8863,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 supplemental_historical_quest_pages:
 - title_raw: A Will To Risk
   summary_raw: '"Gustav is badly injured and is awaiting your treatment. His fate is in your hands." -Quest Log'
@@ -8910,6 +9301,3 @@ supplemental_period_guide_blocks:
     archive_timestamp: null
     source_html_sha256: aebf1828b66a65a822860b2a3c928aba67f46be76e3d71a145fbd2cfd95607b7
     authority_role: secondary_historical_walkthrough
-sanitization:
-  policy: Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.
-  gap_corroboration_file: data/quests/research/gap-corroboration.yaml

@@ -8,16 +8,16 @@ authority_policy:
   aomega_target_client: final_verification_pending
 counts:
   area_table_quest_records: 82
-  with_historical_dedicated_page: 81
+  with_historical_dedicated_page: 82
   with_period_guide_match: 46
   with_current_client_match: 29
-  with_gap_corroboration: 0
-  walkthrough_historical_dedicated: 62
-  walkthrough_period_guide: 1
-  walkthrough_existing_canonical: 0
-  walkthrough_area_minimal: 19
-  walkthrough_gap_corroboration: 0
+  walkthrough_historical_dedicated: 63
+  walkthrough_period_guide: 0
+  walkthrough_existing_canonical: 1
+  walkthrough_area_minimal: 18
   walkthrough_missing: 0
+  supplemental_historical_pages: 6
+  supplemental_period_guide_blocks: 5
 quests:
 - id: bottomless-pit-wizard-terrorist
   name: Wizard, Terrorist
@@ -60,7 +60,6 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak with the Sickle Soldier (220, 76) Step 2 Defeat 20 Frantic Wizards . Step 3 Report back to the Sickle Soldier
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wizard-terrorist-2.yaml
       origin_url: https://angels.wikidot.com/quest:wizard-terrorist-2
@@ -78,7 +77,6 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak with the Researcher (199,79) Step 2 Defeat 20 Crow Wizards Step 3 Report back to the Researcher
     walkthrough_steps: []
-    matched_via: exact_sequence_aware_page_title
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wizard-terrorist.yaml
       origin_url: https://angels.wikidot.com/quest:wizard-terrorist
@@ -110,7 +108,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-seizing-fire-mimic
   name: Seizing Fire Mimic
   region: dark
@@ -152,7 +149,6 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak with the Sickle Soldier (220, 76) Step 2 Defeat 20 Fire Mimics . Step 3 Report back to the Sickle Soldier
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-fire-mimic.yaml
       origin_url: https://angels.wikidot.com/quest:seizing-fire-mimic
@@ -184,7 +180,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-ointment-for-scald
   name: Ointment for Scald
   region: dark
@@ -229,7 +224,6 @@ quests:
     walkthrough_raw: Step 1 Speak with the Analyst (206, 69) Step 2 Defeat Crow Wizards until you obtain 10 Raven's Feathers. Step 3 Defeat Frantic Wizards until you obtain 10 Black Agar. Step 1 Give the
       items to the Analyst
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ointment-for-scald.yaml
       origin_url: https://angels.wikidot.com/quest:ointment-for-scald
@@ -261,7 +255,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-buffoon-coin
   name: Buffoon Coin
   region: dark
@@ -303,7 +296,6 @@ quests:
     reward_raw: Exp. Credit Gold 510 25 - Items -
     walkthrough_raw: Step 1 Speak with the Researcher (210,82) Step 2 Defeat Fire Mimics unil 10 Clown's Coins are obtained. Step 3 Give them to the Researcher.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_buffoon-coin.yaml
       origin_url: https://angels.wikidot.com/quest:buffoon-coin
@@ -335,7 +327,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-secret-stamp
   name: Secret Stamp 1 of 4
   region: dark
@@ -375,8 +366,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - -
     reward_raw: Exp. Credit Gold 680 35 - Items -
     walkthrough_raw: Step 1 Find a Red Seal's Piece while fighting Frantic Wizards Step 2 Take it to Chief Esmat (194,89)
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id001 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_secret-stamp.yaml
       origin_url: https://angels.wikidot.com/quest:secret-stamp
@@ -394,7 +384,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-the-half-of-stamp
   name: The Half of Stamp 2 of 4
   region: dark
@@ -436,8 +425,7 @@ quests:
     reward_raw: Exp. Credit Gold 400 60 800 Items -
     walkthrough_raw: Step 1 Talk with Chief Esmat (194,89) and take his letter. Step 2 Go to Dark City and give the letter to the Central Official (200, 93), she will give you the blue stamp piece. Step
       3 Return to Bottomless Pit and give the stamp piece to Chief Esmat.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id002 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_the-half-of-stamp.yaml
       origin_url: https://angels.wikidot.com/quest:the-half-of-stamp
@@ -445,6 +433,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 962bb04ec2116d600a680a1b36fb04fcacd8bdb5ee48828611bf4774c050dbfb
+      authority_role: null
+  - title_raw: Secret Stamp
+    summary_raw: While batteling Frantic Wizards you find a mysterious red stamp piece with writting on it. Bring it to Chief Esmat for investigation.
+    information_raw: 'Quest Giver Repeatable Series Give to Chief Esmat No Yes (1 of 4)
+
+      Previous Quest Next Quest - The Half of Stamp'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - -
+    reward_raw: Exp. Credit Gold 680 35 - Items -
+    walkthrough_raw: Step 1 Find a Red Seal's Piece while fighting Frantic Wizards Step 2 Take it to Chief Esmat (194,89)
+    walkthrough_steps: *id001
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_secret-stamp.yaml
+      origin_url: https://angels.wikidot.com/quest:secret-stamp
+      retrieval_url: https://www.aowiki.uk/pages/quest_secret-stamp.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 49377d46a26c6dc7c773ef249424651ea956b902bb6b3542d7c7f1ed408b7553
       authority_role: null
   period_guide_matches:
   - title_raw: The half of stamp
@@ -470,7 +475,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-robbed-stamp
   name: Robbed Stamp 3 of 4
   region: dark
@@ -511,8 +515,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished The Half of Stamp
     reward_raw: Exp. Credit Gold 1360 25 - Items -
     walkthrough_raw: Step 1 Talk with Chief Esmat (194,89) Step 2 Defeat Fire Mimics until you obtain the piece. Step 3 Return it to Chief Esmat
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id003 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-stamp.yaml
       origin_url: https://angels.wikidot.com/quest:robbed-stamp
@@ -520,6 +523,24 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: ffb8105cc281b2147980cab906c6798c759a7ef35556e0fccb581818f68a2cfd
+      authority_role: null
+  - title_raw: The Half Of Stamp
+    summary_raw: Chief Esmat asks you to go to the Central Official in Dark City and bring back the other stamp piece.
+    information_raw: 'Quest Giver Repeatable Series Chief Esmat No Yes (2 of 4)
+
+      Previous Quest Next Quest Secret Stamp Robbed Stamp'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Secret Stamp
+    reward_raw: Exp. Credit Gold 400 60 800 Items -
+    walkthrough_raw: Step 1 Talk with Chief Esmat (194,89) and take his letter. Step 2 Go to Dark City and give the letter to the Central Official (200, 93), she will give you the blue stamp piece. Step
+      3 Return to Bottomless Pit and give the stamp piece to Chief Esmat.
+    walkthrough_steps: *id002
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_the-half-of-stamp.yaml
+      origin_url: https://angels.wikidot.com/quest:the-half-of-stamp
+      retrieval_url: https://www.aowiki.uk/pages/quest_the-half-of-stamp.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 962bb04ec2116d600a680a1b36fb04fcacd8bdb5ee48828611bf4774c050dbfb
       authority_role: null
   period_guide_matches:
   - title_raw: Robbed stamp
@@ -544,7 +565,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-ancient-mausoleum-gate
   name: Ancient Mausoleum Gate 4 of 4
   region: dark
@@ -588,7 +608,6 @@ quests:
     walkthrough_raw: Step 1 Speak with Chief Esmat (194,89). Step 2 Take the two pieces of the seal (key) and place them on the Mausoleum Gate (43, 174). Be careful, it summons a monster! Step 3 Defeat
       the boss, Ancient Elf and obtain the Gold Seal. Step 4 Give the Gold Seal to Chief Esmat.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-mausoleum-gate.yaml
       origin_url: https://angels.wikidot.com/quest:ancient-mausoleum-gate
@@ -596,6 +615,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 162d9d3ccf8417ebde02f788a47137eef14b807a7b76023b0b17895bb3f8443e
+      authority_role: null
+  - title_raw: Robbed Stamp
+    summary_raw: While you were in Dark City, Fire Mimics broke in and stole the Red Seal's Piece, you must get it back.
+    information_raw: 'Quest Giver Repeatable Series Chief Esmat No Yes (3 of 4)
+
+      Previous Quest Next Quest The Half of Stamp Ancient Mausoleum Gate'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished The Half of Stamp
+    reward_raw: Exp. Credit Gold 1360 25 - Items -
+    walkthrough_raw: Step 1 Talk with Chief Esmat (194,89) Step 2 Defeat Fire Mimics until you obtain the piece. Step 3 Return it to Chief Esmat
+    walkthrough_steps: *id003
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-stamp.yaml
+      origin_url: https://angels.wikidot.com/quest:robbed-stamp
+      retrieval_url: https://www.aowiki.uk/pages/quest_robbed-stamp.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: ffb8105cc281b2147980cab906c6798c759a7ef35556e0fccb581818f68a2cfd
       authority_role: null
   period_guide_matches:
   - title_raw: Acient mausoleum gate
@@ -623,7 +659,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-showing-speed-and-destroying-force
   name: Showing speed and destroying force 3 of 8
   region: dark
@@ -664,8 +699,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Looking for Spy Angel
     reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
     walkthrough_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit Step 2 Defeat 50 Fire Mimics Step 3 Report back to the Spy Angel
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id004 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-showing-speed-and-destroying-force.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-showing-speed-and-destroying-force
@@ -673,6 +707,40 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 5324cc209b12f202eb6372e970811362b8ab255cc59102119686b5bee5a261f2
+      authority_role: null
+  - title_raw: Shadow Looking For Spy Angel
+    summary_raw: You must find the Spy Angel to recieve instruction on your first assignment.
+    information_raw: 'Quest Giver Repeatable Series Dark City Angel No Yes (Asmode: 2 of 8)
+
+      Previous Quest Next Quest Reaching Higher Level Showing Speed and Destroying Force'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Reaching Higher Level
+    reward_raw: Exp. Credit Gold 200 25 - Items -
+    walkthrough_raw: Step 1 Go to Bottomless Pit . Step 2 Speak with the Spy Angel (314,37) and take the quest.
+    walkthrough_steps: &id005 []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-looking-for-spy-angel.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-looking-for-spy-angel
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-looking-for-spy-angel.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: b77642e943e6c6a5d803858c802062d5be485526b82a83712a46b00fb802113c
+      authority_role: null
+  - title_raw: Showing Speed And Destroying Force
+    summary_raw: The Spy Angel asks you to prove your ability by defeating 50 Grey Mice .
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode:3 of 8)
+
+      Previous Quest Next Quest Looking for Spy Angel Disguise'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Looking for Spy Angel
+    reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
+    walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Defeat 50 Grey Mice Step 3 Report back to the Spy Angel
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-showing-speed-and-destroying-force.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-showing-speed-and-destroying-force
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-showing-speed-and-destroying-force.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 988bf4bca804e5943763a273173efcd0d969d1c91560f988dcf15ffa0dcd9e3d
       authority_role: null
   period_guide_matches:
   - title_raw: Showing speed and destroying
@@ -696,7 +764,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: bottomless-pit-disguise
   name: Disguise 4 of 8
   region: dark
@@ -739,8 +806,7 @@ quests:
     reward_raw: Exp. Credit Gold 2000 80 500 Items -
     walkthrough_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit Step 2 Go to Degula Maze Step 3 Defeat Evil Leeches until you have obtained the Secret Badge. Step 4 Report back to the Spy
       Angel
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id009 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-disguise.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-disguise
@@ -748,6 +814,40 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 18897df6a0f2330b68d0dec5bda580e58021688af8256027bf8da6948b28ac33
+      authority_role: null
+  - title_raw: Shadow Showing Speed And Destroying Force
+    summary_raw: The Spy Angel asks you to prove your ability by defeating 50 Fire Mimics .
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 3 of 8)
+
+      Previous Quest Next Quest Looking for Spy Angel Disguise'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Looking for Spy Angel
+    reward_raw: Exp. Credit Gold 1500 60 - Items 10 Commmon Red Potion 1
+    walkthrough_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit Step 2 Defeat 50 Fire Mimics Step 3 Report back to the Spy Angel
+    walkthrough_steps: *id004
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-showing-speed-and-destroying-force.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-showing-speed-and-destroying-force
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-showing-speed-and-destroying-force.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 5324cc209b12f202eb6372e970811362b8ab255cc59102119686b5bee5a261f2
+      authority_role: null
+  - title_raw: Disguise
+    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member of the Piratekin . Obtain their Secret Badge by defeating them.
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+      Previous Quest Next Quest Showing Speed and Destroying Force Obtaining Asmode''s Trust'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Showing Speed and Destroying Force
+    reward_raw: Exp. Credit Gold 2000 80 500 Items -
+    walkthrough_raw: Step 1 Speak with the Spy Angel (70,177) in Dawn Harbor Step 2 Go to Riprap Coast Step 3 Defeat Piratekin until you have obtained the Secret Badge. Step 4 Report back to the Spy Angel
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-disguise
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-disguise.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 46c0d10d334a4ecb7fd38dd1dfd08b4e0842ce6a6de51d2450388ad8f3a4ec53
       authority_role: null
   period_guide_matches:
   - title_raw: Disguice
@@ -852,7 +952,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dark-city-register-at-dark-city-angel
   name: Register at Dark City Angel
   region: dark
@@ -879,9 +978,14 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Speak with the Dark City Angel and report.
+    - As a Dark/Shadow-faction character, speak with the Dark City Angel at (313,70) in Dark City and complete the registration/report dialogue.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -890,7 +994,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
       origin_url: https://angels.wikidot.com/quest:register-at-city-angel
@@ -925,7 +1028,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-knowing-dark-city
   name: Knowing Dark City
   region: dark
@@ -952,9 +1055,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Go talk to Risker Zalfer (298,62).
+    - After registering in Dark City, find Risker Zalfer at approximately (298,62).
+    - Speak with Risker Zalfer to complete the city-introduction step.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    - data/quests/research/legacy-guides/dark/shadow-quests.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -963,7 +1073,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-dark-city.yaml
       origin_url: https://angels.wikidot.com/quest:knowing-dark-city
@@ -998,7 +1107,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-inexperience
   name: Inexperience
   region: dark
@@ -1025,9 +1134,10 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: existing_canonical_aomega
     steps:
-    - Go to Executive Puyi and speak with him.
+    - Complete Knowing Aurora City.
+    - Speak with the Guard Captain at (156,114).
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1036,7 +1146,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
       origin_url: https://angels.wikidot.com/quest:inexperience
@@ -1046,7 +1155,56 @@ quests:
       source_html_sha256: bd5fede4d9b97c500cd25935901ffa717d2f52f56794323685318bd5d1e45c61
       authority_role: null
   period_guide_matches: []
-  existing_canonical_matches: []
+  existing_canonical_matches:
+  - id: aurora-city-inexperience
+    path: data/quests/areas/aurora-city.yaml
+    category: single
+    repeatable: false
+    giver: null
+    requirements:
+      prerequisite_quests:
+      - aurora-city-knowing-aurora-city
+    rewards:
+      experience: 100
+      credit: 5
+    objectives:
+    - type: talk
+      target: Guard Captain
+      area: Aurora City
+      coordinates:
+      - 156
+      - 114
+    walkthrough:
+    - Complete Knowing Aurora City.
+    - Speak with the Guard Captain at (156,114).
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
+  - id: breeze-woods-inexperience
+    path: data/quests/areas/breeze-woods.yaml
+    category: single
+    repeatable: false
+    giver: null
+    requirements:
+      prerequisite_quests:
+      - breeze-woods-knowing-breeze-woods
+    rewards:
+      experience: 100
+      credit: 5
+    objectives:
+    - type: talk
+      target: Militia Chief
+      area: Breeze Woods
+      coordinates:
+      - 191
+      - 111
+    walkthrough:
+    - Complete Knowing Breeze Woods, then speak with the Militia Chief at (191,111).
+    verification:
+      status: web_area_derived
+      client_confirmation: pending
+      conflicts: []
   current_client_corroboration: []
   verification:
     historical_primary_present: true
@@ -1054,7 +1212,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dark-city-reaching-higher-level
   name: Reaching Higher Level 1 of 8
   region: dark
@@ -1094,8 +1251,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - -
     reward_raw: Exp. Credit Gold 100 - - Items -
     walkthrough_raw: Step 1 Reach level 20, rank 2. Step 2 Go to Dark City and speak to the Dark City Angel (313,70)
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id006 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-reaching-higher-level.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-reaching-higher-level
@@ -1194,7 +1350,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dark-city-looking-for-spy-angel
   name: Looking for Spy Angel 2 of 8
   region: dark
@@ -1234,8 +1389,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Reaching Higher Level
     reward_raw: Exp. Credit Gold 200 25 - Items -
     walkthrough_raw: Step 1 Go to Bottomless Pit . Step 2 Speak with the Spy Angel (314,37) and take the quest.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: *id005
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-looking-for-spy-angel.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-looking-for-spy-angel
@@ -1243,6 +1397,40 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: b77642e943e6c6a5d803858c802062d5be485526b82a83712a46b00fb802113c
+      authority_role: null
+  - title_raw: Shadow Reaching Higher Level
+    summary_raw: When you are strong enough, your first Heaven-Angel quest will begin. Visit the Dark City Angel once you are level 20, rank 2 to begin.
+    information_raw: 'Quest Giver Repeatable Series Dark City Angel No Yes (Asmode: 1 of 8)
+
+      Previous Quest Next Quest - Looking for Spy Angel'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - -
+    reward_raw: Exp. Credit Gold 100 - - Items -
+    walkthrough_raw: Step 1 Reach level 20, rank 2. Step 2 Go to Dark City and speak to the Dark City Angel (313,70)
+    walkthrough_steps: *id006
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-reaching-higher-level.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-reaching-higher-level
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-reaching-higher-level.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: c5fa798a7c96d0098ee649308cd51f866a2c8444a7ff08f01c3a7003bec0907d
+      authority_role: null
+  - title_raw: Looking For Spy Angel
+    summary_raw: You must find the Spy Angel to recieve instruction on your first assignment.
+    information_raw: 'Quest Giver Repeatable Series Aurora Angel No Yes (Asmode: 2 of 8)
+
+      Previous Quest Next Quest Reaching Higher Level Showing Speed and Destroying Force'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Reaching Higher Level
+    reward_raw: Exp. Credit Gold 200 25 - Items -
+    walkthrough_raw: Step 1 Go to Dawn Harbor . Step 2 Speak with the Spy Angel (70,177) and take the quest.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-looking-for-spy-angel
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-looking-for-spy-angel.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 102083d8df12e66e9a46a355b715fbf057dd7e942d89ca861f029dcf4de75d16
       authority_role: null
   period_guide_matches:
   - title_raw: Looking for Spy Angel
@@ -1286,7 +1474,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: dark-city-a-stab-in-the-back
   name: A Stab in the Back
   region: dark
@@ -1313,9 +1500,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Skeletal Snipers in Shadowy Path .
+    - At level 10-14, take the repeatable quest from Executive Puyi at (181,83) in Dark City.
+    - Travel to Shadowy Path and defeat 30 Skeletal Snipers.
+    - Return to Executive Puyi at (181,83) to turn in the quest.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1324,7 +1518,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_a-stab-in-the-back.yaml
       origin_url: https://angels.wikidot.com/quest:a-stab-in-the-back
@@ -1342,7 +1535,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-tentical-in-shadow
   name: Tentical in Shadow
   region: dark
@@ -1369,9 +1562,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Red-Hooded Skull Header in Shadowy Path .
+    - At level 10-14, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Shadowy Path and defeat the boss Red-Hooded Skull Header.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1380,7 +1580,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_tentical-in-shadow.yaml
       origin_url: https://angels.wikidot.com/quest:tentical-in-shadow
@@ -1398,7 +1597,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-dark-bell
   name: Dark Bell
   region: dark
@@ -1425,9 +1624,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Giant Cat Cinlo in Shadowy Path .
+    - At level 10-14, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Shadowy Path and defeat the boss Giant Cat Cinlo.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1436,7 +1642,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_dark-bell.yaml
       origin_url: https://angels.wikidot.com/quest:dark-bell
@@ -1474,7 +1679,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-noise-maker
   name: Noise Maker
   region: dark
@@ -1501,9 +1706,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Crybabies in Fungus Forest South .
+    - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Fungus Forest South and defeat 30 Crybabies.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1512,7 +1724,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_noise-maker.yaml
       origin_url: https://angels.wikidot.com/quest:noise-maker
@@ -1550,7 +1761,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-wandering-spirit
   name: Wandering Spirit
   region: dark
@@ -1577,9 +1788,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Paopao in Fungus Forest South .
+    - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Fungus Forest South and defeat 30 Paopao.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1588,7 +1806,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wandering-spirit.yaml
       origin_url: https://angels.wikidot.com/quest:wandering-spirit
@@ -1626,7 +1843,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-paopao
   name: Paopao
   region: dark
@@ -1653,9 +1870,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss Dream Paopao in Fungus Forest South .
+    - At level 15-19, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Fungus Forest South and defeat the boss Dream Paopao.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1664,7 +1888,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_paopao.yaml
       origin_url: https://angels.wikidot.com/quest:paopao
@@ -1682,7 +1905,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-delusive-fire
   name: Delusive Fire
   region: dark
@@ -1709,9 +1932,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Fire Mimics in Bottomless Pit .
+    - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Bottomless Pit and defeat 30 Fire Mimics.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1720,7 +1950,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_delusive-fire.yaml
       origin_url: https://angels.wikidot.com/quest:delusive-fire
@@ -1738,7 +1967,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-belief-dominator
   name: Belief Dominator
   region: dark
@@ -1765,9 +1994,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Wizard Mord in Bottomless Pit .
+    - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Bottomless Pit and defeat the boss Wizard Mord.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1776,7 +2012,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_belief-dominator.yaml
       origin_url: https://angels.wikidot.com/quest:belief-dominator
@@ -1794,7 +2029,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-fire-operator
   name: Fire Operator
   region: dark
@@ -1821,9 +2056,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Stunt Lord Abbi in Bottomless Pit .
+    - At level 20-24, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Bottomless Pit and defeat the boss Stunt Lord Abbi.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1832,7 +2074,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fire-operator.yaml
       origin_url: https://angels.wikidot.com/quest:fire-operator
@@ -1850,7 +2091,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-evil-and-bloody-deed
   name: Evil and Bloody Deed
   region: dark
@@ -1877,9 +2118,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Evil Leeches in Degula Maze .
+    - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Degula Maze and defeat 30 Evil Leeches.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1888,7 +2136,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-and-bloody-deed.yaml
       origin_url: https://angels.wikidot.com/quest:evil-and-bloody-deed
@@ -1906,7 +2153,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-abtruse-evil-eye
   name: Abtruse Evil Eye
   region: dark
@@ -1933,9 +2180,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Evil Eye Bershala in Degula Maze .
+    - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Degula Maze and defeat the boss Evil Eye Bershala.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -1944,7 +2198,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_abtruse-evil-eye.yaml
       origin_url: https://angels.wikidot.com/quest:abtruse-evil-eye
@@ -1962,7 +2215,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-bloody-gent
   name: Bloody Gent
   region: dark
@@ -1989,9 +2242,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Bloody Pound in Degula Maze .
+    - At level 25-29, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Degula Maze and defeat the boss Bloody Pound.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -2000,7 +2260,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_bloody-gent.yaml
       origin_url: https://angels.wikidot.com/quest:bloody-gent
@@ -2018,7 +2277,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-fetor-maker
   name: Fetor Maker
   region: dark
@@ -2045,9 +2304,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat 30 Porky Men in Memory Cave .
+    - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Memory Cave and defeat 30 Porky Men.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -2056,7 +2322,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fetor-maker.yaml
       origin_url: https://angels.wikidot.com/quest:fetor-maker
@@ -2074,7 +2339,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-rotten-cross
   name: Rotten Cross
   region: dark
@@ -2101,9 +2366,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the 30 Decrusaders in Memory Cave .
+    - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Memory Cave and defeat 30 Decrusaders.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -2112,7 +2384,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_rotten-cross.yaml
       origin_url: https://angels.wikidot.com/quest:rotten-cross
@@ -2150,7 +2421,7 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: dark-city-evil-cat-yese
   name: Evil Cat Yese
   region: dark
@@ -2177,9 +2448,16 @@ quests:
       source_html_sha256: 6bd478216dc0847e1ef83bab7f3956751cb05a81c5cebb4d702cf3ae4c0a95c8
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Executive Puyi asks you to defeat the boss, Evil Cat Yese in Memory Cave .
+    - At level 30+, take the repeatable quest from Executive Puyi at (181,83).
+    - Travel to Memory Cave and defeat the boss Evil Cat Yese.
+    - Return to Executive Puyi in Dark City.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/dark-city.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -2188,7 +2466,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-cat-yese.yaml
       origin_url: https://angels.wikidot.com/quest:evil-cat-yese
@@ -2206,7 +2483,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: degula-maze-annoying-bat
   name: Annoying Bat
   region: dark
@@ -2248,7 +2525,6 @@ quests:
     reward_raw: Exp. Credit Gold 590 30 - Items -
     walkthrough_raw: Step 1 Speak with Manager Pandora (47,165). Step 2 Defeat 20 Little Eyes . Step 3 Report back to Manager Pandora.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_annoying-bat.yaml
       origin_url: https://angels.wikidot.com/quest:annoying-bat
@@ -2280,7 +2556,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-graveyard-destroyer
   name: Graveyard Destroyer
   region: dark
@@ -2322,7 +2597,6 @@ quests:
     reward_raw: Exp. Credit Gold 666 30 - Items -
     walkthrough_raw: Step 1 Speak with Manager Pandora (47,165). Step 2 Defeat 20 Evil Leeches . Step 3 Report back to Manager Pandora.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_graveyard-destroyer.yaml
       origin_url: https://angels.wikidot.com/quest:graveyard-destroyer
@@ -2354,7 +2628,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-confirmation-of-picking-pumpkin
   name: Confirmation of Picking Pumpkin
   region: dark
@@ -2398,7 +2671,6 @@ quests:
     walkthrough_raw: Step 1 Speak with the Melonland Worker (38,46). Step 2 Go and get a report from the E. Field Helper (213,32). Step 3 Then get the report from the N. Field Helper (215,168). Step 4 Return
       and tell the Melonland worker your findings.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_confirmation-of-picking-pumpkin.yaml
       origin_url: https://angels.wikidot.com/quest:confirmation-of-picking-pumpkin
@@ -2430,7 +2702,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-protecting-pumpkin
   name: Protecting Pumpkin
   region: dark
@@ -2472,7 +2743,6 @@ quests:
     reward_raw: Exp. Credit Gold 800 65 - Items -
     walkthrough_raw: Step 1 Speak with E. Feild Helper (213,32). Step 2 Defeat 20 One-Eyed Bats . Step 3 Report back to the E. Feild Helper.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_protecting-pumpkin.yaml
       origin_url: https://angels.wikidot.com/quest:protecting-pumpkin
@@ -2504,7 +2774,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-robbed-archive
   name: Robbed Archive
   region: dark
@@ -2546,7 +2815,6 @@ quests:
     reward_raw: Exp. Credit Gold 1320 70 - Items -
     walkthrough_raw: Step 1 Talk to the Executive Order (84,58). Step 2 Defeat Evil Leeches until you obtain the Archive. Step 3 Return it to the Executive Order.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-archive.yaml
       origin_url: https://angels.wikidot.com/quest:robbed-archive
@@ -2578,7 +2846,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-medicine-for-teeth-pain
   name: Medicine for Teeth Pain 1 of 3
   region: dark
@@ -2622,8 +2889,7 @@ quests:
     walkthrough_raw: 'Step 1 Talk to the Degula Duke (21,175). Step 2 Kill the Little Eye Bats until you obtain 10 tails. Step 3
 
       Kill the One-Eyed Bat s until you obtain 10 wings. Step 4 Take them to the Duke.'
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id007 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_medicine-for-teeth-pain.yaml
       origin_url: https://angels.wikidot.com/quest:medicine-for-teeth-pain
@@ -2655,7 +2921,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-bershala
   name: Bershala 2 of 3
   region: dark
@@ -2696,8 +2961,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Medicine for Teeth Pain
     reward_raw: 'Exp. Credit Gold 1920 350 - Items Choose one of: Spell Talisman , Courage Talisman , Intelligence Talisman , or Body Talisman'
     walkthrough_raw: Step 1 Talk to the Degula Duke (21,175) Step 2 Defeat the boss, Bershala . Step 3 Bring the rare Dark Pumpkin to Degula Duke.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id008 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_bershala.yaml
       origin_url: https://angels.wikidot.com/quest:bershala
@@ -2705,6 +2969,25 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: d36e3d9a7bb42af21baa5b3e0602acd4201128a2fa053b6a51538754000d648f
+      authority_role: null
+  - title_raw: Medicine For Teeth Pain
+    summary_raw: The Degula Duke has a horrific tooth ache. He asks you to bring him some ingredients so he can use them to make a remedy.
+    information_raw: 'Quest Giver Repeatable Series Degula Duke No Yes (1 of 3)
+
+      Previous Quest Next Quest - Bershala'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20+ - - -
+    reward_raw: Exp. Credit Gold 1600 70 1000 Items 5 Common Red Potion 1
+    walkthrough_raw: 'Step 1 Talk to the Degula Duke (21,175). Step 2 Kill the Little Eye Bats until you obtain 10 tails. Step 3
+
+      Kill the One-Eyed Bat s until you obtain 10 wings. Step 4 Take them to the Duke.'
+    walkthrough_steps: *id007
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_medicine-for-teeth-pain.yaml
+      origin_url: https://angels.wikidot.com/quest:medicine-for-teeth-pain
+      retrieval_url: https://www.aowiki.uk/pages/quest_medicine-for-teeth-pain.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d1b58110cb9b579ab1653260bd4d80a17151bb60567c5fff541b99eb97545049
       authority_role: null
   period_guide_matches:
   - title_raw: Bershala
@@ -2729,7 +3012,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-duke-s-invitation
   name: Duke's Invitation 3 of 3
   region: dark
@@ -2771,7 +3053,6 @@ quests:
     reward_raw: Exp. Credit Gold 400 30 - Items -
     walkthrough_raw: Step 1 Speak with the Degula Duke (21,175) and he will give you the invitation. Step 2 Go to Memory Cave . Step 3 Give the invitation to the Executive Chief (301,171).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_duke-s-invitation.yaml
       origin_url: https://angels.wikidot.com/quest:duke-s-invitation
@@ -2779,6 +3060,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 14723c5fafebcb6d3ad0c2d7cf64a9c2ccf22080e0116c5ea1d4491b83d99160
+      authority_role: null
+  - title_raw: Bershala
+    summary_raw: The Degula Duke longs for the succulent, rare Dark Pumpkin. But, it can only be found with the boss Bershala . He implores you to fetch it for him.
+    information_raw: 'Quest Giver Repeatable Series Degula Duke No Yes (2 of 3)
+
+      Previous Quest Next Quest Medicine for Teeth Pain Duke''s Invitation'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Medicine for Teeth Pain
+    reward_raw: 'Exp. Credit Gold 1920 350 - Items Choose one of: Spell Talisman , Courage Talisman , Intelligence Talisman , or Body Talisman'
+    walkthrough_raw: Step 1 Talk to the Degula Duke (21,175) Step 2 Defeat the boss, Bershala . Step 3 Bring the rare Dark Pumpkin to Degula Duke.
+    walkthrough_steps: *id008
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_bershala.yaml
+      origin_url: https://angels.wikidot.com/quest:bershala
+      retrieval_url: https://www.aowiki.uk/pages/quest_bershala.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: d36e3d9a7bb42af21baa5b3e0602acd4201128a2fa053b6a51538754000d648f
       authority_role: null
   period_guide_matches:
   - title_raw: Duke's invitation
@@ -2823,7 +3121,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-obtaining-asmode-s-trust
   name: Obtaining Asmode's Trust 5 of 8
   region: dark
@@ -2865,7 +3162,6 @@ quests:
     reward_raw: Exp. Credit Gold 400 35 - Items -
     walkthrough_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit . Step 2 Go to Degula Maze . Step 3 Give the Secret Badge to Asmode (54,15).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-obtaining-asmode-s-trust.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-obtaining-asmode-s-trust
@@ -2873,6 +3169,45 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 1a4d945d4f456872f963e6aa772fc37fa85af1f65d7a301ca8593a8c8608b42e
+      authority_role: null
+  - title_raw: Shadow Disguise
+    summary_raw: The Spy Angel's plan is to make Asmode trust you by believing you are a member of the Evil Leeches . Obtain their Secret Badge by defeating them.
+    information_raw: 'Quest Giver Repeatable Series Spy Angel No Yes (Asmode: 4 of 8)
+
+      Previous Quest Next Quest Showing Speed and Destroying Force Obtaining Asmode''s Trust'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Showing Speed and Destroying Force
+    reward_raw: Exp. Credit Gold 2000 80 500 Items -
+    walkthrough_raw: Step 1 Speak with the Spy Angel (314,37) in Bottomless Pit Step 2 Go to Degula Maze Step 3 Defeat Evil Leeches until you have obtained the Secret Badge. Step 4 Report back to the Spy
+      Angel
+    walkthrough_steps: *id009
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-disguise.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-disguise
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-disguise.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 18897df6a0f2330b68d0dec5bda580e58021688af8256027bf8da6948b28ac33
+      authority_role: null
+  - title_raw: Obtaining Asmode's trust
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Spy Angel Aurora faction, completion of Disguise quest No
+
+      Previous Quest Next Quest Disguise Are You Evil Enough
+
+      Summary Quick Summary
+
+      Reward 400 experience, 35 credits'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Hand the Secret Badge to Asmode
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-obtaining-asmodes-trust
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-obtaining-asmodes-trust.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: b4499013cb106da8dcaf90d5404d8a46590144492a6b8ff6bb04c340eca5407a
       authority_role: null
   period_guide_matches:
   - title_raw: Obtaining Asmode's trust
@@ -2937,7 +3272,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-are-you-evil-enough
   name: Are you evil enough? 6 of 8
   region: dark
@@ -2983,8 +3317,7 @@ quests:
       speak with the Spy Angel (314,37). Step 3 The Spy Angel tells you to go to Memory Cave . Step 4 In Memory Cave speak to the Lady (78,85) and she will give you her husband''s skull. (Note: You must
       already have completed the quest Husband''s Skull to get the skull.) Step 5 Take the skull back to Degula Maze and hand them to Asmode (54,15). He will give you a Magic Stone (which will not appear
       in your inventory).'
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id010 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-are-you-evil-enough.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-are-you-evil-enough
@@ -2992,6 +3325,41 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 8e725929717dfc3daf2c27316d93de80b44a83de72e54cb5194483c66de21bdb
+      authority_role: null
+  - title_raw: Angels Online Wiki
+    summary_raw: null
+    information_raw: null
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: null
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-obtaining-asmodes-trust.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-obtaining-asmodes-trust
+      retrieval_url: https://web.archive.org/web/20081223043541id_/http://angels.wikidot.com:80/quest:shadow-obtaining-asmodes-trust
+      source_kind: angels_wikidot_wayback
+      archive_timestamp: '20081223043541'
+      source_html_sha256: 8e00832c9c759b86100d47583ab4fa52cc6de607f25fc3305d0bd31a089a68a7
+      authority_role: null
+  - title_raw: Are You Evil Enough
+    summary_raw: Asmode doesn't trust you, so he asks you to rob treasure from Cherry Village.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
+
+      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Obtaining Asmode's Trust and Citizen's Plan to Retake Property
+    reward_raw: Exp. Credit Gold 500 25 - Items -
+    walkthrough_raw: 'Step 1 Speak with Asmode (262,178) in Riprap Coast , he will ask you to prove yourself because he isn''t sure you''re a Pirate. Step 2 Not sure what to do, you go to Dawn Harbor and
+      speak with the Spy Angel (70,177). Step 3 The Spy Angel tells you to go to Cherry Village . Step 4 In Cherry Village speak to Cherry''s Leader (235,73) and he will give you a bag of pearls. (Note:
+      You must already have completed the quest Citizen''s Plan to Retake Property to get the pearls.) Step 5 Take the pearls back to Riprap Coast and hand them to Asmode (262,178). He will give you a Magic
+      Stone (which will not appear in your inventory).'
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-are-you-evil-enough
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-are-you-evil-enough.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 5ab153a02f613d037ad7c10c3e312e12a04f7bd15f1f6ed465ddfc5b949870ea
       authority_role: null
   period_guide_matches:
   - title_raw: Are you evil enough?
@@ -3081,7 +3449,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: degula-maze-magic-stone
   name: Magic Stone 7 of 8
   region: dark
@@ -3124,8 +3491,7 @@ quests:
     reward_raw: Exp. Credit Gold 400 25 - Items -
     walkthrough_raw: Step 1 Asmode (54,15) will give you a Magic stone. Step 2 Go to Memory Cave . Step 3 Find the statue of a monkey wearing a crown and holding an egg (84,148 - it's in the top of the
       graveyard on the left on the screen, past the Lady). Then place the stone against it. Step 4 You will be transported to Admode's Den.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id015 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-magic-stone.yaml
       origin_url: https://angels.wikidot.com/quest:shadow-magic-stone
@@ -3133,6 +3499,44 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: ca3ea215fa5b799159d6f3987a2d5247c5a2f9944e699877d0ab08abb099cf22
+      authority_role: null
+  - title_raw: Shadow Are You Evil Enough
+    summary_raw: Asmode doesn't trust you, so he asks you to desecrate a tomb in Memory Cave .
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 6 of 8)
+
+      Previous Quest Next Quest Obtaining Asmode''s Trust Magic Stone'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Obtaining Asmode's Trust and Husband's Skull
+    reward_raw: Exp. Credit Gold 500 25 - Items -
+    walkthrough_raw: 'Step 1 Speak with Asmode (54,15) in Degula Maze , he will ask you to prove yourself because he isn''t sure you''re a Leech. Step 2 Not sure what to do, you go to Bottomless Pit and
+      speak with the Spy Angel (314,37). Step 3 The Spy Angel tells you to go to Memory Cave . Step 4 In Memory Cave speak to the Lady (78,85) and she will give you her husband''s skull. (Note: You must
+      already have completed the quest Husband''s Skull to get the skull.) Step 5 Take the skull back to Degula Maze and hand them to Asmode (54,15). He will give you a Magic Stone (which will not appear
+      in your inventory).'
+    walkthrough_steps: *id010
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-are-you-evil-enough.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-are-you-evil-enough
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-are-you-evil-enough.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 8e725929717dfc3daf2c27316d93de80b44a83de72e54cb5194483c66de21bdb
+      authority_role: null
+  - title_raw: Magic Stone
+    summary_raw: Find the gateway to Asmodeus 's den.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 7 of 8)
+
+      Previous Quest Next Quest Are you Evil Enough? Evil Student Union Leader'
+    requirements_raw: Faction Lvl Rank Skill Quest Aurora 20 2 - Finished Are you Evil Enough?
+    reward_raw: Exp. Credit Gold 400 25 - Items -
+    walkthrough_raw: Step 1 Asmode (262,178) will give you a Magic stone. Step 2 Go to Cherry Village . Step 3 Find the statue of a monkey wearing a crown and holding an egg (30,31 - it's on the little
+      island to the bottom left of the screen). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-magic-stone.yaml
+      origin_url: https://angels.wikidot.com/quest:aurora-magic-stone
+      retrieval_url: https://www.aowiki.uk/pages/quest_aurora-magic-stone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 248d0dfcf8cafed1dc0343e1ab1ecc24af776197bb18040cb91bc201b857ab8e
       authority_role: null
   period_guide_matches:
   - title_raw: Magic Stone
@@ -3237,7 +3641,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: foggy-forest-drive-away-lizardmen
   name: Drive Away Lizardmen
   region: dark
@@ -3279,7 +3682,6 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 Speak to the Night Merchant (). Step 2 Defeat 40 Fog Lizards . Step 3 Report back to the Night Merchant. _
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_drive-away-lizardmen.yaml
       origin_url: https://angels.wikidot.com/quest:drive-away-lizardmen
@@ -3314,7 +3716,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: foggy-forest-collect-cuss-ball
   name: Collect Cuss Ball
   region: dark
@@ -3356,7 +3757,6 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 Speak to the Night Merchant (). Step 2 Defeat Fog Lizards until you obtain 10 Cuss Balls. Step 3 Give them to the Night Merchant. _
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_collect-cuss-ball.yaml
       origin_url: https://angels.wikidot.com/quest:collect-cuss-ball
@@ -3391,7 +3791,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: foggy-forest-repel-exiled-earl
   name: Repel Exiled Earl
   region: dark
@@ -3433,7 +3832,6 @@ quests:
     reward_raw: Exp. Credit Gold 950 40 - Items -
     walkthrough_raw: Step 1 Speak to Collector Taless (). Step 2 Drive away 40 Exiled Earls . Step 3 Report back to Collector Taless. _
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_repel-exiled-earl.yaml
       origin_url: https://angels.wikidot.com/quest:repel-exiled-earl
@@ -3468,7 +3866,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: foggy-forest-evil-tooth
   name: Evil Tooth
   region: dark
@@ -3510,7 +3907,6 @@ quests:
     reward_raw: Exp. Credit Gold 950 40 - Items -
     walkthrough_raw: Step 1 Speak to Collector Taless (). Step 2 Defeat Exiled Earls until you have collected 10 of their Evil Teeth. Step 3 Give them to Collector Taless. _
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-tooth.yaml
       origin_url: https://angels.wikidot.com/quest:evil-tooth
@@ -3545,7 +3941,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-north-defeat-giant-mouse
   name: Defeat Giant Mouse
   region: dark
@@ -3587,7 +3982,6 @@ quests:
     reward_raw: Exp. Credit Gold 700 35 - Items -
     walkthrough_raw: Step 1 Listen to Big Mouth Anglu (). Step 2 Kill 40 Giant Mice . Step 3 Go back and listen to Big Mouth Anglu.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-giant-mouse.yaml
       origin_url: https://angels.wikidot.com/quest:defeat-giant-mouse
@@ -3622,7 +4016,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-north-collect-mouse-tails
   name: Collect Mouse Tails
   region: dark
@@ -3664,7 +4057,6 @@ quests:
     reward_raw: Exp. Credit Gold 700 35 - Items -
     walkthrough_raw: Step 1 Listen to Big Mouth Anglu (). Step 2 Defeat Giant Mice until you have collected 10 Giant Mouse Tails. Step 3 Throw them at Big Mouth Anglu.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_collect-mouse-tails.yaml
       origin_url: https://angels.wikidot.com/quest:collect-mouse-tails
@@ -3699,7 +4091,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-north-blockade-to-realizing-dream
   name: Blockade to Realizing Dream
   region: dark
@@ -3741,7 +4132,6 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 speak with the Project Leader (). Step 2 Defeat 40 Dark Fungi . Step 3 Report back to the Project Leader.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_blockade-to-realizing-dream.yaml
       origin_url: https://angels.wikidot.com/quest:blockade-to-realizing-dream
@@ -3776,7 +4166,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-north-robbed-parts
   name: Robbed Parts
   region: dark
@@ -3818,7 +4207,6 @@ quests:
     reward_raw: Exp. Credit Gold 810 38 - Items -
     walkthrough_raw: Step 1 speak with the Project Leader (). Step 2 Defeat Dark Fungi until you obtain 10 snails. Step 3 Return them to the Project Leader.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-parts.yaml
       origin_url: https://angels.wikidot.com/quest:robbed-parts
@@ -3853,7 +4241,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-mischievous-imp
   name: Mischievous Imp
   region: dark
@@ -3899,7 +4286,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Merchant Pierce. Step 2 Defeat 20 Imps . Step 3 Report to Merchant Pierce.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_mischievous-imp.yaml
       origin_url: https://angels.wikidot.com/quest:mischievous-imp
@@ -3931,7 +4317,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-teacher-s-difficulty
   name: Teacher's Difficulty
   region: dark
@@ -3977,7 +4362,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Miss Diana. Step 2 Defeat 20 Imps . Step 3 Report back to Miss Diana.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_teacher-s-difficulty.yaml
       origin_url: https://angels.wikidot.com/quest:teacher-s-difficulty
@@ -4009,7 +4393,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-worry-of-insomnia
   name: Worry of Insomnia
   region: dark
@@ -4055,7 +4438,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with Sleepless Nick. Step 2 Defeat 20 Crybabies . Step 3 Report to Sleepless Nick.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_worry-of-insomnia.yaml
       origin_url: https://angels.wikidot.com/quest:worry-of-insomnia
@@ -4087,7 +4469,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-paopao-s-dew
   name: Paopao's Dew
   region: dark
@@ -4133,7 +4514,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Symbol Master. Step 2 Defeat Paopao until you have collected 10 Dew and Fog. Step 3 Give them to the Symbol Master.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_paopao-s-dew.yaml
       origin_url: https://angels.wikidot.com/quest:paopao-s-dew
@@ -4151,7 +4531,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-giving-a-bad-child-a-lesson
   name: Giving a Bad Child a Lesson
   region: dark
@@ -4192,7 +4571,6 @@ quests:
     reward_raw: Exp. Credit Gold - - - Items Miss Diana card
     walkthrough_raw: Step 1 talk with Miss Diana Fungus Forest South (56,153) Step 2 kill imp to get a imp card and change it for Miss Diana card
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_giving-a-bad-child-a-lesson.yaml
       origin_url: https://angels.wikidot.com/quest:giving-a-bad-child-a-lesson
@@ -4210,7 +4588,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-trainer-s-curiosity
   name: Trainer‘s Curiosity 1 of 4
   region: dark
@@ -4251,8 +4628,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow 10+ - - -
     reward_raw: Exp. Credit Gold 1000 50 - Items -
     walkthrough_raw: Step 1 Talk to the Nazarite. Step 2 Defeat Crybabies until you obtain a Wrinkled Paper. Step 3 Give it to the Nazarite.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id011 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_trainer-s-curiosity.yaml
       origin_url: https://angels.wikidot.com/quest:trainer-s-curiosity
@@ -4284,7 +4660,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-crybaby-s-knack
   name: Crybaby‘s Knack 2 of 4
   region: dark
@@ -4325,8 +4700,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Trainer's Curiosity
     reward_raw: Exp. Credit Gold 1000 50 600 Items -
     walkthrough_raw: Step 1 Speak with the Nazarite. Step 2 Defeat Crybabies until you have obtained 3 Spirit Secret books. Step 3 Give them to the Nazarite.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id012 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_crybaby-s-knack.yaml
       origin_url: https://angels.wikidot.com/quest:crybaby-s-knack
@@ -4334,6 +4708,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 86e0aa93582900a7b05a31b8e22310098290d87ce329123496e0105d33081a1a
+      authority_role: null
+  - title_raw: Trainer S Curiosity
+    summary_raw: The Nazarite is in training, and he is curious of the Crybabies' strong will. He asks you to find a clue to how they succeed.
+    information_raw: 'Quest Giver Repeatable Series Nazarite No Yes (1 of 4)
+
+      Previous Quest Next Quest - Crybaby''s Knack'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 10+ - - -
+    reward_raw: Exp. Credit Gold 1000 50 - Items -
+    walkthrough_raw: Step 1 Talk to the Nazarite. Step 2 Defeat Crybabies until you obtain a Wrinkled Paper. Step 3 Give it to the Nazarite.
+    walkthrough_steps: *id011
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_trainer-s-curiosity.yaml
+      origin_url: https://angels.wikidot.com/quest:trainer-s-curiosity
+      retrieval_url: https://www.aowiki.uk/pages/quest_trainer-s-curiosity.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 311729ff2d3ae0752a39cb5bca522f55dc9feaf5fbbadc5f7d940af4b5496291
       authority_role: null
   period_guide_matches:
   - title_raw: Crybaby's knack
@@ -4358,7 +4749,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-misunderstanding
   name: Misunderstanding 3 of 4
   region: dark
@@ -4399,8 +4789,7 @@ quests:
     requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Crybaby's Knack
     reward_raw: 'Exp. Credit Gold 1520 300 - Items Choose one of: Courage Helmet , Wanderer''s Cap , and Harmony Cap'
     walkthrough_raw: Step 1 Speak with the Nazarite. Step 2 Defeat the boss, Rage Fire Elf . Step 3 Speak with the Nazarite again.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id013 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_misunderstanding.yaml
       origin_url: https://angels.wikidot.com/quest:misunderstanding
@@ -4408,6 +4797,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 566d3a37177c2ed862a993f5afe8cb131812342b574e56bfac09e4d0358182c9
+      authority_role: null
+  - title_raw: Crybaby S Knack
+    summary_raw: The Nazarite believes the Crybabies must have a learned method to their persistance. He asks you to find it. You must defeat Crybabies until you do.
+    information_raw: 'Quest Giver Repeatable Series Nazarite No Yes (2 of 4)
+
+      Previous Quest Next Quest Trainer''s Curiosity Misunderstanding'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Trainer's Curiosity
+    reward_raw: Exp. Credit Gold 1000 50 600 Items -
+    walkthrough_raw: Step 1 Speak with the Nazarite. Step 2 Defeat Crybabies until you have obtained 3 Spirit Secret books. Step 3 Give them to the Nazarite.
+    walkthrough_steps: *id012
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_crybaby-s-knack.yaml
+      origin_url: https://angels.wikidot.com/quest:crybaby-s-knack
+      retrieval_url: https://www.aowiki.uk/pages/quest_crybaby-s-knack.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 86e0aa93582900a7b05a31b8e22310098290d87ce329123496e0105d33081a1a
       authority_role: null
   period_guide_matches:
   - title_raw: Misunderstanding
@@ -4449,7 +4855,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: fungus-forest-south-kinship-between-father-and-son
   name: Kinship Between Father and Son 4 of 4
   region: dark
@@ -4491,7 +4896,6 @@ quests:
     reward_raw: Exp. Credit Gold 200 20 - Items -
     walkthrough_raw: Step 1 Talk to the Nararite, he will give you a letter. Step 2 Go to Bottomless Pit . Step 3 Give the letter to Chief Esmat. (?,?)
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_kinship-between-father-and-son.yaml
       origin_url: https://angels.wikidot.com/quest:kinship-between-father-and-son
@@ -4499,6 +4903,23 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: c86eb64c7cdfb53b3dd3d6cdb99a45d89e5bf4c7f7a685735a60632eeca30462
+      authority_role: null
+  - title_raw: Misunderstanding
+    summary_raw: The Nazarite believes you have decieved him, so he decides to teach you a lesson by summoning the Rage Fire Elf.
+    information_raw: 'Quest Giver Repeatable Series Nazarite No Yes (3 of 4)
+
+      Previous Quest Next Quest Crybaby''s Knack Kinship Between Father and Son'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow - - - Finished Crybaby's Knack
+    reward_raw: 'Exp. Credit Gold 1520 300 - Items Choose one of: Courage Helmet , Wanderer''s Cap , and Harmony Cap'
+    walkthrough_raw: Step 1 Speak with the Nazarite. Step 2 Defeat the boss, Rage Fire Elf . Step 3 Speak with the Nazarite again.
+    walkthrough_steps: *id013
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_misunderstanding.yaml
+      origin_url: https://angels.wikidot.com/quest:misunderstanding
+      retrieval_url: https://www.aowiki.uk/pages/quest_misunderstanding.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 566d3a37177c2ed862a993f5afe8cb131812342b574e56bfac09e4d0358182c9
       authority_role: null
   period_guide_matches:
   - title_raw: Kinship between father and son
@@ -4523,7 +4944,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-toy-in-stomach
   name: Toy in Stomach
   region: dark
@@ -4564,7 +4984,6 @@ quests:
     reward_raw: Exp. Credit Gold 500 75 - Items -
     walkthrough_raw: Step 1 A child's toy wll be obtained while you are killing Porky Men . Step 2 Give the Toy to the Sad Father (211,94).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_toy-in-stomach.yaml
       origin_url: https://angels.wikidot.com/quest:toy-in-stomach
@@ -4596,7 +5015,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-fetor-of-rot
   name: Fetor of Rot
   region: dark
@@ -4638,7 +5056,6 @@ quests:
     reward_raw: Exp. Credit Gold 700 35 - Items -
     walkthrough_raw: Step 1 Speak with the Graveyard Worker (295,163). Step 2 Defeat 20 Porkey Men . Step 3 Report back to the Graveyard Worker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fetor-of-rot.yaml
       origin_url: https://angels.wikidot.com/quest:fetor-of-rot
@@ -4670,7 +5087,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-desecrater-s-disturbance
   name: Desecrater‘s Disturbance
   region: dark
@@ -4712,7 +5128,6 @@ quests:
     reward_raw: Exp. Credit Gold - - - Items -
     walkthrough_raw: Step 1 Speak with the Graveyard Worker (295,163). Step 2 Defeat 20 Decrusaders . Step 3 Report back to the Graveyard Worker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_desecrater-s-disturbance.yaml
       origin_url: https://angels.wikidot.com/quest:desecrater-s-disturbance
@@ -4744,7 +5159,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-husband-s-skull
   name: Husband‘s Skull
   region: dark
@@ -4786,7 +5200,6 @@ quests:
     reward_raw: Exp. Credit Gold 1200 70 1100 Items -
     walkthrough_raw: Step 1 Visit the Lady (78,85). Step 2 Defeat Magic Cats until you obtain the large skull. Step 3 Return it to the Lady.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_husband-s-skull.yaml
       origin_url: https://angels.wikidot.com/quest:husband-s-skull
@@ -4834,7 +5247,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-scratched-tombstone
   name: Scratched Tombstone
   region: dark
@@ -4876,7 +5288,6 @@ quests:
     reward_raw: Exp. Credit Gold 1200 70 - Items -
     walkthrough_raw: Step 1 Talk to the Executive Clerk (282,166). Step 2 Defeat 20 Magic Cats . Step 3 Report back to the Executive Clerk.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_scratched-tombstone.yaml
       origin_url: https://angels.wikidot.com/quest:scratched-tombstone
@@ -4925,7 +5336,6 @@ quests:
     period_guide_present: true
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-young-age
   name: Young Age 1 of 3
   region: dark
@@ -4969,8 +5379,7 @@ quests:
     reward_raw: Exp. Credit Gold 800 65 - Items -
     walkthrough_raw: Step 1 Learn of the Executive Chief's great love by talking with him (301,171). Step 2 Go to Degula Maze Step 3 Dig up the Time Box (145,94 - it's by the tree in the courtyard in front
       of the Degula Duke's). Step 4 Return the Time Box back to the Executive Chief in Memory Cave .
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id014 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_young-age.yaml
       origin_url: https://angels.wikidot.com/quest:young-age
@@ -5003,7 +5412,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-wife-s-present
   name: Wife‘s Present 2 of 3
   region: dark
@@ -5047,7 +5455,6 @@ quests:
     walkthrough_raw: Step 1 Talk to the Executive Chief's (301,171). Step 2 Go to (201,41) to dig up the present left to him by his wife. You discover that it has already been dug up! Step 3 When you click
       on the mound, the boss Rotten Wanda in summoned. You must defeat it to obtain the present. Step 4 Take the gift to the Executive Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_wife-s-present.yaml
       origin_url: https://angels.wikidot.com/quest:wife-s-present
@@ -5055,6 +5462,25 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 312ac622b2b1b94f4d19d6d35feee543c215e1fd5e52358cc781f37acc5756c2
+      authority_role: null
+  - title_raw: Young Age
+    summary_raw: The Executive Chief and his wife each made a box to open up 30 years ago when they were first wed. Unfortunately, while the Executive Chief was away training for his new job, his wife began
+      ill and she died those many years ago. The time is ready for him to open the box, and he asks you to go retrieve it for him in Degula Maze .
+    information_raw: 'Quest Giver Repeatable Series Executive Chief No Yes (1 of 3)
+
+      Previous Quest Next Quest - Wife''s Present'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 22+ - - -
+    reward_raw: Exp. Credit Gold 800 65 - Items -
+    walkthrough_raw: Step 1 Learn of the Executive Chief's great love by talking with him (301,171). Step 2 Go to Degula Maze Step 3 Dig up the Time Box (145,94 - it's by the tree in the courtyard in front
+      of the Degula Duke's). Step 4 Return the Time Box back to the Executive Chief in Memory Cave .
+    walkthrough_steps: *id014
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_young-age.yaml
+      origin_url: https://angels.wikidot.com/quest:young-age
+      retrieval_url: https://www.aowiki.uk/pages/quest_young-age.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: a7664fc04cc5c0057d8d175796bc573cc510754362958e2badeaee087d767768
       authority_role: null
   period_guide_matches:
   - title_raw: Wife's present
@@ -5081,7 +5507,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-forever-love
   name: Forever Love 3 of 3
   region: dark
@@ -5121,7 +5546,6 @@ quests:
     reward_raw: Exp. Credit Gold 800 30 1500 Items -
     walkthrough_raw: Step 1 Give the Present to the Executive Chief.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_forever-love.yaml
       origin_url: https://angels.wikidot.com/quest:forever-love
@@ -5152,7 +5576,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: memory-cave-evil-student-union-leader-asmode
   name: Evil Student Union Leader Asmode 8 of 8
   region: dark
@@ -5179,10 +5602,45 @@ quests:
       source_html_sha256: 556e74c73b632e8c1068194c19b429518bd34c9be3d9d353c4e9cdc48653d1cd
       authority_role: null
   walkthrough:
-    source_class: period_2012_community_guide
+    source_class: historical_dedicated_quest_page
     steps:
-    - 1. Talk with Spy Angel(314,38)
-  historical_dedicated_pages: []
+    - Defeat Asmodeum. This is not easy and will require some help.
+  historical_dedicated_pages:
+  - title_raw: Shadow Evil Student Union Leader
+    summary_raw: Deafeat the boss, Asmodeus .
+    information_raw: 'Quest Giver Repeatable Series After touching the Statue No Yes (Asmode: 8 of 8)
+
+      Previous Quest Next Quest Magic Stone -'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20+ 2 - Finished Magic Stone
+    reward_raw: 'Exp. Credit Gold 5000 850 - Items Choose one of: Vein Wand , Vein Axe , Vein Sword , Vein Bow or Vein Spear'
+    walkthrough_raw: Step 1 Defeat Asmodeum. This is not easy and will require some help.
+    walkthrough_steps: []
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-evil-student-union-leader.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-evil-student-union-leader
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-evil-student-union-leader.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: fc434c333ce45a6b9bee9e17ec9207d5b2d6ad57ef5f1ce78bcf6b4df5d2574a
+      authority_role: null
+  - title_raw: Shadow Magic Stone
+    summary_raw: Find the gateway to Asmodeus 's den.
+    information_raw: 'Quest Giver Repeatable Series Asmode No Yes (Asmode: 7 of 8)
+
+      Previous Quest Next Quest Are you Evil Enough? Evil Student Union Leader'
+    requirements_raw: Faction Lvl Rank Skill Quest Shadow 20 2 - Finished Are you Evil Enough?
+    reward_raw: Exp. Credit Gold 400 25 - Items -
+    walkthrough_raw: Step 1 Asmode (54,15) will give you a Magic stone. Step 2 Go to Memory Cave . Step 3 Find the statue of a monkey wearing a crown and holding an egg (84,148 - it's in the top of the
+      graveyard on the left on the screen, past the Lady). Then place the stone against it. Step 4 You will be transported to Admode's Den.
+    walkthrough_steps: *id015
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-magic-stone.yaml
+      origin_url: https://angels.wikidot.com/quest:shadow-magic-stone
+      retrieval_url: https://www.aowiki.uk/pages/quest_shadow-magic-stone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: ca3ea215fa5b799159d6f3987a2d5247c5a2f9944e699877d0ab08abb099cf22
+      authority_role: null
   period_guide_matches:
   - title_raw: Evil Student Union Leader
     section_raw: Executive Asistant - shadow
@@ -5201,11 +5659,10 @@ quests:
   current_client_corroboration: []
   verification:
     historical_primary_present: true
-    dedicated_historical_page_present: false
+    dedicated_historical_page_present: true
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-wetland-clear-charming-man-eating-flower
   name: Clear Charming Man-Eating Flower
   region: dark
@@ -5247,7 +5704,6 @@ quests:
     reward_raw: Exp. Credit Gold 1000 42 - Items -
     walkthrough_raw: Step 1 Speak to Explorer Peter (). Step 2 Defeat 45 Nepenthes . Step 3 Report back to Explorer Peter.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_clear-charming-man-eating-flower.yaml
       origin_url: https://angels.wikidot.com/quest:clear-charming-man-eating-flower
@@ -5282,7 +5738,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-wetland-robbed-equipment
   name: Robbed Equipment
   region: dark
@@ -5324,7 +5779,6 @@ quests:
     reward_raw: Exp. Credit Gold 1000 42 - Items -
     walkthrough_raw: Step 1 Speak to Explorer Peter (). Step 2 Defeat Nepenthes until you obtain 9 of the Adventure Equipment. Step 3 Return the items to Explorer Peter.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-equipment.yaml
       origin_url: https://angels.wikidot.com/quest:robbed-equipment
@@ -5359,7 +5813,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-wetland-fantastic-tree-elf
   name: Fantastic Tree Elf
   region: dark
@@ -5401,7 +5854,6 @@ quests:
     reward_raw: Exp. Credit Gold 1100 45 - Items -
     walkthrough_raw: Step 1 Speak to Researcher Mary (). Step 2 Defeat 45 Tree Elves . Step 3 Report back to Researcher Mary.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_fantastic-tree-elf.yaml
       origin_url: https://angels.wikidot.com/quest:fantastic-tree-elf
@@ -5436,7 +5888,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-wetland-green-hope
   name: Green Hope
   region: dark
@@ -5478,7 +5929,6 @@ quests:
     reward_raw: Exp. Credit Gold 1100 45 - Items -
     walkthrough_raw: Step 1 Speak to Researcher Mary (). Step 2 Defeat Tree Elves until you obtain 5 buds of the Fantatic Tree Elf. Step 3 Hand them to Researcher Mary.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_green-hope.yaml
       origin_url: https://angels.wikidot.com/quest:green-hope
@@ -5513,7 +5963,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: mysterious-wetland-demon-s-calling
   name: Demon‘s Calling
   region: dark
@@ -5557,7 +6006,6 @@ quests:
     walkthrough_raw: Step 1 Find a Soul Core while fighting. Step 2 Give the Soul Core to Warlock Ofer, he will summon Tree Elves . Step 3 Defeat the summoned Tree Elves . Step 4 Speak again to Warlock
       Ofer.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_demon-s-calling.yaml
       origin_url: https://angels.wikidot.com/quest:demon-s-calling
@@ -5592,7 +6040,6 @@ quests:
     period_guide_present: false
     current_client_match_present: true
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-evil-cat-s-attack
   name: Evil Cat's Attack
   region: dark
@@ -5637,7 +6084,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Details here. Step 2 Details here.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_evil-cat-s-attack.yaml
       origin_url: https://angels.wikidot.com/quest:evil-cat-s-attack
@@ -5669,7 +6115,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-hurting-others-with-covert-attack
   name: Hurting Others with Covert Attack
   region: dark
@@ -5715,7 +6160,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Sickle Soldier. Step 2 Defeat 20 Skeletal Snipers . Step 3 Report to the Sickle Soldier.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_hurting-others-with-covert-attack.yaml
       origin_url: https://angels.wikidot.com/quest:hurting-others-with-covert-attack
@@ -5733,7 +6177,6 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-railway-guard
   name: Railway Guard
   region: dark
@@ -5760,9 +6203,16 @@ quests:
       source_html_sha256: 1fa0d8d0d941053350b40383794ab6b623892a177dd5e3f1d56f79e6e7d6a3b9
       authority_role: null
   walkthrough:
-    source_class: historical_area_table_minimal
+    source_class: researched_historical_enrichment
     steps:
-    - Sickle Soldier needs a better weapon, buy him a 1-star Piercing Hammer.
+    - At level 20+, speak with the Sickle Soldier at (213,143) in Shadowy Path.
+    - Obtain a 1-star Piercing Hammer as requested; the historical quest text says to buy/bring one rather than farm a specific monster.
+    - Return to the Sickle Soldier at (213,143) to complete Railway Guard.
+    caveat: null
+    conflicts: []
+    evidence_paths:
+    - data/quests/research/walkthrough-intake/areas/shadowy-path.yaml
+    enrichment_layer: data/quests/research/walkthrough-enrichments.yaml
   historical_dedicated_pages:
   - title_raw: Angels Online Wiki
     summary_raw: null
@@ -5771,7 +6221,6 @@ quests:
     reward_raw: null
     walkthrough_raw: null
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_railway-guard.yaml
       origin_url: https://angels.wikidot.com/quest:railway-guard
@@ -5789,7 +6238,7 @@ quests:
     period_guide_present: false
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
+    researched_enrichment_present: true
 - id: shadowy-path-confirmation-of-project-progress
   name: Confirmation of Project Progress
   region: dark
@@ -5837,7 +6286,6 @@ quests:
     walkthrough_raw: Step 1 Speak with the Forman. Step 2 Go to Engineer2 (214, 197) at the northern end of the map and get his schedule. Step 3 Go to Engineer (142, 75) at the southern end of the map and
       get his schedule. Step 4 Return to Foreman and give him the progress schedules.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_confirmation-of-project-progress.yaml
       origin_url: https://angels.wikidot.com/quest:confirmation-of-project-progress
@@ -5869,7 +6317,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-drug-of-cat-tail
   name: Drug of Cat Tail
   region: dark
@@ -5915,7 +6362,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Symbol Merchant. Step 2 Defeat Evil Cats and collect 10 of their tails. Step 3 Bring them to the Symbol Merchant.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_drug-of-cat-tail.yaml
       origin_url: https://angels.wikidot.com/quest:drug-of-cat-tail
@@ -5947,7 +6393,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-stolen-gun-powder
   name: Stolen Gun Powder
   region: dark
@@ -5993,7 +6438,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Worker. Step 2 Defeat Red Cloth Skulls until you obtain the stolen dynamite. Step 3 Return it to the Worker.
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_stolen-gun-powder.yaml
       origin_url: https://angels.wikidot.com/quest:stolen-gun-powder
@@ -6025,7 +6469,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-railway-boss-worry
   name: Railway Boss' Worry 1 of 4
   region: dark
@@ -6070,8 +6513,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Speak with the Railway Boss . Step 2 Defeat 20 Red Cloth Skulls . Step 3 Speak with the Railway Boss .
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id016 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_railway-boss-worry.yaml
       origin_url: https://angels.wikidot.com/quest:railway-boss-worry
@@ -6103,7 +6545,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-missing-key
   name: Missing Key 2 of 4
   region: dark
@@ -6148,8 +6589,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Railway Boss. Step 2 Defeat Evil Cats until you obtain the safe's key Step 3 Return it to the Railway Boss.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id017 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_missing-key.yaml
       origin_url: https://angels.wikidot.com/quest:missing-key
@@ -6157,6 +6597,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 7c0f8ea69a155aef079d7c462f33ed3572c2f8c505b84bfad754dec4ec0ffc67
+      authority_role: null
+  - title_raw: Railway Boss Worry
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Railway Boss Shadow Faction; Character Lvl 6+ No
+
+      Previous Quest Next Quest - Missing Key
+
+      Summary Defeat 20 Red Cloth Skulls who are disrupting the building of the railway.
+
+      Reward 700 Experience, 30 Credit'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Speak with the Railway Boss . Step 2 Defeat 20 Red Cloth Skulls . Step 3 Speak with the Railway Boss .
+    walkthrough_steps: *id016
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_railway-boss-worry.yaml
+      origin_url: https://angels.wikidot.com/quest:railway-boss-worry
+      retrieval_url: https://www.aowiki.uk/pages/quest_railway-boss-worry.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 34874ae462bd5362caf8bd731642c8fd0b734f5b8ccc31190e2a14cc2772643c
       authority_role: null
   period_guide_matches:
   - title_raw: Missing key
@@ -6181,7 +6642,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-annoying-tone
   name: Annoying Tone 3 of 4
   region: dark
@@ -6226,8 +6686,7 @@ quests:
     requirements_raw: null
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Railway Boss. Step 2 Defeat the boss, Giant Cat Cinlo . Step 3 Return and report to the Railway Boss.
-    walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
+    walkthrough_steps: &id018 []
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_annoying-tone.yaml
       origin_url: https://angels.wikidot.com/quest:annoying-tone
@@ -6235,6 +6694,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: f63d496aafe16147245f90de2386deeb0b2a7f14855966ff681e6dcaf8eb99b7
+      authority_role: null
+  - title_raw: Missing Key
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Railway Boss Shadow Faction; Character lvl 6+; Completed quest Railway Boss'' Worry No
+
+      Previous Quest Next Quest Railway Boss'' Worry Annoying Tone
+
+      Summary One of the Evil Cats stole the Railway Boss'' key to his safe. He requires some papers right away and asks you to defeat Evil Cats and return the key.
+
+      Reward 200 Gold, 600 Experience, 25 Credit 5 Low-effect Red Potion 1'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to the Railway Boss. Step 2 Defeat Evil Cats until you obtain the safe's key Step 3 Return it to the Railway Boss.
+    walkthrough_steps: *id017
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_missing-key.yaml
+      origin_url: https://angels.wikidot.com/quest:missing-key
+      retrieval_url: https://www.aowiki.uk/pages/quest_missing-key.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: 7c0f8ea69a155aef079d7c462f33ed3572c2f8c505b84bfad754dec4ec0ffc67
       authority_role: null
   period_guide_matches:
   - title_raw: Annoying tone
@@ -6259,7 +6739,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 - id: shadowy-path-confirmation-of-order-for-project-material
   name: Confirmation of Order for Project Material 4 of 4
   region: dark
@@ -6305,7 +6784,6 @@ quests:
     reward_raw: null
     walkthrough_raw: Step 1 Talk to the Railway Boss. Step 2 Go to Fungus Forest South . Step 3 Give the order form to Merchant Pierce (?,?).
     walkthrough_steps: []
-    matched_via: exact_area_quest_link_text
     source:
       path: data/quests/research/walkthrough-intake/quest-pages/quest_confirmation-of-order-for-project-material.yaml
       origin_url: https://angels.wikidot.com/quest:confirmation-of-order-for-project-material
@@ -6313,6 +6791,27 @@ quests:
       source_kind: aowiki_static_legacy_mirror
       archive_timestamp: null
       source_html_sha256: 15c87c89ab66d695b94f7032a2f40029daaad5a0f24fb0d1cdbe2f9957b157c8
+      authority_role: null
+  - title_raw: Annoying Tone
+    summary_raw: null
+    information_raw: 'Quest Giver Requirements Repeatable? Railway Boss Shadow Faction; Character lvl 6+; Completed quest Missing Key No
+
+      Previous Quest Next Quest Missing Key Confirmation of Order for Project Material
+
+      Summary The boss, Giant Cat Cinlo ''s bell makes a noise that stupifies the workers. The Railway Boss asks you to remove the bell.
+
+      Reward 1140 Experience, 160 Credit Choose one of: Traditional Armor , Traditional Magic Gown , Traditional Vest or Hard Shield .'
+    requirements_raw: null
+    reward_raw: null
+    walkthrough_raw: Step 1 Talk to the Railway Boss. Step 2 Defeat the boss, Giant Cat Cinlo . Step 3 Return and report to the Railway Boss.
+    walkthrough_steps: *id018
+    source:
+      path: data/quests/research/walkthrough-intake/quest-pages/quest_annoying-tone.yaml
+      origin_url: https://angels.wikidot.com/quest:annoying-tone
+      retrieval_url: https://www.aowiki.uk/pages/quest_annoying-tone.html
+      source_kind: aowiki_static_legacy_mirror
+      archive_timestamp: null
+      source_html_sha256: f63d496aafe16147245f90de2386deeb0b2a7f14855966ff681e6dcaf8eb99b7
       authority_role: null
   period_guide_matches:
   - title_raw: Confirmation of order for project material
@@ -6337,7 +6836,6 @@ quests:
     period_guide_present: true
     current_client_match_present: false
     aomega_client_confirmation: pending
-    gap_corroboration_present: false
 supplemental_historical_quest_pages:
 - title_raw: Angel Lyceum - Register At City Angel
   summary_raw: ???
@@ -6570,6 +7068,3 @@ supplemental_period_guide_blocks:
     archive_timestamp: null
     source_html_sha256: bbb320fd63b1dc1e6e2c39fc7990ba0b75bac7ecba06f3179265d09d3556c96c
     authority_role: secondary_historical_walkthrough
-sanitization:
-  policy: Exact area quest-link text or sequence-aware exact page-title joins only; same-area canonical joins only; template placeholders removed.
-  gap_corroboration_file: data/quests/research/gap-corroboration.yaml

@@ -6,319 +6,1325 @@ per_region:
     missing: 0
     minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 0
+    mismatched_historical_page_links: 41
     suspicious_canonical_cross_area: 0
   breeze:
     quests: 78
     missing: 0
-    minimal: 5
+    minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 1
+    mismatched_historical_page_links: 50
     suspicious_canonical_cross_area: 0
   steel:
     quests: 78
     missing: 0
-    minimal: 5
+    minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 0
+    mismatched_historical_page_links: 34
     suspicious_canonical_cross_area: 0
   dark:
     quests: 82
     missing: 0
-    minimal: 19
+    minimal: 0
     gap_corroborated: 0
-    mismatched_historical_page_links: 0
-    suspicious_canonical_cross_area: 0
+    mismatched_historical_page_links: 47
+    suspicious_canonical_cross_area: 2
   dungeon:
     quests: 25
-    missing: 0
-    minimal: 2
-    gap_corroborated: 1
-    mismatched_historical_page_links: 0
+    missing: 1
+    minimal: 0
+    gap_corroborated: 0
+    mismatched_historical_page_links: 7
     suspicious_canonical_cross_area: 0
   atlantis:
-    quests: 32
-    missing: 0
-    minimal: 8
-    gap_corroborated: 1
-    mismatched_historical_page_links: 0
+    quests: 36
+    missing: 5
+    minimal: 0
+    gap_corroborated: 0
+    mismatched_historical_page_links: 26
     suspicious_canonical_cross_area: 0
 totals:
-  missing_walkthroughs: 0
-  area_minimal_walkthroughs: 39
-  gap_corroborated_walkthroughs: 2
-  mismatched_historical_page_links: 1
-  suspicious_canonical_cross_area_links: 0
-missing_walkthroughs: []
-area_minimal_walkthroughs:
-- region: breeze
-  area_id: cryptic-moon-swamp
-  id: cryptic-moon-swamp-killing-marsh-frogs-asmode
-  name: Killing Marsh Frogs Asmode 3 of 8
-  steps:
-  - Defeat 50 Marsh Frogs to prove your ability to the Spy Angel
-- region: breeze
-  area_id: cryptic-moon-swamp
-  id: cryptic-moon-swamp-disguise-asmode
-  name: Disguise Asmode 4 of 8
-  steps:
-  - Go to Jade Vale and defeat Magic Eye Members until you obtain the Robber Badge. Return with it to the Spy Angel.
-- region: breeze
-  area_id: jade-vale
-  id: jade-vale-are-you-evil-enough-asmode
-  name: Are you Evil Enough? Asmode 6 of 8
-  steps:
-  - Go back to Cryptic Moon Swamp and talk to the Spy Angel . You will then return to Jade Vale and talk to the Archaeologist who will give you Cultural Relics (an antique). Give this
-    item to Asmode.
-- region: breeze
-  area_id: jade-vale
-  id: jade-vale-magic-stone-asmode
-  name: Magic Stone Asmode 7 of 8
-  steps:
-  - Take the stone to Mysterious Garden and find the statue of a minkey holding a crowned egg (257, 26). Click on it. This will transport you to the Den.
-- region: breeze
-  area_id: mysterious-garden
-  id: mysterious-garden-evil-student-leader-asmode
-  name: Evil Student Leader Asmode 8 of 8
-  steps:
-  - Find Asmode's Den and defeat Asmodeus (boss).
-- region: steel
-  area_id: burning-desert
-  id: burning-desert-are-you-evil-enough-asmode
-  name: Are you Evil Enough? Asmode 6 of 8
-  steps:
-  - Go back to Cactus Plain and talk to the Spy Angel . You will then return to Burning Desert and talk to the Surgeon who will give you Dog Tags. Give this item to Asmode .
-- region: steel
-  area_id: burning-desert
-  id: burning-desert-magic-stone-asmode
-  name: Magic Stone Asmode 7 of 8
-  steps:
-  - Take the stone to Gebuer Vale and find the statue of a monkey holding a crowned egg (7,247). Click on it. This will transport you to the Den.
-- region: steel
-  area_id: cactus-plain
-  id: cactus-plain-disguise-asmode
-  name: Disguise Asmode 4 of 8
-  steps:
-  - Go to Gebuer Vale and defeat Gebuers until you obtain the Gebuer Army Badge. Return with it to the Spy Angel.
-- region: steel
-  area_id: gebuer-vale
-  id: gebuer-vale-evil-student-leader-asmode
-  name: Evil Student Leader Asmode 8 of 8
-  steps:
-  - Find Asmode's Den and defeat Asmodeus (boss).
-- region: steel
-  area_id: iron-castle
-  id: iron-castle-inexperience-3-asmode
-  name: Inexperience 3 Asmode 1 of 8
-  steps:
-  - Speak to IronCastle Angel when you have reached Level 20, Rank 2
-- region: dark
-  area_id: dark-city
-  id: dark-city-register-at-dark-city-angel
-  name: Register at Dark City Angel
-  steps:
-  - Speak with the Dark City Angel and report.
-- region: dark
-  area_id: dark-city
-  id: dark-city-knowing-dark-city
-  name: Knowing Dark City
-  steps:
-  - Go talk to Risker Zalfer (298,62).
-- region: dark
-  area_id: dark-city
-  id: dark-city-inexperience
-  name: Inexperience
-  steps:
-  - Go to Executive Puyi and speak with him.
-- region: dark
-  area_id: dark-city
-  id: dark-city-a-stab-in-the-back
-  name: A Stab in the Back
-  steps:
-  - Executive Puyi asks you to defeat 30 Skeletal Snipers in Shadowy Path .
-- region: dark
-  area_id: dark-city
-  id: dark-city-tentical-in-shadow
-  name: Tentical in Shadow
-  steps:
-  - Executive Puyi asks you to defeat the boss, Red-Hooded Skull Header in Shadowy Path .
-- region: dark
-  area_id: dark-city
-  id: dark-city-dark-bell
-  name: Dark Bell
-  steps:
-  - Executive Puyi asks you to defeat the boss, Giant Cat Cinlo in Shadowy Path .
-- region: dark
-  area_id: dark-city
-  id: dark-city-noise-maker
-  name: Noise Maker
-  steps:
-  - Executive Puyi asks you to defeat 30 Crybabies in Fungus Forest South .
-- region: dark
-  area_id: dark-city
-  id: dark-city-wandering-spirit
-  name: Wandering Spirit
-  steps:
-  - Executive Puyi asks you to defeat 30 Paopao in Fungus Forest South .
-- region: dark
-  area_id: dark-city
-  id: dark-city-paopao
-  name: Paopao
-  steps:
-  - Executive Puyi asks you to defeat the boss Dream Paopao in Fungus Forest South .
-- region: dark
-  area_id: dark-city
-  id: dark-city-delusive-fire
-  name: Delusive Fire
-  steps:
-  - Executive Puyi asks you to defeat 30 Fire Mimics in Bottomless Pit .
-- region: dark
-  area_id: dark-city
-  id: dark-city-belief-dominator
-  name: Belief Dominator
-  steps:
-  - Executive Puyi asks you to defeat the boss, Wizard Mord in Bottomless Pit .
-- region: dark
-  area_id: dark-city
-  id: dark-city-fire-operator
-  name: Fire Operator
-  steps:
-  - Executive Puyi asks you to defeat the boss, Stunt Lord Abbi in Bottomless Pit .
-- region: dark
-  area_id: dark-city
-  id: dark-city-evil-and-bloody-deed
-  name: Evil and Bloody Deed
-  steps:
-  - Executive Puyi asks you to defeat 30 Evil Leeches in Degula Maze .
-- region: dark
-  area_id: dark-city
-  id: dark-city-abtruse-evil-eye
-  name: Abtruse Evil Eye
-  steps:
-  - Executive Puyi asks you to defeat the boss, Evil Eye Bershala in Degula Maze .
-- region: dark
-  area_id: dark-city
-  id: dark-city-bloody-gent
-  name: Bloody Gent
-  steps:
-  - Executive Puyi asks you to defeat the boss, Bloody Pound in Degula Maze .
-- region: dark
-  area_id: dark-city
-  id: dark-city-fetor-maker
-  name: Fetor Maker
-  steps:
-  - Executive Puyi asks you to defeat 30 Porky Men in Memory Cave .
-- region: dark
-  area_id: dark-city
-  id: dark-city-rotten-cross
-  name: Rotten Cross
-  steps:
-  - Executive Puyi asks you to defeat the 30 Decrusaders in Memory Cave .
-- region: dark
-  area_id: dark-city
-  id: dark-city-evil-cat-yese
-  name: Evil Cat Yese
-  steps:
-  - Executive Puyi asks you to defeat the boss, Evil Cat Yese in Memory Cave .
-- region: dark
-  area_id: shadowy-path
-  id: shadowy-path-railway-guard
-  name: Railway Guard
-  steps:
-  - Sickle Soldier needs a better weapon, buy him a 1-star Piercing Hammer.
-- region: dungeon
-  area_id: sad-abyss
-  id: sad-abyss-association-member-s-demand
-  name: Association Member's Demand
-  steps:
-  - Defeat 40 Imp Elves
-- region: dungeon
-  area_id: sad-abyss
-  id: sad-abyss-labor-s-misery
-  name: Labor's Misery
-  steps:
-  - Defeat Evil Knights and collect 10 Mine Tools
-- region: atlantis
-  area_id: golden-beach
-  id: golden-beach-let-s-fight-1-of
-  name: Let's Fight 1 of ?
-  steps:
-  - Defeat 35 Puqi Turtles and 35 Color Crabs
-- region: atlantis
-  area_id: palm-base
-  id: palm-base-purify
-  name: Purify
-  steps:
-  - Collect 200 Pollutions from underwater resources
-- region: atlantis
-  area_id: puqi-village
-  id: puqi-village-wandering-artist
-  name: Wandering Artist
-  steps:
-  - Collect materials for Teny's handicrafts
-- region: atlantis
-  area_id: puqi-village
-  id: puqi-village-explore-blue-slat-crystal
-  name: Explore Blue Slat Crystal
-  steps:
-  - Collect Blue Slat Crystals at Wave Harbor
-- region: atlantis
-  area_id: shining-coast
-  id: shining-coast-boaster
-  name: Boaster
-  steps:
-  - Defeat 30 Color Crabs , and 30 Crab Generals
-- region: atlantis
-  area_id: shining-coast
-  id: shining-coast-pupu-turtle-and-pup-crab
-  name: Pupu Turtle and Pup Crab
-  steps:
-  - Defeat 30 Puqi Isle Crabs and 30 Evil Puqi Turtles
-- region: atlantis
-  area_id: shining-coast
-  id: shining-coast-meeting-robbers-3-of
-  name: Meeting Robbers 3 of ?
-  steps:
-  - Defeat Puqi Pirates , and Puqi Pirate Leaders and collect Love Necklaces
-- region: atlantis
-  area_id: wave-harbor
-  id: wave-harbor-big-eyes
-  name: Big Eyes
-  steps:
-  - Get 30 Merman's Eye from Scale Fish
-gap_corroborated_walkthroughs:
+  missing_walkthroughs: 6
+  area_minimal_walkthroughs: 0
+  gap_corroborated_walkthroughs: 0
+  mismatched_historical_page_links: 205
+  suspicious_canonical_cross_area_links: 2
+missing_walkthroughs:
 - region: dungeon
   area_id: underground-square
   id: underground-square-scattered-will
   name: Scattered Will
-  source_class: historical_japanese_corroboration
-  steps:
-  - Speak with Purified Moppet at (39,19) in Underground Square.
-  - Defeat 40 Flame Dolls.
-  - Return to Purified Moppet to complete the repeatable quest.
-  caveat: The English area page does not preserve the objective; the 40-Flame-Doll objective is supplied by the historical Japanese AngelLoveOnline wiki and remains pending AOmega target-client
-    confirmation.
+  short_description_raw: null
+- region: atlantis
+  area_id: coral-vale
+  id: coral-vale-quest-name
+  name: Quest Name
+  short_description_raw: ''
 - region: atlantis
   area_id: dream-ocean
   id: dream-ocean-mermaid-s-tears
   name: Mermaid's Tears
-  source_class: historical_japanese_plus_current_client_corroboration
-  steps:
-  - At level 80-85, speak with Crybaby Shin at (126,154) in Dream Ocean.
-  - Go to the Bottle/Jug Mermaid area around (250,96) and obtain/break 30 mermaid bottles.
-  - Return to Crybaby Shin at (126,154).
-  - Speak with Crybaby Shin again to complete the repeatable quest.
-  caveat: The historical English Dream Ocean page is unfinished. Objective/reward details are independently corroborated by the historical Japanese wiki and current client database;
-    coordinates are current-client evidence pending AOmega target-client confirmation.
+  short_description_raw: ''
+- region: atlantis
+  area_id: horrible-lost-region
+  id: horrible-lost-region-quest-name
+  name: Quest Name
+  short_description_raw: ''
+- region: atlantis
+  area_id: quiet-ocean
+  id: quiet-ocean-quest-name
+  name: Quest Name
+  short_description_raw: ''
+- region: atlantis
+  area_id: raging-reefs
+  id: raging-reefs-quest-name
+  name: Quest Name
+  short_description_raw: ''
+area_minimal_walkthroughs: []
+gap_corroborated_walkthroughs: []
 mismatched_historical_page_links:
+- region: aurora
+  area_id: aurora-city
+  quest: Knowing Aurora City
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-aurora-city.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Knowing Aurora City
+  page_title: Angel Lyceum - Register At City Angel
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_angel-lyceum-register-at-city-angel.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Inexperience
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Inexperience
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-aurora-city.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Reaching higher level 1 of 8
+  page_title: Aurora Reaching Higher Level
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-reaching-higher-level.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Reaching higher level 1 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Looking for Spy Angel 2 of 8
+  page_title: Aurora Reaching Higher Level
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-reaching-higher-level.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Killing mice
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_killing-mice.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Seizing Jackstraw Mige
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-jackstraw-mige.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Seizing Pumpkin Banni
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-pumpkin-banni.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Stopping trick
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_stopping-trick.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Evil Pluto
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_evil-pluto.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Reason for being dirty
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_reason-for-being-dirty.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Ruffian of harbor
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_ruffian-of-harbor.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Creature from Golden Island
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_creature-from-golden-island.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Seizing Riprap Pirate
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-riprap-pirate.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Seizing Riprap Pirate Leader
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-riprap-pirate-leader.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Seizing Sheep Music
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_seizing-sheep-music.yaml
+- region: aurora
+  area_id: aurora-city
+  quest: Bloody spine
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_bloody-spine.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Militia Assignment-Coast Clearance
+  page_title: Recruiting Cherry Militia
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Militia Assignment-Punishing Pirate
+  page_title: Recruiting Cherry Militia
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Militia Assignment-Turtle Shell Armor
+  page_title: Recruiting Cherry Militia
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_recruiting-cherry-militia.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Vanilla 2 of 4
+  page_title: Cherry Crab Experiment
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_cherry-crab-experiment.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Potec's Attack 3 of 4
+  page_title: Vanilla
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_vanilla.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Plant Research Report 4 of 4
+  page_title: Potec S Attack
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_potec-s-attack.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Whether Husband Is Alive or Dead 2 of 3
+  page_title: Unknown Brilliant Necklace
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_unknown-brilliant-necklace.yaml
+- region: aurora
+  area_id: cherry-village
+  quest: Father's Legacy 3 of 3
+  page_title: Whether Husband Is Alive Or Dead
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_whether-husband-is-alive-or-dead.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Request for Military Aid 2 of 4
+  page_title: Clearance Of Harbor
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_clearance-of-harbor.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Being Premptive 3 of 4
+  page_title: Request For Military Aid
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_request-for-military-aid.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Glory of Dawn Harbor 4 of 4
+  page_title: Being Premptive
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_being-premptive.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Showing Speed and Destroying Force 3 of 8
+  page_title: Looking For Spy Angel
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-looking-for-spy-angel.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Disguise 4 of 8
+  page_title: Showing Speed And Destroying Force
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-showing-speed-and-destroying-force.yaml
+- region: aurora
+  area_id: dawn-harbor
+  quest: Obtaining Asmode's Trust 5 of 8
+  page_title: Disguise
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-disguise.yaml
+- region: aurora
+  area_id: riprap-coast
+  quest: Are You Evil Enough? 6 of 8
+  page_title: Obtaining Asmode's trust
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-obtaining-asmodes-trust.yaml
+- region: aurora
+  area_id: riprap-coast
+  quest: Magic Stone 7 of 8
+  page_title: Are You Evil Enough
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_aurora-are-you-evil-enough.yaml
+- region: aurora
+  area_id: spike-farm
+  quest: Magic Trick 2 of 4
+  page_title: Annihilating mice
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_annihilating-mice.yaml
+- region: aurora
+  area_id: spike-farm
+  quest: The Jackstraw's Protest 3 of 4
+  page_title: Magic trick
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_magic-trick.yaml
+- region: aurora
+  area_id: spike-farm
+  quest: Sending Parcels 4 of 4
+  page_title: The Jackstraw's protest
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-jackstraw-s-protest.yaml
+- region: aurora
+  area_id: sunflower-plain
+  quest: Awakening a Love of Music 2 of 4
+  page_title: Noise Pollution
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_noise-pollution.yaml
+- region: aurora
+  area_id: sunflower-plain
+  quest: Rare Sheep Score 3 of 4
+  page_title: Awakening A Love Of Music
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_awakening-a-love-of-music.yaml
+- region: aurora
+  area_id: sunflower-plain
+  quest: Ardent Recommendation 4 of 4
+  page_title: Rare Sheep Score
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_rare-sheep-score.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Knowing Breeze Woods
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-breeze-woods.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Knowing Breeze Woods
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Inexperience
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Inexperience
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-breeze-woods.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Reaching higher Levels 1 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_beast-reaching-higher-levels.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Looking for Spy Angel 2 of 8
+  page_title: Beast Looking For Spy Angel
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_beast-looking-for-spy-angel.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Looking for Spy Angel 2 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_beast-reaching-higher-levels.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Monkey Nassi(Lord)
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_monkey-nassi-lord.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Blazing and Dazzling
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_blazing-and-dazzling.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Custered Wood
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_custered-wood.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Blaic's Soar
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_blaic-s-soar.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Defeat Yellow Mushroom
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-yellow-mushroom.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Poison Gas Spreading
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_poison-gas-spreading.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Fish Amount Preserving
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_fish-amount-preserving.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Island Dispossessor
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_island-dispossessor.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Originators of an Evil Practice
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_originators-of-an-evil-practice.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Defeat Moon Evil Rabbit
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-moon-evil-rabbit.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Jade Vale's Emerald
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_jade-vale-s-emerald.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Capture Outlaws
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_capture-outlaws.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Queen Angela
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_queen-angela.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Defeat Thunder Rabbit
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_defeat-thunder-rabbit.yaml
+- region: breeze
+  area_id: breeze-woods
+  quest: Naughty Garden Elf
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_naughty-garden-elf.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Sage's Staff 2 of 4
+  page_title: Ritual Pollen
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_ritual-pollen.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Break Seal 3 of 4
+  page_title: Sage S Staff
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_sage-s-staff.yaml
 - region: breeze
   area_id: cryptic-moon-swamp
   quest: Break Seal 3 of 4
   page_title: Break Seal Part 2
-  matched_via: exact_dedicated_page_title
+  matched_via: ''
   page_source: data/quests/research/walkthrough-intake/quest-pages/quest_break-seal-part-2.yaml
-suspicious_canonical_cross_area_links: []
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Killing Marsh Frogs Asmode 3 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_killing-marsh-frogs.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Killing Marsh Frogs Asmode 3 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-looking-for-spy-angel.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Disguise Asmode 4 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-disguise.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Disguise Asmode 4 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_killing-marsh-frogs.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Obtaining Asmode's Trust Asmode 5 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-obtaining-asmodes-trust.yaml
+- region: breeze
+  area_id: cryptic-moon-swamp
+  quest: Obtaining Asmode's Trust Asmode 5 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-disguise.yaml
+- region: breeze
+  area_id: dense-forest
+  quest: Inspection Tour
+  page_title: Dense Forest Inspection Tour
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_inspection-tour.yaml
+- region: breeze
+  area_id: dense-forest
+  quest: Man-eating Flower Masque
+  page_title: Dense Forest Man Eating Flower Masque
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_man-eating-flower-masque.yaml
+- region: breeze
+  area_id: dense-forest
+  quest: Fiery Bud 2 of 3
+  page_title: The Reivers
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-reivers.yaml
+- region: breeze
+  area_id: dense-forest
+  quest: Inquire for Spore Collection 3 of 3
+  page_title: Fiery Bud
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_firey-bud.yaml
+- region: breeze
+  area_id: jade-vale
+  quest: Mystic Words 2 of 3
+  page_title: Ancient Book Rubbing
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-book-rubbing.yaml
+- region: breeze
+  area_id: jade-vale
+  quest: Verify Ability 3 of 3
+  page_title: Mystic Words
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_mystic-words.yaml
+- region: breeze
+  area_id: jade-vale
+  quest: Are you Evil Enough? Asmode 6 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-are-you-evil-enough.yaml
+- region: breeze
+  area_id: jade-vale
+  quest: Are you Evil Enough? Asmode 6 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_cryptic-moon-swamp-obtaining-asmodes-trust.yaml
+- region: breeze
+  area_id: jade-vale
+  quest: Magic Stone Asmode 7 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-are-you-evil-enough.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Good Spore Collection
+  page_title: Mushroom Forest Good Spore Collection
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_good-spore-collection.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Disappeared Golden Matsuake 2 of 4
+  page_title: Golden Matsuake
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_golden-matsuake.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Boar Lord 3 of 4
+  page_title: Mushroom Forest Boar Lord
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_boar-lord.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Boar Lord 3 of 4
+  page_title: Disappeared Golden Matsuake
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_disappeared-golden-matsuake.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Sacral Praise 4 of 4
+  page_title: Mushroom Forest Boar Lord
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_boar-lord.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Ancient Books 2 of 2
+  page_title: Mushroom Forest Ancient Books
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_ancient-books.yaml
+- region: breeze
+  area_id: mushroom-forest
+  quest: Ancient Books 2 of 2
+  page_title: Hungry Robber
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_hungry-robber.yaml
+- region: breeze
+  area_id: mysterious-garden
+  quest: Marlin‘s Bone 2 of 3
+  page_title: Gaze S Grave
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_gaze-s-grave.yaml
+- region: breeze
+  area_id: mysterious-garden
+  quest: Reunion 3 of 3
+  page_title: Marlin S Bone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_marlin-s-bone.yaml
+- region: breeze
+  area_id: mysterious-garden
+  quest: Evil Student Leader Asmode 8 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_breeze-evil-student-leader.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Gebuer‘s Proposal
+  page_title: Detecting Fountain
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_detecting-fountain.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Destroying Spider Eggs 2 of 4
+  page_title: Missing Friend
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_missing-friend.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Carrion‘s Temptation 3 of 4
+  page_title: Destroying Spider Eggs
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_destroying-spider-eggs.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Black Widow 4 of 4
+  page_title: Carrion S Temptation
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_carrion-s-temptation.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Make Hormone Potion 2 of 3
+  page_title: Strange Black Feather
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_strange-black-feather.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Huge Rotten Bird 3 of 3
+  page_title: Make Hormone Potion
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_make-hormone-potion.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Are you Evil Enough? Asmode 6 of 8
+  page_title: Steel Are You Evil Enough
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Are you Evil Enough? Asmode 6 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-obtaining-asmodes-trust.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Magic Stone Asmode 7 of 8
+  page_title: Steel Magic Stone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+- region: steel
+  area_id: burning-desert
+  quest: Magic Stone Asmode 7 of 8
+  page_title: Steel Are You Evil Enough
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-are-you-evil-enough.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Knack for Promotion 2 of 3
+  page_title: Picking Cactus Fruit
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_picking-cactus-fruit.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Reporting Achievement 3 of 3
+  page_title: Knack For Promotion
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knack-for-promotion.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Killing Plateau Monkey Asmode 3 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_killing-plateau-monkey.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Killing Plateau Monkey Asmode 3 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-searching-for-spy-angel-3.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Disguise Asmode 4 of 8
+  page_title: Steel Disguise
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Disguise Asmode 4 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_killing-plateau-monkey.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Obtaining Asmode's Trust Asmode 5 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-obtaining-asmodes-trust.yaml
+- region: steel
+  area_id: cactus-plain
+  quest: Obtaining Asmode's Trust Asmode 5 of 8
+  page_title: Steel Disguise
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-disguise.yaml
+- region: steel
+  area_id: gebuer-vale
+  quest: Eternal Glory
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_eternal-glory.yaml
+- region: steel
+  area_id: gebuer-vale
+  quest: Evil Student Leader Asmode 8 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-evil-student-leader.yaml
+- region: steel
+  area_id: gebuer-vale
+  quest: Evil Student Leader Asmode 8 of 8
+  page_title: Steel Magic Stone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_steel-magic-stone.yaml
+- region: steel
+  area_id: iron-castle
+  quest: Knowing Iron Castle
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-iron-castle.yaml
+- region: steel
+  area_id: iron-castle
+  quest: Reaching higher level 2
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-iron-castle.yaml
+- region: steel
+  area_id: iron-castle
+  quest: Caravan‘s Safety Confirming
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_caravan-s-safety-confirming.yaml
+- region: steel
+  area_id: scrap-iron-village
+  quest: Power Source for Experiment 2 of 3
+  page_title: Correlation Between Metal And Water
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_correlation-between-metal-and-water.yaml
+- region: steel
+  area_id: scrap-iron-village
+  quest: Medium of Chemical Formula 3 of 3
+  page_title: Power Source For Experiment
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_power-source-for-experiment.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Rare Lizard's Skin
+  page_title: Rare Lizards Skin
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_rare-lizard-s-skin.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Rare Toad's Skin
+  page_title: Rare Toads Skin
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_rare-toad-s-skin.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Parts and Desert Mouse
+  page_title: Wishing Tear Parts And Desert Mouse
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_parts-and-desert-mouse.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Traveler's Worry
+  page_title: Wishing Tear Traveler's Worry
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_traveler-s-worry.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Wild Flavor
+  page_title: Wishing Tear Wild Flavor
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_wild-flavor.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Experiment of Desert Animals 2 of 4
+  page_title: Testing Apparatus Of Water Resource
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_testing-apparatus-of-water-resource.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Strange Robot 3 of 4
+  page_title: Experiment Of Desert Animals
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_experiment-of-desert-animals.yaml
+- region: steel
+  area_id: wishing-tear
+  quest: Genius scientist 4 of 4
+  page_title: Strange Robot
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_strange-robot.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Wizard, Terrorist
+  page_title: Wizard Terrorist 2
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_wizard-terrorist-2.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: The Half of Stamp 2 of 4
+  page_title: Secret Stamp
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_secret-stamp.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Robbed Stamp 3 of 4
+  page_title: The Half Of Stamp
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-half-of-stamp.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Ancient Mausoleum Gate 4 of 4
+  page_title: Robbed Stamp
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_robbed-stamp.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Showing speed and destroying force 3 of 8
+  page_title: Shadow Showing Speed And Destroying Force
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-showing-speed-and-destroying-force.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Showing speed and destroying force 3 of 8
+  page_title: Shadow Looking For Spy Angel
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-looking-for-spy-angel.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Disguise 4 of 8
+  page_title: Shadow Disguise
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-disguise.yaml
+- region: dark
+  area_id: bottomless-pit
+  quest: Disguise 4 of 8
+  page_title: Shadow Showing Speed And Destroying Force
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-showing-speed-and-destroying-force.yaml
+- region: dark
+  area_id: dark-city
+  quest: Register at Dark City Angel
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_register-at-city-angel.yaml
+- region: dark
+  area_id: dark-city
+  quest: Knowing Dark City
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_knowing-dark-city.yaml
+- region: dark
+  area_id: dark-city
+  quest: Inexperience
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_inexperience.yaml
+- region: dark
+  area_id: dark-city
+  quest: Reaching Higher Level 1 of 8
+  page_title: Shadow Reaching Higher Level
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-reaching-higher-level.yaml
+- region: dark
+  area_id: dark-city
+  quest: Looking for Spy Angel 2 of 8
+  page_title: Shadow Looking For Spy Angel
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-looking-for-spy-angel.yaml
+- region: dark
+  area_id: dark-city
+  quest: Looking for Spy Angel 2 of 8
+  page_title: Shadow Reaching Higher Level
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-reaching-higher-level.yaml
+- region: dark
+  area_id: dark-city
+  quest: A Stab in the Back
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_a-stab-in-the-back.yaml
+- region: dark
+  area_id: dark-city
+  quest: Tentical in Shadow
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_tentical-in-shadow.yaml
+- region: dark
+  area_id: dark-city
+  quest: Dark Bell
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_dark-bell.yaml
+- region: dark
+  area_id: dark-city
+  quest: Noise Maker
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_noise-maker.yaml
+- region: dark
+  area_id: dark-city
+  quest: Wandering Spirit
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_wandering-spirit.yaml
+- region: dark
+  area_id: dark-city
+  quest: Paopao
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_paopao.yaml
+- region: dark
+  area_id: dark-city
+  quest: Delusive Fire
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_delusive-fire.yaml
+- region: dark
+  area_id: dark-city
+  quest: Belief Dominator
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_belief-dominator.yaml
+- region: dark
+  area_id: dark-city
+  quest: Fire Operator
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_fire-operator.yaml
+- region: dark
+  area_id: dark-city
+  quest: Evil and Bloody Deed
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_evil-and-bloody-deed.yaml
+- region: dark
+  area_id: dark-city
+  quest: Abtruse Evil Eye
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_abtruse-evil-eye.yaml
+- region: dark
+  area_id: dark-city
+  quest: Bloody Gent
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_bloody-gent.yaml
+- region: dark
+  area_id: dark-city
+  quest: Fetor Maker
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_fetor-maker.yaml
+- region: dark
+  area_id: dark-city
+  quest: Rotten Cross
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_rotten-cross.yaml
+- region: dark
+  area_id: dark-city
+  quest: Evil Cat Yese
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_evil-cat-yese.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Bershala 2 of 3
+  page_title: Medicine For Teeth Pain
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_medicine-for-teeth-pain.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Duke's Invitation 3 of 3
+  page_title: Bershala
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_bershala.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Obtaining Asmode's Trust 5 of 8
+  page_title: Shadow Obtaining Asmode S Trust
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-obtaining-asmode-s-trust.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Obtaining Asmode's Trust 5 of 8
+  page_title: Shadow Disguise
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-disguise.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Are you evil enough? 6 of 8
+  page_title: Shadow Are You Evil Enough
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-are-you-evil-enough.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Are you evil enough? 6 of 8
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-obtaining-asmodes-trust.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Magic Stone 7 of 8
+  page_title: Shadow Magic Stone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-magic-stone.yaml
+- region: dark
+  area_id: degula-maze
+  quest: Magic Stone 7 of 8
+  page_title: Shadow Are You Evil Enough
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-are-you-evil-enough.yaml
+- region: dark
+  area_id: fungus-forest-south
+  quest: Crybaby‘s Knack 2 of 4
+  page_title: Trainer S Curiosity
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_trainer-s-curiosity.yaml
+- region: dark
+  area_id: fungus-forest-south
+  quest: Misunderstanding 3 of 4
+  page_title: Crybaby S Knack
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_crybaby-s-knack.yaml
+- region: dark
+  area_id: fungus-forest-south
+  quest: Kinship Between Father and Son 4 of 4
+  page_title: Misunderstanding
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_misunderstanding.yaml
+- region: dark
+  area_id: memory-cave
+  quest: Wife‘s Present 2 of 3
+  page_title: Young Age
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_young-age.yaml
+- region: dark
+  area_id: memory-cave
+  quest: Evil Student Union Leader Asmode 8 of 8
+  page_title: Shadow Evil Student Union Leader
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-evil-student-union-leader.yaml
+- region: dark
+  area_id: memory-cave
+  quest: Evil Student Union Leader Asmode 8 of 8
+  page_title: Shadow Magic Stone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_shadow-magic-stone.yaml
+- region: dark
+  area_id: shadowy-path
+  quest: Railway Guard
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_railway-guard.yaml
+- region: dark
+  area_id: shadowy-path
+  quest: Missing Key 2 of 4
+  page_title: Railway Boss Worry
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_railway-boss-worry.yaml
+- region: dark
+  area_id: shadowy-path
+  quest: Annoying Tone 3 of 4
+  page_title: Missing Key
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_missing-key.yaml
+- region: dark
+  area_id: shadowy-path
+  quest: Confirmation of Order for Project Material 4 of 4
+  page_title: Annoying Tone
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_annoying-tone.yaml
+- region: dungeon
+  area_id: flaming-door
+  quest: A Will To Ask
+  page_title: A Will To Risk
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_a-will-to-ask.yaml
+- region: dungeon
+  area_id: sad-abyss
+  quest: Stride Ahead 2 of 2
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_stride-ahead.yaml
+- region: dungeon
+  area_id: sad-abyss
+  quest: Stride Ahead 2 of 2
+  page_title: Deep Into The Earth's Core
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_deep-into-the-earth-s-core.yaml
+- region: dungeon
+  area_id: sad-abyss
+  quest: Firm Faith Part 1 of ?
+  page_title: Firm Faith
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_firm-faith.yaml
+- region: dungeon
+  area_id: sad-abyss
+  quest: Association Member's Demand
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-association-members-demand.yaml
+- region: dungeon
+  area_id: sad-abyss
+  quest: Labor's Misery
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_sad-abyss-labors-misery.yaml
+- region: dungeon
+  area_id: underground-square
+  quest: Scattered Will
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_scattered-will.yaml
+- region: atlantis
+  area_id: coral-vale
+  quest: Quest Name
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+- region: atlantis
+  area_id: golden-beach
+  quest: Let's Fight 1 of ?
+  page_title: Let's Fight
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_let-s-fight.yaml
+- region: atlantis
+  area_id: golden-beach
+  quest: The Misbehaved Son 2 of ?
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-misbehaved-son.yaml
+- region: atlantis
+  area_id: golden-beach
+  quest: The Misbehaved Son 2 of ?
+  page_title: Let's Fight
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_let-s-fight.yaml
+- region: atlantis
+  area_id: horrible-lost-region
+  quest: Quest Name
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Purify
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_purify.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Sharp Material
+  page_title: Andsen's Test
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Heavy Material
+  page_title: Andsen's Test
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Stiff Material
+  page_title: Andsen's Test
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Curving Material
+  page_title: Andsen's Test
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Transparent Material
+  page_title: Andsen's Test
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_andsen-s-test.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Octopus, the Robber
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_octopus-the-robber.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: The Ancient Yatiss Culture
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-ancient-yatiss-culture.yaml
+- region: atlantis
+  area_id: palm-base
+  quest: Nature Calling For Help
+  page_title: 'Weekly Quest : Nature is Crying for Help'
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quests_weekly.yaml
+- region: atlantis
+  area_id: puqi-village
+  quest: Wandering Artist
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_wandering-artist.yaml
+- region: atlantis
+  area_id: puqi-village
+  quest: Depression of Skin Dive
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_depression-of-skin-dive.yaml
+- region: atlantis
+  area_id: puqi-village
+  quest: Explore Blue Slat Crystal
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_explore-blue-slat-crystal.yaml
+- region: atlantis
+  area_id: puqi-village
+  quest: The Melody of Pirates' demise
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-melody-of-pirates-demise.yaml
+- region: atlantis
+  area_id: puqi-village
+  quest: Soft Shimmer in Deep Sea
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_soft-shimmer-in-deep-sea.yaml
+- region: atlantis
+  area_id: quiet-ocean
+  quest: Quest Name
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+- region: atlantis
+  area_id: raging-reefs
+  quest: Quest Name
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_quest-name.yaml
+- region: atlantis
+  area_id: shining-coast
+  quest: Boaster
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_boaster.yaml
+- region: atlantis
+  area_id: shining-coast
+  quest: Pupu Turtle and Pup Crab
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_pupu-turtle-and-pup-crab.yaml
+- region: atlantis
+  area_id: shining-coast
+  quest: Meeting Robbers 3 of ?
+  page_title: Meeting Robbers
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_meeting-robbers.yaml
+- region: atlantis
+  area_id: shining-coast
+  quest: Meeting Robbers 3 of ?
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_the-misbehaved-son.yaml
+- region: atlantis
+  area_id: wave-harbor
+  quest: Big Eyes
+  page_title: Angels Online Wiki
+  matched_via: ''
+  page_source: data/quests/research/walkthrough-intake/quest-pages/quest_big-eyes.yaml
+suspicious_canonical_cross_area_links:
+- region: dark
+  area_id: dark-city
+  quest: Inexperience
+  canonical_id: aurora-city-inexperience
+  canonical_path: data/quests/areas/aurora-city.yaml
+- region: dark
+  area_id: dark-city
+  quest: Inexperience
+  canonical_id: breeze-woods-inexperience
+  canonical_path: data/quests/areas/breeze-woods.yaml
 pass_conditions:
-  no_missing_walkthroughs: true
+  no_missing_walkthroughs: false
   no_mismatched_historical_page_links: false
-  no_cross_area_canonical_links: true
+  no_cross_area_canonical_links: false
